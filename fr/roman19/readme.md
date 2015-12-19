@@ -1,8 +1,8 @@
-French Novels published between 1860 and 1889
-=============================================
+French Nineteenth-Century Novels
+================================
 
 ## Contents
-* The collection contains crime fiction, fantastic and adventure novels from the 1860s, 1870s and 1880s.
+* The collection contains a selection of crime fiction, fantastic and adventure novels from the 1860s, 1870s and 1880s.
 * See the "metadata.csv" file, it contains basic information about the novels.
 
 ## Formats 
