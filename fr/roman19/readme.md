@@ -6,7 +6,7 @@ French Nineteenth-Century Novels
 * See the "metadata.csv" file, it contains basic information about the novels.
 
 |genres/decades|1860s|1870s|1880s|total|
-|==============|=====|=====|=====|=====|
+|--------------|-----|-----|-----|-----|
 |fantastic     |   4 |   3 |   4 |  11 |
 |crime fiction |   4 |   4 |   4 |  12 |
 |adventure     |   4 |   1 |   4 |   9 |
