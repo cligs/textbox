@@ -1,4 +1,4 @@
-Spanish Novel from 1980-1940
+Spanish Novel from 1880-1940
 ========================================
 
 This corpus contains  24 texts from 8 Spanish authors and it is the first release of the whole corpus of the PhD thesis of José Calvo Tello, who is part of the young research group CLiGS, at the University of Würzburg, Germany.
