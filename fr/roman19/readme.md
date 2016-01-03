@@ -3,16 +3,15 @@ French Nineteenth-Century Novels
 
 ## Contents
 
-The collection contains a selection of crime fiction, fantastic and adventure novels from the 1860s, 1870s and 1880s.
-
-See the "metadata.csv" file, it contains basic information about the novels.
+The collection contains a selection of adventure, crime fiction, education and fantastic novels from the 1860s, 1870s and 1880s. See the "metadata.csv" file for basic information about the novels.
 
 |genres/decades|1860s|1870s|1880s|total|
 |--------------|-----|-----|-----|-----|
-|fantastic     |   4 |   3 |   4 |  11 |
-|crime fiction |   4 |   4 |   4 |  12 |
-|adventure     |   4 |   1 |   4 |   9 |
-|total         |  12 |   8 |  12 |  32 |
+|adventure     |   3 |   3 |   3 |   9 |
+|crime fiction |   3 |   3 |   3 |   9 |
+|education     |   2 |   3 |   3 |   8 |
+|fantastic     |   3 |   2 |   3 |   8 |
+|total         |  11 |  11 |  12 |  34 |
 
 ## Formats 
 
