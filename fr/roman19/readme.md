@@ -3,17 +3,16 @@ Romans français du dix-neuvième siècle
 
 ## Contents
 
-The collection contains a selection of adventure, crime fiction, education and fantastic novels from the 1860s, 1870s and 1880s. See the "metadata.csv" file for basic information about the novels. There are currently 35 novels with a total of about 4.3 milion words.
+The collection contains a selection of adventure, crime fiction, education and fantastic novels from the 1860s, 1870s and 1880s. See the "metadata.csv" file for basic information about the novels. There are currently 36 novels with a total of about 4 million words.
 
 |genres/decades|1860s texts (words) |1870s texts (words) | 1880s texts (words) | total texts (words) |
 |--------------|--------------------|--------------------|---------------------|---------------------|
 |adventure     |         3   (340k) |         3   (378k) |          3   (434k) |          9 (1.152k) |
 |crime fiction |         3   (532k) |         3   (475k) |          3   (364k) |          9 (1.371k) |
 |education     |         3   (333k) |         3   (372k) |          3   (298k) |          9 (1.003k) |
-|fantastic     |         3   (293k) |         2   (336k) |          3   (179k) |          8   (808k) |
-|total         |        11 (1.498k) |        11 (1.560k) |         12 (1.276k) |         34 (4.334k) |
+|fantastic     |         3   (293k) |         2   (336k) |          4   (221k) |          9   (851k) |
+|total         |        11 (1.498k) |        11 (1.560k) |         12 (1.318k) |         36 (4.376k) |
 
-95
 
 ## Formats 
 
