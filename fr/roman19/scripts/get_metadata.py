@@ -26,7 +26,7 @@ def get_metadata(wdir, inpath, metadatafile, mode):
     ## We can choose only the obligatory metadata, the optional or the beta. 
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
      
-    labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "availability"]
+    labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "availability", "textsize-words"]
     labels_opt = ["genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subgenre","subsubgenre",]
     labels_beta = [ "author-country", "author-continent",  "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span"]
     
@@ -64,8 +64,12 @@ def get_metadata(wdir, inpath, metadatafile, mode):
               "text-movement": '//tei:term[@type="text-movement"]//text()',
               "time-period": '//tei:term[@type="time-period"]//text()',
               "time-span": '//tei:term[@type="time-span"]//text()',
-              "group-text": '//tei:term[@type="group-text"]//text()'
-              }
+              "group-text": '//tei:term[@type="group-text"]//text()',
+              "textsize-divs": '//tei:measure[@unit="divs"]//text()',
+              "textsize-lines": '//tei:measure[@unit="lines"]//text()',
+              "textsize-words": '//tei:measure[@unit="words"]//text()',
+              "textsize-chars": '//tei:measure[@unit="chars"]//text()',
+              "textsize-kb": '//tei:measure[@unit="kb"]//text()'              }
 
     # Mode is selected: obligatory, optional or beta
     if mode =="obl":
