@@ -9,9 +9,11 @@ The collection contains a selection of adventure, crime fiction, education and f
 |--------------|--------------------|--------------------|---------------------|---------------------|
 |adventure     |         3   (340k) |         3   (378k) |          3   (434k) |          9 (1.152k) |
 |crime fiction |         3   (532k) |         3   (475k) |          3   (364k) |          9 (1.371k) |
-|education     |         2   (237k) |         3   (372k) |          3   (298k) |          8   (908k) |
+|education     |         3   (333k) |         3   (372k) |          3   (298k) |          9 (1.003k) |
 |fantastic     |         3   (293k) |         2   (336k) |          3   (179k) |          8   (808k) |
-|total         |        11 (1.403k) |        11 (1.560k) |         12 (1.276k) |         34 (4.239k) |
+|total         |        11 (1.498k) |        11 (1.560k) |         12 (1.276k) |         34 (4.334k) |
+
+95
 
 ## Formats 
 
