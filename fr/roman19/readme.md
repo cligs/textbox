@@ -1,5 +1,5 @@
-French Nineteenth-Century Novels
-================================
+Romans français du dix-neuvième siècle
+======================================
 
 ## Contents
 
@@ -22,5 +22,9 @@ The collection contains a selection of adventure, crime fiction, education and f
 ## License
 
 All texts are in the public domain and therefore licensed as CC-0. We would however appreciate it if you could mention the CLiGS group and the URL of this repository if you use these texts in your teaching or research.  
+
+## Citation
+
+Christof Schöch and Stefanie Popp, Romans français du dix-neuvième siècle. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
 
  
