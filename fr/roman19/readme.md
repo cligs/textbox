@@ -1,7 +1,7 @@
 Romans français du dix-neuvième siècle
 ======================================
 
-## Contents
+### Contents
 
 The collection contains a selection of adventure, crime fiction, education and fantastic novels from the 1860s, 1870s and 1880s. See the "metadata.csv" file for basic information about the novels. There are currently 36 novels with a total of about 4 million words.
 
@@ -14,18 +14,21 @@ The collection contains a selection of adventure, crime fiction, education and f
 |total         |        12 (1.498k) |        11 (1.560k) |         13 (1.318k) |         36 (4.376k) |
 
 
-## Formats 
+### Formats 
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml)
 * txt: Simple plain text containing only the main text of the novels (File names: author_title-identifier.txt)
 
 
-## License
+### License and Citation
 
-All texts are in the public domain and therefore licensed as CC-0. We would however appreciate it if you could mention the CLiGS group and the URL of this repository if you use these texts in your teaching or research.  
+All texts are in the public domain and therefore licensed as CC-0. We would however appreciate it if you could reference this research data publication if you use these texts in your teaching or research. This is a citation suggestion: Christof Schöch and Stefanie Popp, _Romans français du dix-neuvième siècle_. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
 
-## Citation
-
-Christof Schöch and Stefanie Popp, Romans français du dix-neuvième siècle. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
-
+### Principles of Data Curation
  
+* Texts have been obtained from various sources, among them Ebooks libres et gratuits, Wikisource and Project Gutenberg and have not been further normalised. 
+* All texts have been encoded according to the Guidelines of the Text Encoding Initiative. The teiHeader notably contains information about the digital and print sources of the materials. The text is marked up only with very basic textual structures, such as parts, chapters, headings and paragraphs. Front and back matter such as prefaces or notes have been marked-up as such. The XML-TEI files are valid against a schema which is available online and referenced in each file.  
+* Each text has an identifier which corresponds to the filename of the XML-TEI file. Metadata has been collected about each novel and integrated into the teiHeader. The metadata table provided separatedly unites a subset of these metadata for the researchers' convenience, with identifiers linking table and files. 
+* The plain text files in the "txt" folder have been automatically built from the XML-TEI files. They contain only the text body without front or back matter or notes and without any chapter headings. 
+* There is a folder with some Python scripts which have been used for manipulating the files, e.g. for creating the metadata table and extracting the plain text files. These scripts can be modified for specific use cases.
+* In case you notice errors of any kind in the text collection, please use the issue tracker here on GitHub to notify us. We will be glad to fix them.
