@@ -22,13 +22,15 @@ The collection contains a selection of adventure, crime fiction, education and f
 
 ### License and Citation
 
-All texts are in the public domain and therefore licensed as CC-0. We would however appreciate it if you could reference this research data publication if you use these texts in your teaching or research. This is a citation suggestion: Christof Schöch and Stefanie Popp, _Romans français du dix-neuvième siècle_. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
+All texts are in the public domain. The markup and metadata we have added are provided with a CC-BY (Creative Commons Attribution, see http://creativecommons.org/licenses/by/4.0/) license. 
+
+Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: _Romans français du dix-neuvième siècle_, edited by Christof Schöch and Stefanie Popp. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
 
 ### Principles of Data Curation
  
-* Texts have been obtained from various sources, among them Ebooks libres et gratuits, Wikisource and Project Gutenberg and have not been further normalised. 
-* All texts have been encoded according to the Guidelines of the Text Encoding Initiative. The teiHeader notably contains information about the digital and print sources of the materials. The text is marked up only with very basic textual structures, such as parts, chapters, headings and paragraphs. Front and back matter such as prefaces or notes have been marked-up as such. The XML-TEI files are valid against a schema which is available online and referenced in each file.  
-* Each text has an identifier which corresponds to the filename of the XML-TEI file. Metadata has been collected about each novel and integrated into the teiHeader. The metadata table provided separatedly unites a subset of these metadata for the researchers' convenience, with identifiers linking table and files. 
+* Texts have been obtained from various sources, among them _Ebooks libres et gratuits_, _Wikisource_ and _Project Gutenberg_ and have not been further normalised. 
+* All texts have been encoded according to the _Guidelines_ of the Text Encoding Initiative. The `teiHeader` notably contains information about the digital and print sources of the materials. The text is marked up with basic textual structures, such as parts, chapters, headings and paragraphs. Front and back matter such as prefaces or notes have been marked-up as such. The XML-TEI files are valid against a schema which is available online and referenced in each file.  
+* Each text has an identifier which corresponds to the filename of the XML-TEI file. Metadata has been collected about each novel and integrated into the teiHeader. The metadata table provided separatedly in the `metadata.csv` file contains a subset of these metadata for the researchers' convenience, with identifiers linking table and files. 
 * The plain text files in the "txt" folder have been automatically built from the XML-TEI files. They contain only the text body without front or back matter or notes and without any chapter headings. 
-* There is a folder with some Python scripts which have been used for manipulating the files, e.g. for creating the metadata table and extracting the plain text files. These scripts can be modified for specific use cases.
+* There is a `scripts` folder with some Python scripts which have been used for manipulating the files, e.g. for creating the metadata table and extracting the plain text files. These scripts can be modified for specific use cases.
 * In case you notice errors of any kind in the text collection, please use the issue tracker here on GitHub to notify us. We will be glad to fix them.
