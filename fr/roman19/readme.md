@@ -18,7 +18,7 @@ The collection contains a selection of adventure, crime fiction, education and f
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml)
 * txt: Simple plain text containing only the main text of the novels (File names: author_title-identifier.txt)
-
+* A linguistically annotated version for use with the TXM analysis tool can be downloaded here: https://zenodo.org/record/44547
 
 ### License and Citation
 
