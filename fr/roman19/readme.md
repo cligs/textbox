@@ -1,5 +1,5 @@
-Romans français du dix-neuvième siècle
-======================================
+Collection de romans français du dix-neuvième siècle
+====================================================
 
 ### Contents
 
@@ -23,7 +23,7 @@ The collection contains a selection of adventure, crime fiction, education and f
 
 All texts are in the public domain. The markup and metadata we have added are provided with a CC-BY (Creative Commons Attribution, see http://creativecommons.org/licenses/by/4.0/) license. 
 
-Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: _Romans français du dix-neuvième siècle_, edited by Christof Schöch and Stefanie Popp. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
+Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: _Collection de romans français du dix-neuvième siècle_, edited by Christof Schöch and Stefanie Popp. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/master/fr/roman19/. 
 
 ### Principles of Data Curation
  
