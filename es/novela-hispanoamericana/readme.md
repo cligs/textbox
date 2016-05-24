@@ -19,6 +19,7 @@ See the "metadata.csv" file for basic information about the novels. The followin
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml)
 * txt: Simple plain text containing only the main text of the novels (File names: author_title-identifier.txt)
+* A linguistically annotated version for use with the TXM analysis tool can be downloaded here: http://zenodo.org/record/47218
 
 ## Data Curation
 * The texts have been submitted to a spellcheck based on a dictionary and curated lists of exception words (named entities, diminutives, etc.). The word lists and the result of the check can be found in the folder `spellcheck`.
