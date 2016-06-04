@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title type="main">Monsieur Vénus</title>
-        <title type="sub"></title>
+        <title type="sub"/>
         <title type="short">MonsieurVenus</title>
         <title type="idno">
           <idno type="viaf">193749502</idno>
@@ -26,45 +26,47 @@
       </extent>
       <publicationStmt>
         <publisher>CLiGS</publisher>
-        <availability status="publicdomain">
-          <p></p>
+        <availability status="free">
+          <p>The text is in the public domain. We license the markup as CC-BY and the metadata as CC-0.</p>
         </availability>
         <date>2016</date>
         <idno type="cligs">rd0734</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="digital-source">
-         Project Gutenberg, <date>2011</date>, <idno>36528</idno>, <ref target="http://gutenberg.org/ebooks/36528"/>.
+        <bibl type="digital-source"
+            >
+         Project Gutenberg, <date>2011</date>, <idno>36528</idno>, <ref
+            target="http://gutenberg.org/ebooks/36528"/>.
         </bibl>
         <bibl type="print-source">
-          <date>1889</date>, <idno></idno>, <ref target="#"/>.
+          <date>1889</date>, <idno/>, <ref target="#"/>.
         </bibl>
         <bibl type="edition-first">
-          <date>1884</date>, <idno></idno>, <ref target="#"/>.
+          <date>1884</date>, <idno/>, <ref target="#"/>.
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <p></p>
+      <p/>
     </encodingDesc>
     <profileDesc>
       <abstract>
-        <p></p>
+        <p/>
       </abstract>
       <textClass>
         <keywords scheme="keywords.csv">
           <term type="supergenre">narrative</term>
           <term type="genre">novel</term>
           <term type="subgenre" subtype="3">fantastic</term>
-          <term type="genre-subsubgenre"></term>
-          <term type="genre-label"></term>
+          <term type="genre-subsubgenre"/>
+          <term type="genre-label"/>
           <term type="form">prose</term>
           <term type="narrative-perspective">heterodiegetic</term>
           <term type="author-continent">Europe</term>
           <term type="author-country">France</term>
           <term type="author-gender">female</term>
-          <term type="protagonist-gender"></term>
-          <term type="setting"></term>
+          <term type="protagonist-gender"/>
+          <term type="setting"/>
           <term type="tei">11</term>
         </keywords>
       </textClass>
@@ -77,28 +79,46 @@
     <front>
       <div>
         <head>NOTE DE L'ÉDITEUR</head>
-        <p>Nous donnons à nos lecteurs une réédition définitive de <seg rend="italic">Monsieur Vénus</seg>, ce roman singulier qui a tant piqué la curiosité, à propos duquel ont été faites les suppositions les plus étranges et que beaucoup de personnes croient condamné par les tribunaux de la Belgique. Mlle Rachilde reste, aujourd'hui seul auteur de <seg rend="italic">Monsieur Vénus</seg>, c'est-à-dire que nous offrons au public une édition allégée d'un chapitre et de quelques lignes intercalés par une ancienne collaboration.</p>
-        <p>Nous n'hésitons pas à réimprimer <seg rend="italic">Monsieur Vénus</seg> en France sans en atténuer la vivacité un peu fantaisiste, car cette œuvre est une œuvre littéraire qui n'a jamais eu rien de commun avec les ouvrages érotiques publiés et vendus clandestinement.</p>
+        <p>Nous donnons à nos lecteurs une réédition définitive de <seg rend="italic"
+            >Monsieur Vénus</seg>, ce roman singulier qui a tant piqué la curiosité, à propos duquel ont été faites les suppositions les plus étranges et que beaucoup de personnes croient condamné par les tribunaux de la Belgique. Mlle Rachilde reste, aujourd'hui seul auteur de <seg
+            rend="italic"
+          >Monsieur Vénus</seg>, c'est-à-dire que nous offrons au public une édition allégée d'un chapitre et de quelques lignes intercalés par une ancienne collaboration.</p>
+        <p>Nous n'hésitons pas à réimprimer <seg rend="italic"
+          >Monsieur Vénus</seg> en France sans en atténuer la vivacité un peu fantaisiste, car cette œuvre est une œuvre littéraire qui n'a jamais eu rien de commun avec les ouvrages érotiques publiés et vendus clandestinement.</p>
         <ab>L'ÉDITEUR.</ab>
       </div>
       <div>
         <head>COMPLICATIONS D'AMOUR</head>
         <milestone type="line"/>
-        <p>Ce livre-ci est assez abominable, pourtant je ne puis dire qu'il me choque. Des gens très graves n'en furent pas scandalisés davantage, mais amusés, étonnés, intéressés; il ont placé <seg rend="italic">Monsieur Vénus</seg> dans l'enfer de leur bibliothèque, avec quelques livres du siècle dernier qui effrayent le goût et font songer.</p>
+        <p>Ce livre-ci est assez abominable, pourtant je ne puis dire qu'il me choque. Des gens très graves n'en furent pas scandalisés davantage, mais amusés, étonnés, intéressés; il ont placé <seg
+            rend="italic"
+          >Monsieur Vénus</seg> dans l'enfer de leur bibliothèque, avec quelques livres du siècle dernier qui effrayent le goût et font songer.</p>
         <p>
-          <seg rend="italic">Monsieur Vénus</seg> décrit l'âme d'une jeune fille très singulière. Je prie qu'on regarde cet ouvrage comme une anatomie. Ceux qui se piquent uniquement des nuances élégantes du bien dire n'ont que faire de feuilleter ici; mais les livres où ils se plaisent auront peut-être disparu depuis longtemps qu'on cherchera encore dans celui-ci l'émotion violente que donne toujours à des esprits curieux et refléchis le spectacle d'une rare perversité.</p>
+          <seg rend="italic"
+          >Monsieur Vénus</seg> décrit l'âme d'une jeune fille très singulière. Je prie qu'on regarde cet ouvrage comme une anatomie. Ceux qui se piquent uniquement des nuances élégantes du bien dire n'ont que faire de feuilleter ici; mais les livres où ils se plaisent auront peut-être disparu depuis longtemps qu'on cherchera encore dans celui-ci l'émotion violente que donne toujours à des esprits curieux et refléchis le spectacle d'une rare perversité.</p>
         <p>Ce qui est tout à fait délicat dans la perversité de ce livre, c'est qu'il a été écrit par une jeune fille de vingt ans. Le merveilleux chef-d'œuvre! Ce volume estampillé de Belgique, qui d'abord révolta l'opinion, et ne fut lu que par un vilain public et quelques esprits très réfléchis, toute cette frénésie tendre et méchante, et ces formes d'amour qui sentent la mort, sont l'œuvre d'une enfant, de l'enfant la plus douce et la plus retirée! Voilà qui est d'un charme extrême pour les véritables dandys. Ce vice savant éclatant dans le rêve d'une vierge, c'est un des problèmes les plus mystérieux que je sache, mystérieux comme le crime, le génie ou la folie d'un enfant, et tenant de tous les trois.</p>
         <p>Rachilde naquit avec un cerveau en quelque sorte infâme, infâme et coquet. Tous ceux qui aiment le rare, l'examinent avec inquiétude. Jean Lorrain, qui devait s'y plaire, a donné un élégant croquis de sa visite chez Rachilde: «Je trouvais, dit-il, une pensionnaire d'allures sobres et réservées, très pâle, il est vrai, mais d'une pâleur de pensionnaire studieuse, une vraie jeune fille, un peu mince, un peu frêle, aux mains inquiétantes de petitesse, au profil grave d'éphèbe grec ou de jeune Français amoureux... et des yeux—oh! les yeux! longs, longs, alourdis de cils invraisemblables et d'une clarté d'eau, des yeux qui ignorent tout, à croire que Rachilde ne voit pas avec ces yeux-là, mais qu'elle en a d'autres derrière la tête pour chercher et découvrir les piments enragés dont elle relève ses œuvres.» Et voilà, bien exprimées dans ces lignes à la Whistler, la gravité et la pâleur de cette fiévreuse.</p>
-        <p>Mais nous, qui répugnons pour l'ordinaire à l'obscénité, nous n'écririons pas de ce livre, s'il s'agissait seulement de vanter une enfant équivoque. Nous aimons <seg rend="italic">Monsieur Vénus</seg>, parce qu'il analyse un des cas les plus curieux d'amour de soi qu'ait produit ce siècle malade d'orgueil. Ces feuillets fiévreusement écrits par une mineure, avec toutes les défaillances d'art qu'on peut y signaler, intéressent le psychologue au même titre qu'<seg rend="italic">Adolphe</seg>, que <seg rend="italic">Mlle de Maupin</seg>, que <seg rend="italic">Crime d'Amour</seg>, où sont étudiés quelques phénomènes rares de la sensibilité amoureuse.</p>
-        <p>Certes, la petite fille qui rédigeait ce merveilleux <seg rend="italic">Monsieur Vénus</seg> n'avait pas toute cette esthétique dans la tête. Croyait-elle nous donner une des plus excessives monographies de la «maladie du siècle»? Simplement elle avait de mauvais instincts, et les avouait avec une malice inouïe. Elle fut toujours très inconvenante. Déjà, toute jeune, lunatique, généreuse et pleine d'étranges ardeurs, elle effrayait ses parents, les plus doux parents du monde; elle étonnait le Périgord. C'est d'instinct qu'elle se prit à décrire ses frissons de vierge singulière. Ramenant gentiment ses jupons entre ses jambes, cette fillette se laissa gaiement rouler sur la pente d'énervation qui va de Joseph Delorme aux <seg rend="italic">Fleurs du mal</seg> et plus profond encore,—elle roula gaiement, sans souci, comme avec un cerveau moins noble et une autre éducation, elle eut glissé dans le wagonnet des «Montagnes Russes».</p>
+        <p>Mais nous, qui répugnons pour l'ordinaire à l'obscénité, nous n'écririons pas de ce livre, s'il s'agissait seulement de vanter une enfant équivoque. Nous aimons <seg
+            rend="italic"
+            >Monsieur Vénus</seg>, parce qu'il analyse un des cas les plus curieux d'amour de soi qu'ait produit ce siècle malade d'orgueil. Ces feuillets fiévreusement écrits par une mineure, avec toutes les défaillances d'art qu'on peut y signaler, intéressent le psychologue au même titre qu'<seg
+            rend="italic">Adolphe</seg>, que <seg rend="italic">Mlle de Maupin</seg>, que <seg
+            rend="italic"
+          >Crime d'Amour</seg>, où sont étudiés quelques phénomènes rares de la sensibilité amoureuse.</p>
+        <p>Certes, la petite fille qui rédigeait ce merveilleux <seg rend="italic"
+            >Monsieur Vénus</seg> n'avait pas toute cette esthétique dans la tête. Croyait-elle nous donner une des plus excessives monographies de la «maladie du siècle»? Simplement elle avait de mauvais instincts, et les avouait avec une malice inouïe. Elle fut toujours très inconvenante. Déjà, toute jeune, lunatique, généreuse et pleine d'étranges ardeurs, elle effrayait ses parents, les plus doux parents du monde; elle étonnait le Périgord. C'est d'instinct qu'elle se prit à décrire ses frissons de vierge singulière. Ramenant gentiment ses jupons entre ses jambes, cette fillette se laissa gaiement rouler sur la pente d'énervation qui va de Joseph Delorme aux <seg
+            rend="italic"
+          >Fleurs du mal</seg> et plus profond encore,—elle roula gaiement, sans souci, comme avec un cerveau moins noble et une autre éducation, elle eut glissé dans le wagonnet des «Montagnes Russes».</p>
         <p>Les jeunes filles nous paraissent une chose très compliquée, parce que nous ne pouvons nous rendre assez compte qu'elles sont gouvernées uniquement par l'instinct, étant de petits animaux sournois, égoïstes et ardents. Rachilde, à vingt ans, pour écrire un livre qui fait rêver un peu tout le monde, n'a guère réfléchi; elle a écrit tout au trot de sa plume, suivant son instinct. Le merveilleux, c'est qu'on puisse avoir de pareils instincts.</p>
         <p>Dans toute son œuvre, qui aujourd'hui est considérable, Rachilde n'a guère fait que se raconter soi-même.</p>
-        <p>Je n'entends pas préciser la limite de ce qui est vrai ou faux dans <seg rend="italic">Monsieur Vénus</seg>; tout lecteur un peu au courant des exagérations romanesques d'un cerveau de vingt ans fera aisément le départ entre les embellissements d'auteurs et les détails réels de sensibilité. J'imagine que si l'on supprime les enfantillages du décor et le tragique de l'anecdote pour conserver les traits essentiels de Raoule de Vénérande et du déplorable Jacques Silvert, on sera bien près de connaître une des plus singulières déformations de l'amour qu'ait pu produire la maladie du siècle dans l'âme d'une jeune femme.</p>
+        <p>Je n'entends pas préciser la limite de ce qui est vrai ou faux dans <seg rend="italic"
+            >Monsieur Vénus</seg>; tout lecteur un peu au courant des exagérations romanesques d'un cerveau de vingt ans fera aisément le départ entre les embellissements d'auteurs et les détails réels de sensibilité. J'imagine que si l'on supprime les enfantillages du décor et le tragique de l'anecdote pour conserver les traits essentiels de Raoule de Vénérande et du déplorable Jacques Silvert, on sera bien près de connaître une des plus singulières déformations de l'amour qu'ait pu produire la maladie du siècle dans l'âme d'une jeune femme.</p>
         <p>Mais voici le sommaire de ce petit chef-d'œuvre:</p>
         <floatingText type="summary">
           <body>
             <div>
-              <p>Mademoiselle Raoule de Vénérande est une fine jeune fille, très nerveuse, avec des lèvres minces, d'un dessin assez désagréable. Dans l'atelier de sa fleuriste, elle remarque un jeune ouvrier. Couronné des roses qu'il tortille lestement en guirlande, ce garçon d'un roux très foncé, l'enchante par son menton à fossette, sa chair unie et enfantine, et le petit pli qu'il a au cou, le pli du nouveau-né qui engraisse; et puis il regarde, comme implorent les chiens souffrants, avec une vague humidité dans les prunelles. Tout le portrait est de ce ton excellent, vraiment canaille et nature. Raoule installe dans un intérieur fort romanesque ce joli garçon si gras; elle le surprend qui, fou d'une folie de fiancée en présence de son trousseau de femme, lèche jusqu'aux roulettes des meubles à travers leurs franges multicolores. Avec un cynisme de très spirituelle allure, elle le déconcerte quand il imagine d'être aimable; elle le pousse dans un cabinet de toilette, elle le fait rougir par son audace à l'examiner et le complimenter, lui le rustre qu'elle a recueilli sous prétexte de charité. Et le pauvre mâle humilié, s'agenouille sur la traîne de la robe de Raoule, et sanglote. Car, Rachilde le dit excellemment, il était fils d'un ivrogne et d'une catin, son honneur ne savait que pleurer. Ce M. Vénus, absolument désexué de caractère par une suite de procédés ingénieux, devient <seg rend="italic">la maîtresse</seg> de Raoule. Je veux dire qu'elle l'aime, l'entretient et le caresse, qu'elle s'irrite et s'attendrit auprès de lui, sans jamais céder au désir qui la ferait aussitôt l'inférieure de ce rustre, près de qui elle se plaît à frissonner, mais qu'elle méprise. Elle définit son goût d'une façon admirable: «J'aimerai Jacques comme un fiancé aime sans espoir une fiancée morte.»</p>
+              <p>Mademoiselle Raoule de Vénérande est une fine jeune fille, très nerveuse, avec des lèvres minces, d'un dessin assez désagréable. Dans l'atelier de sa fleuriste, elle remarque un jeune ouvrier. Couronné des roses qu'il tortille lestement en guirlande, ce garçon d'un roux très foncé, l'enchante par son menton à fossette, sa chair unie et enfantine, et le petit pli qu'il a au cou, le pli du nouveau-né qui engraisse; et puis il regarde, comme implorent les chiens souffrants, avec une vague humidité dans les prunelles. Tout le portrait est de ce ton excellent, vraiment canaille et nature. Raoule installe dans un intérieur fort romanesque ce joli garçon si gras; elle le surprend qui, fou d'une folie de fiancée en présence de son trousseau de femme, lèche jusqu'aux roulettes des meubles à travers leurs franges multicolores. Avec un cynisme de très spirituelle allure, elle le déconcerte quand il imagine d'être aimable; elle le pousse dans un cabinet de toilette, elle le fait rougir par son audace à l'examiner et le complimenter, lui le rustre qu'elle a recueilli sous prétexte de charité. Et le pauvre mâle humilié, s'agenouille sur la traîne de la robe de Raoule, et sanglote. Car, Rachilde le dit excellemment, il était fils d'un ivrogne et d'une catin, son honneur ne savait que pleurer. Ce M. Vénus, absolument désexué de caractère par une suite de procédés ingénieux, devient <seg
+                  rend="italic"
+                >la maîtresse</seg> de Raoule. Je veux dire qu'elle l'aime, l'entretient et le caresse, qu'elle s'irrite et s'attendrit auprès de lui, sans jamais céder au désir qui la ferait aussitôt l'inférieure de ce rustre, près de qui elle se plaît à frissonner, mais qu'elle méprise. Elle définit son goût d'une façon admirable: «J'aimerai Jacques comme un fiancé aime sans espoir une fiancée morte.»</p>
             </div>
           </body>
         </floatingText>
@@ -106,13 +126,26 @@
         <p>Elle n'est pas un moraliste, on le sait bien, et puis à vingt ans il serait vraiment insupportable qu'elle prétendît à ce rôle. Il paraît même au détour de toutes les lignes que Rachilde admire Raoule de Vénérande.</p>
         <p>Elle n'est pas non plus un psychologue mû par le pur amour des belles complications. Elle nous décrit les actes très particuliers d'une jeune femme orgueilleuse; mais ne nous fait pas toucher le développement d'une telle sensibilité. L'ayant lue, nous ignorons encore par quelles impressions des sens ou de l'esprit, par quelles combinaisons, dans notre société si guindée, au milieu d'une famille honnête, peut surgir un pareil monstre.</p>
         <p>Enfin Rachilde a beaucoup d'esprit, une légèreté coquette, mais ne se préoccupe guère d'anoblir par de longs labeurs la forme de son œuvre. Ni moraliste, encore qu'elle esquisse une théorie de l'amour, ni psychologue, bien qu'elle analyse parfois, ni artiste, malgré ses scintillements. Rachilde appartient à la catégorie qui, selon des esprits très affinés et un peu dégoûtés, est la plus intéressante. Elle écrit des pages sincères, uniquement pour exciter et aviver ses frissons. Son livre n'est qu'un prolongement de sa vie. Pour les écrivains de cet ordre, le roman n'est qu'un moyen de manifester des sentiments que l'ordinaire de la vie les oblige à refréner, ou au moins à ne pas divulguer.</p>
-        <p>Peut-être <seg rend="italic">Monsieur Vénus</seg> est-il dans le fond une histoire très réelle; mais fût-ce un rêve, il témoignerait un état d'âme très particulier. J'ajoute que ces rêves-là sont extrêmement puissants. La femme qui rêve, qui pleure, qui conte un amour qu'elle désirerait avoir, ne tarde pas à le créer. Ces renversements de l'instinct, cette adoration devant un être misérable, joli comme un enfant, gras et débile comme une femme, avec le sexe mâle, plusieurs fois l'humanité les a vus. Selon des lois qui nous échappent, ces idéals troublés remontent parfois à la surface de nos âmes, où les déposèrent de lointains ancêtres. Raoule de Vénérande, cette insensée au teint pâle et aux lèvres minces, qui lave le corps équivoque de Jacques Silvert, fait songer, avec toutes les différences de climat, de civilisation et d'époque, au vertige de Phrygie, quand les femmes lamentaient Attis, le petit mâle rosé et trop gras. Ces obscures complications d'amour ne sont pas seulement faites d'énervation; à leur luxure se mêle un mysticisme trouble. La Raoule de Vénérande du roman a pour directrice une parente, de toute piété, et qui ne cesse de stigmatiser l'humanité fangeuse. Rachilde écrit: «Dieu aurait dû créer l'amour d'un côté et les sens de l'autre. L'amour véritable ne se devrait composer que d'amitié chaude. Sacrifions les sens, la bête.»</p>
+        <p>Peut-être <seg rend="italic"
+          >Monsieur Vénus</seg> est-il dans le fond une histoire très réelle; mais fût-ce un rêve, il témoignerait un état d'âme très particulier. J'ajoute que ces rêves-là sont extrêmement puissants. La femme qui rêve, qui pleure, qui conte un amour qu'elle désirerait avoir, ne tarde pas à le créer. Ces renversements de l'instinct, cette adoration devant un être misérable, joli comme un enfant, gras et débile comme une femme, avec le sexe mâle, plusieurs fois l'humanité les a vus. Selon des lois qui nous échappent, ces idéals troublés remontent parfois à la surface de nos âmes, où les déposèrent de lointains ancêtres. Raoule de Vénérande, cette insensée au teint pâle et aux lèvres minces, qui lave le corps équivoque de Jacques Silvert, fait songer, avec toutes les différences de climat, de civilisation et d'époque, au vertige de Phrygie, quand les femmes lamentaient Attis, le petit mâle rosé et trop gras. Ces obscures complications d'amour ne sont pas seulement faites d'énervation; à leur luxure se mêle un mysticisme trouble. La Raoule de Vénérande du roman a pour directrice une parente, de toute piété, et qui ne cesse de stigmatiser l'humanité fangeuse. Rachilde écrit: «Dieu aurait dû créer l'amour d'un côté et les sens de l'autre. L'amour véritable ne se devrait composer que d'amitié chaude. Sacrifions les sens, la bête.»</p>
         <p>Ces rêves tendres et malgré tout impurs ont toujours tenté les cerveaux les plus fiers. Un romancier catholique, Joséphin Peladan, a cru pouvoir s'abandonner à ces vertiges malsains sans offenser sa religion. Pourtant celui qui prétend dans ses sensualités satisfaire tout son être, ses nobles désirs de justice, de tendresse, de beauté, est penché sur une pente misérable. L'amour qui s'applique aux créatures s'engage dans des complications bien obscures, s'il ne lui suffit pas d'être père. L'homme supérieur constate très vite qu'il n'a rien à attendre de la femme. Quelque bonté qu'il croie voir dans le regard de ces créatures, il s'en écarte; c'est la jeunesse seule qui embellit leurs prunelles candides; aux premières paroles il trouverait l'humiliation d'avoir été fasciné par un être bas. La femme de son côté a fait le même raisonnement; elle ne se courbera pas devant l'homme si souvent brutal, et dont l'étreinte après tout ne sait donner qu'un léger frisson à cette curieuse insatiable.</p>
-        <p>A quels cultes mystérieux vont-ils donc se vouer, ces hommes et ces femmes que <seg rend="italic">l'amour de soi</seg> écarte l'un de l'autre! A quelles pratiques singulières demanderont-ils des caresses, eux qui le plus souvent compliquent d'énervation intense leur susceptibilité morale?</p>
-        <p>La maladie du siècle, qu'il faut toujours citer et dont <seg rend="italic">Monsieur Vénus</seg> signale chez la femme une des formes les plus intéressantes, est faite en effet d'une fatigue nerveuse, excessive et d'un orgueil inconnu jusqu'alors. On n'avait pas signalé avant ce livre les singularités qu'elle introduit dans la sensibilité en ce qui concerne l'amour. Sans insister sur cette élégie divine et si troublante de René, c'est principalement aux œuvres de M. de Custine, un grand romancier inconnu, et de Baudelaire qu'il faudrait chercher des propositions (évidemment très enveloppées) sur l'amour <seg rend="italic">compliqué</seg>, compliqué pour avoir trop craint les souillures. On verrait, avec effroi, quelques-uns arriver au dégoût de la grâce féminine, en même temps que <seg rend="italic">Monsieur Vénus</seg> proclame la haine de la force mâle.</p>
-        <p>Complication de grande conséquence! le dégoût de la femme! la haine de la force mâle! Voici que certains cerveaux rêvent d'un être insexué. Ces imaginations sentent la mort. Aux dernières pages du volume, quand <seg rend="italic">Monsieur Vénus</seg> est mort, nous voyons Raoule de Vénérande veiller et se lamenter devant une image en cire! l'image de son Adonis canaille!</p>
-        <p>Fantaisie pleureuse d'une isolée, excentricité cérébrale, mais qui intéresse le psychologue, le moraliste et l'artiste. <seg rend="italic">Monsieur Vénus</seg> est un symptôme très significatif, d'autant qu'on distinguera aisément, je le répète, ce qui est exagération de romancier, et ce qui vient d'une ènervation de plus en plus commune dans l'un et l'autre sexe.</p>
-        <p>Non, ce n'est pas une polissonnerie que cette autobiographie de la plus étrange des jeunes femmes. En dépit des pages qui veulent, je crois, être sadiques, et qui sont seulement très obscures et très naïves, ce livre à mon goût peut être considéré comme une curiosité qui restera au même titre que certains livres du siècle dernier, que nous lisons encore après que des ouvrages plus parfaits ont disparu. La critique moderne substitue volontiers à la curiosité littéraire la curiosité pathologique; c'est l'auteur que cherchent dans une œuvre les esprits les plus distingués. Vous savez quelle jeune femme toute de douceur et de finesse est l'auteur, quelle frénésie sensuelle et mystique on trouve dans son livre. Ne vous semble-t-il pas que <seg rend="italic">Monsieur Vénus</seg>, en plus des lueurs, qu'il jette sur certaines dépravations amoureuses de ce temps, est un cas infiniment attachant pour ceux que préoccupent les rapports, si difficiles à saisir, qui unissent l'œuvre d'art au cerveau qui l'a mise debout?</p>
+        <p>A quels cultes mystérieux vont-ils donc se vouer, ces hommes et ces femmes que <seg
+            rend="italic"
+          >l'amour de soi</seg> écarte l'un de l'autre! A quelles pratiques singulières demanderont-ils des caresses, eux qui le plus souvent compliquent d'énervation intense leur susceptibilité morale?</p>
+        <p>La maladie du siècle, qu'il faut toujours citer et dont <seg rend="italic"
+            >Monsieur Vénus</seg> signale chez la femme une des formes les plus intéressantes, est faite en effet d'une fatigue nerveuse, excessive et d'un orgueil inconnu jusqu'alors. On n'avait pas signalé avant ce livre les singularités qu'elle introduit dans la sensibilité en ce qui concerne l'amour. Sans insister sur cette élégie divine et si troublante de René, c'est principalement aux œuvres de M. de Custine, un grand romancier inconnu, et de Baudelaire qu'il faudrait chercher des propositions (évidemment très enveloppées) sur l'amour <seg
+            rend="italic"
+            >compliqué</seg>, compliqué pour avoir trop craint les souillures. On verrait, avec effroi, quelques-uns arriver au dégoût de la grâce féminine, en même temps que <seg
+            rend="italic">Monsieur Vénus</seg> proclame la haine de la force mâle.</p>
+        <p>Complication de grande conséquence! le dégoût de la femme! la haine de la force mâle! Voici que certains cerveaux rêvent d'un être insexué. Ces imaginations sentent la mort. Aux dernières pages du volume, quand <seg
+            rend="italic"
+          >Monsieur Vénus</seg> est mort, nous voyons Raoule de Vénérande veiller et se lamenter devant une image en cire! l'image de son Adonis canaille!</p>
+        <p>Fantaisie pleureuse d'une isolée, excentricité cérébrale, mais qui intéresse le psychologue, le moraliste et l'artiste. <seg
+            rend="italic"
+          >Monsieur Vénus</seg> est un symptôme très significatif, d'autant qu'on distinguera aisément, je le répète, ce qui est exagération de romancier, et ce qui vient d'une ènervation de plus en plus commune dans l'un et l'autre sexe.</p>
+        <p>Non, ce n'est pas une polissonnerie que cette autobiographie de la plus étrange des jeunes femmes. En dépit des pages qui veulent, je crois, être sadiques, et qui sont seulement très obscures et très naïves, ce livre à mon goût peut être considéré comme une curiosité qui restera au même titre que certains livres du siècle dernier, que nous lisons encore après que des ouvrages plus parfaits ont disparu. La critique moderne substitue volontiers à la curiosité littéraire la curiosité pathologique; c'est l'auteur que cherchent dans une œuvre les esprits les plus distingués. Vous savez quelle jeune femme toute de douceur et de finesse est l'auteur, quelle frénésie sensuelle et mystique on trouve dans son livre. Ne vous semble-t-il pas que <seg
+            rend="italic"
+          >Monsieur Vénus</seg>, en plus des lueurs, qu'il jette sur certaines dépravations amoureuses de ce temps, est un cas infiniment attachant pour ceux que préoccupent les rapports, si difficiles à saisir, qui unissent l'œuvre d'art au cerveau qui l'a mise debout?</p>
         <p>Par quel mystère Rachilde a-t-elle dressé devant soi Raoule de Vénérande et Jacques Silvert? Comment de cette enfant de saine éducation sont sorties ces créations équivoques? Le problème est passionnant.</p>
         <p>Un éminent psychologue, M. Jules Soury, qui s'intéresse méthodiquement aux curieuses variétés de la sensibilité humaine, disait un jour de Restif: «Qui compose de tels livres ne s'appartient peut-être pas plus qu'un monstre double; c'est un trop beau cas de tératologie. La tombe et l'oubli ne sont que pour le vulgaire. Lui, il a les honneurs de la salle de dissection et du musée Dupuytren.» Voilà ce que j'appliquerais judicieusement au camarade que j'ai l'honneur d'étudier, si je ne craignais de lui paraître un peu lourd.</p>
         <ab>MAURICE BARRÈS.</ab>
@@ -161,7 +194,9 @@
         <p>Raoule oubliait sa commande; une torpeur singulière s'emparait d'elle, engourdissant jusqu'à ses paroles.</p>
         <p>Cependant elle se trouvait mieux, les pommes avec leurs jets de vapeur chaude ne l'incommodaient plus; et, de ces fleurs éparses dans les assiettes sales, il lui semblait même se dégager une certaine poésie.</p>
         <p>L'accent ému, elle reprit:</p>
-        <p>-- Voici, monsieur, il s'agit d'un bal costumé et j'ai pour habitude de porter des garnitures spécialement dessinées pour moi. Je serai en <seg rend="italic">nymphe des eaux</seg>, costume Grévin, tunique de cachemire blanc pailleté de vert, avec des roseaux enroulés; il faut donc un semé de plantes de rivière, des nymphéas, des sagittaires, lentilles, nénuphars... Vous sentez-vous capable d'exécuter cela en une semaine?</p>
+        <p>-- Voici, monsieur, il s'agit d'un bal costumé et j'ai pour habitude de porter des garnitures spécialement dessinées pour moi. Je serai en <seg
+            rend="italic"
+          >nymphe des eaux</seg>, costume Grévin, tunique de cachemire blanc pailleté de vert, avec des roseaux enroulés; il faut donc un semé de plantes de rivière, des nymphéas, des sagittaires, lentilles, nénuphars... Vous sentez-vous capable d'exécuter cela en une semaine?</p>
         <p>-- Je crois bien, madame, une œuvre d'art! répondit le jeune homme, souriant à son tour; puis, saisissant un crayon, il jeta des croquis sur une feuille de bristol.</p>
         <p>-- C'est cela, c'est cela, approuva Raoule, suivant des yeux. Des nuances très douces, n'est-ce pas? N'omettez aucun détail... Oh! le prix que vous voudrez!... Les sagittaires avec de longs pistils en flèche et les nymphéas bien roses, duvetés de brun.</p>
         <p>Elle avait pris le crayon, pour rectifier certains contours; lorsqu'elle se pencha vers la lampe, un éclair jaillit du diamant qui fermait son pardessus. Silvert le vit et devint respectueux:</p>
@@ -231,15 +266,23 @@
         <p>Le soir de ce jour-là, pendant le thé, le jeune docteur, causant dans l'embrasure d'une croisée avec un vieil ami de la maison, disait, montrant Raoule:</p>
         <p>-- Un cas spécial, monsieur. Quelques années encore, et cette jolie créature que vous chérissez trop, à mon avis, aura, sans les aimer jamais, connu autant d'hommes qu'il y a de grains au rosaire de sa tante. Pas de milieu! Ou nonne, ou monstre! Le sein de Dieu ou celui de la volupté! Il vaudrait peut-être mieux l'enfermer dans un couvent, puisque nous enfermons les hystériques à la Salpétrière! Elle ne connaît pas le vice, mais elle l'invente!</p>
         <p>Il y avait dix ans de cela, au moment où commence cette histoire..., et Raoule n'était pas nonne.....</p>
-        <p>Durant la semaine qui suivit sa visite chez Silvert, Mlle de Vénérande fit de fréquentes sorties, n'ayant d'autre but que la réalisation d'un projet formé dans le parcours de la rue de la Lune à son hôtel. Elle en avait fait la confidence à sa tante, et celle-ci, après des objections timides, en avait, comme toujours, référé aux cieux. Raoule lui décrivit, d'une manière détaillée, la misère de l'<seg rend="italic">artiste</seg>. Quelle pitié ne serait point émue à l'aspect du taudis de Jacques? Comment pourrait-il travailler là-dedans, avec sa sœur presque infirme? Alors Élisabeth avait promis de les recommander à la Société de Saint-Vincent-de-Paul et d'envoyer des dames de charité aussi titrées que secourables.</p>
+        <p>Durant la semaine qui suivit sa visite chez Silvert, Mlle de Vénérande fit de fréquentes sorties, n'ayant d'autre but que la réalisation d'un projet formé dans le parcours de la rue de la Lune à son hôtel. Elle en avait fait la confidence à sa tante, et celle-ci, après des objections timides, en avait, comme toujours, référé aux cieux. Raoule lui décrivit, d'une manière détaillée, la misère de l'<seg
+            rend="italic"
+          >artiste</seg>. Quelle pitié ne serait point émue à l'aspect du taudis de Jacques? Comment pourrait-il travailler là-dedans, avec sa sœur presque infirme? Alors Élisabeth avait promis de les recommander à la Société de Saint-Vincent-de-Paul et d'envoyer des dames de charité aussi titrées que secourables.</p>
         <p>-- Ouvrons notre bourse, ma tante, s'était écriée Raoule, exaltée par sa propre audace. Faisons une aumône royale, mais faisons-la dignement! Mettons ce peintre qui a du talent (ici Raoule avait eu un sourire) dans un milieu vraiment artistique. Qu'il puisse gagner son pain sans avoir la honte de l'attendre de nous. Assurons-lui tout de suite l'avenir. Qui sait si, plus tard, il ne nous le rendra pas au centuple!</p>
         <p>Raoule parlait avec chaleur.</p>
         <p>-- Il faut, se dit tante Élisabeth, que ma nièce ait rencontré de bien belles dispositions chez ces malheureux pour qu'elle daigne s'animer de la sorte... elle, si froide. Voilà peut-être le moyen de la ramener à la piété!...</p>
-        <p>Car tante Élisabeth n'était pas sans savoir que <seg rend="italic">son neveu</seg>, comme elle appelait souvent Raoule quand elle lui voyait prendre des leçons d'escrime ou de peinture, manquait absolument de la foi qui conduit aux saintes destinées. Seulement la chanoinesse avait, de son côté, trop de <seg rend="italic">monde</seg>, trop de race, trop de <seg rend="italic">parchemin</seg> dans le caractère, pour douter une seconde de la pureté corporelle et morale de sa descendante. Une Vénérande ne pouvait être que vierge. On citait des Vénérande qui avaient gardé cette qualité durant plusieurs lunes de miel. Ce genre de noblesse, bien qu'il ne fût pas héréditaire dans la famille, obligeait donc entièrement la jeune femme.</p>
+        <p>Car tante Élisabeth n'était pas sans savoir que <seg rend="italic"
+            >son neveu</seg>, comme elle appelait souvent Raoule quand elle lui voyait prendre des leçons d'escrime ou de peinture, manquait absolument de la foi qui conduit aux saintes destinées. Seulement la chanoinesse avait, de son côté, trop de <seg
+            rend="italic">monde</seg>, trop de race, trop de <seg rend="italic"
+          >parchemin</seg> dans le caractère, pour douter une seconde de la pureté corporelle et morale de sa descendante. Une Vénérande ne pouvait être que vierge. On citait des Vénérande qui avaient gardé cette qualité durant plusieurs lunes de miel. Ce genre de noblesse, bien qu'il ne fût pas héréditaire dans la famille, obligeait donc entièrement la jeune femme.</p>
         <p>-- Dès demain, avait enfin conclu Raoule, je cours Paris pour organiser un atelier. Les meubles seront placés la nuit; il est inutile de faire parler de nous, la moindre ostentation serait un crime, et mardi, quand il viendra m'apporter ma garniture de bal, tout sera prêt... Ah! c'est dans ces occasions, ma tante, que notre fortune est intéressante!...</p>
         <p>-- Je t'abandonne, ma chérie, le céleste bénéfice de ta charité! déclara tante Élisabeth. N'épargne rien: autant tu sèmeras sur terre, autant tu récolteras là-haut!</p>
-        <p>-- <seg rend="italic">Amen!</seg> riposta Raoule,—et la blasée eut un regard de mauvais ange à l'adresse de la chanoinesse ravie.</p>
-        <p>Huit jours après, Mlle de Vénérande, belle, d'une beauté excessivement originale sous son costume de <seg rend="italic">nymphe des eaux</seg>, faisait une entrée à sensation au bal de la duchesse d'Armonville. Flavien X..., le journaliste à la mode, dit deux mots discrets au sujet de ce costume étrange et, bien que Raoule n'eût pas d'amies intimes, elle s'en découvrit quelques-unes, ce soir-là, qui la supplièrent de leur indiquer la demeure de son habile fleuriste.</p>
+        <p>-- <seg rend="italic"
+          >Amen!</seg> riposta Raoule,—et la blasée eut un regard de mauvais ange à l'adresse de la chanoinesse ravie.</p>
+        <p>Huit jours après, Mlle de Vénérande, belle, d'une beauté excessivement originale sous son costume de <seg
+            rend="italic"
+          >nymphe des eaux</seg>, faisait une entrée à sensation au bal de la duchesse d'Armonville. Flavien X..., le journaliste à la mode, dit deux mots discrets au sujet de ce costume étrange et, bien que Raoule n'eût pas d'amies intimes, elle s'en découvrit quelques-unes, ce soir-là, qui la supplièrent de leur indiquer la demeure de son habile fleuriste.</p>
         <p>Raoule s'y refusa.</p>
       </div>
       <div>
@@ -254,12 +297,17 @@
         <p>-- Tiens! comme si ta figure ne valait pas celle de tes sales moutons!</p>
         <p>Il ne put s'empêcher de rire; ses larmes séchèrent et il murmura:</p>
         <p>-- Tu es folle! Mlle de Vénérande est une artiste, voilà tout! Elle a pitié des artistes; elle est bonne, elle est juste... Ah! les ouvriers pauvres ne feraient pas souvent des révolutions s'ils connaissaient mieux les femmes de la haute!</p>
-        <p>Marie eut un rictus mauvais. Elle gardait son opinion. Quand elle songeait à cette femme <seg rend="italic">de la haute</seg>, toutes les scènes de vice qu'elle avait vécues lui remontaient en fumées malsaines à la tête, et elle voyait alors le monde entier aussi plat que l'était naguère son lit de prostituée après le départ du dernier amant.</p>
+        <p>Marie eut un rictus mauvais. Elle gardait son opinion. Quand elle songeait à cette femme <seg
+            rend="italic"
+          >de la haute</seg>, toutes les scènes de vice qu'elle avait vécues lui remontaient en fumées malsaines à la tête, et elle voyait alors le monde entier aussi plat que l'était naguère son lit de prostituée après le départ du dernier amant.</p>
         <p>En philosophant, d'une voix un peu lente qui désire se faire écouter, Jacques allait et venait, disséminant les armes des panoplies qu'on n'avait pas eu le temps de poser. Il collait tous les fauteuils contre les murs n'ayant jamais assez de place pour promener ses orgueils de nouveau propriétaire.</p>
         <p>Les chevalets de bois des îles furent mis en troupe dans l'angle où se dressait une Vénus de Milo très éblouissante, sur un socle de bronze. Il voulut compter les bustes et les apporta au pied de la déesse, comme on empile des pots de réséda dans la gouttière d'une grisette. Par instants, il jetait un petit cri de plaisir, caressant les urnes des majoliques et les luisantes feuilles du palmier qui émergeait d'un pouff, au centre de l'atelier. Il essayait jusqu'aux tabourets errant sur la moquette du tapis; il les éprouvait à coup de poing ou les lançait au plafond.</p>
         <p>Le vitrage donnait dans l'endroit le plus découvert du boulevard Montparnasse, en face de Notre-Dame-des-Champs. Il était drapé d'un baldaquin de satin gris, relevé de velours noir brodé d'or. Toutes les tentures rappelaient ces nuances et les portières égyptiennes à motifs étranges, très vifs, éclataient d'une façon merveilleuse sur ce gris de nuage printanier.</p>
         <p>Au bout d'une heure, l'atelier rappela presque la mansarde de la rue de la Lune, moins les taches de graisse et les chaises crevées; mais on sentait que ce complément ne tarderait pas à arriver. Marie décida qu'on mettrait deux couchettes de fer dans le cabinet des modèles, car l'atelier possédait un demi-cercle tendu de larges rideaux et garni en pourtour d'un paravent du Japon, laqué, rose et bleu. On ferait sa toilette comme on pourrait, puis on roulerait les deux cages sous le paravent. Elle imagina même de se servir d'un gros crachoir de cuivre ciselé comme boîte à ordures. Ils ne pensaient pas du tout à soulever les portières, supposant que cela faisait partie des ornements avec les trophées de vieilles armes.</p>
-        <p>-- Nous <seg rend="italic">laverons</seg> ces casseroles-là, dit Marie, pleine de son sujet, pour avoir des marmites économiques. J'adore la cuisine à l'<seg rend="italic">étouffée</seg>—elle désignait les casques romains que son frère essayait de temps en temps.</p>
+        <p>-- Nous <seg rend="italic"
+            >laverons</seg> ces casseroles-là, dit Marie, pleine de son sujet, pour avoir des marmites économiques. J'adore la cuisine à l'<seg
+            rend="italic"
+          >étouffée</seg>—elle désignait les casques romains que son frère essayait de temps en temps.</p>
         <p>-- Oui, oui, répondait Jacques, se campant vis-à-vis la glace qui lui renvoyait, multipliées, toutes les splendeurs de son paradis,—fais ce que tu veux, sans te fatiguer. Ce serait trop bête de reprendre une fièvre ici... nous avons d'autres chats à fouetter. Mets-toi chez nous, trempe la soupe sur les canapés, si ça te plaît. Je suis bien le maître, n'est-ce pas? Dis donc, il faudra travailler. Les fleurs m'ont rouillé les doigts; il faudra que je me dérouille lestement. Et puis... le portrait de la tante, le portrait de ses domestiques, si elle y tient. Je ne suis pas un ingrat... je crois que je me saignerais les quatre veines pour cette femme-là. Il n'y a pas de bon Dieu, ou c'est elle qui en est un. A propos, notre horloge va sonner, attention!</p>
         <p>L'horloge, représentant un phare surmonté d'une boule lumineuse, sonna six heures, et, brusquement, la boule prit feu, un feu opalin qui permettait de tout voir dans une pénombre délicieuse.</p>
         <p>-- Pas possible, s'exclama Jacques, étourdi de cette nouvelle métamorphose, voilà l'heure de la lumière et la lumière arrive toute seule. Je commence à croire que nous sommes dans une pièce du Châtelet.</p>
@@ -297,7 +345,8 @@
         <p>Enfin, il y eut un fracas dans la baignoire.</p>
         <p>-- J'en ai assez! déclara-t-il, troublé subitement par la honte de lui devoir aussi la propreté de son corps.</p>
         <p>Il chercha un linge et resta ruisselant, les bras en l'air. Il lui sembla qu'on froissait le rideau.</p>
-        <p>-- Vous savez, <seg rend="italic">monsieur</seg> de Vénérande, dit-il d'un ton boudeur, même entre hommes ce n'est pas convenable... Vous regardez! Je vous demande si vous seriez content d'être à ma place.</p>
+        <p>-- Vous savez, <seg rend="italic"
+          >monsieur</seg> de Vénérande, dit-il d'un ton boudeur, même entre hommes ce n'est pas convenable... Vous regardez! Je vous demande si vous seriez content d'être à ma place.</p>
         <p>Et il pensa que cette femme voulait absolument qu'on lui sautât dessus.</p>
         <p>-- Elle sera bien plus attrapée, ajouta-t-il de très mauvaise humeur, les sens tout apaisés par les fraîcheurs de son bain, et il passa un peignoir.</p>
         <p>Clouée au sol, derrière le rideau, Mlle de Vénérande le voyait sans avoir besoin de se déranger. Les lueurs douces de la bougie tombaient mollement sur ses chairs blondes, toutes duvetées comme la peau d'une pêche. Il était tourné vers le fond du cabinet et jouait le principal rôle d'une des scènes de Voltaire, que raconte en détail une courtisane nommée Bouche-Vermeille.</p>
@@ -331,7 +380,9 @@
       </div>
       <div>
         <head>CHAPITRE IV</head>
-        <p>MARIE avait la lettre dans sa poche, elle était bien persuadée maintenant que cette folle ne résisterait pas, qu'elle leur reviendrait plus sage, plus protectrice, plus <seg rend="italic">cossue</seg> enfin, selon son expression faubourienne, et alors on verrait cascader de nouvelles splendeurs. Sangdieu! Les millions se figeraient autour du petit comme la gelée autour d'une daube; il porterait tous les jours des habits de noce; elle traînerait, dans ses cuisines nauséabondes, des robes de moire. Il serait monsieur, elle serait madame!</p>
+        <p>MARIE avait la lettre dans sa poche, elle était bien persuadée maintenant que cette folle ne résisterait pas, qu'elle leur reviendrait plus sage, plus protectrice, plus <seg
+            rend="italic"
+          >cossue</seg> enfin, selon son expression faubourienne, et alors on verrait cascader de nouvelles splendeurs. Sangdieu! Les millions se figeraient autour du petit comme la gelée autour d'une daube; il porterait tous les jours des habits de noce; elle traînerait, dans ses cuisines nauséabondes, des robes de moire. Il serait monsieur, elle serait madame!</p>
         <p>La lettre contenait peu de phrases, mais elle expliquait une foule de choses très clairement:</p>
         <floatingText type="letter">
           <body>
@@ -342,7 +393,9 @@
             </div>
           </body>
         </floatingText>
-        <p>Et, après avoir terminé ce chef-d'œuvre, Marie, malgré la mine bouleversée de son frère, était partie pour l'avenue des Champs-Élysées. Cet idiot ne saurait jamais prendre son rôle au sérieux. Heureusement qu'elle mettait son expérience du corps humain à sa disposition, et elle savait, dans les cas importants, comment <seg rend="italic">on fait des chatouilles</seg> sous la mamelle gauche d'un amoureux ou d'une amoureuse.</p>
+        <p>Et, après avoir terminé ce chef-d'œuvre, Marie, malgré la mine bouleversée de son frère, était partie pour l'avenue des Champs-Élysées. Cet idiot ne saurait jamais prendre son rôle au sérieux. Heureusement qu'elle mettait son expérience du corps humain à sa disposition, et elle savait, dans les cas importants, comment <seg
+            rend="italic"
+          >on fait des chatouilles</seg> sous la mamelle gauche d'un amoureux ou d'une amoureuse.</p>
         <p>Il pleuvait, ce jour-là, une pluie de mars lente et pénétrante; on enfonçait dans toutes les allées de l'avenue. Marie avait voulu faire l'économie d'une voiture, aussi elle ne tarda pas à être éclaboussée depuis les bottines jusqu'au chapeau.</p>
         <p>Arrivée devant l'hôtel, ce grand bâtiment de sombre aspect, elle se demanda si on n'allait pas la fourrer dehors, dès son apparition dans le vestibule. Elle trouva, en haut du perron, un gros suisse et un petit chien. Le premier prit la lettre, le second grogna.</p>
         <p>-- Voulez-vous voir mademoiselle ou madame?</p>
@@ -354,7 +407,9 @@
         <p>Le groom tourna sur ses talons, ahuri, et, en domestique stylé, il murmura:</p>
         <p>-- Quelqu'un d'influent! car les costumes perdent de plus en plus leur signification sous la république.</p>
         <p>Mademoiselle était dans un boudoir attenant à sa chambre. Lorsque Mme Élisabeth sortait, Raoule recevait chez elle ceux qui venaient, des deux sexes. Ce boudoir donnait sur une serre, dont elle avait fait son cabinet de travail. Au moment où le groom fit irruption, un homme se promenait dans la serre à pas précipités, tandis que Mlle de Vénérande, étendue sur une causeuse créole, se balançait, riant aux éclats.</p>
-        <p>-- Vous me damnez, Raoule, répétait l'homme, jeune encore, de physionomie brune à la slave, mais éclairée d'une vivacité toute parisienne. Oui! vous me damnez, en admettant que je puisse avoir déjà mérité le ciel... Rire n'est pas répondre... Je vous affirme qu'une femme ne vit pas sans amour, et vous savez que j'entends par amour l'union des âmes dans l'union des êtres. Je suis franc. Je n'entortille jamais une phrase sensée de jolies fadeurs, comme on entoure de confitures un remède amer... Je vous déclare ça brusquement, d'une façon hussarde, et, quand j'aperçois le fossé, je ne m'attarde pas à effeuiller des marguerites. Hop! je presse l'éperon et vous envoie toute la charge, Raoule de Vénérande, <seg rend="italic">mon cher ami!</seg> ne vous mariez pas, soit! mais prenez un amant: c'est nécessaire à votre santé.</p>
+        <p>-- Vous me damnez, Raoule, répétait l'homme, jeune encore, de physionomie brune à la slave, mais éclairée d'une vivacité toute parisienne. Oui! vous me damnez, en admettant que je puisse avoir déjà mérité le ciel... Rire n'est pas répondre... Je vous affirme qu'une femme ne vit pas sans amour, et vous savez que j'entends par amour l'union des âmes dans l'union des êtres. Je suis franc. Je n'entortille jamais une phrase sensée de jolies fadeurs, comme on entoure de confitures un remède amer... Je vous déclare ça brusquement, d'une façon hussarde, et, quand j'aperçois le fossé, je ne m'attarde pas à effeuiller des marguerites. Hop! je presse l'éperon et vous envoie toute la charge, Raoule de Vénérande, <seg
+            rend="italic"
+          >mon cher ami!</seg> ne vous mariez pas, soit! mais prenez un amant: c'est nécessaire à votre santé.</p>
         <p>-- Bravo! monsieur de Raittolbe! Je parie même que ma santé ne sera vraiment tout à fait florissante que si l'amant est un officier de hussards, brun, ayant le parler franc, le regard effronté, le ton autoritaire, hein?</p>
         <p>-- Ma foi, je l'avoue, je vais plus loin... je propose le hussard en question pour mari... Au choix! ancienneté ou services exceptionnels! Nous sommes cinq qui depuis trois ans vous faisons une cour échevelée. Le prince Otto, le mélomane, est devenu fou et a mis, paraît-il, votre portrait en pied dans une chapelle ardente, où brûlent, autour d'un lit de repos, des cierges de cire jaune... et là, il soupire de l'aurore au crépuscule. Flavien, le journaliste, passe dans ses cheveux une main tremblante dès qu'on prononce votre nom. Hector de Servage, après le congé en bonne forme donné par votre tante, est allé en Norwège essayer des réfrigérants. Votre maître d'escrime a failli se passer une de ses meilleures épées au travers des côtes. Donc, votre humble serviteur demeurant seul... avec l'honneur de vous tenir l'étrier pour les promenades au Bois, j'imagine que vous le devez contempler d'un moins mauvais œil, et il présente sa candidature. Voulez-vous, Raoule, que nous abritions notre amitié dans une alcôve conjugale? Elle y sera plus au chaud...</p>
         <p>Raoule, se levant, allait rejoindre M. de Raittolbe quand le groom entra.</p>
@@ -375,7 +430,9 @@
         <p>-- Vous savez? le petit s'ennuie, déclara-t-elle avec un sourire plein de sous-entendus malpropres.</p>
         <p>-- Combien? répéta Raoule saisie d'une colère aveugle, cherchant des yeux un couteau.</p>
         <p>-- Ne vous fâchez pas, mademoiselle, l'argent est une manière de parler dans sa lettre; il voudrait surtout vous voir, l'enfant... C'est un bébé jamais raisonnable, un pleurnicheur trop sensible! Il s'est figuré que votre béguin était déjà envolé, et, va te faire lanlaire? tous mes compliments sont perdus. S'il ne vous revoit pas, il se fera périr, j'en ai une peur terrible. Ce matin, en regardant son verre, il me disait qu'il lui servirait bientôt de poison. Pauvre chat! si ça ne brise pas l'âme! A son âge. Et si blond! si blanc! Enfin, vous le connaissez? Alors, j'ai mis ma jupe des dimanches... Ne laisse pas agoniser ton frère, que je me suis dit. Et me voilà! Pour l'argent, on est pauvre, mais on est fier. Nous en causerons après!...</p>
-        <p>Elle frottait son pied sur le tapis du boudoir, éprouvant une joie intime à salir un peu <seg rend="italic">la haute</seg>, et elle secouait son parapluie déteint, dont elle n'avait pas voulu se séparer.</p>
+        <p>Elle frottait son pied sur le tapis du boudoir, éprouvant une joie intime à salir un peu <seg
+            rend="italic"
+          >la haute</seg>, et elle secouait son parapluie déteint, dont elle n'avait pas voulu se séparer.</p>
         <p>Raoule marcha droit au bonheur du jour qui se trouvait en face d'elle; d'un revers de main, elle écarta la fille comme on jette de côté une loque, lorsqu'elle va vous cingler la figure.</p>
         <p>-- J'ai mille francs, là... je vous en enverrai mille autres, ce soir... mais ne restez pas une seconde de plus... je ne connais pas votre frère... j'ignore où il demeure... vous... je ne sais pas votre nom. Prenez et sortez!</p>
         <p>Elle posa les billets sur un fauteuil, lui faisant signe de les y prendre. Ensuite, elle sonna...</p>
@@ -401,15 +458,19 @@
         <p>Et son regard sombre, qui ne savait pas pleurer, eut une tristesse morne.</p>
         <p>-- Vous acceptez, quoi?... fit de Raittolbe la poitrine oppressée.</p>
         <p>La jeune femme, avec une dignité suprême, repoussa ses mains tendues.</p>
-        <p>-- De vous avoir pour amant, mon cher, vous ne serez pas le premier et je suis <seg rend="italic">honnête homme</seg>!...</p>
+        <p>-- De vous avoir pour amant, mon cher, vous ne serez pas le premier et je suis <seg
+            rend="italic">honnête homme</seg>!...</p>
         <p>-- Je le savais, répliqua doucement de Raittolbe; à présent, je crois que je vous adore!</p>
         <p>Le soir, le jeune officier dîna à l'hôtel de Vénérande. Il fut pour la tante Élisabeth le plus courtois des chevaliers. Il développa une tirade sur la dévotion qui aveugle la femme sur les misères humaines et l'élève au-dessus de la terre impure. Tante Élisabeth avoua que les hussards étaient de bons enfants. En prenant congé, de Raittolbe glissa un mot à l'oreille de Raoule.</p>
         <p>-- J'attends...</p>
         <p>-- Demain, murmura-t-elle, hôtel Continental. Mon coupé brun entrera par la porte de gauche vers dix heures du matin.</p>
         <p>-- Il suffit.</p>
         <p>Et le viveur se retira calmé.</p>
-        <p>Le lendemain, le coupé brun fut commandé vers dix heures et Raoule se jeta dans la voiture avec une gaieté fébrile. Certes, il en serait ainsi, elle se l'était juré et puisqu'<seg rend="italic">il</seg> se trouvait, au demeurant, mieux que les autres, il l'amuserait peut-être davantage. Une erreur des sens n'est pas l'épanouissement d'une âme, et la beauté d'une forme humaine n'est pas capable d'inspirer le désir de s'attacher à elle par une éternité de folie.</p>
-        <p>Elle chantait en boutonnant ses gants. La glace du coupé lui renvoyait son image, son corsage ruisselant de dentelles allait bien, elle se sentait <seg rend="italic">femme</seg> jusqu'au plaisir.</p>
+        <p>Le lendemain, le coupé brun fut commandé vers dix heures et Raoule se jeta dans la voiture avec une gaieté fébrile. Certes, il en serait ainsi, elle se l'était juré et puisqu'<seg
+            rend="italic"
+          >il</seg> se trouvait, au demeurant, mieux que les autres, il l'amuserait peut-être davantage. Une erreur des sens n'est pas l'épanouissement d'une âme, et la beauté d'une forme humaine n'est pas capable d'inspirer le désir de s'attacher à elle par une éternité de folie.</p>
+        <p>Elle chantait en boutonnant ses gants. La glace du coupé lui renvoyait son image, son corsage ruisselant de dentelles allait bien, elle se sentait <seg
+            rend="italic">femme</seg> jusqu'au plaisir.</p>
         <p>-- Mademoiselle veut-elle entrer? dit le cocher se penchant à la vitre au bout d'une course rapide.</p>
         <p>-- Non! Arrêtez, quand je serai descendue vous entrerez par la porte de gauche et m'y attendrez jusqu'au soir!...</p>
         <p>La voix de Raoule était devenue sifflante. Elle descendit, avisa un fiacre stationnant, s'y précipita:</p>
@@ -426,7 +487,8 @@
         <p>-- Oui, bien vrai!</p>
         <p>Il remonta au jour sa tête ébouriffée, tandis que son admirable teint de blond prenait une nuance rose.</p>
         <p>-- Alors, pourquoi l'avoir laissé partir, cette lettre?</p>
-        <p>-- Je ne savais pas, moi! Marie me certifiait que j'avais la fièvre, <seg rend="italic">sa fièvre</seg>. Elle m'a donné une drogue et j'ai eu le délire toutes les nuits, elle disait que c'était de la quinine; je l'aurais bien retenue, seulement la poigne m'a manqué. Ah! vous pouvez le remballer votre atelier de malheur! Dieu de Dieu!...</p>
+        <p>-- Je ne savais pas, moi! Marie me certifiait que j'avais la fièvre, <seg rend="italic"
+            >sa fièvre</seg>. Elle m'a donné une drogue et j'ai eu le délire toutes les nuits, elle disait que c'était de la quinine; je l'aurais bien retenue, seulement la poigne m'a manqué. Ah! vous pouvez le remballer votre atelier de malheur! Dieu de Dieu!...</p>
         <p>Essoufflé, il essaya de s'asseoir sur son séant, ce qui fit que Raoule s'aperçut d'une chose étrange: il avait une chemise de femme, une chemise garnie d'un feston.</p>
         <p>-- C'est elle aussi qui t'arrange de la sorte? dit Raoule en touchant le feston sur son cou.</p>
         <p>-- Vous croyez que j'ai du linge? Il y a longtemps que mes lambeaux sont loin. J'avais froid, on m'a collé ça sur la peau... Est-ce que je sais si c'est une chemise de femme, moi!...</p>
@@ -449,7 +511,9 @@
         <p>Elle mit son bras autour de sa tête et une cuiller de vermeil à portée de sa bouche.</p>
         <p>-- Soyons sage!... fit-elle en plongeant son regard sombre dans le sien.</p>
         <p>-- Je ne veux pas! déclara-t-il d'un accent de colère.</p>
-        <p>Il se souvenait maintenant d'avoir acheté sur les quais, en un jour de liesse, un méchant livre de vingt-cinq centimes, intitulé: <seg rend="italic">Les exploits de la Brinvilliers</seg>, et c'était toujours avec une idée d'empoisonnement qu'il pensait aux amours des grandes dames. Son cerveau, un peu affaibli, se retraça, tout de suite, une tentative criminelle faite par une cagoule de velours sur un monsieur déshabillé. Il vit le monsieur repoussant une tasse d'un geste tordu. Raoule voulait sûrement se débarrasser de lui, il y a des créatures qui ne reculent devant rien quand elles se croient compromises! Aussi, Jacques posa-t-il le poing en avant, prêt à l'écraser à son premier mouvement offensif. Pour toute réponse, Raoule mordit du bout des dents au contenu de sa cuiller.</p>
+        <p>Il se souvenait maintenant d'avoir acheté sur les quais, en un jour de liesse, un méchant livre de vingt-cinq centimes, intitulé: <seg
+            rend="italic"
+          >Les exploits de la Brinvilliers</seg>, et c'était toujours avec une idée d'empoisonnement qu'il pensait aux amours des grandes dames. Son cerveau, un peu affaibli, se retraça, tout de suite, une tentative criminelle faite par une cagoule de velours sur un monsieur déshabillé. Il vit le monsieur repoussant une tasse d'un geste tordu. Raoule voulait sûrement se débarrasser de lui, il y a des créatures qui ne reculent devant rien quand elles se croient compromises! Aussi, Jacques posa-t-il le poing en avant, prêt à l'écraser à son premier mouvement offensif. Pour toute réponse, Raoule mordit du bout des dents au contenu de sa cuiller.</p>
         <p>-- Je ne suis pas un nourrisson! fit-il désorienté. On n'a pas besoin de me mâcher les morceaux!</p>
         <p>Et il avala sans sourciller ce remède verdâtre, au goût de miel. Raoule s'assit sur le rebord du lit tenant ses deux mains et lui souriant d'un sourire à la fois heureux et navré.</p>
         <p>-- Mon amour, murmura-t-elle si bas que Jacques entendait comme on entend du fond d'un abîme, nous allons nous appartenir dans un pays étrange que tu ne connais point.</p>
@@ -477,7 +541,8 @@
         <p>-- Mademoiselle est servie! déclara Marie Silvert lui tirant une révérence comme si rien ne devait étonner cette fille. Raoule alla vers la table, sur laquelle fumait un plat, et déposa, à côté d'une serviette roulée, une pile de pièces d'or.</p>
         <p>-- C'est son couvert, je crois? dit-elle d'un ton très calme et en regardant Marie qui ne bronchait pas.</p>
         <p>-- Oui, je vous ai mis l'un devant l'autre.</p>
-        <p>-- C'est bien, répliqua Raoule de la même voix indifférente, je vous souhaite, <seg rend="italic">à tous les deux</seg>, le meilleur des appétits!</p>
+        <p>-- C'est bien, répliqua Raoule de la même voix indifférente, je vous souhaite, <seg
+            rend="italic">à tous les deux</seg>, le meilleur des appétits!</p>
         <p>Et elle sortit, en remettant son gant.</p>
       </div>
       <div>
@@ -491,7 +556,8 @@
         <p>-- ... Parbleu! Vous vous êtes moquée de moi. J'en suis sûr.</p>
         <p>-- Montez d'abord, je vous jure de tout éclaircir ensuite, car je mérite ma réputation de loyauté, mon cher. Je pourrais vous cacher la situation, je ne vous cacherai rien. Qui sait! (et elle eut une expression tellement amère qu'elle apaisa de Raittolbe). Qui sait si mon histoire ne vaudra pas ce que vous n'avez pas eu aujourd'hui!</p>
         <p>Il monta dans le coupé brun, très boudeur, la moustache hérissée, les yeux ronds comme un dompteur intimidé par son élève.</p>
-        <p>Durant le trajet, il n'entama aucune discussion; l'<seg rend="italic">histoire</seg> lui paraissait même peu nécessaire puisqu'il allait dîner sous le toit de Raoule. Il savait que chez elle, et il n'était pas seul à le savoir, la nièce de Mme Élisabeth demeurait une vierge inattaquable, une sorte de déesse se permettant tout du haut d'un piédestal qu'on n'osait point renverser. Il marchait donc au supplice sans le moindre enthousiasme. Raoule rêvait, les paupières mi-closes, regardant, à travers la nuit qu'elle faisait autour d'elle, une chose très blanche, ayant tous les contours d'un corps humain.</p>
+        <p>Durant le trajet, il n'entama aucune discussion; l'<seg rend="italic"
+          >histoire</seg> lui paraissait même peu nécessaire puisqu'il allait dîner sous le toit de Raoule. Il savait que chez elle, et il n'était pas seul à le savoir, la nièce de Mme Élisabeth demeurait une vierge inattaquable, une sorte de déesse se permettant tout du haut d'un piédestal qu'on n'osait point renverser. Il marchait donc au supplice sans le moindre enthousiasme. Raoule rêvait, les paupières mi-closes, regardant, à travers la nuit qu'elle faisait autour d'elle, une chose très blanche, ayant tous les contours d'un corps humain.</p>
         <p>Arrivée à l'hôtel, elle fit porter une table servie dans sa bibliothèque, et, pendant qu'on mettait aux mains d'un esclave de bronze une lampe étrusque, elle s'assit sur un divan, en priant le baron d'attirer pour lui un fauteuil capitonné, cela si gracieusement, que de Raittolbe se sentit très capable d'étrangler son amphitryon avant de toucher au potage.</p>
         <p>Les mets, une fois disposés sur deux servantes garnies de réchauds, Raoule déclara qu'on n'avait plus besoin de valet de chambre.</p>
         <p>-- Nous serons régence, n'est-ce pas? dit-elle.</p>
@@ -509,31 +575,45 @@
         <p>Raoule eut, au coin des lèvres, un pli dédaigneux.</p>
         <p>-- Vous vous trompez, monsieur de Raittolbe; être Sapho, ce serait être tout le monde! Mon éducation m'interdit le crime des pensionnaires et les défauts de la prostituée. J'imagine que vous me mettez au-dessus du niveau des amours vulgaires. Comment me supposez-vous capable de telles faiblesses? Parlez sans vous inquiéter des convenances..., je suis ici chez moi.</p>
         <p>L'ex-officier des hussards essayait de tordre sa fourchette. Il voyait bien, en effet, qu'il s'était laissé choir la tête la première dans l'antre du sphinx. Il s'inclina gravement.</p>
-        <p>-- Où diable avais-je l'esprit? Ah! mademoiselle, pardonnez-moi. J'oubliais le <seg rend="italic" xml:lang="Latin">Homo sum</seg> de Messaline!</p>
+        <p>-- Où diable avais-je l'esprit? Ah! mademoiselle, pardonnez-moi. J'oubliais le <seg
+            rend="italic" xml:lang="Latin">Homo sum</seg> de Messaline!</p>
         <p>-- Il est certain, monsieur, reprit Raoule haussant les épaules, que j'ai eu des amants. Des amants dans ma vie comme j'ai des livres dans ma bibliothèque, pour savoir, pour étudier... Mais je n'ai pas eu de passion, je n'ai pas écrit mon livre, moi! Je me suis toujours trouvée seule, alors que j'étais deux. On n'est pas faible, quand on reste maître de soi au sein des voluptés les plus abrutissantes.</p>
         <p>Pour présenter mon thème psychologique sous un jour plus... Louis XV, je dirai qu'ayant beaucoup lu, beaucoup étudié, j'ai pu me convaincre du peu de profondeur de mes auteurs, classiques ou autres!</p>
         <p>A présent, mon cœur, ce fier savant, veut faire son petit Faust... il a envie de rajeunir, non pas son sang, mais cette vieille chose qu'on appelle l'amour!</p>
         <p>-- Bravo! fit de Raittolbe, convaincu qu'il allait assister à une évocation magique et voir une sorcière s'élancer du bahut mystérieux. Bravo! je vous aiderai, si je puis! Prêt à toute heure, vous savez! Moi aussi, je suis fatigué de cet éternel refrain qui accompagne des procédés fort usés. Mon petit Faust, je bois à une invention nouvelle et ne demande qu'à payer le brevet. Sacrebleu! Un amour tout neuf! Voilà un amour qui me va! Pourtant, une simple réflexion, Faust. Il me semble que chaque femme doit, à ses débuts, penser qu'elle vient de créer l'amour, car l'amour n'est vieux que pour nous, philosophes! Il ne l'est pas encore pour les pucelles! Hein? Soyons logiques!</p>
         <p>Elle eut un mouvement d'impatience.</p>
         <p>-- Je représente ici, dit-elle en enlevant d'un réchaud une timbale d'écrevisses, l'élite des femmes de notre époque. Un échantillon du féminin artiste et du féminin grande dame, une de ces créatures qui se révoltent à l'idée de perpétuer une race appauvrie ou de donner un plaisir qu'elles ne partageront pas. Eh bien! j'arrive à votre tribunal, députée par mes sœurs, pour vous déclarer que toutes nous désirons l'impossible, tant vous nous aimez mal.</p>
-        <p>-- Vous avez la parole, mon cher avocat, appuya de Raittolbe, s'animant sans rire. Seulement je déclare, moi, ne pas vouloir être juge et partie. Mettez donc votre discours à la troisième personne: <seg rend="italic">Tant ils nous aiment mal</seg>...</p>
-        <p>-- Oui, continua Raoule, brutalité ou impuissance. Tel est le dilemme. Les brutaux exaspèrent, les impuissants avilissent et <seg rend="italic">ils</seg> sont, les uns et les autres, si pressés de jouir qu'<seg rend="italic">ils</seg> oublient de nous donner, à nous, leurs victimes, le seul aphrodisiaque qui puisse les rendre heureux en nous rendant heureuses: l'<seg rend="italic">Amour</seg>!...</p>
+        <p>-- Vous avez la parole, mon cher avocat, appuya de Raittolbe, s'animant sans rire. Seulement je déclare, moi, ne pas vouloir être juge et partie. Mettez donc votre discours à la troisième personne: <seg
+            rend="italic">Tant ils nous aiment mal</seg>...</p>
+        <p>-- Oui, continua Raoule, brutalité ou impuissance. Tel est le dilemme. Les brutaux exaspèrent, les impuissants avilissent et <seg
+            rend="italic">ils</seg> sont, les uns et les autres, si pressés de jouir qu'<seg
+            rend="italic"
+            >ils</seg> oublient de nous donner, à nous, leurs victimes, le seul aphrodisiaque qui puisse les rendre heureux en nous rendant heureuses: l'<seg
+            rend="italic">Amour</seg>!...</p>
         <p>-- Tiens! interrompit de Raittolbe, hochant le front. L'amour aphrodisiaque pour l'amour! Très joli! J'approuve... La cour est de votre avis!</p>
-        <p>-- Dans l'antiquité, poursuivit l'impitoyable défenderesse, le vice était sacré parce qu'on était fort. Dans notre siècle, il est honteux parce qu'il naît de nos épuisements. Si on était fort, et si, de plus, on avait des griefs contre la vertu, il serait permis d'être vicieux, en devenant créateur, par exemple. Sapho ne pouvait pas être une <seg rend="italic">fille</seg>, c'était bien plutôt la vestale d'un feu nouveau. Moi, si je créais une dépravation nouvelle, je serais prêtresse, tandis que mes imitateurs se traîneraient, après mon règne, dans une fange abominable... Ne vous paraît-il point que les hommes orgueilleux, en copiant Satan, sont bien plus coupables que le Satan de l'Écriture qui invente l'orgueil? Satan n'est-il pas respectable par sa faute même, sans précédent et émanant d'une réflexion divine?...</p>
+        <p>-- Dans l'antiquité, poursuivit l'impitoyable défenderesse, le vice était sacré parce qu'on était fort. Dans notre siècle, il est honteux parce qu'il naît de nos épuisements. Si on était fort, et si, de plus, on avait des griefs contre la vertu, il serait permis d'être vicieux, en devenant créateur, par exemple. Sapho ne pouvait pas être une <seg
+            rend="italic"
+          >fille</seg>, c'était bien plutôt la vestale d'un feu nouveau. Moi, si je créais une dépravation nouvelle, je serais prêtresse, tandis que mes imitateurs se traîneraient, après mon règne, dans une fange abominable... Ne vous paraît-il point que les hommes orgueilleux, en copiant Satan, sont bien plus coupables que le Satan de l'Écriture qui invente l'orgueil? Satan n'est-il pas respectable par sa faute même, sans précédent et émanant d'une réflexion divine?...</p>
         <p>Raoule, surexcitée par une émotion poignante, s'était levée, sa coupe remplie d'eau pure à la main. Elle avait l'air de porter un toast à l'Antinoüs penché sur elle.</p>
         <p>De Raittolbe se leva aussi, en remplissant son hanap de champagne glacé. Plus ému qu'un hussard ne l'est d'habitude, après son dixième verre, mais plus courtois que ne l'eût été un viveur en pareil cas, il s'écria:</p>
         <p>-- A Raoule de Vénérande, le Christophe Colomb de l'amour moderne!...</p>
         <p>Puis, se rasseyant:</p>
-        <p>-- Avocat, venez au fait, car je sais que vous êtes <seg rend="italic">amoureux</seg>, et j'ignore pourquoi vous m'avez trahi!...</p>
+        <p>-- Avocat, venez au fait, car je sais que vous êtes <seg rend="italic"
+          >amoureux</seg>, et j'ignore pourquoi vous m'avez trahi!...</p>
         <p>Raoule reprit douloureusement:</p>
         <p>-- Amoureux fou! Oui! Déjà, je prétends élever un autel à mon idole, quand j'ai l'assurance de ne jamais être compris!... Hélas! une passion contre nature qui est en même temps un véritable amour peut-elle devenir autre chose qu'une affreuse folie?...</p>
         <p>-- Raoule, dit le baron de Raittolbe avec effusion, je suis persuadé, certainement, que vous êtes folle. Mais j'espère vous guérir. Racontez-moi le reste, et apprenez-moi comment, sans imiter Sapho, vous êtes amoureux d'une jolie fille quelconque?</p>
         <p>Le visage pâle de Raoule s'enflamma.</p>
-        <p>-- Je suis <seg rend="italic">amoureux</seg> d'un homme et non pas d'une femme! répliqua-t-elle, tandis que ses yeux assombris se détournaient des yeux brillants de l'Antinoüs. On ne m'a pas aimée assez pour que j'aie pu désirer reproduire un être à l'image de l'époux... et on ne m'a pas donné assez de jouissances pour que mon cerveau n'ait pas eu le loisir de chercher mieux...</p>
-        <p>...J'ai voulu l'<seg rend="italic">impossible</seg>... je le possède... C'est-à-dire non, je ne le posséderai jamais!...</p>
+        <p>-- Je suis <seg rend="italic"
+          >amoureux</seg> d'un homme et non pas d'une femme! répliqua-t-elle, tandis que ses yeux assombris se détournaient des yeux brillants de l'Antinoüs. On ne m'a pas aimée assez pour que j'aie pu désirer reproduire un être à l'image de l'époux... et on ne m'a pas donné assez de jouissances pour que mon cerveau n'ait pas eu le loisir de chercher mieux...</p>
+        <p>...J'ai voulu l'<seg rend="italic"
+          >impossible</seg>... je le possède... C'est-à-dire non, je ne le posséderai jamais!...</p>
         <p>Une larme, dont la clarté humide devait avoir ravi des lueurs aux Edens d'antan, coula sur la joue de Raoule. Quant à de Raittolbe, il ouvrit les bras et les agita en signe de complet désespoir.</p>
-        <p>-- Elle est <seg rend="italic">amoureux</seg> d'un... hom...me! Dieux immortels! s'exclama-t-il, prenez pitié de moi! Je crois que ma cervelle s'écroule!</p>
-        <p>Il y eut un moment de silence; puis, très lentement, très naturellement, Raoule lui raconta sa première entrevue avec Jacques Silvert, de quelle façon le caprice avait pris les proportions d'une passion fougueuse, et de quelle façon elle avait acheté un être qu'elle méprisait comme homme et adorait comme <seg rend="italic">beauté</seg>. (Elle disait: beauté, ne pouvant pas dire: <seg rend="italic">femme</seg>.)</p>
+        <p>-- Elle est <seg rend="italic"
+          >amoureux</seg> d'un... hom...me! Dieux immortels! s'exclama-t-il, prenez pitié de moi! Je crois que ma cervelle s'écroule!</p>
+        <p>Il y eut un moment de silence; puis, très lentement, très naturellement, Raoule lui raconta sa première entrevue avec Jacques Silvert, de quelle façon le caprice avait pris les proportions d'une passion fougueuse, et de quelle façon elle avait acheté un être qu'elle méprisait comme homme et adorait comme <seg
+            rend="italic">beauté</seg>. (Elle disait: beauté, ne pouvant pas dire: <seg
+            rend="italic">femme</seg>.)</p>
         <p>-- Un homme de ce calibre peut-il exister? balbutia le baron abasourdi, entraîné dans une région inconnue où l'interversion semblait être le seul régime admis.</p>
         <p>-- Il existe, mon ami, et ce n'est pas même un hermaphrodite, pas même un impuissant, c'est un beau mâle de vingt et un ans, dont l'âme aux instincts féminins s'est trompée d'enveloppe.</p>
         <p>-- Je vous crois, Raoule, je vous crois! et vous ne serez pas sa maîtresse? demanda encore le viveur, persuadé que l'aventure ne devait pas avoir d'autre issue.</p>
@@ -551,17 +631,22 @@
         <p>Ils avaient achevé de dîner. Ils repoussèrent la table, qu'un domestique vint enlever discrètement; puis, côte à côte, ils s'étendirent sur le divan, ayant chacun une cigarette turque à la bouche.</p>
         <p>De Raittolbe ne pensait pas à la robe de Raoule, et Raoule ne s'occupait pas du tout des moustaches du jeune officier.</p>
         <p>-- Ainsi, vous l'entretiendrez? interrogea le baron d'un ton très dégagé.</p>
-        <p>-- Jusqu'à me ruiner! Je veux qu'<seg rend="italic">elle</seg> soit heureuse comme <seg rend="italic">le filleul</seg> d'un roi!</p>
-        <p>-- Tâchons de nous entendre! Si je suis le confident en titre, mon cher ami, adoptons <seg rend="italic">il</seg> ou <seg rend="italic">elle</seg>, afin que je ne perde pas le peu de bon sens qui me reste.</p>
+        <p>-- Jusqu'à me ruiner! Je veux qu'<seg rend="italic">elle</seg> soit heureuse comme <seg
+            rend="italic">le filleul</seg> d'un roi!</p>
+        <p>-- Tâchons de nous entendre! Si je suis le confident en titre, mon cher ami, adoptons <seg
+            rend="italic">il</seg> ou <seg rend="italic"
+          >elle</seg>, afin que je ne perde pas le peu de bon sens qui me reste.</p>
         <p>-- Soit: <seg rend="italic">Elle</seg>.</p>
         <p>-- Et la sœur?</p>
         <p>-- Une servante, rien de plus!</p>
-        <p>-- Si l'ancien fleuriste a eu des amourettes, <seg rend="italic">elle</seg> pourra en avoir de nouvelles?...</p>
+        <p>-- Si l'ancien fleuriste a eu des amourettes, <seg rend="italic"
+          >elle</seg> pourra en avoir de nouvelles?...</p>
         <p>-- ... Le haschich...</p>
         <p>-- Diable! Cela se complique. Et si, par extraordinaire, le haschich ne suffisait pas?</p>
         <p>-- Je la tuerais!</p>
         <p>Sur ce mot, de Raittolbe alla prendre un livre, au hasard, et éprouva le besoin étrange de se faire une lecture à haute voix. Tout à coup, les fumées du champagne aidant, il lui sembla voir Raoule, vêtue du pourpoint de Henri III, offrant une rose à l'Antinoüs. Ses oreilles bourdonnèrent, ses tempes battirent; puis, s'étranglant sur les lignes qui dansaient devant lui, il débita des énormités à faire dresser les cheveux à tous les hussards de France.</p>
-        <p>-- Taisez-vous! murmura Mlle de Vénérande rêveuse. Laissez-moi donc la chasteté de mes pensées quand je pense à <seg rend="italic">elle</seg>!</p>
+        <p>-- Taisez-vous! murmura Mlle de Vénérande rêveuse. Laissez-moi donc la chasteté de mes pensées quand je pense à <seg
+            rend="italic">elle</seg>!</p>
         <p>De Raittolbe se secoua. Il vint serrer la main de Raoule.</p>
         <p>-- Adieu, fit-il doucement. Si je ne me suis pas brûlé la cervelle, demain matin nous irons la voir ensemble.</p>
         <p>-- Votre amitié triomphera, mon ami. Du reste, on ne peut pas aimer d'amour Raoule de Vénérande!...</p>
@@ -578,15 +663,18 @@
         <p>Il s'était confectionné une cravate de soie en arrachant une des embrasses de ses rideaux, et, les joues fraîches, les yeux clairs, il demeurait là, très confus de cette visite. Les rêves fabuleux du haschich, en passant par son organisation primitive, l'avaient entouré d'une pudeur gauche, d'un embarras de lui-même qui se révélaient dans tous ses gestes. On devinait à la langueur de sa pose que ces rêves hantaient son cerveau, le laissant incertain sur la réalité de l'existence féerique qu'on lui faisait mener.</p>
         <p>Raoule, cavalièrement, lui frappa sur l'épaule.</p>
         <p>-- Jacques, dit-elle, je vous présente un de mes amis. Il est amateur de bons dessins, vous pouvez lui montrer les vôtres.</p>
-        <p>De Raittolbe, sanglé dans un costume de cheval, portant un faux-col d'ordonnance, reniflait de mauvaise grâce. En entrant, il avait dit: <seg rend="italic">Peste</seg>! à cause de la somptuosité de l'appartement.</p>
+        <p>De Raittolbe, sanglé dans un costume de cheval, portant un faux-col d'ordonnance, reniflait de mauvaise grâce. En entrant, il avait dit: <seg
+            rend="italic">Peste</seg>! à cause de la somptuosité de l'appartement.</p>
         <p>-- Oui, mâchonna-t-il, scandalisé maintenant par la beauté trop réelle du fleuriste, j'ai dessiné aussi, mais sur des cartes d'état-major! Monsieur est peintre de fleurs?...</p>
         <p>Jacques, de plus en plus troublé, jeta un regard de reproche à Mlle de Vénérande.</p>
-        <p>-- J'ai fait des moutons, faut-il les sortir? demanda-t-il sans répondre directement au baron, dont la cravache le gênait. Cette soumission inattendue fit frémir Raoule de tout son corps. Elle ne put qu'acquiescer d'un signe de tête. Pendant qu'il allait chercher ses cartons, Marie Silvert, drapée dans une jupe à volants, la mine haute, l'œil cynique, entra par la porte de la chambre à coucher. Elle avait aux doigts des bagues en chrysocale ornées de pierres fausses. Elle s'arrêta court devant de Raittolbe et, oubliant la présence <seg rend="italic">sacrée</seg> de la maîtresse de la maison, elle s'écria:</p>
+        <p>-- J'ai fait des moutons, faut-il les sortir? demanda-t-il sans répondre directement au baron, dont la cravache le gênait. Cette soumission inattendue fit frémir Raoule de tout son corps. Elle ne put qu'acquiescer d'un signe de tête. Pendant qu'il allait chercher ses cartons, Marie Silvert, drapée dans une jupe à volants, la mine haute, l'œil cynique, entra par la porte de la chambre à coucher. Elle avait aux doigts des bagues en chrysocale ornées de pierres fausses. Elle s'arrêta court devant de Raittolbe et, oubliant la présence <seg
+            rend="italic">sacrée</seg> de la maîtresse de la maison, elle s'écria:</p>
         <p>-- Dieu! Quel garçon chic!</p>
         <p>Jacques pouffa de rire, le baron ahuri ouvrit la bouche toute grande et Raoule lança un éclair terrible.</p>
         <p>-- Ma chère, vous feriez bien de garder vos admirations pour vous, déclara l'ex-officier, désignant Jacques. Il y a ici des gens à qui cela pourrait donner des mauvaises pensées!...</p>
         <p>Cette plaisanterie, d'un goût douteux, était pour le frère, mais la sœur crut qu'elle s'adressait à Raoule.</p>
-        <p>Marie Silvert se fit très humble, prétendant qu'elle n'avait pas été élevée aux <seg rend="italic">oiseaux</seg>.</p>
+        <p>Marie Silvert se fit très humble, prétendant qu'elle n'avait pas été élevée aux <seg
+            rend="italic">oiseaux</seg>.</p>
         <p>-- Il est nécessaire, dit Raoule, hautaine, de vous procurer, puisque vous allez mieux, une chambre à côté de l'atelier. Ce sera plus commode pour... Jacques!...</p>
         <p>-- Mademoiselle sera contentée tout de suite. Je sais bien qu'une servante n'est pas à sa place avec les bourgeois. J'ai loué, hier, un cabinet sur le palier et j'y ai mis un méchant lit de fer.</p>
         <p>Jacques n'entendit pas. Il décrochait le tableau des moutons, et la fille se retira à reculons, en répétant à voix basse:</p>
@@ -597,12 +685,15 @@
         <p>-- Jacques, interrogea Raoule, tu n'as plus la fièvre?...</p>
         <p>Il posa la cigarette immédiatement et devint rouge. Alors, elle expliqua à de Raittolbe que, si elle tutoyait Silvert, c'est qu'elle était son aînée et que, d'ailleurs, l'atelier tolère cette sorte de familiarité entre artistes. Le baron opina du bonnet. Après tout, puisqu'on voyageait dans la lune... Le cadre de cette idylle monstrueuse était si sincèrement asiatique, la misère de cette passion infâme était si adroitement dorée, on avait cloué un tapis si épais sur la boue que, lui, le viveur, n'était pas trop fâché d'effleurer ces choses navrantes du bout de sa cravache!.....</p>
         <p>Il se compromettait, du reste, la fille de joie et l'amant de cœur à part, en excellente société.</p>
-        <p>De Raittolbe, bien qu'il eût été jusque-là un honnête homme, <seg rend="italic">avait le siècle</seg>, infirmité qu'il est impossible d'analyser autrement que par cette seule phrase.</p>
+        <p>De Raittolbe, bien qu'il eût été jusque-là un honnête homme, <seg rend="italic"
+            >avait le siècle</seg>, infirmité qu'il est impossible d'analyser autrement que par cette seule phrase.</p>
         <p>Il aurait préféré de beaucoup posséder Raoule par autre chose que par les secrets de sa vie privée; mais enfin, une belle maîtresse n'est pas rare, tandis qu'on n'a pas toujours l'occasion de faire, sur le vif, l'étude d'une dépravation nouvelle.</p>
         <p>Peu à peu, la conversation s'anima. Jacques se laissait gagner par la franchise du baron; il eut des mots drôles et en vint aux confidences.</p>
         <p>-- Je parie que ce gamin qui n'a pas la taille pour être soldat nous a eu, en revanche, des grosses histoires de femmes?..... risqua de Raittolbe, clignant de l'œil.</p>
         <p>-- Avec sa frimousse! Sans doute!..... ajouta Raoule, qui pétrissait un de ses gants sous ses doigts nerveux.</p>
-        <p>-- Oh! non..., je vous jure, fit Jacques un peu étonné qu'on lui posât une pareille question dans un pareil lieu. Si j'ai couché dix fois <seg rend="italic">dehors</seg> (et il rendit à de Raittolbe son clignement d'yeux), c'est bien tout, allez!...</p>
+        <p>-- Oh! non..., je vous jure, fit Jacques un peu étonné qu'on lui posât une pareille question dans un pareil lieu. Si j'ai couché dix fois <seg
+            rend="italic"
+          >dehors</seg> (et il rendit à de Raittolbe son clignement d'yeux), c'est bien tout, allez!...</p>
         <p>Raoule se leva pour corriger l'esquisse du bouquet bleu.</p>
         <p>-- Pas d'amourette? Pas d'intrigue? appuya le baron.</p>
         <p>-- Il n'est permis d'être amoureux qu'aux riches! murmura le fleuriste dont la gaieté tomba subitement.</p>
@@ -618,7 +709,8 @@
         <p>-- Et je te défends d'adresser la parole à un homme ici sans ma permission.</p>
         <p>Jacques, stupéfait, demeurait immobile, gardant son sourire bête.</p>
         <p>Soudain, elle se jeta sur lui, le coucha à ses pieds avant qu'il ait eu le temps de lutter; puis, prenant son cou que le veston de molleton blanc laissait décolleté, elle lui enfonça ses ongles dans les chairs.</p>
-        <p>-- Je suis <seg rend="italic">jaloux</seg>! rugit-elle affolée. As-tu compris à présent?...</p>
+        <p>-- Je suis <seg rend="italic"
+          >jaloux</seg>! rugit-elle affolée. As-tu compris à présent?...</p>
         <p>Jacques ne bougeait pas, il avait posé ses deux poings crispés, dont il ne voulait pas se servir, sur ses yeux humides.</p>
         <p>En sentant qu'elle lui faisait mal, les nerfs de Raoule se détendirent.</p>
         <p>-- Tu dois t'apercevoir, dit-elle ironiquement, que je n'ai pas, comme toi, des mains de fleuriste et que, de nous deux, le plus homme c'est toujours moi?</p>
@@ -642,13 +734,15 @@
         <p>Jacques se tordit avec un cri d'amoureuse douleur.</p>
         <p>-- Oh! que c'est bon! soupira-t-il, se raidissant entre les bras de sa farouche dominatrice; je ne veux pas savoir autre chose! Raoule, tu m'aimeras comme il te plaira de m'aimer, pourvu que tu me caresses toujours ainsi!</p>
         <p>Les lambrequins de l'atelier étaient baissés. Le bruit des omnibus et des voitures passant dans la rue s'affaiblissait à travers le double vitrage; on ne percevait plus qu'un grondement sourd pareil au grondement d'un train express. Près du grand lit de repos contre lequel Raoule avait jeté Jacques régnait un demi-jour d'alcôve, et les coussins, entassés derrière eux, formaient comme la stalle capitonnée d'un compartiment de première classe...; ils étaient seuls, emportés dans un effrayant vertige qui changeait toutes choses de place...; ils couraient à des abîmes insondables et se croyaient en sûreté aux bras l'un de l'autre.</p>
-        <p>-- Jacques, répondit Raoule, j'ai fait de notre amour <seg rend="italic">un dieu</seg>. Notre amour sera éternel..... Mes caresses ne se lasseront jamais!...</p>
+        <p>-- Jacques, répondit Raoule, j'ai fait de notre amour <seg rend="italic"
+          >un dieu</seg>. Notre amour sera éternel..... Mes caresses ne se lasseront jamais!...</p>
         <p>-- Est-il donc vrai que tu me trouves beau? que tu me trouves digne de toi, la plus belle des femmes?...</p>
         <p>-- Tu es si beau, chère créature, que tu es plus belle que moi! Regarde là-bas, dans la glace penchée, ton cou blanc et rose, comme un cou d'enfant!... Regarde ta bouche merveilleuse, comme la blessure d'un fruit mûri au soleil! Regarde la clarté que distillent tes yeux profonds et purs comme le jour tout entier... Regarde!...</p>
         <p>Elle l'avait un peu relevé en écartant, de ses doigts fiévreux, ses vêtements sur sa poitrine.</p>
         <p>-- Ignores-tu, Jacques, ignores-tu que la chair fraîche et saine est l'unique puissance de ce monde!...</p>
         <p>Il tressaillit. Le mâle s'éveilla brusquement dans la douceur de ces paroles prononcées très bas.</p>
-        <p>Elle ne le frappait plus, elle ne l'achetait plus, elle le flattait, et l'homme, si abject qu'il puisse être, possède toujours, à un moment de révolte, cette virilité d'une heure qu'on appelle <seg rend="italic">la fatuité</seg>.</p>
+        <p>Elle ne le frappait plus, elle ne l'achetait plus, elle le flattait, et l'homme, si abject qu'il puisse être, possède toujours, à un moment de révolte, cette virilité d'une heure qu'on appelle <seg
+            rend="italic">la fatuité</seg>.</p>
         <p>-- Tu m'as prouvé, fit-il serrant sa taille avec un sourire hardi, tu m'as prouvé, en effet, que je n'avais pas à rougir devant toi. Raoule, le lit bleu nous attend, viens!...</p>
         <p>Un nuage descendit des cheveux de Raoule à son front plissé.</p>
         <p>-- Soit..., mais à une condition, Jacques? Tu ne seras pas mon amant...</p>
@@ -664,10 +758,12 @@
         <p>-- Tu ne t'en iras pas, Jacques. Tu t'es livré, tu ne peux pas te reprendre! Oublies-tu que nous nous aimons?.....</p>
         <p>Cet amour, maintenant, était presque une menace; aussi il lui tourna le dos, la boudant.</p>
         <p>Mais elle vint, par derrière, elle l'enlaça de ses deux bras lascifs.</p>
-        <p>-- Pardon! murmura-t-elle, moi, j'oubliais que tu es une petite femme capricieuse qui a le droit, <seg rend="italic">chez elle</seg>, de me torturer.</p>
+        <p>-- Pardon! murmura-t-elle, moi, j'oubliais que tu es une petite femme capricieuse qui a le droit, <seg
+            rend="italic">chez elle</seg>, de me torturer.</p>
         <p>Allons!... je ferai ce que tu voudras.....</p>
         <p>Ils gagnèrent la chambre bleue, lui, abasourdi par la rage qu'elle avait d'exiger l'impossible; elle, le regard froid, les dents incrustées dans sa lèvre fine. Ce fut elle qui se déshabilla, se refusant à toutes ses avances et lui donnant des trépignements horribles... Sans aucune coquetterie, elle ôta sa robe, son corset, puis elle détacha les rideaux, l'empêchant de s'extasier devant sa splendide stature d'amazone. Lorsqu'il l'embrassa, il lui sembla qu'un corps de marbre glissait entre les draps; il eut la sensation désagréable d'un frôlement de bête morte tout le long de ses membres chauds.</p>
-        <p>-- Raoule, supplia-t-il, ne m'appelle plus <seg rend="italic">femme</seg>, cela m'humilie... et tu vois bien que je ne puis être que ton amant...</p>
+        <p>-- Raoule, supplia-t-il, ne m'appelle plus <seg rend="italic"
+          >femme</seg>, cela m'humilie... et tu vois bien que je ne puis être que ton amant...</p>
         <p>La blasée eut, sur les oreillers, un imperceptible mouvement d'épaule qui témoignait de sa complète indifférence.</p>
         <p>-- Raoule, répéta encore Jacques, essayant d'animer par des baisers furieux la bouche, naguère si ardente, de celle qu'il croyait sa maîtresse. Raoule! ne me méprise pas, je t'en conjure... Nous nous aimons, tu l'as dit toi-même... Ah! je deviens fou... je me sens mourir... Il y a des choses que je ne ferai jamais... jamais... Avant de t'avoir à moi toute et de tout cœur!</p>
         <p>Les yeux de Raoule se fermèrent. Elle connaissait ce jeu-là, elle savait, mot à mot, ce que la nature dirait par la voix de Jacques...</p>
@@ -691,7 +787,9 @@
         <p>C'est ce que Jacques ne demandait pas.</p>
         <p>Un jour, on était à la fin de mai, Raoule commanda un landau couvert et elle alla chercher Jacques pour l'heure du Bois.</p>
         <p>Il fut joyeux comme un écolier en vacances, mais il profita très discrètement de cette faveur bizarre. Il resta couché au fond de la voiture, tout près d'elle, la tête abandonnée sur son épaule, répétant de ces bêtises adorables qui rendaient sa beauté plus provocante encore.</p>
-        <p>Raoule, de l'index, lui indiquait, à travers la glace relevée, les principaux personnages passant près d'eux. Elle lui expliquait les termes de <seg rend="italic" xml:lang="English">high-life</seg> qu'elle employait et le mettait au courant d'une société dont l'accès lui paraissait défendu, à lui, pauvre monstre sans conscience.</p>
+        <p>Raoule, de l'index, lui indiquait, à travers la glace relevée, les principaux personnages passant près d'eux. Elle lui expliquait les termes de <seg
+            rend="italic" xml:lang="English"
+          >high-life</seg> qu'elle employait et le mettait au courant d'une société dont l'accès lui paraissait défendu, à lui, pauvre monstre sans conscience.</p>
         <p>-- Ah! disait-il souvent, se serrant contre elle avec effroi, tu te marieras, un jour, et tu me quitteras! Ce qui donnait à son type si frais, si blond, la grâce attendrissante du tendron séduit, en revoyant la possibilité de l'oubli.</p>
         <p>-- Non, je ne me marierai pas! affirmait Raoule. Non, je ne vous quitterai point, Jaja, et, si vous êtes sage, vous serez toujours mienne!...</p>
         <p>Ils riaient tous les deux, mais ils s'unissaient de plus en plus dans une pensée commune: la destruction de leur sexe.</p>
@@ -705,7 +803,8 @@
         <p>-- Allons donc! petite folle! Parce que j'entre chez toi sans sonner?</p>
         <p>Il lui tendit les bras et elle le couvrit de baisers passionnés, pour ne cesser que lorsqu'elle le vit se pâmer, n'en pouvant plus, implorant les dernières réalisations d'une volupté factice qu'il subissait autant par besoin d'apaisement que par amour vis-à-vis de la sinistre courtisane.</p>
         <p>Il s'habitua au déguisement nocturne, ne pensant pas qu'une robe fût indispensable à Raoule de Vénérande.</p>
-        <p>Ayant une idée fort vague de <seg rend="italic">la haute</seg>, selon l'expression si souvent répétée de sa sœur, il ne songeait pas du tout aux efforts d'imagination que Raoule devait faire pour sortir de la cour d'honneur de son hôtel sans qu'on la remarquât.</p>
+        <p>Ayant une idée fort vague de <seg rend="italic"
+          >la haute</seg>, selon l'expression si souvent répétée de sa sœur, il ne songeait pas du tout aux efforts d'imagination que Raoule devait faire pour sortir de la cour d'honneur de son hôtel sans qu'on la remarquât.</p>
         <p>Tante Élisabeth dormait dès huit heures les soirs où il n'y avait pas de réception, mais après le thé du samedi tous les domestiques allaient et venaient du vestibule au salon. De sorte que Raoule, pour fuir sa chambre par l'escalier de service, devait prendre les plus minutieuses précautions. Cependant, une fois, on venait à peine d'éteindre le grand lustre du salon, Raoule descendant rencontra un homme allumant son cigare. Rétrograder c'était perdre l'occasion, et sortir était risquer de se trahir... Elle continua, passa près de l'homme, qui toucha le bord de son chapeau, non sans l'examiner attentivement.</p>
         <p>-- Deux mots, monsieur, murmura l'attardé en lui touchant l'épaule. Pourriez-vous me donner du feu?</p>
         <p>Raoule avait reconnu de Raittolbe.</p>
@@ -794,7 +893,9 @@
         <p>Pour attendre le déjeuner, elle fit assaut avec un de ses cousins, gommeux stupide, mais très bien sous les armes, puis discuta avec sa tante à l'occasion d'un voyage projeté. Il fallait partir de suite, devancer la saison des eaux. A cette intention, la chanoinesse opposait des visites de charité à terminer, des comptes de fermage à régler, un cuisinier à remplacer. La fortune est parfois bien gênante, la société fort ennuyeuse, le monde rempli de tribulations.</p>
         <p>Cependant, la nouvelle Sapho ne pouvait encore faire le saut de Leucade. Une douleur lancinante, venue du plus profond de sa chair, l'avertissait que sa déité tenait toujours à un être périssable. Comme les inventeurs qu'un obstacle arrête au dernier perfectionnement de l'œuvre, elle espérait, malgré la boue, voir dans les yeux brillants de Jacques un autre coin de son ciel qu'elle repeuplerait de chimères.</p>
         <p>Trois jours se passèrent. Jacques n'écrivit pas. Marie ne vint pas. Quant à de Raittolbe, il garda une neutralité absolue. Raoule, qu'exaspérait l'incertitude, revêtit un soir son costume d'homme et courut au boulevard Montparnasse. En entrant, elle croisa Marie Silvert. Celle-ci la salua avec un sourire obséquieux et se retira, sans rien laisser percer dans son attitude qui fît allusion à ce qui s'était passé entre elles. Jacques exécutait des initiales ornées sur du papier à lettre. C'était une commande de Raoule payée d'avance en baisers très chauds.</p>
-        <p>Un calme délicieux régnait dans l'atelier et la clarté de la lampe, dont l'abat-jour était baissé, n'éclairait que l'adorable figure de Jacques. Certes, ce n'était point là le masque d'un individu abject; tout dans ses traits respirait plutôt la candeur d'<seg rend="italic">un</seg> vierge pensant à la prêtrise. Un peu inquiet à la vue de Raoule, il posa son crayon et se leva.</p>
+        <p>Un calme délicieux régnait dans l'atelier et la clarté de la lampe, dont l'abat-jour était baissé, n'éclairait que l'adorable figure de Jacques. Certes, ce n'était point là le masque d'un individu abject; tout dans ses traits respirait plutôt la candeur d'<seg
+            rend="italic"
+          >un</seg> vierge pensant à la prêtrise. Un peu inquiet à la vue de Raoule, il posa son crayon et se leva.</p>
         <p>-- Jacques, dit Raoule tranquillement, tu es un lâche, mon ami!</p>
         <p>Jacques retomba sur son fauteuil, une pâleur mate s'épandit de son front à son cou.</p>
         <p>-- Les expressions de ta sœur, l'autre nuit, ont été grossières, mais justes.</p>
@@ -896,7 +997,8 @@
         <p>-- Toi, mon gros, un imbécile! fit Marie scandalisée.</p>
         <p>-- Mordieu! reprit l'ex-officier, je viens de me conduire comme un brutal et non comme un justicier.</p>
         <p>-- Qu'as-tu fait? interrogea la fille, lâchant sa tasse.</p>
-        <p>-- J'ai fait, j'ai fait, mille millions de diables! j'ai rossé <seg rend="italic">Mademoiselle</seg> ton frère, et cela sans m'en douter, tant j'en avais envie depuis quelques semaines.</p>
+        <p>-- J'ai fait, j'ai fait, mille millions de diables! j'ai rossé <seg rend="italic"
+            >Mademoiselle</seg> ton frère, et cela sans m'en douter, tant j'en avais envie depuis quelques semaines.</p>
         <p>-- Tu l'as battu?</p>
         <p>-- Corrigé d'importance!</p>
         <p>-- Pourquoi?</p>
@@ -912,8 +1014,13 @@
         <p>Il se rendit à pied rue d'Antin où il avait un entresol, et, arrivé dans son fumoir, s'enferma pour écrire à Mlle de Vénérande.</p>
         <p>Dès le début de sa lettre, la plume lui glissa des doigts. Loyalement, il ne pouvait lui laisser ignorer la cause de sa brutalité; d'autre part, se disait-il, en vertu de quel droit vais-je m'interposer entre les hontes mutuelles de ces deux amants? Si Raoule voulait épouser Silvert, le scandale ne concernerait qu'elle; le devoir ne lui incombait pas de veiller sur l'honneur de cette femme.</p>
         <p>Il avait déjà déchiré trois feuilles, à peine commencées, quand soudain, se rappelant le trou percé par Marie dans le mur séparant du monde entier les amours dont il venait de cravacher la moitié, il se sentit tellement coupable qu'il répudia toute pensée d'accuser personne.</p>
-        <p>Il se contenta donc de révéler à Raoule la situation exacte de cette ouverture pratiquée sur sa vie privée, avoua que, pour <seg rend="italic">calmer</seg> l'humeur dangereuse de Mlle Silvert, il avait cru nécessaire de céder <seg rend="italic">à sa fantaisie</seg>, que l'admiration de celle-ci pour sa personne augmentant dans d'inquiétantes proportions, il allait prendre le parti de lui envoyer, en guise d'adieu, un billet de banque et ne remettrait plus les pieds à l'atelier du boulevard Montparnasse.</p>
-        <p>Il terminait en déplorant <seg rend="italic">l'accès de vivacité</seg> dont Jacques avait été victime.</p>
+        <p>Il se contenta donc de révéler à Raoule la situation exacte de cette ouverture pratiquée sur sa vie privée, avoua que, pour <seg
+            rend="italic"
+            >calmer</seg> l'humeur dangereuse de Mlle Silvert, il avait cru nécessaire de céder <seg
+            rend="italic"
+          >à sa fantaisie</seg>, que l'admiration de celle-ci pour sa personne augmentant dans d'inquiétantes proportions, il allait prendre le parti de lui envoyer, en guise d'adieu, un billet de banque et ne remettrait plus les pieds à l'atelier du boulevard Montparnasse.</p>
+        <p>Il terminait en déplorant <seg rend="italic"
+          >l'accès de vivacité</seg> dont Jacques avait été victime.</p>
         <p>Raoule devait rester peu de temps chez la duchesse d'Armonville, elle ne faisait que de courtes absences de Paris, sacrifiant à ses amours les voyages d'été prescrits par les usages mondains; cependant, le baron n'oublia pas sur sa lettre cette mention: «Faire suivre.» Puis, la conscience tranquillisée, il reprit son train de vie habituel.</p>
         <p>Jacques n'ignorait pas l'adresse de Raoule, mais la pensée de se plaindre ne lui vint pas. Il prit simplement un bain et évita toute explication avec sa sœur. Jacques, dont le corps était un poème, savait que ce poème serait toujours lu avec plus d'attention que la lettre d'un vulgaire écrivain comme lui. Cet être singulier avait acquis au contact d'une femme aimée toutes les sciences féminines.</p>
         <p>Malgré son silence, Marie s'étonna de lui voir une balafre sur la joue.</p>
@@ -980,13 +1087,15 @@
         <p>Jacques se tordait, perdant son sang par de véritables entailles que Raoule ouvrait davantage avec un raffinement de sadique plaisir. Toutes les colères de la nature humaine, qu'elle avait essayé de réduire à néant dans son être métamorphosé, se réveillaient à la fois, et la soif de ce sang qui coulait sur des membres tordus remplaçait maintenant tous les plaisirs de son féroce amour...</p>
         <p>...Immobile, l'oreille toujours collée au mur de sa chambre, Marie Silvert tâchait d'entendre ce qui se passait; soudain, elle perçut une exclamation déchirante.</p>
         <p>-- Au secours! Je souffre! Marie, au secours!</p>
-        <p>Elle fut glacée jusqu'aux moelles et, comme c'était une <seg rend="italic">vraie femme</seg>, selon le mot de de Raittolbe, elle n'hésita pas à courir du côté de la tuerie...</p>
+        <p>Elle fut glacée jusqu'aux moelles et, comme c'était une <seg rend="italic"
+            >vraie femme</seg>, selon le mot de de Raittolbe, elle n'hésita pas à courir du côté de la tuerie...</p>
       </div>
       <div>
         <head>CHAPITRE X</head>
         <p>A L'OCCASION du Grand Prix, l'hôtel de Vénérande donnait tous les ans une fête, à laquelle, en dehors du cercle intime, on conviait quelques nouvelles connaissances.</p>
         <p>Moins cérémonieuse peut-être que les soirées où l'on prenait une simple tasse de thé, cette fête réunissait autour de la chanoinesse Élisabeth des gens non titrés et des artistes amateurs.</p>
-        <p>Depuis que Raoule était revenue de chez la duchesse d'Armonville, une tristesse morne ne la quittait pas, comme si, durant l'un des derniers orages qui s'étaient abattus sur Paris, son cerveau eût reçu une commotion terrible; pourtant, à l'approche de ce bal, elle sortit peu à peu de sa torpeur. Sa tante avait bien remarqué son allure soucieuse, mais sans en chercher l'explication; d'abord parce que l'explication de l'humeur de Raoule n'était pas dans l'ordre de ses dévotions quotidiennes, ensuite parce qu'elle comptait sur la fête en question, toujours très animée, pour distraire l'esprit changeant de <seg rend="italic">son neveu</seg>.</p>
+        <p>Depuis que Raoule était revenue de chez la duchesse d'Armonville, une tristesse morne ne la quittait pas, comme si, durant l'un des derniers orages qui s'étaient abattus sur Paris, son cerveau eût reçu une commotion terrible; pourtant, à l'approche de ce bal, elle sortit peu à peu de sa torpeur. Sa tante avait bien remarqué son allure soucieuse, mais sans en chercher l'explication; d'abord parce que l'explication de l'humeur de Raoule n'était pas dans l'ordre de ses dévotions quotidiennes, ensuite parce qu'elle comptait sur la fête en question, toujours très animée, pour distraire l'esprit changeant de <seg
+            rend="italic">son neveu</seg>.</p>
         <p>Mlle de Vénérande daigna, en effet, surveiller et diriger les préparatifs. Elle déclara qu'on ouvrirait le salon du centre, ainsi que la pièce attenante à la serre où les fleurs exotiques, à l'éblouissante clarté du magnésium, apparaîtraient dans tout l'éclat de leurs véritables nuances. Raoule n'admettait pas qu'on pût donner un bal pour l'unique et monotone plaisir de réunir beaucoup de monde. Il lui fallait en plus l'attrait d'une originalité quelconque à offrir à ses invités.</p>
         <p>En face la serre, dans la galerie de tableaux, un buffet, monté sur colonnettes de cristal, offrirait aux sportmen les plus altérés par la poussière de Longchamps une inépuisable fontaine de Roederer.</p>
         <p>Raoule, en soumettant les invitations à sa tante, lui dit d'un ton dégagé:</p>
@@ -1115,10 +1224,16 @@
         <p>L'étrange créature, lorsqu'elle abandonnait le domaine de la passion et cessait de courir trop en avant de son siècle, revenait alors, tout à fait en arrière, à l'époque où les châtelaines refusaient de baisser la herse pour les troubadours mal mis.</p>
         <p>Raoule portait, ce soir-là, une robe de gaze blanche vaporeuse, à traîne de cour, sans un bijou, sans une fleur. Un caprice bizarre lui avait fait lacer sur ses épaules décolletées une cuirasse de mailles d'or, d'une finesse telle qu'on eût cru son buste coulé dans un métal liquide.</p>
         <p>Pour détacher la ligne de chair de la ligne du tissu, un cordon de brillants serpentait et les cheveux noirs, relevés en casque grec, étaient piqués d'un croissant de diamant à pointes phosphorescentes comme des rayons de lune. La superbe Diane semblait marcher sur un nuage; sa tête, au profil pur, dominait l'assistance et ce n'était pas sans une admiration anxieuse qu'on osait intercepter son regard strié d'étincelles. La chanoinesse, elle, s'enveloppait pudiquement d'un suaire de dentelles qui voilait une robe de couleur pensée. Son petit visage doux, parcheminé, aux yeux d'un bleu de ciel pâle, s'abritait sous le blason de son fauteuil, tandis qu'au contraire ce blason semblait craquer sous l'effort puissant du bras de Raoule.</p>
-        <p>A leur droite, se groupaient le cousin René, spécimen rare de la haute gomme sportive, expliquant, à qui voulait l'entendre, comment <seg rend="italic">Simbad le marin</seg> avait gagné d'une longueur et pourquoi cette année le <seg rend="italic">maillot</seg> de soie d'or était divinement porté... De Raittolbe, sévère, son masque de Slave impénétrable, songeant à la Gorgone antique lorsqu'il regardait Mlle de Vénérande. Puis le vieux marquis de Sauvarès, sautillant comme un gros oiseau de nuit aveuglé par la lumière crue, tout en couvant de ses yeux ternes, avivés parfois d'un éclair de lubricité, l'épaule ronde de sa filleule Raoule.</p>
+        <p>A leur droite, se groupaient le cousin René, spécimen rare de la haute gomme sportive, expliquant, à qui voulait l'entendre, comment <seg
+            rend="italic"
+            >Simbad le marin</seg> avait gagné d'une longueur et pourquoi cette année le <seg
+            rend="italic"
+          >maillot</seg> de soie d'or était divinement porté... De Raittolbe, sévère, son masque de Slave impénétrable, songeant à la Gorgone antique lorsqu'il regardait Mlle de Vénérande. Puis le vieux marquis de Sauvarès, sautillant comme un gros oiseau de nuit aveuglé par la lumière crue, tout en couvant de ses yeux ternes, avivés parfois d'un éclair de lubricité, l'épaule ronde de sa filleule Raoule.</p>
         <p>Autour d'eux murmurait un essaim de femmes en toilettes exquises, s'entretenant avec une persistance dont s'agaçaient les hommes, des exploits de John Mare, le jockey vainqueur.</p>
         <p>On reconnaissait dans la foule les artistes amateurs à leurs déplacements perpétuels formant remous auprès des traînes de tulle ou de dentelles, évolution ayant pour but de se rapprocher de telle ou telle étoile reconnue.</p>
-        <p>Quant aux véritables artistes, ils opéraient, mais en sens inverse, les mêmes déplacements, en sorte que le salon se transformait par instant en un autre champ de courses, genre discret. Durant l'une de ces fluctuations, Raoule, dont le regard embrassait tout, fit un signe à de Raittolbe. Celui-ci tressaillit, puis regarda dans la direction que suivait l'index à peine remué de la jeune femme. <seg rend="italic">Il</seg> était là, Martin Durand le poussait avec des gestes virulents:</p>
+        <p>Quant aux véritables artistes, ils opéraient, mais en sens inverse, les mêmes déplacements, en sorte que le salon se transformait par instant en un autre champ de courses, genre discret. Durant l'une de ces fluctuations, Raoule, dont le regard embrassait tout, fit un signe à de Raittolbe. Celui-ci tressaillit, puis regarda dans la direction que suivait l'index à peine remué de la jeune femme. <seg
+            rend="italic"
+          >Il</seg> était là, Martin Durand le poussait avec des gestes virulents:</p>
         <p>-- Mais va donc! malheureux, va!... grommelait-il, il te faut entamer la conversation avec elle, bon gré, mal gré, pendant que j'étudierai ce buste-là. Sacrée noblesse!... Il n'y a qu'elle pour vous tailler des cariatides pareilles. Quel galbe! mes enfants. Quelle poitrine, quelles épaules, quels bras! Je la vois d'ici soutenant le balcon du Louvre restauré. Comme elle vous fige le sang rien qu'en se pliant sur une hanche... Va donc, je te suis...</p>
         <p>Jacques refusait d'avancer; ahuri par les flots de clarté magique de ce salon resplendissant, marchant sur les robes étalées, grisé par les senteurs capiteuses que répandaient ces chevelures poudrées de pierreries, l'ancien ouvrier fleuriste se croyait encore en proie au vertige paradisiaque que lui donnaient les fumées du haschich.</p>
         <p>-- Es-tu nigaud! mon pauvre petit peintre, disait Martin Durand, très vexé d'avoir à constater ce manque d'audace chez un camarade. Un peu d'aplomb, morbleu! dévisage les femmes, bouscule les hommes, tiens, imite-moi... Est-ce que deux gars de notre espèce craignent le feu de la rampe? Ah! voilà M. de Raittolbe; nous sommes sauvés.</p>
@@ -1146,7 +1261,9 @@
         <p>A ce moment, l'orchestre, dissimulé dans une tribune dominant la salle, laissa tomber du haut des frises les préludes d'une valse; des couples s'ébranlèrent, et Raoule, profitant de l'agitation, s'éloigna de sa tante, suivie d'une petite cour. Jacques se pencha vers elle.</p>
         <p>-- Tu es bien belle... glissa-t-il ironiquement, mais je suis sûr que ta robe t'embarrassera pour danser!</p>
         <p>-- Tais-toi, Jacques! supplia Mlle de Vénérande, éperdue, tais-toi! Je croyais t'avoir appris autrement ton rôle d'homme du monde!</p>
-        <p>-- Je ne suis pas un homme! je ne suis pas du monde! riposta Jacques, frémissant d'une rage impuissante; je suis l'animal battu qui revient lécher tes mains! Je suis l'esclave qui aime pendant qu'il amuse! Tu m'as appris à parler pour que je puisse te dire <seg rend="italic">ici</seg> que je t'appartiens!... Inutile de m'épouser, Raoule; on n'épouse pas sa maîtresse, ça ne se fait pas dans tes salons!...</p>
+        <p>-- Je ne suis pas un homme! je ne suis pas du monde! riposta Jacques, frémissant d'une rage impuissante; je suis l'animal battu qui revient lécher tes mains! Je suis l'esclave qui aime pendant qu'il amuse! Tu m'as appris à parler pour que je puisse te dire <seg
+            rend="italic"
+          >ici</seg> que je t'appartiens!... Inutile de m'épouser, Raoule; on n'épouse pas sa maîtresse, ça ne se fait pas dans tes salons!...</p>
         <p>-- Ah! tu m'effrayes!..... maintenant, Jacques! Est-ce ainsi que tu dois te venger? Marie serait-elle morte? Notre amour ne serait-il plus l'amour maudit? N'ai-je pas vu couler ton sang? et serait-il possible de revivre les folies de notre bonheur? Non! ne me parle plus! Ton souffle embaumé de jeune amour me donne la fièvre!...</p>
         <p>De Raittolbe, le plus près d'eux, murmura:</p>
         <p>-- Soyez prudents, on vous épie!...</p>
@@ -1156,12 +1273,15 @@
         <p>-- La cariatide prend des pieds! soupira Martin Durand, navré d'avoir été témoin d'une aussi profanante métamorphose.</p>
         <p>René essayait de rire:</p>
         <p>-- Amusant! très amusant! Excessivement drôle. Ma cousine l'apprivoise pour le mieux dévorer! Un de plus... Quand nous serons à cent, nous ferons une croix! Très amusant!...</p>
-        <p>De Raittolbe les regardait valser d'un œil rêveur. Il valsait bien, ce manant, et son corps souple, aux ondulations féminines, semblait moulé pour cet exercice gracieux. Il ne cherchait pas à soutenir sa danseuse, mais il ne formait avec elle qu'une taille, qu'un buste, qu'un être. A les voir pressés, tournoyants et fondus dans une étreinte où les chairs, malgré leurs vêtements, se collaient aux chairs, on s'imaginait la seule divinité de l'amour en deux personnes, l'individu <seg rend="italic">complet</seg> dont parlent les récits fabuleux des brahmanes, deux sexes distincts en un unique monstre.</p>
+        <p>De Raittolbe les regardait valser d'un œil rêveur. Il valsait bien, ce manant, et son corps souple, aux ondulations féminines, semblait moulé pour cet exercice gracieux. Il ne cherchait pas à soutenir sa danseuse, mais il ne formait avec elle qu'une taille, qu'un buste, qu'un être. A les voir pressés, tournoyants et fondus dans une étreinte où les chairs, malgré leurs vêtements, se collaient aux chairs, on s'imaginait la seule divinité de l'amour en deux personnes, l'individu <seg
+            rend="italic"
+          >complet</seg> dont parlent les récits fabuleux des brahmanes, deux sexes distincts en un unique monstre.</p>
         <p>-- Oui! la chair! pensait-il, la chair fraîche, souveraine puissance du monde. Elle a raison, cette créature pervertie! Jacques aurait beau posséder toutes les noblesses, toutes les sciences, tous les talents, tous les courages, si son teint n'avait pas la pureté du teint des roses, nous ne le suivrions pas ainsi de nos yeux stupides!</p>
         <p>-- Jacques! répétait Raoule, cédant à une griserie de bacchante... Jacques, je t'épouserai, non parce que je redoute les menaces de ta sœur, mais parce que je te veux au grand jour, après t'avoir eu pendant nos mystérieuses nuits. Tu seras ma femme chérie comme tu as été ma maîtresse adorée!</p>
         <p>-- Et tu me reprocheras ensuite de m'être vendu, n'est-ce pas?</p>
         <p>-- Jamais!</p>
-        <p>-- Tu sais que je ne suis pas guéri!... que je suis <seg rend="italic">laide</seg>! A quoi puis-je te servir!... Jaja est abîmé!... Jaja est affreux!—reprenait-il d'un ton câlin, en la pressant plus fort.</p>
+        <p>-- Tu sais que je ne suis pas guéri!... que je suis <seg rend="italic"
+          >laide</seg>! A quoi puis-je te servir!... Jaja est abîmé!... Jaja est affreux!—reprenait-il d'un ton câlin, en la pressant plus fort.</p>
         <p>-- Je te jure de te faire tout oublier! Ce serait si doux d'être ton mari! de t'appeler en cachette Mme de Vénérande!... car ce sera mon nom que je te donnerai!...</p>
         <p>-- C'est vrai! je n'ai pas de nom, moi!</p>
         <p>-- Allons! ta sœur est notre providence! elle m'a fait faire une promesse que je ne rétracterai pas... mon ange! mon dieu! mon illusion préférée!</p>
@@ -1177,13 +1297,16 @@
       </div>
       <div>
         <head>CHAPITRE XII</head>
-        <p>VOYONS, mon petit! Voyons, cordieu! De la poigne... Vous êtes un homme et non pas une statue! A votre place je serais déjà furieux de sentir ce fer si près de ma peau. Imaginez-vous que je deviens un ennemi mortel, un monsieur digne des coups les plus violents. Je vous ai pris une femme adorée, je vous ai jeté dix cartes à la figure, je vous ai appelé: <seg rend="italic">lâche</seg> ou <seg rend="italic">voleur</seg>, au choix. Tonnerre! Ripostez donc!</p>
+        <p>VOYONS, mon petit! Voyons, cordieu! De la poigne... Vous êtes un homme et non pas une statue! A votre place je serais déjà furieux de sentir ce fer si près de ma peau. Imaginez-vous que je deviens un ennemi mortel, un monsieur digne des coups les plus violents. Je vous ai pris une femme adorée, je vous ai jeté dix cartes à la figure, je vous ai appelé: <seg
+            rend="italic">lâche</seg> ou <seg rend="italic"
+          >voleur</seg>, au choix. Tonnerre! Ripostez donc!</p>
         <p>Et de Raittolbe, le maître, s'exaspérant pour Jacques Silvert, l'élève, se ruait dans des assauts terribles.</p>
         <p>-- Vous n'êtes pas patient, baron! murmurait Raoule, qui présidait à la leçon, vêtue d'un élégant costume de salle. Moi, je lui permets de se reposer; assez pour aujourd'hui!</p>
         <p>Raoule prit une épée, tomba en garde devant de Raittolbe, et, comme pour venger Silvert, elle chargea l'ex-officier avec une impétuosité folle.</p>
         <p>-- Diable, cria celui-ci, touché trois fois coup sur coup, vous vous emballez trop vite, ma chère, je ne vous ai rien dit, ce me semble, de tout ce que je viens de raconter à ce pauvre Jacques!</p>
         <p>A cet instant même, on annonça le déjeuner: le cousin René et plusieurs intimes entrèrent; on félicita les champions pendant qu'un domestique, s'avançant discrètement vers Jacques, lui glissait un mot à l'oreille. Raoule, encore très échauffée, ne vit pas le jeune homme pâlir et passer rapidement dans un fumoir attenant à la salle d'escrime.</p>
-        <p>Jacques avait enfin obtenu de la chanoinesse Élisabeth les grandes entrées de la maison; il était fiancé officiellement à Raoule, depuis un mois. Après le bal des courses, pendant lequel tous les amateurs de scandale avaient été scandalisés par l'introduction de ce petit Silvert, Raoule, folle comme les possédées du moyen âge qui avaient le démon en elles et n'agissaient plus de leur propre autorité, s'était déclarée brusquement, un matin, au chevet de la malheureuse dévote. Ce matin se trouvait très froid, très sombre, très terne. La chanoinesse, sous ses couvertures à écussons, rêvait de cilice et de pavé glacé; elle fut réveillée par la voix sonore de <seg rend="italic">son neveu</seg>, commandant un feu d'enfer à sa femme de chambre.</p>
+        <p>Jacques avait enfin obtenu de la chanoinesse Élisabeth les grandes entrées de la maison; il était fiancé officiellement à Raoule, depuis un mois. Après le bal des courses, pendant lequel tous les amateurs de scandale avaient été scandalisés par l'introduction de ce petit Silvert, Raoule, folle comme les possédées du moyen âge qui avaient le démon en elles et n'agissaient plus de leur propre autorité, s'était déclarée brusquement, un matin, au chevet de la malheureuse dévote. Ce matin se trouvait très froid, très sombre, très terne. La chanoinesse, sous ses couvertures à écussons, rêvait de cilice et de pavé glacé; elle fut réveillée par la voix sonore de <seg
+            rend="italic">son neveu</seg>, commandant un feu d'enfer à sa femme de chambre.</p>
         <p>-- Pourquoi du feu? c'est mon jour de mortification, ma chère enfant, dit la tante, ouvrant ses paupières transparentes et livides comme des hosties.</p>
         <p>-- Parce que, chère tante, je viens causer avec vous de choses graves, et ces choses graves seront une mortification si naturelle qu'elles vous suffiront amplement!</p>
         <p>Tout en riant d'un rire mauvais, la jeune femme s'asseyait dans un fauteuil, ramenant sur ses pieds frileux le pan de sa robe de chambre doublée d'hermine.</p>
@@ -1245,7 +1368,9 @@
       </div>
       <div>
         <head>CHAPITRE XIII</head>
-        <p>VERS minuit, les invités aux noces de Jacques Silvert s'aperçurent d'un fait bien étrange: la jeune mariée était encore parmi eux, mais le jeune marié avait disparu. Indisposition subite, vexation d'amoureux, incident grave, toutes les conjectures possibles furent faites dans le clan des familiers que cette union préoccupait déjà au dernier point. Le marquis de Sauvarès prétendit que le cartel d'un rival éconduit avait été trouvé par Jacques, sous sa serviette, au début du merveilleux repas qui leur avait été servi. René affirmait que tante Élisabeth devait quitter le monde ce soir même et qu'elle remettait ses pouvoirs à l'époux. Martin Durand, témoin du marié, bougonnait sans se cacher, parce que les artistes ont toujours le droit de <seg rend="italic">faire leur tête</seg> quand on a besoin d'eux. Il ne pouvait plus sentir ce Jacques, maintenant. Au coin de la cheminée monumentale du salon où s'écroulait en braises rouges le nouveau foyer conjugal, la duchesse d'Armonville, pensive, son binocle entre ses doigts fins, suivait les mouvements de Raoule, placée en face d'elle. Raoule déchiquetait machinalement son bouquet d'oranger. De Raittolbe assurait tout bas à la duchesse que l'amour est la seule puissance vraiment capable d'aplanir les difficultés politiques sous le gouvernement du jour.</p>
+        <p>VERS minuit, les invités aux noces de Jacques Silvert s'aperçurent d'un fait bien étrange: la jeune mariée était encore parmi eux, mais le jeune marié avait disparu. Indisposition subite, vexation d'amoureux, incident grave, toutes les conjectures possibles furent faites dans le clan des familiers que cette union préoccupait déjà au dernier point. Le marquis de Sauvarès prétendit que le cartel d'un rival éconduit avait été trouvé par Jacques, sous sa serviette, au début du merveilleux repas qui leur avait été servi. René affirmait que tante Élisabeth devait quitter le monde ce soir même et qu'elle remettait ses pouvoirs à l'époux. Martin Durand, témoin du marié, bougonnait sans se cacher, parce que les artistes ont toujours le droit de <seg
+            rend="italic"
+          >faire leur tête</seg> quand on a besoin d'eux. Il ne pouvait plus sentir ce Jacques, maintenant. Au coin de la cheminée monumentale du salon où s'écroulait en braises rouges le nouveau foyer conjugal, la duchesse d'Armonville, pensive, son binocle entre ses doigts fins, suivait les mouvements de Raoule, placée en face d'elle. Raoule déchiquetait machinalement son bouquet d'oranger. De Raittolbe assurait tout bas à la duchesse que l'amour est la seule puissance vraiment capable d'aplanir les difficultés politiques sous le gouvernement du jour.</p>
         <p>-- Mais enfin, murmurait la duchesse, sans prendre garde aux étourderies du baron, me direz-vous pourquoi cette chère mariée s'est aujourd'hui fait coiffer de façon si... originale? Cela me rend perplexe, depuis la cérémonie religieuse.</p>
         <p>-- L'hymen est, sans doute, pour Mme Silvert une prise de voile comme une autre, répondait de Raittolbe, dissimulant un sourire sardonique.</p>
         <p>Mme Silvert portait une longue robe de damas blanc argenté et une sorte de pourpoint de cygne. Son voile avait été enlevé au moment du bal et l'on voyait la coiffure de fleurs d'oranger naturelles reposer en diadème sur des boucles pressées comme dans la chevelure d'un garçon; sa physionomie hardie s'harmonisait admirablement avec ces boucles courtes, mais ne rappelait en rien la pudique épousée, prête à baisser les yeux sous ses tresses parfumées qu'allaient bientôt défaire les vives impatiences de l'époux.</p>
@@ -1323,7 +1448,9 @@
         <p>-- Tant pis, riposta Jacques, mettant sur sa lèvre pourpre le bout de sa langue humide, je me moque un peu de tes songes, la réalité sera meilleure après, je te supplie de commencer tout de suite, ou je me fâche.</p>
         <p>-- Mais c'est le martyre le plus atroce que tu puisses m'imposer, reprit la voix frémissante de Raoule, qui avait l'intonation grave du mâle: attendre quand j'ai la félicité suprême à ma portée; attendre quand tu ne sais pas encore combien je suis fier de te tenir en mon pouvoir; attendre quand j'ai tout sacrifié pour avoir le droit de te garder à mes côtés, jour et nuit; attendre quand le bonheur inouï serait de t'écouter seulement me dire: «Je suis bien le front sur ton sein, je veux dormir là.» Non, non, tu n'auras pas ce courage!</p>
         <p>-- Je l'aurai, déclara Jacques, sincèrement dépité de voir qu'elle ne se prêtait pas à la comédie sans en avoir le bénéfice voluptueux. Je te répète que c'est un caprice.</p>
-        <p>Raoule tomba sur les genoux, les mains jointes, ravie de le voir dupe lui-même, et <seg rend="italic">par habitude</seg>, de la supercherie qu'il implorait, sans se douter qu'elle l'employait dans son langage passionné depuis vingt minutes.</p>
+        <p>Raoule tomba sur les genoux, les mains jointes, ravie de le voir dupe lui-même, et <seg
+            rend="italic"
+          >par habitude</seg>, de la supercherie qu'il implorait, sans se douter qu'elle l'employait dans son langage passionné depuis vingt minutes.</p>
         <p>-- Oh! tu es d'une méchanceté? je te trouve tout à fait détestable, fit Jacques énervé.</p>
         <p>Raoule s'était reculée, la tête rejetée en arrière.</p>
         <p>-- Parce que je ne puis te voir sans devenir fou, dit-elle, se trompant à son tour; parce que ta divine beauté me fait oublier qui je suis et me donne des transports d'amant; parce que je perds la raison devant tes nudités idéales... Et, qu'importe à notre passion délirante le sexe de ses caresses? Qu'importent les preuves d'attachement que peuvent échanger nos corps? Qu'importe le souvenir d'amour de tous les siècles et la réprobation de tous les mortels?... Tu es belle... Je suis homme, je t'adore et tu m'aimes!</p>
@@ -1348,7 +1475,8 @@
         <p>-- Qu'est donc devenu de Raittolbe? fit Raoule, lançant au plafond la fumée d'une cigarette turque.</p>
         <p>-- C'est vrai, murmura Jacques, il n'est pas poli!</p>
         <p>-- Tu sais que je n'en ai plus peur, fit Raoule en riant.</p>
-        <p>-- Moi, cela m'amuserait de jouer à <seg rend="italic">ton mari</seg> devant ses moustaches hérissées.</p>
+        <p>-- Moi, cela m'amuserait de jouer à <seg rend="italic"
+          >ton mari</seg> devant ses moustaches hérissées.</p>
         <p>-- Tiens! voyez-vous ce petit fat!.....</p>
         <p>Elle ajouta gaiement:</p>
         <p>-- Veux-tu que nous lui offrions demain une tasse de thé..... nous n'irons pas à l'Opéra et nous ne lirons pas de vieux livres.</p>
@@ -1396,7 +1524,8 @@
         <p>-- Débauché! fit le mari de Raoule, secouant sa jolie tête rousse.</p>
         <p>-- Vous refusez?</p>
         <p>-- Non! je demande des explications.</p>
-        <p>-- Oh! déclara de Raittolbe, plein d'une pudeur comique, je ne me charge pas de la réclame de ces maisons-là; <seg rend="italic">elles</seg> sont toutes charmantes et savantes, voilà tout.</p>
+        <p>-- Oh! déclara de Raittolbe, plein d'une pudeur comique, je ne me charge pas de la réclame de ces maisons-là; <seg
+            rend="italic">elles</seg> sont toutes charmantes et savantes, voilà tout.</p>
         <p>-- Ce n'est pas assez.</p>
         <p>-- Fichtre! le canard décapité, alors? marmotta de Raittolbe furieux.</p>
         <p>Jacques leva son œil étonné, pur comme un œil de vierge, sur le viveur à poil rude qui lui parlait.</p>
@@ -1449,14 +1578,17 @@
         </floatingText>
         <p>Ce billet était aussi laconique qu'un soufflet donné en pleine joue. Raoule, en le lisant, éprouva une sensation d'horreur; cependant, sa vaillante nature d'homme reprit un moment le dessus.</p>
         <p>-- Non! s'écria-t-elle, il a pu vouloir tromper sa femme..... il est incapable de trahir son amant!</p>
-        <p>Il y avait un mois que Jacques ne quittait plus, pour ainsi dire, leur sanctuaire d'amour, et un mois, qu'une aurore, il avait demandé pardon comme <seg rend="italic">une adultère</seg> repentante, baisant ses pieds, couvrant ses mains de larmes. Elle avait pardonné parce que peut-être, au fond, elle était heureuse qu'il se fût prouvé à lui-même qu'il était à la merci de son infernale puissance. Fallait-il donc que de la boue remontât une nouvelle insulte pour sa passion miséricordieuse?</p>
+        <p>Il y avait un mois que Jacques ne quittait plus, pour ainsi dire, leur sanctuaire d'amour, et un mois, qu'une aurore, il avait demandé pardon comme <seg
+            rend="italic"
+          >une adultère</seg> repentante, baisant ses pieds, couvrant ses mains de larmes. Elle avait pardonné parce que peut-être, au fond, elle était heureuse qu'il se fût prouvé à lui-même qu'il était à la merci de son infernale puissance. Fallait-il donc que de la boue remontât une nouvelle insulte pour sa passion miséricordieuse?</p>
         <p>Oh! mais aussi..... elle le savait trop bien, la chair saine et fraîche est la souveraine du monde. Elle le disait si souvent dans leurs nuits folles, plus voluptueuses et plus raffinées depuis la nuit d'orgie de Jacques. Raoule brûla le billet. Alors, les mots de ce billet transparurent sur les murailles de son salon, en lettres de feu. Elle ne voulait plus le relire, mais elle le revoyait partout, du parquet au plafond. Raoule fit venir un à un ses gens, elle leur posa cette question:</p>
         <p>-- Savez-vous de quel côté monsieur est allé ce soir, après sa promenade au Bois?</p>
         <p>-- Madame, répondit le petit groom qui avait tenu la bride du cheval de Jacques, je crois que monsieur est monté dans un fiacre!...</p>
         <p>Ce renseignement n'indiquait pas les intentions de son mari; cependant, pourquoi n'était-il pas rentré pour lui faire part de sa fugue?</p>
         <p>Elle devenait stupide, ma foi!..... Est-ce qu'elle pouvait hésiter? Est-ce que la nature humaine n'est pas toujours prête à succomber à la plus extravagante des tentations? Est-ce qu'elle-même, un jour, il y avait juste un an, n'était pas allée trouver Jacques au lieu d'aller trouver de Raittolbe?</p>
         <p>-- Alors, pensa la farouche philosophe, il est allé où son destin l'appelait; il est allé où j'ai prévu qu'il irait, en dépit de mes caresses démoniaques! Raoule, l'heure de l'expiation vient de sonner pour toi; regarde le danger en face, et, s'il n'est plus temps, châtie le coupable!</p>
-        <p>Elle tressaillit, car, tout en mettant ses habits d'homme pour ne pas être reconnue <seg rend="italic">rue d'Antin</seg>, elle se parlait haut.</p>
+        <p>Elle tressaillit, car, tout en mettant ses habits d'homme pour ne pas être reconnue <seg
+            rend="italic">rue d'Antin</seg>, elle se parlait haut.</p>
         <p>-- Coupable! l'est-il? Qui sait? Ne dois-je pas supporter le poids d'un crime trop souvent prévu par mes soupçons et à l'idée duquel ses lâches instincts l'ont habitué?</p>
         <p>Elle ajouta, en gagnant l'escalier de service correspondant à leur chambre:</p>
         <p>-- Je ne le châtierai pas, je me contenterai de détruire l'idole, car on ne peut plus adorer un dieu déchu! Et elle partit, le regard droit, le visage tranquille, avec le cœur broyé...</p>
@@ -1521,10 +1653,15 @@
         <p>-- Ah! Raoule, s'il ne t'obéissait pas? murmura Jacques inquiet.</p>
         <p>-- Il m'obéira!</p>
         <p>Le ton de Raoule n'admettait pas de réplique.</p>
-        <p>Cependant, Jacques, à travers les brouillards de son imagination idiotisée par le vice, revoyait toujours devant lui la figure menaçante de de Raittolbe, et il ne comprenait pas pourquoi, elle, <seg rend="italic">le bien-aimé</seg>, lui pardonnait si lâchement.</p>
+        <p>Cependant, Jacques, à travers les brouillards de son imagination idiotisée par le vice, revoyait toujours devant lui la figure menaçante de de Raittolbe, et il ne comprenait pas pourquoi, elle, <seg
+            rend="italic">le bien-aimé</seg>, lui pardonnait si lâchement.</p>
         <p>Il trouva le coupé tout attelé près du perron, monta d'une allure machinale et se rendit aux adresses indiquées.</p>
-        <p>Martin Durand accepta sans contestation de lui servir de témoin dans une affaire inconnue. Mais le cousin René, devinant qu'il s'agissait d'une escapade de Raoule, ne trouva pas <seg rend="italic">amusant</seg> d'avoir à soutenir l'honneur de Jacques Silvert. Il ne céda que quand il sut qu'il n'y avait qu'une querelle d'escrime en jeu.</p>
-        <p>Alors, comme Jacques avait épousé une de Vénérande et, de ce chef, faisait partie de <seg rend="italic">leur noblesse</seg>, par esprit de corps, le cousin rejoignit Martin Durand.</p>
+        <p>Martin Durand accepta sans contestation de lui servir de témoin dans une affaire inconnue. Mais le cousin René, devinant qu'il s'agissait d'une escapade de Raoule, ne trouva pas <seg
+            rend="italic"
+          >amusant</seg> d'avoir à soutenir l'honneur de Jacques Silvert. Il ne céda que quand il sut qu'il n'y avait qu'une querelle d'escrime en jeu.</p>
+        <p>Alors, comme Jacques avait épousé une de Vénérande et, de ce chef, faisait partie de <seg
+            rend="italic"
+          >leur noblesse</seg>, par esprit de corps, le cousin rejoignit Martin Durand.</p>
         <p>Les deux témoins, ne sachant pas le moins du monde à quoi s'en tenir, n'échangèrent que de rares paroles. Jacques Silvert, lui, se renversa dans le coin le mieux rembourré de sa voiture et s'endormit.</p>
         <p>-- Alexandre! fit René, montrant le mari de Raoule en ricanant.</p>
         <p>-- Parbleu, riposta Martin Durand, il se bat pour la galerie. De Raittolbe a probablement à lui faire essayer une nouvelle botte. Est-il assez complaisant, ce mari!</p>
@@ -1540,8 +1677,10 @@
         <p>Il vit la terre maussade, fangeuse, et il frémit à la pensée d'être un matin couché là, pour ne jamais se relever.</p>
         <p>Oui, certes, il l'avait offensée, cette femme; mais cet homme, pourquoi lui avait-il fait si mal au cou?...</p>
         <p>Ensuite, rien n'était de sa faute!... La prostitution, c'est une maladie! Tous l'avaient eue dans sa famille: sa mère, sa sœur; est-ce qu'il pouvait lutter contre son propre sang?...</p>
-        <p>On l'avait fait <seg rend="italic">si fille</seg> dans les endroits les plus secrets de son être, que la folie du vice prenait les proportions du tétanos! D'ailleurs, ce qu'il avait osé vouloir, c'était plus naturel que ce qu'elle lui avait appris!</p>
-        <p>Et il secouait au vent ses cheveux roux en pensant à ces choses! Ils allaient poser un peu sous des épées croisées, faire <seg rend="italic">des pliés</seg>. «Allez, messieurs!»</p>
+        <p>On l'avait fait <seg rend="italic"
+          >si fille</seg> dans les endroits les plus secrets de son être, que la folie du vice prenait les proportions du tétanos! D'ailleurs, ce qu'il avait osé vouloir, c'était plus naturel que ce qu'elle lui avait appris!</p>
+        <p>Et il secouait au vent ses cheveux roux en pensant à ces choses! Ils allaient poser un peu sous des épées croisées, faire <seg
+            rend="italic">des pliés</seg>. «Allez, messieurs!»</p>
         <p>Ils ferrailleraient jusqu'à ce qu'il reçût l'égratignure promise, puis il reviendrait bien vite lui faire boire dans un baiser la perle pourpre pas plus grosse que les perles de la pluie...</p>
         <p>...Pourtant, cet homme lui avait fait bien mal au cou...</p>
         <p>Le choix des armes appartenait à de Raittolbe. Il choisit. Quand Jacques prit son épée aux mains il fut surpris de la trouver pesante. Celles dont il se servait habituellement étaient fort légères. Le sacramentel «Allez, messieurs!» fut prononcé.</p>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">La vampire</title>
-                <title type="sub"></title>
+                <title type="sub"/>
                 <title type="short">Vampire</title>
                 <title type="idno">
                     <idno type="viaf">308016260</idno>
@@ -17,48 +17,50 @@
                 </author>
                 <principal xml:id="sp">Stefanie Popp</principal>
             </titleStmt>
-		    <extent>
-   			  <measure unit="div">divs</measure>
-			  <measure unit="lines">3863</measure>
-			  <measure unit="words">93339</measure>
-			  <measure unit="chars">519090</measure>
-			  <measure unit="kB">524</measure>
-		    </extent>
+            <extent>
+                <measure unit="div">divs</measure>
+                <measure unit="lines">3863</measure>
+                <measure unit="words">93339</measure>
+                <measure unit="chars">519090</measure>
+                <measure unit="kB">524</measure>
+            </extent>
             <publicationStmt>
                 <publisher>CLiGS</publisher>
-                <availability status="publicdomain">
-                    <p/>
+                <availability status="free">
+                    <p>The text is in the public domain. We license the markup as CC-BY and the metadata as CC-0.</p>
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">rd0732</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source">Project Gutenberg, <date>2003</date>, <idno>10053</idno>, <ref target="http://www.gutenberg.org/ebooks/10053"/>.</bibl>
-                <bibl type="print-source"><date></date>, <idno></idno>, <ref target="#"/>.</bibl>
-                <bibl type="edition-first"><date>1865</date>, <idno></idno>, <ref target="#"/>.</bibl>
+                <bibl type="digital-source"
+                        >Project Gutenberg, <date>2003</date>, <idno>10053</idno>, <ref
+                        target="http://www.gutenberg.org/ebooks/10053"/>.</bibl>
+                <bibl type="print-source"><date/>, <idno/>, <ref target="#"/>.</bibl>
+                <bibl type="edition-first"><date>1865</date>, <idno/>, <ref target="#"/>.</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <p></p>
+            <p/>
         </encodingDesc>
         <profileDesc>
             <abstract>
-                <p></p>
+                <p/>
             </abstract>
             <textClass>
                 <keywords scheme="keywords.csv">
                     <term type="supergenre">narrative</term>
                     <term type="genre">novel</term>
                     <term type="subgenre" resp="#sp" cert="high" subtype="3">fantastic</term>
-                    <term type="subsubgenre"></term>
+                    <term type="subsubgenre"/>
                     <term type="genre-label"/>
                     <term type="narrative-perspective">heterodiegetic</term>
                     <term type="form">prose</term>
-                    <term type="protagonist-gender"></term>
-                    <term type="setting"></term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
+                    <term type="protagonist-gender"/>
+                    <term type="setting"/>
+                    <term type="author-continent">Europe</term>
+                    <term type="author-country">France</term>
+                    <term type="author-gender">male</term>
                     <term type="tei">11</term>
                 </keywords>
             </textClass>
@@ -81,7 +83,9 @@
                 <p>C'est tout bonnement une page de la biographie secrète de ce géant qu'on nomme Paris et qui, en sa vie, eut tant d'aventures!</p>
                 <p>Laissons donc de côté les cinq cents volumes de mémoires diffus qui disent le blanc et le noir sur cette grande crise de notre Révolution, et tournant le dos au château où la main crochue de ce bon M. Bourrienne griffonne quelques vérités parmi des monceaux de mensonges bien payés, plongeons-nous de parti pris dans le fourré le plus profond de la forêt parisienne.</p>
                 <p>Nous avons l'espoir que le lecteur n'aura pas oublié cette touchante et sereine figure qui traverse les pages de notre introduction. Il n'y a que des récits dans ce livre: notre préface elle-même était encore un récit, dont le héros se nommait le «papa Sévérin».</p>
-                <p>Nous avons la certitude que le lecteur se souvient d'une autre physionomie, tendre et bonne aussi, mais d'une autre manière, moins austère et plus mâle, plus tourmentée, moins pacifique surtout: le chantre de Saint-Sulpice, le prévôt d'armes qui, dans la <seg rend="italic">Chambre des Amours</seg>, enseigna si rudement ce beau coup droit, dégagé main sur main, à M. le baron de Guitry, gentilhomme de la chambre du roi Louis XVI.</p>
+                <p>Nous avons la certitude que le lecteur se souvient d'une autre physionomie, tendre et bonne aussi, mais d'une autre manière, moins austère et plus mâle, plus tourmentée, moins pacifique surtout: le chantre de Saint-Sulpice, le prévôt d'armes qui, dans la <seg
+                        rend="italic"
+                    >Chambre des Amours</seg>, enseigna si rudement ce beau coup droit, dégagé main sur main, à M. le baron de Guitry, gentilhomme de la chambre du roi Louis XVI.</p>
                 <p>Un Sévérin aussi: Sévérin, dit Gâteloup.</p>
                 <p>Ce Gâteloup, presque vieillard, et papa Sévérin presque enfant, vont avoir des rôles dans cette histoire.</p>
                 <p>L'un était le père de l'autre.</p>
@@ -139,20 +143,30 @@
                 <p>Les autres étaient venus quand la veine aurifère était déjà écrémée; les autres, pêcheurs naïfs ou pécheurs d'aventures: les poètes, les inventeurs, les don Juan battus, les industriels tombés, les artistes manqués, les comédiens fourbus, les philanthropes usés jusqu'à la corde, les génies piqués aux vers—et le notaire n'avaient eu pour tout potage que les restes de cet heureux Ezéchiel.</p>
                 <p>Ils étaient là, non point pour le poisson qui foisonnait réellement d'une façon extraordinaire, mais pour la bague chevalière dont le chaton en brillants reluisait comme le soleil.</p>
                 <p>Ils eussent volontiers plongé tête première pour explorer le fond de l'eau, si la Seine, jaune, haute, rapide et entraînant dans sa course des tourbillons écumeux, n'eût pas défendu les prouesses de ce genre.</p>
-                <p>Ils apportaient des sébiles pour <seg rend="italic">ravager</seg> le bas de la berge dès que l'eau abaisserait son niveau.</p>
+                <p>Ils apportaient des sébiles pour <seg rend="italic"
+                    >ravager</seg> le bas de la berge dès que l'eau abaisserait son niveau.</p>
                 <p>Ils attendaient, consultant l'étiage d'un oeil fiévreux, et voyant au fond de l'eau des amas de richesses.</p>
                 <p>Ezéchiel, assis à son comptoir, leur vendait de l'eau-de-vie et les entretenait avec soin dans cette opinion qui achalandait son cabaret. Il était éloquent, cet Ezéchiel, et racontait volontiers que la nuit, au clair de la lune, il avait vu, de ses yeux, des poissons qui se disputaient des lambeaux de chair humaine à la surface de l'eau.</p>
                 <p>Bien plus, il ajoutait qu'ayant noyé ses lignes de fond, amorcées de fromage de Gruyère et de sang de boeuf, en aval de l'égout, il avait pris une de ces anguilles courtes, replètes et marquées de taches de feu qu'on rencontre en Loire entre Paimboeuf et Nantes, mais qui sont rares en Seine, autant que le merle blanc dans nos vergers: une lamproie, ce poisson cannibale, que les patriciens de Rome nourrissaient avec de la chair d'esclave.</p>
                 <p>D'où venait l'abondante et mystérieuse pâture qui attirait tant d'hôtes voraces précisément en ce lieu?</p>
                 <p>Cette question était posée mille fois tous les jours, les réponses ne manquaient point. Il y en avait de toutes couleurs; seulement, aucune n'était vraisemblable ni bonne.</p>
-                <p>Cependant, le cabaret de la <seg rend="italic">Pèche miraculeuse</seg> et son maître Ezéchiel prospéraient. L'enseigne faisait fortune comme presque toutes les choses à double entente. Elle flattait à la fois, en effet, les pêcheurs sérieux, les pêcheurs de poissons, et cette autre catégorie plus nombreuse, les pêcheurs de chimères, poètes, peintres, comédiens, trouveurs, industriels, bourreaux de femmes en disponibilité et le notaire.</p>
+                <p>Cependant, le cabaret de la <seg rend="italic"
+                    >Pèche miraculeuse</seg> et son maître Ezéchiel prospéraient. L'enseigne faisait fortune comme presque toutes les choses à double entente. Elle flattait à la fois, en effet, les pêcheurs sérieux, les pêcheurs de poissons, et cette autre catégorie plus nombreuse, les pêcheurs de chimères, poètes, peintres, comédiens, trouveurs, industriels, bourreaux de femmes en disponibilité et le notaire.</p>
                 <p>Chacun de ceux-là espérait à tout instant qu'un solitaire de mille louis allait s'accrocher à son hameçon.</p>
                 <p>Et vis-à-vis de la rangée des pêcheurs, il y avait, de l'autre côté de la rivière, une rangée de badauds qui regardaient de tous leurs yeux. Les cancans allaient et venaient, les commentaires se croisaient: on fabriquait là assez de bourdes pour désaltérer tout Paris, incessamment altéré de choses vraies qui n'ont pas le sens commun.</p>
                 <p>Je dis choses vraies, parce que, soyez bien persuadés de cela, sous toute rumeur populaire, si absurde qu'elle puisse paraître, un fait réel se cache toujours.</p>
-                <p>L'opinion la plus accréditée, sinon la plus vraisemblable, se résumait en un mot qui sollicitait énergiquement les imaginations et valait à lui seul deux ou trois des plus ténébreux livres de Mme Anne Radcliffe. Ce mot était plus sombre que le titre fameux <seg rend="italic">le Confessionnal des pénitents noirs</seg>. Ce mot était plus mystérieux que les <seg rend="italic">Mystères du château des Pyrénées</seg>, que les <seg rend="italic">Mystères d'Udolphe</seg> et que les <seg rend="italic">Mystères de la caverne des Apennins</seg>; il sonnait le glas, il flairait la tombe.</p>
-                <p>Ce mot, sincèrement appétissant pour les esprits inquiets, curieux, avides, pour les femmes, pour les jeunes gens, pour tous les curieux de terreur et d'horreur, c'était la <seg rend="capital">VAMPIRE</seg>.</p>
+                <p>L'opinion la plus accréditée, sinon la plus vraisemblable, se résumait en un mot qui sollicitait énergiquement les imaginations et valait à lui seul deux ou trois des plus ténébreux livres de Mme Anne Radcliffe. Ce mot était plus sombre que le titre fameux <seg
+                        rend="italic"
+                        >le Confessionnal des pénitents noirs</seg>. Ce mot était plus mystérieux que les <seg
+                        rend="italic">Mystères du château des Pyrénées</seg>, que les <seg
+                        rend="italic">Mystères d'Udolphe</seg> et que les <seg rend="italic"
+                        >Mystères de la caverne des Apennins</seg>; il sonnait le glas, il flairait la tombe.</p>
+                <p>Ce mot, sincèrement appétissant pour les esprits inquiets, curieux, avides, pour les femmes, pour les jeunes gens, pour tous les curieux de terreur et d'horreur, c'était la <seg
+                        rend="capital">VAMPIRE</seg>.</p>
                 <p>Notre éducation au sujet de ces funèbres pages du merveilleux en deuil a peu marché depuis lors. On a bien écrit quelques-uns de ces livres qui dissertent sans expliquer, qui compilent sans condenser et qui relient en de gros volumes le pâle ennui de leurs pages didactiques, mais il semblerait que les savants eux-mêmes, ces braves de la pensée, abordent avec un esprit troublé les redoutables questions de démonologie. Parmi eux, les croyants ont un peu physionomie de maniaques, et les incrédules restent mouillés de cette sueur froide, le doute, qui communique à coup sûr l'ennui contagieux.</p>
-                <p>Je cherche, et je ne trouve pas dans mes souvenirs d'enfant le titre du prodigieux bouquin qui prononça pour la première fois à mes yeux le mot <seg rend="italic">Vampire</seg>. Ce n'était pas un décourageant article de revue, ce n'était pas une tranche de ce pain banal qu'on émiette dans les dictionnaires: c'était un pauvre conte allemand, plein de sève et de fougue sous sa toilette de naïveté empesée. Il racontait bonnement, presque timidement, des histoires si sauvages, que j'en ai encore le coeur serré.</p>
+                <p>Je cherche, et je ne trouve pas dans mes souvenirs d'enfant le titre du prodigieux bouquin qui prononça pour la première fois à mes yeux le mot <seg
+                        rend="italic"
+                    >Vampire</seg>. Ce n'était pas un décourageant article de revue, ce n'était pas une tranche de ce pain banal qu'on émiette dans les dictionnaires: c'était un pauvre conte allemand, plein de sève et de fougue sous sa toilette de naïveté empesée. Il racontait bonnement, presque timidement, des histoires si sauvages, que j'en ai encore le coeur serré.</p>
                 <p>Je me souviens qu'il était en trois petits volumes, et qu'il y avait une gravure en taille-douce à la tête de chaque tome.</p>
                 <p>Elles ne valaient pas un prix fou, mais, Seigneur Dieu, comme elles faisaient frémir!</p>
                 <p>La première gravure en taille-douce, calme et paisible comme le prologue de tout grand poème, représentait… j'allais dire Faust et Marguerite à leur première rencontre.</p>
@@ -193,7 +207,8 @@
                 <p>Les gens de la noce avaient, je ne sais trop comment, découvert sa retraite. On avait apporté un fourneau de forge, on avait fait rougir une vaillante barre de fer, et le fiancé la passait à deux mains, de tout son coeur, au travers de l'estomac du vampire, qui n'avait garde de protester.</p>
                 <p>Et Marguerite s'éveillait là-bas, comme si la mort de son bourreau lui eût rendu la vie.</p>
                 <p>Voilà ce que disait et ce que contenait mon vieux bouquin en trois petits tomes. Et je déclare que les articles des recueils savants ne m'en ont jamais tant appris sur les vampires.</p>
-                <p>J'ajoute que les badauds de Paris, en l'an 1804, étaient à peu près de notre force, au bouquin et à moi: ce qui donne la mesure de ce que pouvait être leur opinion au sujet de cet être mystérieux que la frayeur publique avait baptisé: <seg rend="italic">la Vampire</seg>.</p>
+                <p>J'ajoute que les badauds de Paris, en l'an 1804, étaient à peu près de notre force, au bouquin et à moi: ce qui donne la mesure de ce que pouvait être leur opinion au sujet de cet être mystérieux que la frayeur publique avait baptisé: <seg
+                        rend="italic">la Vampire</seg>.</p>
             </div>
             <div>
                 <head>II</head>
@@ -209,7 +224,8 @@
                 <p>Paris ne se faisait point faute d'imiter les sceptiques. Il riait; il répétait sur tous les tons; c'est absurde, c'est impossible.</p>
                 <p>Mais il avait peur.</p>
                 <p>Quand les poltrons de village ont peur, la nuit, dans les chemins creux, ils chantent à tue-tête. Paris est ainsi: au milieu de ses plus grandes épouvantes, il rit souvent à gorge. Paris riait donc en tremblant ou tremblait en riant, car les objections et les raisonnements ne peuvent rien contre certaines évidences. La panique se faisait tout doucement. Les personnes sages ne croyaient peut-être pas encore, mais l'inquiétude contagieuse les prenait, et les railleurs eux-mêmes, en colportant leurs moqueries, augmentaient la fièvre.</p>
-                <p>Deux faits restaient debout, d'ailleurs: la disparition de plusieurs étrangers et provinciaux, disparition qui commençait à produire son résultat d'agitation judiciaire, et cette autre circonstance que le lecteur jugera comme il voudra, mais qui impressionnait Paris plus vivement encore que la première: la <seg rend="italic">pêche miraculeuse</seg> du quai de Béthune.</p>
+                <p>Deux faits restaient debout, d'ailleurs: la disparition de plusieurs étrangers et provinciaux, disparition qui commençait à produire son résultat d'agitation judiciaire, et cette autre circonstance que le lecteur jugera comme il voudra, mais qui impressionnait Paris plus vivement encore que la première: la <seg
+                        rend="italic">pêche miraculeuse</seg> du quai de Béthune.</p>
                 <p>C'était, on peut le dire, une préoccupation générale. Ceux qui se bornaient à hocher la tête en avouant qu'il y avait là «quelque chose» pouvaient passer pour des modèles de prudence.</p>
                 <p>Est-il besoin d'ajouter que la politique fournissait sa note à ce concert? Jamais circonstances ne furent plus propices pour mêler le mélodrame politique à l'imbroglio du crime privé. De grands événements se préparaient, de terribles périls, récemment évités, laissaient l'administration fatiguée et pantelante. L'Empire, qui se fondait à bas bruit dans la chambre à coucher du premier consul, donnait à la préfecture les coliques de l'enfantement.</p>
                 <p>Le citoyen préfet, qui ne devait jamais être un aigle et qui ne s'appelait pas encore le comte Dubois, tressaillait de la tête aux pieds à chaque bruit de porte fermée, croyant ouïr un écho de cette machine infernale dont il n'avait point su prévenir l'explosion. Les sombres inventeurs de cet engin, Saint-Rejant et Carbon, avaient porté leurs têtes sur l'échafaud: mais, du fond de sa disgrâce, Fouché murmurait des paroles qui montaient jusqu'au chef de l'état.</p>
@@ -224,7 +240,8 @@
                 <p>Il semblait, en vérité, que Paris sût ce que le citoyen Dubois ignorait. Le citoyen Dubois passait au milieu de ces événements, gros de menaces, comme l'éternel mari de la comédie qui est le seul à ne point voir les gaietés de sa chambre nuptiale.</p>
                 <p>Il cherchait partout où il ne devait point trouver, il se démenait, il suait sang et eau et jetait, en fin de compte, sa langue au chien avec désespoir.</p>
                 <p>Ce fut dans ce conciliabule de l'église de la Madeleine que Georges Cadoudal proposa aux ex-généraux Pichegru et Moreau le plan hardi qui devait arrêter la carrière du futur empereur.</p>
-                <p>Le mot hardi est de Fouché, duc d'Otrante Au mot hardi Fouché ajoute le mot <seg rend="italic">facile</seg>.</p>
+                <p>Le mot hardi est de Fouché, duc d'Otrante Au mot hardi Fouché ajoute le mot <seg
+                        rend="italic">facile</seg>.</p>
                 <p>Voici quel était ce plan, bien connu, presque célèbre.</p>
                 <p>Les trois conjurés avaient à Paris un contingent hétérogène, puisqu'il appartenait à tous les partis ennemis du premier consul, mais uni par une passion commune et composé d'hommes résolus.</p>
                 <p>Les mémoires contemporains portent ce noyau à deux mille combattants pour le moins: Vendéens, chouans de Bretagne, gardes nationaux de Lyon, babouvistes et anciens soldats de Coudé.</p>
@@ -282,7 +299,9 @@
                 <p>—Celui-là n'est pas du quartier, dirent les gamins.</p>
                 <p>—Est-il chargé de faire la police? demanda une commère.</p>
                 <p>—Comment vous nomme-t-on, l'ami? interrogea le portier, nous n'avons pas de comptes à rendre à des étrangers.</p>
-                <p>Car les gens de Paris sont des étrangers pour ces farouches insulaires <seg rend="italic" xml:lang="Latin">penitùs toto divisos orbe</seg>, séparés du reste de l'univers par les deux bras de la Seine.</p>
+                <p>Car les gens de Paris sont des étrangers pour ces farouches insulaires <seg
+                        rend="italic" xml:lang="Latin"
+                    >penitùs toto divisos orbe</seg>, séparés du reste de l'univers par les deux bras de la Seine.</p>
                 <p>A l'instant où le patron allait répondre, la porte de l'église s'ouvrit, et il recula de trois pas en laissant échapper un cri de surprise, comme si un spectre lui eût apparu.</p>
                 <p>C'était, en tous cas, un fantôme charmant: une femme toute jeune et toute belle, dont les cheveux blonds tombaient en boucles gracieuses autour d'un adorable visage.</p>
                 <p>Cette femme donnait le bras à un jeune homme de vingt-cinq à trente ans, qui n'était point celui que suivait naguère notre fillette, et que vous eussiez jugé Allemand à certains détails de son costume.</p>
@@ -313,8 +332,11 @@
                 <p>—Monsieur le gardien, répondit l'ombre, la clinique du docteur Loysel a fini à trois heures douze minutes, et il y a loin de Saint-Louis-en-l'Ile à l'Ecole de médecine.</p>
                 <p>—Qu'as-tu vu? interrogea encore celui qu'on nommait ici M. le gardien, et là-bas « le patron ».</p>
                 <p>Au lieu de répondre, cette fois, le prétendu enfant secoua d'un mouvement brusque la chevelure hérissée qui se crêpait sur sa forte tête, et murmura comme en se parlante lui-même:</p>
-                <p>—Je serais bien venu plus tôt, mais le professeur Loysel faisait sa leçon sur l'<seg rend="italic">Organon</seg> de Samuel Hahnemann. Voilà huit jours que dure cette parenthèse, où il n'est pas plus question de clinique que du déluge. Je n'avais jamais entendu parler de ce Samuel Hahnemann, mais on l'insulte tant et si bien à l'Ecole, que je commence à le regarder comme un grand inventeur…</p>
-                <p>—Patou, mon ami, interrompit le gardien, vous autres de la Faculté, vous êtes tous des bavards. Il ne s'agit pas de ce Samuel, qui doit être un juif ou tout au moins un baragouineur allemand, puisqu'il a un nom en <seg rend="italic">mann</seg>… Qu'as-tu vu? Dis vite!</p>
+                <p>—Je serais bien venu plus tôt, mais le professeur Loysel faisait sa leçon sur l'<seg
+                        rend="italic"
+                    >Organon</seg> de Samuel Hahnemann. Voilà huit jours que dure cette parenthèse, où il n'est pas plus question de clinique que du déluge. Je n'avais jamais entendu parler de ce Samuel Hahnemann, mais on l'insulte tant et si bien à l'Ecole, que je commence à le regarder comme un grand inventeur…</p>
+                <p>—Patou, mon ami, interrompit le gardien, vous autres de la Faculté, vous êtes tous des bavards. Il ne s'agit pas de ce Samuel, qui doit être un juif ou tout au moins un baragouineur allemand, puisqu'il a un nom en <seg
+                        rend="italic">mann</seg>… Qu'as-tu vu? Dis vite!</p>
                 <p>—Ah! monsieur le gardien, répliqua Patou, de drôles de, choses, parole d'honneur! Les gens de police doivent s'amuser, c'est certain, car pour une fois que j'ai fait l'espionne, je me suis diverti comme un ange!… La jolie femme, dites donc!</p>
                 <p>—Quelle femme?</p>
                 <p>—La comtesse.</p>
@@ -344,11 +366,14 @@
                 <head>III</head>
                 <head type="sub">GERMAIN PATOU</head>
                 <p>Il faisait presque nuit. Un seul pas, lourd et lent sonnait sur le pavé si vieux, mais presque vierge, de ces rues mélancoliques où nul ne passe et que le clair regard des boutiques ouvertes n'illumine jamais. Ce pas solitaire était celui d'un pauvre estropié qui allait, allumant l'une après l'autre les mèches fumeuses des réverbères avares de rayons.</p>
-                <p>L'estropié cahotait sous ses haillons comme une méchante barque secouée par la houle. Il chantait une gaudriole plus triste qu'un <seg rend="italic">libéra</seg>.</p>
+                <p>L'estropié cahotait sous ses haillons comme une méchante barque secouée par la houle. Il chantait une gaudriole plus triste qu'un <seg
+                        rend="italic">libéra</seg>.</p>
                 <p>Patou et l'homme que nous avons désigné sous tant de noms déjà, le patron des maçons du Marché-Neuf, M. le gardien, M. Jean-Pierre, descendaient de la petite porte de l'église Saint-Louis au quai de Béthune. Dans l'ombre, la différence qui existait entre leurs tailles atteignait au fantastique. Patou semblait un nain et Jean-Pierre un géant.</p>
                 <p>Quelque jour nous retrouverons ce nain, grandi, non par au physique beaucoup, mais au moral; nous verrons le docteur Germain Patou porter à son chapeau, selon sa propre volonté, le nom de Samuel Hahnemann comme une cocarde et produire de ces miracles qui firent lapider une fois, à Leipzig, le fondateur de l'école homéopathique, mais qui fondirent plus tard le bronze dont est faite sa statue colossale, la statue de ce même Samuel Hahnemann, érigée au beau milieu de la maîtresse place, en cette même cité de Leipzig, sa patrie.</p>
                 <p>Si l'on pouvait appliquer un mot divin à ces petites persécutions qui arrêtent un instant, puis fécondent le progrès à travers les siècles, nous dirions que la plus curieuse de toutes les histoires à faire est celle des calvaires triomphants.</p>
-                <p>Dans cette comédie bizarre et terrible que nous mettrons bientôt en scène sous ce titre: <seg rend="italic">Numéro treize</seg>, le docteur Germain Patou aura un rôle.</p>
+                <p>Dans cette comédie bizarre et terrible que nous mettrons bientôt en scène sous ce titre: <seg
+                        rend="italic"
+                    >Numéro treize</seg>, le docteur Germain Patou aura un rôle.</p>
                 <p>Le patron répondit ainsi a sa dernière question:</p>
                 <p>—Petit homme, tu ne parles pas toujours avec assez de respect des choses qui sont à ma garde. Je n'aime pas la plaisanterie à ce sujet; mais tu vaux mieux que ton ironie, et l'on dit que pour le métier que tu as choisi il n'est pas mauvais de s'endurcir un peu le coeur. Je t'ai connu enfant; je n'ai pas fait pour toi tout ce que j'aurais voulu.</p>
                 <p>Patou l'interrompit par une nouvelle pression de main.</p>
@@ -409,7 +434,8 @@
                 <p>Le gardien était en effet pensif et silencieux.</p>
                 <p>Ils s'étaient arrêtés au bout de la rue Poultier, devant le parapet du quai qui regarde le port aux vins. La lune, qui se levait derrière les arbres de l'île Louviers, prolongés par les peupliers énormes du Mail Henri IV, frappait obliquement le courant de la Seine et y formait un long spectre tout fait de paillettes mobiles. Il n'y a plus d'île Louviers, et les peupliers géants de l'Arsenal sont tombés.</p>
                 <p>Vers l'ouest, tout le long de l'eau. Paris allumait gaiement ses bougies, ses lampes et ses réverbères; du côté de l'est, c'était presque la nuit campagnarde, car l'île Louviers et le Mail cachaient le quartier de l'Arsenal, et, sur l'autre bord de la Seine, le regard devait aller jusqu'à Ivry, par delà le jardin des Plantes, pour rencontrer quelques lumières.</p>
-                <p>Une seule lueur, vive et rouge, attirait l'oeil au coin de la rue de Bretonvilliers. C'était la provocante lanterne du cabaret d'Ezéchiel, le maître de la <seg rend="italic">Pèche miraculeuse</seg>.</p>
+                <p>Une seule lueur, vive et rouge, attirait l'oeil au coin de la rue de Bretonvilliers. C'était la provocante lanterne du cabaret d'Ezéchiel, le maître de la <seg
+                        rend="italic">Pèche miraculeuse</seg>.</p>
                 <p>Il n'y avait pas une âme sur le quai, mais le silence y était troublé parfois tout à coup par de soudaines rumeurs mêlées d'éclats de rire. Ce bruit venait de la rivière, et pour en connaître l'origine il eût suffi de se pencher au-dessus du parapet.</p>
                 <p>Les pêcheurs de miracles étaient à leur poste malgré l'heure avancée. Il y avait sur la berge une ligne pressée de bonnes gens qui jetaient l'hameçon avec un zèle patient. Les clameurs et les rires étaient produits par ces petits incidents qui égayent constamment la pêche en rivière de Seine, où l'hameçon accroche plus de vieux chapeaux, plus de bottes noyées et plus de carcasses de chats décédés que d'esturgeons.</p>
                 <p>Chaque déconvenue de ce genre amenait des transports de joie.</p>
@@ -451,14 +477,19 @@
                 <p>Patou avait ri d'abord comme les autres, mais la réflexion vint, et il dit:</p>
                 <p>—Ceux qui ont fait cela devaient avoir un intérêt.</p>
                 <p>—Petit homme, répliqua brusquement le gardien, je n'ai plus besoin de toi. Monte à présent à la maison, où ma bonne femme est seule et peut-être inquiète. Angèle doit être rentrée à l'heure qu'il est. Si tu connais un remède contre le chagrin, fais-lui une ordonnance… Annonce que je rentrerai tard, et bonne nuit.</p>
-                <p>Patou, ainsi congédié, s'éloigna docilement dans la direction du Pont-Marie. Le gardien, resté seul, se mit à marcher lentement vers le cabaret d'Ezéchiel, à l'enseigne de la <seg rend="italic">Pêche miraculeuse</seg>.</p>
+                <p>Patou, ainsi congédié, s'éloigna docilement dans la direction du Pont-Marie. Le gardien, resté seul, se mit à marcher lentement vers le cabaret d'Ezéchiel, à l'enseigne de la <seg
+                        rend="italic">Pêche miraculeuse</seg>.</p>
             </div>
             <div>
                 <head>IV</head>
                 <head type="sub">LE COEUR D'OR</head>
-                <p>Si la Dame aux Camélias, cette photographie après décès tirée par Alexandre Dumas fils, le poète charmant et implacable, avait pris passage en temps utile sur un clipper de <seg rend="italic">l'Australian general company</seg>, elle se serait guérie de sa phtisie pulmonaire et figurerait maintenant dans les fêtes du Trois-quarts-du-monde en qualité de baronne de n'importe-quoi. Elle serait riche terriblement; elle aurait à ses pieds toutes les illustrations de l'époque et ferait à ses contemporains l'aumône de mémoires en dix volumes, instructifs, amusants et tout particulièrement propres à former le coeur du dix-neuvième siècle.</p>
+                <p>Si la Dame aux Camélias, cette photographie après décès tirée par Alexandre Dumas fils, le poète charmant et implacable, avait pris passage en temps utile sur un clipper de <seg
+                        rend="italic"
+                    >l'Australian general company</seg>, elle se serait guérie de sa phtisie pulmonaire et figurerait maintenant dans les fêtes du Trois-quarts-du-monde en qualité de baronne de n'importe-quoi. Elle serait riche terriblement; elle aurait à ses pieds toutes les illustrations de l'époque et ferait à ses contemporains l'aumône de mémoires en dix volumes, instructifs, amusants et tout particulièrement propres à former le coeur du dix-neuvième siècle.</p>
                 <p>Il faut une Californie aux prêtresses d'amour, qu'elles soient dames aux camélias de dix louis ou dames aux giroflées d'un sou, que l'Eldorado soit le Pérou antique ou la Nouvelle-Galles du Sud. Elles ne toussent plus dès qu'elles s'en vont en guerre, à l'instar de Marlboroug, Colomb, Cortès, Pizarre, le capitaine Cook, ont découvert et conquis pour elles deux parties du monde sur cinq; M. Benazet a fondé la sixième. Les vîtes-vous jamais cracher le sang au bruit de l'or remué à la pelle? Ont-elles jamais manqué à aucun tripot, brillant ou humble?</p>
-                <p>Dieu nous préserve de comparer le sordide cabaret d'Ezéchiel aux merveilleux champs d'or qui entourent Melbourne, le Paris océanéen, aux romanesques <seg rend="italic">placers</seg> de la mer Vermeille, ni même à ce gentil paradis de Bade. Entre les tripots il y a des catégories.</p>
+                <p>Dieu nous préserve de comparer le sordide cabaret d'Ezéchiel aux merveilleux champs d'or qui entourent Melbourne, le Paris océanéen, aux romanesques <seg
+                        rend="italic"
+                    >placers</seg> de la mer Vermeille, ni même à ce gentil paradis de Bade. Entre les tripots il y a des catégories.</p>
                 <p>Nous voulons dire seulement que tout tripot, hideux ou magnifique, attira ces dames aux fleurs comme la laine attire les mites; elles y sont bien, elles s'y portent à merveille; c'est là, évidemment, leur atmosphère propre.</p>
                 <p>Il y avait des dames aux giroflées dans le cabaret du brave Ezéchiel, qui était un tripot. Ce pauvre champ d'or du quai de Béthune attirait les aventureuses de la Cité et du faubourg Saint-Marceau, qui venaient voir Midas en guenilles risquer sur une carte sale l'indigente aubaine arrachée aux boues de ce Pactole pour rire.</p>
                 <p>Ezéchiel seul gagnait à cela un peu d'argent. Que l'histoire de la première épave retirée du fleuve, la bague en diamants, fût controuvée ou authentique, il est certain qu'Ezéchiel en avait très habilement profité.</p>
@@ -466,24 +497,37 @@
                 <p>Ezéchiel, avant de passer capitaliste, était pêcheur de son état. Il savait par expérience comment on donne rendez-vous au poisson en jetant d'avance l'appât abondant à de certaines places. Avait-il préparé ici une place, non point pour les poissons, mais pour les dupes?</p>
                 <p>Cette idée-là n'était encore venue à personne.</p>
                 <p>La seule chose qui étonnât dans l'histoire d'Ezéchiel, c'était le rare bonheur avec lequel il avait vaincu les difficultés matérielles qui s'opposaient à l'établissement même de son cabaret.</p>
-                <p>Le quai de Béthune présentait alors comme aujourd'hui un alignement rigide et monumental. Il n'y avait point là de place pour une baraque. De l'autre côté de la pointe, aux environs de l'hôtel Lambert, qui donne son nom maintenant aux bains des dames, on trouvait bien quelques masures, mais elles tournaient le dos au lieu consacré déjà par la première trouvaille. Il fallait que le <seg rend="italic">Casino</seg> fût à proximité de la plage: on ne pouvait mieux choisir que le coin de la rue de Bretonvilliers.</p>
+                <p>Le quai de Béthune présentait alors comme aujourd'hui un alignement rigide et monumental. Il n'y avait point là de place pour une baraque. De l'autre côté de la pointe, aux environs de l'hôtel Lambert, qui donne son nom maintenant aux bains des dames, on trouvait bien quelques masures, mais elles tournaient le dos au lieu consacré déjà par la première trouvaille. Il fallait que le <seg
+                        rend="italic"
+                    >Casino</seg> fût à proximité de la plage: on ne pouvait mieux choisir que le coin de la rue de Bretonvilliers.</p>
                 <p>Seulement les deux coins de cette rue étaient formés par deux grands diables d'hôtels aux murs rectangulaires, en pierres de taille, épais comme des remparts. Le vrai miracle, pour Ezéchiel, c'avait été d'obtenir la permission d'attaquer un de ces angles et de nicher son bouge dans l'épaisseur de cette noble maçonnerie, comme on voit la larve impudente arrondir sa demeure dans l'aubier sain d'un grand arbre.</p>
                 <p>Ezéchiel avait obtenu cette permission.</p>
-                <p>Le cabaret de la <seg rend="italic">Pêche miraculeuse</seg>, sorte de caverne irrégulière, s'insinuait en boyau à l'intérieur des bâtiments et ne prenait qu'un tiers environ de la hauteur du rez-de-chaussée. Depuis que le Marais a pris faveur dans l'industrie, nombre d'hôtels ont du reste, suivi cet exemple, ouvrant leurs propres flancs, comme le pélican, non point par charité, mais par avarice.</p>
+                <p>Le cabaret de la <seg rend="italic"
+                    >Pêche miraculeuse</seg>, sorte de caverne irrégulière, s'insinuait en boyau à l'intérieur des bâtiments et ne prenait qu'un tiers environ de la hauteur du rez-de-chaussée. Depuis que le Marais a pris faveur dans l'industrie, nombre d'hôtels ont du reste, suivi cet exemple, ouvrant leurs propres flancs, comme le pélican, non point par charité, mais par avarice.</p>
                 <p>Le sol du cabaret d'Ezéchiel était un peu plus bas que la rue. On y buvait, on y mangeait, on y jouait, on y achetait lignes, hameçons, appâts, gaules, tout ce qu'il fallait, en un mot, pour harponner des poissons, nourris de bagues chevalières.</p>
                 <p>L'hôtel appartenait à un respectable vieillard, M. d'Aubremesnil, ancien conseiller au parlement, qui n'avait point émigré et vivait à Versailles. Il n'y avait d'habité qu'un pavillon, situé au bout d'un grand jardin, et dont l'entrée était rue Saint-Louis, vis-à-vis des communs de l'hôtel Lambert.</p>
                 <p>Ce pavillon avait été loué quelques mois auparavant par une jeune dame d'une rare beauté, qui vivait solitairement et s'occupait de bonnes oeuvres.</p>
                 <p>Quand notre homme, le «patron» des maçons du Marché-Neuf, arriva au seuil du bouge à demi souterrain où le brave Ezéchiel était maître après Dieu, il hésita, tant l'aspect de cette caverne était repoussant et obscène. Il y a bien longtemps que Paris a jeté loin de lui ces souillures; Paris, malgré les exagérations de certains peintres à la plume, est une des villes les moins déshonorées de l'univers. Ce qui, à Paris, serait de nos jours une monstrueuse exception, se rencontre à chaque pas dans les plus beaux quartiers de Londres, cette Babylone de la débauche glaciale et de l'ennui impudique.</p>
-                <p>Mais les moeurs de Paris, en 1804, gardaient encore l'effronté cachet du Directoire. La lanterne de la <seg rend="italic">Pêche miraculeuse</seg> n'éclairait bien que le dehors. Au dedans, c'était un demi-jour brumeux, dans lequel grouillaient des nudités à peine voilées. Une demi-douzaine de femmes étaient là, vautrées sur des sophas de bois recouverts de quelques brins de paille, buvant, jouant ou regardant jouer un nombre égal d'hommes appartenant à la classe abandonnée des batteurs de pavés. Ce n'était pas français, à vrai dire, pas plus que les stupides et froides nuits de Paul Niquet ne sont françaises. On peut regarder ces hideuses choses comme des emprunts désespérés faits à la dégradation anglaise.</p>
+                <p>Mais les moeurs de Paris, en 1804, gardaient encore l'effronté cachet du Directoire. La lanterne de la <seg
+                        rend="italic"
+                    >Pêche miraculeuse</seg> n'éclairait bien que le dehors. Au dedans, c'était un demi-jour brumeux, dans lequel grouillaient des nudités à peine voilées. Une demi-douzaine de femmes étaient là, vautrées sur des sophas de bois recouverts de quelques brins de paille, buvant, jouant ou regardant jouer un nombre égal d'hommes appartenant à la classe abandonnée des batteurs de pavés. Ce n'était pas français, à vrai dire, pas plus que les stupides et froides nuits de Paul Niquet ne sont françaises. On peut regarder ces hideuses choses comme des emprunts désespérés faits à la dégradation anglaise.</p>
                 <p>Londres seul est le cadre favorable pour ces horreurs sans rémission, où le vice prend physionomie de torture et où les misérables s'amusent comme on souffre en enfer. A Paris, le vice garde toujours une bonne part de forfanterie; à Londres la perdition sérieuse et convaincue nage dans le boue naturellement comme le poisson dans l'eau.</p>
-                <p>Quiconque a pénétré de nuit dans les <seg rend="italic">spirit-shops</seg> de l'ancien quartier Saint-Gilles, où même dans les <seg rend="italic">gin-palaces</seg> groupés en foule, en pleine ville fashionable, autour de Covent-Garden, doit reconnaître la vérité de ce dire: A Paris, l'horreur est une mode excentrique; à Londres, c'est un fruit du terroir.</p>
+                <p>Quiconque a pénétré de nuit dans les <seg rend="italic"
+                        >spirit-shops</seg> de l'ancien quartier Saint-Gilles, où même dans les <seg
+                        rend="italic"
+                    >gin-palaces</seg> groupés en foule, en pleine ville fashionable, autour de Covent-Garden, doit reconnaître la vérité de ce dire: A Paris, l'horreur est une mode excentrique; à Londres, c'est un fruit du terroir.</p>
                 <p>Le gardien hésita, pris à la gorge par les exhalaisons fétides qui sortaient de ce souterrain, mais son hésitation ne dura pas. Il était homme à franchir de bien autres barrières.</p>
                 <p>—Je sais un autre caveau, pensa-t-il, où l'air est encore plus mauvais.</p>
                 <p>Et il entra, souriant avec mélancolie.</p>
-                <p>Quoiqu'il n'eût, certes, pas l'air d'un grand seigneur par son costume, et qu'un bourgeois bien mis eût regardé avec dédain la grosse étoffe de ses vêtements, il y avait un tel contraste entre sa tenue et celle des habitués de la <seg rend="italic">Pêche miraculeuse</seg>, que son apparition fit scandale.</p>
+                <p>Quoiqu'il n'eût, certes, pas l'air d'un grand seigneur par son costume, et qu'un bourgeois bien mis eût regardé avec dédain la grosse étoffe de ses vêtements, il y avait un tel contraste entre sa tenue et celle des habitués de la <seg
+                        rend="italic">Pêche miraculeuse</seg>, que son apparition fit scandale.</p>
                 <p>Il n'était pas sans exemple qu'un honnête homme, excusé par sa passion pour la pêche à la ligne, fût entré de jour chez Ezéchiel qui tenait, nous l'avons dit, boutique d'engins de toute sorte; mais après la nuit tombée, la physionomie de son bouge était si nettement caractérisée, que le plus vaillant des badauds eût pris ses jambes à son cou après avoir jeté un coup d'oeil à l'intérieur.</p>
                 <p>—Voilà un agneau! dit une des giroflées.</p>
-                <p>—Un mouton plutôt, riposta un coquin à figure patibulaire qui tenait les cartes à une partie de <seg rend="italic">foutreau</seg> (noble jeu qui est un dérivé de la bouillotte) et dont le nez busqué portait une <seg rend="italic">drogue</seg> ou pincette de bois crânement posée de travers: un vieux mouton! et dur! Voyez voir à lui, Ezéchiel.</p>
+                <p>—Un mouton plutôt, riposta un coquin à figure patibulaire qui tenait les cartes à une partie de <seg
+                        rend="italic"
+                        >foutreau</seg> (noble jeu qui est un dérivé de la bouillotte) et dont le nez busqué portait une <seg
+                        rend="italic"
+                    >drogue</seg> ou pincette de bois crânement posée de travers: un vieux mouton! et dur! Voyez voir à lui, Ezéchiel.</p>
                 <p>Ezéchiel n'avait pas besoin qu'on le mit en arrêt: c'était un chien de race. Il vint au-devant du gardien la pipe à la bouche et d'un air mauvais.</p>
                 <p>—Que vous faut-il, citoyen? demanda-t-il.</p>
                 <p>—Du vin, répondit le patron, qui s'assit.</p>
@@ -493,7 +537,8 @@
                 <p>—Le rentier s'est trompé de porte.</p>
                 <p>Le patron ôta son chapeau, qui n'était pas neuf, et le posa sur la table. Comment dire cela? Il y avait bien en effet du rentier dans l'aspect de ce crâne à demi dépouillé, que le regard débonnaire de deux grands yeux bleus marquait au sceau d'une sorte de candeur, mais il y avait aussi autre chose.</p>
                 <p>Le mouton avait je ne sais quoi du loup.</p>
-                <p>Les attaches de son cou se dégageaient selon de grandes lignes, ses mouvements étaient larges et souples; malgré les allures placides qu'il affectait, on découvrait en lui je ne sais quoi qui annonce le <seg rend="italic">découplement</seg> des muscles et fait les athlètes.</p>
+                <p>Les attaches de son cou se dégageaient selon de grandes lignes, ses mouvements étaient larges et souples; malgré les allures placides qu'il affectait, on découvrait en lui je ne sais quoi qui annonce le <seg
+                        rend="italic">découplement</seg> des muscles et fait les athlètes.</p>
                 <p>Les hommes se sentirent mal à l'aise sous son regard, et les femmes cessèrent de railler.</p>
                 <p>—Donne ton vin tel qu'il est, l'ami, dit-il à Ezéchiel, et fais vite: j'ai soif.</p>
                 <p>Le cabaretier, cette fois, obéit en grondant.</p>
@@ -519,7 +564,8 @@
                 <p>Le cabaretier avait courbé la tête. Il recula tout à coup et saisit son escabelle par un pied pour la brandir au-dessus de sa tête.</p>
                 <p>—A moi, les fils! s'écria-t-il. Celui-là est un agent de Cadoudal! Il venait ici acheter du monde pour tuer le premier consul! Sa tête vaut cher: gagnons la prime!</p>
                 <p>Cette accusation, si absurde qu'elle puisse paraître, et surtout si complètement étrangère au sujet de l'entretien qu'elle interrompait, ne doit point surprendre. Chaque moment a son cheval de bataille. Nous avons vu dans Paris certaine heure où le premier venu aurait pu tuer un passant en l'accusant d'avoir jeté de la poudre de choléra dans la Seine.</p>
-                <p>Les habitués de la <seg rend="italic">Pêche miraculeuse</seg> bondirent sur leurs pieds et s'élancèrent pour barrer le chemin de la porte. Le patron eut un sourire.</p>
+                <p>Les habitués de la <seg rend="italic"
+                    >Pêche miraculeuse</seg> bondirent sur leurs pieds et s'élancèrent pour barrer le chemin de la porte. Le patron eut un sourire.</p>
                 <p>—Ce n'est pas là ma route, murmura-t-il.</p>
                 <p>Il se leva à son tour et remit avec beaucoup de sang-froid son chapeau à larges bords sur sa tête.</p>
                 <p>—L'ami, reprit-il en gagnant la table où tout à l'heure on jouait, tu as trouvé là une assez bonne rubrique; mais tu ne sais pas à qui tu as affaire, et il faut quelque chose de plus fort encore pour me mettre dans l'embarras… Fais place!</p>
@@ -569,7 +615,9 @@
                 <p>C'était un coeur brodé d'or et encadré dans une rosette de rubans écarlates.</p>
                 <p>Chaque maître y ajoutait un signe distinctif qui était en quelque sorte un blason et qui disait son nom aux initiés. Or, si le patron des maçons du Marché-Neuf était, sous son espèce de bon bourgeois, une célébrité de quartier, recevant des coups de chapeau depuis le Palais de justice jusqu'à l'Hôtel de Ville, sous un autre aspect, comme combattant des bagarres révolutionnaires, comme sauveteur, comme entraîneur ou modérateur du peuple, Gâteloup était une gloire universellement acceptée, surtout dans la classe pauvre. Les bons l'admiraient et l'aimaient, les méchants le redoutaient. Dans le danger autrefois, lors des batailles civiles, où il avait joué un rôle à la fois terrible et bienveillant, il se faisait reconnaître à l'aide de son écu de maître d'armes: un coeur d'or dans un noeud de faveurs rouges où deux raies noires, largement accusées, marquaient une croix de Saint-André.</p>
                 <p>Cela signifiait: Je suis Jean-Pierre Sévérin, dit Gâteloup; comme jadis les fleurs de lis d'or sur champ d'azur disaient: Bourbon; les macles accolées: Rohan; et les seize alérions d'azur cantonnant la croix de gueules en champ d'or: Montmorency.</p>
-                <p>Dans les luttes antiques il n'y avait aucune honte pour l'homme brave à se retirer devant un plus fort. Le char d'Achille traversait les batailles sans rencontrer devant soi d'autres ennemis que les myopes qui ne reconnaissaient pas assez vite le flamboyant bouclier présent d'Hippodamie. Les coquins rassemblés au cabaret de la <seg rend="italic">Pêche miraculeuse</seg> n'étaient nullement imbus de préjugés chevaleresques.</p>
+                <p>Dans les luttes antiques il n'y avait aucune honte pour l'homme brave à se retirer devant un plus fort. Le char d'Achille traversait les batailles sans rencontrer devant soi d'autres ennemis que les myopes qui ne reconnaissaient pas assez vite le flamboyant bouclier présent d'Hippodamie. Les coquins rassemblés au cabaret de la <seg
+                        rend="italic"
+                    >Pêche miraculeuse</seg> n'étaient nullement imbus de préjugés chevaleresques.</p>
                 <p>Il n'y eût pas une seule main pour garder une arme, et la Meslin dit en montrant son homme.</p>
                 <p>—Ah! citoyen Gâteloup, c'est encore de la reconnaissance qu'on vous doit, car si vous aviez voulu, vous ne me l'auriez pas assommé à demi!</p>
                 <p>—C'est vrai, ma fille, répliqua le patron, et si j'ai mis mon nom à ma boutonnière, c'est que la peur m'a pris de vous assommer tous… Éteins le feu, Ezechiel… Vous autres, faites-moi place.</p>
@@ -611,7 +659,9 @@
                 <p>Puis, derrière lui, une charmante jeune fille, seule aussi et qui semblait le suivre de loin.</p>
                 <p>Puis, enfin, un vieil homme, habillé bourgeoisement, mais campé à la noble, qui avait l'air de suivre les deux.</p>
                 <p>Dans le courant de notre récit, nous avons appris le nom du jeune homme: René de Kervoz, et le nom de la jeune fille: Angèle.</p>
-                <p>Quant au vieux bourgeois, ceux qui ont lu le premier épisode de cette série: <seg rend="italic">la Chambre des Amours</seg>, le connaissaient dès longtemps.</p>
+                <p>Quant au vieux bourgeois, ceux qui ont lu le premier épisode de cette série: <seg
+                        rend="italic"
+                    >la Chambre des Amours</seg>, le connaissaient dès longtemps.</p>
                 <p>Après la scène mystérieuse et presque muette qui eut lieu, vers la tombée de la nuit, dans l'église de Saint-Louis-en-l'Ile, entre cette blonde éblouissante qu'on appelait Mme la comtesse, l'Allemand Ramberg, René et l'abbé Martel, scène dont l'apprenti médecin Germain Patou, d'un côté, et Angèle de l'autre, furent les témoins silencieux, René de Kervoz sortit le premier.</p>
                 <p>Angèle le suivit aussitôt, comme elle l'avait fait depuis la place du Châtelet.</p>
                 <p>Elle semblait bien faible; son pas lent et pénible chancelait, mais ces pauvres coeurs blessés ont un terrible courage.</p>
@@ -635,7 +685,8 @@
                 <p>René aimait une autre femme.</p>
                 <p>Non point comme il l'avait aimée, elle, doucement et saintement. Oh! que de bonheur perdu!</p>
                 <p>René aimait l'autre femme avec fureur, avec angoisse.</p>
-                <p>A moitié chemin de la rue Poultier, au retour oriental du quai d'Anjou, un mur monumental formait l'angle de la rue Bretonvilliers, à l'autre bout de laquelle était le cabaret de la <seg rend="italic">Pêche miraculeuse</seg>.</p>
+                <p>A moitié chemin de la rue Poultier, au retour oriental du quai d'Anjou, un mur monumental formait l'angle de la rue Bretonvilliers, à l'autre bout de laquelle était le cabaret de la <seg
+                        rend="italic">Pêche miraculeuse</seg>.</p>
                 <p>Le pâté de propriétés compris entre les deux rues formait la pointe est de l'île; il se composait du pavillon de Bretonvilliers et de l'hôtel d'Aubremesnil, avec leurs jardins: ces deux habitations, séparées seulement par une magnifique avenue, appartenaient au même maître, l'ancien conseiller au parlement dont il a été parlé.</p>
                 <p>Outre ces demeures nobles, il y avait quelques maisons bourgeoises ayant façade sur rue.</p>
                 <p>Le pavillon de Bretonvilliers, qui n'était autre chose que le pignon d'un très vieil hôtel, sorte de manoir contemporain peut-être de l'époque où l'île était encore la campagne de Paris, s'enclavait dans le mur et faisait même une saillie de plusieurs pieds sur la voie: ce qui motiva plus tard sa démolition.</p>
@@ -644,9 +695,13 @@
                 <p>Ce fut à cette porte que René de Kervoz frappa.</p>
                 <p>Un aboiement de chien, grave et creux, qui semblait sortir de la gueule d'un animal géant, répondit à son appel.</p>
                 <p>Une femme âgée et portant un costume étranger vint ouvrir. Elle barra d'abord le passage à René, lui disant: «Les maîtres sont absents.»</p>
-                <p>René lui répondit, donnant à ces deux mots latins la prononciation magyare: «<seg rend="italic" xml:lang="Latin">Salus Hungariae</seg>.»</p>
+                <p>René lui répondit, donnant à ces deux mots latins la prononciation magyare: «<seg
+                        rend="italic" xml:lang="Latin">Salus Hungariae</seg>.»</p>
                 <p>La vieille femme le regarda en face et sembla hésiter.</p>
-                <p>—<seg rend="italic" xml:lang="Latin">Introi, domine</seg>, dit-elle enfin, également en latin prononcé à la hongroise, <seg rend="italic" xml:lang="Latin">sub auctoritate dominae meae</seg> (entrez, monsieur, sous l'autorité de ma maîtresse).</p>
+                <p>—<seg rend="italic" xml:lang="Latin"
+                        >Introi, domine</seg>, dit-elle enfin, également en latin prononcé à la hongroise, <seg
+                        rend="italic" xml:lang="Latin"
+                    >sub auctoritate dominae meae</seg> (entrez, monsieur, sous l'autorité de ma maîtresse).</p>
                 <p>La porte se referma. Un coup de fouet retentissant mit fin aux aboiements du gros chien.</p>
                 <p>Angèle était trop loin pour voir ou pour entendre.</p>
                 <p>Quand elle arriva devant la porte, tout était silence à l'intérieur.</p>
@@ -660,7 +715,8 @@
                 <p>Elles doutent si longtemps! si longtemps elles se cramponnent à la chère illusion de l'espoir.</p>
                 <p>Angèle resta pendant de longues minutes debout en face de la porte, le coeur oppressé, les yeux fermés à demi.</p>
                 <p>Aucun bruit ne venait du dedans. Le dehors était également silencieux, car la nuit s'était faite et le pas des allumeurs de lanternes avait cessé de se faire entendre.</p>
-                <p>Un seul murmure, confus et intermittent, venait du côté du quai de Béthune, où le cabaret de la <seg rend="italic">Pêche miraculeuse</seg> restait ouvert.</p>
+                <p>Un seul murmure, confus et intermittent, venait du côté du quai de Béthune, où le cabaret de la <seg
+                        rend="italic">Pêche miraculeuse</seg> restait ouvert.</p>
                 <p>En face de la porte par où René avait disparu, au coin d'une maison dont toutes les fenêtres étaient noires et qui semblait inhabitée comme la plupart des demeures dans ce triste quartier, il y avait une borne de granit cerclée de fer.</p>
                 <p>Angèle s'y assit.</p>
                 <p>De là on pouvait voir les fenêtres de l'ancien pavillon de Bretonvilliers.</p>
@@ -783,7 +839,8 @@
                 <p>Angèle avait reconnu le profil de sa rivale sur la mousseline des rideaux, et nous l'avons dit comme cela était, Angèle, dans cette silhouette mobile, avait deviné jusqu'à l'or léger qui frisait en délicieuses boucles sur le front de l'étrangère.</p>
                 <p>Franchissons cependant cette porte entr'ouverte qui laissait passer de joyeuses lueurs.</p>
                 <p>C'était une pièce beaucoup plus petite, et le seuil qui séparait les deux chambres pouvait compter pour un espace de six cents lieues. Il divisait l'Occident et l'Orient.</p>
-                <p>De l'autre côté de ce seuil, en effet, c'était l'Orient, les tapis épais comme une pelouse, les coussins accumulés, la lumière parfumée. Vous eussiez cru entrer dans un de ces boudoirs féeriques où les riches filles de la Hongrie méridionale luttent de magnificence et de mollesse avec les reines des <seg rend="italic">Mille et Une Nuits</seg>.</p>
+                <p>De l'autre côté de ce seuil, en effet, c'était l'Orient, les tapis épais comme une pelouse, les coussins accumulés, la lumière parfumée. Vous eussiez cru entrer dans un de ces boudoirs féeriques où les riches filles de la Hongrie méridionale luttent de magnificence et de mollesse avec les reines des <seg
+                        rend="italic">Mille et Une Nuits</seg>.</p>
                 <p>Le contraste était frappant et complet. A droite, c'était la roideur mélancolique et un peu moisie du grand siècle; à gauche de la cloison, le luxe voluptueux, la somptuosité demi-barbare de la frontière ottomane s'étalaient, comme si en ouvrant la croisée on eût pu voir à l'horizon les minarets de Belgrade, la blanche ville.</p>
                 <p>Dans la première pièce il faisait froid; ici régnait une douce chaleur où passaient comme de tièdes courants chargés de langueurs odorantes.</p>
                 <p>La lumière de deux lampes magnifiques, rabattue par deux coupoles de cristal rosé, tombait sur une ottomane environnée d'arbustes exotiques en pleine fleur.</p>
@@ -839,7 +896,8 @@
                 <p>Tous ceux qui ont reçu l'éducation de nos collèges doivent être embarrassés quand ils deviennent les juges d'une action de ce genre. Le bon sens dit que le vrai nom d'un pareil tournoi est assassinat. Mais l'Université, pendant huit mortelles années, a pris la peine de nous enseigner de tous autres noms, latins ou grecs. Chacun se souvient des classiques admirations de son professeur pour le poignard de Brutus.</p>
                 <p>«En plein sénat, messieurs! en plein sénat!» nous disait le nôtre, qui pourtant recevait de César un traitement de mille écus par an, ni plus ni moins.</p>
                 <p>Il ajoutait:</p>
-                <p>«C était bien le <seg rend="italic" xml:lang="Latin">vir fortis et ubicumque paratus</seg>. Le gaillard n'avait pas froid aux yeux! En plein sénat, messieurs, en plein sénat!»</p>
+                <p>«C était bien le <seg rend="italic" xml:lang="Latin"
+                        >vir fortis et ubicumque paratus</seg>. Le gaillard n'avait pas froid aux yeux! En plein sénat, messieurs, en plein sénat!»</p>
                 <p>Cassius, le collaborateur, avait aussi sa part d'éloges.</p>
                 <p>Et l'on partait de là pour dire quelque chose d'aimable à propos de tous les citoyens qui, depuis Harmodius et Aristogiton, jusqu'aux amis de Paul Ier de Russie, engagèrent précisément ce tournoi que Georges Cadoudal proposait au premier consul.</p>
                 <p>Depuis que César a fait un livre, on prétend, cependant, que le poignard de Brutus est un peu moins préconisé dans nos collèges; mais le livre de César est tout jeune, et nous qui fûmes élevés par l'Université dans le respect amoureux de l'homme et de son instrument, nous éprouvons un certain embarras à renier les admirations qui nous furent imposées:</p>
@@ -939,7 +997,9 @@
                 <p>Il était brave comme les neuf dixièmes des jeunes gens de son âge: nous ne voulons donc point noter comme un fait surprenant chez lui l'absence de toute crainte.</p>
                 <p>Mais il était discret, scrupuleux en toutes choses touchant à l'honneur. Etant donnés son caractère et son éducation, il aurait dû éprouver un scrupule, doublé par la situation particulière de sa famille.</p>
                 <p>Evidemment il y avait là un mystère. Selon toute apparence, le mystère se rapportait à des menées politiques. De quel droit René gardait-il l'affût à portée de ce mystère!</p>
-                <p>Une pareille conduite a un nom qui repousse l'estime et inspire la haine plus ou moins réfléchie de ce juge trop prompt qui s'appelle tout le monde: un nom qui est une explication et devrait être souvent une excuse, car <seg rend="italic">l'espion</seg>, ce soldat de la lutte douloureuse et sans gloire, met, la plupart du temps, sa vie même au service de son obscur dévouement.</p>
+                <p>Une pareille conduite a un nom qui repousse l'estime et inspire la haine plus ou moins réfléchie de ce juge trop prompt qui s'appelle tout le monde: un nom qui est une explication et devrait être souvent une excuse, car <seg
+                        rend="italic"
+                    >l'espion</seg>, ce soldat de la lutte douloureuse et sans gloire, met, la plupart du temps, sa vie même au service de son obscur dévouement.</p>
                 <p>René n'était pas un espion. On est espion par passion, par devoir ou pour un salaire. René vivait d'une existence complètement en dehors de la politique. Les idées qui enfiévraient encore ceux de son pays et de sa race n'avaient jamais été en lui. Il appartenait à cette génération transitoire qui réagissait contre la violence des grands mouvements: c'était un penseur, peut-être un poète; ce n'était ni un chouan, ni un républicain, ni un bonapartiste.</p>
                 <p>Au point de vue politique, la réunion qui avait lieu derrière ces muettes murailles n'avait pour lui aucune espèce d'intérêt. La passion ici lui manquait; il n'en était ni à discuter ni surtout à reconnaître ce devoir qui naît pour chacun à l'heure même où une conspiration montre le bout de son oreille, devoir controversé, mais que l'opinion du plus grand nombre caractériserait certainement ainsi: faire ou ne pas faire.</p>
                 <p>Combattre pour ou aller contre.</p>
@@ -1020,9 +1080,12 @@
                 <p>Cependant non seulement René voyait, mais il entendait aussi, et ce qu'il entendait se rapportait merveilleusement à l'étrange mise en scène de son rêve.</p>
                 <p>Tous ces déguisements divers parlaient des langues différentes.</p>
                 <p>Bien que René ne connût point tous ces divers langages, il reconnaissait ce latin prononcé à la façon hongroise et qu'il avait remarqué déjà cette nuit, l'italien et l'allemand.</p>
-                <p>Tous ces idiomes parlaient de mort, et un: «<seg rend="italic" xml:lang="English">Let us knock down the damned rascal</seg>!» (Assommons le maudit drôle!) prononcé avec le pur bredouillement des cockneys de Londres fut comme le résumé de l'opinion générale.</p>
+                <p>Tous ces idiomes parlaient de mort, et un: «<seg rend="italic" xml:lang="English"
+                        >Let us knock down the damned rascal</seg>!» (Assommons le maudit drôle!) prononcé avec le pur bredouillement des cockneys de Londres fut comme le résumé de l'opinion générale.</p>
                 <p>La plume ne peut courir comme les événements. Il y eut un commencement d'exécution, arrêté par une nouvelle péripétie, tout cela dans le court espace de temps que nous avons dit.</p>
-                <p>L'Anglais parlait encore, brandissant un de ces fléaux faits de baleine, de cuir et de plomb que John Bull a baptisés <seg rend="italic" xml:lang="English">self-preserver</seg> et auquel René devait sans doute le lâche coup qui l'avait terrassé; le nègre, mettant un genou dans l'herbe, raccourcissait déjà le bras qui allait frapper, lorsqu'une voix de femme, sonore et douce, fit tressaillir le coeur de René dans sa poitrine.</p>
+                <p>L'Anglais parlait encore, brandissant un de ces fléaux faits de baleine, de cuir et de plomb que John Bull a baptisés <seg
+                        rend="italic" xml:lang="English"
+                    >self-preserver</seg> et auquel René devait sans doute le lâche coup qui l'avait terrassé; le nègre, mettant un genou dans l'herbe, raccourcissait déjà le bras qui allait frapper, lorsqu'une voix de femme, sonore et douce, fit tressaillir le coeur de René dans sa poitrine.</p>
                 <p>Il ne vit point celle qui parlait, et pourtant il la reconnut, aux sons d'une voix qu'il n'avait jamais entendue.</p>
                 <p>Elle disait, tout près de lui, mais cachée par la cohue d'ombres étranges qui se pressaient alentour:</p>
                 <p>—Ne lui faites pas de mal: c'est lui!</p>
@@ -1138,7 +1201,8 @@
                 <p>Vers la tombée du jour, René avait vu tout a coup, au chevet de son lit, dans cette vaste chambre où tous les objets disparaissaient déjà, baignés dans l'obscurité, une femme qui semblait veiller sur son sommeil.</p>
                 <p>Une femme au visage calme et doux: front de madone qui baignait les ondes magnifiques d'une chevelure plus noir que le jais.</p>
                 <p>Cette femme ressemblait à la vision—à l'étrange éblouissement qui avait passé dans le rêve, à la voluptueuse péri dont la tête mutine secouait naguère sa blonde coiffure de rayons.</p>
-                <p>Mais ce n'était pas la même femme, oh! certes! René le sentait aux battements profonds de son coeur. Celle-ci était <seg rend="capital">ELLE</seg>: l'inconnue de Saint-Germain-l'Auxerrois.</p>
+                <p>Mais ce n'était pas la même femme, oh! certes! René le sentait aux battements profonds de son coeur. Celle-ci était <seg
+                        rend="capital">ELLE</seg>: l'inconnue de Saint-Germain-l'Auxerrois.</p>
                 <p>Quand René s'éveilla, elle mit un doigt sur sa belle bouche et lui dit:</p>
                 <p>—On nous écoute, je ne suis pas la maîtresse ici…</p>
                 <p>—C'est donc l'autre qui est la maîtresse? interrompe René.</p>
@@ -1152,7 +1216,8 @@
                 <p>L'instant d'après, un homme entra portant deux flambeaux: René reconnut ses habits sur un siège auprès de son lit.</p>
                 <p>Il s'habilla avec l'aide du nouveau venu, qui ne prononça pas un seul mot. Il ressentait une grande faiblesse, mais il ne souffrait point. Sa toilette achevée, le silencieux valet de chambre lui tendit un mouchoir de soie roulé en forme de cravate et lui fit comprendre d'un geste qu'il fallait placer ce bandeau sur ses yeux.</p>
                 <p>—Pourquoi cette précaution? demanda René, désobéissant pour la première fois aux ordres de sa protectrice.</p>
-                <p>—<seg rend="italic" xml:lang="English">I cannot speak french sir</seg>, répondit l'homme au mouchoir de soie avec un accent guttural qui raviva tout à coup les souvenirs de René.</p>
+                <p>—<seg rend="italic" xml:lang="English"
+                    >I cannot speak french sir</seg>, répondit l'homme au mouchoir de soie avec un accent guttural qui raviva tout à coup les souvenirs de René.</p>
                 <p>Ce brave, qui ne savait pas le français, s'était déjà occupé de lui. C'était bien la voix de gosier qui avait donné aux Frères de la Vertu ce conseil anglais: «Assommons le maudit coquin!»</p>
                 <p>René se laissa néanmoins mettre le bandeau.</p>
                 <p>L'instant d'après, il montait dans une voiture qui prit aussitôt le trot. Au bout de dix minutes, la voiture s'arrêta.</p>
@@ -1169,7 +1234,8 @@
                 <p>Il fallait que le roman dont le premier chapitre l'avait entraîné si loin fût déchiré violemment à cette heure où une ombre de raison lui restait, ou qu'il devint son existence même.</p>
                 <p>Ce fut ainsi. René ne fut pas vainqueur dans la lutte. L'image d'Angèle resta ineffaçable au plus profond de son coeur, mais il en détourna ses regards affolés par un mirage.</p>
                 <p>Il était trop tendrement chéri pour que le malaise de son esprit et de son coeur ne fût point remarqué par ceux qui l'entouraient. Son caractère altéré, ses habitudes changées excitèrent des défiances, éveillèrent des inquiétudes. René le vit, il en souffrit, mais il glissait déjà sur la pente où nul ne sut jamais s'arrêter.</p>
-                <p>Le <seg rend="italic">sort</seg>, du reste, puisqu'il est convenu qu'il avait un sort, ne lui laissait ni repos ni trêve. La fascination commencée ne s'arrêtait point. Le roman continuait, nouant aux pages de son prologue toute une chaîne de mystérieuses et friandes péripéties.</p>
+                <p>Le <seg rend="italic"
+                    >sort</seg>, du reste, puisqu'il est convenu qu'il avait un sort, ne lui laissait ni repos ni trêve. La fascination commencée ne s'arrêtait point. Le roman continuait, nouant aux pages de son prologue toute une chaîne de mystérieuses et friandes péripéties.</p>
                 <p>Dans une indisposition qu'il avait eue, René s'était fait saigner naguère par un apprenti docteur, ami de son beau-père, un drôle de petit homme, qui s'appelait Germain Patou et qui parlait de la Faculté Dieu sait comme! Ce Germain Patou avait découvert un pathologiste allemand, du nom de Samuel Hahnemann, qui remplaçait les volumineux poisons du Codex par une poudre de perlimpinpin, laquelle, au dire de Patou produisait des miracles.</p>
                 <p>Le petit homme passait volontiers pour fou, mais, quoiqu'il ne fût point encore docteur, il guérissait à tort et à travers tous ceux qui lui tombaient sous la main.</p>
                 <p>Le surlendemain de la bagarre nocturne où René avait reçu ce coup sur le crâne, Patou vint le voir par hasard et René lui montra sa blessure, disant qu'il était tombé à la renverse en glissant sur le pavé.</p>
@@ -1177,17 +1243,22 @@
                 <p>Patou n'eut pas plutôt aperçu la plaie qu'il s'écria:</p>
                 <p>—Il y avait là de quoi tuer un boeuf.</p>
                 <p>Il approcha vivement ses narines de l'appareil.</p>
-                <p>—<seg rend="italic">Arnica montana</seg>! prononça-t-il dévotement: le vulnéraire du maître!… Mon camarade, vous avez été pansé par un vrai croyant: voulez-vous me donner son adresse?</p>
+                <p>—<seg rend="italic"
+                    >Arnica montana</seg>! prononça-t-il dévotement: le vulnéraire du maître!… Mon camarade, vous avez été pansé par un vrai croyant: voulez-vous me donner son adresse?</p>
                 <p>Dans son embarras, René raconta ce qu'il voulut ou ce qu'il put.</p>
                 <p>Pendant cela, Patou dépliait l'appareil.</p>
                 <p>C'était un mouchoir de batiste très fine, au coin duquel un écusson brodé se timbrait d'une couronne comtale.</p>
-                <p>—Tiens! tiens! fit Patou, avez vous lu dans les gazettes l'histoire du tombeau de Szandor trouvé dans une île de la Save, au-dessus de Semlin? C'est très curieux. Moi j'aime les vampires, et j'y crois dur comme fer. La mode y est, du reste: Il n'est question que de vampires. Les journaux, les livres, les gens parlent de vampires toute la journée. Je connais un homme qui fait aller les bateaux sans voiles ni rames, avec de la vapeur d'eau bouillante; il a nom le citoyen de Joufroy; il est marquis et fou comme Samuel Hahnemann; il fait un mélodrame intitulé: <seg rend="italic">la Vampire</seg>. Le théâtre Saint-Martin en croulera! Moi, je donnerais la perruque du professeur Loysel pour voir la vampire qui mange en ce moment la moitié de Paris… Revenons à notre affaire: dans le tombeau de Szandor, il y avait un vampire qui sortait la nuit, traversait la Save à la nage et désolait la contrée jusqu'à Belgrade. Ce vampire était comte, comme le prouve l'inscription du tombeau; il avait été enterré en 1646… Et voilà le drôle: le comte de Szandor avait la même devise latine que le citoyen comte de 1804, ou la citoyenne comtesse qui vous a prêté son mouchoir pour bander votre blessure.</p>
+                <p>—Tiens! tiens! fit Patou, avez vous lu dans les gazettes l'histoire du tombeau de Szandor trouvé dans une île de la Save, au-dessus de Semlin? C'est très curieux. Moi j'aime les vampires, et j'y crois dur comme fer. La mode y est, du reste: Il n'est question que de vampires. Les journaux, les livres, les gens parlent de vampires toute la journée. Je connais un homme qui fait aller les bateaux sans voiles ni rames, avec de la vapeur d'eau bouillante; il a nom le citoyen de Joufroy; il est marquis et fou comme Samuel Hahnemann; il fait un mélodrame intitulé: <seg
+                        rend="italic"
+                    >la Vampire</seg>. Le théâtre Saint-Martin en croulera! Moi, je donnerais la perruque du professeur Loysel pour voir la vampire qui mange en ce moment la moitié de Paris… Revenons à notre affaire: dans le tombeau de Szandor, il y avait un vampire qui sortait la nuit, traversait la Save à la nage et désolait la contrée jusqu'à Belgrade. Ce vampire était comte, comme le prouve l'inscription du tombeau; il avait été enterré en 1646… Et voilà le drôle: le comte de Szandor avait la même devise latine que le citoyen comte de 1804, ou la citoyenne comtesse qui vous a prêté son mouchoir pour bander votre blessure.</p>
                 <p>Ce disant, Patou étala sur la table noire la batiste où les lettres brodées ressortirent en blanc.</p>
-                <p>La devise qui courait autour de l'écusson était ainsi: <seg rend="italic" xml:lang="Latin">In vita morte, in morte vita</seg>!</p>
+                <p>La devise qui courait autour de l'écusson était ainsi: <seg rend="italic"
+                        xml:lang="Latin">In vita morte, in morte vita</seg>!</p>
                 <p>—Vraie devise de Vampire! s'écria Patou. «dans la vie la mort, dans la mort la vie!…» Pour vous finir l'histoire du comte Szandor, après cent-cinquante-huit ans de séjour dans sa tombe, ce gentilhomme avait encore de très beaux cheveux noirs, des yeux en amande et des lèvres rouges comme du corail. Il lui manquait néanmoins une dent. On lui a planté une barre de fer rouge dans le coeur, méthode chirurgicale qui parait adoptée généralement pour traiter le vampirisme… A leur place, moi, j'aurais causé un peu avec ce gaillard-là, pour savoir ce qu'il avait dans l'idée; je l'aurais examiné de pied en cap; je l'aurais soigné, parbleu! par la méthode de Hahnemann, et il aurait pu, une fois guéri, nous raconter la guerre de Trente ans, de première main, sauf les deux dernièresannées…</p>
                 <p>Quand Patou fut parti, René prit le mouchoir brodé et l'approcha de ses lèvres.</p>
                 <p>Le lendemain, il reçut une lettre dont l'écriture inconnue lui fit battre le coeur.</p>
-                <p>Le large cachet de cire noire portait le même écusson que le mouchoir brodé et la même devise aussi: <seg rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>.</p>
+                <p>Le large cachet de cire noire portait le même écusson que le mouchoir brodé et la même devise aussi: <seg
+                        rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>.</p>
                 <p>Un malaise courut dans les veines de René, puis il sourit orgueilleusement, pensant:</p>
                 <p>—Ces superstitions ne sont plus de notre temps.</p>
                 <p>La lettre disait:</p>
@@ -1275,7 +1346,9 @@
                 <p>—Le comte Wensel est reparti pour l'Allemagne!</p>
                 <p>Nous ne savons comment exprimer cela: dans la pensée de René, cette phrase avait un sens double et funèbre.</p>
                 <p>Et ce paquet de forme oblongue, qu'on avait jeté dans le trou, c'était le comte Wensel.</p>
-                <p>Si les choses eussent été comme autrefois, si René de Kervoz avait passé encore ses soirées à <seg rend="italic">causer</seg> dans la maison de son futur beau-père, le patron des maçons du Marché-Neuf, il aurait entendu plus d'une fois prononcer ce nom de Wenzel; il aurait pu prendre des renseignements précieux.</p>
+                <p>Si les choses eussent été comme autrefois, si René de Kervoz avait passé encore ses soirées à <seg
+                        rend="italic"
+                    >causer</seg> dans la maison de son futur beau-père, le patron des maçons du Marché-Neuf, il aurait entendu plus d'une fois prononcer ce nom de Wenzel; il aurait pu prendre des renseignements précieux.</p>
                 <p>Car on parlait souvent du comte Wenzel chez Jean-Pierre Sévérin, dit Gâteloup. Le comte Wenzel faisait partie d'un trio de jeunes Allemands, anciens étudiants de l'Université de Tubingen.</p>
                 <p>Il y avait Wenzel, Hamberg et Koenig: trois amis, jeunes, riches, heureux.</p>
                 <p>Mais René ne causait plus chez les parents d'Angèle.</p>
@@ -1302,7 +1375,9 @@
                 <p>Sa mémoire était restée muette, quant aux meubles et tentures, mais l'impression générale lui disait: Ce n'est pas ici. Les lieux ont non seulement une physionomie, mais encore une saveur; René resta convaincu que la chambre où il avait couché ne faisait point partie de cette maison.</p>
                 <p>Lila! il savait ce nom enfin! Et c'était la blonde qui avait trahi le secret de la brune.</p>
                 <p>Elle avait dit, étonnée et peut-être effrayée, car il eût fallu peu de chose pour déranger la trame subtile qu'elle était en train de tisser à l'église Saint-Louis, elle avait dit:</p>
-                <p>—Allez au pavillon de Bretonvilliers, frappez six coups ainsi espacés: trois, deux, un, et quand la porte s'ouvrira, prononcez ces mots: <seg rend="italic">Salus Hungariae</seg>. Vous serez introduit, et je vous promets que ma soeur Lila viendra vous rejoindre.</p>
+                <p>—Allez au pavillon de Bretonvilliers, frappez six coups ainsi espacés: trois, deux, un, et quand la porte s'ouvrira, prononcez ces mots: <seg
+                        rend="italic"
+                    >Salus Hungariae</seg>. Vous serez introduit, et je vous promets que ma soeur Lila viendra vous rejoindre.</p>
                 <p>Lila! Sait-on quels torrents d'harmonie peuvent jaillir d'un nom?</p>
                 <p>Lila vint.—René était à la fenêtre, où la pauvre Angèle le regardait d'en bas, devinant dans la nuit sa figure bien-aimée. Depuis quelques secondes les yeux de René s'étaient fixés par hasard sur une forme indécise, une forme de femme affaissée sur la borne du coin.</p>
                 <p>Certes, il ne la voyait pas dans le sens exact du mot: l'ombre était trop épaisse; mais le remords a des rêves comme l'espoir.</p>
@@ -1313,7 +1388,8 @@
             <div>
                 <head>X</head>
                 <head type="sub">TÊTE-A-TÊTE</head>
-                <p>Les heures passèrent, mesurées par la cloche enrouée de Saint-Louis-en-l'Ile.—Le dernier bruit de la rue fut le passage de ces hommes qui emportèrent Angèle au cabaret de la <seg rend="italic">Pêche miraculeuse</seg>.</p>
+                <p>Les heures passèrent, mesurées par la cloche enrouée de Saint-Louis-en-l'Ile.—Le dernier bruit de la rue fut le passage de ces hommes qui emportèrent Angèle au cabaret de la <seg
+                        rend="italic">Pêche miraculeuse</seg>.</p>
                 <p>Nous retrouvons Lila et René où nous les avons laissés, assis l'un près de l'autre sur l'ottomane du boudoir, les mains dans les mains, les yeux dans les yeux.</p>
                 <p>Et nous disons encore une fois qu'il eût été difficile de trouver un couple plus jeune, plus beau, plus gracieux.</p>
                 <p>Lila venait de prononcer ces mots qui avaient mis un nuage sur le front de René: «Mon nom est doux dans votre bouche.»</p>
@@ -1454,7 +1530,8 @@
                 <p>René ne protesta point, il dit seulement:</p>
                 <p>—Les rives de la Seine n'ont rien à envier aux bords de la Save. Nous avons aussi une vampire.</p>
                 <p>—Y croyez-vous? demanda Lila, qui ajouta aussitôt: Vous auriez honte d'y croire, bel esprit fort!</p>
-                <p>—D'où vous vient cette étrange devise, murmura René au lieu de répliquer: «<seg rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>.»</p>
+                <p>—D'où vous vient cette étrange devise, murmura René au lieu de répliquer: «<seg
+                        rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>.»</p>
                 <p>—La mort dans la vie, prononça lentement Lila, la vie dans la mort: c'est la devise du genre humain… Elle nous vient d'un de nos aïeux, le ban de Szandor, qu'on accusa aussi d'être vampire… Nous sommes une étrange famille, vous allez voir…</p>
                 <p>René, mon René, s'interrompit-elle tout à coup en se redressant orgueilleuse et si belle que l'oeil du jeune Breton étincela, c'est moi qui ai écarté l'amour, c'est moi qui le ramènerai: je ne suis pas effrayée de votre froideur; dans un instant, vous serez à mes pieds!</p>
             </div>
@@ -1613,7 +1690,8 @@
                 <p>Il y eut là un moment, je vous le dis, où ses fameux grenadiers n'aurait pas su le défendre. Et malheur à qui se laisse défendre trop souvent par des soldats ailleurs que dans la plaine, où est la place des soldats!</p>
                 <p>Ma soeur se demandait si quelque démon protégeait la vie de cet homme.</p>
                 <p>Sa conspiration s'obstinait, infatigable.</p>
-                <p>Le 10 octobre de l'année 1800, ma soeur mit un poignard dans la main de Giuseppe Ceracchi, jeune sculpteur déjà célèbre, dont elle avait enivré l'âme chevaleresque. Aréna, Demerville et Topino-Lebrun avaient juré que Bonaparte ne verrait pas la fin de la représentation des <seg rend="italic">Horaces</seg>, qu'on donnait ce soir-là.</p>
+                <p>Le 10 octobre de l'année 1800, ma soeur mit un poignard dans la main de Giuseppe Ceracchi, jeune sculpteur déjà célèbre, dont elle avait enivré l'âme chevaleresque. Aréna, Demerville et Topino-Lebrun avaient juré que Bonaparte ne verrait pas la fin de la représentation des <seg
+                        rend="italic">Horaces</seg>, qu'on donnait ce soir-là.</p>
                 <p>Un billet d'une écriture inconnue prévint le général Lannes.</p>
                 <p>J'ai pleuré sur la mort de Ceracchi.—Mais Bonaparte fut sauvé.</p>
                 <p>Trois mois après, le 24 décembre, au moment où le carrosse du premier consul tournait le coin de la rue Saint-Nicaise pour prendre la rue de Rohan qui devait le conduire à l'Opéra, un jeune garçon cria au cocher: «Au galop, si tu veux sauver ta vie!»</p>
@@ -1751,7 +1829,8 @@
                 <p>Comme il revenait vers le foyer, un objet frappa sa vue; un lambeau de peau parcheminée a laquelle adhéraient des cheveux noire à demi brûlés.</p>
                 <p>Il s'affaissa lui-même sur le parquet, le coeur étreint par une terreur extravagante et pensant:</p>
                 <p>—La vampire!… Mon rêve serait-il une vérité?</p>
-                <p>La lampe jeta une grande lueur et éclaira au-dessus de la cheminée un écusson, timbré de la couronne comtale, autour duquel courait la devise: <seg rend="italic" xml:lang="Latin">In vita mors, in mors vita</seg>.</p>
+                <p>La lampe jeta une grande lueur et éclaira au-dessus de la cheminée un écusson, timbré de la couronne comtale, autour duquel courait la devise: <seg
+                        rend="italic" xml:lang="Latin">In vita mors, in mors vita</seg>.</p>
                 <p>Puis la lampe s'éteignit.</p>
                 <p>René appuya ses deux mains contre son coeur révolté.</p>
                 <p>Ses oreilles tintaient ce mot:</p>
@@ -1759,7 +1838,8 @@
                 <p>Et comme il cherchait des objections dans sa raison aux abois, se disant: «Aurait-elle osé me raconter, elle-même sa propre histoire?» sa mémoire lui répondit:</p>
                 <p>—C'est la loi! Elle a obéi à la loi de son infernale existence en me racontant sa propre histoire!</p>
                 <p>Il poussa un horrible cri, et, sautant sur ses pieds, il se rua contre la porte avec folie. La porte était solide comme un mur.</p>
-                <p>Pendant une heure il s'épuisa en vains efforts. Quand il tomba enfin, brisé, il lui sembla qu'une lèvre humide et glacée s'appuyait sur sa bouche, et il perdit le sentiment, comme le clocher de Saint-Louis-en-l'Ile carillonnait <seg rend="italic">l'Angelus</seg> de midi.</p>
+                <p>Pendant une heure il s'épuisa en vains efforts. Quand il tomba enfin, brisé, il lui sembla qu'une lèvre humide et glacée s'appuyait sur sa bouche, et il perdit le sentiment, comme le clocher de Saint-Louis-en-l'Ile carillonnait <seg
+                        rend="italic">l'Angelus</seg> de midi.</p>
             </div>
             <div>
                 <head>XIII</head>
@@ -1837,7 +1917,8 @@
                 <p>Il s'assit.</p>
                 <p>Mais ne croyez pas qu'il y eût dans ce fait la moindre effronterie.</p>
                 <p>L'inconnu, tout en s'asseyant, garda son ait décent et courtois.</p>
-                <p>M. Berthellemot se demanda si c'était un homme d'importance, mal habillé, ou tout simplement un pauvre hère péchant par l'ignorance du respect profond qui lui était dû, a lui, M. Berthellemot, <seg rend="italic" xml:lang="Latin">alter ego</seg> de M. Dubois.</p>
+                <p>M. Berthellemot se demanda si c'était un homme d'importance, mal habillé, ou tout simplement un pauvre hère péchant par l'ignorance du respect profond qui lui était dû, a lui, M. Berthellemot, <seg
+                        rend="italic" xml:lang="Latin">alter ego</seg> de M. Dubois.</p>
                 <p>Il était lynx par profession, mais myope de nature, il eut beau aiguiser le propre regard de M. de Sartines qu'il avait retrouvé dans les cartons, il ne put résoudre cette alternative.</p>
                 <p>—Mon ami, dit-il, pour cette fois, je tolère une familiarité qui n'est pas dans mes habitudes à l'égard des agents.</p>
                 <p>—Je ne suis pas un agent, monsieur l'employé, répondit l'étranger, et je vous remercie de votre complaisance. Je vous reconnais bien, maintenant que je vous regarde. Au temps où il y avait des clubs, vous parliez haut et bien d'égalité, de fraternité, etc. Cela vous a réussi et je vous en félicite. Pendant que vous prêchiez, moi, je pratiquais, ce qui rapporta moins. Depuis que vous avez fermé les clubs où vous n'aviez plus rien à faire, je garde mes anciennes habitudes, bien plus anciennes que les clubs; je continue de parler franc à mes inférieurs, à mes égaux et à mes supérieurs aussi.</p>
@@ -2076,7 +2157,9 @@
                 <p>—Monsieur l'employé supérieur, prononça Jean-Pierre lentement, chaque homme a quelque point sur lequel précisément il ne lui plaît pas de s'expliquer. Si j'étais interrogé en justice, je répondrais selon ma conscience.</p>
                 <p>—Très-bien, monsieur Sévérin, très-bien… Vous croyez au vampires, cela me suffit pour le moment… Je voulais vous dire qu'à l'heure où nous sommes, cent mille personnes, à Paris, sont persuadés qu'un être de cette espèce rôde dans les nuits de la capitale du monde civilisé.</p>
                 <p>—Je venais vous parler de cela, monsieur l'employé, l'interrompit Jean-Pierre, et si vous le voulez bien…</p>
-                <p>—Pardon! encore un mot! un simple mot… Croiriez-vous que nous en sommes encore à l'état d'ignorance la plus complète sur la matière, malgré les savants ouvrages publiés en Allemagne. Moi, je lis tout, sans nuire à mes occupations officielles. Voilà où mon organisation est véritablement étonnante! Nos badauds appellent l'être en question <seg rend="italic">la vampire</seg>, comme s'il n'était pas bien connu que la femelle du vampire est l'oupire ou succube, appelée aussi goule au moyen âge… J'ai jusqu'à présent onze plaintes… sept jeunes gens disparus et quatre jeunes filles… Mais je vous ferai observer, et ce sont les propres termes de mon rapport à M. le préfet, qu'il n'y a besoin pour cela ni de goule, ni de succube, ni d'oupire. Paris est un monstre qui dévore les enfants.</p>
+                <p>—Pardon! encore un mot! un simple mot… Croiriez-vous que nous en sommes encore à l'état d'ignorance la plus complète sur la matière, malgré les savants ouvrages publiés en Allemagne. Moi, je lis tout, sans nuire à mes occupations officielles. Voilà où mon organisation est véritablement étonnante! Nos badauds appellent l'être en question <seg
+                        rend="italic"
+                    >la vampire</seg>, comme s'il n'était pas bien connu que la femelle du vampire est l'oupire ou succube, appelée aussi goule au moyen âge… J'ai jusqu'à présent onze plaintes… sept jeunes gens disparus et quatre jeunes filles… Mais je vous ferai observer, et ce sont les propres termes de mon rapport à M. le préfet, qu'il n'y a besoin pour cela ni de goule, ni de succube, ni d'oupire. Paris est un monstre qui dévore les enfants.</p>
                 <p>—A dater de l'heure présente, monsieur l'employé, dit Jean-Pierre qui se leva, vous avez treize plaintes, puisque je vous en apporte deux: une en mon nom personnel, une au nom de mon compère et compagnon, le citoyen Morinière, marchand de chevaux, que vous avez pris pour Georges Cadoudal.</p>
                 <p>Berthellemot se toucha le front vivement.</p>
                 <p>-Je savais bien que j'avais quelque chose à vous demander! s'écria-t-il. On devrait prendre des notes. Eprouvez-vous quelque répugnance à me dire depuis combien de temps vous connaissez ce M. Morinière?</p>
@@ -2122,7 +2205,8 @@
                 <p>—Le bon billet que vous aviez là, mon voisin! ricana Berthellemot.</p>
                 <p>Jean-Pierre était pâle comme un mort. Le secrétaire général reprit:</p>
                 <p>—Ne vous fâchez pas! Personne ne déplore plus que moi l'immoralité profonde que les moeurs du Directoire ont inoculée à la France, notre patrie. Je comparerais volontiers le Directoire à la Régence, pour le relâchement des moeurs. Il faut du temps pour guérir cette lèpre, mais nous sommes là, mon voisin…</p>
-                <p>—Vous y étiez, en effet, monsieur le préfet, l'interrompit Jean-Pierre, ou du moins vous y vîntes, car vous sortiez du <seg rend="italic">Veau qui tette</seg> avec une dame.</p>
+                <p>—Vous y étiez, en effet, monsieur le préfet, l'interrompit Jean-Pierre, ou du moins vous y vîntes, car vous sortiez du <seg
+                        rend="italic">Veau qui tette</seg> avec une dame.</p>
                 <p>—Chut! fit le secrétaire général, rougissant et souriant. Certaines gens attachent je ne sais quelle gloriole imbécile à ces faiblesses; nous ne sommes pas de bronze, mon cher monsieur Sévérin. Etait-ce la présidente ou la petite Duvernoy? La voilà lancée, savez-vous, à l'Opéra! Elle me doit une belle chandelle!</p>
                 <p>—Je ne sais pas si c'était la petite Duvernoy ou la présidente, répondit Jean-Pierre. Je ne connais ni l'une ni l'autre. Je sais que votre passage détourna mon attention un instant: quand je relevai les yeux, il n'y avait plus rien au-dessus de ma tête.</p>
                 <p>—Le réverbère avait accompli sa traversée? s'écria le secrétaire général. Vous avez beau dire, c'est drôle. Avec cela, M. Picard ferait une très jolie petite comédie.</p>
@@ -2226,7 +2310,8 @@
                 <p>—Non… Notre fille Angèle.</p>
                 <p>—Alors vous ne m'avez pas tout dit?</p>
                 <p>Jean-Pierre hésita avant de répondre.</p>
-                <p>—Monsieur l'employé, murmura-t-il enfin, l'être mystérieux qui défraye en ce moment les veillées parisiennes, <seg rend="capital">LA VAMPIRE</seg>, n'est ni goule, ni succube, ni oupire…</p>
+                <p>—Monsieur l'employé, murmura-t-il enfin, l'être mystérieux qui défraye en ce moment les veillées parisiennes, <seg
+                        rend="capital">LA VAMPIRE</seg>, n'est ni goule, ni succube, ni oupire…</p>
                 <p>—La connaîtriez-vous? s'écria vivement Berthellemot.</p>
                 <p>—Je l'ai vue deux fois.</p>
                 <p>Le secrétaire général ressaisit précipitamment son papier et sa mine de plomb.</p>
@@ -2284,7 +2369,9 @@
                 <p>—Parce que, comme les autres, il a réalisé une forte somme, et que le moment est venu de le dépouiller.</p>
                 <p>—Vous auriez fait un remarquable agent, dit Berthellemot je prends des notes.</p>
                 <p>—Quand je m'occupe de police, répliqua Jean-Pierre, c'est pour mon compte. Cela m'est arrivé plus d'une fois en ma vie, et je me suis assis dans le cabinet de Thiroux de Crosne, le lieutenant de police qui succéda à M. Lenoir, comme je comptais m'asseoir, aujourd'hui dans le cabinet de M. le préfet Dubois.</p>
-                <p>Sévérin, dit Gâteloup, faisait ici allusion à la bizarre aventure qui est le sujet de notre précédent récit: <seg rend="italic">la Chambre des Amours</seg>. On se souvient du rôle important que, sous son nom de Gâteloup, chantre à Saint-Sulpice et prévôt d'armes, il joua dans ce drame.</p>
+                <p>Sévérin, dit Gâteloup, faisait ici allusion à la bizarre aventure qui est le sujet de notre précédent récit: <seg
+                        rend="italic"
+                    >la Chambre des Amours</seg>. On se souvient du rôle important que, sous son nom de Gâteloup, chantre à Saint-Sulpice et prévôt d'armes, il joua dans ce drame.</p>
                 <p>—Il n'y a pas besoin de nombreuses escouades, continua-t-il, pour relever une piste et pour mener une chasse. J'avais à venger la blessure qui empoisonna ma jeunesse, et j'avais à sauvegarder des enfants que j'aimais. J'étais jeune, hardi, avisé, quoique j'eusse le défaut de chercher parfois au fond de la bouteille l'oubli d'un cuisant chagrin… Maintenant je suis presque un vieillard, et c'est pour cela que je viens demander de l'aide.</p>
                 <p>Pas beaucoup d'aide: un homme ou deux que je choisirai moi-même. Cela n'affaiblira pas votre armée, monsieur l'employé, et cela me suffira.</p>
                 <p>Franz Koënig n'avait pas besoin d'écrire à Stuttgard pour toucher la forte somme dont je vous ai parlé: il possédait un crédit illimité sur la maison Mannheim et C°. A deux heures cette après midi, il a quitté ma salle; à trois heures il sortait de la maison Mannheim et chargeait dans sa voiture deux cent cinquante mille thalers de Prusse en bons de la caisse royale de Berlin.</p>
@@ -2409,7 +2496,9 @@
                 <p>Tout entier à l'émotion de sa pensée, il parlait bien plus pour lui-même que pour son interlocuteur qui, désormais, était immobile et muet.</p>
                 <p>M. Berthellemot poussa la discrétion jusqu'à ne point répondre à la dernière question qui lui était posée, question philosophique, pourtant, et qui eût pu servir de thème à quelque long bavardage.</p>
                 <p>Et si le lecteur s'étonne de cette réserve excessive chez un si déterminé interrupteur, nous lui confesserons que M. Berthellemot, comme beaucoup d'autres employés supérieurs, avait le talent utile de dormir profondément en se tenant droit sur son siège et en gardant toutes les apparences d'une vigilante attention.</p>
-                <p>Il dormait, ce juste, et rêvait peut-être de l'heure fortunée où, l'oeil perçant du premier consul distinguant enfin son mérite hors ligne, le <seg rend="italic">Moniteur</seg> insérerait cette sentence si éloquente et si courte: M. Berthellemot est nommé préfet de police.</p>
+                <p>Il dormait, ce juste, et rêvait peut-être de l'heure fortunée où, l'oeil perçant du premier consul distinguant enfin son mérite hors ligne, le <seg
+                        rend="italic"
+                    >Moniteur</seg> insérerait cette sentence si éloquente et si courte: M. Berthellemot est nommé préfet de police.</p>
                 <p>Jean-Pierre, du reste, n'avait pas besoin qu'on lui répondit; il continua:</p>
                 <p>—Il y a une contradiction sublime et que dix fois j'ai rencontrée sur mon chemin. Toute créature humaine décidée à se détruire elle-même peut être arrêtée au bord de l'abîme par l'espoir de sauver son semblable.</p>
                 <p>L'homme qui va commettre un suicide est toujours prêt à empêcher le suicide d'autrui.</p>
@@ -2485,7 +2574,8 @@
                     <body>
                         <div>
                             <p>«Nous chargeons M.L.N.P.J. Dubois, notre préfet de police, d'écouter avec le plus grand soin les renseignements qui lui seront fournis par le porteur du présent.</p>
-                            <p>«La comtesse Marcian Gregoryi est une noble Hongroise qui nous a rendu déjà un signalé service lors de la campagne d'Italie. Nous avons éprouvé son dévouement <seg rend="italic">personnel</seg>.</p>
+                            <p>«La comtesse Marcian Gregoryi est une noble Hongroise qui nous a rendu déjà un signalé service lors de la campagne d'Italie. Nous avons éprouvé son dévouement <seg
+                                    rend="italic">personnel</seg>.</p>
                             <p>«Ce qu'elle demandera devra être exécuté à la lettre.</p>
                             <ab>«Signé: N——.»</ab>
                         </div>
@@ -2544,7 +2634,8 @@
                 <p>—Ah!… fit Berthellemot dont la bouche resta béante.</p>
                 <p>Dubois croisa les mains derrière son dos. Il éblouissait son secrétaire général.</p>
                 <p>—M. Despaux, monsieur, continua-t-il, ne me paraît pas absolument impropre à remplir des fonctions qui désormais semblent être au-dessus de vos capacités. Il ne tient à rien que je ne fasse un exemple…</p>
-                <p>—Ah! monsieur le préfet! s'écria Berthellemot, après tout le mal que je me suis donné… <seg rend="italic">Sic vos non vobis</seg>!…</p>
+                <p>—Ah! monsieur le préfet! s'écria Berthellemot, après tout le mal que je me suis donné… <seg
+                        rend="italic">Sic vos non vobis</seg>!…</p>
                 <p>—Voudriez-vous faire croire que vous êtes pour quelque chose dans le succès constant de mes efforts? demanda superbement Dubois.</p>
                 <p>—Parole jolie, riposta bravement le secrétaire général, retrouvant un brin de courage tout au fond de sa détresse; destituez-moi seulement, et vous verrez si j'ai ma langue dans ma poche… J'ai pris des notes, Dieu merci… M. Fouché, pas plus tard qu'aujourd'hui, me faisait tâter par ce même Despaux…</p>
                 <p>Fouché était la terreur de tout ce qui tenait à la police. On savait qu'entre lui et le premier consul, c'était un peu une querelle de ménage, et que tôt ou tard la réconciliation devait venir.</p>
@@ -2671,11 +2762,14 @@
                 <p>—Et penses-tu que l'affaire soit achevée?</p>
                 <p>Au moment où Yanusza ouvrait la bouche pour répondre, un cri déchirant, profond, lamentable, perça l'épaisse muraille de l'antichambre.</p>
                 <p>La comtesse eut un léger tressaillement, et Yanusza fit le signe de la croix.</p>
-                <p>—<seg rend="italic" xml:lang="Latin">Requiescat in pace</seg>! murmura-t-elle.</p>
+                <p>—<seg rend="italic" xml:lang="Latin"
+                    >Requiescat in pace</seg>! murmura-t-elle.</p>
                 <p>Le grand chien hurla une longue plainte.</p>
                 <p>—Fais les malles, Paraxin, ordonna la comtesse, qui avait déjà recouvré son sang-froid, et ne perds pas de temps.</p>
                 <p>—Les malles sont faites, maîtresse, repartit la vieille femme. Est-il bien sûr que nous nous en allons demain?</p>
-                <p>—Aussi sûr que tu es une bonne chrétienne, Yanusza. C'est la dernière nuit. Franz Koënig a complété le million de ducats exigé par le comte Szandor. Je vais vivre et mourir, moi qui suis privée à la fois de la mort et de la vie. <seg rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>! Szandor, mon époux adoré, me donnera une heure d'amour avant de me brûler le coeur!</p>
+                <p>—Aussi sûr que tu es une bonne chrétienne, Yanusza. C'est la dernière nuit. Franz Koënig a complété le million de ducats exigé par le comte Szandor. Je vais vivre et mourir, moi qui suis privée à la fois de la mort et de la vie. <seg
+                        rend="italic" xml:lang="Latin"
+                    >In vita mors, in morte vita</seg>! Szandor, mon époux adoré, me donnera une heure d'amour avant de me brûler le coeur!</p>
                 <p>Comme le vernis jette tout à coup d'étranges lumières sur une toile de maître, sa passion ardente transfigurait maintenant sa beauté.</p>
                 <p>Elle fit un pas vers la porte qui communiquait avec les appartements intérieurs; mais avant d'en toucher le loquet, elle s'arrêta.</p>
                 <p>—Et… murmura-t-elle avec une sorte d'hésitation, ce pauvre enfant?</p>
@@ -2742,7 +2836,8 @@
                 <p>Mais une pendule sonna dans la pièce voisine, et il bondit vers la croisée, qu'il enjamba de nouveau.</p>
                 <p>—Le patron m'attend, se dit-il. J'ai accompli la mission dont il m'avait chargé. Je sais où demeure la comtesse Marcian Gregoryi… et peut-être ai-je deviné le dénoûment de cette comédie, dont la première scène fut jouée à l'église Saint-Louis-en-l'Ile.</p>
                 <p>Il descendit comme il avait monté, à la force de ses bras courts mais robustes. Au moment où sa tête était déjà au niveau du balcon, son dernier regard rencontra, au ciel du lit, la plaque émaillée qui fixait les plis des rideaux. C'était un écusson qui semblait renvoyer en faisceau tous les rayons de la lampe.</p>
-                <p>Une devise en lettres noires gothiques courait sur le fond d'or et disait: <seg rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>…</p>
+                <p>Une devise en lettres noires gothiques courait sur le fond d'or et disait: <seg
+                        rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>…</p>
                 <p>La comtesse Marcian Gregoryi était nonchalamment étendue sur les coussins de sa voiture, dont le cocher, suivant ordre reçu d'avance, arrêta ses chevaux à l'angle du pont Marie, sur le quai d'Anjou.</p>
                 <p>La comtesse descendit et dit:</p>
                 <p>—Attendez.</p>
@@ -2862,7 +2957,8 @@
                 <p>L'officier de paix écoutait; en gardant le sérieux de son grade, certaines anecdotes racontées à voix basse par Laurent et Charlevoy, toutes à la louange du vigoureux poignet de M. Sévérin; le troisième agent applaudissait, franchement; le quatrième, laid coquin, à la figure toute velue de barbe noire, marchait un peu en arrière et grommelait:</p>
                 <p>—J'ai vu mieux que ça! C'est vrai qu'il tape dur! Quand Jean-Pierre s'arrêta au coin de la rue de Bretonvilliers et du quai, ce quatrième agent se mit à rire dans sa barbe et murmura:</p>
                 <p>—Tiens! c'te farce! c'est à l'établissement qu'il en veut. Pourtant il avait trouvé le vin mauvais.</p>
-                <p>Jean-Pierre frappa bruyamment à la porte du cabaret de la <seg rend="italic">Pêche miraculeuse</seg>. Personne ne fit réponse à l'intérieur.</p>
+                <p>Jean-Pierre frappa bruyamment à la porte du cabaret de la <seg rend="italic"
+                        >Pêche miraculeuse</seg>. Personne ne fit réponse à l'intérieur.</p>
                 <p>—Mes enfants, dit Jean-Pierre, il faut me jeter bas ces planches-là.</p>
                 <p>—Auparavant, fit observer l'officier de paix, je dois accomplir les formalités d'usage.</p>
                 <p>—Pas besoin, monsieur Barbaroux, dit par derrière une voix qui dressa l'oreille de Jean-Pierre. La farce est jouée là-dedans. Le propriétaire a déménagé.</p>
@@ -2871,7 +2967,9 @@
                 <p>Tout en parlant, il introduisit une clef dans la serrure de la porte, qui s'ouvrit aussitôt…</p>
                 <p>—Au nom de la loi, ajouta Ézéchiel, qui était en belle humeur, donnez-vous la peine d'entrer.</p>
                 <p>Dans cette espèce de cave, qui servait naguère de cabaret, il n'y avait plus que les quatre murs.</p>
-                <p>—Oh! fit Ézéchiel, répondant au regard étonné de Jean-Pierre et tenant à la main une chandelle de suif qu'il venait d'allumer, je suis en règle, monsieur Gâteloup. J'ai fait mon rapport, et la <seg rend="italic">Pêche miraculeuse</seg> a d'ailleurs servi de souricière. Les temps sont durs, on vit comme on peut.</p>
+                <p>—Oh! fit Ézéchiel, répondant au regard étonné de Jean-Pierre et tenant à la main une chandelle de suif qu'il venait d'allumer, je suis en règle, monsieur Gâteloup. J'ai fait mon rapport, et la <seg
+                        rend="italic"
+                    >Pêche miraculeuse</seg> a d'ailleurs servi de souricière. Les temps sont durs, on vit comme on peut.</p>
                 <p>—Ce n'était pas la préfecture qui te donnait à vivre, dit Jean-Pierre qui fronça ses gros sourcils; ce n'était pas non plus ton métier de cabaretier. Ne joue pas au fin avec moi, l'homme, ou gare à tes côtes! Tu étais payé par la comtesse Marcian Gregoryi.</p>
                 <p>—Tiens! tiens! grommela Ezéchiel, vous saviez donc cela, monsieur Gâteloup?.. Eh bien, c'est vrai, quoi! j'ai mis quelque petit argent de côté pour mes vieux jours… On ne voit pas clair dans ces histoires-là, du premier coup, vous sentez rien… et j'ai été longtemps à deviner pourquoi la comtesse avait monté la mécanique du quai de Béthune.</p>
                 <p>—Et ce pourquoi est-il dans ton rapport?</p>
@@ -2907,7 +3005,9 @@
                 <p>Il y eut un moment d'attente terrible. Ezéchiel avait de la sueur au front.</p>
                 <p>—Eh bien! fit Gâteloup du dehors, venez-vous?</p>
                 <p>—Parait que le chien est délogé pour tout de bon! dit Ézéchiel. Il aurait déjà fait son tapage s'il était là. Marchons.</p>
-                <p>Il passa le premier, non sans garder une certaine inquiétude. Les trois autres agents et l'officier de paix suivirent. Au delà du trou, c'était une sorte de fosse, en contre-bas de celle qu'on appelait le <seg rend="italic">vide-bouteilles</seg>. Elle communiquait avec les jardins par un escalier de terre et de bois.</p>
+                <p>Il passa le premier, non sans garder une certaine inquiétude. Les trois autres agents et l'officier de paix suivirent. Au delà du trou, c'était une sorte de fosse, en contre-bas de celle qu'on appelait le <seg
+                        rend="italic"
+                    >vide-bouteilles</seg>. Elle communiquait avec les jardins par un escalier de terre et de bois.</p>
                 <p>Les jardins étaient complètement déserts.</p>
                 <p>La petite troupe les parcourut d'abord et les fouilla dans tous les sens, Charlevoy et Laurent étaient deux fins limiers, et l'industrieux Ezéchiel connaissait les êtres. Ils arrivèrent jusqu'au grand mur qui bordait les deux quais, fermant l'éperon de I'Ile Saint-Louis comme un rempart. La nuit était claire. Quoique cette partie du jardin ressemblât à une forêt vierge, Laurent et Charlevoy, après visite faite, affirmèrent que nulle créature humaine n'y pouvait rester cachée.</p>
                 <p>La porte du bord de l'eau, par où la comtesse Marcian Gregoryi devait s'introduire une heure plus tard, ne leur échappa point, mais à voir l'état de sa serrure, ils la crurent condamnée.</p>
@@ -2920,7 +3020,9 @@
                 <p>—Jamais, répondit Ézéchiel.</p>
                 <p>—Alors, s'écria Charlevoy, ils devaient passer par ta boutique, capitaine.</p>
                 <p>Ezéchiel rougit jusqu'aux oreilles et le regarda de travers.</p>
-                <p>Des cuisines au rez-de-chaussée c'était un large escalier de pierre de taille, mal tenu et dans un état de complète dégradation. Les portes du rez-de-chaussée ayant été ouvertes à l'aide de la <seg rend="italic">trousse</seg> de Charlevoy, on entra dans une enfilade de chambre nues, suant l'humidité et la vétusté, et qui, évidemment, n'avaient point été habitées depuis de longues années.</p>
+                <p>Des cuisines au rez-de-chaussée c'était un large escalier de pierre de taille, mal tenu et dans un état de complète dégradation. Les portes du rez-de-chaussée ayant été ouvertes à l'aide de la <seg
+                        rend="italic"
+                    >trousse</seg> de Charlevoy, on entra dans une enfilade de chambre nues, suant l'humidité et la vétusté, et qui, évidemment, n'avaient point été habitées depuis de longues années.</p>
                 <p>Aux murailles restaient quelques portraits déteints et quelques haillons de tapisserie.</p>
                 <p>L'officier de paix, M. Barbaroux, était un utilitaire. Il fit remarquer avec raison qu'il y avait là beaucoup de terrain perdu et qu'on eût pu loger dans ces salles inoccupées une grande quantité de gens qui couchaient dans la rue.</p>
                 <p>—Montons plus haut, dit Jean-Pierre, il n'y a rien ici pour nous.</p>
@@ -3114,7 +3216,9 @@
                 <p>—C'était elle! poursuivit-il. Elle n'a pas eu le temps de doubler son crime en sacrifiant son enfant!…</p>
                 <p>Son crime! s'interrompit il avec une soudaine violence. Quand l'excès du malheur a produit le délire, y a-t-il encore crime? Je suis vieux; je n'ai jamais rencontré d'âme si douée ni si pure… C'était elle!… Tu ne me comprends pas, garçon, et je n'ai pas le courage de me faire comprendre… C'est elle! c'est elle que je vis au lieu même qu'elle désigne, entraînée et saisie par le démon du suicide… Vue de mes yeux, entends-tu, comme je te vois… et le reste dépasse tellement les bornes du vraisemblable que les paroles s'arrêtent dans mon gosier… Un monstre, un être impur lui a pris sa vie, sa vie angélique, et la prodigue à toute sorte de hontes… La vampire…</p>
                 <p>L'oeil de Patou brilla.</p>
-                <p>—J'ai lu, la nuit dernière, le plus étonnant de tous les livres, prononça-t-il à voix basse: <seg rend="italic">la Légende de la goule Addhéma et du vampire de Szandor</seg>, imprimée à Bade, en 1736, par le professeur Hans Spurzheim, docteur de l'Université de Presbourg… L'oupire Addhéma prenait la vie de ses victimes au marc le franc, pour ainsi dire, vivant une heure pour chacune de leurs années, et courant sans cesse le monde, afin de rassembler des trésors au roi des morts-vivants, le comte Szandor, qu'elle aime d'une adoration maudite, et qui lui vend chaque baiser au prix d'un monceau d'or.</p>
+                <p>—J'ai lu, la nuit dernière, le plus étonnant de tous les livres, prononça-t-il à voix basse: <seg
+                        rend="italic"
+                    >la Légende de la goule Addhéma et du vampire de Szandor</seg>, imprimée à Bade, en 1736, par le professeur Hans Spurzheim, docteur de l'Université de Presbourg… L'oupire Addhéma prenait la vie de ses victimes au marc le franc, pour ainsi dire, vivant une heure pour chacune de leurs années, et courant sans cesse le monde, afin de rassembler des trésors au roi des morts-vivants, le comte Szandor, qu'elle aime d'une adoration maudite, et qui lui vend chaque baiser au prix d'un monceau d'or.</p>
                 <p>—Et comment s'inoculait-elle la vie d'autrui? demanda Jean-Pierre, qui avait honte d'interroger ces mystères de la démence orientale.</p>
                 <p>—En appliquant sur son crâne chauve, répondit Patou, les chevelures des jeunes filles assassinées.</p>
                 <p>Le gardien poussa un cri sourd et se retint à la croisée pour ne point tomber à la renverse.</p>
@@ -3160,7 +3264,9 @@
                 <p>René, cependant, secoué par la rude main de Gâteloup, ne bougeait point.</p>
                 <p>Germain Patou déboucha tour à tour les deux flacons et en flaira le contenu en les passant rapidement à plusieurs reprises sous ses narines gonflées.</p>
                 <p>Il avait l'odorat sûr comme un réactif.</p>
-                <p>—Opium turc, dit-il, haschisch de Belgrade: suc concentré du <seg rend="italic" xml:lang="Latin">Papaver somniferum</seg>. Patron, ne vous fatiguez pas, vous le tueriez avant de l'éveiller.</p>
+                <p>—Opium turc, dit-il, haschisch de Belgrade: suc concentré du <seg rend="italic"
+                        xml:lang="Latin"
+                    >Papaver somniferum</seg>. Patron, ne vous fatiguez pas, vous le tueriez avant de l'éveiller.</p>
                 <p>Chacun voulut voir alors, et M. Barbaroux lui-même mit son large nez au-dessus du goulot comme un éteignoir sur une bougie.</p>
                 <p>—Ça sent le petit blanc, déclara-t-il, avec du sucre.</p>
                 <p>Charlevoy et Laurent auraient voulu goûter.</p>
@@ -3201,7 +3307,8 @@
                 <p>—Mon cher voisin, dit-il à haute voix et d'un accent résolu, en prenant la main de Gâteloup, qu'il serra avec effusion, M. le préfet est mon chef immédiat, mais au-dessus du préfet il y a le souverain maître des destinées de la France… je veux parler du premier consul. Vous témoignerez au besoin de mes sentiments politiques… Quelle est votre opinion personnelle sur cette comtesse Marcian Gregoryi?</p>
                 <p>Jean-Pierre fut un instant avant de répondre.</p>
                 <p>—Monsieur l'employé supérieur, dit-il enfin, prenez une bonne escorte, allez chaussée des Minimes, n° 7, et fouillez la maison de fond en comble.</p>
-                <p>—Sans oublier la serre, ajouta Germain Patou, et, dans la serre, une trappe qui est sous la troisième caisse, en partant de la caisse du salon: une caisse de <seg rend="italic">Yucca gloriosa</seg>.</p>
+                <p>—Sans oublier la serre, ajouta Germain Patou, et, dans la serre, une trappe qui est sous la troisième caisse, en partant de la caisse du salon: une caisse de <seg
+                        rend="italic">Yucca gloriosa</seg>.</p>
                 <p>Jean-Pierre acheva:</p>
                 <p>—Quand vous aurez fait là-bas votre besogne, monsieur l'employé, vous ne demanderez plus ce qu'est la comtesse Marcian Gregoryi.</p>
                 <p>—Messieurs, suivez-moi, s'écria Berthellemot, enflammé d'un beau zèle, et songez que le premier consul a les yeux sur nous.</p>
@@ -3222,9 +3329,16 @@
                 <p>—Il a la fièvre d'opium.</p>
                 <p>—Et ne peut-on l'éveiller?</p>
                 <p>Germain Patou hésita.</p>
-                <p>—C'est si drôle les évangiles de ce Samuel Hahnemann! murmura-t-il enfin. On n'ose pas trop en parler aux personnes raisonnables. C'est bon pour les cerveaux brûlés comme moi… <seg rend="italic">Similia similibus</seg>… Si j'étais tout seul, j'essayerais les Formules du sorcier de Leipzig.</p>
+                <p>—C'est si drôle les évangiles de ce Samuel Hahnemann! murmura-t-il enfin. On n'ose pas trop en parler aux personnes raisonnables. C'est bon pour les cerveaux brûlés comme moi… <seg
+                        rend="italic"
+                    >Similia similibus</seg>… Si j'étais tout seul, j'essayerais les Formules du sorcier de Leipzig.</p>
                 <p>—Quelles sont ces formules? Ne parle pas latin.</p>
-                <p>—Je parlerai français. Il y a beaucoup de formules, car le système de Samuel Hahnemann étant précis et mathématique comme une gamme, la chose la plus mathématique qu'il y ait au monde, varie et se chromatise selon l'immense échelle des maux et des médicaments; seulement ces milliers de formules s'unifient dans LA FORMULE: <seg rend="italic" xml:lang="Latin">Similia similibus curantur</seg>, ou plutôt, car la règle elle-même est exprimée d'une façon lâche et insuffisante: <seg rend="capital">CECI</seg> est guéri par <seg rend="capital">CECI</seg>; au lieu de l'ancienne norme, qui disait: <seg rend="italic">Ceci</seg> est guéri par <seg rend="capital">CELA</seg>.</p>
+                <p>—Je parlerai français. Il y a beaucoup de formules, car le système de Samuel Hahnemann étant précis et mathématique comme une gamme, la chose la plus mathématique qu'il y ait au monde, varie et se chromatise selon l'immense échelle des maux et des médicaments; seulement ces milliers de formules s'unifient dans LA FORMULE: <seg
+                        rend="italic" xml:lang="Latin"
+                        >Similia similibus curantur</seg>, ou plutôt, car la règle elle-même est exprimée d'une façon lâche et insuffisante: <seg
+                        rend="capital">CECI</seg> est guéri par <seg rend="capital"
+                        >CECI</seg>; au lieu de l'ancienne norme, qui disait: <seg rend="italic"
+                        >Ceci</seg> est guéri par <seg rend="capital">CELA</seg>.</p>
                 <p>—Ce sont des mots, murmura Jean-Pierre Sévérin, et le temps passe.</p>
                 <p>—Ce sont des choses, patron, de grandes, de nobles choses! Le temps passe, il est vrai, mais ce ne sera pas du temps perdu, car votre jeune ami, M. René de Kervoz, est déjà sous l'influence d'une préparation hahnemannienne. Je lui ai délivré le traitement qui convient à son état.</p>
                 <p>L'oeil de Jean-Pierre chercha sur la table de nuit une fiole, un verre, quoi que ce soit enfin qui confirmât l'idée d'un médicament donné.</p>
@@ -3250,11 +3364,17 @@
                 <p>—Eh bien?</p>
                 <p>—Eh bien, patron, il faudra du temps et de la peine pour habituer le monde à cette apparente contradiction. Le système de l'homme de Leipzig subira une longue, une dure épreuve; on lui opposera le raisonnement, on lui prodiguera la raillerie. Comment ceci peut-il tuer et guérir? Tout à l'heure je vous démontrais en deux mots l'effet possible, l'effet terrible d'une dose invisible, impondérable,—infinitésimale, puisque c'est le terme technique. Faut-il vous prouver maintenant, à vous qui avez l'expérience de la vie, que la même chose peut et doit produire des résultats tout à fait contraires, selon le mode et la quantité de l'emploi? Dans l'ordre moral, la passion, ce don suprême de Dieu, source de toute grandeur, engendre toutes les hontes et toutes les misères; l'orgueil avilit, l'ambition abaisse, l'amour fait la haine; dans l'ordre physique, le vin exalte ou stupéfie,—selon la dose.</p>
                 <p>—Je sais cela, dit Jean-Pierre, qui courba la tête.</p>
-                <p>—Le bon La Fontaine, dans une fable qui n'amuse pas les enfants, reproche au satyre de <seg rend="italic">souffler le chaud et le froid</seg>, employant une seule et même chose: son haleine, à refroidir sa soupe et à réchauffer ses doigts. C'est une image vulgaire, mais frappante, de la nature. Tout, ici-bas, tout souffle le chaud et le froid. L'univers est homogène; il n'y a pas dans la création, si pleine de contrastes, deux atomes différents; le physicien qui vient de promulguer cet axiome va changer en quelques années la face de toutes les sciences naturelles. Le siècle où nous entrons inventera plus, grâce à ces bases nouvelles, expliquera mieux et produira autant, lui tout seul, que tous les autres siècles réunis…</p>
+                <p>—Le bon La Fontaine, dans une fable qui n'amuse pas les enfants, reproche au satyre de <seg
+                        rend="italic"
+                    >souffler le chaud et le froid</seg>, employant une seule et même chose: son haleine, à refroidir sa soupe et à réchauffer ses doigts. C'est une image vulgaire, mais frappante, de la nature. Tout, ici-bas, tout souffle le chaud et le froid. L'univers est homogène; il n'y a pas dans la création, si pleine de contrastes, deux atomes différents; le physicien qui vient de promulguer cet axiome va changer en quelques années la face de toutes les sciences naturelles. Le siècle où nous entrons inventera plus, grâce à ces bases nouvelles, expliquera mieux et produira autant, lui tout seul, que tous les autres siècles réunis…</p>
                 <p>—Ses yeux essayent de s'ouvrir! murmura Gâteloup, dont le regard inquiet était toujours fixé sur René de Kervoz.</p>
                 <p>—Ils s'ouvriront, répliqua Patou.</p>
                 <p>—Si tu lui donnais encore une de ces petites dragées?</p>
-                <p>—Bravo, patron! s'écria l'étudiant en riant. Vous voilà converti à l'opium qui réveille! malgré le <seg rend="italic" xml:lang="Latin">facit dormire</seg> de Molière, qui est la vérité même! Je n'ai pas eu besoin de vous citer le plus extraordinaire et le plus simple parmi les faits scientifiques de ce temps: le <seg rend="italic" xml:lang="English">cow-pox</seg> d'Edouard Jenner, sa vaccine, qui est le virus même de la petite vérole et qui préserve de la petite vérole.</p>
+                <p>—Bravo, patron! s'écria l'étudiant en riant. Vous voilà converti à l'opium qui réveille! malgré le <seg
+                        rend="italic" xml:lang="Latin"
+                        >facit dormire</seg> de Molière, qui est la vérité même! Je n'ai pas eu besoin de vous citer le plus extraordinaire et le plus simple parmi les faits scientifiques de ce temps: le <seg
+                        rend="italic" xml:lang="English"
+                    >cow-pox</seg> d'Edouard Jenner, sa vaccine, qui est le virus même de la petite vérole et qui préserve de la petite vérole.</p>
                 <p>—Donne une dragée, garçon.</p>
                 <p>—Patience! la dose ne suffit pas; il faut l'intervalle… on s'enivre aussi avec ces joujoux qu'on nomme des petits verres, quand on les vide trop souvent.</p>
                 <p>Jean Pierre essuya la sueur de son front, Patou tenait la main du dormeur et lui tâtait le pouls.</p>
@@ -3276,7 +3396,9 @@
                 <p>L'homéopathie compte désormais au nombre des systèmes illustrés par le triomphe. Elle possède la vogue, ses adeptes roulent sur l'or, éclaboussant les anciennes et illustres méthodes, qui protestent en vain du haut des trônes académiques. La raillerie a émoussé sa pointe, le dédain s'est usé, la haine est venue, cette providentielle consécration du succès.</p>
                 <p>Ceci n'est point un livre de science; tout au plus y pourra-t-on trouver, chemin faisant, quelques pages détachées de la curieuse histoire des contradictions de l'esprit humain. Nous voulons pourtant ajouter un mot, à propos de la doctrine du grand médecin de la Saxe royale.</p>
                 <p>Quelquefois, l'homéopathie semble arrêtée tout à coup dans sa marche triomphante par une large rumeur: on l'accuse d'avoir tué quelque personnage illustre ou d'avoir ouvert à quelque prince héritier la succession d'un trône.</p>
-                <p>C'est qu'elle est, en effet, généralement la médecine de bien des gens dont on parle; elle soigne l'art qui est en vue et tâte volontiers le pouls des mains qui tiennent le sceptre, tout en ouvrant bien larges au travail et à l'infortune les portes de ses dispensaires. Ceux qu'elle <seg rend="italic">tue</seg>, comme disait notre grand comique, ennemi né des médecins, font du bruit en tombant.</p>
+                <p>C'est qu'elle est, en effet, généralement la médecine de bien des gens dont on parle; elle soigne l'art qui est en vue et tâte volontiers le pouls des mains qui tiennent le sceptre, tout en ouvrant bien larges au travail et à l'infortune les portes de ses dispensaires. Ceux qu'elle <seg
+                        rend="italic"
+                    >tue</seg>, comme disait notre grand comique, ennemi né des médecins, font du bruit en tombant.</p>
                 <p>Et puis, les meilleures médailles ont leur revers. Samuel Hahnemann, qui a inventé tant de spécifiques, n'a pas laissé dans son testament la formule capable d'extirper le charlatanisme.</p>
                 <p>Il y a des charlatans partout, et les charlatans, par une heureuse propriété de leur nature, préfèrent les palais aux chaumières.</p>
                 <p>En somme, nous avons voulu montrer ici seulement les débuts d'un praticien original qui, sous la Restauration, quinze ans plus tard, passa pour sorcier, tant ses cures semblèrent merveilleuses.</p>
@@ -3296,7 +3418,9 @@
                 <p>—Angèle est morte! pensa tout haut Jean-Pierre. Je comprends tout ce qu'il dit… tout!</p>
                 <p>Sa joue était plus livide que celle du malade, et ses yeux exprimaient une indicible terreur.</p>
                 <p>René se couvrit tout à coup le visage de ses mains:</p>
-                <p>—<seg rend="italic" xml:lang="Latin">In vita mors</seg>, murmura-t-il, <seg rend="italic" xml:lang="Latin">in morte vita</seg>! Toujours le même songe! La mort dans la vie, la vie dans la mort!… Non… non… C'est le frère de ma pauvre mère… je ne te donnerai pas les moyens de le perdre!</p>
+                <p>—<seg rend="italic" xml:lang="Latin">In vita mors</seg>, murmura-t-il, <seg
+                        rend="italic" xml:lang="Latin"
+                    >in morte vita</seg>! Toujours le même songe! La mort dans la vie, la vie dans la mort!… Non… non… C'est le frère de ma pauvre mère… je ne te donnerai pas les moyens de le perdre!</p>
                 <p>L'attention des témoins redoublait.</p>
                 <p>—De qui parle-t-il? demanda Patou après un moment de silence.</p>
                 <p>—Le frère de sa mère, répondit Gâteloup, est un marchand de chevaux de Normandie, vers la frontière de Bretagne. Je ne sais pas ce qu'il veut dire.</p>
@@ -3550,7 +3674,9 @@
                 <p>L'idée lui vint soudain que ceci était une suite de l'erreur de M. Berthellemot, confondant M. Morinière, le maquignon inoffensif, avec Georges Cadoudal, qui voulait tuer le premier consul.</p>
                 <p>Aucun de nous n'est parfait. Tout homme tient à son opinion, surtout les chevaliers errants, dit-on, et Gâteloup était un chevalier errant. Sa vie s'était passée à défendre le faible contre le fort.</p>
                 <p>Dans sa pensée peut-être, car il était subtil à sa manière, le danger de Morinière se rattachait à quelque piège tendu par la comtesse Marcian Gregoryi.</p>
-                <p>N'avait-il pas été pris lui-même, lui Gâteloup, au cabaret de la <seg rend="italic">Pêche miraculeuse</seg>, pour un des assassins du chef de l'État?</p>
+                <p>N'avait-il pas été pris lui-même, lui Gâteloup, au cabaret de la <seg
+                        rend="italic"
+                    >Pêche miraculeuse</seg>, pour un des assassins du chef de l'État?</p>
                 <p>Il apaisa le soldat du train en lui jetant son nom, connu dans toutes les salles d'armes de tous les régiments, et lui dit:</p>
                 <p>—On va te rendre ton outil, mon camarade. Prête-le-moi cinq minutes, si tu es un bon enfant!</p>
                 <p>Et, attachant rapidement sur sa poitrine le coeur d'or que nous connaissons, il s'écria:</p>
@@ -3618,7 +3744,9 @@
                 <p>Puis un nouveau flux de renseignements arriva: la comtesse Marcian Gregoryi était morte d'un coup de pistolet dans la propre demeure du chef chouan.</p>
                 <p>Puis un autre encore: elle avait été tuée par un jeune homme qui restait en vie par miracle, puisqu'elle avait bu tout son sang.</p>
                 <p>Ce jeune homme avait été trouvé dans une sombre demeure du Marais, au fond d'un véritable cachot, sans porte ni fenêtre, endormi d'un sommeil mortel.</p>
-                <p>Et la demeure en question communiquait par des passages souterrains avec ce cabaret fameux, <seg rend="italic">la Pêche miraculeuse</seg>, qui avait vécu durant des semaines et des mois de ce sinistre achalandage: les débris humains, descendant en Seine par l'égout de Bretonvilliers.</p>
+                <p>Et la demeure en question communiquait par des passages souterrains avec ce cabaret fameux, <seg
+                        rend="italic"
+                    >la Pêche miraculeuse</seg>, qui avait vécu durant des semaines et des mois de ce sinistre achalandage: les débris humains, descendant en Seine par l'égout de Bretonvilliers.</p>
                 <p>On n'oubliait pas, bien entendu, les cimetières violés, et l'on se demandait avec effroi pourquoi ce luxe d'horreurs.</p>
                 <p>Dans l'après-midi, troisième marée de nouvelles: une maison de la chaussée des Minimes, prise d'assaut par la police, avait révélé des excès tellement hideux que la parole hésitait à les transmettre. C'était là le grand magasin de cadavres, et toute cette comédie lugubre du quai de Béthune n'avait pour but que de rompre les chiens.</p>
                 <p>Un trou s'ouvrait dans la serre de cette maison de la chaussée des Minimes: un lieu délicieux où restaient des traces de plaisir et d'orgies, un trou méphitique où de véritables monceaux de corps humains se consumaient, rongés par la chaux vive.</p>
@@ -3643,7 +3771,9 @@
                 <p>Quoi qu'on puisse penser des mérites de M. Dubois comme préfet de police, il est certain que ce n'était point un homme de mesures extrêmes.</p>
                 <p>Il ne fut en aucune façon la cause de l'événement que nous allons raconter.</p>
                 <p>Vers une heure après minuit, les Frères de la Vertu étaient rassemblés au lieu ordinaire de leurs réunions, attendant la venue de la comtesse Marcian Gregoryi, qui devait leur amener Georges Cadoudal.</p>
-                <p>La séance était fort chaude, car la plupart des affiliés avaient des motifs de haine tout personnels. On peut dire que tous les membres de cette <seg rend="italic">Tugenbaud</seg> parisienne avaient soif du sang du premier consul.</p>
+                <p>La séance était fort chaude, car la plupart des affiliés avaient des motifs de haine tout personnels. On peut dire que tous les membres de cette <seg
+                        rend="italic"
+                    >Tugenbaud</seg> parisienne avaient soif du sang du premier consul.</p>
                 <p>Vers une heure et demie, un message de «la souveraine», comme on appelait la comtesse Marcian Gregoryi, arriva. Ce message ne contenait qu'une ligne:</p>
                 <p>«Vous êtes trahis. La fuite est impossible. Choisissez entre la trahison et la mort.»</p>
                 <p>Andréa Ceracchi donna l'ordre de déboucher le tonneau de poudre qui était à demeure dans la salle des séances.</p>
@@ -3738,14 +3868,17 @@
                 <p>Elle était froide,—elle était morte,—et cependant tout le corps du jeune homme vibra sous cet attouchement.</p>
                 <p>Malgré lui, il porta le mouchoir à ses lèvres.</p>
                 <p>Un doux parfum s'en exhalait avec une mystérieuse ivresse.</p>
-                <p>Le mouchoir se déplia et montra un écusson brodé autour duquel courait une devise, et Germain lut, en points clairs sur le fond mat: <seg rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>.</p>
+                <p>Le mouchoir se déplia et montra un écusson brodé autour duquel courait une devise, et Germain lut, en points clairs sur le fond mat: <seg
+                        rend="italic" xml:lang="Latin">In vita mors, in morte vita</seg>.</p>
                 <p>Le mouchoir s'échappa de ses doigts.</p>
                 <p>Il approcha un siège, car ses jambes défaillaient sous son corps.</p>
                 <p>Il s'assit.</p>
                 <p>Le vent de mars soufflait de dehors et pleurait dans les vitres de la croisée.</p>
                 <p>D'en bas montait la musique vive et criarde d'une guinguette voisine où des étudiants dansaient.</p>
                 <p>Germain resta un instant faible et cherchant sa pensée qui le fuyait.</p>
-                <p>Sa pensée était la science. Il avait sacrifié ses livres, ses chers livres, pour chercher jusqu'au fond d'un étrange secret: tous ses livres, jusqu'à l'<seg rend="italic">Organon</seg> de Samuel Hahnemann, dont la lecture avait été pour lui une seconde naissance.</p>
+                <p>Sa pensée était la science. Il avait sacrifié ses livres, ses chers livres, pour chercher jusqu'au fond d'un étrange secret: tous ses livres, jusqu'à l'<seg
+                        rend="italic"
+                    >Organon</seg> de Samuel Hahnemann, dont la lecture avait été pour lui une seconde naissance.</p>
                 <p>Il croyait fermement que sa pensée était la science, et il répétait comme on murmure malgré soi-même un entêté refrain:</p>
                 <p>—Vais-je savoir?… vais-je enfin savoir?…</p>
                 <p>Il rouvrit sa trousse avec un grand soupir et y choisit le plus affilé de ses scalpels.</p>

@@ -1,4 +1,5 @@
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
@@ -16,25 +17,31 @@
                 </author>
                 <principal xml:id="cf">Christof Schöch</principal>
             </titleStmt>
-		  <extent>
-			<measure unit="div">divs</measure>
-			<measure unit="lines">8736</measure>
-			<measure unit="words">120069</measure>
-			<measure unit="chars">679606</measure>
-			<measure unit="kB">678</measure>
-		  </extent>
+            <extent>
+                <measure unit="div">divs</measure>
+                <measure unit="lines">8736</measure>
+                <measure unit="words">120069</measure>
+                <measure unit="chars">679606</measure>
+                <measure unit="kB">678</measure>
+            </extent>
             <publicationStmt>
                 <publisher>CLiGS</publisher>
-                <availability status="publicdomain">
-                    <p/>
+                <availability status="free">
+                    <p>The text is in the public domain. We license the markup as CC-BY and the metadata as CC-0.</p>
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">rd1168</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source">Ebooks libres et gratuits, <date>2011</date>, <idno/>, <ref target="#"/>.</bibl>
-                <bibl type="print-source">Arthème Fayard, Le Livre populaire n° 18, XIVe aventure de Rocambole publiée dans cette collection, <date>1910</date>, <idno/>, <ref target="#"/>.</bibl>
-                <bibl type="edition-first">Sous le titre Les Démolitions de Paris: La Petite Presse, 21 février au 12 juin 1869, 122 épisodes, en deux parties : Les Amours du Limousin et La Captivité du maître, <date>1869</date>, <idno/>, <ref target="#"/>.</bibl>
+                <bibl type="digital-source"
+                        >Ebooks libres et gratuits, <date>2011</date>, <idno/>, <ref target="#"
+                    />.</bibl>
+                <bibl type="print-source"
+                        >Arthème Fayard, Le Livre populaire n° 18, XIVe aventure de Rocambole publiée dans cette collection, <date>1910</date>, <idno/>, <ref
+                        target="#"/>.</bibl>
+                <bibl type="edition-first"
+                        >Sous le titre Les Démolitions de Paris: La Petite Presse, 21 février au 12 juin 1869, 122 épisodes, en deux parties : Les Amours du Limousin et La Captivité du maître, <date>1869</date>, <idno/>, <ref
+                        target="#"/>.</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -48,17 +55,19 @@
                 <keywords scheme="keywords.csv">
                     <term type="supergenre">narrative</term>
                     <term type="genre">novel</term>
-                    <term type="subgenre" resp="#cf" cert="medium" subtype="2">crime-fiction</term> <!-- "roman d'aventures criminelles" (Dico Ponson) -->
-                    <term type="subgenre" resp="#cf" cert="low" subtype="1">aventures</term> <!-- "roman d'aventures criminelles" (Dico Ponson) -->
+                    <term type="subgenre" resp="#cf" cert="medium" subtype="2">crime-fiction</term>
+                    <!-- "roman d'aventures criminelles" (Dico Ponson) -->
+                    <term type="subgenre" resp="#cf" cert="low" subtype="1">aventures</term>
+                    <!-- "roman d'aventures criminelles" (Dico Ponson) -->
                     <term type="subsubgenre">archaique</term>
                     <term type="genre-label"/>
                     <term type="narrative-perspective">heterodiegetic</term>
                     <term type="form">prose</term>
-					<term type="protagonist-gender">male</term>
+                    <term type="protagonist-gender">male</term>
                     <term type="setting">urban</term>
                     <term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
+                    <term type="author-country">France</term>
+                    <term type="author-gender">male</term>
                     <term type="tei">11</term>
                 </keywords>
             </textClass>

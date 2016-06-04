@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">Les Bohèmes de la mer</title>
-                <title type="sub"></title>
+                <title type="sub"/>
                 <title type="short">BohemesMer</title>
                 <title type="idno">
                     <idno type="viaf">308062736</idno>
@@ -17,48 +17,50 @@
                 </author>
                 <principal xml:id="cf">Christof Schöch</principal>
             </titleStmt>
-			  <extent>
-				<measure unit="div">divs</measure>
-				<measure unit="lines">2264</measure>
-				<measure unit="words">60045</measure>
-				<measure unit="chars">343697</measure>
-				<measure unit="kB">347</measure>
-			  </extent>
+            <extent>
+                <measure unit="div">divs</measure>
+                <measure unit="lines">2264</measure>
+                <measure unit="words">60045</measure>
+                <measure unit="chars">343697</measure>
+                <measure unit="kB">347</measure>
+            </extent>
             <publicationStmt>
                 <publisher>CLiGS</publisher>
-                <availability status="publicdomain">
-                    <p/>
+                <availability status="free">
+                    <p>The text is in the public domain. We license the markup as CC-BY and the metadata as CC-0.</p>
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">rd0306</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source">Bibliothèque électronique du Québec, <date></date>, <idno></idno>, <ref target="http://beq.ebooksgratuits.com"/>.</bibl>
-                <bibl type="print-source"><date></date>, <idno></idno>, <ref target="#"/>.</bibl>
-                <bibl type="edition-first"><date>1865</date>, <idno></idno>, <ref target="#"/>.</bibl>
+                <bibl type="digital-source"
+                        >Bibliothèque électronique du Québec, <date/>, <idno/>, <ref
+                        target="http://beq.ebooksgratuits.com"/>.</bibl>
+                <bibl type="print-source"><date/>, <idno/>, <ref target="#"/>.</bibl>
+                <bibl type="edition-first"><date>1865</date>, <idno/>, <ref target="#"/>.</bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <p></p>
+            <p/>
         </encodingDesc>
         <profileDesc>
             <abstract>
-                <p></p>
+                <p/>
             </abstract>
             <textClass>
                 <keywords scheme="keywords.csv">
                     <term type="supergenre">narrative</term>
                     <term type="genre">novel</term>
                     <term type="subgenre" subtype="3">adventure</term>
-                    <term type="subsubgenre"></term>
+                    <term type="subsubgenre"/>
                     <term type="genre-label"/>
                     <term type="narrative-perspective">heterodiegetic</term>
                     <term type="form">prose</term>
-                    <term type="protagonist-gender"></term>
-                    <term type="setting"></term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
+                    <term type="protagonist-gender"/>
+                    <term type="setting"/>
+                    <term type="author-continent">Europe</term>
+                    <term type="author-country">France</term>
+                    <term type="author-gender">male</term>
                     <term type="tei">11</term>
                 </keywords>
             </textClass>
@@ -70,21 +72,29 @@
     <text>
         <front>
             <div>
-                <p></p>
+                <p/>
             </div>
         </front>
         <body>
             <div>
                 <head>I -- Le Saumon couronné</head>
-                <p>Le 17 octobre 1658, entré sept et huit heures du soir, deux hommes étaient attablés dans la grande salle du <seg rend="italic">Saumon couronné</seg>, la principale auberge de la ville de <seg rend="italic">Port-de-Paix</seg>, rendez-vous ordinaire des aventuriers de toutes nations que la soif de l'or et la haine des Espagnols attiraient dans les Antilles.</p>
+                <p>Le 17 octobre 1658, entré sept et huit heures du soir, deux hommes étaient attablés dans la grande salle du <seg
+                        rend="italic"
+                        >Saumon couronné</seg>, la principale auberge de la ville de <seg
+                        rend="italic"
+                    >Port-de-Paix</seg>, rendez-vous ordinaire des aventuriers de toutes nations que la soif de l'or et la haine des Espagnols attiraient dans les Antilles.</p>
                 <p>Ce jour-là, une chaleur torride n'avait cessé de peser sur la ville, de gros nuages jaunâtres chargés d'électricité s'étaient étendus d'un bout à l'autre de l'horizon, sans qu'un souffle d'air vînt, même au coucher du soleil, rafraîchir la terre pâmée de chaleur.</p>
                 <p>On entendait de sourds murmures qui, s'échappant du sein des mornes, roulaient répercutés par les échos avec les éclats stridents d'un tonnerre lointain.</p>
                 <p>La mer, noire comme de l'encre, agitée par quelque commotion souterraine, se soulevait en vagues houleuses et venait lourdement se briser contre les rochers de la plage avec des plaintes sinistres.</p>
-                <p>Tout enfin présageait un ouragan prochain. Les habitants de Port-de-Paix, rudes marins pour la plupart cependant, et habitués de longue main à lutter contre les plus terribles dangers, subissant malgré eux l'influence de ce malaise général de la nature, s'étaient renfermés dans leurs maisons ; les rues étaient désertes et silencieuses, la ville semblait abandonnée, et l'auberge du <seg rend="italic">Saumon couronné</seg>, qui d'ordinaire, à cette heure peu avancée de la nuit, regorgeait de buveurs, n'abritait sous les lambris enfumés de sa vaste salle que les deux hommes dont nous avons parlé et qui, le coude sur la table, la tête dans la main et la pipe à la bouche, suivaient d'un regard distrait les fantastiques spirales de la fumée qui s'échappait incessamment de leur bouche et se condensait en un nuage bleuâtre autour d'eux.</p>
+                <p>Tout enfin présageait un ouragan prochain. Les habitants de Port-de-Paix, rudes marins pour la plupart cependant, et habitués de longue main à lutter contre les plus terribles dangers, subissant malgré eux l'influence de ce malaise général de la nature, s'étaient renfermés dans leurs maisons ; les rues étaient désertes et silencieuses, la ville semblait abandonnée, et l'auberge du <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, qui d'ordinaire, à cette heure peu avancée de la nuit, regorgeait de buveurs, n'abritait sous les lambris enfumés de sa vaste salle que les deux hommes dont nous avons parlé et qui, le coude sur la table, la tête dans la main et la pipe à la bouche, suivaient d'un regard distrait les fantastiques spirales de la fumée qui s'échappait incessamment de leur bouche et se condensait en un nuage bleuâtre autour d'eux.</p>
                 <p>Des gobelets en étain, des bouteilles, des cartes, des cornets et des dés épars çà et là sur la table prouvaient que depuis longtemps déjà ces deux hommes se trouvaient dans l'auberge, et qu'après avoir essayé de toutes les distractions, ils les avaient abandonnées, soit par lassitude, soit parce que des pensées plus graves occupaient leur esprit et les empêchaient de jouir, comme ils l'auraient peut-être désiré, des plaisirs combinés du jeu et de la bouteille.</p>
                 <p>Le premier était un vieillard, plein de vigueur encore, balançant fièrement sur ses épaules une belle tête presque sexagénaire, à laquelle de longs cheveux blancs, des sourcils encore noirs, d'épaisses et grises moustaches et une ample royale donnaient un fort noble caractère. Son costume simple, mais de bon goût, était entièrement noir ; son épée, à poignée d'acier bruni, était jetée négligemment sur la table auprès de son feutre et de son manteau.</p>
                 <p>Le second, beaucoup plus jeune que son compagnon, n'avait que quarante-cinq à quarante-huit au plus ; c'était un homme aux formes athlétiques, trapu et carré ; ses traits, assez ordinaires, auraient été insignifiants sans une expression de rare énergie et d'indomptable volonté qui imprimait à sa physionomie un cachet tout particulier.</p>
-                <p>Il portait le costume luxueux jusqu'à l'extravagance de riches boucaniers, étincelant d'or et de diamants ; un lourde et massive <seg rend="italic">fanfaronne</seg> entourait la forme de son feutre garni de plumes d'autruche, retenues par une agrafe de diamants, qui valait une fortune ; une longue rapière suspendue à son côté par un large baudrier était, pour plus de commodité sans doute, ramenée en ce moment entre ses jambes, deux pistolets et un poignard garnissaient sa ceinture, un ample manteau rouge était placé sur le dossier de son siège.</p>
+                <p>Il portait le costume luxueux jusqu'à l'extravagance de riches boucaniers, étincelant d'or et de diamants ; un lourde et massive <seg
+                        rend="italic"
+                    >fanfaronne</seg> entourait la forme de son feutre garni de plumes d'autruche, retenues par une agrafe de diamants, qui valait une fortune ; une longue rapière suspendue à son côté par un large baudrier était, pour plus de commodité sans doute, ramenée en ce moment entre ses jambes, deux pistolets et un poignard garnissaient sa ceinture, un ample manteau rouge était placé sur le dossier de son siège.</p>
                 <p>Depuis longtemps déjà un silence morne régnait entre les deux hommes ; ils continuaient à fumer et à s'envoyer réciproquement des bouffées de fumée au visage sans paraître songer l'un à l'autre.</p>
                 <p>L'aubergiste, grand gaillard maigre, sec et long comme un échalas, aux vêtements sales et sordides et à la face patibulaire, à plusieurs reprises, sous prétexte de raviver la mèche de la lampe qui n'en avait pas besoin, était venu tourner autour de ces singulières pratiques sans parvenir à éveiller leur attention, et s'était retiré tout penaud en haussant les épaules d'un air de mépris mal déguisé pour de si minces consommateurs.</p>
                 <p>Enfin, le plus jeune des deux releva subitement la tête, brisa sa pipe sur le plancher avec un geste de colère, et frappant du poing sur la table de façon à faire danser et s'entrechoquer gobelets et bouteilles :</p>
@@ -107,7 +117,8 @@
                 <p>-- Rien que de vous déplaire, monsieur d'Ogeron ; vous savez que je n'ai pas la réputation d'être timide.</p>
                 <p>-- Je le crois bien, toi, Pierre Legrand, un de nos plus hardis flibustiers, dont le nom seul fait trembler les Espagnols.</p>
                 <p>Pierre Legrand se redressa avec une satisfaction évidente à ce compliment mérité.</p>
-                <p>-- Eh bien ! dit-il du ton d'un homme qui prend un parti décisif, voici ce dont il s'agit. Lorsque mon engagé Pitrians m'a remis votre lettre, naturellement mon premier mouvement a été de vous obéir et de me rendre en toute hâte au rendez-vous que vous m'assigniez ici, au <seg rend="italic">Saumon couronné</seg>.</p>
+                <p>-- Eh bien ! dit-il du ton d'un homme qui prend un parti décisif, voici ce dont il s'agit. Lorsque mon engagé Pitrians m'a remis votre lettre, naturellement mon premier mouvement a été de vous obéir et de me rendre en toute hâte au rendez-vous que vous m'assigniez ici, au <seg
+                        rend="italic">Saumon couronné</seg>.</p>
                 <p>-- Je te remercie de l'empressement que tu m'as témoigné en cette circonstance, mon ami.</p>
                 <p>-- Pardieu ! il aurait fait beau voir que je ne fusse pas venu ! c'eût été drôle, sur ma foi ! Donc je suis arrivé, nous avons joué, nous avons bu, fort bien, rien de mieux ; seulement je me demande quel motif sérieux vous a fait quitter Saint-Christophe pour venir incognito à Port-de-Paix.</p>
                 <p>-- Et c'est ce motif que tu désires connaître, hein, Pierre ?</p>
@@ -119,7 +130,8 @@
                 <p>-- Je le lui avais défendu.</p>
                 <p>-- Alors, c'est différent ; il a bien fait de se taire.</p>
                 <p>-- Écoute-moi avec attention, car la chose en vaut la peine. Tu te rappelles, n'est-ce pas, comment le chevalier de Fontenay, attaqué à l'improviste par une escadre espagnole, fut, après une résistance héroïque, forcé d'abandonner la Tortue ?</p>
-                <p>-- Certes, je me le rappelle, monsieur d'Ogeron, et c'est un fier crève-cœur pour nous tous de voir flotter le pavillon espagnol sur le port de la Roche, et d'être ainsi nargués par ces maudits Gavachos qui semblent nous rire au nez ! Vive Dieu ! je ne sais ce que je donnerais pour jouer un bon tour à ces <seg rend="italic">dons</seg> maudits et les voir déguerpir de notre île.</p>
+                <p>-- Certes, je me le rappelle, monsieur d'Ogeron, et c'est un fier crève-cœur pour nous tous de voir flotter le pavillon espagnol sur le port de la Roche, et d'être ainsi nargués par ces maudits Gavachos qui semblent nous rire au nez ! Vive Dieu ! je ne sais ce que je donnerais pour jouer un bon tour à ces <seg
+                        rend="italic">dons</seg> maudits et les voir déguerpir de notre île.</p>
                 <p>M. d'Ogeron écoutait en souriant le boucanier. Lorsqu'il se tut, il se pencha vers lui, posa sa main sur son épaule et le regardant bien en face :</p>
                 <p>-- Eh bien ! Pierre, mon ami, lui dit-il d'une voix basse et contenue, moi aussi je veux jouer un bon tour aux Gavachos et les chasser de notre île.</p>
                 <p>-- Eh ! fit Legrand avec un tressaillement nerveux, dites-vous vrai ? Est-ce bien réellement votre intention ?</p>
@@ -262,7 +274,9 @@
                 <p>-- Rien, je le sais ; mais il me reste un secret à vous dévoiler ; secret terrible qui, lorsque vous le saurez, brisera peut-être à jamais mon bonheur.</p>
                 <p>-- Continuez, dit-elle en hochant la tête avec un mouvement de mutine incrédulité.</p>
                 <p>-- Je ne suis pas Espagnol, Juana.</p>
-                <p>-- Je le sais, fit-elle en souriant ; je sais encore que vous êtes Français, que, de plus, vous êtes un des chefs de cette terrible association de <seg rend="italic">Ladrones</seg>, ainsi que les nomment les Espagnols, devant laquelle tremble la puissance castillane : est-ce donc là, Philippe, le secret terrible que vous hésitiez à me révéler ? Allez, mon ami, il y a longtemps que je suis instruite de tout ce qui vous touche ; n'êtes-vous pas une partie de mon être ?</p>
+                <p>-- Je le sais, fit-elle en souriant ; je sais encore que vous êtes Français, que, de plus, vous êtes un des chefs de cette terrible association de <seg
+                        rend="italic"
+                    >Ladrones</seg>, ainsi que les nomment les Espagnols, devant laquelle tremble la puissance castillane : est-ce donc là, Philippe, le secret terrible que vous hésitiez à me révéler ? Allez, mon ami, il y a longtemps que je suis instruite de tout ce qui vous touche ; n'êtes-vous pas une partie de mon être ?</p>
                 <p>-- Ainsi vous me pardonnez !</p>
                 <p>-- Qu'ai-je à vous pardonner, Philippe ? Je ne suis pas un homme, moi ; sais-je même seulement si je suis Espagnole ? Ces querelles et ces haines ne m'intéressent pas ; je suis femme et je vous aime, voilà tout ce qui me regarde.</p>
                 <p>-- Oh ! soyez bénie pour ces paroles, Juana, elles me rendent la vie.</p>
@@ -322,7 +336,8 @@
                 <p>-- C'est vrai : mais puisque je ne dois plus revenir ici jamais peut-être, répondit-elle avec un doux soupir, soyez bonne, ña Cigala, laissez-moi prier encore la Vierge pour celui que j'aime, cinq minutes seulement.</p>
                 <p>La dueña hocha la tête en femme prudente ; mais elle attendit.</p>
                 <p>Quelques minutes plus tard les deux dames, bien emmitouflées dans leurs coiffes, quittèrent enfin l'église.</p>
-                <p>Sous le porche elles se croisèrent avec un homme soigneusement <seg rend="italic">embossé</seg> dans son manteau et qui les salua en s'inclinant respectueusement devant elles.</p>
+                <p>Sous le porche elles se croisèrent avec un homme soigneusement <seg rend="italic"
+                        >embossé</seg> dans son manteau et qui les salua en s'inclinant respectueusement devant elles.</p>
                 <p>La jeune fille ne put réprimer un tressaillement nerveux à la vue de cet homme et, se penchant à l'oreille de la dueña tout en doublant le pas :</p>
                 <p>-- Croyez-vous qu'il nous ait reconnues ? murmura-t-elle d'une voix basse et tremblante.</p>
                 <p>-- Qui sait ! répondit la dueña sur le même ton.</p>
@@ -332,7 +347,11 @@
             <div>
                 <head>III -- L'engagé</head>
                 <p>Avant de continuer notre récit, et pour ne plus y revenir, ouvrons une parenthèse et disons en deux mots ce que c'était que cette redoutable association des flibustiers ou Frères de la Côte dont nous avons parlé plus haut ; comment elle avait pris naissance, et de quelle façon elle était parvenue à se constituer sur de si formidables bases.</p>
-                <p>Flavio Gioïa, bourgeois d'Amalfi, dans le royaume de Naples, en perfectionnant en 1303 la <seg rend="italic">calamite</seg> qui, jusque-là, avait seule été en usage à bord des navires, et en faisant la <seg rend="italic">boussole</seg>, rendit un service immense à la marine moderne. Ce perfectionnement, en permettant aux navigateurs de ne plus côtoyer le rivage et de se lancer en pleine mer, bien loin hors de la vue des terres, donna peu à peu naissance à cet esprit des découvertes qui devait plus tard doter l'homme de l'empire de la mer et lui assurer la possession du globe dont il pouvait désormais parcourir toutes les parties.</p>
+                <p>Flavio Gioïa, bourgeois d'Amalfi, dans le royaume de Naples, en perfectionnant en 1303 la <seg
+                        rend="italic"
+                        >calamite</seg> qui, jusque-là, avait seule été en usage à bord des navires, et en faisant la <seg
+                        rend="italic"
+                    >boussole</seg>, rendit un service immense à la marine moderne. Ce perfectionnement, en permettant aux navigateurs de ne plus côtoyer le rivage et de se lancer en pleine mer, bien loin hors de la vue des terres, donna peu à peu naissance à cet esprit des découvertes qui devait plus tard doter l'homme de l'empire de la mer et lui assurer la possession du globe dont il pouvait désormais parcourir toutes les parties.</p>
                 <p>La navigation commença vers 1322 à prendre un essor plus hardi par les voyages des Espagnols aux îles Canaries, situées à environ cinq cents milles de la côte d'Espagne, où ils allaient faire des débarquements pour réduire les naturels en esclavage.</p>
                 <p>Le premier plan régulier de découvertes fut conçu par les Portugais, à la suite de l'expulsion des Maures de leur pays. Ces découvertes devaient naturellement être dirigées vers le continent africain ; nous ne dirons rien ici du succès de ces hasardeuses explorations, nous bornant seulement à constater que ce fut à l'école de ces hardis navigateurs que se forma Christophe Colomb, auquel était réservé l'honneur de retrouver un monde perdu.</p>
                 <p>Chose singulière, après avoir vainement essayé de traiter avec plusieurs souverains, s'être vu repoussé par tous comme un fou ou comme un visionnaire, Colomb, qui en dernier lieu s'était adressé à Ferdinand et à Isabelle, alors arrêtés devant Grenade qu'ils assiégeaient, s'était une fois encore, après de longs pourparlers, vu repousser et désormais sans espoir de réussite, il avait quitté le camp pour se retirer en Angleterre, où déjà plusieurs fois il avait projeté de se rendre, lorsque la prise de Grenade vint tout à coup changer les résolutions des deux souverains et les engager à accepter les offres qu'ils avaient si péremptoirement refusées d'abord.</p>
@@ -340,14 +359,21 @@
                 <p>C'est à Palos-de-Moguerras, petit port de l'Andalousie, que fut équipée la flotte qui devait donner un nouveau monde à l'Espagne.</p>
                 <p>L'armement ordonné par la reine était loin de répondre à la grandeur de l'entreprise que l'on tentait ; sa dépense totale ne dépassait pas cent mille francs.</p>
                 <p>L'escadre mise sous les ordres de Colomb, créé amiral, se composait de trois navires de médiocre tonnage, les deux derniers surtout surpassaient à peine de grandes chaloupes.</p>
-                <p>L'amiral monta le <seg rend="italic">Santa-Maria</seg>, Martin Alonso Pinson eut le commandement de la <seg rend="italic">Pinta</seg> avec son frère pour pilote, et enfin la <seg rend="italic">Niña</seg> fut placée sous les ordres de Yanez Pinson. Ces bâtiments portaient pour un an de vivres, et étaient montés par quatre-vingt-dix hommes, matelots aventuriers et gentilshommes qui s'étaient attachés à la fortune de Colomb.</p>
+                <p>L'amiral monta le <seg rend="italic"
+                        >Santa-Maria</seg>, Martin Alonso Pinson eut le commandement de la <seg
+                        rend="italic">Pinta</seg> avec son frère pour pilote, et enfin la <seg
+                        rend="italic"
+                    >Niña</seg> fut placée sous les ordres de Yanez Pinson. Ces bâtiments portaient pour un an de vivres, et étaient montés par quatre-vingt-dix hommes, matelots aventuriers et gentilshommes qui s'étaient attachés à la fortune de Colomb.</p>
                 <p>Le 3 août 1492, un peu avant le lever du soleil, la flotte appareilla de la barre de Saltès, près Huelva, en présence d'une foule de spectateurs qui formaient des vœux pour la réussite de cette entreprise extraordinaire, mais dont la plupart n'espéraient plus revoir les hardis aventuriers.</p>
                 <p>Enfin, le vendredi 12 octobre 1492, après soixante-cinq jours de navigation, au lever du soleil on aperçut l'île Guanahani ou San Salvador, une des îles Lucayes ou de Bahamas.</p>
-                <p>Le grand problème, jusque-là insoluble, était résolu, le nouveau monde découvert, ou pour mieux dire <seg rend="italic">retrouvé</seg>.</p>
+                <p>Le grand problème, jusque-là insoluble, était résolu, le nouveau monde découvert, ou pour mieux dire <seg
+                        rend="italic">retrouvé</seg>.</p>
                 <p>Mais ce ne fut qu'à son troisième voyage que Colomb parvint réellement jusqu'au continent américain. Le 1er août 1498, Alonzo Perez, matelot, né à Huelva, en vigie dans la hune, signala l'île de la Trinité, placée sur la côte de la Guyane, à l'embouchure de l'Orénoque.</p>
                 <p>L'amiral gouverna alors à l'ouest, découvrit le continent et longea les côtes de Paria et de Cumana sur lesquelles il prit terre à plusieurs reprises.</p>
                 <p>Or, aussitôt après le premier voyage de l'amiral, Ferdinand et Isabelle, éblouis par le résultat magnifique et inattendu qu'il avait obtenu, avaient cru devoir prendre leurs précautions pour s'assurer la propriété et la possession des terres dont venait de les doter un aventurier de génie, presque malgré eux, et de celles que dans l'avenir il pourrait découvrir encore.</p>
-                <p>Suivant en cela l'exemple des Portugais qui, en 1488, s'étaient fait octroyer par le pape Eugène IV toutes les contrées qu'ils reconnaîtraient depuis le cap <seg rend="italic">Non</seg> jusqu'au continent indien, le roi et la reine s'adressèrent au pape Alexandre VI pour obtenir de lui, non seulement la concession des pays qu'ils voulaient occuper, mais encore celle de ceux que plus tard ils découvriraient.</p>
+                <p>Suivant en cela l'exemple des Portugais qui, en 1488, s'étaient fait octroyer par le pape Eugène IV toutes les contrées qu'ils reconnaîtraient depuis le cap <seg
+                        rend="italic"
+                    >Non</seg> jusqu'au continent indien, le roi et la reine s'adressèrent au pape Alexandre VI pour obtenir de lui, non seulement la concession des pays qu'ils voulaient occuper, mais encore celle de ceux que plus tard ils découvriraient.</p>
                 <p>Alexandre VI, né sujet de Ferdinand, désirant être agréable à ce prince, ne fit aucune difficulté de lui accorder ses demandes. Par un acte de libéralité qui ne lui coûtait rien, mais qui augmentait l'autorité et les prétentions des papes à la souveraineté universelle, il donna, par une bulle, à la couronne d'Espagne tous les pays que Ferdinand et Isabelle avaient découverts ou pourraient découvrir par la suite ; cependant, afin de ne pas contrarier la concession faite précédemment au Portugal, Alexandre VI établit pour limite entre ces deux puissances une ligne imaginaire qui fut supposée tirée d'un pôle à l'autre, et passant à cent lieues à l'ouest des Açores ; donnant par la plénitude de son pouvoir tout ce qui était à l'est de cette ligne au Portugal, et tous les pays situés à l'ouest à l'Espagne.</p>
                 <p>Ce fut à la faveur de cette bulle, en date de l'année 1493, octroyée par un pape qui, de son autorité privée, concédait de vastes régions qui, non seulement ne lui appartenaient pas, mais encore dont il ignorait la situation, et jusqu'à l'existence, que les Espagnols, se prétendant légitimes propriétaires de l'Amérique, la confisquèrent, pour ainsi dire, à leur profit, défendant aux autres nations, non pas de s'y fixer, mais même d'y débarquer dans le but de trafiquer avec les habitants.</p>
                 <p>Ces prétentions, si monstrueuses qu'elles nous paraissent avec justice aujourd'hui, ne soulevèrent alors aucune protestation en Europe. À cette époque, le vieux monde, sortant à peine de ses ruines, et tout occupé à se reconstruire des nationalités afin de remplacer celles englouties sous le flot dévastateur des invasions successives des barbares, avait de trop sérieuses préoccupations pour songer à tenter des expéditions lointaines et à coloniser des contrées inconnues.</p>
@@ -355,19 +381,24 @@
                 <p>Mais, si sévère que fût la police créée par le gouvernement espagnol, quelques étrangers étaient parvenus à tromper sa vigilance. De retour en Europe, ils montrèrent l'or qu'ils avaient recueilli et firent de fabuleux récits sur les régions ignorées qu'ils avaient parcourues. Ces récits, en passant de bouche en bouche, prirent bientôt des proportions fantastiques, l'avarice s'éveilla, et de tous les ports de France, d'Angleterre et même des contrées maritimes de l'Allemagne, partirent des expéditions destinées à explorer le nouvel Eldorado.</p>
                 <p>Les Espagnols, qui se croyaient de bonne foi propriétaires du nouveau monde, se considérèrent comme spoliés ; ils coururent sus aux étrangers et les traitèrent en pirates. Malheureusement ni la France, ni l'Angleterre, ni les autres nations européennes ne possédaient de marines en état de lutter avec celle de l'Espagne, établie de longue date sur un pied formidable. Il leur fallut courber la tête, dévorer leur honte et reconnaître leur impuissance.</p>
                 <p>Ce fut alors, au moment précis où la souveraineté maritime de l'Espagne paraissait être le plus solidement assurée, que des aventuriers isolés, naufragés des discordes civiles et proscrits des guerres de religion qui avaient cherché un abri précaire sur quelques îlots perdus de l'Atlantique, menacés dans ce dernier asile, résolurent de faire ce que l'Europe tout entière n'avait osé tenter, et jetèrent hardiment le gant au colosse castillan.</p>
-                <p>Ces aventuriers, appartenant à toutes les nations, parlant toutes les langues, professant toutes les religions, mais liés entre eux par la solidarité de la misère et la haine de l'oppression, formèrent cette formidable association des <seg rend="italic">Frères de la Côte</seg> qui devait, pendant près d'un siècle, tenir en échec la puissance espagnole et former le noyau des colonies européennes dans le nouveau monde.</p>
+                <p>Ces aventuriers, appartenant à toutes les nations, parlant toutes les langues, professant toutes les religions, mais liés entre eux par la solidarité de la misère et la haine de l'oppression, formèrent cette formidable association des <seg
+                        rend="italic"
+                    >Frères de la Côte</seg> qui devait, pendant près d'un siècle, tenir en échec la puissance espagnole et former le noyau des colonies européennes dans le nouveau monde.</p>
                 <p>À l'époque où se passe notre histoire, nos bâtiments de guerre, fort peu nombreux, ne quittaient les ports que pour de courtes excursions le long des côtes, de sorte que notre marine marchande se protégeait comme elle pouvait sans que le gouvernement s'en souciât autrement ; aussi, la plupart des navires du commerce avaient-ils des équipages nombreux et des canons pour se défendre contre les pirates barbaresques et autres dont les mers étaient infestées.</p>
                 <p>De sorte que, bien que la France et l'Espagne fussent en paix, notre gouvernement fermait volontairement les yeux sur les armements qui se faisaient dans les ports, et feignait de prendre pour des marchands paisibles les hardis corsaires qui venaient s'y ravitailler ou même en sortaient après y avoir été construits pour courir sus aux galions espagnols.</p>
                 <p>Aussi les corsaires, assurés d'avance de l'impunité, et au besoin de la protection des autorités françaises, ne prenaient aucun souci de déguiser leurs allures tant soit peu débraillées, et agissaient à Dieppe, Nantes ou Brest, avec autant de laisser-aller que s'ils se fussent trouvés aux débouquements des Antilles.</p>
                 <p>En effet, que pouvait dire le gouvernement français aux aventuriers ? Rien, puisque, pour mieux les assurer de sa protection, il se chargeait de choisir lui-même le gouverneur qui résidait au milieu d'eux afin de prélever en son nom la dîme sur les prises faites aux Espagnols.</p>
-                <p>Ceci était clair et causerait inévitablement aujourd'hui un <seg rend="italic">casus belli</seg> ; mais alors il n'en était pas ainsi, les questions étaient interprétées d'autre sorte ; il était tacitement convenu entre les gouvernements que tout ce qui se faisait de l'autre côté de l'équateur ne devait en rien altérer la paix européenne.</p>
+                <p>Ceci était clair et causerait inévitablement aujourd'hui un <seg rend="italic"
+                        >casus belli</seg> ; mais alors il n'en était pas ainsi, les questions étaient interprétées d'autre sorte ; il était tacitement convenu entre les gouvernements que tout ce qui se faisait de l'autre côté de l'équateur ne devait en rien altérer la paix européenne.</p>
                 <p>Ainsi, les mers américaines se trouvaient de fait neutralisées au bénéfice des Frères de la Côte qui profitaient de cette facilité pour les sillonner dans tous les sens à la poursuite des galions castillans.</p>
                 <p>Nous fermerons maintenant cette parenthèse, sans doute beaucoup trop longue, mais indispensable pour l'intelligence des faits qui vont suivre, et nous reprendrons notre histoire au point où nous l'avons laissée, c'est-à-dire au moment où Philippe, après son entretien avec doña Juana, était sorti de l'église de la Merced en proie à une émotion que, malgré toute sa puissance sur lui-même, il ne pouvait parvenir à dissimuler entièrement.</p>
                 <p>Dès qu'il se retrouva dans la rue, il baissa les ailes de son feutre sur ses yeux et reprit à pas lents le chemin de l'hôtellerie.</p>
                 <p>Son cheval était sellé et tenu en bride par le peon qui, à son arrivée, lui avait dit de se rendre à l'église. Le jeune homme se mit en selle, jeta une pièce d'or au peon et sortit de la cour.</p>
                 <p>Il n'avait plus rien à faire dans la ville ; la prudence lui commandait donc de la quitter le plus tôt possible. Cependant il ne pressa point l'allure de son cheval et s'éloigna au pas, sans s'occuper le moins du monde du danger terrible qui le menaçait s'il était, malgré son déguisement, reconnu pour ce qu'il était réellement, c'est-à-dire pour un flibustier.</p>
                 <p>La guerre que se faisaient les Espagnols et les boucaniers était une guerre implacable et sans merci : tout prisonnier fait par les Espagnols était immédiatement pendu ; les flibustiers se contentaient de leur brûler la cervelle : là était la seule différence. Les procédés étaient, du reste, aussi expéditifs d'un côté que de l'autre.</p>
-                <p>Heureusement pour le jeune homme, il était midi, un soleil torride calcinait la terre, et les habitants de San-Juan-de-Goava, réfugiés au plus profond de leurs maisons pour fuir la chaleur qui les accablait, faisaient la siesta portes et persiennes fermées, si bien que les rues étaient complètement désertes, et que, vu le silence qui planait sur la ville, elle ressemblait, à s'y méprendre, à cette cité des <seg rend="italic">Mille et une Nuits</seg> dont un enchanteur avait subitement changé tous les habitants en statues.</p>
+                <p>Heureusement pour le jeune homme, il était midi, un soleil torride calcinait la terre, et les habitants de San-Juan-de-Goava, réfugiés au plus profond de leurs maisons pour fuir la chaleur qui les accablait, faisaient la siesta portes et persiennes fermées, si bien que les rues étaient complètement désertes, et que, vu le silence qui planait sur la ville, elle ressemblait, à s'y méprendre, à cette cité des <seg
+                        rend="italic"
+                    >Mille et une Nuits</seg> dont un enchanteur avait subitement changé tous les habitants en statues.</p>
                 <p>Philippe atteignit sans encombre une poterne que, moyennant une piastre, un lancero à demi éveillé lui ouvrit en grommelant et verrouilla solidement derrière lui, et bientôt il se trouva dans la campagne.</p>
                 <p>Devant lui s'étendaient d'immenses savanes couvertes d'une luxuriante végétation et coupées çà et là par des cours d'eau presque taris. Après avoir jeté un regard en arrière sur la ville qui déjà était à demi cachée par les arbres, il poussa un profond soupir, et se penchant sur le cou de son cheval, il partit au galop, sans tenir compte de la chaleur qui augmentait d'instant en instant et devenait réellement insupportable. Philippe avait besoin, par un exercice violent et une grande fatigue physique, de donner le change à ses pensées.</p>
                 <p>Depuis plus de deux heures, il galopait ainsi. Son cheval commençait à se fatiguer et à ralentir ; son allure, lorsque tout à coup une voix joyeuse s'écria presque à son oreille :</p>
@@ -396,14 +427,17 @@
                 <p>-- Maintenant, dit le jeune homme, tout en mettant les morceaux doubles, tu vas me faire le plaisir de m'expliquer comment il se fait que je te trouve ici, hein ?</p>
                 <p>-- Oh ! c'est bien facile : je vous cherchais.</p>
                 <p>-- Comment, tu me cherchais ?</p>
-                <p>-- Dame ! le capitaine Pierre Legrand m'a dit ce matin : « Il faut absolument que je voie mon matelot ce soir au <seg rend="italic">Saumon couronné</seg> ; je ne sais pas où diable il est fourré. Cherche-le, Pitrians, et surtout ne reviens pas sans lui. » Alors, je me suis mis en chasse, voilà tout.</p>
+                <p>-- Dame ! le capitaine Pierre Legrand m'a dit ce matin : « Il faut absolument que je voie mon matelot ce soir au <seg
+                        rend="italic"
+                    >Saumon couronné</seg> ; je ne sais pas où diable il est fourré. Cherche-le, Pitrians, et surtout ne reviens pas sans lui. » Alors, je me suis mis en chasse, voilà tout.</p>
                 <p>-- Tu t'es mis en chasse, c'est fort bien ; mais comment se fait-il que tu aies pris plutôt cette direction qu'une autre ?</p>
                 <p>Pitrians se mit à rire.</p>
                 <p>-- Pardieu ! dit-il, rien de plus simple : j'ai fait sentir un de vos habits à Miraud que voilà, en lui disant : « Cherche, Miraud, cherche ! » La bonne bête a tourné et retourné pendant quelques minutes, puis elle a pris votre piste et m'a conduit ; comprenez-vous maintenant ?</p>
                 <p>-- À peu près, répondit le jeune homme en jetant un regard soupçonneux à l'engagé ; ah çà ! mais, c'est donc bien sérieux, ce que mon matelot veut me dire ?</p>
                 <p>-- Il paraît.</p>
                 <p>-- Tu ne sais rien ?</p>
-                <p>-- Ma foi non, pas la moindre chose ; seulement il vous attend sans faute au <seg rend="italic">Saumon couronné</seg>.</p>
+                <p>-- Ma foi non, pas la moindre chose ; seulement il vous attend sans faute au <seg
+                        rend="italic">Saumon couronné</seg>.</p>
                 <p>-- J'y serai.</p>
                 <p>-- Et moi, vous en êtes-vous occupé, monsieur Philippe ?</p>
                 <p>-- Oui, j'ai fait ton affaire.</p>
@@ -459,7 +493,9 @@
             </div>
             <div>
                 <head>IV -- L'ongle et le neveu</head>
-                <p>Philippe avait congédié son engagé et s'était rendu en toute hâte au <seg rend="italic">Saumon couronné</seg>, inquiet malgré lui de ce rendez-vous auquel il ne comprenait rien ; il fallait que des circonstances fort graves eussent surgi pour que Pierre Legrand, au lieu de l'attendre tout simplement à leur logis commun, l'eût ainsi convoqué, dans une auberge, à une heure aussi avancée de la nuit.</p>
+                <p>Philippe avait congédié son engagé et s'était rendu en toute hâte au <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, inquiet malgré lui de ce rendez-vous auquel il ne comprenait rien ; il fallait que des circonstances fort graves eussent surgi pour que Pierre Legrand, au lieu de l'attendre tout simplement à leur logis commun, l'eût ainsi convoqué, dans une auberge, à une heure aussi avancée de la nuit.</p>
                 <p>La présence de son oncle, qu'il croyait à Saint-Christophe, dont il était gouverneur, fut pour lui un trait de lumière et un avis de se tenir sur ses gardes.</p>
                 <p>En effet, M. d'Ogeron était non seulement un homme d'action fort jaloux de l'honneur des aventuriers dont pendant plusieurs années il avait partagé les hasards, mais en sus séduit, malgré lui peut-être, par les charmes de cette existence toute d'émotions et d'imprévu, il s'était voué corps et âme au bonheur de ses compagnons d'armes et avait rêvé d'organiser leurs retraites précaires et de donner à la France de riches colonies en métamorphosant tous ces hardis oiseaux de proie, ces téméraires écumeurs de mers en habitants paisibles et en colons laborieux.</p>
                 <p>Ce projet, digne en tous points de cet homme d'un esprit si élevé et d'une intelligence si vaste, il en poursuivait sans relâche l'exécution par tous les moyens, sacrifiant jusqu'à sa fortune personnelle à sa réalisation.</p>
@@ -477,7 +513,9 @@
                 <p>La perte de l'île de la Tortue portait un coup fatal à la puissance des aventuriers, en les privant d'une retraite sûre à portée de Saint-Domingue, et, par conséquent, sur le passage des galions espagnols.</p>
                 <p>De plus, c'était un échec honteux et une tache imprimée en caractères de sang sur l'honneur des flibustiers, réputés jusque-là invincibles.</p>
                 <p>Il fallait, à quelque prix que ce fût, reprendre l'île de la Tortue, ce nid d'aigle, d'où s'élançaient si sûrement les flibustiers pour fondre à l'improviste sur les colonies espagnoles.</p>
-                <p>À peine de retour dans son gouvernement, M. d'Ogeron, sans même dénoncer sa présence aux habitants de l'île, avait endossé un costume de flibustier, et monté, lui troisième, sur une chétive barque qui faisait eau de toutes parts, il avait réussi à passer inaperçu au milieu des nombreux croiseurs espagnols, et après une traversée de dix-sept jours, pendant laquelle il avait cent fois failli périr, il avait réussi à débarquer sain et sauf à Port-de-Paix. En mettant le pied sur la plage de Saint-Domingue, le gouverneur avait expédié un de ses hommes à Pierre Legrand, vieux flibustier qu'il connaissait de longue date, s'était abouché avec lui, et, après lui avoir dévoilé une partie de ses projets, il lui avait donné rendez-vous au <seg rend="italic">Saumon couronné</seg>, afin de prendre les dernières mesures pour la réussite de son projet, et s'entendre avec son neveu Philippe, dont l'influence était grande parmi les flibustiers, à cause de son énergie peu commune, de son courage de lion et surtout du bonheur qui s'attachait à toutes ses entreprises.</p>
+                <p>À peine de retour dans son gouvernement, M. d'Ogeron, sans même dénoncer sa présence aux habitants de l'île, avait endossé un costume de flibustier, et monté, lui troisième, sur une chétive barque qui faisait eau de toutes parts, il avait réussi à passer inaperçu au milieu des nombreux croiseurs espagnols, et après une traversée de dix-sept jours, pendant laquelle il avait cent fois failli périr, il avait réussi à débarquer sain et sauf à Port-de-Paix. En mettant le pied sur la plage de Saint-Domingue, le gouverneur avait expédié un de ses hommes à Pierre Legrand, vieux flibustier qu'il connaissait de longue date, s'était abouché avec lui, et, après lui avoir dévoilé une partie de ses projets, il lui avait donné rendez-vous au <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, afin de prendre les dernières mesures pour la réussite de son projet, et s'entendre avec son neveu Philippe, dont l'influence était grande parmi les flibustiers, à cause de son énergie peu commune, de son courage de lion et surtout du bonheur qui s'attachait à toutes ses entreprises.</p>
                 <p>Il avait suivi sur le visage du jeune homme l'expression d'angoisse qui s'y était montrée subitement lorsqu'il avait été fait mention de l'île de la Tortue.</p>
                 <p>Le vieillard fronça le sourcil, et, fixant un clair regard sur le jeune homme :</p>
                 <p>-- Que signifie cela ? Philippe, lui demanda-t-il ; hésiterais-tu donc à attaquer les Espagnols !</p>
@@ -656,7 +694,9 @@
                 <p>-- Certes, mon enfant ; pour assurer le succès de l'entreprise difficile qui vous est confiée, j'ai consenti, malgré mon grand âge, à reprendre le gouvernement de la riche province de Panama, convaincu que, certain d'être secouru par moi en toutes circonstances, vous n'hésiterez pas à faire votre devoir jusqu'au bout. Votre cousin et moi nous serons rendus presque en même temps que vous, don Sancho nous servira d'intermédiaire, de cette façon nous n'aurons pas à redouter de trahison et nous ne partagerons avec personne la gloire d'avoir délivré notre patrie des ennemis acharnés qui ont depuis tant d'années osé lui jeter un insolent défi.</p>
                 <p>-- Je vous remercie, monseigneur, j'essayerai, je vous le jure, de justifier la confiance que vous avez daigné mettre en moi.</p>
                 <p>-- Veuillez m'instruire en deux mots de ce que vous avez fait pendant ces deux jours que vous avez été absent, monsieur.</p>
-                <p>-- Monseigneur, j'ai, je le crois, complètement rempli vos intentions ; je me suis abouché avec l'homme qu'on vous avait désigné ; cet homme est à présent à mon entière discrétion ; aujourd'hui même je dois être présenté par lui au capitaine du brick <seg rend="italic">Le Caïman</seg> qui, demain au plus tard, quittera le port pour se rendre à la côte.</p>
+                <p>-- Monseigneur, j'ai, je le crois, complètement rempli vos intentions ; je me suis abouché avec l'homme qu'on vous avait désigné ; cet homme est à présent à mon entière discrétion ; aujourd'hui même je dois être présenté par lui au capitaine du brick <seg
+                        rend="italic"
+                    >Le Caïman</seg> qui, demain au plus tard, quittera le port pour se rendre à la côte.</p>
                 <p>-- Et vous êtes sûr de cet homme ?</p>
                 <p>-- Comme de moi-même.</p>
                 <p>-- Nous allons donc vous faire nos adieux, car nous aussi nous partons. J'ai rédigé certaines instructions dont vous ne vous écarterez pas, elles sont contenues dans ce papier, prenez-le et gardez qu'on vous l'enlève.</p>
@@ -721,7 +761,8 @@
                 <p>Un individu d'une quarantaine d'années, ayant toute l'apparence d'un matelot, se tenait respectueusement, le chapeau à la main, sur le seuil.</p>
                 <p>-- Entrez, maître Aguirre, lui dit-il.</p>
                 <p>Le matelot salua et pénétra dans la chambre.</p>
-                <p>-- <seg rend="italic">Se puede hablar</seg> ? dit-il en jetant un regard soupçonneux autour de lui.</p>
+                <p>-- <seg rend="italic"
+                    >Se puede hablar</seg> ? dit-il en jetant un regard soupçonneux autour de lui.</p>
                 <p>-- En français ou en espagnol, à votre choix, maître Aguirre, répondit le jeune homme en refermant la porte, nous sommes bien seuls.</p>
                 <p>-- Bon, puisqu'il en est ainsi, nous n'aurons pas d'indiscrétion à redouter, tant mieux, monseigneur.</p>
                 <p>-- Hum ! maître Aguirre, perdez, je vous prie, l'habitude de m'appeler monseigneur, nommez-moi tout simplement Martial, c'est le nom que je compte prendre, ou, si vous le préférez, dites-moi monsieur, cela ne signifie rien et n'est point compromettant.</p>
@@ -733,7 +774,8 @@
                 <p>-- Hein ? fit-il en souriant.</p>
                 <p>-- Oui, Martial, oh ! soyez tranquille, je m'y habituerai.</p>
                 <p>-- Maintenant, venons au fait, parlez, je vous écoute.</p>
-                <p>-- D'après l'ordre que vous m'avez donné je me suis présenté au capitaine du <seg rend="italic">Caïman</seg>.</p>
+                <p>-- D'après l'ordre que vous m'avez donné je me suis présenté au capitaine du <seg
+                        rend="italic">Caïman</seg>.</p>
                 <p>-- Ah ! il se nomme <seg rend="italic">Le Caïman</seg> ?</p>
                 <p>-- Oui.</p>
                 <p>-- C'est un joli nom de flibustier.</p>
@@ -755,7 +797,8 @@
                 <p>-- Vous oubliez nos conventions, maître Aguirre. Je me nomme Martial, retenez-le une fois pour toutes, je vous prie ; quant à être instruit, vous comprenez, mon brave, que l'affaire dans laquelle je m'embarque est assez sérieuse pour que je prenne mes précautions ; donc je vous ai surveillé, voilà tout ; j'avais, il me semble, un assez grand intérêt à ne pas être trahi par vous, pour agir ainsi.</p>
                 <p>-- À la rigueur, vous pouvez avoir raison, répondit-il d'un air de doute.</p>
                 <p>-- Revenons donc à notre affaire.</p>
-                <p>-- Vous savez que je pars sur le <seg rend="italic">Caïman</seg> en qualité de maître d'équipage.</p>
+                <p>-- Vous savez que je pars sur le <seg rend="italic"
+                    >Caïman</seg> en qualité de maître d'équipage.</p>
                 <p>-- Est-ce convenu ?</p>
                 <p>-- Je suis inscrit sur le rôle, et j'ai touché mes avances.</p>
                 <p>-- Comment, vos avances ?</p>
@@ -792,7 +835,9 @@
                 <p>Ils sautèrent dans le canot, larguèrent l'amarre, et saisirent les avirons.</p>
                 <p>La traversée de la Vera-Cruz à l'île Sacrificios, où mouillent ordinairement les gros navires qui y trouvent un bon ancrage et un abri à peu près sûr, est d'environ une lieue. Lorsque la mer est belle, c'est une délicieuse promenade.</p>
                 <p>Après avoir, pendant quelque temps, usé des avirons, une légère brise se leva, qui permit aux voyageurs d'orienter une voile latine, et de se laisser emporter sans fatigue.</p>
-                <p>Au fur et à mesure qu'ils approchaient de l'île, le brick-goélette <seg rend="italic">Le Caïman </seg>semblait sortir de l'eau, et finit par leur apparaître dans tous ses détails.</p>
+                <p>Au fur et à mesure qu'ils approchaient de l'île, le brick-goélette <seg
+                        rend="italic"
+                    >Le Caïman </seg>semblait sortir de l'eau, et finit par leur apparaître dans tous ses détails.</p>
                 <p>C'était un beau navire, long, effilé et ras sur l'eau ; sa haute mâture était rejetée eu arrière ; son gréement, bien goudronné, était bien tendu et tenu avec un soin remarquable.</p>
                 <p>Sa coque, entièrement noire, était traversée par une mince bande d'un rouge de sang. On ne voyait pas de sabord et par conséquent pas de canons.</p>
                 <p>Personne ne paraissait à bord.</p>
@@ -803,10 +848,13 @@
                 <p>-- Pardieu ! j'ai navigué deux ans dessus sous les ordres de Montbars.</p>
                 <p>Quelques minutes plus tard, l'avant du canot grinçait sur le sable d'une petite crique, et les deux hommes prenaient terre sur l'île Sacrificios.</p>
                 <p>À peine avaient-ils fait quelques pas sur la plage qu'ils aperçurent un homme, qui venait doucement au-devant d'eux.</p>
-                <p>-- Voici le capitaine du <seg rend="italic">Caïman</seg>, dit le marin, vous voyez qu'il est exact au rendez-vous.</p>
+                <p>-- Voici le capitaine du <seg rend="italic"
+                    >Caïman</seg>, dit le marin, vous voyez qu'il est exact au rendez-vous.</p>
                 <p>-- Ah ! fit le jeune homme, et, tout en s'approchant, il l'examina curieusement.</p>
                 <p>Comme ce personnage est appelé à jouer un rôle important dans ce récit, nous ferons en quelques mots son portrait.</p>
-                <p>Cet individu était, dans toute l'extension du terme, un véritable <seg rend="italic">loup de mer</seg> ; en effet, il ressemblait bien plus à un phoque qu'à un homme.</p>
+                <p>Cet individu était, dans toute l'extension du terme, un véritable <seg
+                        rend="italic"
+                    >loup de mer</seg> ; en effet, il ressemblait bien plus à un phoque qu'à un homme.</p>
                 <p>Âgé de cinquante ans au moins, il en paraissait à peine quarante ; il était petit de taille, mais trapu et vigoureusement charpenté ; son teint hâlé avait presque la couleur de la brique ; ses yeux gris, enfoncés sous l'orbite, étaient vifs et expressifs ; sa physionomie intelligente, bien que rude, respirait l'audace et l'intrépidité calme de l'homme habitué depuis longues années à lutter contre le péril, sous quelque forme qu'il se présente.</p>
                 <p>Son costume, par caprice sans doute, car cet homme était Breton, était celui des Poletais, costume étrange qui s'est conservé intact jusqu'à ces dernières années.</p>
                 <p>Il portait une casaque de gros drap bleu dont toutes les coutures étaient recouvertes d'un galon de même couleur, mais plus clair ; autour du cou, une cravate dont les pointes étaient garnies de glands d'argent ; une veste fond gris, à grandes fleurs brochées ; de larges culottes brunes passementées comme la casaque ; des bas de soie, et des souliers à boucles d'argent ; une toque de velours noir, ornée d'une vignette en verre filé représentant Notre-Dame des Grèves, couvrait sa tête. Une large ceinture en cuir de vache lui serrait la taille : dans cette ceinture étaient passés deux longs pistolets.</p>
@@ -837,12 +885,15 @@
                 <p>-- Toutes mes affaires sont terminées, capitaine, je n'ai pas besoin de retourner à la Vera-Cruz : Aguirre peut se charger de m'apporter mon coffre et mes armes.</p>
                 <p>-- Tu me plais, tu es un joli garçon ; viens donc, puisque tu le veux.</p>
                 <p>Ils remontèrent dans l'embarcation qui, en quelques minutes, les conduisit à bord du brick. Cependant, ce ne fut pas sans éprouver un secret serrement de cœur et un tressaillement nerveux que le jeune homme posa le pied sur le pont de ce navire, où il allait vivre désormais au milieu de ces hommes qu'on lui avait représentés comme des bêtes féroces, n'existant que de meurtre et de pillage, sans foi, sans loi et sans patrie.</p>
-                <p>La même nuit, vers trois heures du matin, le brick-goélette <seg rend="italic">Le Caïman</seg> larguait son amarre et prenait le large, emportant avec lui le lieutenant Martial et le contremaître Aguirre, les deux nouveaux enrôlés.</p>
+                <p>La même nuit, vers trois heures du matin, le brick-goélette <seg rend="italic"
+                        >Le Caïman</seg> larguait son amarre et prenait le large, emportant avec lui le lieutenant Martial et le contremaître Aguirre, les deux nouveaux enrôlés.</p>
                 <p>Le capitaine Vent-en-Panne avait donné la route sur Saint-Domingue ; sa croisière était terminée et il rentrait au Port-de-Paix.</p>
             </div>
             <div>
                 <head>VII -- Le sauvetage</head>
-                <p>Au moment où les trois marins, Philippe en tête, s'élancèrent hors du <seg rend="italic">Saumon couronné</seg>, un spectacle terrible s'offrit soudainement à leurs yeux et les fit presque reculer d'épouvante. D'un point de l'horizon à l'autre, le ciel n'était qu'une nappe de feu incessamment sillonnée par les zigzags verdâtres des éclairs. Le tonnerre grondait sans relâche avec des roulements effroyables, la pluie tombait à torrents, la mer, blanche d'écume, inondait ses rives avec un fracas assourdissant, le vent soufflait avec furie, faisant craquer les maisons, enlevant les toitures, déracinant les arbres et les tordant comme des fétus de paille.</p>
+                <p>Au moment où les trois marins, Philippe en tête, s'élancèrent hors du <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, un spectacle terrible s'offrit soudainement à leurs yeux et les fit presque reculer d'épouvante. D'un point de l'horizon à l'autre, le ciel n'était qu'une nappe de feu incessamment sillonnée par les zigzags verdâtres des éclairs. Le tonnerre grondait sans relâche avec des roulements effroyables, la pluie tombait à torrents, la mer, blanche d'écume, inondait ses rives avec un fracas assourdissant, le vent soufflait avec furie, faisant craquer les maisons, enlevant les toitures, déracinant les arbres et les tordant comme des fétus de paille.</p>
                 <p>Les chevaux et les bestiaux échappés des étables, couraient çà et là avec des mugissements de terreur.</p>
                 <p>L'ouragan, qui menaçait depuis le matin, se déchaînait enfin avec une rage et une force irrésistibles.</p>
                 <p>Les aventuriers, accourus en toute hâte sur la plage, se sentaient, malgré leur bravoure à toute épreuve, frissonner de peur, et, réfugiés çà et là à l'abri précaire des rochers, ils demeuraient sans courage pour lutter contre l'horrible fléau qui s'abattait sur leur ville et menaçait de la renverser de fond en comble.</p>
@@ -861,7 +912,8 @@
                 <p>Bientôt d'immenses brasiers couvrirent la rive sur une étendue de plus d'un mille. Le bâtiment les aperçut, car, dès ce moment, il ne cessa de tirer le canon de minute en minute.</p>
                 <p>L'ouragan semblait vouloir s'apaiser : le vent avait légèrement molli, les éclairs devenaient moins fréquents et les roulements du tonnerre étaient plus sourds.</p>
                 <p>Dans une éclaircie d'une minute on aperçut tout à coup la haute mâture d'un grand navire sortir du brouillard, à une distance fort rapprochée de la plage, puis l'obscurité se fit de nouveau et le bâtiment, à peine entrevu comme dans un rêve, disparut soudainement.</p>
-                <p>-- C'est le <seg rend="italic">Caïman</seg> ! s'écrièrent les aventuriers, le brick de Vent-en-Panne et de Montbars ! il faut le sauver !...</p>
+                <p>-- C'est le <seg rend="italic"
+                    >Caïman</seg> ! s'écrièrent les aventuriers, le brick de Vent-en-Panne et de Montbars ! il faut le sauver !...</p>
                 <p>Certes, cette résolution était belle et digne des hommes qui la faisaient, mais son exécution était presque impossible.</p>
                 <p>Une heure s'écoula en tentatives inutiles pour lancer une embarcation sur cette mer bouleversée, qui la rejetait aussitôt sur la plage.</p>
                 <p>-- Une ligne ! cria tout à coup Philippe, vive Dieu ! il ne sera pas dit qu'un homme ne se sera point dévoué parmi nous pour en sauver cinquante !</p>
@@ -909,7 +961,9 @@
                 <p>-- Vous êtes sauvés ! répondit une voix rauque et fortement accentuée.</p>
                 <p>-- Pierre Legrand ! s'écria Vent-en-Panne avec joie, c'est Dieu qui t'envoie, frère ! Comment te trouves-tu ici ?</p>
                 <p>-- Par-dessus le bord, pardieu ! répondit-il en riant, voilà deux heures que nous nageons pour vous atteindre. Mais ce n'est pas le moment de causer ; cherche Philippe et Pitrians, ils sont tombés quelque part sur le pont ; Philippe porte une ligne, mets tout ton équipage dessus, et halez en double, mille diables ! si vous ne voulez pas boire un coup à la grande tasse. Moi je reste à la barre, ne t'inquiète pas.</p>
-                <p>Vent-en-Panne ne se le fit pas répéter, il se mit à la recherche des deux aventuriers, mais ceux-ci avaient déjà été relevés et commençaient à reprendre connaissance. On détacha la ligne amarrée à la ceinture du jeune homme, et l'équipage du <seg rend="italic">Caïman</seg>, capitaine en tête, commença à haler vigoureusement dessus ; ils comprenaient que là seulement était la dernière chance de salut qui leur restât.</p>
+                <p>Vent-en-Panne ne se le fit pas répéter, il se mit à la recherche des deux aventuriers, mais ceux-ci avaient déjà été relevés et commençaient à reprendre connaissance. On détacha la ligne amarrée à la ceinture du jeune homme, et l'équipage du <seg
+                        rend="italic"
+                    >Caïman</seg>, capitaine en tête, commença à haler vigoureusement dessus ; ils comprenaient que là seulement était la dernière chance de salut qui leur restât.</p>
                 <p>Cependant, sur l'ordre de Pierre, qui avait pris définitivement le commandement du navire, la vergue de misaine avait été hissée et la misaine amarrée au bas ris, afin de fuir devant le temps et de relever un peu le navire, les câbles de l'arrière avaient été coupés, le navire se trouva donc abandonné à sa seule impulsion.</p>
                 <p>-- Eh bien ! cria Vent-en-Panne.</p>
                 <p>-- Nous gouvernons, frère, sois tranquille, répondit Pierre.</p>
@@ -947,7 +1001,9 @@
             </div>
             <div>
                 <head>VIII -- La présentation</head>
-                <p>À l'heure où les exigences de notre récit nous conduisent de nouveau à l'auberge du <seg rend="italic">Saumon couronné</seg>, c'est-à-dire vers midi, maître Kornic, propriétaire dudit établissement, se tenait mélancoliquement sur le seuil de sa porte, contemplant d'un air effaré les irréparables désastres causés par l'ouragan de la nuit précédente.</p>
+                <p>À l'heure où les exigences de notre récit nous conduisent de nouveau à l'auberge du <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, c'est-à-dire vers midi, maître Kornic, propriétaire dudit établissement, se tenait mélancoliquement sur le seuil de sa porte, contemplant d'un air effaré les irréparables désastres causés par l'ouragan de la nuit précédente.</p>
                 <p>Le digne aubergiste avait eu grand soin de demeurer clos et couvert dans sa maison barricadée et fermée à triples verrous, et avait passé la nuit tout entière à suer et à trembler de peur, de sorte que le spectacle qu'il avait en ce moment devant les yeux, non seulement l'émerveillait, mais encore l'épouvantait lorsqu'il songeait aux terribles dangers qu'il aurait pu courir s'il ne s'était pas si prudemment tenu coi dans sa demeure.</p>
                 <p>La demie après midi sonna ; presque au même instant, cinq ou six marins entrèrent ou, plutôt, firent irruption dans l'auberge avec tant d'impétuosité, que maître Kornic fut bousculé et faillit être renversé par eux.</p>
                 <p>Cependant il ne se fâcha pas ; au contraire, il éclata d'un gros rire, et, après avoir repris à grand-peine son équilibre :</p>
@@ -957,7 +1013,9 @@
                 <p>-- Bon, voilà les caïmans qui commencent à accoster ; tout à l'heure nous allons rire.</p>
                 <p>Les matelots s'étaient assis à une table et avaient commencé à boire en criant à tue-tête et en parlant tous à la fois.</p>
                 <p>Après ceux-ci, il en arriva d'autres encore, si bien qu'une heure plus tard la salle était pleine de buveurs et qu'il s'y faisait un tapage et un brouhaha au milieu duquel on n'aurait pas entendu le bon Dieu tonner.</p>
-                <p>Plus de cent cinquante aventuriers étaient ainsi réunis dans un espace où une soixantaine tout au plus auraient pu tenir à l'aise ; mais ils s'étaient si intelligemment <seg rend="italic">arrimés</seg>, selon leur pittoresque expression, autour des tables et du comptoir, qu'il restait encore au milieu de la salle un espace suffisant pour la circulation du cabaretier et de ses garçons.</p>
+                <p>Plus de cent cinquante aventuriers étaient ainsi réunis dans un espace où une soixantaine tout au plus auraient pu tenir à l'aise ; mais ils s'étaient si intelligemment <seg
+                        rend="italic"
+                    >arrimés</seg>, selon leur pittoresque expression, autour des tables et du comptoir, qu'il restait encore au milieu de la salle un espace suffisant pour la circulation du cabaretier et de ses garçons.</p>
                 <p>Ceux-ci couraient incessamment de l'un à l'autre et ne savaient auquel entendre.</p>
                 <p>Maître Kornic débouchait lui-même les bouteilles et ne dédaignait pas de remplir les verres de ses pratiques.</p>
                 <p>Bientôt la foule devint si grande dans la salle que, comme une mer qui monte, le flot des consommateurs, après avoir peu à peu reflué vers le fond, déborda et envahit les pièces adjacentes.</p>
@@ -965,7 +1023,9 @@
                 <p>Martial examinait curieusement le spectacle singulier qu'il avait devant les yeux, laissant, malgré les observations de son compagnon, son verre plein devant lui sans songer à le vider.</p>
                 <p>Cependant la gaieté devenait de plus en plus bruyante, le vin et l'eau-de-vie échauffaient les têtes, des cris de colère et de délit commençaient à se mêler aux rires et aux chansons joyeuses ; çà et là éclataient des rixes que Kornic et ses garçons parvenaient de plus en plus difficilement à étouffer.</p>
                 <p>Sur ces entrefaites, un grand et beau jeune homme de vingt-sept à vingt-huit ans au plus, aux traits hautains, à la physionomie railleuse et à la démarche leste et dégagée entra dans la salle.</p>
-                <p>Ce nouveau venu était habillé avec une extrême élégance ; une fanfaronne<seg rend="italic">*(1)</seg>* de fin or entourait la forme de son chapeau garni de plumes de prix et outrageusement posé sur l'oreille. Sa main droite, blanche et aristocratique, presque ensevelie sous un flot de riches dentelles, reposait sur la garde de son épée.</p>
+                <p>Ce nouveau venu était habillé avec une extrême élégance ; une fanfaronne<seg
+                        rend="italic"
+                    >*(1)</seg>* de fin or entourait la forme de son chapeau garni de plumes de prix et outrageusement posé sur l'oreille. Sa main droite, blanche et aristocratique, presque ensevelie sous un flot de riches dentelles, reposait sur la garde de son épée.</p>
                 <p>En entrant, il jeta un regard superbe autour de lui, comme s'il eût cherché quelqu'un ; puis il marcha résolument vers la table où Martial et Aguirre étaient assis, en écartant brusquement tous ceux qui se rencontraient sur son passage, et qui, rendons-leur cette justice, se hâtaient de s'éloigner à sa première injonction.</p>
                 <p>Arrivé près de la table, le jeune homme se pencha sur les joueurs.</p>
                 <p>-- Eh ! dit-il, on s'amuse ici, il me semble ; vive Dieu ! j'en veux être.</p>
@@ -999,7 +1059,8 @@
                 <p>-- Ah ! ah ! fit-il en ricanant, eh bien ! sachez donc, monsieur, que je suis le chevalier de Grammont.</p>
                 <p>-- Je ne connais pas de chevalier de Grammont et je vous répète que peu m'importe.</p>
                 <p>À ces paroles nettement et fièrement articulées, un frémissement de terreur courut dans toute la salle.</p>
-                <p>Le chevalier de Grammont<seg rend="italic">*(1)</seg>*, doué d'une force herculéenne et d'une adresse sans égale dans le maniement des armes, était redouté de tous ces hommes qui cependant se vantaient avec raison de ne rien craindre, mais qui en maintes occasions lui avaient vu donner des preuves d'une vigueur surhumaine et d'un courage féroce.</p>
+                <p>Le chevalier de Grammont<seg rend="italic"
+                    >*(1)</seg>*, doué d'une force herculéenne et d'une adresse sans égale dans le maniement des armes, était redouté de tous ces hommes qui cependant se vantaient avec raison de ne rien craindre, mais qui en maintes occasions lui avaient vu donner des preuves d'une vigueur surhumaine et d'un courage féroce.</p>
                 <p>-- Eh bien ! mon ami, reprit lentement le chevalier en ôtant son chapeau et le posant sur une table, puisque je vous ai dit mon nom et mon titre, il ne me reste plus qu'à vous apprendre ce dont je suis capable, et cela, vous le saurez bientôt, vive Dieu !</p>
                 <p>Martial se leva pâle et calme.</p>
                 <p>-- Prenez garde, lui dit-il, vous n'avez aucun motif pour me chercher querelle, nous sommes inconnus l'un et l'autre, vous m'avez insulté sans raison ; je veux bien l'oublier, il en est temps encore, retirez-vous, car je jure Dieu que ma patience est à bout et que si votre main se lève pour me toucher, je vous brise, comme je brise ce verre. Et il fit voler en éclats le verre qu'il tenait à la main.</p>
@@ -1097,7 +1158,8 @@
                 <p>-- Vous êtes malheureux ? lui dit-il avec un sourire triste.</p>
                 <p>Malgré lui, le jeune homme tressaillit à cette question, à laquelle il était si loin de s'attendre ; il se sentit pâlir.</p>
                 <p>-- Moi ? balbutia-t-il avec embarras.</p>
-                <p>-- Oui ; vous aimez, n'est-ce pas ? Votre amour n'est pas partagé, votre cœur est brisé ; alors la pensée vous est venue de faire la course, et vous avez saisi avec empressement l'occasion que vous offrait le hasard de vous embarquer sur le <seg rend="italic">Caïman</seg>.</p>
+                <p>-- Oui ; vous aimez, n'est-ce pas ? Votre amour n'est pas partagé, votre cœur est brisé ; alors la pensée vous est venue de faire la course, et vous avez saisi avec empressement l'occasion que vous offrait le hasard de vous embarquer sur le <seg
+                        rend="italic">Caïman</seg>.</p>
                 <p>-- Mais... fit-il.</p>
                 <p>-- Oui, c'est cela ; cette folie a failli vous coûter cher, pauvre enfant ; du reste, calmez-vous, je ne vous demande pas votre secret. Vous avez vingt ans, vous êtes jeune, beau, c'est l'histoire universelle cela, rien n'est plus ordinaire ; nous avons tous payé cette dette, ajouta-t-il, en essuyant son front moite de sueur ; vous, vous voulez courir l'aventure ?</p>
                 <p>-- Oui.</p>
@@ -1123,11 +1185,17 @@
                 <p>-- Maintenant, dit Montbars, puisque vous voulez naviguer avec moi, vous allez être satisfait. Il frappa du poing sur la table : Holà, les caïmans ! cria-t-il, avancez à l'ordre.</p>
                 <p>Les matelots quittèrent aussitôt leurs tables.</p>
                 <p>Montbars laissa un moment errer son regard sur ces visages bronzés, avec une satisfaction visible ; puis, après un instant, reprenant la parole au milieu du silence le plus complet des assistants :</p>
-                <p>-- Frères de la Côte, dit-il, officiers-maîtres, quartiers-maîtres et matelots, notre frère le Malouin, qui remplissait à bord les fonctions de lieutenant, ayant été tué par les Gavachos lors de l'abordage du galion la <seg rend="italic">Santissima-Trinidad</seg>, usant des pouvoirs qui me sont conférés par la charte-partie que tous vous avez signée avec moi à notre départ de Port-de-Paix, j'ai songé à remplacer le Malouin par un homme résolu qui fût comme lui un vrai matelot ; mais ne voulant pas éveiller de jalousie entre vous, frères, car tous vous êtes aptes à remplir ce poste, puisque beaucoup d'entre vous ont plusieurs fois commandé en chef des expéditions, je n'ai voulu prendre aucun matelot de l'équipage ; j'ai fait choix, ajouta-t-il en posant la main sur l'épaule du jeune homme dont le front rayonnait de joie et d'orgueil, j'ai fait choix de l'homme que voici ; déjà vous le connaissez, vous l'avez vu à l'œuvre ici même ; c'est lui que je nomme lieutenant du brick-goélette <seg rend="italic">Le Serpent</seg> que j'ai l'honneur de commander : reconnaissez donc Francœur en cette qualité et obéissez-lui pour tout ce qui regarde le service, comme vous y oblige la charte-partie volontairement consentie et signée par vous.</p>
+                <p>-- Frères de la Côte, dit-il, officiers-maîtres, quartiers-maîtres et matelots, notre frère le Malouin, qui remplissait à bord les fonctions de lieutenant, ayant été tué par les Gavachos lors de l'abordage du galion la <seg
+                        rend="italic"
+                        >Santissima-Trinidad</seg>, usant des pouvoirs qui me sont conférés par la charte-partie que tous vous avez signée avec moi à notre départ de Port-de-Paix, j'ai songé à remplacer le Malouin par un homme résolu qui fût comme lui un vrai matelot ; mais ne voulant pas éveiller de jalousie entre vous, frères, car tous vous êtes aptes à remplir ce poste, puisque beaucoup d'entre vous ont plusieurs fois commandé en chef des expéditions, je n'ai voulu prendre aucun matelot de l'équipage ; j'ai fait choix, ajouta-t-il en posant la main sur l'épaule du jeune homme dont le front rayonnait de joie et d'orgueil, j'ai fait choix de l'homme que voici ; déjà vous le connaissez, vous l'avez vu à l'œuvre ici même ; c'est lui que je nomme lieutenant du brick-goélette <seg
+                        rend="italic"
+                    >Le Serpent</seg> que j'ai l'honneur de commander : reconnaissez donc Francœur en cette qualité et obéissez-lui pour tout ce qui regarde le service, comme vous y oblige la charte-partie volontairement consentie et signée par vous.</p>
                 <p>Ce discours fut suivi d'un murmure de satisfaction qui bientôt se changea en applaudissements unanimes.</p>
                 <p>Puis les aventuriers vinrent l'un après l'autre serrer la main du nouvel officier en lui promettant obéissance.</p>
                 <p>Ce devoir accompli, ils se rangèrent de nouveau derrière Montbars.</p>
-                <p>-- Frères, dit alors Martial, je suis bien jeune pour aspirer à commander des hommes tels que vous, mais oubliez mon âge, ne vous souvenez même plus de ce que vous m'avez vu faire à bord de notre pauvre <seg rend="italic">Caïman</seg>, attendez pour me juger de m'avoir vu sérieusement à l'œuvre et soyez convaincus que, Dieu aidant, je justifierai le choix que Montbars a daigné faire de moi.</p>
+                <p>-- Frères, dit alors Martial, je suis bien jeune pour aspirer à commander des hommes tels que vous, mais oubliez mon âge, ne vous souvenez même plus de ce que vous m'avez vu faire à bord de notre pauvre <seg
+                        rend="italic"
+                    >Caïman</seg>, attendez pour me juger de m'avoir vu sérieusement à l'œuvre et soyez convaincus que, Dieu aidant, je justifierai le choix que Montbars a daigné faire de moi.</p>
                 <p>-- Je n'ajouterai qu'un mot, frères, s'écria Grammont, Francœur est mon matelot, ne l'oubliez pas.</p>
                 <p>Les aventuriers répondirent par de joyeux vivats.</p>
                 <p>En ce moment trois ou quatre personnes entrèrent dans l'auberge.</p>
@@ -1205,7 +1273,9 @@
                 <p>Il est assez difficile d'atterrir sur cette plage qui n'offre aucune espèce d'abri pour les embarcations. Cependant, malgré cela et peut-être même à cause de cela, les flibustiers en avaient fait un point de rendez-vous, lorsqu'ils avaient à traiter de matières sérieuses ou à discuter des expéditions intéressant la société des Frères de la Côte.</p>
                 <p>Du reste le lieu était bien choisi si l'on voulait éviter les espions, car il était impossible de s'en approcher n'importe de quel côté sans être immédiatement aperçu par ceux qui se trouvaient dessus.</p>
                 <p>De plus on dominait la mer jusqu'à la limite extrême de l'horizon et si soi-même, on ne voulait pas être vu, c'était chose facile en se réfugiant dans une grotte assez vaste qui se trouvait au centre de l'îlot, s'ouvrant au milieu d'un chaos de rochers surgi probablement du fond de la mer à la suite de l'un de ces terribles cataclysmes si fréquents dans ces contrées et qui changent, en quelques minutes à peine, totalement la configuration du sol.</p>
-                <p>Le lendemain du jour où le hasard avait si fortement réuni les chefs principaux de la flibuste à l'auberge du <seg rend="italic">Saumon couronné</seg>, plusieurs pirogues, la plupart montées par un seul homme, quittèrent au coucher du soleil différents points de la côte de Saint-Domingue et se dirigèrent à force de rames vers l'îlot delà Tête-de-Chien, où elles abordèrent presque en même temps.</p>
+                <p>Le lendemain du jour où le hasard avait si fortement réuni les chefs principaux de la flibuste à l'auberge du <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, plusieurs pirogues, la plupart montées par un seul homme, quittèrent au coucher du soleil différents points de la côte de Saint-Domingue et se dirigèrent à force de rames vers l'îlot delà Tête-de-Chien, où elles abordèrent presque en même temps.</p>
                 <p>Après avoir tiré les pirogues sur le sable afin que la mer ne les emportât pas, car il était impossible de les amarrer, ceux qui les montaient se dirigèrent isolément vers la grotte située au milieu de l'îlot et dont nous avons parlé plus haut.</p>
                 <p>La grotte était naturellement assez obscure, mais comme les premiers venus avaient eu le soin d'allumer des torches de bois chandelle qu'ils avaient ensuite plantées droites dans le sable, les derniers venus trouvèrent une clarté suffisante pour reconnaître leurs compagnons et s'assurer que nul individu suspect ne s'était faufilé parmi eux.</p>
                 <p>La réunion n'était pas nombreuse ; elle ne se composait en tout que de onze personnes ; c'étaient : MM. d'Ogeron, Montbars l'Exterminateur, Philippe d'Ogeron, le chevalier de Grammont, Pierre Legrand, Vent-en-Panne, Drack, le Poletais, Michel le Basque, Martial et Pitrians ; ces deux derniers assistaient à la séance par faveur spéciale, le premier parce qu'il était le matelot du chevalier de Grammont qui avait demandé cette exception, et le second parce que Philippe d'Ogeron l'avait fait admettre sous sa responsabilité personnelle, mais en réalité pour faire pièce 9 Grammont qu'il détestait cordialement et auquel il n'était pas fâché de déplaire.</p>
@@ -1309,7 +1379,9 @@
                 <p>Le général espagnol laissa une garnison de soixante hommes dans l'île, sous le commandement de don Fernando d'Avila, officier brave et expérimenté, et retourna à Saint-Domingue. Voici de quels étranges événements cet îlot perdu avait été le théâtre en quelques années à peine, lorsque M. d'Ogeron, à son retour de France, résolut de l'enlever définitivement à l'Espagne pour en faire, non ce qu'il avait été primitivement, le quartier général des flibustiers, mais la tête de la colonie qu'il prétendait fonder à Saint-Domingue même.</p>
                 <p>Les Espagnols attachaient un grand prix à la possession de l'île de la Tortue, ils étaient sur leurs gardes ; c'était donc une entreprise fort difficile que de les débusquer de ce poste que, depuis qu'ils en étaient les maîtres, ils avaient rendu presque inexpugnable.</p>
                 <p>Aussi M. d'Ogeron, malgré son violent désir de risquer l'aventure, craignant surtout un échec, ne voulut-il rien tenter avant que d'avoir fait reconnaître la place par un homme sûr, et à cet effet il avait choisi son neveu sur lequel il savait pouvoir compter.</p>
-                <p>Le soir même du jour où les flibustiers avaient tenu conseil à l'hôtellerie du <seg rend="italic">Saumon couronné</seg>, à Port-de-Paix, entre huit heures et huit heures et demie, trois personnes soupaient dans une salle assez vaste et richement meublée du fort de la Roche.</p>
+                <p>Le soir même du jour où les flibustiers avaient tenu conseil à l'hôtellerie du <seg
+                        rend="italic"
+                    >Saumon couronné</seg>, à Port-de-Paix, entre huit heures et huit heures et demie, trois personnes soupaient dans une salle assez vaste et richement meublée du fort de la Roche.</p>
                 <p>Ces trois personnes étaient doña Juana, cette charmante jeune fille que déjà nous avons entrevue à l'île de Saint-Domingue, sa dueña ña Cigala, et don Fernando d'Avila, gouverneur de l'île de la Tortue.</p>
                 <p>Don Fernando était un homme de cinquante ans, aux traits caractérisés, à la physionomie énergique, vrai type des soldats de cette époque, qui ne connaissaient d'autre raison que l'épée, et d'autre droit que la force.</p>
                 <p>Tout en faisant honneur aux mets placés devant lui, il causait avec doña Juana, débarquée le matin seulement dans l'île. La jeune fille paraissait triste et préoccupée ; elle ne répondait que par monosyllabes aux bienveillantes interrogations du gouverneur, interrogations que le plus souvent elle n'entendait pas et auxquelles, par conséquent, elle répondait tout de travers.</p>
@@ -1317,11 +1389,13 @@
                 <p>-- Nullement, monsieur, répondit-elle avec distraction.</p>
                 <p>-- Il ne faudrait pas vous gêner, niña, reprit-il doucement ; vous êtes ici chez vous et maîtresse d'agir à votre guise.</p>
                 <p>-- Vous êtes mille fois bon, monsieur.</p>
-                <p>-- Ainsi il ne vous est rien arrivé d'extraordinaire pendant votre voyage, excepté la rencontre imprévue de ces deux <seg rend="italic">ladrones</seg> ?</p>
+                <p>-- Ainsi il ne vous est rien arrivé d'extraordinaire pendant votre voyage, excepté la rencontre imprévue de ces deux <seg
+                        rend="italic">ladrones</seg> ?</p>
                 <p>-- Rien, absolument, monsieur.</p>
                 <p>-- Vous avez été bien effrayée, n'est-ce pas ?</p>
                 <p>-- Mais non, je vous assure.</p>
-                <p>-- Heureusement que maintenant vous voilà en sûreté, et que vous n'avez plus rien à redouter des <seg rend="italic">bribones</seg>.</p>
+                <p>-- Heureusement que maintenant vous voilà en sûreté, et que vous n'avez plus rien à redouter des <seg
+                        rend="italic">bribones</seg>.</p>
                 <p>La jeune fille fronça légèrement les sourcils, mais elle s'abstint de répondre ; don Fernando se leva.</p>
                 <p>-- Je suis contraint de vous fausser compagnie, niña, dit-il ; excusez-moi. Voici l'heure où je visite mes postes, et jamais je n'y manque.</p>
                 <p>-- Ne vous occupez pas de moi, je vous prie, monsieur, fit-elle. Vous le voyez, ña Cigala s'est endormie ; moi-même je vais me retirer dans mon appartement, car je suppose que dans cette forteresse il n'existe aucun jardin où il soit possible de respirer l'air du soir.</p>
@@ -1544,7 +1618,9 @@
                 <p>-- Vous êtes bon, monsieur, ces douces paroles que vous me dites, hélas ! je le sens, vous n'y croyez pas vous-même.</p>
                 <p>-- Ne vous laissez pas abattre ainsi, ma chère Juana, reprit-il, cherchant à distraire la jeune fille de ses tristes pensées, ne suis-je donc pas votre ami, moi ?</p>
                 <p>-- Oh ! si, fit-elle avec émotion, si, vous êtes mon ami, presque mon père, et je vous aime pour tous les soins dont vous avez entouré mon enfance, voilà pourquoi je tremble de vous quitter ainsi.</p>
-                <p>-- Le danger n'est pas aussi grand que vous le supposez : demain je dois recevoir un renfort de cent cinquante hommes qui, joints à ceux de ma garnison actuelle, me formeront un effectif de cent dix soldats résolus et expérimentés ; de plus l'île est bien fortifiée et bien avitaillée. Soyez donc tranquille sur notre compte, ajouta-t-il en riant, si diables que soient les <seg rend="italic">ladrones</seg>, ils n'y sauraient mordre et, cette fois encore, ils s'en retourneront avec leur courte honte.</p>
+                <p>-- Le danger n'est pas aussi grand que vous le supposez : demain je dois recevoir un renfort de cent cinquante hommes qui, joints à ceux de ma garnison actuelle, me formeront un effectif de cent dix soldats résolus et expérimentés ; de plus l'île est bien fortifiée et bien avitaillée. Soyez donc tranquille sur notre compte, ajouta-t-il en riant, si diables que soient les <seg
+                        rend="italic"
+                    >ladrones</seg>, ils n'y sauraient mordre et, cette fois encore, ils s'en retourneront avec leur courte honte.</p>
                 <p>La jeune fille jeta un regard furtif vers le jardin en étouffant un soupir.</p>
                 <p>-- Ainsi, reprit-elle, à peine arrivée ici, je pars et je pars seule !</p>
                 <p>-- Non pas seule, puisque votre dueña vous accompagne.</p>
@@ -1554,7 +1630,9 @@
                 <p>-- Plus tôt que vous ne pensez peut-être.</p>
                 <p>-- Le Ciel vous entende !</p>
                 <p>Don Fernando se leva.</p>
-                <p>-- Ainsi, voilà qui est bien convenu, dit-il, demain au point du jour vous serez prête, la goélette la <seg rend="italic">Madre-de-Dios</seg>, sur laquelle vous êtes venue ici, est encore mouillée dans le port. C'est à son bord que vous vous embarquerez.</p>
+                <p>-- Ainsi, voilà qui est bien convenu, dit-il, demain au point du jour vous serez prête, la goélette la <seg
+                        rend="italic"
+                    >Madre-de-Dios</seg>, sur laquelle vous êtes venue ici, est encore mouillée dans le port. C'est à son bord que vous vous embarquerez.</p>
                 <p>-- Mais, pardonnez-moi cette dernière question, vous ne m'avez pas dit où je dois me rendre.</p>
                 <p>-- L'ignorez-vous donc ?</p>
                 <p>-- Complètement ; vous m'avez parlé il y a quelque temps d'un poste fort avantageux qui vous était offert à Panama, est-ce donc là que nous nous rendrons ?</p>
@@ -1574,7 +1652,8 @@
                 <p>-- Ainsi... fit-elle en souriant.</p>
                 <p>-- Je voulais vous surprendre, mais vous savez si bien m'arracher mes secrets du cœur, qu'il n'y a pas moyen de vous résister, j'aime mieux tout vous dire tout de suite.</p>
                 <p>-- Oui, dites, dites.</p>
-                <p>-- La <seg rend="italic">Madre-de-Dios</seg>, au lieu de deux passagers, en emmènera trois, je pars avec-vous.</p>
+                <p>-- La <seg rend="italic"
+                    >Madre-de-Dios</seg>, au lieu de deux passagers, en emmènera trois, je pars avec-vous.</p>
                 <p>-- Dieu soit béni ! s'écria-t-elle avec joie.</p>
                 <p>-- Et maintenant qu'il ne me reste plus rien à vous apprendre, niña, excusez-moi de vous avoir tenu si longtemps éveillée : il est plus de onze heures du soir, je me retire. Que la Vierge et les anges veillent sur votre sommeil, chère enfant ; bonsoir ; surtout, fermez bien cette fenêtre ; allons, à demain.</p>
                 <p>Il sortit ; la jeune fille l'accompagna jusque dans le jardin.</p>
@@ -1658,7 +1737,8 @@
                 <p>Le roi ne reconnaissait aucun droit de corporation, aucun privilège ; il ne levait pas d'impôt sur le sol, mais percevait des droits, des tributs, des redevances.</p>
                 <p>Il gouvernait par un délégué ayant titre de vice-roi, de sorte que tous les fonctionnaires étaient ses gens.</p>
                 <p>Le vice-roi était à la tête de toute l'administration du pays, commandait l'armée, décidait de toutes les questions militaires en conseil de guerre, présidait le Conseil, et nommait aux emplois vacants, sous réserve de la sanction royale.</p>
-                <p>Un tribunal suprême, nommé <seg rend="italic">Audiencia</seg>, servait de contrepoids à ce grand fonctionnaire. Cour d'appel de tous les tribunaux civils et ecclésiastiques, il jugeait en dernier ressort toutes les fois que l'objet en litige n'excédait pas dix mille piastres fortes, -- cinquante mille francs de notre monnaie. -- Cette cour avait droit de remontrance, et délibérait comme Conseil d'État.</p>
+                <p>Un tribunal suprême, nommé <seg rend="italic"
+                    >Audiencia</seg>, servait de contrepoids à ce grand fonctionnaire. Cour d'appel de tous les tribunaux civils et ecclésiastiques, il jugeait en dernier ressort toutes les fois que l'objet en litige n'excédait pas dix mille piastres fortes, -- cinquante mille francs de notre monnaie. -- Cette cour avait droit de remontrance, et délibérait comme Conseil d'État.</p>
                 <p>L'Audiencia correspondait directement, avec le Conseil des Indes, ce régulateur suprême de toutes les affaires des possessions espagnoles.</p>
                 <p>Les membres de l'Audiencia jouissaient de privilèges immenses, mais ils devaient être Espagnols ; et pour qu'aucune affection de famille ne pût les attacher à l'Amérique, il leur était défendu, à eux et à leurs fils, de s'y marier et d'y acquérir des propriétés. Une interdiction pareille frappait le vice-roi.</p>
                 <p>Puis venait l'intendant administrateur des finances, ayant sous ses ordres les collecteurs des droits et redevances. Le pouvoir des intendants était si étendu qu'ils étaient presque indépendants dans leurs provinces.</p>
@@ -1666,7 +1746,9 @@
                 <p>Le pouvoir ecclésiastique même, si fort dans un pays catholique, était soumis à dès règles sous lesquelles il lui fallait se courber.</p>
                 <p>Ainsi la constitution de l'Église américaine ne ressemblait nullement à celle de la mère patrie. Le pape n'avait qu'un pouvoir nominal sur le clergé, l'Église mexicaine n'obéissait qu'au roi. Les prérogatives jadis concédées à Ferdinand et Isabelle par Alexandre VI et Jules II étaient aussi étendues que celles d'un chef d'Église nationale.</p>
                 <p>Le monarque espagnol, qui, dans la péninsule, obéissait sans observation aux exigences les plus exagérées de l'Église romaine et du pape, son représentant, avait en Amérique un patronage illimité et disposait de tous les emplois et bénéfices. Bien plus, aucune bulle n'était reçue en Amérique, sans avoir été examinée et approuvée par le Conseil des Indes.</p>
-                <p>Les <seg rend="italic">Ayuntamientos</seg>, ou municipalités, composés des <seg rend="italic">regidoreset</seg> des <seg rend="italic">alcades</seg>, étaient librement nommés par les habitants de chaque ville, dont ils étaient chargés de défendre les intérêts.</p>
+                <p>Les <seg rend="italic">Ayuntamientos</seg>, ou municipalités, composés des <seg
+                        rend="italic">regidoreset</seg> des <seg rend="italic"
+                    >alcades</seg>, étaient librement nommés par les habitants de chaque ville, dont ils étaient chargés de défendre les intérêts.</p>
                 <p>Ces Ayuntamientos représentaient l'élément démocratique au milieu de cette organisation si éminemment despotique.</p>
                 <p>L'Ayuntamiento, ou Cabildo, n'oublia jamais les devoirs que lui imposait son origine populaire, et lors de l'éclosion de la guerre de l'indépendance, ses membres se firent bravement les organes du peuple, et soutinrent chaudement ses droits.</p>
                 <p>Voilà par quelle forme de gouvernement étaient régies non seulement la Nouvelle-Espagne, mais le Pérou, le Chili, Buenos Aires et généralement toutes les possessions de la couronne de Castille en Amérique.</p>
@@ -1676,7 +1758,10 @@
                 <p>Il était ordonné, par mesure politique et comme garantie d'obéissance et de sécurité pour le gouvernement, de maintenir les masses dans une ignorance profonde.</p>
                 <p>Les Américains étaient donc étrangers complètement à tout ce qui se passait hors de leur patrie ; ils croyaient de bonne foi que le sort des autres peuples valait moins que le leur. Ils étaient convaincus que leur gouvernement était le plus grand et le plus éclairé de tous ceux qui régissent le monde, et que l'Espagne, par sa politique et son organisation militaire, était la reine des nations et, par conséquent, la plus puissante.</p>
                 <p>
-                    <seg rend="italic">Hablar cristiano</seg>, -- parler chrétien, -- signifiait parler espagnol, dans la bouche des Américains, et ils comprenaient sous le nom de <seg rend="italic">gringos</seg> ou hérétiques, avec lesquels les bons catholiques ne pouvaient entretenir des rapports, et cela sans aucune exception, les Anglais, les Français, les Allemands, les juifs ou les musulmans.</p>
+                    <seg rend="italic"
+                        >Hablar cristiano</seg>, -- parler chrétien, -- signifiait parler espagnol, dans la bouche des Américains, et ils comprenaient sous le nom de <seg
+                        rend="italic"
+                    >gringos</seg> ou hérétiques, avec lesquels les bons catholiques ne pouvaient entretenir des rapports, et cela sans aucune exception, les Anglais, les Français, les Allemands, les juifs ou les musulmans.</p>
                 <p>Il est inutile de dire que l'Inquisition, fidèle gardienne de l'ignorance, ne laissait pénétrer aucuns livres autres que ceux autorisés par elle, et poursuivait avec la dernière rigueur les malheureux trouvés détenteurs d'un écrit quelconque qu'elle avait jugé convenable de prohiber.</p>
                 <p>Il est vrai que ces rigueurs n'atteignaient que les petites gens et les indigènes ; les classes élevées se souciaient fort peu du saint-office qu'elles méprisaient ouvertement.</p>
                 <p>Nous nous résumerons en constatant que les possessions espagnoles fournissaient de cinq à six cent millions de piastres fortes tous les ans à la métropole, malgré les dilapidations et les exactions de toutes sortes faites par les vice-rois, les audienciers, les intendants et tous les employés du fisc. De là provenait l'acharnement de l'Espagne à fermer l'Amérique aux étrangers, et le désir de ceux-ci d'y pénétrer à tous risques.</p>
@@ -1697,7 +1782,8 @@
                 <p>Il supposait que, une fois gouverneur de Santo-Domingo et loin des regards du duc, il parviendrait à faire renoncer le jeune homme à ses funestes projets et aie tirer du gouffre dans lequel le poussait une main implacable.</p>
                 <p>Malgré ses réticences, don Gusman avait semblé frappé de ses paroles et lui avait fait la promesse qu'il exigeait de lui.</p>
                 <p>Le marquis, à peu près rassuré, n'avait plus songé dès lors qu'à s'occuper de ses préparatifs de départ pour Santo-Domingo, où il avait hâte d'arriver, afin d'échapper à la fatigante sujétion que lui imposait son père, et d'être à même, si besoin était, de venir en aide à son cousin.</p>
-                <p>Malheureusement, à cette époque on ne voyageait pas aussi facilement qu'à la nôtre, les moyens de transport étaient fort rares ; de plus, comme les flibustiers étaient comme des oiseaux de proie embusqués dans tous les débouquements des Antilles, prêts à fondre sur les navires espagnols dès qu'ils apparaissaient à l'horizon, ceux-ci ne se risquaient qu'à bon escient à quitter les ports de la côte ferme, et ne s'aventuraient à la mer que lorsqu'ils se croyaient assez nombreux et surtout assez forts pour repousser les attaques de ceux qu'ils flétrissaient du nom de <seg rend="italic">ladrones</seg>, voleurs.</p>
+                <p>Malheureusement, à cette époque on ne voyageait pas aussi facilement qu'à la nôtre, les moyens de transport étaient fort rares ; de plus, comme les flibustiers étaient comme des oiseaux de proie embusqués dans tous les débouquements des Antilles, prêts à fondre sur les navires espagnols dès qu'ils apparaissaient à l'horizon, ceux-ci ne se risquaient qu'à bon escient à quitter les ports de la côte ferme, et ne s'aventuraient à la mer que lorsqu'ils se croyaient assez nombreux et surtout assez forts pour repousser les attaques de ceux qu'ils flétrissaient du nom de <seg
+                        rend="italic">ladrones</seg>, voleurs.</p>
                 <p>Plusieurs jours s'écoulèrent donc avant qu'un convoi assez considérable se trouvât réuni à la Vera-Cruz, d'autant plus que le vice-roi voulut profiter du départ du nouveau gouverneur de Santo-Domingo pour ravitailler cette colonie, qui déjà, grâce à la mauvaise administration du gouvernement espagnol, commençait à coûter énormément cher à la métropole au lieu de lui produire les bénéfices qu'elle était en droit d'attendre d'un pays si richement doté par la nature.</p>
                 <p>Enfin, quinze navires de haut bord se trouvèrent réunis à l'île Sacrificios par les soins du vice-roi, et le marquis de Peñaflor quitta la Vera-Cruz.</p>
                 <p>La traversée fut heureuse, soit que les flibustiers eussent provisoirement abandonné leurs embuscades ordinaires, soit, ce qui est plus probable, qu'ils ne se jugeassent pas assez forts pour attaquer l'escadre espagnole ; aucune voile aventurière ne se montra dans les débouquements et le nouveau gouverneur atteignit Santo-Domingo sans avoir été inquiété.</p>
@@ -1725,7 +1811,8 @@
             <div>
                 <head>XV -- Le rancho</head>
                 <p>Santo-Domingo, Hispaniola ou Haïti, car tels sont les trois noms qu'elle porte, est à juste titre surnommée depuis sa découverte la Reine des Antilles. Elle est en effet la plus belle de ce groupe d'îles semé par la main de Dieu à l'entrée du golfe du Mexique et qui fleurit sur les eaux bleues de l'océan Atlantique.</p>
-                <p>Haïti, mot qui dans la langue caraïbe signifie <seg rend="italic">pays montagneux</seg>, est située au sud-est de Cuba et à l'est de la Jamaïque par 16° 45' 20'' de latitude nord et 70° 45' -- 76° 53' de longitude ouest ; elle a six cent soixante kilomètres de long sur une largeur moyenne de cent vingt environ, quatorze cents kilomètres de tour sans compter les anses et seize cents kilomètres carrés ; elle est donc, après Cuba, l'île la plus grande de toutes les Antilles.</p>
+                <p>Haïti, mot qui dans la langue caraïbe signifie <seg rend="italic"
+                        >pays montagneux</seg>, est située au sud-est de Cuba et à l'est de la Jamaïque par 16° 45' 20'' de latitude nord et 70° 45' -- 76° 53' de longitude ouest ; elle a six cent soixante kilomètres de long sur une largeur moyenne de cent vingt environ, quatorze cents kilomètres de tour sans compter les anses et seize cents kilomètres carrés ; elle est donc, après Cuba, l'île la plus grande de toutes les Antilles.</p>
                 <p>Les montagnes qui couvrent le centre de l'île, après s'être partagées en trois chaînes principales, courent dans toutes les directions, peuvent la plupart être cultivées jusqu'à leur sommet et sont couvertes d'une végétation luxuriante ; des rivières nombreuses descendent de ces montagnes, malheureusement ces rivières ne sont pas navigables ; quelques-unes seulement, pendant un court trajet, peuvent être remontées par des embarcations légères.</p>
                 <p>Trois beaux lacs, dont un n'a pas moins de quatre-vingt-dix kilomètres de tour, complètent le système hydraulique de ce pays si magnifiquement fertile, où croissent naturellement les palmiers, les bananiers, les mimosas de toute espèce et en général toute la flore des régions intertropicales.</p>
                 <p>Lorsque les Espagnols débarquèrent pour la première fois dans cette île, le pays était fort peuplé et partagé en cinq tribus indépendantes l'une de l'autre, et gouvernées paternellement par des chefs dont l'autorité sur leurs sujets était illimitée.</p>
@@ -1932,8 +2019,10 @@
                 <p>-- Et lui, notre père, est-il donc demeuré en Espagne ?</p>
                 <p>-- Non point, ma sœur ; il s'était fait donner le commandement de l'intendance de Panama, mais, je ne sais pour quel motif, il a changé d'avis maintenant ; de sorte qu'il se trouve provisoirement à Maracaibo.</p>
                 <p>-- Si près de moi ! murmura-t-elle avec un frissonnement de terreur ; mais que m'importe, je n'ai plus rien à redouter de lui maintenant.</p>
-                <p>-- À présent que j'ai éclairci ce premier point de mon retour aux îles, il me faut faire rétrograder mon récit et revenir a l'époque où j'accompagnai mon père en Espagne, c'est-à-dire deux ans environ après la mort de votre mari et votre disparition. Voici où je vous prie, ma sœur, de me prêter toute votre attention, car c'est ici que le récit que je vous fais s'assombrit et devient tellement mystérieux, que je doute qu'il nous soit possible de jamais démêler la vérité du mensonge et de détruire la trame ténébreuse tissée par le duc avec cette adresse fatale que, seule, sa haine a pu lui inspirer. Quelques mois à peine après notre arrivée à Madrid, mon père, avec lequel j'avais fort peu de relations, bien que j'habitasse le palais de notre famille, situé, comme vous le savez, calle de Atocha, m'annonça un soir, après souper, qu'il partait pour un voyage, qui peut-être se prolongerait pendant plusieurs mois, et que la nuit même il quitterait la <seg rend="italic">cour</seg>
-                    <seg rend="italic">*(1)</seg>*. Mon père n'ayant pas jugé à propos de m'instruire ni de la direction qu'il comptait prendre, ni du but de ce voyage, je n'osai l'interroger ; je m'inclinai respectueusement devant lui. Il prit congé de moi, et, ainsi qu'il me l'avait annoncé, une heure plus tard, il montait en voiture. Je vous avoue, ma sœur, que, dans le premier moment, je m'inquiétai fort peu des motifs qui obligeaient mon père à voyager ainsi. Peu m'importait d'ailleurs. J'étais jeune, ami des plaisirs, lancé dans un monde frivole ; l'absence de mon père ne pouvait que m'être, sinon agréable, du moins indifférente. Ce ne fut que quelques jours plus tard que, dans une tertulia chez le duc de Medina del Campo, le hasard m'apprit que mon père était parti pour la France.</p>
+                <p>-- À présent que j'ai éclairci ce premier point de mon retour aux îles, il me faut faire rétrograder mon récit et revenir a l'époque où j'accompagnai mon père en Espagne, c'est-à-dire deux ans environ après la mort de votre mari et votre disparition. Voici où je vous prie, ma sœur, de me prêter toute votre attention, car c'est ici que le récit que je vous fais s'assombrit et devient tellement mystérieux, que je doute qu'il nous soit possible de jamais démêler la vérité du mensonge et de détruire la trame ténébreuse tissée par le duc avec cette adresse fatale que, seule, sa haine a pu lui inspirer. Quelques mois à peine après notre arrivée à Madrid, mon père, avec lequel j'avais fort peu de relations, bien que j'habitasse le palais de notre famille, situé, comme vous le savez, calle de Atocha, m'annonça un soir, après souper, qu'il partait pour un voyage, qui peut-être se prolongerait pendant plusieurs mois, et que la nuit même il quitterait la <seg
+                        rend="italic">cour</seg>
+                    <seg rend="italic"
+                    >*(1)</seg>*. Mon père n'ayant pas jugé à propos de m'instruire ni de la direction qu'il comptait prendre, ni du but de ce voyage, je n'osai l'interroger ; je m'inclinai respectueusement devant lui. Il prit congé de moi, et, ainsi qu'il me l'avait annoncé, une heure plus tard, il montait en voiture. Je vous avoue, ma sœur, que, dans le premier moment, je m'inquiétai fort peu des motifs qui obligeaient mon père à voyager ainsi. Peu m'importait d'ailleurs. J'étais jeune, ami des plaisirs, lancé dans un monde frivole ; l'absence de mon père ne pouvait que m'être, sinon agréable, du moins indifférente. Ce ne fut que quelques jours plus tard que, dans une tertulia chez le duc de Medina del Campo, le hasard m'apprit que mon père était parti pour la France.</p>
                 <p>-- Pour la France ? s'écria en tressaillant doña Clara.</p>
                 <p>-- Oui, et ce fut le duc de Medina del Campo lui-même qui m'en instruisit en me demandant quelles affaires pouvaient appeler mon père à Paris. Comme bien vous pensez, ma sœur, je répondis non seulement que j'ignorais quelles étaient ces affaires, mais que même je ne savais pas que mon père eût passé les Pyrénées. Le duc de Medina del Campo s'aperçut sans doute qu'il avait commis une maladresse, car il se mordit les lèvres et changea de conversation. Le voyage de mon père dura sept mois. Un matin, en me levant, j'appris par mon valet de chambre qu'il était arrivé pendant la nuit. J'allai le saluer à son lever ; il était plus sombre et plus froid encore que j'étais accoutumé à le voir. Il causa peu avec moi, de choses indifférentes ; mais de son voyage, il ne me dit pas un mot. J'imitai sa réserve. Au déjeuner seulement, il m'annonça qu'un de nos parents éloignés, le comte de Tudela, dont jamais je n'avais entendu parler jusqu'alors, étant mort, il avait jugé à propos de se charger de son fils unique, demeuré orphelin, et de l'élever comme s'il était son enfant. En effet, sur un ordre de mon père, un domestique amena un charmant bambin de cinq ou six ans que, je dois l'avouer, je pris en amitié tout de suite, par un de ces effets de la sympathie dont il est impossible de se rendre compte. C'est cet enfant que vous avez connu.</p>
                 <p>-- Gusman de Tudela ? dit-elle vivement.</p>
@@ -1955,7 +2044,9 @@
                 <p>-- Oh ! ce que vous supposez là est épouvantable, mon frère ! s'écria-t-elle en joignant les mains avec terreur.</p>
                 <p>-- Ma sœur, je ne suppose rien, répondit-il sèchement ; je me borne à déduire des conséquences, il est évident pour moi que le duc suit pas à pas un plan conçu et mûri depuis longues années ; et la preuve, la voici : il y a un mois à peine, remarquez bien cette date, je vous prie, le duc de Peñaflor, don Gusman de Tudela et moi, nous nous trouvions à la Vera-Cruz. Don Gusman est, comme je vous l'ai dit, officier de marine ; eh bien ! sur un ordre de mon père, qui lui a révélé une effroyable histoire, la vôtre, ma sœur, bien qu'elle fût déguisée et que les noms propres ne fussent pas prononcés, ce jeune homme, fou de douleur et de honte, a, sans hésiter, abandonné la carrière honorable ouverte devant lui, et s'est embarqué comme matelot sur un bâtiment aventurier, résolu à mourir ou à venger sa mère, lâchement déshonorée, au dire de mon père, par un de ces hommes.</p>
                 <p>-- Mais ceci est horrible, mon frère !</p>
-                <p>-- N'est-ce pas ? Eh bien ! ce n'est pas tout encore. Ce jeune homme, doué des plus belles qualités et des plus nobles instincts, s'est engagé par serment à poursuivre de sa haine les chefs de ces aventuriers, à servir d'espion à notre gouvernement et à faire tomber entre nos mains les plus renommés d'entre les <seg rend="italic">ladrones</seg>. Me comprenez-vous, maintenant, ma sœur, est-il besoin que j'insiste davantage sur ce sujet ?</p>
+                <p>-- N'est-ce pas ? Eh bien ! ce n'est pas tout encore. Ce jeune homme, doué des plus belles qualités et des plus nobles instincts, s'est engagé par serment à poursuivre de sa haine les chefs de ces aventuriers, à servir d'espion à notre gouvernement et à faire tomber entre nos mains les plus renommés d'entre les <seg
+                        rend="italic"
+                    >ladrones</seg>. Me comprenez-vous, maintenant, ma sœur, est-il besoin que j'insiste davantage sur ce sujet ?</p>
                 <p>-- Oh ! non, mon frère, plus un mot, par grâce ! s'écria-t-elle avec épouvante.</p>
                 <p>-- Heureusement, reprit-il plus doucement, que j'ai pu échanger quelques mots avec Gusman. Je dois le voir ; peut-être réussirai-je, surtout si vous consentez à m'y aider, à le détourner du précipice dans lequel il est sur le point de tomber.</p>
                 <p>-- En doutez-vous, mon frère ? Oh ! mon Dieu, que faire ?</p>
@@ -2054,7 +2145,9 @@
                 <p>-- Ma résolution est prise, aucune puissance humaine ne m'en fera changer, d'ailleurs, ajouta-t-elle avec tristesse, soyez tranquille, don Sancho, il ne me reconnaîtra point ; regardez-moi avec attention, vous qui êtes mon frère, et dites-moi si la malheureuse qui est devant vous brisée par le malheur, courbée sous le poids d'une honte imméritée, ressemble en rien à la jeune fille d'il y a vingt ans ? Non, non, Montbars ou le comte de Barmont, ainsi qu'il vous plaira de le nommer, ne me reconnaîtra pas ; hélas ! s'il me voit il passera près de moi sans que son regard se fixe seulement sur la malheureuse créature dont les traits si horriblement défigurés par les larmes ne rappelleront rien à son souvenir.</p>
                 <p>-- Je n'ai ni le droit ni le courage de vous empêcher de faire cette tentative suprême, ma sœur ; quoique je n'en augure rien de profitable pour vous, mes souhaits les plus sincères vous accompagneront, mes plus vives sympathies vous sont acquises ; agissez donc à votre guise et puisse Dieu vous venir en aide !</p>
                 <p>-- Il sera avec moi, mon frère, j'en ai l'espérance.</p>
-                <p>-- Enfin ! reprit-il d'un air de doute, dans tous les cas, souvenez-vous que je suis gouverneur de l'île d'Hispaniola, et que, grâce à cette qualité, mon pouvoir sera peut-être assez grand pour vous venir en aide si vous aviez besoin d'un secours efficace. Bien que les <seg rend="italic">ladrones</seg> soient nos ennemis mortels à nous autres Espagnols, ils sont cependant contraints bien souvent de compter avec nous.</p>
+                <p>-- Enfin ! reprit-il d'un air de doute, dans tous les cas, souvenez-vous que je suis gouverneur de l'île d'Hispaniola, et que, grâce à cette qualité, mon pouvoir sera peut-être assez grand pour vous venir en aide si vous aviez besoin d'un secours efficace. Bien que les <seg
+                        rend="italic"
+                    >ladrones</seg> soient nos ennemis mortels à nous autres Espagnols, ils sont cependant contraints bien souvent de compter avec nous.</p>
                 <p>-- Je sais combien vous m'aimez, don Sancho, et cela me suffit pour être certaine que vous ne me faillirez pas dans l'occasion.</p>
                 <p>-- Quoi que vous exigiez de moi, ma sœur, je le ferai ; soit de jour, soit de nuit, à votre premier appel je serai là.</p>
                 <p>-- Merci, répondit-elle en lui tendant la main.</p>
@@ -2199,7 +2292,8 @@
                 <p>-- C'est juste, s'il s'est laissé prendre, ce que je n'admets pas, nous sommes perdus.</p>
                 <p>-- Se laisser prendre, je ne le crois pas non plus, mais il peut avoir été tué, et alors cela reviendra au même pour nous ; nos compagnons ne nous voyant pas revenir, supposeront que nous sommes tombés entre les mains des Espagnols, et ils renonceront à l'expédition ; alors que ferons-nous ici, nous autres ?</p>
                 <p>-- Va-t'en au diable, avec tes pronostics de malheur ! s'écria Philippe, tu n'es qu'un oiseau de mauvais augure, rien de tout cela n'arrivera.</p>
-                <p>-- <seg rend="italic">Amen</seg>, de grand cœur, dit Pitrians en donnant à la bouteille d'eau-de-vie une accolade qui la diminua d'un bon tiers.</p>
+                <p>-- <seg rend="italic"
+                    >Amen</seg>, de grand cœur, dit Pitrians en donnant à la bouteille d'eau-de-vie une accolade qui la diminua d'un bon tiers.</p>
                 <p>Ils continuèrent leur déjeuner tout en causant ainsi entre eux, et le repas terminé ils se replacèrent en embuscade pour surveiller la haute mer.</p>
                 <p>Vers onze heures du matin, ils virent passer plusieurs bâtiments qui forçaient de voiles pour entrer à la Tortue ; ces bâtiments se croisèrent avec une goélette qui, elle, débouquait du chenal et gagnait le large.</p>
                 <p>Philippe supposa, ce qui en effet était vrai, que ces bâtiments avaient à leur bord la nouvelle garnison espagnole, et que la goélette emmenait doña Juana et don Fernando d'Avila son tuteur.</p>
@@ -2255,8 +2349,10 @@
         </body>
         <back>
             <div type="notes">
-                <p>1  On nommait ainsi une pesante chaîne d'or que les riches aventuriers portaient au chapeau. <seg rend="italic">Gustave Aimard</seg>.</p>
-                <p>1  Il se nommait réellement ainsi, et appartenait à cette ancienne famille. <seg rend="italic">Gustave Aimard.</seg>,</p>
+                <p>1  On nommait ainsi une pesante chaîne d'or que les riches aventuriers portaient au chapeau. <seg
+                        rend="italic">Gustave Aimard</seg>.</p>
+                <p>1  Il se nommait réellement ainsi, et appartenait à cette ancienne famille. <seg
+                        rend="italic">Gustave Aimard.</seg>,</p>
                 <p>1  On donne en Espagne ce nom à la capitale.</p>
             </div>
         </back>
