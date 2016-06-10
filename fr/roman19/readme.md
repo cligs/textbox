@@ -15,9 +15,9 @@ The collection contains a selection of adventure, crime fiction, education and f
 
 ### Formats 
 
-* tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS standard schema (File names: identifier.xml)
-* teia: Encoded (almost) following the _Guidelines_ of the TEI, with very simple structural markup as well as token-level morpho-syntactic and semantic annotation, valid against the CLiGS "annotated" schema (File names: identifier.xml)
-* txt: Simple plain text containing only the main text of the novels (File names: author_title-identifier.txt)
+* tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS standard schema available in the reference repository: https://github.com/cligs/reference (File name structure: identifier.xml)
+* teia: Encoded (almost) following the _Guidelines_ of the TEI, with very simple structural markup as well as token-level morpho-syntactic and semantic annotation, valid against the CLiGS "annotated" schema available in the reference repository: https://github.com/cligs/reference (File name structure: identifier.xml)
+* txt: Simple plain text containing only the main text of the novels (File name structure: author_title-identifier.txt)
 
 ### License and Citation
 
