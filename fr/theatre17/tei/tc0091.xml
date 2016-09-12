@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Le portrait du peintre</title>
+            <title type="sub">Comédie</title>
+            <title type="short">PortraitPeintre</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">BOURSAULT, Edme</name>
+               <name type="short">Boursault</name>
+               <idno type="viaf"/>
+            </author>
+            <principal/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date>2012</date>, <idno>BOURSAULT_PORTRAITDUPEINTRE</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1663</date>, <idno/>, <ref target="#"/>. À PARIS, Chez CHARLES DE SERCY..</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1663</date>, <idno/>, <ref target="#"/>. Représentée pour la première fois en 1663 sur le Théâtre Royal de l'Hôtel de Bourgogne. </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Comédie</term>
+               <term type="structure">un acte</term>
+               <term type="form">vers</term>
+               <term type="period">1661-1670</term>
+               <term type="taille">500-750</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>PERSONNAGES</head>
+            <castItem>
+               <role xml:id="tc0091-DAMIS">DAMIS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-AMARANTE">AMARANTE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-CLITIE">CLITIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-LECOMTE">LE COMTE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-LECHEVALIERDORANTE">LE CHEVALIER DORANTE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-LAMARQUISEORIANE">LA MARQUISE ORIANE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-LISIDOR">LISIDOR</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-PETIT-JEAN">PETIT-JEAN</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0091-LARAMEE">LA RAMÉE</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La Scène est dans une Salle du Logis d'Amarante. </p>
+         </set>
+      </front>
+      <body>
+         <div type="acte" n="1">
+            <head/>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Clitie, Damis.</head>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="1">Ma Cousine s'habille, et je viens vous apprendre </l>
+                     <l n="2">Qu'elle a bien du regret de vous tant faire attendre ; </l>
+                     <l n="3">Car de votre présence elle aura du plaisir ; </l>
+                     <l n="4">Pour venir vous le dire elle a su me choisir. </l>
+                     <l n="5">Votre retour la charme, et sa joie est extrême. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="6">La charmante Clitie est toujours elle-même, </l>
+                     <l n="7">Toujours l'âme sensible, et le coeur obligeant, </l>
+                     <l n="8">Il ne sort de sa bouche aucun mot affligeant. </l>
+                     <l n="9">Plût au Ciel qu'en revanche une fille si belle </l>
+                     <l n="10">En semblable rencontre eût besoin de mon zèle ! </l>
+                     <l n="11">Il n'est soins ni devoirs que ne dût éprouver... </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="12">Patience ; Il n'est rien qui ne puisse arriver, </l>
+                     <l n="13">Je me sens dans un âge à ne plus guère attendre, </l>
+                     <l n="14">Vous avez un cousin dont le coeur paraît tendre, </l>
+                     <l n="15">Et s'il était d'humeur à languir sous ma loi </l>
+                     <l n="16">Ce que je fais pour vous, vous le feriez pour moi. </l>
+                     <l n="17">Quand ma cousine aussi daigne ouïr ma harangue </l>
+                     <l n="18">À lui parler de vous je prépare ma langue ; </l>
+                     <l n="19">De mon zèle assidu son esprit est confus ; </l>
+                     <l n="20">Eussiez-vous des défauts, j'en ferais des vertus ; </l>
+                     <l n="21">Je la charme par là (car je sais par moi-même </l>
+                     <l n="22">Qu'on oblige une fille en louant ce qu'elle aime, </l>
+                     <l n="23">Et que lorsqu'un amant s'est rangé sous nos lois, </l>
+                     <l n="24">Qui nous vante sa grâce applaudit notre choix.) </l>
+                     <l n="25">J'ai cent fois d'Amarante affermi la tendresse, </l>
+                     <l n="26">Et du courtois Damis si j'étais la maîtresse, </l>
+                     <l n="27" part="I">Peut-être que... </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="27" part="F">Peut-être en amour n'est pas bon, </l>
+                     <l n="28">Vous m'aimeriez peut-être, et peut-être que non : </l>
+                     <l n="29">Quand d'un coeur une fois l'amour s'est rendu maître, </l>
+                     <l n="30">Il ne veut rien devoir au secours d'un peut-être, </l>
+                     <l n="31">Et quand d'une maîtresse on souhaite la main, </l>
+                     <l n="32">Un bonheur dont on doute est un malheur certain. </l>
+                     <l n="33">De ma chère Amarante un semblable peut-être... </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="34">Amarante vous aime, et j'ai su le connaître, </l>
+                     <l n="35">À pouvoir de sa bouche arracher cet aveu, </l>
+                     <l n="36">Vous n'aurez point de peine, ou vous en aurez peu : </l>
+                     <l n="37">Adieu mon cher ; souffrez qu'un moment je vous laisse, </l>
+                     <l n="38">Je viendrai vous rejoindre avec votre maîtresse, </l>
+                     <l n="39">À certaine Marquise elle donne à dîner </l>
+                     <l n="40">Et touchant ce repas j'ai quelque ordre à donner : </l>
+                     <l n="41">Entre amis tout s'excuse, et chacun s'accommode... </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="42">Je m'en vais ; je vois bien que je suis incommode, </l>
+                     <l n="43">Sur le soir Amarante aura plus de loisir... </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="44">Vous n'auriez qu'à nous faire un pareil déplaisir, </l>
+                     <l n="45">Ma charmante cousine en serait si surprise... </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="46">Mais paraître en désordre auprès d'une Marquise, </l>
+                     <l n="47">M'exposer de la sorte à des yeux délicats ! </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="48">Si Damis l'appréhende il ne la connaît pas : </l>
+                     <l n="49">Vous ne vîtes jamais dame plus incommode, </l>
+                     <l n="50">Jusqu'au ton de la voix elle observe la mode, </l>
+                     <l n="51">À la nature même elle impose des lois, </l>
+                     <l n="52">En user autrement c'est sentir le bourgeois, </l>
+                     <l n="53">Jamais ce qui vous plaît n'a l'honneur de lui plaire, </l>
+                     <l n="54">Ce qu'on croit naturel lui paraît trop vulgaire, </l>
+                     <l n="55">Et c'est à cette belle une espèce d'affront </l>
+                     <l n="56">Que de boire et manger comme les autres font. </l>
+                     <l n="57">Aussi quoi qu'elle fasse à toute heure on la joue, </l>
+                     <l n="58">Mais alors qu'on la raille elle croit qu'on la loue, </l>
+                     <l n="59">Elle tourne à son gré tous les mots qu'on lui dit, </l>
+                     <l n="60">Si l'on rit de la voir c'est que l'on l'applaudit, </l>
+                     <l n="61">Quand on la contrefait elle croit qu'on l'imite, </l>
+                     <l n="62">Elle affecte des mots qu'elle seule débite, </l>
+                     <l n="63">Et comme si son âme agissait par ressorts </l>
+                     <l n="64">Son esprit se démonte aussi bien que son corps. </l>
+                     <l n="65">Sur tout ce qui la choque on sait bien qu'elle glose, </l>
+                     <l n="66">Mais lui plaire, et déplaire est une même chose, </l>
+                     <l n="67">Vos soupirs à ses yeux ne sont pas adressés, </l>
+                     <l n="68">Amarante vous aime, et cela c'est assez. </l>
+                     <l n="69" part="I">Jusqu'au revoir. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="69" part="F">Ma joie est enfin apparente... </l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Le Comte, Damis.</head>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE, en entrant.</speaker>
+                     <l n="70">Oh quelqu'un, fait-il jour chez la belle Amarante ? </l>
+                     <l n="71">Ah, Ah, c'est toi Baron, ne fais pas le surpris ; </l>
+                     <l n="72">Et depuis quand, mon cher, es-tu donc à Paris ? </l>
+                     <l n="73">Parbleu de ton voyage il faut dire la cause ; </l>   
+                     <l n="74" part="I">Entrons. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="74" part="F">Tu peux entrer, mais pour moi je ne l'ose. </l>
+                     <l n="75">On habille Amarante, et je viens de savoir </l>
+                     <l n="76">Que dans quelques moments j'aurai l'heur de la voir, </l>
+                     <l n="77">Par respect l'un et l'autre attendons qu'elle sorte. </l>
+                     <l n="78">Mais peut-on me connaître à me voir de la sorte ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="79">Parbleu, Baron, tout autre y serait attrapé ; </l>
+                     <l n="80">Te voilà Dieu me damne, assez bien équipé, </l>
+                  <note type="L">Collet : partie de l'habillement qui joint le cou, qui se met autour du cou. Est aussi un ornement de linge qu'on met sur le collet du pourpoint pour la propreté. [F]</note>
+                     <l n="81">Têtebleu ! Des collets de dentelle de Flandre ! </l>
+                     <l n="82" part="I">Justice. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="82" part="M">Quoi... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="82" part="F">Parbleu, je ne veux pas t'entendre, </l>
+                     <l n="83" part="I">Justice, Baron. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="83" part="M">Mais... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="83" part="M">Mais Justice. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="83" part="F">Dis-moi... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="84">Si tu m'en crois, Mon cher, ne va pas chez le Roi, </l>
+                     <l n="85">Tu n'entrerais jamais dans la Salle des Gardes </l>
+                  <note type="L">Nasardes : chiquenaude que l'on donne sur le bout du nez. On dit d'un homme ridicule, et faible, qu'il a le nez à camouflets ou à nasardes. [F]</note>
+                     <l n="86">Qu'il ne plût sur ton nez plus de mille nasardes. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="87" part="I">Quoi les Gardes... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="87" part="F">Baron, moi qui te parle, moi, </l>
+                     <l n="88">Je te dis en ami, si tu vas chez le Roi </l>
+                  <note type="L">Point de Venise : se dit de toutes sortes de passements, et particulièreent de fil fait à l'aiguille. Les points de Genes, de Venise et d'Angleterre ont été défendus en France. On fait maintenant des points de France et de Paris. [F]</note>
+                     <l n="89">Que tu n'entreras point sans un point de Venise. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="90">Et s'il arrivait donc que par une surprise... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="91">Quelque sot ! Sur mon âme on ne me surprend point, </l>
+                     <l n="92">J'ai parbleu dépensé dix mille écus en point. </l>
+                     <l n="93">Mais le bon de cela, Baron, quand je m'ajuste </l>
+                     <l n="94">Pour me tirer du pair je calcule si juste </l>
+                     <l n="95">Que parbleu, notre ami, chez les gens comme toi </l>
+                     <l n="96">Quand la mode commence elle est vieille pour moi. </l>
+                     <l n="97">Il me serait beau voir les dentelles de Flandres ! </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="98">N'ai-je que ce défaut que tu puisses reprendre ? </l>
+                     <l n="99">De ces riches collets si tel est le pouvoir </l>
+                     <l n="100">Aussi bien comme toi j'ai moyen d'en avoir : </l>
+                     <l n="101">Mais dis-moi dans Paris n'a-t-on pas la franchise ? </l>
+                     <l n="102">Ce qui fait l'honnête homme est-ce un point de Venise ? </l>
+                     <l n="103">C'est un faible avantage à ces gens du bel air </l>
+                     <l n="104">Qu'emprunter du secours pour se tirer du pair : </l>
+                  <note type="L">Heur : rencontre avantageuse. (...) [F] [antonyme de malheur]</note>
+                     <l n="105">Quand d'un sang assez bon nous avons l'heur de naître </l>
+                     <l n="106">Notre éclat naturel nous doit faire paraître : </l>
+                     <l n="107">C'est mon sentiment, Comte, et tu dois m'avouer... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="108">Dieu me damne, Baron, tu te feras jouer, </l>
+                     <l n="109" part="I">Prends garde à toi. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="109" part="M">Pourquoi ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="109" part="M">Pourquoi ! </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="109" part="F">Daigne me dire... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="110">Par ma foi cher Baron, ton pourquoi me faire rire, </l>
+                     <l n="111" part="I">Il est bon. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="111" part="M">Mais pourquoi... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="111" part="M">Continue. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="111" part="F">Apprends-moi... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="112">On te jouera, te dis-je, Hé demande pourquoi </l>
+                     <l n="113">Je t'en prie, Allons donc, soutiens ton caractère. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="114">Ou sois plus raisonnable, ou bien songe à te taire. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="115" part="I">On te jouera. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="115" part="F">Dis donc quel sujet on aura... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="116">On te jouera, Morbleu, parce qu'on te jouera. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="117" part="I">Mais... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="117" part="F">Mais prends garde à toi, car nous avons un homme </l>
+                     <l n="118">Qui fait mieux des portraits que les peintres de Rome ; </l>
+                     <l n="119">Il vous dépeint, Morbleu, mais je dis traits pour traits ; </l>
+                     <l n="120">Il est vrai, quelques sots ne s'en doutent jamais ; </l>
+                     <l n="121">Quoi que des spectateurs tous les traits y paraissent, </l>
+                     <l n="122">Plus ils sont ressemblants, moins ils les reconnaissent ; </l>
+                     <l n="123">Ce qu'on a fait pour eux leur paraît pour autrui, </l>
+                     <l n="124">Et tel y rit souvent de voir rire de lui. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                  <note type="L">Badin : folâtre, enjoué, peu sérieux, qui fait des plaisanteries. [F]</note>
+                     <l n="125">À ce compte, ce peintre en badins vous érige ? </l>
+                     <l n="126">Mais se voit-on jouer sans que l'on se corrige ? </l>
+                     <l n="127">En est-il d'assez sots pour ne pas s'abstenir... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="128">S'il est des sots, ma foi tu m'en fais souvenir </l>
+                     <l n="129">Des sots ; Pour t'en montrer, et de plus d'une espèce. </l>
+                     <l n="130">Si tu veux dès tantôt nous irons voir sa pièce, </l>
+                     <l n="131">Mais il faut, notre Cher, me promettre ce point </l>
+                     <l n="132">Si tu vas autre part que tu ne riras point. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="133" part="I">Pourquoi cela ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="133" part="F">Pourquoi ? Je ne puis te le dire, </l>
+                     <l n="134">On m'a dit seulement que c'est là qu'on va rire, </l>
+                     <l n="135">Et j'ai fait, têtebleu, des serments qui tiendront </l>
+                     <l n="136">De ne rire jamais qu'où les autres riront. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="137">Moi qui hais ta manière, et qui suis équitable, </l>
+                     <l n="138">Je ris quand j'ai de rire un sujet raisonnable, </l>
+                     <l n="139">Et je tiens que tout homme à moins d'être brutal </l>
+                     <l n="140">Doit rire de la chose, et non pas du signal. </l>
+                     <l n="141">Car tu ris de voir rire, et ma foi je parie... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="142">Et de quoi donc Baron, prétends-tu que je rie ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="143">De quelque endroit risible où paraisse l'esprit. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="144">Parbleu l'endroit risible est l'endroit où l'on rit, </l>
+                     <l n="145" part="I">Je le soutiens. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="145" part="F">Soutiens, je suis prêt d'y souscrire ; </l>
+                     <l n="146">Mais rit-on de l'endroit quand on rit d'y voir rire ? </l>
+                     <l n="147" part="I">Pour juger d'un ouvrage il faut lire... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="147" part="F">En effet ; </l>
+                     <l n="148">Et voit-on en lisant les grimaces qu'on fait ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="149" part="I">Cette Pièce... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="149" part="F">Ma foi j'en ai fait deux lectures, </l>
+                     <l n="150">Mais je n'y puis trouver ces plaisantes postures, </l>
+                     <l n="151">Eh, parlez, dépêchez, vite, promptement, tôt. </l>
+                     <l n="152">On appelle cela réciter comme il faut. </l>
+                     <l n="153">Verra-t-on en lisant, fût-on grand philosophe, </l>
+                  <note type="C">Voir l'Ecole des femmes, Acte V scène 9, Arnolphe, v. 1764.</note>
+                     <l n="154">Ce que veut dire un « Ouf » qui fait la catastrophe ? </l>
+                     <l n="155">Baron « Ouf » ! Que dis-tu de ce « Ouf », placé là ? </l>
+                     <l n="156">Par ma foi, cher Baron, il faut voir tout cela, </l>
+                     <l n="157">Viens-y tantôt, mon fils, tu verras si j'impose. </l>
+                     <l n="158">Mais venons au voyage, et m'en apprends la cause, </l>
+                     <l n="159">On habille Amarante, et tu peux en deux mots... </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="160">Sa divine beauté m'a ravi le repos, </l>
+                     <l n="161">De l'oser déclarer la douceur m'est permise, </l>
+                     <l n="162">Chacun sait qu'à Damis Amarante est promise. </l>
+                     <l n="163">Et depuis mon départ jusques à mon retour </l>
+                     <l n="164">Mille écrits de sa main ont flatté mon amour. </l>
+                     <l n="165" part="I">La voici. </l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Amarante, Clitie, Le Comte, Damis.</head>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE, à un Page.</speaker>
+                     <l n="165" part="F">Demeurez pour nous donner des sièges. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="166">Notre ami le Baron est tombé dans vos pièges, </l>
+                     <l n="167">Comment Diable, il vous aime, et vous n'en disiez rien, </l>
+                     <l n="168" part="I">Finette ! </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="168" part="F">Je croyais que vous le saviez bien. </l>
+                     <l n="169" part="I">Damis m'aime, je l'aime ; en est-ce assez ? </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="169" part="F">Cousine </l>
+                  <note type="L">Sourdine : se dit de toutes choses qui se font en cachette, et sans bruit. [F]</note>
+                     <l n="170">Il n'appartient qu'à lui d'aimer à la sourdine ; </l>
+                     <l n="171">La Marquise d'Oriane a des appas si doux...</l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="172">À propos d'Oriane, elle dîne chez vous, </l>
+                     <l n="173">J'y dîne aussi, ma chère, et je suis de la bande, </l>
+                     <l n="174" part="I">Sans façon. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="174" part="M">Trop d'honneur. </l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Petit-Jean, Amarante, Le Comte, Damis, Clitie.</head>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="174" part="F">Madame, on vous demande. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="175">Nous voulons être seuls, retourne sur tes pas, </l>
+                     <l n="176">Si c'est quelque fâcheux dis que je n'y suis pas. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="177" part="I">La voit-on, Madame ? </l>
+               </sp>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="177" part="F">Oui, mais je crains qu'elle crie. </l>
+                     <l n="178">Si vous êtes fâcheuse elle sera sortie. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="179" part="I">Dis que c'est Oriane. </l>
+               </sp>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="179" part="F">Attendez donc un peu, </l>
+                     <l n="180" part="I">Voilà qui c'est Madame, entrera-t-elle ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="180" part="F">Ô Dieu, </l>
+                     <l n="181" part="I">C'est Madame ! </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="181" part="F">Servante à ma toute adorable. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="182">Holà, qu'on se dépêche et qu'on couvre la table, </l>
+                     <l n="183">Puisque voilà Madame, il est temps de servir. </l>
+                     <l n="184" part="I">Chacun se sied. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="184" part="F">Quel est ce gentilhomme, il est fait à ravir ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="185" part="I">C'est le Baron Damis. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="185" part="F">À qui vous devez être, </l>
+                     <l n="186" part="I">Madame ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="186" part="M">Oui, Madame. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="186" part="F">Ah, je veux le connaître. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="187">N'eût été que j'ai craint de vous être suspect </l>
+                     <l n="188">J'eusse précipité l'offre de mon respect, </l>
+                     <l n="189">Madame, et désormais je prétends que mon zèle... </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="190">Certes sa miniature est parfaitement belle. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="191">Miniature ! Mon Dieu que ce mot est bien dit, </l>
+                     <l n="192">Et qu'il faut pour le dire avoir bien de l'esprit ! </l>
+                     <l n="193">Je suis au désespoir de ne pas le comprendre. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="194">Elle n'aperçoit pas ta dentelle de Flandres, </l>
+                     <l n="195" part="I">Baron. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="195" part="F">Oh mon Dieu fi ! Chez le monde choisi </l>
+                     <l n="196">Des beautés à la mode il faut être saisi ; </l>
+                     <l n="197">La plus claire dentelle est la plus en usage, </l>
+                     <l n="198">Et le point de Venise assaisonne un visage. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="199">Cousine, que Madame a de jolis détours, </l>
+                     <l n="200">Et que cet assaisonne assaisonne un discours ! </l>
+                     <l n="201">En effet, fi ! Votre âme est une malapprise ; </l>
+                  <note type="L">Faire l'amour : courtiser, séduire.</note>
+                     <l n="202">Comment, faire l'amour sans un point de Venise ! </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="203">Pour être en galant homme il faut donc de ce point. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="204">Je l'ai dit, Dieu me damne, et ne m'en dédis point, </l>
+                  <note type="L">Singe : se dit aussi d'un homme quand il affecte de contrefaire quelqu'un d'imiter ses actions, ses discours, son style. [F]</note>
+                     <l n="205">Il en faut pour paraître, et de plus notre singe </l>
+                     <l n="206">Fait un nouveau tableau qui sera tout de linge. </l>
+                     <l n="207">Je ne t'en avertis que de peur d'accidents, </l>
+                     <l n="208">S'il te voit sur mon âme il te mettra dedans. </l>
+                     <l n="209">Rien n'échappe à sa plume, et dedans sa critique </l>
+                     <l n="210">Il n'est point de gros dos que sa langue ne pique : </l>
+                     <l n="211">À jouer tout le monde il a tant de penchant... </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="212" part="I">Hay, hay, hay ! </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="212" part="M">Qu'avez-vous ? </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="212" part="F">Que vous êtes méchant </l>
+                     <l n="213" part="I">Monsieur le Comte ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="213" part="M">Moi ? </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="213" part="F">Je n'en puis plus, vous dis-je. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="214" part="I">Oh quelqu'un. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="214" part="M">Ne bougez. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="214" part="F">J'ai peur qu'on vous néglige, </l>
+                     <l n="215">Un si prompt accident vous peut être fatal. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="216">Il m'a fait souvenir que je me porte mal. </l>
+                     <l n="217">Hier dans une visite il se trouva des Dames </l>
+                     <l n="218">Qu'Alcidon régala de L'École des Femmes ; </l>
+                     <l n="219">Et qui d'intelligence avecque mon destin </l>
+                     <l n="220">Ne voulurent jamais en entendre la fin : </l>
+                     <l n="221">Comme si pour me perdre elles eussent fait pacte </l>
+                     <l n="222">On fit cesser la pièce après le second acte, </l>
+                     <l n="223">Et je ne remarquai des risibles endroits </l>
+                  <note type="C">Voir L'École des Femmes, Acte II, scène 3, Alain, v. 425-439.</note>
+                     <l n="224">Que celui de la soupe où l'on trempe les doigts. </l>
+                     <l n="225">Dans un chagrin mortel ce caprice me plonge. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="226">Voyez, comme les maux viennent sans qu'on y songe. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="227" part="I">Dans mon âme j'enrage. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="227" part="M">Et pourquoi ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="227" part="F">Tout exprès, </l>
+                  <note type="C">Voir l'École des Femmes de Molière, Acte II, Scène 5, v. 572.</note>
+                     <l n="228">La Marquise y courait pour voir le « Le » d'Agnès. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="229">Je l'ai vu, que je l'aime, et que j'en suis contente ! </l>
+                     <l n="230">Ce « Le » c'est une chose horriblement touchante ; </l>
+                     <l n="231">Il m'a pris « Le »... ce « Le » fait qu'on ouvre les yeux. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="232">Oui, ce « Le » Dieu me damne est un « Le » merveilleux : </l>
+                     <l n="233">Quand je vis que l'actrice y faisait une pose </l>
+                     <l n="234">Je crus que l'innocence allait dire autre chose. </l>
+                  <note type="C">Voir L'École des Femmes, Acte II, scène 3, Agnès, v.578-579.</note>
+                     <l n="235">Et le ruban, ma foi je ne l'attendais pas. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="236">Et ce « Le », pour Madame eût-il beaucoup d'appâts ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="237">J'en dirais mon avis en pouvant m'en défendre, </l>
+                     <l n="238">Mais qui s'en ressouvient prit plaisir à l'entendre ; </l>
+                     <l n="239">Et moi de qui l'esprit s'en est peu soucié </l>
+                     <l n="240">À peine l'eus-je appris que je l'eus oublié. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="241">À le revoir pour moi je serais toute prête, </l>
+                     <l n="242">Ce « Le » toute la nuit m'a tenu dans la tête </l>
+                     <l n="243">Ma chère ; aussi ce « Le » charme tous les galants. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="244">En effet, j'en vois peu qui ne donnent dedans, </l>
+                     <l n="245">La beauté de ce « Le » n'eut jamais de seconde. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="246">Il est vrai que ce « Le » contente bien du monde ; </l>
+                     <l n="247">C'est un « Le » fait exprès pour les gens délicats. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="248">Elle est maligne, au moins, ne vous y fiez pas. </l>
+                     <l n="249">Car je sais que ce « Le » lui paraît détestable. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="250">Il est vrai, ma Cousine, il me semble effroyable, </l>
+                     <l n="251">Mais ce « Le » par Madame est si bien appuyé </l>
+                     <l n="252">Que je meurs de regret qu'il nous ait ennuyé, </l>
+                     <l n="253">Le parti qu'elle prend est celui que j'embrasse, </l>
+                     <l n="254">Tout ce que dit Madame est de si bonne grâce </l>
+                     <l n="255">Que je veux la prier de ne pas s'irriter </l>
+                     <l n="256">Si je fais mes efforts pour la bien imiter. </l>
+                     <l n="257">Sa galante façon s'insinue en mon âme. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="258" part="I">Oh Madame ! </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="258" part="M">Oh Madame ! </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="258" part="M">Oh Madame ! </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="258" part="F">Oh Madame ! </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="259">Quoi me railler chez vous, Madame, ah je vois bien... </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="260">Vous le dites, Madame, et vous n'en croyez rien. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="261" part="I">Assurément Madame... </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="261" part="M">Assurément... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="261" part="F">Marquise </l>
+                     <l n="262">Savez-vous quelles gens le matois satirise ? </l>
+                     <l n="263" part="I">Des Marquis. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="263" part="F">Des Marquis ! Il aspire si haut... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="264">Je t'en vais montrer trois chapitres comme il faut ; </l>
+                     <l n="265" part="I">J'ai la clef de sa pièce. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="265" part="M">Imprimée. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="265" part="F">Imprimée. </l>
+                     <l n="266">Oh ! Mes Laquais, Picard, Bearnois, la Ramée. </l>
+                  <stage>Un Laquais vient, et le Comte lui dit.</stage>
+                     <l n="267">Sous la tapisserie, au-dessous du miroir </l>
+                     <l n="268">Tu verras cette clef, je l'y mis hier au soir ; </l>
+                  <stage>À Damis.</stage>
+                     <l n="269">Je croyais, palsembleu, mériter ta croyance </l>
+                     <l n="270" part="I">Baron. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="270" part="F">Quand une chose a si peu d'apparence... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE, à son Laquais;</speaker>
+                     <l n="271">Va quérir cette clef, et me l'apporte ici. </l>
+                  <stage>Le Laquais sort.</stage>
+                  <stage>À Damis.</stage>
+                     <l n="272">Incrédule Baron tu seras éclairci. </l>
+                     <l n="273" part="I">Mais... </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="273" part="F">Mais quoi ? Du Critique on connaît la coutume. </l>
+                     <l n="274">À ma Muse peut-être il donne un coup de plume ; </l>
+                     <l n="275">Avouez ; vous riez, je le verrai bientôt. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                  <note type="C">Voir l'École des Femmes de Molière, Acte I, Scène 1, Arnolphe, v. 94.</note>
+                     <l n="276">« Et femme qui compose en sait plus qu'il ne faut », </l>
+                     <l n="277" part="I">C'est vous. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="277" part="M">C'est moi ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="277" part="M">C'est vous. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="277" part="F">Ce n'est pas qu'il m'importe, </l>
+                     <l n="278">Mais l'Auteur est hardi d'en user de la sorte, </l>
+                     <l n="279">Il me doit du respect, il a dû le savoir. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Petit-Jean, Amarante, Oriane, Clitie, Le Comte, Damis.</head>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="280">Un monsieur est là-bas qui demande à vous voir,</l>
+                     <l n="281" part="I">Madame. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="281" part="M">Quel est-il, ce Monsieur ? </l>
+               </sp>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="281" part="F">C'est un homme. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="282">Et ne t'a-t-il pas dit comme c'est qu'on le nomme ? </l>
+               </sp>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="283" part="I">Le Chevalier de chose... Et la... </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="283" part="M">Qui Dorante ? </l>
+               </sp>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="283" part="F">Oui. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="284" part="I">Qu'il entre. </l>
+                  <stage>À Damis.</stage>
+                     <l n="284" part="M">Il vous connaît ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="284" part="M">Oui, Madame. </l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Dorante, Damis, Amarante, Le Comte, Clitie, Oriane.</head>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE, voyant Damis.</speaker>
+                     <l n="284" part="F">C'est lui ! </l>
+                     <l n="285" part="I">Oui, c'est lui ! </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE, à Damis.</speaker>
+                     <l n="285" part="F">De te voir sa surprise est extrême. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="286" part="I">Est-ce le Baron ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="286" part="M">Oui. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="286" part="M">Quoi c'est toi ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="286" part="F">C'est moi-même. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="287">Comment te portes-tu, vieil ami ? touche-là. </l>
+                     <l n="288">Tu viens incognito voir l'objet que voilà ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="289" part="I">Il est vrai. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="289" part="F">Dieu me damne il est beau comme un ange. </l>
+                     <l n="290" part="I">Cet objet. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="290" part="F">Chevalier, mon Dieu, point de louange, </l>
+                     <l n="291">Un homme comme vous Critique au dernier point </l>
+                     <l n="292">Fait assez de plaisir quand il ne médit point. </l>
+                     <l n="293">La critique est blâmable après tout, et j'avoue... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="294">Ce que vous blâmez là, tout le monde le loue, </l>
+                     <l n="295">Il est vrai, je critique, et je m'en trouve bien, </l>
+                     <l n="296">De bien faire ma Cour c'est l'unique moyen ; </l>
+                     <l n="297">La Satire est en règne et le point de Venise, </l>
+                     <l n="298">Et le reste on le nomme une pure sottise. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="299">Et pour plaire à présent il ne faut en ce cas... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="300">Que de la médisance, et de riches rabats. </l>
+                     <l n="301" part="I">Je plais aussi, Dieu sait. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="301" part="F">Toi, plais-tu ? Chose vraie. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="302">Si je plais ! Ce Collet est le moindre que j'aie, </l>
+                     <l n="303">J'ai ma foi chez le Roi de secrets ennemis </l>
+                     <l n="304">Mutinés contre moi de me voir si bien mis : </l>
+                     <l n="305">Moi qui vois leur envie, et qui sais leur bêtise </l>
+                     <l n="306">J'achète si souvent quelque point de Venise </l>
+                     <l n="307">Que pour mieux les punir d'avoir cru m'outrager </l>
+                     <l n="308">Je me ruine exprès pour les faire enrager, </l>
+                     <l n="309">Dieu me damne. Vois donc si je plais. Pour médire </l>
+                     <l n="310">Tu te peux informer si Dorante s'en tire. </l>
+                     <l n="311">On me craint, sur mon âme, et je passe en tous lieux </l>
+                     <l n="312">Pour un des Courtisans qui critiquent le mieux : </l>
+                     <l n="313">Mais aussi, je fréquente et je joue à la paume </l>
+                     <l n="314">Avec le médisant le meilleur du Royaume : </l>
+                     <l n="315">Le compère vous drape, et vous mord en riant, </l>
+                     <l n="316">C'est de nos courtisans le démon foudroyant, </l>
+                     <l n="317" part="I">Il les pique ! </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="317" part="F">À la fin craint-il point qu'on s'en choque ? </l>
+                     <l n="318">J'en sais un enragé dont souvent il se moque ; </l>
+                     <l n="319">À son meilleur ami je veux bien l'avouer. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="320">J'en sais vingt trop heureux de se laisser jouer : </l>
+                     <l n="321">Oui, j'en sais de ravis qu'on leur fasse la guerre ; </l>
+                     <l n="322">Témoins trois l'autre jour qu'on nommait du Parterre, </l>
+                     <l n="323">Et qui dans une Loge où chacun les voyait </l>
+                     <l n="324">Riaient comme des fous de ce qu'on les jouait. </l>
+                     <l n="325">Aussi loin qu'au Critique aucune âme s'oppose </l>
+                     <l n="326">Aussi doux que du lait il faut boire la chose ; </l>
+                     <l n="327">On ne peut l'attaquer sans en être marri ; </l>
+                  <note type="L">Turlupin : Henri Legrand dit [1587-1637], comédien célèbre de la troupe de Théâtre de l'Hôtel de Bourgogne.</note>
+                     <l n="328">De tous nos Turlupins c'est un homme chéri ; </l>
+                     <l n="329">Contre qui que ce soit ils prendront sa défense. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="330">Et ces sortes de gens vous imposent silence ? </l>
+                     <l n="331">Ce que Paris peut-être a de plus odieux, </l>
+                     <l n="332" part="I">Des Turlupins... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="332" part="F">Baron, tu pourrais parler mieux, </l>
+                     <l n="333" part="I">J'en suis un. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="333" part="M">Qui toi ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="333" part="M">Moi. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="333" part="F">Mais l'Ami, tu te blâmes. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="334">Et oui, oui. Dans la Clef de L'École des Femmes </l>
+                     <l n="335">Tu verras qui de nous a le plus de raison ; </l>
+                     <l n="336">Je suis le Turlupin de la moindre Maison, </l>
+                     <l n="337">Tous les autres... Mais tiens, mon Laquais me l'apporte. </l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. La Ramée, Le Comte, Damis, Amarante, Dorante, Clitie, Oriane.</head>
+               <sp who="tc0091-LA-RAMEE">
+                  <speaker>LA RAMÉE, au Comte.</speaker>
+                     <l n="338">Je n'ai point vu de Clef que la clef de la porte. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="339" part="I">Peste le sot. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="339" part="F">Sait-il ce que c'est que cela ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="340">Je te jure Baron qu'elle est en ce lieu-là. </l>
+               </sp>
+               <sp who="tc0091-LA-RAMEE">
+                  <speaker>LA RAMÉE.</speaker>
+                     <l n="341" part="I">Je gage que non. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="341" part="M">Paies. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="341" part="F">Crois-moi, Comte, allons, gage ! </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="342">L'un de nous deux, Laquais, est un sot personnage. </l>
+               </sp>
+               <sp who="tc0091-LA-RAMEE">
+                  <speaker>LA RAMÉE.</speaker>
+                     <l n="343" part="I">Ce n'est pas moi, Monsieur. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="343" part="F">Tais-toi donc, s'il te plaît. </l>
+                     <l n="344">La Marquise l'a lue, elle sait ce que c'est. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="345">Mais parlez de sa Pièce, et soyez équitable, </l>
+                     <l n="346" part="I">Que vous en semble ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="346" part="F">À moi ? Je la trouve admirable. </l>
+                     <l n="347" part="I">Comment la trouves-tu, Comte ? </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="347" part="M">Admirable. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="347" part="F">Et vous ? </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="348" part="I">Admirabilissime.</l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="348" part="M">Entre nous ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="348" part="F">Entre nous. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="349">Mais là, sans vous trahir, la trouvez-vous passable ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="350">Admirable, Monsieur, du dernier admirable. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="351">Je puis, sans l'avoir vue en dire autant que toi ; </l>
+                     <l n="352">Quand on loue une Pièce il faut dire pourquoi, </l>
+                     <l n="353">Et tu dois nous donner une raison valable. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="354">Par plus de vingt raisons je la trouve admirable. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="355" part="I">Par plus de trente. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="355" part="F">Écoute, on te croit si tu veux, </l>
+                     <l n="356">Mais de tant de raisons j'en dirais une, ou deux. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="357">Te dirai-je pourquoi je la trouve admirable, </l>
+                     <l n="358" part="I">Parce que cette Pièce est admirable. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="358" part="F">Diable ! </l>
+                     <l n="359" part="I">Ta raison est bonne. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="359" part="M">Ah ! </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="359" part="F">J'allais le dire aussi. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="360">Il s'en faut rapporter à Monsieur que voici, </l>
+                     <l n="361" part="I">C'est un Auteur. </l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI.I. Lisidor, Amarante, Dorante, Damis, Oriane, Le Comte, Clitie.</head>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE, à Lisidor.</speaker>
+                     <l n="361" part="F">Mon cher, pour contenter ces Dames </l>
+                     <l n="362">Donnez-nous votre avis sur L'École des Femmes : </l>
+                     <l n="363">Vous verrez si la Pièce a pour lui des appâts. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="364" part="I">Oui, jugez-en. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="364" part="F">Madame, on ne m'en croirait pas ; </l>
+                     <l n="365">Et puis, d'en bien juger je ne suis pas capable. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="366">Ah, Monsieur Lisidor vous êtes un fin Diable, </l>
+                     <l n="367">Au succès de l'Auteur vous prenez trop de part. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="368">Point, Monsieur Lisidor est un homme sans fard. </l>
+                     <l n="369">J'en croirai bonnement ce qu'il en voudra dire. </l>
+                     <l n="370">On déteste sa Pièce, et chacun la déchire ; </l>
+                     <l n="371">Pour moi qui n'y vois rien que de bien assorti </l>
+                     <l n="372">Contre tous ces Messieurs je soutiens son parti. </l>
+                     <l n="373">Ils ont beau l'abhorrer je la trouve admirable. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="374">Votre parti, Madame est le plus raisonnable. </l>
+                     <l n="375">Ce que vous soutenez tout Paris le soutient. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="376">Bon, ma foi, c'est bien fait la Connaisseuse en tient. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="377" part="I">Comme tu dis, bon. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="377" part="M">Bon. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="377" part="F">J'en parais peu marrie. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="378">Il vous vient de payer de votre raillerie. </l>
+                     <l n="379">Le Seigneur Lisidor est un homme d'esprit. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="380">Mais Monsieur Lisidor doit prouver ce qu'il dit. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="381">S'il l'a fait trouver bonne il sera fort habile. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="382">En vérité, Madame, il n'est rien si facile. </l>
+                     <l n="383">Jamais scène plaisante eût-elle tant d'appâts </l>
+                  <note type="C">Arnolphe : personnage de l'Ecole des Femmes.</note>
+                     <l n="384">Que la Scène d'Arnolphe à qui l'on n'ouvre pas ? </l>
+                  <note type="C">Référence à l'Acte I, scène 2.</note>
+                     <l n="385">N'a-t-on pas pour Alain une estime secrète </l>
+                     <l n="386">Quand pour ouvrir la porte il appelle Georgette ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="387" part="I">Ah, ah, ah. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="387" part="M">Quel Compère ! </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="387" part="F">Il entend son métier. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="388" part="I">À miracle. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="388" part="M">À merveille. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="388" part="M">Il faut... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="388" part="F">Point de quartier, </l>
+                     <l n="389" part="I">Allons, Allons. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="389" part="F">Ensuite, Est-il rien qui ne plaise </l>
+                     <l n="390">Dans ce que dit Arnolphe à la fille niaise ? </l>
+                     <l n="391">Rien de plus innocent se peut-il faire voir ? </l>
+                     <l n="392">Il arrive des champs, et désire savoir </l>
+                     <l n="393">Si durant son absence elle s'est bien portée ; </l>
+                  <note type="C">Ecole des Femmes, Agnès, Acte I, scène 4, v. 263. </note>
+                     <l n="394">« Hors les Puces la nuit qui m'ont inquiétée » </l>
+                     <l n="395">Répond Agnès. Voyez ce qu'elle adresse à l'auteur, </l>
+                     <l n="396">Comme il sait finement réveiller l'auditeur. </l>
+                     <l n="397">De peur que le sommeil ne s'en rendît le maître </l>
+                     <l n="398">Jamais plus à propos vit-on puces paraître ? </l>
+                     <l n="399">D'aucun trait plus galant se peut-on souvenir ? </l>
+                     <l n="400">Et ne dormait-on pas qu'il n'en eût fait venir ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="401" part="I">Tudieu ! </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="401" part="M">C'est raisonner. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="401" part="M">Divinement. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="401" part="F">Courage. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="402">Diable ! Qu'un tel ami fait valoir un ouvrage ! </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="403" part="I">Je t'en réponds. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                  <note type="C">voir L'École des Femmes, Acte I scène 5, v.635, puis Acte II, scène 3, Horace, vers 876-918.</note>
+                     <l n="403" part="F">Le Grès, n'est-il pas étonnant ? </l>
+                     <l n="404">Voit-on rien de si preste, et de si surprenant ? </l>
+                     <l n="405">Aucun des auditeurs osait-il se promettre </l>
+                     <l n="406">Qu'Agnès sût seulement ce que c'est qu'une lettre ? </l>
+                     <l n="407">Et pour la lettre seule où l'on voit tant d'amour </l>
+                     <l n="408">Faut-il pas que l'auteur ait rêvé plus d'un jour ? </l>
+                     <l n="409">Cependant dans une heure une innocente extrême </l>
+                     <l n="410">La compose, l'écrit, et la rend elle-même, </l>
+                     <l n="411">Quoi qu'Arnolphe l'éclaire avec un oeil perçant ; </l>
+                     <l n="412">Un pareil procédé n'est-il pas innocent ? </l>
+                     <l n="413">Lui voit-on démentir son niais caractère ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="414" part="I">Oh, oh, Comte ! </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="414" part="M">La peste ! </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="414" part="F">On ne saurait mieux faire. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="415" part="I">Je le crois. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="415" part="F">Mais Dorante il pouvait s'affranchir... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="416" part="I">Hé Baron ! </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="416" part="M">Si... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="416" part="F">Ma foi, tu ne fais que blanchir. </l>
+                     <l n="417">Près d'un homme si docte on fait mieux de se taire. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                  <note type="C">Voir L'École des femmes, Acte V, Scène II, vers 1039-1087.</note>
+                     <l n="418">Est-il rien de si beau que l'endroit du Notaire ? </l>
+                     <l n="419">Et cet endroit charmant qu'on a tant admiré </l>
+                     <l n="420">Avec tout l'Art possible est-il pas digéré ? </l>
+                     <l n="421">Le petit Dialogue est d'une adresse extrême ; </l>
+                     <l n="422">Car ce que dit Arnolphe il le dit en lui-même, </l>
+                     <l n="423">Et les moins délicats sont d'accord de ce point </l>
+                     <l n="424">Qu'on ne peut pas répondre à ce qu'on n'entend point ; </l>
+                     <l n="425">Cependant par un jeu dont l'éclat doit surprendre </l>
+                     <l n="426">L'un ne veut pas répondre à ce qu'il doit entendre ; </l>
+                     <l n="427">Et pour des deux côtés faire voir des appâts. </l>
+                     <l n="428">L'autre répond sans peine à ce qu'il n'entend pas. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="429" part="I">C'est tout dire. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="429" part="M">Fort bien. </l>
+               </sp>
+               <sp who="tc0091-CLITIE">
+                  <speaker>CLITIE.</speaker>
+                     <l n="429" part="M">Vivat. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="429" part="F">Il extasie. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="430">Le Seigneur Lisidor comme il se mortifie. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="431">Je pourrais lui répondre, et je crois entre nous... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="432">Dieu me damne, Madame, il en sait plus que vous, </l>
+                     <l n="433">Des raisons qu'il vous dit nulle n'est contestable. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                  <note type="C">Voir L'École des femmes, Acte V, scène 9 et 10.</note>
+                     <l n="434">Enfin le dénouement n'est-il pas admirable ! </l>
+                     <l n="435">Le voyage d'Oronte est-il pas assuré ? </l>
+                     <l n="436">Et le retour d'Enrique est-il pas préparé ? </l>
+                     <l n="437">Vous m'allez alléguer que touchant cet Enrique </l>
+                     <l n="438">On le tire aux cheveux pour quitter l'Amérique ; </l>
+                  <note type="L">Endret : endroit.</note>
+                     <l n="439">Et que durant la Pièce en aucun des endrets </l>
+                     <l n="440">On ne s'aperçoit point qu'il soit père d'Agnès ; </l>
+                     <l n="441">Mais il n'est point d'auteurs dont la plume m'apprenne </l>
+                     <l n="442">Que dans ce qu'on attend il n'est rien qui surprenne ; </l>
+                     <l n="443">Au contraire on croit beau ce qu'on trouve étonnant ; </l>
+                     <l n="444">Et ce qu'on n'attend pas est toujours surprenant. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="445">De s'en mieux démêler je dépite le Diable. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="446" part="I">Répondez, Madame. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="446" part="F">Elle ! Il est insurmontable. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="447">Il oublie un endroit effroyablement bon </l>
+                  <note type="L">Corbillon : est ausi un petit jeu d'enfant, où il faut répondre ou rimer en "on". [F]</note>
+                  <note type="C">Voir L'École des Fammes, Acte I, scène 1, vers 97-102.</note>
+                     <l n="448">Où l'on parle d'Agnès qui joue au Corbillon ; </l>
+                     <l n="449">Pour moi quand je l'ouis mon plaisir fut extrême. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="450">Vous verrez sur ma foi, que c'est « Tarte à la crème ». </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="451">Oui, c'est « Tarte à la crème », et je l'aime d'amour. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="452">Parbleu « Tarte à la crème » a fait bruit à la Cour. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="453">Pour moi, je ne vois rien qui me charme de même. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="454" part="I">Qu'y trouvez-vous de beau ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="454" part="F">Moi ? Rien. « Tarte à la crème » </l>
+                     <l n="455" part="I">Madame. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="455" part="F">Il faut répondre, et je voudrais du moins </l>
+                     <l n="456">Que de bonnes raisons appuyassent mes soins, </l>
+                     <l n="457">Car enfin pour l'auteur votre zèle est extrême. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="458" part="I">« Tarte à la crème ». </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="458" part="M">Ami, tu dois... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="458" part="F">« Tarte à la crème » </l>
+                     <l n="459" part="I">Ami. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="459" part="F">Quoi qu'il en pense il nous doit être égal, </l>
+                     <l n="460">Il aime trop l'auteur pour en dire du mal. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="461">Je soutiens, sans l'aimer, quoi que l'envie oppose </l>
+                     <l n="462">Que sa Pièce tragique est une belle chose. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="463" part="I">Sa Pièce tragique ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="463" part="M">Oui. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="463" part="M">Sa pièce tragique ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="463" part="F">Oui. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="464">Je n'ai jamais rien vu de tragique de lui. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="465" part="I">Ni moi. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="465" part="M">Ni moi. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="465" part="F">Ni moi. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="465" part="F">Qu'est-ce qu'il représente ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="466">Nommez-vous Tragédie une pièce plaisante ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="467" part="I">Tu te moques de nous, Chevalier. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="467" part="M">Pourquoi ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="467" part="F">Bon ; </l>
+                     <l n="468">Appelle-t-on tragique un poème bouffon ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="469">Vous blâmez justement ce qu'il faut qu'on admire, </l>
+                     <l n="470">Quoi, Morbleu du tragique où l'on crève de rire, </l>
+                     <l n="471">C'est cela qu'on appelle un mélange d'appas. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="472">Mais le tragique est noble, et n'a rien de si bas. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                  <note type="C">Référence à "La Pratique du Théâtre" de l'Abbé d'Aubignac, ch. 10 : "... plusieurs se sont imaginés que le mot de tragique ne signifioit jamais qu'une aventure funeste et sanglante ; et qu'un poème dramatique ne pouvait être nommé tragédie , si la catastrophe ne contenait la mort ou l'infortune des principaux personnages".</note>
+                     <l n="473">Mais je sais le Théâtre, et j'en lis la Pratique ; </l>
+                     <l n="474">Quand la scène est sanglante une pièce est tragique. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="475" part="I">Oui. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="475" part="M">Sans doute. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="475" part="M">Il est vrai. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="475" part="M">Sans contredit. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="475" part="F">D'accord. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                  <note type="C">Molière, L'École des femmmes, Acte 2, scène V, v. 461</note>
+                     <l n="476">Dans celle que je dis, « Le petit Chat est mort ». </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="477" part="I">C'est le bien prendre ! </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="477" part="M">Oh, oh ! </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="477" part="F">Sa remarque est certaine. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="478">Quoi ? Le trépas d'un chat ensanglante la scène ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="479">Dans une tragédie un Prince meurt, un Roi. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                  <note type="C">L'École des Femmes, Acte II, scène 5, Arnolphe, v. 462.</note>
+                     <l n="480">« Nous sommes tous mortels, et chacun est pour soi », </l>
+                     <l n="481">Et je tiens qu'une pièce est également bonne. </l>
+                  <note type="L">Matou : chat mâle et entier. [F]</note>
+                     <l n="482">Quand un matou trépasse, ou quelque autre personne. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="483" part="I">Tu sais le théâtre ! </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="483" part="M">Oui. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="483" part="F">Son langage est profond. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="484" part="I">Mais... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="484" part="F">Mais réponds, réponds, réponds, réponds, réponds. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="485" part="I">Quoi... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="485" part="M">Réponds donc Baron. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="485" part="F">Tu penses me confondre, </l>
+                     <l n="486" part="I">Et tu crois... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="486" part="F">Par ma foi, tu ne saurais répondre. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="487">Je ne le puis de vrai tant que tu parleras, </l>
+                     <l n="488" part="I">Mais enfin si... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="488" part="F">Ma foi, si tant que tu voudras. </l>
+                     <l n="489" part="I">Sa raison... </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="489" part="F">Sa raison est aisée à combattre. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="490">Il est vrai que l'auteur n'entend pas le théâtre. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="491" part="I">Mais ce n'est pas l'entendre, après tout. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="491" part="F">Oh que non ; </l>
+                     <l n="492">Quand un homme en burlesque a su faire un sermon, </l>
+                     <l n="493">Il me semble pourtant qu'on n'est pas malhabile ; </l>
+                     <l n="494">L'Auteur prend l'agréable, et le joint à l'utile ; </l>
+                     <l n="495">À ce que veut le peuple il se rend complaisant ; </l>
+                     <l n="496">Et le force de rire en le catéchisant. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="497" part="I">Tudieu ! Tu l'entends. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="497" part="M">Oh. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS, à Dorante.</speaker>
+                     <l n="497" part="F">Tu n'as rien dit qui vaille. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="498" part="I">Pourquoi Baron ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="498" part="F">Pourquoi ? Retournons la médaille. </l>
+                     <l n="499">Outre qu'un Satirique est un homme suspect, </l>
+                     <l n="500">Au seul mot de Sermon nous devons du respect : </l>
+                     <l n="501">C'est une vérité qu'on ne peut contredire ; </l>
+                     <l n="502">Un Sermon touche l'âme, et jamais ne fait rire ; </l>
+                     <l n="503">De qui croit le contraire on se doit défier ; </l>
+                     <l n="504">Et qui veut qu'on en rie en a ri le premier. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="505" part="I">C'est mal répondre ! </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                  <note type="L">Puth : mot inconnu ou interjection.</note>
+                     <l n="505" part="M">Puth. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="505" part="F">Pitoyable critique ! </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="506">Dites donc ce que c'est que d'être satirique ? </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="507" part="I">Que d'être Satirique ? </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="507" part="M">Oui. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="507" part="F">C'est satiriser. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="508">Oui, mais satiriser c'est railler ; mépriser ; </l>
+                     <l n="509">Ainsi pour l'obliger quoi que vous puissiez dire, </l>
+                     <l n="510">Votre ami du Sermon nous a fait la Satire ; </l>
+                     <l n="511">Et de quelque façon que le sens en soit pris, </l>
+                     <l n="512">Pour ce que l'on respecte on n'a point de mépris. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="513" part="I">Bagatelle ! </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="513" part="F">Mais Comte, après tout je m'engage... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="514">Je serais bien fâché de t'ouïr davantage, </l>
+                     <l n="515">Tu m'as trop fatigué par tes sottes raisons. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="516">Il ne peut rien répondre à ce que nous disons ; </l>
+                     <l n="517">Mais Dorante sait bien qu'on ne peut mettre en doute. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="518">Moi ; Je n'écoute pas si le Comte n'écoute. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS, au Comte.</speaker>
+                     <l n="519" part="I">Tu sais... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="519" part="M">Je n'entends pas. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE, à Dorante.</speaker>
+                     <l n="519" part="M">Je crois... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="519" part="F">Ni moi non plus. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS, au Comte.</speaker>
+                     <l n="520" part="I">Mais... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE, chante.</speaker>
+                  <p n="1">
+                        <s n="1">La, la, la, la, la, lare, la, la, la, la, la, la.</s>
+                  </p>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE, à Dorante.</speaker>
+                     <l n="520" part="M">Quoi... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE, chante aussi.</speaker>
+                  <p n="2">
+                        <s n="1">La, la, la, la, lare, la, la, la, la, la, la.</s>
+                  </p>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS, au Comte.</speaker>
+                     <l n="520" part="M">Si... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                  <p n="3">
+                        <s n="1">La, la, la, la, la, lare, la, la, la, la, la, la, la, la.</s>
+                  </p>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE, à Dorante.</speaker>
+                     <l n="520" part="M">Vous... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                  <p n="4">
+                        <s n="1">La, la, la, lare, la, la, la, la, la, la, la, la, la, la.</s>
+                  </p>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="520" part="F">Ma foi vous me rendez confus. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="521">Pour moi, je les écoute, et je les étudie, </l>
+                     <l n="522">Car il faut de ceci faire une Comédie ; </l>
+                     <l n="523">Je crois que dans son genre elle aurait ses appâts. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="524">À ce dessein, ma foi, je ne m'oppose pas, </l>
+                     <l n="525">Car je sais que mon rôle y serait raisonnable. </l>
+               </sp>
+               <sp who="tc0091-ORIANE">
+                  <speaker>ORIANE.</speaker>
+                     <l n="526">Le mien y serait court, mais assez agréable. </l>
+               </sp>
+               <sp who="tc0091-LISIDOR">
+                  <speaker>LISIDOR.</speaker>
+                     <l n="527">Et le mien, ce me semble y serait assez bon. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="528">Pour Damis, à merveille il ferait le bouffon, </l>
+                     <l n="529">La Sottise en sa bouche est placée en son centre. </l>
+                  <stage>À Amarante.</stage>
+                     <l n="530" part="I">Vous savez composer, travaillez-y. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="530" part="F">Moi ? Diantre, </l>
+                     <l n="531" part="I">Je n'ai garde. </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="531" part="F">Et qui donc, la fera comme il faut ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                  <note type="L">Boursault (Edme) [1638-1701] : auteur dramatique qui écrit cette pièce en 1663.</note>
+                     <l n="532">Un garçon que je sais qu'on appelle Boursault... </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                  <note type="L">Pécore : se dit figurémment en burlesque pour signifier une personne sotte, stupide, et qui a de la peine à concevoir quelque chose. [F]</note>
+                     <l n="533" part="I">Je le connais, Pécore. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="533" part="F">Il est bien chez la Muse. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                     <l n="534">Il s'amuse à la Muse, et la Muse l'amuse. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="535">Mais les vers de Boursault sont assez bien choisis. </l>
+               </sp>
+               <sp who="tc0091-LE-COMTE">
+                  <speaker>LE COMTE.</speaker>
+                  <note type="L">Butor : Gros oiseau, espèce de héron fainéant et poltron. On dit figurément d'un homme stupide et maladroit que c'est un butor. [F]</note>
+                     <l n="536">Je le soutiens, Madame, un Butor parisis, </l>
+                     <l n="537">Une grosse pécore, une pure mazette. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                     <l n="538">Mais où la jouerait-on quand Boursault l'aurait faite ? </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                  <note type="L">Hôtel de Bourgogne : un des deux principaux lieux de représentation et où fut joué cette pièce en 1663. Boursault flatte ici son public.</note>
+                     <l n="539">À l'Hôtel de Bourgogne, où les plus délicats... </l>
+               </sp>
+               <sp who="tc0091-DORANTE">
+                  <speaker>DORANTE.</speaker>
+                     <l n="540">Ah, Je vous promets bien qu'on ne l'y jouera pas : </l>
+                     <l n="541">Le Critique est à craindre, on a peur qu'il n'éclate, </l>
+                     <l n="542">Et l'Hôtel de Bourgogne a passé sous sa patte. </l>
+                     <l n="543">S'ils étaient avisés de vouloir le bourrer, </l>
+                     <l n="544">Où les pauvres acteurs pourraient-ils se fourrer ? </l>
+                  <note type="C">Notons que les frères Corneille sont de Rouen.</note>
+                     <l n="545">Toute la Normandie a-t-elle assez de pommes </l>
+                     <l n="546">Pour jeter à la tête à ces malheureux hommes ? </l>
+                     <l n="547">Ils ne le feront pas, je te le dis encor, </l>
+                     <l n="548" part="I">Dieu me damne. </l>
+               </sp>
+               <sp who="tc0091-DAMIS">
+                  <speaker>DAMIS.</speaker>
+                  <note type="L">Floridor : célèbre comédien de la troupe de l'Hôtel de Bourgogne entre 1643 et 1672.</note>
+                     <l n="548" part="F">Écoutez, je connais Floridor, </l>
+                     <l n="549">Je prendrai son avis si cela se peut faire, </l>
+                     <l n="550">Et je vous l'enverrai s'il vous est nécessaire. </l>
+                     <l n="551">Un petit dénouement est utile à cela, </l>
+                     <l n="552" part="I">Que faire ? </l>
+               </sp>
+            </div>
+            <div type="scene" n="8">
+               <head>SCÈNE VIII, et DERNIÈRE. Petit-Jean, Amarante, Le Comte, Damis, Dorante, Lisidor, Oriane, Clitie.</head>
+               <sp who="tc0091-PETIT-JEAN">
+                  <speaker>PETIT-JEAN.</speaker>
+                     <l n="552" part="M">On a servi, Madame. </l>
+               </sp>
+               <sp who="tc0091-AMARANTE">
+                  <speaker>AMARANTE.</speaker>
+                     <l n="552" part="F">Le voilà, </l>
+                     <l n="553">Je le donne à l'épreuve au plus grand Satirique, </l>
+                     <l n="554">C'est de cette façon que finit la Critique, </l>
+                     <l n="555">Et les plus dégoûtés trouveront des appâts </l>
+                     <l n="556">Quand après du comique ils auront un repas. </l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

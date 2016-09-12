@@ -1,0 +1,5539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Scévole</title>
+            <title type="sub">Tragédie</title>
+            <title type="short">Scévole</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">DU RYER, Pierre</name>
+               <name type="short">DuRyer</name>
+               <idno type="viaf"/>
+            </author>
+            <principal/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date/>, <idno>DURYER_SCEVOLE</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1647</date>, <idno/>, <ref target="#"/>. .</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1646</date>, <idno/>, <ref target="#"/>. Représenté pour la première fois en 1646 au Théâtre de l'Hôtel de Bourgogne.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Tragédie</term>
+               <term type="structure">cinq actes</term>
+               <term type="form">vers</term>
+               <term type="period">1641-1650</term>
+               <term type="taille">1500-1750</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>LES ACTEURS.</head>
+            <castItem>
+               <role xml:id="tc0386-TARQUIN">TARQUIN</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-PORSENNE">PORSENNE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-MARCILE">MARCILE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-ARONS">ARONS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-LICINE">LICINE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-JUNIE">JUNIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-FULVIE">FULVIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0386-SCEVOLE">SCÉVOLE</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La Scène est dans le Camp de Porsenne devant Rome.</p>
+         </set>
+      </front>
+      <body>
+
+         <div type="acte" n="1">
+            <head>ACTE I</head>
+
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Tarquin, Porsenne, et sa suite. </head>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1">Quoi ? Toujours différer le succès d'une guerre</l>
+
+                     <l n="2">Qui doit intéresser tous les Rois de la terre,</l>
+
+                     <l n="3">Et joindre à leur pouvoir même la cruauté,</l>
+
+                     <l n="4">Puisqu'elle venge un roi d'un peuple révolté.</l>
+
+                     <l n="5">Vous avez vu le crime ou la fureur d'un homme</l>
+
+                     <l n="6">Où Brute a fait monter l'insolence de Rome ;</l>
+
+                     <l n="7">Vous voyez les effets de ses noirs attentats</l>
+
+                     <l n="8">Puisque vous me voyez chassé de mes États.</l>
+
+                     <l n="9">Cependant aujourd'hui vous Porsenne vous-même,</l>
+
+                     <l n="10">Qui m'avez vu tomber de ce degré suprême,</l>
+
+                     <l n="11">Et de qui le secours s'est offert tant de fois</l>
+
+                     <l n="12">À remettre Tarquin dans le nombre des Rois ;</l>
+
+                     <l n="13" part="I">Vous enfin...</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="13" part="F">Qu'ai-je fait contre cette assistance</l>
+
+                     <l n="14">Que mon affection donne à votre vengeance ?</l>
+
+                     <l n="15">N'ai-je pas pour remettre un sceptre entre vos mains</l>
+
+                     <l n="16">Couverts de mes soldats tous les champs des Romains ?</l>
+
+                     <l n="17">Ne fais-je pas paraître au pied de leurs murailles</l>
+
+                     <l n="18">Tout ce qui rend affreux le Démon des batailles ?</l>
+
+                     <l n="19">Rome qui m'opposait l'orgueil de ses remparts</l>
+
+                     <l n="20">Les voit avec horreur trembler de toutes parts.</l>
+
+                     <l n="21">Enfin dans cette guerre on me voit en personne</l>
+
+                     <l n="22">Combattre, non pour moi, mais pour votre couronne.</l>
+
+                     <l n="23">N'est-ce pas témoigner que je sens vos douleurs ?</l>
+
+                     <l n="24">N'est-ce pas noblement combattre vos malheurs ?</l>
+
+                     <l n="25">N'est-ce pas vous donner d'assez visibles marques</l>
+
+                     <l n="26">Que qui blesse un Roi seul blesse tous les Monarques ?</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="27">Oui Porsenne, il est vrai que vos soins généreux</l>
+
+                     <l n="28">Éclatent noblement pour un roi malheureux.</l>
+
+                     <l n="29">Oui par votre secours Rome cette mutine,</l>
+
+                     <l n="30">Par ses murs entrouverts voit déjà sa ruine ;</l>
+
+                     <l n="31">Ses Remparts ébranlés sont prêts à succomber,</l>
+
+                     <l n="32">Il ne faut plus qu'un coup pour les faire tomber.</l>
+
+                     <l n="33">Mais vous le différez ce grand coup favorable,</l>
+
+                     <l n="34">Qui doit remettre au trône un prince misérable :</l>
+
+                     <l n="35">Mais vous le différez ce grand coup que j'attends,</l>
+
+                     <l n="36">Et vous donnez relâche à ses nouveaux Titans,</l>
+
+                     <l n="37">Forçons, forçons enfin ces superbes murailles ;</l>
+
+                     <l n="38">Qu'un assaut glorieux m'épargne cent batailles ;</l>
+
+                     <l n="39">Pour rendre la victoire et ses plaisirs tous purs</l>
+
+                     <l n="40">Il faut voir le rebelle enterré sous ses murs.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="41">S'il suffit pour dompter cette ville mutine</l>
+
+                     <l n="42">Que nous lui fassions voir l'instant de sa ruine,</l>
+
+                     <l n="43">Si l'on veut obliger ces ennemis des rois</l>
+
+                     <l n="44">De venir repentants se soumettre à vos lois,</l>
+
+                     <l n="45">Pourquoi par un assaut où préside la rage,</l>
+
+                     <l n="46">Irez-vous ruiner votre propre héritage ?</l>
+
+                     <l n="47">Pourquoi par les rigueurs qu'inspire le courroux</l>
+
+                     <l n="48">Irez-vous renverser des murs qui sont à vous ?</l>
+
+                     <l n="49">Que peut rendre un assaut à votre âme outragée</l>
+
+                     <l n="50">Que les restes affreux de Rome saccagée ?</l>
+
+                     <l n="51">Mais serait-ce reprendre un État mutiné</l>
+
+                     <l n="52">Que de n'en recouvrer qu'un reste ruiné ?</l>
+
+                     <l n="53">Attendez un moment ce que le ciel destine,</l>
+
+                     <l n="54">Lorsqu'à punir son peuple un Monarque s'obstine,</l>
+
+                     <l n="55">Cette guerre féconde en funestes effets</l>
+
+                     <l n="56">Est fatale au monarque aussi bien qu'aux sujets.</l>
+
+                     <l n="57">Jamais dessus les siens un roi qui veut la gloire</l>
+
+                     <l n="58">Ne gagna par la force une heureuse victoire,</l>
+
+                     <l n="59">Et la sévérité qu'il exerce sur eux</l>
+
+                     <l n="60">Est d'une autre révolte un germe malheureux.</l>
+
+                     <l n="61">Que si des révoltés l'insolence félonne</l>
+
+                     <l n="62">Abuse du relâche, et du temps qu'on lui donne,</l>
+
+                     <l n="63">Alors faisons agir la colère des lois,</l>
+
+                     <l n="64">Alors armons nos mains de la foudre des Rois ;</l>
+
+                     <l n="65">Et si jusques ici le sort qui vous opprime</l>
+
+                     <l n="66">De Rome et des Romains favorisa le crime,</l>
+
+                     <l n="67">Gravons-y par le fer, que des peuples mutins</l>
+
+                     <l n="68">N'ont jamais pour longtemps la faveur des destins.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="69">Hé ! Quoi ? Si votre peuple ; hé ! Quoi ? Si l'Étrurie</l>
+
+                     <l n="70">Exerçait contre vous une même furie,</l>
+
+                     <l n="71">Si par un coup mortel des plus noirs attentats</l>
+
+                     <l n="72">Il vous avait chassé de vos propres États,</l>
+
+                     <l n="73">S'il vous avait contraint d'aller dans les provinces</l>
+
+                     <l n="74">Mendier l'oeil en pleurs l'assistance des Princes,</l>
+
+                     <l n="75">Pourriez-vous en faveur d'un peuple mutiné</l>
+
+                     <l n="76">Recevoir le conseil que vous m'avez donné.</l>
+
+                     <l n="77">Certes un roi qui tient ce paisible langage,</l>
+
+                     <l n="78">Ne sait pas ce que pèse un si mortel outrage,</l>
+
+                     <l n="79">Certes il n'a jamais le tourment ressenti</l>
+
+                     <l n="80">D'avoir eu place au trône, et d'en être sorti.</l>
+
+                     <l n="81">Non, non, pour châtier cette forcennerie</l>
+
+                     <l n="82">La plus cruelle guerre a trop peu de furie ;</l>
+
+                     <l n="83">Et quand il faut soumettre un peuple conjuré</l>
+
+                     <l n="84">Le plus sanglant triomphe est le plus assuré.</l>
+
+                     <l n="85">Il faut par le malheur de mes peuples rebelles</l>
+
+                     <l n="86">Apprendre à vos sujets à demeurer fidèles ;</l>
+
+                     <l n="87">Vous-même en me donnant des conseils rigoureux</l>
+
+                     <l n="88">Et propres à venger un Prince malheureux ;</l>
+
+                     <l n="89">Vous-même vous devez hors de toute contrainte,</l>
+
+                     <l n="90">Instruire vos sujets leur enseigner la crainte,</l>
+
+                     <l n="91">Et leur montrer enfin par vos sévérités</l>
+
+                     <l n="92">Ce que vous en feriez s'ils étaient révoltés.</l>
+
+                     <l n="93">Rendez donc à mon sort sa splendeur ancienne,</l>
+
+                     <l n="94">Fondez votre puissance en me rendant la mienne.</l>
+
+                     <l n="95">Présenter le pardon qu'on ne demande pas,</l>
+
+                     <l n="96">C'est donner de l'audace à des esprits ingrats,</l>
+
+                     <l n="97">C'est faire croire à Rome après sa résistance,</l>
+
+                     <l n="98">Que contre elle deux Rois ont manqué de puissance,</l>
+
+                     <l n="99">Et que pour la gagner et pour se maintenir</l>
+
+                     <l n="100">On veut lui pardonner, ne pouvant la punir.</l>
+
+                     <l n="101">S'il faut lui pardonner, il faut il faut attendre</l>
+
+                     <l n="102">Qu'en tienne le flambeau pour la réduire en cendre,</l>
+
+                     <l n="103">Il faut avoir son peuple, il faut qu'il soit aux fers,</l>
+
+                     <l n="104">Et qu'il se voie enfin sur le bord des enfers,</l>
+
+                     <l n="105">Alors un beau pardon nous comblera de gloire</l>
+
+                     <l n="106">Si nous le prononçons sur un char de Victoire,</l>
+
+                     <l n="107">S'il n'est pas un effet de la nécessité</l>
+
+                     <l n="108">Mais d'un beau mouvement de générosité.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="109">Puisque pour terminer de si longues alarmes</l>
+
+                     <l n="110">Vous avez moins aimé mes raisons que mes armes,</l>
+
+                     <l n="111" part="I">Je ne conteste plus.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="111" part="F">Ainsi donc présumant</l>
+
+                     <l n="112">Que vous donneriez tout à mon contentement,</l>
+
+                     <l n="113">Et voyant dans les miens cette ardeur de courage</l>
+
+                     <l n="114">Qui des succès heureux est souvent le présage</l>
+
+                     <l n="115">J'ai contenté leurs voeux, et je leur ai permis</l>
+
+                     <l n="116">D'attaquer aujourd'hui le pont des ennemis</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="117">Si comme votre honneur votre repos consiste</l>
+
+                     <l n="118">À dompter des sujets dont l'orgueil vous résiste,</l>
+
+                     <l n="119">Quoi que le sort destine au reste de vos jours</l>
+
+                     <l n="120">Je rencontre ma gloire à vous donner secours.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="2">
+               <head>SCÈNE II. Porsenne, Tarquin, Marcile. </head>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="121">Voici quelque nouvelle, hé bien, hé bien Marcile.</l>
+
+                     <l n="122" part="I">Enfin qu'avons-nous fait.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="122" part="F">Peut-être pris la ville.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="123" part="I">Pris la ville ?</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="123" part="F">Et je viens envoyé tout exprès</l>
+
+                     <l n="124">De nos premiers efforts vous dire les progrès.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="125">Enfin tu connaîtras peuple infâme et rebelle,</l>
+
+                     <l n="126">Que de nos intérêts les Dieux font leur querelle.</l>
+
+                     <l n="127">Mais enfin achevez Marcile, dites-nous</l>
+
+                     <l n="128">Et l'état de la ville, et l'effet de vos coups.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="129">Dans le même moment que deux de nos cohortes</l>
+
+                     <l n="130">Ont marché vers le pont et menacé ses portes,</l>
+
+                     <l n="131">Les Romains animés d'un reste de vertu</l>
+
+                     <l n="132">Ont fait une sortie et l'on a combattu.</l>
+
+                     <l n="133">Ainsi les deux partis ont fait même entreprise,</l>
+
+                     <l n="134">Ainsi les deux partis ont fait une surprise,</l>
+
+                     <l n="135">Mais d'une ardeur si vive échauffé les esprits</l>
+
+                     <l n="136">Qu'aucun des deux partis ne s'est montré surpris :</l>
+
+                     <l n="137">On a des deux côtés fait paraître un courage</l>
+
+                     <l n="138">Qui semblait à tous deux promettre l'avantage,</l>
+
+                     <l n="139">Et la victoire entre eux ne sait où se porter</l>
+
+                     <l n="140">Parce que tous les deux semblent la mériter.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="141" part="I">Mais enfin.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="141" part="F">Mais enfin cette victoire auguste</l>
+
+                     <l n="142">Regarde de bon oeil le parti le plus juste ;</l>
+
+                     <l n="143">Les Romains affaiblis par le nombre des morts</l>
+
+                     <l n="144">Ont cédé lentement à nos derniers efforts.</l>
+
+                  <stage>En montrant Aruni.</stage>
+
+                     <l n="145" part="I">Mais...</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="3">
+               <head>SCÈNE III. Tarquin, Porsenne, Aruni. </head>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN parlant à Aruni.</speaker>
+
+                     <l n="145" part="M">Rome est donc à nous.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARUNI.</speaker>
+
+                     <l n="145" part="M">Non, non.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="145" part="F">Hé quoi Marcile ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARUNI.</speaker>
+
+                     <l n="146">Oui l'on a cru longtemps avoir gagné la ville,</l>
+
+                     <l n="147">La fuite des Romains nous rendait glorieux</l>
+
+                     <l n="148">Nous étions sur le pont déjà victorieux,</l>
+
+                     <l n="149">Et déjà Rome esclave avant qu'elle succombe</l>
+
+                     <l n="150">Croyait être des siens le bûcher ou la tombe ;</l>
+
+                     <l n="151">Mais aussitôt le sort s'est comme repenti</l>
+
+                     <l n="152">D'avoir favorisé le plus juste parti.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="153">Ô Ciel qui me trahis ! Es-tu donc équitable</l>
+
+                     <l n="154">D'abandonner un Roi pour un peuple coupable,</l>
+
+                     <l n="155" part="I">Mérites-tu nos voeux ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="155" part="F">Ce succès me surprend.</l>
+
+                     <l n="156" part="I">Dis le reste mon fils.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARUNI.</speaker>
+
+                     <l n="156" part="F">Certes le reste est grand.</l>
+
+                     <l n="157">Lorsque des ennemis la défaite et la fuite</l>
+
+                     <l n="158">Semblaient nous donner Rome à l'extrême réduite,</l>
+
+                     <l n="159">Horace qui menait ce reste de Romains</l>
+
+                     <l n="160">Se retourne vers eux, leur fait signe des mains</l>
+
+                     <l n="161">Leur parle fortement, les conjure, les pique</l>
+
+                     <l n="162">D'appuyer en tombant la fortune publique,</l>
+
+                     <l n="163">Mais le bien du public est une faible loi</l>
+
+                     <l n="164">Que l'on respecte peu quand chacun craint pour soi.</l>
+
+                     <l n="165">Horace veut en vain retenir ces rebelles</l>
+
+                     <l n="166">La frayeur les emporte, et leur prête des ailes ;</l>
+
+                     <l n="167">On fuit, on l'abandonne, il ne voit plus d'appui,</l>
+
+                     <l n="168">Bref il demeure seul et pour Rome et pour lui.</l>
+
+                     <l n="169">Toutefois il tient ferme et nous montre visage,</l>
+
+                     <l n="170">On dirait que le Ciel seconde son courage,</l>
+
+                     <l n="171">Ou que le sort de Rome ait en lui ramassé</l>
+
+                     <l n="172">Et la force et les bras de ceux qui l'ont laissé.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="173">Quoi ? Tout seul contre nous et sans autre assistance</l>
+
+                     <l n="174">Ce chef de révoltés vous a fait résistance.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARUNI.</speaker>
+
+                     <l n="175">Il a résisté seul assisté de son bras</l>
+
+                     <l n="176">Sur le pont chancelant qu'on rompait sous ses pas !</l>
+
+                     <l n="177">Car durant le combat il criait à la ville</l>
+
+                     <l n="178">Rompez, rompez le pont, mon bras est mon asile.</l>
+
+                     <l n="179">De là jetant sur nous des regards furieux,</l>
+
+                     <l n="180">Il provoque au combat nos gens victorieux,</l>
+
+                     <l n="181">Leur reproche en Héros un honteux esclavage,</l>
+
+                     <l n="182">Vante la liberté, fait voir son avantage,</l>
+
+                     <l n="183">Et par les faux appas qu'il veut faire goûter</l>
+
+                     <l n="184">Tâche à corrompre ceux qu'il ne peut surmonter.</l>
+
+                     <l n="185">Enfin d'un si beau feu son audace animée</l>
+
+                     <l n="186">A comme un grand prodige étonné notre armée,</l>
+
+                     <l n="187">Et cet étonnement que sent chaque soldat</l>
+
+                     <l n="188">A fait comme une trêve au milieu du combat.</l>
+
+                     <l n="189">Ainsi pour un moment nos meilleurs Capitaines</l>
+
+                     <l n="190">Pour admirer Horace ont oublié leurs haines,</l>
+
+                     <l n="191">Se regardent l'un l'autre, et demeurent honteux</l>
+
+                     <l n="192">D'attaquer un seul homme opposé devant eux :</l>
+
+                     <l n="193">Mais enfin plus honteux qu'un homme les arrête</l>
+
+                     <l n="194">De mille traits ensemble ils attaquent sa tête</l>
+
+                     <l n="195">Son bouclier les reçoit, Horace les fait voir</l>
+
+                     <l n="196">Et nous donne l'horreur qu'il devait recevoir.</l>
+
+                     <l n="197">Partout où de nos gens le courage s'adresse,</l>
+
+                     <l n="198">On rencontre partout sa force ou son adresse ;</l>
+
+                     <l n="199">À peine en ai-je cru le rapport de mes yeux,</l>
+
+                     <l n="200">On court de toutes parts, mais il est en tous lieux.</l>
+
+                     <l n="201">Enfin Horace seul est partout où l'on donne</l>
+
+                     <l n="202">Et remplit tout le pont de sa seule personne.</l>
+
+                     <l n="203">Certes cet ennemi m'a surpris à mon tour,</l>
+
+                     <l n="204">Certes cet ennemi m'a donné de l'amour ;</l>
+
+                     <l n="205">Au moins j'ai regretté qu'une audace si belle</l>
+
+                     <l n="206">Et si digne d'amour fût au coeur d'un rebelle.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="207" part="I">Quoi ? L'on n'a pu l'abattre ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARUNI.</speaker>
+
+                     <l n="207" part="F">En vain de toutes parts</l>
+
+                     <l n="208">Nos gens poussaient sur lui des orages de dards,</l>
+
+                     <l n="209">Il semblait que les Dieux aveugles pour les autres</l>
+
+                     <l n="210">Détournaient tous les traits que lui poussaient les nôtres</l>
+
+                     <l n="211">Et que pour faire honneur à chacun de ses coups</l>
+
+                     <l n="212">Ils conduisaient les traits qu'il poussait contre nous.</l>
+
+                     <l n="213">Mais si ce grand combat d'un seul contre dix mille</l>
+
+                     <l n="214">Est un prodige illustre en prodiges fertile,</l>
+
+                     <l n="215">La fin de ce combat et si grand et si beau</l>
+
+                     <l n="216">Est en faveur de Rome un miracle nouveau.</l>
+
+                     <l n="217">Comme enfin tous nos gens confus de tant d'audace</l>
+
+                     <l n="218">Allaient faire un effort pour renverser Horace</l>
+
+                     <l n="219">Le pont s'est entrouvert a fait un grand fracas</l>
+
+                     <l n="220">Et dans les eaux du Tibre est tombé sous ses pas.</l>
+
+                     <l n="221">L'air en a retenti, notre poursuite cesse,</l>
+
+                     <l n="222">Et Rome en a jeté de grands cris d'allégresse.</l>
+
+                     <l n="223">Horace en même temps jette l'oeil dessus l'eau</l>
+
+                     <l n="224">Et comme préparé d'y faire son tombeau ;</l>
+
+                     <l n="225">Dieu du Tibre, a-t-il dit, seconde l'entreprise</l>
+
+                     <l n="226">Et reçoit un soldat qui défend ta franchise.</l>
+
+                     <l n="227" part="I">Il se jette en parlant.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="227" part="F">Et le Tibre irrité</l>
+
+                     <l n="228">N'aurait pas englouti ce fameux révolté ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARUNI.</speaker>
+
+                     <l n="229">Non Seigneur, mais les Dieux ravis de son courage</l>
+
+                     <l n="230">L'ont porté sans péril jusqu'à l'autre rivage,</l>
+
+                     <l n="231">Et malgré tous les traits dont il est combattu</l>
+
+                     <l n="232">Ont fait de son salut le prix de sa vertu,</l>
+
+                     <l n="233">Ayant osé tout seul un acte magnanime</l>
+
+                     <l n="234">À qui l'on donnera moins de foi que d'estime.</l>
+
+                     <l n="235">On eût dit à le voir balancé dessus l'eau</l>
+
+                     <l n="236">Que même son bouclier lui servait de vaisseau</l>
+
+                     <l n="237">Et qu'en poussant nos traits, tout notre effort n'excite</l>
+
+                     <l n="238">Qu'un favorable vent qui le pousse plus vite.</l>
+
+                     <l n="239">On eût dit qu'en tombant le Dieu même des flots</l>
+
+                     <l n="240">Comme un autre dauphin le reçut sur son dos.</l>
+
+                     <l n="241">Et que l'eau secondant une si belle audace</l>
+
+                     <l n="242">Fut un char de cristal où triomphait Horace.</l>
+
+                     <l n="243">Ainsi le pont brisé tombant pour son secours</l>
+
+                     <l n="244">A de notre victoire interrompu le cours :</l>
+
+                     <l n="245">Ainsi nous pouvons dire et même à notre gloire</l>
+
+                     <l n="246">Que dessus les Romains nous gagnons la victoire,</l>
+
+                     <l n="247">Mais qu'Horace arrêtant nos pas et nos desseins</l>
+
+                     <l n="248">A vaincu les vainqueurs de Rome et des Romains.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="249">Donc le crime de Rome à sa perte penchante</l>
+
+                     <l n="250">Des forces de deux Rois la rendra triomphante !</l>
+
+                     <l n="251">Devez-vous le souffrir ? Et ce fameux affront</l>
+
+                     <l n="252">Ne se répand-il pas jusques sur votre front ?</l>
+
+                     <l n="253">Non, non, ne laissons pas à cette ville ingrate</l>
+
+                     <l n="254">La gloire de jouir du succès qui la flatte,</l>
+
+                     <l n="255">Forçons ces révoltés, et ne me dites pas</l>
+
+                     <l n="256">Que c'est mon propre bien que je renverse à bas.</l>
+
+                     <l n="257">En l'état misérable où le ciel m'abandonne</l>
+
+                     <l n="258">Je cherche la vengeance autant que la couronne.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="259">Encore un coup, sachons si le peuple Romain,</l>
+
+                     <l n="260">Comme on nous en assure est pressé de la faim.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Porsenne, Licine, Tarquin, Junie. </head>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="261" part="I">Que veut-on ?</l>
+
+               </sp>
+
+               <sp who="tc0386-LICINE">
+                  <speaker>LICINE.</speaker>
+
+                     <l n="261" part="F">L'on a pris une dame romaine.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="262">Il faut la voir, Seigneur, Licine qu'on l'amène.</l>
+
+                     <l n="263">Peut-être que la peur aura bien le pouvoir</l>
+
+                     <l n="264">De tirer de son coeur ce que l'on veut savoir.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="265">Que vois-je ! Ha ma fureur te peux-tu bien contraindre ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="266">Dieux la fille de Brute ! Approche et sans rien craindre.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE, suivie de Fulvie.</speaker>
+
+                     <l n="267">Je t'obéis, Porsenne, et te rends ce devoir</l>
+
+                     <l n="268">Parce que le destin me met en ton pouvoir.</l>
+
+                     <l n="269">Mais ne présume pas qu'une honteuse crainte</l>
+
+                     <l n="270">Dans la fille de Brute imprime quelque atteinte,</l>
+
+                     <l n="271">Si ce n'est que l'honneur qui voit ses assassins</l>
+
+                     <l n="272">Doive craindre partout où l'on voit les Tarquins.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="273" part="I">Superbe.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="273" part="F">C'est un nom que le crime te donne.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="274">Garde ici le respect qu'on doit à la couronne.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="275">J'en ai pour toi Seigneur autant que je le dois.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="276">Je t'apprendrai rebelle à respecter ton Roi.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="277">Frappe, j'attends le coup, je t'offrirai ma tête</l>
+
+                     <l n="278">Plutôt que pour frapper ta main ne sera prête.</l>
+
+                     <l n="279">Au moins cette action si célèbre de soi</l>
+
+                     <l n="280">Confirmera partout ce que l'on croit de toi,</l>
+
+                     <l n="281">Au moins cette action justifiera la haine,</l>
+
+                     <l n="282">Que porte à son tyran la nation Romaine.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="283">On n'a pas résolu de te persécuter,</l>
+
+                     <l n="284">Ta prison sera douce, on t'y veut bien traiter,</l>
+
+                     <l n="285">Parmi tes ennemis tu trouves ton asile,</l>
+
+                     <l n="286">Mais montre-nous l'état où tu laisses la ville.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="287">Je n'étais pas à Rome, et venais d'en partir</l>
+
+                     <l n="288">Lorsque vos légions la vinrent investir.</l>
+
+                     <l n="289">Depuis loin des Romains, à moi seule soumise</l>
+
+                     <l n="290">Comme un bien paternel conservant ma franchise,</l>
+
+                     <l n="291">Je fus prise en un Temple où je faisais des voeux,</l>
+
+                     <l n="292">Je ne le cache point, contre vous et pour eux.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="293">Ainsi les justes Dieux qui se vengent des crimes</l>
+
+                     <l n="294">Punissent sur le champ les voeux illégitimes.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="295">Ainsi les justes Dieux ont mes voeux exaucés</l>
+
+                     <l n="296">Puisque Horace est vainqueur, et vous a repoussés.</l>
+
+                     <l n="297">Mais enfin apprenez que Rome est indomptable,</l>
+
+                     <l n="298">Que pour elle la faim n'a rien d'épouvantable,</l>
+
+                     <l n="299">Et que les aliments ne lui manqueront pas</l>
+
+                     <l n="300">Tandis que les Romains conserveront leur bras.</l>
+
+                     <l n="301">Ce peuple pour sa gloire ennemi de la vôtre,</l>
+
+                     <l n="302">Se nourrira d'un bras et combattra de l'autre.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="303">Tu nous montres leur crime en pensant les louer.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="304">Ils sont prêts de sortir afin de m'avouer.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="305">C'est trop perdre de temps en paroles stériles,</l>
+
+                     <l n="306">Il faut avoir recours à des effets utiles.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="307">Donc ma seule présence a chassé ce grand Roi,</l>
+
+                     <l n="308">Ainsi de Brute mort la vertu vit en moi.</l>
+
+                     <l n="309">Tarquin et vous Porsenne armez tout contre Rome,</l>
+
+                     <l n="310">Pour se sauver de tout, elle ne veut qu'un homme.</l>
+
+                     <l n="311">Si mon Père a montré par des actes si grands,</l>
+
+                     <l n="312">Qu'il ne faut qu'un Romain pour chasser cent tyrans,</l>
+
+                     <l n="313">Que vient de faire Horace ? Il vient de vous instruire</l>
+
+                     <l n="314">Qu'il ne faut qu'un Romain pour défendre un empire.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="315">Au moins il t'est permis malgré notre pouvoir,</l>
+
+                     <l n="316">De flatter ton pays par un si noble espoir.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="317">Mais, Seigneur, cependant accorde à ma prière,</l>
+
+                     <l n="318">Ce que l'honnêteté doit à ta prisonnière</l>
+
+                     <l n="319">Et confirme en mon coeur ce renom glorieux,</l>
+
+                     <l n="320">Qui même à nos Romains t'a rendu précieux.</l>
+
+                     <l n="321">Je suis ta prisonnière, il est vrai je l'avoue,</l>
+
+                     <l n="322">Mais par de nobles soins mérite qu'on te loue.</l>
+
+                     <l n="323">Je ne demande point un traitement si bon</l>
+
+                     <l n="324">Qu'il me fasse douter si je suis en prison ;</l>
+
+                     <l n="325">Fais-nous un traitement qui ressemble à des gênes,</l>
+
+                     <l n="326">Pour nous mieux arrêter charge-nous de cent chaînes,</l>
+
+                     <l n="327">Nous ne voulons de toi qu'une captivité</l>
+
+                     <l n="328">Où soit, comme le corps, l'honneur en sûreté.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="329">Cette demande est belle, et digne que l'on t'aime,</l>
+
+                     <l n="330">Et ne pas l'écouter c'est haïr l'honneur même.</l>
+
+                     <l n="331">Ainsi pour mettre en paix ton esprit combattu</l>
+
+                     <l n="332">Je laisse ton honneur en garde à ta vertu ;</l>
+
+                     <l n="333">Et pour te faire un bien dont l'excès te console,</l>
+
+                     <l n="334">Je te laisse toi-même en garde à ta parole.</l>
+
+                     <l n="335" part="I">Est-ce une sûre garde ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="335" part="F">Oui Seigneur, et ma foi</l>
+
+                     <l n="336">Me gardera bien mieux que les forces d'un Roi.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="337">Mon fils ayez en soin, et parmi ses misères</l>
+
+                     <l n="338">Faites lui malgré Rome aimer ses adversaires.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="339">De ce commandement je fais tous mes plaisirs.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="5">
+               <head>SCÈNE V. Arons, Junie. </head>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="340">Ainsi j'ai la moitié de mes plus beaux désirs.</l>
+
+                     <l n="341">J'avais chez les Romains deux personnes si chères</l>
+
+                     <l n="342">Que je craignais pour eux nos fortunes prospères.</l>
+
+                     <l n="343">Vous Junie autrefois la cause de mes feux</l>
+
+                     <l n="344">Et maintenant encor le sujet de mes voeux,</l>
+
+                     <l n="345">Vous pour qui j'ai brûlé d'une secrète flamme.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="346">Seigneur ne faites rien qui tourne à votre blâme.</l>
+
+                     <l n="347">C'est trop de cette amour que vous me destinez,</l>
+
+                     <l n="348">Votre pitié suffit pour des infortunés :</l>
+
+                     <l n="349">Mais quel est l'autre objet qui vous rend pitoyable</l>
+
+                     <l n="350" part="I">Au destin des Romains ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="350" part="F">Un ami véritable,</l>
+
+                     <l n="351">Un ami généreux de qui l'heureux secours</l>
+
+                     <l n="352">Me tira d'un péril qui menaçait mes jours.</l>
+
+                     <l n="353">Je l'ai vu quelque temps plein d'une noble audace</l>
+
+                     <l n="354">Combattre avec les gens que conduisait Horace ;</l>
+
+                     <l n="355">Mais hélas tout d'un coup après ces beaux efforts</l>
+
+                     <l n="356">Je l'ai vu trébucher peut-être chez les morts.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="357">Que dites-vous Seigneur ? Serait-ce donc Scévole.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="358">C'est lui-même Junie : hé quoi cette parole</l>
+
+                     <l n="359" part="I">Vous trouble.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="359" part="F">Hélas Seigneur, ne pleurerais-je pas</l>
+
+                     <l n="360">Un appui des Romains que le sort jette à bas ?</l>
+
+                     <l n="361">Mais enfin donnez-nous le secours salutaire</l>
+
+                     <l n="362">Que notre affliction obtient de notre Père.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="363">Ne vous affligez point, votre captivité</l>
+
+                     <l n="364">N'aura pas moins d'appas qu'en a la liberté.</l>
+
+               </sp>
+
+            </div>
+
+         </div>
+
+         <div type="acte" n="2">
+            <head>ACTE II</head>
+
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. </head>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE, seule.</speaker>
+
+                     <l n="365">Amour de la patrie, ô belle et forte chaîne</l>
+
+                     <l n="366">Qui dois seule enchaîner le coeur d'une Romaine,</l>
+
+                     <l n="367">Amour de la patrie enfin pardonne-moi</l>
+
+                     <l n="368">Si l'amour de Scévole y règne avecques toi.</l>
+
+                     <l n="369">Ô mère des Romains ! Rome presque asservie,</l>
+
+                     <l n="370">Hélas ! Quand tes enfants te vont rendre leur vie</l>
+
+                     <l n="371">Au moins tu dois souffrir pour le prix de leur foi</l>
+
+                     <l n="372">Qu'on pleure avecques toi ceux qui meurent pour toi</l>
+
+                     <l n="373">Si tu ne peux souffrir proche de tant de gouffres</l>
+
+                     <l n="374">Qu'on plaigne d'autres maux que les maux que tu souffres,</l>
+
+                     <l n="375">Si tu ne peux souffrir que mon ressentiment</l>
+
+                     <l n="376">Fasse couler mes pleurs à la mort d'un amant,</l>
+
+                     <l n="377">Au moins tu souffriras qu'en sa perte commune</l>
+
+                     <l n="378">Je pleure un défenseur, que t'ôte la Fortune.</l>
+
+                     <l n="379">Ô Scévole ! Ô grand coeur ! Où règne la vertu</l>
+
+                     <l n="380">Si j'ai par mes froideurs ton Amour combattu,</l>
+
+                     <l n="381">Si jamais cet amour qu'emporte ta belle âme</l>
+
+                     <l n="382">Ne tira de ma bouche un aveu de ma flamme,</l>
+
+                     <l n="383">Je crois te satisfaire après tant de douleurs</l>
+
+                     <l n="384">Lorsque entre Rome et toi je partage mes pleurs.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="2">
+               <head>SCÈNE II. Fulvie, Junie. </head>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="385" part="I">Madame.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="385" part="F">Quoi Fulvie ? Et d'où vient cette joie.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="386">De celle qui vous touche et qu'un Dieu vous envoie.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="387">La déplorable Rome est-elle en liberté ?</l>
+
+                     <l n="388">Ou l'illustre Scévole est-il ressuscité ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="389" part="I">Au moins il est au camp.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="389" part="F">Dans le camp de Porsenne ?</l>
+
+                     <l n="390" part="I">Il est donc prisonnier.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="390" part="F">Il est libre et sans peine.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="391">Tu penses l'avoir vu, tes yeux étaient voilés.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="392">Madame, je l'ai vu, nous nous sommes parlés.</l>
+
+                  <note type="C">On dit "nous nous sommes parlé", mais à l'époque l'accord était autorisé.</note>
+
+                     <l n="393">Mais comme il vous croyait dans le sein d'un asile</l>
+
+                     <l n="394">À l'abri des malheurs qui menacent la ville,</l>
+
+                     <l n="395">Ayant par mon discours appris votre malheur</l>
+
+                     <l n="396">J'ai presque aussitôt vu sa mort que sa douleur.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="397" part="I">Mais où l'as-tu trouvé ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="397" part="F">Sur un chemin qui mène</l>
+
+                     <l n="398">D'un rivage du Tibre au quartier de Porsenne.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="399">Et quel est le discours que Scévole a tenu ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="400">Ayant su le malheur qui vous est advenu</l>
+
+                     <l n="401">Dieux, s'est-il écrié, dont j'attends un miracle,</l>
+
+                     <l n="402">Devez-vous à ma course opposer cet obstacle ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="403">Explique ce discours qui semble le choquer.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="404">Si je ne l'entends pas, pourrais-je l'expliquer ?</l>
+
+                     <l n="405">Au reste il est armé non pas à la Romaine,</l>
+
+                     <l n="406">Mais comme sont armés les soldats de Porsenne.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="407" part="I">Et pourquoi ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="407" part="F">Sa réponse est contre sa vertu,</l>
+
+                     <l n="408" part="I">Pour nous sauver Fulvie, a-t-il dit.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="408" part="F">Que dis-tu ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="409" part="I">Ce que je ne crois pas.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="409" part="F">Pour se sauver Fulvie !</l>
+
+                     <l n="410">Pour dérober à Rome et son sang et sa vie !</l>
+
+                     <l n="411">Ôte, ôte-moi du coeur ces sentiments douteux,</l>
+
+                     <l n="412">Achève, ou ne dis rien si le reste est honteux.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="413">Quelques gens aperçus sur le même passage</l>
+
+                     <l n="414">Nous ont ôté le temps de parler davantage.</l>
+
+                     <l n="415">Nous nous sommes quittés tous deux pleins de souci,</l>
+
+                     <l n="416">Mais son chemin je crois s'adresse par ici.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="417">Pour se sauver, dis-tu ? Tu n'as point vu Scévole,</l>
+
+                     <l n="418">Son courage dément cette lâche parole.</l>
+
+                     <l n="419">Scévole se serait déguisé lâchement,</l>
+
+                     <l n="420">Il se voudrait devoir à ce déguisement,</l>
+
+                     <l n="421">Il se voudrait cacher, lui que l'honneur éclaire,</l>
+
+                     <l n="422">À l'ombre du bouclier de son propre adversaire.</l>
+
+                     <l n="423">Tu n'as vu qu'un Démon de sa forme vêtu,</l>
+
+                     <l n="424">Qui tâche après sa mort d'étouffer sa vertu.</l>
+
+                     <l n="425">Ô vertu de Scévole aux Romains si connue,</l>
+
+                     <l n="426">Viens comme un beau soleil dissiper cette nue :</l>
+
+                     <l n="427">Reviens, reviens Scévole, ou si quelque Démon</l>
+
+                     <l n="428">Te fait servir toi-même à diffamer ton nom,</l>
+
+                     <l n="429">Rentre dans le cercueil où je viens de te croire.</l>
+
+                     <l n="430">Il vaut mieux te pleurer, que de pleurer ta gloire,</l>
+
+                     <l n="431">Aussi bien es-tu mort et pour Rome et pour moi</l>
+
+                     <l n="432">Si quelque lâcheté te fait vivre pour toi :</l>
+
+                     <l n="433" part="I">Aussi bien désormais.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="3">
+               <head>SCÈNE III. Fulvie, Junie, Scévole. </head>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="433" part="F">Mais le voici, Madame.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="434">Vous trompez-vous mes yeux, vous trompez-vous mon âme ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="435" part="I">Est-ce vous que je vois ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="435" part="F">Mais plutôt est-ce toi,</l>
+
+                     <l n="436">Ou quelque illusion qui se présente à moi ?</l>
+
+                     <l n="437">Je ne connais point sous ces honteuses armes</l>
+
+                     <l n="438">Qui loin de m'assurer me donnent des alarmes.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="439">Ô Dieux qui m'inspirez un si puissant effort,</l>
+
+                     <l n="440">Fallait-il m'opposer un obstacle si fort.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="441" part="I">Crains-tu que je t'arrête ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="441" part="F">Oui je crains ta présence.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="442">Dieux vient-il confirmer une indigne croyance ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="443">Que dites-vous Junie, et sur quels fondements</l>
+
+                     <l n="444">Pourriez-vous appuyer d'indignes sentiments ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="445">Que direz-vous Scévole, et quelle noble excuse</l>
+
+                     <l n="446">Pourra justifier ces armes que j'accuse.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="447">Une illustre action qui mérite un autel,</l>
+
+                     <l n="448">Qui rendra Rome libre et Scévole immortel.</l>
+
+                     <l n="449">Je marche maintenant sur les pas de ton père.</l>
+
+                     <l n="450">Son courage est partout le flambeau qui m'éclaire ;</l>
+
+                     <l n="451">Mais sa fille est ici comme l'empêchement</l>
+
+                     <l n="452">Qui semble retarder un grand événement.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="453">Moi, moi l'empêchement d'une noble aventure ?</l>
+
+                     <l n="454">Tu me blesses Scévole, et me fait une injure.</l>
+
+                     <l n="455">Vas-tu dans le péril ? J'y conduirai tes pas,</l>
+
+                     <l n="456">Vas-tu faire un grand coup ? Je pousserai ton bras :</l>
+
+                     <l n="457">Mais enfin m'aimes-tu ? Veux-tu le faire croire ?</l>
+
+                     <l n="458">Fais-moi part d'un danger qui conduit à la gloire.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="459">Hélas ! Je tente un coup qui me signalera :</l>
+
+                     <l n="460">Mais peut-être ton sang, ton sang le payera.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="461">Hé bien, me plaindrais-tu de payer de ma vie</l>
+
+                     <l n="462">Un acte digne ensemble et de gloire et d'envie ?</l>
+
+                     <l n="463">Quoi, le sang d'une fille est à ton jugement</l>
+
+                     <l n="464">D'une illustre action un trop beau payement ?</l>
+
+                     <l n="465">Si de ce sentiment ton esprit est capable,</l>
+
+                     <l n="466">Tu ne sais pas le prix d'un acte mémorable.</l>
+
+                     <l n="467" part="I">Parle donc.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="467" part="F">Mais Fulvie, allez voir si ces lieux</l>
+
+                     <l n="468">N'ont point pour nous surprendre ou d'oreilles ou d'yeux.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="469">Allez : mais cependant ne crains point de surprise,</l>
+
+                     <l n="470">On respecte ce lieu comme un lieu de franchise,</l>
+
+                     <l n="471">Il n'est point d'yeux au camp qui veille dessus moi,</l>
+
+                     <l n="472">Je suis libre en prison, et ma garde est ma foi,</l>
+
+                     <l n="473">C'est l'adoucissement qui se trouve en ma peine,</l>
+
+                     <l n="474">Et c'est une faveur que je dois à Porsenne.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="475" part="I">À Porsenne ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="475" part="F">À ce roi l'honneur des souverains</l>
+
+                     <l n="476">Qui mérite en un mot d'être ami des Romains.</l>
+
+                     <l n="477">Quoi Scévole s'étonne ! Et trouve-t-il étrange</l>
+
+                     <l n="478">Qu'un louable ennemi reçoive une louange ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="479">Si tu peux le louer ainsi que ton appui</l>
+
+                     <l n="480">Souffriras-tu le bras qui s'arme contre lui ?</l>
+
+                     <l n="481">Je viens enfin de creuser le tombeau de Porsenne</l>
+
+                     <l n="482">Comme le fondement de la grandeur Romaine.</l>
+
+                     <l n="483">Juge si ce grand coup doit te mettre en danger.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="484">Il m'étonne Scévole, et tu dois le juger,</l>
+
+                     <l n="485">Non pas que j'appréhende une mort effroyable</l>
+
+                     <l n="486">Si celle de Porsenne à Rome est profitable ;</l>
+
+                     <l n="487">Mais je veux que ton bras achève tes desseins</l>
+
+                     <l n="488">Crois-tu que cette mort soit utile aux Romains,</l>
+
+                     <l n="489">Et ne juges-tu pas qu'au lieu de les défendre</l>
+
+                     <l n="490">Mille vengeurs d'un Roi renaîtront de sa cendre ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="491">S'il renaît de son sang mille monstres fameux</l>
+
+                     <l n="492">Rome reproduira mille Hercules contre eux.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="493">Rome est-elle réduite à ce malheur extrême,</l>
+
+                     <l n="494">Qu'il lui faille tenter un remède de même ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="495">Il faut ou que demain soit la fin de ses jours,</l>
+
+                     <l n="496">Ou bien qu'elle reçoive aujourd'hui du secours.</l>
+
+                     <l n="497">Tarquin ne combat plus pour une ville entière,</l>
+
+                     <l n="498">Il combat seulement pour un grand cimetière,</l>
+
+                     <l n="499">Tant le destin de Rome est triste et malheureux !</l>
+
+                     <l n="500">La famine y produit tout ce qu'elle a d'affreux,</l>
+
+                     <l n="501">Il n'est rien de funeste en toute la Nature</l>
+
+                     <l n="502">Que la nécessité n'y change en nourriture :</l>
+
+                     <l n="503">Bref le peuple de Rome emploie à se nourrir</l>
+
+                     <l n="504">Tout ce qui peut aider à le faire mourir.</l>
+
+                     <l n="505">Aussi voit-on partout des images tragiques</l>
+
+                     <l n="506">Et de malheurs publics et de maux domestiques.</l>
+
+                     <l n="507">Là le fils chancelant de faiblesse et d'ennui</l>
+
+                     <l n="508">Mettant son Père en terre y tombe avec lui ;</l>
+
+                     <l n="509">Ici l'enfant se meurt d'une mort triste et lente</l>
+
+                     <l n="510">Sur le sein épuisé de sa mère mourante,</l>
+
+                     <l n="511">Et la mère qui voit ce spectacle inhumain</l>
+
+                     <l n="512">Se meurt en même temps de douleur et de faim.</l>
+
+                     <l n="513">Enfin on voit partout la mort en son image</l>
+
+                     <l n="514">Chacun la porte au coeur ou dessus son visage,</l>
+
+                     <l n="515">Et telle est ta patrie en cette extrémité</l>
+
+                     <l n="516">Qu'elle semble un séjour de spectres habité :</l>
+
+                     <l n="517">Mais cette extrémité féconde en tant de peine</l>
+
+                     <l n="518">Est encore au dessous de la vertu Romaine,</l>
+
+                     <l n="519">Même le peuple souffre avecques fermeté,</l>
+
+                     <l n="520">Il veut le monument ou bien la liberté.</l>
+
+                     <l n="521">Chacun sollicité d'une noble colère</l>
+
+                     <l n="522">Semble avoir hérité des vertus de ton Père,</l>
+
+                     <l n="523">Et veut montrer que Rome au défaut d'autres biens</l>
+
+                     <l n="524">N'a pas moins de Héros qu'elle a de Citoyens.</l>
+
+                     <l n="525">On a vu des Vieillards languissants et débiles</l>
+
+                     <l n="526">Et que l'âge a rendus à la guerre inutiles</l>
+
+                     <l n="527">On les a vu poussés d'un vif ressentiment</l>
+
+                     <l n="528">Aux plus jeunes guerriers s'offrir pour aliment</l>
+
+                     <l n="529">Comme s'ils espéraient changes en leur substance</l>
+
+                     <l n="530">Être encore de Rome et l'âme et la défense.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="531">Ô grands coeurs ! Mais hélas sans espoir d'aucun bien</l>
+
+                     <l n="532">Tu te mets en danger, et tu n'avances rien.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="533">Mais nous en tirerons tous deux de l'avantage,</l>
+
+                     <l n="534">Moi de mourir pour Rome en homme de courage,</l>
+
+                     <l n="535">Et toi de ne voir plus un amant obstiné</l>
+
+                     <l n="536">Que cent fois à la mort tes yeux ont condamné.</l>
+
+                     <l n="537">Si je n'ai pu gagner ton amour poursuivie</l>
+
+                     <l n="538">Par les plus beaux travaux qui signalent ma vie,</l>
+
+                     <l n="539">Laisse-moi comme en proie à des maux inouïs</l>
+
+                     <l n="540">Mériter par ma mort l'amour de mon pays.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="541" part="I">Hélas !</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="541" part="M">Plains-tu Porsenne ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="541" part="F">Ah Scévole ! Ah Junie</l>
+
+                     <l n="542">L'as-tu donc retrouvé s'il va perdre la vie ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="543">Quoi ? La fille de Brute oubliera sa vertu.</l>
+
+                     <l n="544">Et pour notre adversaire elle aura combattu !</l>
+
+                     <l n="545">Si Porsenne autrefois témoigna que son Âme</l>
+
+                     <l n="546">Brûlait en la fureur d'une amoureuse flamme,</l>
+
+                     <l n="547">Réponds à mes soupçons, croirai-je qu'aujourd'hui</l>
+
+                     <l n="548">Pour garder son amour tu me combats pour lui.</l>
+
+                     <l n="549">Veux-tu donc l'épargner pour gagner la couronne</l>
+
+                     <l n="550">Par qui sa passion marchande ta personne,</l>
+
+                     <l n="551">Et que ton coeur illustre en ses nobles rigueurs</l>
+
+                     <l n="552">Rejeta comme un bien qui corrompt les grands coeurs.</l>
+
+                     <l n="553">Depuis quand préférer ce vain titre de Reine</l>
+
+                     <l n="554">Aux titres adorés de libre et de romaine ?</l>
+
+                     <l n="555">Un ennemi régnant aura donc des appas</l>
+
+                     <l n="556">Que Rome, que les tiens, que ton pays n'a pas !</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="557">Enfin par ce discours justement offensée</l>
+
+                     <l n="558">Je croirais que l'ardeur dont ton âme est poussée</l>
+
+                     <l n="559">Et que ce grand dessein pour toi si dangereux</l>
+
+                     <l n="560">Sort d'un esprit jaloux plutôt que généreux.</l>
+
+                     <l n="561">Mais s'il a des succès, n'importe à la patrie</l>
+
+                     <l n="562">Qu'il soit de ton courage ou bien de ta furie.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="563">Oui je t'aime, il est vrai ; mais ne présume pas</l>
+
+                     <l n="564">Qu'un caprice d'amour conduise ici mes pas.</l>
+
+                     <l n="565">Sache donc que voyant la ville menacée</l>
+
+                     <l n="566">Et dedans et dehors également pressée,</l>
+
+                     <l n="567">Je conçus dans mon coeur pour Rome inquiété</l>
+
+                     <l n="568">Le dessein de ma mort ou de sa liberté.</l>
+
+                     <l n="569">Mais afin d'empêcher que la haine ou l'envie</l>
+
+                     <l n="570">N'obscurcît de ses traits la splendeur de ma vie,</l>
+
+                     <l n="571">Je vais droit au Sénat que je trouve assemblé</l>
+
+                     <l n="572">Pour soulager les maux dont le peuple est troublé,</l>
+
+                     <l n="573">Je demande à parler, je dis mon entreprise,</l>
+
+                     <l n="574">On l'écoute, elle plaît, le Sénat l'autorise,</l>
+
+                     <l n="575">Et pour trouver moyen sur l'heure et sur le champ</l>
+
+                     <l n="576">Et de sortir de Rome, et d'entrer dans ce camp,</l>
+
+                     <l n="577">On résout la sortie où le fameux Horace</l>
+
+                     <l n="578">Vient d'effacer l'éclat des Héros de sa race.</l>
+
+                     <l n="579">Ainsi favorisé de ce déguisement</l>
+
+                     <l n="580">Parmi les ennemis j'ai passé sûrement,</l>
+
+                     <l n="581">Et j'emprunte leur forme, afin d'aller sans peine</l>
+
+                     <l n="582">Et sans être connu jusqu'au coeur de Porsenne.</l>
+
+                     <l n="583">Est-ce donc à ton gré marcher en furieux</l>
+
+                     <l n="584">Que de suivre la loi d'un Sénat glorieux ?</l>
+
+                     <l n="585">Si tu veux condamner cette grande entreprise,</l>
+
+                     <l n="586">Ne condamnes-tu pas Rome qui l'autorise ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="587">Mais enfin réponds-moi, quel est ici ton but ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="588">Je cherche des Romains la gloire et le salut.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="589">Si l'on peut obtenir un si grand avantage</l>
+
+                     <l n="590">Sans que notre bonheur cause un si grand carnage,</l>
+
+                     <l n="591">Le Sénat aurait-il tant d'inhumanité,</l>
+
+                     <l n="592">Qu'un Laurier lui déplût s'il n'est ensanglanté ?</l>
+
+                     <l n="593">Et toi-même Scévole es-tu si sanguinaire,</l>
+
+                     <l n="594">Que tu veuilles sans fruit le sang d'un adversaire ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="595">Non Junie, et mon sang coulerait par mes mains,</l>
+
+                     <l n="596">Si mon sang suffisait pour sauver les Romains.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="597">Laisse donc devant toi combattre ma parole</l>
+
+                     <l n="598">Contre un Roi si puissant, pour Rome, pour Scévole.</l>
+
+                     <l n="599">Tu mérites du moins par un destin si grand</l>
+
+                     <l n="600">Qu'on tâche à te sauver du péril qui t'attend,</l>
+
+                     <l n="601">Et le bon traitement que je dois à Porsenne</l>
+
+                     <l n="602">Veut qu'au moins d'un moment je recule sa peine.</l>
+
+                     <l n="603">Lorsque j'aurai tâché de détourner sa mort,</l>
+
+                     <l n="604">Au moins pour m'acquitter j'aurai fait un effort.</l>
+
+                     <l n="605">Bref si de mes conseils ce prince ne profite</l>
+
+                     <l n="606">Il ne tiendra qu'à lui que je n'aie été quitte,</l>
+
+                     <l n="607">Et ton bras qui conduit la gloire et le hasard</l>
+
+                     <l n="608">N'en aura triomphé que d'un moment plus tard.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="609">Te laisses-tu charmer par de vaines caresses ?</l>
+
+                     <l n="610">Redoute un ennemi qui te fait des largesses.</l>
+
+                     <l n="611">Ce qu'on doit au pays nous acquitte de tout,</l>
+
+                     <l n="612">Et Rome tombera si Porsenne est debout.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="613">Mais je la soutiendrai peut-être par lui-même.</l>
+
+                     <l n="614">Si ce Prince m'aime, s'il témoigne qu'il m'aime,</l>
+
+                  <note type="C">Cas très rare où, dans un alexandrin, une syllabe muette est à la césure.</note>
+
+                     <l n="615">Pourquoi pour le pays ne souffrirai-je pas</l>
+
+                     <l n="616">Cet amour qu'il reçut de mes faibles appas ?</l>
+
+                     <l n="617">Si j'ai quelques attraits, réponds-moi je te prie,</l>
+
+                     <l n="618">Peuvent-ils mieux servir qu'à servir la Patrie !</l>
+
+                     <l n="619">Diffère donc l'effet qu'on attend de tes coups,</l>
+
+                     <l n="620">Ou je te crois barbare, ou je te crois jaloux,</l>
+
+                     <l n="621">Ou je prends ta vertu pour une frénésie</l>
+
+                     <l n="622">Qu'inspire à ton esprit la seule jalousie.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="623" part="I">Quoi, tu veux retarder ma gloire ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="623" part="F">Je le veux.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="624">Que ce mot est puissant sur un coeur amoureux !</l>
+
+                     <l n="625">Hé bien pour t'obéir j'exposerai ma gloire,</l>
+
+                     <l n="626" part="I">Mais quoi, que feras-tu ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="626" part="F">J'obtiendrai la victoire.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="627" part="I">On vient, retirez-vous.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="627" part="F">Va, détourne tes pas.</l>
+
+                     <l n="628">Je tâche à le sauver, Dieux n'y résistez pas !</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Porsenne, Tarquin, et leur suite.</head>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="629" part="I">Quoi ? Vous vous étonnez ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="629" part="F">Oui certes je m'étonne</l>
+
+                     <l n="630">Des présages affreux que la victime donne.</l>
+
+                     <l n="631">On ne perd pas les noms de grand, de glorieux</l>
+
+                     <l n="632">Pour prendre l'épouvante aux menaces des Dieux.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="633">Quoi, vous vous étonnez ? Cette âme grande et forte</l>
+
+                     <l n="634">Craint un présage vain, crains une bête morte.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="635">Quoi, vous ne craignez pas, et toutefois c'est vous</l>
+
+                     <l n="636">Que menacent du Ciel la haine et le courroux.</l>
+
+                     <l n="637">Jamais un sacrifice effroyable et funeste</l>
+
+                     <l n="638">Ne représenta mieux la colère céleste,</l>
+
+                     <l n="639">Et malgré ces amis qui vous viennent d'en haut</l>
+
+                     <l n="640">Vous voulez sans raison hasarder trois assauts.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="641">Que les Dieux à leur gré gouvernent le tonnerre,</l>
+
+                     <l n="642">Et qu'ils laissent aux Rois à gouverner la terre,</l>
+
+                     <l n="643">La vaillance, la force, un esprit généreux</l>
+
+                     <l n="644">Change un triste présage en un présage heureux.</l>
+
+                     <l n="645">Donc vous vous figurez qu'une bête assommée</l>
+
+                     <l n="646">Tienne notre fortune en son ventre enfermée,</l>
+
+                     <l n="647">Et que des animaux les sales intestins</l>
+
+                     <l n="648">Soient un temple adorable où parlent les destins.</l>
+
+                     <l n="649">Ces superstitions et tout ce grand mystère</l>
+
+                     <l n="650">Sont propres seulement à tromper le vulgaire ;</l>
+
+                     <l n="651">C'est par là qu'on le pousse, ou qu'on retient ses pas</l>
+
+                     <l n="652">Selon qu'il est utile au bien des potentats.</l>
+
+                     <l n="653">Mais les rois méprisant ces pleurs et ces bassesses</l>
+
+                     <l n="654">Doivent être au-dessus de toutes ces faiblesses.</l>
+
+                     <l n="655">Ils ont des bons succès les présages en eux</l>
+
+                     <l n="656">Selon qu'ils sont puissants, ou qu'ils sont courageux.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="657">Ha Tarquin, ce discours fait aux Dieux un outrage</l>
+
+                     <l n="658">Et des maux que je crains c'est un fameux présage !</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="659">Si ces Dieux que l'on craint aident des révoltés,</l>
+
+                     <l n="660">Sont-ils nos protecteurs et des divinités ?</l>
+
+                     <l n="661">Quand leurs présages vains favorisent les crimes</l>
+
+                     <l n="662">Quand ils jettent à bas des Trônes légitimes,</l>
+
+                     <l n="663">Ces Idoles, ces Dieux, ces abus des mortels</l>
+
+                     <l n="664">Ne nous montrent-ils pas à rompre leurs autels ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="665" part="I">C'est trop, c'est trop Tarquin.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="665" part="F">Si c'était trop Porsenne,</l>
+
+                     <l n="666">Peut-être que déjà j'en souffrirais la peine.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="667">Et peut-être aujourd'hui que vos calamités</l>
+
+                     <l n="668">Montrent à l'Univers que vous la ressentez.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="669">Vous êtes trop pieux pour un Roi magnanime.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="670">Et vous l'êtes trop peu pour un Roi qu'on opprime.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="671">Quoi qu'ordonnent ces Dieux, le Destin ou le Sort</l>
+
+                     <l n="672">Il est temps de trouver ou le Trône ou la mort.</l>
+
+                     <l n="673">C'est trop sacrifier ; pour gagner des conquêtes</l>
+
+                     <l n="674">Il faut du sang humain et non celui des bêtes.</l>
+
+                     <l n="675">Enfin de tous ces Dieux que se font les mortels</l>
+
+                     <l n="676">À la victoire seule un Roi doit des autels.</l>
+
+                     <l n="677">Mais pour favoriser nos sueurs et nos peines</l>
+
+                     <l n="678">Elle exige de nous des victimes humaines,</l>
+
+                     <l n="679">Et l'autel qu'elle veut des Princes fortunés</l>
+
+                     <l n="680">C'est un champ de bataille, et des Mars ruinés.</l>
+
+                     <l n="681">Allons donc noblement achever un ouvrage</l>
+
+                     <l n="682">Dont la fin ne dépend que d'un peu de courage.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="683">J'attends l'occasion qui doit tout avancer.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="684">Attendez-vous qu'un Dieu vous la vienne annoncer ?</l>
+
+                     <l n="685">Hé quoi ? N'est-il pas temps pour vaincre en assurance</l>
+
+                     <l n="686">D'attaquer l'ennemi quand il est sans défense ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="687">Non, non, il n'est pas temps de donner des combats</l>
+
+                     <l n="688">Quand les Dieux opposés nous retiennent le bras.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="689">Quoi donc toujours les Dieux ! Ces Dieux que l'on m'oppose</l>
+
+                     <l n="690">Sont de belles couleurs qui cachent autre chose.</l>
+
+                     <l n="691">Junie est dans votre âme, on ne l'en peut chasser</l>
+
+                     <l n="692">Et c'est l'unique Dieu que l'on craint d'offenser.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="693">Je ne m'étonne pas en l'état où nous sommes</l>
+
+                     <l n="694">Qu'ayant choqué les Dieux vous attaquiez les hommes.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="695">Je ne m'étonne pas qu'un véritable Amant</l>
+
+                     <l n="696">Immole son honneur à son contentement.</l>
+
+                     <l n="697">En faveur d'une fille à ses yeux adorable</l>
+
+                     <l n="698">Il peut bien délivrer tout un peuple coupable :</l>
+
+                     <l n="699">Mais je m'étonne enfin qu'un Prince glorieux</l>
+
+                     <l n="700">Fasse aux dépens d'autrui des dons si précieux.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="701">Vous reconnaissez mal nos travaux et nos peines.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="702">Je ne dois rien encore à des faveurs si vaines.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="703">Et par ce sentiment vous nous faites bien voir</l>
+
+                     <l n="704">Que votre coeur trop grand ne veut rien nous devoir.</l>
+
+                     <l n="705">Certes vous faites bien ; quoi que l'on se propose,</l>
+
+                     <l n="706">C'est une honte aux Rois de devoir quelque chose,</l>
+
+                     <l n="707">Et pour vous l'épargner, Seigneur, nous voulons bien</l>
+
+                     <l n="708">Vous laisser en état de ne nous devoir rien.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN, seul.</speaker>
+
+                     <l n="709">Confesse donc ainsi que Rome te surmonte,</l>
+
+                     <l n="710">Si j'en souffre la perte, emportes-en la honte.</l>
+
+                     <l n="711">Et malgré ce lien qui doit unir les Rois</l>
+
+                     <l n="712">Quand la rébellion veut usurper les droits</l>
+
+                     <l n="713">Fait cette injure extrême à la grandeur Royale</l>
+
+                     <l n="714">Que de favoriser un coup qui la ravale.</l>
+
+                     <l n="715">Si je perds un État, c'est perdre plus que moi</l>
+
+                     <l n="716">Que de se déclarer indigne d'être Roi.</l>
+
+               </sp>
+
+            </div>
+
+         </div>
+
+         <div type="acte" n="3">
+            <head>ACTE III</head>
+
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Arons, Marcile. </head>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="717">Oui Marcile, il est vrai, j'aime cette colère</l>
+
+                     <l n="718">Qui doit priver Tarquin du secours de mon Père.</l>
+
+                     <l n="719">Les Romains sont pour moi des peuples précieux</l>
+
+                     <l n="720">Scévole vif ou mort me fait craindre pour eux,</l>
+
+                     <l n="721">Scévole vif ou mort, et que mon âme embrasse</l>
+
+                     <l n="722">Pour mes jours conserver me demande leur grâce,</l>
+
+                     <l n="723">Et veut que pour payer ce qu'il a fait pour moi</l>
+
+                     <l n="724">Je donne à son pays le bien que je lui dois.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="725">Quoi ? Pour un homme seul épargner une ville</l>
+
+                     <l n="726">De la rébellion le refuge et l'asile !</l>
+
+                     <l n="727" part="I">Certes c'est un grand prix.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="727" part="F">Le bienfait est plus grand.</l>
+
+                     <l n="728">Me conseillerais-tu ce que l'honneur défend ?</l>
+
+                     <l n="729">Voudrais-tu secourir un Prince sacrilège</l>
+
+                     <l n="730">Qui se rend le Tyran d'un Roi qui le protège ?</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="731" part="I">Non Seigneur, mais il faut.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="731" part="F">Voilà le Roi qui sort.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="2">
+               <head>SCÈNE II. Porsenne, Arons, Marcile. </head>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="732">Jamais Roi montra-t-il un plus lâche transport ?</l>
+
+                     <l n="733">Voyez s'il veut périr, et causer son naufrage,</l>
+
+                     <l n="734">Nous lui rendons sa gloire, et l'ingrat nous outrage.</l>
+
+                     <l n="735">Le superbe est chassé de ses propres États,</l>
+
+                     <l n="736">Il vient me demander le secours de mon bras,</l>
+
+                     <l n="737">Et l'on dirait à voir l'orgueil qui l'environne</l>
+
+                     <l n="738">Que c'est moi qui demande, et que c'est lui qui donne.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="739">Hé Sire ! Abandonnez ce Prince injurieux</l>
+
+                     <l n="740">Qui nous traite en vassaux, et vous brave à vos yeux ;</l>
+
+                     <l n="741">Prenez l'occasion maintenant favorable</l>
+
+                     <l n="742">D'ôter à votre État un voisin formidable.</l>
+
+                     <l n="743">Qu'on ne dise point qu'il est de votre honneur</l>
+
+                     <l n="744">De relever encore son Trône et son bonheur,</l>
+
+                     <l n="745">Vous avez assez fait pour votre propre gloire</l>
+
+                     <l n="746">D'avoir pu dans ses mains enchaîner la victoire,</l>
+
+                     <l n="747">Vous avez assez fait de montrer aux Romains,</l>
+
+                     <l n="748">Que leurs murs tomberaient si vous leviez les mains ;</l>
+
+                     <l n="749">Quelle loi maintenant, quel honneur vous engage</l>
+
+                     <l n="750">À rétablir un Roi qui vous fait un outrage ?</l>
+
+                     <l n="751">Et quel illustre excès de générosité</l>
+
+                     <l n="752">Peut inspirer l'oubli de cette indignité !</l>
+
+                     <l n="753">Un Roi peut oublier sans offenser sa gloire</l>
+
+                     <l n="754">D'un sujet criminel la faute la plus noire :</l>
+
+                     <l n="755">Mais lorsque par les Rois les Rois sont outragés,</l>
+
+                     <l n="756">Ils doivent tout tenter afin d'être vengés ;</l>
+
+                     <l n="757">Ou si de leurs pareils ils souffrent quelque offense,</l>
+
+                     <l n="758">Ils se font soupçonner de crainte et d'impuissance,</l>
+
+                     <l n="759">Et plus que le malheur de cent tristes exploits,</l>
+
+                     <l n="760">L'impuissance et la peur déshonorent les Rois.</l>
+
+                     <l n="761">Montrez donc que sans vous la Fortune ennemie</l>
+
+                     <l n="762">Pour l'injuste Tarquin n'a que de l'infamie.</l>
+
+                     <l n="763">Qu'il tombe, qu'il périsse avec tous ses desseins</l>
+
+                     <l n="764">Pour vous venger de lui, délivrez les Romains,</l>
+
+                     <l n="765">Et que Rome aujourd'hui vous doive la franchise</l>
+
+                     <l n="766">Que de sa vertu seule elle s'était promise.</l>
+
+                     <l n="767">Si les maux de Tarquin, si les impiétés</l>
+
+                     <l n="768">Chassent de son parti tous les Dieux irrités,</l>
+
+                     <l n="769">Son orgueil criminel, et digne du tonnerre</l>
+
+                     <l n="770">En doit aussi châtier tous les Rois de la terre.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="771">Certes ce sentiment est noble, et généreux,</l>
+
+                     <l n="772">Mais l'effet ce me semble en paraît dangereux ;</l>
+
+                     <l n="773">Si vous épargnez Rome, et que votre indulgence</l>
+
+                     <l n="774">Veuille en sa liberté borner votre vengeance,</l>
+
+                     <l n="775">Par cent et cent chemins, Tarquin ne peut-il pas</l>
+
+                     <l n="776">Avec Rome d'accord rentrer dans ses États ?</l>
+
+                     <l n="777">Et pensez-vous qu'alors sa force et sa furie</l>
+
+                     <l n="778">Par vous-même allumée épargne l'Étrurie ?</l>
+
+                     <l n="779">Sire pardonnez-moi, l'on sait mal se venger,</l>
+
+                     <l n="780">Quand après la vengeance on demeure en danger.</l>
+
+                     <l n="781">Rome n'attend plus rien des forces de la terre,</l>
+
+                     <l n="782">Chaque coup qu'on lui donne est un coup de tonnerre,</l>
+
+                     <l n="783">Et dans ce triste état il faut que les Romains</l>
+
+                     <l n="784">Ou nous tendent la gorge, ou nous tendent les mains.</l>
+
+                     <l n="785">Mais après leurs efforts, après leur résistance</l>
+
+                     <l n="786">Qui passent les effets de l'humaine vaillance,</l>
+
+                     <l n="787">Peut-on quitter les murs qui nous séparent d'eux</l>
+
+                     <l n="788">Qu'on ne semble lever un siège si fameux ?</l>
+
+                     <l n="789">Se retirer ainsi, c'est céder la victoire,</l>
+
+                     <l n="790">Et moins abandonner Tarquin que votre gloire.</l>
+
+                     <l n="791">Sire, il faut se venger, mais par de plus grand coups.</l>
+
+                     <l n="792">Vous devez prendre Rome, et la prendre pour vous.</l>
+
+                     <l n="793">Il faut la retenir et tout ce qu'elle enserre</l>
+
+                     <l n="794">Comme un gage assuré des frais de cette guerre,</l>
+
+                     <l n="795">La flatter cependant des douceurs de la paix,</l>
+
+                     <l n="796">Et gagner le Romain à force de bienfaits.</l>
+
+                     <l n="797">Il déteste Tarquin, il nous le fait paraître,</l>
+
+                     <l n="798">Et croira s'en venger s'il peut changer de Maître.</l>
+
+                     <l n="799">Mais pour mieux vous gagner et Rome et les Romains</l>
+
+                     <l n="800">Vous aimâtes Junie achevez vos desseins,</l>
+
+                     <l n="801">Que l'illustre lien d'un pompeux hyménée</l>
+
+                     <l n="802">Attache une Romaine à votre destinée.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="803" part="I">Ce conseil est étrange et peu juste.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="803" part="F">Je crois</l>
+
+                     <l n="804">Qu'il est juste Seigneur, s'il est utile au Roi.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="805">L'utilité d'un Roi sera donc sa justice.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="806">Oui, son bien est la loi qu'il faut qu'il accomplisse.</l>
+
+                     <l n="807">Et quand on ôte un Sceptre à qui n'a su régner,</l>
+
+                     <l n="808">Il appartient à ceux qui le savent gagner.</l>
+
+                  <note type="C">L'original donne comme locuteur suivant Julie, il s'agit de Porsenne. </note>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="809">Certes je hais Tarquin avec sa tyrannie,</l>
+
+                     <l n="810">Et de vos deux conseils... Mais que nous veut Junie ?</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="3">
+               <head>SCÈNE III. Junie, Porsenne, Arons. </head>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="811">Roi couronné deux fois, une fois par ton sang,</l>
+
+                     <l n="812">L'autre par ta vertu qui vaut mieux que ton rang ;</l>
+
+                     <l n="813">Ta générosité me donne ici l'audace</l>
+
+                     <l n="814">De venir demander une seconde grâce.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="815">Demande librement tout ce que tu voudras,</l>
+
+                     <l n="816">Demande aussi nos coeurs, et tu les obtiendras.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="817">Je ne demande rien qui ne soit pour ta gloire,</l>
+
+                     <l n="818">Et qui ne te signale autant qu'une victoire,</l>
+
+                     <l n="819">Tu veux vaincre, Porsenne, et suivant tes desseins</l>
+
+                     <l n="820">Je viens te demander la perte des Romains,</l>
+
+                     <l n="821">Je viens te demander leur honte et leur supplice</l>
+
+                     <l n="822">Si leur parti n'est pas celui de la justice.</l>
+
+                     <l n="823">Regarde donc ici d'un oeil plus curieux,</l>
+
+                     <l n="824">Pour qui s'arme aujourd'hui ton bras officieux,</l>
+
+                     <l n="825">Si c'est pour le secours d'un Prince légitime,</l>
+
+                     <l n="826">Les Romains ont failli, que ton bras les opprime :</l>
+
+                     <l n="827">Mais si pour un Tyran tu désoles nos champs,</l>
+
+                     <l n="828">Vois s'il est glorieux d'assister des Tyrans.</l>
+
+                     <l n="829">Veux-tu voir si Tarquin aima la tyrannie ?</l>
+
+                     <l n="830">Fais-moi taire Seigneur, et fais parler sa vie,</l>
+
+                     <l n="831">Tu verras qu'un grand Roi par ses coups massacré</l>
+
+                     <l n="832">Du trône qu'il usurpe est le premier degré,</l>
+
+                     <l n="833">Et qu'avec les raisons qu'il eut de le défendre</l>
+
+                     <l n="834">Il assassine un Roi qui l'avait fait son gendre.</l>
+
+                     <l n="835">Là pour monter plutôt sur un trône charmant,</l>
+
+                     <l n="836">Mais du sang de son père encore tout fumant,</l>
+
+                     <l n="837">Tu verras de Tarquin la femme sanguinaire</l>
+
+                     <l n="838">Faire passer son char sur le corps de son père.</l>
+
+                     <l n="839">Bien qu'à ce triste aspect ses chevaux pleins d'effroi</l>
+
+                     <l n="840">Semblassent respecter le cadavre d'un Roi.</l>
+
+                     <l n="841">Encore si d'un Règne acquis par violence</l>
+
+                     <l n="842">La suite eût excusé la tragique naissance.</l>
+
+                     <l n="843">Mais toujours sur un trône injuste et profané,</l>
+
+                     <l n="844">Le crime avec Tarquin demeura couronné,</l>
+
+                     <l n="845">S'il a donc par le crime une couronne acquise,</l>
+
+                     <l n="846">S'il en usa plus mal qu'il ne l'avait conquise</l>
+
+                     <l n="847">Quand Rome l'a chassé, quand Rome l'a banni,</l>
+
+                     <l n="848">N'est-ce pas un Tyran que sa haine a puni ?</l>
+
+                     <l n="849">Ainsi Rome a donné de glorieuses marques</l>
+
+                     <l n="850">De ce juste respect qu'elle a pour les Monarques ;</l>
+
+                     <l n="851">Peut-elle mieux montrer qu'elle honore les Rois,</l>
+
+                     <l n="852">Qu'en punissant celui qui dérobe leurs droits,</l>
+
+                     <l n="853">Et dont l'âme de sang injuste et déloyale</l>
+
+                     <l n="854">Souille avec tant d'horreur la Majesté Royale.</l>
+
+                     <l n="855">Cette ville invincible en vient de mériter</l>
+
+                     <l n="856">Que les forces du Ciel la vinssent assister.</l>
+
+                     <l n="857">Jette l'oeil sur Horace et sur son aventure,</l>
+
+                     <l n="858">A-t-elle quelques traits qui soient de la Nature ?</l>
+
+                     <l n="859">Avoir seul combattu mille et mille soldats,</l>
+
+                     <l n="860">Avoir seul arrêté leur fureur et leurs pas,</l>
+
+                     <l n="861">Avoir seul tout couvert de splendeur et de gloire</l>
+
+                     <l n="862">Aux forces de deux Rois dérobé la victoire,</l>
+
+                     <l n="863">C'est sans doute un effet que l'homme audacieux</l>
+
+                     <l n="864">Ne peut s'attribuer sans le ravir aux Dieux,</l>
+
+                     <l n="865">C'est sans doute un effet qui doit assez t'instruire</l>
+
+                     <l n="866">Que tous les Dieux en lui soutiennent notre Empire.</l>
+
+                     <l n="867">Cependant ô prodige ! Un Roi si glorieux</l>
+
+                     <l n="868">Combat pour un Tyran, contre Rome, et les Dieux,</l>
+
+                     <l n="869">Il cherche pour le crime une infâme victoire,</l>
+
+                     <l n="870">Et met tout l'Univers en doute de sa gloire.</l>
+
+                     <l n="871">Cherche, cherche des noms et plus beaux et plus grands</l>
+
+                     <l n="872">Que de restaurateur du crime des Tyrans.</l>
+
+                     <l n="873">Pour moi qui te souhaite une palme honorable,</l>
+
+                     <l n="874">Pour moi que tes bontés rendent ta redevable,</l>
+
+                     <l n="875">J'ai cru pour m'acquitter te devoir ce discours</l>
+
+                     <l n="876">Qui doit sauver ta gloire, et peut-être tes jours.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="877">Si j'ai de quelque grâce honoré ton mérite,</l>
+
+                     <l n="878">Le bien que tu me veux me paye et te rend quitte.</l>
+
+                     <l n="879">Mais enfin il est temps que nous te fassions voir</l>
+
+                     <l n="880">Combien dessus nos coeurs tes yeux ont de pouvoir.</l>
+
+                     <l n="881">Rome, Rome est trop peu, ton destin nous demande</l>
+
+                     <l n="882">Avec plus de justice une gloire plus grande.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="883">À ce rare bienfait Seigneur, n'ajoute rien,</l>
+
+                     <l n="884">Il suffit pour ta gloire, il suffit pour mon bien.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="885">Rome est trop peu pour toi, Noble, et chère adversaire.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="886">Si mon pays est peu, quel don peux-tu me faire ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="887">Des dons dignes de toi, des dons si précieux,</l>
+
+                     <l n="888">Que le Ciel n'en fait point qui soient plus glorieux,</l>
+
+                     <l n="889">Nous voulons sur ta tête attacher la couronne,</l>
+
+                     <l n="890">Nous voulons te donner le pouvoir qu'elle donne,</l>
+
+                     <l n="891">Et te faire avouer par des biens inouïs,</l>
+
+                     <l n="892">Qu'où l'on trouve le Sceptre on trouve son pays.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="893">Quoi tu veux me donner un empire et ses charmes,</l>
+
+                     <l n="894">Et tu refuseras mon pays à mes larmes ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="895">Certes j'en suis fâché ; je ne puis te flatter,</l>
+
+                     <l n="896">Mon honneur le demande, il le faut contenter.</l>
+
+                     <l n="897" part="I">Mets donc en oubli Rome.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="897" part="F">Oublier ma Patrie !</l>
+
+                     <l n="898">Est-ce un Roi qui me parle, ou Tarquin en furie ?</l>
+
+                     <l n="899">Car ce sont les Tyrans, et non pas les vrais Rois</l>
+
+                     <l n="900">Qui prescrivent aux coeurs de si cruelles lois.</l>
+
+                     <l n="901">Oublier mon Pays ! Je ne puis me contraindre,</l>
+
+                     <l n="902" part="I">Seigneur que dites-vous ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="902" part="F">De quoi peux-tu te plaindre</l>
+
+                     <l n="903">Si je donne à ton sort aujourd'hui languissant</l>
+
+                     <l n="904">Pour des murs ruinés un trône florissant ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="905">Peut-être que ce trône est plus prêt de sa chute,</l>
+
+                     <l n="906">Que ces murs ruinés que ton bras nous dispute.</l>
+
+                     <l n="907">Peut-être que le Ciel qui borne ton pouvoir</l>
+
+                     <l n="908">Lui conserve un appui qui va te faire choir.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="909">Puisque notre grandeur doit être ton partage</l>
+
+                     <l n="910">Fais ici des souhaits plus à notre avantage,</l>
+
+                     <l n="911">Ton sort m'est précieux, et peut-être qu'un jour</l>
+
+                     <l n="912">Entre les plus grands biens tu mettras mon Amour.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="913" part="I">Ton amour !</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="913" part="F">Je sais bien que mon âge t'offense :</l>
+
+                     <l n="914">Mais regarde ce Prince orné de ma puissance,</l>
+
+                     <l n="915">C'est mon fils, c'est enfin l'esclave couronné</l>
+
+                     <l n="916">Que tes yeux gagneront s'ils ne l'ont pas gagné.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="917">Mais tourne un peu les yeux, vois Rome, et lui demande</l>
+
+                     <l n="918">Ce qu'il faut que je fasse, et ce qu'elle commande.</l>
+
+                     <l n="919">À quelque grand hymen qu'on m'aille assujettir,</l>
+
+                     <l n="920">Porsenne c'est ma mère, elle y doit consentir.</l>
+
+                     <l n="921">Parle donc, réponds-nous ô Rome combattue ;</l>
+
+                     <l n="922">Dois-je joindre ma main à la main qui te tue ?</l>
+
+                     <l n="923">Quoi tu voudras dans Rome établir les Enfers !</l>
+
+                     <l n="924">Quoi tu la couvriras et de sang et de fers !</l>
+
+                     <l n="925">Sont-ce là les appas dont le sage Porsenne</l>
+
+                     <l n="926">Croit attirer à soi le coeur d'une Romaine ?</l>
+
+                     <l n="927">Aimerais-tu ton fils s'il aimait le vainqueur</l>
+
+                     <l n="928">Dont la sanglante main te percerait le coeur ?</l>
+
+                     <l n="929">Et voyant ma Patrie à mes yeux combattue</l>
+
+                     <l n="930">Dois-je joindre ma main à la main qui la tue ?</l>
+
+                     <l n="931" part="I">Non, non, Seigneur.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="931" part="F">Adieu, tu m'écouteras mieux,</l>
+
+                     <l n="932">Quand nos justes desseins paraîtront à tes yeux.</l>
+
+                     <l n="933">Mais Marcile, est-on prêt pour la revue ?</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="934">Oui Sire, et tous vos chefs ont cette loi reçue.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="935">Allons donc, cependant ma fille songe à toi,</l>
+
+                     <l n="936">Considère les biens que te présente un Roi.</l>
+
+                     <l n="937">Lorsque pour sa patrie on manque de puissance,</l>
+
+                     <l n="938">On peut songer sans crime à sa propre défense.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE seule.</speaker>
+
+                     <l n="939">Alors il faut périr ; mais dans le même temps</l>
+
+                     <l n="940">Il faut sous sa ruine accabler ses Tyrans.</l>
+
+                     <l n="941">Ô Scévole ! Ô Patrie ! Ô mourantes merveilles !</l>
+
+                     <l n="942">Comme j'ai pour vous deux des tendresses pareilles,</l>
+
+                     <l n="943">À tous deux équitable hélas j'ai fait des voeux,</l>
+
+                     <l n="944">Et même des efforts pour vous sauver tous deux.</l>
+
+                     <l n="945">Mais soit que le Destin s'offre ici pour obstacle,</l>
+
+                     <l n="946">Soit que pour sauver Rome il réserve un miracle,</l>
+
+                     <l n="947">Hélas ! De deux objets que j'aime également,</l>
+
+                     <l n="948">Dont l'un est ma Patrie, et l'autre mon Amant,</l>
+
+                     <l n="949">Il faut exposer l'un, et n'être pas certaine</l>
+
+                     <l n="950">Que sa perte et sa mort tire l'autre de peine.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Scévole, Junie. </head>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="951" part="I">Hé bien, qu'avez-vous fait ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="951" part="F">Je t'ai mis en état</l>
+
+                     <l n="952">D'obéir justement aux ordres du Sénat.</l>
+
+                     <l n="953">Et par quelques grands coups que ta fureur éclate</l>
+
+                     <l n="954">Je me suis mise au point de n'être plus ingrate.</l>
+
+                     <l n="955">J'ai tâché de sauver ce déplorable Roi</l>
+
+                     <l n="956">Pour payer noblement le bien que je lui dois.</l>
+
+                     <l n="957">Mais enfin je suis quitte avecques sa puissance,</l>
+
+                     <l n="958">Puisqu'il a refusé notre reconnaissance ;</l>
+
+                     <l n="959">Et bien qu'il ait un coeur grand, généreux et fort,</l>
+
+                     <l n="960">Puisqu'il aide un Tyran il est digne de mort.</l>
+
+                     <l n="961" part="I">Va donc, va, mais hélas !</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="961" part="F">Quoi la fille de Brute</l>
+
+                     <l n="962">Entre Rome et Porsenne est encore en dispute.</l>
+
+                     <l n="963" part="I">Elle craint...</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="963" part="F">Oui je crains : mais hélas c'est pour toi,</l>
+
+                     <l n="964">Le danger qui te suit me donne de l'effroi.</l>
+
+                     <l n="965">Et ta vertu qui court où le péril l'appelle</l>
+
+                     <l n="966">Mérite pour le moins que l'on craigne pour elle.</l>
+
+                     <l n="967">S'il n'est point de Romain qui ne te doive un prix</l>
+
+                     <l n="968">Pour cet acte fameux qu'a ton bras entrepris,</l>
+
+                     <l n="969">Hélas ! Ne pouvant rien où je suis si contrainte,</l>
+
+                     <l n="970">Pour le moins pour ton prix je te donne ma crainte.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="971">Si le danger est grand, et tel que je le crois,</l>
+
+                     <l n="972">Excite-moi plutôt que de craindre pour moi,</l>
+
+                     <l n="973">Ou si tu veux me faire une ample récompense</l>
+
+                     <l n="974">Dis que d'un peu d'amour ta crainte a pris naissance,</l>
+
+                     <l n="975">Je suis hors de danger, je suis déjà vainqueur</l>
+
+                     <l n="976">Si je puis en partant me laisser dans ton coeur.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="977">Quoi ? Lorsque ton courage et ta noble furie</l>
+
+                     <l n="978">Veut briser par tes mains les fers de la Patrie,</l>
+
+                     <l n="979">Faut-il nous demander la fin de nos rigueurs ?</l>
+
+                     <l n="980">Faut-il nous demander notre Amour et nos coeurs ?</l>
+
+                     <l n="981">Ne dois-tu pas juger par des vertus si grandes</l>
+
+                     <l n="982">Qu'on t'a déjà donné ce que tu nous demandes ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="983">Quoi ? Ton Amour Junie ! Ô trop charmant discours !</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="984">Bref tu portes mon coeur au danger où tu cours.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="985" part="I">Vous m'aimez !</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="985" part="F">Mais enfin que cela te convie</l>
+
+                     <l n="986">Non pas à différer de hasarder ta vie ;</l>
+
+                     <l n="987">Mais à me faire voir par une belle mort</l>
+
+                     <l n="988">Que je devais plutôt t'avouer ce transport.</l>
+
+                     <l n="989">Car enfin ou vainqueur, ou vaincu de Porsenne,</l>
+
+                     <l n="990">Je le dis en pleurant, ta ruine est certaine.</l>
+
+                     <l n="991">Peux-tu frapper un Roi de sa force assisté ?</l>
+
+                     <l n="992">Ou peux-tu le manquer avec impunité ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="993">Ainsi n'appartient-il qu'à la vertu Romaine</l>
+
+                     <l n="994">De courir à la mort et visible et certaine.</l>
+
+                     <l n="995">Mon trépas sera beau, superbe, et renommé</l>
+
+                     <l n="996">Si je péris pour Rome, et si je meurs aimé.</l>
+
+                     <l n="997">J'avais cru que l'honneur, j'avais cru que la gloire</l>
+
+                     <l n="998">Pouvait seule payer ma mort ou ma victoire.</l>
+
+                     <l n="999">Mais enfin ton Amour m'apprend à cette fois</l>
+
+                     <l n="1000">Que l'amour peur payer les plus nobles exploits.</l>
+
+                     <l n="1001">Soit que pour m'exciter tu feignes cette flamme,</l>
+
+                     <l n="1002">Soit qu'un feu véritable échauffe ta belle âme,</l>
+
+                     <l n="1003">Je vais d'un même pas, et d'un pareil effort</l>
+
+                     <l n="1004">Chercher dans le péril la victoire ou la mort.</l>
+
+                     <l n="1005">Si tu feins de m'aimer, ô fille incomparable,</l>
+
+                     <l n="1006">Je m'en vais mériter une amour véritable, </l>
+
+                     <l n="1007">Ou si d'un pur amour ton coeur est enflammé,</l>
+
+                     <l n="1008">Je vais en mériter d'être encor plus aimé.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1009">Moi, moi pour t'exciter feindre ici que je t'aime !</l>
+
+                     <l n="1010">Oui Scévole il est vrai, mon amour est extrême :</l>
+
+                     <l n="1011">Mais lorsque la Patrie a besoin de ton bras,</l>
+
+                     <l n="1012">S'il fallait t'exciter je ne t'aimerais pas,</l>
+
+                     <l n="1013">Car enfin la vertu ruine son mérite,</l>
+
+                     <l n="1014">Et n'est jamais vertu quand il faut qu'on l'excite.</l>
+
+                     <l n="1015">Je t'aime et je te vois d'un oeil presque envieux</l>
+
+                     <l n="1016">Tenter pour le pays un péril glorieux.</l>
+
+                     <l n="1017">Ce n'est pas que mon âme à la tristesse ouverte</l>
+
+                     <l n="1018">Ne ressente déjà les douleurs de ta perte.</l>
+
+                     <l n="1019">Déjà mon coeur privé de l'espoir de tout bien</l>
+
+                     <l n="1020">Est traversé des traits qui vont percer le tien ;</l>
+
+                     <l n="1021">Et peu s'en faut Scévole en pareille aventure</l>
+
+                     <l n="1022">Que contre ta vertu mon amour ne murmure.</l>
+
+                     <l n="1023">Mais à quelque péril qu'elle t'aille jeter,</l>
+
+                     <l n="1024">Loin de me plaindre d'elle il la faut imiter.</l>
+
+                     <l n="1025">Tu t'exposes Scévole en illustre en grand homme,</l>
+
+                     <l n="1026">Et si je ne puis rien pour le salut de Rome,</l>
+
+                     <l n="1027">J'y veux contribuer par le consentement</l>
+
+                     <l n="1028">Que je donne au dessein qui m'enlève un Amant :</l>
+
+                     <l n="1029">Ainsi pour le pays je ferai quelque chose,</l>
+
+                     <l n="1030">Au moins en consentant que Scévole s'expose.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1031">Ô d'un coeur généreux digne consentement !</l>
+
+                     <l n="1032">Sans lui j'eusse à regret exposé ton Amant ;</l>
+
+                     <l n="1033">Et par lui ta belle âme aura part à la gloire</l>
+
+                     <l n="1034">Ou bien de mon trépas, ou bien de ma victoire.</l>
+
+                     <l n="1035" part="I">Quoi tu pleures Junie ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1035" part="F">Et Rome doit pleurer</l>
+
+                     <l n="1036">Quand tu cours à la mort afin de l'en tirer.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1037" part="I">Adieu je crains tes pleurs.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1037" part="F">Quoi que les Dieux t'apprêtent</l>
+
+                     <l n="1038">Ma main te poussera si mes larmes s'arrêtent.</l>
+
+                     <l n="1039">Va, tu ne peux mourir d'un plus noble trépas,</l>
+
+                     <l n="1040">Mais l'amour peut-il perdre et ne soupirer pas ?</l>
+
+               </sp>
+
+            </div>
+
+         </div>
+
+         <div type="acte" n="4">
+            <head>ACTE IV</head>
+
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Junie, Fulvie. </head>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1041">Porsenne est mort dis-tu ? Le sais-tu bien Fulvie ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="1042">Le bruit en est trop grand ; il a perdu la vie.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1043">Sais-tu si l'on a pris celui qui l'a frappé ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="1044">Sanglant de ce grand meurtre on le croit échappé.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1045">On le croit échappé ? Bons Dieux est-il possible ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="1046">D'où vient qu'à son salut vous êtes si sensible ?</l>
+
+                     <l n="1047">Savez-vous de quel bras vient ce coup furieux ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1048">Il ne saurait venir que d'un bras glorieux,</l>
+
+                     <l n="1049">Et l'on doit prendre part aux intérêts d'un homme</l>
+
+                     <l n="1050">Qui d'un tel ennemi vient de délivrer Rome.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="1051">Et cependant on dit que l'infâme Tarquin</l>
+
+                     <l n="1052">Contre Porsenne même a poussé l'assassin</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1053" part="I">Sur quoi fonder ce bruit ?</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="1053" part="F">Ayant cru que Porsenne</l>
+
+                     <l n="1054">Voulait favoriser la liberté romaine,</l>
+
+                     <l n="1055">On dit qu'il aima mieux ce Tyran inhumain</l>
+
+                     <l n="1056">Faire choir son appui que d'en être incertain.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1057">Tant mieux, s'il a fait choir l'appui qui le supporte,</l>
+
+                     <l n="1058">L'ennemi des Romains rend leur cause plus forte.</l>
+
+                     <l n="1059" part="I">Au moins il a fait voir.</l>
+
+               </sp>
+
+               <sp who="tc0386-FULVIE">
+                  <speaker>FULVIE.</speaker>
+
+                     <l n="1059" part="F">Mais j'entends quelque bruit.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1060">Ô dieux qu'ai-je aperçu, c'est Scévole qu'on suit !</l>
+
+                     <l n="1061">Il se défend en vain et le nombre l'accable.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="2">
+               <head>SCÈNE II. Marcile, Scévole. </head>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1062">Tu fuis, tu fuis en vain parricide exécrable.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1063">Non, non je ne fuis pas, je retourne aux Romains</l>
+
+                     <l n="1064">Pour leur rendre raison de ce qu'on fait mes mains.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1065" part="I">Tu n'iras pas si loin.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1065" part="F">C'est assez pour ma gloire</l>
+
+                     <l n="1066">Que je pousse chez eux le bruit de ma victoire.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="3">
+               <head>SCÈNE III. Arons, Marcile, Scévole. </head>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1067" part="I">Est-il pris ?</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1067" part="F">Le voilà ce butin des Enfers.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1068">Le voilà le fléau des Tyrans que tu sers.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1069" part="I">Ô Dieux qu'ai-je aperçu ? Scévole !</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1069" part="F">C'est lui-même.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1070">Scévole à qui je dois plus que le Diadème,</l>
+
+                     <l n="1071">Dont le bras obligeant a combattu pour moi,</l>
+
+                     <l n="1072">Dont le bras outrageux s'arme contre mon Roi.</l>
+
+                     <l n="1073">Libérateur du Fils, mais assassin du Père,</l>
+
+                     <l n="1074">Parmi tant de sujets d'amour et de colère,</l>
+
+                     <l n="1075" part="I">Comment t'appellerai-je ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1075" part="F">Ami de volonté,</l>
+
+                     <l n="1076">Ennemi seulement pour la nécessité.</l>
+
+                     <l n="1077">Je t'aime cher Arons, et si quelque tempête</l>
+
+                     <l n="1078">Encore à ton malheur penchait dessus ta tête</l>
+
+                     <l n="1079">Tu me verrais encore armé pour ton secours</l>
+
+                     <l n="1080">Prodiguer tout mon sang pour conserver tes jours.</l>
+
+                     <l n="1081">Mais si comme ton Père abusant de tes armes,</l>
+
+                     <l n="1082">À notre liberté tu donnais des alarmes,</l>
+
+                     <l n="1083">Si tu faisais servir ta puissance et tes droits</l>
+
+                     <l n="1084">À remettre un Tyran dans le trône des Rois,</l>
+
+                     <l n="1085">Moi-même transporté d'une noble colère,</l>
+
+                     <l n="1086">Je confondrais ton sang dans celui de ton Père.</l>
+
+                     <l n="1087">J'ai prolongé tes jours, j'en chercherais la fin,</l>
+
+                     <l n="1088">Et qui fut ton ami serait ton assassin.</l>
+
+                     <l n="1089">De quelques puissants noeuds dont l'amitié nous lie,</l>
+
+                     <l n="1090">L'amitié ne peut vivre avec la tyrannie ;</l>
+
+                     <l n="1091">Enfin si des Tarquins tu te rends le soutien</l>
+
+                     <l n="1092">Un ami des Tyrans ne peut être le mien.</l>
+
+                     <l n="1093">Que si ton coeur plus juste abandonne et déteste</l>
+
+                     <l n="1094">À tous les potentats un parti si funeste,</l>
+
+                     <l n="1095">Même quand ta fureur résoudra mon trépas</l>
+
+                     <l n="1096">Je t'aimerai toujours, je ne me plaindrai pas :</l>
+
+                     <l n="1097">Car enfin il est juste, et comme nécessaire</l>
+
+                     <l n="1098">Que tu venges sur moi le meurtre de ton Père.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1099">L'effet a démenti ce dessein malheureux</l>
+
+                     <l n="1100">Qui te déclare injuste, et non pas généreux,</l>
+
+                     <l n="1101">Et ton coeur où l'Enfer a sa rage attisée,</l>
+
+                     <l n="1102">Est bien plus criminel que ta main abusée.</l>
+
+                     <l n="1103" part="I">Porsenne vit.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1103" part="F">Les Dieux contre lui conjurés</l>
+
+                     <l n="1104">Conduisent mieux les coups qu'ils nous ont inspirés.</l>
+
+                     <l n="1105">Ton Père est mort Arons, et mon bras t'en assure.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1106">Il est vivant Scévole, et mon oeil te le jure.</l>
+
+                     <l n="1107">Et quelque coup mortel que ton bras ait poussé,</l>
+
+                     <l n="1108">Porsenne triomphant n'est pas même blessé.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1109" part="I">Porsenne n'est pas mort ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1109" part="F">Loin de ce mal extrême,</l>
+
+                     <l n="1110">Il aura le plaisir de se venger lui-même.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1111">Comment as-tu manqué ce coup que j'attendais ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1112">Pour n'avoir pas connu celui que j'attaquais,</l>
+
+                     <l n="1113">Pour n'avoir pas osé me le faire connaître,</l>
+
+                     <l n="1114">De crainte qu'en parlant je me fisse paraître,</l>
+
+                     <l n="1115">Et que sur un soupçon je fusse retenu</l>
+
+                     <l n="1116">En montrant que le Roi me serait inconnu.</l>
+
+                     <l n="1117">J'ai donc frappé celui qu'une apparence vaine</l>
+
+                     <l n="1118">M'a fait considérer et prendre pour Porsenne.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1119">Ta vie est en péril, tu m'as sauvé la mienne,</l>
+
+                     <l n="1120">Et me réduis au point de poursuivre la tienne.</l>
+
+                     <l n="1121">Ô toi qui vis ma mort et la sus détourner,</l>
+
+                     <l n="1122">Puis-je sans être ingrat, puis-je t'abandonner ?</l>
+
+                     <l n="1123">Ô toi qui de mon Père as attaqué la vie,</l>
+
+                     <l n="1124">Puis-je te secourir sans me montrer impie ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1125">Non, non, je suis plus juste, et je ne voudrais pas</l>
+
+                     <l n="1126">Par une impiété me sauver du trépas.</l>
+
+                     <l n="1127">Fais le devoir d'un fils, et dans cette aventure</l>
+
+                     <l n="1128">Sois sourd à l'amitié pour ouïr la nature.</l>
+
+                     <l n="1129">Prends le parti d'un père, et pour venger ses droits</l>
+
+                     <l n="1130">Je t'acquitte aujourd'hui de ce que tu me dois.</l>
+
+                     <l n="1131">Je suis coupable Arons ; mais quoi qu'on délibère</l>
+
+                     <l n="1132">Mon crime est seulement d'avoir manqué ton Père.</l>
+
+                     <l n="1133">Ô Rome ! Ô mon pays pardonne cette erreur,</l>
+
+                     <l n="1134">La faute est de mon bras, et non pas de mon coeur,</l>
+
+                     <l n="1135">La faute est de mon bras, non pas de mon courage</l>
+
+                     <l n="1136">Qui peur de cent Tyrans exciter le naufrage ;</l>
+
+                     <l n="1137">Ou plutôt si Porsenne évite le trépas,</l>
+
+                     <l n="1138">La faute est du hasard, et non pas de mon bras.</l>
+
+                     <l n="1139">Je confesse pourtant, généreuse Romaine,</l>
+
+                     <l n="1140">Que ce grand coup manqué doit m'attirer ta haine,</l>
+
+                     <l n="1141">Puisque quand il s'agit de faire de grands coups</l>
+
+                     <l n="1142">Les fautes du hasard sont des crimes pour nous.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1143">Il suffit que ton bras ait fait voir à Porsenne</l>
+
+                     <l n="1144">Ce qu'il doit redouter de la vertu romaine.</l>
+
+                     <l n="1145">Il a vu ton courage, et le redoutera,</l>
+
+                     <l n="1146">Quand même sa fureur te persécutera.</l>
+
+                     <l n="1147">Pour moi si ta vertu tant de fois témoignée,</l>
+
+                     <l n="1148">Comme un prix qui t'est dû ne m'avait pas gagnée</l>
+
+                     <l n="1149">Tu me conquêterais par ce fameux dessein</l>
+
+                     <l n="1150">Qui te rend vénérable à l'Empire Romain,</l>
+
+                     <l n="1151">N'ayant pu te montrer plus grand ni plus aimable</l>
+
+                     <l n="1152">Que par ce beau projet sous qui le sort t'accable.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1153">Dissimule du moins ce cruel sentiment</l>
+
+                     <l n="1154">Et demeure innocente au moins apparemment.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1155">Apprends à me connaître, et crois que mon estime</l>
+
+                     <l n="1156">Consiste à seconder un si célèbre crime,</l>
+
+                     <l n="1157">J'ai part au grand dessein que Scévole en a fait,</l>
+
+                     <l n="1158">Sache que je voudrais avoir part à l'effet.</l>
+
+                     <l n="1159">Je te plains toutefois d'être sorti d'un Père</l>
+
+                     <l n="1160">Dont le meurtre est un coup que la vertu suggère.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1161" part="I">N'augmente point le mal.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1161" part="F">Seigneur permettez-moi</l>
+
+                     <l n="1162">D'accomplir les désirs, et les ordres du roi.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1163" part="I">Quels ordres ?</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1163" part="F">De mener devant lui le coupable.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1164">Père Ami que vos droits me rendent misérable.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1165">Adieu, c'est trop payer ce que j'ai fait pour toi,</l>
+
+                     <l n="1166">Que de te partager entre ton père et moi.</l>
+
+                     <l n="1167">Et toi dans le grand coeur veut être mon complice,</l>
+
+                     <l n="1168">Aime, aime ton pays sans briguer mon supplice ;</l>
+
+                     <l n="1169">Et si pour toi le Ciel se rendant plus humain</l>
+
+                     <l n="1170">Te reconduit un jour chez le peuple Romain,</l>
+
+                     <l n="1171">Dis-lui que je suis mort, non par l'injuste peine</l>
+
+                     <l n="1172">Que me va préparer le fureur de Porsenne,</l>
+
+                     <l n="1173">Mais par le seul regret pire que cent trépas,</l>
+
+                     <l n="1174">D'avoir pour le pays mal employé mon bras.</l>
+
+                     <l n="1175">Voilà, voilà mon crime, allons donc au supplice,</l>
+
+                     <l n="1176">J'ai manqué d'aider Rome, il faut qu&#x91;on me punisse.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1177">Au moins tu mourras digne en ce célèbre jour</l>
+
+                     <l n="1178">D'être gendre de Brute et d'avoir mon Amour.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1179">Son amour ! Qu'ai-je ouï ? Quoi, mon rival Scévole.</l>
+
+                     <l n="1180">Demeure un peu Junie, encore une parole.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1181" part="I">J'en ai trop dit Arons.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1181" part="F">Ô sort prodigieux !</l>
+
+                     <l n="1182" part="I">Ô Dieux que ferons-nous ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1182" part="F">Consultes-tu les Dieux ?</l>
+
+                     <l n="1183">Les Dieux te répondront que pour les satisfaire</l>
+
+                     <l n="1184">Un fils doit souhaiter la perte de son père</l>
+
+                     <l n="1185">Plutôt que de souffrir que pour des maux plus grands</l>
+
+                     <l n="1186">Il devienne Tyran en servant des Tyrans.</l>
+
+                     <l n="1187" part="I">Adieu fais ton devoir.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1187" part="F">Quoi que je puisse faire</l>
+
+                     <l n="1188">Si je fais mon devoir, je me serai contraire.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Tarquin, Porsenne. </head>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1189">Sur un bruit qui m'outrage, et que quelque Démon</l>
+
+                     <l n="1190">Sème de tous côtés pour noircir mon renom,</l>
+
+                     <l n="1191">Je viens me présenter moi-même comme otage</l>
+
+                     <l n="1192">Et pour votre assurance et pour votre avantage.</l>
+
+                     <l n="1193">Quoi ? L'on m'accusera sans respect de mon rang</l>
+
+                     <l n="1194">D'avoir cherché des mains pour verser votre sang.</l>
+
+                     <l n="1195">Non, non, si contre vous quelque raison m'anime</l>
+
+                     <l n="1196">Je sais bien me venger sans le secours d'un crime,</l>
+
+                     <l n="1197">Et lorsqu'on a blessé ma gloire ou mes États</l>
+
+                     <l n="1198">Je sais faire la guerre et non des attentats.</l>
+
+                     <l n="1199">Je viens donc maintenant ou pour vous satisfaire</l>
+
+                     <l n="1200">Si je suis convaincu de ce coup sanguinaire,</l>
+
+                     <l n="1201">Ou pour être par vous moi-même satisfait</l>
+
+                     <l n="1202">Si l'on m'accuse à tort d'un si lâche forfait.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1203">On poursuit maintenant l'auteur de l'entreprise,</l>
+
+                     <l n="1204">Et nous serons tous deux satisfaits par sa prise.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1205">Il ne faut point douter que ce coup inhumain</l>
+
+                     <l n="1206">Ne soit un attentat du rebelle Romain,</l>
+
+                     <l n="1207">Il croit qu'ayant aux Rois la couronne ravie,</l>
+
+                     <l n="1208">L'ouvrage est imparfait s'il n'attente à leur vie,</l>
+
+                     <l n="1209">Mais comment s'est commis cet horrible forfait.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1210">J'ai vu plutôt du sang que le bras qui l'a fait.</l>
+
+                     <l n="1211">J'écoutais les raisons de quelques gens de guerre</l>
+
+                     <l n="1212">Quand j'ai vu luire un fer, et Stace choir à terre.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1213">Qui vous fait donc juger qu'on s'adressait à vous.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1214">Ce qu'a dit l'assassin en lui portant ses coups ?</l>
+
+                     <l n="1215">Meurs Porsenne a-t-il dit ; chacun a pu l'entendre,</l>
+
+                     <l n="1216" part="I">Il frappe et fuit soudain.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1216" part="F">Et l'on n'a pu le prendre ?</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="5">
+               <head>SCÈNE V. Porsenne, Marcile, Tarquin, Scévole. </head>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1217" part="I">Hé bien.</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1217" part="M">Sire il est pris.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1217" part="F">Qu'on le fasse venir.</l>
+
+                     <l n="1218">Il faut que mon aspect commence à le punir.</l>
+
+                     <l n="1219">Il faut... Mais le voici plein d'orgueil et d'audace,</l>
+
+                     <l n="1220">Si sa main n'est armée, au moins son front menace.</l>
+
+                     <l n="1221">Et l'on dirait qu'il vienne avec même dessein</l>
+
+                     <l n="1222">Achever par ses yeux ce que tenta sa main.</l>
+
+                     <l n="1223" part="I">Quel es-tu malheureux ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1223" part="F">Je suis Romain, Porsenne,</l>
+
+                     <l n="1224">Et tu vois sur mon front la liberté romaine.</l>
+
+                     <l n="1225">J'ai d'un bras que l'honneur a toujours affermi</l>
+
+                     <l n="1226">Tâché comme ennemi de perdre l'ennemi.</l>
+
+                     <l n="1227">Et maintenant qu'un sort plein d'horreur et de blâme,</l>
+
+                     <l n="1228">M'expose à la fureur que j'allume en ton âme,</l>
+
+                     <l n="1229">Je n'ai pas moins de coeur pour souffrir pour mourir</l>
+
+                     <l n="1230">Que j'en ai témoigné pour te faire périr.</l>
+
+                     <l n="1231">J'avais conclu ta mort, ordonnes-tu la mienne ?</l>
+
+                     <l n="1232">J'y cours d'un même pas que j'allais à la tienne.</l>
+
+                     <l n="1233">Enfin je suis Romain ; et de quelques horreurs</l>
+
+                     <l n="1234">Que tu puisses sur moi signaler tes fureurs,</l>
+
+                     <l n="1235">Le propre des Romains en tous lieux invincibles,</l>
+
+                     <l n="1236">C'est de faire et souffrir les choses impossibles.</l>
+
+                     <l n="1237">Frappe voilà mon coeur ; mais ne présume pas</l>
+
+                     <l n="1238">Par mon sang répandu te sauver du trépas,</l>
+
+                     <l n="1239">D'autres coeurs que le mien forment la même envie,</l>
+
+                     <l n="1240">D'autres bras que le mien s'arment contre ta vie,</l>
+
+                     <l n="1241">Et mille transportés d'un courage aussi fort</l>
+
+                     <l n="1242">Recherchent comme moi la gloire de ta mort.</l>
+
+                     <l n="1243">Résous-toi Porsenne à ce péril extrême</l>
+
+                     <l n="1244">De donner chaque instant des combats pour toi-même,</l>
+
+                     <l n="1245">Et d'avoir l'ennemi tôt ou tard ton vainqueur,</l>
+
+                     <l n="1246">Toujours dans ton Palais et proche de ton coeur.</l>
+
+                     <l n="1247">La jeunesse romaine à la foudre semblable</l>
+
+                     <l n="1248">Te déclare par moi cette guerre effroyable,</l>
+
+                     <l n="1249">Ne forme des desseins que contre ton salut,</l>
+
+                     <l n="1250">Et de ton coeur sanglant fait sa gloire et son but.</l>
+
+                     <l n="1251">Ne redoute donc plus nos puissantes armées</l>
+
+                     <l n="1252">À ta confusion si souvent animées.</l>
+
+                     <l n="1253">Mais que chaque Romain t'inspire de la peur.</l>
+
+                     <l n="1254">Puisque chaque Romain ne butte qu'à ton coeur.</l>
+
+                     <l n="1255">Si ma main ne t'a pas la lumière ravie,</l>
+
+                     <l n="1256">Ce n'est pas que les Dieux prennent soin de ta vie,</l>
+
+                     <l n="1257">C'est qu'ils veulent ces Dieux qui combattent pour nous</l>
+
+                     <l n="1258">Que tu sentes la crainte auparavant les coups.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1259">Jamais un assassin montra-t-il plus d'audace,</l>
+
+                     <l n="1260">C'est lui qui doit trembler, et c'est lui qui menace.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1261">C'est à faire aux Tyrans de craindre et de trembler,</l>
+
+                     <l n="1262">Aux Romains de les vaincre, et de les accabler.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1263" part="I">Quelle rage bons Dieux !</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1263" part="F">Ce n'est point une rage</l>
+
+                     <l n="1264">Qui pousse contre toi ma main et mon courage,</l>
+
+                     <l n="1265">Quelque ardeur qui m'inspire un courage si glorieux,</l>
+
+                     <l n="1266">Ici je suis semblable aux Ministres des Dieux,</l>
+
+                     <l n="1267">Qui pour le bien public constants et magnanimes</l>
+
+                     <l n="1268">Sans haine et sans fureur égorgent les victimes.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1269">Traître, si ta fureur qui s'attaque à mon rang</l>
+
+                     <l n="1270">Pour le bien des Romains devait verser du sang,</l>
+
+                     <l n="1271">N'était-ce pas le mien que tu devais répandre,</l>
+
+                     <l n="1272">Puisque c'est mon courroux qui réduit Rome en cendre ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1273">Penses-tu que ton sang qu'a négligé ma main</l>
+
+                     <l n="1274">Soit digne d'occuper un courage Romain ?</l>
+
+                     <l n="1275">On t'a laissé la vie après ton injustice,</l>
+
+                     <l n="1276">Afin que sa longueur puisse être ton supplice ;</l>
+
+                     <l n="1277">Et l'on n'a pas à Rome ordonné ton trépas,</l>
+
+                     <l n="1278">Parce que dans ses maux Rome ne te craint pas.</l>
+
+                     <l n="1279">Mais si nous conspirons la mort de grand homme,</l>
+
+                     <l n="1280">C'est un signe évident qu'on l'estime dans Rome,</l>
+
+                     <l n="1281">Oui Porsenne, mon bras infidèle pour moi</l>
+
+                     <l n="1282">Veut marquer par ton sang l'état qu'on fait de toi.</l>
+
+                     <l n="1283">On regarde Tarquin sans crainte et sans envie</l>
+
+                     <l n="1284">Comme un corps sans vigueur et privé de la vie :</l>
+
+                     <l n="1285">Mais on te considère avec tes grands efforts</l>
+
+                     <l n="1286">Comme l'âme qui meut ce détestable corps.</l>
+
+                     <l n="1287">On croit pour t'honorer que le fameux Porsenne</l>
+
+                     <l n="1288">Peut retarder d'un jour la liberté Romaine ;</l>
+
+                     <l n="1289">Et c'est trop pour un peuple illustre mille fois,</l>
+
+                     <l n="1290">Et qui pour ses sujets aura bientôt besoin des Rois.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1291">Que le peuple Romain est grand et magnanime !</l>
+
+                     <l n="1292">Qu'il est avantageux que Rome nous estime !</l>
+
+                     <l n="1293">Puisqu'elle veut juger les Princes couronnés</l>
+
+                     <l n="1294">Dignes d'être aujourd'hui par elle assassinés.</l>
+
+                     <l n="1295">Sont-ce là des effets de cette ville Auguste,</l>
+
+                     <l n="1296">Qui fuit comme la honte une victoire injuste ?</l>
+
+                     <l n="1297">Et qui refuserait la gloire et le bonheur</l>
+
+                     <l n="1298">S'ils n'étaient pas offerts par les mains de l'honneur ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1299">Oui, ce sont des effets de cette ville Auguste</l>
+
+                     <l n="1300">Qui croit que d'un Tyran la mort est toujours juste ;</l>
+
+                     <l n="1301">Mais qui voudrait combattre ainsi que pour ses droits,</l>
+
+                     <l n="1302">Pour le juste respect que l'on doit aux vrais Rois,</l>
+
+                     <l n="1303">Rome leur doit son être, et Rome les révère</l>
+
+                     <l n="1304">Comme un enfant bien né doit révérer son père,</l>
+
+                     <l n="1305">Toi donc je dis grand Roi, par nous-même loué,</l>
+
+                     <l n="1306">N'usurpe plus ce nom, tu l'as désavoué ;</l>
+
+                     <l n="1307">Enfin tu l'as perdu, puisqu'en ce rang suprême</l>
+
+                     <l n="1308">Quiconque aide un Tyran est un Tyran lui-même,</l>
+
+                     <l n="1309">Ne t'étonnes donc pas qu'après tes beaux exploits</l>
+
+                     <l n="1310">On ne te traite pas comme on traite les Rois ;</l>
+
+                     <l n="1311">Ne t'étonne donc pas que sans vouloir combattre</l>
+
+                     <l n="1312">Rome laisse à mon bras la gloire de t'abattre,</l>
+
+                     <l n="1313">Chacun également les petits et les grands</l>
+
+                     <l n="1314">Ont un droit naturel de punir les Tyrans,</l>
+
+                     <l n="1315">Et détruire avec eux celui qui les seconde,</l>
+
+                     <l n="1316">C'est faire un sacrifice utile à tour le monde.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1317">Souffrirez-vous encor que cet audacieux</l>
+
+                     <l n="1318">Méprise notre force, et nous brave à nos yeux.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1319">Au moins pour t'épargner mille et mille supplices</l>
+
+                     <l n="1320">Découvre scélérat, découvre tes complices.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1321">Ne les demande point, ils ne se cachent pas,</l>
+
+                     <l n="1322">Ils se vont découvrir par ton proche trépas.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1323">Et vous différez la mort de cet infâme ?</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1324">Il a trop différé, moi-même je l'en blâme.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1325">Qu'on allume des feux, qu'on me l'aille immoler,</l>
+
+                     <l n="1326">Les gênes le vaincront, et le feront parler.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1327">Ajoutez les maux que l'Enfer nous peut faire,</l>
+
+                     <l n="1328">Quiconque sait mourir, sait bien aussi se taire.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1329">Donc à cet inhumain montrez-vous inhumain.</l>
+
+                     <l n="1330">Vous amenez Junie, elle sait ses desseins ;</l>
+
+                     <l n="1331">Ses discours animés d'orgueil et d'insolence</l>
+
+                     <l n="1332">En donnent trop de jour et trop de connaissance.</l>
+
+               </sp>
+
+            </div>
+
+         </div>
+
+         <div type="acte" n="5">
+            <head>ACTE V</head>
+
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. </head>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS, seul.</speaker>
+
+                     <l n="1333">Mais tu dois la lumière à son bras généreux.</l>
+
+                     <l n="1334">Mais il est ton Rival ; mais faut-il malheureux</l>
+
+                     <l n="1335">Que le nom de Rival excite ta colère</l>
+
+                     <l n="1336">Plus que les noms affreux d'assassin de ton Père ?</l>
+
+                     <l n="1337">Quoi, je puis excuser ce coeur audacieux</l>
+
+                     <l n="1338">Qui vient de s'attaquer à l'image des Dieux.</l>
+
+                     <l n="1339">Quoi, je puis l'excuser quand je le considère</l>
+
+                     <l n="1340">Ainsi que l'ennemi du destin de mon Père,</l>
+
+                     <l n="1341">Et je ne puis le voir sans haine et sans effroi</l>
+
+                     <l n="1342">Lorsque comme Rival il se présente à moi.</l>
+
+                     <l n="1343">L'outrage est-il plus grand d'aimer celle que j'aime,</l>
+
+                     <l n="1344">Que d'avoir attenté contre mon Père même ?</l>
+
+                     <l n="1345">Ha ! S'il est aussi grand dans un coeur généreux,</l>
+
+                     <l n="1346">Il est aussi sensible à l'esprit amoureux.</l>
+
+                     <l n="1347">Ô raison que je blesse ! Ô nature offensée !</l>
+
+                     <l n="1348">Corrige cette erreur de mon âme insensée.</l>
+
+                     <l n="1349">Laissons choir sur un chef coupable mille fois,</l>
+
+                     <l n="1350">Et la foudre des Dieux, et la foudre des Rois,</l>
+
+                     <l n="1351">Peut-être que le Ciel qui demande sa peine,</l>
+
+                     <l n="1352">L'a rendu mon Rival pour exciter ma haine.</l>
+
+                     <l n="1353">Mais le Ciel voudrait-il que mes soins dépravés</l>
+
+                     <l n="1354">Armassent contre lui les jours qu'il m'a sauvés.</l>
+
+                     <l n="1355">Il m'a conservé l'âme, et cette âme inhumaine</l>
+
+                     <l n="1356">Médite tout ensemble et sa perte et sa peine.</l>
+
+                     <l n="1357">Meurs plutôt mon Amour, puisque c'est par tes feux</l>
+
+                     <l n="1358">Que mon libérateur me devient odieux.</l>
+
+                     <l n="1359">Mais pour vaincre une Amour si puissante et si chère,</l>
+
+                     <l n="1360">Scévole en est-il moins l'assassin de mon père ?</l>
+
+                     <l n="1361" part="I">A-t-il moins offensé ? Mais...</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="2">
+               <head>SCÈNE II. Arons, Junie. </head>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1361" part="F">Où la menez-vous ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1362">On mène une Victime à ton père en courroux.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS à Junie conduite par les gens de Porsenne.</speaker>
+
+                     <l n="1363">Ne crains point, mon Amour te répond de ta vie.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1364">Je n'en suis pas en peine, et j'en ai peu d'envie.</l>
+
+                     <l n="1365">Tu détruis ma Patrie, et tu me défendras.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1366">Réponds à mon amour et tu la sauveras.</l>
+
+                     <l n="1367">Je sais bien que Scévole occupe ta mémoire,</l>
+
+                     <l n="1368">Et qu'il fait de ton coeur, et son prix et sa gloire.</l>
+
+                     <l n="1369">Mais si pour son Pays Scévole a de l'amour,</l>
+
+                     <l n="1370">S'il veut y voir les biens et la paix de retour,</l>
+
+                     <l n="1371">Tu ne dois point douter que comme un grand remède</l>
+
+                     <l n="1372">À son propre Rival lui-même il ne te cède.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1373">Je sais bien que Scévole est assez généreux</l>
+
+                     <l n="1374">Pour servir son pays aux dépends de ses feux,</l>
+
+                     <l n="1375">Et suivant cette loi qu'il me ferait lui-même</l>
+
+                     <l n="1376">Sans consulter ici je quitte ce que j'aime.</l>
+
+                     <l n="1377">Je renonce en aveugle à mes propres désirs,</l>
+
+                     <l n="1378">Je forcerai mon coeur sans jeter de soupirs.</l>
+
+                     <l n="1379">Triompher de l'amour sans effort et sans peine,</l>
+
+                     <l n="1380">C'est la moindre vertu que Rome nous apprenne.</l>
+
+                     <l n="1381">Je m'immolerai donc à ton ressentiment.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1382">Ô discours plein de charme et de ravissement.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1383">Mais si le grand Scévole a conservé ta vie</l>
+
+                     <l n="1384">Quand les traits de la mort elle était poursuivie,</l>
+
+                     <l n="1385">Je ne veux point douter que ce service heureux</l>
+
+                     <l n="1386">Ne t'ait charmé le coeur puisqu'il est généreux,</l>
+
+                     <l n="1387">Et que l'illustre Arons condamnant ma parole</l>
+
+                     <l n="1388">Si je me donne à lui ne me rende à Scévole.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1389">Oui, je te céderais à cet ami parfait</l>
+
+                     <l n="1390">S'il était en état de jouir d'un bienfait.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1391">Veux-tu montrer une âme et généreuse et belle,</l>
+
+                     <l n="1392">Et digne que Scévole ait combattu pour elle ?</l>
+
+                     <l n="1393">Tire du précipice un ami si parfait</l>
+
+                     <l n="1394">Et le mets en état de jouir d'un bienfait.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1395">Mais puis-je avec honneur et pour te satisfaire</l>
+
+                     <l n="1396">Embrasser le parti de l'assassin d'un père ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1397">Doncques avec honneur tu pourras au besoin</l>
+
+                     <l n="1398">De ton libérateur abandonner le soin.</l>
+
+                     <l n="1399">Apprends, apprends Arons, qu'une âme généreuse</l>
+
+                     <l n="1400">Dans les extrémités est plus ingénieuse,</l>
+
+                     <l n="1401">Et que pour contenter ses illustres transports,</l>
+
+                     <l n="1402">Sur l'impossible même elle fait des efforts.</l>
+
+                     <l n="1403">C'est sans doute un dessein qui n'est pas ordinaire,</l>
+
+                     <l n="1404">Que de solliciter pour l'assassin d'un père.</l>
+
+                     <l n="1405">Mais par quelle action témoignerais-tu mieux</l>
+
+                     <l n="1406">Que ton libérateur t'est cher et précieux ?</l>
+
+                     <l n="1407">Au reste ne crois pas que proche du naufrage</l>
+
+                     <l n="1408">L'intérêt de Scévole à ce discours m'engage,</l>
+
+                     <l n="1409">Son intérêt consiste à mourir glorieux,</l>
+
+                     <l n="1410">Et sa mort le va mettre au rang des demi-Dieux.</l>
+
+                     <l n="1411">Si donc tu dois tes jours à sa seule vaillance,</l>
+
+                     <l n="1412">Si je te sollicite à la reconnaissance,</l>
+
+                     <l n="1413">C'est pour t'apprendre au moins par quelque grand effet</l>
+
+                     <l n="1414">À mériter le bien que Scévole t'a fait.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1415">Ah ! Que ne peux-tu voir mon âme à la torture,</l>
+
+                     <l n="1416">Ce qui fait l'amitié, l'amour et la Nature,</l>
+
+                     <l n="1417">Tu verrais plus de maux, tu verrais plus de fers</l>
+
+                     <l n="1418">Qu'on ne peut figurer lorsqu'on peint les Enfers.</l>
+
+                     <l n="1419">Tu verrais là-dedans que parmi cet orage</l>
+
+                     <l n="1420">Ceux que j'aime le plus me peinent davantage,</l>
+
+                     <l n="1421">J'ai peine de souffrir que ton objet vainqueur</l>
+
+                     <l n="1422">Y combatte Scévole et l'ôte de mon coeur.</l>
+
+                     <l n="1423">J'ai peine de souffrir que mon Père en colère</l>
+
+                     <l n="1424">Y combatte Scévole, et Scévole mon Père,</l>
+
+                     <l n="1425">Je ne puis toutefois ces combats empêcher,</l>
+
+                     <l n="1426">Et ne sais quel parti me sera le plus cher.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1427" part="I">Prends celui de l'honneur.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1427" part="M">Mais...</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="3">
+               <head>SCÈNE III. Arons, Marcile. </head>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1427" part="F">Que peut-on Marcile ?</l>
+
+                     <l n="1428">Lui pouvons-nous donner une assistance utile ?</l>
+
+                     <l n="1429" part="I">Parlerons-nous au Roi ?</l>
+
+               </sp>
+
+               <sp who="tc0386-MARCILE">
+                  <speaker>MARCILE.</speaker>
+
+                     <l n="1429" part="F">Par vos commandements</l>
+
+                     <l n="1430">J'ai tâché d'observer ses secrets sentiments ;</l>
+
+                     <l n="1431">Mais je n'ai remarqué que fureur et que haine.</l>
+
+                     <l n="1432">Scévole voit déjà l'appareil de sa peine ;</l>
+
+                     <l n="1433">Les feux sont allumés, il est prêt de périr,</l>
+
+                     <l n="1434">Et si l'on veut l'aider il est temps de courir.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1435" part="I">Faisons donc un effort.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Porsenne, Arons, Junie. </head>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1435" part="F">Ô prodige ! Ô merveille !</l>
+
+                     <l n="1436">Sans le rapport des yeux incroyable à l'oreille.</l>
+
+                     <l n="1437" part="I">Ha mon fils, ha mon fils !</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1437" part="F">N'êtes-vous pas vengé ?</l>
+
+                     <l n="1438">Quelque Dieu contre vous l'aurait-il protégé ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1439">Oui mon fils, sa vertu qui brave ma Couronne</l>
+
+                     <l n="1440">Est le Dieu qui le garde, et le Dieu qui m'étonne.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1441">Vous puis-je demander e grand événement</l>
+
+                     <l n="1442">Qui me fait prendre part à votre étonnement ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1443">Déjà tout était prêt, les feux et les supplices,</l>
+
+                     <l n="1444">Pour forcer ce Romain de montrer ses complices.</l>
+
+                     <l n="1445">Certes je ne saurais t'en tracer le portrait</l>
+
+                     <l n="1446">Sans frémir des discours ainsi que de l'effet.</l>
+
+                     <l n="1447">Parle, parle, lui dis-je, en lui montrant les flammes,</l>
+
+                     <l n="1448">Dis-nous les compagnons de tes maudites trames,</l>
+
+                     <l n="1449">Ou ces feux et ces fers que tu vois préparés</l>
+
+                     <l n="1450">T'arracheront du coeur les noms des conjurés.</l>
+
+                     <l n="1451">Il rit à ce discours, et loin de me répondre</l>
+
+                     <l n="1452">Lorsque par les tourments je pense le confondre,</l>
+
+                     <l n="1453">Veux-tu savoir, dit-il, combien les hommes forts</l>
+
+                     <l n="1454">Au regard de la gloire estiment peu leur corps ?</l>
+
+                     <l n="1455">Contemple avec effroi le fameux témoignage</l>
+
+                     <l n="1456">Qu'en va rendre à tes yeux ma main et mon courage.</l>
+
+                     <l n="1457">Alors comme voulant se venger de sa main</l>
+
+                     <l n="1458">D'avoir manqué le coup qu'il portait dans mon sein,</l>
+
+                     <l n="1459">Il porte dans le feu cette main criminelle,</l>
+
+                     <l n="1460">La flamme l'enveloppe, il résiste contre elle,</l>
+
+                     <l n="1461">Bref il la voit brûler d'un oeil plus affermi</l>
+
+                     <l n="1462">Que s'il eût vu brûler celle d'un ennemi.</l>
+
+                     <l n="1463">Chacun tremble et frémit à ce spectacle horrible,</l>
+
+                     <l n="1464">Et celui qui pâtit paraît seul insensible.</l>
+
+                     <l n="1465">Moi-même, que sa mort doit ce semble assurer,</l>
+
+                     <l n="1466">Je suspends ma colère afin de l'admirer.</l>
+
+                     <l n="1467">Je ne sais quoi contraint mon âme combattue</l>
+
+                     <l n="1468">D'élever la vertu de celui qui me tue,</l>
+
+                     <l n="1469">Et par un sentiment ou d'horreur ou d'effroi</l>
+
+                     <l n="1470">Pour ce noble ennemi plus touché que pour moi</l>
+
+                     <l n="1471">Je l'ai fait arracher de ce supplice étrange</l>
+
+                     <l n="1472">Qui le rend glorieux plutôt qu'il ne me venge.</l>
+
+                     <l n="1473">Ainsi quand on saura cette grande action,</l>
+
+                     <l n="1474">Et comment il souffrit cette punition,</l>
+
+                     <l n="1475">Sans doute, et je le crois, on dira que Porsenne</l>
+
+                     <l n="1476">L'arracha de la gloire, et non pas de la peine.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1477">Juge par ce grand coup, et par ces grands desseins</l>
+
+                     <l n="1478">Combien te doit coûter la haine des Romains.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1479" part="I">Quoi, partout de l'audace.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1479" part="F">Et partout des exemples</l>
+
+                     <l n="1480">De grandeur, de vertu, dignes même des temples.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1481">Mais dignes des enfers, et d'un sort plein d'horreurs</l>
+
+                     <l n="1482">Si je laissais agir mes trop justes fureurs.</l>
+
+                     <l n="1483">Certes par tes discours tu m'as bien fait paraître</l>
+
+                     <l n="1484">Que tu n'ignorais pas l'attentat de ce traître.</l>
+
+                     <l n="1485">Ingrate, et dans l'instant que tes voeux et son bras</l>
+
+                     <l n="1486">Cruels également poursuivaient mon trépas,</l>
+
+                     <l n="1487">Je voulais noblement réparer mes ruines</l>
+
+                     <l n="1488">Et te donner un Sceptre à toi qui m'assassines.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1489">Oui, tu m'as présenté ces biens et cet honneur</l>
+
+                     <l n="1490">Où l'ambition même établit son bonheur.</l>
+
+                     <l n="1491">Mais sache qu'en mon coeur la qualité de Reine</l>
+
+                     <l n="1492">Est beaucoup au-dessous de celle de Romaine.</l>
+
+                     <l n="1493">Si tu m'as fait un bien, c'est par la liberté</l>
+
+                     <l n="1494">Dont tu caches l'horreur de ma captivité.</l>
+
+                     <l n="1495">Mais de quelques rayons que cette grâce éclate</l>
+
+                     <l n="1496">Ne t'imagine pas que je t'en sois ingrate,</l>
+
+                     <l n="1497">J'ai voulu te payer, mais ton aveuglement</l>
+
+                     <l n="1498">T'en a fait refuser le noble payement,</l>
+
+                     <l n="1499">Et quiconque refuse une reconnaissance</l>
+
+                     <l n="1500">N'en doit plus demander, son refus en dispense.</l>
+
+                     <l n="1501">Pourquoi par un discours inspiré par les cieux</l>
+
+                     <l n="1502">T'ai-je représenté les Tarquins odieux ?</l>
+
+                     <l n="1503">Pourquoi t'ai-je voulu, favorable ennemie,</l>
+
+                     <l n="1504">Arracher d'un parti fertile en infamie,</l>
+
+                     <l n="1505">Et qui ne méritant que des maux éternels,</l>
+
+                     <l n="1506">Fait de ses partisans autant de criminels !</l>
+
+                     <l n="1507">Ainsi pour te payer d'une ombre de franchise</l>
+
+                     <l n="1508">Dont tu couvres les fers où la guerre m'a mise,</l>
+
+                     <l n="1509">Je voulais pour ton prix te donner un secours</l>
+
+                     <l n="1510">Qui sauvât tout ensemble et ta gloire et tes jours,</l>
+
+                     <l n="1511">Car je l'avais appris ce dessein magnanime</l>
+
+                     <l n="1512">Qui devait de nos Dieux te rendre la victime.</l>
+
+                     <l n="1513">Mais enfin connaissant que tes mauvais destins</l>
+
+                     <l n="1514">T'attachaient pour te perdre au crime des Tarquins,</l>
+
+                     <l n="1515">Moi-même secondant leur haine découverte</l>
+
+                     <l n="1516">J'ai poussé le grand coeur qui courait à ta perte,</l>
+
+                     <l n="1517">Je n'ai pu retenir son bras trop malheureux</l>
+
+                     <l n="1518">D'avoir manqué de faire un acte généreux ;</l>
+
+                     <l n="1519">Je n'ai plus empêché son illustre colère</l>
+
+                     <l n="1520">D'exécuter un coup si grand, si salutaire,</l>
+
+                     <l n="1521">Car j'appelle les coups salutaires et grands</l>
+
+                     <l n="1522">Qui poussent aux enfers les amis des Tyrans.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1523">Ingrate à mes faveurs tu diras les complices,</l>
+
+                     <l n="1524">Si ce n'est par douceur au moins par les supplices.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1525">Contente tes fureurs et tes ressentiments</l>
+
+                     <l n="1526">Ma vertu veut paraître, invente des tourments.</l>
+
+                     <l n="1527">Ce Romain a brûlé sa dextre triomphante</l>
+
+                     <l n="1528">S'il n'en frappe ton coeur au moins il l'épouvante :</l>
+
+                     <l n="1529">Et moi pour enchérir par-dessus ses efforts</l>
+
+                     <l n="1530">Je verrai mettre en cendre et ma main et mon corps.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1531" part="I">Tu veux donc me forcer ?</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1531" part="F">Tu veux donc me contraindre ?</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1532">Songe que je le puis, et que tu dois le craindre.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1533">Je ne crains point les maux, les fers et la rigueur</l>
+
+                     <l n="1534">Qui peuvent faire voir la force de mon coeur.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1535">Faisons donc succéder contre notre espérance</l>
+
+                     <l n="1536">À l'injuste pitié la juste violence,</l>
+
+                     <l n="1537">Haïssons la douceur qui me met en danger,</l>
+
+                     <l n="1538">Aimons la cruauté qui m'en peut dégager.</l>
+
+                     <l n="1539">Va mon fils, fais gêner ce Romain détestable,</l>
+
+                     <l n="1540">À sa fausse vertu parais impitoyable,</l>
+
+                     <l n="1541">Laisse aller ton esprit jusques aux cruautés,</l>
+
+                     <l n="1542">Et garde en cet endroit d'imiter mes bontés.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1543">Souffrez que quatre mots précèdent son supplice,</l>
+
+                     <l n="1544">Et que je fasse enfin un acte de justice.</l>
+
+                     <l n="1545">Vous souvient-il du temps que mon mauvais destin</l>
+
+                     <l n="1546">Me conduisit dans Rome à la Cour de Tarquin.</l>
+
+                     <l n="1547">Là Sire, vous savez qu'on attaqua ma vie,</l>
+
+                     <l n="1548">Que jusques au cercueil elle fut poursuivie,</l>
+
+                     <l n="1549">Et que par des complots bien plus noires que la nuit</l>
+
+                     <l n="1550">Où l'on crut lâchement en recueillir le fruit,</l>
+
+                     <l n="1551">Tous les miens écartés par la crainte et dans l'ombre,</l>
+
+                     <l n="1552">Me laissèrent en proie à des lâches sans nombre.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1553">Quoi donc, mon meurtrier est-il aussi le tien ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1554">Si la vie est un bien, c'est l'appui de mon bien.</l>
+
+                     <l n="1555">Vous lui devez un fils qui malgré nos tempêtes</l>
+
+                     <l n="1556">Vous a depuis gagné conquêtes sur conquêtes.</l>
+
+                     <l n="1557">Enfin sans ce Romain armé pour mon secours</l>
+
+                     <l n="1558">Votre oeil aurait pleuré la perte de mes jours.</l>
+
+                     <l n="1559">Ordonnez maintenant ce que ma main doit faire,</l>
+
+                     <l n="1560">Si mon libérateur doit sentir ma colère.</l>
+
+                     <l n="1561">Si j'oubliais le bien qu'il me donne en effet,</l>
+
+                     <l n="1562">Afin de le punir d'un mal qu'il n'a pas fait.</l>
+
+                     <l n="1563">Car enfin triomphant de ce péril extrême,</l>
+
+                     <l n="1564">Malgré lui vous vivez, et je vis par lui-même.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1565">Doncques mon assassin, donc mon persécuteur</l>
+
+                     <l n="1566">Est en toi mon secours et mon libérateur.</l>
+
+                     <l n="1567">Ô Scévole ! Ô mon fils ! Ô Dieux que dois-je faire</l>
+
+                     <l n="1568">D'un si cher défenseur, d'un si grand adversaire !</l>
+
+                     <l n="1569">Mais puis-je maintenant sans agir contre moi</l>
+
+                     <l n="1570">Consulter en faveur de l'assassin d'un Roi ?</l>
+
+                     <l n="1571">Non, non, il faut qu'il meure, et les plus pitoyables</l>
+
+                     <l n="1572">Doivent être cruels pour de pareils coupables.</l>
+
+                     <l n="1573">Eussent-ils conservé nos droits et nos enfants,</l>
+
+                     <l n="1574">Nous eussent-ils rendus mille fois triomphants,</l>
+
+                     <l n="1575">Les moindres attentats qui touchent nos personnes</l>
+
+                     <l n="1576">Effacent cent bienfaits rendus à nos couronnes.</l>
+
+                     <l n="1577">Mais quoi... Mais il importe, ôtons-nous de souci.</l>
+
+                     <l n="1578">Il faut, il faut enfin, mais qu'on l'amène ici.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="5">
+               <head>SCÈNE V. Tarquin, Porsenne, Arons, Junie, Scévole. </head>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1579">Le traître vit encore, et vous le laissez vivre</l>
+
+                     <l n="1580">Pour redoubler le coup dont le ciel vous délivre !</l>
+
+                     <l n="1581">Donc de fausses vertus désarment votre main</l>
+
+                     <l n="1582">À l'instant qu'elle doit défendre votre sein ?</l>
+
+                     <l n="1583">Certes c'est mériter le mal qu'on nous destine,</l>
+
+                     <l n="1584">Que de laisser debout celui qui nous ruine.</l>
+
+                     <l n="1585">Le voici ce cruel comme victorieux</l>
+
+                     <l n="1586">D'avoir pu faire craindre un Roi si glorieux.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1587">Oui Tarquin tu le vois, et son coeur en colère</l>
+
+                     <l n="1588">Fait au moins l'action que sa main n'a pu faire.</l>
+
+                     <l n="1589">Juge si je craindrais la fureur d'un bourreau,</l>
+
+                     <l n="1590">Vois si je me repends d'un attentat si beau,</l>
+
+                     <l n="1591">Moi qui viens de punir cette main criminelle</l>
+
+                     <l n="1592">D'avoir manqué le coup que Rome attendait d'elle.</l>
+
+                     <l n="1593">Toi Prince que j'estime, et que ma seule erreur</l>
+
+                     <l n="1594">Garantit aujourd'hui des coups de ma fureur,</l>
+
+                     <l n="1595">Délivre ton esprit d'une éternelle alarme,</l>
+
+                     <l n="1596">Il me reste une main, garde qu'elle ne s'arme :</l>
+
+                     <l n="1597">Mais avec tous tes soins tremble, frémis, et crois</l>
+
+                     <l n="1598">Que Rome a des enfants qui valent mieux que moi.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1599">Retire-toi, Scévole, et reprends ton épée</l>
+
+                     <l n="1600">Autrefois pour mon fils noblement occupée.</l>
+
+                     <l n="1601">Certes je te louerais, et louerais ta vertu</l>
+
+                     <l n="1602">Si pour mon Diadème elle avait combattu.</l>
+
+                     <l n="1603">Considère pourtant combien j'en fais d'estime,</l>
+
+                     <l n="1604">Puisque pour l'honorer je lui remets ton crime.</l>
+
+                     <l n="1605">À toi plus inhumain que cruel envers moi</l>
+
+                     <l n="1606">Tu me sembles Scévole, assez puni par toi.</l>
+
+                     <l n="1607">Va donc, et de chez nous par une grâce extrême</l>
+
+                     <l n="1608">N'emporte que le mal que tu t'es fait toi-même,</l>
+
+                     <l n="1609">Et va par ton salut témoigner aux Romains</l>
+
+                     <l n="1610">Que Porsenne ne craint ni Rome ni tes mains.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1611">Certes tu ne pouvais, magnanime Porsenne</l>
+
+                     <l n="1612">Me vaincre et me forcer par la peur de la peine :</l>
+
+                     <l n="1613">Mais il faut avouer que tu m'as surmonté</l>
+
+                     <l n="1614">Par cet acte fameux de générosité.</l>
+
+                     <l n="1615">Ainsi je te dirai par amour, et sans feinte</l>
+
+                     <l n="1616">Ce que tu n'aurais pas obtenu par contrainte.</l>
+
+                     <l n="1617">Je te découvrirai ce funeste détroit</l>
+
+                     <l n="1618">Dont je te sauverais si Rome le souffrait.</l>
+
+                     <l n="1619">Sache que des Romains la plus belle jeunesse</l>
+
+                     <l n="1620">Dans ton camp répandue attend ce que je laisse,</l>
+
+                     <l n="1621">Et que trois cent Héros brûlant de t'attaquer</l>
+
+                     <l n="1622">S'y préparent au coup que je viens de manquer.</l>
+
+                     <l n="1623">Le sort tombé sur moi m'a concédé la gloire</l>
+
+                     <l n="1624">De tenter le premier cette grande Victoire,</l>
+
+                     <l n="1625">Les autres à leur tour marcheront sur mes pas</l>
+
+                     <l n="1626">Comme pour réparer la faute de mon bras.</l>
+
+                     <l n="1627">Et si de tant de mains qu'arme la même envie,</l>
+
+                     <l n="1628">Tu peux être vainqueur, et garantir ta vie.</l>
+
+                     <l n="1629">Alors je publierai que les Dieux sont pour toi,</l>
+
+                     <l n="1630">Et que Rome en danger doit craindre un si grand Roi.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1631">Va, retourne dans Rome, et jouis de ma grâce,</l>
+
+                     <l n="1632">Je reçois ton avis sans craindre sa menace ;</l>
+
+                     <l n="1633">Plus fort que le fardeau qui semble m'accabler </l>
+
+                     <l n="1634">Mon salut apprendra que Rome doit trembler.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1635">Quoi Porsenne, vous-même à vous-même perfide,</l>
+
+                     <l n="1636">Vous récompenserez un meurtre, un parricide ;</l>
+
+                     <l n="1637">Vous son fils que ce coup menace également,</l>
+
+                     <l n="1638">Serez-vous sans colère, et sans ressentiment ?</l>
+
+                     <l n="1639">Défendez votre père en ce moment horrible,</l>
+
+                     <l n="1640">Qu'il se rend à lui-même et funeste et nuisible.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1641">C'est se rendre à mon gré coupable mille fois</l>
+
+                     <l n="1642">Que d'empêcher d'agir la clémence des Rois.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1643">Père et fils aveuglés je vous rendrai justice :</l>
+
+                     <l n="1644">Scévole est mon sujet, je veux qu'on le punisse.</l>
+
+               </sp>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1645">Porsenne, ton honneur t'oblige désormais</l>
+
+                     <l n="1646">D'empêcher qu'un Tyran ne perde tes bienfaits.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1647">Mais pour te faire voir Monarque magnanime,</l>
+
+                     <l n="1648">Que Rome est équitable, et qu'elle hait le crime,</l>
+
+                     <l n="1649">Autrefois elle offrait aux Tarquins tes parents,</l>
+
+                     <l n="1650">De s'en remettre à toi de tous ses différends ;</l>
+
+                     <l n="1651">Et maintenant encore elle veut s'y remettre</l>
+
+                     <l n="1652">Si Tarquin y consent, si tu le veux permettre.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1653">Moi traiter autrement avec des révoltés</l>
+
+                     <l n="1654">Que par les châtiments qui leur sont apprêtés</l>
+
+                     <l n="1655">Non, non, après leur crime, et de telles alarmes</l>
+
+                     <l n="1656">Mes arbitres seront mes fureurs et mes armes.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1657" part="I">Vous pourriez toutefois...</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1657" part="F">Je pourrais me trahir ?</l>
+
+                     <l n="1658">À mes propres sujets je pourrais obéir ?</l>
+
+                     <l n="1659">Non, non, pour conserver votre gloire et la nôtre,</l>
+
+                     <l n="1660">Je ne veux point de juge, et moins vous que tout autre,</l>
+
+                     <l n="1661">Vous qui m'ayant de l'aide et tant de bien promis,</l>
+
+                     <l n="1662">Favorisez pourtant mes propres ennemis.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1663">Vous m'estimerez donc injuste et sacrilège.</l>
+
+                     <l n="1664">Oui Tarquin je le suis lorsque je vous protège.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1665">Donc pour vous rendre juste aidez des révoltés.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1666">Je suivrai la raison dont vous vous écartez.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN.</speaker>
+
+                     <l n="1667">Que ne commandez-vous qu'on enchaîne mes mains</l>
+
+                     <l n="1668">Et que l'on m'abandonne aux fureurs des Romains ?</l>
+
+                     <l n="1669">Après avoir trahi la grandeur Souveraine</l>
+
+                     <l n="1670">C'est ce qui reste à faire au généreux Porsenne. </l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1671" part="I">Je le devrais ingrat.</l>
+
+               </sp>
+
+               <sp who="tc0386-TARQUIN">
+                  <speaker>TARQUIN en se retirant.</speaker>
+
+                     <l n="1671" part="F">Je crains peu ce danger,</l>
+
+                     <l n="1672">Et nous vivrons au moins afin de nous venger.</l>
+
+               </sp>
+
+            </div>
+
+            <div type="scene" n="6">
+               <head>SCÈNE DERNIÈRE. Porsenne, Arons, Junie, Scévole. </head>
+
+               <sp who="tc0386-JUNIE">
+                  <speaker>JUNIE.</speaker>
+
+                     <l n="1673">Vois si quelque justice accompagne une cause</l>
+
+                     <l n="1674">Dont le chef craint les Lois que l'équité propose.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1675">Le sort en est jeté, je change de desseins,</l>
+
+                     <l n="1676">Je veux donner la vie et la paix aux Romains.</l>
+
+                     <l n="1677">Que l'ingrat se signale avec son arrogance,</l>
+
+                     <l n="1678">La liberté de Rome est enfin ma vengeance.</l>
+
+                     <l n="1679">Ce sera son supplice, et ce sera ton prix</l>
+
+                     <l n="1680">Pour avoir su défendre et conserver mon fils.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1681">Mais Sire, permettez qu'à cette récompense</l>
+
+                     <l n="1682">Je joigne de ma part une reconnaissance.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1683">Que pourrais-tu donner à qui tu dois le jour.</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1684">Lui céder devant vous l'objet de son Amour.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1685">Aime-t-il donc Junie ? Est-il donc aimé d'elle ?</l>
+
+               </sp>
+
+               <sp who="tc0386-ARONS">
+                  <speaker>ARONS.</speaker>
+
+                     <l n="1686" part="I">Oui Seigneur.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1686" part="F">Brûlez donc d'une flamme immortelle.</l>
+
+                     <l n="1687">Je ne romprai jamais le lien amoureux</l>
+
+                     <l n="1688">Qui joint si noblement des coeurs si généreux ;</l>
+
+                     <l n="1689">Et puisqu'ils ont tous deux obtenu la victoire,</l>
+
+                     <l n="1690">L'un doit être de l'autre et le prix et la gloire</l>
+
+                     <l n="1691">Rome doit cet Hymen à tes justes souhaits,</l>
+
+                     <l n="1692">Et pour le célébrer je lui donne la Paix.</l>
+
+               </sp>
+
+               <sp who="tc0386-SCEVOLE">
+                  <speaker>SCÉVOLE.</speaker>
+
+                     <l n="1693">Rome jamais ingrate au soin qu'on a pour elle,</l>
+
+                     <l n="1694">Te rendra pour ses biens une gloire immortelle.</l>
+
+               </sp>
+
+               <sp who="tc0386-PORSENNE">
+                  <speaker>PORSENNE.</speaker>
+
+                     <l n="1695">Ainsi par ta vertu Rome triomphera,</l>
+
+                     <l n="1696">Ainsi par mon Amour Rome subsistera,</l>
+
+                     <l n="1697">Et je veux qu'elle compte à la fin de sa peine,</l>
+
+                     <l n="1698">Entre ses Fondateurs et Scévole et Porsenne.</l>
+
+                  <stage>LAUS DEO.</stage>
+
+               </sp>
+
+            </div>
+
+         </div>
+
+      </body>
+   </text>
+</TEI>

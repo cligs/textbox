@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Phèdre</title>
+            <title type="sub">Tragédie</title>
+            <title type="short">Phèdre</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">RACINE, Jean</name>
+               <name type="short">Racine</name>
+               <idno type="viaf"/>
+            </author>
+            <principal/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date>2015</date>, <idno>RACINE_PHEDRE77</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1677</date>, <idno/>, <ref target="#"/>. À PARIS, chez CLAUDE BARBIN, au Palais, sur le perron de la Sainte Chapelle..</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1677</date>, <idno/>, <ref target="#"/>. Représentée pour la première fois le 1er janvier 1677 à l'Hôtel de Bourgogne.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Tragédie</term>
+               <term type="structure">cinq actes</term>
+               <term type="form">vers</term>
+               <term type="period">1671-1680</term>
+               <term type="taille">1500-1750</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>ACTEURS</head>
+            <castItem>
+               <role xml:id="tc0661-THESEE">THÉSÉE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-PHEDRE">PHÈDRE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-HIPPOLYTE">HIPPOLYTE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-ARICIE">ARICIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-OENONE">OENONE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-THERAMENE">THÉRAMÈNE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-ISMENE">ISMÈNE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-PANOPE">PANOPE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0661-GARDES">GARDES</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La scène est à Trézène, ville du Péloponnèse.</p>
+         </set>
+      </front>
+      <body>
+         <div type="acte" n="1">
+            <head>ACTE I</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Hippolyte, Théramène.</head>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1">Le dessein en est pris, je pars, cher Théramène,</l>
+	                 <l n="2">Et quitte le séjour de l'aimable Trézène.</l>
+	                 <l n="3">Dans le doute mortel dont je suis agité,</l>
+	                 <l n="4">Je commence à rougir de mon oisiveté.</l>
+	                 <l n="5">Depuis plus de six mois éloigné de mon père</l>
+	                 <l n="6">J'ignore le destin d'une tête si chère.</l>
+	                 <l n="7">J'ignore jusqu'aux lieux qui le peuvent cacher.</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="8">Et dans quels lieux, Seigneur, l'allez-vous donc chercher ?</l>
+	                 <l n="9">Déjà pour satisfaire à votre juste crainte</l>
+	                 <l n="10">J'ai couru les deux mers que sépare Corinthe. </l>
+	                 <l n="11">J'ai demandé Thésée aux peuples de ces bords</l>
+	                 <l n="12">Où l'on voit l'Achéron se perdre chez les Morts.</l>
+	                 <l n="13">J'ai visité l'Élide, et laissant le Ténare,</l>
+                  <note type="L">Icare : Fils de Dédale, s'enfuit avec son père du labyrinthe de l'île de Crète, au moyne d'ailes attachées avec la cire. Mais s'étant approché de trop près du soleil, la cire se fondit, ses ailes se détachèrent, et il tomba dans la mer Égée, entre Samos et Patmos. Ce personnage est devenu le symbole de la témérité. [B]</note>
+	                 <l n="14">Passé jusqu'à la mer, qui vit tomber Icare.</l>
+	                 <l n="15">Sur quel espoir nouveau, dans quels heureux climats</l>
+	                 <l n="16">Croyez-vous découvrir la trace de ses pas ?</l>
+	                 <l n="17">Qui sait même, qui sait si le roi votre père</l>
+	                 <l n="18">Veut que de son absence on sache le mystère ?</l>
+	                 <l n="19">Et si lorsque avec vous nous tremblons pour ses jours,</l>
+	                 <l n="20">Tranquille, et nous cachant de nouvelles amours</l>
+	                 <l n="21">Ce héros n'attend point qu'une amante abusée...</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="22">Cher Théramène, arrête, et respecte Thésée.</l>
+	                 <l n="23">De ses jeunes erreurs désormais revenu</l>
+	                 <l n="24">Par un indigne obstacle il n'est point retenu ;</l>
+	                 <l n="25">Et fixant de ses voeux l'inconstance fatale</l>
+	                 <l n="26">Phèdre depuis longtemps ne craint plus de rivale.</l>
+	                 <l n="27">Enfin en le cherchant je suivrai mon devoir,</l>
+	                 <l n="28">Et je fuirai ces lieux que je n'ose plus voir.</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="29">Hé depuis quand, Seigneur, craignez-vous la présence</l>
+	                 <l n="30">De ces paisibles lieux, si chers à votre enfance, </l>
+	                 <l n="31">Et dont je vous ai vu préférer le séjour</l>
+	                 <l n="32">Au tumulte pompeux d'Athènes, de la Cour ?</l>
+	                 <l n="33">Quel péril, ou plutôt quel chagrin vous en chasse ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="34">Cet heureux temps n'est plus. Tout a changé de face</l>
+	                 <l n="35">Depuis que sur ces bords les Dieux ont envoyé</l>
+	                 <l n="36">La fille de Minos et de Pasiphaé.</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="37">J'entends. De vos douleurs la cause m'est connue,</l>
+	                 <l n="38">Phèdre ici vous chagrine, et blesse votre vue,</l>
+	                 <l n="39">Dangereuse marâtre, à peine elle vous vit,</l>
+	                 <l n="40">Que votre exil d'abord signala son crédit. </l>
+	                 <l n="41">Mais sa haine sur vous autrefois attachée,</l>
+	                 <l n="42">Ou s'est évanouie, ou s'est bien relâchée.</l>
+	                 <l n="43">Et d'ailleurs, quel péril vous peut faire courir</l>
+	                 <l n="44">Une femme mourante, et qui cherche à mourir ?</l>
+	                 <l n="45">Phèdre atteinte d'un mal qu'elle s'obstine à taire, </l>
+	                 <l n="46">Lasse enfin d'elle-même, et du jour qui l'éclaire,</l>
+	                 <l n="47">Peut-elle contre vous former quelques desseins ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="48">Sa vaine inimitié n'est pas ce que je crains.</l>
+	                 <l n="49">Hippolyte en partant fuit une autre ennemie,</l>
+	                 <l n="50">Je fuis, je l'avouerai, cette jeune Aricie,</l>
+	                 <l n="51">Reste d'un sang fatal conjuré contre nous.</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="52">Quoi vous-même, Seigneur, la persécutez-vous ?</l>
+                  <note type="L">Pallantides : Les cinquante fils de Pallas qui est le frère d'Égée, père de Thésée. Les Pallantides contestaient Thésée en tant que Roi d'Athènes, ce dernier les combattit et les vainquit. Aricie est de la famille des Pallantides.</note>
+	                 <l n="53">Jamais l'aimable soeur des cruels Pallantides</l>
+	                 <l n="54">Trempa-t-elle aux complots de ses frères perfides ?</l>
+	                 <l n="55">Et devez-vous haïr ses innocents appas ? </l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="56">Si je la haïssais, je ne la fuirais pas.</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="57">Seigneur, m'est-il permis d'expliquer votre fuite ?</l>
+	                 <l n="58">Pourriez-vous n'être plus ce superbe Hippolyte,</l>
+	                 <l n="59">Implacable ennemi des amoureuses lois,</l>
+	                 <l n="60">Et d'un joug que Thésée a subi tant de fois ? </l>
+	                 <l n="61">Vénus par votre orgueil si longtemps méprisée,</l>
+	                 <l n="62">Voudrait-elle à la fin justifier Thésée ?</l>
+	                 <l n="63">Et vous mettant au rang du reste des mortels</l>
+	                 <l n="64">Vous a-t-elle forcé d'encenser ses autels ?</l>
+	                 <l n="65" part="I">Aimeriez-vous, Seigneur ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="65" part="F">Ami, qu'oses-tu dire ? </l>
+	                 <l n="66">Toi qui connais mon coeur depuis que je respire,</l>
+	                 <l n="67">Des sentiments d'un coeur si fier, si dédaigneux,</l>
+	                 <l n="68">Peux-tu me demander le désaveu honteux ?</l>
+	                 <l n="69">C'est peu qu'avec son lait une mère Amazone</l>
+	                 <l n="70">M'ait fait sucer encor cet orgueil qui t'étonne. </l>
+	                 <l n="71">Dans un âge plus mûr moi-même parvenu</l>
+	                 <l n="72">Je me suis applaudi, quand je me suis connu.</l>
+	                 <l n="73">Attaché près de moi par un zèle sincère</l>
+	                 <l n="74">Tu me contais alors l'histoire de mon père.</l>
+	                 <l n="75">Tu sais combien mon âme attentive à ta voix</l>
+	                 <l n="76">S'échauffait au récit de ses nobles exploits ;</l>
+	                 <l n="77">Quand tu me dépeignais ce héros intrépide</l>
+                  <note type="L">Alcide : autre nom d'Hercule.</note>
+	                 <l n="78">Consolant les mortels de l'absence d'Alcide ;</l>
+	                 <l n="79">Les monstres étouffés, et les brigands punis,</l>
+                  <note type="L">Procuste : Fils de Poséïdon. Brigand de l'Attique. Symbole du conformisme car il contraignait les voyageurs à s'allonger sur un lit et coupait ceux qui dépassaient et allongeait ceux qui était trop courts.</note>
+	                 <l n="80">Procuste, Cercyon, et Sciron, et Sinnis, </l>
+	                 <l n="81">Et les os dispersés du géant d'Épidaure,</l>
+	                 <l n="82">Et la Crète fumant du sang du Minotaure.</l>
+	                 <l n="83">Mais quand tu récitais des faits moins glorieux,</l>
+	                 <l n="84">Sa foi partout offerte, et reçue en cent lieux,</l>
+	                 <l n="85">Hélène à ses parents dans Sparte dérobée, </l>
+	                 <l n="86">Salamine témoin des pleurs de Péribée,</l>
+	                 <l n="87">Tant d'autres, dont les noms lui sont même échappés,</l>
+	                 <l n="88">Trop crédules esprits que sa flamme a trompés ;</l>
+	                 <l n="89">Ariane aux rochers contant ses injustices,</l>
+	                 <l n="90">Phèdre enlevée enfin sous de meilleurs auspices ; </l>
+	                 <l n="91">Tu sais, comme à regret écoutant ce discours,</l>
+	                 <l n="92">Je te pressais souvent d'en abréger le cours.</l>
+	                 <l n="93">Heureux ! Si j'avais pu ravir à la Mémoire</l>
+	                 <l n="94">Cette indigne moitié d'une si belle histoire.</l>
+	                 <l n="95">Et moi-même à mon tour je me verrais lié ? </l>
+	                 <l n="96">Et les dieux jusque-là m'auraient humilié ?</l>
+	                 <l n="97">Dans mes lâches soupirs d'autant plus méprisable,</l>
+	                 <l n="98">Qu'un long amas d'honneurs rend Thésée excusable,</l>
+	                 <l n="99">Qu'aucuns monstres par moi domptés jusqu'aujourd'hui</l>
+	                 <l n="100">Ne m'ont acquis le droit de faillir comme lui.</l>
+	                 <l n="101">Quand même ma fierté pourrait s'être adoucie,</l>
+	                 <l n="102">Aurais-je pour vainqueur dû choisir Aricie ?</l>
+	                 <l n="103">Ne souviendrait-il plus à mes sens égarés</l>
+	                 <l n="104">De l'obstacle éternel qui nous a séparés.</l>
+	                 <l n="105">Mon père la réprouve, et par des lois sévères</l>
+	                 <l n="106">Il défend de donner des neveux à ses frères,</l>
+	                 <l n="107">D'une tige coupable il craint un rejeton.</l>
+	                 <l n="108">Il veut avec leur soeur ensevelir leur nom,</l>
+	                 <l n="109">Et que jusqu'au tombeau soumise à sa tutelle</l>
+	                 <l n="110">Jamais les feux d'hymen ne s'allument pour elle. </l>
+	                 <l n="111">Dois-je épouser ses droits contre un père irrité ?</l>
+	                 <l n="112">Donnerai-je l'exemple à la témérité ?</l>
+	                 <l n="113">Et dans un fol amour ma jeunesse embarquée...</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="114">Ah, Seigneur ! Si votre heure est une fois marquée,</l>
+	                 <l n="115">Le Ciel de nos raisons ne sait point s'informer.</l>
+	                 <l n="116">Thésée ouvre vos yeux en voulant les fermer,</l>
+	                 <l n="117">Et sa haine irritant une flamme rebelle,</l>
+	                 <l n="118">Prête à son ennemie une grâce nouvelle.</l>
+	                 <l n="119">Enfin d'un chaste amour pourquoi vous effrayer ?</l>
+	                 <l n="120">S'il a quelque douceur n'osez-vous l'essayer ? </l>
+	                 <l n="121">En croirez-vous toujours un farouche scrupule ?</l>
+	                 <l n="122">Craint-on de s'égarer sur les traces d'Hercule ?</l>
+	                 <l n="123">Quels courages Vénus n'a-t-elle pas domptés !</l>
+	                 <l n="124">Vous-même où seriez-vous, vous qui la combattez,</l>
+                  <note type="L">Antiope : Amazone, fille d'Arès, première épouse de Thésée et mère d'Hippolyte. </note>
+	                 <l n="125">Si toujours Antiope à ses lois opposée</l>
+	                 <l n="126">D'une pudique ardeur n'eût brûlé pour Thésée ?</l>
+	                 <l n="127">Mais que sert d'affecter un superbe discours ?</l>
+	                 <l n="128">Avouez-le, tout change. Et depuis quelques jours</l>
+	                 <l n="129">On vous voit moins souvent, orgueilleux, et sauvage,</l>
+	                 <l n="130">Tantôt faire voler un char sur le rivage, </l>
+	                 <l n="131">Tantôt savant dans l'art par Neptune inventé,</l>
+	                 <l n="132">Rendre docile au frein un coursier indompté.</l>
+	                 <l n="133">Les forêts de nos cris moins souvent retentissent.</l>
+	                 <l n="134">Chargés d'un feu secret vos yeux s'appesantissent.</l>
+	                 <l n="135">Il n'en faut point douter, vous aimez, vous brûlez.</l>
+	                 <l n="136">Vous périssez d'un mal que vous dissimulez.</l>
+	                 <l n="137">La charmante Aricie a-t-elle su vous plaire ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="138">Théramène, je pars, et vais chercher mon père.</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="139">Ne verrez-vous point Phèdre avant que de partir,</l>
+	                 <l n="140" part="I">Seigneur ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="140" part="F">C'est mon dessein, tu peux l'en avertir. </l>
+	                 <l n="141">Voyons-la, puisque ainsi mon devoir me l'ordonne.</l>
+	                 <l n="142">Mais quel nouveau malheur trouble sa chère Oenone ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Hippolyte, Oenone, Théramène.</head>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="143">Hélas, Seigneur ! Quel trouble au mien peut-être égal ?</l>
+	                 <l n="144">La reine touche presque à son terme fatal.</l>
+	                 <l n="145">En vain à l'observer jour et nuit je m'attache,</l>
+	                 <l n="146">Elle meurt dans mes bras d'un mal qu'elle me cache.</l>
+	                 <l n="147">Un désordre éternel règne dans son esprit.</l>
+	                 <l n="148">Son chagrin inquiet l'arrache de son lit.</l>
+	                 <l n="149">Elle veut voir le jour. Et sa douleur profonde</l>
+	                 <l n="150">M'ordonne toutefois d'écarter tout le monde... </l>
+	                 <l n="151" part="I">Elle vient.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="151" part="F">Il suffit, je la laisse en ces lieux,</l>
+	                 <l n="152">Et ne lui montre point un visage odieux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Phèdre, Oenone.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="153">N'allons point plus avant. Demeurons, chère Oenone.</l>
+	                 <l n="154">Je ne me soutiens plus. Ma force m'abandonne.</l>
+	                 <l n="155">Mes yeux sont éblouis du jour que je revois, </l>
+	                 <l n="156">Et mes genoux tremblants se dérobent sous moi.</l>
+	                 <l n="157" part="I">Hélas !</l>
+                  <stage>Elle s'assit.</stage>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="157" part="F">Dieux tout-puissants ! Que nos pleurs vous apaisent.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="158">Que ces vains ornements, que ces voiles me pèsent !</l>
+	                 <l n="159">Quelle importune main, en formant tous ces noeuds,</l>
+	                 <l n="160">A pris soin sur mon front d'assembler mes cheveux ? </l>
+	                 <l n="161">Tout m'afflige et me nuit, et conspire à me nuire.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="162">Comme on voit tous ses voeux l'un l'autre se détruire !</l>
+	                 <l n="163">Vous-même condamnant vos injustes desseins,</l>
+	                 <l n="164">Tantôt à vous parer vous excitiez nos mains.</l>
+	                 <l n="165">Vous-même rappelant votre force première</l>
+	                 <l n="166">Vous vouliez vous montrer et revoir la lumière ;</l>
+	                 <l n="167">Vous la voyez, Madame, et prête à vous cacher,</l>
+	                 <l n="168">Vous haïssez le jour que vous veniez chercher ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="169">Noble et brillant auteur d'une triste famille,</l>
+	                 <l n="170">Toi, dont ma mère osait se vanter d'être fille,</l>
+	                 <l n="171">Qui peut-être rougis du trouble où tu me vois,</l>
+	                 <l n="172">Soleil, je te viens voir pour la dernière fois.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="173">Quoi ! Vous ne perdrez point cette cruelle envie ?</l>
+	                 <l n="174">Vous verrai-je toujours renonçant à la vie</l>
+	                 <l n="175">Faire de votre mort les funestes apprêts ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="176">Dieux ! Que ne suis-je assise à l'ombre des forêts !</l>
+	                 <l n="177">Quand pourrai-je au travers d'une noble poussière</l>
+	                 <l n="178">Suivre de l'oeil un char fuyant dans la carrière ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="179" part="I">Quoi, Madame !</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="179" part="F">Insensée, où suis-je ? Et qu'ai-je dit ?</l>
+	                 <l n="180">Où laissai-je égarer mes voeux, et mon esprit ? </l>
+	                 <l n="181">Je l'ai perdu. Les dieux m'en ont ravi l'usage.</l>
+	                 <l n="182">Oenone, la rougeur me couvre le visage,</l>
+	                 <l n="183">Je te laisse trop voir mes honteuses douleurs,</l>
+	                 <l n="184">Et mes yeux malgré moi se remplissent de pleurs.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="185">Ah ! S'il vous faut rougir, rougissez d'un silence, </l>
+	                 <l n="186">Qui de vos maux encore aigrit la violence.</l>
+	                 <l n="187">Rebelle à tous nos soins, sourde à tous nos discours,</l>
+	                 <l n="188">Voulez-vous sans pitié laisser finir vos jours ?</l>
+	                 <l n="189">Quelle fureur les borne au milieu de leur course ?</l>
+	                 <l n="190">Quel charme ou quel poison en a tari la source ? </l>
+	                 <l n="191">Les ombres par trois fois ont obscurci les cieux,</l>
+	                 <l n="192">Depuis que le sommeil n'est entré dans vos yeux ;</l>
+	                 <l n="193">Et le jour a trois fois chassé la nuit obscure,</l>
+	                 <l n="194">Depuis que votre corps languit sans nourriture.</l>
+	                 <l n="195">À quel affreux dessein vous laissez-vous tenter ? </l>
+	                 <l n="196">De quel droit sur vous-même osez-vous attenter ?</l>
+	                 <l n="197">Vous offensez les Dieux auteurs de votre vie.</l>
+	                 <l n="198">Vous trahissez l'époux à qui la foi vous lie,</l>
+	                 <l n="199">Vous trahissez enfin vos enfants malheureux,</l>
+	                 <l n="200">Que vous précipitez sous un joug rigoureux. </l>
+	                 <l n="201">Songez qu'un même jour leur ravira leur mère,</l>
+	                 <l n="202">Et rendra l'espérance au fils de l'étrangère,</l>
+	                 <l n="203">À ce fier ennemi de vous, de votre sang,</l>
+	                 <l n="204">Ce fils qu'une Amazone a porté dans son flanc,</l>
+	                 <l n="205" part="I">Cet Hippolyte...</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="205" part="M">Ah dieux !</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="205" part="F">Ce reproche vous touche. </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="206">Malheureuse, quel nom est sorti de ta bouche ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="207">Hé bien, votre colère éclate avec raison.</l>
+	                 <l n="208">J'aime à vous voir frémir à ce funeste nom.</l>
+	                 <l n="209">Vivez donc. Que l'amour, le devoir vous excite.</l>
+	                 <l n="210">Vivez, ne souffrez pas que le fils d'une Scythe, </l>
+	                 <l n="211">Accablant vos enfants d'un empire odieux,</l>
+	                 <l n="212">Commande au plus beau sang de la Grèce, et des Dieux,</l>
+	                 <l n="213">Mais ne différez point, chaque moment vous tue.</l>
+	                 <l n="214">Réparez promptement votre force abattue,</l>
+	                 <l n="215">Tandis que de vos jours prêts à se consumer</l>
+	                 <l n="216">Le flambeau dure encore, et peut se rallumer.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="217">J'en ai trop prolongé la coupable durée.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="218">Quoi ! De quelques remords êtes-vous déchirée ?</l>
+	                 <l n="219">Quel crime a pu produire un trouble si pressant ?</l>
+	                 <l n="220">Vos mains n'ont point trempé dans le sang innocent ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="221">Grâces au Ciel, mes mains ne sont point criminelles.</l>
+	                 <l n="222">Plût aux dieux que mon coeur fût innocent comme elles !</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="223">Et quel affreux projet avez-vous enfanté,</l>
+	                 <l n="224">Dont votre coeur encor doive être épouvanté ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="225">Je t'en ai dit assez. Épargne moi le reste. </l>
+	                 <l n="226">Je meurs, pour ne point faire un aveu si funeste.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="227">Mourez donc, et gardez un silence inhumain,</l>
+	                 <l n="228">Mais pour fermer vos yeux cherchez une autre main.</l>
+	                 <l n="229">Quoiqu'il vous reste à peine une faible lumière,</l>
+	                 <l n="230">Mon âme chez les morts descendra la première. </l>
+	                 <l n="231">Mille chemins ouverts y conduisent toujours,</l>
+	                 <l n="232">Et ma juste douleur choisira les plus courts.</l>
+	                 <l n="233">Cruelle, quand ma foi vous a-t-elle déçue ?</l>
+	                 <l n="234">Songez-vous qu'en naissant mes bras vous ont reçue ?</l>
+	                 <l n="235">Mon pays, mes enfants, pour vous j'ai tout quitté. </l>
+	                 <l n="236">Réserviez-vous ce prix à ma fidélité ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="237">Quel fruit espères-tu de tant de violence ?</l>
+	                 <l n="238">Tu frémiras d'horreur si je romps le silence.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="239">Et que me direz-vous, qui ne cède, grands Dieux !</l>
+	                 <l n="240">À l'horreur de vous voir expirer à mes yeux ? </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="241">Quand tu sauras mon crime, et le sort qui m'accable,</l>
+	                 <l n="242">Je n'en mourrai pas moins, j'en mourrai plus coupable.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="243">Madame, au nom des pleurs que pour vous j'ai versés,</l>
+	                 <l n="244">Par vos faibles genoux que je tiens embrassés,</l>
+	                 <l n="245">Délivrez mon esprit de ce funeste doute. </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="246" part="I">Tu le veux. Lève-toi.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="246" part="F">Parlez. Je vous écoute.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="247">Ciel ! Que lui vais-je dire ? Et par où commencer ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="248">Par de vaines frayeurs cessez de m'offenser.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="249">Ô haine de Vénus ! Ô fatale colère !</l>
+	                 <l n="250">Dans quels égarements l'amour jeta ma mère ! </l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="251">Oublions-les, Madame. Et qu'à tout l'avenir</l>
+	                 <l n="252">Un silence éternel cache ce souvenir.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="253">Ariane, ma soeur ! De quel amour blessée,</l>
+	                 <l n="254">Vous mourûtes aux bords où vous fûtes laissée !</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="255">Que faites-vous, Madame ? Et quel mortel ennui, </l>
+	                 <l n="256">Contre tout votre sang vous anime aujourd'hui ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="257">Puisque Vénus le veut, de ce sang déplorable</l>
+	                 <l n="258">Je péris la dernière, et la plus misérable.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="259" part="I">Aimez-vous ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="259" part="F">De l'amour j'ai toutes les fureurs.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="260" part="I">Pour qui ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="260" part="F">Tu vas ouïr le comble des horreurs. </l>
+	                 <l n="261">J'aime... à ce nom fatal je tremble, je frissonne.</l>
+	                 <l n="262" part="I">J'aime...</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="262" part="M">Qui ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="262" part="F">Tu connais ce fils de l'Amazone,</l>
+	                 <l n="263">Ce prince si longtemps par moi-même opprimé.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="264" part="I">Hippolyte ? Grands dieux !</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="264" part="F">C'est toi qui l'as nommé.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="265">Juste ciel ! Tout mon sang dans mes veines se glace. </l>
+	                 <l n="266">Ô désespoir ! Ô crime ! Ô déplorable race !</l>
+	                 <l n="267">Voyage infortuné ! Rivage malheureux,</l>
+	                 <l n="268">Fallait-il approcher de tes bords dangereux ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+                  <note type="C">Fils d'Égée : Thésée est le fils d'Égée. Ce roi attendant son fils ; il crut mort car son navire, de retour de Minos victorieux, arborait, par erreur, une voile noire, signe de la mort de Thésée. De chagrin, Égée se jeta dans la mer qui porte maintenant son nom.</note>
+                  <ab>s
+	</ab>
+                  <l n="269">Mon mal vient de plus loin. À peine au fils d'Égée,</l>
+	                 <l n="270">Sous les lois de l'hymen je m'étais engagée, </l>
+	                 <l n="271">Mon repos, mon bonheur semblait être affermi,</l>
+	                 <l n="272">Athènes me montra mon superbe ennemi.</l>
+	                 <l n="273">Je le vis, je rougis, je pâlis à sa vue.</l>
+	                 <l n="274">Un trouble s'éleva dans mon âme éperdue.</l>
+	                 <l n="275">Mes yeux ne voyaient plus, je ne pouvais parler, </l>
+	                 <l n="276">Je sentis tout mon corps et transir, et brûler.</l>
+	                 <l n="277">Je reconnus Vénus, et ses feux redoutables,</l>
+	                 <l n="278">D'un sang qu'elle poursuit tourments inévitables.</l>
+	                 <l n="279">Par des voeux assidus je crus les détourner,</l>
+	                 <l n="280">Je lui bâtis un temple, et pris soin de l'orner. </l>
+	                 <l n="281">De victimes moi-même à toute heure entourée,</l>
+	                 <l n="282">Je cherchais dans leurs flancs ma raison égarée.</l>
+	                 <l n="283">D'un incurable amour remèdes impuissants !</l>
+	                 <l n="284">En vain sur les autels ma main brûlait l'encens.</l>
+	                 <l n="285">Quand ma bouche implorait le nom de la Déesse, </l>
+	                 <l n="286">J'adorais Hippolyte, et le voyant sans cesse,</l>
+	                 <l n="287">Même au pied des autels que je faisais fumer,</l>
+	                 <l n="288">J'offrais tout à ce Dieu, que je n'osais nommer.</l>
+	                 <l n="289">Je l'évitais partout. Ô comble de misère !</l>
+	                 <l n="290">Mes yeux le retrouvaient dans les traits de son père.</l>
+	                 <l n="291">Contre moi-même enfin j'osai me révolter.</l>
+	                 <l n="292">J'excitai mon courage à le persécuter.</l>
+	                 <l n="293">Pour bannir l'ennemi dont j'étais idolâtre,</l>
+	                 <l n="294">J'affectai les chagrins d'une injuste marâtre,</l>
+	                 <l n="295">Je pressai son exil, et mes cris éternels</l>
+	                 <l n="296">L'arrachèrent du sein, et des bras paternels.</l>
+	                 <l n="297">Je respirais, Oenone. Et depuis son absence,</l>
+	                 <l n="298">Mes jours moins agités coulaient dans l'innocence.</l>
+	                 <l n="299">Soumise à mon époux, et cachant mes ennuis,</l>
+	                 <l n="300">De son fatal hymen je cultivais les fruits. </l>
+	                 <l n="301">Vaines précautions ! Cruelle destinée !</l>
+	                 <l n="302">Par mon époux lui-même à Trézène amenée</l>
+	                 <l n="303">J'ai revu l'ennemi que j'avais éloigné.</l>
+	                 <l n="304">Ma blessure trop vive aussitôt a saigné.</l>
+	                 <l n="305">Ce n'est plus une ardeur dans mes veines cachée.</l>
+	                 <l n="306">C'est Vénus tout entière à sa proie attachée.</l>
+	                 <l n="307">J'ai conçu pour mon crime une juste terreur.</l>
+	                 <l n="308">J'ai pris la vie en haine, et ma flamme en horreur.</l>
+	                 <l n="309">Je voulais en mourant prendre soin de ma gloire,</l>
+	                 <l n="310">Et dérober au jour une flamme si noire. </l>
+	                 <l n="311">Je n'ai pu soutenir tes larmes, tes combats.</l>
+	                 <l n="312">Je t'ai tout avoué, je ne m'en repens pas,</l>
+	                 <l n="313">Pourvu que de ma mort respectant les approches</l>
+	                 <l n="314">Tu ne m'affliges plus par d'injustes reproches,</l>
+	                 <l n="315">Et que tes vains secours cessent de rappeler</l>
+	                 <l n="316">Un reste de chaleur, tout prêt à s'exhaler.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Phèdre, Oenone, Panope.</head>
+               <sp who="tc0661-PANOPE">
+                  <speaker>PANOPE.</speaker>
+	                 <l n="317">Je voudrais vous cacher une triste nouvelle,</l>
+	                 <l n="318">Madame. Mais il faut que je vous la révèle.</l>
+	                 <l n="319">La mort vous a ravi votre invincible époux,</l>
+	                 <l n="320">Et ce malheur n'est plus ignoré que de vous.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="321" part="I">Panope, que dis-tu ?</l>
+               </sp>
+               <sp who="tc0661-PANOPE">
+                  <speaker>PANOPE.</speaker>
+	                 <l n="321" part="F">Que la Reine abusée</l>
+	                 <l n="322">En vain demande au ciel le retour de Thésée,</l>
+	                 <l n="323">Et que par des vaisseaux arrivés dans le port</l>
+	                 <l n="324">Hippolyte son fils vient d'apprendre sa mort.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="325" part="I">Ciel !</l>
+               </sp>
+               <sp who="tc0661-PANOPE">
+                  <speaker>PANOPE.</speaker>
+	                 <l n="325" part="F">Pour le choix d'un maître Athènes se partage.</l>
+	                 <l n="326">Au prince votre fils l'un donne son suffrage,</l>
+	                 <l n="327">Madame, et de l'État l'autre oubliant les lois</l>
+	                 <l n="328">Au fils de l'Étrangère ose donner sa voix.</l>
+	                 <l n="329">On dit même qu'au trône une brigue insolente</l>
+	                 <l n="330">Veut placer Aricie, et le sang de Pallante.</l>
+	                 <l n="331">J'ai cru de ce péril vous devoir avertir.</l>
+	                 <l n="332">Déjà même Hippolyte est tout prêt à partir,</l>
+	                 <l n="333">Et l'on craint, s'il paraît dans ce nouvel orage,</l>
+	                 <l n="334">Qu'il n'entraîne après lui tout un peuple volage.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="335">Panope, c'est assez. La reine qui t'entend,</l>
+	                 <l n="336">Ne négligera point cet avis important.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Phèdre, Oenone.</head>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="337">Madame, je cessais de vous presser de vivre.</l>
+	                 <l n="338">Déjà même au tombeau je songeais à vous suivre.</l>
+	                 <l n="339">Pour vous en détourner je n'avais plus de voix.</l>
+	                 <l n="340">Mais ce nouveau malheur vous prescrit d'autres lois. </l>
+	                 <l n="341">Votre fortune change et prend une autre face.</l>
+	                 <l n="342">Le roi n'est plus, Madame, il faut prendre sa place.</l>
+	                 <l n="343">Sa mort vous laisse un fils à qui vous vous devez,</l>
+	                 <l n="344">Esclave, s'il vous perd, et roi, si vous vivez.</l>
+	                 <l n="345">Sur qui dans son malheur voulez-vous qu'il s'appuie ?</l>
+	                 <l n="346">Ses larmes n'auront plus de main qui les essuie.</l>
+	                 <l n="347">Et ses cris innocents portés jusques aux Dieux,</l>
+	                 <l n="348">Iront contre sa mère irriter ses aïeux.</l>
+	                 <l n="349">Vivez, vous n'avez plus de reproche à vous faire.</l>
+	                 <l n="350">Votre flamme devient une flamme ordinaire.</l>
+	                 <l n="351">Thésée en expirant vient de rompre les noeuds,</l>
+	                 <l n="352">Qui faisaient tout le crime et l'horreur de vos feux.</l>
+	                 <l n="353">Hippolyte pour vous devient moins redoutable,</l>
+	                 <l n="354">Et vous pouvez le voir sans vous rendre coupable.</l>
+	                 <l n="355">Peut-être convaincu de votre aversion</l>
+	                 <l n="356">Il va donner un chef à la sédition.</l>
+	                 <l n="357">Détrompez son erreur, fléchissez son courage.</l>
+	                 <l n="358">Roi de ces bords heureux, Trézène est son partage.</l>
+	                 <l n="359">Mais il sait que les lois donnent à votre fils</l>
+	                 <l n="360">Les superbes remparts que Minerve a bâtis.</l>
+	                 <l n="361">Vous avez l'un et l'autre une juste ennemie.</l>
+	                 <l n="362">Unissez-vous tous deux pour combattre Aricie.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="363">Hé bien ! À tes conseils je me laisse entraîner.</l>
+	                 <l n="364">Vivons, si vers la vie on peut me ramener,</l>
+	                 <l n="365">Et si l'amour d'un fils en ce moment funeste</l>
+	                 <l n="366">De mes faibles esprits peut ranimer le reste.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="2">
+            <head>ACTE II</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Aricie, Ismène.</head>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="367">Hippolyte demande à me voir en ce lieu ?</l>
+	                 <l n="368">Hippolyte me cherche, et veut me dire adieu ?</l>
+	                 <l n="369">Ismène, dis-tu vrai ? N'es-tu point abusée ?</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="370">C'est le premier effet de la mort de Thésée.</l>
+	                 <l n="371">Préparez-vous, Madame, à voir de tous côtés</l>
+	                 <l n="372">Voler vers vous les coeurs par Thésée écartés.</l>
+	                 <l n="373">Aricie à la fin de son sort est maîtresse,</l>
+	                 <l n="374">Et bientôt à ses pieds verra toute la Grèce.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="375">Ce n'est donc point, Ismène, un bruit mal affermi.</l>
+	                 <l n="376">Je cesse d'être esclave, et n'ai plus d'ennemi ?</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="377">Non, Madame, les Dieux ne vous sont plus contraires,</l>
+	                 <l n="378">Et Thésée a rejoint les mânes de vos frères.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="379">Dit-on quelle aventure a terminé ses jours ?</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="380">On sème de sa mort d'incroyables discours. </l>
+	                 <l n="381">On dit que ravisseur d'une amante nouvelle</l>
+	                 <l n="382">Les flots ont englouti cet époux infidèle.</l>
+	                 <l n="383">On dit même, et ce bruit est partout répandu,</l>
+	                 <l n="384">Qu'avec Pirithoüs aux Enfers descendu</l>
+	                 <l n="385">Il a vu le Cocyte et les rivages sombres, </l>
+	                 <l n="386">Et s'est montré vivant aux infernales ombres,</l>
+	                 <l n="387">Mais qu'il n'a pu sortir de ce triste séjour,</l>
+	                 <l n="388">Et repasser les bords, qu'on passe sans retour.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="389">Croirai-je qu'un mortel avant sa dernière heure</l>
+	                 <l n="390">Peut pénétrer des morts la profonde demeure ?</l>
+	                 <l n="391">Quel charme l'attirait sur ces bords redoutés ?</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="392">Thésée est mort, Madame, et vous seule en doutez.</l>
+	                 <l n="393">Athènes en gémit, Trézène en est instruite,</l>
+	                 <l n="394">Et déjà pour son roi reconnaît Hippolyte.</l>
+	                 <l n="395">Phèdre dans ce palais tremblante pour son fils, </l>
+	                 <l n="396">De ses amis troublés demande les avis.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="397">Et tu crois que pour moi plus humain que son père</l>
+	                 <l n="398">Hippolyte rendra ma chaîne plus légère ?</l>
+	                 <l n="399" part="I">Qu'il plaindra mes malheurs ?</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="399" part="F">Madame, je le crois.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="400">L'insensible Hippolyte est-il connu de toi ? </l>
+	                 <l n="401">Sur quel frivole espoir penses-tu qu'il me plaigne,</l>
+	                 <l n="402">Et respecte en moi seule un sexe qu'il dédaigne ?</l>
+	                 <l n="403">Tu vois depuis quel temps il évite nos pas,</l>
+	                 <l n="404">Et cherche tous les lieux où nous ne sommes pas.</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="405">Je sais de ses froideurs tout ce que l'on récite. </l>
+	                 <l n="406">Mais j'ai vu près de vous ce superbe Hippolyte.</l>
+	                 <l n="407">Et même, en le voyant, le bruit de sa fierté</l>
+	                 <l n="408">A redoublé pour lui ma curiosité.</l>
+	                 <l n="409">Sa présence à ce bruit n'a point paru répondre.</l>
+	                 <l n="410">Dès vos premiers regards je l'ai vu se confondre. </l>
+	                 <l n="411">Ses yeux, qui vainement voulaient vous éviter,</l>
+	                 <l n="412">Déjà pleins de langueur ne pouvaient vous quitter.</l>
+	                 <l n="413">Le nom d'amant peut-être offense son courage.</l>
+	                 <l n="414">Mais il en a les yeux, s'il n'en a le langage.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="415">Que mon coeur, chère Ismène, écoute avidement</l>
+	                 <l n="416">Un discours, qui peut-être a peu de fondement !</l>
+	                 <l n="417">Ô toi ! Qui me connais, te semblait-il croyable</l>
+	                 <l n="418">Que le triste jouet d'un sort impitoyable,</l>
+	                 <l n="419">Un coeur toujours nourri d'amertume et de pleurs,</l>
+	                 <l n="420">Dût connaître l'amour, et ses folles douleurs ? </l>
+	                 <l n="421">Reste du sang d'un roi, noble fils de la Terre,</l>
+	                 <l n="422">Je suis seule échappée aux fureurs de la guerre,</l>
+	                 <l n="423">J'ai perdu dans la fleur de leur jeune saison</l>
+	                 <l n="424">Six frères, quel espoir d'une illustre maison !</l>
+	                 <l n="425">Le fer moissonna tout, et la terre humectée</l>
+	                 <l n="426">But à regret le sang des neveux d'Erechthée.</l>
+	                 <l n="427">Tu sais depuis leur mort quelle sévère loi</l>
+	                 <l n="428">Défend à tous les Grecs de soupirer pour moi.</l>
+	                 <l n="429">On craint que de la soeur les flammes téméraires</l>
+	                 <l n="430">Ne raniment un jour la cendre de ses frères.</l>
+	                 <l n="431">Mais tu sais bien aussi de quel oeil dédaigneux</l>
+	                 <l n="432">Je regardais ce soin d'un vainqueur soupçonneux.</l>
+	                 <l n="433">Tu sais que de tout temps à l'amour opposée</l>
+	                 <l n="434">Je rendais souvent grâce à l'injuste Thésée</l>
+	                 <l n="435">Dont l'heureuse rigueur secondait mes mépris. </l>
+	                 <l n="436">Mes yeux alors, mes yeux n'avaient pas vu son fils.</l>
+	                 <l n="437">Non que par les yeux seuls lâchement enchantée</l>
+	                 <l n="438">J'aime en lui sa beauté, sa grâce tant vantée,</l>
+	                 <l n="439">Présents dont la nature a voulu l'honorer,</l>
+	                 <l n="440">Qu'il méprise lui-même, et qu'il semble ignorer. </l>
+	                 <l n="441">J'aime, je prise en lui de plus nobles richesses,</l>
+	                 <l n="442">Les vertus de son père, et non point les faiblesses.</l>
+	                 <l n="443">J'aime, je l'avouerai, cet orgueil généreux</l>
+	                 <l n="444">Qui jamais n'a fléchi sous le joug amoureux.</l>
+	                 <l n="445">Phèdre en vain s'honorait des soupirs de Thésée.</l>
+	                 <l n="446">Pour moi, je suis plus fière, et fuis la gloire aisée</l>
+	                 <l n="447">D'arracher un hommage à mille autres offert,</l>
+	                 <l n="448">Et d'entrer dans un coeur de toutes parts ouvert.</l>
+	                 <l n="449">Mais de faire fléchir un courage inflexible,</l>
+	                 <l n="450">De porter la douleur dans une âme insensible, </l>
+	                 <l n="451">D'enchaîner un captif de ses fers étonné,</l>
+	                 <l n="452">Contre un joug qui lui plaît vainement mutiné ;</l>
+	                 <l n="453">C'est là ce que je veux, c'est là ce qui m'irrite.</l>
+	                 <l n="454">Hercule à désarmer coûtait moins qu'Hippolyte,</l>
+	                 <l n="455">Et vaincu plus souvent, et plutôt surmonté</l>
+	                 <l n="456">Préparait moins de gloire aux yeux qui l'ont dompté.</l>
+	                 <l n="457">Mais, chère Ismène, hélas ! Quelle est mon imprudence !</l>
+	                 <l n="458">On ne m'opposera que trop de résistance.</l>
+	                 <l n="459">Tu m'entendras peut-être, humble dans mon ennui,</l>
+	                 <l n="460">Gémir du même orgueil que j'admire aujourd'hui.</l>
+	                 <l n="461">Hippolyte aimerait ? Par quel bonheur extrême</l>
+	                 <l n="462" part="I">Aurais-je pu fléchir...</l>
+               </sp>
+               <sp who="tc0661-ISMENE">
+                  <speaker>ISMÈNE.</speaker>
+	                 <l n="462" part="F">Vous l'entendrez lui-même,</l>
+	                 <l n="463" part="I">Il vient à vous.</l>
+               </sp>
+            </div>
+            <div type="scène" n="2">
+               <head>SCÈNE II. Hippolyte, Aricie, Ismène.</head>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="463" part="F">Madame, avant que de partir,</l>
+	                 <l n="464">J'ai cru de votre sort vous devoir avertir.</l>
+	                 <l n="465">Mon père ne vit plus. Ma juste défiance</l>
+	                 <l n="466">Présageait les raisons de sa trop longue absence.</l>
+	                 <l n="467">La mort seule bornant ses travaux éclatants</l>
+	                 <l n="468">Pouvait à l'univers le cacher si longtemps.</l>
+	                 <l n="469">Les dieux livrent enfin à la Parque homicide</l>
+	                 <l n="470">L'ami, le compagnon, le successeur d'Alcide.</l>
+	                 <l n="471">Je crois que votre haine, épargnant ses vertus,</l>
+	                 <l n="472">Écoute sans regret ces noms qui lui sont dûs.</l>
+	                 <l n="473">Un espoir adoucit ma tristesse mortelle.</l>
+	                 <l n="474">Je puis vous affranchir d'une austère tutelle.</l>
+	                 <l n="475">Je révoque des lois dont j'ai plaint la rigueur, </l>
+	                 <l n="476">Vous pouvez disposer de vous, de votre coeur.</l>
+	                 <l n="477">Et dans cette Trézène aujourd'hui mon partage,</l>
+	                 <l n="478">De mon aïeul Pitthée autrefois l'héritage,</l>
+	                 <l n="479">Qui m'a sans balancer reconnu pour son roi,</l>
+	                 <l n="480">Je vous laisse aussi libre, et plus libre que moi. </l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="481">Modérez des bontés, dont l'excès m'embarrasse.</l>
+	                 <l n="482">D'un soin si généreux honorer ma disgrâce,</l>
+	                 <l n="483">Seigneur, c'est me ranger, plus que vous ne pensez,</l>
+	                 <l n="484">Sous ces austères lois, dont vous me dispensez.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="485">Du choix d'un successeur Athènes incertaine</l>
+	                 <l n="486">Parle de vous, me nomme, et le fils de la reine.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="487" part="I">De moi, Seigneur ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="487" part="F">Je sais, sans vouloir me flatter,</l>
+	                 <l n="488">Qu'une superbe loi semble me rejeter.</l>
+	                 <l n="489">La Grèce me reproche une mère étrangère.</l>
+	                 <l n="490">Mais si pour concurrent je n'avais que mon frère,</l>
+	                 <l n="491">Madame, j'ai sur lui de véritables droits</l>
+	                 <l n="492">Que je saurais sauver du caprice des lois.</l>
+	                 <l n="493">Un frein plus légitime arrête mon audace.</l>
+	                 <l n="494">Je vous cède, ou plutôt je vous rends une place ;</l>
+	                 <l n="495">Un sceptre, que jadis vos aïeux ont reçu</l>
+	                 <l n="496">De ce fameux mortel que la Terre a conçu.</l>
+	                 <l n="497">L'adoption le mit entre les mains d'Égée.</l>
+	                 <l n="498">Athènes par mon père accrue, et protégée</l>
+	                 <l n="499">Reconnut avec joie un roi si généreux,</l>
+	                 <l n="500">Et laissa dans l'oubli vos frères malheureux.</l>
+	                 <l n="501">Athènes dans ses murs maintenant vous rappelle.</l>
+	                 <l n="502">Assez elle a gémi d'une longue querelle</l>
+	                 <l n="503">Assez dans ses sillons votre sang englouti</l>
+	                 <l n="504">A fait fumer le champ dont il était sorti.</l>
+	                 <l n="505">Trézène m'obéit. Les campagnes de Crète</l>
+	                 <l n="506">Offrent au fils de Phèdre une riche retraite.</l>
+	                 <l n="507">L'Attique est votre bien. Je pars, et vais pour vous</l>
+	                 <l n="508">Réunir tous les voeux partagés entre nous.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="509">De tout ce que j'entends étonnée et confuse</l>
+	                 <l n="510">Je crains presque, je crains qu'un songe ne m'abuse.</l>
+	                 <l n="511">Veillai-je ? Puis-je croire un semblable dessein ?</l>
+	                 <l n="512">Quel Dieu, Seigneur, quel Dieu l'a mis dans votre sein ?</l>
+	                 <l n="513">Qu'à bon droit votre gloire en tous lieux est semée !</l>
+	                 <l n="514">Et que la vérité passe la Renommée !</l>
+	                 <l n="515">Vous-même en ma faveur vous voulez vous trahir ?</l>
+	                 <l n="516">N'était-ce pas assez de ne me point haïr ?</l>
+	                 <l n="517">Et d'avoir si longtemps pu défendre votre âme</l>
+	                 <l n="518" part="I">De cette inimitié...</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="518" part="F">Moi, vous haïr, Madame ?</l>
+	                 <l n="519">Avec quelques couleurs qu'on ait peint ma fierté,</l>
+	                 <l n="520">Croit-on que dans ses flancs un monstre m'ait porté ? </l>
+	                 <l n="521">Quelles sauvages moeurs, quelle haine endurcie</l>
+	                 <l n="522">Pourrait, en vous voyant, n'être point adoucie ?</l>
+	                 <l n="523">Ai-je pu résister au charme décevant...</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="524" part="I">Quoi, Seigneur ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="524" part="F">Je me suis engagé trop avant.</l>
+	                 <l n="525">Je vois que la raison cède à la violence. </l>
+	                 <l n="526">Puisque j'ai commencé de rompre le silence,</l>
+	                 <l n="527">Madame, il faut poursuivre. Il faut vous informer</l>
+	                 <l n="528">D'un secret, que mon coeur ne peut plus renfermer.</l>
+	                 <l n="529">   Vous voyez devant vous un prince déplorable,</l>
+	                 <l n="530">D'un téméraire orgueil exemple mémorable.</l>
+	                 <l n="531">Moi, qui contre l'amour fièrement révolté,</l>
+	                 <l n="532">Aux fers de ses captifs ai longtemps insulté,</l>
+	                 <l n="533">Qui des faibles mortels déplorant les naufrages,</l>
+	                 <l n="534">Pensais toujours du bord contempler les orages,</l>
+	                 <l n="535">Asservi maintenant sous la commune loi, </l>
+	                 <l n="536">Par quel trouble me vois-je emporté loin de moi !</l>
+	                 <l n="537">Un moment a vaincu mon audace imprudente.</l>
+	                 <l n="538">Cette âme si superbe est enfin dépendante.</l>
+	                 <l n="539">Depuis près de six mois honteux, désespéré,</l>
+	                 <l n="540">Portant partout le trait, dont je suis déchiré,</l>
+	                 <l n="541">Contre vous, contre moi vainement je m'éprouve.</l>
+	                 <l n="542">Présente je vous fuis, absente je vous trouve.</l>
+	                 <l n="543">Dans le fond des forêts votre image me suit.</l>
+	                 <l n="544">La lumière du jour, les ombres de la nuit,</l>
+	                 <l n="545">Tout retrace à mes yeux les charmes que j'évite. </l>
+	                 <l n="546">Tout vous livre à l'envi le rebelle Hippolyte.</l>
+	                 <l n="547">Moi-même pour tout fruit de mes soins superflus,</l>
+	                 <l n="548">Maintenant je me cherche, et ne me trouve plus.</l>
+	                 <l n="549">Mon arc, mes javelots, mon char, tout m'importune.</l>
+	                 <l n="550">Je ne me souviens plus des leçons de Neptune. </l>
+	                 <l n="551">Mes seuls gémissements font retentir les bois,</l>
+	                 <l n="552">Et mes coursiers oisifs ont oublié ma voix.</l>
+	                 <l n="553">   Peut-être le récit d'un amour si sauvage</l>
+	                 <l n="554">Vous fait en m'écoutant rougir de votre ouvrage.</l>
+	                 <l n="555">D'un coeur qui s'offre à vous quel farouche entretien ! </l>
+	                 <l n="556">Quel étrange captif pour un si beau lien !</l>
+	                 <l n="557">Mais l'offrande à vos yeux en doit être plus chère.</l>
+	                 <l n="558">Songez que je vous parle une langue étrangère,</l>
+	                 <l n="559">Et ne rejetez pas des voeux mal exprimés,</l>
+	                 <l n="560">Qu'Hippolyte sans vous n'aurait jamais formés.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Hippolyte, Aricie, Théramène, Ismène.</head>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="561">Seigneur, la Reine vient, et je l'ai devancée.</l>
+	                 <l n="562" part="I">Elle vous cherche.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="562" part="M">Moi ?</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="562" part="F">J'ignore sa pensée,</l>
+	                 <l n="563">Mais on vous est venu demander de sa part.</l>
+	                 <l n="564">Phèdre veut vous parler avant votre départ.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="565">Phèdre ? Que lui dirai-je ? Et que peut-elle attendre... </l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="566">Seigneur, vous ne pouvez refuser de l'entendre.</l>
+	                 <l n="567">Quoique trop convaincu de son inimitié,</l>
+	                 <l n="568">Vous devez à ses pleurs quelque ombre de pitié.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="569">Cependant vous sortez. Et je pars. Et j'ignore</l>
+	                 <l n="570">Si je n'offense point les charmes que j'adore. </l>
+	                 <l n="571">J'ignore si ce coeur que je laisse en vos mains...</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="572">Partez, Prince, et suivez vos généreux desseins.</l>
+	                 <l n="573">Rendez de mon pouvoir Athènes tributaire.</l>
+	                 <l n="574">J'accepte tous les dons que vous me voulez faire.</l>
+	                 <l n="575">Mais cet empire enfin si grand, si glorieux, </l>
+	                 <l n="576">N'est pas de vos présents le plus cher à mes yeux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Hippolyte, Théramène.</head>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="577">Ami, tout est-il prêt ? Mais la Reine s'avance.</l>
+	                 <l n="578">Va, que pour le départ tout s'arme en diligence.</l>
+	                 <l n="579">Fais donner le signal, cours, ordonne, et reviens</l>
+	                 <l n="580">Me délivrer bientôt d'un fâcheux entretien. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Phèdre, Hippolyte, Oenone.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE, à OEnone.</speaker>
+	                 <l n="581">Le voici. Vers mon coeur tout mon sang se retire.</l>
+	                 <l n="582">J'oublie, en le voyant, ce que je viens lui dire.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="583">Souvenez-vous d'un fils qui n'espère qu'en vous.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="584">On dit qu'un prompt départ vous éloigne de nous,</l>
+	                 <l n="585">Seigneur. À vos douleurs je viens joindre mes larmes. </l>
+	                 <l n="586">Je vous viens pour un fils expliquer mes alarmes.</l>
+	                 <l n="587">Mon fils n'a plus de père, et le jour n'est pas loin</l>
+	                 <l n="588">Qui de ma mort encor doit le rendre témoin.</l>
+	                 <l n="589">Déjà mille ennemis attaquent son enfance,</l>
+	                 <l n="590">Vous seul pouvez contre eux embrasser sa défense. </l>
+	                 <l n="591">Mais un secret remords agite mes esprits.</l>
+	                 <l n="592">Je crains d'avoir fermé votre oreille à ses cris.</l>
+	                 <l n="593">Je tremble que sur lui votre juste colère</l>
+	                 <l n="594">Ne poursuive bientôt une odieuse mère.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="595">Madame, je n'ai point des sentiments si bas. </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="596">Quand vous me haïriez je ne m'en plaindrais pas,</l>
+	                 <l n="597">Seigneur. Vous m'avez vue attachée à vous nuire :</l>
+	                 <l n="598">Dans le fond de mon coeur vous ne pouviez pas lire.</l>
+	                 <l n="599">À votre inimitié j'ai pris soin de m'offrir.</l>
+	                 <l n="600">Aux bords que j'habitais je n'ai pu vous souffrir.</l>
+	                 <l n="601">En public, en secret contre vous déclarée,</l>
+	                 <l n="602">J'ai voulu par des mers en être séparée.</l>
+	                 <l n="603">J'ai même défendu par une expresse loi</l>
+	                 <l n="604">Qu'on osât prononcer votre nom devant moi.</l>
+	                 <l n="605">Si pourtant à l'offense on mesure la peine, </l>
+	                 <l n="606">Si la haine peut seule attirer votre haine,</l>
+	                 <l n="607">Jamais femme ne fut plus digne de pitié,</l>
+	                 <l n="608">Et moins digne, Seigneur, de votre inimitié.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="609">Des droits de ses enfants une mère jalouse</l>
+	                 <l n="610">Pardonne rarement au fils d'une autre épouse. </l>
+	                 <l n="611">Madame, je le sais. Les soupçons importuns</l>
+	                 <l n="612">Sont d'un second hymen les fruits les plus communs.</l>
+	                 <l n="613">Toute autre aurait pour moi pris les mêmes ombrages,</l>
+	                 <l n="614">Et j'en aurais peut-être essuyé plus d'outrages.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="615">Ah, Seigneur ! Que le ciel, j'ose ici l'attester, </l>
+	                 <l n="616">De cette loi commune a voulu m'excepter.</l>
+	                 <l n="617">Qu'un soin bien différent me trouble, et me dévore !</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="618">Madame, il n'est pas temps de vous troubler encore.</l>
+	                 <l n="619">Peut-être votre époux voit encore le jour.</l>
+	                 <l n="620">Le ciel peut à nos pleurs accorder son retour. </l>
+	                 <l n="621">Neptune le protège, et ce Dieu tutélaire</l>
+	                 <l n="622">Ne sera pas en vain imploré par mon père.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="623">On ne voit point deux fois le rivage des morts,</l>
+	                 <l n="624">Seigneur. Puisque Thésée a vu les sombres bords, </l>
+	                 <l n="625">En vain vous espérez qu'un Dieu vous le renvoie, </l>
+	                 <l n="626">Et l'avare Achéron ne lâche point sa proie.</l>
+	                 <l n="627">Que dis-je ? Il n'est point mort, puisqu'il respire en vous.</l>
+	                 <l n="628">Toujours devant mes yeux je crois voir mon époux.</l>
+	                 <l n="629">Je le vois, je lui parle, et mon coeur... Je m'égare, </l>
+	                 <l n="630">Seigneur, ma folle ardeur malgré moi se déclare. </l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="631">Je vois de votre amour l'effet prodigieux.</l>
+	                 <l n="632">Tout mort qu'il est, Thésée est présent à vos yeux.</l>
+	                 <l n="633">Toujours de son amour votre âme est embrasée.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="634">Oui, Prince, je languis, je brûle pour Thésée. </l>
+	                 <l n="635">Je l'aime, non point tel que l'ont vu les Enfers, </l>
+	                 <l n="636">Volage adorateur de mille objets divers,</l>
+	                 <l n="637">Qui va du Dieu des morts déshonorer la couche ;</l>
+	                 <l n="638">Mais fidèle, mais fier, et même un peu farouche,</l>
+	                 <l n="639">Charmant, jeune, traînant tous les coeurs après soi, </l>
+	                 <l n="640">Tel qu'on dépeint nos Dieux, ou tel que je vous vois. </l>
+	                 <l n="641">Il avait votre port, vos yeux, votre langage.</l>
+	                 <l n="642">Cette noble pudeur colorait son visage,</l>
+	                 <l n="643">Lorsque de notre Crète il traversa les flots,</l>
+	                 <l n="644">Digne sujet des voeux des filles de Minos. </l>
+	                 <l n="645">Que faisiez-vous alors ? Pourquoi sans Hippolyte</l>
+	                 <l n="646">Des héros de la Grèce assembla-t-il l'élite ?</l>
+	                 <l n="647">Pourquoi trop jeune encor ne pûtes-vous alors</l>
+	                 <l n="648">Entrer dans le vaisseau qui le mit sur nos bords ?</l>
+                  <note type="C">La monstre de la Crète : le Minotaure vauncu par Thésée.</note>
+	                 <l n="649">Par vous aurait péri le monstre de la Crète</l>
+                  <note type="C">La vaste retraite : le labyrinthe dans lequel le Minotaure était enfermé.</note>
+	                 <l n="650">Malgré tous les détours de sa vaste retraite,</l>
+	                 <l n="651">Pour en développer l'embarras incertain</l>
+                  <note type="C">Ariane est la soeur de Phèdre. Le fil fournit à Thésée lui permit de sortir du labyrinthe.</note>
+	                 <l n="652">Ma soeur du fil fatal eût armé votre main.</l>
+	                 <l n="653">Mais non, dans ce dessein je l'aurais devancée.</l>
+	                 <l n="654">L'amour m'en eût d'abord inspiré la pensée. </l>
+	                 <l n="655">C'est moi, Prince, c'est moi dont l'utile secours</l>
+	                 <l n="656">Vous eût du Labyrinthe enseigné les détours.</l>
+	                 <l n="657">Que de soins m'eût coûtés cette tête charmante !</l>
+	                 <l n="658">Un fil n'eût point assez rassuré votre amante.</l>
+	                 <l n="659">Compagne du péril qu'il vous fallait chercher, </l>
+	                 <l n="660">Moi-même devant vous j'aurais voulu marcher, </l>
+	                 <l n="661">Et Phèdre au Labyrinthe avec vous descendue,</l>
+	                 <l n="662">Se serait avec vous retrouvée, ou perdue.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="663">Dieux ! Qu'est-ce que j'entends ? Madame, oubliez-vous</l>
+	                 <l n="664">Que Thésée est mon père, et qu'il est votre époux ? </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="665">Et sur quoi jugez-vous que j'en perds la mémoire, </l>
+	                 <l n="666">Prince ? Aurais-je perdu tout le soin de ma gloire ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="667">Madame, pardonnez. J'avoue en rougissant,</l>
+	                 <l n="668">Que j'accusais à tort un discours innocent.</l>
+	                 <l n="669">Ma honte ne peut plus soutenir votre vue. </l>
+	                 <l n="670" part="I">Et je vais...</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+                  <note type="C">Phèdre passe ici du vouvoiement au tutoiement.</note>
+	                 <l n="670" part="F">Ah ! Cruel, tu m'as trop entendue. </l>
+	                 <l n="671">Je t'en ai dit assez pour te tirer d'erreur.</l>
+	                 <l n="672">Hé bien ! Connais donc Phèdre et toute sa fureur.</l>
+	                 <l n="673">J'aime. Ne pense pas qu'au moment que je t'aime,</l>
+	                 <l n="674">Innocente à mes yeux je m'approuve moi-même,</l>
+	                 <l n="675">Ni que du fol amour qui trouble ma raison</l>
+	                 <l n="676">Ma lâche complaisance ait nourri le poison.</l>
+	                 <l n="677">Objet infortuné des vengeances célestes,</l>
+	                 <l n="678">Je m'abhorre encor plus que tu ne me détestes.</l>
+	                 <l n="679">Les dieux m'en sont témoins, ces dieux qui dans mon flanc</l>
+	                 <l n="680">Ont allumé le feu fatal à tout mon sang, </l>
+	                 <l n="681">Ces dieux qui se sont fait une gloire cruelle</l>
+	                 <l n="682">De séduire le coeur d'une faible mortelle.</l>
+	                 <l n="683">Toi-même en ton esprit rappelle le passé.</l>
+	                 <l n="684">C'est peu de t'avoir fui, Cruel, je t'ai chassé. </l>
+	                 <l n="685">J'ai voulu te paraître odieuse, inhumaine. </l>
+	                 <l n="686">Pour mieux te résister, j'ai recherché ta haine.</l>
+	                 <l n="687">De quoi m'ont profité mes inutiles soins ?</l>
+	                 <l n="688">Tu me haïssais plus, je ne t'aimais pas moins.</l>
+	                 <l n="689">Tes malheurs te prêtaient encor de nouveaux charmes. </l>
+	                 <l n="690">J'ai langui, j'ai séché, dans les feux, dans les larmes. </l>
+	                 <l n="691">Il suffit de tes yeux pour t'en persuader,</l>
+	                 <l n="692">Si tes yeux un moment pouvaient me regarder.</l>
+	                 <l n="693">Que dis-je ? Cet aveu que je te viens de faire,</l>
+	                 <l n="694">Cet aveu si honteux, le crois-tu volontaire ? </l>
+	                 <l n="695">Tremblante pour un fils que je n'osais trahir, </l>
+	                 <l n="696">Je te venais prier de ne le point haïr.</l>
+	                 <l n="697">Faibles projets d'un coeur trop plein de ce qu'il aime !</l>
+	                 <l n="698">Hélas ! Je ne t'ai pu parler que de toi-même.</l>
+	                 <l n="699">Venge-toi, punis-moi d'un odieux amour. </l>
+	                 <l n="700">Digne fils du héros qui t'a donné le jour, </l>
+	                 <l n="701">Délivre l'Univers d'un monstre qui t'irrite.</l>
+	                 <l n="702">La veuve de Thésée ose aimer Hippolyte ?</l>
+	                 <l n="703">Crois-moi, ce monstre affreux ne doit point t'échapper.</l>
+	                 <l n="704">Voilà mon coeur. C'est là que ta main doit frapper. </l>
+	                 <l n="705">Impatient déjà d'expier son offense</l>
+	                 <l n="706">Au devant de ton bras je le sens qui s'avance.</l>
+	                 <l n="707">Frappe. Ou si tu le crois indigne de tes coups,</l>
+	                 <l n="708">Si ta haine m'envie un supplice si doux,</l>
+	                 <l n="709">Ou si d'un sang trop vil ta main serait trempée, </l>
+	                 <l n="710">Au défaut de ton bras prête moi ton épée. </l>
+	                 <l n="711" part="I">Donne.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="711" part="F">Que faites-vous, Madame ? Justes dieux !</l>
+	                 <l n="712">Mais on vient. Évitez des témoins odieux,</l>
+	                 <l n="713">Venez, rentrez, fuyez une honte certaine.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Hippolyte, Théramène.</head>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="714">Est-ce Phèdre qui fuit, ou plutôt qu'on entraîne ?</l>
+	                 <l n="715">Pourquoi, Seigneur, pourquoi ces marques de douleur ?</l>
+	                 <l n="716">Je vous vois sans épée, interdit, sans couleur.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="717">Théramène, fuyons. Ma surprise est extrême.</l>
+	                 <l n="718">Je ne puis sans horreur me regarder moi-même.</l>
+	                 <l n="719">Phèdre... Mais non, grands Dieux ! Qu'en un profond oubli</l>
+	                 <l n="720">Cet horrible secret demeure enseveli. </l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="721">Si vous voulez partir, la voile est préparée.</l>
+	                 <l n="722">Mais Athènes, Seigneur, s'est déjà déclarée,</l>
+	                 <l n="723">Ses chefs ont pris les voix de toutes ses tribus.</l>
+	                 <l n="724">Votre frère l'emporte, et Phèdre a le dessus. </l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="725" part="I">Phèdre ?</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="725" part="F">Un héraut chargé des volontés d'Athènes</l>
+	                 <l n="726">De l'État en ses mains vient remettre les rênes.</l>
+	                 <l n="727" part="I">Son fils est Roi, Seigneur.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="727" part="F">Dieux, qui la connaissez,</l>
+	                 <l n="728">Est-ce donc sa vertu que vous récompensez ?</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="729">Cependant un bruit sourd veut que le Roi respire. </l>
+	                 <l n="730">On prétend que Thésée a paru dans l'Épire. </l>
+	                 <l n="731">Mais moi qui l'y cherchai, Seigneur, je sais trop bien...</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="732">N'importe, écoutons tout, et ne négligeons rien.</l>
+	                 <l n="733">Examinons ce bruit, remontons à sa source.</l>
+	                 <l n="734">S'il ne mérite pas d'interrompre ma course, </l>
+	                 <l n="735">Partons, et quelque prix qu'il en puisse coûter, </l>
+	                 <l n="736">Mettons le sceptre aux mains dignes de le porter.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="3">
+            <head>ACTE III</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Phèdre, Oenone.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="737">Ah ! Que l'on porte ailleurs les honneurs qu'on m'envoie.</l>
+	                 <l n="738">Importune, peux-tu souhaiter qu'on me voie ?</l>
+	                 <l n="739">De quoi viens-tu flatter mon esprit désolé ? </l>
+	                 <l n="740">Cache-moi bien plutôt, je n'ai que trop parlé. </l>
+	                 <l n="741">Mes fureurs au dehors ont osé se répandre.</l>
+	                 <l n="742">J'ai dit ce que jamais on ne devait entendre.</l>
+	                 <l n="743">Ciel ! Comme il m'écoutait ! Par combien de détours</l>
+	                 <l n="744">L'insensible a longtemps éludé mes discours ! </l>
+	                 <l n="745">Comme il ne respirait qu'une retraite prompte ! </l>
+	                 <l n="746">Et combien sa rougeur a redoublé ma honte !</l>
+	                 <l n="747">Pourquoi détournais-tu mon funeste dessein ?</l>
+	                 <l n="748">Hélas ! Quand son épée allait chercher mon sein,</l>
+	                 <l n="749">A-t-il pâli pour moi ? Me l'a-t-il arrachée ? </l>
+	                 <l n="750">Il suffit que ma main l'ait une fois touchée, </l>
+	                 <l n="751">Je l'ai rendue horrible à ses yeux inhumains,</l>
+	                 <l n="752">Et ce fer malheureux profanerait ses mains.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="753">Ainsi dans vos malheurs ne songeant qu'à vous plaindre,</l>
+	                 <l n="754">Vous nourrissez un feu, qu'il vous faudrait éteindre. </l>
+	                 <l n="755">Ne vaudrait-il pas mieux, digne sang de Minos, </l>
+	                 <l n="756">Dans de plus nobles soins chercher votre repos,</l>
+	                 <l n="757">Contre un ingrat qui plaît recourir à la fuite, </l>
+	                 <l n="758">Régner, et de l'État embrasser la conduite ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="759">Moi régner ! Moi ranger un État sous ma loi ! </l>
+	                 <l n="760">Quand ma faible raison ne règne plus sur moi, </l>
+	                 <l n="761">Lorsque j'ai de mes sens abandonné l'empire,</l>
+	                 <l n="762">Quand sous un joug honteux à peine je respire,</l>
+	                 <l n="763" part="I">Quand je me meurs.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="763" part="M">Fuyez.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="763" part="F">Je ne le puis quitter.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="764">Vous l'osâtes bannir, vous n'osez l'éviter. </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="765">Il n'est plus temps. Il sait mes ardeurs insensées. </l>
+	                 <l n="766">De l'austère pudeur les bornes sont passées.</l>
+	                 <l n="767">J'ai déclaré ma honte aux yeux de mon vainqueur,</l>
+	                 <l n="768">Et l'espoir malgré moi s'est glissé dans mon coeur.</l>
+	                 <l n="769">Toi-même rappelant ma force défaillante,</l>
+	                 <l n="770">Et mon âme déjà sur mes lèvres errante,</l>
+	                 <l n="771">Par tes conseils flatteurs tu m'as su ranimer.</l>
+	                 <l n="772">Tu m'as fait entrevoir que je pouvais l'aimer.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="773">Hélas ! De vos malheurs innocente ou coupable,</l>
+	                 <l n="774">De quoi pour vous sauver n'étais-je point capable ? </l>
+	                 <l n="775">Mais si jamais l'offense irrita vos esprits, </l>
+	                 <l n="776">Pouvez-vous d'un superbe oublier les mépris ?</l>
+	                 <l n="777">Avec quels yeux cruels sa rigueur obstinée</l>
+	                 <l n="778">Vous laissait à ses pieds peu s'en faut prosternée !</l>
+	                 <l n="779">Que son farouche orgueil le rendait odieux ! </l>
+	                 <l n="780">Que Phèdre en ce moment n'avait-elle mes yeux ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="781">Oenone, il peut quitter cet orgueil qui te blesse.</l>
+	                 <l n="782">Nourri dans les forêts, il en a la rudesse.</l>
+	                 <l n="783">Hippolyte endurci par de sauvages lois</l>
+	                 <l n="784">Entend parler d'amour pour la première fois.</l>
+	                 <l n="785">Peut-être sa surprise a causé son silence, </l>
+	                 <l n="786">Et nos plaintes peut-être ont trop de violence.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="787">Songez qu'une barbare en son sein l'a formé.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="788">Quoique Scythe et barbare, elle a pourtant aimé.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="789">Il a pour tout le sexe une haine fatale. </l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="790">Je ne me verrai point préférer de rivale. </l>
+	                 <l n="791">Enfin, tous tes conseils ne sont plus de saison.</l>
+	                 <l n="792">Sers ma fureur, Oenone, et non point ma raison.</l>
+	                 <l n="793">Il oppose à l'amour un coeur inaccessible.</l>
+	                 <l n="794">Cherchons pour l'attaquer quelque endroit plus sensible. </l>
+	                 <l n="795">Les charmes d'un Empire ont paru le toucher. </l>
+	                 <l n="796">Athènes l'attirait, il n'a pu s'en cacher.</l>
+	                 <l n="797">Déjà de ses vaisseaux la pointe était tournée,</l>
+	                 <l n="798">Et la voile flottait aux vents abandonnée.</l>
+	                 <l n="799">Va trouver de ma part ce jeune ambitieux, </l>
+	                 <l n="800">Oenone. Fais briller la couronne à ses yeux. </l>
+	                 <l n="801">Qu'il mette sur son front le sacré diadème.</l>
+	                 <l n="802">Je ne veux que l'honneur de l'attacher moi-même.</l>
+	                 <l n="803">Cédons-lui ce pouvoir que je ne puis garder.</l>
+	                 <l n="804">Il instruira mon fils dans l'art de commander.</l>
+	                 <l n="805">Peut-être il voudra bien lui tenir lieu de père. </l>
+	                 <l n="806">Je mets sous son pouvoir et le fils et la mère.</l>
+	                 <l n="807">Pour le fléchir enfin tente tous les moyens.</l>
+	                 <l n="808">Tes discours trouveront plus d'accès que les miens.</l>
+	                 <l n="809">Presse, pleure, gémis, peins-lui Phèdre mourante.</l>
+	                 <l n="810">Ne rougis point de prendre une voix suppliante. </l>
+	                 <l n="811">Je t'avouerai de tout, je n'espère qu'en toi.</l>
+	                 <l n="812">Va, j'attends ton retour pour disposer de moi.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE, seule.</speaker>
+	                 <l n="813">Ô toi ! Qui vois la honte où je suis descendue,</l>
+	                 <l n="814">Implacable Vénus, suis-je assez confondue ?</l>
+	                 <l n="815">Tu ne saurais plus loin pousser ta cruauté. </l>
+	                 <l n="816">Ton triomphe est parfait, tous tes traits ont porté.</l>
+	                 <l n="817">Cruelle, si tu veux une gloire nouvelle,</l>
+	                 <l n="818">Attaque un ennemi qui te soit plus rebelle.</l>
+	                 <l n="819">Hippolyte te fuit, et bravant ton courroux,</l>
+	                 <l n="820">Jamais à tes autels n'a fléchi les genoux. </l>
+	                 <l n="821">Ton nom semble offenser ses superbes oreilles.</l>
+	                 <l n="822">Déesse, venge-toi, nos causes sont pareilles.</l>
+	                 <l n="823">Qu'il aime ! Mais déjà tu reviens sur tes pas,</l>
+	                 <l n="824">Oenone ? On me déteste, on ne t'écoute pas.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Phèdre, Oenone.</head>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="825">Il faut d'un vain amour étouffer la pensée, </l>
+	                 <l n="826">Madame. Rappelez votre vertu passée.</l>
+	                 <l n="827">Le roi, qu'on a cru mort, va paraître à vos yeux,</l>
+	                 <l n="828">Thésée est arrivé. Thésée est en ces lieux.</l>
+	                 <l n="829">Le peuple, pour le voir, court et se précipite.</l>
+	                 <l n="830">Je sortais par votre ordre, et cherchais Hippolyte, </l>
+	                 <l n="831">Lorsque jusques au ciel mille cris élancés...</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="832">Mon époux est vivant, Oenone, c'est assez.</l>
+	                 <l n="833">J'ai fait l'indigne aveu d'un amour qui l'outrage.</l>
+	                 <l n="834">Il vit. Je ne veux pas en savoir davantage.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="835" part="I">Quoi ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="835" part="F">Je te l'ai prédit, mais tu n'as pas voulu. </l>
+	                 <l n="836">Sur mes justes remords tes pleurs ont prévalu.</l>
+	                 <l n="837">Je mourais ce matin digne d'être pleurée.</l>
+	                 <l n="838">J'ai suivi tes conseils, je meurs déshonorée.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="839" part="I">Vous mourez ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="839" part="F">Juste ciel ! Qu'ai-je fait aujourd'hui !</l>
+	                 <l n="840">Mon époux va paraître, et son fils avec lui. </l>
+	                 <l n="841">Je verrai le témoin de ma flamme adultère</l>
+	                 <l n="842">Observer de quel front j'ose aborder son père,</l>
+	                 <l n="843">Le coeur gros de soupirs, qu'il n'a point écoutés,</l>
+	                 <l n="844">L'oeil humide de pleurs, par l'ingrat rebutés.</l>
+	                 <l n="845">Penses-tu que sensible à l'honneur de Thésée, </l>
+	                 <l n="846">Il lui cache l'ardeur dont je suis embrasée ?</l>
+	                 <l n="847">Laissera-t-il trahir et son père et son Roi ?</l>
+	                 <l n="848">Pourra-t-il contenir l'horreur qu'il a pour moi ?</l>
+	                 <l n="849">Il se tairait en vain. Je sais mes perfidies,</l>
+	                 <l n="850">Oenone, et ne suis point de ces femmes hardies, </l>
+	                 <l n="851">Qui goûtant dans le crime une tranquille paix,</l>
+	                 <l n="852">Ont su se faire un front qui ne rougit jamais.</l>
+	                 <l n="853">Je connais mes fureurs, je les rappelle toutes.</l>
+	                 <l n="854">Il me semble déjà que ces murs, que ces voûtes</l>
+	                 <l n="855">Vont prendre la parole, et prêts à m'accuser</l>
+	                 <l n="856">Attendent mon époux, pour le désabuser.</l>
+	                 <l n="857">Mourons. De tant d'horreurs, qu'un trépas me délivre.</l>
+	                 <l n="858">Est-ce un malheur si grand que de cesser de vivre ?</l>
+	                 <l n="859">La mort aux malheureux ne cause point d'effroi.</l>
+	                 <l n="860">Je ne crains que le nom que je laisse après moi. </l>
+	                 <l n="861">Pour mes tristes enfants quel affreux héritage !</l>
+	                 <l n="862">Le sang de Jupiter doit enfler leur courage.</l>
+	                 <l n="863">Mais quelque juste orgueil qu'inspire un sang si beau,</l>
+	                 <l n="864">Le crime d'une mère est un pesant fardeau.</l>
+	                 <l n="865">Je tremble qu'un discours hélas ! trop véritable, </l>
+	                 <l n="866">Un jour ne leur reproche une mère coupable.</l>
+	                 <l n="867">Je tremble qu'opprimés de ce poids odieux,</l>
+	                 <l n="868">L'un ni l'autre jamais n'ose lever les yeux.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="869">Il n'en faut point douter, je les plains l'un et l'autre.</l>
+	                 <l n="870">Jamais crainte ne fut plus juste que la vôtre. </l>
+	                 <l n="871">Mais à de tels affronts, pourquoi les exposer ?</l>
+	                 <l n="872">Pourquoi contre vous-même allez-vous déposer ?</l>
+	                 <l n="873">C'en est fait. On dira que Phèdre trop coupable,</l>
+	                 <l n="874">De son époux trahi fuit l'aspect redoutable.</l>
+	                 <l n="875">Hippolyte est heureux qu'aux dépens de vos jours</l>
+	                 <l n="876">Vous-même en expirant appuyiez ses discours.</l>
+	                 <l n="877">À votre accusateur, que pourrai-je répondre ?</l>
+	                 <l n="878">Je serai devant lui trop facile à confondre.</l>
+	                 <l n="879">De son triomphe affreux je le verrai jouir,</l>
+	                 <l n="880">Et conter votre honte à qui voudra l'ouïr. </l>
+	                 <l n="881">Ah ! Que plutôt du ciel la flamme me dévore !</l>
+	                 <l n="882">Mais ne me trompez point, vous est-il cher encore ?</l>
+	                 <l n="883">De quel oeil voyez-vous ce prince audacieux ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="884">Je le vois comme un monstre effroyable à mes yeux.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="885">Pourquoi donc lui céder une victoire entière ? </l>
+	                 <l n="886">Vous le craignez. Osez l'accuser la première</l>
+	                 <l n="887">Du crime dont il peut vous charger aujourd'hui.</l>
+	                 <l n="888">Qui vous démentira ? Tout parle contre lui.</l>
+	                 <l n="889">Son épée en vos mains heureusement laissée,</l>
+	                 <l n="890">Votre trouble présent, votre douleur passée, </l>
+	                 <l n="891">Son père par vos cris dès longtemps prévenu,</l>
+	                 <l n="892">Et déjà son exil par vous-même obtenu.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="893">Moi, que j'ose opprimer et noircir l'innocence ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="894">Mon zèle n'a besoin que de votre silence.</l>
+	                 <l n="895">Tremblante comme vous, j'en sens quelques remords. </l>
+	                 <l n="896">Vous me verriez plus prompte affronter mille morts.</l>
+	                 <l n="897">Mais puisque je vous perds sans ce triste remède,</l>
+	                 <l n="898">Votre vie est pour moi d'un prix à qui tout cède.</l>
+	                 <l n="899">Je parlerai. Thésée aigri par mes avis</l>
+	                 <l n="900">Bornera sa vengeance à l'exil de son fils. </l>
+	                 <l n="901">Un père en punissant, Madame, est toujours père.</l>
+	                 <l n="902">Un supplice léger suffit à sa colère.</l>
+	                 <l n="903">Mais le sang innocent dût-il être versé,</l>
+	                 <l n="904">Que ne demande point votre honneur menacé ?</l>
+	                 <l n="905">C'est un trésor trop cher pour oser le commettre.</l>
+	                 <l n="906">Quelque loi qu'il vous dicte, il faut vous y soumettre,</l>
+	                 <l n="907">Madame, et pour sauver notre honneur combattu,</l>
+	                 <l n="908">Il faut immoler tout, et même la vertu.</l>
+	                 <l n="909" part="I">On vient, je vois Thésée.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="909" part="F">Ah ! Je vois Hippolyte.</l>
+	                 <l n="910">Dans ses yeux insolents je vois ma perte écrite ! </l>
+	                 <l n="911">Fais ce que tu voudras, je m'abandonne à toi.</l>
+	                 <l n="912">Dans le trouble où je suis je ne peux rien pour moi.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Thésée, Hippolyte, Phèdre, Oenone, Théramène.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="913">La fortune à mes voeux cesse d'être opposée,</l>
+	                 <l n="914" part="I">Madame, et dans vos bras met...</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="914" part="F">Arrêtez, Thésée,</l>
+	                 <l n="915">Et ne profanez point des transports si charmants. </l>
+	                 <l n="916">Je ne mérite plus ces doux empressements.</l>
+	                 <l n="917">Vous êtes offensé. La fortune jalouse</l>
+	                 <l n="918">N'a pas en votre absence épargné votre épouse,</l>
+	                 <l n="919">Indigne de vous plaire, et de vous approcher,</l>
+	                 <l n="920">Je ne dois désormais songer qu'à me cacher. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Thésée, Hippolyte, Théramène.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="921">Quel est l'étrange accueil qu'on fait à votre père,</l>
+	                 <l n="922" part="I">Mon fils ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="922" part="F">Phèdre peut seule expliquer ce mystère.</l>
+	                 <l n="923">Mais si mes voeux ardents vous peuvent émouvoir,</l>
+	                 <l n="924">Permettez-moi, Seigneur, de ne la plus revoir. </l>
+	                 <l n="925">Souffrez que pour jamais le tremblant Hippolyte</l>
+	                 <l n="926">Disparaisse des lieux que votre épouse habite.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="927" part="I">Vous, mon fils, me quitter ?</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="927" part="F">Je ne la cherchais pas.</l>
+	                 <l n="928">C'est vous qui sur ces bords conduisîtes ses pas.</l>
+	                 <l n="929">Vous daignâtes, Seigneur, aux rives de Trézène</l>
+	                 <l n="930">Confier en partant Aricie, et la reine. </l>
+	                 <l n="931">Je fus même chargé du soin de les garder.</l>
+	                 <l n="932">Mais quels soins désormais peuvent me retarder ?</l>
+	                 <l n="933">Assez dans les forêts mon oisive jeunesse</l>
+	                 <l n="934">Sur de vils ennemis a montré son adresse. </l>
+	                 <l n="935">Ne pourrai-je, en fuyant un indigne repos, </l>
+	                 <l n="936">D'un sang plus glorieux teindre mes javelots ?</l>
+	                 <l n="937">Vous n'aviez pas encore atteint l'âge où je touche,</l>
+	                 <l n="938">Déjà plus d'un tyran, plus d'un monstre farouche</l>
+	                 <l n="939">Avait de votre bras senti la pesanteur. </l>
+	                 <l n="940">Déjà de l'insolence heureux persécuteur, </l>
+	                 <l n="941">Vous aviez des deux mers assuré les rivages.</l>
+	                 <l n="942">Le libre voyageur ne craignait plus d'outrages.</l>
+	                 <l n="943">Hercule respirant sur le bruit de vos coups</l>
+	                 <l n="944">Déjà de son travail se reposait sur vous.</l>
+	                 <l n="945">Et moi, fils inconnu d'un si glorieux père, </l>
+	                 <l n="946">Je suis même encor loin des traces de ma mère.</l>
+	                 <l n="947">Souffrez que mon courage ose enfin s'occuper.</l>
+	                 <l n="948">Souffrez, si quelque monstre a pu vous échapper,</l>
+	                 <l n="949">Que j'apporte à vos pieds sa dépouille honorable ; </l>
+	                 <l n="950">Ou que d'un beau trépas la mémoire durable</l>
+	                 <l n="951">Éternisant des jours si noblement finis,</l>
+	                 <l n="952">Prouve à tout l'avenir que j'étais votre fils.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="953">Que vois-je ? Quelle horreur dans ces lieux répandue</l>
+	                 <l n="954">Fait fuir devant mes yeux ma famille éperdue ? </l>
+	                 <l n="955">Si je reviens si craint, et si peu désiré, </l>
+	                 <l n="956">Ô ciel ! De ma prison pourquoi m'as-tu tiré ?</l>
+	                 <l n="957">Je n'avais qu'un ami. Son imprudente flamme</l>
+	                 <l n="958">Du tyran de l'Épire allait ravir la femme.</l>
+	                 <l n="959">Je servais à regret ses desseins amoureux. </l>
+	                 <l n="960">Mais le sort irrité nous aveuglait tous deux. </l>
+	                 <l n="961">Le tyran m'a surpris sans défense et sans armes.</l>
+	                 <l n="962">J'ai vu Pirithoüs, triste objet de mes larmes,</l>
+	                 <l n="963">Livré par ce barbare à des monstres cruels,</l>
+	                 <l n="964">Qu'il nourrissait du sang des malheureux mortels. </l>
+	                 <l n="965">Moi-même il m'enferma dans des cavernes sombres, </l>
+	                 <l n="966">Lieux profonds, et voisins de l'Empire des Ombres.</l>
+	                 <l n="967">Les dieux après six mois enfin m'ont regardé.</l>
+	                 <l n="968">J'ai su tromper les yeux par qui j'étais gardé.</l>
+	                 <l n="969">D'un perfide ennemi j'ai purgé la nature. </l>
+	                 <l n="970">À ses monstres lui-même a servi de pâture. </l>
+	                 <l n="971">Et lorsqu'avec transport je pense m'approcher</l>
+	                 <l n="972">De tout ce que les dieux m'ont laissé de plus cher ;</l>
+	                 <l n="973">Que dis-je ? Quand mon âme à soi-même rendue</l>
+	                 <l n="974">Vient se rassasier d'une si chère vue ; </l>
+	                 <l n="975">Je n'ai pour tout accueil que des frémissements. </l>
+	                 <l n="976">Tout fuit, tout se refuse à mes embrassements.</l>
+	                 <l n="977">Et moi-même éprouvant la terreur que j'inspire,</l>
+	                 <l n="978">Je voudrais être encor dans les prisons d'Épire.</l>
+	                 <l n="979">Parlez. Phèdre se plaint que je suis outragé. </l>
+	                 <l n="980">Qui m'a trahi ? Pourquoi ne suis-je pas vengé !</l>
+	                 <l n="981">La Grèce, à qui mon bras fut tant de fois utile,</l>
+	                 <l n="982">A-t-elle au criminel accordé quelque asile ?</l>
+	                 <l n="983">Vous ne répondez point. Mon fils, mon propre fils</l>
+	                 <l n="984">Est-il d'intelligence avec mes ennemis ?</l>
+	                 <l n="985">Entrons. C'est trop garder un doute qui m'accable. </l>
+	                 <l n="986">Connaissons à la fois le crime et le coupable.</l>
+	                 <l n="987">Que Phèdre explique enfin le trouble où je la vois.</l>
+               </sp>
+            </div>
+            <div type="scène" n="6">
+               <head>SCÈNE VI. Hippolyte, Théramène.</head>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="988">Où tendait ce discours qui m'a glacé d'effroi ?</l>
+	                 <l n="989">Phèdre toujours en proie à sa fureur extrême</l>
+	                 <l n="990">Veut-elle s'accuser et se perdre elle-même ? </l>
+	                 <l n="991">Dieux ! Que dira le roi ? Quel funeste poison</l>
+	                 <l n="992">L'amour a répandu sur toute sa maison !</l>
+	                 <l n="993">Moi-même plein d'un feu que sa haine réprouve,</l>
+	                 <l n="994">Quel il m'a vu jadis, et quel il me retrouve ! </l>
+	                 <l n="995">De noirs pressentiments viennent m'épouvanter. </l>
+	                 <l n="996">Mais l'innocence enfin n'a rien à redouter.</l>
+	                 <l n="997">Allons, cherchons ailleurs par quelle heureuse adresse</l>
+	                 <l n="998">Je pourrai de mon père émouvoir la tendresse,</l>
+	                 <l n="999">Et lui dire un amour qu'il peut vouloir troubler, </l>
+	                 <l n="1000">Mais que tout son pouvoir ne saurait ébranler. </l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="4">
+            <head>ACTE IV</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Thésée, Oenone.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1001">Ah ! Qu'est-ce que j'entends ! Un traître, un téméraire</l>
+	                 <l n="1002">Préparait cet outrage à l'honneur de son père ?</l>
+	                 <l n="1003">Avec quelle rigueur, Destin, tu me poursuis !</l>
+                  <note type="C">Vers 1004, "je ne sais où je vas" [sic] au lieu de "je ne sais où je vais".</note>
+	                 <l n="1004">Je ne sais où je vais, je ne sais où je suis.</l>
+	                 <l n="1005">Ô tendresse ! Ô bonté trop mal récompensée ! </l>
+	                 <l n="1006">Projet audacieux ! Détestable pensée !</l>
+	                 <l n="1007">Pour parvenir au but de ses noires amours</l>
+	                 <l n="1008">L'insolent de la force empruntait le secours.</l>
+	                 <l n="1009">J'ai reconnu le fer, instrument de sa rage ;</l>
+	                 <l n="1010">Ce fer dont je l'armai pour un plus noble usage. </l>
+	                 <l n="1011">Tous les liens du sang n'ont pu le retenir ?</l>
+	                 <l n="1012">Et Phèdre différait à le faire punir ?</l>
+	                 <l n="1013">Le silence de Phèdre épargnait le coupable ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1014">Phèdre épargnait plutôt un père déplorable.</l>
+	                 <l n="1015">Honteuse du dessein d'un amant furieux,</l>
+	                 <l n="1016">Et du feu criminel qu'il a pris dans ses yeux,</l>
+	                 <l n="1017">Phèdre mourait, Seigneur, et sa main meurtrière</l>
+	                 <l n="1018">Éteignait de ses yeux l'innocente lumière.</l>
+	                 <l n="1019">J'ai vu lever le bras, j'ai couru la sauver.</l>
+	                 <l n="1020">Moi seule à votre amour j'ai su la conserver.</l>
+	                 <l n="1021">Et plaignant à la fois son trouble et vos alarmes,</l>
+	                 <l n="1022">J'ai servi malgré moi d'interprète à ses larmes.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1023">Le perfide ! Il n'a pu s'empêcher de pâlir.</l>
+	                 <l n="1024">De crainte en m'abordant je l'ai vu tressaillir.</l>
+	                 <l n="1025">Je me suis étonné de son peu d'allégresse. </l>
+	                 <l n="1026">Ses froids embrassements ont glacé ma tendresse.</l>
+	                 <l n="1027">Mais ce coupable amour dont il est dévoré,</l>
+	                 <l n="1028">Dans Athènes déjà s'était-il déclaré ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1029">Seigneur, souvenez-vous des plaintes de la Reine.</l>
+	                 <l n="1030">Un amour criminel causa toute sa haine.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1031">Et ce feu dans Trézène a donc recommencé ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1032">Je vous ai dit Seigneur, tout ce qui s'est passé.</l>
+	                 <l n="1033">C'est trop laisser la Reine à sa douleur mortelle.</l>
+	                 <l n="1034">Souffrez que je vous quitte et me range auprès d'elle.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Thésée, Hippolyte.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1035">Ah ! Le voici. Grands dieux ! À ce noble maintien</l>
+	                 <l n="1036">Quel oeil ne serait pas trompé comme le mien ?</l>
+	                 <l n="1037">Faut-il que sur le front d'un profane adultère</l>
+	                 <l n="1038">Brille de la vertu le sacré caractère ?</l>
+	                 <l n="1039">Et ne devrait-on pas à des signes certains</l>
+	                 <l n="1040">Reconnaître le coeur des perfides humains ? </l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1041">Puis-je vous demander quel funeste nuage,</l>
+	                 <l n="1042">Seigneur, a pu troubler votre auguste visage ?</l>
+	                 <l n="1043">N'osez-vous confier ce secret à ma foi ?</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1044">Perfide, oses-tu bien te montrer devant moi ?</l>
+	                 <l n="1045">Monstre, qu'a trop longtemps épargné le tonnerre, </l>
+	                 <l n="1046">Reste impur des brigands dont j'ai purgé la Terre.</l>
+	                 <l n="1047">Après que le transport d'un amour plein d'horreur</l>
+	                 <l n="1048">Jusqu'au lit de ton père a porté ta fureur,</l>
+	                 <l n="1049">Tu m'oses présenter une tête ennemie,</l>
+	                 <l n="1050">Tu parais dans des lieux pleins de ton infamie, </l>
+	                 <l n="1051">Et ne vas pas chercher sous un ciel inconnu</l>
+	                 <l n="1052">Des pays où mon nom ne soit point parvenu.</l>
+	                 <l n="1053">Fuis, traître. Ne viens point braver ici ma haine,</l>
+	                 <l n="1054">Et tenter un courroux que je retiens à peine.</l>
+	                 <l n="1055">C'est bien assez pour moi de l'opprobre éternel</l>
+	                 <l n="1056">D'avoir pu mettre au jour un fils si criminel,</l>
+	                 <l n="1057">Sans que ta mort encor honteuse à ma mémoire,</l>
+	                 <l n="1058">De mes nobles travaux vienne souiller la gloire.</l>
+	                 <l n="1059">Fuis. Et si tu ne veux qu'un châtiment soudain</l>
+	                 <l n="1060">T'ajoute aux scélérats qu'a punis cette main,</l>
+	                 <l n="1061">Prends garde que jamais l'astre qui nous éclaire</l>
+	                 <l n="1062">Ne te voie en ces lieux mettre un pied téméraire.</l>
+	                 <l n="1063">Fuis, dis-je, et sans retour précipitant tes pas,</l>
+	                 <l n="1064">De ton horrible aspect purge tous mes États.</l>
+	                 <l n="1065">Et toi, Neptune, et toi, si jadis mon courage</l>
+	                 <l n="1066">D'infâmes assassins nettoya ton rivage,</l>
+	                 <l n="1067">Souviens-toi que pour prix de mes efforts heureux</l>
+	                 <l n="1068">Tu promis d'exaucer le premier de mes voeux.</l>
+	                 <l n="1069">Dans les longues rigueurs d'une prison cruelle</l>
+	                 <l n="1070">Je n'ai point imploré ta puissance immortelle.</l>
+	                 <l n="1071">Avares du secours que j'attends de tes soins</l>
+	                 <l n="1072">Mes voeux t'ont réservé pour de plus grands besoins.</l>
+	                 <l n="1073">Je t'implore aujourd'hui. Venge un malheureux père.</l>
+	                 <l n="1074">J'abandonne ce traître à toute ta colère.</l>
+	                 <l n="1075">Étouffe dans son sang ses désirs effrontés. </l>
+	                 <l n="1076">Thésée à tes fureurs connaîtra tes bontés.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1077">D'un amour criminel Phèdre accuse Hippolyte !</l>
+	                 <l n="1078">Un tel excès d'horreur rend mon âme interdite,</l>
+	                 <l n="1079">Tant de coups imprévus m'accablent à la fois</l>
+	                 <l n="1080">Qu'ils m'ôtent la parole, et m'étouffent la voix. </l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1081">Traître, tu prétendais qu'en un lâche silence</l>
+	                 <l n="1082">Phèdre ensevelirait ta brutale insolence.</l>
+	                 <l n="1083">Il fallait en fuyant ne pas abandonner</l>
+	                 <l n="1084">Le fer, qui dans ses mains aide à te condamner.</l>
+	                 <l n="1085">Ou plutôt il fallait, comblant ta perfidie, </l>
+	                 <l n="1086">Lui ravir tout d'un coup la parole et la vie.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1087">D'un mensonge si noir justement irrité,</l>
+	                 <l n="1088">Je devrais faire ici parler la vérité,</l>
+	                 <l n="1089">Seigneur. Mais je supprime un secret qui vous touche.</l>
+	                 <l n="1090">Approuvez le respect qui me ferme la bouche ; </l>
+	                 <l n="1091">Et sans vouloir vous-même augmenter vos ennuis,</l>
+	                 <l n="1092">Examinez ma vie, et songez qui je suis.</l>
+	                 <l n="1093">Quelques crimes toujours précèdent les grands crimes.</l>
+	                 <l n="1094">Quiconque a pu franchir les bornes légitimes</l>
+	                 <l n="1095">Peut violer enfin les droits les plus sacrés. </l>
+	                 <l n="1096">Ainsi que la vertu, le crime a ses degrés.</l>
+	                 <l n="1097">Et jamais on n'a vu la timide innocence</l>
+	                 <l n="1098">Passer subitement à l'extrême licence.</l>
+	                 <l n="1099">Un jour seul ne fait point d'un mortel vertueux</l>
+	                 <l n="1100">Un perfide assassin, un lâche incestueux. </l>
+	                 <l n="1101">Élevé dans le sein d'une chaste héroïne,</l>
+	                 <l n="1102">Je n'ai point de son sang démenti l'origine.</l>
+                  <note type="L">Pithée : aïeul maternel de Thésée, était fils de Pelops et d'Hippodamie, et régnait sur Trézène. Il était renommé pour sa sagesse ; Ethra , sa fille, mariée à Egée, lui confia l'éducation de Thésée, Thésée à son tour lui confia celle    d'Hyppolyte.</note>
+	                 <l n="1103">Pitthée estimé sage entre tous les humains</l>
+	                 <l n="1104">Daigna m'instruire encore au sortir de ses mains.</l>
+	                 <l n="1105">Je ne veux point me peindre avec trop d'avantage.</l>
+	                 <l n="1106">Mais si quelque vertu m'est tombée en partage,</l>
+	                 <l n="1107">Seigneur, je crois surtout avoir fait éclater</l>
+	                 <l n="1108">La haine des forfaits qu'on ose m'imputer.</l>
+	                 <l n="1109">C'est par là qu'Hippolyte est connu dans la Grèce.</l>
+	                 <l n="1110">J'ai poussé la vertu jusques à la rudesse.</l>
+	                 <l n="1111">On sait de mes chagrins l'inflexible rigueur.</l>
+	                 <l n="1112">Le jour n'est pas plus pur que le fond de mon coeur,</l>
+	                 <l n="1113">Et l'on veut qu'Hippolyte épris d'un feu profane...</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1114">Oui, c'est ce même orgueil, lâche, qui te condamne.</l>
+	                 <l n="1115">Je vois de tes froideurs le principe odieux. </l>
+	                 <l n="1116">Phèdre seule charmait tes impudiques yeux.</l>
+	                 <l n="1117">Et pour tout autre objet ton âme indifférente</l>
+	                 <l n="1118">Dédaignait de brûler d'une flamme innocente.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1119">Non, mon père, ce coeur (c'est trop vous le celer)</l>
+	                 <l n="1120">N'a point d'un chaste amour dédaigné de brûler. </l>
+	                 <l n="1121">Je confesse à vos pieds ma véritable offense.</l>
+	                 <l n="1122">J'aime, j'aime, il est vrai, malgré votre défense.</l>
+	                 <l n="1123">Aricie à ses lois tient mes voeux asservis.</l>
+	                 <l n="1124">La fille de Pallante a vaincu votre fils.</l>
+	                 <l n="1125">Je l'adore, et mon âme à vos ordres rebelle</l>
+	                 <l n="1126">Ne peut ni soupirer ni brûler que pour elle.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1127">Tu l'aimes ? Ciel ! Mais non, l'artifice est grossier.</l>
+	                 <l n="1128">Tu te feins criminel pour te justifier.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1129">Seigneur, depuis six mois je l'évite, et je l'aime.</l>
+	                 <l n="1130">Je venais en tremblant vous le dire à vous-même. </l>
+	                 <l n="1131">Hé quoi ? De votre erreur rien ne vous peut tirer ?</l>
+	                 <l n="1132">Par quel affreux serment faut-il vous rassurer ?</l>
+	                 <l n="1133">Que la Terre, le Ciel, que toute la Nature...</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1134">Toujours les scélérats ont recours au parjure.</l>
+	                 <l n="1135">Cesse, cesse, et m'épargne un importun discours, </l>
+	                 <l n="1136">Si ta fausse vertu n'a point d'autre secours.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1137">Elle vous paraît fausse, et pleine d'artifice.</l>
+	                 <l n="1138">Phèdre au fond de son coeur me rend plus de justice.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1139">Ah ! Que ton impudence excite mon courroux !</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1140">Quel temps à mon exil, quel lieu prescrivez-vous ? </l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+                  <note type="L">Alcide : autre nom d'Hercule.</note>
+	                 <l n="1141">Fusses-tu par delà les colonnes d'Alcide,</l>
+	                 <l n="1142">Je me croirais encor trop voisin d'un perfide.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1143">Chargé du crime affreux dont vous me soupçonnez,</l>
+	                 <l n="1144">Quels amis me plaindront quand vous m'abandonnez ?</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1145">Va chercher des amis, dont l'estime funeste</l>
+	                 <l n="1146">Honore l'adultère, applaudisse à l'inceste,</l>
+	                 <l n="1147">Des traîtres, des ingrats, sans honneur et sans loi,</l>
+	                 <l n="1148">Dignes de protéger un méchant tel que toi.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1149">Vous me parlez toujours d'inceste et d'adultère ?</l>
+	                 <l n="1150">Je me tais. Cependant Phèdre sort d'une mère, </l>
+	                 <l n="1151">Phèdre est d'un sang, Seigneur, vous le savez trop bien,</l>
+	                 <l n="1152">De toutes ces horreurs plus rempli que le mien.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1153">Quoi ! Ta rage à mes yeux perd toute retenue ?</l>
+	                 <l n="1154">Pour la dernière fois ôte-toi de ma vue.</l>
+	                 <l n="1155">Sors, traître. N'attends pas qu'un père furieux</l>
+	                 <l n="1156">Te fasse avec opprobre arracher de ces lieux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE, seul.</speaker>
+	                 <l n="1157">Misérable, tu cours à ta perte infaillible.</l>
+	                 <l n="1158">Neptune par le fleuve aux dieux mêmes terrible,</l>
+	                 <l n="1159">M'a donné sa parole, et va l'exécuter.</l>
+	                 <l n="1160">Un Dieu vengeur te suit, tu ne peux l'éviter. </l>
+	                 <l n="1161">Je t'aimais. Et je sens que malgré ton offense,</l>
+	                 <l n="1162">Mes entrailles pour toi se troublent par avance.</l>
+	                 <l n="1163">Mais à te condamner tu m'as trop engagé.</l>
+	                 <l n="1164">Jamais père en effet fut-il plus outragé ?</l>
+	                 <l n="1165">Justes dieux, qui voyez la douleur qui m'accable,</l>
+	                 <l n="1166">Ai-je pu mettre au jour un enfant si coupable ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Phèdre, Thésée.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1167">Seigneur, je viens à vous pleine d'un juste effroi.</l>
+	                 <l n="1168">Votre voix redoutable a passé jusqu'à moi.</l>
+	                 <l n="1169">Je crains qu'un prompt effet n'ait suivi la menace.</l>
+	                 <l n="1170">S'il en est temps encore, épargnez votre race.</l>
+	                 <l n="1171">Respectez votre sang, j'ose vous en prier.</l>
+	                 <l n="1172">Sauvez-moi de l'horreur de l'entendre crier.</l>
+	                 <l n="1173">Ne me préparez point la douleur éternelle</l>
+	                 <l n="1174">De l'avoir fait répandre à la main paternelle.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1175">Non, Madame, en mon sang ma main n'a point trempé. </l>
+	                 <l n="1176">Mais l'ingrat toutefois ne m'est point échappé.</l>
+	                 <l n="1177">Une immortelle main de sa perte est chargée.</l>
+	                 <l n="1178">Neptune me la doit, et vous serez vengée.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1179">Neptune vous la doit ! Quoi vos voeux irrités...</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1180">Quoi craignez-vous déjà qu'ils ne soient écoutés ? </l>
+	                 <l n="1181">Joignez-vous bien plutôt à mes voeux légitimes.</l>
+	                 <l n="1182">Dans toute leur noirceur retracez-moi ses crimes.</l>
+	                 <l n="1183">Échauffez mes transports trop lents, trop retenus.</l>
+	                 <l n="1184">Tous ses crimes encor ne vous sont pas connus.</l>
+	                 <l n="1185">Sa fureur contre vous se répand en injures. </l>
+	                 <l n="1186">Votre bouche, dit-il, est pleine d'impostures.</l>
+	                 <l n="1187">Il soutient qu'Aricie a son coeur, a sa foi,</l>
+	                 <l n="1188" part="I">Qu'il l'aime.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1188" part="M">Quoi, Seigneur !</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1188" part="F">Il l'a dit devant moi.</l>
+	                 <l n="1189">Mais je sais rejeter un frivole artifice.</l>
+	                 <l n="1190">Espérons de Neptune une prompte justice. </l>
+	                 <l n="1191">Je vais moi-même encore au pied de ses autels,</l>
+	                 <l n="1192">Le presser d'accomplir ses serments immortels.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE, seule.</speaker>
+	                 <l n="1193">Il sort. Quelle nouvelle a frappé mon oreille ?</l>
+	                 <l n="1194">Quel feu mal étouffé dans mon coeur se réveille ?</l>
+	                 <l n="1195">Quel coup de foudre, ô ciel ! Et quel funeste avis !</l>
+	                 <l n="1196">Je volais toute entière au secours de son fils :</l>
+	                 <l n="1197">Et m'arrachant des bras d'Oenone épouvantée</l>
+	                 <l n="1198">Je cédais au remords dont j'étais tourmentée.</l>
+	                 <l n="1199">Qui sait même où m'allait porter ce repentir ?</l>
+	                 <l n="1200">Peut-être à m'accuser j'aurais pu consentir, </l>
+	                 <l n="1201">Peut-être si la voix ne m'eût été coupée,</l>
+	                 <l n="1202">L'affreuse vérité me serait échappée.</l>
+	                 <l n="1203">Hippolyte est sensible, et ne sent rien pour moi !</l>
+	                 <l n="1204">Aricie a son coeur ! Aricie a sa foi !</l>
+	                 <l n="1205">Ah dieux ! Lorsqu'à mes voeux l'ingrat inexorable</l>
+	                 <l n="1206">S'armait d'un oeil si fier, d'un front si redoutable,</l>
+	                 <l n="1207">Je pensais qu'à l'amour son coeur toujours fermé</l>
+	                 <l n="1208">Fût contre tout mon sexe également armé.</l>
+	                 <l n="1209">Une autre cependant a fléchi son audace.</l>
+	                 <l n="1210">Devant ses yeux cruels une autre a trouvé grâce. </l>
+	                 <l n="1211">Peut-être a-t-il un coeur facile à s'attendrir.</l>
+	                 <l n="1212">Je suis le seul objet qu'il ne saurait souffrir.</l>
+	                 <l n="1213">Et je me chargerais du soin de le défendre !</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Phèdre, Oenone.</head>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1214">Chère Oenone, sais-tu ce que je viens d'apprendre ?</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1215">Non. Mais je viens tremblante, à ne vous point mentir. </l>
+	                 <l n="1216">J'ai pâli du dessein qui vous a fait sortir.</l>
+	                 <l n="1217">J'ai craint une fureur à vous-même fatale.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1218">Oenone, qui l'eût crû ? J'avais une rivale.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1219" part="I">Comment ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1219" part="F">Hippolyte aime, et je n'en puis douter.</l>
+	                 <l n="1220">Ce farouche ennemi qu'on ne pouvait dompter, </l>
+	                 <l n="1221">Qu'offensait le respect, qu'importunait la plainte,</l>
+	                 <l n="1222">Ce tigre, que jamais je n'abordai sans crainte,</l>
+	                 <l n="1223">Soumis, apprivoisé reconnaît un vainqueur.</l>
+	                 <l n="1224">Aricie a trouvé le chemin de son coeur.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1225" part="I">Aricie ?</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1225" part="F">Ah douleur non encore éprouvée ! </l>
+	                 <l n="1226">À quel nouveau tourment je me suis réservée !</l>
+	                 <l n="1227">Tout ce que j'ai souffert, mes craintes, mes transports,</l>
+	                 <l n="1228">La fureur de mes feux, l'horreur de mes remords,</l>
+	                 <l n="1229">Et d'un refus cruel l'insupportable injure</l>
+	                 <l n="1230">N'était qu'un faible essai du tourment que j'endure. </l>
+	                 <l n="1231">Ils s'aiment ! Par quel charme ont-ils trompé mes yeux ?</l>
+	                 <l n="1232">Comment se sont-ils vus ? Depuis quand ? Dans quels lieux ?</l>
+	                 <l n="1233">Tu le savais. Pourquoi me laissais-tu séduire ?</l>
+	                 <l n="1234">De leur furtive ardeur ne pouvais-tu m'instruire ?</l>
+	                 <l n="1235">Les a-t-on vus souvent se parler, se chercher ? </l>
+	                 <l n="1236">Dans le fond des forêts allaient-ils se cacher ?</l>
+	                 <l n="1237">Hélas ! Ils se voyaient avec pleine licence.</l>
+	                 <l n="1238">Le Ciel de leurs soupirs approuvait l'innocence.</l>
+	                 <l n="1239">Ils suivaient sans remords leur penchant amoureux.</l>
+	                 <l n="1240">Tous les jours se levaient clairs et sereins pour eux. </l>
+	                 <l n="1241">Et moi, triste rebut de la nature entière,</l>
+	                 <l n="1242">Je me cachais au jour, je fuyais la lumière.</l>
+	                 <l n="1243">La mort est le seul Dieu que j'osais implorer.</l>
+	                 <l n="1244">J'attendais le moment où j'allais expirer,</l>
+	                 <l n="1245">Me nourrissant de fiel, de larmes abreuvée, </l>
+	                 <l n="1246">Encor dans mon malheur de trop près observée,</l>
+	                 <l n="1247">Je n'osais dans mes pleurs me noyer à loisir,</l>
+	                 <l n="1248">Je goûtais en tremblant ce funeste plaisir.</l>
+	                 <l n="1249">Et sous un front serein déguisant mes alarmes,</l>
+	                 <l n="1250">Il fallait bien souvent me priver de mes larmes. </l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1251">Quel fruit recevront-ils de leurs vaines amours ?</l>
+	                 <l n="1252" part="I">Ils ne se verront plus.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1252" part="F">Ils s'aimeront toujours.</l>
+	                 <l n="1253">Au moment que je parle, ah, mortelle pensée !</l>
+	                 <l n="1254">Ils bravent la fureur d'une amante insensée.</l>
+	                 <l n="1255">Malgré ce même exil qui va les écarter, </l>
+	                 <l n="1256">Ils font mille serments de ne se point quitter.</l>
+	                 <l n="1257">Non, je ne puis souffrir un bonheur qui m'outrage,</l>
+	                 <l n="1258">Oenone. Prends pitié de ma jalouse rage.</l>
+	                 <l n="1259">Il faut perdre Aricie. Il faut de mon époux</l>
+	                 <l n="1260">Contre un sang odieux réveiller le courroux. </l>
+	                 <l n="1261">Qu'il ne se borne pas à des peines légères.</l>
+	                 <l n="1262">Le crime de la soeur passe celui des frères.</l>
+	                 <l n="1263">Dans mes jaloux transports je le veux implorer.</l>
+	                 <l n="1264">   Que fais-je ? Où ma raison se va-t-elle égarer ?</l>
+	                 <l n="1265">Moi jalouse ! Et Thésée est celui que j'implore ! </l>
+	                 <l n="1266">Mon époux est vivant, et moi je brûle encore !</l>
+	                 <l n="1267">Pour qui ? Quel est le coeur où prétendent mes voeux ?</l>
+	                 <l n="1268">Chaque mot sur mon front fait dresser mes cheveux.</l>
+	                 <l n="1269">Mes crimes désormais ont comblé la mesure.</l>
+	                 <l n="1270">Je respire à la fois l'inceste et l'imposture. </l>
+	                 <l n="1271">Mes homicides mains promptes à me venger</l>
+	                 <l n="1272">Dans le sang innocent brûlent de se plonger.</l>
+	                 <l n="1273">Misérable ! Et je vis ? Et je soutiens la vue</l>
+	                 <l n="1274">De ce sacré Soleil dont je suis descendue ?</l>
+	                 <l n="1275">J'ai pour aïeul le père et le maître des Dieux.</l>
+	                 <l n="1276">Le Ciel, tout l'Univers est plein de mes aïeux.</l>
+	                 <l n="1277">Où me cacher ? Fuyons dans la Nuit infernale.</l>
+	                 <l n="1278">Mais que dis-je ? Mon père y tient l'urne fatale.</l>
+	                 <l n="1279">Le sort, dit-on, l'a mise en ses sévères mains.</l>
+	                 <l n="1280">Minos juge aux Enfers tous les pâles humains. </l>
+	                 <l n="1281">Ah ! Combien frémira son ombre épouvantée,</l>
+	                 <l n="1282">Lorsqu'il verra sa fille à ses yeux présentée,</l>
+	                 <l n="1283">Contrainte d'avouer tant de forfaits divers,</l>
+	                 <l n="1284">Et des crimes, peut-être inconnus aux Enfers.</l>
+	                 <l n="1285">Que diras-tu, mon père, à ce spectacle horrible ? </l>
+	                 <l n="1286">Je crois voir de ta main tomber l'urne terrible.</l>
+	                 <l n="1287">Je crois te voir cherchant un supplice nouveau,</l>
+	                 <l n="1288">Toi-même de ton sang devenir le bourreau.</l>
+	                 <l n="1289">Pardonne. Un Dieu cruel a perdu ta famille.</l>
+	                 <l n="1290">Reconnais sa vengeance aux fureurs de ta fille. </l>
+	                 <l n="1291">Hélas ! Du crime affreux dont la honte me suit,</l>
+	                 <l n="1292">Jamais mon triste coeur n'a recueilli le fruit.</l>
+	                 <l n="1293">Jusqu'au dernier soupir de malheurs poursuivie,</l>
+	                 <l n="1294">Je rends dans les tourments une pénible vie.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE.</speaker>
+	                 <l n="1295">Hé ! Repoussez, Madame, une injuste terreur. </l>
+	                 <l n="1296">Regardez d'un autre oeil une excusable erreur.</l>
+	                 <l n="1297">Vous aimez. On ne peut vaincre sa destinée.</l>
+	                 <l n="1298">Par un charme fatal vous fûtes entraînée.</l>
+	                 <l n="1299">Est-ce donc un prodige inouï parmi nous ?</l>
+	                 <l n="1300">L'amour n'a-t-il encor triomphé que de vous ? </l>
+	                 <l n="1301">La faiblesse aux Humains n'est que trop naturelle.</l>
+	                 <l n="1302">Mortelle subissez le sort d'une mortelle.</l>
+	                 <l n="1303">Vous vous plaignez d'un joug imposé dès longtemps.</l>
+	                 <l n="1304">Les Dieux même, les Dieux de l'Olympe habitants,</l>
+	                 <l n="1305">Qui d'un bruit si terrible épouvantent les crimes, </l>
+	                 <l n="1306">Ont brûlé quelquefois de feux illégitimes.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1307">Qu'entends-je ? Quels conseils ose-t-on me donner ?</l>
+	                 <l n="1308">Ainsi donc jusqu'au bout tu veux m'empoisonner,</l>
+	                 <l n="1309">Malheureuse ? Voilà comme tu m'as perdue.</l>
+	                 <l n="1310">Au jour que je fuyais c'est toi qui m'as rendue. </l>
+	                 <l n="1311">Tes prières m'ont fait oublier mon devoir.</l>
+	                 <l n="1312">J'évitais Hippolyte, et tu me l'as fait voir.</l>
+	                 <l n="1313">De quoi te chargeais-tu ? Pourquoi ta bouche impie</l>
+	                 <l n="1314">A-t-elle en l'accusant osé noircir sa vie ?</l>
+	                 <l n="1315">Il en mourra peut-être, et d'un père insensé</l>
+	                 <l n="1316">Le sacrilège voeu peut-être est exaucé.</l>
+	                 <l n="1317">Je ne t'écoute plus. Va-t'en, monstre exécrable.</l>
+	                 <l n="1318">Va, laisse-moi le soin de mon sort déplorable.</l>
+	                 <l n="1319">Puisse le juste ciel dignement te payer.</l>
+	                 <l n="1320">Et puisse ton supplice à jamais effrayer</l>
+	                 <l n="1321">Tous ceux qui, comme toi, par de lâches adresses,</l>
+	                 <l n="1322">Des princes malheureux nourrissent les faiblesses,</l>
+	                 <l n="1323">Les poussent au penchant où leur coeur est enclin,</l>
+	                 <l n="1324">Et leur osent du crime aplanir le chemin ;</l>
+	                 <l n="1325">Détestables flatteurs, présent le plus funeste</l>
+	                 <l n="1326">Que puisse faire aux rois la colère céleste.</l>
+               </sp>
+               <sp who="tc0661-OENONE">
+                  <speaker>OENONE, seule.</speaker>
+	                 <l n="1327">Ah, Dieux ! Pour la servir, j'ai tout fait, tout quitté.</l>
+	                 <l n="1328">Et j'en reçois ce prix ? Je l'ai bien mérité.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="5">
+            <head>ACTE V</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Hippolyte, Aricie.</head>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1329">Quoi vous pouvez vous taire en ce péril extrême ?</l>
+	                 <l n="1330">Vous laissez dans l'erreur un père qui vous aime ? </l>
+	                 <l n="1331">Cruel, si de mes pleurs méprisant le pouvoir</l>
+	                 <l n="1332">Vous consentez sans peine à ne me plus revoir,</l>
+	                 <l n="1333">Partez, séparez-vous de la triste Aricie.</l>
+	                 <l n="1334">Mais du moins en partant assurez votre vie.</l>
+	                 <l n="1335">Défendez votre honneur d'un reproche honteux,</l>
+	                 <l n="1336">Et forcez votre père à révoquer ses voeux.</l>
+	                 <l n="1337">Il en est temps encor. Pourquoi ? Par quel caprice</l>
+	                 <l n="1338">Laissez-vous le champ libre à votre accusatrice ?</l>
+	                 <l n="1339" part="I">Éclaircissez Thésée.</l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1339" part="F">Hé ! Que n'ai-je point dit ?</l>
+	                 <l n="1340">Ai-je dû mettre au jour l'opprobre de son lit ? </l>
+	                 <l n="1341">Devais-je, en lui faisant un récit trop sincère,</l>
+	                 <l n="1342">D'une indigne rougeur couvrir le front d'un père ?</l>
+	                 <l n="1343">Vous seule avez percé ce mystère odieux.</l>
+	                 <l n="1344">Mon coeur pour s'épancher n'a que vous et les Dieux.</l>
+	                 <l n="1345">Je n'ai pu vous cacher, jugez si je vous aime,</l>
+	                 <l n="1346">Tout ce que je voulais me cacher à moi-même.</l>
+	                 <l n="1347">Mais songez sous quel sceau je vous l'ai révélé.</l>
+	                 <l n="1348">Oubliez, s'il se peut, que je vous ai parlé,</l>
+	                 <l n="1349">Madame. Et que jamais une bouche si pure</l>
+	                 <l n="1350">Ne s'ouvre pour conter cette horrible aventure.</l>
+	                 <l n="1351">Sur l'équité des Dieux osons nous confier.</l>
+	                 <l n="1352">Ils ont trop d'intérêt à me justifier.</l>
+	                 <l n="1353">Et Phèdre tôt ou tard de son crime punie,</l>
+	                 <l n="1354">N'en saurait éviter la juste ignominie.</l>
+	                 <l n="1355">C'est l'unique respect que j'exige de vous. </l>
+	                 <l n="1356">Je permets tout le reste à mon libre courroux.</l>
+	                 <l n="1357">Sortez de l'esclavage où vous êtes réduite.</l>
+	                 <l n="1358">Osez me suivre. Osez accompagner ma fuite.</l>
+	                 <l n="1359">Arrachez-vous d'un lieu funeste et profané,</l>
+	                 <l n="1360">Où la vertu respire un air empoisonné. </l>
+	                 <l n="1361">Profitez, pour cacher votre prompte retraite,</l>
+	                 <l n="1362">De la confusion que ma disgrâce y jette.</l>
+	                 <l n="1363">Je vous puis de la fuite assurer les moyens.</l>
+	                 <l n="1364">Vous n'avez jusqu'ici de gardes que les miens.</l>
+	                 <l n="1365">De puissants défenseurs prendront notre querelle. </l>
+	                 <l n="1366">Argos nous tend les bras, et Sparte nous appelle.</l>
+	                 <l n="1367">À nos amis communs portons nos justes cris.</l>
+	                 <l n="1368">Ne souffrons pas que Phèdre assemblant nos débris</l>
+	                 <l n="1369">Du trône paternel nous chasse l'un et l'autre,</l>
+	                 <l n="1370">Et promette à son fils ma dépouille et la vôtre. </l>
+	                 <l n="1371">L'occasion est belle, il la faut embrasser.</l>
+	                 <l n="1372">Quelle peur vous retient ? Vous semblez balancer ?</l>
+	                 <l n="1373">Votre seul intérêt m'inspire cette audace.</l>
+	                 <l n="1374">Quand je suis tout de feu, d'où vous vient cette glace ?</l>
+	                 <l n="1375">Sur les pas d'un banni craignez-vous de marcher ? </l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1376">Hélas ! Qu'un tel exil, Seigneur, me serait cher !</l>
+	                 <l n="1377">Dans quels ravissements, à votre sort liée</l>
+	                 <l n="1378">Du reste des mortels je vivrais oubliée !</l>
+	                 <l n="1379">Mais n'étant point unis par un lien si doux,</l>
+	                 <l n="1380">Me puis-je avec honneur dérober avec vous ? </l>
+	                 <l n="1381">Je sais que sans blesser l'honneur le plus sévère</l>
+	                 <l n="1382">Je me puis affranchir des mains de votre père.</l>
+	                 <l n="1383">Ce n'est point m'arracher du sein de mes parents.</l>
+	                 <l n="1384">Et la fuite est permise à qui fuit ses tyrans.</l>
+	                 <l n="1385">Mais vous m'aimez, Seigneur ; et ma gloire alarmée... </l>
+               </sp>
+               <sp who="tc0661-HIPPOLYTE">
+                  <speaker>HIPPOLYTE.</speaker>
+	                 <l n="1386">Non non, j'ai trop de soin de votre renommée.</l>
+	                 <l n="1387">Un plus noble dessein m'amène devant vous.</l>
+	                 <l n="1388">Fuyez vos ennemis, et suivez votre époux.</l>
+	                 <l n="1389">Libres dans nos malheurs, puisque le ciel l'ordonne,</l>
+	                 <l n="1390">Le don de notre foi ne dépend de personne. </l>
+	                 <l n="1391">L'hymen n'est point toujours entouré de flambeaux.</l>
+	                 <l n="1392">   Aux portes de Trézène, et parmi ces tombeaux,</l>
+	                 <l n="1393">Des princes de ma race antiques sépultures,</l>
+	                 <l n="1394">Est un temple sacré formidable aux parjures.</l>
+	                 <l n="1395">C'est là que les mortels n'osent jurer en vain. </l>
+	                 <l n="1396">Le perfide y reçoit un châtiment soudain.</l>
+	                 <l n="1397">Et craignant d'y trouver la mort inévitable,</l>
+	                 <l n="1398">Le mensonge n'a point de frein plus redoutable.</l>
+	                 <l n="1399">Là, si vous m'en croyez, d'un amour éternel</l>
+	                 <l n="1400">Nous irons confirmer le serment solennel. </l>
+	                 <l n="1401">Nous prendrons à témoin le Dieu qu'on y révère.</l>
+	                 <l n="1402">Nous le prierons tous deux de nous servir de père.</l>
+	                 <l n="1403">Des dieux les plus sacrés j'attesterai le nom.</l>
+	                 <l n="1404">Et la chaste Diane, et l'auguste Junon,</l>
+	                 <l n="1405">Et tous les dieux enfin témoins de mes tendresses</l>
+	                 <l n="1406">Garantiront la foi de mes saintes promesses.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1407">Le Roi vient. Fuyez, Prince, et partez promptement.</l>
+	                 <l n="1408">Pour cacher mon départ je demeure un moment.</l>
+	                 <l n="1409">Allez, et laissez-moi quelque fidèle guide,</l>
+	                 <l n="1410">Qui conduise vers vous ma démarche timide. </l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Thèsée, Aracie, Ismène.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1411">Dieux, éclairez mon trouble, et daignez à mes yeux</l>
+	                 <l n="1412">Montrer la vérité, que je cherche en ces lieux.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1413">Songe à tout, chère Ismène, et sois prête à la fuite.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Thésée, Aricie.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1414">Vous changez de couleur, et semblez interdite,</l>
+	                 <l n="1415">Madame. Que faisait Hippolyte en ce lieu ? </l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1416">Seigneur, il me disait un éternel adieu.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1417">Vos yeux ont su dompter ce rebelle courage.</l>
+	                 <l n="1418">Et ses premiers soupirs sont votre heureux ouvrage.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1419">Seigneur, je ne vous puis nier la vérité.</l>
+	                 <l n="1420">De votre injuste haine il n'a pas hérité.</l>
+	                 <l n="1421">Il ne me traitait point comme une criminelle.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1422">J'entends, il vous jurait une amour éternelle.</l>
+	                 <l n="1423">Ne vous assurez point sur ce coeur inconstant.</l>
+	                 <l n="1424">Car à d'autres que vous il en jurait autant.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1425" part="I">Lui, Seigneur ?</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1425" part="F">Vous deviez le rendre moins volage.</l>
+	                 <l n="1426">Comment souffriez-vous cet horrible partage ?</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1427">Et comment souffrez-vous que d'horribles discours</l>
+	                 <l n="1428">D'une si belle vie osent noircir le cours ?</l>
+	                 <l n="1429">Avez-vous de son coeur si peu de connaissance ? </l>
+	                 <l n="1430">Discernez-vous si mal le crime et l'innocence ? </l>
+	                 <l n="1431">Faut-il qu'à vos yeux seuls un nuage odieux</l>
+	                 <l n="1432">Dérobe sa vertu qui brille à tous les yeux ?</l>
+	                 <l n="1433">Ah ! C'est trop le livrer à des langues perfides.</l>
+	                 <l n="1434">Cessez. Repentez-vous de vos voeux homicides. </l>
+	                 <l n="1435">Craignez, Seigneur, craignez que le ciel rigoureux</l>
+	                 <l n="1436">Ne vous haïsse assez pour exaucer vos voeux.</l>
+	                 <l n="1437">Souvent dans sa colère il reçoit nos victimes.</l>
+	                 <l n="1438">Ses présents sont souvent la peine de nos crimes.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1439">Non, vous voulez en vain couvrir son attentat. </l>
+	                 <l n="1440">Votre amour vous aveugle en faveur de l'ingrat. </l>
+	                 <l n="1441">Mais j'en crois des témoins certains, irréprochables.</l>
+	                 <l n="1442">J'ai vu, j'ai vu couler des larmes véritables.</l>
+               </sp>
+               <sp who="tc0661-ARICIE">
+                  <speaker>ARICIE.</speaker>
+	                 <l n="1443">Prenez garde, Seigneur. Vos invincibles mains</l>
+	                 <l n="1444">Ont de monstres sans nombre affranchi les humains. </l>
+	                 <l n="1445">Mais tout n'est pas détruit ; et vous en laissez vivre</l>
+	                 <l n="1446">Un... Votre fils, Seigneur, me défend de poursuivre.</l>
+	                 <l n="1447">Instruite du respect qu'il veut vous conserver,</l>
+	                 <l n="1448">Je l'affligerais trop, si j'osais achever.</l>
+	                 <l n="1449">J'imite sa pudeur, et fuis votre présence</l>
+	                 <l n="1450">Pour n'être pas forcée à rompre le silence.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE, seul.</speaker>
+	                 <l n="1451">Quelle est donc sa pensée ? Et que cache un discours</l>
+	                 <l n="1452">Commencé tant de fois, interrompu toujours ?</l>
+	                 <l n="1453">Veulent-ils m'éblouir par une feinte vaine ?</l>
+	                 <l n="1454">Sont-ils d'accord tous deux pour me mettre à la gêne ? </l>
+	                 <l n="1455">Mais moi-même, malgré ma sévère rigueur,</l>
+	                 <l n="1456">Quelle plaintive voix crie au fond de mon coeur ?</l>
+	                 <l n="1457">Une pitié secrète et m'afflige, et m'étonne.</l>
+	                 <l n="1458">Une seconde fois interrogeons Oenone.</l>
+	                 <l n="1459">Je veux de tout le crime être mieux éclairci. </l>
+	                 <l n="1460">Gardes. Qu'Oenone sorte et vienne seule ici. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Thésée, Panope.</head>
+               <sp who="tc0661-PANOPE">
+                  <speaker>PANOPE.</speaker>
+	                 <l n="1461">J'ignore le projet que la Reine médite,</l>
+	                 <l n="1462">Seigneur. Mais je crains tout du transport qui l'agite.</l>
+	                 <l n="1463">Un mortel désespoir sur son visage est peint.</l>
+	                 <l n="1464">La pâleur de la mort est déjà sur son teint. </l>
+	                 <l n="1465">Déjà de sa présence avec honte chassée</l>
+	                 <l n="1466">Dans la profonde mer Oenone s'est lancée.</l>
+	                 <l n="1467">On ne sait point d'où part ce dessein furieux.</l>
+	                 <l n="1468">Et les flots pour jamais l'ont ravie à nos yeux.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1469" part="I">Qu'entends-je ?</l>
+               </sp>
+               <sp who="tc0661-PANOPE">
+                  <speaker>PANOPE.</speaker>
+	                 <l n="1469" part="F">Son trépas n'a point calmé la Reine.</l>
+	                 <l n="1470">Le trouble semble croître en son âme incertaine. </l>
+	                 <l n="1471">Quelquefois pour flatter ses secrètes douleurs</l>
+	                 <l n="1472">Elle prend ses enfants, et les baigne de pleurs.</l>
+	                 <l n="1473">Et soudain renonçant à l'amour maternelle,</l>
+	                 <l n="1474">Sa main avec horreur les repousse loin d'elle. </l>
+	                 <l n="1475">Elle porte au hasard ses pas irrésolus. </l>
+	                 <l n="1476">Son oeil tout égaré ne nous reconnaît plus.</l>
+	                 <l n="1477">Elle a trois fois écrit, et changeant de pensée</l>
+	                 <l n="1478">Trois fois elle a rompu sa lettre commencée.</l>
+	                 <l n="1479">Daignez la voir, Seigneur, daignez la secourir. </l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1480">Ô ciel ! Oenone est morte, et Phèdre veut mourir ? </l>
+	                 <l n="1481">Qu'on rappelle mon fils. Qu'il vienne se défendre,</l>
+	                 <l n="1482">Qu'il vienne me parler, je suis prêt de l'entendre.</l>
+	                 <l n="1483">Ne précipite point tes funestes bienfaits,</l>
+	                 <l n="1484">Neptune. J'aime mieux n'être exaucé jamais. </l>
+	                 <l n="1485">J'ai peut-être trop cru des témoins peu fidèles. </l>
+	                 <l n="1486">Et j'ai trop tôt vers toi levé mes mains cruelles.</l>
+	                 <l n="1487">Ah ! Se quel désespoir mes voeux seraient suivis !</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Thésée, Théramène.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1488">Théramène est-ce toi ? Qu'as-tu fait de mon fils ?</l>
+	                 <l n="1489">Je te l'ai confié dès l'âge le plus tendre.</l>
+	                 <l n="1490">Mais d'où naissent les pleurs que je te vois répandre ? </l>
+	                 <l n="1491" part="I">Que fait mon fils ?</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="1491" part="F">Ô soins tardifs, et superflus !</l>
+	                 <l n="1492">Inutile tendresse ! Hippolyte n'est plus.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1493" part="I">Dieux !</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="1493" part="F">J'ai vu des mortels périr le plus aimable,</l>
+	                 <l n="1494">Et j'ose dire encor, Seigneur, le moins coupable. </l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1495">Mon fils n'est plus ! Hé quoi ? Quand je lui tends les bras, </l>
+	                 <l n="1496">Les Dieux impatients ont hâté son trépas ?</l>
+	                 <l n="1497">Quel coup me l'a ravi ? Quelle foudre soudaine ?</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="1498">À peine nous sortions des portes de Trézène,</l>
+	                 <l n="1499">Il était sur son char. Ses gardes affligés</l>
+	                 <l n="1500">Imitaient son silence, autour de lui rangés. </l>
+	                 <l n="1501">Il suivait tout pensif le chemin de Mycènes.</l>
+	                 <l n="1502">Sa main sur les chevaux laissait flotter les rênes.</l>
+	                 <l n="1503">Ses superbes coursiers, qu'on voyait autrefois</l>
+	                 <l n="1504">Pleins d'une ardeur si noble obéir à sa voix,</l>
+	                 <l n="1505">L'oeil morne maintenant et la tête baissée</l>
+	                 <l n="1506">Semblaient se conformer à sa triste pensée.</l>
+	                 <l n="1507">Un effroyable cri sorti du fond des flots</l>
+	                 <l n="1508">Des airs en ce moment a troublé le repos.</l>
+	                 <l n="1509">Et du sein de la terre une voix formidable</l>
+	                 <l n="1510">Répond en gémissant à ce cri redoutable.</l>
+	                 <l n="1511">Jusqu'au fond de nos coeurs notre sang s'est glacé.</l>
+	                 <l n="1512">Des coursiers attentifs le crin s'est hérissé.</l>
+	                 <l n="1513">Cependant sur le dos de la plaine liquide</l>
+	                 <l n="1514">S'élève à gros bouillons une montagne humide.</l>
+	                 <l n="1515">L'onde approche, se brise, et vomit à nos yeux, </l>
+	                 <l n="1516">Parmi des flots d'écume un monstre furieux.</l>
+	                 <l n="1517">Son front large est armé de cornes menaçantes,</l>
+	                 <l n="1518">Tout son corps est couvert d'écailles jaunissantes.</l>
+	                 <l n="1519">Indomptable taureau, dragon impétueux,</l>
+	                 <l n="1520">Sa croupe se recourbe en replis tortueux. </l>
+	                 <l n="1521">Ses longs mugissements font trembler le rivage.</l>
+	                 <l n="1522">Le ciel avec horreur voit ce monstre sauvage.</l>
+	                 <l n="1523">La terre s'en émeut, l'air en est infecté,</l>
+	                 <l n="1524">Le flot, qui l'apporta, recule épouvanté.</l>
+	                 <l n="1525">Tout fuit, et sans s'armer d'un courage inutile</l>
+	                 <l n="1526">Dans le temple voisin chacun cherche un asile.</l>
+	                 <l n="1527">Hippolyte lui seul digne fils d'un héros,</l>
+	                 <l n="1528">Arrête ses coursiers, saisit ses javelots,</l>
+	                 <l n="1529">Pousse au monstre, et d'un dard lancé d'une main sûre</l>
+	                 <l n="1530">Il lui fait dans le flanc une large blessure. </l>
+	                 <l n="1531">De rage et de douleur le monstre bondissant</l>
+	                 <l n="1532">Vient aux pieds des chevaux tomber en mugissant,</l>
+	                 <l n="1533">Se roule, et leur présente une gueule enflammée,</l>
+	                 <l n="1534">Qui les couvre de feu, de sang, et de fumée.</l>
+	                 <l n="1535">La frayeur les emporte, et sourds à cette fois, </l>
+	                 <l n="1536">Ils ne connaissent plus ni le frein, ni la voix.</l>
+	                 <l n="1537">En efforts impuissants leur maître se consume.</l>
+	                 <l n="1538">Ils rougissent le mors d'une sanglante écume.</l>
+	                 <l n="1539">On dit qu'on a vu même en ce désordre affreux</l>
+	                 <l n="1540">Un dieu, qui d'aiguillons pressait leur flanc poudreux. </l>
+	                 <l n="1541">À travers les rochers la peur les précipite.</l>
+	                 <l n="1542">L'essieu crie, et se rompt. L'intrépide Hippolyte</l>
+	                 <l n="1543">Voit voler en éclats tout son char fracassé.</l>
+	                 <l n="1544">Dans les rênes lui-même il tombe embarrassé.</l>
+	                 <l n="1545">Excusez ma douleur. Cette image cruelle</l>
+	                 <l n="1546">Sera pour moi de pleurs une source éternelle.</l>
+	                 <l n="1547">J'ai vu, Seigneur, j'ai vu votre malheureux fils</l>
+	                 <l n="1548">Traîné par les chevaux que sa main a nourris.</l>
+	                 <l n="1549">Il veut les rappeler, et sa voix les effraie.</l>
+	                 <l n="1550">Ils courent. Tout son corps n'est bientôt qu'une plaie. </l>
+	                 <l n="1551">De nos cris douloureux la plaine retentit.</l>
+	                 <l n="1552">Leur fougue impétueuse enfin se ralentit.</l>
+	                 <l n="1553">Ils s'arrêtent, non loin de ces tombeaux antiques,</l>
+	                 <l n="1554">Où des rois ses aïeux sont les froides reliques.</l>
+	                 <l n="1555">J'y cours en soupirant, et sa garde me suit. </l>
+	                 <l n="1556">De son généreux sang la trace nous conduit.</l>
+                  <note type="L">Dégouttant : Qui tombe goutte à goutte. [F]</note>
+	                 <l n="1557">Les rochers en sont teints. Les ronces dégouttantes</l>
+	                 <l n="1558">Portent de ses cheveux les dépouilles sanglantes.</l>
+	                 <l n="1559">J'arrive, je l'appelle, et me tendant la main</l>
+	                 <l n="1560">Il ouvre un oeil mourant, qu'il referme soudain. </l>
+	                 <l n="1561">« Le ciel, dit-il, m'arrache une innocente vie.</l>
+	                 <l n="1562">Prends soin après ma mort de la triste Aricie.</l>
+	                 <l n="1563">Cher ami, si mon père un jour désabusé</l>
+	                 <l n="1564">Plaint le malheur d'un fils faussement accusé,</l>
+	                 <l n="1565">Pour apaiser mon sang, et mon ombre plaintive,</l>
+	                 <l n="1566">Dis-lui, qu'avec douceur il traite sa captive,</l>
+	                 <l n="1567">Qu'il lui rende... » À ce mot ce héros expiré</l>
+	                 <l n="1568">N'a laissé dans mes bras qu'un corps défiguré,</l>
+	                 <l n="1569">Triste objet où des Dieux triomphe la colère,</l>
+	                 <l n="1570">Et que méconnaîtrait l'oeil même de son père. </l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1571">Ô mon fils ! Cher espoir que je me suis ravi !</l>
+                  <note type="F">Inexorable : Qui est ferme, dur ; qu'on ne saurait fléchir ; celui dont on ne saurait obtenir aucune grâce. [F]</note>
+	                 <l n="1572">Inexorables Dieux, qui m'avez trop servi !</l>
+	                 <l n="1573">À quels mortels regrets ma vie est réservée !</l>
+               </sp>
+               <sp who="tc0661-THERAMENE">
+                  <speaker>THÉRAMÈNE.</speaker>
+	                 <l n="1574">La timide Aricie est alors arrivée.</l>
+	                 <l n="1575">Elle venait, Seigneur, fuyant votre courroux, </l>
+	                 <l n="1576">À la face des dieux l'accepter pour époux.</l>
+	                 <l n="1577">Elle approche. Elle voit l'herbe rouge et fumante.</l>
+	                 <l n="1578">Elle voit (quel objet pour les yeux d'une amante !)</l>
+	                 <l n="1579">Hippolyte étendu, sans forme et sans couleur.</l>
+	                 <l n="1580">Elle veut quelque temps douter de son malheur,</l>
+	                 <l n="1581">Et ne connaissant plus ce héros qu'elle adore,</l>
+	                 <l n="1582">Elle voit Hippolyte, et le demande encore.</l>
+	                 <l n="1583">Mais trop sûre à la fin qu'il est devant ses yeux,</l>
+	                 <l n="1584">Par un triste regard elle accuse les Dieux,</l>
+	                 <l n="1585">Et froide, gémissante, et presque inanimée, </l>
+	                 <l n="1586">Aux pieds de son amant elle tombe pâmée.</l>
+	                 <l n="1587">Ismène est auprès d'elle. Ismène toute en pleurs</l>
+	                 <l n="1588">La rappelle à la vie, ou plutôt aux douleurs.</l>
+	                 <l n="1589">Et moi, je suis venu détestant la lumière</l>
+	                 <l n="1590">Vous dire d'un héros la volonté dernière, </l>
+	                 <l n="1591">Et m'acquitter, Seigneur, du malheureux emploi,</l>
+	                 <l n="1592">Dont son coeur expirant s'est reposé sur moi.</l>
+	                 <l n="1593">Mais j'aperçois venir sa mortelle ennemie.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE DERNIÈRE. Thésée, Phèdre, Théramène, Panope, Gardes.</head>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1594">Hé bien vous triomphez, et mon fils est sans vie.</l>
+	                 <l n="1595">Ah que j'ai lieu de craindre ! Et qu'un cruel soupçon</l>
+	                 <l n="1596">L'excusant dans mon coeur, m'alarme avec raison !</l>
+	                 <l n="1597">Mais, Madame, il est mort, prenez votre victime.</l>
+	                 <l n="1598">Jouissez de sa perte injuste, ou légitime.</l>
+	                 <l n="1599">Je consens que mes yeux soient toujours abusés,</l>
+	                 <l n="1600">Je le crois criminel, puisque vous l'accusez. </l>
+	                 <l n="1601">Son trépas à mes pleurs offre assez de matières,</l>
+	                 <l n="1602">Sans que j'aille chercher d'odieuses lumières,</l>
+	                 <l n="1603">Qui ne pouvant le rendre à ma juste douleur,</l>
+	                 <l n="1604">Peut-être ne feraient qu'accroître mon malheur.</l>
+	                 <l n="1605">Laissez-moi loin de vous, et loin de ce rivage</l>
+	                 <l n="1606">De mon fils déchiré fuir la sanglante image.</l>
+	                 <l n="1607">Confus, persécuté d'un mortel souvenir,</l>
+	                 <l n="1608">De l'Univers entier je voudrais me bannir.</l>
+	                 <l n="1609">Tout semble s'élever contre mon injustice.</l>
+	                 <l n="1610">L'éclat de mon nom même augmente mon supplice.</l>
+	                 <l n="1611">Moins connu des mortels je me cacherais mieux.</l>
+	                 <l n="1612">Je hais jusques au soin dont m'honorent les Dieux.</l>
+	                 <l n="1613">Et je m'en vais pleurer leurs faveurs meurtrières,</l>
+	                 <l n="1614">Sans plus les fatiguer d'inutiles prières.</l>
+	                 <l n="1615">Quoi qu'ils fissent pour moi, leur funeste bonté</l>
+	                 <l n="1616">Ne me saurait payer de ce qu'ils m'ont ôté.</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1617">Non, Thésée, il faut rompre un injuste silence.</l>
+	                 <l n="1618">Il faut à votre fils rendre son innocence.</l>
+	                 <l n="1619" part="I">Il n'était point coupable.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1619" part="F">Ah père infortuné !</l>
+	                 <l n="1620">Et c'est sur votre foi que je l'ai condamné !</l>
+	                 <l n="1621">Cruelle, pensez-vous être assez excusée...</l>
+               </sp>
+               <sp who="tc0661-PHEDRE">
+                  <speaker>PHÈDRE.</speaker>
+	                 <l n="1622">Les moments me sont chers, écoutez-moi, Thésée.</l>
+	                 <l n="1623">C'est moi qui sur ce fils chaste et respectueux</l>
+	                 <l n="1624">Osai jeter un oeil profane, incestueux.</l>
+	                 <l n="1625">Le ciel mit dans mon sein une flamme funeste.</l>
+	                 <l n="1626">La détestable Oenone a conduit tout le reste.</l>
+	                 <l n="1627">Elle a craint qu'Hippolyte instruit de ma fureur</l>
+	                 <l n="1628">Ne découvrît un feu qui lui faisait horreur.</l>
+	                 <l n="1629">La perfide abusant de ma faiblesse extrême</l>
+	                 <l n="1630">S'est hâtée à vos yeux de l'accuser lui-même. </l>
+	                 <l n="1631">Elle s'en est punie, et fuyant mon courroux</l>
+	                 <l n="1632">A cherché dans les flots un supplice trop doux.</l>
+	                 <l n="1633">Le fer aurait déjà tranché ma destinée.</l>
+	                 <l n="1634">Mais je laissais gémir la vertu soupçonnée.</l>
+	                 <l n="1635">J'ai voulu, devant vous exposant mes remords, </l>
+	                 <l n="1636">Par un chemin plus lent descendre chez les morts.</l>
+	                 <l n="1637">J'ai pris, j'ai fait couler dans mes brûlantes veines</l>
+                  <note type="L">Médée était connue pour être magicienne et experte en poisons. Elle essaya d'empoisonner Thésée quand elle était auprès de son père Égée, roi d'Athènes.</note>
+	                 <l n="1638">Un poison que Médée apporta dans Athènes.</l>
+	                 <l n="1639">Déjà jusqu'à mon coeur le venin parvenu</l>
+	                 <l n="1640">Dans ce coeur expirant jette un froid inconnu.</l>
+	                 <l n="1641">Déjà je ne vois plus qu'à travers un nuage</l>
+	                 <l n="1642">Et le ciel, et l'époux que ma présence outrage ;</l>
+	                 <l n="1643">Et la mort à mes yeux dérobant la clarté</l>
+	                 <l n="1644">Rend au jour, qu'ils souillaient, toute sa pureté.</l>
+               </sp>
+               <sp who="tc0661-PANOPE">
+                  <speaker>PANOPE.</speaker>
+	                 <l n="1645" part="I">Elle expire, Seigneur.</l>
+               </sp>
+               <sp who="tc0661-THESEE">
+                  <speaker>THÉSÉE.</speaker>
+	                 <l n="1645" part="F">D'une action si noire</l>
+	                 <l n="1646">Que ne peut avec elle expirer la mémoire !</l>
+	                 <l n="1647">Allons de mon erreur, hélas ! trop éclaircis</l>
+	                 <l n="1648">Mêler nos pleurs au sang de mon malheureux fils.</l>
+	                 <l n="1649">Allons de ce cher fils embrasser ce qui reste,</l>
+	                 <l n="1650">Expier la fureur d'un voeu que je déteste. </l>
+	                 <l n="1651">Rendons-lui les honneurs qu'il a trop mérités.</l>
+                  <note type="L">Mânes : Terme poétique qui signifie l'ombre ou l'âme des morts. [F]</note>
+	                 <l n="1652">Et pour mieux apaiser ses mânes irrités,</l>
+	                 <l n="1653">Que malgré les complots d'une injuste famille</l>
+	                 <l n="1654">Son amante aujourd'hui me tienne lieu de fille. </l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

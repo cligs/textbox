@@ -1,0 +1,2544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Le mort vivant</title>
+            <title type="sub">Comédie</title>
+            <title type="short">MortVivant</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">BOURSAULT, Edme</name>
+               <name type="short">Boursault</name>
+               <idno type="viaf"/>
+            </author>
+            <principal>Texte établi par Charlotte Dias, dans le cadre d'un travail d'édition critique sous la direction de Georges Forestier. (Université Paris-Sorbonne)</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date>2014</date>, <idno>BOURSAULT_MORTVIVANT</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1662</date>, <idno/>, <ref target="#"/>. À PARIS, Chez NICOLAS PEPINGUE, en la grande Salle du Palais, vis-à-vis les Consultations, au Soleil d'or..</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1662</date>, <idno/>, <ref target="#"/>. Représentée, pour la première fois en 1662 à l'Hôtel de Bourgogne. </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Comédie</term>
+               <term type="structure">trois actes</term>
+               <term type="form">vers</term>
+               <term type="period">1661-1670</term>
+               <term type="taille">750-1000</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>PERSONNAGES</head>
+            <castItem>
+               <role xml:id="tc0089-FERDINAND">FERDINAND</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-STEPHANIE">STÉPHANIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-LAZARILLE">LAZARILLE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-FABRICE">FABRICE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-HENRIQUEZDEGALAS">HENRIQUEZ DE GALAS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-GUSMAN">GUSMAN</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-UNESERVANTE">UNE SERVANTE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0089-LHOTEDELAZARILLE">L'HÔTE DE LAZARILLE</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La scène est à Séville.</p>
+         </set>
+      </front>
+      <body>
+         <div type="acte" n="1">
+            <head>ACTE I</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Fabrice, Gusman.</head>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="1">Oui, la peste m'étouffe, il lui fait les doux yeux.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="2" part="I">Railleur.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="2" part="M">Je raille donc ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="2" part="M">Je le crois.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="2" part="F">Plut aux Dieux !</l>
+                     <l n="3">Mais de la vérité c'est la voix que j'emprunte,</l>
+                     <l n="4">Quand je dis que pour vous la Donzelle est défunte,</l>
+                     <l n="5">Et que par un destin plus funeste que doux,</l>
+                     <l n="6">Elle vit pour un autre, en trépassant pour vous.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="7">Quoi, Gusman, Lazarille aimerait Stéphanie ?</l>
+                     <l n="8" part="I">Tu feins.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="8" part="F">De mon discours toute feinte est bannie,</l>
+                     <l n="9">Dès hier, les écoutant, sans qu'aucun m'aperçut,</l>
+                     <l n="10">L'un s'offrit pour Epoux, et l'autre le reçut : </l>
+                     <l n="11">Vous, Monsieur, qui poussez la harangue muette,</l>
+                     <l n="12">De l'objet qui vous charme, il faut faire diète ; </l>
+                     <l n="13">Et sans de votre part qu'on entende du bruit,</l>
+                     <l n="14">Souffrir que de vos feux Lazarille ait le fruit.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="15">Point, Lazarille m'aime, il me l'a fait paraître,</l>
+                     <l n="16">Il n'a point de secret qui pour moi le doive être ; </l>
+                     <l n="17">Si quelque amour pour elle il avait ressenti,</l>
+                     <l n="18" part="I">Gusman, il est sincère.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="18" part="F">Et mes yeux ont menti ?</l>
+                     <l n="19">Mais si je puis surprendre et Monsieur et Madame,</l>
+                     <l n="20">Et que tous deux ensemble ils parlent de leur flamme :</l>
+                     <l n="21">Si je puis vous montrer qu'ils s'entraiment tous deux,</l>
+                     <l n="22">Qu'elle est de lui charmée, et lui d'elle Amoureux,</l>
+                     <l n="23" part="I">Que direz-vous alors ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="23" part="F">Je louerai ta conduite.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="24">Allons nous en dîner, et revenons ensuite : </l>
+                     <l n="25">Dans une heure au plus tard dans ce même jardin, </l>
+                     <l n="26">Nous verrons qui des deux doit passer pour Badin :</l>
+                     <l n="27">Mais de l'objet aimé le Père ici le montre.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="28">De ce fâcheux Vieillard évitons la rencontre.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Ferdinand, Stéphanie.</head>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="29">Es-tu là Stéphanie ? Ôtes-moi de soucis :</l>
+                     <l n="30" part="I">Réponds. Ah ! te voilà.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE, à une fenêtre.</speaker>
+                     <l n="30" part="M">Sans doute.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="30" part="F">Et me voici ;</l>
+                     <l n="31">Mais de là jusqu'ici l'espace étant si grande, </l>
+                     <l n="32">Il faut que dans ce lieu ta personne descende,</l>
+                     <l n="33">Pour d'une âme tranquille écouter mon discours.</l>
+                     <l n="34" part="I">Descends-donc.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="34" part="M">J'obéis.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="34" part="M">Mais hâte-toi.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="34" part="F">Je cours.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="35">En t'appelant, sais-tu quel succès j'en espère ?</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="36" part="I">Non, Monsieur.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="36" part="F">Tu sais bien qu'on me nomme ton père ?</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="37" part="I">Oui, Monsieur.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="37" part="F">Sache encore qu'il n'est rien de cela, </l>
+                     <l n="38">Que ce n'est que de nom que je fus ton papa, </l>
+                     <l n="39">Et malgré ta vertu dont toujours l'éclat brille,</l>
+                     <l n="40">Que je ne voudrais pas que tu fusses ma fille.</l>
+                     <l n="41">Ce n'est pas qu'en effet, durant près de vingt ans,</l>
+                     <l n="42">Je t'aimais comme un Père aimerait ces enfants,</l>
+                     <l n="43">Et voyant les beautés dont le Ciel te partage,</l>
+                     <l n="44">Mon coeur depuis un mois t'aime encore d'avantage.</l>
+                     <l n="45">Aussi quoique sur toi j'eusse assez de pouvoir</l>
+                     <l n="46">Pour te casser la tête en faisant ton devoir,</l>
+                     <l n="47">Bien loin de te causer une douleur amère,</l>
+                     <l n="48">Je t'ai toujours traitée en enfant de ta mère.</l>
+                     <l n="49">Mais pour venir au point qui m'a fait t'appeler,</l>
+                     <l n="50">Je crois que tu sais bien que c'est pour te parler ; </l>
+                     <l n="51">Et puisqu'en ce jardin c'est ma voix qui t'attire,</l>
+                     <l n="52">Qu'il faut que j'aie aussi quelque chose à te dire.</l>
+                     <l n="53">C'est donc pour te parler que je t'ai fait venir ;</l>
+                     <l n="54">Et pour te dire aussi qu'il est temps de t'unir,</l>
+                     <l n="55">Avec quelque Gaillard dont la mine te plaise,</l>
+                     <l n="56">Et qui soit en état de te mettre à ton aise.</l>
+                     <l n="57">Sers-toi donc à présent du pouvoir de tes yeux,</l>
+                     <l n="58">Qui dans trois ou quatre ans deviendront chassieux :</l>
+                     <l n="59">Que veux-tu me répondre à ce que je propose ?  </l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="60">Que pour vous obéir je ferai toute chose,</l>
+                     <l n="61" part="I">Je suis prête, ordonnez.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="61" part="F">Ta haute humilité,</l>
+                     <l n="62">Ne me charme pas moins que ferait ta beauté :</l>
+                     <l n="63">Mais au bonheur ouvert devenir si sensible,</l>
+                     <l n="64">De ton pressentiment c'est l'effet infaillible,</l>
+                     <l n="65">Et je ne doute pas que tu vois aisément</l>
+                     <l n="66">Que qui n'est plus ton Père, est enfin ton Amant.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="67" part="I">Vous Monsieur, mon Amant ?</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="67" part="F">Oui, moi-même à toi-même,</l>
+                     <l n="68">Je découvre mon Âme, et te dis que je t'aime,</l>
+                     <l n="69">Et qu'il est nécessaire à l'ardeur de mes feux,</l>
+                     <l n="70">Que par un Mariage on nous joigne tous deux.</l>
+                     <l n="71">Si dans mes jeunes ans je n'aimais que les Armes,</l>
+                     <l n="72">Et si dans ce moment tu fourmilles de charmes,</l>
+                     <l n="73">Notre premier enfant, étant fille ou garçon,</l>
+                     <l n="74">Sera plus beau qu'un Ange, ou plus fort qu'un Sanson.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="75" part="I">Quoi, Monsieur...</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="75" part="F">À ton tour tu veux m'ouvrir ton Âme,</l>
+                     <l n="76">Et répondre au plaisir que te cause ma flamme,</l>
+                     <l n="77">Mais pour toi ma bonté qui te sert de secours,</l>
+                     <l n="78">Veut à ta modestie épargner ce discours.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="79">Ah daignez m'écouter : et souffrez que j'embrasse...</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="80">Quoi, te mettre à genoux pour mieux me rendre grâce ?</l>
+                     <l n="81">Crains-tu que je t'échappe ? Ah ! Ne t'alarme pas,</l>
+                     <l n="82">Quoi qu'il puisse arriver apprends que tu m'auras :</l>
+                     <l n="83">Mais rentre promptement, car je vois Lazarille,</l>
+                     <l n="84" part="I">Il s'avance.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="84" part="F">Oh malheur ! Que ne suis-je sa fille.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Lazarille, Ferdinand.</head>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="85">De tous vos serviteurs étant le plus soumis,</l>
+                     <l n="86">Un libre accès chez vous me fut toujours permis,</l>
+                     <l n="87">Monsieur, et vous m'avez à toutes mes visites</l>
+                     <l n="88">Fait des civilités par delà mes mérites.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="89" part="I">Couvrez-vous.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="89" part="F">Mais enfin, après tant de bontés,</l>
+                     <l n="90">Mes yeux de Stéphanie ayant vu les beautés,</l>
+                     <l n="91">D'adorer ses attraits je ne pus me défendre ;</l>
+                     <l n="92">Si bien que dans l'espoir de me voir votre gendre,</l>
+                     <l n="93">Je viens d'un zèle ardent embrasser vos genoux,</l>
+                     <l n="94">Afin que vous souffriez que je sois son Epoux.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="95" part="I">Fort bien.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="95" part="F">Je ne dis rien d'une ardeur infinie,</l>
+                     <l n="96">Suffit que chaque jour vous voyiez Stéphanie,</l>
+                     <l n="97">Peut-on ne pas l'aimer sans manquer de raison ?</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="98">Vous ne pouviez venir en meilleure saison.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="99">Donc à ma passion vous êtes favorable ?</l>
+                     <l n="100">Donc je puis espérer cet objet adorable ?</l>
+                     <l n="101">De votre affection je suis trop éclairci ;</l>
+                     <l n="102" part="I">Quoi vous me préparez...</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="102" part="F">Un refus, Dieu merci.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="103" part="I">Un refus ?</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="103" part="M">Un refus.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="103" part="F">Ah ! Du moins que je sache</l>
+                     <l n="104">Si parmi mon ardeur vous trouvez quelque tache.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="105">Nenni, mais par un sort qui pour vous est fatal,</l>
+                     <l n="106">Vous avez le malheur de m'avoir pour rival.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="107">Vous aimez votre fille ? Ah ! Si par quelque ruse...</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="108">Tout chacun m'en croit Père et tout chacun s'abuse,</l>
+                     <l n="109">Je vous crus de tout temps un Ami si discret,</l>
+                     <l n="110"> Que je puis à vos yeux exposer un secret :</l>
+                     <l n="111">Mais il faut toutefois m'assurer de se taire.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="112">De ce triste secret quel que soit le mystère,</l>
+                     <l n="113">Parlez, de vos Amis je suis l'un des plus grands.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="114">Il y peut bien avoir plus de cinq fois quatre ans,</l>
+                     <l n="115">Qu'une Dame à cheval, qu'avait un homme en croupe,</l>
+                     <l n="116">Passa par cette ville, allant à Gadaloupe,</l>
+                     <l n="117">Et pour ne pas vous faire un trop long entretien,</l>
+                     <l n="118">Du logis que j'occupe en vint faire le sien.</l>
+                     <l n="119">Après que de cheval elle fut descendue,</l>
+                     <l n="120">Je vis qu'elle était pâle, et toute morfondue,</l>
+                     <l n="121">De son maigre visage on eût compté les os,</l>
+                     <l n="122">Ses bras étaient petits, mais son ventre était gros,</l>
+                     <l n="123">Et s'il faut devant vous que sans fard je m'explique ;</l>
+                     <l n="124">Durant une heure ou deux je la crus hydropique :</l>
+                     <l n="125">Mais peu de temps après mon esprit fut certain,</l>
+                     <l n="126">Que ce n'était pas d'eau que son ventre était plein.</l>
+                     <l n="127">Quoique dans mon logis elle n'eut rien à craindre,</l>
+                     <l n="128">J'entendis sur le soir cette Dame se plaindre ;</l>
+                     <l n="129">D'abord prêtant l'oreille à sa voix, j'en ouïs :</l>
+                     <l n="130">Vois de quels tristes biens à présent tu jouis,</l>
+                     <l n="131">Puisque tu t'es fiée à des promesses vaines,</l>
+                     <l n="132">Qu'un moment de plaisir te coûtera de peines !</l>
+                     <l n="133">Que le Ciel en courroux te prépare de maux !</l>
+                     <l n="134">Voit-on quelques malheurs à tes malheurs égaux ?</l>
+                     <l n="135">Ton fruit qui voit le jour rend-il ta douleur moindre ?</l>
+                     <l n="136">Là j'ouïs une voix à la sienne se joindre,</l>
+                     <l n="137">Dont l'extrême faiblesse, et le ton délicat,</l>
+                     <l n="138">Avait bien du rapport aux cris d'un petit Chat.</l>
+                     <l n="139">Lors pour voir ce mystère ayant ouvert la porte,</l>
+                     <l n="140">Je trouvais cette femme en langueur ; demi-morte.</l>
+                     <l n="141">Un enfant à ses pieds qui venait d'être fait,</l>
+                     <l n="142">Et qui quoique petit était beau tout à fait.</l>
+                     <l n="143">En un rude courroux j'eus dessein de me mettre,</l>
+                     <l n="144">Mais la mère à l'enfant ne put me le permettre,</l>
+                     <l n="145">Et d'un gros Diamant le brillant gracieux,</l>
+                     <l n="146">Sut me fermer la bouche, et m'éblouir les yeux :</l>
+                     <l n="147">Si bien que l'Accouchée ayant par son adresse</l>
+                     <l n="148">Apaisé ma colère et surpris ma tendresse,</l>
+                     <l n="149">Sans rien appréhender des médisants propos,</l>
+                     <l n="150">A son enfant tout nu je donnais des drapeaux,</l>
+                     <l n="151">Qui la même nuitée ayant eu la migraine, </l>
+                     <l n="152">Fit chercher au plus vite, et Parrain et Marraine.</l>
+                     <l n="153">Car dans sa maladie on craignait qu'il mourut ;</l>
+                     <l n="154">Et Dona Stéphanie est le nom qu'il reçut. </l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="155">Ô Ciel ! Après ce coup  que faut-il que j'espère ?</l>
+                     <l n="156" part="I">Hélas !</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="156" part="F">Vous voyez bien si j'en fus jamais Père.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="157" part="I">Je ne le vois que trop.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="157" part="F">Pour vous donc abréger,</l>
+                     <l n="158">Stéphanie en huit jours ne fut plus en danger,</l>
+                     <l n="159">Et la mère pour lors pleinement satisfaite,</l>
+                     <l n="160">La commis à ma charge, et sonna sa retraite,</l>
+                     <l n="161">Et m'ayant ses joyaux déposés dans les mains,</l>
+                     <l n="162">Avant que de partir m'expliqua ses desseins.</l>
+                     <l n="163">Monsieur, dit-elle alors, connaissant votre zèle,</l>
+                     <l n="164">Je vous laisse ma fille, et vous laisse avec elle</l>
+                     <l n="165">De quoi l'entretenir, et payer ses dépenses</l>
+                     <l n="166">Tant que pourra durer la longueur de sept ans.</l>
+                     <l n="167">Environ ce temps-là j'enverrai la reprendre ;</l>
+                     <l n="168">Surtout je vous enjoins de jamais ne la rendre,</l>
+                     <l n="169">Qu'à celui qui pour elle ayant quelque amitié,</l>
+                     <l n="170">A cet anneau rompu joindra l'autre moitié.</l>
+                     <l n="171">Cela dit, elle part, et sa fille demeure,</l>
+                     <l n="172">Qui durant son enfance amandait d'heure en heure,</l>
+                     <l n="173">Et qui vécut si bien, qu'encore même elle vit,</l>
+                     <l n="174">Qui des charmes qu'elle a tout le monde ravit.</l>
+                     <l n="175"> Comme elle est à présent dans un ange à produire,</l>
+                     <l n="176">Ma violente ardeur je lui viens de déduire,</l>
+                     <l n="177">Et trouvant dans ma flamme un plaisir assez doux,</l>
+                     <l n="178">Pour mieux m'en rendre grâce elle était à genoux :</l>
+                     <l n="179">Mais comme à mon esprit sa pudeur est connue, </l>
+                     <l n="180">Je l'ai fait retirer voyant votre venue ;</l>
+                     <l n="181">Et pour conclusion je vous fais assoir,</l>
+                     <l n="182">Qu'elle borne sa gloire au bonheur de m'avoir.</l>
+                     <l n="183" part="I">Adieu.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV.</head>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE, seul.</speaker>
+                     <l n="183" part="F">Peut-on souffrir une douleur plus dure !</l>
+                     <l n="184">Voir de mes propres yeux son indigne posture,</l>
+                     <l n="185">Et lorsque par son ordre on peut tout espérer,</l>
+                     <l n="186">Embrasser les genoux, de qui doit l'adorer !</l>
+                     <l n="187" part="I">L'ingrate ! Elle paraît. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>[SCÈNE V]. Stéphanie, Lazarille.</head>
+               <stage>Fabrice et Gusman sont au même jardin.</stage>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="187" part="F">Quelque espoir qui  vous flatte,</l>
+                     <l n="188">Empêchez que pour moi votre flamme n'éclate,</l>
+                     <l n="189">Et quoi que votre amour ait pour vous des appas,</l>
+                     <l n="190">Faites que pour me plaire il ne paraisse pas.</l>
+                     <l n="191" part="I">Car enfin...</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="191" part="F">C'est assez, de la loi qu'on m'impose,</l>
+                     <l n="192">Mon esprit tout confus vient d'apprendre la cause,</l>
+                     <l n="193" part="I">Ferdinand...</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="193" part="F">Ferdinand vous a donc tout appris ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="194" part="I">N'en doutez pas.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, à Fabrice.</speaker>
+                     <l n="194" part="F">Hé bien, les avez-vous surpris ?</l>
+                     <l n="195" part="I">S'aiment-ils ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="195" part="F">Stéphanie être avec Lazarille !</l>
+                     <l n="196" part="I">Écoutons.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="196" part="F">Du vieillard, vous n'êtes plus la fille.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="197" part="I">Ô Dieux !</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="197" part="F">C'est ce qui doit vous causer du tourment</l>
+                     <l n="198">Cessant c'être mon père il devient mon amant.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="199" part="I">Ferdinand l'aime aussi, Gusman !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="199" part="F">Belle demande ;</l>
+                     <l n="200">Manque-t-on d'appétit près de si belle viande ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="201">Ferdinand doit donc faire un obstacle à mes voeux ?</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="202">Pouvez-vous en douter, et connaître ses feux ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="203" part="I">Elle ne l'aime pas.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="203" part="F">Mon Dieu, quoi qu'elle dise,</l>
+                     <l n="204">Elle a l'esprit mâdré, croyez-moi, fou s'y fie.</l>
+                  <ab>**** madré
+</ab>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="205">Lorsqu'il a déclaré l'amour qu'il a pour vous,</l>
+                     <l n="206">Pour y répondre mieux vous étiez à genoux ;</l>
+                     <l n="207" part="I">Ainsi...</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="207" part="F">Cette posture où j'ai su me contraindre,</l>
+                     <l n="208">Montre ce que de lui vous avez lieu de craindre.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="209" part="I">Entends-tu ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="209" part="F">Qui pis est, suivant ce que je vois,</l>
+                     <l n="210">Mon esprit indupable est dupé par sa voix.</l>
+                  <ab>*****
+</ab>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="211">Cependant, animé d'une animé d'une ardeur assez grande,</l>
+                     <l n="212">De vous à mon Rival j'ai tenté la demande ;</l>
+                     <l n="213">Et suivant les conseils que de vous j'ai reçu,</l>
+                     <l n="214">Je me suis attiré la rigueur d'un refus.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="215" part="I">J'en suis ravi, Gusman.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="215" part="F">Vous voyez, l'aime-t-elle ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="216" part="I">Je n'en puis que juger.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="216" part="F">Ô fortune cruelle !</l>
+                     <l n="217" part="I">Vous m'avez demandée ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="217" part="F">Et suivi vos avis.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="218">Trop tôt à mon malheur vous les avez suivis :</l>
+                     <l n="219">Quand je crus vous donner un conseil nécessaire,</l>
+                     <l n="220">Ferdinand de ma part était vu comme Père ;</l>
+                     <l n="221">Mais n'étant pas sa fille, et sachant son amour,</l>
+                     <l n="222">Je n'apprends qu'à regret que le votre est au jour.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="223" part="I">L'aime-t-elle ? Tu vois.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="223" part="F">Comment Diable la croire ?</l>
+                     <l n="224">Ses discours sont pour moi des feuillets du Grimoire.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="225">J'entends du bruit, fuyez, et de peur que de vous</l>
+                     <l n="226">Le Rival qui vous nuit ne devienne jaloux,</l>
+                     <l n="227">Le plus que vous pourrez éviter ma présence.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="228">Adieu, je laisse au Ciel à punir cette offense.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="229">Moi, je suis votre exemple, et j'invoque les Dieux,</l>
+                     <l n="230">Pour me voir délivrée d'un Amant odieux.</l>
+                  <stage>Lazarille sort.</stage>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE V[I]. Fabrice, Stéphanie, Gusman.</head>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="231" part="I">Tout va bien.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="231" part="F">Profitons ; il sort tout en colère.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="232" part="I">Poussez donc. </l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="232" part="F">Lazarille aura pu vous déplaire,</l>
+                     <l n="233">Je l'ai vu qui d'ici sort assez brusquement ;</l>
+                     <l n="234">Mais vous pouvez en moi recouvrer un amant,</l>
+                     <l n="235">Puisque depuis longtemps mon coeur pour vous soupire,</l>
+                     <l n="236">Sans que dans mes respects, j'ai osé vous le dire.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="237" part="I">Quoi, vous m'aimez, Fabrice ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, la tirant à l'écart.</speaker>
+                     <l n="237" part="F">Oui, foi d'homme d'honneur,</l>
+                     <l n="238">Il dit que c'est de vous que dépend son bonheur ;</l>
+                     <l n="239">Et vous pouvez penser que sa flamme est bien forte,</l>
+                     <l n="240">Puisque j'ose vous faire un serment de la sorte.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="241" part="I">Vous m'aimez !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="241" part="F">Le moyen de ne vous aimer pas,</l>
+                     <l n="242">Et de pouvoir sans cesse admirer vos appas.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="243">S'il est vrai que pour moi votre ardeur soit sincère,</l>
+                     <l n="244">Pourquoi vous obstiner si longtemps à la taire ?</l>
+                     <l n="245">Loin que par votre aveu vous puissiez m'alarmer,</l>
+                     <l n="246">Qui se fut vu aimée aurait pu vous aimer.</l>
+                     <l n="247">Au reste, Lazarille eut toujours tant d'adresse,</l>
+                     <l n="248">Qu'au lieu de me déplaire, il aurait ma tendresse ;</l>
+                     <l n="249">C'est à lui seulement que l'Hymen doit m'unir,</l>
+                     <l n="250">J'en ai fait la promesse, et je la veux tenir.</l>
+                     <l n="251">Adieu, ce sentiment est selon qu'il doit être.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VI[I]. Fabrice, Gusman.</head>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="252" part="I">Ah, Gusman mon Valet !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="252" part="F">Ah, Fabrice mon Maître ! </l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="253" part="I">Que je suis malheureux !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="253" part="F">Point, point, rayez ce mot,</l>
+                     <l n="254">Vous seriez plus heureux si vous étiez moins sot.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                  <note type="L">Maraud : Terme injurieux qui se dit des gueux, des coquins qui n'ont ni bien ni honneur, qui sont capables de faire toutes sortes de lâchetés. [F]</note>
+                     <l n="255" part="I">Maraud insupportable...</l>
+                  <ab>****
+</ab>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="255" part="F">Et vous tête étourdie,</l>
+                     <l n="256">Dont le coeur est de flamme et la langue engourdie,</l>
+                     <l n="257">Ce qui vient d'arriver ne vous sied que trop bien ;</l>
+                     <l n="258">Avoir chaud comme un Diable, et ne parler de rien,</l>
+                     <l n="259">Brûler dans sa chemise à l'exemple d'Hercule,</l>
+                     <l n="260">Et puis après cela devenir ridicule,</l>
+                     <l n="261">Jusqu'au point de souscrire au plaisir d'un rival,</l>
+                     <l n="262">Si ce n'est être sot, c'est paraître cheval.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="263">Au plaisir d'un Rival que jamais je souscrive !</l>
+                     <l n="264">Qu'il possède un objet qui mon âme captive !</l>
+                     <l n="265">Et que sans écouter un amour violent .....</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="266">Et que prétendez-vous, ô Maître un peu trop lent ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="267">Puisque si mon Rival n'eut usurpé ma place,</l>
+                     <l n="268">Mon aimable Maîtresse approuvait mon audace,</l>
+                     <l n="269">Apprends que je m'apprête à le priver du jour,</l>
+                     <l n="270">Pour la contraindre encore à souffrir mon amour.</l>
+                     <l n="271">Je ne lui déplais pas, je le viens de connaître,</l>
+                     <l n="272">Elle saura m'aimer quand il cessera d'être,</l>
+                     <l n="273">Je puis donc, supportant que je venge un affront,</l>
+                     <l n="274">Le forcer à se battre, et t'avoir pour second.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="275" part="I">Moi second ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="275" part="F">Quoi, Gusman, tu veux être pagnotte ?</l>
+                  <ab>****
+</ab>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="276">Quoi tueur de rivaux, vous voulez qu'on me frotte ?</l>
+                     <l n="277">Et moi qui de la Parque appréhende la faux,</l>
+                     <l n="278">J'ose vous soutenir que cela sera faux.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="279">Ah ! Gusman, souviens-toi que j'aime Stéphanie,</l>
+                     <l n="280">Qu'elle doit, à mon sort, par l'Hymen être unie,</l>
+                     <l n="281">Et que dans le malheur qui talonne mes pas,</l>
+                     <l n="282">N'en pas être l'époux, c'est souffrir le trépas.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="283" part="I">Trépassez.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="283" part="F">Mais mourir, après tant de souffrances,</l>
+                     <l n="284">C'est donner à ma peine une faible allégeance.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="285" part="I">Ne trépassez donc pas.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="285" part="F">Donne m'en le moyen ;</l>
+                     <l n="286">Crois-tu qu'on puisse vivre, et ne prétendre rien ?</l>
+                     <l n="287">Et que quand la fortune est pour nous rigoureuse,</l>
+                     <l n="288">Un trépas soit moins doux qu'une vie odieuse ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="289" part="I">Trépassez-donc.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="289" part="F">Gusman, c'est mal me secourir, </l>
+                     <l n="290">Un amant véritable a trop peur de mourir,</l>
+                     <l n="291">Penses-tu qu'au moment qu'on adore une belle,</l>
+                     <l n="292">Il soit fort aisé de faire une absence éternelle ?</l>
+                     <l n="293">Et qu'un coeur que l'amour asservit sous ses lois,</l>
+                     <l n="294">Puisse expirer sans peine après un noble choix ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="295">Vivez-donc, si la mort est pour vous effroyable.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="296">La mort aux malheureux est toujours agréable.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="297" part="I">Mourez-donc.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="297" part="F">Quel sort qui nous puisse arriver,</l>
+                     <l n="298">Il n'est rien de si doux que de vivre, et d'aimer.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="299">À votre cher Valet, apprenez votre envie ;</l>
+                     <l n="300">Avoir peur de la mort, et puis craindre la vie ;</l>
+                     <l n="301">C'est, sans qu'il soit besoin de toujours discourir,</l>
+                     <l n="302">Vouloir vivre sans vivre, et mourir sans mourir.</l>
+                     <l n="303" part="I">Mais à quoi rêvez-vous ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="303" part="F">Au malheur qui m'afflige,</l>
+                     <l n="304">De moments en moments Lazarille m'oblige,</l>
+                     <l n="305">Il m'aime, et toutefois je ne puis l'épargner,</l>
+                     <l n="306">Et je dois, ou le perdre, ou du moins l'éloigner.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="307">Un si grand préambule était-il nécessaire ?</l>
+                     <l n="308">Vous savez, grâce à Dieu, que je suis bon faussaire,</l>
+                     <l n="309">Et que sans vanité, je pourrais me vanter,</l>
+                     <l n="310">Qu'au mérite de matois nul ne peut m'imiter,</l>
+                     <l n="311">Si bien qu'à mon talent il n'est pas difficile</l>
+                     <l n="312">De forcer Lazarille à sortir de Séville :</l>
+                     <l n="313">Laissez votre fortune à ma discrétion.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="314">Il me souvient encore d'une autre invention,</l>
+                     <l n="315" part="I">L'Ambassadeur d'Afrique est ici.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="315" part="F">Qu'il s'y tienne.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="316">Sa personne à peu près est égale à la tienne.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="317" part="I">Pour cela ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="317" part="F">Vous avez chacun de mêmes traits.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="318" part="I">Qu'en est-il ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="318" part="F">Les plus fins confondraient vos portraits.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="319" part="I">Que m'importe ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="319" part="F">Pour peu que ton zèle s'applique</l>
+                     <l n="320">À vouloir me servir aux dépens de l'Afrique,</l>
+                     <l n="321">Tu peux en secondant les desseins que je fais,</l>
+                     <l n="322">Contenter mon ardeur, et remplir mes souhaits.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="323">Moi que je vous oblige aux dépens de l'Afrique ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="324" part="I"> Tu le peux.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="324" part="F">Justement ; c'est bien là ma pratique,</l>
+                     <l n="325">Quoi, Monsieur, dans l'Afrique ai-je quelque pouvoir ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="326" part="I">Point du tout.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="326" part="F">A-t-elle eu le bonheur de me voir ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="327" part="I">Nullement.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="327" part="F">De l'Afrique ai-je la dépendance ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="328" part="I">Encore moins.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="328" part="F">Fléchit-elle à ma moindre ordonnance ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="329" part="I">Elle ? Non.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="329" part="F">Comment donc avez vous prétendu,</l>
+                     <l n="330">Qu'un service à ses frais pût vous être rendu :</l>
+                     <l n="331">Car enfin quoique j'ai un rapport fort sincère</l>
+                     <l n="332">Avec un qui peut-être est bâtard de mon père,</l>
+                     <l n="333">D'ici jusqu'en Afrique un chemin raccourci,</l>
+                     <l n="334">Ne peut être plus long que de là jusqu'ici ;</l>
+                     <l n="335">Et puis qu'à vous connaître il faut que l'on s'exerce,</l>
+                     <l n="336">Gusman avec l'Afrique ayant peu de commerce,</l>
+                     <l n="337">Pour raison concluante il conclut de bon coeur, </l>
+                     <l n="338">Que toujours de l'Afrique il sera serviteur.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="339" part="I">Tu n'entends pas mon sens.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="339" part="F">Comment Diable l'entendre ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="340">Je veux dans mon logis te le faire comprendre ;</l>
+                     <l n="341">Puis donc que nous avons des sujets à choisir,</l>
+                     <l n="342">Entrons, et sur chacun consultons à loisir.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="2">
+            <head>ACTE II</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Lazarille, Fabrice.</head>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="343">Incomparable ami dont toujours la tendresse,</l>
+                     <l n="344">Dans tout ce qui me touche aisément s'intéresse,</l>
+                     <l n="345">Approche, et si jamais tu me crus malheureux,</l>
+                     <l n="346">Si jamais mon destin te semblât rigoureux,</l>
+                     <l n="347">Juges par ce billet qui fait naître ma plainte, </l>
+                     <l n="348">Si d'un tourment plus rude on peut sentir l'atteinte.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE, lit.</speaker>
+                     <l n="349"> Mon Neveu je me plains de mon triste devoir, </l>
+                     <l n="350">Qui malgré moi m'oblige à vous faire savoir</l>
+                     <l n="351">Une fort mauvaise nouvelle :</l>
+                     <l n="352">Mon Frère, votre Père ayant fini son sort,</l>
+                     <l n="353">Pour de votre Maison devenir le support,</l>
+                     <l n="354">Votre mère affligée en ce lieu vous appelle.</l>
+                     <l n="355" part="I">DON RAYMON DE GALAS.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="355" part="F">Hé bien ! Parfait ami</l>
+                     <l n="356">Dont la noble chaleur n'agit point à demi ;</l>
+                     <l n="357" part="I">Tu vois.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="357" part="F">Ce coup fatal me surprend, et m'étonne,</l>
+                     <l n="358" part="I">Il est mort !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="358" part="F">Juges-en par l'avis qu'on me donne.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="359">De tout autre qu'un oncle à qui l'on doit respect,</l>
+                     <l n="360">Un billet si fâcheux pourrait m'être suspect :</l>
+                     <l n="361">Mais vois le caractère ; Est-ce point imposture,</l>
+                     <l n="362" part="I">Examine.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="362" part="F">Non, non c'est la même écriture.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="363">Pourtant, ou je me trompe, ou tu dis hier au soir,</l>
+                     <l n="364">Que ton Père en ce lieu te pourrait bientôt voir ;</l>
+                     <l n="365">Et pour, à son enfant ne pas être inutile,</l>
+                     <l n="366">Qu'il partait de Tolède, et venait à Séville.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="367">Il me l'avait mandé, cet espoir m'était doux,</l>
+                     <l n="368">Mais de tous mes plaisirs mon destin est jaloux.</l>
+                     <l n="369">Il s'oppose sans cesse au cours de ma fortune,</l>
+                     <l n="370">Et comme à tout moment sa rigueur m'importune,</l>
+                     <l n="371">Et que de son caprice il me fait le jouet,</l>
+                     <l n="372">J'ai des biens en idée, et des maux en effet.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="373" part="I">Ton sort est déplorable.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="373" part="F">Ajoute encore, Fabrice,</l>
+                     <l n="374">Que tout m'est rigoureux, que rien ne m'est propice,</l>
+                     <l n="375">Et pour connaître mieux jusqu'où va mon tourment,</l>
+                     <l n="376">Au tendre nom de Fils, joins le titre d'Amant ;</l>
+                     <l n="377">J'adore une beauté, je dois être auprès d'elle,</l>
+                     <l n="378">Et la mort de mon Père à Tolède m'appelle.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="379">Si j'avais vu l'Objet qui te tiens sous ses lois,</l>
+                     <l n="380">Je l'irais e ta part visiter quelquefois.</l>
+                     <l n="381">Comme pour te servir j'ai le coeur tout de flamme,</l>
+                     <l n="382">A répondre à tes feux, j'exciterais  son âme,</l>
+                     <l n="383">Et ta vertu sans cesse étalée à ses yeux,</l>
+                     <l n="384">Te rendrait favorable un séjour ennuyeux.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="385">Si tantôt j'eusse appris cette triste nouvelle,</l>
+                     <l n="386">J'aurais cru m'éloigner d'une fille infidèle ;</l>
+                     <l n="387">Mais ce coup à mon âme est d'autant plus cruel,</l>
+                     <l n="388">Qu'elle honore mes feux par un feu mutuel.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="389" part="I">Hélas !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="389" part="F">A mon ardeur daigne donc être utile, </l>
+                     <l n="390">Puisqu'il faut qu'à regret j'abandonne Séville,</l>
+                     <l n="391">Et qu'au moins Stéphanie une fois chaque jour,</l>
+                     <l n="392">Apprenne par ta voix l'excès de mon amour.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="393" part="I">Stéphanie !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="393" part="M">Elle-même.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="393" part="F">Ô destin implacable !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="394" part="I">Tu te plains.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="394" part="F">Je me plains du malheur qui t'accable,</l>
+                     <l n="395" part="I">L'Ambassadeur d'Afrique est ton rival.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="395" part="F">Ô Dieux !</l>
+                     <l n="396" part="I">Il aime Stéphanie ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="396" part="F">Il en est amoureux ;</l>
+                     <l n="397">Comme il est courageux, comme il est magnanime,</l>
+                     <l n="398">Que chacun le respecte, et que chacun l'estime,</l>
+                     <l n="399">Que son crédit est rare, et que dans cet Etat,</l>
+                     <l n="400">Il tient, et il sait garder le rang d'un Potentat,</l>
+                     <l n="401">En vain à ce qu'il veut tu ferais résistance.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="402" part="I">Il l'aime !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="402" part="F">De sa flamme il m'a fait confidence ;</l>
+                     <l n="403">Et si je ne m'abuse il vient lui-même exprès,</l>
+                     <l n="404" part="I">Pour parler de ses feux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Gusman, Fabrice, Lazarille, Suite.</head>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, en habit d'Ambassadeur.</speaker>
+                  <note type="L">Faire Gille : Populairement. Faire gille, se retirer, quitter une place. [F]</note>
+                     <l n="404" part="F">Suivez-moi mes valets,</l>
+                     <l n="405">Où d'abord faites gille. Hé bien l'avez-vous vue ?</l>
+                     <l n="406">Celle dont les attraits m'ont donné dans la vue ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="407" part="I">Non, Seigneur.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="407" part="M">Et pourquoi, maître fat ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="407" part="F">Je n'ai pu</l>
+                     <l n="408" part="I">Seigneur...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="408" part="F">Que plût à Dieu que vous fussiez rompu !</l>
+                     <l n="409">Cependant de l'amour je sens la tyrannie,</l>
+                     <l n="410" part="I">Traître.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="410" part="F">Quoi donc, Seigneur, vous aimez Stéphanie ?</l>
+                     <l n="411" part="I">Elle vous charme ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="411" part="F">Un peu si vous le trouvez bon.</l>
+                     <l n="412">Mais je vous trouve encore un fort joli mignon,</l>
+                     <l n="413">Pour mettre votre nez jusques dans mon affaire.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="414">Je n'ai pas cru, Seigneur, que ce fut vous déplaire.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="415">Vous deviez l'avoir cru, car un Ambassadeur,</l>
+                     <l n="416">En parlant avec vous abaisse la grandeur ;</l>
+                     <l n="417">Tirez vos chausses, vite, ou bientôt par la tête...</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="418">Je sais que votre force égale une tempête,</l>
+                     <l n="419">Et que le rang suprême où le Ciel vous a mis,</l>
+                     <l n="420">Donne de la terreur à tous vos ennemis :</l>
+                     <l n="421">Je ne le fus jamais, et n'ai garde de l'être,</l>
+                     <l n="422">Vous vous abaisseriez si vous étiez mon Maître :</l>
+                     <l n="423">Mais la Postérité publierait vos hauts faits,</l>
+                     <l n="424">Si de votre vertu j'éprouvais les effets,</l>
+                     <l n="425">Et si votre Excellence à ma perte animée,</l>
+                     <l n="426">Voulait rendre le calme à mon âme alarmée ;</l>
+                     <l n="427">Et soutenant toujours la grandeur de son sang,</l>
+                     <l n="428">Me céder un Objet qui n'est pas de son rang.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="429">Vous êtes trop obscur, je ne puis vous entendre.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="430">Vous servir, est-ce un bien que je puisse prétendre ?</l>
+                     <l n="431">Il n'est rien que pour vous je n'osasse embrasser.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="432">Pour être votre Maître il me faut abaisser,</l>
+                     <l n="433" part="I">Plaît-il ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="433" part="M">Je vous l'avoue.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="433" part="F">Il est donc nécessaire,</l>
+                     <l n="434">Que chacun se maintienne en sa forme ordinaire, </l>
+                     <l n="435">Aussi bien tous vos soins me sont indifférents.</l>
+                     <l n="436" part="I">Fabrice !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="436" part="M">Monseigneur.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="436" part="F">Est-il bon près des Grands ?</l>
+                     <l n="437" part="I"> Le dois-je retenir ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="437" part="F">Il en est beaucoup digne.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="438">N'êtes-vous point sujet au sirop de la vigne ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="439">Quoi que je sois, Seigneur, vous le connaissez bien, </l>
+                     <l n="440">Votre esprit pénétrant n'ignorât jamais rien.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="441">Il est vrai, mais enfin quelquefois on oublie.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="442">Ah ! De votre Grandeur l'âme est trop accomplie.</l>
+                     <l n="443">Et quoique la vertu cherche à s'humilier,</l>
+                     <l n="444">Un esprit si fameux ne peut rien oublier.</l>
+                     <l n="445">Vous avez la science en un degré suprême.....</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="446">Vous me connaissez mieux que je ne sais moi-même</l>
+                     <l n="447">Et les vertus qu'en moi vous trouvez à tous pas,</l>
+                     <l n="448">Sont de hautes vertus que je ne voyais pas.</l>
+                     <l n="449" part="I">Fabrice.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="449" part="M">Monseigneur.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="449" part="F">Cette fille vient-elle ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="450" part="I">Non, Seigneur.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="450" part="F">Qu'elle est sotte ! Allons donc qu'on l'appelle !</l>
+                  <ab>****  Débitez !
+    </ab>
+                  <l n="451">Débiteur de Phébus, c'est vous dont je fais choix,</l>
+                     <l n="452">Pour haranguer l'objet qui me met aux abois,</l>
+                     <l n="453">Et pour faire un portrait qui chatouille son âme,</l>
+                     <l n="454">Où vous représentiez la grandeur de ma flamme ;</l>
+                     <l n="455">Mais parlant de mes feux il se faut animer,</l>
+                     <l n="456">Et par votre discours la contraindre à m'aimer.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="457" part="I">Moi, Seigneur ? Ah ! Sachez...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="457" part="F">Je sais que je m'abaisse,</l>
+                     <l n="458">Mais l'esprit le plus ferme est sujet à faiblesse :</l>
+                     <l n="459">Forcer mon Excellence à me servir de vous,</l>
+                     <l n="460">Si c'est une folie, il en est de plus fous.</l>
+                     <l n="461">Surtout, à Stéphanie, étalez l'Ambassade,</l>
+                     <l n="462">Poussez-lui des soupirs, affectez la boutade,</l>
+                     <l n="463">Et faites-lui savoir par un terme attractif,</l>
+                     <l n="464">Que l'honneur de ma couche est un bien sensitif.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="465" part="I">Je m'acquitterai mal...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="465" part="M">Point, point.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="465" part="F">Ciel ! On l'amène !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="466" part="I">Disposez-vous ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="466" part="M">Hélas !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="466" part="M">Bon, bon.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="466" part="F">Quelle est ma peine ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Ferdinand, Gusman, Lazarille, Stéphanie, Fabrice, Suite.</head> 
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="467" part="I">Monseigneur, les respects...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="467" part="F">Monseigneur le langoureux,</l>
+                     <l n="468">Paix ; ce n'est pas de vous que je suis amoureux.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="469" part="I">Mais, Monseigneur l'espoir...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="469" part="F">Mais Monsieur, pas plus outre, </l>
+                     <l n="470">Je suis grand personnage, et malheur à qui m'outre.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="471" part="I">Ce n'est pas vous outrer...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="471" part="F">Ah vieux barbon têtu !</l>
+                     <l n="472">Qui fait en me parlant enrager ma vertu,</l>
+                     <l n="473">Porte plus loin l'odeur de ton nez qui renfrogne ;</l>
+                     <l n="474">Et vous le beau parleur faites votre besogne,</l>
+                     <l n="475" part="I">Dégoisez.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="475" part="M">Stéphanie, Hélas !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="475" part="F">Ah ! L'autre sot,</l>
+                     <l n="476">Qui tout d'abord soupire, et n'a dit qu'un seul mot.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="477">Ce digne Ambassadeur qui n'a rien que d'illustre,</l>
+                     <l n="478">Veut de sa passion augmenter votre lustre :</l>
+                     <l n="479">Il n'a pu résister à tant d'appas flatteurs, </l>
+                     <l n="480">Qui des coeurs les plus durs sont vos adorateurs :</l>
+                     <l n="481">Il n'a pu résister aux sensibles amorces</l>
+                     <l n="482">Qui maîtrisent notre âme, et surmontent ses forces :</l>
+                     <l n="483">Il n'a pu résister au pouvoir de vos yeux :</l>
+                     <l n="484" part="I">Il vous adore, hélas !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="484" part="F">Ce soupir là va mieux.</l>
+                     <l n="485">Mais c'est trop la flatter ; vantez-lui mon adresse,</l>
+                     <l n="486">Pour plaire à ma Grandeur surprenez la tendresse ;</l>
+                     <l n="487" part="I">Louez mon excellence.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="487" part="F">Il vous doit être doux,</l>
+                     <l n="488">De voir qu'un si grand homme ait de l'amour pour vous.</l>
+                     <l n="489">Jugez par ses vertus, par son rang, par sa mine,</l>
+                     <l n="490">De la gloire éclatante où le Ciel vous destine ;</l>
+                     <l n="491">Moi dont son Excellence a daigné faire choix,</l>
+                     <l n="492">Pour vous représenter qu'il révère vos lois,</l>
+                     <l n="493">Je devrais ressentir de la joie en mon âme ;</l>
+                     <l n="494">D'avoir pu le premier vous parler de sa flamme ;</l>
+                     <l n="495">Et mon coeur devrait être et tranquille, et content,</l>
+                     <l n="496">A l'aspect du bonheur qui déjà vous attend ;</l>
+                     <l n="497" part="I">Mais hélas !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="497" part="F">Mais hélas ! Soupirant incommode,</l>
+                     <l n="498">Des hélas éternels ne sont plus à la mode.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="499" part="I">Pleut-on parler d'amour sans qu'on soupire ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="499" part="F">Non,</l>
+                     <l n="500">Mais il faut soupirer de plus d'une façon.</l>
+                     <l n="501">Pour bien complimenter contemplez-moi, Novice.</l>
+                     <l n="502">Hola, quasi ma femme, et presque Ambassadrice,</l>
+                     <l n="503">Venez ; car je vous aime, et je suis cependant </l>
+                     <l n="504">Ambassadeur d'Afrique, et bien Ambassadant ;</l>
+                     <l n="505">Mais contre vos attraits n'ayant point de parade,</l>
+                     <l n="506">Pour vous faire l'amour je me des-Ambassade :</l>
+                     <l n="507">Car des Ambassadeurs étant fort au dessous,</l>
+                     <l n="508">L'Ambassade est à cru quand on parle avec vous.</l>
+                     <l n="509">Aï ! De ce soupir, Patron que vous en semble ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="510" part="I">Il est doux !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="510" part="M">Il est vrai, répondez donc.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="510" part="F">Je tremble.</l>
+                     <l n="511">Pour connaître aisément votre rang glorieux,</l>
+                     <l n="512">Il ne faut qu'un moment regarder dans vos yeux,</l>
+                     <l n="513">On y remarque un air qui de votre Excellence</l>
+                     <l n="514">Découvre  les vertus, et fait voir la naissance :</l>
+                     <l n="515">Aussi, d'un rang si haut je ne sais trop le pouvoir,</l>
+                     <l n="516">Pour vouloir abuser du bonheur de vous voir,</l>
+                     <l n="517">Et j'en fais trop d'état pour oser jamais croire,</l>
+                     <l n="518">Que d'un honteux amour vous souilliez votre gloire.</l>
+                     <l n="519">Songez, Seigneur, songez que mon rang est trop bas,</l>
+                     <l n="520" part="I">Il vous faut...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="520" part="F">Mon enfant, je ne l'ignore pas ;</l>
+                     <l n="521">Je sais ce qu'il me faut, mais quoique je le sache,</l>
+                     <l n="522">Pour vous faire m'aimer je me fais une tache ;</l>
+                     <l n="523">Mais beauté printanière apprenez qu'il m'est doux,</l>
+                     <l n="524">D'être noir comme un Diable, et d'être aimé de vous.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="525" part="I">Mais un Ambassadeur vouloir...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="525" part="F">Point de scrupules,</l>
+                     <l n="526">Souvent les Grands Seigneurs sont les plus ridicules ;</l>
+                     <l n="527">Aussi donc votre esprit ne doit pas s'alarmer,</l>
+                     <l n="528">De voir mon Excellence avoir pu vous aimer.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="529" part="I">M'aimer ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="529" part="F">Oui vous aimer, votre beauté m'enivre,</l>
+                     <l n="530">Vous me verriez mourir, si je cesais de vivre :</l>
+                     <l n="531">Car, par exemple, un homme, oui je tiens pour certain,</l>
+                     <l n="532">Qu'un homme qui se meurt est si près de la fin,</l>
+                     <l n="533">Qu'il s'en faut peu souvent que la mort ne l'attrape,</l>
+                     <l n="534">Et quand la mort nous tient rarement on échappe,</l>
+                     <l n="535">Partant si vous étiez insensible pour moi, </l>
+                     <l n="536">Vous me verriez mourir, et sans savoir pourquoi :</l>
+                     <l n="537">Mais si pour m'obliger vous vouliez vous résoudre,</l>
+                     <l n="538">A m'aimer tant soit peu, nous pourrions en découdre,</l>
+                     <l n="539">Et dès ce même jour l'un et l'autre conjoints,</l>
+                     <l n="540">À grossir notre race appliquer tous nos soins.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE, bas.</speaker>
+                     <l n="541" part="I">Quel brutal !</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="541" part="M">Sur ce point...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="541" part="F">Hibou, dont le coeur gronde, </l>
+                     <l n="542" part="I">Taisez-vous.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="542" part="F">Sur ce point il faut que je réponde.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="543" part="I">Paix, vous dis-je.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="543" part="M">Seigneur...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="543" part="F">C'est trop Seigneurier,</l>
+                  <ab>*************
+    </ab>
+                  <l n="544">Je suis ambassadeur, et me veux marier.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="545" part="I">Mais Seigneur comme père il faut...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="545" part="F">Monsieur son plege,</l>
+                  <ab>*************
+    </ab>
+                  <l n="546"> Loin de vous accorder un plus grand privilège,</l>
+                     <l n="547">Je suis votre ennemi si pour lui vous parlez ;</l>
+                     <l n="548">Pour vous la belle Alix parlez si vous voulez.</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="549">Un hymen entre nous a si peu d'apparence,</l>
+                     <l n="550">Que je n'ose, Seigneur en former l'espérance ;</l>
+                     <l n="551">Vous pouvez donc prétendre en me faisant la Cour,</l>
+                     <l n="552">D'attirer des respects, et non pas de l'amour.</l>
+                     <l n="553" part="I">Vous m'aimez ? Vous, Seigneur ? Moi qui suis...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="553" part="F">Esprit cruche,</l>
+                     <l n="554">Nourrisson d'un vieillard qui semble une guenuche,</l>
+                     <l n="555">Après que noblement j'ai dépeint mon ardeur,</l>
+                     <l n="556">N'a-t-elle encore pu pénétrer votre coeur ?</l>
+                     <l n="557">Je vous aime, vous dis-je, et mon âme abattue,</l>
+                     <l n="558">Cède au cruel effort de l'amour qui me tue,</l>
+                     <l n="559">Et je suis à présent, tel que des Matelots</l>
+                     <l n="560">Que le destin expose à la merci des flots,</l>
+                     <l n="561">Et qui sur le dos vert du compère Neptune,</l>
+                     <l n="562">Pensent journellement établir leur fortune,</l>
+                     <l n="563">Quand au malheur pour eux un vent rude et fatal,</l>
+                     <l n="564">Enfle...rompt...calme...brise...enfin je suis fort mal.</l>
+                     <l n="565">Douterez-vous encore que je cherche à vous plaire,</l>
+                     <l n="566">Puisque je vous étale une preuve si claire ?</l>
+                     <l n="567">Et m'allèguerez-vous de vos sottes raisons,</l>
+                     <l n="568">Puisque je vous confonds par des comparaisons ?</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="569">Il suffit, un grand coeur n'est jamais hypocrite ;</l>
+                     <l n="570">Mais, Seigneur, quand je songe à mon faible mérite,</l>
+                     <l n="571">Je crois peu, quelques feux dont vous soyez épris,</l>
+                     <l n="572">Qu'un Esprit si sublime ait pu s'être mépris.</l>
+                     <l n="573">Donc si votre Excellence a pour moi quelque zèle,</l>
+                     <l n="574">Souffrez qu'elle m'en donne une marque plus belle,</l>
+                     <l n="575">Et cachant ce qu'en vous je dois voir de suspect,</l>
+                     <l n="576">Faites naître un amour qui succède au respect.</l>
+                  <stage>Elle sort.</stage>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="577">Monseigneur, excusez si pour m'être fidèle...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="578">Tu peux suivre sa piste et courir après elle.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="579" part="I">Mais...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="579" part="M">Mais.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="579" part="M">Et quoi, Seigneur, faut-il ?...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="579" part="F">Est-ce à ton tour</l>
+                     <l n="580">À me rompre la tête, Interprète d'amour !</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="581" part="I">Comme ami...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="581" part="F">Comme ami....Sais-tu bien que j'abonde ?....</l>
+                     <l n="582">Sors te dis-je : Et pour toi. Belzébuth te confonde.</l>
+                     <l n="583" part="I">Bonjour.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Lazarille, Fabrice.</head>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="583" part="F">Quoi donc cet homme à qui rien n'est égal,</l>
+                     <l n="584">A si peu de vertus et paraît si brutal ?</l>
+                     <l n="585">C'est là ce rare Esprit à qui l'on rend hommage,</l>
+                     <l n="586">Qui d'un grand Potentat représente l'Image ?</l>
+                     <l n="587">Et tu m'oses parler d'étouffer mon amour ? </l>
+                     <l n="588">Et tu peux te résoudre à lui faire la Cour ?</l>
+                     <l n="589">Toi qui m'as dit cent fois que tu hais la bassesse,</l>
+                     <l n="590">Tu peux par complaisance applaudir sa faiblesse ?</l>
+                     <l n="591">Sa grandeur t'éblouit, et tu n'aperçois pas, </l>
+                     <l n="592">Qu'avec toute sa pompe il n'a rien que de bas :</l>
+                     <l n="593">Si d'abord j'ai souri aux souhaits de ce rustre,</l>
+                     <l n="594">J'ai cru qu'un rang suprême occupait un Illustre ;</l>
+                     <l n="595">Mais je prends de l'audace en quittant mon erreur,</l>
+                     <l n="596">Puisque tout son mérite est d'avoir du bonheur.</l>
+                     <l n="597" part="I">Ce coeur farouche....</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="597" part="F">Ami, sois un peu moins crédule,</l>
+                     <l n="598">C'est à force d'aimer qu'il paraît ridicule,</l>
+                     <l n="599">Et je vois aisément par un tel procédé,</l>
+                     <l n="600">La violente ardeur dont il est obsédé.</l>
+                     <l n="601">Si tu pouvais l'entendre au moment qu'il s'explique,</l>
+                     <l n="602">Et qu'il parle au profit de la chose publique,</l>
+                     <l n="603">Ton oreille charmée, et tes sens interdits,</l>
+                     <l n="604">Deviendront les garants de ce que je te dis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Gusman, Lazarille, Fabrice.</head>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, en habit de valet.</speaker>
+                     <l n="605" part="I">Monsieur, je viens...</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="605" part="F">Tantôt tu me diras le reste.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="606">Quel qu'il soit à son sort je veux être funeste,</l>
+                     <l n="607">De cet Ambassadeur je méprise le rang,</l>
+                     <l n="608">Je prétends lui planter un poignard dans le flanc.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, bas.</speaker>
+                     <l n="609" part="I">Fi.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="609" part="F">Qu'il soit généreux, qu'il ait l'esprit sublime,</l>
+                     <l n="610">Que chacun le respecte, et que chacun l'estime,</l>
+                     <l n="611">Pour souffrir que ce bras lui devienne fatal,</l>
+                     <l n="612">Il suffit qu'il m'outrage, et qu'il soit mon Rival.</l>
+                     <l n="613">Il verra ce que c'est qu'attaquer Lazarille.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, bas.</speaker>
+                     <l n="614">Diable, que j'ai bien fait de quitter la Roupille.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="615" part="I">Mais considère Ami.....</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="615" part="F">Tout est considéré,</l>
+                     <l n="616">Mon voyage à Tolède est déjà différé :</l>
+                     <l n="617">Dans l'état où je suis je n'ai plus d'autre ennuie,</l>
+                     <l n="618">Que d'assouvir ma rage aux dépens de sa vie.</l>
+                     <l n="619">Et s'il était ici dans ce même moment,</l>
+                     <l n="620">Je saurais l'immoler à mon ressentiment.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="621" part="I">Monsieur : ah !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="621" part="M">Ne crains rien.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="621" part="F">S'il me jette une oeillade,</l>
+                     <l n="622">Et qu'il remarque en moi quelques traits d'Ambassade.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="623">Cède, cède à celui qui combat ton ardeur,</l>
+                     <l n="624">Souviens-toi que d'Afrique il est Ambassadeur.</l>
+                     <l n="625" part="I">Songe...</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="625" part="F">Pour m'apaiser vainement tu t'efforces,</l>
+                     <l n="626">Loin d'éteindre mon feu tu redoubles ses forces,</l>
+                     <l n="627">Et si tu n'avais pas la bonté de m'aimer,</l>
+                     <l n="628">C'est toi qui contre lui me devrais animer.</l>
+                     <l n="629">Puis-je ne un même jour sans mourir de tristesse, </l>
+                     <l n="630">Savoir la mort d'un Père et perdre une Maîtresse ?</l>
+                     <l n="631">Non, non quelques effets qu'il en puisse avenir,</l>
+                     <l n="632">L'ambassadeur me choque, et je veux l'en punir.</l>
+                     <l n="633">Toi qui de ce Rival a vu naître la flamme,</l>
+                     <l n="634">Ôtes si tu le peux ce dessein de son âme ;</l>
+                     <l n="635">Sinon sa mort est sûre, et je te le promets.</l>
+                     <l n="636" part="I">Adieu.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Fabrice, Gusman.</head>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="636" part="F">Vas-t'en au Diable, et ne reviens jamais.</l>
+                     <l n="637">Peste quel avaleur de pois gris ! Dans sa bouche </l>
+                     <l n="638">Je ne ferais non plus que ferait une mouche.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="639">D'un autre stratagème il nous faut effrayer :</l>
+                     <l n="640">Car, suivant ma pensée, il vient de t'effrayer,</l>
+                     <l n="641">Et tu ne veux plus être Ambassadeur d'Afrique ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="642" part="I">Ci-fait.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="642" part="F">A m'obliger, ton soin si fort s'applique ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="643" part="I">Et quoi donc !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="643" part="F">Dès ce soir, tu peux donc, cher Valet....</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="644">Vous souhaiter au Diable avec l'autre Argoulet.</l>
+                  <ab>*****
+    </ab>
+                  <l n="645">Que votre esprit est prête aux desseins qu'il se forge :</l>
+                     <l n="646">Qu'au couteau d'un meurtrier j'aille tendre la gorge,</l>
+                     <l n="647">Et que dans un amour qui me touche fort peu,</l>
+                     <l n="648">Quand le coeur vous en dit, je sois mis sur le jeu ;</l>
+                     <l n="649">Nescio vos, Seigneur, car Gusman n'est pas homme,</l>
+                     <l n="650">Qui pour votre plaisir soit content qu'on l'assomme,</l>
+                     <l n="651">Et puisqu'en votre amour vous n'êtes pas plus Grec,</l>
+                     <l n="652">Pour des Ambassadeurs torchez-en vous le bec.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="653">L'intrigue être si belle, et ne pas la poursuivre !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="654">Vouloir obstinément que je cesse de vivre !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="655" part="I">Mais Gusman...</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="655" part="F">Mais, Monsieur, je ne suis point d'avis,</l>
+                     <l n="656">De me faire étrier dessous de beaux habits.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="657">Quel plaisir peux-tu prendre à commettre ces fautes ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="658">Un plus grand que de voir qu'on me brise les côtes,</l>
+                     <l n="659">Car qui d'un coup motel me ferait un présent,</l>
+                     <l n="660">Me ferait ce me semble un plaisir peu plaisant.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="661">Au moins sois-moi propice au dessein que j'invente,</l>
+                     <l n="662">De l'Hôte à mon Rival tu connais la servante ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="663" part="I">À peu près.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="663" part="F">Tu sais bien si par quelque Louis,</l>
+                     <l n="664">On peut charmer ses yeux et les rendre éblouis.</l>
+                     <l n="665">Et si dans mon dessein je me puis servir d'elle.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="666">Préparer de l'argent, c'est une bagatelle,</l>
+                     <l n="667" part="I">On la baise gratis.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="667" part="F">Réponds mieux à mon sens,</l>
+                     <l n="668">Et sois plus favorable à l'ardeur que je sens.</l>
+                     <l n="669">Ma plus pressante envie est de voir Lazarille,</l>
+                     <l n="670">Quitter l'Andalousie et marcher en Castille,</l>
+                     <l n="671">Tandis que Stéphanie écoutant mes soupirs,</l>
+                     <l n="672">Deviendra plus sensible à mes justes désirs ;</l>
+                     <l n="673">Pour donc précipiter son voyage de Tolède,</l>
+                     <l n="674">Voyons cette servante, et demandons son aide.</l>
+                     <l n="675">Mais avant que Gusman fasse rien de nouveau,</l>
+                     <l n="676">Je veux le faire boire à regorge museau.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="677" part="I">De quel vin.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="677" part="M">Du meilleur.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="677" part="F">Vous avez bien la mine,</l>
+                     <l n="678">De me faire avaler de ce casse poitrine,</l>
+                     <l n="679">De ce vin baptisé, que l'on donne aux laquais,</l>
+                     <l n="680">Qui fait du mal au ventre, et n'enivre jamais.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="681">Point, je veux que ce soir tu manges à ma table.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="682" part="I">Moi ?</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="682" part="M">Toi.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="682" part="F">Pour vous servir j'affronterai le Diable.</l>
+                     <l n="683">Allons jeter les yeux sur des mets délicats,</l>
+                     <l n="684">Et caressons ensemble et les pots et les plats.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="3">
+            <head>ACTE III</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Henriquez, Le Servante.</head>
+               <sp who="tc0089-LASERVANTE">
+                  <speaker>LA SERVANTE.</speaker>
+                     <l n="685">Monsieur, vous voyez bien qu'étant l'heure qu'il est,</l>
+                     <l n="686">On se loge où l'on peut, et non où l'on se plaît,</l>
+                     <l n="687">Dans cette Hôtellerie aucun bouge ne chôme,</l>
+                     <l n="688">Et je ne pense pas que dans tout le Royaume</l>
+                     <l n="689">On rencontre un Hôtel qui soit plus fréquenté,</l>
+                     <l n="690">Dans un logis si grand un lit seul est resté ;</l>
+                     <l n="691">Des deux que vous voyez, le lit vert est le votre,</l>
+                     <l n="692">Un jeune homme habillé repose dessus l'autre,</l>
+                     <l n="693">Il est plein de tristesse, allez au petit pas,</l>
+                     <l n="694">Et faites s'il se peut qu'il ne s'éveille pas.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="695">Puisque dans le lit vert il faut que je repose,</l>
+                     <l n="696">De vos soins cette nuit je ne veux autre chose,</l>
+                     <l n="697">Emportez la chandelle, et me laissez ici.</l>
+               </sp>
+               <sp who="tc0089-LASERVANTE">
+                  <speaker>LA SERVANTE.</speaker>
+                     <l n="698" part="I">Et vous déshabiller ?</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="698" part="F">N'ayez point ce souci.</l>
+               </sp>
+               <sp who="tc0089-LASERVANTE">
+                  <speaker>LA SERVANTE.</speaker>
+                     <l n="699" part="I">Mais vous ne verrez goutte, et je crains...</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="699" part="F">Il n'importe,</l>
+                     <l n="700">Laissez-moi seul vous dis-je, et fermez cette porte.</l>
+                     <l n="701">Surtout n'oubliez pas d'aller chez Ferdinand.</l>
+               </sp>
+               <sp who="tc0089-LASERVANTE">
+                  <speaker>LA SERVANTE.</speaker>
+                     <l n="702">Il suffit, son logis est du notre attenant,</l>
+                     <l n="703">Je ne vous promets rien qu'aisément je ne tienne.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="704">Il faut qu'un grand matin faire en sorte qu'il vienne,</l>
+                     <l n="705">Et que de Stéphanie il soit accompagné.</l>
+               </sp>
+               <sp who="tc0089-LASERVANTE">
+                  <speaker>LA SERVANTE.</speaker>
+                     <l n="706">c'est assez que vous m'ayez enseigné</l>
+                     <l n="707" part="I">Ce qu'il faut faire.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="707" part="M">Allez.</l>
+               </sp>
+               <sp who="tc0089-LASERVANTE">
+                  <speaker>LA SERVANTE.</speaker>
+                     <l n="707" part="M">J'obéis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II.</head>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ, seul.</speaker>
+                     <l n="707" part="F">La courtière </l>
+                     <l n="708">Qui du flambeau du jour commence la carrière,</l>
+                     <l n="709">N'est pas encore prête à faire son retour,</l>
+                     <l n="710">Il faut donc dans ce lieu que j'attende le jour,</l>
+                     <l n="711">Et que dessus ce lit je  fasse un petit somme :</l>
+                     <l n="712">Mais de peur qu'en marchant je n'éveille cet homme,</l>
+                     <l n="713">A ne pas le troubler appliquons notre effort,</l>
+                     <l n="714">Et cédons au pouvoir du frère de la mort.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Lazarille, Henriquez endormis, Gusman faisant l'Esprit.</head> 
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="715">Peste tout tourne, où suis-je ? Ô Cambrouse endiablée !</l>
+                  <ab>****
+    </ab>
+                  <l n="716">Qui pour quatre Louis rend ma tête troublée,</l>
+                     <l n="717">Que Lucifer t'emporte avec ton chien de trou,</l>
+                     <l n="718">Qui n'est qu'un engin propre à me tordre le cou,</l>
+                     <l n="719">Je ne puis manier cette lanterne sourde,</l>
+                     <l n="720">Fallait-il faire Esprit une tête si lourde,</l>
+                     <l n="721">Loin d'être courageux, je crains une vapeur,</l>
+                     <l n="722">Et je tremble de peur de donner de la peur, </l>
+                     <l n="723">Pourtant quoi que je fasse il faut tout entreprendre,</l>
+                     <l n="724">Sinon pour en donner en tout cas pour en prendre.</l>
+                     <l n="725">Voyons, mon fils, ton Père Henriquez de Galas,</l>
+                     <l n="726">Mourut le même jour qu'arriva son trépas :</l>
+                     <l n="727">Or comme il ne vis plus et qu'il est sous la tombe,</l>
+                     <l n="728">De peur que chez le Diable en peu d'heure il ne tombe,</l>
+                     <l n="729">Il faut sans balancer que tu partes demain,</l>
+                     <l n="730">Pour rendre mille écus dérobez de ma main ;</l>
+                     <l n="731" part="I">Mais réponds à ma voix, c'est ton père...</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="731" part="F">Ah ! Mon Père,</l>
+                     <l n="732">Dont le trépas funeste à causé ma misère, </l>
+                     <l n="733" part="I">Demeurez.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="733" part="M">Quelque sot.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="733" part="M">Vous fuyez.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="733" part="F">Je sais bien,</l>
+                     <l n="734">Aussi bien avec toi je ne gagnerais rien.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="735" part="I">Pourquoi me fuir ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="735" part="F">À tort son esprit s'embarrasse,</l>
+                     <l n="736">Je fais le même bien que je veux qu'on me fasse,</l>
+                     <l n="737">Ne m'approche non plus que je veux t'approcher.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="738">Peut-être ici quelqu'un est venu se cacher,</l>
+                     <l n="739" part="I">Cherchons.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="739" part="F">Où faudra-il qu'à présent je me niche,</l>
+                     <l n="740">Si tantôt chaque coup vaut écu, je suis riche,</l>
+                     <l n="741">Je vais être assommé s'il me peut entrevoir.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="742"> Rien ne s'offre à mes yeux que pour me décevoir,</l>
+                     <l n="743">Et dans l'abîme affreux où mon malheur me plonge,</l>
+                     <l n="744">Je ne vois rien de vrai que l'image d'un songe,</l>
+                     <l n="745">Afin que ma douleur puisse un peu s'apaiser,</l>
+                     <l n="746">Encore quelques moments tâchons de reposer,</l>
+                     <l n="747">Et gardons à causer du trouble aux autres chambres.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="748">Je ne prétendais pas remporter tous mes membres,</l>
+                     <l n="749">Et pour m'empêcher d'être Henriquez de Gallas,</l>
+                     <l n="750">J'aurais volontiers mis les oreilles à bas ;</l>
+                     <l n="751">Qu'un poltron a de peine à donner de la crainte !</l>
+                     <l n="752">Emploi de faire peur je te prends par contrainte ;</l>
+                     <l n="753">Pourtant tu n'as pas lieu de te plaindre de moi,</l>
+                     <l n="754">Tu veux épouvanter, épouvantable emploi ;</l>
+                     <l n="755">Et pour mieux faire voir que ta force est extrême,</l>
+                     <l n="756">Qui te doit exercer épouvante lui-même,</l>
+                     <l n="757">A parler franchement l'avantage est petit,</l>
+                     <l n="758">D'avoir peu de cervelle et de faire de l'Esprit,</l>
+                     <l n="759">Ou plutôt jusqu'ici l'aventure est nouvelle,</l>
+                     <l n="760">De trouver un esprit qui n'a point de cervelle.</l>
+                     <l n="761">Coeur poltron, sois coeur brave et t'arme jusqu'au point,</l>
+                     <l n="762">De donner de la peur et de n'en prendre point,</l>
+                     <l n="763">En faveur de Fabrice, ô coeur prends cette peine,</l>
+                     <l n="764">Sois moins coeur de Gusman, que coeur de Capitaine,</l>
+                     <l n="765">Ou bien à ce dormeur fais connaître à son dam,</l>
+                     <l n="766">Un coeur de Capitaine en un coeur de Gusman ;</l>
+                     <l n="767">Me le promets-tu coeur ? Oui j'entends ta réponse,</l>
+                     <l n="768">Déjà le nez m'en enfle, et le sourcil m'en fronce,</l>
+                     <l n="769">Et ta haute assurance assure assurément,</l>
+                     <l n="770">Un trembleur qui tremblait d'avoir du tremblement</l>
+                     <l n="771">Pour la seconde fois faisons peur. Lazarille,</l>
+                     <l n="772">Quiconque fait un fils ne fait pas une fille,</l>
+                     <l n="773">Si bien que je conclus qu'alors que je te fis,</l>
+                     <l n="774">Ne faisant point de fille, il fallut faire un fils.</l>
+                     <l n="775">Pour donc à mon repos être utile et prospère,</l>
+                     <l n="776">Il faut restituer les larcins de ton Père,</l>
+                     <l n="777">Et partir de Séville à la pointe du jour,</l>
+                     <l n="778">Pour aller à Tolède établir ton séjour.</l>
+                     <l n="779" part="I">Ton père...</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="779" part="F">Quoi, mon Père ? Ah ! Si mon sort vous touche,</l>
+                     <l n="780">Pour dire encore un mot, daignez ouvrir la bouche,</l>
+                     <l n="781">Adoucissez l'ennui dont je suis travaillé,</l>
+                     <l n="782" part="I">Parlez.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="782" part="F">Adieu le coeur, puisqu'il est éveillé.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="783">En quel trouble mon âme est-elle ensevelie ?</l>
+                     <l n="784" part="I">Ô bizarre destin ! Sort fatal !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="784" part="F">C'est folie,</l>
+                     <l n="785">Pour animer mon coeur j'ai beau faire un effort,</l>
+                     <l n="786">Je ne suis point vaillant si ce n'est quand il dort.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="787">Au moins permettez donc que mon oeil se défile, </l>
+                     <l n="788">Et cessez s'il se peut d'affliger Lazarille.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="789">Lazarille, bons Dieux ! Où je suis insensé ;</l>
+                     <l n="790">Où ce nom dans ce lieu vient d'être prononcé.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="791">Je souhaite une chose impossible,</l>
+                     <l n="792">Qui n'est plus ce qu'un esprit ne peut être visible :</l>
+                     <l n="793">Mais à mon triste sort soyez moins endurci,</l>
+                     <l n="794">Et dites pour le moins si vous êtes ici.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="795" part="I">Oui, j'y suis Lazarille.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="795" part="F">Ô surprise effroyable !</l>
+                     <l n="796">Les Enfers pour me perdre ont vomi quelque Diable, </l>
+                     <l n="797">Qui pour venger ma fourbe employant ses efforts,</l>
+                     <l n="798">Châtiera mon esprit aux dépens de mon corps.</l>
+                     <l n="799" part="I">Adieu Gusman.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="799" part="F">Suffit, mais soulagez ma peine,</l>
+                     <l n="800">Dites si dans ce lieu c'est moi qui vous amène.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="801" part="I">Nullement.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="801" part="F">En effet, Belzébuth je le crois,</l>
+                     <l n="802">Tu ne viens pas pour lui, tu ne viens que pour moi.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="803">Enfin donc ma douleur à votre âme soumise,</l>
+                     <l n="804">De pouvoir vous toucher la faveur m'est permise,</l>
+                     <l n="805" part="I">Je vous tiens.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="805" part="F">Pauvre Esprit ! Où te fourreras-tu ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="806">Vous voyez Lazarille à vos pieds abattu,</l>
+                     <l n="807">Je veux vous obéir, rien ne m'est difficile,</l>
+                     <l n="808">Je sais que vous voulez que je quitte Séville,</l>
+                     <l n="809">J'y consens pour vous plaire, et immole en ce jour,</l>
+                     <l n="810">M'amour à la nature, et moi-même à l'amour.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="811" part="I">Quel discours ambigu ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="811" part="F">Que le Diable te gratte,</l>
+                     <l n="812">Grâce au bon Jupiter je suis hors de ta patte, </l>
+                     <l n="813" part="I">Attrapons quelque coin.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="813" part="F">Je te tiens mon cher fils.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="814">Je plus infortuné de la troupe d'Esprits,</l>
+                     <l n="815" part="I">Où t'es-tu là rangé ?</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="815" part="F">Quel ennui te possède ?</l>
+                     <l n="816">Il est vrai que je veux te revoir à Tolède :</l>
+                     <l n="817">Mais loin qu'en tes projets je te veuille trahir,</l>
+                     <l n="818">Obéir à l'amour c'est assez m'obéir.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="819" part="I">Enfilons la venelle.</l>
+                  <ab>*****
+</ab>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="819" part="F">Ô fortune prospère,</l>
+                     <l n="820">Obéir à l'amour, c'est vous plaire mon père,</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="821" part="I">Sans doute.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="821" part="F">En quel endroit pourrait être mon trou,</l>
+                     <l n="822">Si j'ouvre ma lanterne ils me rompent le cou,</l>
+                     <l n="823">Il faut donc se résoudre, ô trop sourde lanterne,</l>
+                     <l n="824">A ne pas ouvrir de peur qu'on me discerne.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="825" part="I">Parle-moi.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="825" part="F">pour répondre à l'amour paternel,</l>
+                     <l n="826">Je dois vous souhaiter un repos éternel ;</l>
+                     <l n="827">Et qu'à mes voeux ardents le Ciel étant propice,</l>
+                     <l n="828">Vous sentiez sa clémence, et non pas sa justice.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="829">C'est mal prendre son temps pour ce triste propos.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="830">Quelle grêle de coups va tomber sur mon dos.</l>
+                     <l n="831">C'est bien fait, aussi bien je suis trop téméraire,</l>
+                     <l n="832">Et j'eus trop peu d'esprit quand je le voulus faire.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="833">Touchant les mille écus autrefois mal acquis,</l>
+                     <l n="834">Que de restituer je suis par vous requis,</l>
+                     <l n="835">Puisque pour être heureux il faut être sans tâche, </l>
+                     <l n="836">Et qu'à vous contenter fortement je m'attache,</l>
+                     <l n="837">Votre ombre vagabonde aura droit désormais</l>
+                     <l n="838">De goûter des douceurs qui ne cessent jamais.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="839">Il a perdu le sens, quelle angoisse mortelle !</l>
+                     <l n="840">Depuis quel temps, mon fils, n'as-tu plus de cervelle ?</l>
+                     <l n="841" part="I">Hélas !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="841" part="F">Si mon esprit vous paraît altéré,</l>
+                     <l n="842">C'est depuis votre mort qu'il est donc égaré ?</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="843" part="I">Ma mort !</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="843" part="F">D'être rossé je sens approcher l'heure.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="844">Je sais que dans mon âge il est temps que je meure,</l>
+                     <l n="845">Nous naissons pour mourir ; mais malgré cette loi</l>
+                     <l n="846" part="I">Mon jour n'est pas venu, je vis.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="846" part="F">Pardonnez-moi ;</l>
+                     <l n="847">Vous êtes mort mon Père, et la chose est certaine.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="848">Pour si peu qu'il est mort ce n'en est pas la peine.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="849">Si je suis mort, c'est donc sans m'en apercevoir :</l>
+                     <l n="850">Mais de quelle personne as-tu pu le savoir.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="851">Je tiens de Don Raymond cette triste nouvelle.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="852">Il faut le détromper, hola de la chandelle.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="853">De la chandelle, hélas ! La feinte va finir,</l>
+                     <l n="854">J'ai si bien fait le mort qu'il le faut devenir.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="855">De la clarté, fus donc, hola ! vite mon Maître,</l>
+                     <l n="856">Dès que tu me verras, tu sauras me connaître.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="857">Cependant ma frayeur est sans comparaison.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="858">S'il faut faire l'Esprit, faisons le par raison,</l>
+                     <l n="859">Et tâchons d'éviter les coups qu'on nous prépare.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. L'Hôte, Lazarille, Henriquez, Gusman.</head>
+               <sp who="tc0089-LHOTE">
+                  <speaker>L'HÔTE, avec une chandelle.</speaker>
+                     <l n="860">Pourquoi faire Messieurs un si grand tintamarre ?</l>
+                     <l n="861" part="I">D'où vient que du sommeil....</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="861" part="M">Mon fils.</l>
+               </sp>
+               <sp who="tc0089-LHOTE">
+                  <speaker>L'HÔTE, se laissant tomber, et la chandelle s'éteint.</speaker>
+                     <l n="861" part="F">Hélas mon Dieu !</l>
+                     <l n="862">Quel horrible fantôme est gîté dans ce lieu ?</l>
+                     <l n="863" part="I">À moi vite garçons, de la clarté.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="863" part="F">Je pâme !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="864">Une peur effroyable a coulé dans mon âme.</l>
+               </sp>
+               <sp who="tc0089-LHOTE">
+                  <speaker>L'HÔTE.</speaker>
+                     <l n="865" part="I">Je vois d'autre chandelle.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Des Garçons, L'Hôte, Henriquez, Lazarille, Gusman.</head>
+               <sp who="tc0089-LHOTE">
+                  <speaker>L'HÔTE.</speaker>
+                     <l n="865" part="F">Ah ! Messieurs qu'est-ceci ?</l>
+                     <l n="866" part="I">Parlez.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="866" part="M">Je n'en sais rien.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="866" part="F">Je n'en sais rien aussi,</l>
+                     <l n="867">Tout me devient fatal, Ciel quelle est ma misère !</l>
+                     <l n="868">Est-ce en vous que je vous l'ombre de feu mon père.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="869" part="I">Tu vois ton père en vie.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="869" part="F">Hé bien, j'en suis d'accord,</l>
+                     <l n="870" part="I">Vous qui donc êtes-vous ?</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="870" part="F">Je suis ton père mort,</l>
+                     <l n="871">Oui, je suis, ô garçon ! Qui de moi voulut naître,</l>
+                     <l n="872">Aussi bien trépassé qu'aucun autre puisse être.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="873">Tout me confond, mon trouble est plus fort que devant ;</l>
+                     <l n="874">Enfin mon père mort, ou mon père vivant,</l>
+                     <l n="875">Si de vous, ou de vous je reçus la naissance,</l>
+                     <l n="876">Donnez-m'en l'un ou l'autre une claire apparence.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="877">Dans les traits de ton père envisage les tiens.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="878">La mort que j'ai soufferte a changé tous les miens,</l>
+                     <l n="879">C'est un monstre infernal revêtu de ma forme.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="880">Est-il vrai que je veille, ou si c'est que je dorme.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="881">Tu te laisses surprendre, et ne m'écoute pas.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="882">Que direz-vous, mon père a souffert le trépas,</l>
+                     <l n="883" part="I">J'en suis certain.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="883" part="M">D'accord.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="883" part="F">En vain donc je te prêche,</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN, bas.</speaker>
+                     <l n="884">De rentrer dans mon trou l'un et l'autre m'empêche,</l>
+                     <l n="885" part="I">J'en enrage.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="885" part="F">Il est temps de finir ma douleur,</l>
+                     <l n="886">L'un des deux est sans doute, ou Sorcier, ou Voleur.</l>
+               </sp>
+               <sp who="tc0089-LHOTE">
+                  <speaker>L'HÔTE.</speaker>
+                     <l n="887">C'est ma pensée, et l'ombre en a bien l'encolure.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="888">Ah ! Gros ventre de son, qui me fait une injure,</l>
+                     <l n="889">Malheur sur la maison de qui choque les morts.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="890">Qui des deux soit mon père, excusez mes efforts.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="891">À mon secours, mon Maître, on me veut mener pendre.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Fabrice, Gusman, Lazarille, Henriquez, L'Hôte, Ses Garçons.</head> 
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="892">Ne crains rien, je parais, et je viens te défendre.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="893" part="I">Fabrice ! Ô juste Ciel !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="893" part="F">C'est Fabrice en effet, </l>
+                     <l n="894">Qui fut de tes amis toujours le plus parfait ;</l>
+                     <l n="895">Mais qui cesse de l'être en son malheur extrême,</l>
+                     <l n="896">Puisqu'il trouve un Rival dans un autre soi-même.</l>
+                     <l n="897">Celui qui cette nuit t'a causé de la peur,</l>
+                     <l n="898">Dès hier était d'Afrique un faux Ambassadeur ;</l>
+                     <l n="899">C'est Gusman mon Valet dont tu vois la figure,</l>
+                     <l n="900">Qui de ton oncle même imita l'écriture,</l>
+                     <l n="901">Et qui pour t'éloigner d'un objet plein d'appas,</l>
+                     <l n="902">De ton père vivant t'annonça le trépas.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="903">Déloyal confident d'une ardeur infinie,</l>
+                     <l n="904">Quoi ! Ton coeur en secret brûle pour Stéphanie ?</l>
+                     <l n="905" part="I">Tu l'aimes !</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="905" part="M">Stéphanie !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="905" part="F">Oui ! J'en suis amoureux,</l>
+                     <l n="906">Cette beauté charmante est l'objet de mes voeux.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="907">Je l'aime aussi Fabrice, et je sais qu'elle m'aime,</l>
+                     <l n="908">Et j'attends des Dieux la puissance suprême.....</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="909">Point de serments, mon fils, vous Fabrice espérez.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="910">Quoi vous voulez ma perte et vous l'en assurez ?</l>
+                     <l n="911">Un Père m'opprimer, consentir à ma peine :</l>
+                     <l n="912">Mais, ô Dieux ! j'aperçois Ferdinand qui l'amène,</l>
+                     <l n="913" part="I">Qu'est-ceci !</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="913" part="M">Juste Ciel !</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII ET DERNIÈRE. Ferdinand, Stéphanie, Lazarille, Henriquez, Guusman, Fabrice.</head>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="913" part="F">Approchez bon vieillard.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="914">Vous ai-je pas, Monsieur, déjà vu quelque part ?</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="915" part="I">Cela peut.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="915" part="F">J'ignore en quel lieu ce peut être.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="916">Cette moitié d'anneau vous le fera connaître.</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="917" part="I">Qu'entends-je ?</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="917" part="F">C'est donc vous ? Ah ! Je vous reconnais.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="918">ne cherchez désormais votre Père qu'en moi,</l>
+                     <l n="919" part="I">Je le suis, Stéphanie.</l>
+               </sp>
+               <sp who="tc0089-FABRICE">
+                  <speaker>FABRICE.</speaker>
+                     <l n="919" part="M">Ô bonheur !</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="919" part="F">Ô disgrâce !</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="920" part="I">Vous, mon Père !</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="920" part="M">Lui-même.</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="920" part="F">Ah ! Que je vous embrasse</l>
+                     <l n="921">Ma fille. Lazarille amortis ton ardeur,</l>
+                     <l n="922">Au lieu d'une Maîtresse envisage une Soeur.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="923" part="I">Une Soeur, je la tiens...</l>
+               </sp>
+               <sp who="tc0089-STEPHANIE">
+                  <speaker>STÉPHANIE.</speaker>
+                     <l n="923" part="F">Quoi, vous êtes son père ?</l>
+               </sp>
+               <sp who="tc0089-LAZARILLE">
+                  <speaker>LAZARILLE.</speaker>
+                     <l n="924">Il l'est ; De votre amant il devient votre frère,</l>
+                     <l n="925">Quel besoin aviez-vous de cacher si longtemps....</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="926">Ailleurs je t'en dirai les secrets importants,</l>
+                     <l n="927">Ce bonhomme sait tout. Cependant de Fabrice,</l>
+                     <l n="928">Ma chère Stéphanie acceptez le service.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="929" part="I">Mais, Monsieur, j'espérais......</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="929" part="F">Il est juste, espérez.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="930" part="I">Mon ardeur...</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="930" part="M">M'est connue.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="930" part="F">Et de plus vous saurez...</l>
+               </sp>
+               <sp who="tc0089-HENRIQUEZ">
+                  <speaker>HENRIQUEZ.</speaker>
+                     <l n="931">Il suffit ; vous verrez que je suis raisonnable.</l>
+               </sp>
+               <sp who="tc0089-FERDINAND">
+                  <speaker>FERDINAND.</speaker>
+                     <l n="932">Que plutôt ne te vois-je emporter par le Diable :</l>
+                     <l n="933" part="I">Ah ! Je suis mort.</l>
+               </sp>
+               <sp who="tc0089-GUSMAN">
+                  <speaker>GUSMAN.</speaker>
+                     <l n="933" part="F">Fort bien, notre espoir décevant,</l>
+                     <l n="934">Te fait le Vivant Mort, et moi le MORT VIVANT.</l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

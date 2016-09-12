@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Le jaloux endormi</title>
+            <title type="sub">Comédie</title>
+            <title type="short">JalouxEndormi</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">BOURSAULT, Edme</name>
+               <name type="short">Boursault</name>
+               <idno type="viaf"/>
+            </author>
+            <principal>Texte établi par Charlotte Dias, dans le cadre d'un travail d'édition critique sous la direction de Georges Forestier. (Université Paris-Sorbonne)</principal>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date>2014</date>, <idno>BOURSAULT_JALOUXENDORMI</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1662</date>, <idno/>, <ref target="#"/>. À PARIS, Chez ETIENNE LOISON, au Palais à l'entrée de la Galerie des Prisonniers, au Nom de Jésus..</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1662</date>, <idno/>, <ref target="#"/>. Représentée, pour la première fois en 1662 à l'Hôtel de Bourgogne. </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Comédie</term>
+               <term type="structure">un acte</term>
+               <term type="form">vers</term>
+               <term type="period">1661-1670</term>
+               <term type="taille">750-1000</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>PERSONNAGES</head>
+            <castItem>
+               <role xml:id="tc0086-SPADARILLE">SPADARILLE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0086-CLEANDRE">CLÉANDRE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0086-OLIMPIE">OLIMPIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0086-ALCIDOR">ALCIDOR</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0086-CASCADET">CASCADET</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La scène est à Toulon.</p>
+         </set>
+      </front>
+      <body>
+         <div type="acte" n="1">
+            <head/>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Spadarille, Olimpie.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="1">Je vous l'avais bien dit pour calmer votre effroi,</l>
+                     <l n="2">Que vous seriez toujours à votre aise avec moi.</l>
+                     <l n="3">Et qu'assez de trésors vous auriez en partage,</l>
+                     <l n="4">Si de me posséder vous aviez l'avantage ;</l>
+                     <l n="5">Mentais-je ? Et le repos vous est-il assuré,</l>
+                     <l n="6">Ayant eu le bonheur de m'avoir rencontré !</l>
+                     <l n="7">De semblables profits auriez-vous à prétendre,</l>
+                     <l n="8">Si l'on vous eut laissée au pouvoir de Cléandre,</l>
+                     <l n="9">Et si, par un destin à vos voux pas trop doux,</l>
+                     <l n="10">J'eusse jeté les yeux sur une autre que vous ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="11">Quand je songe au malheur où je suis condamnée,</l>
+                     <l n="12">J'ai regret d'être à vous par les nouds d'Hyménée,</l>
+                     <l n="13">Et j'éprouve du sort les plus sensibles coups,</l>
+                     <l n="14">Puisqu'il m'a fait tomber dans les mains d'un jaloux,</l>
+                     <l n="15">Qu'est-ce que de ma part votre cour appréhende ?</l>
+                     <l n="16" part="I">Mon honneur m'est trop cher pour vouloir.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="16" part="F">Ah friande !</l>
+                     <l n="17">Que si je m'empêchais de vous être cruel,</l>
+                     <l n="18">L'honneur dont vous parlez deviendrait casuel ;</l>
+                     <l n="19">Et que sachant les tours dont les femmes sont dignes,</l>
+                     <l n="20">On nous prendrait bientôt dans le Ciel pour des Signes,</l>
+                     <l n="21">Puisque de vos plaisirs un bon Frère garni</l>
+                     <l n="22">Produirait Capricorne, et ferait Gemini !</l>
+                     <l n="23">Sachez que de tout temps j'appréhende le blâme,</l>
+                     <l n="24">Qu'au gré de mon désir je gouverne ma femme,</l>
+                     <l n="25">Que sans en murmurer il faut suivre ma loi,</l>
+                     <l n="26">Et que quand je vous pris ce ne fut que pour moi.</l>
+                     <l n="27">Que si votre Mari dans ce lieu vous enferme,</l>
+                     <l n="28">C'est qu'il croit votre honneur n'être pas assez ferme,</l>
+                     <l n="29">Et que ne pas souffrir qu'on vous puisse approcher,</l>
+                     <l n="30">C'est ôter à vos sens les moyens de pêcher.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="31">Vous, Monsieur, apprenez qu'un discours incommode,</l>
+                     <l n="32">D'un crime qu'on ignore enseigne la méthode,</l>
+                     <l n="33">Et que pour confirmer vos injustes soupçons,</l>
+                     <l n="34">D'un prétexte inutile on se fait des leçons :</l>
+                     <l n="35">Pour épargner du trouble à votre âme alarmée,</l>
+                     <l n="36">Peut-être avec raison m'avez-vous enfermée,</l>
+                     <l n="37">Car de la liberté si j'usais pleinement,</l>
+                     <l n="38">Qui doute de ma foi douterait justement.</l>
+                     <l n="39">Voyez-vous qu'en effet d'autres fassent paraître.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="40">Les autres sont des sots et je ne veux pas l'être ;</l>
+                     <l n="41">Nous savons mieux que vous ce que ces autres font,</l>
+                     <l n="42">Et ne prétendons pas devenir ce qu'ils sont.</l>
+                     <l n="43">Faut-il point pour vous plaire à l'exemple d'un autre,</l>
+                     <l n="44">Souffrir en mon absence un Galant qui soit vôtre,</l>
+                     <l n="45">Et qu'après qu'en honneur cinquante ans j'ai vécu.</l>
+                     <l n="46">Je sois d'intelligence à me faire Cocu ?</l>
+                     <l n="47">Faut-il point, dis-je encore, que moi-même je brigue ?</l>
+                     <l n="48">Que je pousse à la roue, et conduise l'intrigue ?</l>
+                     <l n="49">Et sur vos passions conformant mes désirs,</l>
+                     <l n="50">Que l'époux ait la peine, et l'Amant les plaisirs ?</l>
+                     <l n="51">Quand on vient pour vous voir, faut-il point que je sorte ?</l>
+                     <l n="52">Sur vous, et vos Muguets que je ferme la porte ?</l>
+                     <l n="53">Et que sous mon aveu vous ayez le moyen</l>
+                     <l n="54">D'acheter du Brocart d'autre argent que du mien ?</l>
+                     <l n="55">Voilà ce qu'aujourd'hui tous ces autres observent,</l>
+                     <l n="56">Ils se font des Amis dont leurs femmes se servent,</l>
+                     <l n="57">Et ne murmurent pas quand pour faire l'amour,</l>
+                     <l n="58">Elles courent la nuit, et reposent le jour.</l>
+                     <l n="59">Ah ! qu'il vaudrait bien mieux que du nombre assez ample,</l>
+                     <l n="60">De ces Martyrisés je devinsse l'exemple !</l>
+                     <l n="61">Que si l'on enfermait chaque femme qui court</l>
+                     <l n="62">Avec six cadenas, elle aurait le nez court !</l>
+                     <l n="63">Qu'on verrait de Maris marcher tête levée,</l>
+                     <l n="64">Si ma règle par eux était bien observée !</l>
+                     <l n="65">Et que de quantité le destin serait doux,</l>
+                     <l n="66">Si leur plus grand malheur était d'être jaloux !</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="67">Et de tous les malheurs en est-il un plus rude</l>
+                     <l n="68" part="I">Monsieur !</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="68" part="F">Il me le semble, ô Madame la prude !</l>
+                     <l n="69">Et qui de la sagesse a le moindre rayon,</l>
+                     <l n="70">Préfère un sort d'Argus au destin d'Actéon.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="71">Quiconque peut avoir un rayon de sagesse,</l>
+                     <l n="72">Dans les maux d'une femme à jamais s'intéresse,</l>
+                     <l n="73">Et loin qu'à l'outrager il puisse être contraint,</l>
+                     <l n="74">Il s'en veut faire aimer, et n'en pas être craint.</l>
+                     <l n="75">Qui d'avoir des soupçons ne pouvait se défendre,</l>
+                     <l n="76">Devait m'abandonner à l'amour de Cléandre,</l>
+                     <l n="77">Et par l'éclat d'un bien dont je ne puis jouir,</l>
+                     <l n="78">N'abusez pas mon Père, et ne pas l'éblouir.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="79">Il vous plaisait beaucoup ce Cléandre ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="80" part="I">Sans doute.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="80" part="M">Il avait votre estime ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="80" part="F">Encore même, il l'a toute.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="81" part="I">Vous voudriez que je crois être à lui ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="81" part="F">Plut aux Dieux,</l>
+                     <l n="82" part="I">Mon sort.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="82" part="F">On dit bien vrai que l'amour n'a point d'yeux !</l>
+                     <l n="83">Vous aurez donc regret de vous voir ma conquête</l>
+                     <l n="84" part="I">Madame la Mignonne ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="84" part="M">En effet.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="84" part="F">Bonne bête !</l>
+                     <l n="85">De vos mauvais desseins c'est assez m'avertir,</l>
+                     <l n="86">Vous voudriez être gueuse, et vous bien divertir.</l>
+                     <l n="87">Je vois ce qui vous choque, et le ver qui vous pique,</l>
+                     <l n="88">Il vous faut un Mari de nouvelle fabrique,</l>
+                     <l n="89">Qui redoute une femme, et de crainte du choc,</l>
+                     <l n="90">Laisse chanter la Poule, et plus haut que le Coq.</l>
+                     <l n="91">Il vous faut un Mari qui crut faire un grand crime,</l>
+                     <l n="92">S'il ne donnait de quoi pour jouer à la Prime,</l>
+                     <l n="93">Et qui ne laisse pas de paraître gaillard,</l>
+                     <l n="94">Si l'on quitte la Prime, et qu'on joue au Billard.</l>
+                     <l n="95">Il vous faut un Mari qui confonde sa rente,</l>
+                     <l n="96">Qui soit brave quatre ans, et gredin plus de trente,</l>
+                     <l n="97">Et sur qui l'on saisisse au profit des Marchands,</l>
+                     <l n="98">Et maisons de la ville, et revenus des champs.</l>
+                     <l n="99">Oui, je vous charmerai, ô Coureuse recluse,</l>
+                     <l n="100">Si  vos débordements ne trouvaient une écluse,</l>
+                     <l n="101">Et du moins dans mes biens vous verriez des appâts,</l>
+                     <l n="102">Sans les doubles ressorts de mes six cadenas ;</l>
+                     <l n="103">Mais quoique contre moi votre cour se propose,</l>
+                     <l n="104">Sachez qu'avant la nuit j'en veux croître la dose,</l>
+                     <l n="105">Et dussiez-vous cent fois vous en mettre en courroux,</l>
+                     <l n="106">À vos six cadenas joindre autant de verrous,</l>
+                     <l n="107">Rentrez ; car aussi bien je vois un Gentillâtre,</l>
+                     <l n="108">De vos yeux bien fendus il serait idolâtre,</l>
+                     <l n="109" part="I">Rentrez donc.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="109" part="M">Mais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="109" part="F">Rentrez, sans vous embarrasser.</l>
+                     <l n="110">Diable ! que j'ai bien fait de la cadenasser.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Cléandre, Spadarille, Cascaret.</head>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="111">Monsieur, vous savez bien qu'on me nomme Cléandre ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="112" part="I">Oui.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="112" part="F">Vous ne savez pas ce que j'ose prétendre ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="113" part="I">Non.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="113" part="F">Mais il vous souvient que je fus amoureux ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="114" part="I">Oui.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="114" part="F">Que je ne fus pas un amant fort heureux ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="115" part="I">Non.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="115" part="F">Que votre mérite emporta la balance ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="116" part="I">Oui.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="116" part="F">Qu'enfin mon ardeur n'eut point de récompense ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="117" part="I">Non.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="117" part="F">Ainsi donc, Monsieur, ne trouvez pas mauvais</l>
+                     <l n="118" part="I">Si je viens.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="118" part="F">Vous, Monsieur, trouvez bon si je vais.</l>
+                     <l n="119">Un si grand préambule est suspect à mon âme,</l>
+                     <l n="120" part="I">Parlez bref.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="120" part="M">Mais Monsieur.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="120" part="F">Mais Monsieur, mais Madame,</l>
+                     <l n="121">J'ai des soins à donner autre part que vers vous,</l>
+                     <l n="122">Avec mes cadenas j'ai besoin de verrous,</l>
+                     <l n="123">Près de mon Serrurier   il est temps de me rendre ;</l>
+                     <l n="124">Pour pouvoir me parler il ne faut que m'attendre,</l>
+                     <l n="125">Si je trouve mon fait, je reviens sur mes pas,</l>
+                     <l n="126">Si je ne trouve rien, je ne reviendrai pas.</l>
+                     <l n="127" part="I">Bonjour.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Cléandre, Cascaret.</head>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="127" part="F">De ce qu'il fait j'aurai tort de me plaindre,</l>
+                     <l n="128">Avec moins de faiblesse il serait plus à craindre,</l>
+                     <l n="129">Si de quelque lumière il était éclairé,</l>
+                     <l n="130">En vain à le tromper je serai préparé.</l>
+                     <l n="131">Je veux à SPADARILLE arracher Olimpie,</l>
+                     <l n="132">Mais je sais que son âme est sans cesse assoupie,</l>
+                     <l n="133">Et quand secrètement j'ose agir contre lui,</l>
+                     <l n="134">De sa brutalité je me fais un appui.</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET.</speaker>
+                     <l n="135">Mais comme Spadarille est sujet à l'ombrage</l>
+                     <l n="136">Quoique des cadenas il observe l'usage, </l>
+                     <l n="137">Si pour votre malheur il advient que ce fou,</l>
+                     <l n="138">De sa femme Olimpie aperçoive le trou ?</l>
+                     <l n="139">Si d'un sensible affront se sentant l'âme outrée,</l>
+                     <l n="140">De ce trou favorable il occupe l'entrée,</l>
+                     <l n="141">Et que de son pouvoir se servant à propos, </l>
+                     <l n="142">De coups drus comme grêle il nous brise les os ?</l>
+                     <l n="143" part="I">Plaît-il ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="143" part="F">Non, Spadarille a la tête trop sèche,</l>
+                     <l n="144">Je n'appréhende pas qu'il découvre ma brèche,</l>
+                     <l n="145">Si pour voir Olimpie en un coin fort obscur,</l>
+                     <l n="146">On a fait de ma chambre une entrée à son mur,</l>
+                     <l n="147">Tu sais qu'un lit superbe à ma flamme propice,</l>
+                     <l n="148">Pour me favoriser cache mon artifice.</l>
+                     <l n="149">D'ailleurs notre vaisseau sur la fin de ce jour,</l>
+                     <l n="150">Doit partir pour Marseille et quitter ce séjour,</l>
+                     <l n="151">Cet anneau d'Olimpie est la marque secrète,</l>
+                     <l n="152">Qui doit malgré l'Argus assurer sa retraite,</l>
+                     <l n="153">Et que pour accomplir d'équitables desseins,</l>
+                     <l n="154">Par l'avis de son Père elle a mis dans mes mains.</l>
+                     <l n="155">Ainsi de mon Rival le défaut effroyable.</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET.</speaker>
+                     <l n="156">Je sais que Spadarille est puant comme un Diable,</l>
+                     <l n="157">Et que de son haleine il infecte tous ceux</l>
+                     <l n="158">Qui de parler à lui sont assez malheureux ;</l>
+                     <l n="159">Mais il est Gouverneur, et c'est dont je frissonne,</l>
+                     <l n="160" part="I">Car son train.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="160" part="F">À sa suite il n'a nulle personne,</l>
+                     <l n="161">De peur que de sa femme on pût voir les attraits,</l>
+                     <l n="162">Ce Jaloux hypocrite a chassé les valets :</l>
+                     <l n="163">Son âme scrupuleuse, et toujours défiante</l>
+                     <l n="164">Ne peut près d'Olimpie endurer de servante,</l>
+                     <l n="165">Dans la crainte qu'il a que l'on eut supposé,</l>
+                     <l n="166">Sous l'habit d'une fille un garçon déguisé.</l>
+                     <l n="167">Si bien. mais il écoute, évitons ses reproches.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Spadarille, Cléandre, Cascaret.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, avec trois verrous en chaque main.</speaker>
+                     <l n="168">Voici pour des Polis empêcher les approches ;</l>
+                     <l n="169">Qu'ils s'y viennent frotter, ces mignons, ces poudrés.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="170" part="I">Quoi l'on ose ?.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="170" part="F">Oui l'on ose, et ce sont des Madrés,</l>
+                     <l n="171">Qui voudraient sur ma terre usurper droit de chasse,</l>
+                     <l n="172">Vous qui d'un Chien couchant affectez la grimace,</l>
+                     <l n="173">Êtes-vous point aussi quelque Amant aux yeux doux,</l>
+                     <l n="174">Qui pour plaire à l'épouse entretienne l'époux ?</l>
+                     <l n="175" part="I">Et lors.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="175" part="F">Ne craignez  rien de la part d'Olimpie,</l>
+                     <l n="176">Tous mes voux sont bornés à chérir sa copie.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="177" part="I">Sa copie ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="177" part="M">Oui, Monsieur.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="177" part="F">Bon, il semble à ce fat,</l>
+                     <l n="178">Qu'on copie une femme aussi bien qu'un contrat.</l>
+                     <l n="179" part="I">Et vous vous en allez ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="179" part="F">Avec une patente</l>
+                  <ab>****
+    </ab>
+                  <l n="180" part="I">Je suis prêt.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="180" part="F">Je vous puis rendre l'âme contente.</l>
+                     <l n="181">Mais dans ce petit doigt vous avez un anneau</l>
+                     <l n="182">Qui vous sied assez bien, et me semble fort beau ;</l>
+                     <l n="183" part="I">Que je voie.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE, bas.</speaker>
+                     <l n="183" part="M">Ô malheur ! C'est.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="183" part="F">Vous êtes étrange,</l>
+                     <l n="184">Pour le voir un moment croyez-vous qu'on le mange ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="185" part="I">Non, Monsieur, mais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="185" part="F">Quoi mais ? A-t-il peur de mes yeux ?</l>
+                  <stage>Apercevant que c'est l'Anneau d'Olimpie.</stage>
+                     <l n="186">Où Diable avez-vous pris ce bijou précieux ?</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET, bas à Cléandre.</speaker>
+                     <l n="187">Répondez hardiment, et mentez comme un Diable.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="188" part="I">Je l'ai pris.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="188" part="F">Parlez vite, ô l'Amant trop aimable,</l>
+                     <l n="189" part="I">Où donc l'avez-vous pris ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="189" part="F">Où prend-on les bijoux ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="190">Et j'ai tort, mon Cadet, de paraître Jaloux,</l>
+                     <l n="191" part="I">Est-ce pas ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="191" part="F">Je ne sais s'il se peut qu'Olimpie.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="192">Et moi je sais fort bien qu'Olimpie est impie,</l>
+                     <l n="193">Et sans les cadenas à sa porte attachés,</l>
+                     <l n="194">Qu'elle ferait souvent d'agréables pêchés.</l>
+                     <l n="195">Quelque doux traitement qu'à ce sexe on prépare,</l>
+                     <l n="196">Une femme fidèle en ce temps est bien rare,</l>
+                     <l n="197">Et qui peut s'en servir doit s'attendre à ce coup,</l>
+                     <l n="198">D'acquérir peu d'honneur, et d'en perdre beaucoup !</l>
+                     <l n="199">N'espérez, cependant, passeport ni Patente,</l>
+                     <l n="200">Ou soyez résolu de remplir mon attente ;</l>
+                     <l n="201">Et d'un Original que je dois soupçonner,</l>
+                     <l n="202">Donnez-moi la Copie à collationner,</l>
+                     <l n="203" part="I">Sinon.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="203" part="M">Quoi vous voulez.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="203" part="F">Oui, je le veux, vous dis-je.</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET, bas à Cléandre.</speaker>
+                     <l n="204">Par ce commandement ce Jaloux vous oblige,</l>
+                     <l n="205">Avant qu'il ait ouvert cinq ou six cadenas,</l>
+                     <l n="206" part="I">L'anneau.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="206" part="F">C'est ma pensée, et j'y vais de ce pas.</l>
+                     <l n="207">Puisqu'il vous plaît, Monsieur, d'admirer ma Maîtresse,</l>
+                     <l n="208" part="I">J'obéis.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE seul, ouvrant la porte de la chambre d'Olimpie.</speaker>
+                     <l n="208" part="F">Je vous tiens, ô la double traîtresse,</l>
+                     <l n="209">Qui dans l'âpre dessein d'acquérir du renom,</l>
+                     <l n="210">Avez l'air d'une Sainte, et l'esprit d'un Démon.</l>
+                     <l n="211">J'aperçois tous les tours que votre esprit enfante.</l>
+                     <l n="212">Vous donnez librement des faveurs par la fente ;</l>
+                     <l n="213">Mais malgré vos desseins contre moi conjurés,</l>
+                     <l n="214">Les ais de votre porte en seront resserrés.</l>
+                     <l n="215" part="I">Voyons un peu sa mine.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Spadarille, Olimpie.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="215" part="F">Approchez, la Matoise,</l>
+                     <l n="216">Dont la vertu s'altère, et l'honneur s'apprivoise,</l>
+                     <l n="217" part="I">Approchez.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="217" part="M">De ma part, désirez-vous.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="217" part="F">Moi ? Rien ;</l>
+                     <l n="218">Je viens voir seulement si vous vous portez bien.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="219">Quoi, se peut-il, Monsieur, que mon malheur vous touche ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="220">Vous n'en savez donc rien, ô la sainte Nitouche !</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="221">Non, daignez m'expliquer vos bizarres desseins.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="222">Je viens de voir Cléandre, il vous baise les mains.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="223" part="I">Quoi Cléandre est ici ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="223" part="F">Point du tout, je me moque,</l>
+                     <l n="224">Je l'ai pris pour un autre, et c'est une équivoque.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="225" part="I">Pourquoi donc voulez-vous.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="225" part="F">Belzébuth incarné,</l>
+                     <l n="226">Démon acariâtre à me nuire obstiné,</l>
+                     <l n="227">C'est à tort à présent que ton âme biaise ;</l>
+                     <l n="228">Je sais pour me trahir que tu fais la niaise,</l>
+                     <l n="229">Et que de ton honneur prévoyant l'abandon.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="230" part="I">Cet outrage.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="230" part="F">À vos yeux je demande pardon !</l>
+                     <l n="231">Quelque soit le forfait dont mon cour vous soupçonne,</l>
+                     <l n="232">C'est vous faire une injure, équitable friponne ;</l>
+                     <l n="233">Et parmi votre sexe outrageux à chacun,</l>
+                     <l n="234">Faire un mari Cocu c'est le vice commun.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="235">Enfin, expliquez-vous, qu'avez-vous à m'apprendre ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="236">Rien ; sinon que j'ai vu l'un des doigts de Cléandre.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, faisant la surprise.</speaker>
+                     <l n="237" part="I">Un des doigts de Cléandre ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="237" part="M">Un des doigts.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="237" part="F">Un des doigts !</l>
+                     <l n="238">Si vous m'en assurez, aisément je le crois,</l>
+                     <l n="239" part="I">Mais qu'en concluez-vous ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="239" part="F">Et qu'en peut-on conclure ?</l>
+                     <l n="240">Fin contre fin n'est pas bon à faire doublure</l>
+                     <l n="241">La belle, et dans mon âge, il vous sied assez mal</l>
+                     <l n="242">De vouloir me charger d'un brevet d'animal.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="243" part="I">Ce langage confus.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="243" part="F">Vous rend l'âme éperdue,</l>
+                     <l n="244">Et je suis confondu de vous voir confondue.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="245">Je ne puis rien comprendre à tout votre discours.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, lui montrant les verrous.</speaker>
+                     <l n="246">Voici pour mettre obstacle à tous vos petits tours,</l>
+                     <l n="247">Les anneaux désormais n'iront plus en campagne,</l>
+                     <l n="248">Et vous êtes sevrée, amoureuse compagne.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="249">Finissez ces discours, ils sont extravagants.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="250" part="I">Je suis donc fou ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="250" part="M">Du moins on le croit.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="250" part="F">Bas les gants.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="251" part="I">Quoi, Monsieur.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="251" part="M">Bas les gants.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="251" part="M">Mais au moins.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="251" part="F">Bas, vous dis-je.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="252" part="I">Si.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="252" part="M">Bas, vous dis-je.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="252" part="F">Encore, quel dessein vous oblige.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="253">Bas, vous dis-je, et tantôt votre esprit éclairci.</l>
+                  <stage>Apercevant le même anneau qu'avait Cléandre.</stage>
+                     <l n="254">Mais vertubleu que vois-je ? Et que Diable est-ce ci ?</l>
+                     <l n="255">Que cet anneau ressemble à celui de Cléandre !</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="256" part="I">Ils sont bas.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="256" part="F">Sur ma foi je n'y puis rien comprendre,</l>
+                     <l n="257">Et ces anneaux tous deux ont un rapport si grand,</l>
+                     <l n="258">Que plus on les regarde, et plus on s'y méprend.</l>
+                     <l n="259">Vous pouvez cependant, réchauffer la mitaine,</l>
+                     <l n="260">Puis après de rentrer il faut prendre la peine,</l>
+                     <l n="261">Aussi bien un vieillard adresse ici ses pas.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="262" part="I">Amour.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="262" part="F">Entrez, entrez, et ne raisonnez pas.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. Alcidor, Spadarille.</head>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="263" part="I">Monsieur le Gouverneur dont je suis le beau-père,</l>
+                     <l n="264" part="I">Je viens.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, enfermant sa femme.</speaker>
+                     <l n="264" part="F">Beau-père, ou non, laissez-nous un peu faire,</l>
+                     <l n="265">Quand votre huis une fois sera clos à plaisir,</l>
+                     <l n="266">De vous voir pleinement nous aurons le loisir ;</l>
+                     <l n="267" part="I">Taisez-vous donc.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="267" part="M">Monsieur, mais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="267" part="F">Mais Monsieur vous-même,</l>
+                     <l n="268">Dont le morne visage est passablement blême.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="269">Je prétendais de vous qu'en faveur de mes soins.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="270">Un peu trop prétendant, prétendez un peu moins,</l>
+                     <l n="271">Et souffrez, s'il vous plaît, qu'à mon tour je prétende.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="272" part="I">Mais Monsieur.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, ayant achevé de fermer ses cadenas.</speaker>
+                     <l n="272" part="F">Hé bien donc, ô Diseur de Légende,</l>
+                     <l n="273">Dont je suis obligé d'enfermer le présent,</l>
+                     <l n="274">Si le cour vous en dit, raisonnez à présent.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="275">L'heur dont votre alliance a comblé ma famille,</l>
+                     <l n="276">Fait que je viens ici m'informer de ma fille,</l>
+                     <l n="277" part="I">Dites-moi donc comment elle se porte.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="277" part="F">Bien.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="278">Et de ses mours, Monsieur, ne m'apprendrez-vous rien ?</l>
+                     <l n="279">Dites-moi, si parfois son humeur vous contente,</l>
+                     <l n="280">Si parfois cette humeur est pour vous complaisante ;</l>
+                     <l n="281" part="I">Tirez-moi de souci, comment vit-elle ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="281" part="F">Mal.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="282">Mal, bon Dieu ! ce malheur est pour moi sans égal.</l>
+                     <l n="283">Où peut-elle avoir pris de mauvaise teinture,</l>
+                     <l n="284">Elle, que de ses dons a comblé la nature ?</l>
+                     <l n="285" part="I">Pour me faire un outrage elle a donc le sang.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="285" part="F">Chaud.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="286">C'est l'amour chaud sans doute, et plus chaud qu'il ne faut :</l>
+                     <l n="287">Mais n'est-ce point à tort qu'envers vous je la blâme ?</l>
+                     <l n="288">Ne lui faites-vous rien qui chagrine son âme ?</l>
+                     <l n="289" part="I">Lors que vous la voyez, quel est son accueil ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="289" part="F">Froid.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="290">D'en user de la sorte elle a bien peu de droit.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="291">D'accord ; mais de vous deux, moi l'époux et le Gendre,</l>
+                     <l n="292">Qui pour faire l'Amant pris le droit de Cléandre,</l>
+                     <l n="293">Sachez que j'aurai lieu de paraître marri,</l>
+                     <l n="294">Si par droit réciproque il faisait le mari.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="295" part="I">Cléandre, oserait-il suborner.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="295" part="F">D'Olimpie,</l>
+                     <l n="296">Il aime, à ce qu'il dit, seulement la copie ;</l>
+                     <l n="297">Cependant d'un anneau je le trouve pourvu ;</l>
+                     <l n="298">Autre part qu'en ses doigts je le crois avoir vu ;</l>
+                     <l n="299">Aussitôt par ma bouche Olimpie appelée,</l>
+                     <l n="300">À mes aigres propos contrefait la troublée ;</l>
+                     <l n="301">Veut voir par mes discours son esprit éclairci ;</l>
+                     <l n="302">Fait semblant d'ignorer que Cléandre est ici ;</l>
+                     <l n="303">Me soutient à mon nez que souvent j'extravague ;</l>
+                     <l n="304">Puis soudain se dégante, et me montre sa bague ;</l>
+                     <l n="305">Et je crois là-dessus, consultant mon cerveau,</l>
+                     <l n="306">Que qui la copia copia son Anneau.</l>
+                     <l n="307">De Cléandre pourtant je crains peu la finesse,</l>
+                     <l n="308">Il doit en ce lieu même amener sa Maîtresse,</l>
+                     <l n="309">Je l'attends, nous verrons ; mais tenez je les vois.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="310" part="I">Il amène Olimpie.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="310" part="F">En effet, je le crois.</l>
+                     <l n="311" part="I">La serait-ce ?</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="311" part="F">Ce l'est ; quelle erreur vous domine ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="312">Ma foi, si ce ne l'est, elle en a bien la mine.</l>
+               </sp>
+            </div>
+            <div type="scene" n="8">
+               <head>SCÈNE VIII. Spadarille, Cléandre, Olimpie, sous le nom d'Aspasie, Alcidor, Cascaret.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, appelle sa femme à travers de la porte.</speaker>
+                     <l n="313" part="I">Olimpie !</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, bas à Cléandre.</speaker>
+                     <l n="313" part="M">Ah Cléandre !</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="313" part="F">Ah daignez tenir bon,</l>
+                     <l n="314" part="I">Madame.</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET.</speaker>
+                     <l n="314" part="F">Ou je me trompe, ou j'aurai du bâton.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, continue.</speaker>
+                     <l n="315" part="I">Olimpie ! Ah j'enrage.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="315" part="F">Il s'échauffe la bile.</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET.</speaker>
+                     <l n="316">Vous me parliez tantôt de m'envoyer en Ville</l>
+                     <l n="317" part="I">Monsieur.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="317" part="M">Poltron fieffé.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, continue.</speaker>
+                     <l n="317" part="F">Tout ceci me confond.</l>
+                     <l n="318">Olimpie ! écoutez comme elle me répond !</l>
+                     <l n="319">De ce tracas, Beau-père, en un mot que vous semble.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="320" part="I">J'ai peur que ce ne soit Olimpie.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="320" part="F">Et j'en tremble :</l>
+                     <l n="321">Mais on pourrait sortir aussitôt de l'Enfer,</l>
+                     <l n="322">Sa cheminée est close, et de grilles de fer,</l>
+                     <l n="323">J'ai de même matière étoffée sa fenêtre,</l>
+                     <l n="324" part="I">Beau-père !</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="324" part="F">S'il est vrai, ce ne peut donc pas l'être.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="325">Assez adroitement je la vais pressentir ;</l>
+                     <l n="326">Je vous crois Olimpie, et ne crois pas mentir,</l>
+                     <l n="327">Si vous ne l'êtes pas pour le moins sa jumelle,</l>
+                     <l n="328">Daignez quelque moment discourir avec elle ;</l>
+                     <l n="329">Entrez jusqu'en sa chambre, et trouvez à propos.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="330" part="I">Monsieur.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="330" part="F">Vous lui direz seulement quatre mots,</l>
+                     <l n="331" part="I">Je vous en prie.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="331" part="M">Il faut.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="331" part="F">Il ne faut autre chose.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="332">Des plaintes d'Olimpie elle ignore la case,</l>
+                     <l n="333" part="I">Ainsi.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="333" part="F">Mon Dieu, Monsieur, parlez à votre écho.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="334" part="I">Ce n'est pas.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="334" part="F">Vous aussi, taisez-vous, idiot.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="335">Pour moi, Monsieur, le Ciel me deviendrait propice,</l>
+                     <l n="336">S'il m'offrait un moyen de vous rendre service ;</l>
+                     <l n="337" part="I">Mais enfin sur le point de partir.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="337" part="F">Par ma foi</l>
+                     <l n="338">Vous entrerez, Madame, ou vous direz pourquoi.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="339" part="I">Je puis.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="339" part="F">Entrez, vous dis-je, ou bien point de patente.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="340">Vous pouvoir obliger c'est me rendre contente ;</l>
+                     <l n="341">Mais envers Olimpie agréez mon respect,</l>
+                     <l n="342">Un visage inconnu lui peut être suspect,</l>
+                     <l n="343">Durant donc un adieu qu'à l'instant je vais faire,</l>
+                     <l n="344">Sachez si ma visite aura droit de lui plaire,</l>
+                     <l n="345">Et tandis que Cléandre attendra mon retour.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="346" part="I">C'est fort bien dit, allez.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, à Cléandre en s'en allant.</speaker>
+                     <l n="346" part="F">Je prépare un détour,</l>
+                     <l n="347">Et quoi que de ma part ce perfide prétende.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="348" part="I">Que lui dites-vous là ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="348" part="F">Je lui dis qu'il m'attende.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="349" part="I">Bon cela.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="349" part="F">J'obéis, et n'y contredis pas.</l>
+                     <l n="350">Cascaret, d'Aspasie accompagne les pas.</l>
+               </sp>
+            </div>
+            <div type="scene" n="9">
+               <head>SCÈNE IX. Spadarille, Cléandre, Alcidor.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="351">Or ça, notre Beau-père, et vous Sire Cléandre,</l>
+                     <l n="352">Qui jadis malgré lui vouliez être son gendre,</l>
+                     <l n="353">Je vais vous faire voir Olimpie à l'instant.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR, qui craint qu'Olimpie ne soit pas encore rentrée.</speaker>
+                     <l n="354">Si j'en suis cru, Monsieur, ne vous hâtez pas tant.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="355" part="I">Et pourquoi ?</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="355" part="F">Tout l'amour que Cléandre eut pour elle</l>
+                     <l n="356" part="I">Pourra se rallumer à l'aspect.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="356" part="F">Bagatelle.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="357">En effet la beauté que je vous ai fait voir,</l>
+                     <l n="358">De tout autre visage affaiblit le pouvoir :</l>
+                     <l n="359">Et s'il faut que mon âme à vos yeux se découvre,</l>
+                     <l n="360">Rien ne m'est échappé que mon cour ne recouvre,</l>
+                     <l n="361">Puisqu'à l'objet que j'aime avec tant de raison</l>
+                     <l n="362">Pour paraître Olimpie il ne faut que le nom.</l>
+                     <l n="363">C'est pour ce seul objet qu'en secret je soupire,</l>
+                     <l n="364" part="I">Pour sa seule pensée je languis.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="364" part="F">C'est tout dire,</l>
+                     <l n="365">Et pour l'amour de vous je m'en vais de ce pas</l>
+                     <l n="366">Réveiller les ressorts de mes six cadenas.</l>
+               </sp>
+            </div>
+            <div type="scene" n="10">
+               <head>SCÈNE X. Alcidor, Cléandre, et Spadarille au bout du Théâtre qui ouvre ses cadenas.</head>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="367">Parlons bas. Enfin brave Cléandre</l>
+                     <l n="368">Ma fille en peu de temps en vos bras se va rendre :</l>
+                     <l n="369">Si d'avec ce brutal son hymen se détruit,</l>
+                     <l n="370">De vos soins généreux vous aurez tout le fruit.</l>
+                     <l n="371" part="I">Mais surtout que l'honneur.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="371" part="F">Je vois peu d'apparence</l>
+                     <l n="372">À pouvoir franchir d'une injuste puissance ;</l>
+                     <l n="373">Mais enfin quelque effet qui succède à mes yeux,</l>
+                     <l n="374">L'intérêt d'Olimpie est plus fort que mes feux.</l>
+                     <l n="375">Nul espoir ne me flatte, et mon cour avec joie,</l>
+                     <l n="376">La dérobe aux tourments dont le sien est la proie ;</l>
+                     <l n="377">Et c'est le moindre effort qu'en semblable danger</l>
+                     <l n="378">La vertu malheureuse ait le droit d'exiger.</l>
+                     <l n="379" part="I">Ainsi.</l>
+               </sp>
+            </div>
+            <div type="scene" n="11">
+               <head>SCÈNE XI. Spadarille, Olimpie, Cléandre, Alcidor.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="379" part="F">Mes cadenas sont ouverts. Hola la Belle,</l>
+                     <l n="380">Venez ça. Pourquoi donc se frotter la prunelle ?</l>
+                     <l n="381" part="I">Qu'avez-vous ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, faisant exprès l'endormie.</speaker>
+                     <l n="381" part="F">Du sommeil, les pavots gracieux</l>
+                     <l n="382">Assoupissent mon âme, et me sillent les yeux ;</l>
+                     <l n="383">Depuis une heure ou deux, leur douceur pour confondre.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="384">Elle avait bien raison de ne pas me répondre</l>
+                     <l n="385">Vraiment ! ça la dormeuse au sommeil un peu dur,</l>
+                     <l n="386">Qui n'avez pu m'entendre à travers de ce mur,</l>
+                     <l n="387" part="I">Ouvrez les yeux.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, faisant l'étonnée.</speaker>
+                     <l n="387" part="F">Mon Père ! ô destin quelle grâce !</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="388" part="I">Ma fille !</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, lui montrant Cléandre.</speaker>
+                     <l n="388" part="F">Et celui-ci, Bel enfant, qui sera-ce ?</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="389" part="I">Ô Dieux !</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE, à Spadarille.</speaker>
+                     <l n="389" part="F">Souffrez qu'ici je me règle sur vous,</l>
+                     <l n="390">Et que de cet objet je devienne jaloux ;</l>
+                     <l n="391">Je crois voir Aspasie, et mon Âme confuse</l>
+                     <l n="392" part="I">Voudrait.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="392" part="F">Le tour est bon ; peste soit de la Buse.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="393">C'est un peu vainement que vous êtes surpris,</l>
+                     <l n="394" part="I">C'est elle.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="394" part="F">Il veut sans doute égayer nos esprits,</l>
+                     <l n="395" part="I">Pauvre Butor !</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="395" part="F">De quoi, de la part de Cléandre,</l>
+                     <l n="396">Est-ce là tout l'accueil que j'ai droit de prétendre ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="397">Aspasie est-ce vous dont les yeux éclatants.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="398">Quand les gens sont si sots, ils le sont pour longtemps,</l>
+                     <l n="399">Je le trouve bouffon avec sa jalousie.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="400">Daignez donc me répondre, est-ce vous Aspasie ?</l>
+                     <l n="401">Dissipez le chagrin qui me rend assoupi,</l>
+                     <l n="402" part="I">Et pour le moins.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="402" part="F">Beau-père, et picora campi.</l>
+                     <l n="403" part="I">Quoi, vous n'en riez point ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE, à Spadarille.</speaker>
+                     <l n="403" part="F">Éclaircissez mon âme,</l>
+                     <l n="404" part="I">Monsieur, ne l'est-ce pas ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, en riant.</speaker>
+                     <l n="404" part="F">Non ma foi, c'est ma femme.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE, à Olimpie.</speaker>
+                     <l n="405">Veuillez donc m'excuser si pour m'être mépris.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="406">À votre indifférence ajouter le mépris,</l>
+                     <l n="407">Cléandre, et feindre ici de ne pas me connaître ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="408">J'ai toujours tout l'amour que vos yeux firent naître ;</l>
+                     <l n="409">Mais si mon cour soupire, apprenez qu'il m'est doux</l>
+                     <l n="410">De le voir soupirer pour une autre que vous :</l>
+                     <l n="411">De ce cour enflammé la langueur est extrême,</l>
+                     <l n="412">Mais cette autre que vous est une autre vous-même ;</l>
+                     <l n="413">Et mon amour éteint serait tout consumé,</l>
+                     <l n="414">Si vos mêmes appâts ne l'avaient rallumé.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, à Alcidor.</speaker>
+                     <l n="415">Quel niais compliment ce badin lui va faire !</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="416" part="I">Il est fou.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, à Cléandre.</speaker>
+                     <l n="416" part="F">Quelque objet a donc l'heur de vous plaire ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="417">Oui, Madame, et de plus cet objet plein d'appâts</l>
+                     <l n="418">En mérite, en vertu ne vous céderait pas :</l>
+                     <l n="419">Quelque chose de plus est dans celle que j'aime,</l>
+                     <l n="420" part="I">Et.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="420" part="F">Ne disons point plus ; mais disons tout de même.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="421">Et quoi, pour vous venger du refus qu'on vous fit,</l>
+                     <l n="422" part="I">Vous osez.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="422" part="M">J'ai raison d'oser dire.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, dans une feinte colère.</speaker>
+                     <l n="422" part="F">Il suffit,</l>
+                     <l n="423">Je connais vos desseins, et vous êtes un lâche,</l>
+                     <l n="424">Dont l'indigne mépris, et me choque, et me fâche :</l>
+                     <l n="425">Ne croyez pas pourtant que l'outrage soit grand,</l>
+                     <l n="426">Votre amour, votre choix, tout m'est indifférent :</l>
+                     <l n="427" part="I">Et ne présumez pas.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="427" part="M">Quoi, Madame.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="427" part="F">Quoi, Traître,</l>
+                     <l n="428">Vous avez pu m'aimer, et m'osez méconnaître ?</l>
+                     <l n="429">Et prétendez me faire un outrage odieux,</l>
+                     <l n="430">Qu'installer par mépris votre choix à mes yeux ?</l>
+                     <l n="431">Je dédaigne à mon tour vos indignes approches,</l>
+                     <l n="432" part="I">Allez.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="432" part="F">Il est penaud comme un fondeur de cloches.</l>
+                     <l n="433" part="I">C'est qu'il aime.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="433" part="M">Et qu'importe ?</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="433" part="F">Il importe fort peu ;</l>
+                     <l n="434">Mais je veux vous montrer à l'objet de son feu :</l>
+                     <l n="435">Bientôt dans cet endroit nous aurons sa présence.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="436">Moi, Monsieur, me résoudre à cette complaisance ?</l>
+                     <l n="437" part="I">Que je puisse.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="437" part="F">Mon Dieu, forcez-vous de la voir,</l>
+                     <l n="438" part="I">Et sachez.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="438" part="F">Sur mes sens j'ai trop peu de pouvoir,</l>
+                     <l n="439">À m'expliquer ainsi son dédain m'autorise,</l>
+                     <l n="440">J'ai peu de complaisance envers qui me méprise ;</l>
+                     <l n="441">Et quoique mon époux, c'est avoir le cour bas</l>
+                     <l n="442">Qu'exiger de mon âme un respect qu'il n'a pas.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="443" part="I">Mais enfin Aspasie.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="443" part="F">Aspasie ou Cléandre,</l>
+                     <l n="444">Je ne veux ni les voir, ni jamais les entendre,</l>
+                     <l n="445">Et préfère aux dédains de ce couple outrageux</l>
+                     <l n="446">L'inflexible rigueur d'un époux soupçonneux.</l>
+                     <l n="447" part="I">Renfermez-moi.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="447" part="M">Ma fille, est-il juste.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE.</speaker>
+                     <l n="447" part="F">Mon Père,</l>
+                     <l n="448">Je ne fais rien ici qui ne soit nécessaire.</l>
+                     <l n="449">De Cléandre en un mot je connais le désir,</l>
+                     <l n="450">Dans ce lieu de me voir il a peu de plaisir :</l>
+                     <l n="451">De ses voux mes souhaits précipitent le terme,</l>
+                     <l n="452">C'est assez l'obliger que vouloir qu'on m'enferme ;</l>
+                     <l n="453">Mais ce qui plus me charme, et que j'aime le mieux,</l>
+                     <l n="454">C'est priver mes regards d'un Objet odieux.</l>
+                     <l n="455">Je vous le dis encore, Aspasie ou Cléandre, à Spadarille</l>
+                     <l n="456">Je ne veux ni les voir, ni jamais les entendre,</l>
+                     <l n="457">Souscrivez sans murmure aux plus doux de mes voux,</l>
+                     <l n="458" part="I">Adieu.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="458" part="F">Pauvre Galant te voilà bien chanceux !</l>
+               </sp>
+            </div>
+            <div type="scene" n="12">
+               <head>SCÈNE XII. Spadarille, Cléandre, Alcidor.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="459" part="I">Vous voyez.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="459" part="F">Oui, Monsieur, je vois ce qui se passe :</l>
+                     <l n="460">Si je m'en repentais j'aurai l'âme trop basse.</l>
+                     <l n="461">J'aperçois qu'Olimpie a pour moi de l'horreur :</l>
+                     <l n="462">Mais l'amour d'Aspasie adoucit cette aigreur.</l>
+                     <l n="463">J'ai sujet de goûter une joie assez pleine,</l>
+                     <l n="464">Si l'une a de l'amour quand l'autre a de la haine ;</l>
+                     <l n="465">Ou plutôt j'aurai tort de me plaindre à mon tour,</l>
+                     <l n="466">Quand des preuves de haine ont des marques d'amour.</l>
+                     <l n="467" part="I">Mais je vois Aspasie.</l>
+               </sp>
+            </div>
+            <div type="scene" n="13">
+               <head>SCÈNE XIII. Olimpie sous le nom d'Aspasie, Sspadarille, Cléandre, Aalcidor, Cascaret.</head>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE sous le nom d'Aspasie.</speaker>
+                     <l n="467" part="F">À présent pour vous plaire</l>
+                     <l n="468">Sur ce que j'ai promis je vous viens satisfaire.</l>
+                     <l n="469">Je puis voir Olimpie, et je suis sur le point</l>
+                     <l n="470" part="I">De lui rendre.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="470" part="F">À présent, vous ne la verrez point,</l>
+                     <l n="471">Vous voilà ce me semble assez bien attrapée.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, sous le nom d'Aspasie.</speaker>
+                     <l n="472">Vous rendez en effet mon attente trompée,</l>
+                     <l n="473">Me manquer de parole, et depuis un instant.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="474">Olimpie en un mot, ne vous aime pas tant,</l>
+                     <l n="475">Si vous ne m'en croyez pas, demandez à Cléandre.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, sous le nom d'Aspasie.</speaker>
+                     <l n="476" part="I">Quel sujet aurait-elle.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="476" part="F">Il pourra vous l'apprendre.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="477" part="I">Lors.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="477" part="F">De vous écouter je n'ai pas le loisir,</l>
+                     <l n="478">Partez, ou demeurez, vous n'avez qu'à choisir.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, sous le nom d'Aspasie.</speaker>
+                     <l n="479" part="I">Et quoi.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="479" part="F">Tant de discours me font mal à la tête,</l>
+                     <l n="480" part="I">Voulez-vous partir ?</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="480" part="M">Mais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="480" part="F">Mais la Patente est prête,</l>
+                     <l n="481">Et qui plus est pour vous je la donne gratis,</l>
+                     <l n="482" part="I">Tenez.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="482" part="F">Puisqu'il vous plaît, nous voilà donc partis,</l>
+                     <l n="483">Mais si pour m'acquitter de l'excès de vos grâces</l>
+                     <l n="484" part="I">Je puis.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="484" part="F">N'affectons point d'importunes grimaces,</l>
+                     <l n="485" part="I">Si vous voulez partir, partez.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="485" part="F">Adieu Messieurs.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="486">Notre Beau-père et moi sommes vos serviteurs,</l>
+                     <l n="487" part="I">Adieu.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE, bas à Olimpie.</speaker>
+                     <l n="487" part="F">L'occasion ne peut être plus belle,</l>
+                     <l n="488" part="I">Allons.</l>
+               </sp>
+               <sp who="tc0086-CASCARET">
+                  <speaker>CASCARET.</speaker>
+                     <l n="488" part="F">Le pauvre Diable ! Il n'a plus de femelle,</l>
+                     <l n="489">Je le donne en dix coups à qui fourbera mieux.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR, bas.</speaker>
+                     <l n="490" part="I">Hâtez-vous.</l>
+               </sp>
+               <sp who="tc0086-OLIMPIE">
+                  <speaker>OLIMPIE, à Cléandre.</speaker>
+                     <l n="490" part="F">Mais mon Père, il fait signe des yeux,</l>
+                     <l n="491">S'il n'est hors de ses mains, mon souci n'est pas moindre.</l>
+               </sp>
+               <sp who="tc0086-CLEANDRE">
+                  <speaker>CLÉANDRE.</speaker>
+                     <l n="492">N'es soyez point en peine, il saura nous rejoindre,</l>
+                     <l n="493">Nous avons rendez-vous, et j'en suis avoué,</l>
+                     <l n="494" part="I">Allons.</l>
+                  <stage>Ils s'en vont.</stage>
+               </sp>
+            </div>
+            <div type="scene" n="14">
+               <head>SCÈNE XIV. Spadarille, Alcidor.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, fort joyeux.</speaker>
+                     <l n="494" part="F">De tout ceci le bon Dieu soit loué !</l>
+                     <l n="495">J'ai hors du pied, Beau-père, une vilaine épine ;</l>
+                     <l n="496">De me tromper Cléandre avait toute la mine,</l>
+                     <l n="497">Il faisait tout exprès le petit complaisant ;</l>
+                     <l n="498">Dieu sait si votre fille est joyeuse à présent.</l>
+                     <l n="499">Et si, loin de l'objet, qui lui porte bissêtre,</l>
+                  <ab>********************
+    </ab>
+                  <l n="500">Ses transports d'allégresse auront lieu de paraître !</l>
+                     <l n="501">Du départ de Cléandre allons la réjouir,</l>
+                     <l n="502" part="I">Allons.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR, bas.</speaker>
+                     <l n="502" part="F">De son erreur je le laisse jouir,</l>
+                     <l n="503" part="I">Mais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, à haute voix.</speaker>
+                     <l n="503" part="F">Il n'est plus ici ce Cléandre, Ma Mie,</l>
+                     <l n="504" part="I">Venez, venez.</l>
+                  <stage>Voyant qu'elle ne répond pas.</stage>
+                     <l n="504" part="F">Beau-père ; elle s'est rendormie.</l>
+                     <l n="505">Je ne la vis jamais si souvent sommeiller ;</l>
+                     <l n="506">Mais entrons l'un et l'autre, et l'allons réveiller,</l>
+                     <l n="507">Loin d'en être marrie, elle aura de la joie,</l>
+                     <l n="508" part="I">Entrons.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR, bas</speaker>
+                     <l n="508" part="F">De me venger je découvre une voie ;</l>
+                     <l n="509" part="I">Je tiens.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="509" part="M">Sus, Beau-père, entrez donc.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="509" part="F">Ah ! Monsieur,</l>
+                     <l n="510" part="I">Je sais trop.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="510" part="F">Je sais trop qu'on me doit de l'honneur,</l>
+                     <l n="511" part="I">Mais entrez.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="511" part="F">Moi commettre une faute si grande !</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="512" part="I">Entrez, vous dis-je.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="512" part="M">Mais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="512" part="F">Mais je vous le commande.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="513" part="I">De grâce.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="513" part="F">Obéissez, Courtisan mal éclos.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="514" part="I">Monsieur.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="514" part="F">S'il en fait rien qu'on me brise les os.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="515">Ce que je suis, Monsieur, me permet de vous rendre.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="516">Vous êtes mon Beau-père, et je suis votre Gendre,</l>
+                     <l n="517">Avec vos pieds de veau, passez donc.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="518" part="I">Si jamais.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="518" part="F">Sans tant dire de si, ni de car, ni de mais,</l>
+                     <l n="519">Courtois souple jarret qui semblez par bravade</l>
+                     <l n="520">Pour me faire enrager vouloir faire gambade,</l>
+                     <l n="521" part="I">Entrez.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="521" part="F">Mais quand je songe aux respects que je dois.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="522">Respectueux Beau-père, entrez donc après moi,</l>
+                     <l n="523">Puisqu'en vos sentiments vous demeurez si ferme.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="524">Un cadenas sans clef aisément se referme,</l>
+                     <l n="525" part="I">Il est pris.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, dedans la chambre.</speaker>
+                     <l n="525" part="M">Suivez donc.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="525" part="F">Je n'ai pas le loisir.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="526" part="I">Vous m'enfermez !</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="526" part="M">D'accord.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="526" part="M">Pourquoi ?</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="526" part="F">Pour mon plaisir.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="527">Ah trigaud malfaisant, si je sors je te jure.</l>
+                  <ab>******
+</ab>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="528">Tu ne sortiras pas, c'est moi qui t'en assure ;</l>
+                     <l n="529">Mais sans tenir ici d'inutiles propos,</l>
+                     <l n="530">Tu peux par ta fenêtre écouter quatre mots.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, à sa fenêtre.</speaker>
+                     <l n="531">Exécrable Barbon que ne puis-je descendre,</l>
+                     <l n="532" part="I">Tu verras.</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="532" part="F">Olimpie est aux mains de Cléandre,</l>
+                     <l n="533">Mais de quelques désirs dont il soit combattu,</l>
+                     <l n="534">Il est trop généreux pour fouiller sa vertu.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="535">Gueux par moi revêtu, que Dieu puisse confondre,</l>
+                     <l n="536" part="I">En ses mains !</l>
+               </sp>
+               <sp who="tc0086-ALCIDOR">
+                  <speaker>ALCIDOR.</speaker>
+                     <l n="536" part="F">En ses mains, et je puis t'en répondre,</l>
+                     <l n="537">Mais l'horrible défaut que chacun connaît bien,</l>
+                     <l n="538">Pour rompre un mariage est un trop sûr moyen.</l>
+                     <l n="539">La cruelle fureur dont tu l'as poursuivie,</l>
+                     <l n="540">De l'ôter des mains m'a fait naître l'ennui ;</l>
+                     <l n="541">Et si j'ai des regrets le plus rude de tous,</l>
+                     <l n="542">Est de voir qu'un barbare ait le titre d'époux.</l>
+                     <l n="543">En entrant le premier tu m'as mis hors de peine,</l>
+                     <l n="544" part="I">Adieu.</l>
+               </sp>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE.</speaker>
+                     <l n="544" part="F">Tu t'en vas donc, Marchand de Chair humaine,</l>
+                     <l n="545" part="I">Au voleur, au voleur.</l>
+               </sp>
+            </div>
+            <div type="scene" n="15">
+               <head>SCÈNE XV ET DERNIÈRE.</head>
+               <sp who="tc0086-SPADARILLE">
+                  <speaker>SPADARILLE, à sa fenêtre.</speaker>
+                     <l n="545" part="F">Le traître est échappé,</l>
+                     <l n="546">Il court comme un beau Diable, et je suis attrapé.</l>
+                     <l n="547">Jamais futé Renard dans sa propre tanière,</l>
+                     <l n="548">Se vit-il enfermé de semblable manière ?</l>
+                     <l n="549">Et peut-on en finesse égaler ce Grison,</l>
+                     <l n="550">Qui m'enlève sa fille, et me met en prison ?</l>
+                     <l n="551">Si la meilleure femme en malice est féconde,</l>
+                     <l n="552">Peuples qui m'écoutez, laissez périr le Monde ;</l>
+                     <l n="553">Et disant à ce sexe un éternel adieu,</l>
+                     <l n="554">Songez que qui s'en passe est bien-aimé de Dieu.</l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

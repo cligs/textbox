@@ -1,0 +1,2885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Britannicus</title>
+            <title type="sub">Tragédie</title>
+            <title type="short">Britannicus</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">RACINE, Jean</name>
+               <name type="short">Racine</name>
+               <idno type="viaf"/>
+            </author>
+            <principal/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date>2014</date>, <idno>RACINE_BRITANNICUS</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1670</date>, <idno/>, <ref target="#"/>. À PARIS, Chez CLAUDE BARBIN, au Palais, sur le second perron de la Sainte Chapelle..</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1669</date>, <idno/>, <ref target="#"/>. Représenté la première fois le 13 décembre 1669 à l'Hôtel de Bourgogne.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Tragédie</term>
+               <term type="structure">cinq actes</term>
+               <term type="form">vers</term>
+               <term type="period">1661-1670</term>
+               <term type="taille">1750-2000</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>ACTEURS</head>
+            <castItem>
+               <role xml:id="tc0656-NERON">NÉRON</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-BRITANNICUS">BRITANNICUS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-AGRIPPINE">AGRIPPINE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-JUNIE">JUNIE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-BURRHUS">BURRHUS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-NARCISSE">NARCISSE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-ALBINE">ALBINE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0656-GARDES">GARDES</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La scène est à Rome, dans une chambre du palais de Néron.</p>
+         </set>
+      </front>
+      <body>
+         <div type="acte" n="1">
+            <head>ACTE I</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Agrippine, Albine.</head>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="1">Quoi ! Tandis que Néron s'abandonne au sommeil,</l>
+	                 <l n="2">Faut-il que vous veniez attendre son réveil ?</l>
+	                 <l n="3">Qu'errant dans le palais sans suite et sans escorte</l>
+	                 <l n="4">La mère de César veille seule à sa porte ?</l>
+	                 <l n="5">Madame, retournez dans votre appartement. </l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="6">Albine, il ne faut pas s'éloigner un moment.</l>
+	                 <l n="7">Je veux l'attendre ici. Les chagrins qu'il me cause</l>
+	                 <l n="8">M'occuperont assez tout le temps qu'il repose.</l>
+	                 <l n="9">Tout ce que j'ai prédit n'est que trop assuré.</l>
+                  <note>Néron [37-68] : fils d'Agrippine, empereur romain qui succède à Claude, son grand-oncle en 54. Il se suicide le 9 juin 68 à l'âge de 30 ans. </note>
+                  <note>Britannicus (Tiberius, Claudius Caesar, Germnicus) [41-55] : fils de l'empreur Claude et de Messaline. Les Annales de Tacite et la "Vie des douze Césars" de Suetone décrivent les événements de cette pièce.</note>
+	                 <l n="10">Contre Britannicus Néron s'est déclaré. </l>
+	                 <l n="11">L'impatient Néron cesse de se contraindre,</l>
+	                 <l n="12">Las de se faire aimer il veut se faire craindre.</l>
+	                 <l n="13">Britannicus le gêne, Albine, et chaque jour</l>
+	                 <l n="14">Je sens que je deviens importune à mon tour.</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="15">Quoi ? Vous à qui Néron doit le jour qu'il respire ?</l>
+	                 <l n="16">Qui l'avez appelé de si loin à l'empire ?</l>
+	                 <l n="17">Vous qui déshéritant le fils de Claudius,</l>
+	                 <l n="18">Avez nommé César l'heureux Domitius ?</l>
+	                 <l n="19">Tout lui parle, Madame, en faveur d'Agrippine.</l>
+	                 <l n="20" part="I">Il vous doit son amour.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="20" part="F">Il me le doit, Albine. </l>
+	                 <l n="21">Tout s'il est généreux lui prescrit cette loi.</l>
+	                 <l n="22">Mais tout, s'il est ingrat, lui parle contre moi.</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="23">S'il est ingrat, Madame ; ah ! Toute sa conduite</l>
+	                 <l n="24">Marque dans son devoir une âme trop instruite.</l>
+	                 <l n="25">Depuis trois ans entiers qu'a-t-il dit, qu'a-t-il fait, </l>
+	                 <l n="26">Qui ne promette à Rome un empereur parfait ?</l>
+	                 <l n="27">Rome depuis deux ans par ses soins gouvernée</l>
+	                 <l n="28">Au temps de ses consuls croit être retournée,</l>
+	                 <l n="29">Il la gouverne en père. Enfin Néron naissant</l>
+	                 <l n="30">A toutes les vertus d'Auguste vieillissant. </l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="31">Non, non, mon intérêt ne me rend point injuste ;</l>
+	                 <l n="32">Il commence, il est vrai, par où finit Auguste.</l>
+	                 <l n="33">Mais crains, que l'avenir détruisant le passé,</l>
+	                 <l n="34">Il ne finisse ainsi qu'Auguste a commencé.</l>
+	                 <l n="35">Il se déguise en vain. Je lis sur son visage</l>
+	                 <l n="36">Des fiers Domitius l'humeur triste, et sauvage.</l>
+	                 <l n="37">Il mêle avec l'orgueil, qu'il a pris dans leur sang,</l>
+	                 <l n="38">La fierté des Nérons, qu'il puisa dans mon flanc.</l>
+	                 <l n="39">Toujours la tyrannie a d'heureuses prémices.</l>
+	                 <l n="40">De Rome pour un temps Caïus fut les délices, </l>
+	                 <l n="41">Mais sa feinte bonté se tournant en fureur,</l>
+	                 <l n="42">Les délices de Rome en devinrent l'horreur.</l>
+	                 <l n="43">Que m'importe, après tout, que Néron plus fidèle</l>
+	                 <l n="44">D'une longue vertu laisse un jour le modèle ?</l>
+	                 <l n="45">Ai-je mis dans sa main le timon de l'État, </l>
+	                 <l n="46">Pour le conduire au gré du peuple et du Sénat ?</l>
+	                 <l n="47">Ah ! Que de la patrie il soit, s'il veut, le père.</l>
+	                 <l n="48">Mais qu'il songe un peu plus qu'Agrippine est sa mère.</l>
+	                 <l n="49">De quel nom cependant pouvons nous appeler</l>
+	                 <l n="50">L'attentat que le jour vient de nous révéler ?</l>
+	                 <l n="51">Il sait, car leur amour ne peut être ignorée,</l>
+	                 <l n="52">Que de Britannicus Junie est adorée :</l>
+	                 <l n="53">Et ce même Néron que la vertu conduit,</l>
+	                 <l n="54">Fait enlever Junie au milieu de la nuit.</l>
+	                 <l n="55">Que veut-il ? Est-ce haine, est-ce amour qui l'inspire ?</l>
+	                 <l n="56">Cherche-t-il seulement le plaisir de leur nuire ?</l>
+	                 <l n="57">Ou plutôt n'est-ce point que sa malignité</l>
+	                 <l n="58">Punit sur eux l'appui que je leur ai prêté ?</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="59" part="I">Vous leur appui, Madame ?</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="59" part="F">Arrête, chère Albine.</l>
+	                 <l n="60">Je sais, que j'ai moi seule avancé leur ruine, </l>
+	                 <l n="61">Que du trône, où le sang l'a dû faire monter</l>
+	                 <l n="62">Britannicus par moi s'est vu précipiter.</l>
+	                 <l n="63">Par moi seule éloigné de l'hymen d'Octavie,</l>
+	                 <l n="64">Le frère de Junie abandonna la vie,</l>
+	                 <l n="65">Silanus, sur qui Claude avait jeté les yeux, </l>
+	                 <l n="66">Et qui comptait Auguste au rang de ses aïeux.</l>
+	                 <l n="67">Néron jouit de tout, et moi pour récompense</l>
+	                 <l n="68">Il faut qu'entre eux et lui je tienne la balance,</l>
+	                 <l n="69">Afin que quelque jour par une même loi</l>
+	                 <l n="70">Britannicus la tienne entre mon fils et moi. </l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="71" part="I">Quel dessein !</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="71" part="F">Je m'assure un port dans la tempête.</l>
+	                 <l n="72">Néron m'échappera si ce frein ne l'arrête.</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="73">Mais prendre contre un fils tant de soins superflus ?</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="74">Je le craindrais bientôt, s'il ne me craignait plus.</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="75">Une injuste frayeur vous alarme peut-être. </l>
+	                 <l n="76">Mais si Néron pour vous n'est plus ce qu'il doit être,</l>
+	                 <l n="77">Du moins son changement ne vient pas jusqu'à nous,</l>
+	                 <l n="78">Et ce sont des secrets entre César et vous.</l>
+	                 <l n="79">Quelques titres nouveaux que Rome lui défère,</l>
+	                 <l n="80">Néron n'en reçoit point qu'il ne donne à sa mère. </l>
+	                 <l n="81">Sa prodigue amitié ne se réserve rien.</l>
+	                 <l n="82">Votre nom est dans Rome aussi saint que le sien.</l>
+	                 <l n="83">À peine parle-t-on de la triste Octavie.</l>
+	                 <l n="84">Auguste votre aïeul honora moins Livie.</l>
+	                 <l n="85">Néron devant sa mère a permis le premier</l>
+	                 <l n="86">Qu'on portât les faisceaux couronnés de laurier.</l>
+	                 <l n="87">Quels effets voulez-vous de sa reconnaissance ?</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="88">Un peu moins de respect, et plus de confiance.</l>
+	                 <l n="89">Tous ces présents, Albine, irritent mon dépit.</l>
+	                 <l n="90">Je vois mes honneurs croître, et tomber mon crédit. </l>
+	                 <l n="91">Non non, le temps n'est plus que Néron jeune encore</l>
+	                 <l n="92">Me renvoyait les voeux d'une cour, qui l'adore ;</l>
+	                 <l n="93">Lorsqu'il se reposait sur moi de tout l'État,</l>
+	                 <l n="94">Que mon ordre au palais assemblait le Sénat,</l>
+	                 <l n="95">Et que derrière un voile, invisible, et présente</l>
+	                 <l n="96">J'étais de ce grand corps l'âme toute puissante.</l>
+	                 <l n="97">Des volontés de Rome alors mal assuré,</l>
+	                 <l n="98">Néron de sa grandeur n'était point enivré.</l>
+	                 <l n="99">Ce jour, ce triste jour frappe encor ma mémoire,</l>
+	                 <l n="100">Où Néron fut lui-même ébloui de sa gloire, </l>
+	                 <l n="101">Quand les ambassadeurs de tant de rois divers</l>
+	                 <l n="102">Vinrent le reconnaître au nom de l'univers.</l>
+	                 <l n="103">Sur son trône avec lui j'allais prendre ma place.</l>
+	                 <l n="104">J'ignore quel conseil prépara ma disgrâce :</l>
+	                 <l n="105">Quoi qu'il en soit, Néron d'aussi loin qu'il me vit</l>
+	                 <l n="106">Laissa sur son visage éclater son dépit.</l>
+	                 <l n="107">Mon coeur même en conçut un malheureux augure.</l>
+	                 <l n="108">L'ingrat d'un faux respect colorant son injure,</l>
+	                 <l n="109">Se leva par avance, et courant m'embrasser,</l>
+	                 <l n="110">Il m'écarta du trône, où je m'allais placer. </l>
+	                 <l n="111">Depuis ce coup fatal, le pouvoir d'Agrippine</l>
+	                 <l n="112">Vers sa chute, à grands pas, chaque jour s'achemine.</l>
+	                 <l n="113">L'ombre seule m'en reste, et l'on n'implore plus</l>
+	                 <l n="114">Que le nom de Sénèque, et l'appui de Burrhus.</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="115">Ah ! Si de ce soupçon votre âme est prévenue, </l>
+	                 <l n="116">Pourquoi nourrissez-vous le venin qui vous tue ?</l>
+	                 <l n="117">Daignez avec César vous éclaircir du moins.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="118">César ne me voit plus, Albine, sans témoins.</l>
+	                 <l n="119">En public, à mon heure, on me donne audience.</l>
+	                 <l n="120">Sa réponse est dictée, et même son silence. </l>
+	                 <l n="121">Je vois deux surveillants, ses maîtres, et les miens,</l>
+	                 <l n="122">Présider l'un ou l'autre à tous nos entretiens.</l>
+	                 <l n="123">Mais je le poursuivrai d'autant plus qu'il m'évite.</l>
+	                 <l n="124">De son désordre, Albine, il faut que je profite.</l>
+	                 <l n="125">J'entends du bruit, on ouvre, allons subitement</l>
+	                 <l n="126">Lui demander raison de cet enlèvement.</l>
+	                 <l n="127">Surprenons, s'il se peut, les secrets de son âme.</l>
+	                 <l n="128" part="I">Mais quoi ? Déjà Burrhus sort de chez lui ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Agrippine, Burrhus, Albine.</head>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="128" part="F">Madame,</l>
+	                 <l n="129">Au nom de l'empereur j'allais vous informer</l>
+	                 <l n="130">D'un ordre, qui d'abord a pu vous alarmer, </l>
+	                 <l n="131">Mais qui n'est que l'effet d'une sage conduite,</l>
+	                 <l n="132">Dont César a voulu que vous soyez instruite.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="133">Puisqu'il le veut, entrons, il m'en instruira mieux.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="134">César pour quelque temps s'est soustrait à nos yeux.</l>
+	                 <l n="135">Déjà par une porte au public moins connue, </l>
+	                 <l n="136">L'un et l'autre consul vous avaient prévenue,</l>
+	                 <l n="137">Madame. Mais souffrez que je retourne exprès...</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="138">Non, je ne trouble point ses augustes secrets.</l>
+	                 <l n="139">Cependant voulez-vous qu'avec moins de contrainte</l>
+	                 <l n="140">L'un et l'autre une fois nous parlions sans feinte ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="141">Burrhus pour le mensonge eut toujours trop d'horreur.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="142">Prétendez-vous longtemps me cacher l'empereur ?</l>
+	                 <l n="143">Ne le verrai-je plus qu'à titre d'importune ?</l>
+	                 <l n="144">Ai-je donc élevé si haut votre fortune,</l>
+	                 <l n="145">Pour mettre une barrière entre mon fils et moi ?</l>
+	                 <l n="146">Ne l'osez-vous laisser un moment sur sa foi ?</l>
+	                 <l n="147">Entre Sénèque et vous disputez-vous la gloire</l>
+	                 <l n="148">À qui m'effacera plus tôt de sa mémoire ?</l>
+	                 <l n="149">Vous l'ai-je confié pour en faire un ingrat ?</l>
+	                 <l n="150">Pour être sous son nom les maîtres de l'État ?</l>
+	                 <l n="151">Certes plus je médite, et moins je me figure</l>
+	                 <l n="152">Que vous m'osiez compter pour votre créature,</l>
+	                 <l n="153">Vous dont j'ai pu laisser vieillir l'ambition</l>
+	                 <l n="154">Dans les honneurs obscurs de quelque légion,</l>
+	                 <l n="155">Et moi qui sur le trône ai suivi mes ancêtres, </l>
+	                 <l n="156">Moi fille, femme, soeur, et mère de vos maîtres.</l>
+	                 <l n="157">Que prétendez-vous donc ? Pensez-vous que ma voix</l>
+	                 <l n="158">Ait fait un empereur pour m'en imposer trois ?</l>
+	                 <l n="159">Néron n'est plus enfant. N'est-il pas temps qu'il règne ?</l>
+	                 <l n="160">Jusqu'à quand voulez-vous que l'empereur vous craigne ?</l>
+	                 <l n="161">Ne saurait-il rien voir, qu'il n'emprunte vos yeux ?</l>
+	                 <l n="162">Pour se conduire enfin n'a-t-il pas ses aïeux ?</l>
+	                 <l n="163">Qu'il choisisse s'il veut, d'Auguste, ou de Tibère.</l>
+	                 <l n="164">Qu'il imite s'il peut, Germanicus mon père.</l>
+	                 <l n="165">Parmi tant de héros je n'ose me placer. </l>
+	                 <l n="166">Mais il est des vertus que je lui puis tracer.</l>
+	                 <l n="167">Je puis l'instruire au moins, combien sa confidence</l>
+	                 <l n="168">Entre un sujet et lui doit laisser de distance.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="169">Je ne m'étais chargé dans cette occasion,</l>
+	                 <l n="170">Que d'excuser César d'une seule action. </l>
+	                 <l n="171">Mais puisque sans vouloir que je le justifie,</l>
+	                 <l n="172">Vous me rendez garant du reste de sa vie,</l>
+	                 <l n="173">Je répondrai, Madame, avec la liberté</l>
+	                 <l n="174">D'un soldat, qui sait mal farder la vérité.</l>
+	                 <l n="175">Vous m'avez de César confié la jeunesse, </l>
+	                 <l n="176">Je l'avoue, et je dois m'en souvenir sans cesse.</l>
+	                 <l n="177">Mais vous avais-je fait serment de le trahir,</l>
+	                 <l n="178">D'en faire un empereur, qui ne sût qu'obéir ?</l>
+	                 <l n="179">Non. Ce n'est plus à vous qu'il faut que j'en réponde.</l>
+	                 <l n="180">Ce n'est plus votre fils. C'est le maître du monde. </l>
+	                 <l n="181">J'en dois compte, Madame, à l'empire romain,</l>
+	                 <l n="182">Qui croit voir son salut, ou sa perte en ma main.</l>
+	                 <l n="183">Ah ! Si dans l'ignorance il le fallait instruire,</l>
+	                 <l n="184">N'avait-on que Sénèque, et moi pour le séduire ?</l>
+	                 <l n="185">Pourquoi de sa conduite éloigner les flatteurs ?</l>
+	                 <l n="186">Fallait-il dans l'exil chercher des corrupteurs ?</l>
+	                 <l n="187">La cour de Claudius en esclaves fertile,</l>
+	                 <l n="188">Pour deux que l'on cherchait en eût présenté mille,</l>
+	                 <l n="189">Qui tous auraient brigué l'honneur de l'avilir.</l>
+	                 <l n="190">Dans une longue enfance ils l'auraient fait vieillir. </l>
+	                 <l n="191">De quoi vous plaignez-vous, Madame ? On vous révère. </l>
+	                 <l n="192">Ainsi que par César, on jure par sa mère.</l>
+	                 <l n="193">L'empereur, il est vrai, ne vient plus chaque jour</l>
+	                 <l n="194">Mettre à vos pieds l'empire, et grossir votre cour.</l>
+	                 <l n="195">Mais le doit-il, Madame ? Et sa reconnaissance</l>
+	                 <l n="196">Ne peut-elle éclater que dans sa dépendance ?</l>
+	                 <l n="197">Toujours humble, toujours le timide Néron</l>
+	                 <l n="198">N'ose-t-il être Auguste, et César que de nom ?</l>
+	                 <l n="199">Vous le dirai-je enfin ? Rome le justifie.</l>
+	                 <l n="200">Rome à trois affranchis si longtemps asservie, </l>
+	                 <l n="201">À peine respirant du joug qu'elle a porté,</l>
+	                 <l n="202">Du règne de Néron compte sa liberté.</l>
+	                 <l n="203">Que dis-je ? La vertu semble même renaître.</l>
+	                 <l n="204">Tout l'empire n'est plus la dépouille d'un maître.</l>
+	                 <l n="205">Le peuple au champ de Mars nomme ses magistrats ; </l>
+	                 <l n="206">César nomme les chefs sur la foi des soldats.</l>
+	                 <l n="207">Thraséas au Sénat, Corbulon dans l'armée,</l>
+	                 <l n="208">Sont encore innocents, malgré leur renommée.</l>
+	                 <l n="209">Les déserts autrefois peuplés de sénateurs</l>
+	                 <l n="210">Ne sont plus habités que par leurs délateurs. </l>
+	                 <l n="211">Qu'importe que César continue à nous croire,</l>
+	                 <l n="212">Pourvu que nos conseils ne tendent qu'à sa gloire ?</l>
+	                 <l n="213">Pourvu que dans le cours d'un règne florissant</l>
+	                 <l n="214">Rome soit toujours libre, et César tout-puissant ?</l>
+	                 <l n="215">Mais, Madame, Néron, suffit pour se conduire. </l>
+	                 <l n="216">J'obéis, sans prétendre à l'honneur de l'instruire.</l>
+	                 <l n="217">Sur ses aïeux sans doute il n'a qu'à se régler.</l>
+	                 <l n="218">Pour bien faire, Néron n'a qu'à se ressembler :</l>
+	                 <l n="219">Heureux, si ses vertus l'une à l'autre enchaînées</l>
+	                 <l n="220">Ramènent tous les ans ses premières années !</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="221">Ainsi sur l'avenir n'osant vous assurer</l>
+	                 <l n="222">Vous croyez que sans vous Néron va s'égarer.</l>
+	                 <l n="223">Mais vous, qui jusqu'ici content de votre ouvrage,</l>
+	                 <l n="224">Venez de ses vertus nous rendre témoignage,</l>
+	                 <l n="225">Expliquez-nous, pourquoi devenu ravisseur</l>
+	                 <l n="226">Néron de Silanus fait enlever la soeur.</l>
+	                 <l n="227">Ne tient-il qu'à marquer de cette ignominie</l>
+	                 <l n="228">Le sang de mes aïeux, qui brille dans Junie ?</l>
+	                 <l n="229">De quoi l'accuse-t-il ? Et par quel attentat</l>
+	                 <l n="230">Devient-elle en un jour criminelle d'État ?</l>
+	                 <l n="231">Elle, qui sans orgueil jusqu'alors élevée,</l>
+	                 <l n="232">N'aurait point vu Néron, s'il ne l'eût enlevée,</l>
+	                 <l n="233">Et qui même aurait mis au rang de ses bienfaits</l>
+	                 <l n="234">L'heureuse liberté de ne le voir jamais.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="235">Je sais que d'aucun crime elle n'est soupçonnée. </l>
+	                 <l n="236">Mais jusqu'ici César ne l'a point condamnée,</l>
+	                 <l n="237">Madame, aucun objet ne blesse ici ses yeux.</l>
+	                 <l n="238">Elle est dans un palais tout plein de ses aïeux. </l>
+	                 <l n="239">Vous savez que les droits qu'elle porte avec elle</l>
+	                 <l n="240">Peuvent de son époux faire un prince rebelle, </l>
+	                 <l n="241">Que le sang de César ne se doit allier </l>
+	                 <l n="242">Qu'à ceux à qui César le veut bien confier ;</l>
+	                 <l n="243">Et vous-même avouerez qu'il ne serait pas juste,</l>
+	                 <l n="244">Qu'on disposât sans lui de la nièce d'Auguste.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="245">Je vous entends. Néron m'apprend par votre voix</l>
+	                 <l n="246">Qu'en vain Britannicus s'assure sur mon choix.</l>
+	                 <l n="247">En vain pour détourner ses yeux de sa misère,</l>
+	                 <l n="248">J'ai flatté son amour d'un hymen qu'il espère.</l>
+	                 <l n="249">À ma confusion Néron veut faire voir</l>
+	                 <l n="250">Qu'Agrippine promet par delà son pouvoir. </l>
+	                 <l n="251">Rome de ma faveur est trop préoccupée,</l>
+	                 <l n="252">Il veut par cet affront qu'elle soit détrompée,</l>
+	                 <l n="253">Et que tout l'univers apprenne avec terreur</l>
+	                 <l n="254">À ne confondre plus mon fils et l'empereur.</l>
+	                 <l n="255">Il le peut. Toutefois j'ose encore lui dire</l>
+	                 <l n="256">Qu'il doit avant ce coup affermir son empire,</l>
+	                 <l n="257">Et qu'en me réduisant à la nécessité </l>
+	                 <l n="258">D'éprouver contre lui ma faible autorité,</l>
+	                 <l n="259">Il expose la sienne, et que dans la balance </l>
+	                 <l n="260">Mon nom peut-être aura plus de poids qu'il ne pense. </l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="261">Quoi Madame ? Toujours soupçonner son respect ?</l>
+	                 <l n="262">Ne peut-il faire un pas qui ne vous soit suspect ?</l>
+	                 <l n="263">L'empereur vous croit-il du parti de Junie ?</l>
+	                 <l n="264">Avec Britannicus vous croit-il réunie ?</l>
+	                 <l n="265">Quoi ! De vos ennemis devenez-vous l'appui</l>
+	                 <l n="266">Pour trouver un prétexte à vous plaindre de lui ?</l>
+	                 <l n="267">Sur le moindre discours qu'on pourra vous redire, </l>
+	                 <l n="268">Serez-vous toujours prête à partager l'empire ?</l>
+	                 <l n="269">Vous craindrez-vous sans cesse, et vos embrassements</l>
+	                 <l n="270">Ne se passeront-ils qu'en éclaircissements ?</l>
+	                 <l n="271">Ah ! Quittez d'un censeur la triste diligence.</l>
+	                 <l n="272">D'une mère facile affectez l'indulgence.</l>
+	                 <l n="273">Souffrez quelques froideurs sans les faire éclater.</l>
+	                 <l n="274">Et n'avertissez point la cour de vous quitter.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="275">Et qui s'honorerait de l'appui d'Agrippine </l>
+	                 <l n="276">Lorsque Néron lui-même annonce ma ruine ?</l>
+	                 <l n="277">Lorsque de sa présence il semble me bannir ?</l>
+	                 <l n="278">Quand Burrhus à sa porte ose me retenir ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="279">Madame, je vois bien qu'il est temps de me taire, </l>
+	                 <l n="280">Et que ma liberté commence à vous déplaire. </l>
+	                 <l n="281">La douleur est injuste, et toutes les raisons</l>
+	                 <l n="282">Qui ne la flattent point aigrissent ses soupçons.</l>
+	                 <l n="283">Voici Britannicus. Je lui cède ma place.</l>
+	                 <l n="284">Je vous laisse écouter, et plaindre sa disgrâce,</l>
+	                 <l n="285">Et peut-être, Madame, en accuser les soins</l>
+	                 <l n="286">De ceux que l'empereur a consultés le moins.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Agrippine, Britannicus, Narcisse, Albine.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="287">Ah, Prince ! Où courez-vous ? Quelle ardeur inquiète</l>
+	                 <l n="288">Parmi vos ennemis en aveugle vous jette ?</l>
+	                 <l n="289" part="I">Que venez-vous chercher ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="289" part="F">Ce que je cherche ? Ah dieux !</l>
+	                 <l n="290">Tout ce que j'ai perdu, Madame, est en ces lieux. </l>
+	                 <l n="291">De mille affreux soldats Junie environnée</l>
+	                 <l n="292">S'est vue en ce palais indignement traînée.</l>
+	                 <l n="293">Hélas ! De quelle horreur ses timides esprits</l>
+	                 <l n="294">À ce nouveau spectacle auront été surpris !</l>
+	                 <l n="295">Enfin on me l'enlève. Une loi trop sévère </l>
+	                 <l n="296">Va séparer deux coeurs qu'assemblait leur misère.</l>
+	                 <l n="297">Sans doute on ne veut pas que mêlant nos douleurs</l>
+	                 <l n="298">Nous nous aidions l'un l'autre à porter nos malheurs.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="299">Il suffit. Comme vous je ressens vos injures.</l>
+	                 <l n="300">Mes plaintes ont déjà précédé vos murmures.</l>
+	                 <l n="301">Mais je ne prétends pas qu'un impuissant courroux</l>
+	                 <l n="302">Dégage ma parole, et m'acquitte envers vous.</l>
+	                 <l n="303">Je ne m'explique point. Si vous voulez m'entendre,</l>
+	                 <l n="304">Suivez-moi chez Pallas, où je vais vous attendre.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Britannicus, Narcisse.</head>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="305">La croirai-je, Narcisse ? Et dois-je sur sa foi</l>
+	                 <l n="306">La prendre pour arbitre entre son fils et moi ?</l>
+	                 <l n="307">Qu'en dis-tu ? N'est-ce pas cette même Agrippine,</l>
+	                 <l n="308">Que mon père épousa jadis pour ma ruine,</l>
+	                 <l n="309">Et qui, si je t'en crois, a de ses derniers jours</l>
+	                 <l n="310">Trop lents pour ses desseins précipité le cours ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="311">N'importe. Elle se sent comme vous outragée.</l>
+	                 <l n="312">À vous donner Junie elle s'est engagée.</l>
+	                 <l n="313">Unissez vos chagrins, liez vos intérêts.</l>
+	                 <l n="314">Ce palais retentit en vain de vos regrets.</l>
+	                 <l n="315">Tandis qu'on vous verra d'une voix suppliante, </l>
+	                 <l n="316">Semer ici la plainte, et non pas l'épouvante,</l>
+	                 <l n="317">Que vos ressentiments se perdront en discours, </l>
+	                 <l n="318">Il n'en faut point douter, vous vous plaindrez toujours.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="319">Ah ! Narcisse ! Tu sais si de la servitude</l>
+	                 <l n="320">Je prétends faire encore une longue habitude. </l>
+	                 <l n="321">Tu sais si pour jamais de ma chute étonné</l>
+	                 <l n="322">Je renonce à l'empire, où j'étais destiné.</l>
+	                 <l n="323">Mais je suis seul encor. Les amis de mon père</l>
+	                 <l n="324">Sont autant d'inconnus que glace ma misère.</l>
+	                 <l n="325">Et ma jeunesse même écarte loin de moi</l>
+	                 <l n="326">Tous ceux qui dans le coeur me réservent leur foi. </l>
+	                 <l n="327">Pour moi depuis un an, qu'un peu d'expérience</l>
+	                 <l n="328">M'a donné de mon sort la triste connaissance,</l>
+	                 <l n="329">Que vois-je autour de moi, que des amis vendus</l>
+	                 <l n="330">Qui sont de tous mes pas les témoins assidus, </l>
+	                 <l n="331">Qui choisis par Néron pour ce commerce infâme</l>
+	                 <l n="332">Trafiquent avec lui des secrets de mon âme ?</l>
+	                 <l n="333">Quoi qu'il en soit, Narcisse, on me vend tous les jours.</l>
+	                 <l n="334">Il prévoit mes desseins, il entend mes discours.</l>
+	                 <l n="335">Comme toi dans mon coeur il sait ce qui se passe. </l>
+	                 <l n="336" part="I">Que t'en semble, Narcisse ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="336" part="F">Ah ? Quelle âme assez basse... </l>
+	                 <l n="337">C'est à vous de choisir des confidents discrets,</l>
+	                 <l n="338">Seigneur, et de ne pas prodiguer vos secrets.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="339">Narcisse, tu dis vrai. Mais cette défiance </l>
+	                 <l n="340">Est toujours d'un grand coeur la dernière science. </l>
+	                 <l n="341">On le trompe longtemps. Mais enfin, je te crois.</l>
+	                 <l n="342">Ou plutôt je fais voeu de ne croire que toi. </l>
+	                 <l n="343">Mon père, il m'en souvient, m'assura de ton zèle.</l>
+	                 <l n="344">Seul de ses affranchis tu m'es toujours fidèle.</l>
+	                 <l n="345">Tes yeux sur ma conduite incessamment ouverts</l>
+	                 <l n="346">M'ont sauvé jusqu'ici de mille écueils couverts.</l>
+	                 <l n="347">Va donc voir si le bruit de ce nouvel orage</l>
+	                 <l n="348">Aura de nos amis excité le courage.</l>
+	                 <l n="349">Examine leurs yeux. Observe leurs discours.</l>
+	                 <l n="350">Vois si j'en puis attendre un fidèle secours. </l>
+	                 <l n="351">Surtout dans ce palais remarque avec adresse</l>
+	                 <l n="352">Avec quel soin Néron fait garder la princesse.</l>
+	                 <l n="353">Sache si du péril ses beaux yeux sont remis,</l>
+	                 <l n="354">Et si son entretien m'est encore permis.</l>
+	                 <l n="355">Cependant de Néron je vais trouver la mère</l>
+	                 <l n="356">Chez Pallas comme toi l'affranchi de mon père.</l>
+	                 <l n="357">Je vais la voir, l'aigrir, la suivre, et s'il se peut</l>
+	                 <l n="358">M'engager sous son nom plus loin qu'elle ne veut.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="2">
+            <head>ACTE II</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Néron, Burrhus, Narcisse, Gardes.</head>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="359">N'en doutez point, Burrhus ; malgré ses injustices</l>
+	                 <l n="360">C'est ma mère, et je veux ignorer ses caprices. </l>
+	                 <l n="361">Mais je ne prétends plus ignorer ni souffrir</l>
+	                 <l n="362">Le ministre insolent qui les ose nourrir.</l>
+	                 <l n="363">Pallas de ses conseils empoisonne ma mère ;</l>
+	                 <l n="364">Il séduit chaque jour Britannicus mon frère,</l>
+	                 <l n="365">Ils l'écoutent tout seul, et qui suivrait leurs pas </l>
+	                 <l n="366">Les trouverait peut-être assemblés chez Pallas.</l>
+	                 <l n="367">C'en est trop. De tous deux il faut que je l'écarte.</l>
+	                 <l n="368">Pour la dernière fois, qu'il s'éloigne, qu'il parte :</l>
+	                 <l n="369">Je le veux, je l'ordonne ; et que la fin du jour</l>
+	                 <l n="370">Ne le retrouve pas dans Rome, ou dans ma cour. </l>
+	                 <l n="371">Allez, cet ordre importe au salut de l'empire.</l>
+	                 <l n="372">Vous, Narcisse, approchez. Et vous, qu'on se retire.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Néron, Narcisse.</head>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="373">Grâces aux dieux, Seigneur, Junie entre vos mains</l>
+	                 <l n="374">Vous assure aujourd'hui du reste des Romains.</l>
+	                 <l n="375">Vos ennemis déchus de leur vaine espérance</l>
+	                 <l n="376">Sont allés chez Pallas pleurer leur impuissance.</l>
+	                 <l n="377">Mais que vois-je ? Vous-même inquiet, étonné, </l>
+	                 <l n="378">Plus que Britannicus paraissez consterné.</l>
+	                 <l n="379">Que présage à mes yeux cette tristesse obscure,</l>
+	                 <l n="380">Et ces sombres regards errants à l'aventure ?</l>
+	                 <l n="381">Tout vous rit. La fortune obéit à vos voeux.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="382">Narcisse, c'en est fait. Néron est amoureux.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="383" part="I">Vous ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="383" part="F">Depuis un moment, mais pour toute ma vie.</l>
+	                 <l n="384">J'aime (que dis-je aimer ?) j'idolâtre Junie.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="385" part="I">Vous l'aimez ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="385" part="F">Excité d'un désir curieux</l>
+	                 <l n="386">Cette nuit je l'ai vue arriver en ces lieux,</l>
+	                 <l n="387">Triste, levant au ciel ses yeux mouillés de larmes,</l>
+	                 <l n="388">Qui brillaient au travers des flambeaux et des armes.</l>
+	                 <l n="389">Belle, sans ornements, dans le simple appareil</l>
+	                 <l n="390">D'une beauté qu'on vient d'arracher au sommeil. </l>
+	                 <l n="391">Que veux-tu ? Je ne sais si cette négligence,</l>
+	                 <l n="392">Les ombres, les flambeaux, les cris, et le silence,</l>
+	                 <l n="393">Et le farouche aspect de ses fiers ravisseurs</l>
+	                 <l n="394">Relevaient de ses yeux les timides douceurs.</l>
+	                 <l n="395">Quoi qu'il en soit, ravi d'une si belle vue, </l>
+	                 <l n="396">J'ai voulu lui parler et ma voix s'est perdue ;</l>
+	                 <l n="397">Immobile, saisi d'un long étonnement</l>
+	                 <l n="398">Je l'ai laissé passer dans son appartement.</l>
+	                 <l n="399">J'ai passé dans le mien. C'est là que solitaire</l>
+	                 <l n="400">De son image en vain j'ai voulu me distraire. </l>
+	                 <l n="401">Trop présente à mes yeux je croyais lui parler.</l>
+	                 <l n="402">J'aimais jusqu'à ses pleurs que je faisais couler.</l>
+	                 <l n="403">Quelquefois, mais trop tard, je lui demandais grâce.</l>
+	                 <l n="404">J'employais les soupirs, et même la menace.</l>
+	                 <l n="405">Voilà comme occupé de mon nouvel amour </l>
+	                 <l n="406">Mes yeux sans se fermer ont attendu le jour.</l>
+	                 <l n="407">Mais je m'en fais peut-être une trop belle image.</l>
+	                 <l n="408">Elle m'est apparue avec trop d'avantage,</l>
+	                 <l n="409" part="I">Narcisse, qu'en dis-tu ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="409" part="F">Quoi, Seigneur ! Croira-t-on</l>
+	                 <l n="410">Qu'elle ait pu si longtemps se cacher à Néron ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="411">Tu le sais bien, Narcisse. Et soit que sa colère</l>
+	                 <l n="412">M'imputât le malheur qui lui ravit son frère,</l>
+	                 <l n="413">Soit que son coeur jaloux d'une austère fierté</l>
+	                 <l n="414">Enviât à nos yeux sa naissante beauté,</l>
+	                 <l n="415">Fidèle à sa douleur, et dans l'ombre enfermée</l>
+	                 <l n="416">Elle se dérobait même à sa renommée ;</l>
+	                 <l n="417">Et c'est cette vertu si nouvelle à la cour</l>
+	                 <l n="418">Dont la persévérance irrite mon amour.</l>
+	                 <l n="419">Quoi Narcisse ? Tandis qu'il n'est point de Romaine</l>
+	                 <l n="420">Que mon amour n'honore et ne rende plus vaine, </l>
+	                 <l n="421">Qui dès qu'à ses regards elle ose se fier</l>
+	                 <l n="422">Sur le coeur de César ne les vienne essayer ;</l>
+	                 <l n="423">Seule dans son palais la modeste Junie</l>
+	                 <l n="424">Regarde leurs honneurs comme une ignominie ;</l>
+	                 <l n="425">Fuit, et ne daigne pas peut-être s'informer</l>
+	                 <l n="426">Si César est aimable, ou bien s'il sait aimer ?</l>
+	                 <l n="427" part="I">Dis-moi, Britannicus l'aime-t-il ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="427" part="F">Quoi ! S'il l'aime,</l>
+	                 <l n="428" part="I">Seigneur ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="428" part="F">Si jeune encor se connaît-il lui-même ?</l>
+	                 <l n="429">D'un regard enchanteur connaît-il le poison ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="430">Seigneur, l'amour toujours n'attend pas la raison. </l>
+	                 <l n="431">N'en doutez point, il l'aime. Instruits par tant de charmes</l>
+	                 <l n="432">Ses yeux sont déjà faits à l'usage des larmes.</l>
+	                 <l n="433">À ses moindres désirs il sait s'accommoder;</l>
+	                 <l n="434">Et peut-être déjà sait-il persuader.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="435">Que dis-tu ? Sur son coeur il aurait quelque empire ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="436">Je ne sais. Mais, Seigneur, ce que je puis vous dire,</l>
+	                 <l n="437">Je l'ai vu quelquefois s'arracher de ces lieux,</l>
+	                 <l n="438">Le coeur plein d'un courroux qu'il cachait à vos yeux,</l>
+	                 <l n="439">D'une cour qui le fuit pleurant l'ingratitude,</l>
+	                 <l n="440">Las de votre grandeur, et de sa servitude, </l>
+	                 <l n="441">Entre l'impatience et la crainte flottant ;</l>
+	                 <l n="442">Il allait voir Junie, et revenait content.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="443">D'autant plus malheureux qu'il aura su lui plaire,</l>
+	                 <l n="444">Narcisse, il doit plutôt souhaiter sa colère.</l>
+	                 <l n="445">Néron impunément ne sera pas jaloux. </l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="446">Vous ? Et de quoi, Seigneur, vous inquiétez-vous ?</l>
+	                 <l n="447">Junie a pu le plaindre et partager ses peines,</l>
+	                 <l n="448">Elle n'a vu couler de larmes que les siennes.</l>
+	                 <l n="449">Mais aujourd'hui, Seigneur, que ses yeux dessillés</l>
+	                 <l n="450">Regardant de plus près l'éclat dont vous brillez, </l>
+	                 <l n="451">Verront autour de vous les rois sans diadème,</l>
+	                 <l n="452">Inconnus dans la foule, et son amant lui-même,</l>
+	                 <l n="453">Attachés sur vos yeux s'honorer d'un regard</l>
+	                 <l n="454">Que vous aurez sur eux fait tomber au hasard ;</l>
+	                 <l n="455">Quand elle vous verra de ce degré de gloire, </l>
+	                 <l n="456">Venir en soupirant avouer sa victoire,</l>
+	                 <l n="457">Maître, n'en doutez point, d'un coeur déjà charmé</l>
+	                 <l n="458">Commandez qu'on vous aime, et vous serez aimé.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="459">À combien de chagrins il faut que je m'apprête !</l>
+	                 <l n="460" part="I">Que d'importunités !</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="460" part="F">Quoi donc ? Qui vous arrête, </l>
+	                 <l n="461" part="I">Seigneur ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="461" part="F">Tout. Octavie, Agrippine, Burrhus,</l>
+	                 <l n="462">Sénèque, Rome entière, et trois ans de vertus.</l>
+	                 <l n="463">Non que pour Octavie un reste de tendresse</l>
+	                 <l n="464">M'attache à son hymen, et plaigne sa jeunesse.</l>
+	                 <l n="465">Mes yeux depuis longtemps fatigués de ses soins, </l>
+	                 <l n="466">Rarement de ses pleurs daignent être témoins.</l>
+	                 <l n="467">Trop heureux si bientôt la faveur d'un divorce,</l>
+	                 <l n="468">Me soulageait d'un joug qu'on m'imposa par force.</l>
+	                 <l n="469">Le ciel même en secret semble la condamner.</l>
+	                 <l n="470">Ses voeux depuis quatre ans ont beau l'importuner. </l>
+	                 <l n="471">Les dieux ne montrent point que sa vertu les touche.</l>
+	                 <l n="472">D'aucun gage, Narcisse, ils n'honorent sa couche,</l>
+	                 <l n="473">L'empire vainement demande un héritier.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="474">Que tardez-vous, Seigneur, à la répudier ?</l>
+	                 <l n="475">L'empire, votre coeur, tout condamne Octavie. </l>
+	                 <l n="476">Auguste votre aïeul soupirait pour Livie ;</l>
+	                 <l n="477">Par un double divorce ils s'unirent tous deux,</l>
+	                 <l n="478">Et vous devez l'empire à ce divorce heureux.</l>
+	                 <l n="479">Tibère, que l'hymen plaça dans sa famille,</l>
+	                 <l n="480">Osa bien à ses yeux répudier sa fille. </l>
+	                 <l n="481">Vous seul jusques ici contraire à vos désirs</l>
+	                 <l n="482">N'osez par un divorce assurer vos plaisirs.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="483">Et ne connais-tu pas l'implacable Agrippine ?</l>
+	                 <l n="484">Mon amour inquiet déjà se l'imagine,</l>
+	                 <l n="485">Qui m'amène Octavie, et d'un oeil enflammé</l>
+	                 <l n="486">Atteste les saints droits d'un noeud qu'elle a formé ;</l>
+	                 <l n="487">Et portant à mon coeur des atteintes plus rudes,</l>
+	                 <l n="488">Me fait un long récit de mes ingratitudes.</l>
+	                 <l n="489">De quel front soutenir ce fâcheux entretien ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="490">N'êtes-vous pas, Seigneur, votre maître et le sien ?</l>
+	                 <l n="491">Vous verrons-nous toujours trembler sous sa tutelle ?</l>
+	                 <l n="492">Vivez, régnez pour vous. C'est trop régner pour elle.</l>
+	                 <l n="493">Craignez-vous ? Mais, Seigneur, vous ne la craignez pas.</l>
+	                 <l n="494">Vous venez de bannir le superbe Pallas,</l>
+	                 <l n="495">Pallas, dont vous savez qu'elle soutient l'audace. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="496">Éloigné de ses yeux j'ordonne, je menace,</l>
+	                 <l n="497">J'écoute vos conseils, j'ose les approuver,</l>
+	                 <l n="498">Je m'excite contre elle et tâche à la braver.</l>
+	                 <l n="499">Mais (je t'expose ici mon âme toute nue)</l>
+	                 <l n="500">Sitôt que mon malheur me ramène à sa vue, </l>
+	                 <l n="501">Soit que je n'ose encor démentir le pouvoir</l>
+	                 <l n="502">De ces yeux, où j'ai lu si longtemps mon devoir,</l>
+	                 <l n="503">Soit qu'à tant de bienfaits ma mémoire fidèle,</l>
+	                 <l n="504">Lui soumette en secret tout ce que je tiens d'elle :</l>
+	                 <l n="505">Mais enfin mes efforts ne me servent de rien, </l>
+	                 <l n="506">Mon génie étonné tremble devant le sien.</l>
+	                 <l n="507">Et c'est pour m'affranchir de cette dépendance,</l>
+	                 <l n="508">Que je la fuis partout, que même je l'offense,</l>
+	                 <l n="509">Et que de temps en temps j'irrite ses ennuis</l>
+	                 <l n="510">Afin qu'elle m'évite autant que je la fuis. </l>
+	                 <l n="511">Mais je t'arrête trop. Retire-toi, Narcisse.</l>
+	                 <l n="512">Britannicus pourrait t'accuser d'artifice.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="513">Non, non, Britannicus s'abandonne à ma foi.</l>
+	                 <l n="514">Par son ordre, Seigneur il croit que je vous vois.</l>
+	                 <l n="515">Que je m'informe ici de tout ce qui le touche, </l>
+	                 <l n="516">Et veut de vos secrets être instruit par ma bouche.</l>
+	                 <l n="517">Impatient surtout de revoir ses amours</l>
+	                 <l n="518">Il attend de mes soins ce fidèle secours.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="519">J'y consens : porte-lui cette douce nouvelle.</l>
+	                 <l n="520" part="I">Il la verra.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="520" part="F">Seigneur, bannissez-le loin d'elle. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="521">J'ai mes raisons, Narcisse, et tu peux concevoir,</l>
+	                 <l n="522">Que je lui vendrai cher le plaisir de la voir.</l>
+	                 <l n="523">Cependant vante-lui ton heureux stratagème.</l>
+	                 <l n="524">Dis-lui qu'en sa faveur on me trompe moi-même.</l>
+	                 <l n="525">Qu'il la voit sans mon ordre. On ouvre, la voici. </l>
+	                 <l n="526">Va retrouver ton maître et l'amener ici.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Néron, Junie.</head>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="527">Vous vous troublez, Madame, et changez de visage.</l>
+	                 <l n="528">Lisez-vous dans mes yeux quelque triste présage ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="529">Seigneur, je ne vous puis déguiser mon erreur.</l>
+	                 <l n="530">J'allais voir Octavie, et non pas l'empereur. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="531">Je le sais bien, Madame, et n'ai pu sans envie</l>
+	                 <l n="532">Apprendre vos bontés pour l'heureuse Octavie.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="533" part="I">Vous Seigneur ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="533" part="F">Pensez-vous, Madame, qu'en ces lieux</l>
+	                 <l n="534">Seule pour vous connaître Octavie ait des yeux ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="535">Et quel autre, Seigneur ? Voulez-vous que j'implore !</l>
+	                 <l n="536">À qui demanderai-je un crime que j'ignore ?</l>
+	                 <l n="537">Vous qui le punissez, vous ne l'ignorez pas.</l>
+	                 <l n="538">De grâce, apprenez-moi, Seigneur, mes attentats.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="539">Quoi Madame ! Est-ce donc une légère offense</l>
+	                 <l n="540">De m'avoir si longtemps caché votre présence ?</l>
+	                 <l n="541">Ces trésors dont le ciel voulut vous embellir,</l>
+	                 <l n="542">Les avez-vous reçus pour les ensevelir ?</l>
+	                 <l n="543">L'heureux Britannicus verra-t-il sans alarmes</l>
+	                 <l n="544">Croître loin de nos yeux son amour et vos charmes ?</l>
+	                 <l n="545">Pourquoi de cette gloire exclus jusqu'à ce jour, </l>
+	                 <l n="546">M'avez-vous sans pitié relégué dans ma cour ?</l>
+	                 <l n="547">On dit plus : vous souffrez sans en être offensée</l>
+	                 <l n="548">Qu'il vous ose, Madame, expliquer sa pensée.</l>
+	                 <l n="549">Car je ne croirai point que sans me consulter</l>
+	                 <l n="550">La sévère Junie ait voulu le flatter, </l>
+	                 <l n="551">Ni qu'elle ait consenti d'aimer et d'être aimée,</l>
+	                 <l n="552">Sans que j'en sois instruit que par la renommée.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="553">Je ne vous nierai point, Seigneur, que ses soupirs</l>
+	                 <l n="554">M'ont daigné quelquefois expliquer ses désirs.</l>
+	                 <l n="555">Il n'a point détourné ses regards d'une fille, </l>
+	                 <l n="556">Seul reste du débris d'une illustre famille.</l>
+	                 <l n="557">Peut-être il se souvient qu'en un temps plus heureux </l>
+	                 <l n="558">Son père me nomma pour l'objet de ses voeux.</l>
+	                 <l n="559">Il m'aime. Il obéit à l'empereur son père,</l>
+	                 <l n="560">Et j'ose dire encore, à vous, à votre mère : </l>
+	                 <l n="561">Vos désirs sont toujours si conformes aux siens...</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="562">Ma mère a ses desseins, Madame, et j'ai les miens.</l>
+	                 <l n="563">Ne parlons plus ici de Claude, et d'Agrippine.</l>
+	                 <l n="564">Ce n'est point par leur choix que je me détermine.</l>
+	                 <l n="565">C'est à moi seul, Madame, à répondre de vous; </l>
+	                 <l n="566">Et je veux de ma main vous choisir un époux.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="567">Ah, Seigneur, songez-vous que toute autre alliance,</l>
+	                 <l n="568">Fera honte aux Césars auteurs de ma naissance ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="569">Non, Madame, l'époux dont je vous entretiens</l>
+	                 <l n="570">Peut sans honte assembler vos aïeux et les siens. </l>
+	                 <l n="571">Vous pouvez, sans rougir, consentir à sa flamme.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="572" part="I">Et quel est donc, Seigneur, cet époux ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="572" part="F">Moi, Madame.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="573" part="I">Vous ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="573" part="F">Je vous nommerais, Madame un autre nom,</l>
+	                 <l n="574">Si j'en savais quelque autre au dessus de Néron.</l>
+	                 <l n="575">Oui, pour vous faire un choix, où vous puissiez souscrire, </l>
+	                 <l n="576">J'ai parcouru des yeux la cour, Rome, et l'empire.</l>
+	                 <l n="577">Plus j'ai cherché, Madame, et plus je cherche encor</l>
+	                 <l n="578">En quelles mains je dois confier ce trésor :</l>
+	                 <l n="579">Plus je vois que César digne seul de vous plaire</l>
+	                 <l n="580">En doit être lui seul l'heureux dépositaire, </l>
+	                 <l n="581">Et ne peut dignement vous confier qu'aux mains,</l>
+	                 <l n="582">À qui Rome a commis l'empire des humains.</l>
+	                 <l n="583">Vous-même consultez vos premières années.</l>
+	                 <l n="584">Claudius à son fils les avait destinées,</l>
+	                 <l n="585">Mais c'était en un temps où de l'empire entier</l>
+	                 <l n="586">Il croyait quelque jour le nommer l'héritier.</l>
+	                 <l n="587">Les dieux ont prononcé. Loin de leur contredire, </l>
+	                 <l n="588">C'est à vous de passer du côté de l'empire.</l>
+	                 <l n="589">En vain de ce présent ils m'auraient honoré,</l>
+	                 <l n="590">Si votre coeur devait en être séparé ;</l>
+	                 <l n="591">Si tant de soins ne sont adoucis par vos charmes ;</l>
+	                 <l n="592">Si tandis que je donne aux veilles, aux alarmes,</l>
+	                 <l n="593">Des jours toujours à plaindre, et toujours enviés, </l>
+	                 <l n="594">Je ne vais quelquefois respirer à vos pieds</l>
+	                 <l n="595">Qu'Octavie à vos yeux ne fasse point d'ombrage. </l>
+	                 <l n="596">Rome aussi bien que moi vous donne son suffrage,</l>
+	                 <l n="597">Répudie Octavie, et me fait dénouer</l>
+	                 <l n="598">Un hymen que le ciel ne veut point avouer.</l>
+	                 <l n="599">Songez-y donc, Madame, et pesez en vous-même</l>
+	                 <l n="600">Ce choix digne des soins d'un prince qui vous aime ; </l>
+	                 <l n="601">Digne de vos beaux yeux trop longtemps captivés,</l>
+	                 <l n="602">Digne de l'univers à qui vous vous devez.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="603">Seigneur, avec raison je demeure étonnée.</l>
+	                 <l n="604">Je me vois dans le cours d'une même journée</l>
+	                 <l n="605">Comme une criminelle amenée en ces lieux : </l>
+	                 <l n="606">Et lorsque avec frayeur je parais à vos yeux,</l>
+	                 <l n="607">Que sur mon innocence à peine je me fie,</l>
+	                 <l n="608">Vous m'offrez tout d'un coup la place d'Octavie.</l>
+	                 <l n="609">J'ose dire pourtant que je n'ai mérité</l>
+	                 <l n="610">Ni cet excès d'honneur, ni cette indignité. </l>
+	                 <l n="611">Et pouvez-vous, Seigneur, souhaiter qu'une fille</l>
+	                 <l n="612">Qui vit presque en naissant éteindre sa famille,</l>
+	                 <l n="613">Qui dans l'obscurité nourrissant sa douleur</l>
+	                 <l n="614">S'est fait une vertu conforme à son malheur ;</l>
+	                 <l n="615">Passe subitement de cette nuit profonde</l>
+	                 <l n="616">Dans un rang qui l'expose aux yeux de tout le monde ;</l>
+	                 <l n="617">Dont je n'ai pu de loin soutenir la clarté,</l>
+	                 <l n="618">Et dont une autre enfin remplit la majesté ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="619">Je vous ai déjà dit que je la répudie.</l>
+	                 <l n="620">Ayez moins de frayeur, ou moins de modestie. </l>
+	                 <l n="621">N'accusez point ici mon choix d'aveuglement.</l>
+	                 <l n="622">Je vous réponds de vous, consentez seulement.</l>
+	                 <l n="623">Du sang dont vous sortez rappelez la mémoire,</l>
+	                 <l n="624">Et ne préférez point à la solide gloire</l>
+	                 <l n="625">Des honneurs dont César prétend vous revêtir, </l>
+	                 <l n="626">La gloire d'un refus, sujet au repentir.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="627">Le ciel connaît, Seigneur, le fond de ma pensée.</l>
+	                 <l n="628">Je ne me flatte point d'une gloire insensée.</l>
+	                 <l n="629">Je sais de vos présents mesurer la grandeur.</l>
+	                 <l n="630">Mais plus ce rang sur moi répandrait de splendeur</l>
+	                 <l n="631">Plus il me ferait honte et mettrait en lumière</l>
+	                 <l n="632">Le crime d'en avoir dépouillé l'héritière.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="633">C'est de ses intérêts prendre beaucoup de soin,</l>
+	                 <l n="634">Madame, et l'amitié ne peut aller plus loin.</l>
+	                 <l n="635">Mais ne nous flattons point, et laissons le mystère. </l>
+	                 <l n="636">La soeur vous touche ici beaucoup moins que le frère,</l>
+	                 <l n="637" part="I">Et pour Britannicus...</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="637" part="F">Il a su me toucher,</l>
+	                 <l n="638">Seigneur, et je n'ai point prétendu m'en cacher.</l>
+	                 <l n="639">Cette sincérité sans doute est peu discrète ;</l>
+	                 <l n="640">Mais toujours de mon coeur ma bouche est l'interprète. </l>
+	                 <l n="641">Absente de la cour je n'ai pas dû penser,</l>
+	                 <l n="642">Seigneur, qu'en l'art de feindre il fallût m'exercer.</l>
+	                 <l n="643">J'aime Britannicus. Je lui fus destinée</l>
+	                 <l n="644">Quand l'empire devait suivre son hyménée. </l>
+	                 <l n="645">Mais ces mêmes malheurs qui l'en ont écarté, </l>
+	                 <l n="646">Ses honneurs abolis, son palais déserté,</l>
+	                 <l n="647">La fuite d'une cour que sa chute a bannie,</l>
+	                 <l n="648">Sont autant de liens qui retiennent Junie.</l>
+	                 <l n="649">Tout ce que vous voyez conspire à vos désirs,</l>
+	                 <l n="650">Vos jours toujours sereins coulent dans les plaisirs. </l>
+	                 <l n="651">L'empire en est pour vous l'inépuisable source,</l>
+	                 <l n="652">Ou si quelque chagrin en interrompt la course,</l>
+	                 <l n="653">Tout l'univers soigneux de les entretenir</l>
+	                 <l n="654">S'empresse à l'effacer de votre souvenir.</l>
+	                 <l n="655">Britannicus est seul. Quelque ennui qui le presse</l>
+	                 <l n="656">Il ne voit dans son sort que moi qui s'intéresse ;</l>
+	                 <l n="657">Et n'a pour tous plaisirs, Seigneur, que quelques pleurs</l>
+	                 <l n="658">Qui lui font quelquefois oublier ses malheurs.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="659">Et ce sont ces plaisirs, et ces pleurs que j'envie,</l>
+	                 <l n="660">Que tout autre que lui me paierait de sa vie. </l>
+	                 <l n="661">Mais je garde à ce prince un traitement plus doux.</l>
+	                 <l n="662">Madame, il va bientôt paraître devant vous.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="663">Ah, Seigneur, vos vertus m'ont toujours rassurée.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="664">Je pouvais de ces lieux lui défendre l'entrée.</l>
+	                 <l n="665">Mais, Madame, je veux prévenir le danger, </l>
+	                 <l n="666">Où son ressentiment le pourrait engager.</l>
+	                 <l n="667">Je ne veux point le perdre. Il vaut mieux que lui-même</l>
+	                 <l n="668">Entende son arrêt de la bouche qu'il aime.</l>
+	                 <l n="669">Si ses jours vous sont chers, éloignez-le de vous</l>
+	                 <l n="670">Sans qu'il ait aucun lieu de me croire jaloux. </l>
+	                 <l n="671">De son bannissement prenez sur vous l'offense,</l>
+	                 <l n="672">Et soit par vos discours, soit par votre silence,</l>
+	                 <l n="673">Du moins par vos froideurs faites-lui concevoir </l>
+	                 <l n="674">Qu'il doit porter ailleurs ses voeux et son espoir.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="675">Moi ! Que je lui prononce un arrêt si sévère !</l>
+	                 <l n="676">Ma bouche mille fois lui jura le contraire.</l>
+	                 <l n="677">Quand même jusque-là je pourrais me trahir :</l>
+	                 <l n="678">Mes yeux lui défendront, Seigneur, de m'obéir.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="679">Caché près de ces lieux je vous verrai, Madame :</l>
+	                 <l n="680">Renfermez votre amour dans le fond de votre âme. </l>
+	                 <l n="681">Vous n'aurez point pour moi de langages secrets.</l>
+	                 <l n="682">J'entendrai des regards que vous croirez muets</l>
+	                 <l n="683">Et sa perte sera l'infaillible salaire</l>
+	                 <l n="684">D'un geste, ou d'un soupir échappé pour lui plaire.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="685">Hélas ! Si j'ose encor former quelques souhaits, </l>
+	                 <l n="686">Seigneur, permettez-moi de ne le voir jamais.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Néron, Junie, Narcisse.</head>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="687">Britannicus, Seigneur, demande la princesse.</l>
+	                 <l n="688" part="I">Il approche.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="688" part="M">Qu'il vienne.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="688" part="M">Ah Seigneur !</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="688" part="F">Je vous laisse.</l>
+	                 <l n="689">Sa fortune dépend de vous plus que de moi.</l>
+	                 <l n="690">Madame, en le voyant, songez que je vous vois. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Junie, Narcisse.</head>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="691">Ah, cher Narcisse ! Cours au-devant de ton maître.</l>
+	                 <l n="692">Dis-lui... Je suis perdue, et je le vois paraître.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Junie, Britannicus, Narcisse.</head>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="693">Madame, quel bonheur me rapproche de vous ?</l>
+	                 <l n="694">Quoi ! Je puis donc jouir d'un entretien si doux ?</l>
+	                 <l n="695">Mais parmi ce plaisir quel chagrin me dévore !</l>
+	                 <l n="696">Hélas ! Puis-je espérer de vous revoir encore ?</l>
+	                 <l n="697">Faut-il que je dérobe avec mille détours</l>
+	                 <l n="698">Un bonheur que vos yeux m'accordaient tous les jours ?</l>
+	                 <l n="699">Quelle nuit ! Quel réveil ! Vos pleurs, votre présence</l>
+	                 <l n="700">N'ont point de ces cruels désarmé l'insolence ?</l>
+	                 <l n="701">Que faisait votre amant ? Quel démon envieux</l>
+	                 <l n="702">M'a refusé l'honneur de mourir à vos yeux ?</l>
+	                 <l n="703">Hélas ! Dans la frayeur dont vous étiez atteinte</l>
+	                 <l n="704">M'avez-vous en secret adressé quelque plainte ?</l>
+	                 <l n="705">Ma princesse, avez-vous daigné me souhaiter ?</l>
+	                 <l n="706">Songiez-vous aux douleurs que vous m'alliez coûter ?</l>
+	                 <l n="707">Vous ne me dites rien ? Quel accueil ! Quelle glace !</l>
+	                 <l n="708">Est-ce ainsi que vos yeux consolent ma disgrâce ?</l>
+	                 <l n="709">Parlez. Nous sommes seuls. Notre ennemi trompé</l>
+	                 <l n="710">Tandis que je vous parle est ailleurs occupé. </l>
+                  <note>var. v. 711, les éditions 1676 et 1697 donnent "moyens" au lieu de "moments".</note>
+	                 <l n="711">Ménageons les moments de cette heureuse absence.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="712">Vous êtes en des lieux tout pleins de sa puissance.</l>
+                  <note>var. v. 713, les éditions 1676 et 1697 donnent "même" au lieu de "mêmes". </note>
+	                 <l n="713">Ces murs mêmes, Seigneur, peuvent avoir des yeux,</l>
+	                 <l n="714">Et jamais l'empereur n'est absent de ces lieux.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="715">Et depuis quand, Madame, êtes-vous si craintive ?</l>
+	                 <l n="716">Quoi, déjà votre amour souffre qu'on le captive ?</l>
+	                 <l n="717">Qu'est devenu ce coeur qui me jurait toujours</l>
+	                 <l n="718">De faire à Néron même envier nos amours ?</l>
+	                 <l n="719">Mais bannissez, Madame, une inutile crainte.</l>
+	                 <l n="720">La foi dans tous les coeurs n'est pas encore éteinte. </l>
+	                 <l n="721">Chacun semble des yeux approuver mon courroux :</l>
+	                 <l n="722">La mère de Néron se déclare pour nous ;</l>
+	                 <l n="723">Rome de sa conduite elle-même offensée...</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="724">Ah Seigneur ! Vous parlez contre votre pensée.</l>
+	                 <l n="725">Vous-même vous m'avez avoué mille fois</l>
+	                 <l n="726">Que Rome le louait d'une commune voix.</l>
+	                 <l n="727">Toujours à sa vertu vous rendiez quelque hommage.</l>
+	                 <l n="728">Sans doute la douleur vous dicte ce langage.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="729">Ce discours me surprend, il le faut avouer.</l>
+	                 <l n="730">Je ne vous cherchais pas pour l'entendre louer. </l>
+	                 <l n="731">Quoi, pour vous confier la douleur qui m'accable</l>
+	                 <l n="732">À peine je dérobe un moment favorable,</l>
+	                 <l n="733">Et ce moment si cher, Madame, est consumé</l>
+	                 <l n="734">À louer l'ennemi dont je suis opprimé.</l>
+	                 <l n="735">Qui vous rend à vous-même en un jour si contraire ?</l>
+	                 <l n="736">Quoi ! Même vos regards ont appris à se taire ?</l>
+	                 <l n="737">Que vois-je ? Vous craignez de rencontrer mes yeux ?</l>
+	                 <l n="738">Néron vous plairait-il ? Vous serais-je odieux ?</l>
+	                 <l n="739">Ah ! Si je le croyais... Au nom des dieux, Madame,</l>
+	                 <l n="740">Éclaircissez le trouble où vous jetez mon âme, </l>
+	                 <l n="741">Parlez. Ne suis-je plus dans votre souvenir ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="742">Retirez-vous, Seigneur, l'empereur va venir.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="743">Après ce coup, Narcisse, à qui dois-je m'attendre ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. Néron, Junie, Narcisse.</head>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="744" part="I">Madame...</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="744" part="F">Non, Seigneur, je ne puis rien entendre.</l>
+	                 <l n="745">Vous êtes obéi. Laissez couler du moins</l>
+	                 <l n="746">Des larmes dont ses yeux ne seront pas témoins.</l>
+               </sp>
+            </div>
+            <div type="scene" n="8">
+               <head>SCÈNE VIII. Néron, Narcisse.</head>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="747">Hé bien ? De leur amour tu vois la violence,</l>
+	                 <l n="748">Narcisse, elle a paru jusque dans son silence.</l>
+	                 <l n="749">Elle aime mon rival, je ne puis l'ignorer.</l>
+	                 <l n="750">Mais je mettrai ma joie à le désespérer. </l>
+	                 <l n="751">Je me fais de sa peine une image charmante,</l>
+	                 <l n="752">Et je l'ai vu douter du coeur de son amante.</l>
+	                 <l n="753">Je la suis. Mon rival t'attend pour éclater.</l>
+	                 <l n="754">Par de nouveaux soupçons, va, cours le tourmenter,</l>
+	                 <l n="755">Et tandis qu'à mes yeux on le pleure, on l'adore, </l>
+	                 <l n="756">Fais-lui payer bien cher un bonheur qu'il ignore.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE, seul.</speaker>
+	                 <l n="757">La fortune t'appelle une seconde fois,</l>
+	                 <l n="758">Narcisse, voudrais-tu résister à sa voix ?</l>
+	                 <l n="759">Suivons jusques au bout ses ordres favorables ;</l>
+	                 <l n="760">Et pour nous rendre heureux perdons les misérables. </l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="3">
+            <head>ACTE III</head>
+            <div type="scene" n="1">
+               <head>SCÈNE I. Néron, Burrhus.</head>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="761" part="I">Pallas obéira, Seigneur.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="761" part="F">Et de quel oeil </l>
+	                 <l n="762">Ma mère a-t-elle vu confondre son orgueil ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="763">Ne doutez point, Seigneur, que ce coup ne la frappe,</l>
+	                 <l n="764">Qu'en reproches bientôt sa douleur ne s'échappe.</l>
+	                 <l n="765">Ses transports dès longtemps commencent d'éclater. </l>
+	                 <l n="766">À d'inutiles cris puissent-ils s'arrêter !</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="767">Quoi ? De quelque dessein la croyez-vous capable ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="768">Agrippine, Seigneur, est toujours redoutable.</l>
+	                 <l n="769">Rome, et tous vos soldats révèrent ses aïeux,</l>
+	                 <l n="770">Germanicus son père est présent à leurs yeux. </l>
+	                 <l n="771">Elle sait son pouvoir ; vous savez son courage,</l>
+	                 <l n="772">Et ce qui me la fait redouter davantage,</l>
+	                 <l n="773">C'est que vous appuyez vous-même son courroux, </l>
+	                 <l n="774">Et que vous lui donnez des armes contre vous.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="775" part="I">Moi, Burrhus ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="775" part="F">Cet amour, Seigneur, qui vous possède... </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="776">Je vous entends, Burrhus, le mal est sans remède.</l>
+	                 <l n="777">Mon coeur s'en est plus dit que vous ne m'en direz.</l>
+	                 <l n="778" part="I">Il faut que j'aime enfin.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="778" part="F">Vous vous le figurez, </l>
+	                 <l n="779">Seigneur, et satisfait de quelque résistance</l>
+	                 <l n="780">Vous redoutez un mal faible dans sa naissance. </l>
+	                 <l n="781">Mais si dans son devoir votre coeur affermi</l>
+	                 <l n="782">Voulait ne point s'entendre avec son ennemi,</l>
+	                 <l n="783">Si de vos premiers ans vous consultiez la gloire,</l>
+	                 <l n="784">Si vous daigniez, Seigneur, rappeler la mémoire</l>
+	                 <l n="785">Des vertus d'Octavie, indignes de ce prix, </l>
+	                 <l n="786">Et de son chaste amour vainqueur de vos mépris;</l>
+	                 <l n="787">Surtout si de Junie évitant la présence</l>
+	                 <l n="788">Vous condamniez vos yeux à quelques jours d'absence,</l>
+	                 <l n="789">Croyez-moi, quelque amour qui semble vous charmer, </l>
+	                 <l n="790">On n'aime point, Seigneur, si l'on ne veut aimer. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="791">Je vous croirai, Burrhus, lorsque dans les alarmes </l>
+	                 <l n="792">Il faudra soutenir la gloire de nos armes,</l>
+	                 <l n="793">Ou lorsque plus tranquille assis dans le Sénat</l>
+	                 <l n="794">Il faudra décider du destin de l'État :</l>
+	                 <l n="795">Je m'en reposerai sur votre expérience. </l>
+	                 <l n="796">Mais, croyez-moi, l'amour est une autre science,</l>
+	                 <l n="797">Burrhus, et je ferais quelque difficulté</l>
+	                 <l n="798">D'abaisser jusque-là votre sévérité.</l>
+	                 <l n="799">Adieu, je souffre trop éloigné de Junie.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II.</head>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS, seul.</speaker>
+	                 <l n="800">Enfin, Burrhus, Néron découvre son génie. </l>
+	                 <l n="801">Cette férocité que tu croyais fléchir</l>
+	                 <l n="802">De tes faibles liens est prête à s'affranchir.</l>
+	                 <l n="803">En quels excès peut-être elle va se répandre !</l>
+	                 <l n="804">Ô dieux ! En ce malheur quel conseil dois-je prendre ?</l>
+	                 <l n="805">Sénèque, dont les soins me devraient soulager, </l>
+	                 <l n="806">Occupé loin de Rome ignore ce danger.</l>
+	                 <l n="807">Mais quoi ? Si d'Agrippine excitant la tendresse</l>
+	                 <l n="808">Je pouvais... La voici, mon bonheur me l'adresse.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Agrippine, Burrhus, Albine.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="809">Hé bien, je me trompais, Burrhus, dans mes soupçons ?</l>
+	                 <l n="810">Et vous vous signalez par d'illustres leçons. </l>
+	                 <l n="811">On exile Pallas, dont le crime peut-être</l>
+	                 <l n="812">Est d'avoir à l'empire élevé votre maître.</l>
+	                 <l n="813">Vous le savez trop bien. Jamais sans ses avis,</l>
+	                 <l n="814">Claude qu'il gouvernait n'eût adopté mon fils.</l>
+	                 <l n="815">Que dis-je ? À son épouse on donne une rivale. </l>
+	                 <l n="816">On affranchit Néron de la foi conjugale.</l>
+	                 <l n="817">Digne emploi d'un ministre, ennemi des flatteurs,</l>
+	                 <l n="818">Choisi pour mettre un frein à ses jeunes ardeurs,</l>
+	                 <l n="819">De les flatter lui-même, et nourrir dans son âme</l>
+	                 <l n="820">Le mépris de sa mère, et l'oubli de sa femme !</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="821">Madame, jusqu'ici c'est trop tôt m'accuser.</l>
+	                 <l n="822">L'empereur n'a rien fait qu'on ne puisse excuser.</l>
+	                 <l n="823">N'imputez qu'à Pallas un exil nécessaire,</l>
+	                 <l n="824">Son orgueil dès longtemps exigeait ce salaire,</l>
+	                 <l n="825">Et l'empereur ne fait qu'accomplir à regret</l>
+	                 <l n="826">Ce que toute la cour demandait en secret.</l>
+	                 <l n="827">Le reste est un malheur qui n'est point sans ressource.</l>
+	                 <l n="828">Des larmes d'Octavie on peut tarir la source.</l>
+	                 <l n="829">Mais calmez vos transports. Par un chemin plus doux</l>
+	                 <l n="830">Vous lui pourrez plus tôt ramener son époux. </l>
+	                 <l n="831">Les menaces, les cris le rendront plus farouche.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="832">Ah ! L'on s'efforce en vain de me fermer la bouche.</l>
+	                 <l n="833">Je vois que mon silence irrite vos dédains,</l>
+	                 <l n="834">Et c'est trop respecter l'ouvrage de mes mains.</l>
+	                 <l n="835">Pallas n'emporte pas tout l'appui d'Agrippine, </l>
+	                 <l n="836">Le ciel m'en laisse assez pour venger ma ruine.</l>
+	                 <l n="837">Le fils de Claudius commence à ressentir</l>
+	                 <l n="838">Des crimes, dont je n'ai que le seul repentir.</l>
+	                 <l n="839">J'irai, n'en doutez point, le montrer à l'armée,</l>
+	                 <l n="840">Plaindre aux yeux des soldats son enfance opprimée, </l>
+	                 <l n="841">Leur faire à mon exemple expier leur erreur.</l>
+	                 <l n="842">On verra d'un côté le fils d'un empereur,</l>
+	                 <l n="843">Redemandant la foi jurée à sa famille,</l>
+	                 <l n="844">Et de Germanicus on entendra la fille ;</l>
+	                 <l n="845">De l'autre l'on verra le fils d'Enobarbus, </l>
+	                 <l n="846">Appuyé de Sénèque, et du tribun Burrhus,</l>
+	                 <l n="847">Qui tous deux de l'exil rappelés par moi-même,</l>
+	                 <l n="848">Partagent à mes yeux l'autorité suprême.</l>
+	                 <l n="849">De nos crimes communs je veux qu'on soit instruit.</l>
+	                 <l n="850">On saura les chemins par où je l'ai conduit. </l>
+	                 <l n="851">Pour rendre sa puissance et la vôtre odieuses,</l>
+	                 <l n="852">J'avouerai les rumeurs les plus injurieuses.</l>
+	                 <l n="853">Je confesserai tout, exils, assassinats,</l>
+	                 <l n="854" part="I">Poison même...</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="854" part="F">Madame, ils ne vous croiront pas.</l>
+	                 <l n="855">Ils sauront récuser l'injuste stratagème</l>
+	                 <l n="856">D'un témoin irrité qui s'accuse lui-même.</l>
+	                 <l n="857">Pour moi qui le premier secondai vos desseins,</l>
+	                 <l n="858">Qui fis même jurer l'armée entre ses mains,</l>
+	                 <l n="859">Je ne me repens point de ce zèle sincère.</l>
+	                 <l n="860">Madame, c'est un fils qui succède à son père. </l>
+	                 <l n="861">En adoptant Néron, Claudius par son choix</l>
+	                 <l n="862">De son fils et du vôtre a confondu les droits.</l>
+	                 <l n="863">Rome l'a pu choisir. Ainsi sans être injuste,</l>
+	                 <l n="864">Elle choisit Tibère adopté par Auguste,</l>
+	                 <l n="865">Et le jeune Agrippa de son sang descendu</l>
+	                 <l n="866">Se vit exclus du rang vainement prétendu.</l>
+	                 <l n="867">Sur tant de fondements sa puissance établie</l>
+	                 <l n="868">Par vous-même aujourd'hui ne peut être affaiblie.</l>
+	                 <l n="869">Et s'il m'écoute encor, Madame, sa bonté</l>
+	                 <l n="870">Vous en fera bientôt perdre la volonté. </l>
+	                 <l n="871">J'ai commencé, je vais poursuivre mon ouvrage.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Agrippine, Albine.</head>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="872">Dans quel emportement la douleur vous engage, </l>
+	                 <l n="873">Madame ! L'empereur puisse-t-il l'ignorer !</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="874">Ah ! Lui-même à mes yeux puisse-t-il se montrer !</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="875">Madame, au nom des dieux, cachez votre colère. </l>
+	                 <l n="876">Quoi pour les intérêts de la soeur ou du frère</l>
+	                 <l n="877">Faut-il sacrifier le repos de vos jours ?</l>
+	                 <l n="878">Contraindrez-vous César jusque dans ses amours ?</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="879">Quoi tu ne vois donc pas jusqu'où l'on me ravale,</l>
+	                 <l n="880">Albine ? C'est à moi qu'on donne une rivale. </l>
+	                 <l n="881">Bientôt si je ne romps ce funeste lien,</l>
+	                 <l n="882">Ma place est occupée, et je ne suis plus rien.</l>
+	                 <l n="883">Jusqu'ici d'un vain titre Octavie honorée</l>
+	                 <l n="884">Inutile à la cour, en était ignorée.</l>
+	                 <l n="885">Les grâces, les honneurs par moi seule versés</l>
+	                 <l n="886">M'attiraient des mortels les voeux intéressés.</l>
+	                 <l n="887">Une autre de César a surpris la tendresse,</l>
+	                 <l n="888">Elle aura le pouvoir d'épouse et de maîtresse,</l>
+	                 <l n="889">Le fruit de tant de soins, la pompe des Césars,</l>
+	                 <l n="890">Tout deviendra le prix d'un seul de ses regards. </l>
+	                 <l n="891">Que dis-je ? L'on m'évite et déjà délaissée... </l>
+	                 <l n="892">Ah je ne puis, Albine, en souffrir la pensée. </l>
+	                 <l n="893">Quand je devrais du ciel hâter l'arrêt fatal,</l>
+	                 <l n="894">Néron, l'ingrat Néron... Mais voici son rival.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Britannicus, Agrippine, Narcisse, Albine.</head>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="895">Nos ennemis communs ne sont pas invincibles,</l>
+	                 <l n="896">Madame. Nos malheurs trouvent des coeurs sensibles.</l>
+	                 <l n="897">Vos amis et les miens jusqu'alors si secrets,</l>
+	                 <l n="898">Tandis que nous perdions le temps en vains regrets, </l>
+	                 <l n="899">Animés du courroux qu'allume l'injustice</l>
+	                 <l n="900">Viennent de confier leur douleur à Narcisse. </l>
+	                 <l n="901">Néron n'est pas encor tranquille possesseur</l>
+	                 <l n="902">De l'ingrate qu'il aime au mépris de ma soeur.</l>
+	                 <l n="903">Si vous êtes toujours sensible à son injure,</l>
+	                 <l n="904">On peut dans son devoir ramener le parjure.</l>
+	                 <l n="905">La moitié du Sénat s'intéresse pour nous. </l>
+	                 <l n="906" part="I">Sylla, Pison, Plautus...</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="906" part="F">Prince, que dites-vous ?</l>
+	                 <l n="907">Sylla, Pison, Plautus ! Les chefs de la noblesse !</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="908">Madame, je vois bien que ce discours vous blesse,</l>
+	                 <l n="909">Et que votre courroux tremblant, irrésolu,</l>
+	                 <l n="910">Craint déjà d'obtenir tout ce qu'il a voulu. </l>
+	                 <l n="911">Non, vous avez trop bien établi ma disgrâce.</l>
+	                 <l n="912">D'aucun ami pour moi ne redoutez l'audace.</l>
+	                 <l n="913">Il ne m'en reste plus, et vos soins trop prudents</l>
+	                 <l n="914">Les ont tous écartés ou séduits dès longtemps.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="915">Seigneur, à vos soupçons donnez moins de créance : </l>
+	                 <l n="916">Notre salut dépend de notre intelligence.</l>
+	                 <l n="917">J'ai promis, il suffit. Malgré vos ennemis</l>
+	                 <l n="918">Je ne révoque rien de ce que j'ai promis. </l>
+	                 <l n="919">Le coupable Néron fuit en vain ma colère.</l>
+	                 <l n="920">Tôt ou tard il faudra qu'il entende sa mère. </l>
+	                 <l n="921">J'essaierai tour à tour la force et la douceur.</l>
+	                 <l n="922">Ou moi-même avec moi conduisant votre soeur,</l>
+	                 <l n="923">J'irai semer partout ma crainte et ses alarmes,</l>
+	                 <l n="924">Et ranger tous les coeurs du parti de ses larmes.</l>
+	                 <l n="925">Adieu. J'assiégerai Néron de toutes parts. </l>
+	                 <l n="926">Vous, si vous m'en croyez, évitez ses regards.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Britannicus, Narcisse.</head>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="927">Ne m'as-tu point flatté d'une fausse espérance ?</l>
+	                 <l n="928">Puis-je sur ton récit fonder quelque assurance, </l>
+	                 <l n="929" part="I">Narcisse ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="929" part="F">Oui. Mais, Seigneur, ce n'est pas en ces lieux </l>
+	                 <l n="930">Qu'il faut développer ce mystère à vos yeux. </l>
+	                 <l n="931" part="I">Sortons. Qu'attendez-vous ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="931" part="F">Ce que j'attends, Narcisse ?</l>
+	                 <l n="932" part="I">Hélas !</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="932" part="M">Expliquez-vous.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="932" part="F">Si par ton artifice</l>
+	                 <l n="933" part="I">Je pouvais revoir...</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="933" part="M">Qui ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="933" part="F">J'en rougis. Mais enfin</l>
+	                 <l n="934">D'un coeur moins agité j'attendrais mon destin.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="935">Après tous mes discours vous la croyez fidèle ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="936">Non, je la crois, Narcisse, ingrate, criminelle, </l>
+	                 <l n="937">Digne de mon courroux. Mais je sens malgré moi</l>
+	                 <l n="938">Que je ne le crois pas autant que je le dois.</l>
+	                 <l n="939">Dans ses égarements mon coeur opiniâtre</l>
+	                 <l n="940">Lui prête des raisons, l'excuse, l'idolâtre. </l>
+	                 <l n="941">Je voudrais vaincre enfin mon incrédulité,</l>
+	                 <l n="942">Je la voudrais haïr avec tranquillité.</l>
+	                 <l n="943">Et qui croira qu'un coeur si grand en apparence,</l>
+	                 <l n="944">D'une infidèle cour ennemi dès l'enfance,</l>
+	                 <l n="945">Renonce à tant de gloire, et dès le premier jour </l>
+	                 <l n="946">Trame une perfidie inouïe à la cour ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="947">Et qui sait si l'ingrate en sa longue retraite</l>
+	                 <l n="948">N'a point de l'empereur médité la défaite ?</l>
+	                 <l n="949">Trop sûre que ses yeux ne pouvaient se cacher</l>
+	                 <l n="950">Peut-être elle fuyait pour se faire chercher, </l>
+	                 <l n="951">Pour exciter Néron par la gloire pénible</l>
+	                 <l n="952">De vaincre une fierté jusqu'alors invincible.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="953" part="I">Je ne la puis donc voir ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="953" part="F">Seigneur, en ce moment</l>
+	                 <l n="954">Elle reçoit les voeux de son nouvel amant.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="955">Hé bien, Narcisse, allons. Mais que vois-je ? C'est elle. </l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="956">Ah dieux ! À l'empereur portons cette nouvelle.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. Britannicus, Junie.</head>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="957">Retirez-vous, Seigneur, et fuyez un courroux </l>
+	                 <l n="958">Que ma persévérance allume contre vous.</l>
+	                 <l n="959">Néron est irrité. Je me suis échappée,</l>
+	                 <l n="960">Tandis qu'à l'arrêter sa mère est occupée. </l>
+	                 <l n="961">Adieu, réservez-vous, sans blesser mon amour,</l>
+	                 <l n="962">Au plaisir de me voir justifier un jour.</l>
+	                 <l n="963">Votre image sans cesse est présente à mon âme.</l>
+	                 <l n="964" part="I">Rien ne l'en peut bannir.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="964" part="F">Je vous entends, Madame,</l>
+	                 <l n="965">Vous voulez que ma fuite assure vos désirs, </l>
+	                 <l n="966">Que je laisse un champ libre à vos nouveaux soupirs.</l>
+	                 <l n="967">Sans doute en me voyant, une pudeur secrète </l>
+	                 <l n="968">Ne vous laisse goûter qu'une joie inquiète. </l>
+	                 <l n="969" part="I">Hé bien, il faut partir.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="969" part="F">Seigneur, sans m'imputer...</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="970">Ah ! Vous deviez du moins plus longtemps disputer. </l>
+	                 <l n="971">Je ne murmure point qu'une amitié commune</l>
+	                 <l n="972">Se range du parti que flatte la fortune,</l>
+	                 <l n="973">Que l'éclat d'un empire ait pu vous éblouir,</l>
+	                 <l n="974">Qu'aux dépens de ma soeur vous en vouliez jouir.</l>
+	                 <l n="975">Mais que de ces grandeurs comme une autre occupée</l>
+	                 <l n="976">Vous m'en ayez paru si longtemps détrompée ;</l>
+	                 <l n="977">Non, je l'avoue encor, mon coeur désespéré</l>
+	                 <l n="978">Contre ce seul malheur n'était point préparé.</l>
+	                 <l n="979">J'ai vu sur ma ruine élever l'injustice.</l>
+	                 <l n="980">De mes persécuteurs j'ai vu le ciel complice. </l>
+	                 <l n="981">Tant d'horreurs n'avaient point épuisé son courroux,</l>
+	                 <l n="982">Madame. Il me restait d'être oublié de vous.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="983">Dans un temps plus heureux ma juste impatience</l>
+	                 <l n="984">Vous ferait repentir de votre défiance.</l>
+	                 <l n="985">Mais Néron vous menace. En ce pressant danger, </l>
+	                 <l n="986">Seigneur, j'ai d'autres soins que de vous affliger.</l>
+	                 <l n="987">Allez, rassurez-vous, et cessez de vous plaindre,</l>
+	                 <l n="988">Néron nous écoutait, et m'ordonnait de feindre.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="989" part="I">Quoi le cruel ?...</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="989" part="F">Témoin de tout notre entretien</l>
+	                 <l n="990">D'un visage sévère examinait le mien, </l>
+	                 <l n="991">Prêt à faire sur vous éclater la vengeance</l>
+	                 <l n="992">D'un geste confident de notre intelligence.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="993">Néron nous écoutait, Madame ! Mais hélas !</l>
+	                 <l n="994">Vos yeux auraient pu feindre et ne m'abuser pas.</l>
+	                 <l n="995">Ils pouvaient me nommer l'auteur de cet outrage. </l>
+	                 <l n="996">L'amour est-il muet, ou n'a-t-il qu'un langage ?</l>
+	                 <l n="997">De quel trouble un regard pouvait me préserver ?</l>
+	                 <l n="998" part="I">Il fallait...</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="998" part="F">Il fallait me taire, et vous sauver.</l>
+	                 <l n="999">Combien de fois, hélas ! Puisqu'il faut vous le dire,</l>
+	                 <l n="1000">Mon coeur de son désordre allait-il vous instruire ?</l>
+	                 <l n="1001">De combien de soupirs interrompant le cours</l>
+	                 <l n="1002">Ai-je évité vos yeux que je cherchais toujours !</l>
+	                 <l n="1003">Quel tourment de se taire en voyant ce qu'on aime !</l>
+	                 <l n="1004">De l'entendre gémir, de l'affliger soi-même,</l>
+	                 <l n="1005">Lorsque par un regard on peut le consoler !</l>
+	                 <l n="1006">Mais quels pleurs ce regard aurait-il fait couler ?</l>
+	                 <l n="1007">Ah ! Dans ce souvenir inquiète, troublée, </l>
+	                 <l n="1008">Je ne me sentais pas assez dissimulée.</l>
+	                 <l n="1009">De mon front effrayé je craignais la pâleur.</l>
+	                 <l n="1010">Je trouvais mes regards trop pleins de ma douleur. </l>
+	                 <l n="1011">Sans cesse il me semblait que Néron en colère</l>
+	                 <l n="1012">Me venait reprocher trop de soin de vous plaire.</l>
+	                 <l n="1013">Je craignais mon amour vainement renfermé,</l>
+	                 <l n="1014">Enfin j'aurais voulu n'avoir jamais aimé.</l>
+	                 <l n="1015">Hélas ! Pour son bonheur, Seigneur, et pour le nôtre, </l>
+	                 <l n="1016">Il n'est que trop instruit de mon coeur et du vôtre.</l>
+	                 <l n="1017">Allez encore un coup, cachez-vous à ses yeux.</l>
+	                 <l n="1018">Mon coeur plus à loisir vous éclaircira mieux.</l>
+	                 <l n="1019">De mille autres secrets j'aurais compte à vous rendre.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1020">Ah ! N'en voilà que trop. C'est trop me faire entendre,</l>
+	                 <l n="1021">Madame, mon bonheur, mon crime, vos bontés. </l>
+	                 <l n="1022">Et savez-vous pour moi tout ce que vous quittez ?</l>
+	                 <l n="1023">Quand pourrai-je à vos pieds expier ce reproche ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1024">Que faites-vous ? Hélas ! Votre rival s'approche.</l>
+               </sp>
+            </div>
+            <div type="scene" n="8">
+               <head>SCÈNE VIII. Néron, Britannicus, Junie.</head>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1025">Prince, continuez des transports si charmants. </l>
+	                 <l n="1026">Je conçois vos bontés par ses remerciements,</l>
+	                 <l n="1027">Madame, à vos genoux, je viens de le surprendre.</l>
+	                 <l n="1028">Mais il aurait aussi quelque grâce à me rendre,</l>
+	                 <l n="1029">Ce lieu le favorise, et je vous y retiens</l>
+	                 <l n="1030">Pour lui faciliter de si doux entretiens... </l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1031">Je puis mettre à ses pieds ma douleur, ou ma joie,</l>
+	                 <l n="1032">Partout où sa bonté consent que je la voie.</l>
+	                 <l n="1033">Et l'aspect de ces lieux où vous la retenez,</l>
+	                 <l n="1034">N'a rien dont mes regards doivent être étonnés.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1035">Et que vous montrent-ils qui ne vous avertisse</l>
+	                 <l n="1036">Qu'il faut qu'on me respecte, et que l'on m'obéisse ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1037">Ils ne nous ont pas vu l'un et l'autre élever, </l>
+	                 <l n="1038">Moi pour vous obéir, et vous pour me braver,</l>
+	                 <l n="1039">Et ne s'attendaient pas lorsqu'ils nous virent naître,</l>
+	                 <l n="1040">Qu'un jour Domitius me dût parler en maître. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1041">Ainsi par le destin nos voeux sont traversés,</l>
+	                 <l n="1042">J'obéissais alors et vous obéissez.</l>
+	                 <l n="1043">Si vous n'avez appris à vous laisser conduire,</l>
+	                 <l n="1044">Vous êtes jeune encore et l'on peut vous instruire.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1045" part="I">Et qui m'en instruira ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1045" part="F">Tout l'empire à la fois, </l>
+	                 <l n="1046" part="I">Rome.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1046" part="F">Rome met-elle au nombre de vos droits</l>
+	                 <l n="1047">Tout ce qu'a de cruel l'injustice et la force,</l>
+	                 <l n="1048">Les emprisonnements, le rapt, et le divorce ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1049">Rome ne porte point ses regards curieux </l>
+	                 <l n="1050">Jusque dans des secrets que je cache à ses yeux. </l>
+	                 <l n="1051" part="I">Imitez son respect.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1051" part="F">On sait ce qu'elle en pense.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1052">Elle se tait du moins, imitez son silence.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1053">Ainsi Néron commence à ne se plus forcer.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1054">Néron de vos discours commence à se lasser.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1055">Chacun devait bénir le bonheur de son règne. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1056">Heureux ou malheureux, il suffit qu'on me craigne.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1057">Je connais mal Junie, ou de tels sentiments</l>
+	                 <l n="1058">Ne mériteront pas ses applaudissements.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1059">Du moins si je ne sais le secret de lui plaire,</l>
+	                 <l n="1060">Je sais l'art de punir un rival téméraire. </l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1061">Pour moi, quelque péril qui me puisse accabler,</l>
+	                 <l n="1062">Sa seule inimitié peut me faire trembler.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1063">Souhaitez-la. C'est tout ce que je vous puis dire.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1064">Le bonheur de lui plaire est le seul où j'aspire.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1065">Elle vous l'a promis, vous lui plairez toujours. </l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1066">Je ne sais pas du moins épier ses discours.</l>
+	                 <l n="1067">Je la laisse expliquer sur tout ce qui me touche,</l>
+	                 <l n="1068">Et ne me cache point pour lui fermer la bouche.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1069" part="I">Je vous entends. Hé bien, gardes !</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1069" part="F">Que faites-vous ?</l>
+	                 <l n="1070">C'est votre frère. Hélas ! C'est un amant jaloux, </l>
+	                 <l n="1071">Seigneur, mille malheurs persécutent sa vie.</l>
+	                 <l n="1072">Ah ! Son bonheur peut-il exciter votre envie ?</l>
+	                 <l n="1073">Souffrez que de vos coeurs rapprochant les liens,</l>
+	                 <l n="1074">Je me cache à vos yeux, et me dérobe aux siens.</l>
+	                 <l n="1075">Ma fuite arrêtera vos discordes fatales, </l>
+	                 <l n="1076">Seigneur, j'irai remplir le nombre des Vestales.</l>
+	                 <l n="1077">Ne lui disputez plus mes voeux infortunés,</l>
+	                 <l n="1078">Souffrez que les dieux seuls en soient importunés.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1079">L'entreprise, Madame, est étrange et soudaine.</l>
+	                 <l n="1080">Dans son appartement, gardes, qu'on la ramène. </l>
+	                 <l n="1081">Gardez Britannicus dans celui de sa soeur.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1082">C'est ainsi que Néron sait disputer un coeur.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1083">Prince, sans l'irriter, cédons à cet orage.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1084">Gardes, obéissez, sans tarder davantage.</l>
+               </sp>
+            </div>
+            <div type="scene" n="9">
+               <head>SCÈNE IX. Néron, Burrhus.</head>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1085" part="I">Que vois-je ? Ô ciel !</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON, sans voir Burrhus.</speaker>
+	                 <l n="1085" part="F">Ainsi leurs feux sont redoublés, </l>
+	                 <l n="1086">Je reconnais la main qui les a rassemblés.</l>
+	                 <l n="1087">Agrippine ne s'est présentée à ma vue,</l>
+	                 <l n="1088">Ne s'est dans ses discours si longtemps étendue,</l>
+	                 <l n="1089">Que pour faire jouer ce ressort odieux.</l>
+	                 <l n="1090">Qu'on sache si ma mère est encore en ces lieux. </l>
+	                 <l n="1091">Burrhus, dans ce palais je veux qu'on la retienne,</l>
+	                 <l n="1092">Et qu'au lieu de sa garde, on lui donne la mienne.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1093" part="I">Quoi, Seigneur ? Sans l'ouïr ? Une mère ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1093" part="F">Arrêtez.</l>
+	                 <l n="1094">J'ignore quel projet, Burrhus, vous méditez.</l>
+	                 <l n="1095">Mais depuis quelques jours tout ce que je désire </l>
+	                 <l n="1096">Trouve en vous un censeur, prêt à me contredire.</l>
+	                 <l n="1097">Répondez m'en, vous dis-je, ou sur votre refus</l>
+	                 <l n="1098">D'autres me répondront et d'elle, et de Burrhus.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="4">
+            <head>ACTE IV</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Agrippine, Burrhus.</head>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1099">Oui Madame, à loisir vous pourrez vous défendre.</l>
+	                 <l n="1100">César lui-même ici consent de vous entendre. </l>
+	                 <l n="1101">Si son ordre au palais vous a fait retenir,</l>
+	                 <l n="1102">C'est peut-être à dessein de vous entretenir.</l>
+	                 <l n="1103">Quoi qu'il en soit, si j'ose expliquer ma pensée,</l>
+	                 <l n="1104">Ne vous souvenez plus qu'il vous ait offensée.</l>
+	                 <l n="1105">Préparez-vous plutôt à lui tendre les bras. </l>
+	                 <l n="1106">Défendez-vous, Madame, et ne l'accusez pas.</l>
+	                 <l n="1107">Vous voyez, c'est lui seul que la cour envisage.</l>
+	                 <l n="1108">Quoiqu'il soit votre fils, et même votre ouvrage, </l>
+	                 <l n="1109">Il est votre empereur. Vous êtes comme nous</l>
+	                 <l n="1110">Sujette à ce pouvoir qu'il a reçu de vous. </l>
+	                 <l n="1111">Selon qu'il vous menace, ou bien qu'il vous caresse,</l>
+	                 <l n="1112">La cour autour de vous ou s'écarte, ou s'empresse.</l>
+	                 <l n="1113">C'est son appui qu'on cherche, en cherchant votre appui.</l>
+	                 <l n="1114" part="I">Mais voici l'empereur.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1114" part="F">Qu'on me laisse avec lui.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Agrippine, Néron.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE, s'asseyant.</speaker>
+	                 <l n="1115">Approchez-vous, Néron, et prenez votre place. </l>
+	                 <l n="1116">On veut sur vos soupçons que je vous satisfasse.</l>
+	                 <l n="1117">J'ignore de quel crime on a pu me noircir.</l>
+	                 <l n="1118">De tous ceux que j'ai faits je vais vous éclaircir.</l>
+	                 <l n="1119">Vous régnez. Vous savez combien votre naissance</l>
+	                 <l n="1120">Entre l'empire et vous avait mis de distance. </l>
+	                 <l n="1121">Les droits de mes aïeux que Rome a consacrés</l>
+	                 <l n="1122">Étaient même sans moi d'inutiles degrés.</l>
+	                 <l n="1123">Quand de Britannicus la mère condamnée</l>
+	                 <l n="1124">Laissa de Claudius disputer l'hyménée,</l>
+	                 <l n="1125">Parmi tant de beautés qui briguèrent son choix, </l>
+	                 <l n="1126">Qui de ses affranchis mendièrent les voix,</l>
+	                 <l n="1127">Je souhaitai son lit, dans la seule pensée</l>
+	                 <l n="1128">De vous laisser au trône, où je serais placée.</l>
+	                 <l n="1129">Je fléchis mon orgueil, j'allai prier Pallas.</l>
+	                 <l n="1130">Son maître chaque jour caressé dans mes bras</l>
+	                 <l n="1131">Prit insensiblement dans les yeux de sa nièce </l>
+	                 <l n="1132">L'amour, où je voulais amener sa tendresse,</l>
+	                 <l n="1133">Mais ce lien du sang qui nous joignait tous deux,</l>
+	                 <l n="1134">Écartait Claudius d'un lit incestueux.</l>
+	                 <l n="1135">Il n'osait épouser la fille de son frère. </l>
+	                 <l n="1136">Le Sénat fut séduit. Une loi moins sévère</l>
+	                 <l n="1137">Mit Claude dans mon lit, et Rome à mes genoux.</l>
+	                 <l n="1138">C'était beaucoup pour moi, ce n'était rien pour vous,</l>
+	                 <l n="1139">Je vous fis sur mes pas entrer dans sa famille.</l>
+	                 <l n="1140">Je vous nommai son gendre, et vous donnai sa fille. </l>
+	                 <l n="1141">Silanus, qui l'aimait, s'en vit abandonné,</l>
+	                 <l n="1142">Et marqua de son sang ce jour infortuné.</l>
+	                 <l n="1143">Ce n'était rien encor. Eussiez-vous pu prétendre</l>
+	                 <l n="1144">Qu'un jour Claude à son fils dût préférer son gendre ?</l>
+	                 <l n="1145">De ce même Pallas j'implorai le secours, </l>
+	                 <l n="1146">Claude vous adopta, vaincu par ses discours,</l>
+	                 <l n="1147">Vous appela Néron, et du pouvoir suprême</l>
+	                 <l n="1148">Voulut avant le temps vous faire part lui-même.</l>
+	                 <l n="1149">C'est alors que chacun rappelant le passé</l>
+	                 <l n="1150">Découvrit mon dessein, déjà trop avancé ; </l>
+	                 <l n="1151">Que de Britannicus la disgrâce future</l>
+	                 <l n="1152">Des amis de son père excita le murmure.</l>
+	                 <l n="1153">Mes promesses aux uns éblouirent les yeux,</l>
+	                 <l n="1154">L'exil me délivra des plus séditieux.</l>
+	                 <l n="1155">Claude même lassé de ma plainte éternelle</l>
+	                 <l n="1156">Éloigna de son fils tous ceux, de qui le zèle</l>
+	                 <l n="1157">Engagé dès longtemps à suivre son destin,</l>
+	                 <l n="1158">Pouvait du trône encor lui rouvrir le chemin.</l>
+	                 <l n="1159">Je fis plus : je choisis moi-même dans ma suite</l>
+	                 <l n="1160">Ceux à qui je voulais qu'on livrât sa conduite. </l>
+	                 <l n="1161">J'eus soin de vous nommer, par un contraire choix,</l>
+	                 <l n="1162">Des gouverneurs que Rome honorait de sa voix.</l>
+	                 <l n="1163">Je fus sourde à la brigue, et crus la renommée.</l>
+	                 <l n="1164">J'appelai de l'exil, je tirai de l'armée.</l>
+	                 <l n="1165">Et ce même Sénèque, et ce même Burrhus, </l>
+	                 <l n="1166">Qui depuis... Rome alors estimait leurs vertus.</l>
+	                 <l n="1167">De Claude en même temps épuisant les richesses</l>
+	                 <l n="1168">Ma main, sous votre nom, répandait ses largesses.</l>
+	                 <l n="1169">Les spectacles, les dons, invincibles appas</l>
+	                 <l n="1170">Vous attiraient les coeurs du peuple, et des soldats, </l>
+	                 <l n="1171">Qui d'ailleurs réveillant leur tendresse première</l>
+	                 <l n="1172">Favorisaient en vous Germanicus mon père.</l>
+	                 <l n="1173">Cependant Claudius penchait vers son déclin.</l>
+	                 <l n="1174">Ses yeux longtemps fermés s'ouvrirent à la fin.</l>
+	                 <l n="1175">Il connut son erreur. Occupé de sa crainte</l>
+	                 <l n="1176">Il laissa pour son fils échapper quelque plainte,</l>
+	                 <l n="1177">Et voulut, mais trop tard, assembler ses amis.</l>
+	                 <l n="1178">Ses gardes, son palais, son lit m'étaient soumis.</l>
+	                 <l n="1179">Je lui laissai sans fruit consumer sa tendresse,</l>
+	                 <l n="1180">De ses derniers soupirs je me rendis maîtresse, </l>
+	                 <l n="1181">Mes soins, en apparence épargnant ses douleurs,</l>
+	                 <l n="1182">De son fils, en mourant, lui cachèrent les pleurs.</l>
+	                 <l n="1183">Il mourut. Mille bruits en courent à ma honte.</l>
+	                 <l n="1184">J'arrêtai de sa mort la nouvelle trop prompte :</l>
+	                 <l n="1185">Et tandis que Burrhus allait secrètement</l>
+	                 <l n="1186">De l'armée en vos mains exiger le serment,</l>
+	                 <l n="1187">Que vous marchiez au camp, conduit sous mes auspices,</l>
+	                 <l n="1188">Dans Rome les autels fumaient de sacrifices,</l>
+	                 <l n="1189">Par mes ordres trompeurs tout le peuple excité</l>
+	                 <l n="1190">Du prince déjà mort demandait la santé. </l>
+	                 <l n="1191">Enfin des légions l'entière obéissance</l>
+	                 <l n="1192">Ayant de votre empire affermi la puissance,</l>
+	                 <l n="1193">On vit Claude, et le peuple étonné de son sort,</l>
+	                 <l n="1194">Apprit en même temps votre règne, et sa mort.</l>
+	                 <l n="1195">C'est le sincère aveu que je voulais vous faire. </l>
+	                 <l n="1196">Voilà tous mes forfaits. En voici le salaire.</l>
+	                 <l n="1197">Du fruit de tant de soins à peine jouissant</l>
+	                 <l n="1198">En avez-vous six mois paru reconnaissant,</l>
+	                 <l n="1199">Que lassé d'un respect, qui vous gênait peut-être,</l>
+	                 <l n="1200">Vous avez affecté de ne me plus connaître. </l>
+	                 <l n="1201">J'ai vu Burrhus, Sénèque, aigrissant vos soupçons,</l>
+	                 <l n="1202">De l'infidélité vous tracer des leçons,</l>
+	                 <l n="1203">Ravis d'être vaincus dans leur propre science.</l>
+	                 <l n="1204">J'ai vu favorisés de votre confiance </l>
+	                 <l n="1205">Othon, Sénécion, jeunes voluptueux, </l>
+	                 <l n="1206">Et de tous vos plaisirs flatteurs respectueux.</l>
+	                 <l n="1207">Et lorsque vos mépris excitant mes murmures,</l>
+	                 <l n="1208">Je vous ai demandé raison de tant d'injures,</l>
+	                 <l n="1209">(Seul recours d'un ingrat qui se voit confondu)</l>
+	                 <l n="1210">Par de nouveaux affronts vous m'avez répondu. </l>
+	                 <l n="1211">Aujourd'hui je promets Junie à votre frère,</l>
+	                 <l n="1212">Ils se flattent tous deux du choix de votre mère,</l>
+	                 <l n="1213">Que faites-vous ? Junie enlevée à la cour</l>
+	                 <l n="1214">Devient en une nuit l'objet de votre amour.</l>
+	                 <l n="1215">Je vois de votre coeur Octavie effacée</l>
+	                 <l n="1216">Prête à sortir du lit, où je l'avais placée.</l>
+	                 <l n="1217">Je vois Pallas banni, votre frère arrêté,</l>
+	                 <l n="1218">Vous attentez enfin jusqu'à ma liberté,</l>
+	                 <l n="1219">Burrhus ose sur moi porter ses mains hardies.</l>
+	                 <l n="1220">Et lorsque convaincu de tant de perfidies</l>
+	                 <l n="1221">Vous deviez ne me voir que pour les expier,</l>
+	                 <l n="1222">C'est vous, qui m'ordonnez de me justifier.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1223">Je me souviens toujours que je vous dois l'empire.</l>
+	                 <l n="1224">Et sans vous fatiguer du soin de le redire,</l>
+	                 <l n="1225">Votre bonté, Madame, avec tranquillité</l>
+	                 <l n="1226">Pouvait se reposer sur ma fidélité.</l>
+	                 <l n="1227">Aussi bien ces soupçons, ces plaintes assidues</l>
+	                 <l n="1228">Ont fait croire à tous ceux qui les ont entendues,</l>
+	                 <l n="1229">Que jadis (j'ose ici vous le dire entre nous)</l>
+	                 <l n="1230">Vous n'aviez sous mon nom travaillé que pour vous. </l>
+	                 <l n="1231">« Tant d'honneurs (disaient-ils) et tant de déférences</l>
+	                 <l n="1232">Sont-ce de ses bienfaits de faibles récompenses ?</l>
+	                 <l n="1233">Quel crime a donc commis ce fils tant condamné ?</l>
+	                 <l n="1234">Est-ce pour obéir qu'elle l'a couronné ?</l>
+	                 <l n="1235">N'est-il de son pouvoir que le dépositaire ? »</l>
+	                 <l n="1236">Non, que si jusque là j'avais pu vous complaire,</l>
+	                 <l n="1237">Je n'eusse pris plaisir, Madame, à vous céder</l>
+	                 <l n="1238">Ce pouvoir que vos cris semblaient redemander :</l>
+	                 <l n="1239">Mais Rome veut un maître, et non une maîtresse.</l>
+	                 <l n="1240">Vous entendiez les bruits qu'excitait ma faiblesse. </l>
+	                 <l n="1241">Le Sénat chaque jour, et le peuple irrités</l>
+	                 <l n="1242">De s'ouïr par ma voix dicter vos volontés,</l>
+	                 <l n="1243">Publiaient qu'en mourant Claude avec sa puissance</l>
+	                 <l n="1244">M'avait encor laissé sa simple obéissance.</l>
+	                 <l n="1245">Vous avez vu cent fois nos soldats en courroux</l>
+	                 <l n="1246">Porter en murmurant leurs aigles devant vous,</l>
+	                 <l n="1247">Honteux de rabaisser par cet indigne usage</l>
+	                 <l n="1248">Les héros, dont encore elles portent l'image.</l>
+	                 <l n="1249">Toute autre se serait rendue à leurs discours,</l>
+	                 <l n="1250">Mais si vous ne régnez, vous vous plaignez toujours. </l>
+	                 <l n="1251">Avec Britannicus contre moi réunie</l>
+	                 <l n="1252">Vous le fortifiez du parti de Junie,</l>
+	                 <l n="1253">Et la main de Pallas trame tous ces complots.</l>
+	                 <l n="1254">Et lorsque malgré moi, j'assure mon repos,</l>
+	                 <l n="1255">On vous voit de colère, et de haine animée. </l>
+	                 <l n="1256">Vous voulez présenter mon rival à l'armée.</l>
+	                 <l n="1257">Déjà jusques au camp le bruit en a couru.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1258">Moi le faire empereur, ingrat ? L'avez-vous cru ?</l>
+	                 <l n="1259">Quel serait mon dessein ? Qu'aurais-je pu prétendre ?</l>
+	                 <l n="1260">Quels honneurs dans sa cour, quel rang pourrais-je attendre ?</l>
+	                 <l n="1261">Ah ! Si sous votre empire on ne m'épargne pas,</l>
+	                 <l n="1262">Si mes accusateurs observent tous mes pas,</l>
+	                 <l n="1263">Si de leur empereur ils poursuivent la mère,</l>
+	                 <l n="1264">Que ferais-je au milieu d'une cour étrangère ?</l>
+	                 <l n="1265">Ils me reprocheraient, non des cris impuissants, </l>
+	                 <l n="1266">Des desseins étouffés aussitôt que naissants,</l>
+	                 <l n="1267">Mais des crimes pour vous commis à votre vue,</l>
+	                 <l n="1268">Et dont je ne serais que trop tôt convaincue.</l>
+	                 <l n="1269">Vous ne me trompez point, je vois tous vos détours,</l>
+	                 <l n="1270">Vous êtes un ingrat, vous le fûtes toujours. </l>
+	                 <l n="1271">Dès vos plus jeunes ans mes soins et mes tendresses</l>
+	                 <l n="1272">N'ont arraché de vous que de feintes caresses.</l>
+	                 <l n="1273">Rien ne vous a pu vaincre, et votre dureté</l>
+	                 <l n="1274">Aurait dû dans son cours arrêter ma bonté.</l>
+	                 <l n="1275">Que je suis malheureuse ! Et par quelle infortune </l>
+	                 <l n="1276">Faut-il que tous mes soins me rendent importune ?</l>
+	                 <l n="1277">Je n'ai qu'un fils. Ô ciel, qui m'entends aujourd'hui,</l>
+	                 <l n="1278">T'ai-je fait quelques voeux qui ne fussent pour lui ?</l>
+	                 <l n="1279">Remords, crainte, périls, rien ne m'a retenue.</l>
+	                 <l n="1280">J'ai vaincu ses mépris, j'ai détourné ma vue</l>
+	                 <l n="1281">Des malheurs qui dès lors me furent annoncés.</l>
+	                 <l n="1282">J'ai fait ce que j'ai pu, vous régnez, c'est assez.</l>
+	                 <l n="1283">Avec ma liberté, que vous m'avez ravie,</l>
+	                 <l n="1284">Si vous le souhaitez prenez encor ma vie ;</l>
+	                 <l n="1285">Pourvu que par ma mort tout le peuple irrité</l>
+	                 <l n="1286">Ne vous ravisse pas ce qui m'a tant coûté.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1287">Hé bien donc, prononcez, que voulez-vous qu'on fasse ?</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1288">De mes accusateurs qu'on punisse l'audace,</l>
+	                 <l n="1289">Que de Britannicus on calme le courroux,</l>
+	                 <l n="1290">Que Junie à son choix puisse prendre un époux, </l>
+	                 <l n="1291">Qu'ils soient libres tous deux, et que Pallas demeure,</l>
+	                 <l n="1292">Que vous me permettiez de vous voir à toute heure,</l>
+	                 <l n="1293">Que ce même Burrhus, qui nous vient écouter,</l>
+	                 <l n="1294">À votre porte enfin n'ose plus m'arrêter.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1295">Oui, Madame, je veux que ma reconnaissance</l>
+	                 <l n="1296">Désormais dans les coeurs grave votre puissance,</l>
+	                 <l n="1297">Et je bénis déjà cette heureuse froideur</l>
+	                 <l n="1298">Qui de notre amitié va rallumer l'ardeur.</l>
+	                 <l n="1299">Quoi que Pallas ait fait, il suffit, je l'oublie,</l>
+	                 <l n="1300">Avec Britannicus je me réconcilie, </l>
+	                 <l n="1301">Et quant à cet amour qui nous a séparés</l>
+	                 <l n="1302">Je vous fais notre arbitre, et vous nous jugerez.</l>
+	                 <l n="1303">Allez donc, et portez cette joie à mon frère.</l>
+	                 <l n="1304">Gardes, qu'on obéisse aux ordres de ma mère.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Néron, Burrhus.</head>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1305">Que cette paix, Seigneur, et ces embrassements</l>
+	                 <l n="1306">Vont offrir à mes yeux des spectacles charmants !</l>
+	                 <l n="1307">Vous savez si jamais ma voix lui fut contraire,</l>
+	                 <l n="1308">Si de son amitié j'ai voulu vous distraire,</l>
+	                 <l n="1309">Et si j'ai mérité cet injuste courroux.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1310">Je ne vous flatte point, je me plaignais de vous, </l>
+	                 <l n="1311">Burrhus, je vous ai crus tous deux d'intelligence.</l>
+	                 <l n="1312">Mais son inimitié vous rend ma confiance,</l>
+	                 <l n="1313">Elle se hâte trop, Burrhus, de triompher.</l>
+	                 <l n="1314">J'embrasse mon rival, mais c'est pour l'étouffer.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1315" part="I">Quoi Seigneur !</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1315" part="F">C'en est trop. Il faut que sa ruine</l>
+	                 <l n="1316">Me délivre à jamais des fureurs d'Agrippine.</l>
+	                 <l n="1317">Tant qu'il respirera je ne vis qu'à demi.</l>
+	                 <l n="1318">Elle m'a fatigué de ce nom ennemi,</l>
+	                 <l n="1319">Et je ne prétends pas que sa coupable audace</l>
+	                 <l n="1320">Une seconde fois lui promette ma place. </l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1321">Elle va donc bientôt pleurer Britannicus.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1322">Avant la fin du jour je ne le craindrai plus.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1323">Et qui de ce dessein vous inspire l'envie ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1324">Ma gloire, mon amour, ma sûreté, ma vie.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1325">Non, quoique vous disiez, cet horrible dessein</l>
+	                 <l n="1326">Ne fut jamais, Seigneur, conçu dans votre sein.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1327" part="I">Burrhus !</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1327" part="F">De votre bouche, ô ciel ! Puis-je l'apprendre ?</l>
+	                 <l n="1328">Vous-même sans frémir avez-vous pu l'entendre ?</l>
+	                 <l n="1329">Songez-vous dans quel sang vous allez vous baigner ?</l>
+	                 <l n="1330">Néron dans tous les coeurs est-il las de régner ?</l>
+	                 <l n="1331">Que dira-t-on de vous ? Quelle est votre pensée ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1332">Quoi toujours enchaîné de ma gloire passée</l>
+	                 <l n="1333">J'aurai devant les yeux je ne sais quel amour,</l>
+	                 <l n="1334">Que le hasard nous donne et nous ôte en un jour ?</l>
+	                 <l n="1335">Soumis à tous leurs voeux, à mes désirs contraire</l>
+	                 <l n="1336">Suis-je leur empereur seulement pour leur plaire ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1337">Et ne suffit-il pas, Seigneur, à vos souhaits</l>
+	                 <l n="1338">Que le bonheur public soit un de vos bienfaits ?</l>
+	                 <l n="1339">C'est à vous à choisir, vous êtes encor maître.</l>
+	                 <l n="1340">Vertueux jusqu'ici vous pouvez toujours l'être. </l>
+	                 <l n="1341">Le chemin est tracé, rien ne vous retient plus.</l>
+	                 <l n="1342">Vous n'avez qu'à marcher de vertus en vertus.</l>
+	                 <l n="1343">Mais si de vos flatteurs vous suivez la maxime,</l>
+	                 <l n="1344">Il vous faudra, Seigneur, courir de crime en crime,</l>
+	                 <l n="1345">Soutenir vos rigueurs, par d'autres cruautés, </l>
+	                 <l n="1346">Et laver dans le sang vos bras ensanglantés.</l>
+	                 <l n="1347">Britannicus mourant excitera le zèle</l>
+	                 <l n="1348">De ses amis tout prêts à prendre sa querelle.</l>
+	                 <l n="1349">Ces vengeurs trouveront de nouveaux défenseurs,</l>
+	                 <l n="1350">Qui même après leur mort auront des successeurs. </l>
+	                 <l n="1351">Vous allumez un feu qui ne pourra s'éteindre.</l>
+	                 <l n="1352">Craint de tout l'univers il vous faudra tout craindre,</l>
+	                 <l n="1353">Toujours punir, toujours trembler dans vos projets,</l>
+	                 <l n="1354">Et pour vos ennemis compter tous vos sujets.</l>
+	                 <l n="1355">Ah ! De vos premiers ans l'heureuse expérience</l>
+	                 <l n="1356">Vous fait-elle, Seigneur, haïr votre innocence ?</l>
+	                 <l n="1357">Songez-vous au bonheur qui les a signalés ?</l>
+	                 <l n="1358">Dans quel repos, ô ciel ! Les avez-vous coulés ?</l>
+	                 <l n="1359">Quel plaisir de penser et de dire en vous-même,</l>
+	                 <l n="1360">« Partout, en ce moment, on me bénit, on m'aime.</l>
+	                 <l n="1361">On ne voit point le peuple à mon nom s'alarmer,</l>
+	                 <l n="1362">Le ciel dans tous leurs pleurs ne m'entend point nommer.</l>
+	                 <l n="1363">Leur sombre inimitié ne fuit point mon visage,</l>
+	                 <l n="1364">Je vois voler partout les coeurs à mon passage ! »</l>
+	                 <l n="1365">Tels étaient vos plaisirs. Quel changement, ô dieux !</l>
+	                 <l n="1366">Le sang le plus abject vous était précieux.</l>
+	                 <l n="1367">Un jour, il m'en souvient, le Sénat équitable</l>
+	                 <l n="1368">Vous pressait de souscrire à la mort d'un coupable,</l>
+	                 <l n="1369">Vous résistiez, Seigneur, à leur sévérité,</l>
+	                 <l n="1370">Votre coeur s'accusait de trop de cruauté, </l>
+	                 <l n="1371">Et plaignant les malheurs attachés à l'empire,</l>
+	                 <l n="1372">« Je voudrais, disiez-vous, ne savoir pas écrire. »</l>
+	                 <l n="1373">Non, ou vous me croirez, ou bien de ce malheur</l>
+	                 <l n="1374">Ma mort m'épargnera la vue et la douleur.</l>
+	                 <l n="1375">On ne me verra point survivre à votre gloire. </l>
+	                 <l n="1376">Si vous allez commettre une action si noire,</l>
+                  <stage>Il se jette à genoux.</stage>
+	                 <l n="1377">Me voilà prêt, Seigneur, avant que de partir,</l>
+	                 <l n="1378">Faites percer ce coeur qui n'y peut consentir.</l>
+	                 <l n="1379">Appelez les cruels qui vous l'ont inspirée,</l>
+	                 <l n="1380">Qu'ils viennent essayer leur main mal assurée. </l>
+	                 <l n="1381">Mais je vois que mes pleurs touchent mon empereur,</l>
+	                 <l n="1382">Je vois que sa vertu frémit de leur fureur.</l>
+	                 <l n="1383">Ne perdez point de temps, nommez-moi les perfides</l>
+	                 <l n="1384">Qui vous osent donner ces conseils parricides.</l>
+	                 <l n="1385">Appelez votre frère, oubliez dans ses bras... </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1386" part="I">Ah ! Que demandez-vous !</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1386" part="F">Non, il ne vous hait pas,</l>
+	                 <l n="1387">Seigneur, on le trahit, je sais son innocence,</l>
+	                 <l n="1388">Je vous réponds pour lui de son obéissance.</l>
+	                 <l n="1389">J'y cours. Je vais presser un entretien si doux.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1390">Dans mon appartement qu'il m'attende avec vous. </l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Néron, Narcisse.</head>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1391">Seigneur, j'ai tout prévu pour une mort si juste.</l>
+	                 <l n="1392">Le poison est tout prêt. La fameuse Locuste</l>
+	                 <l n="1393">A redoublé pour moi ses soins officieux.</l>
+	                 <l n="1394">Elle a fait expirer un esclave à mes yeux;</l>
+	                 <l n="1395">Et le fer est moins prompt pour trancher une vie</l>
+	                 <l n="1396">Que le nouveau poison que sa main me confie.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1397">Narcisse, c'est assez, je reconnais ce soin, </l>
+	                 <l n="1398">Et ne souhaite pas que vous alliez plus loin.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1399">Quoi ! Pour Britannicus votre haine affaiblie</l>
+	                 <l n="1400" part="I">Me défend...</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1400" part="F">Oui, Narcisse, on nous réconcilie. </l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1401">Je me garderai bien de vous en détourner,</l>
+	                 <l n="1402">Seigneur. Mais il s'est vu tantôt emprisonner.</l>
+	                 <l n="1403">Cette offense en son coeur sera longtemps nouvelle.</l>
+	                 <l n="1404">Il n'est point de secrets que le temps ne révèle.</l>
+	                 <l n="1405">Il saura que ma main lui devait présenter</l>
+	                 <l n="1406">Un poison que votre ordre avait fait apprêter.</l>
+	                 <l n="1407">Les dieux de ce dessein puissent-ils le distraire !</l>
+	                 <l n="1408">Mais peut-être il fera ce que vous n'osez faire.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1409">On répond de son coeur, et je vaincrai le mien.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1410">Et l'hymen de Junie en est-il le lien ?</l>
+	                 <l n="1411">Seigneur, lui faites-vous encor ce sacrifice ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1412">C'est prendre trop soin. Quoi qu'il en soit, Narcisse,</l>
+	                 <l n="1413">Je ne le compte plus parmi mes ennemis.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1414">Agrippine, Seigneur, se l'était bien promis.</l>
+	                 <l n="1415">Elle a repris sur vous son souverain empire. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1416">Quoi donc ? Qu'a-t-elle dit ? Et que voulez-vous dire ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1417">Elle s'en est vantée assez publiquement.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1418" part="I">De quoi ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1418" part="F">Qu'elle n'avait qu'à vous voir un moment :</l>
+	                 <l n="1419">Qu'à tout ce grand éclat, à ce courroux funeste</l>
+	                 <l n="1420">On verrait succéder un silence modeste, </l>
+	                 <l n="1421">Que vous-même à la paix souscririez le premier, </l>
+	                 <l n="1422">Heureux que sa bonté daignât tout oublier.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1423">Mais, Narcisse, dis-moi, que veux-tu que je fasse ?</l>
+	                 <l n="1424">Je n'ai que trop de pente à punir son audace.</l>
+	                 <l n="1425">Et si je m'en croyais ce triomphe indiscret</l>
+	                 <l n="1426">Serait bientôt suivi d'un éternel regret.</l>
+	                 <l n="1427">Mais de tout l'univers quel sera le langage ?</l>
+	                 <l n="1428">Sur les pas des tyrans veux-tu que je m'engage, </l>
+	                 <l n="1429">Et que Rome effaçant tant de titres d'honneur</l>
+	                 <l n="1430">Me laisse pour tous noms celui d'empoisonneur ?</l>
+	                 <l n="1431">Ils mettront ma vengeance au rang des parricides.</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1432">Et prenez-vous, Seigneur, leurs caprices pour guides ?</l>
+	                 <l n="1433">Avez-vous prétendu qu'ils se tairaient toujours ?</l>
+	                 <l n="1434">Est-ce à vous de prêter l'oreille à leurs discours ?</l>
+	                 <l n="1435">De vos propres désirs perdrez-vous la mémoire ?</l>
+	                 <l n="1436">Et serez-vous le seul que vous n'oserez croire ?</l>
+	                 <l n="1437">Mais, Seigneur, les Romains ne vous sont pas connus.</l>
+	                 <l n="1438">Non non, dans leurs discours ils sont plus retenus,</l>
+	                 <l n="1439">Tant de précaution affaiblit votre règne.</l>
+	                 <l n="1440">Ils croiront en effet mériter qu'on les craigne. </l>
+	                 <l n="1441">Au joug depuis longtemps ils se font façonnés.</l>
+	                 <l n="1442">Ils adorent la main qui les tient enchaînés.</l>
+	                 <l n="1443">Vous les verrez toujours ardents à vous complaire.</l>
+	                 <l n="1444">Leur prompte servitude a fatigué Tibère.</l>
+	                 <l n="1445">Moi-même revêtu d'un pouvoir emprunté, </l>
+	                 <l n="1446">Que je reçus de Claude avec la liberté, </l>
+	                 <l n="1447">J'ai cent fois dans le cours de ma gloire passée</l>
+	                 <l n="1448">Tenté leur patience, et ne l'ai point lassée. </l>
+	                 <l n="1449">D'un empoisonnement vous craignez la noirceur ?</l>
+	                 <l n="1450">Faites périr le frère, abandonnez la soeur. </l>
+	                 <l n="1451">Rome sur ses autels prodiguant les victimes,</l>
+	                 <l n="1452">Fussent-ils innocents, leur trouvera des crimes.</l>
+	                 <l n="1453">Vous verrez mettre au rang des jours infortunés</l>
+	                 <l n="1454">Ceux où jadis la soeur et le frère sont nés.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1455">Narcisse, encore un coup, je ne puis l'entreprendre. </l>
+	                 <l n="1456">J'ai promis à Burrhus, il a fallu me rendre.</l>
+	                 <l n="1457">Je ne veux point encore en lui manquant de foi</l>
+	                 <l n="1458">Donner à sa vertu des armes contre moi.</l>
+	                 <l n="1459">J'oppose à ses raisons un courage inutile,</l>
+	                 <l n="1460">Je ne l'écoute point avec un coeur tranquille. </l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1461">Burrhus ne pense pas, Seigneur, tout ce qu'il dit.</l>
+	                 <l n="1462">Son adroite vertu ménage son crédit.</l>
+	                 <l n="1463">Ou plutôt ils n'ont tous qu'une même pensée :</l>
+	                 <l n="1464">Ils verraient par ce coup leur puissance abaissée : </l>
+	                 <l n="1465">Vous seriez libre alors, Seigneur, et devant vous </l>
+	                 <l n="1466">Ces maîtres orgueilleux fléchiraient comme nous.</l>
+	                 <l n="1467">Quoi donc ! Ignorez-vous tout ce qu'ils osent dire ?</l>
+	                 <l n="1468">« Néron, s'ils en sont crus, n'est point né pour l'empire.</l>
+	                 <l n="1469">Il ne dit, il ne fait, que ce qu'on lui prescrit.</l>
+	                 <l n="1470">Burrhus conduit son coeur, Sénèque son esprit. </l>
+	                 <l n="1471">Pour toute ambition, pour vertu singulière,</l>
+	                 <l n="1472">Il excelle à conduire un char dans la carrière,</l>
+	                 <l n="1473">À disputer des prix indignes de ses mains, </l>
+	                 <l n="1474">À se donner lui-même en spectacle aux Romains,</l>
+	                 <l n="1475">À venir prodiguer sa voix sur un théâtre, </l>
+	                 <l n="1476">À réciter des chants qu'il veut qu'on idolâtre,</l>
+	                 <l n="1477">Tandis que des soldats de moments en moments</l>
+	                 <l n="1478">Vont arracher pour lui les applaudissements. » </l>
+	                 <l n="1479">Ah ! Ne voulez-vous pas les forcer à se taire ?</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1480">Viens, Narcisse. Allons voir ce que nous devons faire. </l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="5">
+            <head>ACTE V</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Britannicus, Junie.</head>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1481">Oui Madame, Néron (qui l'aurait pu penser ?)</l>
+	                 <l n="1482">Dans son appartement m'attend pour m'embrasser.</l>
+	                 <l n="1483">Il y fait de sa cour inviter la jeunesse.</l>
+	                 <l n="1484">Il veut que d'un festin la pompe et l'allégresse</l>
+	                 <l n="1485">Confirment à leurs yeux la foi de nos serments, </l>
+	                 <l n="1486">Et réchauffent l'ardeur de nos embrassements.</l>
+	                 <l n="1487">Il éteint cet amour source de tant de haine,</l>
+	                 <l n="1488">Il vous fait de mon sort arbitre souveraine.</l>
+	                 <l n="1489">Pour moi, quoique banni du rang de mes aïeux,</l>
+	                 <l n="1490">Quoique de leur dépouille il se pare à mes yeux, </l>
+	                 <l n="1491">Depuis qu'à mon amour cessant d'être contraire,</l>
+	                 <l n="1492">Il semble me céder la gloire de vous plaire,</l>
+	                 <l n="1493">Mon coeur, je l'avouerai, lui pardonne en secret,</l>
+	                 <l n="1494">Et lui laisse le reste avec moins de regret.</l>
+	                 <l n="1495">Quoi ! Je ne serai plus séparé de vos charmes ?</l>
+	                 <l n="1496">Quoi ! Même en ce moment je puis voir sans alarmes</l>
+	                 <l n="1497">Ces yeux, que n'ont émus ni soupirs, ni terreur,</l>
+	                 <l n="1498">Qui m'ont sacrifié l'empire et l'empereur ?</l>
+	                 <l n="1499">Ah Madame ! Mais quoi ? Quelle nouvelle crainte</l>
+	                 <l n="1500">Tient parmi mes transports votre joie en contrainte ?</l>
+	                 <l n="1501">D'où vient qu'en m'écoutant, vos yeux, vos tristes yeux</l>
+	                 <l n="1502">Avec de longs regards se tournent vers les cieux ?</l>
+	                 <l n="1503" part="I">Qu'est-ce que vous craignez ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1503" part="F">Je l'ignore moi-même.</l>
+	                 <l n="1504" part="I">Mais je crains.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1504" part="M">Vous m'aimez ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1504" part="F">Hélas, si je vous aime ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1505">Néron ne trouble plus notre félicité. </l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1506">Mais me répondez-vous de sa sincérité ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1507">Quoi ! Vous le soupçonnez d'une haine couverte ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1508">Néron m'aimait tantôt, il jurait votre perte.</l>
+	                 <l n="1509">Il me fuit, il vous cherche. Un si grand changement </l>
+	                 <l n="1510">Peut-il être, Seigneur, l'ouvrage d'un moment ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1511">Cet ouvrage, Madame, est un coup d'Agrippine.</l>
+	                 <l n="1512">Elle a cru que ma perte entraînait sa ruine.</l>
+	                 <l n="1513">Grâce aux préventions de son esprit jaloux,</l>
+	                 <l n="1514">Nos plus grands ennemis ont combattu pour nous. </l>
+	                 <l n="1515">Je m'en fie aux transports qu'elle m'a fait paraître. </l>
+	                 <l n="1516">Je m'en fie à Burrhus. J'en crois même son maître.</l>
+	                 <l n="1517">Je crois, qu'à mon exemple impuissant à trahir</l>
+	                 <l n="1518">Il hait à coeur ouvert, ou cesse de haïr.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1519">Seigneur, ne jugez pas de son coeur par le vôtre.</l>
+	                 <l n="1520">Sur des pas différents vous marchez l'un et l'autre. </l>
+	                 <l n="1521">Je ne connais Néron et la cour que d'un jour.</l>
+	                 <l n="1522">Mais (si je l'ose dire) hélas ! Dans cette cour,</l>
+	                 <l n="1523">Combien tout ce qu'on dit est loin de ce qu'on pense !</l>
+	                 <l n="1524">Que la bouche et le coeur sont peu d'intelligence !</l>
+	                 <l n="1525">Avec combien de joie on y trahit sa foi !</l>
+	                 <l n="1526">Quel séjour étranger et pour vous et pour moi !</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1527">Mais que son amitié soit véritable ou feinte,</l>
+	                 <l n="1528">Si vous craignez Néron, lui-même est-il sans crainte ?</l>
+	                 <l n="1529">Non non, il n'ira point par un lâche attentat</l>
+	                 <l n="1530">Soulever contre lui le peuple et le Sénat. </l>
+	                 <l n="1531">Que dis-je ? Il reconnaît sa dernière injustice.</l>
+	                 <l n="1532">Ses remords ont paru même aux yeux de Narcisse.</l>
+	                 <l n="1533">Ah ! S'il vous avait dit, ma princesse, à quel point...</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1534">Mais Narcisse, Seigneur, ne vous trahit-il point ?</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1535">Et pourquoi voulez-vous que mon coeur s'en défie ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1536">Et que sais-je ? Il y va, Seigneur, de votre vie.</l>
+	                 <l n="1537">Tout m'est suspect. Je crains que tout ne soit séduit.</l>
+	                 <l n="1538">Je crains Néron. Je crains le malheur qui me suit.</l>
+	                 <l n="1539">D'un noir pressentiment malgré moi prévenue,</l>
+	                 <l n="1540">Je vous laisse à regret éloigner de ma vue. </l>
+	                 <l n="1541">Hélas ! Si cette paix, dont vous vous repaissez,</l>
+	                 <l n="1542">Couvrait contre vos jours quelques pièges dressés !</l>
+	                 <l n="1543">Si Néron irrité de notre intelligence</l>
+	                 <l n="1544">Avait choisi la nuit pour cacher sa vengeance !</l>
+	                 <l n="1545">S'il préparait ses coups tandis que je vous vois !</l>
+	                 <l n="1546">Et si je vous parlais pour la dernière fois !</l>
+	                 <l n="1547" part="I">Ah Prince !</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1547" part="F">Vous pleurez ! Ah ma chère Princesse !</l>
+	                 <l n="1548">Et pour moi jusque-là votre coeur s'intéresse ?</l>
+	                 <l n="1549">Quoi Madame ! En un jour, où plein de sa grandeur</l>
+	                 <l n="1550">Néron croit éblouir vos yeux de sa splendeur, </l>
+	                 <l n="1551">Dans des lieux où chacun me fuit et le révère,</l>
+	                 <l n="1552">Aux pompes de sa cour préférer ma misère !</l>
+	                 <l n="1553">Quoi ! Dans ce même jour, et dans ces mêmes lieux</l>
+	                 <l n="1554">Refuser un empire et pleurer à mes yeux !</l>
+	                 <l n="1555">Mais, Madame, arrêtez ces précieuses larmes ; </l>
+	                 <l n="1556">Mon retour va bientôt dissiper vos alarmes.</l>
+	                 <l n="1557">Je me rendrais suspect par un plus long séjour.</l>
+	                 <l n="1558">Adieu, je vais le coeur tout plein de mon amour,</l>
+	                 <l n="1559">Au milieu des transports d'une aveugle jeunesse,</l>
+	                 <l n="1560">Ne voir, n'entretenir que ma belle princesse. </l>
+	                 <l n="1561" part="I">Adieu.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1561" part="M">Prince...</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1561" part="F">On m'attend, Madame, il faut partir.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1562">Mais du moins attendez qu'on vous vienne avertir.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Aggripine, Britannicus, Junie.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1563">Prince, que tardez-vous ? Partez en diligence.</l>
+	                 <l n="1564">Néron impatient se plaint de votre absence.</l>
+	                 <l n="1565">La joie et le plaisir de tous les conviés</l>
+	                 <l n="1566">Attend pour éclater que vous vous embrassiez.</l>
+	                 <l n="1567">Ne faites point languir une si juste envie,</l>
+	                 <l n="1568">Allez. Et nous, Madame, allons chez Octavie.</l>
+               </sp>
+               <sp who="tc0656-BRITANNICUS">
+                  <speaker>BRITANNICUS.</speaker>
+	                 <l n="1569">Allez, belle Junie, et d'un esprit content</l>
+	                 <l n="1570">Hâtez-vous d'embrasser ma soeur qui vous attend. </l>
+	                 <l n="1571">Dès que je le pourrai je reviens sur vos traces,</l>
+	                 <l n="1572">Madame, et de vos soins j'irai vous rendre grâces.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Agrippine, Junie.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1573">Madame, ou je me trompe, ou durant vos adieux</l>
+	                 <l n="1574">Quelques pleurs répandus ont obscurci vos yeux.</l>
+	                 <l n="1575">Puis-je savoir quel trouble a formé ce nuage ?</l>
+	                 <l n="1576">Doutez-vous d'une paix dont je fais mon ouvrage ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1577">Après tous les ennuis que ce jour m'a coûtés,</l>
+	                 <l n="1578">Ai-je pu rassurer mes esprits agités ?</l>
+	                 <l n="1579">Hélas ! À peine encor je conçois ce miracle.</l>
+	                 <l n="1580">Quand même à vos bontés je craindrais quelque obstacle, </l>
+	                 <l n="1581">Le changement, Madame, est commun à la cour,</l>
+	                 <l n="1582">Et toujours quelque crainte accompagne l'amour.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1583">Il suffit, j'ai parlé, tout a changé de face.</l>
+	                 <l n="1584">Mes soins à vos soupçons ne laissent point de place.</l>
+	                 <l n="1585">Je réponds d'une paix jurée entre mes mains, </l>
+	                 <l n="1586">Néron m'en a donné des gages trop certains.</l>
+	                 <l n="1587">Ah ! Si vous aviez vu par combien de caresses</l>
+	                 <l n="1588">Il m'a renouvelé la foi de ses promesses !</l>
+	                 <l n="1589">Par quels embrassements il vient de m'arrêter !</l>
+	                 <l n="1590">Ses bras dans nos adieux ne pouvaient me quitter. </l>
+	                 <l n="1591">Sa facile bonté sur son front répandue</l>
+	                 <l n="1592">Jusqu'aux moindres secrets est d'abord descendue.</l>
+	                 <l n="1593">Il s'épanchait en fils, qui vient en liberté</l>
+	                 <l n="1594">Dans le sein de sa mère oublier sa fierté.</l>
+	                 <l n="1595">Mais bientôt reprenant un visage sévère, </l>
+	                 <l n="1596">Tel que d'un empereur qui consulte sa mère,</l>
+	                 <l n="1597">Sa confidence auguste a mis entre mes mains</l>
+	                 <l n="1598">Des secrets d'où dépend le destin des humains.</l>
+	                 <l n="1599">Non, il le faut ici confesser à sa gloire.</l>
+	                 <l n="1600">Son coeur n'enferme point une malice noire, </l>
+	                 <l n="1601">Et nos seuls ennemis altérant sa bonté</l>
+	                 <l n="1602">Abusaient contre nous de sa facilité.</l>
+	                 <l n="1603">Mais enfin à son tour leur puissance décline.</l>
+	                 <l n="1604">Rome encore une fois va connaître Agrippine.</l>
+	                 <l n="1605">Déjà, de ma faveur on adore le bruit. </l>
+	                 <l n="1606">Cependant en ces lieux n'attendons pas la nuit,</l>
+	                 <l n="1607">Passons chez Octavie, et donnons lui le reste</l>
+	                 <l n="1608">D'un jour autant heureux que je l'ai cru funeste.</l>
+	                 <l n="1609">Mais qu'est-ce que j'entends ? Quel tumulte confus ?</l>
+	                 <l n="1610" part="I">Que peut-on faire ?</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1610" part="F">Ô ciel ! Sauvez Britannicus. </l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Agrippine, Junie, Burrhus.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1611">Burrhus, où courez-vous ? Arrêtez. Que veut dire...</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1612">Madame, c'en est fait, Britannicus expire.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1613" part="I">Ah mon Prince !</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1613" part="M">Il expire ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1613" part="F">Ou plutôt il est mort,</l>
+	                 <l n="1614" part="I">Madame.</l>
+               </sp>
+               <sp who="tc0656-JUNIE">
+                  <speaker>JUNIE.</speaker>
+	                 <l n="1614" part="F">Pardonnez, Madame, à ce transport.</l>
+	                 <l n="1615">Je vais le secourir, si je puis, ou le suivre. </l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Agrippine, Burrhus</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1616" part="I">Quel attentat, Burrhus !</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1616" part="F">Je n'y pourrai survivre, </l>
+	                 <l n="1617">Madame il faut quitter la cour et l'empereur.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1618">Quoi ! Du sang de son frère il n'a point eu d'horreur ?</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1619">Ce dessein s'est conduit avec plus de mystère.</l>
+	                 <l n="1620">À peine l'empereur a vu venir son frère, </l>
+	                 <l n="1621">Il se lève, il l'embrasse, on se tait, et soudain </l>
+	                 <l n="1622">César prend le premier une coupe à la main.</l>
+	                 <l n="1623">« Pour achever ce jour sous de meilleurs auspices,</l>
+	                 <l n="1624">Ma main de cette coupe épanche les prémices,</l>
+	                 <l n="1625">Dit-il ; dieux, que j'appelle à cette effusion,</l>
+	                 <l n="1626">Venez favoriser notre réunion. »</l>
+	                 <l n="1627">Par les mêmes serments Britannicus se lie.</l>
+	                 <l n="1628">La coupe dans ses mains par Narcisse est remplie.</l>
+	                 <l n="1629">Mais ses lèvres à peine en ont touché les bords,</l>
+	                 <l n="1630">Le fer ne produit point de si puissants efforts. </l>
+	                 <l n="1631">Madame la lumière à ses yeux est ravie,</l>
+	                 <l n="1632">Il tombe sur son lit sans chaleur et sans vie.</l>
+	                 <l n="1633">Jugez combien ce coup frappe tous les esprits.</l>
+	                 <l n="1634">La moitié s'épouvante et sort avec des cris.</l>
+	                 <l n="1635">Mais ceux qui de la cour ont un plus long usage</l>
+	                 <l n="1636">Sur les yeux de César composent leur visage.</l>
+	                 <l n="1637">Cependant sur son lit il demeure penché,</l>
+	                 <l n="1638">D'aucun étonnement il ne paraît touché.</l>
+	                 <l n="1639">« Ce mal dont vous craignez, dit-il, la violence</l>
+	                 <l n="1640">A souvent sans péril attaqué son enfance. »</l>
+	                 <l n="1641">Narcisse veut en vain affecter quelque ennui, </l>
+	                 <l n="1642">Et sa perfide joie éclate malgré lui. </l>
+	                 <l n="1643">Pour moi dût l'empereur punir ma hardiesse</l>
+	                 <l n="1644">D'une odieuse cour j'ai traversé la presse,</l>
+	                 <l n="1645">Et j'allais accablé de cet assassinat </l>
+	                 <l n="1646">Pleurer Britannicus, César et tout l'État.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1647">Le voici. Vous verrez si c'est moi qui l'inspire.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Agrippine, Néron, Burrhus, Narcisse.</head>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON, voyant Agrippine.</speaker>
+	                 <l n="1648" part="I">Dieux !</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1648" part="F">Arrêtez, Néron. J'ai deux mots à vous dire.</l>
+	                 <l n="1649">Britannicus est mort, je reconnais les coups.</l>
+	                 <l n="1650" part="I">Je connais l'assassin.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1650" part="M">Et qui, Madame ?</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1650" part="F">Vous. </l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1651">Moi ! Voilà les soupçons dont vous êtes capable. </l>
+	                 <l n="1652">Il n'est point de malheurs dont je ne sois coupable.</l>
+	                 <l n="1653">Et si l'on veut, Madame, écouter vos discours, </l>
+	                 <l n="1654">Ma main de Claude même aura tranché les jours.</l>
+	                 <l n="1655">Son fils vous était cher, sa mort peut vous confondre. </l>
+	                 <l n="1656">Mais des coups du destin je ne puis pas répondre.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1657">Non non, Britannicus est mort empoisonné.</l>
+	                 <l n="1658">Narcisse a fait le coup, vous l'avez ordonné.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1659">Madame, mais qui peut vous tenir ce langage ?</l>
+               </sp>
+               <sp who="tc0656-NARCISSE">
+                  <speaker>NARCISSE.</speaker>
+	                 <l n="1660">Hé Seigneur ! Ce soupçon vous fait-il tant d'outrage ?</l>
+	                 <l n="1661">Britannicus, Madame, eut des desseins secrets</l>
+	                 <l n="1662">Qui vous auraient coûté de plus justes regrets.</l>
+	                 <l n="1663">Il aspirait plus loin qu'à l'hymen de Junie.</l>
+	                 <l n="1664">De vos propres bontés il vous aurait punie.</l>
+	                 <l n="1665">Il vous trompait vous-même et son coeur offensé, </l>
+	                 <l n="1666">Prétendait tôt ou tard rappeler le passé.</l>
+	                 <l n="1667">Soit donc que malgré vous le sort vous ait servie;</l>
+	                 <l n="1668">Soit qu'instruit des complots qui menaçaient sa vie,</l>
+	                 <l n="1669">Sur ma fidélité César s'en soit remis, </l>
+	                 <l n="1670">Laissez les pleurs, Madame, à vos seuls ennemis. </l>
+	                 <l n="1671">Qu'ils mettent ce malheur au rang des plus sinistres. </l>
+	                 <l n="1672" part="I">Mais vous...</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1672" part="F">Poursuis, Néron, avec de tels ministres. </l>
+	                 <l n="1673">Par des faits glorieux tu te vas signaler.</l>
+	                 <l n="1674">Poursuis. Tu n'as pas fait ce pas pour reculer.</l>
+	                 <l n="1675">Ta main a commencé par le sang de ton frère. </l>
+	                 <l n="1676">Je prévois que tes coups viendront jusqu'à ta mère.</l>
+	                 <l n="1677">Dans le fond de ton coeur, je sais que tu me hais.</l>
+	                 <l n="1678">Tu voudras t'affranchir du joug de mes bienfaits. </l>
+	                 <l n="1679">Mais je veux que ma mort te soit même inutile :</l>
+	                 <l n="1680">Ne crois pas qu'en mourant je te laisse tranquille. </l>
+	                 <l n="1681">Rome, ce ciel, ce jour, que tu reçus de moi, </l>
+	                 <l n="1682">Partout, à tout moment, m'offriront devant toi.</l>
+	                 <l n="1683">Tes remords te suivront comme autant de furies.</l>
+	                 <l n="1684">Tu croiras les calmer par d'autres barbaries.</l>
+	                 <l n="1685">Ta fureur s'irritant soi-même dans son cours</l>
+	                 <l n="1686">D'un sang toujours nouveau marquera tous tes jours.</l>
+	                 <l n="1687">Mais j'espère qu'enfin le ciel las de tes crimes</l>
+	                 <l n="1688">Ajoutera ta perte à tant d'autres victimes,</l>
+	                 <l n="1689">Qu'après t'être couvert de leur sang et du mien,</l>
+	                 <l n="1690">Tu te verras forcé de répandre le tien ; </l>
+	                 <l n="1691">Et ton nom paraîtra dans la race future</l>
+	                 <l n="1692">Aux plus cruels tyrans une cruelle injure.</l>
+	                 <l n="1693">Voilà ce que mon coeur se présage de toi.</l>
+	                 <l n="1694" part="I">Adieu, tu peux sortir.</l>
+               </sp>
+               <sp who="tc0656-NERON">
+                  <speaker>NÉRON.</speaker>
+	                 <l n="1694" part="F">Narcisse, suivez-moi.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. Agrippine, Burrhus.</head>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1695">Ah ciel ! De mes soupçons quelle était l'injustice. </l>
+	                 <l n="1696">Je condamnais Burrhus, pour écouter Narcisse !</l>
+	                 <l n="1697">Burrhus avez-vous vu quels regards furieux </l>
+	                 <l n="1698">Néron en me quittant m'a laissés pour adieux ?</l>
+	                 <l n="1699">C'en est fait. Le cruel n'a plus rien qui l'arrête :</l>
+	                 <l n="1700">Le coup qu'on m'a prédit va tomber sur ma tête. </l>
+	                 <l n="1701">Il vous accablera vous-même à votre tour.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1702">Ah Madame ! Pour moi j'ai vécu trop d'un jour,</l>
+	                 <l n="1703">Plût au ciel, que sa main heureusement cruelle</l>
+	                 <l n="1704">Eût fait sur moi l'essai de sa fureur nouvelle !</l>
+	                 <l n="1705">Qu'il ne m'eût pas donné par ce triste attentat</l>
+	                 <l n="1706">Un gage trop certain des malheurs de l'État !</l>
+	                 <l n="1707">Son crime seul n'est pas ce qui me désespère ;</l>
+	                 <l n="1708">Sa jalousie a pu l'armer contre son frère.</l>
+	                 <l n="1709">Mais s'il vous faut, Madame, expliquer ma douleur,</l>
+	                 <l n="1710">Néron l'a vu mourir sans changer de couleur. </l>
+	                 <l n="1711">Ses yeux indifférents ont déjà la constance </l>
+	                 <l n="1712">D'un tyran dans le crime endurci dès l'enfance.</l>
+	                 <l n="1713">Qu'il achève, Madame ; et qu'il fasse périr </l>
+	                 <l n="1714">Un ministre importun qui ne le peut souffrir.</l>
+	                 <l n="1715">Hélas ! Loin de vouloir éviter sa colère. </l>
+	                 <l n="1716">La plus soudaine mort me sera la plus chère.</l>
+               </sp>
+            </div>
+            <div type="scene" n="8">
+               <head>SCÈNE DERNIÈRE. Agrippine, Burrhus, Albine.</head>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="1717">Ah Madame ! Ah Seigneur ! Courez vers l'empereur.</l>
+	                 <l n="1718">Venez sauver César de sa propre fureur. </l>
+	                 <l n="1719">Il se voit pour jamais séparé de Junie.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1720">Quoi Junie elle-même a terminé sa vie ?</l>
+               </sp>
+               <sp who="tc0656-ALBINE">
+                  <speaker>ALBINE.</speaker>
+	                 <l n="1721">Pour accabler César d'un éternel ennui, </l>
+	                 <l n="1722">Madame, sans mourir elle est morte pour lui.</l>
+	                 <l n="1723">Vous savez de ces lieux comme elle s'est ravie.</l>
+	                 <l n="1724">Elle a feint de passer chez la triste Octavie.</l>
+	                 <l n="1725">Mais bientôt elle a pris des chemins écartés. </l>
+	                 <l n="1726">Où mes yeux ont suivi ses pas précipités. </l>
+	                 <l n="1727">Des portes du palais elle sort éperdue. </l>
+	                 <l n="1728">D'abord elle a d'Auguste aperçu la statue ;</l>
+	                 <l n="1729">Et mouillant de ses pleurs le marbre de ses pieds</l>
+	                 <l n="1730">Que de ses bras pressants elle tenait liés : </l>
+	                 <l n="1731">"Prince, par ces genoux, dit-elle, que j'embrasse :</l>
+	                 <l n="1732">Protège en ce moment le reste de ta race.</l>
+	                 <l n="1733">Rome dans ton palais vient de voir immoler</l>
+	                 <l n="1734">Le seul de tes neveux, qui te pût ressembler,</l>
+	                 <l n="1735">On veut après sa mort que je lui sois parjure.</l>
+	                 <l n="1736">Mais pour lui conserver une foi toujours pure,</l>
+	                 <l n="1737">Prince, je me dévoue à ces dieux immortels,</l>
+	                 <l n="1738">Dont ta vertu t'a fait partager les autels."</l>
+	                 <l n="1739">Le peuple cependant que ce spectacle étonne,</l>
+	                 <l n="1740">Vole de toutes parts, se presse, l'environne, </l>
+	                 <l n="1741">S'attendrit à ses pleurs, et plaignant son ennui</l>
+	                 <l n="1742">D'une commune voix la prend sous son appui. </l>
+	                 <l n="1743">Ils la mènent au temple, où depuis tant d'années </l>
+	                 <l n="1744">Au culte des autels nos vierges destinées </l>
+	                 <l n="1745">Gardent fidèlement le dépôt précieux </l>
+	                 <l n="1746">Du feu toujours ardent qui brûle pour nos dieux.</l>
+	                 <l n="1747">César les voit partir sans oser les distraire.</l>
+	                 <l n="1748">Narcisse plus hardi s'empresse pour lui plaire.</l>
+	                 <l n="1749">Il vole vers Junie, et sans s'épouvanter,</l>
+	                 <l n="1750">D'une profane main commence à l'arrêter. </l>
+	                 <l n="1751">De mille coups mortels son audace est punie.</l>
+	                 <l n="1752">Son infidèle sang rejaillit sur Junie.</l>
+	                 <l n="1753">César de tant d'objets en même temps frappé</l>
+	                 <l n="1754">Le laisse entre les mains qui l'ont enveloppé.</l>
+	                 <l n="1755">Il rentre. Chacun fuit son silence farouche. </l>
+	                 <l n="1756">Le seul nom de Junie échappe de sa bouche.</l>
+	                 <l n="1757">Il marche sans dessein, ses yeux mal assurés</l>
+	                 <l n="1758">N'osent lever au ciel leurs regards égarés.</l>
+	                 <l n="1759">Et l'on craint, si la nuit jointe à la solitude</l>
+	                 <l n="1760">Vient de son désespoir aigrir l'inquiétude, </l>
+	                 <l n="1761">Si vous l'abandonnez plus longtemps sans secours,</l>
+	                 <l n="1762">Que sa douleur bientôt n'attente sur ses jours.</l>
+	                 <l n="1763">Le temps presse. Courez. Il ne faut qu'un caprice.</l>
+	                 <l n="1764" part="I">Il se perdrait, Madame.</l>
+               </sp>
+               <sp who="tc0656-AGRIPPINE">
+                  <speaker>AGRIPPINE.</speaker>
+	                 <l n="1764" part="F">Il se ferait justice.</l>
+	                 <l n="1765">Mais Burrhus, allons voir jusqu'où vont ses transports. </l>
+	                 <l n="1766">Voyons quel changement produiront ses remords,</l>
+	                 <l n="1767">S'il voudra désormais suivre d'autres maximes.</l>
+               </sp>
+               <sp who="tc0656-BURRHUS">
+                  <speaker>BURRHUS.</speaker>
+	                 <l n="1768">Plût aux dieux que ce fût le dernier de ses crimes !</l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

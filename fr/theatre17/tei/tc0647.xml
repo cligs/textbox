@@ -1,0 +1,3081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Stratonice</title>
+            <title type="sub">Tragi-comédie</title>
+            <title type="short">Stratonice</title>
+            <title type="idno">
+               <idno type="viaf"/>
+            </title>
+            <author>
+               <name type="full">QUINAULT, Philippe</name>
+               <name type="short">Quinault</name>
+               <idno type="viaf"/>
+            </author>
+            <principal/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>CLiGS</publisher>
+            <idno type="cligs"/>
+            <date>2016</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digital-source">
+               <date>2014</date>, <idno>QUINAULT_STRATONICE</idno>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+            <bibl type="print-source">
+               <date>1660</date>, <idno/>, <ref target="#"/>. .</bibl>
+            <bibl type="edition-first">
+               <date/>, <idno/>, <ref target="#"/>.</bibl>
+            <bibl type="performance-first">
+               <date>1660</date>, <idno/>, <ref target="#"/>. Réprésenté pour la première fois le 2 janvier 1660 au théâtre de l'Hôtel de Bourgogne.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <textClass>
+            <keywords scheme="keywords.csv">
+               <term type="supergenre">drama</term>
+               <term type="genre">Tragi-comédie</term>
+               <term type="structure">cinq actes</term>
+               <term type="form">vers</term>
+               <term type="period">1651-1660</term>
+               <term type="taille">1500-1750</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-04-29" who="cf">Initial TEI version.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <head>ACTEURS</head>
+            <castItem>
+               <role xml:id="tc0647-BARSINE">BARSINE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-CEPHISE">CÉPHISE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-SELEUCUS">SÉLEUCUS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-POLICRATE">POLICRATE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-ANTIOCHUS">ANTIOCHUS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-TIMANTE">TIMANTE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-PHILIPPE">PHILIPPE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-STRATONICE">STRATONICE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-ZENONE">ZÉNONE</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-ZABAS">ZABAS</role>
+            </castItem>
+            <castItem>
+               <role xml:id="tc0647-SUITE">SUITE</role>
+            </castItem>
+         </castList>
+         <set>
+            <p>La scène est dans Antioche.</p>
+         </set>
+      </front>
+      <body>
+         <div type="acte" n="1">
+            <head>ACTE I</head>
+            <div type="scene" n="1">
+               <head>SCÈNE I.</head>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1">Orgueilleux mouvement des âmes généreuses,</l>
+	                 <l n="2">Qui jamais sans régner ne peuvent être heureuses,</l>
+	                 <l n="3">Passion des grands cours, dont les soins glorieux</l>
+	                 <l n="4">Ne sauraient rien souffrir qui soit au dessus d'eux ;</l>
+	                 <l n="5">Superbe ambition, dont l'ardeur sans seconde </l>
+	                 <l n="6">Ne se laisse borner que des bornes du monde :</l>
+	                 <l n="7">Tu me flattais d'un rang que l'on me vient ravir,</l>
+	                 <l n="8">Une autre va régner, et nous allons servir,</l>
+	                 <l n="9">Et Stratonice enfin en Syrie arrivée</l>
+	                 <l n="10">Doit ce soir être au trône à mes yeux élevée</l>
+	                 <l n="11">Que me peut maintenant servir ton vain transport ?</l>
+	                 <l n="12">Que fais-tu dans mon cour lorsque l'espoir en sort ?</l>
+	                 <l n="13">Va laisse-moi tomber dans un sort plus tranquille,</l>
+	                 <l n="14">Ne me tourmente plus par un soin inutile,</l>
+	                 <l n="15">Et souffre dans mes maux que j'ai au moins le bien</l>
+	                 <l n="16">De ne rien désirer quand je ne suis plus rien.</l>
+	                 <l n="17">Mais, ô voux superflus ! C'est en vain que je tente</l>
+	                 <l n="18">De bannir de mon cour le soin qui me tourmente ;</l>
+	                 <l n="19">Le ciel, de qui nous vient notre inclination,</l>
+	                 <l n="20">Avec l'âme en mon sein versa l'ambition,</l>
+	                 <l n="21">Et cette ardeur aveugle à mon âme attachée,</l>
+	                 <l n="22">Par mes propres efforts n'en peut être arrachée.</l>
+	                 <l n="23">En vain de ce torrent je m'en veux détourner,</l>
+	                 <l n="24">Si je ne le veux suivre il saura m'entraîner ;</l>
+	                 <l n="25">J'en veux toujours au sceptre, et n'ai pas le puissance</l>
+	                 <l n="26">D'en perdre la désir quand j'en perds l'espérance.</l>
+	                 <l n="27">Mais s'il te faut souffrir, au moins, cruelle ardeur,</l>
+	                 <l n="28">Fais place à d'autres feux, passe au fond de mon cour ;</l>
+	                 <l n="29">Pour arriver au trône où tu pousses mon âme,</l>
+	                 <l n="30">Souffre qu'à ton secours j'appelle une autre flamme,</l>
+	                 <l n="31">Et puisque ton pouvoir est trop faible en ce jour ,</l>
+	                 <l n="32">Permets-moi d'emprunter les forces de l'amour.</l>
+	                 <l n="33">Nous pourrons triompher encore avec nos armes :</l>
+	                 <l n="34">Pour tout le sang royal mon visage a des charmes,</l>
+	                 <l n="35">Et je vois sous mes lois également soumis</l>
+	                 <l n="36">Et le roi de Syrie, et le prince son fils.</l>
+	                 <l n="37">Si je veux m'abaisser jusqu'à feindre que j'aime,</l>
+	                 <l n="38">Stratonice n'a pas encore le diadème,</l>
+	                 <l n="39">Et Seleucus pour moi pourra tout aujourd'hui,</l>
+	                 <l n="40">Pour peu que mes regards s'adoucissent pour lui.</l>
+	                 <l n="41">Le sort devait un sceptre au sang du grand Eumenes,</l>
+	                 <l n="42">Dont toute la chaleur a passé dans mes veines,</l>
+	                 <l n="43">Mais malgré le refus du sort injurieux,</l>
+	                 <l n="44">Je n'ai pour l'obtenir besoin que de mes yeux.</l>
+	                 <l n="45">Il est doux de porter au front une couronne,</l>
+	                 <l n="46">Quand le faveur des Dieux en naissant nous la donne ;</l>
+	                 <l n="47">Mais il est bien plus doux, et bien plus glorieux,</l>
+	                 <l n="48">De la devoir encore à soi-même, qu'aux Dieux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Céphise, Barsine.</head>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="49">Quoi, vous êtes, Madame, et rêveuse, et chagrine,</l>
+	                 <l n="50">Dans un jour que le roi pour votre hymen destine ?</l>
+	                 <l n="51">Le prince votre amant, avec toute la cour,</l>
+	                 <l n="52">Dans les murs d'Antioche est enfin de retour :</l>
+	                 <l n="53">Le roi, qui doit ce soir épouser Stratonice,</l>
+	                 <l n="54">Veut qu'avec son hymen le vôtre s'accomplisse,</l>
+	                 <l n="55">Et son unique fils qui sera votre époux</l>
+	                 <l n="56">Devrait vous inspirer des sentiments plus doux.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="57">Bien que d'Antiochus je me crois adorée,</l>
+	                 <l n="58">Notre union encore n'est pas trop assurée</l>
+	                 <l n="59">Et malgré ses désirs, et les ordre du roi,</l>
+	                 <l n="60" part="I">Notre hymen se peut rompre.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="60" part="M">Et qui le rompra ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="60" part="F">Moi.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="61" part="I">Vous, Madame, le rompre ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="61" part="F">Oui, Cephise, moi-même.</l>
+	                 <l n="62">Le prince a du mérite, il est digne qu'on l'aime,</l>
+	                 <l n="63">Mais j'y trouve un défaut dont mon cour est gêné.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="64" part="I">Dieux, quel défaut, Madame ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="64" part="F">Il n'est pas couronné ;</l>
+	                 <l n="65">Et le cour que je porte, et qu'on veut que je donne,</l>
+	                 <l n="66">Croit être à trop bas prix à moins d'une couronne.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="67">Mais vous pouviez régner en épousant le roi,</l>
+	                 <l n="68">Avant qu'à Stratonice il engagea sa foi.</l>
+	                 <l n="69">Vous avez pu choisir du prince, ou de son père,</l>
+	                 <l n="70">Vous avez à tous deux également su plaire,</l>
+	                 <l n="71">Et si le roi pour lui n'eut pas vu vos mépris,</l>
+	                 <l n="72">Il n'aurait jamais pu vous céder à son fils.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="73">Apprends pour t'expliquer ce choix qu'on m'a vu faire,</l>
+	                 <l n="74">Que j'aime Antiochus et que je hais son père,</l>
+	                 <l n="75">Mon cour pour Seleucus, malgré sa passion</l>
+	                 <l n="76">Est naturellement rempli d'aversion,</l>
+	                 <l n="77">Et tu sais que jamais un cour n'est bien le maître</l>
+	                 <l n="78">De ces instincts qu'en nous la Nature fait naître.</l>
+	                 <l n="79">D'abord voyant le roi sans femme, et déjà vieux,</l>
+	                 <l n="80">Et le prince assuré de régner en ces lieux,</l>
+	                 <l n="81">Je croyais l'acceptant, toucher au diadème,</l>
+	                 <l n="82">Fuir une main haïe, obtenir ce que j'aime,</l>
+	                 <l n="83">Et satisfaire enfin dans mon cour, par ce choix,</l>
+	                 <l n="84">L'ambition, la haine, et l'amour à la fois.</l>
+	                 <l n="85">Mais, hélas ! Cet espoir m'avait bien abusée,</l>
+	                 <l n="86">Une autre a pris la main que j'avais refusée ;</l>
+	                 <l n="87">le roi sur la frontière a vu Demetrius,</l>
+	                 <l n="88">Où pour mieux confirmer les articles conclus,</l>
+	                 <l n="89">Étant sollicité d'entrer dans sa famille,</l>
+	                 <l n="90">Comme sceau de la paix, il a reçu sa fille.</l>
+	                 <l n="91">S'il épouse ce soir, juge de mon effroi :</l>
+	                 <l n="92">Le prince est en péril de n'être jamais roi,</l>
+	                 <l n="93">Et le roi peut donner, pour comble de misère,</l>
+	                 <l n="94">Des maîtres à son fils, en lui donnant des frères.</l>
+	                 <l n="95">Entre les successeurs d'Alexandre le Grand,</l>
+	                 <l n="96">Qui de tout l'univers fut jadis conquérant,</l>
+	                 <l n="97">Je vois Demetrius dans la peur qui m'accable,</l>
+	                 <l n="98">Le plus entreprenant, et le plus redoutable.</l>
+	                 <l n="99">Il soutiendra sa fille, et mettra ses enfants,</l>
+	                 <l n="100">Après la mort du roi, dans le trône où je tends,</l>
+	                 <l n="101">Et je serai, sans prendre une plus haute marque,</l>
+	                 <l n="102">Toujours femme d'un prince, et jamais d'un monarque.</l>
+	                 <l n="103">Je sens bien que mon cour en effet est surpris </l>
+ 	                <l n="104">De haine pour le père, et d'amour pour le fils ;</l>
+	                 <l n="105">Mais rien n'étant plus doux que le titre de reine,</l>
+	                 <l n="106">J'ai plus d'ambition que d'amour, ni de haine.</l>
+	                 <l n="107">Le prince quoique aimable, est indigne de moi,</l>
+	                 <l n="108">Son père a peu d'appas, mais enfin il est roi,</l>
+	                 <l n="109">Et le sceptre qu'il tient, et dont l'éclat m'emporte,</l>
+	                 <l n="110">Communique son charme à celui qui le porte.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="111">C'est bien tard en l'état, Madame, où je vous vois,</l>
+	                 <l n="112">Que vous entreprenez de regagner le roi,</l>
+	                 <l n="113">Et vous le deviez suivre en ce dernier voyage,</l>
+	                 <l n="114">Pour détourner plutôt ce fatal mariage.</l>
+	                 <l n="115">Moi, voir Demetrius ! Et ne sais-tu pas bien</l>
+	                 <l n="116">Qu'Antigone son père a fait mourir le mien,</l>
+	                 <l n="117">Et qu'il est de ma gloire, et de la bienséance,</l>
+	                 <l n="118">De haïr sa personne et de fuir sa présence ?</l>
+	                 <l n="119">Mais à voir Stratonice il faudra me forcer,</l>
+	                 <l n="120">Par elle mon dessein doit ici commencer.</l>
+	                 <l n="121">Je veux adroitement introduire en son âme</l>
+	                 <l n="122">Du dégoût pour le roi dont je veux être femme,</l>
+	                 <l n="123">Et lui peindre son fils avec des traits si doux,</l>
+	                 <l n="124">Qu'elle tint à bonheur de l'avoir pour époux.</l>
+	                 <l n="125">Voyons pourtant le roi, c'est ici son passage,</l>
+	                 <l n="126">Il sort, et vient lui-même aider à mon ouvrage.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="127" part="I">Vous ne l'abordez pas ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="127" part="F">Non, pour mieux réussir</l>
+	                 <l n="128">Ce n'est pas mon dessein d'abord de m'adoucir.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Séleucus, Policrate, Barsine, Céphise.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="129">Quoi, Princesse, à me fuir vous semblez déjà prête ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="130">J'allais sortir, Seigneur, mais le respect m'arrête.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="131">Il ne m'est pas nouveau de voir pour mes ennuis,</l>
+	                 <l n="132">Que vous ayez toujours à sortir d'où je suis.</l>
+	                 <l n="133">J'allais chez Stratonice, et quoique sa naissance</l>
+	                 <l n="134">Me donne pour la voir beaucoup de répugnance,</l>
+	                 <l n="135">L'appui de j'eus de vous, après mon père mort,</l>
+	                 <l n="136">M'engage pour vous plaire à faire cet effort.</l>
+	                 <l n="137">J'ai cru vous obliger ; mais j'ai beau me contraindre,</l>
+	                 <l n="138">Il ne m'est pas nouveau de vous entendre plaindre.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="139">C'est de tout temps aussi que vos soins les plus doux</l>
+	                 <l n="140">Sont de me donner lieu de me plaindre de vous.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="141">J'ai toujours cependant tâché par quelque marque</l>
+	                 <l n="142">De montrer mon respect pour un si grand monarque.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="143" part="I">Ce n'était pas assez.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="143" part="F">Aussi je reconnais</l>
+	                 <l n="144">Que le respect n'est pas tout ce que je vous dois.</l>
+	                 <l n="145">Je sais encore, Seigneur, quelle reconnaissance</l>
+	                 <l n="146">Mon cour depuis trois ans doit à votre assistance :</l>
+	                 <l n="147">Quand on m'ôta mon père en le privant de jour,</l>
+	                 <l n="148">Votre bonté m'offrit asile en votre cour.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="149">Je fis bien plus pour vous, dès que mes yeux vous virent</l>
+	                 <l n="150">Je vous donnai mon cour, mes soupirs vous l'apprirent,</l>
+	                 <l n="151">Et vous deviez, pour suivre en effet mes désirs,</l>
+	                 <l n="152">Me rendre cour pour cour et soupirs pour soupirs.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="153">Après ce grand honneur, mon cour eut fait un crime</l>
+	                 <l n="154">De ne vous pas donner sa plus parfaite estime.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="155">La plus parfaite estime a beau paraître au jour,</l>
+	                 <l n="156">Elle tient lieu d'outrage à qui veut de l'amour.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="157">L'excès de vos bontés d'abord dût me confondre,</l>
+	                 <l n="158">C'était en abuser, Seigneur, que d'y répondre :</l>
+	                 <l n="159">Peut-être que l'amour que vous vouliez de moi</l>
+	                 <l n="160">Vous eut fait refuser la fille d'un grand roi,</l>
+	                 <l n="161">Et j'aurais cru vous faire en effet un outrage,</l>
+	                 <l n="162">De vous avoir fait perdre un si grand avantage.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="163">Ce doit m'être un bonheur que d'être son époux,</l>
+	                 <l n="164">Mais j'eusse encore été plus heureux d'être à vous,</l>
+	                 <l n="165">Et le bien que j'assure un noud si nécessaire,</l>
+	                 <l n="166">Ne m'aurait jamais plu, si j'avais su vous plaire.</l>
+	                 <l n="167">Mais puisque tous mes soins n'ont fait que vous aigrir,</l>
+	                 <l n="168">C'est ici le dernier qui vous reste à souffrir.</l>
+	                 <l n="169">Grâce à vos rigueurs, je viens enfin vous dire</l>
+	                 <l n="170">Que mon cour m'a promis de suivre un autre empire.</l>
+	                 <l n="171">Qu'il ne veut plus troubler désormais vos appas,</l>
+	                 <l n="172">Et quand il le voudrait qu'il ne le pourrait pas,</l>
+	                 <l n="173">Voici le jour choisi pour le double hyménée</l>
+	                 <l n="174">Qui doit vous délivrer de ma flamme obstinée,</l>
+	                 <l n="175">Et vous touchez aux moments désirés,</l>
+	                 <l n="176">Où nous serons tous deux pour jamais séparés.</l>
+	                 <l n="177">Aimez mon fils en paix, j'aimerai Stratonice ;</l>
+	                 <l n="178">Elle a de quoi forcer à lui rendre justice,</l>
+	                 <l n="179">Et mes soupirs peut-être enfin vous seront doux,</l>
+	                 <l n="180">Quand vous les entendrez pour une autre que vous.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="181">Sans m'expliquer, Seigneur, agréez que j'achève </l>
+	                 <l n="182">Ce que je dois au rang où votre choix l'élève.</l>
+	                 <l n="183">Je lui voudrais en vain disputer votre amour,</l>
+	                 <l n="184">Et votre hymen m'oblige à lui faire ma cour.</l>
+               </sp>
+            </div>
+            <div type="scene" n="">
+               <head>SCÈNE IV. Séleucus, Policrate.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="185">Elle me fuit, l'ingrate, et ma faiblesse est telle</l>
+	                 <l n="186">Que j'ai bien de la peine à m'irriter contre elle ;</l>
+	                 <l n="187">Je ne ais quoi toujours m'empêche en sa faveur</l>
+	                 <l n="188">De pouvoir à mon gré disposer de mon cour.</l>
+               </sp>
+               <sp who="tc0647-POLICRATE">
+                  <speaker>POLICRATE.</speaker>
+	                 <l n="189">Mais son dessein, Seigneur, devrait vous satisfaire ;</l>
+	                 <l n="190">Allant voir Stratonice elle cherche à vous plaire.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="191">Que tu sais mal juger de mon aversion !</l>
+	                 <l n="192">L'ingrate pour me fuir cherche une occasion,</l>
+	                 <l n="193">Elle en trouve un prétexte, et prend cet artifice,</l>
+	                 <l n="194">Plus pour ne me voir pas, que pour voir Stratonice.</l>
+	                 <l n="195">Bien qu'elle se contraigne, elle croit plus avoir</l>
+	                 <l n="196">De joie à m'éviter, que de peine à la voir.</l>
+	                 <l n="197">Elle la doit haïr d'une haine mortelle,</l>
+	                 <l n="198">Et cependant je vois qu'elle me hait plus qu'elle.</l>
+               </sp>
+               <sp who="tc0647-POLICRATE">
+                  <speaker>POLICRATE.</speaker>
+	                 <l n="199" part="I">Jugez-en mieux.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="199" part="F">Pourquoi me flattes-tu toujours ?</l>
+	                 <l n="200">Je me flatte moi-même assez sans ton secours.</l>
+	                 <l n="201">Comment puis-je l'aimer sans qu'au fonds de mon âme</l>
+	                 <l n="202">Quelque flatteuse erreur ne nourrisse ma flamme ?</l>
+	                 <l n="203">Je ne dois point douter de ses mépris ingrats,</l>
+	                 <l n="204">Mais je serais guéri si je n'en doutais pas ;</l>
+	                 <l n="205">Je la perdrais sans doute avec bien moins de peine,</l>
+	                 <l n="206">Si j'étais en effet convaincu de sa haine,</l>
+	                 <l n="207">Et déjà mon amour serait hors de mon cour</l>
+	                 <l n="208">S'il n'était retenu par quelque espoir trompeur.</l>
+               </sp>
+               <sp who="tc0647-POLICRATE">
+                  <speaker>POLICRATE.</speaker>
+	                 <l n="209">Soit qu'elle soit ingrate, ou soit qu'elle vous aime,</l>
+	                 <l n="210">Son cour est réservé pour un autre vous-même ;</l>
+	                 <l n="211">Et du moins le perdant, il vous doit être doux</l>
+	                 <l n="212">Qu'il soit à votre fils s'il ne peut être à vous.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="213">Le prince m'est bien cher ; jamais, je le confesse,</l>
+	                 <l n="214">Un père pour son fils n'eut la même tendresse ;</l>
+	                 <l n="215">J'entre en tout ce qu'il souffre, et ne sens que trop bien</l>
+	                 <l n="216">Que le sang qui l'anime est le plus pur du mien.</l>
+	                 <l n="217">Cent fois en sa faveur tu m'as entendu dire</l>
+	                 <l n="218">Que je pourrais céder jusques à mon empire,</l>
+	                 <l n="219">Mais apprends, quand on aime avec beaucoup d'ardeur,</l>
+	                 <l n="220">Qu'on peut céder plutôt un empire qu'un cour.</l>
+	                 <l n="221">Pour mon fils sans regret je perdrais une vie</l>
+	                 <l n="222">Dont j'ai mis dans son sein la meilleure partie ;</l>
+	                 <l n="223">Mais tel, qui sans regret peut renoncer au jour,</l>
+	                 <l n="224">Ne peut sans douleur renoncer à l'amour.</l>
+	                 <l n="225">Mais ma douleur fut-elle encore plus violente,</l>
+	                 <l n="226">À l'hymen de mon fils il faut que je consente :</l>
+	                 <l n="227">Le voici. Qu'il est pâle, et qu'il semble agité !</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Séleucus, Antiochus, Policrate, Timante.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="228">Qui peut à mon abord vous rendre inquiété ?</l>
+	                 <l n="229">Vous craignez mon amour, Prince, et je m'imagine,</l>
+	                 <l n="230">Qu'on vous a dit qu'ici je parlais à Barsine :</l>
+	                 <l n="231">Mais n'appréhendez rien ni d'elle ni de moi,</l>
+	                 <l n="232">Elle vient de me fuir, Stratonice a ma foi,</l>
+	                 <l n="233">Et je ne puis changer la parole donnée</l>
+	                 <l n="234">D'achever mon hymen cette même journée.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="235">Quand vous pourriez changer, je sais ce que je dois</l>
+	                 <l n="236">Aux désirs d'un père, aux ordres de mon roi,</l>
+	                 <l n="237">Et vous pourriez me faire une plus grande injure,</l>
+	                 <l n="238">Sans craindre de ma part ni plainte ni murmure.</l>
+	                 <l n="239">Ce n'est pas toutefois que j'ai appréhendé</l>
+	                 <l n="240">Que vous m'ôtiez l'objet que vous m'avez cédé ;</l>
+	                 <l n="241">Je ne crains pas de voir manquer votre promesse ;</l>
+	                 <l n="242">Mais vous n'avez pas craint de voir cette princesse,</l>
+	                 <l n="243">Et vous savez, Seigneur, si j'ose m'exprimer</l>
+	                 <l n="244">Qu'on doit craindre de voir ce que l'on craint d'aimer.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="245">Non, non, j'ai cru devoir aux yeux de la princesse</l>
+	                 <l n="246">Faire un dernier effort pour vaincre ma faiblesse ;</l>
+	                 <l n="247">Je l'ai vue, espérant, aidé par ses dédains,</l>
+	                 <l n="248">De retirer mon cour de ses ingrates mains ;</l>
+	                 <l n="249">Et pour mieux affermir mon âme chancelante,</l>
+	                 <l n="250">Par les derniers soupirs de ma flamme mourante.</l>
+	                 <l n="251">J'ai tâché d'exhaler tous les restes d'ardeur</l>
+	                 <l n="252">Qui pourrait être encore demeurés dans mon cour.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="253">Il faut voir pour aimer, et d'où le mal procède,</l>
+	                 <l n="254">C'est rarement, Seigneur, que provient le remède.</l>
+	                 <l n="255">Vous croyez n'aimer plus, je n'en veux plus douter ;</l>
+	                 <l n="256">Mais qui croit n'aimer plus peut souvent se flatter,</l>
+	                 <l n="257">Et l'amour est un mal difficile à connaître,</l>
+	                 <l n="258">Dont on n'est pas guéri toujours, quand on croit l'être.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="259">Dussai-je encore aimer Barsine malgré moi,</l>
+	                 <l n="260">Malgré tout mon amour vous recevrez sa foi :</l>
+	                 <l n="261">Et dût votre bonheur rendre ma mort certaine,</l>
+	                 <l n="262">La fin du jour sera la fin de votre peine.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="263">Ah ! Plutôt qu'à ce prix j'accepte un tel bonheur,</l>
+	                 <l n="264">Je renonce à Barsine, épousez-la, Seigneur.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="265">Non, Prince, j'ai promis d'épouser Stratonice,</l>
+	                 <l n="266">Il faut que ma promesse aujourd'hui s'accomplisse,</l>
+	                 <l n="267">Et c'est m'obliger peu que de me présenter</l>
+	                 <l n="268">Ce que je ne suis plus en état d'accepter.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="269">Depuis que Stratonice a vu partir son père,</l>
+	                 <l n="270">Elle n'a daigné prendre aucun soin pour vous plaire,</l>
+	                 <l n="271">Et son orgueil en vous trouve si peu d'appas,</l>
+	                 <l n="272">Que vous l'obligerez de ne l'épouser pas.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="273">L'horreur pour Stratonice en vous n'est pas nouvelle,</l>
+	                 <l n="274">Sans cesse tâchez de m'animer contre elle,</l>
+	                 <l n="275">Et votre aversion vous pouvant abuser,</l>
+	                 <l n="276">Vous n'êtes pas croyable en voulant l'accuser.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="277">L'aversion, Seigneur, n'est pas ce qui m'anime,</l>
+	                 <l n="278">Je rends à ses appas ce qu'on leur doit d'estime,</l>
+	                 <l n="279">Elle est belle, et ses yeux ont des charmes pour tous ;</l>
+	                 <l n="280">Mais son cour et plus fier que ses yeux ne sont doux,</l>
+	                 <l n="281">J'en conçois moins d'espoir que je n'en prends d'alarmes</l>
+	                 <l n="282">Et son orgueil me touche encore plus que ses charmes.</l>
+	                 <l n="283">Vous avez vu combien elle a pris de souci</l>
+	                 <l n="284">Pour faire retarder son hymen jusqu'ici,</l>
+	                 <l n="285">Et combien lentement nous l'avons amenée</l>
+	                 <l n="286">Jusques en cette ville aux noces destinée ;</l>
+	                 <l n="287">Mille prétextes vains par ses soins inventés</l>
+	                 <l n="288">Nous ont en tant d'endroits si longtemps arrêtez.</l>
+	                 <l n="289">Qu'elle semblait aller par un fatal caprice,</l>
+	                 <l n="290">Au lieu de votre hymen, comme au lieu d'un supplice.</l>
+	                 <l n="291">Plus votre soin est grand, plus son mépris s'accroît ;</l>
+	                 <l n="292">Dès que vous paraissez, sa tristesse paraît,</l>
+	                 <l n="293">Et si vous l'entendez quelquefois qui soupire;</l>
+	                 <l n="294">Ses yeux en même temps prennent soin de vous dire,</l>
+	                 <l n="295">Que ce soupir funeste échappé de son cour,</l>
+	                 <l n="296">Est bien moins un effet d'amour que de douleur.</l>
+	                 <l n="297">Sa fierté même enfin à tel point est montée,</l>
+	                 <l n="298">Qu'elle ne me peut voir sans paraître irritée,</l>
+	                 <l n="299">Et sans que j'ai en rien mérité son courroux,</l>
+	                 <l n="300">Si ce n'est pas l'honneur d'être sorti de vous.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="301">Je rentre, et ne veux pas en ouïr davantage.</l>
+	                 <l n="302">Un droit inviolable à cet hymen m'engage,</l>
+	                 <l n="303">Ma parole est donnée, il faut l'exécuter ;</l>
+	                 <l n="304">Et puisque c'est un mal qu'on ne peut éviter,</l>
+	                 <l n="305">Je le ressens assez sans que l'on m'en instruise,</l>
+	                 <l n="306">Et j'ai plutôt besoin que l'on me le déguise.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCENE VI. Antiochus, Timante.</head>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="307">C'en est fait, j'ai perdu mes soins et mon espoir,</l>
+	                 <l n="308">Mon père épousera Stratonice ce soir.</l>
+	                 <l n="309" part="I">Stratonice !</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="309" part="F">À ce nom votre pâleur augmente,</l>
+	                 <l n="310" part="I">Reposez-vous, Seigneur.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS tombant de son siège.</speaker>
+	                 <l n="310" part="F">Que je souffre, Timante, </l>
+	                 <l n="311">Et crains bien que le ciel n'ait marqué dans mon sort</l>
+	                 <l n="312">L'heure de cet hymen pour celle de ma mort !</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="313">Le roi n'est pas fort loin, et je lui vais apprendre</l>
+	                 <l n="314">Le mal inopiné qui vient de vous surprendre.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="315">Arrête, et garde-toi de lui rien découvrir</l>
+	                 <l n="316">D'un mal qu'il peut accroître et qu'il ne peut guérir ;</l>
+	                 <l n="317">Il n'est pas nouveau, je l'eus pour mon supplice</l>
+	                 <l n="318">Dès le premier instant que je vis Stratonice.</l>
+	                 <l n="319">Ah, que pour moi ce fut un malheureux instant !</l>
+	                 <l n="320" part="I">Hélas !</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE .</speaker>
+	                 <l n="320" part="M">Vous soupirez ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="320" part="F">Ne m'observe pas tant,</l>
+	                 <l n="321">Laisse-moi te cacher la cause de ma peine.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="322">Je me suis bien abusé, Seigneur, si c'est la haine,</l>
+	                 <l n="323">Pour haïr Stratonice on y voit trop d'appas.</l>
+	                 <l n="324" part="I">Vous changez de couleur ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="324" part="F">Ne me regarde pas.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="325">Je vois trop qu'à l'aimer votre âme s'abandonne.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="326">Ah ! Garde-toi donc bien d'en rien dire à personne.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="327" part="I">Vous voulez donc l'aimer ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="327" part="F">Moi, vouloir être amant</l>
+	                 <l n="328">De celle qui toujours me hait obstinément ?</l>
+	                 <l n="329">Qui prend même plaisir à me montrer sa haine,</l>
+	                 <l n="330">Et qui toujours me fuit, ou me souffre avec peine ?</l>
+	                 <l n="331">Moi, la vouloir aimer ? Non, c'est trop me trahir,</l>
+	                 <l n="332">Non, Timante, plutôt je la voudrais haïr ;</l>
+	                 <l n="333">Mais à te dire vrai je sens malgré moi-même </l>
+	                 <l n="334">Que ce qu'on veut haïr est souvent ce qu'on aime. </l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="335">C'est donc par quelque espoir d'avoir un jour sa foi</l>
+	                 <l n="336">Que vous voulez contre elle aigrir toujours le roi,</l>
+	                 <l n="337">Et le dépit ardent que vous faites paraître</l>
+	                 <l n="338" part="I">N'est en effet qu'amour ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="338" part="F">Cela pourrait bien être,</l>
+	                 <l n="339" part="I">Mais l'ingrate me hait.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="339" part="F">En êtes-vous certain ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="340">J'en voudrais bien douter, mais hélas, c'est en vain ;</l>
+	                 <l n="341">Ses soins pour m'éviter chaque jour m'en instruisent,</l>
+	                 <l n="342">Quand je m'offre à ses yeux ses regards me le disent,</l>
+	                 <l n="343">Et quand je veux parler pour m'en instruire mieux,</l>
+	                 <l n="344">Sa bouche avoue encore tout ce qu'ont dit ses yeux.</l>
+	                 <l n="345">La cruelle rougit d'une fureur soudaine,</l>
+	                 <l n="346">Et m'ose hautement assurer de sa haine.</l>
+	                 <l n="347">C'est l'ordinaire effet de l'invincible horreur</l>
+	                 <l n="348">Qui d'une belle-mère aigrit toujours la cour,</l>
+	                 <l n="349">Et qui fait qu'un beau-fils, qu'un père favorise,</l>
+	                 <l n="350">Lui semble un ennemi qu'il faut qu'elle détruise.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="351">Mais Barsine vous aime, et vous croit son amant ?</l>
+	                 <l n="352" part="I">Vous devez l'épouser ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="352" part="F">C'est mon plus grand tourment.</l>
+	                 <l n="353">Devant que j'eusse vu l'ingrate que j'adore,</l>
+	                 <l n="354">Je l'aimais, et mon cour voudrait l'aimer encore ;</l>
+	                 <l n="355">Mais je sens, dans l'ardeur qui me vient enflammer,</l>
+	                 <l n="356">Qu'on n'aime pas toujours ce qu'on voudrait aimer.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="357">Du mal que vous souffrez la moindre connaissance</l>
+	                 <l n="358">De l'hymen de Barsine aujourd'hui vous dispense ;</l>
+	                 <l n="359">Le roi vous aime trop, Seigneur, pour vous presser.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="360">Mon mal est bien plus grand que tu ne peux penser,</l>
+	                 <l n="361">Je me sens tout de flamme, et toujours sans relâche</l>
+	                 <l n="362">Une fièvre maligne à mes humeurs s'attache ;</l>
+	                 <l n="363">Mon âme a su partout répandre sa langueur,</l>
+	                 <l n="364">Mon sang a pris sa part du trouble de mon cour,</l>
+	                 <l n="365">Et mes esprits brûlants, par leurs courses soudaines</l>
+	                 <l n="366">Ont enfin fait couler mon feu jusqu'en mes veines ; </l>
+	                 <l n="367">Mais rougissant de voir ce qui me fait brûler,</l>
+	                 <l n="368">J'aime encore beaucoup mieux en mourir qu'en parler,</l>
+	                 <l n="369">Mon amour fait mon mal, Timante, et je m'expose,</l>
+	                 <l n="370">En découvrant l'effet, à découvrir la cause ;</l>
+	                 <l n="371">Je me sens si honteux, et j'ai tant de regret</l>
+	                 <l n="372">De n'aimer plus qui m'aime, et d'aimer qui me hait,</l>
+	                 <l n="373">Qu'aussi bien je mourrais de honte et de tristesse,</l>
+	                 <l n="374">Si l'ingrate que j'aime avait su ma faiblesse.</l>
+	                 <l n="375">Quoi ? L'orgueilleuse aurait le plaisir de savoir </l>
+	                 <l n="376">Que malgré moi mon âme est toute en son pouvoir ?</l>
+	                 <l n="377">Qu'elle peut sur mon cour beaucoup plus que moi-même,</l>
+	                 <l n="378">Qu'elle me hait enfin bien moins que je ne l'aime,</l>
+	                 <l n="379">Et que c'est en effet pour elle que je meurs ?</l>
+	                 <l n="380">Ah, ce serait pour moi le plus grand des malheurs.</l>
+	                 <l n="381">Elle n'aura jamais cette barbare joie,</l>
+	                 <l n="382">Si je ne la hais pas, je veux qu'elle le crois ;</l>
+	                 <l n="383">Je veux, malgré l'amour dont je me sens surpris,</l>
+	                 <l n="384">Montrer haine pour haine, et mépris pour mépris,</l>
+	                 <l n="385">Et que l'indigne ardeur dont j'ai l'âme enflammée,</l>
+	                 <l n="386">Soit une honte au moins dans mon cour renfermée.</l>
+	                 <l n="387">Dussai-je de douleur en mourir à l'instant,</l>
+	                 <l n="388">Je veux voir son hymen d'un visage content,</l>
+	                 <l n="389">Et conclure à ses yeux le fatal mariage</l>
+	                 <l n="390">Où je sais qu'aussi bien ma parole m'engage,</l>
+	                 <l n="391">Je réponds que Barsine aura ma main ce soir.</l>
+	                 <l n="392">Mais je me sens encore trop faible pour la voir.</l>
+	                 <l n="393" part="I">Rentrons.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="393" part="F">Quoi ! Vous craignez, Seigneur, de voir Barsine ?</l>
+	                 <l n="394">Quand votre cour pour elle enfin se détermine ?</l>
+	                 <l n="395">Je crains de lui montrer un peu trop de froideur,</l>
+	                 <l n="396">Je réponds de ma main, mais non pas de mon cour.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="2">
+            <head>ACTE II</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Philippe, Stratonice, Zénone.</head>
+               <sp who="tc0647-PHILIPE">
+                  <speaker>PHILIPPE.</speaker>
+	                 <l n="397">Je ne permettrai point que l'hymen se diffère,</l>
+	                 <l n="398">Perdez-en le désir, je n'y puis satisfaire ;</l>
+	                 <l n="399" part="I">Vous savez qui je suis.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="399" part="F">Oui, je le sais, Seigneur,</l>
+	                 <l n="400">Vous pouvez tout sur moi, ma mère et votre sour.</l>
+	                 <l n="401">Je sais qu'il faut ici, par l'ordre de mon père,</l>
+	                 <l n="402">Que je vous obéisse et que je vous révère,</l>
+	                 <l n="403">Je sais qu'entre vos mains il a remis ses droits,</l>
+	                 <l n="404">Et que tous vos désirs me sont autant de lois.</l>
+	                 <l n="405">Je ne vous presse pas de rompre l'hyménée,</l>
+	                 <l n="406">Où pour le bien public je me vois destinée ;</l>
+	                 <l n="407">Mais pour me disposer à recevoir ces nouds,</l>
+	                 <l n="408">Laissez-moi, s'il se peut, encore un jour ou deux,</l>
+	                 <l n="409">Et daignez m'accorder ce terme pour détruire</l>
+	                 <l n="410">Le trouble qui me gêne et que l'hymen m'inspire.</l>
+               </sp>
+               <sp who="tc0647-PHILIPE">
+                  <speaker>PHILIPE.</speaker>
+	                 <l n="411">Vous m'en dites beaucoup, mais j'en vois encore plus ;</l>
+	                 <l n="412">Vous trouvez peu d'appas sans doute à Seleucus,</l>
+	                 <l n="413">Et ce trouble secret dont vous êtes gênée,</l>
+	                 <l n="414">A plutôt pour objet l'époux que l'hyménée.</l>
+	                 <l n="415">Mais ce trouble sur vous eut-il plus de pouvoir,</l>
+	                 <l n="416">Il faut que Seleucus vous épouse ce soir :</l>
+	                 <l n="417">L'heure est déjà prise, et ce jour seul vous reste,</l>
+	                 <l n="418">Employez-le à bannir cette haine funeste,</l>
+	                 <l n="419">Songez qu'il faut régner, et que l'ambition</l>
+	                 <l n="420">Doit être des grands cours l'unique passion,</l>
+	                 <l n="421">Qu'il ne faut rien haïr que ce qui vous peut nuire ;</l>
+	                 <l n="422">Qu'il ne faut rien aimer moins que d'un empire ;</l>
+	                 <l n="423">Préparez-y votre âme, et pour donner des lois,</l>
+	                 <l n="424">Hâtez-vous d'obéir pour la dernière fois.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Stratonice, Zénone.</head>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="425">Que ne sais-tu la peine où tu vas me réduire,</l>
+	                 <l n="426">Cruel, qui veux me voir maîtresse d'un empire ?</l>
+	                 <l n="427">Que ne suis-tu mes voux, et pour toute faveur</l>
+	                 <l n="428">Que ne me laisses-tu maîtresse de mon cour !</l>
+	                 <l n="429">Vois, Zenone, à quel prix est ma haute naissance,</l>
+	                 <l n="430">Elle ne peut laisser mon cour en ma puissance,</l>
+	                 <l n="431">Et pour avoir le droit de me faire obéir,</l>
+	                 <l n="432">Je perds la liberté d'aimer ou de haïr.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="433">Mais contre Seleucus quel sujet vous anime ?</l>
+	                 <l n="434">Madame, il n'a pour vous fait voir que de l'estime.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="435">Zenone, il est certain, mais le prince son fils</l>
+	                 <l n="436">N'a pour moi jusqu'ici fait voir que du mépris.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="437">Le roi cherche à vous plaire avec un soin extrême.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="438">Le prince Antiochus n'en use pas de même.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="439">Le roi vous aimera, bornez-y vos souhaits.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="440">Mais le prince son fils ne m'aimera jamais.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="441">Vous nommez tant ce fils à vos désirs contraire,</l>
+	                 <l n="442">Qu'on dirait qu'il vous touche un peu plus que son père.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="443">Le roi chérit ce prince, et son aversion</l>
+	                 <l n="444">De son père et de moi peut troubler l'union.</l>
+	                 <l n="445">Voilà pourquoi j'en parle, et ce que j'en dois craindre.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="446">Vous n'avez pas encore sujet de vous en plaindre ;</l>
+	                 <l n="447">Il est vrai qu'il fait voir pour vous quelque froideur,</l>
+	                 <l n="448">Mais son indifférence émeut trop votre cour.</l>
+	                 <l n="449">Croyez-moi vous n'auriez ni regret ni colère</l>
+	                 <l n="450">De ne lui plaire pas s'il n'avait pu vous plaire,</l>
+	                 <l n="451">Et vous pourriez le voir sans douleur aujourd'hui</l>
+	                 <l n="452">Indifférent pour vous, si vous l'étiez pour lui.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="453">Quoi ? Ne connais-tu pas quel soin et quelle peine</l>
+	                 <l n="454">Je prends incessamment pour lui montrer ma haine ?</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="455">Si vous le haïssiez, vous n'auriez pas besoin,</l>
+	                 <l n="456">D'avoir pour le montrer tant de peine et de soin.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="457">Je ne le vois jamais sans rougir de colère.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="458">Rougir est de l'amour un effet ordinaire.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="459">Mais autant que je puis je fuis toujours ses pas.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="460">Si vous ne le craigniez, vous ne le fuiriez pas.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="461">Hé bien, juge à ton gré de mon désordre extrême ;</l>
+	                 <l n="462">Crois que je crains d'aimer, mais ne crois pas que j'aime.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="463">Mais vous-même croyez qu'il est à présumer</l>
+	                 <l n="464">Que l'on aime déjà dès que l'on craint d'aimer.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="465">Le prince aime Barsine, et je ne puis prétendre,</l>
+	                 <l n="466">Il l'épouse ce soir. Mais que vient-on m'apprendre ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Stratonice, Zabas, Zénone.</head>
+               <sp who="tc0647-ZABAS">
+                  <speaker>ZABAS.</speaker>
+	                 <l n="467">Barsine vient, Madame, en ce lieu pour vous voir.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="468">Barsine ? Qu'elle vienne, il la faut recevoir.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="469">Ce nom vous fait pâlir, et malgré vous Madame,</l>
+	                 <l n="470">On voit jusqu'en vos yeux le trouble de votre âme ;</l>
+	                 <l n="471">Mais à tort votre esprit contre elle est animée,</l>
+	                 <l n="472">Le prince, à ce qu'on dit, n'en est pas fort aimé.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="473">Crois-tu qu'on dise vrai ? Barsine feint peut-être,</l>
+	                 <l n="474">On aime quelquefois sans le faire connaître.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="475">Pourriez-vous bien y prendre un si grand intérêt,</l>
+	                 <l n="476">Si vous ne l'aimiez pas... mais Barsine paraît.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Stratonice, Barsine, Zénone, Céphise.</head>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="477">Je me trouve surprise, et sachant qui vous êtes,</l>
+	                 <l n="478">Je n'osais espérer l'honneur que vous me faites.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="479">Je vous connais, Madame, et je sais qui je suis,</l>
+	                 <l n="480">Le sang dont vous sortez a fait tous mes ennuis ;</l>
+	                 <l n="481">Je sais que pour détruire un puissant adversaire,</l>
+	                 <l n="482">Votre aïeul Antigone a fait mourir son père,</l>
+	                 <l n="483">Et que de nos maisons les cruels différents</l>
+	                 <l n="484">Pouvaient me dispenser des soins que je vous rends.</l>
+	                 <l n="485">Mais si votre maison a détruit ma famille,</l>
+	                 <l n="486">Vous prenez un époux dont je vais être fille,</l>
+	                 <l n="487">Et je dois mon respect au rang où vous montez,</l>
+	                 <l n="488">Comme je dois ma haine au sang dont vous sortez.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="489">L'hymen de Seleucus m'est un grand avantage,</l>
+	                 <l n="490">Puisque de votre haine enfin il se dégage.</l>
+	                 <l n="491">Et qu'il me justifie en faveur de son rang</l>
+	                 <l n="492">Du seul crime qu'on puisse imputer à mon sang.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="493">L'hymen d'Antiochus ne m'est pas moins propice,</l>
+	                 <l n="494">Puisqu'il faut qu'avec vous ce feu sacré m'unisse,</l>
+	                 <l n="495">Et m'épargne, en faveur d'un devoir plein d'appas,</l>
+	                 <l n="496">La peine que j'aurais à ne vous aimer pas.</l>
+	                 <l n="497">Mais je souhaiterais qu'un noud si favorable</l>
+	                 <l n="498">Vous pût être aussi doux qu'il doit m'être agréable,</l>
+	                 <l n="499">Et pour combler mes voux je voudrais que le roi</l>
+	                 <l n="500">Eut pour vous les appas que le prince a pour moi.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="501">Si le prince vous plaît, croyez que dans mon père</l>
+	                 <l n="502">Je ne vois rien aussi qui ne me doive plaire,</l>
+	                 <l n="503">Et que je vous souhaite en recevant sa foi,</l>
+	                 <l n="504">Autant d'amour pour lui que j'en ai pour le roi.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="505">Si vous aimez le roi, je confesse, Madame,</l>
+	                 <l n="506">Qu'on ne peut trop louer la force de votre âme,</l>
+	                 <l n="507">Et que l'on doit avoir sans doute en pareil sort</l>
+	                 <l n="508">Une grande vertu pour un si grand effort.</l>
+	                 <l n="509">Si pour le prince encore vous étiez destinée,</l>
+	                 <l n="510">Je vous verrais l'aimer sans en être étonnée,</l>
+	                 <l n="511">Votre âge avec le sien ayant plus de rapport,</l>
+	                 <l n="512">Un peu d'amour pour lui ne surprendrait pas fort ;</l>
+	                 <l n="513">Il a des qualités dont un cour jeune et tendre</l>
+	                 <l n="514">N'aurais pas peu de peine à se pouvoir défendre,</l>
+	                 <l n="515">Et dont l'appas brillant, sans qu'on dut l'étonner,</l>
+	                 <l n="516">Pourrait rendre l'amour qu'on lui pourrait donner.</l>
+	                 <l n="517">Mais que de votre cour vous vous rendiez maîtresse,</l>
+	                 <l n="518">Jusques à le forcer d'avoir de la tendresse</l>
+	                 <l n="519">Pour un roi qui n'a rien qui puisse en inspirer ;</l>
+	                 <l n="520">C'est en quoi l'on ne peut assez vous admirer.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="521">Mais comptez-vous pour rien l'éclat qui l'environne,</l>
+	                 <l n="522">Les charmes de son trône, et ceux de sa couronne,</l>
+	                 <l n="523">Et toutes les douceurs du pouvoir souverain</l>
+	                 <l n="524">Où je vais prendre part en recevant sa main ?</l>
+	                 <l n="525">Si mon choix vous surprend, le vôtre aussi m'étonne ;</l>
+	                 <l n="526">Le roi vous présentait son sceptre, et sa personne,</l>
+	                 <l n="527">Et je plains votre cour abusé par vos yeux,</l>
+	                 <l n="528">D'avoir choisi le prince, ayant pu choisir mieux.</l>
+	                 <l n="529">Tout ce qu'il a d'aimable est assez ordinaire,</l>
+	                 <l n="530">Ou je connais mal en ce qui devrait plaire :</l>
+	                 <l n="531">Il me cache les traits que vous trouvez si doux,</l>
+	                 <l n="532">Ou je n'ai pas les yeux si pénétrants que vous,</l>
+	                 <l n="533">Et je n'y trouve rien, quoique vous puissiez dire,</l>
+	                 <l n="534">Qui pût justifier le refus d'un empire.</l>
+	                 <l n="535">Il est vrai qu'il est jeune, et le roi ne l'est pas :</l>
+	                 <l n="536">Mais croyez-vous qu'un trône, avec tous ses appas,</l>
+	                 <l n="537">Ne doive pas paraître aux yeux d'une princesse,</l>
+	                 <l n="538">Plus doux et plus brillant qu'un peu plus de jeunesse ?</l>
+	                 <l n="539">Le roi, malgré son âge, est toujours un beau choix ;</l>
+	                 <l n="540">Un peu de cheveux gris ne sied point mal aux rois ;</l>
+	                 <l n="541">Et quand on peut atteindre à des grandeurs solides,</l>
+	                 <l n="542">Un diadème au font efface bien des rides.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="543">Quand l'ambition seule occupe tout un cour,</l>
+	                 <l n="544">Je crois que hors du trône il n'est point de douceur,</l>
+	                 <l n="545">Mais pour croire à ce point la grandeur précieuse,</l>
+	                 <l n="546">La ciel ne m'a pas faite assez ambitieuse.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="547">Quand l'amour touche une âme, aussi je croirais bien,</l>
+	                 <l n="548">Que hors de ce qu'on aime on n'estime plus rien,</l>
+	                 <l n="549">Mais pour aimer le prince, et ne m'en pas défendre,</l>
+	                 <l n="550">Le ciel m'a fait un cour qui n'est pas assez tendre.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="551">Ainsi, grâce au destin, nos cours seront tous deux</l>
+	                 <l n="552">Par des besoins différents également heureux :</l>
+	                 <l n="553">Nulle de nous aura ce que l'autre souhaite,</l>
+	                 <l n="554">Et chacune aura lieu d'être si satisfaite,</l>
+	                 <l n="555">Qu'il ne pourra rester à pas une en secret,</l>
+	                 <l n="556">La moindre sentiment d'envie et de regret.</l>
+	                 <l n="557">Mais il faut vous laisser, le jour d'une hyménée</l>
+	                 <l n="558">Est toujours, quoi qu'on dise,  une grande journée,</l>
+	                 <l n="559">Et dans de pareils soins, on doit s'occuper mieux,</l>
+	                 <l n="560">Qu'à perdre en vains discours un temps si précieux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Stratonice, Zénone.</head>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="561">Hé bien, avais-je tort, quand j'ai cru que Barsine</l>
+	                 <l n="562">Pouvait aimer le prince à qui l'on la destine ?</l>
+	                 <l n="563">Tout ce qu'elle en a dit vient de me confirmer</l>
+	                 <l n="564">Qu'elle y voit trop d'appas, pour ne le point aimer.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="565">Avais-je tort aussi, lorsque j'ai cru, Madame,</l>
+	                 <l n="566">Que le prince en secret avait touché votre âme ?</l>
+	                 <l n="567">Sauriez-vous à regret qu'elle y voit des appas,</l>
+	                 <l n="568">Et qu'elle l'aime enfin, si vous ne l'aimiez pas ?</l>
+	                 <l n="569">Vous connaissez ma foi, ne cherchez plus d'adresses.</l>
+	                 <l n="570" part="I">Vous l'aimez, Avouez-le.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="570" part="F">Ah, Dieux, que tu me presses !</l>
+	                 <l n="571">Je te laisse tout croire, et veux tout endurer,</l>
+	                 <l n="572">Mais si je l'aime, au moins laisse-moi l'ignorer.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="573">Il est bien malaisé d'ignorer que l'on aime ;</l>
+	                 <l n="574">L'amour se fait toujours assez sentir lui-même,</l>
+	                 <l n="575">Et quand un cour se cache un mal si plein d'appas,</l>
+	                 <l n="576">Il feint de l'ignorer, et ne l'ignore pas.</l>
+	                 <l n="577">Vous déguisez en vain un si cruel martyre.</l>
+	                 <l n="578">Quoi, vous baissez les yeux, et ne m'osez rien dire ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="579">Que faut-il davantage ? Avoir les yeux baissés,</l>
+	                 <l n="580">Et n'osez dire rien, n'est-ce pas dire assez ?</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="581">Enfin vous confessez que l'amour vous surmonte ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="582">D'où me pourrait provenir tant de honte ?</l>
+	                 <l n="583">Je sens ce qu'en effet je ne puis exprimer,</l>
+	                 <l n="584">Mais je ne sais pas bien encore si c'est aimer.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="585" part="I">Dieux ! Que me dites-vous ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="585" part="F">Que veux-tu que je die ?</l>
+	                 <l n="586">L'amour m'est inconnu, je n'aimai de ma vie,</l>
+	                 <l n="587">Mais pourtant, dans le trouble où mes sens sont réduits</l>
+	                 <l n="588">Je crois que quand on aime, on est comme je suis.</l>
+	                 <l n="589">Oui, Zenone, en effet je commence à le croire,</l>
+	                 <l n="590">Je commence à vouloir n'aimer plus pour ma gloire,</l>
+	                 <l n="591">Mais si de ma frayeur j'ose de te faire part,</l>
+	                 <l n="592">Je crains de commencer à le vouloir trop tard ;</l>
+	                 <l n="593">Je crains que cette ardeur, dans mon cour trop cachée,</l>
+	                 <l n="594">Pour en pourvoir sortir, n'y soit trop attachée,</l>
+	                 <l n="595">Et qu'un mal si honteux pour l'avoir trop souffert,</l>
+	                 <l n="596">Ne puisse être guéri quand il est découvert.</l>
+	                 <l n="597">Mais quand j'aurais au cour d'assez grandes faiblesses</l>
+	                 <l n="598">Pour ne pas étouffer ces indignes tendresses,</l>
+	                 <l n="599">Ne crois point que je manque à suivre mon devoir,</l>
+	                 <l n="600">Ne crois point que le roi n'ait pas ma main ce soir.</l>
+	                 <l n="601">Je punirai ce cour, qui ne me veut pas croire,</l>
+	                 <l n="602">Ce cour, qui veut aimer au dépend de ma gloire,</l>
+	                 <l n="603">Puisqu'il m'est infidèle, et qu'il veut aujourd'hui </l>
+	                 <l n="604">Faire un choix malgré moi, j'en ferai malgré lui ;</l>
+	                 <l n="605">Puisqu'il entreprend bien d'aimer pour mon supplice</l>
+	                 <l n="606">Ce que je veux haïr avec tant de justice,</l>
+	                 <l n="607">J'entreprendrai d'aimer ce qu'il prétend haïr,</l>
+	                 <l n="608">Et je le trahirai, comme il m'ose trahir.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="609">C'est donc pour ce sujet, qu'avec tant de constance</l>
+	                 <l n="610">Partout d'Antiochus vous fuyez la présence ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="611">Oui, je l'ai toujours fui, de crainte qu'en effet</l>
+	                 <l n="612">On ne connut que j'aime un ingrat qui me hait.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="613">Mais du prince en effet connaissez-vous la haine ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="614">Il ne s'en cache pas, tant il a l'âme vaine,</l>
+	                 <l n="615">Et j'apprends tous les jours, que dès qu'il parle au roi,</l>
+	                 <l n="616">Il ne peut s'empêcher de parler contre moi.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="617">Il faut donc empêcher votre amour de paraître.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="618">Oui, oui, mon lâche cour s'en sera pas le maître,</l>
+	                 <l n="619">Je forcerai ma bouche, en choquant ses désirs,</l>
+	                 <l n="620">A ne laisser sortir aucun de ses soupirs  ;</l>
+	                 <l n="621">Je craindrai ce qu'il veut, je fuirai ce qu'il aime,</l>
+	                 <l n="622">Et s'il faut voir le prince enfin malgré moi-même,</l>
+	                 <l n="623">J'empêcherai mes yeux de prêter à mon cour</l>
+	                 <l n="624">Aucun regret qui puisse exprimer sa langueur.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Antiochus, Stratonice, Timante, Zénone.</head>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS à Timante.</speaker>
+	                 <l n="625">Viens, suis-moi chez Barsine, allons sans plus attendre,</l>
+	                 <l n="626">Je me sens de la force assez pour l'entreprendre.</l>
+	                 <l n="627" part="I">Mais je vois Stratonice.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="627" part="F">Ô Dieux ! Le prince sort.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="628" part="I">Évitons sa rencontre.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="628" part="F">Évitons son abord.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="629" part="I">Montrons que je la hais.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="629" part="F">Montrons que je l'abhorre.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE à Antiochus.</speaker>
+	                 <l n="630" part="I">Vous avancez toujours.</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE à Stratonice.</speaker>
+	                 <l n="630" part="F">Vous demeurez encore.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="631" part="I">Allons, retirons-nous.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="631" part="F">Allons, sortons d'ici.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS à Stratonice.</speaker>
+	                 <l n="632" part="I">Hé quoi, vous me fuyez ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="632" part="F">Vous me fuyez aussi.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="633">Si je vous fuis, au moins j'apprends de votre fuite</l>
+	                 <l n="634">Que ce ne doit pas être un soin qui vous irrite.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="635">Votre fuite m'apprend si j'évite vos pas</l>
+	                 <l n="636">Que c'est un soin aussi qui ne vous déplaît pas.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="637">Ce soin ne devrait as en effet me déplaire.</l>
+	                 <l n="638" part="I">Toutefois...</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="638" part="M">Achevez...</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="638" part="F">Non, il vaut mieux me taire ;</l>
+	                 <l n="639">Aussi bien où je vois votre sort et le mien,</l>
+	                 <l n="640">Ce que je vous dirais ne servirait de rien.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="641">Je dois aussi toujours et vous fuir et vous nuire ;</l>
+	                 <l n="642" part="I">Cependant...</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="642" part="M">Dites tout.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="642" part="F">Il vaut mieux ne rien dire,</l>
+	                 <l n="643">Aussi bien en l'état où je vois notre sort,</l>
+	                 <l n="644">Ce que je vous dirais pourrait me faire tort.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="645">Si vous saviez les maux que mon malheur m'envoie...</l>
+	                 <l n="646">Mais si vous les saviez, vous auriez trop de joie.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="647">Rien ne doit maintenant vous causez de souci,</l>
+	                 <l n="648" part="I">Vous allez être heureux !</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="648" part="F">Vous l'allez être aussi.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="649">Vous épousez ce soir une beauté bien chère.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="650">Ce même soir aussi vous épousez mon père.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="651">Je vous entends, et vois qu'aux cours ambitieux</l>
+	                 <l n="652">Le nom de belle-mère est toujours odieux.</l>
+	                 <l n="653">Je vous fâche en ce rang, mais je veux bien qu'on sache</l>
+	                 <l n="654">Que cet hymen me plaît d'autant plus qu'il vous fâche,</l>
+	                 <l n="655">Et que ce nom fatal dont vous êtes jaloux,</l>
+	                 <l n="656">Par l'horreur qu'il vous fait me semble encore plus doux.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="657">Je crois sans ce secours mon père assez aimable</l>
+	                 <l n="658">Pour vous faire trouver cet hymen agréable.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="659">Peut-être vous croyez que j'ai peine à l'aimer,</l>
+	                 <l n="660">Et l'âge où l'on le voit vous le fait présumer ?</l>
+	                 <l n="661">Mais je veux vous forcer de croire le contraire;</l>
+	                 <l n="662">Je veux que vous sachiez qu'il m'a d'abord su plaire,</l>
+	                 <l n="663">Et que le roi pour moi, malgré ses cheveux gris,</l>
+	                 <l n="664">N'aurait rien d'odieux, s'il n'avait point de fils.</l>
+	                 <l n="665">Oui, sans rien déguiser, Prince, je vous confesse</l>
+	                 <l n="666">Que vous lui dérobez beaucoup de ma tendresse,</l>
+	                 <l n="667">Que vous causez pour lui ce que j'ai de froideur,</l>
+	                 <l n="668">Et qu'il n'a que son fils qui lui nuise en mon cour.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="669" part="I">Vous me haïssez donc ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="669" part="F">J'y mets toute ma gloire,</l>
+	                 <l n="670">Et je mettrai tous mes soins à vous le faire croire.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="671">Achevez, et pour moi montrez tant de courroux </l>
+	                 <l n="672">Que vous me contraignez d'en prendre aussi pour vous.</l>
+	                 <l n="673">Inspirez-moi l'orgueil dont votre âme est si pleine,</l>
+	                 <l n="674">Et versez dans mon cour un peu de votre haine.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="675">Ce n'est pas un secours dont vous avez besoin,</l>
+	                 <l n="676">Vous me haïrez bien sans que j'en prenne soin.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="677">Je ferai mes efforts, et sans votre assistance</l>
+	                 <l n="678">Mon cour peut-être encore n'en perd pas l'espérance.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="679">Vous en viendrez à bout, je n'en veux point douter.</l>
+	                 <l n="680">Mais c'est trop vous souffrir, et c'est trop m'arrêter,</l>
+	                 <l n="681">Adieu, croyez toujours que ma haine est extrême,</l>
+	                 <l n="682">Prince et si je vous hais, haïssez moi de même.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. Antiochus, Timante.</head>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="683">Ah si vous me laissez l'ordre de vous haïr,</l>
+	                 <l n="684">Laissez-moi donc aussi le pouvoir d'obéir,</l>
+	                 <l n="685">Cruelle, et si pour vous ma haine est nécessaire,</l>
+	                 <l n="686">Pour m'empêcher d'aimer, empêchez-vous de plaire.</l>
+	                 <l n="687">Vous demandez ma haine ? Ah, ne pouviez-vous mieux</l>
+	                 <l n="688">Mettre aujourd'hui d'accord votre bouche et vos yeux ?</l>
+	                 <l n="689">Peuvent-ils à la fois vouloir avec justice,</l>
+	                 <l n="690">Et que je vous adore, et que je vous haïsse,</l>
+	                 <l n="691">Et deviez vous prêtez, pour ma peine en ce jour,</l>
+	                 <l n="692">Votre bouche à la haine, et vos yeux à l'amour ?</l>
+	                 <l n="693">Moi, vous haïr ? Hélas ! Le devez-vous prétendre,</l>
+	                 <l n="694">Comme si de mon choix mon cour pouvait dépendre,</l>
+	                 <l n="695">Et comme si l'ardeur qui fait mon désespoir,</l>
+	                 <l n="696">Avait laissé pour vous ma haine en mon pouvoir ?</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="697">Quoi, vous l'aimez encore, Seigneur, qu'est devenue</l>
+	                 <l n="698">Cette fierté qu'en vous j'ai toujours reconnue,</l>
+	                 <l n="699">Et l'orgueil qui régna toujours dans votre cour,</l>
+	                 <l n="700">Souffre-t-il sans dépit cette indigne rigueur ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="701">Hélas ! Je voudrais bien paraître moins esclave,</l>
+	                 <l n="702">Je voudrais bien braver l'ingrate qui me brave,</l>
+	                 <l n="703">Pour avoir du dépit mon cour fait ce qu'il peut,</l>
+	                 <l n="704">Mais on n'a pas toujours du dépit quand on veut.</l>
+	                 <l n="705">J'ai beaucoup enduré, je sais que l'inhumaine</l>
+	                 <l n="706">Me parlait seulement pour m'exprimer sa haine,</l>
+	                 <l n="707">Je souffrais des rigueurs qui devaient m'émouvoir ;</l>
+	                 <l n="708">Mais, Timante, j'avais le plaisir de la voir,</l>
+	                 <l n="709">Et par l'effet puissant du charme qui me touche,</l>
+	                 <l n="710">Ses yeux adoucissaient les rigueurs de sa bouche,</l>
+	                 <l n="711">Je te dirai bien plus, tous les soins qu'elle a pris</l>
+	                 <l n="712">N'ont pu persuader mon cour de ses mépris ;</l>
+	                 <l n="713">Je trouve aux mots cruels qu'elle m'a fait entendre</l>
+	                 <l n="714">Certain charme secret que je ne puis comprendre ;</l>
+	                 <l n="715">J'ai peine à m'alarmer, et sans savoir pourquoi,</l>
+	                 <l n="716">Je ne sais quel espoir me flatte malgré moi,</l>
+	                 <l n="717">Tant il est naturel, dans un malheur extrême,</l>
+	                 <l n="718">De se flatter toujours, mais surtout quand on aime.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="719">Mais Barsine, Seigneur, vous oblige à la voir,</l>
+	                 <l n="720">Si vous avez dessein de l'épouser ce soir.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="721">Je ne puis, mon mal croît, voyons plutôt mon père,</l>
+	                 <l n="722">Afin que s'il se peut, son hymen se diffère,</l>
+	                 <l n="723">Fut-ce d'un seul moment, ne m'en détourne pas,</l>
+	                 <l n="724">C'est toujours d'un moment différer mon trépas.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="3">
+            <head>ACTE III</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Stratonice, Séleucus, Policrate, Zénone.</head>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="725">Le soin de notre hymen tout entier vous regarde,</l>
+	                 <l n="726">Et si vous souhaitez, Seigneur, qu'on le retarde,</l>
+	                 <l n="727">Vous en êtes le maître, et dans ce sentiment</l>
+	                 <l n="728">Vous n'avez pas besoin de mon consentement.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="729">Si vous n'y consentez, je ne puis l'entreprendre.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="730">Si vous le désirez, je ne puis m'en défendre,</l>
+	                 <l n="731">Et vous avez déjà sur moi des droits sacrés</l>
+	                 <l n="732">Pour me faire vouloir ce que vous désirez.</l>
+	                 <l n="733">Ne consultez que vous, différez sans rien craindre,</l>
+	                 <l n="734">J'aurais bien du regret, Seigneur, de vous contraindre.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="735">N'outragez point ma foi jusqu'à vous figurer</l>
+	                 <l n="736">Que par froideur pour vous je cherche à différer.</l>
+	                 <l n="737">Mon cour suit mon devoir et ma seule tendresse</l>
+	                 <l n="738">Demande ce délai pour mon fils qui m'en presse.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="739">Quoi, ce délai, Seigneur, du prince est souhaité ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="740">Lui-même avec ardeur m'en a sollicité ;</l>
+	                 <l n="741">Sans lui jamais ce soin n'eut entré dans mon âme.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="742" part="I">Quoi, lui-même ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="742" part="F">Oui, lui seul, n'en doutez point, Madame.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="743">Ah, je n'en doute point, et mon cour interdit,</l>
+	                 <l n="744">En croit bien plus encore que vous n'en avez dit ;</l>
+	                 <l n="745">Je crois qu'auprès de vous le prince a l'injustice</l>
+	                 <l n="746">De me rendre toujours quelque mauvais office ;</l>
+	                 <l n="747">Je crois qu'il ne peut voir mon hymen qu'à regret,</l>
+	                 <l n="748">Je crois que mon bonheur fait son tourment secret,</l>
+	                 <l n="749">Je crois qu'il veut m'ôter ce que j'obtiens de gloire,</l>
+	                 <l n="750" part="I">Je crois qu'il vous y porte.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="750" part="F">Ah, c'est un peu trop croire.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="751">Quoi, Seigneur, dans la haine où je le vois pencher,</l>
+	                 <l n="752">Prenez-vous intérêt jusqu'à me la cacher ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="753">Non je n'entreprends point de vous cacher sa haine,</l>
+	                 <l n="754">Je sais que je prendrais une inutile peine,</l>
+	                 <l n="755">Puisqu'on ne voit que trop en chaque occasion</l>
+	                 <l n="756">Les bizarres effets de cette aversion,</l>
+	                 <l n="757">Et que son âme en est si fortement touchée,</l>
+	                 <l n="758">Qu'il me désavouerait si je l'avais cachée.</l>
+	                 <l n="759">Je n'entreprends ici que de vous assurer </l>
+	                 <l n="760">Que c'est un sentiment qu'il ne peut m'inspirer ;</l>
+	                 <l n="761">Que je ne trouve en vous rien qui ne doive plaire,</l>
+	                 <l n="762">Que la haine du fils ne va point jusqu'au père,</l>
+	                 <l n="763">Et que cette injustice indigne de son rang</l>
+	                 <l n="764">A du moins respecté la source de son rang.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="765">Si je vous plais, Seigneur, je dois être contente, ;</l>
+	                 <l n="766">Toute autre aversion doit m'être indifférente,</l>
+	                 <l n="767">Et mon âme livrée au pouvoir d'un époux</l>
+	                 <l n="768">Doit borner ses désirs et ses craintes en vous.</l>
+	                 <l n="769">On peut croire pourtant que sa haine enflammée</l>
+	                 <l n="770">Aurait déjà cessé si vous m'aviez aimée,</l>
+	                 <l n="771">Et qu'ayant sur un fils un pouvoir absolu,</l>
+	                 <l n="772">Il aurait pu m'aimer si vous l'aviez voulu.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="773">N'accusez que mon fils, assurez-vous, Princesse,</l>
+	                 <l n="774">Qu'il ne tient pas à moi que sa haine ne cesse.</l>
+	                 <l n="775">J'ai fait ce que j'ai pu pour vous en faire aimer,</l>
+	                 <l n="776">Il a des sentiments qu'on ne peut trop blâmer,</l>
+	                 <l n="777">Et j'aurais empêché son cour d'oser les prendre,</l>
+	                 <l n="778">Si jusques sur son cour mes droits pouvaient s'étendre ;</l>
+	                 <l n="779">Il tient de moi le jour, il est dessous ma loi,</l>
+	                 <l n="780">Mais son âme est un bien qu'il ne tient pas de moi ;</l>
+	                 <l n="781">Les Dieux dont elle vient par leur loi souveraine</l>
+	                 <l n="782">L'ont faite indépendante et libre dans sa haine,</l>
+	                 <l n="783">Et le ciel dans mes droits ne m'a point accordé</l>
+	                 <l n="784">Un pouvoir que les dieux n'ont pas même gardé.</l>
+	                 <l n="785">Je l'ai pourtant réduit enfin à me promettre</l>
+	                 <l n="786">De respecter le rang où ma main vous doit mettre ;</l>
+	                 <l n="787">Mais son cour, pour dompter cet aveugle transport,</l>
+	                 <l n="788">Demande un peu de temps pour un si grand effort, </l>
+	                 <l n="789">Et si vous souhaitez que sa haine finisse...</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="790">Non, non, puisqu'il le veut, Seigneur, qu'il me haïsse,</l>
+	                 <l n="791">Achevez notre hymen, et cessons aujourd'hui</l>
+	                 <l n="792">De le vouloir forcer à m'aimer malgré lui.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="793">Quoi, je n'obtiendrai point le délai qu'il désire ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="794">Je vous l'ai déjà dit, je suis sous votre empire,</l>
+	                 <l n="795">C'est de vous que dépend ce que vous demandez, </l>
+	                 <l n="796">Et j'y consentirai si vous le commandez.</l>
+	                 <l n="797">Mais si votre bonté d'autre part considère</l>
+	                 <l n="798">Le jour qu'on a choisi, les voux que j'ose faire,</l>
+	                 <l n="799">Et ce qu'on doit au sang dont j'eus l'heure de sortir,</l>
+	                 <l n="800">Vous ne me voudrez pas forcer d'y consentir.</l>
+	                 <l n="801">Je consens à sa haine, et dois trop peu la craindre</l>
+	                 <l n="802">Pour lui vouloir donner le loisir de l'éteindre ;</l>
+	                 <l n="803">M'en faire aimer, Seigneur, ce serait me trahir,</l>
+	                 <l n="804">Je ne vous cèle point que je le veux haïr,</l>
+	                 <l n="805">Je n'y veux épargner, ni temps, ni soin, ni peine,</l>
+	                 <l n="806">Et pour le bien haïr j'ai besoin de sa haine :</l>
+	                 <l n="807">Souffrez qu'il la conserve, et sans plus consulter,</l>
+	                 <l n="808">Pressez le noud fatal qui la peut augmenter.</l>
+	                 <l n="809">Il y va de ma gloire à le haïr sans cesse ;</l>
+	                 <l n="810">Sauvez-moi du péril d'une indigne tendresse, </l>
+	                 <l n="811">Et si vous ne voulez trahir mes justes voux,</l>
+	                 <l n="812">Ne vous empêchez pas de nous haïr tous deux.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Séleucus, Policrate.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="813">Connais-tu ma disgrâce, et les peines cruelles</l>
+	                 <l n="814">Où ne vont exposer leurs haines mutuelles ?</l>
+	                 <l n="815">Hélas ! Cher Policrate, en ces extrémités </l>
+	                 <l n="816">Pourrais-tu dans mon cour jeter quelques clartés ?</l>
+	                 <l n="817">Stratonice et le Prince ont un désir contraire, </l>
+	                 <l n="818">Quels droits dois-je garder et d'époux ou de père,</l>
+	                 <l n="819">Et qui doit l'emporter sur mes sens interdits,</l>
+	                 <l n="820">Du devoir ou du sang, d'une femme ou d'un fils ?</l>
+               </sp>
+               <sp who="tc0647-POLICRATE">
+                  <speaker>POLICRATE.</speaker>
+	                 <l n="821">Seigneur, quoique du sang la puissance soit forte,</l>
+	                 <l n="822">Il faut sans balancer que le devoir l'emporte.</l>
+	                 <l n="823">De ce jour pour l'hymen vous-même avez fait choix,</l>
+	                 <l n="824">Et rien n'est préférable aux paroles des rois :</l>
+	                 <l n="825">C'est au désir du prince à respecter la vôtre,</l>
+	                 <l n="826">Ou pour mieux dire, il doit n'en avoir jamais d'autre.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="827">Il le doit, je le sais, mais je ne sais pas bien</l>
+	                 <l n="828">Si son désir aussi ne serait pas le mien.</l>
+               </sp>
+               <sp who="tc0647-POLICRATE">
+                  <speaker>POLICRATE.</speaker>
+	                 <l n="829">Quoi, Seigneur, cet hymen aurait pu vous déplaire,</l>
+	                 <l n="830">Jusques à désirer aussi qu'on le diffère ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="831">Hélas ! Si je sondais mon cour sans le flatter,</l>
+	                 <l n="832">J'appréhenderais bien de n'en pouvoir douter,</l>
+	                 <l n="833">D'y rencontrer toujours une flamme mutine, </l>
+	                 <l n="834">Et de n'y rien trouver plus avant que Barsine :</l>
+	                 <l n="835">Il me semble en effet que mon cour qui s'émeut,</l>
+	                 <l n="836">Cherche à n'y renoncer que le plus tard qu'il peut,</l>
+	                 <l n="837">Et que devant ailleurs une foi qui l'engage,</l>
+	                 <l n="838">Il tâche à reculer, s'il ne peut davantage ;</l>
+	                 <l n="839">Pour avoir du délai je me suis trop pressé</l>
+	                 <l n="840">Pour ne m'y croire pas moi-même intéressé,</l>
+	                 <l n="841">Et le cruel refus que l'on vient de m'en faire,</l>
+	                 <l n="842">Me devrait moins toucher si je n'étais que père.</l>
+	                 <l n="843">Je ne croyais tantôt parler que pour mon fils ;</l>
+	                 <l n="844">Mais je crains qu'en effet je ne me sois mépris,</l>
+	                 <l n="845">Que je n'ai en secret confondu dans mon âme </l>
+	                 <l n="846">L'intérêt de mon sang et le soin de ma flamme ;</l>
+	                 <l n="847">Que les désirs du prince en de tels déplaisirs,</l>
+	                 <l n="848">N'aient servi que de voile à mes propres désirs,</l>
+	                 <l n="849">Et que pour l'exprimer dans mon cour qui murmure,</l>
+	                 <l n="850">L'amour n'ait emprunté la voix de la nature ;</l>
+	                 <l n="851">L'empire de Barsine a des charmes pour moi,</l>
+	                 <l n="852">Que j'ai peine à quitter... Mais, ô Dieux ! Je la vois.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Séleucus, Barsine, Céphise, Policrate.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="853">Venez, venez m'aider, inhumaine Princesse, </l>
+	                 <l n="854">À m'arracher de l'âme un reste de faiblesse ;</l>
+	                 <l n="855">Mon cour, ce lâche cour que vous sûtes charmer,</l>
+	                 <l n="856">Malgré moi, malgré vous, ose encore vous aimer.</l>
+	                 <l n="857">Amenez, pour briser des chaînes si cruelles,</l>
+	                 <l n="858">Des dédains redoublés, des cruautés nouvelles ;</l>
+	                 <l n="859">Venez armée enfin d'un excès de rigueur,</l>
+	                 <l n="860">Et d'un surcroît de haine, au secours de mon cour.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="861">Moi, vous haïr, Seigneur ? Être à ce point ingrate,</l>
+	                 <l n="862">Pour un roi dont le soin en ma faveur éclate, </l>
+	                 <l n="863">Et qui m'ayant comblé de bienfaits infinis,</l>
+	                 <l n="864">M'aime encore jusqu'au point de me donner son fils ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="865">Ah, si ce don vous plaît, gardez-vous de me plaire,</l>
+	                 <l n="866">Essayez d'affaiblir votre charme ordinaire ;</l>
+	                 <l n="867">Et de peur que vos yeux ne me semblent trop doux,</l>
+	                 <l n="868">Mêlez-y quelques traits d'orgueil et de courroux.</l>
+	                 <l n="869">Irritez-moi, de peur que je m'attendrisse,</l>
+	                 <l n="870">Sauvez-moi ma vertu par un peu d'injustice,</l>
+	                 <l n="871">Et n'ayant pu m'aimer, pour le moins en ce jour</l>
+	                 <l n="872">Prêtez-moi vos mépris pour vaincre mon amour.</l>
+	                 <l n="873">Mon cour m'avait promis de suivre un autre empire ;</l>
+	                 <l n="874">Et cependant le traître est prêt à se dédire,</l>
+	                 <l n="875">Est prêt à violer la foi de nos traités,</l>
+	                 <l n="876">Si vous n'y mettez ordre avec vos cruautés.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="877">L'heure de vous obéir fait ma plus chère envie,</l>
+	                 <l n="878">Demandez-moi, Seigneur, et mon sang et ma vie,</l>
+	                 <l n="879">Et tout ce que je puis jusques à mon trépas ;</l>
+	                 <l n="880">Mais pour des cruautés ne m'en demandez pas,</l>
+	                 <l n="881">Et daignez n'exiger de mon obéissance</l>
+	                 <l n="882">Que des efforts au moins qui soient en ma puissance.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="883">Hé quoi, pour m'accabler avez-vous entrepris</l>
+	                 <l n="884">De me refuser tout jusques à vos mépris ?</l>
+	                 <l n="885">Quoi, n'aurez-vous pour moi jamais eu que colère,</l>
+	                 <l n="886">Tant que votre rigueur à mes voux fut contraire ?</l>
+	                 <l n="887">L'aurez-vous fait toujours éclater avec soin.</l>
+	                 <l n="888">Et n'en aurez-vous plus lorsque j'en ai besoin ?</l>
+	                 <l n="889">Après avoir pour moi conservé votre haine, </l>
+	                 <l n="890">Tandis qu'elle devait ne servir qu'à ma peine,</l>
+	                 <l n="891">Pourrez-vous bien la perdre ici mal à propos,</l>
+	                 <l n="892">Alors qu'elle pourrait servir à mon repos ?</l>
+	                 <l n="893">Serez-vous à me nuire assez ingénieuse,</l>
+	                 <l n="894">Pour prendre une pitié pour moi si rigoureuse,</l>
+	                 <l n="895">Pour un bonheur passé me faire un mal présent,</l>
+	                 <l n="896">Et pour m'outrager même en me favorisant ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="897">Non, non, puisque pour vous ma tendresse est à craindre,</l>
+	                 <l n="898">Je ferai mes efforts afin de me contraindre,</l>
+	                 <l n="899">Et pour vous obéir, je cacherai, Seigneur,</l>
+	                 <l n="900">Le mieux que je pourrai les secrets de mon cour.</l>
+	                 <l n="901">Le silence à qui souffre est pourtant difficile,</l>
+	                 <l n="902">La plainte est toujours douce encore qu'inutile,</l>
+	                 <l n="903">Et mon sort à tel point devient injurieux,</l>
+	                 <l n="904">Que je pourrais me plaindre, ou de vous, ou des dieux.</l>
+	                 <l n="905">Mais pour soulagement du mal qui me menace,</l>
+	                 <l n="906">Je borne tous mes voux dans une seule grâce,</l>
+	                 <l n="907">Si vous me l'accordez mon sort sera plus doux,</l>
+	                 <l n="908">Et si je me plaindrai ni des dieux ni de vous.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="909">Je ne suis pas encore en état d'entreprendre,</l>
+	                 <l n="910">De vous refuser rien que vous puissiez prétendre,</l>
+	                 <l n="911">Parlez et demandez, bien, dignité, grandeur ;</l>
+	                 <l n="912">Demandez tout enfin, mais exceptez mon cour ;</l>
+	                 <l n="913">Ma foi l'engage ailleurs, je la dois à ma gloire,</l>
+	                 <l n="914">Ne le demandez pas si vous me voulez croire ;</l>
+	                 <l n="915">Ou plutôt pour tout dire et pour vous retenir,</l>
+	                 <l n="916">Ne le demandez pas de peur de l'obtenir.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="917">La faveur que j'attends ne sera pas si grande,</l>
+	                 <l n="918">Le seul droit d'un refus est ce que je demande,</l>
+	                 <l n="919">Et tout ce que je veux, c'est qu'il me soit permis</l>
+	                 <l n="920">De ne pas épouser le prince votre fils.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="921">Vous n'aimez pas mon fils ? Est-il bien vrai, Princesse ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="922">Il est trop vrai, Seigneur, excusez ma faiblesse,</l>
+	                 <l n="923">Ce don venant de vous doit m'être précieux,</l>
+	                 <l n="924">Si mon cour m'en croyait, il plairait à mes yeux,</l>
+	                 <l n="925">Et mon âme à ce prince aurait été donnée,</l>
+	                 <l n="926">Si son destin ailleurs ne l'eut point entraînée.</l>
+	                 <l n="927">Mais forcée à faillir, j'aime mieux en effet </l>
+	                 <l n="928">Être ingrate à demi, que l'être tout à fait,</l>
+	                 <l n="929">Je tâche de m'arrêter à la moitié du crime,</l>
+	                 <l n="930">Et crois devoir plutôt par un soin légitime</l>
+	                 <l n="931">Lui refuser un cour qui suit d'autres appas,</l>
+	                 <l n="932">Que d'oser le promettre et ne le donner pas.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="933">Si vous avez un cour pour le prince invincible,</l>
+	                 <l n="934">Pour quels autres appas peut-il être sensible ?</l>
+	                 <l n="935">Que je connaisse au moins qui vous pouvez aimer.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="936">Ah ! Ne me pressez point de vous en informer,</l>
+	                 <l n="937">En disant ce secret je ne puis que vous nuire,</l>
+	                 <l n="938">Et si vous m'en pressez j'ai peur de vous le dire.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="939">Pour quel roi voisin gardez-vous votre amour ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="940">Non mes voux ne vont pas plus loin que votre cour.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="941">Timante après mon fils tient la première place,</l>
+	                 <l n="942" part="I">Est-ce lui qui vous plaît ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="942" part="F">Sa naissance est trop basse.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="943" part="I">Ce n'est pas moi ; du moins vous vous taisez ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="943" part="F">Hélas !</l>
+	                 <l n="944">Si ce n'était pas vous, je ne me tairais pas.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="945">Vous m'aimeriez, Princesse ? Ah ! Dieux, le puis-je croire ?</l>
+	                 <l n="946">Vos dédains ne sont pas sortis de ma mémoire,</l>
+	                 <l n="947">Et mon cour engagé par un droit absolu,</l>
+	                 <l n="948">N'aurait été qu'à vous si vous l'aviez voulu.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="949">Et ne savez-vous pas qu'elle est la peine extrême</l>
+	                 <l n="950">Qu'une fille a toujours pour avouer qu'elle aime,</l>
+	                 <l n="951">Et que ce sexe fier qui se rend à regret,</l>
+	                 <l n="952">Refuse bien souvent ce qu'il  veut en secret ?</l>
+	                 <l n="953">J'ai toujours su le prix d'un cour tel que le vôtre ;</l>
+	                 <l n="954">Et quand j'ai refusé ce bien qu'obtient une autre,</l>
+	                 <l n="955">Je n'ai pas cru le perdre, et j'osais me flatter</l>
+	                 <l n="956">De l'espoir de me voir contraindre à l'accepter.</l>
+	                 <l n="957">Mais cet espoir cessa lorsque je vis votre âme,</l>
+	                 <l n="958">Pour plaire à votre fils, renoncer à ma flamme,</l>
+	                 <l n="959">Car enfin qui renonce à l'objet de son feu,</l>
+	                 <l n="960">Ou n'aime point du tout, ou n'aime que bien peu.</l>
+	                 <l n="961">Le ciel sait quels tourments mon âme dépitée</l>
+	                 <l n="962">Souffrit pour vous quitter quand vous m'eûtes quittée,</l>
+	                 <l n="963">Et quels furent alors les efforts que je fis</l>
+	                 <l n="964">Pour m'arracher au père et me promettre au fils ;</l>
+	                 <l n="965">Oui, voyant qu'à ce fils vous me vouliez soumettre,</l>
+	                 <l n="966">Je lui promis mon cour, mais l'ai-je pu promettre,</l>
+	                 <l n="967">Et dois-je être forcée à lui tenir ma foi</l>
+	                 <l n="968">Si j'ai promis un bien qui n'était pas à moi ?</l>
+	                 <l n="969">Puisqu'il veut être à vous, souffrez qu'il y demeure,</l>
+	                 <l n="970">Je ne demande point de fortune meilleure,</l>
+	                 <l n="971">Endurez ma faiblesse, et dispensez ma foi</l>
+	                 <l n="972">D'achever un hymen qui me comble d'effroi.</l>
+	                 <l n="973">Dégagez-moi, Seigneur, de l'injustice extrême</l>
+	                 <l n="974">De ne pouvoir aimer ce qu'il faudra que j'aime,</l>
+	                 <l n="975">Et vous-même rompez des nouds mal assortis,</l>
+	                 <l n="976">De peur de dérober mon cour à votre fils.</l>
+	                 <l n="977">Mais enfin si ma voix faiblement vous touche,</l>
+	                 <l n="978">Mes yeux pour vous fléchir se joignent à ma bouche,</l>
+	                 <l n="979">Et pour avoir le droit de n'aimer point ailleurs,</l>
+	                 <l n="980">Je confonds à vos pieds ma prière et mes pleurs.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="981">Ah, levez-vous, Madame, et retenez vos larmes,</l>
+	                 <l n="982">Vos yeux pour me toucher ont assez de leurs charmes,</l>
+	                 <l n="983">Et ces brillants auteurs des troubles que je sens,</l>
+	                 <l n="984">Sans le secours des pleurs ne sont que trop puissants,</l>
+	                 <l n="985">Vous n'avez pas besoin des larmes qu'ils répandent,</l>
+	                 <l n="986">J'accorde à vos désirs tout ce qu'ils me demandent,</l>
+	                 <l n="987">Et crains d'accorder même à vos charmants appas</l>
+	                 <l n="988">Ce que peut-être encore vous ne demandez pas.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="989">Ah, Seigneur, quand on suit ce que la gloire inspire,</l>
+	                 <l n="990">On ne demande pas tout ce que l'on désire ;</l>
+	                 <l n="991">Je n'ai garde d'avoir assez de vanité </l>
+	                 <l n="992">Pour demander le cour que vous m'avez ôté ;</l>
+	                 <l n="993">Il est en d'autres mains, et je ne puis prétendre </l>
+	                 <l n="994">Que vous l'en retirez afin de me le rendre.</l>
+	                 <l n="995">Je cède à Stratonice, elle peut mieux que moi</l>
+	                 <l n="996">Obtenir et garder l'amour d'un si grand roi ;</l>
+	                 <l n="997">Mieux que moi vous paraître, utile, illustre, et belle,</l>
+	                 <l n="998">Et je ne puis, Seigneur, que vous aimer mieux qu'elle.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="999">Ah, c'est un bien encore qui me peut éblouir,</l>
+	                 <l n="1000">Pourquoi me l'offrez-vous si je n'en puis jouir.</l>
+	                 <l n="1001">Et s'il faut m'affliger comme d'un mal extrême,</l>
+	                 <l n="1002">Du bonheur d'être aimé de la beauté que j'aime ?</l>
+	                 <l n="1003">J'ai beau presser pourtant mon cour que vous charmez</l>
+	                 <l n="1004">De sentir du regret de ce que vous aimez ;</l>
+	                 <l n="1005">Je ne puis empêcher, quelque soin que j'emploie,</l>
+	                 <l n="1006">Qu'il en prenne en secret une maligne joie,</l>
+	                 <l n="1007">Je me trouve en péril, pour un aveu si doux,</l>
+	                 <l n="1008">De renoncer à tout pour me donner à vous,</l>
+	                 <l n="1009">De trahir mon devoir, ma gloire, et mon empire.</l>
+	                 <l n="1010">Hélas ! Si vous m'aimez, deviez-vous me le dire ?</l>
+	                 <l n="1011">Ou plutôt , s'il est vrai que vous m'aimiez sans fard,</l>
+	                 <l n="1012">Princesse, deviez-vous me le dire si tard ?</l>
+	                 <l n="1013">Que n'avez-vous fait voir l'ardeur qui vous anime,</l>
+	                 <l n="1014">Alors que je pouvais y répondre sans crime ?</l>
+	                 <l n="1015">Quand vous pouviez me rendre heureux innocemment...</l>
+	                 <l n="1016">Mais qui fait avancer Zabas si promptement ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Séleucus, Barsine, Zabas, Policrate, Céphise.</head>
+               <sp who="tc0647-ZABAS">
+                  <speaker>ZABAS.</speaker>
+	                 <l n="1017">Philon  un étranger qui sert chez Stratonice,</l>
+	                 <l n="1018">Seigneur, et qui sous moi vous a rendu service,</l>
+	                 <l n="1019">Vous demande en secret audience à l'instant,</l>
+	                 <l n="1020">Afin de vous donner un avis important.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1021">Je n'ai pas maintenant le loisir de l'entendre,</l>
+	                 <l n="1022">Vous même prenez soin que l'on le fasse attendre.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1023">Non, non, Seigneur, pour moi ne vous arrêtez pas ;</l>
+	                 <l n="1024">Je vais me retirer, allez-y de ce pas,</l>
+	                 <l n="1025">Puisque l'avis importe, il faut vous en instruire.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS à Zabas.</speaker>
+	                 <l n="1026">Je passe au cabinet, vous l'y pouvez conduire.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Barsine, Céphise.</head>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="1027">Sans cet avis funeste à contre-temps venu,</l>
+	                 <l n="1028">Votre adresse, Madame, aurait tout obtenu.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1029">Apprends que cet avis que tu nommes funeste,</l>
+	                 <l n="1030">Du dessein commencé doit achever le reste,</l>
+	                 <l n="1031">Et que cet étranger qui vient parler au roi,</l>
+	                 <l n="1032">Est un ressort nouveau qui n'agit que pour moi.</l>
+	                 <l n="1033">Il naquit dans Pergame, et sujet de mon père,</l>
+	                 <l n="1034">Il s'est toujours fait voir empressé pour me plaire :</l>
+	                 <l n="1035">Et soit dans notre cour, ou près de Seleucus,</l>
+	                 <l n="1036">C'est à mes soins qu'il doit les biens qu'il a reçus ;</l>
+	                 <l n="1037">N'ayant pas rencontré Stratonice chez elle, </l>
+	                 <l n="1038">J'ai remarqué tantôt cet homme plein de zèle ;</l>
+	                 <l n="1039">Tu me l'as vu longtemps, entretenir tout bas,</l>
+	                 <l n="1040">Il doit par un mensonge aider à mes appas ;</l>
+	                 <l n="1041">Il vient pour dire au roi qu'il sait que Stratonice</l>
+	                 <l n="1042">N'a pour lui que mépris, que haine, et qu'injustice,</l>
+	                 <l n="1043">Qu'elle a pris pour le prince un amour si puissant </l>
+	                 <l n="1044">Qu'elle ne peut cacher les ennuis qu'elle sent ;</l>
+	                 <l n="1045">Qu'enfin c'est un secret qu'il a su d'elle-même,</l>
+	                 <l n="1046">Et que la connaissant dans cette peine extrême</l>
+	                 <l n="1047">Il m'estimerait par son silence innocent,</l>
+	                 <l n="1048">Et qu'il croit la servir même en la trahissant.</l>
+	                 <l n="1049">Juge quel grand succès de cet avis doit naître ;</l>
+	                 <l n="1050">En suite par mon ordre il ne doit plus paraître,</l>
+	                 <l n="1051">De peur qu'en le pressant il ne se confondit,</l>
+	                 <l n="1052">Et ne soutint pas bien tout ce qu'il aurait dit.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="1053">Stratonice et le prince ont fait voir tant de haine,</l>
+	                 <l n="1054">Que le roi ne croira cet amour qu'avec peine.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1055">On est aisément cru quand on flatte un amant ;</l>
+	                 <l n="1056">Mais le roi n'en eut-il qu'un soupçon seulement,</l>
+	                 <l n="1057">Il voudra retarder cette union funeste,</l>
+	                 <l n="1058">Et si j'obtiens du temps, j'obtiendrai bien le reste.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="1059">Mais ne brûlez-vous point pour le prince en secret,</l>
+	                 <l n="1060">Et pourrez-vous enfin le perdre sans regret ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1061">Ah, ne m'en parle pas, n'éveille point ma flamme; </l>
+	                 <l n="1062">Il n'est plus pour l'amour de place dans mon âme,</l>
+	                 <l n="1063">L'ambition l'emporte, et ce mouvement fier</l>
+	                 <l n="1064">N'a pas trop pour lui seul de mon cour tout entier.</l>
+	                 <l n="1065">Je vois ma destinée au point d'être conclue,</l>
+	                 <l n="1066">Laisse-moi sans faiblesse en attendre l'issue,</l>
+	                 <l n="1067">Et permets à mon âme après tant de revers, </l>
+	                 <l n="1068">de voir que j'obtiens sans voir ce que je perds.</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="4">
+            <head>ACTE IV</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Timante, Antiochus.</head>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1069">Quoi, vous voulez sortir en l'état où vous êtes ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1070">Oui, c'est avec tes soins en vains que tu m'arrêtes,</l>
+	                 <l n="1071">Sachons si ma prière enfin a réussi.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1072" part="I">Mais votre fièvre augmente ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1072" part="F">Et mon amour aussi.</l>
+	                 <l n="1073">Mon corps brûle, il est vrai, mais ce qu'il a de flamme</l>
+	                 <l n="1074">N'est qu'un écoulement des ardeurs de mon âme ;</l>
+	                 <l n="1075">Et toute ma faiblesse, et toute ma langueur,</l>
+	                 <l n="1076">Ont leur terme en mon sang, et leur source en mon cour.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1077">Stratonice, aussitôt que le roi l'aura vue,</l>
+	                 <l n="1078">A retarder l'hymen se sera résolue.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1079">Ah, ce n'est pas assez encore pour me guérir,</l>
+	                 <l n="1080">Et c'est mourir plus tard, mais c'est toujours mourir.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1081" part="I">Quels sont vos désirs ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1081" part="F">Mon cour d'abord s'obstine</l>
+	                 <l n="1082">À vouloir s'exempter de l'hymen de Barsine ;</l>
+	                 <l n="1083">Mais ce soulagement n'est pas en mon pouvoir,</l>
+	                 <l n="1084">Et si c'est mon désir, ce n'est pas mon espoir.</l>
+	                 <l n="1085">L'ordre du roi mon père, et ma foi qui m'engage,</l>
+	                 <l n="1086">M'empêchant d'espérer un si grand avantage.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1087">Il n'est rien dont ici vous ne veniez à bout,</l>
+	                 <l n="1088">Le roi vous aime assez pour vous accorder tout.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1089">Quand mon père pourrait rompre cet hyménée,</l>
+	                 <l n="1090">Pourrait-il contenter cette ardeur forcenée,</l>
+	                 <l n="1091">Qui ne peut sans ma mort souffrir entre ses bras</l>
+	                 <l n="1092">Un ingrate que j'aime et qui ne m'aime pas ?</l>
+	                 <l n="1093">Pour me guérir, Timante, il faut qu'il me le cède,</l>
+	                 <l n="1094">Et tu sais si je puis espérer ce remède.</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1095">Hasardez-vous, Seigneur, d'avouer votre feu.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1096">Le trépas m'est plus doux cent fois que cet aveu ;</l>
+	                 <l n="1097">Et si par toi mon père en avait connaissance,</l>
+	                 <l n="1098">Tu n'éviterais pas ma haine et ma vengeance.</l>
+	                 <l n="1099">Mais quand j'obtiendrais tout, et quand même le roi</l>
+	                 <l n="1100">En faveur de mes feux voudrait trahir sa foi,</l>
+	                 <l n="1101">La cruelle beauté qui fait ma destinée</l>
+	                 <l n="1102">Ne se donnerait pas quand il l'aurait donnée,</l>
+	                 <l n="1103">Et quand il m'offrirait ce charmes de mes yeux,</l>
+	                 <l n="1104">N'en étant point aimé, je n'en serais pas mieux.</l>
+	                 <l n="1105">Pour me guérir, Timante, il faudrait l'impossible,</l>
+	                 <l n="1106">Il faudrait que l'ingrate à mes maux fut sensible,</l>
+	                 <l n="1107">Il faudrait l'émouvoir, il faudrait l'attendrir,</l>
+	                 <l n="1108">Et ne le pouvant pas, Timante, il faut mourir.</l>
+	                 <l n="1109">C'est l'unique remède au tourment qui me presse.</l>
+	                 <l n="1110">Mais j'aperçois le roi, cachons bien ma faiblesse.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Séleucus, Antiochus, Timante.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1111">Prince, je vous cherchais, et j'ai sans perdre temps</l>
+	                 <l n="1112">À vous communiquer des secrets importants.</l>
+	                 <l n="1113">Ce qui de mes tourments fait maintenant le pire,</l>
+	                 <l n="1114">C'est que je n'ai rien pour vous d'agréable à dire,</l>
+	                 <l n="1115">Et que vous souffrirez beaucoup à m'accorder</l>
+	                 <l n="1116">Ce que pour mon bonheur je viens vous demander.</l>
+	                 <l n="1117">Vous savez bien, mon fils, avec quelle tendresse</l>
+	                 <l n="1118">Dans vos moindres ennuis mon âme s'intéresse :</l>
+	                 <l n="1119">Vous avez vu combien je me suis affligé</l>
+	                 <l n="1120">Du chagrin invincible où vous êtes plongé :</l>
+	                 <l n="1121">Vous savez que pour vous, par un effort extrême,</l>
+	                 <l n="1122">J'ai trahi mon amour en cédant ce que j'aime ;</l>
+	                 <l n="1123">Et qu'il est rare encore de voir jusqu'à ce jour</l>
+	                 <l n="1124">Le sang et la raison l'emporter sur l'amour.</l>
+	                 <l n="1125">Enfin, Antiochus, vous pouvez bien comprendre</l>
+	                 <l n="1126">Que j'aurais dans mes maux beaucoup de part à prendre,</l>
+	                 <l n="1127">Et que mon cour touché le premier de vos coups,</l>
+	                 <l n="1128">En vous faisant souffrir, souffrira plus que vous.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1129">Seigneur, le noir chagrin qui toujours me dévore</l>
+	                 <l n="1130">Ne vous a rien ôté puisque je vis encore,</l>
+	                 <l n="1131">Et vous devant la vie et le jour que je vois,</l>
+	                 <l n="1132">Tant que j'en jouirai, vous pourrez tout sur moi.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1133">Mais êtes-vous mon fils armé d'un grand courage ?</l>
+	                 <l n="1134">M'en pourrez-vous donner d'un puissant témoignage ?</l>
+	                 <l n="1135">Vous sentez-vous capable enfin d'un grand effort ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1136">Oui, fut-il mille fois plus cruel que la mort.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1137">Hé bien, s'il faut vous dire à quels voux je m'obstine,</l>
+	                 <l n="1138">Cessez, Prince, cessez de prétendre à Barsine.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1139">Quoi, vous m'ordonneriez de n'y prétendre rien ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1140">Cet ordre est bien cruel, mon fils, je le sais bien,</l>
+	                 <l n="1141">Mais sachez que Barsine est pour vous sans tendresse,</l>
+	                 <l n="1142">Si je romps votre hymen, c'est elle qui m'en presse :</l>
+	                 <l n="1143">Votre amour s'en émeut ? Mais après son refus,</l>
+	                 <l n="1144">Prince, si vous m'aimez, il ne faut l'aimer plus ;</l>
+	                 <l n="1145">Il faut faire céder l'amour à la nature,</l>
+	                 <l n="1146">Cet effort est bien grand, votre cour en murmure,</l>
+	                 <l n="1147">Mais enfin, si mon fils n'est ingrat aujourd'hui,</l>
+	                 <l n="1148">Il doit faire pour moi ce que j'ai fait pour lui.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1149">Il est juste, et déjà mon cour sans peine incline</l>
+	                 <l n="1150">À vous sacrifier mon amour pour Barsine ;</l>
+	                 <l n="1151">Et quand j'y trouverais mille fois plus d'appas,</l>
+	                 <l n="1152">En étant méprisé, je ne l'aimerais pas.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1153">Ah, que vous m'obligez de vaincre cette flamme !</l>
+	                 <l n="1154">Je reconnais mon sang à cette grandeur d'âme,</l>
+	                 <l n="1155">J'admire cet effort de générosité,</l>
+	                 <l n="1156">Et je sais ce qu'il vaut, par ce qu'il m'a coûté.</l>
+	                 <l n="1157">Mais après ce succès, oserais-je vous dire</l>
+	                 <l n="1158">Que ce n'est pas encore tout ce que je désire ?</l>
+	                 <l n="1159">Hélas ! C'est un bonheur qui passe mon espoir.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1160">Vous pouvez l'espérer s'il est en mon pouvoir.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1161">Je n'ose pas le croire, et j'ai peine à prétendre </l>
+	                 <l n="1162">Que même vous puissiez le vouloir entreprendre ;</l>
+	                 <l n="1163">L'honneur en serait grand, mais vous serez surpris ,</l>
+	                 <l n="1164">Et vous ne voudrez point d'honneur à si haut prix.</l>
+	                 <l n="1165">Je tremble à m'expliquer, et tremble avec justice,</l>
+	                 <l n="1166">Car enfin pourriez-vous épouser Stratonice ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1167" part="I">Épouser Stratonice ! Ah, Seigneur !</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1167" part="F">Ah, mon fils,</l>
+	                 <l n="1168">Je vous le disais bien que vous seriez surpris.</l>
+	                 <l n="1169">Le désordre qu'on voit sur tout votre visage,</l>
+	                 <l n="1170">Des troubles de votre âme est un sûr témoignage,</l>
+	                 <l n="1171">Votre bouche se tait, mais vos regards confus</l>
+	                 <l n="1172">À son défaut déjà m'expliquent vos refus.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1173">Je suis surpris sans doute, et ne m'en puis défendre ;</l>
+	                 <l n="1174">Mais quand j'obéirais, qu'en pourriez-vous attendre ?</l>
+	                 <l n="1175">Stratonice pour moi superbe au dernier point,</l>
+	                 <l n="1176">Quand j'offrirais mon cour, ne le recevrait point.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1177">Ce prétexte est mal pris, Stratonice vous aime.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1178" part="I">Elle m'aime ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1178" part="F">Oui, mon fils, et d'un amour extrême.</l>
+	                 <l n="1179">Par le fidèle aveu de Philon qui la sert,</l>
+	                 <l n="1180">Ce secret vient d'être à l'instant découvert.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1181">Philon a pu vous faire un rapport infidèle.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1182">D'abord sans hésiter j'ai cru cette nouvelle,</l>
+	                 <l n="1183">Mais je viens d'ordonner pour mieux être éclairci,</l>
+	                 <l n="1184">Et que l'on s'en assure, et qu'on l'amène ici.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1185">Si Stratonice m'aime, il n'est rien d'impossible ;</l>
+	                 <l n="1186">Elle est fille, elle est belle, et mon cour est sensible,</l>
+	                 <l n="1187">Il ne m'est plus permis, Seigneur, de la haïr,</l>
+	                 <l n="1188">Et mon cour vous doit trop pour vous désobéir.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1189">Ô d'un cour généreux effort incomparable !</l>
+	                 <l n="1190">Que de ce dernier bien je vous suis redevable !</l>
+	                 <l n="1191">Mon fils, vous m'assurez l'objet de mon amour,</l>
+	                 <l n="1192">Et j'ai moins fait pour vous en vous donnant le jour.</l>
+	                 <l n="1193">Mais remettons ailleurs à vous en rendre grâce,</l>
+	                 <l n="1194">Il faut bientôt ici que Stratonice passe ;</l>
+	                 <l n="1195">Sans son oncle Philippe, elle a dans ce moment</l>
+	                 <l n="1196">Sorti pour voir Barsine en son appartement.</l>
+	                 <l n="1197">Laissez-moi l'engager au choix que je désire.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1198">Elle vient, j'obéis, et me retire.</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Stratonice, Séleucus, Zénone, Policrate.</head>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1199">Le Prince en me voyant est promptement rentré ;</l>
+	                 <l n="1200">Mais il m'a fait plaisir de s'être retiré,</l>
+	                 <l n="1201">Et s'il souffre au moment qu'à mes yeux je me montre,</l>
+	                 <l n="1202">Je souffre pour le moins autant à sa rencontre.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1203">Le soin qu'il prend, Madame, à tort vous est suspect</l>
+	                 <l n="1204">Sa haine paraît moins ici que son respect,</l>
+	                 <l n="1205">Le Prince a l'âme fière, et non pas inhumaine, </l>
+	                 <l n="1206">Son cour même est plus propre à l'amour qu'à la haine,</l>
+	                 <l n="1207">Et mieux que je n'ai cru, reconnaît aujourd'hui</l>
+	                 <l n="1208">Les secrètes bontés que vous avez pour lui.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1209">Qui, moi ? J'aurais pour lui quelques bontés secrètes ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1210">Il reçoit sans mépris l'honneur que vous lui faites ;</l>
+	                 <l n="1211">Et son aversion dont vous vous alarmez,</l>
+	                 <l n="1212">Finira maintenant qu'il sait que vous l'aimez.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1213">Moi, l'aimer ! Quoi, le prince est assez vain pour croire </l>
+	                 <l n="1214">Qu'il me fait oublier mon devoir et ma gloire ?</l>
+	                 <l n="1215">Quoi, ce fils indigné de vous voir mon époux.</l>
+	                 <l n="1216">Présume d'usurper ce qui n'est dû qu'à vous,</l>
+	                 <l n="1217">D'exciter dans mon âme un amour téméraire,</l>
+	                 <l n="1218">Et d'arracher mon cour jusqu'aux mains de son père ?</l>
+	                 <l n="1219">Il m'estime donc lâche assez pour me trahir,</l>
+	                 <l n="1220">Jusqu'à l'oser aimer quand il m'ose haïr ?</l>
+	                 <l n="1221">Il pense donc me rendre à ce point insensée ?</l>
+	                 <l n="1222">Ah, je lui ferai bien perdre cette pensée,</l>
+	                 <l n="1223">Je saurai le convaincre à force de mépris ;</l>
+	                 <l n="1224">Qu'en croyant que je l'aime il s'est beaucoup mépris ;</l>
+	                 <l n="1225">Et son âme fut-elle encore cent fois plus vaine,</l>
+	                 <l n="1226">Je l'empêcherai bien de douter de ma haine.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1227">Votre esprit de scrupule et de crainte agité,</l>
+	                 <l n="1228">Doute peut-être encore de ma sincérité,</l>
+	                 <l n="1229">Et je veux, prévenant votre aveu par un autre,</l>
+	                 <l n="1230">Que mon secret vous aide à découvrir le vôtre ;</l>
+	                 <l n="1231">Si l'amour est un crime ailleurs qu'en un époux,</l>
+	                 <l n="1232">Il ne me trouve pas plus innocent que vous;</l>
+	                 <l n="1233">Comme vous, je rougis d'une erreur qui m'est chère,</l>
+	                 <l n="1234">Si mon fils vous a plu, Barsine a su vous plaire,</l>
+	                 <l n="1235">Et ce serait vous faire une trop dure loi,</l>
+	                 <l n="1236">De condamner en vous ce que je souffre en moi.</l>
+	                 <l n="1237">Mon erreur rend ici la vôtre légitime,</l>
+	                 <l n="1238">Nous nous justifions par un mutuel crime,</l>
+	                 <l n="1239">J'autorise vos feux aimant d'autres appas,</l>
+	                 <l n="1240">Et serais criminel si vous ne l'étiez pas.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1241">Quoi, sans être content du tort que vous me faites,</l>
+	                 <l n="1242">Vous me croyez coupable à cause que vous l'êtes,</l>
+	                 <l n="1243">Et me faisant injure en me manquant de foi,</l>
+	                 <l n="1244">Vous voulez que le crime en tombe encore sur moi ?</l>
+	                 <l n="1245">Préférez-moi Barsine au prince destinée,</l>
+	                 <l n="1246">Et violez la foi que vous m'avez donnée ;</l>
+	                 <l n="1247">Mais si cette injustice a pour vous tant d'appas,</l>
+	                 <l n="1248">Pour la commettre au moins ne me l'imputez pas.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1249">Pourquoi vous obstiner à cacher votre flamme ?</l>
+	                 <l n="1250">C'est un soin inutile, on m'a tout dit, Madame.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1251" part="I">Tout dit ? Et qui, Seigneur ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1251" part="F">Un fidèle témoin,</l>
+	                 <l n="1252">Qui sait votre secret, et qui n'est pas fort loin.</l>
+	                 <l n="1253" part="I">J'ai tout su de Philon.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1253" part="F">Je confondrai ce traître.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1254">On va me l'amener, vous l'allez voir paraître.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Policrate, Stratonice, Séleucus, Zénone.</head>
+               <sp who="tc0647-POLICRATE">
+                  <speaker>POLICRATE.</speaker>
+	                 <l n="1255">Seigneur, brûlant de voir votre ordre exécuté.</l>
+	                 <l n="1256">J'ai couru chez Philon assez bien escorté :</l>
+	                 <l n="1257">Mais je n'ai pris d'abord qu'une peine inutile ;</l>
+	                 <l n="1258">Ce traître était déjà sorti de cette ville.</l>
+	                 <l n="1259">Ayant su toutefois qu'il n'était pas fort loin,</l>
+	                 <l n="1260">J'ai conduit mon escorte avec un si grand soin,</l>
+	                 <l n="1261">Que nous l'avons atteint, le suivant à la trace,</l>
+	                 <l n="1262">Sur le pont de Daphné sous qui l'Oronte passe.</l>
+	                 <l n="1263">Alors reconnaissant qu'il voulait fuir en vain,</l>
+	                 <l n="1264">Il s'est en cet endroit arrêté tout soudain ;</l>
+	                 <l n="1265">Et s'écriant, pressé de sa propre injustice,</l>
+	                 <l n="1266">Je suis un imposteur qui mérite un supplice,</l>
+	                 <l n="1267">De crainte, de remords, et de rage emporté,</l>
+	                 <l n="1268">Dans le courant du fleuve il s'est précipité.</l>
+	                 <l n="1269">J'ai fait ramer après, mais malgré mon envie</l>
+	                 <l n="1270">On l'a trouvé si tard, qu'on l'a trouvé sans vie.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1271">Ainsi, grâce aux Dieux, la mort d'un imposteur</l>
+	                 <l n="1272">Prouve mon innocence et fait voir votre erreur.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1273">Vous me voyez rêver pour tâcher de connaître</l>
+	                 <l n="1274">Qui peut à ce mensonge avoir poussé ce traître.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1275">Sachant l'amour qu'ailleurs on vous a su donner,</l>
+	                 <l n="1276">Vous êtes le premier qu'on pouvait soupçonner,</l>
+	                 <l n="1277">Mais le respect qu'en moi le nom d'époux imprime,</l>
+	                 <l n="1278">Me force à n'oser pas vous imputer ce crime,</l>
+	                 <l n="1279">Et ce soupçon qu'arrête un nom déjà si doux,</l>
+	                 <l n="1280">Tombe sur votre fils, n'osant tomber  sur vous.</l>
+	                 <l n="1281">Je vois où contre moi l'aversion l'engage ;</l>
+	                 <l n="1282">Pour rompre notre hymen il met tout en usage,</l>
+	                 <l n="1283">Et n'a point eu d'horreur des moyens les plus bas,</l>
+	                 <l n="1284">Pour pouvoir m'arracher du trône et de vos bras.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1285">Je connais mieux mon sang, la gloire en est trop pure,</l>
+	                 <l n="1286">Pour se pouvoir souiller d'une lâche imposture.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1287">Le cour de votre fils est pour moi plein d'horreur,</l>
+	                 <l n="1288">Et le sang le plus pur tient des taches de cour :</l>
+	                 <l n="1289">Mais vous, ni votre fils n'aurez plus lieu de croire</l>
+	                 <l n="1290">Que j'ai aucune ardeur qui soit contre ma gloire.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1291">Vous êtes innocente, il est vrai, mais, hélas !</l>
+	                 <l n="1292">Je vous devrais bien plus si vous ne l'étiez pas ;</l>
+	                 <l n="1293">En choisissant mon fils, vous finirez ma peine.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1294">Vous êtes toute à moi, et je lui dois ma haine :</l>
+	                 <l n="1295">Et quand bien je n'aurais ni haine, ni dépit,</l>
+	                 <l n="1296">Mon choix serait toujours celui qu'on m'a prescrit.</l>
+	                 <l n="1297">C'est un malheur pour moi, qu'une beauté plus rare</l>
+	                 <l n="1298">De votre âme séduite à ma honte s'empare,</l>
+	                 <l n="1299">Et que sans nul respect du sacré nom d'époux,</l>
+	                 <l n="1300">Vous vous donniez ailleurs, quand je me donne à vous.</l>
+	                 <l n="1301">C'est trahir votre foi, Seigneur, mais cette offense</l>
+	                 <l n="1302">Du soin de mon devoir n'a rien qui me dispense,</l>
+	                 <l n="1303">Et mon cour, quelque fruit qu'il puisse en recueillir,</l>
+	                 <l n="1304">Vous doit suivre à bien faire, et non pas à faillir ;</l>
+	                 <l n="1305">Vous l'aurez tout entier, comme si pour une autre</l>
+	                 <l n="1306">Je n'avais jamais su que vous m'ôtez le vôtre.</l>
+	                 <l n="1307">Et peut-être ayant fait pour vous ce que je dois,</l>
+	                 <l n="1308">Ferez-vous quelque effort pour être tout à moi.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1309">Hé bien, puisqu'à ce choix vous êtes obstinée,</l>
+	                 <l n="1310">Il faut, Madame, il faut achever l'hyménée, </l>
+	                 <l n="1311">Et n'ayant pas le droit d'y renoncer sans vous </l>
+	                 <l n="1312">Puisque vous le voulez, je serai votre époux.</l>
+	                 <l n="1313">À vous donner ma main ma parole m'engage,</l>
+	                 <l n="1314">Vous aurez dès ce soir ce funeste avantage ;</l>
+	                 <l n="1315">Mon cour tâchera même à remplir son devoir,</l>
+	                 <l n="1316">Et sera tout à vous s'il est en mon pouvoir ;</l>
+	                 <l n="1317">Mais si devant vos yeux ma crainte ose paraître,</l>
+	                 <l n="1318">J'ai bien peur qu'en effet je n'en sois pas le maître,</l>
+	                 <l n="1319">Et que l'objet fatal qui l'a trop su toucher,</l>
+	                 <l n="1320">Fut-il entre vos mains, ne l'en vienne arracher.</l>
+	                 <l n="1321">Qu'il vous souvienne au moins, si ce tort vous anime,</l>
+	                 <l n="1322">Qu'il n'a tenu qu'à vous de m'épargner ce crime,</l>
+	                 <l n="1323">Et que sentant mon cour touché d'autres appas,</l>
+	                 <l n="1324">J'ai fait ce que j'ai pu pour ne vous trahir pas.</l>
+               </sp>
+            </div>
+            <div type="scene" n="5">
+               <head>SCÈNE V. Zénone, Stratonice.</head>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="1325">Hé quoi, vous préférez, sans que rien vous alarme, </l>
+	                 <l n="1326">Le roi qui vous déplaît, au prince qui vous charme;</l>
+	                 <l n="1327">Et votre âme en effet sensible à ses appas,</l>
+	                 <l n="1328">Voit ce qu'elle aime offert, et ne l'accepte pas ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1329">Pouvais-je l'accepter sans une honte extrême ?</l>
+	                 <l n="1330">Le prince a des appas, on me l'offre, et je l'aime ;</l>
+	                 <l n="1331">Mais il ne m'aime pas, et de toute ma fierté</l>
+	                 <l n="1332">Aurait été trahie à l'avoir accepté.</l>
+	                 <l n="1333">Zenone, voudrais-tu que j'eusse la faiblesse</l>
+	                 <l n="1334">De faire à cet ingrat connaître ma tendresse,</l>
+	                 <l n="1335">D'être à lui sans lui plaire, et par un choix trop bas,</l>
+	                 <l n="1336">De lui donner un cour qu'il ne demande pas ?</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="1337">Mais à choisir le roi quel soin vous autorise ?</l>
+	                 <l n="1338">Aussi bien que le fils le père vous méprise,</l>
+	                 <l n="1339">Et du moins ayant vu leurs mépris confirmés,</l>
+	                 <l n="1340">Vous deviez faire choix de ce que vous aimez.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1341">Que tu sais mal juger des soins qui me retiennent !</l>
+	                 <l n="1342">Les mépris sont cruels de quelque part qu'ils viennent,</l>
+	                 <l n="1343">Mais ils le sont bien moins pour un cour enflammé,</l>
+	                 <l n="1344">D'un objet qui déplaît, que d'un objet aimé.</l>
+	                 <l n="1345">Ce qui nous touche peu ne nous offense guère ;</l>
+	                 <l n="1346">Mais quand un mépris vient d'une personne chère,</l>
+	                 <l n="1347">Un cour qui les reçoit et qui s'y vient offrir,</l>
+	                 <l n="1348">Comme il est plus sensible, en a plus à souffrir.</l>
+	                 <l n="1349">Quand bien j'aurais choisi l'ingrat qui me surmonte,</l>
+	                 <l n="1350">Que m'eut produit ce choix, qu'un surcroît à ma honte ?</l>
+	                 <l n="1351">Je dépends, tu le sais, d'un oncle ambitieux,</l>
+	                 <l n="1352">Qui veut par son hymen que je règne en ces lieux,</l>
+	                 <l n="1353">Et si je vois le prince, après son imposture,</l>
+	                 <l n="1354">Je ne dois plus penser qu'à venger cette injure,</l>
+	                 <l n="1355">Et qu'à le mettre enfin hors d'état aujourd'hui,</l>
+	                 <l n="1356">De m'imputer jamais des faiblesses pour lui ;</l>
+	                 <l n="1357">Je veux lui faire voir tant d'orgueil tant de haine...</l>
+               </sp>
+               <sp who="tc0647-ZENONE">
+                  <speaker>ZÉNONE.</speaker>
+	                 <l n="1358" part="I">Il vient, vous rougissez ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1358" part="F">Ne t'en mets point en peine ;</l>
+	                 <l n="1359">J'ai surmonté ma flamme, et ce peu de rougeur</l>
+	                 <l n="1360">En est un reste encore qui s'enfuit de mon cour.</l>
+               </sp>
+            </div>
+            <div type="scene" n="6">
+               <head>SCÈNE VI. Antiochus, Stratonice, Zénone, Timante, Zabas.</head>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1361">Madame, pardonnez au trop d'impatience</l>
+	                 <l n="1362">Qui me fait de mon sort chercher la connaissance,</l>
+	                 <l n="1363">Je sens quelque rayon et de joie et d'espoir,</l>
+	                 <l n="1364">Et je crois que le roi vous aura fait savoir...</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1365" part="I">Oui, prince, je sais tout.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1365" part="F">Vous savez donc la peine...</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1366">Oui, je sais à quel point vous méritez ma haine ;</l>
+	                 <l n="1367">Je sais ce qu'attendait mon cour encore douteux,</l>
+	                 <l n="1368">Pour vous pouvoir haïr autant que je le veux ;</l>
+	                 <l n="1369">Je sais où contre moi la haine vous emporte,</l>
+	                 <l n="1370">Mais sachez que la mienne est encore plus forte,</l>
+	                 <l n="1371">Et que malgré vos soins, les effets feront foi</l>
+	                 <l n="1372">Que vous ne savez pas si bien haïr que moi.</l>
+               </sp>
+            </div>
+            <div type="scene" n="7">
+               <head>SCÈNE VII. Antiochus, Zabas, Timante.</head>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1373">Ah, si je ne le sais, vous pourrez me l'apprendre,</l>
+	                 <l n="1374">Instruit par vos dédains, j'ose encore prétendre </l>
+	                 <l n="1375">D'enchérir à mon tour sur votre ingrat courroux,</l>
+	                 <l n="1376">Et me pouvoir vanter de haïr mieux que vous,</l>
+	                 <l n="1377">Mon violent dépit saura si loin s'étendre...</l>
+	                 <l n="1378">Mais la superbe fuit, et ne peut plus m'entendre.</l>
+	                 <l n="1379">Vous, témoins des transports dont je suis agité,</l>
+	                 <l n="1380">N'êtes-vous point surpris de cette indignité ?</l>
+	                 <l n="1381">N'êtes-vous point confus de l'air dont l'inhumaine</l>
+	                 <l n="1382">M'a fait voir tant d'orgueil avec tant de haine,</l>
+	                 <l n="1383">Et ne seriez-vous pas encore plus surpris,</l>
+	                 <l n="1384">Si j'étais insensible à de si grands mépris ?</l>
+               </sp>
+               <sp who="tc0647-ZABAS">
+                  <speaker>ZABAS.</speaker>
+	                 <l n="1385">Seigneur, il est certain que jamais injustice</l>
+	                 <l n="1386">Ne saurait égaler celle de Stratonice,</l>
+	                 <l n="1387">Et que votre grand cour après ce traitement </l>
+	                 <l n="1388">Ne peut faire éclater trop de ressentiment.</l>
+	                 <l n="1389">Vous n'avez dit d'abord rien qui ne lui dut plaire,</l>
+	                 <l n="1390">C'est sans nulle raison qu'elle a tant de colère,</l>
+	                 <l n="1391">Votre plainte est fort juste, et son cour violent</l>
+	                 <l n="1392" part="I">À tort de s'emporter...</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1392" part="F">Taisez-vous, insolent.</l>
+	                 <l n="1393">Stratonice a raison, et j'ai tort de m'en plaindre ;</l>
+	                 <l n="1394">Osez-vous en médire où je suis sans rien craindre ?</l>
+	                 <l n="1395">Allez, lâche flatteur, apprendre à parler mieux,</l>
+	                 <l n="1396">Et gardez bien jamais de paraître à mes yeux.</l>
+                  <stage>Zabas se retire.</stage>
+	                 <l n="1397">Ah, Timante, quoi que je puisse faire,</l>
+	                 <l n="1398">Que mon cour revient, et chasse ma colère,</l>
+	                 <l n="1399">Ou plutôt je sens bien à ce soudain retour</l>
+	                 <l n="1400">Que ma colère même est changée en amour.</l>
+	                 <l n="1401">Qu'ai-je fait, malheureux ? Ah, que je suis coupable !</l>
+	                 <l n="1402">Bien loin de respecter cette ingrate adorable,</l>
+	                 <l n="1403">J'ai suivi mon orgueil, et je me suis emporté</l>
+	                 <l n="1404">Jusques à murmurer contre sa cruauté.</l>
+	                 <l n="1405">Que dis-je, murmurer ? J'ai bien eu l'assurance</l>
+	                 <l n="1406">D'aller jusqu'au dépit, et jusqu'à l'insolence,</l>
+	                 <l n="1407">Et tous mes sentiments ont bien pu se trahir</l>
+	                 <l n="1408">Jusqu'à la menacer même de la haïr.</l>
+	                 <l n="1409">Ah, souffre que je cours en l'ardeur qui m'anime;</l>
+	                 <l n="1410">Implorer à ses pieds le pardon de mon crime.</l>
+                  <stage>(Il revient sur ses pas.)</stage>
+	                 <l n="1411">Hé quoi, sans m'arrêter, sans faire aucun effort,</l>
+	                 <l n="1412">Timante m'abandonne à mon lâche transport ;</l>
+	                 <l n="1413">Et peut souffrir qu'aux pieds d'une fière princesse,</l>
+	                 <l n="1414">Je m'en aille étaler ma honte et ma faiblesse !</l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1415">Votre amour est si fort, qu'y vouloir résister,</l>
+	                 <l n="1416">Seigneur, c'est vous déplaire ensemble et l'augmenter.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1417">Non, non, c'est quand tu vois que ma faiblesse est grande,</l>
+	                 <l n="1418">Qu'il me faut du secours, et que je t'en demande.</l>
+	                 <l n="1419">Aide-moi, cher Timante, à bannir sans retour</l>
+	                 <l n="1420">De mon âme outragée un si honteux amour ;</l>
+	                 <l n="1421">Retrace à mon esprit, pour l'aigrir davantage,</l>
+	                 <l n="1422">De ce dernier mépris l'insupportable image ;</l>
+	                 <l n="1423">Fais-moi ressouvenir de toute la fierté</l>
+	                 <l n="1424">Qu'à témoigné pour moi cette ingrate beauté ;</l>
+	                 <l n="1425">Surtout empêche bien que mon cour ne l'oublie,</l>
+	                 <l n="1426">Ce cour qui fait le brave, et dont je me défie,</l>
+	                 <l n="1427">Et qui sachant fort bien qu'elle ose le trahir,</l>
+	                 <l n="1428">Tâche de l'oublier de peur de la haïr. </l>
+               </sp>
+               <sp who="tc0647-TIMANTE">
+                  <speaker>TIMANTE.</speaker>
+	                 <l n="1429">Mais tout votre visage et s'altère et se trouble,</l>
+	                 <l n="1430">Sortez d'ici, Seigneur, votre mal y redouble.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1431">Fais-moi fuir mon amour, allons où tu voudras ;</l>
+	                 <l n="1432">Mais où peut-on aller où l'amour n'aille pas ?</l>
+               </sp>
+            </div>
+         </div>
+         <div type="acte" n="5">
+            <head>ACTE V</head>
+            <div type="scene" n="1">
+               <head>SCÈNE PREMIÈRE. Barsine, Céphise.</head>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1433">Non, la mort de Philon ne m'a point alarmée ;</l>
+	                 <l n="1434">Et s'avouant coupable, il ne m'a point nommée,</l>
+	                 <l n="1435">Et quand on saurait tout, le roi même aujourd'hui</l>
+	                 <l n="1436">Imputerait mon crime à mon amour pour lui.</l>
+	                 <l n="1437">Il est temps d'achever le bonheur où j'aspire,</l>
+	                 <l n="1438">Allons prendre une main qui nous donne un empire,</l>
+	                 <l n="1439">Déjà je touche le trône, et je me puis flatter</l>
+	                 <l n="1440">Que le degré qui reste est facile à monter.</l>
+	                 <l n="1441">Il me semble pourtant que si près d'être heureuse</l>
+	                 <l n="1442">Mon ardeur pour régner n'est guère impétueuse,</l>
+	                 <l n="1443">Que je vais chez le roi sans nul empressement,</l>
+	                 <l n="1444">Et que je monte au trône un peu bien lentement.</l>
+               </sp>
+               <sp who="tc0647-CEPHISE">
+                  <speaker>CÉPHISE.</speaker>
+	                 <l n="1445">Si proche d'un grand bien que le Ciel vous envoie,</l>
+	                 <l n="1446">Madame, Vous montrez en effet peu de joie.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1447">D'où me pourrait venir cette indigne langueur ?</l>
+	                 <l n="1448">Serait-ce point l'amour qui s'émeut dans mon cour ?</l>
+	                 <l n="1449">C'est le prince, oui, c'est lui, c'est ce fils téméraire </l>
+	                 <l n="1450">Qui s'obstine en mon âme à combattre son père,</l>
+	                 <l n="1451">Et qui d'un cour ingrat se voulant ressentir,</l>
+	                 <l n="1452">Tâche à le déchirer avant que d'en sortir.</l>
+	                 <l n="1453">Mais quelque fort qu'il soit, il faut pourtant qu'il sorte,</l>
+	                 <l n="1454">L'ambition sur moi se trouve encore plus forte.</l>
+	                 <l n="1455">C'est le soin des grands cours, et véritablement</l>
+	                 <l n="1456">L'amour des cours oisifs n'est que l'amusement.</l>
+	                 <l n="1457">A l'hymen d'un grand roi bornons notre espérance ;</l>
+	                 <l n="1458">Hâtons-nous d'avancer... Mais lui-même il avance.</l>
+               </sp>
+            </div>
+            <div type="scene" n="2">
+               <head>SCÈNE II. Séleucus, Barsine, Céphise.</head>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1459" part="I">Ah ! Princesse !</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1459" part="F">Seigneur, quel trouble vous surprend ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1460">Il n'en fut jamais un plus juste ni plus grand,</l>
+	                 <l n="1461">C'est un crime en ce lieu pour moi que la constance,</l>
+	                 <l n="1462">Je perds tout mon bonheur, mon unique espérance,</l>
+	                 <l n="1463">Je sens percer mon cour, et tarir à mes yeux</l>
+	                 <l n="1464">Le plus pur de mon sang et le plus précieux.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1465" part="I">Serait-ce bien le Prince ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1465" part="F">Il est trop vrai, Madame,</l>
+	                 <l n="1466">Ce fils qui m'est cher est prêt à rendre l'âme,</l>
+	                 <l n="1467">Et plus mourant que lui, je viens par ma douleur</l>
+	                 <l n="1468">Essayer d'émouvoir votre âme en sa faveur.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1469">Son mal me touche plus que je ne le puis dire.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1470">Il ne tiendra qu'à vous d'empêcher qu'il n'expire.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1471">Son salut est certain si je le puis causer.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1472">Jugez par ce récit si j'ai pu m'abuser.</l>
+	                 <l n="1473">Dès le premier avis envoyé par Timante,</l>
+	                 <l n="1474">Que le prince tombait dans une fièvre ardente,</l>
+	                 <l n="1475">Accablé de douleur, avec empressement,</l>
+	                 <l n="1476">J'ai passé tout ému dans son appartement.</l>
+	                 <l n="1477">Il était en faiblesse, et sa langueur mortelle</l>
+	                 <l n="1478">Eut touché de pitié l'âme la plus cruelle,</l>
+	                 <l n="1479">Et l'eussiez-vous haï, l'excès de ses malheurs</l>
+	                 <l n="1480">À vos yeux comme aux miens eut arrachés des pleurs.</l>
+	                 <l n="1481">Je l'ai trouvé sans force, et sans marque de vie,</l>
+	                 <l n="1482">Son visage était pâle, et sa fraîcheur ternie,</l>
+	                 <l n="1483">Ses lèvres conservaient encore quelque couleur ;</l>
+	                 <l n="1484">Mais par l'effort mourant d'un reste de chaleur,</l>
+	                 <l n="1485">Dessus sa bouche seule un dernier trait de flamme</l>
+	                 <l n="1486">Semblait avoir laissé des traces de son âme.</l>
+	                 <l n="1487">Il était étendu sans aucun sentiment,</l>
+	                 <l n="1488">Son pouls même déjà perdait le mouvement ;</l>
+	                 <l n="1489">Il ne lui restait rien de sa vigueur première ;</l>
+	                 <l n="1490">Ses yeux, quoiqu'entrouverts, n'avaient plus de lumière,</l>
+	                 <l n="1491">Et dans leurs feux éteints on remarquait d'abord</l>
+	                 <l n="1492">L'absence de la vie et l'ombre de la mort.</l>
+	                 <l n="1493">De mon fils toutefois l'âme presque envolée</l>
+	                 <l n="1494">A semblé tout à coup par mes cris rappelée,</l>
+	                 <l n="1495">Et la vie et le jour que j'ai su lui donner,</l>
+	                 <l n="1496">N'ont par respect, ce semble, osé l'abandonner.</l>
+	                 <l n="1497">Ses sens sont revenus, mais sa vue agitée</l>
+	                 <l n="1498">Ne s'est sur nul objet de longtemps arrêtée,</l>
+	                 <l n="1499">Et pressé d'expliquer ses maux et ses désirs,</l>
+	                 <l n="1500">Son cour n'a répondu que par de longs soupirs,</l>
+	                 <l n="1501">Mais qui, tous déguisés qu'ils aient essayé d'être,</l>
+	                 <l n="1502">Pour des soupirs d'amour se sont fait reconnaître.</l>
+	                 <l n="1503">A ma vue emporté d'un trouble sans égal,</l>
+	                 <l n="1504">Il n'a pu me cacher que je suis son rival :</l>
+	                 <l n="1505">Son transport l'a forcé de m'avouer lui-même</l>
+	                 <l n="1506">Qu'il meurt pour me céder la princesse qu'il aime </l>
+	                 <l n="1507">Qu'il la donne au devoir, mais qu'au moins son amour</l>
+	                 <l n="1508">La force en la perdant de perdre aussi le jour.</l>
+	                 <l n="1509">Après ces mots sa fièvre a paru redoublée,</l>
+	                 <l n="1510">Je n'ai rien su de plus, sa raison s'est troublée</l>
+	                 <l n="1511">A prendre aucun repos il n'a pu consentir,</l>
+	                 <l n="1512">Et même de sa chambre il a voulu sortir.</l>
+	                 <l n="1513">Mais le peu qu'il m'a dit trop clairement s'explique ;</l>
+	                 <l n="1514">Son mal est un effet de notre amour tragique,</l>
+	                 <l n="1515">Et je viens vous presser par les nouds les plus doux</l>
+	                 <l n="1516">De sauver par pitié mon fils qui meurt pour vous.</l>
+	                 <l n="1517">Aussi bien Stratonice à nos voux est contraire ;</l>
+	                 <l n="1518">Accordez-vous au fils, ne pouvant être au père,</l>
+	                 <l n="1519">Et lui donnant la main pour sortir du tombeau,</l>
+	                 <l n="1520">De mon sang qui s'éteint ranimez le plus beau.</l>
+	                 <l n="1521">Si mon amour vous plaît, dans cet autre moi-même</l>
+	                 <l n="1522">C'est la meilleure part de mon cour qui vous aime.</l>
+	                 <l n="1523">Et tout ce qu'en effet j'ai d'esprits aujourd'hui,</l>
+	                 <l n="1524">N'est qu'un reste de ceux qui sont passés en lui.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1525">Ce fils vous est si cher, qu'il ne m'est pas possible,</l>
+	                 <l n="1526">En apprenant son mal, d'y paraître insensible,</l>
+	                 <l n="1527">Ma pitié même ira, sachant vos déplaisirs,</l>
+	                 <l n="1528">Jusqu'à sacrifier mon cour à ses désirs,</l>
+	                 <l n="1529">Si votre âme pour moi, devant qu'on nous unisse,</l>
+	                 <l n="1530">eut aller jusqu'à rompre avec Stratonice.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1531">Quoi, trahir mon devoir pour conserver mon fils !</l>
+	                 <l n="1532">Ah, n'en êtes-vous pas un assez digne prix ?</l>
+	                 <l n="1533">Pour racheter ma vie et payer son remède,</l>
+	                 <l n="1534">Ne m'en coûte-t-il pas assez quand je vous cède,</l>
+	                 <l n="1535">Et sans trahir ma foi pour lui sauver le jour,</l>
+	                 <l n="1536">Ne fais-je pas assez trahir mon amour ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1537">Si votre foi vous presse, afin d'y satisfaire,</l>
+	                 <l n="1538">En l'état qu'est le prince, obtenez qu'on diffère,</l>
+	                 <l n="1539">Et vous pourrez après trouver facilement</l>
+	                 <l n="1540">Un prétexte plausible à rompre entièrement.</l>
+	                 <l n="1541">Si votre âme à ce choix ne se peut pas soumettre,</l>
+	                 <l n="1542">Pour le prince, Seigneur, je ne puis rien promettre.</l>
+	                 <l n="1543">Je souffre que d'un fils vous fassiez mon époux,</l>
+	                 <l n="1544">Et lui cédiez un cour qui veut n'être qu'à vous.</l>
+	                 <l n="1545">Mais enfin mon amour plus tendre que le vôtre,</l>
+	                 <l n="1546">Ne saurait bien vous souffrir dans les bras d'une autre,</l>
+	                 <l n="1547">Et peut bien, pour vous plaire, et vous tout accorder,</l>
+	                 <l n="1548">Se résoudre à vous perdre et non à vous céder.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1549">Il faudra différer, mais cependant, Princesse</l>
+	                 <l n="1550">Montrez-vous à mon fils avec quelque tendresse.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1551">Je ferai mes efforts, Seigneur, pour obéir.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1552">Allons.... Mais jusqu'ici quel bruit se fait ouïr ?</l>
+               </sp>
+            </div>
+            <div type="scene" n="3">
+               <head>SCÈNE III. Antiochus, Séleucus, Barsine, Policrate, Timante.</head>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS, fuyant ceux qui le suivent et se voulant tuer.</speaker>
+	                 <l n="1553" part="I">C'est trop souffrir, mourons.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS lui ôtant son épée.</speaker>
+	                 <l n="1553" part="F">Respecte au moins ton père,</l>
+	                 <l n="1554" part="I">Qui mourra de ta mort.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1554" part="F">Seigneur, qu'allez-vous faire ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1555">Conserver de mon sang la plus belle moitié.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1556">Que vous m'êtes cruel avec votre pitié !</l>
+	                 <l n="1557">Pourquoi m'empêchez-vous, Seigneur, de le répandre,</l>
+	                 <l n="1558">Ce sang que je vous dois et que je veux vous rendre,</l>
+	                 <l n="1559">Ce sang impétueux que vous m'avez donné,</l>
+	                 <l n="1560">Qui contre mon repos est toujours mutiné ;</l>
+	                 <l n="1561">Ce sang qui de mon cour s'est rendu le complice ;</l>
+	                 <l n="1562">Ce sang qui ne sert plus qu'à nourrir mon supplice,</l>
+	                 <l n="1563">Et qui par la fureur d'un amour violent</l>
+	                 <l n="1564">S'est changé tout entier en un poison brûlant ;</l>
+	                 <l n="1565">Car enfin désormais, je ne puis plus taire,</l>
+	                 <l n="1566">Cet amour qui me brûle et qui me désespère,</l>
+	                 <l n="1567">Et qu'échappé des miens, sans ce que je vous dois,</l>
+	                 <l n="1568">J'aurais au moins forcé de mourir avec moi.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1569">Perds, mon fils, perds enfin cette funeste envie ;</l>
+	                 <l n="1570">Loin de mourir d'amour, tu dois aimer la vie.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1571">Qui, moi, mourir d'amour ? Ah, ne le croyez pas,</l>
+	                 <l n="1572">Ce mal pour grand qu'il soit cause peu de trépas,</l>
+	                 <l n="1573">Et je ne pense point que par quelque bassesse</l>
+	                 <l n="1574">On m'ait pu soupçonner d'avoir tant de faiblesse.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1575">L'amour est un beau crime et sa douce langueur </l>
+	                 <l n="1576">N'est pas une faiblesse indigne d'un grand cour.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1577">Quoi, vous vous obstinez à croire encore que j'aime ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1578">Vous venez à l'instant de le dire vous-même.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1579">Ah ! Je n'ai donc pas su, Seigneur, ce que j'ai dit ;</l>
+	                 <l n="1580">Pour parler sainement j'étais interdit,</l>
+	                 <l n="1581">Mon mal m'avait fait perdre et raison et mémoire,</l>
+	                 <l n="1582">Et quoi que j'ai dit, on ne m'en doit pas croire.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1583">Je sais trop que Barsine a charmé tous vos sens.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1584">Barsine, hé bien, Seigneur, croyez-le, j'y consens.</l>
+	                 <l n="1585">Croyez que je l'adore, et que je meurs pour elle,</l>
+	                 <l n="1586">Que la peur de la perdre à mon cour est mortelle,</l>
+	                 <l n="1587">Qu'elle cause mes maux, mes langueurs, mes ennuis,</l>
+	                 <l n="1588">Je veux bien l'avouer en l'état où je suis.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1589">Cessez d'être agité d'une crainte inutile;</l>
+	                 <l n="1590">Quand le mal est connu, le remède est facile.</l>
+	                 <l n="1591">Consolez-vous, je veux contenter vos désirs,</l>
+	                 <l n="1592">Finir tous vos chagrins, vous combler de plaisirs ; </l>
+	                 <l n="1593">Pour Stratonice enfin ma bonté vous dispense</l>
+	                 <l n="1594">De vous faire jamais le moindre violence ;</l>
+	                 <l n="1595">Son cour, loin qu'il vous aime, ose vous mépriser,</l>
+	                 <l n="1596">Et vous ne devez plus craindre de l'épouser.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1597" part="I">Hélas !</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1597" part="M">Vous vous plaignez ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1597" part="F">C'est du mal qui me presse ;</l>
+	                 <l n="1598">Mais ce n'est rien, Seigneur, et cette douleur cesse. </l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1599">Je sais bien que pour vous ce n'est pas faire assez,</l>
+	                 <l n="1600">De vous faire éviter ce que vous haïssez ; </l>
+	                 <l n="1601">Je vous donne de plus, par un effort extrême,</l>
+	                 <l n="1602">Barsine qui vous charme encore que je l'aime,</l>
+	                 <l n="1603">Mon soin l'a disposée  vous rendre son choix, </l>
+	                 <l n="1604">Et mon cour vous la cède une seconde fois.</l>
+	                 <l n="1605">Jouissez d'un bonheur qui jamais ne finisse ;</l>
+	                 <l n="1606" part="I">Mais qui vous trouble encore ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1606" part="F">J'aperçois Stratonice.</l>
+               </sp>
+            </div>
+            <div type="scene" n="4">
+               <head>SCÈNE IV. Philipe, Stratonice, Séleucus, Antiochus, Barsine, Zénone, Céphise, Policrate, Timante.</head>
+               <sp who="tc0647-PHILIPE">
+                  <speaker>PHILIPE.</speaker>
+	                 <l n="1607">Seigneur, l'instant arrive à mon espoir si doux,</l>
+	                 <l n="1608">Où l'hymen doit unir Stratonice avec vous ;</l>
+	                 <l n="1609">Et chacun comme moi brûle d'impatience ,</l>
+	                 <l n="1610">Qu'un noud si saint confirme une heureuse alliance.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1611">C'est un bien que le prince en péril d'expirer</l>
+	                 <l n="1612">Avec trop de raison m'oblige à différer.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1613" part="I">Quoi, le prince est si mal ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1613" part="F">Non, Princesse inhumaine,</l>
+	                 <l n="1614">Je me porte fort bien, n'en soyez point en peine.</l>
+	                 <l n="1615">En vain déjà ma mort flatte votre désir,</l>
+	                 <l n="1616">Vous n'aurez pas si tôt ce funeste plaisir,</l>
+	                 <l n="1617">Des portes du trépas Barsine me ramène,</l>
+	                 <l n="1618">Je vivrai malgré vous, et malgré votre haine,</l>
+	                 <l n="1619">Je vivrai pour jouir longtemps d'un sort bien doux,</l>
+	                 <l n="1620">Mais enfin je vivrai pour une autre que vous.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1621">Je vous excuse, Prince, et commence à connaître</l>
+	                 <l n="1622">Que vous êtes plus mal que vous ne croyez être.</l>
+	                 <l n="1623">Ce transport contre moi, sans respect, sans raison,</l>
+	                 <l n="1624">Marque un redoublement plus qu'une guérison ;</l>
+	                 <l n="1625">Et dans ce triste état, quoi que vous puissiez faire,</l>
+	                 <l n="1626">J'aurai plus de pitié pour vous, que de colère.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1627">Vous croyez que je souffre ? Ah, perdez cet espoir,</l>
+	                 <l n="1628">Si je sens quelque peine, elle vient de vous voir :</l>
+	                 <l n="1629">Mais enfin que votre âme en soit mieux convaincue,</l>
+	                 <l n="1630">Pour ne souffrir plus rien,  je veux fuir votre vue.</l>
+                  <stage>Il parle à ceux qui lui veulent aider à marcher.</stage>
+	                 <l n="1631">Non, non, ne m'aidez pas, ne prenez aucun soin,</l>
+	                 <l n="1632">Aidé de mon dépit, je n'en ai pas besoin.</l>
+	                 <l n="1633" part="I">Je vais...</l>
+                  <stage>Il tombe aux pieds de Stratonice.</stage>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1633" part="M">Vous tombez, Prince ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1633" part="F">Oui, superbe Princesse,</l>
+	                 <l n="1634">Oui, je tombe à vos pieds, et cède à ma faiblesse ;</l>
+	                 <l n="1635">Mais croyez que du moins cette indigne langueur</l>
+	                 <l n="1636">M'a mis en cet état sans l'aveu de mon cour.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1637">Prince, je le veux croire, et pour toute vengeance</l>
+	                 <l n="1638">Vous épargner le soin d'éviter ma présence,</l>
+	                 <l n="1639">Je vois qu'elle vous nuit, et les cours généreux </l>
+	                 <l n="1640">Ne prennent pas plaisir de nuire aux malheureux.</l>
+                  <stage>(Elle veut se retirer.)</stage>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1641">Hélas ! Qu'elle revienne, elle emporte mon âme ;</l>
+	                 <l n="1642" part="I">Je n'en puis plus, Timante.</l>
+                  <stage>Il tombe en faiblesse.</stage>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1642" part="F">Ah, revenez, Madame, </l>
+	                 <l n="1643">Si vous vous éloignez, mon fils s'en va mourir,</l>
+	                 <l n="1644">Par pitié de mes pleurs, venez le secourir ;</l>
+	                 <l n="1645">Voyez de quel succès mon attente est suivie,</l>
+	                 <l n="1646">Déjà votre retour a rappelé sa vie.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1647">Ah ! Qu'il est malaisé de pouvoir en un seul jour</l>
+	                 <l n="1648">Déguiser sans mourir un violent amour !</l>
+	                 <l n="1649">Que mes voux vengent bien l'ingrate qui me touche !</l>
+	                 <l n="1650">Que mon cour est puni de l'orgueil de ma bouche,</l>
+	                 <l n="1651">Et qu'alors que l'on veut cacher des feux ardents,</l>
+	                 <l n="1652">Les feintes du dehors coûtent cher au dedans !</l>
+	                 <l n="1653">Hélas ! Que j'ai souffert un rigoureux supplice,</l>
+	                 <l n="1654">Pour ne pas avouer que j'aime Stratonice.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1655" part="I">Quoi, Seigneur, vous m'aimez ?</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1655" part="F">Quoi, je suis entendu,</l>
+	                 <l n="1656">Et ce nouveau tourment m'était encore dû ?</l>
+	                 <l n="1657">Hé bien donc, il est vrai, je vous aime, inhumaine,</l>
+	                 <l n="1658">Contentez votre orgueil, contentez votre haine,</l>
+	                 <l n="1659">Triomphez de mon cour que vous avez séduit,</l>
+	                 <l n="1660">Triomphez de la honte où vous m'avez réduit,</l>
+	                 <l n="1661">Jouissez à longs traits de la douceur funeste</l>
+	                 <l n="1662">De voir souffrir l'objet que votre cour déteste ;</l>
+	                 <l n="1663">Goûtez votre vengeance, et pour le sentir mieux,</l>
+	                 <l n="1664">Songez que mon tourment est un coup de vos yeux :</l>
+	                 <l n="1665">Si ce n'est pas assez, s'il faut ma vie entière,</l>
+	                 <l n="1666">Ne vous ennuyez pas, vous n'attendrez plus guère,</l>
+	                 <l n="1667">Et je sens que mon cour, avec vos yeux d'accord,</l>
+	                 <l n="1668">Va vous donner bientôt le plaisir de ma mort.</l>
+	                 <l n="1669">Dans mes derniers soupirs trouvez au moins des charmes.</l>
+	                 <l n="1670">Mais qu'aperçois-je ? Ô Dieux, vous répandez des larmes !</l>
+	                 <l n="1671">Princesse, est-ce pitié dont vos sens sont émus ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1672">Ce ne peut être moins, et c'est peut-être plus.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1673">Si vous me dites vrai, que ma mort est heureuse !</l>
+	                 <l n="1674">Quoi, grâce à mes malheurs, Princesse généreuse,</l>
+	                 <l n="1675">Je ne suis plus haï de ce cour irrité ?</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1676">Il n'est pas même sûr que vous l'ayez été.</l>
+	                 <l n="1677">Je sais que jusqu'ici j'ai fait tout mon possible</l>
+	                 <l n="1678">Pour vous paraître fière, inhumaine, insensible,</l>
+	                 <l n="1679">Et qu'il ne m'est jamais rien échappé pour vous,</l>
+	                 <l n="1680">Que des marques d'orgueil, de haine et de courroux.</l>
+	                 <l n="1681">Mais prince, vous savez, par votre expérience,</l>
+	                 <l n="1682">Qu'on se trompe souvent à croire l'apparence,</l>
+	                 <l n="1683">Et venez fraîchement d'approuver en ce jour</l>
+	                 <l n="1684">Que ce qui semble haine, est quelquefois amour.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1685">Que par ces mots charmants ma mort est adoucie !</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1686">Et qui presse encore d'abandonner la vie ?</l>
+	                 <l n="1687" part="I">Vous n'êtes point haï.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1687" part="F">Cet aveu m'est bien doux,</l>
+	                 <l n="1688">Mais, Princesse, Le roi doit être votre époux ;</l>
+	                 <l n="1689">Si je ne vis pour vous, je ne saurais plus vivre,</l>
+	                 <l n="1690">La foi de nos traités à mon père vous livre,</l>
+	                 <l n="1691">Et quoiqu'en ma faveur je vous vois attendrir,</l>
+	                 <l n="1692">Je vous aime, et vous perds, c'est assez pour mourir :</l>
+	                 <l n="1693">Tout est perdu pour moi si je perds ce que j'aime.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1694">Ah ! Prince, je voudrais dépendre de moi-même ;</l>
+	                 <l n="1695">Mais remise au pouvoir de mon oncle aujourd'hui</l>
+	                 <l n="1696">Je ne puis être à vous qu'en m'obtenant de lui.</l>
+               </sp>
+               <sp who="tc0647-PHILIPE">
+                  <speaker>PHILIPE.</speaker>
+	                 <l n="1697">Ne soyez point flatté d'une espérance vaine,</l>
+	                 <l n="1698">Stratonice est venue ici pour être reine ;</l>
+	                 <l n="1699">Prince, au roi de Syrie elle a promis sa foi,</l>
+	                 <l n="1700">Vous l'aimez, je vous plains, mais vous n'êtes pas roi ;</l>
+	                 <l n="1701">Si vous étiez au rang où l'on voit votre père,</l>
+	                 <l n="1702">Mon ordre à vos désirs ne serait pas contraire ;</l>
+	                 <l n="1703">Vous avez des vertus, vous avez des appas,</l>
+	                 <l n="1704">Mais il lui faut un sceptre, et vous n'en avez pas.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1705">Non, vous vivrez , mon fils, et vous vivrez pour elle, </l>
+	                 <l n="1706">Je prétends couronner une flamme si belle, </l>
+	                 <l n="1707">Et puisqu'il fut régner pour être son époux,</l>
+	                 <l n="1708">Mon sceptre ne m'est pas si précieux que vous.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1709">Quoi, Seigneur, lui céder la puissance suprême ?</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1710">Oui, j'estime mon fils plus que mon diadème,</l>
+	                 <l n="1711">La nature m'engage, au mépris de mon rang, </l>
+	                 <l n="1712">À dépouiller mon front pour conserver mon sang ;</l>
+	                 <l n="1713">Et la peine où je suis dois être plus légère,</l>
+	                 <l n="1714">À cesser d'être roi, qu'à cesser d'être père.</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE .</speaker>
+	                 <l n="1715">De grâce, encore un coup, Seigneur, considérez...</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1716">La nature l'emporte, et ses droits sont sacrés ;</l>
+	                 <l n="1717">Mon fils entre au tombeau, s'il ne monte à l'empire ;</l>
+	                 <l n="1718">Et pour me rendre heureux, votre cour peut suffire,</l>
+	                 <l n="1719">Mais, Dieux ! Quelle froideur témoignez-vous pour moi ?</l>
+               </sp>
+               <sp who="tc0647-BARSINE">
+                  <speaker>BARSINE.</speaker>
+	                 <l n="1720">Seigneur, pour tout dire, je suis fille de roi,</l>
+	                 <l n="1721">Il me serais honteux de vivre ici sujette,</l>
+	                 <l n="1722">Si vous quittez le sceptre, agréez ma retraite ;</l>
+	                 <l n="1723">Mon oncle règne encore à Pergame aujourd'hui,</l>
+	                 <l n="1724">Et je vais maintenant retourner près de lui.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1725">Allez, Ingrate, je perds ainsi ma flamme,</l>
+	                 <l n="1726">Rien ne vous retiens plus, vous sortez de mon âme,</l>
+	                 <l n="1727">Je dédaigne aisément qui m'ose dédaigner,</l>
+	                 <l n="1728">Et ne veux point d'un cour, qui n'aime qu'à régner.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1729">Pour conserver ma vie au désespoir offerte,</l>
+	                 <l n="1730">Il vous en coûte trop, souffrez plutôt ma perte.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1731">Rien ne me coûte trop pour vous sauver le jour,</l>
+	                 <l n="1732">Régnez, et possédez l'objet de votre amour :</l>
+	                 <l n="1733">Mais mon consentement ne vous doit pas suffire.</l>
+               </sp>
+               <sp who="tc0647-PHILIPE">
+                  <speaker>PHILIPE.</speaker>
+	                 <l n="1734">Puisqu'il règne, Seigneur, je suis prêt d'y souscrire,</l>
+	                 <l n="1735">Faites que Stratonice approuve aussi mes feux.</l>
+               </sp>
+               <sp who="tc0647-STRATONICE">
+                  <speaker>STRATONICE.</speaker>
+	                 <l n="1736">Puisqu'il a votre aveu, le mien n'est pas douteux.</l>
+               </sp>
+               <sp who="tc0647-ANTIOCHUS">
+                  <speaker>ANTIOCHUS.</speaker>
+	                 <l n="1737">Que des mots sont puissants, adorable Princesse !</l>
+	                 <l n="1738">Par ce charmant aveu déjà tout mon mal cesse,</l>
+	                 <l n="1739">Je ressens tout à coup ma santé de retour,</l>
+	                 <l n="1740">Et ne puis plus mourir que de joie et d'amour.</l>
+               </sp>
+               <sp who="tc0647-SELEUCUS">
+                  <speaker>SÉLEUCUS.</speaker>
+	                 <l n="1741">De son mal en effet aucun signe ne reste,</l>
+	                 <l n="1742">Allons en rendre grâce à la bonté céleste,</l>
+	                 <l n="1743">Et par des nouds sacrés qui confirment la paix,</l>
+	                 <l n="1744">Venez tous deux au temple être unis à jamais.</l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

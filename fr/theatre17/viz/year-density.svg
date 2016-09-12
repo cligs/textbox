@@ -1,0 +1,1123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701" class="pygal-chart" viewBox="0 0 800 600">
+  <!--Generated with pygal 2.2.2 (lxml) ©Kozea 2012-2016 on 2016-09-12-->
+  <!--http://pygal.org-->
+  <!--http://github.com/Kozea/pygal-->
+  <defs>
+    <style type="text/css">/*
+ * This file is part of pygal
+ *
+ * A python svg graph plotting library
+ * Copyright © 2012 Kozea
+
+ * This library is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option) any
+ * later version.
+ *
+ * This library is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with pygal. If not, see &lt;http://www.gnu.org/licenses/&gt;.
+*/
+
+/*
+ * Font-sizes from config, override with care
+ */
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701  {
+  -webkit-user-select: none;
+  -webkit-font-smoothing: antialiased;
+  font-family: FreeSans;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .title {
+  font-family: FreeSans;
+  font-size: 20px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .legends .legend text {
+  font-family: FreeSans;
+  font-size: 16px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis text {
+  font-family: FreeSans;
+  font-size: 12px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis text.major {
+  font-family: FreeSans;
+  font-size: 10px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .text-overlay text.value {
+  font-family: FreeSans;
+  font-size: 16px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .text-overlay text.label {
+  font-family: FreeSans;
+  font-size: 10px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip {
+  font-family: FreeSans;
+  font-size: 14px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 text.no_data {
+  font-family: FreeSans;
+  font-size: 64px;
+}
+
+/*
+ * This file is part of pygal
+ *
+ * A python svg graph plotting library
+ * Copyright © 2012 Kozea
+
+ * This library is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option) any
+ * later version.
+ *
+ * This library is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with pygal. If not, see &lt;http://www.gnu.org/licenses/&gt;.
+*/
+
+/*
+ * Styles from config
+ */
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 {
+  background-color: white;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 path,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 rect,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 circle {
+  -webkit-transition: 100ms ease-in;
+  -moz-transition: 100ms ease-in;
+  transition: 100ms ease-in;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .graph &gt; .background {
+  fill: white;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .plot &gt; .background {
+  fill: white;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .graph {
+  fill: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 text.no_data {
+  fill: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .title {
+  fill: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .legends .legend text {
+  fill: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .legends .legend:hover text {
+  fill: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .line {
+  stroke: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .guide.line {
+  stroke: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .major.line {
+  stroke: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis text.major {
+  fill: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y .guides:hover .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .line-graph .axis.x .guides:hover .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .stackedline-graph .axis.x .guides:hover .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .xy-graph .axis.x .guides:hover .guide.line {
+  stroke: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .guides:hover text {
+  fill: #000000;
+}
+
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .reactive {
+  fill-opacity: .6;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .ci {
+    stroke: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .reactive.active,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .active .reactive {
+  fill-opacity: .9;
+  stroke-width: 4;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .ci .reactive.active {
+  stroke-width: 1.5;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .series text {
+  fill: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip rect {
+  fill: white;
+  stroke: #000000;
+  -webkit-transition: opacity 100ms ease-in;
+  -moz-transition: opacity 100ms ease-in;
+  transition: opacity 100ms ease-in;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip .label {
+  fill: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip .label {
+  fill: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip .legend {
+  font-size: .8em;
+  fill: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip .x_label {
+  font-size: .6em;
+  fill: #000000;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip .xlink {
+  font-size: .5em;
+  text-decoration: underline;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip .value {
+  font-size: 1.5em;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .bound {
+  font-size: .5em;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .max-value {
+  font-size: .75em;
+  fill: #282828;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .map-element {
+  fill: white;
+  stroke: #282828 !important;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .map-element .reactive {
+  fill-opacity: inherit;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .color-0, #chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .color-0 a:visited {
+  stroke: #002699;
+  fill: #002699;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .color-1, #chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .color-1 a:visited {
+  stroke: #006600;
+  fill: #006600;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701  .text-overlay .color-0 text {
+  fill: black;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701  .text-overlay .color-1 text {
+  fill: black;
+}
+
+
+
+
+/*
+ * This file is part of pygal
+ *
+ * A python svg graph plotting library
+ * Copyright © 2012 Kozea
+
+ * This library is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU Lesser General Public License as published by the Free
+ * Software Foundation, either version 3 of the License, or (at your option) any
+ * later version.
+ *
+ * This library is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with pygal. If not, see &lt;http://www.gnu.org/licenses/&gt;.
+*/
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 text.no_data {
+  text-anchor: middle;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .guide.line {
+  fill: none;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .centered {
+  text-anchor: middle;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .title {
+  text-anchor: middle;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .legends .legend text {
+  fill-opacity: 1;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.x text {
+  text-anchor: middle;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.x:not(.web) text[transform] {
+  text-anchor: start;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.x:not(.web) text[transform].backwards {
+  text-anchor: end;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y text {
+  text-anchor: end;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y text[transform].backwards {
+  text-anchor: start;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y2 text {
+  text-anchor: start;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y2 text[transform].backwards {
+  text-anchor: end;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .guide.line {
+  stroke-dasharray: 4,4;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .major.guide.line {
+  stroke-dasharray: 6,6;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .horizontal .axis.y .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .horizontal .axis.y2 .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .vertical .axis.x .guide.line {
+  opacity: 0;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .horizontal .axis.always_show .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .vertical .axis.always_show .guide.line {
+  opacity: 1 !important;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y .guides:hover .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.y2 .guides:hover .guide.line,
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis.x .guides:hover .guide.line {
+  opacity: 1;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .axis .guides:hover text {
+  opacity: 1;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .nofill {
+  fill: none;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .subtle-fill {
+  fill-opacity: .2;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .dot {
+  stroke-width: 1px;
+  fill-opacity: 1;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .dot.active {
+  stroke-width: 5px;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .dot.negative {
+  fill: transparent;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701  text, #chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701  tspan {
+  stroke: none !important;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .series text.active {
+  opacity: 1;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip rect {
+  fill-opacity: .95;
+  stroke-width: .5;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .tooltip text {
+  fill-opacity: 1;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .showable {
+  visibility: hidden;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .showable.shown {
+  visibility: visible;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .gauge-background {
+  fill: rgba(229, 229, 229, 1);
+  stroke: none;
+}
+
+#chart-71ccf4b7-8c87-4e62-bb8c-73e714a48701 .bg-lines {
+  stroke: white;
+  stroke-width: 2px;
+}
+</style>
+    <script type="text/javascript">window.pygal = window.pygal || {};window.pygal.config = window.pygal.config || {};window.pygal.config['71ccf4b7-8c87-4e62-bb8c-73e714a48701'] = {"spacing": 10, "legend_box_size": 12, "stroke": false, "x_labels_major": null, "box_mode": "extremes", "xrange": null, "show_legend": true, "margin": 20, "force_uri_protocol": "https", "min_scale": 4, "margin_top": null, "print_zeroes": true, "y_labels_major_every": null, "dynamic_print_values": false, "truncate_label": null, "show_x_guides": true, "legends": ["Com\u00e9dies", "Trag\u00e9dies"], "show_minor_x_labels": true, "missing_value_fill_truncation": "x", "truncate_legend": null, "max_scale": 16, "allow_interruptions": false, "show_y_guides": true, "show_dots": true, "secondary_range": null, "style": {"title_font_family": "FreeSans", "major_label_font_size": 10, "value_label_font_family": "FreeSans", "font_family": "FreeSans", "background": "white", "value_font_family": "FreeSans", "foreground_subtle": "#282828", "no_data_font_family": "FreeSans", "ci_colors": [], "major_guide_stroke_dasharray": "6,6", "tooltip_font_size": 14, "value_font_size": 16, "guide_stroke_dasharray": "4,4", "value_colors": [], "value_background": "rgba(229, 229, 229, 1)", "major_label_font_family": "FreeSans", "legend_font_family": "FreeSans", "transition": "100ms ease-in", "foreground": "#282828", "foreground_strong": "#000000", "title_font_size": 20, "label_font_family": "FreeSans", "colors": ["#002699", "#006600", "#007acc"], "value_label_font_size": 10, "opacity_hover": ".9", "tooltip_font_family": "FreeSans", "opacity": ".6", "plot_background": "white", "no_data_font_size": 64, "legend_font_size": 16, "label_font_size": 12}, "range": null, "x_label_rotation": 300, "show_y_labels": true, "show_only_major_dots": false, "inverse_y_axis": false, "show_x_labels": true, "formatter": null, "include_x_axis": false, "logarithmic": false, "y_labels_major": null, "x_title": "year", "fill": false, "margin_bottom": null, "order_min": null, "interpolation_parameters": {}, "rounded_bars": null, "inner_radius": 0, "height": 600, "title": "Network Data", "js": ["//kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js"], "pretty_print": true, "show_minor_y_labels": true, "explicit_size": false, "tooltip_border_radius": 0, "interpolate": null, "print_labels": false, "y_labels": null, "x_labels_major_count": null, "tooltip_fancy_mode": true, "print_values_position": "center", "no_prefix": false, "strict": false, "legend_at_bottom": true, "stroke_style": null, "half_pie": false, "defs": [], "no_data_text": "No data", "legend_at_bottom_columns": null, "y_title": "density", "x_labels": null, "y_label_rotation": 0, "interpolation_precision": 250, "print_values": false, "classes": ["pygal-chart"], "margin_left": null, "margin_right": null, "zero": 0, "x_labels_major_every": null, "width": 800, "stack_from_top": false, "css": ["file://style.css", "file://graph.css"], "y_labels_major_count": null, "dots_size": 2.5, "disable_xml_declaration": false}</script>
+    <script type="text/javascript" xlink:href="https://kozea.github.io/pygal.js/2.0.x/pygal-tooltips.min.js"/>
+  </defs>
+  <title>Network Data</title>
+  <g class="graph xy-graph vertical">
+    <rect class="background" height="600" width="800" x="0" y="0"/>
+    <g class="plot" transform="translate(81, 50)">
+      <rect class="background" height="415.0584683710082" width="698.4" x="0" y="0"/>
+      <g class="axis y">
+        <path class="line" d="M0.000000 415.058468 h698.400000"/>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 379.409042 h698.400000"/>
+          <text class="" x="-5" y="383.609042249">0.2</text>
+          <title>0.2</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 332.980649 h698.400000"/>
+          <text class="" x="-5" y="337.18064867">0.3</text>
+          <title>0.3</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 286.552255 h698.400000"/>
+          <text class="" x="-5" y="290.752255092">0.4</text>
+          <title>0.4</title>
+        </g>
+        <g class="guides">
+          <path class="major guide line" d="M0.000000 240.123862 h698.400000"/>
+          <text class="major" x="-5" y="244.323861514">0.5</text>
+          <title>0.5</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 193.695468 h698.400000"/>
+          <text class="" x="-5" y="197.895467936">0.6</text>
+          <title>0.6</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 147.267074 h698.400000"/>
+          <text class="" x="-5" y="151.467074357">0.7</text>
+          <title>0.7</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 100.838681 h698.400000"/>
+          <text class="" x="-5" y="105.038680779">0.8</text>
+          <title>0.8</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M0.000000 54.410287 h698.400000"/>
+          <text class="" x="-5" y="58.6102872008">0.9</text>
+          <title>0.9</title>
+        </g>
+        <g class="guides">
+          <path class="major guide line" d="M0.000000 7.981894 h698.400000"/>
+          <text class="major" x="-5" y="12.1818936225">1</text>
+          <title>1</title>
+        </g>
+      </g>
+      <g class="axis x always_show">
+        <path class="line" d="M0.000000 0.000000 v415.058468"/>
+        <g class="guides">
+          <path class="guide line" d="M13.430769 0.000000 v415.058468"/>
+          <text class="backwards" x="13.4307692308" y="431.0584683710082" transform="rotate(300 13.430769 431.058468)">1640</text>
+          <title>1640</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M86.029522 0.000000 v415.058468"/>
+          <text class="backwards" x="86.0295218295" y="431.0584683710082" transform="rotate(300 86.029522 431.058468)">1644</text>
+          <title>1644</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M158.628274 0.000000 v415.058468"/>
+          <text class="backwards" x="158.628274428" y="431.0584683710082" transform="rotate(300 158.628274 431.058468)">1648</text>
+          <title>1648</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M231.227027 0.000000 v415.058468"/>
+          <text class="backwards" x="231.227027027" y="431.0584683710082" transform="rotate(300 231.227027 431.058468)">1652</text>
+          <title>1652</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M303.825780 0.000000 v415.058468"/>
+          <text class="backwards" x="303.825779626" y="431.0584683710082" transform="rotate(300 303.825780 431.058468)">1656</text>
+          <title>1656</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M376.424532 0.000000 v415.058468"/>
+          <text class="backwards" x="376.424532225" y="431.0584683710082" transform="rotate(300 376.424532 431.058468)">1660</text>
+          <title>1660</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M449.023285 0.000000 v415.058468"/>
+          <text class="backwards" x="449.023284823" y="431.0584683710082" transform="rotate(300 449.023285 431.058468)">1664</text>
+          <title>1664</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M521.622037 0.000000 v415.058468"/>
+          <text class="backwards" x="521.622037422" y="431.0584683710082" transform="rotate(300 521.622037 431.058468)">1668</text>
+          <title>1668</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M594.220790 0.000000 v415.058468"/>
+          <text class="backwards" x="594.220790021" y="431.0584683710082" transform="rotate(300 594.220790 431.058468)">1672</text>
+          <title>1672</title>
+        </g>
+        <g class="guides">
+          <path class="guide line" d="M666.819543 0.000000 v415.058468"/>
+          <text class="backwards" x="666.81954262" y="431.0584683710082" transform="rotate(300 666.819543 431.058468)">1676</text>
+          <title>1676</title>
+        </g>
+      </g>
+      <g class="series serie-0 color-0"/>
+      <g class="series serie-1 color-1"/>
+    </g>
+    <g class="titles">
+      <text class="title plot_title" x="400.0" y="30">Network Data</text>
+      <text class="title" x="430.79999999999995" y="530.0">year</text>
+      <text class="title" x="0" y="287.5292341855041" transform="rotate(-90 0.000000 257.529234)">density</text>
+    </g>
+    <g class="plot overlay" transform="translate(81, 50)">
+      <g class="series serie-0 color-0">
+        <g class="dots">
+          <desc class="label">CorneilleP: SuiteMenteur (1644)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="86.0295218295" cy="118.525687857" r="4"/>
+          <desc class="value">1644: 0.7619047619</desc>
+          <desc class="x ">86.0295218295</desc>
+          <desc class="y ">118.525687857</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Inconnu (1675)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="648.66985447" cy="342.332535434" r="4"/>
+          <desc class="value">1675: 0.2798573975</desc>
+          <desc class="x left top">648.66985447</desc>
+          <desc class="y left top">342.332535434</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Scarron: HéritierRidicule (1659)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="358.274844075" cy="124.052877568" r="4"/>
+          <desc class="value">1659: 0.75</desc>
+          <desc class="x left">358.274844075</desc>
+          <desc class="y left">124.052877568</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: ComtesseOrgueil (1653)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="249.376715177" cy="80.2038391887" r="4"/>
+          <desc class="value">1653: 0.8444444444</desc>
+          <desc class="x ">249.376715177</desc>
+          <desc class="y ">80.2038391887</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: MédecinMalgréLui (1666)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="485.322661123" cy="252.786150672" r="4"/>
+          <desc class="value">1666: 0.4727272727</desc>
+          <desc class="x left top">485.322661123</desc>
+          <desc class="y left top">252.786150672</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: FeintAstrologue (1648)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="158.628274428" cy="151.48783741" r="4"/>
+          <desc class="value">1648: 0.6909090909</desc>
+          <desc class="x ">158.628274428</desc>
+          <desc class="y ">151.48783741</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: ÉtourdiContreTemps (1658)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="340.125155925" cy="185.253941831" r="4"/>
+          <desc class="value">1658: 0.6181818182</desc>
+          <desc class="x ">340.125155925</desc>
+          <desc class="y ">185.253941831</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Menteur (1642)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="49.7301455301" cy="162.74320555" r="4"/>
+          <desc class="value">1642: 0.6666666667</desc>
+          <desc class="x ">49.7301455301</desc>
+          <desc class="y ">162.74320555</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Boursault: MortVivant (1662)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="412.723908524" cy="157.216015838" r="4"/>
+          <desc class="value">1662: 0.6785714286</desc>
+          <desc class="x left">412.723908524</desc>
+          <desc class="y left">157.216015838</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: FourberiesScapin (1671)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="576.071101871" cy="121.473522369" r="4"/>
+          <desc class="value">1671: 0.7555555556</desc>
+          <desc class="x left">576.071101871</desc>
+          <desc class="y left">121.473522369</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Boursault: PortraitPeintre (1663)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="430.873596674" cy="59.5689975984" r="4"/>
+          <desc class="value">1663: 0.8888888889</desc>
+          <desc class="x left">430.873596674</desc>
+          <desc class="y left">59.5689975984</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Scarron: PrinceCorsaire (1658)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="340.125155925" cy="214.330309526" r="4"/>
+          <desc class="value">1658: 0.5555555556</desc>
+          <desc class="x top">340.125155925</desc>
+          <desc class="y top">214.330309526</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: DonJuanFestinPierre (1665)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="467.172972973" cy="371.806732189" r="4"/>
+          <desc class="value">1665: 0.216374269</desc>
+          <desc class="x left top">467.172972973</desc>
+          <desc class="y left top">371.806732189</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Scarron: BoutadesCapitanMatamore (1646)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="122.328898129" cy="98.2593255803" r="4"/>
+          <desc class="value">1646: 0.8055555556</desc>
+          <desc class="x ">122.328898129</desc>
+          <desc class="y ">98.2593255803</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: FemmesSavantes (1672)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="594.220790021" cy="180.430212628" r="4"/>
+          <desc class="value">1672: 0.6285714286</desc>
+          <desc class="x left">594.220790021</desc>
+          <desc class="y left">180.430212628</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Scarron: GardienSoiMême (1654)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="267.526403326" cy="259.469025505" r="4"/>
+          <desc class="value">1654: 0.4583333333</desc>
+          <desc class="x top">267.526403326</desc>
+          <desc class="y top">259.469025505</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: CritiqueÉcoleFemmes (1663)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="430.873596674" cy="30.0906524693" r="4"/>
+          <desc class="value">1663: 0.9523809524</desc>
+          <desc class="x left">430.873596674</desc>
+          <desc class="y left">30.0906524693</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Scarron: JodeletDuelliste (1646)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="122.328898129" cy="100.838680779" r="4"/>
+          <desc class="value">1646: 0.8</desc>
+          <desc class="x ">122.328898129</desc>
+          <desc class="y ">100.838680779</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: ÉcoleMaris (1661)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="394.574220374" cy="136.949653562" r="4"/>
+          <desc class="value">1661: 0.7222222222</desc>
+          <desc class="x left">394.574220374</desc>
+          <desc class="y left">136.949653562</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: IllustresEnnemis (1655)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="285.676091476" cy="293.695084873" r="4"/>
+          <desc class="value">1655: 0.3846153846</desc>
+          <desc class="x top">285.676091476</desc>
+          <desc class="y top">293.695084873</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Quinault: MereCoquette (1665)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="467.172972973" cy="124.052877568" r="4"/>
+          <desc class="value">1665: 0.75</desc>
+          <desc class="x left">467.172972973</desc>
+          <desc class="y left">124.052877568</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: TartuffeImposteur (1664)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="449.023284823" cy="100.838680779" r="4"/>
+          <desc class="value">1664: 0.8</desc>
+          <desc class="x left">449.023284823</desc>
+          <desc class="y left">100.838680779</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: FestinPierre (1677)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="684.969230769" cy="352.780992991" r="4"/>
+          <desc class="value">1677: 0.2573529412</desc>
+          <desc class="x left top">684.969230769</desc>
+          <desc class="y left top">352.780992991</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Plaideurs (1668)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="521.622037422" cy="131.790943165" r="4"/>
+          <desc class="value">1668: 0.7333333333</desc>
+          <desc class="x left">521.622037422</desc>
+          <desc class="y left">131.790943165</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Scarron: DonJaphetArménie (1652)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="231.227027027" cy="214.330309526" r="4"/>
+          <desc class="value">1652: 0.5555555556</desc>
+          <desc class="x top">231.227027027</desc>
+          <desc class="y top">214.330309526</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: AmourMode (1651)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="213.077338877" cy="152.425784755" r="4"/>
+          <desc class="value">1651: 0.6888888889</desc>
+          <desc class="x ">213.077338877</desc>
+          <desc class="y ">152.425784755</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: GalantDoublé (1659)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="358.274844075" cy="72.4657735924" r="4"/>
+          <desc class="value">1659: 0.8611111111</desc>
+          <desc class="x left">358.274844075</desc>
+          <desc class="y left">72.4657735924</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: PrécieusesRidicules (1659)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="358.274844075" cy="222.266787061" r="4"/>
+          <desc class="value">1659: 0.5384615385</desc>
+          <desc class="x left top">358.274844075</desc>
+          <desc class="y left top">222.266787061</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: Misanthrope (1666)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="485.322661123" cy="176.812415725" r="4"/>
+          <desc class="value">1666: 0.6363636364</desc>
+          <desc class="x left">485.322661123</desc>
+          <desc class="y left">176.812415725</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">TristanLHermite: Parasite (1654)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="267.526403326" cy="111.156101574" r="4"/>
+          <desc class="value">1654: 0.7777777778</desc>
+          <desc class="x ">267.526403326</desc>
+          <desc class="y ">111.156101574</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: DonCésarAvalos (1674)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="630.52016632" cy="98.2593255803" r="4"/>
+          <desc class="value">1674: 0.8055555556</desc>
+          <desc class="x left">630.52016632</desc>
+          <desc class="y left">98.2593255803</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Molière: DonGarcieNavarre (1661)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="394.574220374" cy="206.960723244" r="4"/>
+          <desc class="value">1661: 0.5714285714</desc>
+          <desc class="x left">394.574220374</desc>
+          <desc class="y left">206.960723244</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Boursault: JalouxEndormi (1662)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="412.723908524" cy="7.98189362252" r="4"/>
+          <desc class="value">1662: 1</desc>
+          <desc class="x left">412.723908524</desc>
+          <desc class="y left">7.98189362252</desc>
+        </g>
+      </g>
+      <g class="series serie-1 color-1">
+        <g class="dots">
+          <desc class="label">CorneilleP: PolyeucteMartyr (1641)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="31.5804573805" cy="317.504517478" r="4"/>
+          <desc class="value">1641: 0.3333333333</desc>
+          <desc class="x top">31.5804573805</desc>
+          <desc class="y top">317.504517478</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">DuRyer: Thémistocle (1646)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="122.328898129" cy="214.330309526" r="4"/>
+          <desc class="value">1646: 0.5555555556</desc>
+          <desc class="x top">122.328898129</desc>
+          <desc class="y top">214.330309526</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: EngagementsHasard (1649)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="176.777962578" cy="90.5212599839" r="4"/>
+          <desc class="value">1649: 0.8222222222</desc>
+          <desc class="x ">176.777962578</desc>
+          <desc class="y ">90.5212599839</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">TristanLHermite: Osman (1646)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="122.328898129" cy="176.812415725" r="4"/>
+          <desc class="value">1646: 0.6363636364</desc>
+          <desc class="x ">122.328898129</desc>
+          <desc class="y ">176.812415725</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: SurenaGénéralParthes (1674)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="630.52016632" cy="206.960723244" r="4"/>
+          <desc class="value">1674: 0.5714285714</desc>
+          <desc class="x left">630.52016632</desc>
+          <desc class="y left">206.960723244</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: ConquêteToisondOr (1661)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="394.574220374" cy="310.988251712" r="4"/>
+          <desc class="value">1661: 0.3473684211</desc>
+          <desc class="x left top">394.574220374</desc>
+          <desc class="y left top">310.988251712</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: AmoursJupiterSémélé (1666)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="485.322661123" cy="369.091621454" r="4"/>
+          <desc class="value">1666: 0.2222222222</desc>
+          <desc class="x left top">485.322661123</desc>
+          <desc class="y left top">369.091621454</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Britannicus (1669)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="539.771725572" cy="140.634446703" r="4"/>
+          <desc class="value">1669: 0.7142857143</desc>
+          <desc class="x left">539.771725572</desc>
+          <desc class="y left">140.634446703</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Circé (1677)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="684.969230769" cy="393.945327418" r="4"/>
+          <desc class="value">1677: 0.1686909582</desc>
+          <desc class="x left top">684.969230769</desc>
+          <desc class="y left top">393.945327418</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Pyrrhus (1661)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="394.574220374" cy="149.846429556" r="4"/>
+          <desc class="value">1661: 0.6944444444</desc>
+          <desc class="x left">394.574220374</desc>
+          <desc class="y left">149.846429556</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">DuRyer: Saül (1640)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="13.4307692308" cy="227.22708552" r="4"/>
+          <desc class="value">1640: 0.5277777778</desc>
+          <desc class="x top">13.4307692308</desc>
+          <desc class="y top">227.22708552</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Andromaque (1667)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="503.472349272" cy="256.705430649" r="4"/>
+          <desc class="value">1667: 0.4642857143</desc>
+          <desc class="x left top">503.472349272</desc>
+          <desc class="y left top">256.705430649</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: Agamemnon (1647)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="140.478586279" cy="278.814189496" r="4"/>
+          <desc class="value">1647: 0.4166666667</desc>
+          <desc class="x top">140.478586279</desc>
+          <desc class="y top">278.814189496</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Boursault: Germanicus (1673)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="612.37047817" cy="162.74320555" r="4"/>
+          <desc class="value">1673: 0.6666666667</desc>
+          <desc class="x left">612.37047817</desc>
+          <desc class="y left">162.74320555</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Rodogune (1644)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="86.0295218295" cy="118.525687857" r="4"/>
+          <desc class="value">1644: 0.7619047619</desc>
+          <desc class="x ">86.0295218295</desc>
+          <desc class="y ">118.525687857</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Phèdre (1677)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="684.969230769" cy="223.542292379" r="4"/>
+          <desc class="value">1677: 0.5357142857</desc>
+          <desc class="x left top">684.969230769</desc>
+          <desc class="y left top">223.542292379</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Timocrate (1656)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="303.825779626" cy="240.123861514" r="4"/>
+          <desc class="value">1656: 0.5</desc>
+          <desc class="x top">303.825779626</desc>
+          <desc class="y top">240.123861514</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Héraclius (1646)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="122.328898129" cy="142.10836396" r="4"/>
+          <desc class="value">1646: 0.7111111111</desc>
+          <desc class="x ">122.328898129</desc>
+          <desc class="y ">142.10836396</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: PorcieRomaine (1645)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="104.179209979" cy="291.71096549" r="4"/>
+          <desc class="value">1645: 0.3888888889</desc>
+          <desc class="x top">104.179209979</desc>
+          <desc class="y top">291.71096549</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: PerséeDémétrius (1662)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="412.723908524" cy="173.797584974" r="4"/>
+          <desc class="value">1662: 0.6428571429</desc>
+          <desc class="x left">412.723908524</desc>
+          <desc class="y left">173.797584974</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">TristanLHermite: MortSénèque (1644)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="86.0295218295" cy="261.227676777" r="4"/>
+          <desc class="value">1644: 0.4545454545</desc>
+          <desc class="x top">86.0295218295</desc>
+          <desc class="y top">261.227676777</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: AlexandreGrand (1665)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="467.172972973" cy="7.98189362252" r="4"/>
+          <desc class="value">1665: 1</desc>
+          <desc class="x left">467.172972973</desc>
+          <desc class="y left">7.98189362252</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Ariane (1672)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="594.220790021" cy="96.4169290097" r="4"/>
+          <desc class="value">1672: 0.8095238095</desc>
+          <desc class="x left">594.220790021</desc>
+          <desc class="y left">96.4169290097</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Nicomède (1651)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="213.077338877" cy="107.471308433" r="4"/>
+          <desc class="value">1651: 0.7857142857</desc>
+          <desc class="x ">213.077338877</desc>
+          <desc class="y ">107.471308433</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: Aristodème (1647)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="140.478586279" cy="162.74320555" r="4"/>
+          <desc class="value">1647: 0.6666666667</desc>
+          <desc class="x ">140.478586279</desc>
+          <desc class="y ">162.74320555</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Sophonisbe (1663)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="430.873596674" cy="310.46991239" r="4"/>
+          <desc class="value">1663: 0.3484848485</desc>
+          <desc class="x left top">430.873596674</desc>
+          <desc class="y left top">310.46991239</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Quinault: Atys (1676)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="666.81954262" cy="407.076574748" r="4"/>
+          <desc class="value">1676: 0.1404081633</desc>
+          <desc class="x left top">666.81954262</desc>
+          <desc class="y left top">407.076574748</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Bérénice (1657)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="321.975467775" cy="214.330309526" r="4"/>
+          <desc class="value">1657: 0.5555555556</desc>
+          <desc class="x top">321.975467775</desc>
+          <desc class="y top">214.330309526</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Agésilas (1666)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="485.322661123" cy="188.536757538" r="4"/>
+          <desc class="value">1666: 0.6111111111</desc>
+          <desc class="x left">485.322661123</desc>
+          <desc class="y left">188.536757538</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: ThébaïdeFrèresEnnemis (1664)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="449.023284823" cy="193.695467936" r="4"/>
+          <desc class="value">1664: 0.6</desc>
+          <desc class="x left">449.023284823</desc>
+          <desc class="y left">193.695467936</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">DuRyer: Scévole (1646)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="122.328898129" cy="124.052877568" r="4"/>
+          <desc class="value">1646: 0.75</desc>
+          <desc class="x ">122.328898129</desc>
+          <desc class="y ">124.052877568</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Andromede (1650)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="194.927650728" cy="352.830469113" r="4"/>
+          <desc class="value">1650: 0.2572463768</desc>
+          <desc class="x top">194.927650728</desc>
+          <desc class="y top">352.830469113</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Oedipe (1659)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="358.274844075" cy="252.786150672" r="4"/>
+          <desc class="value">1659: 0.4727272727</desc>
+          <desc class="x left top">358.274844075</desc>
+          <desc class="y left top">252.786150672</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: OropasteFauxTonaxare (1662)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="412.723908524" cy="173.060626345" r="4"/>
+          <desc class="value">1662: 0.6444444444</desc>
+          <desc class="x left">412.723908524</desc>
+          <desc class="y left">173.060626345</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: Tyridate (1648)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="158.628274428" cy="111.156101574" r="4"/>
+          <desc class="value">1648: 0.7777777778</desc>
+          <desc class="x ">158.628274428</desc>
+          <desc class="y ">111.156101574</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: MortPompée (1642)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="49.7301455301" cy="310.46991239" r="4"/>
+          <desc class="value">1642: 0.3484848485</desc>
+          <desc class="x top">49.7301455301</desc>
+          <desc class="y top">310.46991239</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Bajazet (1672)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="594.220790021" cy="206.960723244" r="4"/>
+          <desc class="value">1672: 0.5714285714</desc>
+          <desc class="x left">594.220790021</desc>
+          <desc class="y left">206.960723244</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Quinault: Bellérophon (1671)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="576.071101871" cy="190.379154109" r="4"/>
+          <desc class="value">1671: 0.6071428571</desc>
+          <desc class="x left">576.071101871</desc>
+          <desc class="y left">190.379154109</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Mithridate (1673)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="612.37047817" cy="118.525687857" r="4"/>
+          <desc class="value">1673: 0.7619047619</desc>
+          <desc class="x left">612.37047817</desc>
+          <desc class="y left">118.525687857</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: Darius (1659)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="358.274844075" cy="206.960723244" r="4"/>
+          <desc class="value">1659: 0.5714285714</desc>
+          <desc class="x left">358.274844075</desc>
+          <desc class="y left">206.960723244</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">TristanLHermite: MortChrispe (1644)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="86.0295218295" cy="307.187096683" r="4"/>
+          <desc class="value">1644: 0.3555555556</desc>
+          <desc class="x top">86.0295218295</desc>
+          <desc class="y top">307.187096683</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleP: Attila (1667)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="503.472349272" cy="162.74320555" r="4"/>
+          <desc class="value">1667: 0.6666666667</desc>
+          <desc class="x left">503.472349272</desc>
+          <desc class="y left">162.74320555</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">DuRyer: Esther (1640)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="13.4307692308" cy="227.22708552" r="4"/>
+          <desc class="value">1640: 0.5277777778</desc>
+          <desc class="x top">13.4307692308</desc>
+          <desc class="y top">227.22708552</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: MortAchille (1673)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="612.37047817" cy="256.705430649" r="4"/>
+          <desc class="value">1673: 0.4642857143</desc>
+          <desc class="x left top">612.37047817</desc>
+          <desc class="y left top">256.705430649</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">CorneilleT: MortAnnibal (1669)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="539.771725572" cy="175.639981544" r="4"/>
+          <desc class="value">1669: 0.6388888889</desc>
+          <desc class="x left">539.771725572</desc>
+          <desc class="y left">175.639981544</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">Racine: Bérénice (1670)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="557.921413721" cy="229.069482091" r="4"/>
+          <desc class="value">1670: 0.5238095238</desc>
+          <desc class="x left top">557.921413721</desc>
+          <desc class="y left top">229.069482091</desc>
+        </g>
+        <g class="dots">
+          <desc class="label">BoyerC: MortEnfantsBrute (1647)</desc>
+          <circle class="dot reactive tooltip-trigger" cx="140.478586279" cy="162.74320555" r="4"/>
+          <desc class="value">1647: 0.6666666667</desc>
+          <desc class="x ">140.478586279</desc>
+          <desc class="y ">162.74320555</desc>
+        </g>
+      </g>
+    </g>
+    <g class="plot text-overlay" transform="translate(81, 50)">
+      <g class="series serie-0 color-0"/>
+      <g class="series serie-1 color-1"/>
+    </g>
+    <g class="plot tooltip-overlay" transform="translate(81, 50)">
+      <g class="tooltip" style="opacity: 0" transform="translate(0 0)">
+        <rect class="tooltip-box" height="0" rx="0" ry="0" width="0"/>
+        <g class="text"/>
+      </g>
+    </g>
+    <g class="legends" transform="translate(91, 550)">
+      <g class="legend reactive activate-serie" id="activate-serie-0">
+        <rect class="color-0 reactive" height="12" width="12" x="0.0" y="2.0"/>
+        <text x="17.0" y="12.8">Comédies</text>
+      </g>
+      <g class="legend reactive activate-serie" id="activate-serie-1">
+        <rect class="color-1 reactive" height="12" width="12" x="349.2" y="2.0"/>
+        <text x="366.2" y="12.8">Tragédies</text>
+      </g>
+    </g>
+  </g>
+</svg>
