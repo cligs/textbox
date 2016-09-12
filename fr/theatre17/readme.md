@@ -29,7 +29,7 @@ This collection is a subset of the Théâtre classique collection published by P
 
 All texts are in the public domain. The original markup and most of the metadata have been added by Paul Fièvre. The transformation to TEI P5 has been made by Ulrike Henny and Christof Schöch. The Zwischenformat data has been extracted by Christof Schöch, inspired by work of the DLINA group. 
 
-Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: *Collection of French Plays 1640-1680*, edited by Christof Schöch. Würzburg: CLiGS, 2016. https://github.com/cligs/textbox/master/fr/theatre17/. 
+Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: _Collection de pièces the théâtre français du dix-septième siècle_, edited by Christof Schöch. Würzburg: CLiGS, 2016. https://github.com/cligs/textbox/master/fr/theatre17/. 
 
 
 
