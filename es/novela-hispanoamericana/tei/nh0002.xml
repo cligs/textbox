@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -7,7 +7,7 @@
             <title type="main">Divertidas aventuras del nieto de Juan Moreira</title>
             <title type="short">Moreira</title>
             <title type="idno">
-               <idno type="viaf"/>
+               <idno type="viaf">-</idno>
             </title>
             <author>
                <name type="full">Roberto Payró</name>
@@ -18,28 +18,59 @@
          </titleStmt>
          <publicationStmt>
             <publisher>CLiGS</publisher>
-            <availability status="publicdomain">
-               <p/>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
             </availability>
-            <date>2015</date>
+            <date>2016</date>
             <idno type="cligs">nh0002</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">Wikisource <date>2009</date>. <ref
+            <bibl type="digital-source">"Divertidas aventuras del nieto de Juan Moreira." <seg
+                  rend="italic">Wikisource</seg>, <date>2009</date>, <ref
                   target="https://es.wikisource.org/wiki/Divertidas_aventuras_del_nieto_de_Juan_Moreira"
-               /></bibl>
-            <bibl type="print-source" cert="low">Casa Editorial Maucci, <date>1919</date>.</bibl>
-            <bibl type="edition-first">
-               <date when="1910">1910</date>
+                  >https://es.wikisource.org/wiki/Divertidas_aventuras_del_nieto_de_Juan_Moreira</ref>.</bibl>
+            <bibl type="print-source">unknown</bibl>
+            <bibl type="edition-first"><seg rend="italic">Las divertidas aventuras del nieto de Juan
+                  Moreira.</seg> Buenos Aires: M. Rodríguez Giles, <date when="1910">1910</date>.
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p/>
+         <p>The spelling has been checked and corrected where appropriate.</p>
+         <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
+            of oral speech (e.g. with accent) have been marked up.</p>
+         <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p/>
+            <p>
+               <quote>Lo que hace de <seg rend="italic">Las divertidas aventuras del nieto de Juan
+                     Moreira</seg> una gran novela argentina es el cuidado con que Payró salvó la
+                  autenticidad de su personaje, a pesar de haberlo sometido a un orden muy
+                  complicado. Gómez Herrera es un político de avería que por actuar en los planos
+                  superiores de la sociedad debe fingir una moral. [...] A medida que avanza en su
+                  carrera va tomando posesión de un mundo cada vez más vasto del que siempre
+                  quisiera ser el centro. Forzosamente debe negar o discutir los valores vigentes:
+                  desconocerlos, no.</quote>
+               <bibl>Anderson Imbert, Enrique. <seg rend="italic">Tres novelas de Payró con pícaros
+                     en tres miras</seg>, p. 52. Cited by Lichtblau, Myron. <seg rend="italic">The
+                     Argentine Novel: an annotated bibliography.</seg> Lanham, Maryland, 1997, p.
+                  784.</bibl>
+            </p>
+            <p>
+               <quote>It should not surprise us that Payró's assessment of Gómez Herrera as an
+                  opportunistic individual who was continuing in the footsteps of his infamous
+                  predecessor, Juan Moreira, suggested a deterministic view of society. This
+                  pessimistic view, a product of the prevailing current of naturalism in vogue at
+                  the time, was tempered, however, when Payró allowed Mauricio Rivas, the
+                  illegitimate son of Gómez Herrera, to be the most outspoken critic of the system.
+                  When Mauricio attacks Gómez Herrera, not knowing his true identity, he is
+                  attacking the very foundations of a corrupt political system.</quote>
+               <bibl>Garganigo, John F. <seg rend="italic">Latin American Writers</seg>, Vol. I, pp.
+                  416-417. Cited by Lichtblau, Myron. <seg rend="italic">The Argentine Novel: an
+                     annotated bibliography</seg>. Lanham, Maryland, 1997, p. 784.</bibl>
+            </p>
          </abstract>
          <textClass>
             <keywords scheme="keywords.csv">
@@ -49,16 +80,16 @@
                <term type="supergenre">narrative</term>
                <term type="genre">novel</term>
                <term type="genre-label">divertidas aventuras</term>
-               <term type="subgenre" subtype="2">costumbrista</term>
-               <term type="subgenre" subtype="1">political</term>
-               <!-- ### -->
+               <term type="subgenre" subtype="2" resp="#uh">costumbrista</term>
+               <term type="subgenre" subtype="1" resp="#uh">political</term>
+               <term type="subgenre" subtype="1" cert="low" resp="#uh">gaucho</term>
+               <term type="subgenre" subtype="1" cert="low" resp="#uh">picaresca</term>
                <term type="subgenre_tm" cert="low" resp="#uh">novela político-social</term>
+               <term type="subgenre_hist" subtype="2" resp="#uh">not_historical</term>
                <term type="form">prose</term>
                <term type="narrative-perspective">autodiegetic</term>
                <term type="setting">rural</term>
                <term type="protagonist-gender">male</term>
-               <term type="publication-first" cert="low">book</term>
-               <term type="movement">naturalism/modernism</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -381,8 +412,9 @@
                   pega-pega, el viscoso del papel mascado, el urticante de la picapica, pues con voz
                   melosa preguntó, tuteándome contra su costumbre:</p>
                <p>-¿Es decir que renuncias?</p>
-               <p>-¡Sí! ¡Renuncio in-de-cli-na-ble-men-te! -repliqué, recalcando cada sílaba del
-                  adverbio, aprendido de Tatita en sus disposiciones electorales.</p>
+               <p>-¡Sí! ¡Renuncio <seg type="oral">in-de-cli-na-ble-men-te</seg>! -repliqué,
+                  recalcando cada sílaba del adverbio, aprendido de Tatita en sus disposiciones
+                  electorales.</p>
                <p>La clase entera abrió tamaña boca, espantada, creyendo que la palabrota era un
                   terno formidable, anuncio de alguna colisión más formidable aún; pero volvió a la
                   serenidad, al ver que don Lucas se levantaba conmovido, y, tuteándome de nuevo, me
@@ -623,9 +655,10 @@
                   atrevió nunca, yo podía atreverme impunemente con cualquiera. En suma, era para mí
                   un dechado de perfecciones, y yo me sentía demasiado orgulloso de él, demasiado
                   satisfecho de su protección directa e indirecta para que este orgullo y esta
-                  satisfacción no se tradujeran en un gran cariño y en una veneración sui generis,
-                  semejante al efecto admirativo hacia el camarada más fuerte, más apto y más
-                  poderoso, que accede, sin embargo, bondadosamente a todos nuestros caprichos.</p>
+                  satisfacción no se tradujeran en un gran cariño y en una veneración <seg
+                     type="foreign" xml:lang="la">sui generis</seg>, semejante al efecto admirativo
+                  hacia el camarada más fuerte, más apto y más poderoso, que accede, sin embargo,
+                  bondadosamente a todos nuestros caprichos.</p>
                <p>Como más de una vez, siendo yo muy niño aún, me llevó a las carreras, las riñas y
                   otras diversiones públicas, y como nunca tomaba a mal mi presencia en aquellos
                   sitios -ni a bien tampoco, porque siempre hizo como que no me veía-, pronto me
@@ -710,10 +743,11 @@
                   amorosas y comencé a soñar en la mujer ideal, el instinto me llevó a fijar la
                   vista en ella, como en la posible realización de mi deseo poético de conquistar el
                   primer perfume de una flor de invernáculo, o por lo menos de jardín cultivado y
-                  custodiado. Aquel hortus conclusus llegó, en fin, a detener mi atención y a
-                  despertar en mí un sentimiento exteriormente parecido al amor; amor cerebral,
-                  apenas, primer despertamiento de la imaginación en consorcio con los sentidos,
-                  como lo prueba la forma en que me di cuenta de que lo experimentaba...</p>
+                  custodiado. Aquel <seg type="foreign" xml:lang="la">hortus conclusus</seg> llegó,
+                  en fin, a detener mi atención y a despertar en mí un sentimiento exteriormente
+                  parecido al amor; amor cerebral, apenas, primer despertamiento de la imaginación
+                  en consorcio con los sentidos, como lo prueba la forma en que me di cuenta de que
+                  lo experimentaba...</p>
                <p>Era una noche, tarde ya, y mientras todos dormían en casa, yo leía con entusiasmo
                   la Mademoiselle de Maupin, de Teófilo Gautier; como a Paolo y Francesca los amores
                   de Lancelotto, aquel libro sensual me produjo extraordinario y repentino vértigo.
@@ -796,20 +830,22 @@
                   el campo?</p>
                <p>Como si aquello la interesara de veras, sonrió, dio un paso hacia mí, e inquirió,
                   clavándome los ojos, negros y francos:</p>
-               <p>-¿Hay muchoz?</p>
+               <p>-<seg type="oral">¿Hay muchoz?</seg></p>
                <p>-¡Muchísimos! ¿Querés que te traiga?</p>
-               <p>-¿Con ezte zolazo? ¡No, no! Te podría dar un ataque a la cabeza.</p>
+               <p>-<seg type="oral">¿Con ezte zolazo? ¡No, no! Te podría dar un ataque a la
+                     cabeza.</seg></p>
                <p>-¡Bah! El sol no me hace nada. Siempre ando al sol y nunca me hace nada.</p>
-               <p>-Además, no me guztan.</p>
+               <p>-<seg type="oral">Además, no me guztan.</seg></p>
                <p>Lo dijo con mucha coquetería, ruborizada, encantadora por el ceceo, la sonrisa
                   tierna, el brillo feliz de los ojos. Yo busqué otro obsequio.</p>
                <p>-¿Y los huevos de gallo?</p>
-               <p>-¡Oh! Ezo zí; pero no para comerloz: los pongo en loz floreroz, con loz penachoz
-                  de cortadera, y rezultan máz bonitoz...</p>
+               <p><seg type="oral">-¡Oh! Ezo zí; pero no para comerloz: los pongo en loz floreroz,
+                     con loz penachoz de cortadera, y rezultan máz bonitoz...</seg></p>
                <p>-¡Pues ya verás! ¡Ya verás el montón que te traigo! -exclamé con resolución, como
                   si prometiera realizar una hazaña, tanto que, alarmada, tratando de detenerme
                   dulcemente, porque yo salía ya a toda prisa:</p>
-               <p>-¡No vayaz a hacer ningún dizparate, Mauricio!- suplicó.</p>
+               <p><seg type="oral">-¡No vayaz a hacer ningún dizparate, Mauricio!</seg>-
+                  suplicó.</p>
                <p>-¡Dejá, dejá no más!</p>
                <p>Y salí corriendo, sí. Por tres razones: porque la situación, mucho menos tirante
                   que en un principio, no dejaba todavía de serme embarazosa; porque aquel pretexto,
@@ -852,7 +888,8 @@
                   le brillaban de entusiasmo. Sus labios, algo gruesos y tan rojos, sonreían con
                   expresión admirativa y al propio tiempo angustiada, mientras sus mejillas se
                   coloreaban y palidecían alternativamente. Cuando terminé:</p>
-               <p>-¡Muchaz graciaz! -murmuró-. ¡Zoz muy valiente!</p>
+               <p>-<seg type="oral">¡Muchaz graciaz!</seg> -murmuró-. <seg type="oral">¡Zoz muy
+                     valiente!</seg></p>
                <p>Y se puso encarnada como una flor de ceibo, mientras bajaba la vista para mirar
                   las frutitas que sostenía con ambas manos en el delantal.</p>
                <p>Pensé que la situación había cambiado radicalmente; pero no me atreví a utilizar
@@ -860,8 +897,8 @@
                   aquello no tenía importancia, que cualquiera hubiese hecho lo mismo, que estaba
                   pronto a todo por complacerla... Me dio, en premio, un ramito de jazmines del
                   país, que ella misma cultivaba, y me dijo sonriente, al despedirme:</p>
-               <p>-Y no hagaz como antez, no ceaz tan «chúcaro». Vení a vernoz de cuando en
-                  cuando.</p>
+               <p>-<seg type="oral">Y no hagaz como antez, no ceaz tan «chúcaro». Vení a vernoz de
+                     cuando en cuando.</seg></p>
                <p>-¡Ya lo creo que vendré!</p>
                <p>Y fui todos los días, a veces de mañana y tarde, preferentemente cuando don
                   Inginio no estaba en casa. Renació así la intimidad de la niñez, pero en otra
@@ -1152,9 +1189,9 @@
                   imágenes borrosas e inconexas. Mi padre puso, por fin, término a esta situación,
                   proponiendo un paso «para estirar las piernas», frase cuyo significado interpreté
                   al momento: irían hasta el café o el club a jugar al billar o al truco y a beber
-                  el vermouth de la tarde. Fui el primero que se puso de pie lanzando un suspiro de
-                  liberación. De los visitantes, unos se excusaron, otros se dispusieron a acompañar
-                  a Tatita.</p>
+                  el <seg type="foreign" xml:lang="en">vermouth</seg> de la tarde. Fui el primero
+                  que se puso de pie lanzando un suspiro de liberación. De los visitantes, unos se
+                  excusaron, otros se dispusieron a acompañar a Tatita.</p>
                <p>-¡No vuelvan tarde, que pronto va a estar la cena! -recomendó misia Gertrudis con
                   una sonrisa avinagrada, la más dulce, sin embargo, de su corto repertorio.</p>
                <p>Salimos, pues, y en el trayecto comencé a conocer la «maravillosa» ciudad de
@@ -1277,8 +1314,9 @@
                <p>Esto fue dicho con tal jovialidad bonachona que todos se echaron a reír; todos
                   menos, naturalmente, doña Gertrudis, que no conseguía llegar a mostrarse amable ni
                   aun para adular a Tatita.</p>
-               <p>-Tien l'aspetto mucho inteliguente -sentenció el doctor, examinándome con sus
-                  ojillos escrutadores-. Y los cóvenes creollos aprenden muy fáchile.</p>
+               <p>-Tien <seg type="foreign" xml:lang="it">l'aspetto</seg> mucho inteliguente
+                  -sentenció el doctor, examinándome con sus ojillos escrutadores-. Y los cóvenes
+                  creollos aprenden muy fáchile.</p>
                <p>-Eso es verdad -asintió don Néstor-. Nuestra muchachada es viva como la luz. En
                   cuanto a éste, ya se despertará en el Colegio. Si para admitir a los que vienen
                   del campo exigiéramos que se presentaran al examen de ingreso como unos Picos de
@@ -1342,7 +1380,8 @@
                   Néstor.</p>
                <p>-¡Ah! Entonces...</p>
                <p>El doctor Orlandi cortó el aparte, preguntándome:</p>
-               <p>-¿Cuále é il gondinende más grande del mondo?</p>
+               <p>-<seg type="foreign" xml:lang="it">¿Cuále é il gondinende más grande del
+                     mondo?</seg></p>
                <p>Un relámpago de inspiración me iluminó haciéndome recordar lo que había oído de la
                   grandeza de nuestro país, y contesté, resuelta, categóricamente:</p>
                <p>-¡La República Argentina!</p>
@@ -1461,15 +1500,17 @@
                   de camaradas íntimos, si don Claudio ahuyentaba en la calle a mis condiscípulos,
                   que de otro modo quizá se hubieran unido a mí?</p>
                <p>El estudio me interesaba muy poco; antes que aprender las largas lecciones de
-                  memoria, el musa musae, el bonus, bona, bonum, la nomenclatura interminable de los
-                  departamentos de provincia, los cuentos insípidos del Compendio de Historia
-                  Sagrada, prefería quedarme horas enteras mirando al aire, evocando las risueñas
-                  imágenes de Los Sunchos, o rehaciendo las complicadas intrigas de las novelas. Era
-                  el más «burro» de la clase, pero mi insuficiencia no me molestaba en lo más
-                  mínimo, ni por mis condiscípulos ni por los profesores, olfateando instintivamente
-                  en estos últimos, quizá, una insuficiencia, si no mayor, más perniciosa aún. Salvo
-                  raras excepciones eran ignorantes, se limitaban a tomar las lecciones con el texto
-                  en la mano, docticum libro, y contestaban rara vez a las preguntas que les hacían,
+                  memoria, el <seg type="foreign" xml:lang="la">musa musae</seg>, el <seg
+                     type="foreign" xml:lang="la">bonus, bona, bonum</seg>, la nomenclatura
+                  interminable de los departamentos de provincia, los cuentos insípidos del
+                  Compendio de Historia Sagrada, prefería quedarme horas enteras mirando al aire,
+                  evocando las risueñas imágenes de Los Sunchos, o rehaciendo las complicadas
+                  intrigas de las novelas. Era el más «burro» de la clase, pero mi insuficiencia no
+                  me molestaba en lo más mínimo, ni por mis condiscípulos ni por los profesores,
+                  olfateando instintivamente en estos últimos, quizá, una insuficiencia, si no
+                  mayor, más perniciosa aún. Salvo raras excepciones eran ignorantes, se limitaban a
+                  tomar las lecciones con el texto en la mano, <seg type="foreign" xml:lang="la"
+                     >docticum libro</seg>, y contestaban rara vez a las preguntas que les hacían,
                   para aclarar una duda, maestros improvisados, en fin, en una época en que las
                   «cátedras» eran el refugio de los amigos del gobierno que no tenían profesión ni
                   aptitudes para ganarse el pan.</p>
@@ -1799,22 +1840,24 @@
                   abundan en provincia. No la describiré, pero no olvidaré nunca, tampoco, aquellos
                   manteles inmundos y aquel infernal desorden, en que la patrona, las chinitas, los
                   huéspedes y los visitantes nos burlábamos como a porfía de las reglas más
-                  elementales del buen vivir. ¡Qué casa de Tócame-Roque, ni qué Auberge du Libre
-                  Échange! Para divertirse, allí, en la respetable pensión de la distinguida viuda
-                  del señor Calleja, sobrina de un obispo y tía de un diputado. Si yo no hubiera
-                  tenido Los Sunchos, me quedo en aquella Capua, sórdida si se quiere, pero en
-                  cambio tan libre, precisamente lo que más había envidiado desde casa de Zapata...
-                  ¡Viva la libertad! Y pasemos a otra cosa.</p>
+                  elementales del buen vivir. ¡Qué casa de Tócame-Roque, ni qué <seg type="foreign"
+                     xml:lang="fr">Auberge du Libre Échange</seg>! Para divertirse, allí, en la
+                  respetable pensión de la distinguida viuda del señor Calleja, sobrina de un obispo
+                  y tía de un diputado. Si yo no hubiera tenido Los Sunchos, me quedo en aquella
+                  Capua, sórdida si se quiere, pero en cambio tan libre, precisamente lo que más
+                  había envidiado desde casa de Zapata... ¡Viva la libertad! Y pasemos a otra
+                  cosa.</p>
                <p>¿A qué decir que me dejaron suspenso en varias materias -creo que cuatro de seis-
                   y que en otras pasé por suerte o por benevolencia de la mesa examinadora? ¿Para
                   qué contar que el latinista don Prilidiano Méndez, después de otras preguntas, me
-                  invitó con alevosía y ensañamiento a que declinara el quis vel qui, del que yo
-                  sólo sabía la aleluya de «todos los burros se quedan aquí»? Todo aquello no me
-                  importaba un ardite. Intuitivamente comprendía que ni en colegios ni en facultades
-                  se aprende nada, y hoy mismo, si quisiera ser completamente franco... En fin, no
-                  lo diré, pero es el caso que en nuestro país los hombres realmente superiores se
-                  han ilustrado casi siempre solos, han sido autodidactos, selfmade men, mientras
-                  que los rutinarios, los mediocres, han tenido casi siempre un diploma
+                  invitó con alevosía y ensañamiento a que declinara el <seg type="foreign"
+                     xml:lang="la">quis vel qui</seg>, del que yo sólo sabía la aleluya de «todos
+                  los burros se quedan aquí»? Todo aquello no me importaba un ardite. Intuitivamente
+                  comprendía que ni en colegios ni en facultades se aprende nada, y hoy mismo, si
+                  quisiera ser completamente franco... En fin, no lo diré, pero es el caso que en
+                  nuestro país los hombres realmente superiores se han ilustrado casi siempre solos,
+                  han sido autodidactos, <seg type="foreign" xml:lang="en">selfmade men</seg>,
+                  mientras que los rutinarios, los mediocres, han tenido casi siempre un diploma
                   universitario como un pasaporte de complacencia...</p>
                <p>Para desquitarme de los malos ratos que me había procurado el examen, ocurrióseme
                   darle uno a misia Gertrudis, antes de volver a la aldea. No tenía que quebrarme
@@ -1902,24 +1945,25 @@
                   hombres», se pasaban el día en peso conversando de carreras, de riñas, de partidos
                   de pelota, diciendo compadradas, contando duelos y otras atrocidades,
                   chismorreando amoríos más o menos escabrosos, después de lo cual, como intervalo,
-                  salían a tomar el vermouth (mermú) a horas de almuerzo, y como final, al caer la
-                  tarde, hablando entonces magistralmente de política, y combinando el programa
-                  nocturno. Comencé a frecuentarlos, más interesado cada día. Jugábamos al billar,
-                  hasta que entraba la noche; comíamos en casa o en el restaurante, a la disparada,
-                  y después nos reuníamos, ora aquí, ora allí, en la «timba» del Maneo, en el
-                  establecimiento de Ilka, la polaca, donde solía haber descomunales bochinches, y
-                  en el que nadie entraba sin que un agente de policía lo registrase para quitarle
-                  las armas, o en algún otro sitio del mismo género. Me sorprendió encontrar,
-                  alrededor de un tapete criollo o bajo un emparrado polaco, no sólo a los
-                  camaradas, a los demás contemporáneos, sino también a toda la flor y nata de Los
-                  Sunchos, con el mismo don Sócrates a la cabeza. ¡Y dicen que la Grecia antigua no
-                  renace en nuestro «país», con Sócrates y todo!... En fin, a la madrugada nos
-                  íbamos a acostar, y yo gozaba de esa hora admirable en que todo lo viviente calla
-                  un momento, reconcentrándose, reconstituyéndose en el sueño, para despertar, poco
-                  después, más fresco, más ardiente, más vigoroso. Siempre he tenido un flaco fervor
-                  por los grandes espectáculos de la naturaleza, y creo que, si la política no me
-                  hubiese absorbido por completo, hoy sería el descriptor más notable de las
-                  bellezas y la grandiosidad del paisaje argentino.</p>
+                  salían a tomar el <seg type="foreign" xml:lang="en">vermouth</seg> (mermú) a horas
+                  de almuerzo, y como final, al caer la tarde, hablando entonces magistralmente de
+                  política, y combinando el programa nocturno. Comencé a frecuentarlos, más
+                  interesado cada día. Jugábamos al billar, hasta que entraba la noche; comíamos en
+                  casa o en el restaurante, a la disparada, y después nos reuníamos, ora aquí, ora
+                  allí, en la «timba» del Maneo, en el establecimiento de Ilka, la polaca, donde
+                  solía haber descomunales bochinches, y en el que nadie entraba sin que un agente
+                  de policía lo registrase para quitarle las armas, o en algún otro sitio del mismo
+                  género. Me sorprendió encontrar, alrededor de un tapete criollo o bajo un
+                  emparrado polaco, no sólo a los camaradas, a los demás contemporáneos, sino
+                  también a toda la flor y nata de Los Sunchos, con el mismo don Sócrates a la
+                  cabeza. ¡Y dicen que la Grecia antigua no renace en nuestro «país», con Sócrates y
+                  todo!... En fin, a la madrugada nos íbamos a acostar, y yo gozaba de esa hora
+                  admirable en que todo lo viviente calla un momento, reconcentrándose,
+                  reconstituyéndose en el sueño, para despertar, poco después, más fresco, más
+                  ardiente, más vigoroso. Siempre he tenido un flaco fervor por los grandes
+                  espectáculos de la naturaleza, y creo que, si la política no me hubiese absorbido
+                  por completo, hoy sería el descriptor más notable de las bellezas y la
+                  grandiosidad del paisaje argentino.</p>
                <p>Pero no es posible repicar y andar en la procesión.</p>
             </div>
             <div>
@@ -2041,7 +2085,8 @@
                   abandono en mi brazo.</p>
                <p>- ¡Pero eres un malo, un perverso! -me decía-. ¡No te puedo creer! ¡Si me
                   quisieras de veras no te pasarías los meses enteros sin ir a verme!</p>
-               <p>¿Era el cuarto de hora de Espada d'aprés Rabelais?</p>
+               <p>¿Era el cuarto de hora de Espada <seg type="foreign" xml:lang="fr">d'aprés</seg>
+                  Rabelais?</p>
                <p>Así lo creí, pues le declaré que si no iba a verla era porque «me daba rabia»
                   hablar con ella, habiendo gente delante, o con una reja de por medio.</p>
                <p>-Si me esperaras en la huerta, donde podemos conversar a gusto, yo iría a verte
@@ -2544,16 +2589,18 @@
                   estuvieran lejos, atravesé la calle y entré en la huerta, casi seguro de no
                   encontrar a nadie, aunque esto hubiera lastimado mi amor propio... Pero allí
                   estaba la muchacha, agitada y nerviosa.</p>
-               <p>-Ya creí que no vendríaz -me dijo con su voz cantante-. El zeñor diputado ze hace
-                  decear... Tenéz razón... Lo único que ziento ez que ahora te me iráz...</p>
+               <p><seg type="oral">-Ya creí que no vendríaz</seg> -me dijo con su voz cantante-.
+                     <seg type="oral">El zeñor diputado ze hace decear... Tenéz razón... Lo único
+                     que ziento ez que ahora te me iráz...</seg></p>
                <p>-Me iré... Me iré; pero volveré a cada rato. ¡Estamos tan cerca de la ciudad!</p>
                <p>Me había echado los brazos al cuello y se empinaba para, en medio de la oscuridad,
                   ver y hacerme ver, en mis ojos y en los suyos, el reflejo de las estrellas que
                   poblaban el cielo, titilantes e innumerables.</p>
-               <p>-¿Vendráz a menudo? -preguntó mimosa.</p>
+               <p>-<seg type="oral">¿Vendráz a menudo?</seg> -preguntó mimosa.</p>
                <p>-Cuantas veces pueda.</p>
-               <p>-¡Sí! Ez precizo que vengaz -y recalcó exageradamente el «es preciso»-. No zé
-                  todavía... Pero me parece que tengo que decirte... una coza...</p>
+               <p>-<seg type="oral">¡Sí! Ez precizo que vengaz</seg> -y recalcó exageradamente el
+                  «es preciso»-. <seg type="oral">No zé todavía... Pero me parece que tengo que
+                     decirte... una coza...</seg></p>
                <p>Me dio un calofrío, tanto temor y tanta alegría vibraban a la vez en sus palabras.
                   ¿Sería?</p>
                <p>Pero la insólita entrevista no se prolongó, ni era posible que se prolongara,
@@ -2863,7 +2910,7 @@
                   del éxito, en busca de mis primeras aventuras bonaerenses. Las puertas del mundo
                   oficial y las de muchos salones provincianos, abriéronse de par en par ante mí.
                   Visité a varios miembros notables de mi familia, que ni siquiera tenían noticia de
-                  mí, pero que me recibieron deferentemente, poniéndose a mi disposición y dando por
+                  mí, pero que me recibieron diferentemente, poniéndose a mi disposición y dando por
                   cumplidos todos sus deberes con esta manifestación de cortesía.</p>
                <p>Buenos Aires estaba, desgraciadamente, muy agitado. Respirábase allí una atmósfera
                   candente, anuncio de una tempestad. Los ciudadanos se adiestraban en el uso de las
@@ -3395,12 +3442,13 @@
                   con las mayores comodidades que entonces podían conseguirse en provincia. Hice
                   también arreglar un pequeño jardín que, con sus cuatro higueras, sus seis perales
                   y su grupo de «albarillos», extendiéndose detrás de las habitaciones, iba a dar a
-                  otra calle, más solitaria aún que la primera. Tenía así casa y garçoniere al
-                  propio tiempo, y como jefe dirigente de todo aquello puse a mi antiguo compinche
-                  Marto Contreras, el hijo de mi amigo el mayoral de la diligencia de Los Sunchos,
-                  que -aspirando a la dignidad de «vigilante», como a un bastón de mariscal- me
-                  había pedido muchas veces que lo llevara a la ciudad, y hombre en quien podía
-                  confiar tan ciegamente como Camino en su asistente Cruz.</p>
+                  otra calle, más solitaria aún que la primera. Tenía así casa y <seg type="foreign"
+                     xml:lang="fr">garçoniere</seg> al propio tiempo, y como jefe dirigente de todo
+                  aquello puse a mi antiguo compinche Marto Contreras, el hijo de mi amigo el
+                  mayoral de la diligencia de Los Sunchos, que -aspirando a la dignidad de
+                  «vigilante», como a un bastón de mariscal- me había pedido muchas veces que lo
+                  llevara a la ciudad, y hombre en quien podía confiar tan ciegamente como Camino en
+                  su asistente Cruz.</p>
                <p>Hecho esto, sintiendo de nuevo la escasez de fondos, resolví pensar seriamente en
                   mis asuntos de interés y darme cuenta exacta del estado de nuestra fortuna.</p>
                <p>Don Higinio había preparado muy hábilmente el negocio de la chacra, obligado punto
@@ -3773,10 +3821,11 @@
                   teorizador, él sostenía que «estudiaba en los hombres y en las cosas,
                   prefiriéndolos a los libros, pero que éstos no deben dejarse de lado, porque son
                   las síntesis de los estudios anteriores y, sobre todo, el más grato de los
-                  entretenimientos». Alguna vez se me ocurrió que me había tomado como anima vilis
-                  para disecarme con sus estudios psicológicos, pero aunque esto fuera, en realidad,
-                  se lo perdonaría con gusto, porque siempre se mostró muy mi amigo. En fin,
-                  recuerdo que aquella noche me espetó este singular discurso:</p>
+                  entretenimientos». Alguna vez se me ocurrió que me había tomado como <seg
+                     type="foreign" xml:lang="la">anima vilis</seg> para disecarme con sus estudios
+                  psicológicos, pero aunque esto fuera, en realidad, se lo perdonaría con gusto,
+                  porque siempre se mostró muy mi amigo. En fin, recuerdo que aquella noche me
+                  espetó este singular discurso:</p>
                <p>-Todos los caminos están abiertos para ti. Eres miembro -cómplice, dirían otros,
                   los de la oposición ciega, que no ven la marcha paulatina de las cosas-, eres
                   miembro de una oligarquía que prepara la gran república democrática de mañana, así
@@ -3922,9 +3971,10 @@
                   muchísimo en la ciudad. Hasta una tertulia del Club del Progreso vino a resultar
                   en mi honor. Tratando de igualarse a Buenos Aires, orgullosa entonces del suyo, no
                   había en el país ciudad, pueblo ni aldea que no tuviese o pensase tener su Club
-                  del Progreso, siquiera en el nombre, y todos estos clubs eran, casi sin excepción,
-                  patrimonio del partido del gobierno, con abstención, generalmente voluntaria, a
-                  veces forzosa, de los opositores.</p>
+                  del Progreso, siquiera en el nombre, y todos estos <seg type="foreign"
+                     xml:lang="en">clubs</seg> eran, casi sin excepción, patrimonio del partido del
+                  gobierno, con abstención, generalmente voluntaria, a veces forzosa, de los
+                  opositores.</p>
                <p>En la tertulia, que era una de tantas, pero de la que fui héroe único, gracias a
                   mi renuevo de gloria, bailé varias veces con María Blanco, la novia de Vázquez.
                   Éste, que a fuerza de padrino primerizo estaba encantado con el duelo, como con la
@@ -3984,22 +4034,23 @@
                   autorización del gobernador Benavides, dejando así bien demarcada mi acción en
                   este asunto, que Vázquez creyó siempre debido a mi iniciativa. Pero en la
                   Legislatura no le aguardaba el papel que él se había soñado gracias a mis
-                  sugestiones. Lejos de ser el leader de la Cámara, nadie le hacía caso o poco
-                  menos. No estaba la provincia para principismos, doctrinarismos ni teorías sacadas
-                  de los librotes. Allí se debía gobernar y legislar «a lo que te criaste», sin
-                  meterse en novedades ni en honduras. Sus proyectos pasaban, pues, a comisión, para
-                  dormir el sueño de los justos, pese a sus reclamaciones, y en cuanto pronunciaba
-                  un discurso algo avanzado, poco faltaba para que lo acusaran de traidor al
-                  partido, y, por consiguiente, a la patria, y para que le hicieran una zancadilla
-                  que lo echara a rodar fuera de la Legislatura. Hasta le enrostraron su elección,
-                  hecha entre gallos y media noche, ellos que también eran representantes del pueblo
-                  por arte de encantamiento, diciéndole, no sin razón, que aquello no estaba muy de
-                  acuerdo con su principismo. Pero intervine yo, y a ruego mío, el Gobernador,
-                  considerando ambos que es más prudente dejar tranquilo al león que duerme, y que
-                  Vázquez, en defensa propia, podía causarnos mucho daño, aunque cayera al fin. No
-                  hice esto, debo decirlo, por generosidad de alma, sino porque realmente lo creía
-                  de buena política. Aunque me convenía que conservara un puesto que yo podía
-                  considerar feudo mío y reclamarle en un momento dado -sin temor de que se negase a
+                  sugestiones. Lejos de ser el <seg type="foreign" xml:lang="en">leader</seg> de la
+                  Cámara, nadie le hacía caso o poco menos. No estaba la provincia para
+                  principismos, doctrinarismos ni teorías sacadas de los librotes. Allí se debía
+                  gobernar y legislar «a lo que te criaste», sin meterse en novedades ni en
+                  honduras. Sus proyectos pasaban, pues, a comisión, para dormir el sueño de los
+                  justos, pese a sus reclamaciones, y en cuanto pronunciaba un discurso algo
+                  avanzado, poco faltaba para que lo acusaran de traidor al partido, y, por
+                  consiguiente, a la patria, y para que le hicieran una zancadilla que lo echara a
+                  rodar fuera de la Legislatura. Hasta le enrostraron su elección, hecha entre
+                  gallos y media noche, ellos que también eran representantes del pueblo por arte de
+                  encantamiento, diciéndole, no sin razón, que aquello no estaba muy de acuerdo con
+                  su principismo. Pero intervine yo, y a ruego mío, el Gobernador, considerando
+                  ambos que es más prudente dejar tranquilo al león que duerme, y que Vázquez, en
+                  defensa propia, podía causarnos mucho daño, aunque cayera al fin. No hice esto,
+                  debo decirlo, por generosidad de alma, sino porque realmente lo creía de buena
+                  política. Aunque me convenía que conservara un puesto que yo podía considerar
+                  feudo mío y reclamarle en un momento dado -sin temor de que se negase a
                   restituírmelo-, no me preocupaba mucho, sin embargo, de sostener a Vázquez; por el
                   contrario, y desde que conocía a María Blanco, sentí contra él y como por instinto
                   una especie de inquina, que me obligaba a hablar desdeñosamente de sus méritos, de
@@ -4114,14 +4165,15 @@
                   resulta una profesión, cuando es una función general, casi diría obligatoria, de
                   todos los ciudadanos...</p>
                <p>-¿Sólo en éstos? ¡No embromés!</p>
-               <p>La voz de Vázquez fue, como es natural, la clamantis in deserto. Nadie le hizo
-                  caso, y Camino tuvo sus dos proclamaciones en medio de un entusiasmo popular que
-                  preparamos por todos los medios a nuestro alcance. Pero el candidato a la
-                  reelección no tardó en saber que Vázquez le había hecho fuego, cosa que no le
-                  perdonaría nunca. No. No fui yo quien se lo dijo, no fui yo el indiscreto ni el
-                  mal intencionado. Vázquez no me molestaba mucho en la Legislatura, y aunque
-                  hubiera querido malquistarlo, no hubiera ido con el chisme, sabiendo que otros lo
-                  harían, por adulonería, por espíritu de intriga o por maldad.</p>
+               <p>La voz de Vázquez fue, como es natural, la <seg type="foreign" xml:lang="la"
+                     >clamantis in deserto</seg>. Nadie le hizo caso, y Camino tuvo sus dos
+                  proclamaciones en medio de un entusiasmo popular que preparamos por todos los
+                  medios a nuestro alcance. Pero el candidato a la reelección no tardó en saber que
+                  Vázquez le había hecho fuego, cosa que no le perdonaría nunca. No. No fui yo quien
+                  se lo dijo, no fui yo el indiscreto ni el mal intencionado. Vázquez no me
+                  molestaba mucho en la Legislatura, y aunque hubiera querido malquistarlo, no
+                  hubiera ido con el chisme, sabiendo que otros lo harían, por adulonería, por
+                  espíritu de intriga o por maldad.</p>
                <p>Casi al propio tiempo se proclamó en una provincia lejana y con el apoyo
                   gubernativo la candidatura presidencial, que desde allí fue comunicándose a todas
                   partes, siempre en las mismas condiciones, «como un reguero de pólvora», según
@@ -4334,11 +4386,11 @@
                   Vázquez!</p>
                <p>Éste agregaba al contármelo:</p>
                <p>-Yo sabía que su caída era inevitable. Lo más que podía conseguir Camino era caer
-                  «en beauté», como dicen los franceses, «lindo», como decimos nosotros. Pero ahora
-                  nadie se preocupa de la belleza, y «un día de vida es vida», proclaman los
-                  paisanos. Por veinticuatro horas más de gobierno hay muchos que arrostrarían el
-                  ridículo y la vergüenza, sin ver que éstos los aguardan de todos modos, borrachos
-                  de mando como están.</p>
+                     <seg type="foreign" xml:lang="fr">«en beauté»</seg>, como dicen los franceses,
+                  «lindo», como decimos nosotros. Pero ahora nadie se preocupa de la belleza, y «un
+                  día de vida es vida», proclaman los paisanos. Por veinticuatro horas más de
+                  gobierno hay muchos que arrostrarían el ridículo y la vergüenza, sin ver que éstos
+                  los aguardan de todos modos, borrachos de mando como están.</p>
                <p>Palabras proféticas que luego pudieron aplicarse a más de un Presidente de la
                   República. Los niños y los locos dicen las verdades...</p>
             </div>
@@ -4754,17 +4806,17 @@
                   político, y más aún porque mi puesto de jefe de policía me daba nociones de la
                   vida -exageradas por lo unilaterales- que no ha escrito el más negro de los
                   pesimistas, que no han expresado ni aun en la redacción de los diarios más
-                  chismógrafos. El mejor informado de los repórteres no sabe, en cuanto a la vida
-                  privada de los habitantes de una ciudad grande o pequeña, ni lo que sabe el más
-                  ínfimo de los policías, y si quisiera novelas o escándalos no tendría más que
-                  pasar por ese cedazo, o, mejor dicho, tenerlo en la mano. Se echan pestes contra
-                  la policía, pero si ella hablara se acabaría sencillamente la sociedad, minada en
-                  sus cimientos, o por lo menos en la parte convencional de sus cimientos, que no es
-                  la menos importante. Pero, como educación moral, esta escuela de la policía es,
-                  como ya dije, excesiva, porque sólo pone de relieve la parte mala, baja y
-                  despreciable de la humanidad, invitando a creer que toda ella es así, sin
-                  excepciones, o casi... No se extrañe, pues, que no pudiera tener confianza en una
-                  mujer, por pura y altiva que pareciese.</p>
+                  chismógrafos. El mejor informado de los <seg type="foreign" xml:lang="en"
+                     >repórteres</seg> no sabe, en cuanto a la vida privada de los habitantes de una
+                  ciudad grande o pequeña, ni lo que sabe el más ínfimo de los policías, y si
+                  quisiera novelas o escándalos no tendría más que pasar por ese cedazo, o, mejor
+                  dicho, tenerlo en la mano. Se echan pestes contra la policía, pero si ella hablara
+                  se acabaría sencillamente la sociedad, minada en sus cimientos, o por lo menos en
+                  la parte convencional de sus cimientos, que no es la menos importante. Pero, como
+                  educación moral, esta escuela de la policía es, como ya dije, excesiva, porque
+                  sólo pone de relieve la parte mala, baja y despreciable de la humanidad, invitando
+                  a creer que toda ella es así, sin excepciones, o casi... No se extrañe, pues, que
+                  no pudiera tener confianza en una mujer, por pura y altiva que pareciese.</p>
                <p>Sin embargo, María había lastimado hondamente mi amor propio. Lo comprendí al
                   encontrarme aquella misma tarde de manos a boca con Vázquez, quien se acercó a
                   saludarme, afectuoso, aunque con el velo de tristeza que ya no lo abandonaba
@@ -4833,20 +4885,21 @@
                   cazador sino cazando.</p>
                <p>Ya en aquel entonces, en esos lejanos años juveniles, tenía todas estas
                   cualidades, como habrá podido verse, e iba adquiriendo gran conocimiento del mundo
-                  un tanto especial en que actuaba, inspirador de una filosofía sui generis,
-                  empíricamente materialista -pese a mi confesión cuando el duelo-, y en cierto modo
-                  antisténica, lo que me permitía pasar por algunos detalles que a otros quizá les
-                  hubieran parecido molestos, si no indecorosos. Pero no se exagere el alcance de
-                  esta otra confesión. Me refiero, sencillamente, a casos como el que, por ejemplo,
-                  me presentó el gobernador Correa... Nadie imaginará lo que le ocurrió a este buen
-                  señor, embriagado, sin duda, por el mando. Lo daría en mil. Pues simplemente quiso
-                  seguir las huellas de su digno antecesor, sin arredrarse ante los resultados, sin
-                  escarmentar en cabeza ajena, y quiso profundizar sus vagas ideas pasionales, él,
-                  que desde los veintidós años, edad en que se casó, conocía únicamente al sexo
-                  femenino por intermedio de misia Carmen, su honesta esposa. ¿Y a quién había de
-                  dirigirse, con su inexperiencia de cincuentón, sus temores de dar que hablar, su
-                  terror pánico a los celos póstumos de su mujer? Una tarde que fui a su despacho me
-                  dijo sonriendo, entre desenvuelto y cortado:</p>
+                  un tanto especial en que actuaba, inspirador de una filosofía <seg type="foreign"
+                     xml:lang="la">sui generis</seg>, empíricamente materialista -pese a mi
+                  confesión cuando el duelo-, y en cierto modo antisténica, lo que me permitía pasar
+                  por algunos detalles que a otros quizá les hubieran parecido molestos, si no
+                  indecorosos. Pero no se exagere el alcance de esta otra confesión. Me refiero,
+                  sencillamente, a casos como el que, por ejemplo, me presentó el gobernador
+                  Correa... Nadie imaginará lo que le ocurrió a este buen señor, embriagado, sin
+                  duda, por el mando. Lo daría en mil. Pues simplemente quiso seguir las huellas de
+                  su digno antecesor, sin arredrarse ante los resultados, sin escarmentar en cabeza
+                  ajena, y quiso profundizar sus vagas ideas pasionales, él, que desde los veintidós
+                  años, edad en que se casó, conocía únicamente al sexo femenino por intermedio de
+                  misia Carmen, su honesta esposa. ¿Y a quién había de dirigirse, con su
+                  inexperiencia de cincuentón, sus temores de dar que hablar, su terror pánico a los
+                  celos póstumos de su mujer? Una tarde que fui a su despacho me dijo sonriendo,
+                  entre desenvuelto y cortado:</p>
                <p>-Corren las mentas de que se divierte, Herrera.</p>
                <p>-¡Eh! Se hace lo que se puede, Gobernador.</p>
                <p>-¡Qué diablo de muchacho! Hace bien de aprovechar, mientras es mozo... Yo también,
@@ -4902,7 +4955,7 @@
                   ser algo romántica, repitiéndome los versos de Campoamor: La tierra está cansada
                   de dar flores; necesita algún año de reposo.</p>
                <p>-¿Tantas ha dado?</p>
-               <p>-Alg... unas...</p>
+               <p>-<seg type="oral">Alg... unas...</seg></p>
                <p>-¿Con Vázquez?</p>
                <p>Se separó violentamente, como si la hubiese herido en lo hondo.</p>
                <p>-Las flores son la condición de la primavera. ¿Qué importa dónde, cuándo, ni cómo,
@@ -5698,11 +5751,18 @@
                   acierto y patriotismo desempeña; 2º que las circunstancias anormales por que
                   atraviesa la provincia, teatro de una agitación subversiva, hacen imprescindibles
                   sus servicios:</p>
-               <p>»El gobernador de la provincia, en acuerdo de ministros, decreta:</p>
-               <p>»Art. 1º Acéptase la renuncia indeclinable de don Mauricio Gómez Herrera;</p>
-               <p>»Art. 2º Encárguese al mismo don Mauricio Gómez Herrera del desempeño de las
-                  funciones de jefe de policía de la provincia, mientras duren las presentes
-                  anormales circunstancias.»</p>
+               <floatingText type="other">
+                  <body>
+                     <div>
+                        <p>»El gobernador de la provincia, en acuerdo de ministros, decreta:</p>
+                        <p>»Art. 1º Acéptase la renuncia indeclinable de don Mauricio Gómez
+                           Herrera;</p>
+                        <p>»Art. 2º Encárguese al mismo don Mauricio Gómez Herrera del desempeño de
+                           las funciones de jefe de policía de la provincia, mientras duren las
+                           presentes anormales circunstancias.»</p>
+                     </div>
+                  </body>
+               </floatingText>
                <p>-¿Lo firmará? -pregunté.</p>
                <p>-¡Pues, está claro!</p>
                <p>¡Viva la República! ¡Cualquier día iba yo a dejar que mi elección se hiciera sin
@@ -5908,16 +5968,17 @@
                   mi exterior se refería. Renové, pues, mi guardarropa, abandonando los trajes que
                   en provincia podían dar el tono, pero que en Buenos Aires resultaban lugareños por
                   no sé qué detalles de corte, de color, creo que hasta de olor; comencé a
-                  frecuentar los grandes «restaurants» a la moda, los teatros, los clubs, los
-                  círculos que ya conocía, con el rumbo discreto que siempre acostumbré, y esto me
-                  hizo creer un instante que comenzaba a ser popular. Veíame siempre, en efecto,
-                  rodeado de un círculo de amigos y conocidos que se ensanchaba cada día, y del que
-                  era o del que creía ser eje principal, pues todos me demostraban no sólo
-                  deferencia, sino también hasta admiración. Señuelo de este rebaño habían sido
-                  algunos camaradas, que en mis visitas anteriores se sentaban a mi mesa y me
-                  iniciaban en el conocimiento de los más amables rincones de la capital; pero antes
-                  no eran tan numerosos ni tan permanentes -no me parecieron así, al menos gracias a
-                  lo transitorio de mi estada-, mientras que, en este nuevo período, llegué a
+                  frecuentar los grandes <seg type="foreign" xml:lang="fr">«restaurants»</seg> a la
+                  moda, los teatros, los <seg type="foreign" xml:lang="en">clubs</seg>, los círculos
+                  que ya conocía, con el rumbo discreto que siempre acostumbré, y esto me hizo creer
+                  un instante que comenzaba a ser popular. Veíame siempre, en efecto, rodeado de un
+                  círculo de amigos y conocidos que se ensanchaba cada día, y del que era o del que
+                  creía ser eje principal, pues todos me demostraban no sólo deferencia, sino
+                  también hasta admiración. Señuelo de este rebaño habían sido algunos camaradas,
+                  que en mis visitas anteriores se sentaban a mi mesa y me iniciaban en el
+                  conocimiento de los más amables rincones de la capital; pero antes no eran tan
+                  numerosos ni tan permanentes -no me parecieron así, al menos gracias a lo
+                  transitorio de mi estada-, mientras que, en este nuevo período, llegué a
                   considerarlos innumerables y pesados en demasía, sobre todo cuando saqué cuentas
                   al cabo del segundo mes: me había gastado lo que creía suficiente para medio año,
                   por lo menos. Mis recursos, grandes en provincia, resultaban escasísimos en la
@@ -5990,13 +6051,14 @@
                   seria y arreglada. Llamé a Marto Contreras para que fuese mi hombre de confianza,
                   y completé el servicio con un cocinero y un sirviente que salía de una casa
                   aristocrática, y que halló modo de robarme como un pazguato. Y, ya en mi casa, en
-                  vez de correr cafés y restaurants y «rotisseries», me limité a mis clubs y
-                  círculos, y frecuenté mis relaciones, previo estudio de sus características, y fui
-                  espiritual y escéptico en unas partes, bonachón y creyente en otras, austero aquí,
-                  liberal allá, tolerante acullá, sectario unas veces, despreocupado las más. Y así
-                  logré que se me recibiera con gusto, pero sin entusiasmo, porque mi figura
-                  permanecía indecisa y enigmática, e inspiraba, cuando mucho, una especie de tibia
-                  curiosidad.</p>
+                  vez de correr cafés y <seg type="foreign" xml:lang="fr">restaurants</seg> y <seg
+                     type="foreign" xml:lang="fr">«rotisseries»</seg>, me limité a mis <seg
+                     type="foreign" xml:lang="en">clubs</seg> y círculos, y frecuenté mis
+                  relaciones, previo estudio de sus características, y fui espiritual y escéptico en
+                  unas partes, bonachón y creyente en otras, austero aquí, liberal allá, tolerante
+                  acullá, sectario unas veces, despreocupado las más. Y así logré que se me
+                  recibiera con gusto, pero sin entusiasmo, porque mi figura permanecía indecisa y
+                  enigmática, e inspiraba, cuando mucho, una especie de tibia curiosidad.</p>
                <p>En esto, pasóseme el tiempo y llegaron los primeros días de mayo, el mes de la
                   apertura del Congreso en que iba a estrenarme. Ahorro la crónica de las sesiones
                   preliminares, de las largas guardias en los salones y los pasillos de la vieja
@@ -6071,7 +6133,7 @@
                <p>-¡Está bien, amiguito; así me gusta!</p>
                <p>Un opositor, echándoselas de inglés, murmuró el título de una comedia de
                   Shakespeare:</p>
-               <p>-Much ado abouth nothing.</p>
+               <p>-<seg type="foreign" xml:lang="en">Much ado abouth nothing</seg>.</p>
                <p>Y otro le replicó:</p>
                <p>-Esperemos a que vengan las ideas.</p>
                <p>Raza envidiosa, raza de víboras. ¡Como si ellos tuvieran tantas!</p>
@@ -6261,8 +6323,9 @@
                   otros a la tierra sus rayos cálidos aún, en una iluminación de apoteosis. Bajé a
                   buen paso por las calles que el domingo dejaba desiertas y vibrantes como una caja
                   de resonancia, hasta la vieja y miserable Estación Central, donde iba a tomar el
-                  tren para Los Olivos. Don Estanislao Rozsahegy me había invitado a una
-                  «garden-party» -la última de la estación- en su magnífica quinta.</p>
+                  tren para Los Olivos. Don Estanislao Rozsahegy me había invitado a una <seg
+                     type="foreign" xml:lang="en">«garden-party»</seg> -la última de la estación- en
+                  su magnífica quinta.</p>
                <p>Durante el viaje recapitulé, sacudido por el traqueo del vagón, los preliminares
                   de nuestra naciente amistad. Después de la presentación en el vestíbulo de la
                   Ópera, me había abierto su casa, y suplicado a Ferrando que me llevara una noche,
@@ -6323,8 +6386,8 @@
                   sociedad que frecuentábamos... ni para el resto tampoco. Esta vinculación -sobre
                   la que no insistiré porque es innecesario- bastaba para distraerme y hacerme
                   rehuir o postergar todo otro devaneo, pues, en cuanto a la parte seria de la vida,
-                  no abandonaba por estas consideraciones, galanteos y flirts, mis proyectos
-                  matrimoniales con la buena María.</p>
+                  no abandonaba por estas consideraciones, galanteos y <seg type="foreign"
+                     xml:lang="en">flirts</seg>, mis proyectos matrimoniales con la buena María.</p>
                <p>Llegué, en fin, a Olivos y a la quinta de Rozsahegy, donde, pese al fresco
                   intempestivo del día, numerosas parejas paseaban por los jardines y se divertían
                   animadamente en diversos juegos, al son de una música discreta. Eulalia debía
@@ -6384,7 +6447,7 @@
                <p>Pero apenas bajamos del tren y nos fuimos a comer en el Café de París, entonces en
                   todo su apogeo, olvidé a Eulalia, a los Rozsahegy, y creo que aquella noche sólo
                   conté dos o tres veces la salida de pie de banco de Irma pidiéndome que repitiera
-                  mi discurso en su «garden-party».</p>
+                  mi discurso en su <seg type="foreign" xml:lang="en">«garden-party»</seg>.</p>
                <p>En casa me esperaba una cartita muy lacónica de María Blanco, diciéndome que todos
                   estaban buenos y pidiéndome noticias mías. «Hace un siglo que no escribe, y eso no
                   está bien». ¡Eh!, ya le escribiría cuando tuviera tiempo y algo que decirle, algo
@@ -6489,10 +6552,11 @@
                   pronto cesé hasta en mis invectivas, buscando también el silencio y el olvido.
                   Poco antes, algunos diarios me atacaban, tomándome como pretexto para mesar las
                   barbas del Presidente en persona, y presentándome como su vocero, como su alma
-                  condenada. Esto me afligía y me torturaba, aunque en las calles, en los clubs, en
-                  el Congreso y en el teatro me diera aires de Matamoros, y... al buen callar llaman
-                  Sancho. El grande hombre de Los Sunchos, el árbitro de la capital provinciana,
-                  era, cada vez más, uno de tantos en la capital de la República...</p>
+                  condenada. Esto me afligía y me torturaba, aunque en las calles, en los <seg
+                     type="foreign" xml:lang="en">clubs</seg>, en el Congreso y en el teatro me
+                  diera aires de Matamoros, y... al buen callar llaman Sancho. El grande hombre de
+                  Los Sunchos, el árbitro de la capital provinciana, era, cada vez más, uno de
+                  tantos en la capital de la República...</p>
                <p>Coen, el banquero, cuya mujer me hacía ojitos en casa de Rozsahegy, y con quien
                   había hecho varias jugadas de Bolsa, me dijo un día:</p>
                <p>-Yo le aconsejaría, don Mauricio, que realizara. Usted tiene algunos negocios,
@@ -6527,8 +6591,9 @@
                <p>Nos fuimos a comer juntos sin hablar más de la cuestión, aunque ambos siguiéramos
                   pensando en ella. Alguien que comía en el mismo Café de París, con otros amigos,
                   un comprovinciano muy al corriente de todos los chismes de nuestra ciudad, me
-                  mandó con el maître d'hotel un diario de mi provincia, al margen del cual había
-                  escrito con lápiz: «Hay noticias interesantes para usted».</p>
+                  mandó con el <seg type="foreign" xml:lang="fr">maître d'hotel</seg> un diario de
+                  mi provincia, al margen del cual había escrito con lápiz: «Hay noticias
+                  interesantes para usted».</p>
                <p>Busqué la noticia interesante, y fuera de la habitual palabrería política no
                   encontré nada. Miré al comprovinciano, mostrándole el periódico y encogiéndome de
                   hombros, para indicarle que aquello me importaba un bledo. Él sonrió, me hizo con
@@ -6569,13 +6634,15 @@
                   ínfulas de influyente; el banquero Coen, con su mujer, rubia, miope y tierna,
                   figulina de Sajonia medio resquebrajada ya pero siempre de colores chillones y
                   como infantiles, que me hacía una corte asidua e incondicional; una señorita
-                  extranjera, con aires de demoiselle de compagnie en reemplazo de su señora; un
-                  sabio europeo venido a estudiar no sé qué epizootia y a llevarse no sé cuántos
-                  pesos; el dueño de la casa, don Estanislao Rozsahegy, su esposa Irma, con su
-                  idioma tan semejante al alemán como al castellano, y la linda Eulalia, que reunía
-                  en torno suyo a los dos elegantes, la muñequita de porcelana barnizada y la
-                  demoiselle de compagnie, mientras que el gran Rozsahegy acaparaba al político, al
-                  banquero y a la germano-criolla, es decir, la parte más seria de la sociedad.</p>
+                  extranjera, con aires de <seg type="foreign" xml:lang="fr">demoiselle de
+                     compagnie</seg> en reemplazo de su señora; un sabio europeo venido a estudiar
+                  no sé qué epizootia y a llevarse no sé cuántos pesos; el dueño de la casa, don
+                  Estanislao Rozsahegy, su esposa Irma, con su idioma tan semejante al alemán como
+                  al castellano, y la linda Eulalia, que reunía en torno suyo a los dos elegantes,
+                  la muñequita de porcelana barnizada y la <seg type="foreign" xml:lang="fr"
+                     >demoiselle de compagnie</seg>, mientras que el gran Rozsahegy acaparaba al
+                  político, al banquero y a la germano-criolla, es decir, la parte más seria de la
+                  sociedad.</p>
                <p>-¡Por fin sale usted del bosque! -exclamó Eulalia con la libertad de ideas de las
                   niñas «de sociedad», acudiendo presurosa a recibirme, con gran disgusto de los dos
                   gomosos.</p>
@@ -6748,20 +6815,23 @@
                   lo había pensado, lo esperaba, pero aún le parecía imposible. Me echó las enormes
                   y velludas manos sobre los hombros, me atrajo hacia sí como si intentara besarme
                   en la boca, y tartamudeó, olvidado del castellano por la emoción:</p>
-               <p>-¡Donner! ¡Donner! ¡Qué bueno! Yo a mi mujier diciendo... ¡Irma! ¡Irma!... ¡Kommen
-                  Sie!</p>
+               <p>-<seg type="foreign" xml:lang="de">¡Donner! ¡Donner!</seg> ¡Qué bueno! Yo a mi
+                  mujier diciendo... ¡Irma! ¡Irma!... <seg type="foreign" xml:lang="de">¡Kommen
+                     Sie!</seg></p>
                <p>Se había asomado a la puerta que da al vestíbulo, y gritaba. La voz de la dama que
                   acudía corriendo, contestó desde el salón:</p>
-               <p>-Was ist los?</p>
+               <p>-<seg type="foreign" xml:lang="de">Was ist los</seg>?</p>
                <p>No había acabado de entrar en el bufete, cuando ya don Estanislao casi la alzaba
                   en sus cortos y forzudos brazos, gritando:</p>
                <p>-¡Todo hecho! Herrera quiere casar con Eulalia.</p>
-               <p>-¿Y «echa» qui dice? -murmuró la pobre mujer, como alelada.</p>
+               <p>-<seg type="oral">¿Y «echa» qui dice?</seg> -murmuró la pobre mujer, como
+                  alelada.</p>
                <p>-Hay que preguntárselo, señora -dije, sonriendo, a pesar de la gravedad interna de
                   la situación.</p>
                <p>Y nuevos gritos:</p>
-               <p>-¡Eulalia! ¡Eulalia! Schnell! Schnell! Apresúrate -como si se tratara de un sueño
-                  que pudiera desvanecerse de un momento a otro.</p>
+               <p>-¡Eulalia! ¡Eulalia! <seg type="foreign" xml:lang="de">Schnell! Schnell!</seg>
+                  Apresúrate -como si se tratara de un sueño que pudiera desvanecerse de un momento
+                  a otro.</p>
                <p>Eulalia apareció, muy colorada, sabiendo lo que se le iba a preguntar. Pero no
                   vaciló y dio su respuesta en firme:</p>
                <p>-¡Sí!</p>
@@ -6850,9 +6920,10 @@
                <p>En suma, cuando brindamos, eran ya las doce de la noche, porque el menú había sido
                   desbordante. Una taza de café o de té, enormes cigarros habanos, licores, más
                   champaña para los que lo deseaban -Coen, el político influyente, Ferrando, el otro
-                  highlife, varios jovenzuelos-; bombones para las niñas; monadas de madama Coen,
-                  dirigidas ya abiertamente a Ferrando, con abandono de mi humilde persona; una o
-                  dos frases pseudoamables, pero bien perversas, de la demoiselle de compagnie,
+                     <seg type="foreign" xml:lang="en">highlife</seg>, varios jovenzuelos-; bombones
+                  para las niñas; monadas de madama Coen, dirigidas ya abiertamente a Ferrando, con
+                  abandono de mi humilde persona; una o dos frases pseudoamables, pero bien
+                  perversas, de la <seg type="foreign" xml:lang="fr">demoiselle de compagnie</seg>,
                   sobre la demoníaca maldad de los hombres y lo inane de las riquezas; lagrimitas de
                   mamá Irma; rubores y balbuceos de Eulalia; risotadas jubilosas de Rozsahegy;
                   cálculos tele-futuros de Coen -vidente de lo que yo podría hacer con mi nombre y
@@ -6861,22 +6932,25 @@
                   club y las tertulias medianochescas de Matilde y la Calandraca, puntos de reunión
                   de aquel tiempo de lo más granado de la sociedad oficial, militares y paisanos;
                   continuos paseos de los sirvientes de librea, ofreciendo vinos, refrescos,
-                  helados, sandwichs y bombones a los comensales de un patrón que fue quizá su
-                  camarada; un poco de música, unas vueltas de vals...</p>
-               <p>Se marcharon, al fin, todos aparentemente contentos; excepto la demoiselle de
-                  compagnie, más que nunca deseosa de ser actriz y no espectadora; los elegantes que
-                  hacían el inventario de la fortuna de Rozsahegy; el político sin prestigio que
-                  hubiera dado generosamente esta negación a cambio de los millones rozsaheguianos;
-                  la mujer de Coen, que había debido cambiar el programa y postergar la data de sus
-                  deseados estudios psicológicos; algunos otros... y nadie más, porque ya el resto
-                  era de la «familia», salvo Coen, quien, al fin y al cabo, «sabía» que «sabía»
-                  sacar provecho de todas las circunstancias.</p>
-               <p>El tête a tête con Eulalia, que siguió a la fiesta fue encantador, pero corto.
-                  Aquella virgen de Andrea del Sarto me arrebataba, y hasta me hacía olvidar, en
-                  esos minutos, que al pedir su mano sólo había obedecido a un rapto de despecho, a
-                  un impulso de orgullo satánico. Estaba enamorada de mí, y nada embriaga tanto a un
-                  hombre como verse querido incondicionalmente. Es como si tomara a grandes copas el
-                  más capitoso de los licores. ¡Ah, si María!...</p>
+                  helados, <seg type="foreign" xml:lang="en">sandwichs</seg> y bombones a los
+                  comensales de un patrón que fue quizá su camarada; un poco de música, unas vueltas
+                  de vals...</p>
+               <p>Se marcharon, al fin, todos aparentemente contentos; excepto la <seg
+                     type="foreign" xml:lang="fr">demoiselle de compagnie</seg>, más que nunca
+                  deseosa de ser actriz y no espectadora; los elegantes que hacían el inventario de
+                  la fortuna de Rozsahegy; el político sin prestigio que hubiera dado generosamente
+                  esta negación a cambio de los millones rozsaheguianos; la mujer de Coen, que había
+                  debido cambiar el programa y postergar la data de sus deseados estudios
+                  psicológicos; algunos otros... y nadie más, porque ya el resto era de la
+                  «familia», salvo Coen, quien, al fin y al cabo, «sabía» que «sabía» sacar provecho
+                  de todas las circunstancias.</p>
+               <p>El <seg type="foreign" xml:lang="fr">tête a tête</seg> con Eulalia, que siguió a
+                  la fiesta fue encantador, pero corto. Aquella virgen de Andrea del Sarto me
+                  arrebataba, y hasta me hacía olvidar, en esos minutos, que al pedir su mano sólo
+                  había obedecido a un rapto de despecho, a un impulso de orgullo satánico. Estaba
+                  enamorada de mí, y nada embriaga tanto a un hombre como verse querido
+                  incondicionalmente. Es como si tomara a grandes copas el más capitoso de los
+                  licores. ¡Ah, si María!...</p>
                <p>-¿Cuándo piensa usted casarse? -me preguntó Rozsahegy, acercándose.</p>
                <p>-Lo más pronto posible, don Estanislao.</p>
                <p>-También a mí me gusta. Eulalia es rica, más rica que usted (no lo digo por mal),
@@ -6927,14 +7001,16 @@
                   llevas de la mano hacia todos los triunfos y todas las cumbres a los elegidos de
                   tu capricho!... ¡Y la venganza!...</p>
                <p>Sin embargo, la mañana siguiente me trajo un rato de malhumor. Eran las once,
-                  cuando mi valet de pied se atrevió a despertarme con una serie de discretos
-                  golpecitos a la puerta de mi dormitorio.</p>
+                  cuando mi <seg type="foreign" xml:lang="fr">valet de pied</seg> se atrevió a
+                  despertarme con una serie de discretos golpecitos a la puerta de mi
+                  dormitorio.</p>
                <p>-Una señora espera en la sala...</p>
                <p>-¡Imbécil! ¿No te he mandado que me dejaras dormir?</p>
                <p>-Son las once, señor, y don Marto me ha dicho que podía despertarlo.</p>
                <p>-¡Ah, bueno! ¿Quién es?</p>
                <p>-Una señora. No ha dicho su nombre.</p>
-               <p>¡Tantas señoras!... ¿Un sablazo matutino? ¡Bah! Noblesse oblige.</p>
+               <p>¡Tantas señoras!... ¿Un sablazo matutino? ¡Bah! <seg type="foreign" xml:lang="fr"
+                     >Noblesse oblige</seg>.</p>
                <p>Sobre el pijama me puse la robe de chambre, y me dirigí serenamente a la sala,
                   seguro de que el sablazo más feroz no podría interesar sino la superficie de mi
                   coraza, reforzada por Rozsahegy.</p>
@@ -7004,12 +7080,12 @@
                   infeliz criatura?... ¿Nada?... ¿Nada?...</p>
                <p>Me quedé silencioso, aterrado. Ella calló, también, medio minuto, impávida,
                   mirándome con sus olímpicos ojos de ternura.</p>
-               <p>-Esto no es una tentativa de chantage, Mauricio, ni un arrebato de sentimentalismo
-                  malsano. Lo vengo pensando hace mucho, y creyéndolo mi estricto deber y recordando
-                  sus promesas, he querido, por primera y última vez, ponerlo frente a frente a su
-                  deber, al suyo, sin imponerle que lo cumpla. Puedo hacerlo ahora, mientras es
-                  todavía tiempo, mientras el niño no entre de lleno en la vida... pero ni reclamo
-                  ni impongo nada...</p>
+               <p>-Esto no es una tentativa de <seg type="foreign" xml:lang="fr">chantage</seg>,
+                  Mauricio, ni un arrebato de sentimentalismo malsano. Lo vengo pensando hace mucho,
+                  y creyéndolo mi estricto deber y recordando sus promesas, he querido, por primera
+                  y última vez, ponerlo frente a frente a su deber, al suyo, sin imponerle que lo
+                  cumpla. Puedo hacerlo ahora, mientras es todavía tiempo, mientras el niño no entre
+                  de lleno en la vida... pero ni reclamo ni impongo nada...</p>
                <p>-No sé cómo... -murmuré, dándome aires de irritación.</p>
                <p>-¿Es cierto, entonces, el rumor que ha llegado a mis oídos? ¿Se casa usted con
                   María Blanco?</p>
@@ -7243,7 +7319,8 @@
                   como la que se experimenta ante un cuadro bien compuesto, en que nada choca. En
                   ella era, también, instintivo, y fue desarrollándose con la edad. Los grandes
                   vestidos de nuestros Worms o nuestros Paquins bonaerenses, quedaron, pues, para
-                  las noches de Ópera y las soirées extraordinarias.</p>
+                  las noches de Ópera y las <seg type="foreign" xml:lang="fr">soirées</seg>
+                  extraordinarias.</p>
                <p>En nuestras charlas interminables, mientras paseábamos lentamente por la arena de
                   Ramírez y los Pocitos o a lo largo del puerto, viendo la ciudad tendida en
                   anfiteatro, el pequeño Cerro con su fortaleza que parece un juguete de cartón, la
@@ -7271,10 +7348,10 @@
                <p>Mes y medio delicioso pasamos en aquella ciudad encantadora, en que apenas
                   conocíamos unas cuantas personas que nos dejaban discretamente la más amplia
                   libertad. Al cabo de este tiempo, comencé a encontrar algo monótono nuestro
-                  continuo tête a tête, y a echar de menos el movimiento y la acción de Buenos
-                  Aires. Leí cartas, y me dije que el momento era llegado de reanudar la vida
-                  activa, porque todas las noticias venían a alarmarme. Eulalia intentó una ligera
-                  oposición:</p>
+                  continuo <seg type="foreign" xml:lang="fr">tête a tête</seg>, y a echar de menos
+                  el movimiento y la acción de Buenos Aires. Leí cartas, y me dije que el momento
+                  era llegado de reanudar la vida activa, porque todas las noticias venían a
+                  alarmarme. Eulalia intentó una ligera oposición:</p>
                <p>-¡Estamos tan bien aquí! Tiempo tendrás de dedicarte a los otros. Ahora te quiero
                   todo mío, segura de que me descuidarás en cuanto estemos en Buenos Aires.</p>
                <p>Pero se convenció de que era preciso regresar en cuanto le describí la situación
@@ -7302,7 +7379,8 @@
                   usted-, no te lo diría, pero... ahí está... Es bueno que te des cuenta de las
                   cosas antes que los demás. ¡Para algo soy tu suegro, tu suegro Rozsahegy!...</p>
                <p>Y después de una pausa, agregó:</p>
-               <p>-Hay que andar con mucho «oco». Un derrepente, ¡cataplum!</p>
+               <p>-Hay que andar con mucho <seg type="oral">«oco»</seg>. Un derrepente, <seg
+                     type="oral">¡cataplum!</seg></p>
                <p>No dejaron de alarmarme estos informes, pero me alarmó mucho más todavía la
                   observación de que la política del Presidente no satisfacía al mismo partido que
                   lo elevara al poder, y de que algunos de sus miembros más conspicuos se retiraban
@@ -7638,13 +7716,14 @@
                   escritos en el agua; se imprimía papel moneda como se imprime una novela popular,
                   en rotativa; se descontaba con el desprendimiento del calavera ebrio, que siembra
                   su peculio en medio de la calle; en la Bolsa se jugaba como en una timba, con el
-                  bluf y todo sobre palabra, casi exclusivamente para cobrar y pagar diferencias; a
-                  la propiedad raíz se había dado un valor ficticio, pues nunca produciría la renta
-                  que el capital representaba; el comercio nacional quedaba deudor en un tercio por
-                  lo menos del comercio extranjero, porque nuestra producción no estaba a la altura
-                  de nuestras ilusiones; todo el mundo robaba o estafaba al país, con cuentas
-                  corrientes ilimitadas, préstamos hipotecarios hechos sobre propiedades que no
-                  existían, descuentos concedidos a testaferros sin responsabilidad...</p>
+                     <seg type="foreign" xml:lang="en">bluf</seg> y todo sobre palabra, casi
+                  exclusivamente para cobrar y pagar diferencias; a la propiedad raíz se había dado
+                  un valor ficticio, pues nunca produciría la renta que el capital representaba; el
+                  comercio nacional quedaba deudor en un tercio por lo menos del comercio
+                  extranjero, porque nuestra producción no estaba a la altura de nuestras ilusiones;
+                  todo el mundo robaba o estafaba al país, con cuentas corrientes ilimitadas,
+                  préstamos hipotecarios hechos sobre propiedades que no existían, descuentos
+                  concedidos a testaferros sin responsabilidad...</p>
                <p>-Es como si en tu casa, incomodado ya por los acreedores, siguieras tomando
                   «fiado» donde te dejaran... ¡Vas a ver lo que pasa después!</p>
                <p>-¿Usted cree, entonces, que esto no tiene remedio?</p>
@@ -7664,7 +7743,7 @@
                <p>-¡Eh! Sí. Cuando uno se queda con cincuenta centavos para comer... Pero aquí no
                   nos quedamos con nada...</p>
                <p>-Usted cree entonces que la revolución...</p>
-               <p>- ¡Pshit!</p>
+               <p>- <seg type="oral">¡Pshit</seg>!</p>
                <p>Irma se precipitaba, más que acercaba, hacia mí, para increparme:</p>
                <p>-La muchacha está triste, ¿qué tiene?</p>
                <p>-Yo no sé, señora...</p>
@@ -7676,10 +7755,10 @@
                <p>-¿Y entonces?</p>
                <p>Me levanté, tomé el sombrero, y encarándome con don Estanislao.</p>
                <p>-Hablaremos otra vez -dije-. Hay mucho paño que cortar.</p>
-               <p>-Sí, «hiquito», sí. Yo no puedo hablar, pero... no hagas nada sin consultarme
-                  antes. Sobre todo, no «vendás».</p>
+               <p>-Sí, <seg type="oral">«hiquito»</seg>, sí. Yo no puedo hablar, pero... no hagas
+                  nada sin consultarme antes. Sobre todo, no <seg type="oral">«vendás»</seg>.</p>
                <p>Y en voz más baja:</p>
-               <p>-No «pagués»... hay tiempo.</p>
+               <p>-No <seg type="oral">«pagués»</seg>... hay tiempo.</p>
                <p>El ataque de Irma se explicaba en cierto modo, porque, desde que volvimos a Buenos
                   Aires, arrebatándome el torbellino de la vida, no fui ni podía ser para Eulalia el
                   compañero amable, despreocupado y cariñoso de todas las horas. Un desencanto,
@@ -7739,21 +7818,21 @@
                <p>-¡Para que Los Sunchos tenga toda la importancia que merece! -me contestaron.</p>
                <p>No era una respuesta. Aquellos buenos burgueses querían ser gobernadores,
                   diputados, senadores, etc.; fundar una pequeña aristocracia, en fin, y no ser el
-                  departamento más alejado pero más influyente, el bourg pourri, sino una gran
-                  entidad. ¡Bah! ¡Si ellos supieran dónde van a parar las grandezas de Los Sunchos,
-                  y pudieran leer en mi alma cómo calculo yo mi posición en Buenos Aires!... Pero
-                  tienen razón. Yo en Los Sunchos, dominando patanes, era más feliz que en la
-                  capital tratando de contemporizar con todo el mundo, y sin más éxito que el
-                  obtenido con las mujeres, que no cuantifican el mérito y que magnifican sus
-                  caprichos hasta la sublimidad. Sí; lo diré aunque parezca no venir a pelo: La
-                  mujer, en nuestro país, como en todas partes, es el mejor vocero, el único
-                  propagador de la fama. No se la tiene, muchas veces, en cuenta, pero en mi larga
-                  experiencia de la vida sé que quien la ha descuidado, ha caído necesariamente en
-                  el olvido, y que quien la cultivó, por ínfimo que fuese, ha llegado a las alturas,
-                  porque más tira un pelo de mujer que una yunta de bueyes -como dicen que dijo
-                  Rosas-, y porque, como no envidian a los hombres, ni los desdeñan, tienen para la
-                  mercancía de su agrado recomendaciones entusiastas que no pueden nunca tener los
-                  hombres para sus rivales...</p>
+                  departamento más alejado pero más influyente, el <seg type="foreign" xml:lang="fr"
+                     >bourg pourri</seg>, sino una gran entidad. ¡Bah! ¡Si ellos supieran dónde van
+                  a parar las grandezas de Los Sunchos, y pudieran leer en mi alma cómo calculo yo
+                  mi posición en Buenos Aires!... Pero tienen razón. Yo en Los Sunchos, dominando
+                  patanes, era más feliz que en la capital tratando de contemporizar con todo el
+                  mundo, y sin más éxito que el obtenido con las mujeres, que no cuantifican el
+                  mérito y que magnifican sus caprichos hasta la sublimidad. Sí; lo diré aunque
+                  parezca no venir a pelo: La mujer, en nuestro país, como en todas partes, es el
+                  mejor vocero, el único propagador de la fama. No se la tiene, muchas veces, en
+                  cuenta, pero en mi larga experiencia de la vida sé que quien la ha descuidado, ha
+                  caído necesariamente en el olvido, y que quien la cultivó, por ínfimo que fuese,
+                  ha llegado a las alturas, porque más tira un pelo de mujer que una yunta de bueyes
+                  -como dicen que dijo Rosas-, y porque, como no envidian a los hombres, ni los
+                  desdeñan, tienen para la mercancía de su agrado recomendaciones entusiastas que no
+                  pueden nunca tener los hombres para sus rivales...</p>
                <p>Cuando volví a Buenos Aires, cumplidas las fúnebres ceremonias, reanudé mi vida de
                   agitación.</p>
                <p>Eulalia me hizo algunas observaciones: la descuidaba demasiado. Era cierto, pero
@@ -8084,10 +8163,10 @@
                   modestia franciscana, porque muchos lo habían perdido todo y otros trataban de
                   ocultarlo todo, aquello y la poca renta que me llegaba de Los Sunchos y de la
                   provincia (el sueldecito de marras), me bastaban y aun sobraban para vivir bien,
-                  frecuentar el club, jugar mi amena partida de poker, y hacer nuevas deudas, no muy
-                  graves, dada la modestia de los tiempos. Lo único que solía molestarme (¡oh, en
-                  idea solamente!), era mi compromiso con los Bancos, o, más bien dicho, con el
-                  Banco Provincial.</p>
+                  frecuentar el club, jugar mi amena partida de <seg type="foreign" xml:lang="en"
+                     >poker</seg>, y hacer nuevas deudas, no muy graves, dada la modestia de los
+                  tiempos. Lo único que solía molestarme (¡oh, en idea solamente!), era mi
+                  compromiso con los Bancos, o, más bien dicho, con el Banco Provincial.</p>
                <p>Llegó la hora en que las autoridades se ocuparían de liquidar y de imponer la
                   liquidación.</p>
                <p>Esta vez mi suegro no me llamó, sino que fue a verme.</p>
@@ -8170,7 +8249,7 @@
                   como hay Dios!</p>
                <p>Acababa de pensar esto, cuando me anunciaron una visita, pasándome un pedazo de
                   cartón, ajado y sucio:</p>
-               <floatingText type="card">
+               <floatingText type="other">
                   <body>
                      <div>
                         <ab>MIGUEL DE LA ESPADA</ab>
@@ -8344,7 +8423,8 @@
                   infecto. Creo, también, que el cuento del Banco bastaba y sobraba. Además, se le
                   pagarían sus créditos.</p>
                <p>Llegué tarde a casa a la hora de comer. Cuando tomaba el café, con Eulalia, en el
-                  hall, antes de irme al club, me anunciaron a Vázquez.</p>
+                     <seg type="foreign" xml:lang="en">hall</seg>, antes de irme al club, me
+                  anunciaron a Vázquez.</p>
                <p>-Vienes a tiempo de tomar una taza de café, pero tengo que salir en seguida -le
                   dije, rehuyendo toda explicación delante de mi mujer.</p>
                <p>Pero Pedro estaba demasiado agitado para callarse.</p>
@@ -8404,7 +8484,8 @@
                   triunfantes de situaciones más difíciles y escabrosas.</p>
                <p>-¡Ah, Mauricio! ¡Quiera Dios! ¡En fin! De todos mis amigos y de todos los que me
                   deben servicios, tú eres el único a quien no he acudido en vano...</p>
-               <p>Ya en el hall, y cuando comenzaba a bajar la escalera, le dije:</p>
+               <p>Ya en el <seg type="foreign" xml:lang="en">hall</seg>, y cuando comenzaba a bajar
+                  la escalera, le dije:</p>
                <p>-Pues, para abreviar tu expectativa, yo mismo iré a buscarte el miércoles,
                   llevándote eso...</p>
                <p>-¿Seguro?</p>
@@ -8428,8 +8509,8 @@
                <p>El miércoles me presenté en casa de Vázquez y le di los veinte mil pesos.</p>
                <p>-¡Aun con esto estoy arruinado! -sollozó.</p>
                <p>-No creas. Ve a ver a mi suegro. Yo he hablado con él. Rozsahegy está seguro de
-                  recoger esas malhadadas letras con cinco o diez mil pesos cuando más. Es un
-                  chantage. No tengas escrúpulos.</p>
+                  recoger esas malhadadas letras con cinco o diez mil pesos cuando más. Es un <seg
+                     type="foreign" xml:lang="fr">chantage</seg>. No tengas escrúpulos.</p>
                <p>-No lo haré. Me importa poco. Me voy al campo a trabajar. Es lo que me aconseja
                   María.</p>
                <p>¡María! Sentí de pronto el áspero deseo de verla, de hablar con ella, y prolongué
@@ -8495,7 +8576,7 @@
                   camaradas hubiera entrado en mayores detalles, no hubiera visto las cosas a bulto,
                   hubiera cometido menos errores. Vean ustedes: aquí tengo el recorte, con su título
                   y todo:</p>
-               <floatingText type="article">
+               <floatingText type="other">
                   <body>
                      <div>
                         <p>DIVERTIDAS AVENTURAS DEL NIETO DE JUAN MOREIRA</p>
@@ -8529,7 +8610,7 @@
                <p>Y seguía una larga serie de anécdotas, casi todas falsas -entre ellas el
                   'envenenamiento' de Camino-, pero tras de cuyas líneas se transparentaba
                   claramente mi persona, para terminar diciendo:</p>
-               <floatingText type="article">
+               <floatingText type="other">
                   <body>
                      <div>
                         <p>»El que esto escribe no quiere mal al nieto de Juan Moreira, ni a don
@@ -8602,14 +8683,15 @@
                   Moreira!...</p>
                <p>Él estaba cortado, esperando un acontecimiento que no sabía adivinar, ni siquiera
                   sospechar.</p>
-               <p>-Tome un poco de vermouth.</p>
+               <p>-Tome un poco de <seg type="foreign" xml:lang="en">vermouth</seg>.</p>
                <p>-Bien.</p>
                <p>-Mis compañeros me esperan para comer -agregó-. Desearía saber qué me vale este
                   honor...</p>
                <p>-He leído su artículo de El Chispero. Es notable, como vigor, pero me parece
                   exagerado. Usted hará camino en el periodismo, y tengo razones para darle un
                   consejo...</p>
-               <p>-¿Ah? -murmuró bebiendo un sorbo de vermouth.</p>
+               <p>-¿Ah? -murmuró bebiendo un sorbo de <seg type="foreign" xml:lang="en"
+                     >vermouth</seg>.</p>
                <p>-Es preciso que usted conozca más a fondo a las personas que ataca, y que no se
                   haga un daño irreparable por impremeditación juvenil.</p>
                <p>-Señor -me dijo, incorporándose, como para marcharse-, no pido, por el momento,
