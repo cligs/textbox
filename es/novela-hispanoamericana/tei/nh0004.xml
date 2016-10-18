@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -7,7 +7,7 @@
             <title type="main">El falso Inca</title>
             <title type="short">Inca</title>
             <title type="idno">
-               <idno type="viaf"></idno>
+               <idno type="viaf">-</idno>
             </title>
             <author>
                <name type="full">Roberto Payró</name>
@@ -17,27 +17,52 @@
             <principal xml:id="uh">Ulrike Henny</principal>
          </titleStmt>
          <publicationStmt>
-            <publisher>CLiGS</publisher>
-            <availability status="publicdomain">
-               <p/>
+            <publisher>
+               <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
             </availability>
-            <date>2015</date>
+            <date>2016</date>
             <idno type="cligs">nh0004</idno>
+            <idno type="url"
+               >https://raw.githubusercontent.com/cligs/textbox/master/es/novela-hispanoamericana/tei/nh0004.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">Wikisource <date>2009</date>. <ref target="https://es.wikisource.org/wiki/El_falso_Inca"/></bibl>
-            <bibl type="print-source">Buenos Aires: Compañía sud-americana de billetes de banco <date>1905</date>.</bibl>
+            <bibl type="digital-source">"El falso Inca." <seg rend="italic">Wikisource</seg>, <date
+                  when="2009">2009</date>, <ref
+                  target="https://es.wikisource.org/wiki/El_falso_Inca"
+                  >https://es.wikisource.org/wiki/El_falso_Inca</ref>.</bibl>
+            <bibl type="print-source">
+               <seg rend="italic">El falso Inca.</seg> Buenos Aires: Compañía sud-americana de
+               billetes de banco, <date when="1905">1905</date>.</bibl>
             <bibl type="edition-first">
-               <date when="1905">1905</date>
-            </bibl>
+               <seg rend="italic">El falso Inca.</seg> Buenos Aires: Compañía sud-americana de
+               billetes de banco, <date when="1905">1905</date>. </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p></p>
+         <p>The spelling has been checked and corrected where appropriate.</p>
+         <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
+            of oral speech (e.g. speech with accent) have been marked up.</p>
+         <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p/>
+            <p>
+               <quote>En <seg rend="italic">El falso inca</seg>, vemos reaparecer a nuestro pícaro
+                  que purgara en la cárcel no sus delitos, sino el imperdonable crimen de haber
+                  embaucado a virreyes y gobernadores del Perú, prometiéndoles descubrir minas y
+                  tesoros. Ayudado por su amante, la mestiza Carmen, concibe un plan de engaño,
+                  excesivo para sus fuerzas y su carácter. Aprovechando el espíritu de rebeldía de
+                  los calchaquíes que no se avienen a doblegarse bajo el talón español, prepáralos
+                  para una guerra contra ellos, anunciándoles el advenimiento de un Hijo de Inti -
+                  el rey Sol - quien los llevaría a la lucha formal.</quote>
+               <bibl>Larra, Raúl. <seg rend="italic">Payró: el novelista de la democracia.</seg> pp.
+                  142-143. Cited by Lichtblau, Myron. <seg rend="italic">The Argentine Novel: an
+                     annotated bibliography</seg>, Lanham, Maryland, 1997 p. 785.</bibl>
+            </p>
          </abstract>
          <textClass>
             <keywords scheme="keywords.csv">
@@ -47,15 +72,14 @@
                <term type="supergenre">narrative</term>
                <term type="genre">novel</term>
                <term type="genre-label"/>
-               <term type="subgenre" subtype="3">historical</term>
-               <!-- ### -->
+               <term type="subgenre" subtype="2" resp="#uh">historical</term>
+               <term type="subgenre" subtype="1" resp="Lichtblau">picaresca</term>
                <term type="subgenre_tm" resp="#uh">novela histórica</term>
+               <term type="subgenre_hist" subtype="2" resp="#uh">historical</term>
                <term type="form">prose</term>
                <term type="narrative-perspective">heterodiegetic</term>
                <term type="setting" cert="low">mixed</term>
                <term type="protagonist-gender">male</term>
-               <term type="publication-first" cert="low">book</term>
-               <term type="movement">naturalism/modernism</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -66,14 +90,15 @@
    <text>
       <body>
          <div>
-            <head>I - FORASTEROS EN EL VALLE</head>
+            <head>I</head>
+            <head>Forasteros en el valle</head>
             <p>Dos viajeros, un hombre y una mujer, indígenas a juzgar por su aspecto y traje,
                cruzaban al caer la tarde de un tibio día de mayo de 1656, el amplio valle de
                Catamarca: el sol iba a ponerse tras del Ambato, los viajeros parecían rendidos por
                una larga jornada, y cerca no se veía habitación alguna.</p>
-            <p>-Aquí podíamos quedarnos -dijo el hombre en castellano, señalando un alto paaj puca
-               (quebracho colorado), que sobresalía en un bosquecillo de algarrobos, vinales y
-               mistoles, entretejidos de enredaderas.</p>
+            <p>-Aquí podíamos quedarnos -dijo el hombre en castellano, señalando un alto <seg
+                  type="foreign">paaj puca</seg> (quebracho colorado), que sobresalía en un
+               bosquecillo de algarrobos, vinales y mistoles, entretejidos de enredaderas.</p>
             <p>-Como te parezca -contestó la mujer, que tenía marcado acento quichua, así como
                andaluz su compañero.</p>
             <p>Depositó bajo el árbol las alforjas de lana de colores que llevaba, y haciendo en
@@ -144,7 +169,8 @@
                la chupa y el casco de un soldado español.</p>
          </div>
          <div>
-            <head>II - VISITA INESPERADA</head>
+            <head>II</head>
+            <head>Visita inesperada</head>
             <p>No era aquello lo que aguardaba la pareja tan bruscamente interpelada. El hombre, ya
                en pie, tuvo un violento temblor, y se le nubló la vista. La mujer, más entera -quizá
                por lo menos amenazada-, consideró un momento al soldado. El examen debió resultar
@@ -222,8 +248,8 @@
             <p>-En Londres, dentro de una semana.</p>
             <p>-En Londres, dentro de una semana. Está bien, no faltaré... Carmen... ¿no hay ni una
                caricia de adiós para un viejo amigo?</p>
-            <p>-¡Anda, vete, cara de chiqui! (diablo). ¡Que te acaricien tus propias barbas, chancho
-               del monte!</p>
+            <p>-¡Anda, vete, cara de <seg type="foreign">chiqui</seg>! (diablo). ¡Que te acaricien
+               tus propias barbas, chancho del monte!</p>
             <p>-¡Amable y dulce prenda! ¡cuán gratas me son tus palabras! -dijo Sancho riendo, y
                alejándose por los matorrales en procura del caballo que había dejado lejos para no
                hacer ruido, y ver sin ser visto a los que acampaban en el bosque.</p>
@@ -241,7 +267,8 @@
             <p>-Me preparo la lengua para las grandes noticias -replicó tranquilamente el indio.</p>
          </div>
          <div>
-            <head>III - EL MESTIZO</head>
+            <head>III</head>
+            <head>El mestizo</head>
             <p>¿Las grandes noticias? -preguntó Bohórquez palpitante de interés y emoción, mientras
                Carmen se acercaba instintivamente al indio, que se había reunido a ellos, saliendo
                de la espesura.</p>
@@ -333,9 +360,10 @@
             <p>-¡Bah! -se dijo-; es mestizo como yo: ¡haré de él lo que quiera!</p>
          </div>
          <div>
-            <head>IV - LOS CACIQUES</head>
-            <p>Anduvieron a buen paso, tanto, que ya a mediodía estaban frente a la aldehuela de
-               San Isidro, no lejos del lugar en que más tarde se fundó la ciudad de Catamarca. La
+            <head>IV</head>
+            <head>Los caciques</head>
+            <p>Anduvieron a buen paso, tanto, que ya a mediodía estaban frente a la aldehuela de San
+               Isidro, no lejos del lugar en que más tarde se fundó la ciudad de Catamarca. La
                aldea, muy crecida, existe aún, y fue tomada por los españoles como centro
                estratégico de observación, para que no pasaran inadvertidos los movimientos
                sospechosos de los indios. Un puñado de miserables ranchos de barro y paja rodeaba
@@ -397,8 +425,9 @@
                El andaluz hacía menos larga la expectativa durmiendo a ratos comiendo y bebiendo
                chicha. Pero, al tercer día, cuando comenzaba a brillar la luna en su primer cuarto,
                poblando el valle de borrosos fantasmas, Luis reapareció y tras él llegaron,
-               silenciosos y graves, los caciques, los curacas (jefes de familia) y los machis
-               (brujos) convocados en nombre del falso Inca.</p>
+               silenciosos y graves, los caciques, los <seg type="foreign">curacas</seg> (jefes de
+               familia) y los <seg type="foreign">machis</seg> (brujos) convocados en nombre del
+               falso Inca.</p>
             <p>Ninguna prenda de su traje distinguíalos en aquel momento del resto de los habitantes
                de los valles: vestían, en efecto, una toga o túnica talar de lana, algo recogida en
                la cintura, y no llevaban armas, visibles por lo menos.</p>
@@ -414,7 +443,7 @@
                de sus sentimientos. Carmen lo animó, acercándosele y haciéndole una seña
                tranquilizadora.</p>
             <p>-¿Quién es esta mujer? -preguntó el Curaca de Paclín.</p>
-            <p>-Es la Coya (reina) -murmuró Luis.</p>
+            <p>-Es la <seg type="foreign">Coya</seg> (reina) -murmuró Luis.</p>
             <p>La conferencia comenzó. Bohórquez consideró hábil y útil ofrecer a los jefes una
                especie de autobiografía, valiéndose de los datos un tanto confusos que poseía de la
                historia del Perú, y aprovechó para ello la facundia que le había hecho famoso en
@@ -476,19 +505,20 @@
                ¡Vemos en el hombre un igual y un hermano, y si la entrada de nuestras montañas está
                fortificada, si hemos alzado pucarás, terraplenes y altas y gruesas pircas, es sólo
                para defendernos y defender a los nuestros en caso de inicuo y sangriento ataque!...
-               ¡Ah! pero si somos pastores, si somos agricultores, también sabemos cazar el uturunco
-               (tigre) y el puma (león), sin que la pica tiemble en nuestra mano, ni la flecha se
-               desvíe en su camino, ni los libes caigan antes de alcanzar su presa, ni la piedra de
-               la honda interrumpa su curva mortal, y el guanaco y la vicuña de las cumbres saben
-               bien cuánta es la velocidad de nuestra carrera, lo sigiloso de nuestra marcha, la
-               resistencia de nuestros músculos semejantes a la cuerda tendida del arco. ¡Arriba,
-               pues, hermanos, que estas otras fieras -los españoles ávidos y sanguinarios- caigan
-               al fin, pese a sus formidables armas, arrollados por nuestro número, por nuestra
-               perseverancia, por nuestro valor, por nuestro odio!... ¡Pónganse sus cáscaras de
-               cangrejos de hierro!, la flecha sabrá hallarles la juntura, conducida por la justicia
-               de nuestro empeño... ¡Y si caemos mil, diez mil en la demanda, quedarán diez mil,
-               cien mil para vengarnos! ¡La tierra engendrará nuevos hombres, y la tierra, y la
-               montaña, y los elementos, serán nuestros aliados!...</p>
+               ¡Ah! pero si somos pastores, si somos agricultores, también sabemos cazar el <seg
+                  type="foreign">uturunco</seg> (tigre) y el <seg type="foreign">puma</seg> (león),
+               sin que la pica tiemble en nuestra mano, ni la flecha se desvíe en su camino, ni los
+               libes caigan antes de alcanzar su presa, ni la piedra de la honda interrumpa su curva
+               mortal, y el guanaco y la vicuña de las cumbres saben bien cuánta es la velocidad de
+               nuestra carrera, lo sigiloso de nuestra marcha, la resistencia de nuestros músculos
+               semejantes a la cuerda tendida del arco. ¡Arriba, pues, hermanos, que estas otras
+               fieras -los españoles ávidos y sanguinarios- caigan al fin, pese a sus formidables
+               armas, arrollados por nuestro número, por nuestra perseverancia, por nuestro valor,
+               por nuestro odio!... ¡Pónganse sus cáscaras de cangrejos de hierro!, la flecha sabrá
+               hallarles la juntura, conducida por la justicia de nuestro empeño... ¡Y si caemos
+               mil, diez mil en la demanda, quedarán diez mil, cien mil para vengarnos! ¡La tierra
+               engendrará nuevos hombres, y la tierra, y la montaña, y los elementos, serán nuestros
+               aliados!...</p>
             <p>-¡Yo os haré cañones! -clamó Bohórquez, enardeciendo aún más el entusiasmo, haciendo
                vislumbrar el triunfo, provocando la admiración de sus secuaces...</p>
             <p>Otros caciques tomaron en seguida la palabra, para hacer con elocuencia el proceso de
@@ -529,7 +559,8 @@
                aventurero-; allí comenzará a desarrollarse nuestro plan...</p>
          </div>
          <div>
-            <head>V - EL TESORO DE LOS INDIOS</head>
+            <head>V</head>
+            <head>El tesoro de los indios</head>
             <p>En las cercanías de Londres y en un rancho abandonado, de paredes bajas, construido
                con piedras toscas y techado con paja y barro, hallábanse reunidos, pocos días
                después, Bohórquez, Carmen y Sancho Gómez. Este último había conferenciado ya con el
@@ -773,7 +804,8 @@
                gobernador, y entraba después de cerciorarse de que nadie podía haberlo visto.</p>
          </div>
          <div>
-            <head>VI - EL JESUITA</head>
+            <head>VI</head>
+            <head>El jesuita</head>
             <p>Un instante después, el nuevo personaje estaba hablando confidencialmente con el
                gobernador Mercado y Villacorta, en el mismo despacho en que éste recibiera a
                Bohórquez.</p>
@@ -859,7 +891,8 @@
             <p>-¡Hay que conservarlo!... ¡a toda costa!</p>
          </div>
          <div>
-            <head>VII - EN CAMPAÑA</head>
+            <head>VII</head>
+            <head>En campaña</head>
             <p>Desde aquel día Bohórquez y Carmen se multiplicaron, sin contentarse con enviar
                mensajes y chasques, pues recorrían personalmente pueblos y aldeas en son de
                propaganda. Luis Enríquez no era ya el representante, sino el compañero y el segundo
@@ -951,13 +984,14 @@
             <p>En cambio, los indios perseveraban entusiastas en el sigiloso trabajo que iba
                rodeando y envolviendo a sus enemigos en una telaraña cada día más apretada y
                resistente. Los chasques, las humaredas, teníanlos en comunicación rápida y continua.
-               Telegrafiábanse por medio de los humos, de pueblo en pueblo y de tambo (posada) en
-               tambo, siempre al corriente de todas las noticias y con el mismo propósito
-               libertario. Su silenciosa y universal actividad, armonizaba con el descuido español,
-               universal y silencioso también.</p>
+               Telegrafiábanse por medio de los humos, de pueblo en pueblo y de <seg type="foreign"
+                  >tambo</seg> (posada) en <seg type="foreign">tambo</seg>, siempre al corriente de
+               todas las noticias y con el mismo propósito libertario. Su silenciosa y universal
+               actividad, armonizaba con el descuido español, universal y silencioso también.</p>
          </div>
          <div>
-            <head>VIII - EL NUDO DE LA INTRIGA</head>
+            <head>VIII</head>
+            <head>El nudo de la intriga</head>
             <p>El único que no dormía en el campo de los conquistadores, aunque tampoco hiciese el
                menor ruido, era el padre Torreblanca. Recorría los valles, so pretexto de mansa
                evangelización, observando y escudriñándolo todo, y como si esto no bastara, muchas
@@ -1030,22 +1064,22 @@
                nosotros!</p>
             <p>Don Alonso hizo algunas objeciones, balbuceó distingos... El obispo, desalentado, le
                contestó con una de las frases latinas que tanto prodigaba:</p>
-            <p>-Quos vult perdere Jovis dementat prius!</p>
+            <p>-<seg type="foreign" xml:lang="la">Quos vult perdere Jovis dementat prius!</seg></p>
             <p>Pero si Dios enloquece previamente a los que quiere perder, la verdad es que Mercado
                -tanto como el mismo Bohórquez- tenía la mano forzada por los acontecimientos que
                provocara sin saberlos prever. Ya no era tiempo de volver atrás. La red tendida por
                los caciques y curacas, aprovechando la aventura del andaluz, abarcaba el país
-               entero, desde Córdoba hasta Humahuaca (cabeza de ídolo), desde el Chaco hasta los
-               Andes. Las poblaciones, nómadas de nuevo, después de adquirir mayor grado de
-               civilización -y cuando ya eran agricultoras y manufactureras- a causa de persecución
-               y tiranía de los conquistadores, habían vuelto a ser, por consiguiente, más aptas
-               para el oficio de la guerra, y sus hombres de armas tomar comenzaban a dedicarse al
-               merodeo, asaltando chasques y desvalijando viajeros... La creciente inseguridad de la
-               campaña hacía que en ciudades y pueblos se viviera con el Jesús en la boca, y que los
-               falsos rumores, las alarmas infundadas, los sobresaltos y las agitaciones no tuvieran
-               tregua... ¡Un paso en falso podía, pues, precipitar el estallido de la rebelión
-               latente, de la sublevación inevitable... salvo la augusta y suprema voluntad de
-               Bohórquez, Huallpa Inca!...</p>
+               entero, desde Córdoba hasta <seg type="foreign">Humahuaca</seg> (cabeza de ídolo),
+               desde el Chaco hasta los Andes. Las poblaciones, nómadas de nuevo, después de
+               adquirir mayor grado de civilización -y cuando ya eran agricultoras y manufactureras-
+               a causa de persecución y tiranía de los conquistadores, habían vuelto a ser, por
+               consiguiente, más aptas para el oficio de la guerra, y sus hombres de armas tomar
+               comenzaban a dedicarse al merodeo, asaltando chasques y desvalijando viajeros... La
+               creciente inseguridad de la campaña hacía que en ciudades y pueblos se viviera con el
+               Jesús en la boca, y que los falsos rumores, las alarmas infundadas, los sobresaltos y
+               las agitaciones no tuvieran tregua... ¡Un paso en falso podía, pues, precipitar el
+               estallido de la rebelión latente, de la sublevación inevitable... salvo la augusta y
+               suprema voluntad de Bohórquez, Huallpa Inca!...</p>
             <p>De regreso a Londres, el gobernador volvió a llamar al aventurero. También esta vez
                acudió Carmen, pero con instrucciones precisas.</p>
             <p>-Todo está a punto -dijo a Mercado-. Los indios no recelan ya, pero antes de
@@ -1141,7 +1175,8 @@
                cuenta de la corona de Castilla y de León...</p>
          </div>
          <div>
-            <head>IX - LA RECEPCIÓN DEL INCA</head>
+            <head>IX</head>
+            <head>La recepción del inca</head>
             <p>Mercado y Villacorta, entretanto, había llegado de Córdoba a Londres reventando
                caballos y tomando por el terrible atajo de Quilino -tumba de tantos viajeros
                audaces- sólo por ganar unas cuantas horas.</p>
@@ -1218,9 +1253,9 @@
                producido, el padre Torreblanca inclinó el platillo, murmurando entre un suspiro, y
                de modo que se le oyera:</p>
             <p>-¡Por todas partes se va a Roma!</p>
-            <p>Esta oportuna imitación del célebre Paris vaut bien une messe, decidió el triunfo del
-               codicioso gobernador y el audaz aventurero. La asamblea, aunque por escasa mayoría,
-               resolvió lo siguiente:</p>
+            <p>Esta oportuna imitación del célebre <seg rend="fr" type="foreign">Paris vaut bien une
+                  messe</seg>, decidió el triunfo del codicioso gobernador y el audaz aventurero. La
+               asamblea, aunque por escasa mayoría, resolvió lo siguiente:</p>
             <p>«Pedro Bohórquez volvería al valle de Calchaquí, para fomentar con su enorme
                prestigio el progreso de la religión cristiana y de la monarquía, y en compensación
                se le daba, en nombre del gobierno de Su Majestad, jurisdicción de teniente
@@ -1244,7 +1279,8 @@
                anillo- y los tesoros que nos han de dar son flechas!...</p>
          </div>
          <div>
-            <head>X - EN LA PENDIENTE</head>
+            <head>X</head>
+            <head>En la pendiente</head>
             <p>Enríquez no había asistido a las fiestas de Londres, y Carmen las presenció, fue sin
                llamar la atención de nadie ni tomar parte activa en ellas. Pero cuando Bohórquez
                salió de la ciudad, volvieron a reunirse los tres, Carmen con la aparente
@@ -1331,13 +1367,13 @@
                pueblo, en cuyo centro se alzó una vasta casa, para habitación del Inca, la Coya y su
                corte. Hiciéronse grandes provisiones de grano y animales. Todas las huayras del
                pueblo y sus cercanías ardían fundiendo hachas y puntas de flecha, que los indios
-               mojaban luego en jugo de ccora (cizaña) para comunicarles la mágica virtud de
-               acobardar y hacer huir al enemigo. Aguzábanse en la piedra las puntas de las lanzas
-               de chonta que, como desgarraban los tejidos al herir, dilacerando las carnes, los
-               españoles creyeron siempre envenenadas. En las chozuelas consagradas a templos de los
-               dioses del trueno y del rayo, había siempre centenares de flechas clavadas en el
-               suelo, formando cerco, que rociaban con sangre de guanaco, y luego se llevaban,
-               seguros de haberles comunicado mágico y terrible poder.</p>
+               mojaban luego en jugo de <seg type="foreign">ccora</seg> (cizaña) para comunicarles
+               la mágica virtud de acobardar y hacer huir al enemigo. Aguzábanse en la piedra las
+               puntas de las lanzas de chonta que, como desgarraban los tejidos al herir,
+               dilacerando las carnes, los españoles creyeron siempre envenenadas. En las chozuelas
+               consagradas a templos de los dioses del trueno y del rayo, había siempre centenares
+               de flechas clavadas en el suelo, formando cerco, que rociaban con sangre de guanaco,
+               y luego se llevaban, seguros de haberles comunicado mágico y terrible poder.</p>
             <p>-¡Dije que os daría cañones! -exclamó Bohórquez cierto día-. ¡Pues voy a
                dároslos!</p>
             <p>Hizo ahuecar con gran trabajo cuatro gruesos férreos troncos de guayacán, que retobó
@@ -1371,13 +1407,15 @@
                una herida en el brazo y salpicando con su sangre el altar y las armas, gritó con
                sacro entusiasmo:</p>
             <p>-¡Odio eterno al usurpador blanco! ¡Guerra a muerte al español!</p>
-            <p>Luego, entre aclamaciones, hizo una libación sagrada con chicha de algarroba (aloja)
-               y postrándose con todos los suyos ante las flechas, las adoró...</p>
+            <p>Luego, entre aclamaciones, hizo una libación sagrada con <seg type="foreign">chicha
+                  de algarroba</seg> (aloja) y postrándose con todos los suyos ante las flechas, las
+               adoró...</p>
             <p>Estas ceremonias teatrales no dejaban de producir impresión en los indios, tan
                numerosos, que los guerreros, solos, alcanzaban a dos mil quinientos...</p>
          </div>
          <div>
-            <head>XI - LA GUERRA</head>
+            <head>XI</head>
+            <head>La guerra</head>
             <p>El ensoberbecido Bohórquez no permanecía ya encerrado en Tolombón; hizo muchas
                excursiones más o menos lejanas, y una de ellas a visitar a los quilmes, formidables
                guerreros cuya ciudad constituía una verdadera fortaleza. Afectaba la forma de un
@@ -1477,7 +1515,8 @@
                gobernador Albornoz, a tres leguas de la ciudad de Salta...</p>
          </div>
          <div>
-            <head>XII - EL FUERTE DE SAN BERNARDO</head>
+            <head>XII</head>
+            <head>El fuerte de San Bernardo</head>
             <p>La situación de Villacorta en San Bernardo era comprometida, por falta casi absoluta
                de municiones, aunque el fuerte fuera lugar estratégico de primer orden, elegido en
                la rebelión anterior para proteger la retirada de los pulares.</p>
@@ -1546,7 +1585,8 @@
             <p>-Ahora, padre, oíd mi confesión.</p>
          </div>
          <div>
-            <head>XIII - EL COMBATE</head>
+            <head>XIII</head>
+            <head>El combate</head>
             <p>El campamento estaba sumido en las tinieblas y el silencio, y Juan de Tobar seguía
                montando la guardia, cuando a eso de la una de la madrugada pareciole oír el rumor de
                unas ramas que se quebraban en el bosque, a pocos pasos de distancia. Escuchó, trató
@@ -1692,16 +1732,18 @@
                la vida!</p>
             <p>Bohórquez se estremeció, pues así pensaba él también... Enríquez miró a la india y al
                andaluz con soberano desprecio.</p>
-            <p>-¡Ah! ¡Si yo fuera el falso Inca! -pensó-. Pero este uritu... (papagayo).</p>
+            <p>-¡Ah! ¡Si yo fuera el falso Inca! -pensó-. Pero este <seg type="foreign"
+               >uritu</seg>... (papagayo).</p>
          </div>
          <div>
-            <head>XIV - ENTRE DOS FUEGOS</head>
-            <p>Carmen curó la herida de Luis Enríquez con agua de tusca y otras hierbas
-               medicinales, y los tres fueron a refugiarse en una de las muchas aldehuelas
-               abandonadas que había entre las breñas, pues sabido es que no sólo se despoblaban los
-               valles por la invasión de los españoles, sino que también los indios acostumbraban
-               cambiar con cierta frecuencia sus habitaciones, por lo que es hoy tan difícil
-               calcular el número exacto de los calchaquíes.</p>
+            <head>XIV</head>
+            <head>Entre dos fuegos</head>
+            <p>Carmen curó la herida de Luis Enríquez con agua de tusca y otras hierbas medicinales,
+               y los tres fueron a refugiarse en una de las muchas aldehuelas abandonadas que había
+               entre las breñas, pues sabido es que no sólo se despoblaban los valles por la
+               invasión de los españoles, sino que también los indios acostumbraban cambiar con
+               cierta frecuencia sus habitaciones, por lo que es hoy tan difícil calcular el número
+               exacto de los calchaquíes.</p>
             <p>La aldea, o más bien, las ruinas de la aldea, estaba en una altura, edificada en
                redondo, con pirca de piedras sueltas, y cercada de cardones y árboles espinosos.
                Allí durmieron, al abrigo de cualquier sorpresa, lejos como se hallaban de todo
@@ -1793,7 +1835,7 @@
                de soldados...</p>
             <p>Enríquez se multiplicaba, parecía estar en todas partes, enardecer a todos,
                conflagrar la tierra -del uno al otro extremo-. La guerra, sin Bohórquez, resultaba
-               más terrible auún, porque era dirigida por un corazón valiente, y por una cabeza más
+               más terrible aún, porque era dirigida por un corazón valiente, y por una cabeza más
                robusta aunque de menos brillo exterior.</p>
             <p>En la frontera de Rioja, y alrededor del valle de Famatina, los indios comprometidos
                preparaban un terrible golpe de mano, esperando solamente para su ejecución la
@@ -1837,7 +1879,8 @@
             <p>-¡El taita te engaña! -exclamó-. ¡Te llevan para matarte!... Pero yo te salvaré.</p>
          </div>
          <div>
-            <head>XV - CATÁSTROFES</head>
+            <head>XV</head>
+            <head>Catástrofes</head>
             <p>Bohórquez, acompañado por Carmen, marchó a Salta, para entregarse al representante
                del virrey.</p>
             <p>No se le trató mal en un principio, y hasta podía tener ilusión de hallarse en
@@ -1907,7 +1950,8 @@
             <p>Sola y a pie siguió la rastrillada del ejército de Mercado y Villacorta...</p>
          </div>
          <div>
-            <head>XVI - LA MESTIZA</head>
+            <head>XVI</head>
+            <head>La mestiza</head>
             <p>El señor gobernador hallábase la noche del 11 al 12 de junio departiendo con algunos
                de sus oficiales, en su tienda de campaña, junto a Chicoana de los Pulares, cuando un
                ayudante le anunció que una mujer, detenida en la línea del campamento, solicitaba

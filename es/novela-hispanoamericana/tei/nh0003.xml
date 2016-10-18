@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,29 +17,69 @@
             <principal xml:id="uh">Ulrike Henny</principal>
          </titleStmt>
          <publicationStmt>
-            <publisher>CLiGS</publisher>
-            <availability status="publicdomain">
-               <p/>
+            <publisher>
+               <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
             </availability>
-            <date>2015</date>
+            <date>2016</date>
             <idno type="cligs">nh0003</idno>
+            <idno type="url"
+               >https://raw.githubusercontent.com/cligs/textbox/master/es/novela-hispanoamericana/tei/nh0003.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">Wikisource <date>2015</date>. <ref
-                  target="https://es.wikisource.org/wiki/El_casamiento_de_Laucha"/></bibl>
-            <bibl type="print-source">Buenos Aires: Compañía Sud-Americana de billetes de banco
-                  <date>1906</date>.</bibl>
-            <bibl type="edition-first">
-               <date when="1906">1906</date>
+            <bibl type="digital-source">"El casamiento de Laucha." <seg rend="italic"
+                  >Wikisource</seg>, <date when="1915">2015</date>, <ref
+                  target="https://es.wikisource.org/wiki/El_casamiento_de_Laucha"
+                  >https://es.wikisource.org/wiki/El_casamiento_de_Laucha</ref>.</bibl>
+            <bibl type="print-source"><seg rend="italic">El casamiento de Laucha.</seg> Buenos
+               Aires: Compañía Sud-Americana de billetes de banco, <date when="1906"
+               >1906</date>.</bibl>
+            <bibl type="edition-first"><seg rend="italic">El casamiento de Laucha.</seg> Buenos
+               Aires: Compañía Sud-Americana de billetes de banco, <date when="1906">1906</date>.
             </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p/>
+         <p>The spelling has been checked and corrected where appropriate.</p>
+         <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
+            of oral speech (e.g. speech with accent) have been marked up.</p>
+         <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p/>
+            <p>
+               <quote>
+                  <seg rend="italic">El casamiento de Laucha</seg> es la historia de una infamia, de
+                  una vileza, de una canallada. Pero Payró trata la picardía del comportamiento de
+                  Laucha con la picardía del arte de narrar, es decir, que Payró, por ser tan pícaro
+                  en su arte como Laucha en su conducta, ha logrado una novela picaresca donde la
+                  visión del narrador no se tiñe con escrúpulos. El mundo que allí rezuma es el
+                  mundo tal como lo intuye un pícaro, quien toma la palabra y va discurriendo gozoso
+                  de sí y confiado en que no existen valores más legítimos que los suyos. El autor
+                  no aparece ni en la lengua escrita: el relato simula ser un monólogo de
+                  Laucha.</quote>
+               <bibl>Anderson Impert, Enrique. <seg rend="italic">Historia de la literatura
+                     hispanoamericana.</seg> Vol. I, 1961, p. 357. Cited by Lichtblau, Myron. <seg
+                     rend="italic">The Argentine Novel: an annotated bibliography.</seg> Lanham,
+                  Maryland, 1997, p. 782.</bibl>
+            </p>
+            <p>
+               <quote>El radical menosprecio del pícaro por el mundo pone en crisis los valores y
+                  honras en que se funda el vivir humano. Todo es consunción y fracaso. Y ni
+                  siquiera vale la pena intentar hurtarle el cuerpo a la avalancha de caducidades.
+                  Solamente buscar alguna comodidad del cuerpo entre tantas cosas que se
+                  desvencijan, y pasarla divertido mientras se pueda. De aquí la holgazanería, el
+                  quemasdá, la resignación ante la adversidad y, contrastando con este descarte de
+                  vanidades, un exultante egoísmo que, en el fondo, es complacencia por el desenfado
+                  con que el pícaro se ve resistiendo al desmoronamiento universal.</quote>
+               <bibl>Anderson Imbert, Enrique. <seg rend="italic">Tres novelas de Payró con pícaros
+                     en tres miras</seg>, p. 23. Cited by Lichtblau, Myron. <seg rend="italic">The
+                     Argentine Novel: an annotated bibliography.</seg> Lanham, Maryland, 1997, pp.
+                  782-783.</bibl>
+            </p>
          </abstract>
          <textClass>
             <keywords scheme="keywords.csv">
@@ -49,16 +89,15 @@
                <term type="supergenre">narrative</term>
                <term type="genre">short novel</term>
                <term type="genre-label"/>
-               <term type="subgenre" subtype="2">costumbrista</term>
-               <term type="subgenre" subtype="1">social</term>
-               <!-- ### -->
+               <term type="subgenre" subtype="2" resp="#uh">costumbrista</term>
+               <term type="subgenre" subtype="1" resp="#uh">social</term>
+               <term type="subgenre" subtype="1" resp="Lichtblau">picaresca</term>
                <term type="subgenre_tm" cert="low" resp="#uh">novela político-social</term>
+               <term type="subgenre_hist" subtype="2" resp="#uh">not_historical</term>
                <term type="form">prose</term>
                <term type="narrative-perspective">autodiegetic</term>
                <term type="setting" cert="low">mixed</term>
                <term type="protagonist-gender">male</term>
-               <term type="publication-first" cert="low">book</term>
-               <term type="movement">naturalism/modernism</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -125,7 +164,7 @@
             <p>—Ya tengo demasiados ponchos—me decía otro.</p>
             <p>—No compro ropa usada,—me gritó furioso un tendero gallego que no tenía más que
                clavos del tiempo de ñaupa.</p>
-            <p>Por fin un bolichero me dió por él cuatro nacionales,—y digo nacionales porque ya
+            <p>Por fin un bolichero me dio por él cuatro nacionales,—y digo nacionales porque ya
                habían cambiado la moneda corriente, tan linda y tan rendidora.</p>
             <p>El boleto de segunda de Campana a Buenos Aires valía entonces alrededor de peso y
                medio o dos pesos, y no como ahora que cobran cerca de cinco. Así es que yo estaba
@@ -192,7 +231,7 @@
                para Buenos Aires, pero desde hace un año ya no andan, porque todo se lo lleva el
                tren.</p>
             <p>—¡Caramba, amigo, qué lástima!</p>
-            <milestone type="figure"/>
+            <milestone type="figure" unit="section"/>
             <p>—¡Mire qué casualidad!—siguió el pulpero al ratito.—¡No me acordaba, hombre! Tiene
                suerte, porque hoy mismo, y cuando más mañana, va a venir la jardinera del almacén
                del pueblo que trae surtido para todas las esquinas del camino al Pago, y para mi
@@ -329,7 +368,7 @@
                quería sustituir; que después anduve por las provincias del interior, corriendo
                tierras y buscando la suerte, pero que todo me salió mal hasta que tuve gue volverme
                con una mano atrás y otra adelante. En fin, le hice un cuento de los que no se
-               empardan; y ella me escuchaba con mucho interés y atencion: hasta me parece que
+               empardan; y ella me escuchaba con mucho interés y atención: hasta me parece que
                lagrimeó un poco...</p>
             <p>En esto, entraron unos carreros a tomar la copa y yo me salí para el patio.</p>
             <p>Los carreros andaban apurados y se fueron en seguida. Doña Carolina me chistó:</p>
@@ -344,17 +383,19 @@
          </div>
          <div>
             <head>V</head>
-            <p> Cuando volví a salir al patio ya era casi noche, y me encontré al viejo de los
+            <p>Cuando volví a salir al patio ya era casi noche, y me encontré al viejo de los
                chanchos que había vuelto al entrarse el sol. Estaba pitando un cigarro negro,
                sentado en una cabeza de vaca, a la puerta del galpón, por la que se veían las
                llamaradas de una fogata de leña y un humazo terrible que no dejaba divisar las
                paredes.</p>
             <p>—¿Tomando el fresco, paisano?—le pregunté, para entrar en conversación.</p>
-            <p>—Ansina mesmo es, don—me contestó;—demientras se calienta l'agua y medio si asa el
-               churrasco. ¿Quiere dentrar y prenderle a un verde?</p>
+            <p>—<seg type="oral">Ansina mesmo es, don</seg>—me contestó;—<seg type="oral">demientras
+                  se calienta l'agua y medio si asa el churrasco. ¿Quiere dentrar y prenderle a un
+                  verde?</seg></p>
             <p>—Con mucho gusto, amigo don...</p>
-            <p>—Cipriano, p'a servirlo,—añadió el viejo, que se sacó el pucho negro de la boca,
-               mirándolo y remirándolo, como con pena de que se acabara tan pronto.</p>
+            <p>—<seg type="oral">Cipriano, p'a servirlo,</seg>—añadió el viejo, que se sacó el pucho
+               negro de la boca, mirándolo y remirándolo, como con pena de que se acabara tan
+               pronto.</p>
             <p>Entramos en el galpón. Al lado del fuego, que ardía con grandes llamas y chisporroteo
                de leña verde, echando un humo espeso y agrio que hacía lagrimear, hervía una inmensa
                pava, negra de ollín; al lado estaba la enorme yerbera cuadrada, de palo, mediada de
@@ -363,54 +404,59 @@
                y ahí no más, cerquita, el porrón de la salmuera. El viejo era amigo de su comodidad.
                Entró la cabeza de vaca, yo me senté en otra, y comenzamos a matear y a menearle
                taba.</p>
-            <p>—¿Y p'ande va, amigo? — me preguntó don Cipriano, brindándome un amargo.— Porque
-               usted no es del Pago, ¿no?</p>
+            <p>—<seg type="oral">¿Y p'ande va, amigo?</seg> — me preguntó don Cipriano, brindándome
+               un amargo.— Porque usted no es del Pago, ¿no?</p>
             <p>—No; no soy del Pago, pero voy a ser— le dije.</p>
-            <p>—¡Aja, está bueno! ¿Y ande piensa trabajar?... si me permite la pregunta.</p>
+            <p>—<seg type="oral">¡Aja, está bueno! ¿Y ande piensa trabajar?</seg>... si me permite
+               la pregunta.</p>
             <p>—Aquí mismo. Me quedo a ayudar a la patrona.</p>
-            <p>—¡Bien haiga! Falta le hacía a la pobrecita, dende que murió el finao, aura hará un
-               año p'a la yerra... La mujer no ha di andar sola, dispués de haber tirao en yunta...
-               Sólita, se hace mañera, y no sirve ni p'a noria.</p>
+            <p>—<seg type="oral">¡Bien haiga! Falta le hacía a la pobrecita, dende que murió el
+                  finao, aura hará un año p'a la yerra... La mujer no ha di andar sola, dispués de
+                  haber tirao en yunta... Sólita, se hace mañera, y no sirve ni p'a noria.</seg></p>
             <p>Al principio no entendí bien lo que me quería decir el viejo, pero la agachada era
                demasiado clara, para que al fin no cayese en cuenta. Refregándome los ojos que me
                ardían con el humo, le dije con retintín:</p>
             <p>—¡Sola!... tan sola no vivía, desde que estaba con usted.</p>
-            <p>— Se mi hace que l'incomoda la humadera, amigo, y que no ve lo maceta que mi han
-               puesto los años... Y cómo será cuando tuavía no gastábamos más leña que la de oveja,
-               ni pitábamos más que naco o cuerda, y yo era viejón y duro de coyunturas!.. No
-               friegue pues, mocito.</p>
+            <p>—<seg type="oral">Se mi hace que l'incomoda la humadera, amigo, y que no ve lo maceta
+                  que mi han puesto los años... Y cómo será cuando tuavía no gastábamos más leña que
+                  la de oveja, ni pitábamos más que naco o cuerda, y yo era viejón y duro de
+                  coyunturas!.. No friegue pues, mocito.</seg></p>
             <p>Yo me eché a reir. El viejo, después de estarse callado un rato, siguió con los
                cuentos de la patrona.</p>
-            <p>—Dende que murió el finau, que Dios tenga en gloria, doña Carolina anda como pan que
-               no se vende. A esa moza—porqu'es moza tuavía,—le falta algo, está claro! Y la verdá
-               que anqu'es trabajadora y se levanta al alba, la esquina suele ser de mucho trajín
-               p'a ella sola, pobrecita...</p>
+            <p>—<seg type="oral">Dende que murió el finau, que Dios tenga en gloria, doña Carolina
+                  anda como pan que no se vende. A esa moza—porqu'es moza tuavía,—le falta algo,
+                  está claro! Y la verdá que anqu'es trabajadora y se levanta al alba, la esquina
+                  suele ser de mucho trajín p'a ella sola, pobrecita...</seg></p>
             <p>Chupó tranquilamente el mate, y después siguió:</p>
-            <p>—Y es buenaza la patroncita... Cuando vivía el finau, todo era mimos y
-               comiditas...</p>
-            <p>Aura, rejunta cuanto guacho encuentra y los trata como a hijos... A mí, a su lau no
-               me falta nada, y eso que soy un viejo deslomao que no vale ni una sé di agua... Y
-               hace mucha caridá, y no hay rancho de pobre por ahí cerca, en que no la quieran como
-               al pan bendito...</p>
+            <p>—<seg type="oral">Y es buenaza la patroncita... Cuando vivía el finau, todo era mimos
+                  y comiditas...</seg></p>
+            <p>
+               <seg type="oral">Aura, rejunta cuanto guacho encuentra y los trata como a hijos... A
+                  mí, a su lau no me falta nada, y eso que soy un viejo deslomao que no vale ni una
+                  sé di agua... Y hace mucha caridá, y no hay rancho de pobre por ahí cerca, en que
+                  no la quieran como al pan bendito...</seg>
+            </p>
             <p>—Me alegro de tener una partona así,—le dije—de ese modo me voy a quedar aquí toda la
                vida.</p>
             <p>Me miró con una risita fregona, y después de un rato agregó, mientras encendía un
                candil de sebo de carnero:</p>
-            <p>—¡Mire!.. usté, lo que debe hacer, mocito, es endilgarselé derecho no más, y
-               ronciarla de lo lindo, pero sin faltarle, eso sí... Usté no me parece lerdo, más que
-               para lo que sea cosa'e sudar, y ella, la pobre, necesita compaña... Oigalé a este
-               viejo que no ha visto al ñudo tanta madrugada, y siga su mal consejo, que le ha d'ir
-               bien... Y aura, vamos a tender el asador y a echarle la salmuera p'a qui acabe de
-               asarse al rescoldito... ¡Ya verá qué charrusco! También ya no sirvo p'a otra
-               cosa.</p>
+            <p>—¡Mire!.. <seg type="oral">usté</seg>, lo que debe hacer, mocito, es endilgarselé
+               derecho no más, y ronciarla de lo lindo, pero sin faltarle, eso sí... <seg
+                  type="oral">Usté</seg> no me parece lerdo, más que para lo que sea <seg
+                  type="oral">cosa'e</seg> sudar, y ella, la pobre, necesita compaña... Oigalé a
+               este viejo que no ha visto al ñudo tanta madrugada, y siga su mal consejo, que le ha
+                  <seg type="oral">d'ir</seg> bien... Y aura, vamos a tender el asador y a echarle
+               la salmuera <seg type="oral">p'a qui</seg> acabe de asarse al rescoldito... ¡Ya verá
+               qué charrusco! También ya no sirvo <seg type="oral">p'a</seg> otra cosa.</p>
             <p>Saqué el cuchillo y busqué donde afilarlo, pensando en lo que me había dicho el viejo
                ño Cipriano, que no dejó de interesarme mucho. La verdad que allí podían acabar mis
                penurias, sin hacer mal a nadie, y principiar una vida tranquila y honrada, con una
                buena mujer, unos pesos siempre listos en el bolsillo, trabajo descansado y
                divertido, una copita cuando se me antojara, comida abundante, cama blanda...</p>
-            <p>—A naides ha querido conchabar de todos los que han venido a ofrecerse,—dijo ño
-               Cipriano.—Y si lo ha tomau a usté, es porque ya tiene más de la mita del camino
-               andau. Arriejesé sin miedo, mozo!</p>
+            <p>—A <seg type="oral">naides</seg> ha querido conchabar de todos los que han venido a
+               ofrecerse,—dijo ño Cipriano.—Y si lo ha <seg type="oral">tomau</seg> a <seg
+                  type="oral">usté</seg>, es porque ya tiene más de la <seg type="oral">mita</seg>
+               del camino <seg type="oral">andau</seg>. Arriejesé sin miedo, mozo!</p>
             <p>Le iba a contestar, cuando oí que doña Carolina me llamaba desde la ramada:</p>
             <p>—¡Eh! joven, eh! Venga aquí, haga el favor.</p>
             <p>Todavía no le había dicho mi nombre.</p>
@@ -419,8 +465,8 @@
                adentro, en esta mesa.</p>
             <p>Había puesto un mantel limpito, dos cubiertos, una pila de platos, pan con grasa,
                queso fresco, una caja de sardinas abierta, y un gran platazo de nueces y pasas.</p>
-            <p>—Aquí se come a lo pobre, y usté dispensará porque no hay cómo hacer muchas
-               cosas.</p>
+            <p>—Aquí se come a lo pobre, y <seg type="oral">usté</seg> dispensará porque no hay cómo
+               hacer muchas cosas.</p>
             <p>—¡No diga, señora!—le contesté.—Si viera los gofios que he comido todo este tiempo, y
                el maíz cocido de las provincias del norte, no pensaría eso. Muchos días me lo he
                pasado con una galleta y un traguito de aguardiente, y otros, sin galleta...</p>
@@ -463,8 +509,8 @@
             <p>—¿Sabe, señora, lo que se me ha ocurrido? Que, como yo sé fabricar coñac, hacer dos
                cuarterolas de vino de una sola, falsificar el bíter, el ajenjo, el anís, y todo lo
                demás, lo mismo que misturar la yerba buena con la mala sin que se conozca—podemos
-               hacer aquí todas esas cosas. Usté ganaría muchísimo más que ahora, que está regalando
-               la platita al licorero falsificador de Pago Chico.</p>
+               hacer aquí todas esas cosas. <seg type="oral">Usté</seg> ganaría muchísimo más que
+               ahora, que está regalando la platita al licorero falsificador de Pago Chico.</p>
             <p>Misia Carolina abrió tamaños ojos, se rió un poquito, pero no consintió en
                seguida.</p>
             <p>—¡Eso es tan difícil! ¡sé necesitan tantas cosas!</p>
@@ -482,17 +528,18 @@
             <p>—Diviértase, diviértase nomás,—decía misia Carolina,—que para eso es joven; y
                mientras no me falte al trabajo...</p>
             <p>La verdad es que la gringa no hablaba del todo así, como he dicho yo. Se conocía que
-               era <milestone type="figure"/> italiana, y decía <seg rend="italic">coven,
-                  trabaco</seg>... Pero eso no le hace. Al fin yo me divertía y gozaba sin tener que
-               pensar en nada. ¿Qué importa la habla entonces? Yo también suelo ser fino cuando
-               quiero—¡oh! ¿y de no?—pero me gusta que todos me entiendan...</p>
+               era <milestone type="figure" unit="section"/> italiana, y decía <seg rend="italic"
+                  type="oral">coven, trabaco</seg>... Pero eso no le hace. Al fin yo me divertía y
+               gozaba sin tener que pensar en nada. ¿Qué importa la habla entonces? Yo también suelo
+               ser fino cuando quiero—¡oh! ¿y de no?—pero me gusta que todos me entiendan...</p>
             <p>Bueno, pues: como las cosas iban tan bien, me le animé a la gringa. Ya hacía tiempo
                que la andaba pastoreando para eso, pero no hallaba cómo principiar la declaración y
                me daba miedo de pegar una rodada... En fin, aquella tardecita me dije: "Amigo
                Laucha," (Yo también me he acostumbrado a lo de Laucha). "Amigo Laucha, lo que es de
                esta hecha, que no se te escape". Y así fue nomás...</p>
             <p>Cuando ya estábamos acabando de comer, le busqué la vuelta y le dije:</p>
-            <p>—Conque desde que enviudó, misia Carolina, ha estado sólita... sólita y su alma?</p>
+            <p>—Conque desde que enviudó, misia Carolina, ha estado <seg type="oral">sólita...
+                  sólita</seg> y su alma?</p>
             <p>Le hablé con la voz tembleque y mirándola medio al soslayo.</p>
             <p>—¡Hace más de un año!—y suspiró la gringa.</p>
             <p>Yo aproveché la bolada:</p>
@@ -514,20 +561,22 @@
             <p>Yo me quedé callado, porque no había para qué estirar mucho la prima, y era mejor
                pasar por corto de genio... Ella fue la que habló primero, mientras estaba sirviendo
                el postre:</p>
-            <p>—Cuénteme algo de lo suyo,... de su vida —me dijo.—Ya sabe que me gusta mucho oirlo
+            <p>—Cuénteme algo de lo suyo,... de su vida —me dijo.—Ya sabe que me gusta mucho oírlo
                hablar.</p>
             <p>—¡Mi vida ha sido tan triste hasta ahora, misia Carolina!... Puras penas no más... He
                sufrido mucho y no quisiera molestarla con mis recuerdos...</p>
             <p>—Bueno,—contestó, medio afligida.—No quiero que se vuelva a entristecer.—Y
                entusiasmándose, siguió:—Ya no ha de pasar más penurias, porque no va a estar toda la
-               vida conmigo como un dependiente... Usté es trabajador, aunque le gusta divertirse á
-               veces... Lo voy a hacer entrar como socio: ya sabe que en este boliche se gana
-               platita. ¡Ya ve que todas las noches saco treinta o treinta y cinco pesos del cajón,
-               y hay, también, que contar los fiados y las libretas... Pero, si usté mismo hace las
-               bebidas, que son lo más caro, tenemos que ganar mucho más.</p>
+               vida conmigo como un dependiente... <seg type="oral">Usté</seg> es trabajador, aunque
+               le gusta divertirse á veces... Lo voy a hacer entrar como socio: ya sabe que en este
+               boliche se gana platita. ¡Ya ve que todas las noches saco treinta o treinta y cinco
+               pesos del cajón, y hay, también, que contar los fiados y las libretas... Pero, si
+                  <seg type="oral">usté</seg> mismo hace las bebidas, que son lo más caro, tenemos
+               que ganar mucho más.</p>
             <p>—¡Así es, señora!—le dije con los ojos como patacón.</p>
-            <p>—Digamé entonces lo que necesita,—siguió ella,—y yo le daré la plata, para que se
-               vaya a Chivilcoy, o al mismo Buenos Aires, si es mejor, y se traiga todo...</p>
+            <p>—<seg type="oral">Digamé</seg> entonces lo que necesita,—siguió ella,—y yo le daré la
+               plata, para que se vaya a Chivilcoy, o al mismo Buenos Aires, si es mejor, y se
+               traiga todo...</p>
             <p>—¡Mire, doña Carolina, me hace llorar de buena que es! ¡y créame, que no favorece á
                un desagradecido!</p>
             <p>E hice la farsa de limpiarme los ojos con un pañuelo de seda celeste,—¡ah
@@ -546,8 +595,9 @@
             <p>Esa noche quedó arreglado y convenido todo lo de la fabricación, y en buen camino las
                otras cosas, que por lo visto no le habían disgustado mucho a la gringa. ¡Ah! ¡me
                olvidaba! también me dijo:</p>
-            <p>—Usté no tiene capital, y aquí en el boliche hay un capitalito de unos pocos miles de
-               pesos. Pero haremos cuenta que la mita es de usté, para no andar con embrollos.</p>
+            <p>—<seg type="oral">Usté</seg> no tiene capital, y aquí en el boliche hay un capitalito
+               de unos pocos miles de pesos. Pero haremos cuenta que la mita es de <seg type="oral"
+                  >usté</seg>, para no andar con embrollos.</p>
             <p>Yo me largué contentísimo al galpón, donde tenía mi cama, pero aunque era blandita,
                casi me pasé toda la noche revolviéndome, sin poder pegar los ojos.</p>
             <p>Pues en cuantito principió a clarear, ya estaba con los huesos de punta y con todo
@@ -555,16 +605,17 @@
             <p>Tomé unos cimarrones con ño Cipriano, que dormía en la otra punta del galpón sobre
                unas pilchas viejas, y con quien nos habíamos hecho amigazos. Cuando le conté lo de
                la sociedad y el viaje, bailando de gusto, me dijo muy serio:</p>
-            <p>—Tenga mucho cuidau, paisano, con lo qui hac'en la ciudá; no vay'á dejar qu'el asau
-               si arda antes de qu'esté en su punto. Usté va lejos, pero más lejos van las
-               mujeres... De puro desconfiadas y ladinas, cuand'uno va, ya están de güelta. No se me
-               descuide, y se me quede di a pié cuando ya está estríbando!</p>
+            <p>—<seg type="oral">Tenga mucho cuidau, paisano, con lo qui hac'en la ciudá; no vay'á
+                  dejar qu'el asau si arda antes de qu'esté en su punto. Usté va lejos, pero más
+                  lejos van las mujeres... De puro desconfiadas y ladinas, cuand'uno va, ya están de
+                  güelta. No se me descuide, y se me quede di a pié cuando ya está
+               estríbando!</seg></p>
             <p>Me hice el desentendido y me reí, brindándolé el mate que cebábamos una vez cada uno,
                a lo resero. Después me levanté para irme.</p>
             <p>—Bueno, hasta la vuelta, amigo don Cipriano.</p>
-            <p>—Que le vaya bien y hasta la güelta mozo: no se tarde, que el güay lerdo... ya
-               sabe...</p>
-            <p>Me fui a despedir de la gringa que me dió tres o cuatro sacudones de manos, con los
+            <p>—Que le vaya bien y hasta la <seg type="oral">güelta</seg> mozo: no se tarde, que el
+                  <seg type="oral">güay</seg> lerdo... ya sabe...</p>
+            <p>Me fui a despedir de la gringa que me dio tres o cuatro sacudones de manos, con los
                ojos aguachentos, monté el sotreta overo que ya había ensillado, y con su galope de
                ratón seguí hasta un almacén de al lado de la estación de Pago Chico. Ahí dejé el
                mancarrón, muy recomendado, y me entretuve tomando unas cañitas, porque todavía
@@ -593,10 +644,11 @@
                pedirlas:</p>
             <p>—¡Eh, mozo! una caña... de la que toma el patrón, eh!</p>
             <p>Carolina estaba muerta de contenta y un día me dijo:</p>
-            <p>—Usté tiene unas manos de ángel (decía <seg rend="italic">anquel</seg>) y estamos
-               ganando mucha plata. Y... ¿quiere que le diga? Lo que yo necesitaba era un joven
-                  (<seg rend="italic">coven</seg>) como usté... Y ahora que lo conozco bien... ya le
-               puedo prometer que... que vamos a ser felices en todo sentido...</p>
+            <p>—<seg type="oral">Usté</seg> tiene unas manos de ángel (decía <seg rend="italic"
+                  type="oral">anquel</seg>) y estamos ganando mucha plata. Y... ¿quiere que le diga?
+               Lo que yo necesitaba era un joven (<seg rend="italic" type="oral">coven</seg>) como
+                  <seg type="oral">usté</seg>... Y ahora que lo conozco bien... ya le puedo prometer
+               que... que vamos a ser felices en todo sentido...</p>
             <p>Yo no había vuelto a hablarle del asunto serio, pero en todo aquel tiempo, la miraba
                con ojos de carnero degollado, rondándola y pensando: «¡Ya has de caer! ¡ya has de
                caer, mi vida!» seguro de que no se me iba a escapar. Y todavía haciéndome el sonso,
@@ -612,17 +664,17 @@
                me estaba esperando.</p>
             <p>—Ahora puede decirme—principié despacito, para quitarle los últimos recelos.</p>
             <p>Pero ya no había necesidad de tantas historias.</p>
-            <p>—Bueno, conversemos,—dijo muy seria. —Pero antes digamé la verdad... ¿Usted se
-               casaría conmigo?...</p>
+            <p>—Bueno, conversemos,—dijo muy seria. —Pero antes <seg type="oral">digamé</seg> la
+               verdad... ¿Usted se casaría conmigo?...</p>
             <p>Le iba a contestar, pero no me dejó.</p>
             <p>-Soy un poco vieja y fea—siguió con una especie de coqueteo que hoy me da risa—pero
                lo quiero mucho, y como le dije hoy, podemos ser felices en todo sentido... La cosa
-               es, que hay que casarse, si no, <seg rend="italic">ninte!</seg></p>
+               es, que hay que casarse, si no, <seg rend="italic" type="oral">ninte!</seg></p>
             <p>Yo nunca había pensado en semejante cosa, pero comprendí que la gringa no iba á
                aflojar ni por un queso, y conseguí ponerle buena cara.</p>
-            <p>—¡Oh, misia Carolina! Nunca creí otra cosa, y casarme con usted será mi felicidá—le
-               dije.</p>
-            <p>Se rió muy contenta, y me dió la mano que me apretó mucho, con los ojos medio
+            <p>—¡Oh, misia Carolina! Nunca creí otra cosa, y casarme con usted será mi <seg
+                  type="oral">felicidá</seg>—le dije.</p>
+            <p>Se rio muy contenta, y me dio la mano que me apretó mucho, con los ojos medio
                llorosos.</p>
             <p>—¡Bueno, bueno!—siguió.—Entonces yo le daré lo que quiera, y si no tiene
                inconveniente, mañana mismo se va a Pago Chico, a comprar todo lo que haga falta para
@@ -632,12 +684,12 @@
                vascos, unos pesitos puestos en Buenos Aires, en el Banco de Italia, y algunas
                cositas más que yo vería después.</p>
             <p>—¡Aunque no tuviera en qué caerse muerta, misia Carolina!—le dije contentísimo—
-               ¡Sería lo mismo para mí, y me casaría con usté inmediatamente!... ¡Sí! Mañana mismo
-               me voy al Pago, a hacer las compras, a ver al cura, a buscar los padrinos y mandarme
-               hacer <milestone type="figure"/> una ropita decente, porque no me he de casar como un
-               zaparrastroso.</p>
+               ¡Sería lo mismo para mí, y me casaría con <seg type="oral">usté</seg>
+               inmediatamente!... ¡Sí! Mañana mismo me voy al Pago, a hacer las compras, a ver al
+               cura, a buscar los padrinos y mandarme hacer <milestone type="figure" unit="section"
+               /> una ropita decente, porque no me he de casar como un zaparrastroso.</p>
             <p>Y agarrándola por la cintura, como para bailar, le grité:</p>
-            <p>—¡Ya verás, m'hijita, qué felices vamos a ser!...</p>
+            <p>—¡Ya verás, <seg type="oral">m'hijita</seg>, qué felices vamos a ser!...</p>
             <p>Pero aunque el negocio me conviniera mucho, yo no dejaba de tener un poco de
                vergüenza, por las relaciones y la familia, que no iban a dejar de saber mi
                casamiento, porque al fin y al cabo yo no soy un cualquiera, aunque anduviese más
@@ -653,9 +705,10 @@
                de padrinos, y después, cuando todo el mundo sepa y se haya acostumbrado, si se nos
                antoja, podemos dar cuanta farra se nos dé la gana, sin que nadie se ría de nosotros,
                ni ande con habladurías, ni levantadas...</p>
-            <p>—¡Hace lo que queras!—me dijo por fin la grínga, que estaba más contenta que cuzco
-               recién desatado.—Con tal de que nos case el cura, y nos eche la bendición adelante de
-               los padrinos, a mí no me importa nada. ¡Hacé lo que querás!...</p>
+            <p>—<seg type="oral">¡Hace lo que queras!</seg>—me dijo por fin la grínga, que estaba
+               más contenta que cuzco recién desatado.—Con tal de que nos case el cura, y nos eche
+               la bendición adelante de los padrinos, a mí no me importa nada. ¡Hacé lo que
+               querás!...</p>
          </div>
          <div>
             <head>VIII</head>
@@ -666,12 +719,12 @@
                el Pago, pero por las mentas ya se había puesto riquísimo y pensaba irse pronto a su
                tierra. ¡Rico! Díganme, háganme el favor, cómo puede ponerse rico un cura, en un
                pueblo de campo, aunque le lluevan las limosnas y le goteen las velas para los
-               santos, y haga como el sacristán de Nuestra Señora de la Estrella: ¿«la mita p'a mí,
-               la mita p'a ella?» Yo no creía, ni muchos creían tampoco, que el cura Papagna
-               estuviese regularón siquiera; pero es que era un verdadero pillo, un gran canalla, un
-               fraile como no he visto otro en todas mis recorridas por esta tierra, en que he
-               hallado unos muy buenos, otros regular no más, y otros muy malos... ¡No, lo que es
-               como aquél!...</p>
+               santos, y haga como el sacristán de Nuestra Señora de la Estrella: <seg type="oral"
+                  >¿«la mita p'a mí, la mita p'a ella?»</seg> Yo no creía, ni muchos creían tampoco,
+               que el cura Papagna estuviese regularón siquiera; pero es que era un verdadero pillo,
+               un gran canalla, un fraile como no he visto otro en todas mis recorridas por esta
+               tierra, en que he hallado unos muy buenos, otros regular no más, y otros muy malos...
+               ¡No, lo que es como aquél!...</p>
             <p>El cura Papagna era bajito, gordinflón, muy narigueta, bastante canoso, con unas
                manos peludas y como patas de carancho, pero más gruesas, natural! Andaba siempre con
                la sotana perdida de lamparones, y la barba sin afeitar de muchos días, así es que
@@ -692,21 +745,21 @@
                bien. Cuando fuí a hablar con él, estaba en la sacristía, sentado cerca de una mesa
                mugrienta, con las manos cruzadas sobre la barriga, redonda como un tremendo queso de
                bola.</p>
-            <p>—Qué vulite?—me preguntó.</p>
-            <p>— Yo, señor cura... venía... venía porque me voy a casar....</p>
-            <p>—Va bene! va bene! Songo diechi nachonale... E un qui se ne casa?... Bisoña paga
-               andichipate pei publicazione... amonestazione... A mushash é de cá?... ¡Eh!...
-               vedite!... diechi nachonale é poca roba!</p>
+            <p>—<seg type="oral" xml:lang="it">Qué vulite?</seg>—me preguntó.</p>
+            <p>—Yo, señor cura... venía... venía porque me voy a casar....</p>
+            <p>—<seg type="oral" xml:lang="it">Va bene! va bene! Songo diechi nachonale... E un qui
+                  se ne casa?... Bisoña paga andichipate pei publicazione... amonestazione... A
+                  mushash é de cá?... ¡Eh!... vedite!... diechi nachonale é poca roba!</seg></p>
             <p>—Espere un poco, señor cura!... Es que yo quisiera la ¿cómo se dice? ¡ah! ¡sí! la
                despensa de las amonestaciones....</p>
-            <p>—Allora so tranta!</p>
+            <p>—<seg type="oral" xml:lang="it">Allora so tranta!</seg></p>
             <p>—Y que nos casara en casa de la novia....</p>
-            <p>—Allora so sesanta... Un pozo fá de meno.</p>
+            <p>—<seg type="oral" xml:lang="it">Allora so sesanta... Un pozo fá de meno.</seg></p>
             <p>—¡Oh! por eso no importa, señor cura: se le pagarán los sesenta pesos... Pero, ¿y
                cuándo nos podrá casar?</p>
-            <p>—Cuanne vulite... ¿E qui é a compromesa?</p>
+            <p>—<seg type="oral" xml:lang="it">Cuanne vulite... ¿E qui é a compromesa?</seg></p>
             <p>—La qué, dice?</p>
-            <p>—La mushás...</p>
+            <p>—<seg type="oral">La mushás...</seg></p>
             <p>—¡Ah! ¡Sí! Doña Carolina, la viuda, ¿sabe? la de la pulpería de la Polvadera...</p>
             <p>—Va bene, va bene.</p>
             <p>Y el cura se quedó un rato callado, como pensando. Después, medio riéndose, se
@@ -714,7 +767,8 @@
                despacito, como para que nadie lo pudiese oir...</p>
             <p>¡Ah! Como me parece que alguno de ustedes no entiende el nápoli, lo voy a hacer
                hablar en castilla.</p>
-            <p>—¿Pero usté quiere casarse de veras?... ¿en el libro de la parroquia?—me dijo.</p>
+            <p>—¿Pero <seg type="oral">usté</seg> quiere casarse de veras?... ¿en el libro de la
+               parroquia?—me dijo.</p>
             <p>Al principio no le entendí lo que quería decirme y lo miré azorado.</p>
             <p>—¿Por qué me dice eso?—le pregunté por fin.</p>
             <p>—¿Eh?—me contestó el muy sinvergüenza.—Porque hay algunos que quieren casarse, sí,
@@ -729,21 +783,22 @@
                para casar así, pero nadie tiene que saberlo, porque es un secreto de la iglesia... y
                también es mucho más caro que el otro casamiento...</p>
             <p>¡Qué iba a tener permiso el cura picarón! Era una historia que había inventado para
-                  <seg rend="italic">far l' América</seg>, y llenar pronto el bolsillo aunque se
-               fuera al infierno derechito,—tantas ganas tenía de volverse a su tierra a comer
-               pulenta y macarrones.</p>
-            <p>Pero, después de un rato... la verdá... pensé que no sería malo casarse así, como él
-               decía, aunque nunca, ni menos entonces, se me había pasado por la cabeza engañar a la
-               gringa, tan buena y tan cariñosa... El diablo del cura me tentó, yo no tenía la
-               culpa, al fin y al cabo, y como lo que era por plata no había que echarse atrás,
-               porque Carolina tenía bastante, pisé el palito, me pareció que esa era una gran
-               seguridad para mí, y le dije al cura:</p>
+                  <seg rend="italic" type="foreign" xml:lang="it">far l' América</seg>, y llenar
+               pronto el bolsillo aunque se fuera al infierno derechito,—tantas ganas tenía de
+               volverse a su tierra a comer pulenta y macarrones.</p>
+            <p>Pero, después de un rato... la <seg type="oral">verdá</seg>... pensé que no sería
+               malo casarse así, como él decía, aunque nunca, ni menos entonces, se me había pasado
+               por la cabeza engañar a la gringa, tan buena y tan cariñosa... El diablo del cura me
+               tentó, yo no tenía la culpa, al fin y al cabo, y como lo que era por plata no había
+               que echarse atrás, porque Carolina tenía bastante, pisé el palito, me pareció que esa
+               era una gran seguridad para mí, y le dije al cura:</p>
             <p>—¿Y cuánto sería el gasto de ese modo, padre Papagna?</p>
             <p>—Trechento pesi. —¿No puede algo menos?—le pregunté, porque para rebajar siempre hay
                tiempo.</p>
-            <p>—Ni un chentavo!... Y además, usté me va jurar, por el santo Dios y la santísima
-               Virgen, que no le va a decir nada a nadie, de mientras yo esté en <seg rend="italic"
-                  >cuest' América!</seg>...</p>
+            <p>—Ni un <seg type="oral">chentavo</seg>!... Y además, <seg type="oral">usté</seg> me
+               va jurar, por el santo Dios y la santísima Virgen, que no le va a decir nada a nadie,
+               de mientras yo esté en <seg rend="italic" type="foreign" xml:lang="it">cuest'
+                  América!</seg>...</p>
             <p>—¡Qué quiere, padre! No puedo darle tanto... Y ni le pago, ni juro,—añadí, para
                obligarlo a rebajar.</p>
             <p>Él medio se me asustó, y palmeándome el hombro, comenzó a ver si me amansaba. Pero no
@@ -772,10 +827,10 @@
             <p>Puse la mano como él decía, y volví a jurar.</p>
             <p>—¡Bueno! ahora levántese, dígame cuándo quiere casarse, y se puede ir no más.</p>
             <p>—Hoy es jueves. El lunes a la noche, ¿no le parece?</p>
-            <p>—Benissimo! a la nove, no?</p>
+            <p>—<seg type="oral" xml:lang="it">Benissimo! a la nove, no?</seg></p>
             <p>—Muy bien;... y ¿no tenemos que confesarnos?</p>
-            <p>—Eh! qué confesarnos, ni confesarnos!... ¡para esta clase de casamiento no se
-               prechisa!...</p>
+            <p>—Eh! qué confesarnos, ni confesarnos!... ¡para esta clase de casamiento no se <seg
+                  type="oral">prechisa</seg>!...</p>
          </div>
          <div>
             <head>IX</head>
@@ -797,14 +852,14 @@
                en dos minutos, hizo firmar la partida de casamiento, la firmó él también, salió al
                patio conmigo, me dio el papel sin que nadie lo viera, montó el sotreta, y se largó
                al trotecito para el pueblo, gritando:</p>
-            <milestone type="figure"/>
-            <p>—¡Eh! ¡que siano felíche!...</p>
+            <milestone type="figure" unit="section"/>
+            <p>—<seg type="oral" xml:lang="it">¡Eh! ¡que siano felíche!...</seg></p>
             <p>No se quedó a comer como lo había invitado Carolina—y eso que era un gran
                tragaldabas, —seguramente porque en el Pago no se fuera a maliciar la cosa del
                casorio falluto.</p>
             <p>Pero se llevó un pollo asado, una botella de Chianti y otras cositas más...</p>
             <p>Carolina, que se pintaba sola para esas cosas, había hecho una cenita de regular
-               arriba,—y los cuatro,—yo, ella, ño Cipriano y la parda,—nos sentamos a comer y á
+               arriba,—y los cuatro,—yo, ella, ño Cipriano y la parda,—nos sentamos a comer y a
                chupar en grande. ¡No, si era chacota!.... El viejo se le prendió al vino como guacho
                hambriento a leche recién ordeñada. La parda, del consiguiente. Carolina se puso
                medio alegrona, y yo... ¡no les digo nada!... A los postres ño Cipriano, para rematar
@@ -824,7 +879,8 @@
                relampagueándole los ojos.</p>
             <p>Yo la atajé cerca del palenque, para pedirle le que no fuera a decir nada del
                casamiento, que tenía que ser cosa muy secreta.</p>
-            <p>—¿Y a quién l'he d'ecir?—me contestó,— si pronto vo a dirme del pago!...</p>
+            <p>—<seg type="oral">¿Y a quién l'he d'ecir?</seg>—me contestó,— <seg type="oral">si
+                  pronto vo a dirme del pago!</seg>...</p>
             <p>Y era verdad, porque a los dos meses se fue.</p>
             <p>Pero ¡miren lo que son las cosas! Habíamos empezado tan bien cuando ¡zás-trás! no
                faltó quien viniera a descomponer el baile! En esta vida no hay fiesta completa.</p>
@@ -833,7 +889,7 @@
             <p>—¿Che, lo has visto al viejo?</p>
             <p>—No, ¿y vos?—le contesté.</p>
             <p>—Yo tampoco.</p>
-            <p>—Se habrá ido p'al arroyo con los chanchos.</p>
+            <p>—Se habrá ido <seg type="oral">p'al</seg> arroyo con los chanchos.</p>
             <p>—¿Que no ves los chanchos encerrados en el chiquero? ¡quién sabe si no le ha pasado
                algo!...</p>
             <p>—Estará durmiendo la mona; pero, no le hace, vamos a ver.</p>
@@ -858,8 +914,8 @@
                Después de mucho registrar y molernos a preguntas, de cómo había sido, y cómo no, se
                llevaron a ño Cipriano en un carrito, para abririo y ver de qué espichó, y me quedé
                solo con Carolina, todavía más triste y asustada.</p>
-            <p>—¡Lo van a achurar al pobre!... ¡Qué desgracia!... <seg rend="italic">Maledetta
-                  sorte!</seg></p>
+            <p>—¡Lo van a achurar al pobre!... ¡Qué desgracia!... <seg rend="italic" type="foreign"
+                  xml:lang="it">Maledetta sorte!</seg></p>
             <p>Y volvió a llorar a sollozos.</p>
             <p>—¡Miren, la mujer tan grande y tan pazguata!... Déjese de llanto misia Carolina, que
                eso es de criaturas,—le dije en broma.—¡Para lo que va a sufrir ño Cipriano con que
@@ -919,7 +975,8 @@
             <p>Carolina a todo esto, viendo que la platita se le iba como el agua de una tina sin
                arcos, comenzó a armarme camorra peor que nunca.</p>
             <p>—¡Así no podemos seguir! ¡Estás tirando todo lo que he ganado con mi <seg
-                  rend="italic">trabaco</seg>, canalla!—me decía medio rabiando, medio llorando.</p>
+                  rend="italic" type="oral">trabaco</seg>, canalla!—me decía medio rabiando, medio
+               llorando.</p>
             <p>Cuando me hacía enojar, mucho, yo gritaba también y másjuerte que ella.</p>
             <p>—¡Déjame en paz! ¡sos una gringa de porra! ¡No me incomodes que te puede costar muy
                caro! ¡Calláte la boca, y más que ligero! ¿eh? ¿me has entendido?... ¡Si no te
@@ -966,7 +1023,7 @@
                Ferreiro, para que le guardara las espaldas, y para que asustara a sus contrarios
                políticos... ¡con nada! palizas y hasta puñaladas y tajos si a mal no venía.</p>
             <p>—¡Lindo su tordillo!—le dije, eligiéndolo de ahijado, porque era hombre de meterle un
-               cien y es lo que me convenía.—¡Lástima fque se haya puesto tan gordo!</p>
+               cien y es lo que me convenía.—¡Lástima que se haya puesto tan gordo!</p>
             <p>—¿Gordo? ¡No embrome! Está en carnes, compadre, y es capaz de tragarse al más pintan.
                Y eso, que venimos de lejos...</p>
             <p>¡Mentira! Hacía una semana que lo tenía descansadito en el Pago, preparándolo.</p>
@@ -1024,11 +1081,12 @@
             <p>Yo ya me encomendaba a la Virgen viendo la cosa mal parada, y el bárbaro aquel de
                seguro me achura, si no llega Carolina, corriendo y chillando, hecha una loca, y no
                sé cómo, con la desesperación, ¡seguro! le arranca el cuchillo de la mano.</p>
-            <p>—¡Y ustedes lo <seg rend="italic">decan</seg>, y ustedes lo <seg rend="italic"
-                  >decan!</seg>—les gritaba a los mirones.</p>
-            <p>Los gauchos nos rodearon, desapartándonos <milestone type="figure"/> y recién
-               entonces se acercó el comisario Barraba. Yo había hecho la chambonada de no decirle
-               la cosa del zaino, y él le jugó al tordillo... ¡Se necesita andar en la mala!...</p>
+            <p>—¡Y ustedes lo <seg rend="italic" type="oral">decan</seg>, y ustedes lo <seg
+                  rend="italic" type="oral">decan!</seg>—les gritaba a los mirones.</p>
+            <p>Los gauchos nos rodearon, desapartándonos <milestone type="figure" unit="section"/> y
+               recién entonces se acercó el comisario Barraba. Yo había hecho la chambonada de no
+               decirle la cosa del zaino, y él le jugó al tordillo... ¡Se necesita andar en la
+               mala!...</p>
             <p>Contreras, y la mayor parte de los paisanos alegaban que el tordillo había ganado en
                buena ley, y que la rodada fue porque el zaino mancarrón, flojo de patas, no era para
                correr... El juez de la carrera se desgañitaba al cuete; no le llevaban el apunte, ni
@@ -1044,8 +1102,8 @@
             <p>Carolina me miraba con los ojos saltones y de veras que la -cosa no era para
                menos.</p>
             <p>—¡Mi alma! ¡te debo la vida!—le dije.</p>
-            <p>—¡Si, sí!—contestó medio llorando.—Pero no <seg rend="italic">cugués, no cugués</seg>
-               más, por Dios!</p>
+            <p>—¡Si, sí!—contestó medio llorando.—Pero no <seg rend="italic" type="oral">cugués, no
+                  cugués</seg> más, por Dios!</p>
             <p>—¡Sí, perdé cuidan!</p>
             <p>Y me puse a despachar copas y a chupar yo también, para olvidarme de tanta pena, y
                ¡qué quieren! el ginebrón me hizo voracear y empecé a las convidadas. ¡Miren qué
@@ -1096,7 +1154,7 @@
                rabia era capaz de no firmar la escritura y hasta de echarme de la pulpería... y
                ¡como un poste!</p>
             <p>—¡Si yo hubiera sabido!—gritaba la gringa. —¡Si yo hubiera sabido! <seg rend="italic"
-                  >porca la...!</seg></p>
+                  type="foreign" xml:lang="it">porca la...!</seg></p>
             <p>Y se agarraba los pelos. Pero firmó...</p>
             <p>¿A qué deciries que los pesos del Banco de Italia ya se habían ido por un camino?
                Quedaba la pulpería... pero casi tan pelada como la misma palma de la mano... ni un
@@ -1119,28 +1177,30 @@
                hasta agarró un palo, y principió a darme de garrotazos... ¡Como que estas son
                cruces! ¡Una paliza!... ¡A mí!...</p>
             <p>¡Yo, qué quieren! pelé el cuchillo, naturalmente sin intención de lastimarla; y sólo
-               cuando me vió con él en la mano, se me separó, pero saltándosele los ojos, y echando
+               cuando me vio con él en la mano, se me separó, pero saltándosele los ojos, y echando
                espuma por la boca. ¡Nunca la había visto tan rabiosa!... ¡Parecía una tigra!...</p>
             <p>—¡Canalla! ¡Bandido! ¡Ladrón!... ¿De ese modo te acordás que me debes la vida?
-               Devolveme mi plata, <seg rend="italic">birbante, canaglia!</seg></p>
+               Devolveme mi plata, <seg rend="italic" type="foreign" xml:lang="it">birbante,
+                  canaglia!</seg></p>
             <p>Y yo, ¿cómo iba a dejar que siguiera diciéndome esas cosas, y hasta zurrándome como á
                una criatura?</p>
             <p>—¡Mira, Carolina!—le dije sin soltar el cuchillo. —Yo ahora mismo me mando mudar y
                para siempre, ¿entendés? ¡Ya no te puedo aguantar más!</p>
             <p>Se le cambió la cara, pero todavía siguió gritando é insultándome.</p>
-            <p>—¡Qué! ¿Te pensás ir, Madona! ¡después de haberme dejado desnuda y en la calle,
-               canalla, sinvergüenza, ladrón! Ah, no, <seg rend="italic">per Dio!</seg> sos mi
-               marido, y tenes que quedarte aquí, a <seg rend="italic">trabucar</seg> como yo, <seg
-                  rend="italic">porca la</seg>...</p>
+            <p>—<seg type="oral">¡Qué! ¿Te pensás ir, Madona! ¡después de haberme dejado desnuda y
+                  en la calle, canalla, sinvergüenza, ladrón! Ah, no, <seg rend="italic"
+                     type="foreign" xml:lang="it">per Dio!</seg> sos mi marido, y tenes que quedarte
+                  aquí, a <seg rend="italic" type="oral">trabucar</seg> como yo, <seg rend="italic"
+                     type="foreign" xml:lang="it">porca la</seg>...</seg></p>
             <p>Yo me reía a carcajadas.</p>
             <p>—¿Y quién te ha dicho que soy tu marido?—le dije—¡Pues no hay tal! No sos más que mi
                querida.</p>
             <p>—¡Mentís, canalla!</p>
             <p>—¿Que es mentira? ¡Sí! anda pregúntaselo al cura y verás...</p>
             <p>—El cura Papagna...</p>
-            <p>— ¡Qué! tu nápolis se ha ido hace un mes a <seg rend="italic">mangiar macaroni</seg>
-               en tu tierra... Anda, pregúntaselo al nuevo, si hay apunte de tu casamiento en la
-               iglesia...</p>
+            <p>—¡Qué! tu nápolis se ha ido hace un mes a <seg rend="italic" type="foreign"
+                  xml:lang="it">mangiar macaroni</seg> en tu tierra... Anda, pregúntaselo al nuevo,
+               si hay apunte de tu casamiento en la iglesia...</p>
             <p>Me miraba con tamaña boca abierta, sin querer creer lo que le decía... De repente, le
                pareció que debía ser cierto... Asustada, desesperada, loca, salió corriendo. Vi que
                se largaba a pie camino del Pago, en cabeza, con la ropa de entre casa... Seguro que
