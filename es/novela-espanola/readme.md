@@ -1,4 +1,4 @@
-Corpus de novelas de la Edad de Plata: Corpus of Spanish Novel from 1880-1940
+Corpus of Spanish Novel from 1880-1940: Corpus de novelas de la Edad de Plata
 ========================================
 
 This corpus contains  24 texts from 8 Spanish authors (1 666 896 words). It is the first release of the whole corpus of the PhD thesis of José Calvo Tello, who is part of the young research group CLiGS, at the University of Würzburg, Germany.
