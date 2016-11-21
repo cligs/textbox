@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">1117</measure>
+				<measure unit="divs">10</measure>
+				<measure unit="words">23138</measure>
+				<measure unit="chars">138445</measure>
+				<measure unit="size_kb">175</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">1080</measure> 
+				<measure unit="line_verses">2</measure> 
+				<measure unit="heads">10</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">1068</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">208</measure> 
+				<measure unit="numbers">1</measure> 
+				<measure unit="puncts">5773</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0042</idno>
 			</publicationStmt>
@@ -34,43 +54,35 @@
 		</encodingDesc>
 		<profileDesc>
 			<abstract source="MdLE10">
-				<p>Sigüenza solo tiene dieciocho años. Viaja en un asno y le sirve de guía un arriero. SE dirige al foco leproso de PArcent; de ahí que la obra lleve el subtítulos de APuntes de parajes leprosos. Tempranamente toma conciencia de la crueldad y el dolor de la vida humana.</p>
+				<p>Sigüenza solo tiene dieciocho años. Viaja en un asno y le sirve de guía un arriero. Se dirige al foco leproso de Parcent; de ahí que la obra lleve el subtítulos de "Apuntes de parajes leprosos". Tempranamente toma conciencia de la crueldad y el dolor de la vida humana.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label">apuntes</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="2">modernist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">social</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">naturalist</term>
-					<term type="subgenre-lithist"></term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">rural</term>
+
+					<term type="subgenre" subtype="1">modernist</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">symbolic</term>
+					<term type="subgenre" subtype="2">autobiographical</term>
+
+					<term type="subgenre-lithist">libro de viaje</term>
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="setting">rural</term>
 					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
+					
+					
 
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -351,7 +363,7 @@
 				<p>Y  él, desde la esquina, dijo:</p>
 				<p>-Bueno.</p>
 				<p> Seguidamente cantó.</p>
-				<milestone/>
+				<milestone unit="section"/>
 				<p>Por la negrura tambaleábase la leprosa. Tenía de la calle honda. En aquellas horas de soledad, vagaba por el pueblo. Iba con la confianza de los sanos. Eso daba placer. Ellos no lo sabían.</p>
 				<p>En noches de luna mirábase su sombra; una deforme sombra que se tendía por el suelo, se quebraba en las  esquinas,  menguaba al trepar las paredes.</p>
 				<p>Decíase que debía espantar su figura larga, siniestra -como ciprés que anduviese-, por los viejos callejones untados de lumbre triste de luna.</p>
@@ -1196,7 +1208,7 @@
 				<p>«Esos seres, modelos de sociables, también se acaban, se aniquilan en guerras estupendas...».</p>
 				<p>¡Falta amor; en todo falta amor!</p>
 				<p>Nosotros démonos nuestro alivio, aunque amor no invada y enternezca nuestra alma. No aguardemos a que ese <seg rend="italic">patológica</seg> y universal amor nos lleve a hacer el bien. Acaso no lo sintamos nunca.</p>
-				<milestone/>
+				<milestone unit="section"/>
 				<p>El paisaje ha respirado la fragancia de sus entrañas generosas. Está quieto bajo la inundación de oro.</p>
 				<p>Entre el limpio follaje de los árboles aparece la seda lujosa del cielo.</p>
 				<p>Una  alondra  ha  cantado  su  quejumbre en la lluvia de sol.</p>

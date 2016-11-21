@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">796</measure>
+				<measure unit="divs">18</measure>
+				<measure unit="words">51975</measure>
+				<measure unit="chars">305707</measure>
+				<measure unit="size_kb">326</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">747</measure> 
+				<measure unit="line_verses">4</measure> 
+				<measure unit="heads">18</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">725</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">424</measure> 
+				<measure unit="numbers">1</measure> 
+				<measure unit="puncts">13115</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0082</idno>
 			</publicationStmt>
@@ -33,41 +53,34 @@
 			<p></p>
 		</encodingDesc>
 		<profileDesc>
-			<abstract>
-				<p source="MdLE7">La obra versa sobre la pena de muerte, piedra angular de la sociedad. El tema está tratado en la comunidad provinciana de Marineda, algunos de cuyos habitantes como el fiscal Arturo Cáñamo, alias Siete patíbulos, la defienden, mientras que el médico don Pelayo Moragas, el abogado Lucio Febrero y algunos otros pretenden abolirla, firmes en la idea de que la piedra angular debe ser "la eficiencia moral, económica y educadora".  [...] El tema da pie, claro está, a que se nos muestren algunas historias truculentas. Cobra espcialísimo relieve el drama del verdugo Juan Rojo, marginado por el estigma vergonzante que pesa sobre su profesión. EL conflicto estalla cuando tiene que ejercer sus funciones y el doctor Moraga le ofrece, a cambio de que se niegue a cumplir la sentencia, un brillante porvenir para su hijo Telmo. Rojo, que no se siente capaz de faltar a su obligación ni de dejar de favorecer a su hijo, opta por el suicidio. Sobrecogedora es la última escena en que se describe cómo se va sumergiendo en las olas del mar.</p>
+			<abstract source="MdLE7">
+				<p>La obra versa sobre la pena de muerte, piedra angular de la sociedad. El tema está tratado en la comunidad provinciana de Marineda, algunos de cuyos habitantes como el fiscal Arturo Cáñamo, alias Siete patíbulos, la defienden, mientras que el médico don Pelayo Moragas, el abogado Lucio Febrero y algunos otros pretenden abolirla, firmes en la idea de que la piedra angular debe ser "la eficiencia moral, económica y educadora".  [...] El tema da pie, claro está, a que se nos muestren algunas historias truculentas. Cobra espcialísimo relieve el drama del verdugo Juan Rojo, marginado por el estigma vergonzante que pesa sobre su profesión. EL conflicto estalla cuando tiene que ejercer sus funciones y el doctor Moraga le ofrece, a cambio de que se niegue a cumplir la sentencia, un brillante porvenir para su hijo Telmo. Rojo, que no se siente capaz de faltar a su obligación ni de dejar de favorecer a su hijo, opta por el suicidio. Sobrecogedora es la última escena en que se describe cómo se va sumergiendo en las olas del mar.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
+					<term type="subsubgenre">novela de tesis</term>
 					<term type="genre-label"></term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="3">naturalist</term>
-					<term type="subgenre-lithist" subtype="3">novela naturalista</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">small-city</term>
-					<term type="protagonist-gender" cert="low" resp="#jct">male</term>
+					
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="setting">small-city</term>
+					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">female</term>
-
 					
 					
 					
+					<term type="subgenre" subtype="2">philosophical</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">moralist</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="1">realist</term>
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>

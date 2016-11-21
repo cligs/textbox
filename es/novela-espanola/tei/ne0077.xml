@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -16,11 +16,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">1419</measure>
+				<measure unit="divs">32</measure>
+				<measure unit="words">83784</measure>
+				<measure unit="chars">491654</measure>
+				<measure unit="size_kb">524</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">1327</measure> 
+				<measure unit="line_verses">4</measure> 
+				<measure unit="heads">32</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">1290</measure> 
+				<measure unit="abs">1</measure> 
+				<measure unit="paragraphs_ds">714</measure> 
+				<measure unit="numbers">5</measure> 
+				<measure unit="puncts">17686</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0077</idno>
 			</publicationStmt>
@@ -48,37 +68,29 @@
 				<p>El cura retorna a Santiago y es destinado a una aldea rural en Galicia, donde unos años después recibe noticias de la muerte de Nucha. Años más tarde Don Julián recibe órdenes de volver a los Pazos de nuevo. Nada más llegar visita la tumba de Nucha. Cuando está rezando en el cementerio aparecen Perucho y Manolita. El cura se asombra al observar que Perucho va bien vestido mientras que Manolita va casi descalza.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="high">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label"></term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="3">naturalist</term>
+					
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="2">realist</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					
 					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="high" resp="#jct">rural</term>
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="setting">rural</term>
 					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">female</term>
-
 					
 					
-					
-					
-					
-
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -1112,7 +1124,7 @@
 					<p>-¿Y qué es tirar al vuelo, don Julián? -le preguntaron todos.</p>
 					<p>Como el capellán se quedó parado al hacerle tan insidiosa pregunta, ocurrióseles a los cazadores que sería cosa muy divertida darle a Julián una escopeta y un perro y que intentase cazar algo. Quieras que no quieras, fue preciso conformarse. Se le destinó el <seg rend="italic">Chonito</seg>, perdiguero infatigable, recastado, de hocico partido, el más ardiente y seguro de cuantos canes iban allí.</p>
 					<p>-En cuanto vea que el perro se para -explicábale don Eugenio al novel cazador, que apenas sabía por dónde coger el arma mortífera-, se prepara usted y le anima para que entre..., y al salir las perdices, les apunta y hace fuego cuando se tiendan... Si es la cosa más fácil del mundo...</p>
-					<p>Chonito caminaba con la nariz pegada al suelo, sus ijares se estremecían de impaciencia, de cuando en cuando se volvía para cerciorarse de que le acompañaba el cazador. De pronto tomó el trote hacia un matorral de u[r]ces, y repentinamente se quedó parado, en actitud escultural, tenso e inmóvil como si lo hubiesen fundido en bronce para colocar en un zócalo.</p>
+					<p>Chonito caminaba con la nariz pegada al suelo, sus ijares se estremecían de impaciencia, de cuando en cuando se volvía para cerciorarse de que le acompañaba el cazador. De pronto tomó el trote hacia un matorral de urces, y repentinamente se quedó parado, en actitud escultural, tenso e inmóvil como si lo hubiesen fundido en bronce para colocar en un zócalo.</p>
 					<p>-¡Ahora! -exclamó el de Naya-. Eh, Julián, mándele que entre...</p>
 					<p>-Entra, Chonito, entra -murmuró lánguidamente el capellán.</p>
 					<p>El perro, sorprendido por el tono suave de la orden, vaciló; por fin se lanzó entre las urces, y al punto mismo se oyó un revoloteo, y el bando salió en todas direcciones.</p>
