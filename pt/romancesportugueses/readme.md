@@ -5,7 +5,7 @@ Collection of 19th Century Portuguese Novels (1840-1910)
 
 Currently, this collection contains 30 19th century novels from 14 Portuguese male authors. All in all, the texts amount to 2.5 million words.
   
-The collection has been created by [Ulrike Henny](http://www.ulrike-henny.de) in the context of the young research group for [Computational Literary Genres Stylistics (CLiGS)](http://cligs.hypotheses.org/) at the University of Würzburg in Germany.
+The collection has been created by Ulrike Henny in the context of the young research group for [Computational Literary Genres Stylistics (CLiGS)](http://cligs.hypotheses.org/) at the University of Würzburg in Germany.
 
 Up to this point, the collection is not balanced with regards to authors, decades or subgenres. It was initially created to compare historical and non-historical novels, but has been expanded since then. It is meant as a small collection for use in different kinds of experiments (for example authorship attribution or topic modeling), so the selection of texts might have to be adjusted to match the use case. The indication of subgenres has been made tentatively and does not conform to a strict typology. Where the novel is primarily associated with a certain literary current (e.g. realist or expressionistic), this information has been given instead of a genre label.
 
