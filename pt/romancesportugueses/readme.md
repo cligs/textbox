@@ -25,27 +25,6 @@ See the [metadata.csv](metadata.csv) file for basic information about the novels
 |1910s texts   |              1    (66k) |
 |total         |             30 (2,506k) |
 
-### Number of texts and words by author: ###
-
-|author                            | number of texts (words) |
-|----------------------------------|-------------------------|
-|Botelho, Abel                     |              2   (XXXk) |
-|Braga, Teófilo                    |              1   (XXXk) |
-|Brandão, Zeferino                 |              4   (XXXk) |
-|Campos, Alfredo                   |              1   (XXXk) |
-|Campos Júnior, Antonio            |              1   (XXXk) |
-|Castelo Branco, Camilo            |              7   (XXXk) |
-|Dinis, Júlio                      |              2   (XXXk) |
-|Garrett, Almeida                  |              1   (XXXk) |
-|Herculano, Alexandre              |              2   (XXXk) |
-|Macedo, Diogo de                  |              1   (XXXk) |
-|Mascarenhas, Miguel               |              1   (XXXk) |
-|Pimentel, Alberto                 |              1   (XXXk) |
-|Queirós, Eça de                   |              4   (XXXk) |
-|Queirós, Eça de & Ortigão, Ramalho|              1   (XXXk) |
-|Rodrigues, Manuel Maria           |              1   (XXXk) |
-|total                             |             30 (2,506k) |
-
 ### Number of texts and words by subgenre: ###
 
 |subgenre         | number of texts (words) |
@@ -60,6 +39,29 @@ See the [metadata.csv](metadata.csv) file for basic information about the novels
 |social           |              5   (388k) |
 |travel           |              1    (38k) |
 |total            |             30 (2,506k) |
+
+
+### Number of texts and words by author: ###
+
+|author                            | number of texts (words) |
+|----------------------------------|-------------------------|
+|Botelho, Abel                     |              2   (241k) |
+|Braga, Teófilo                    |              1    (61k) |
+|Brandão, Zeferino                 |              4   (187k) |
+|Campos, Alfredo                   |              1    (28k) |
+|Campos Júnior, Antonio            |              1   (234k) |
+|Castelo Branco, Camilo            |              7   (591k) |
+|Dinis, Júlio                      |              2   (220k) |
+|Garrett, Almeida                  |              1    (38k) |
+|Herculano, Alexandre              |              2   (121k) |
+|Macedo, Diogo de                  |              1   (244k) |
+|Mascarenhas, Miguel               |              1    (59k) |
+|Pimentel, Alberto                 |              1    (57k) |
+|Queirós, Eça de                   |              4   (518k) |
+|Queirós, Eça de & Ortigão, Ramalho|              1    (67k) |
+|Rodrigues, Manuel Maria           |              1    (60k) |
+|total                             |             30 (2,506k) |
+
 
 
 ## Sources
