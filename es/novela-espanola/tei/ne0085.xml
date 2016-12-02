@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -16,11 +16,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">731</measure>
+				<measure unit="divs">18</measure>
+				<measure unit="words">40369</measure>
+				<measure unit="chars">235213</measure>
+				<measure unit="size_kb">251</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">663</measure> 
+				<measure unit="line_verses">22</measure> 
+				<measure unit="heads">18</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">623</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">303</measure> 
+				<measure unit="numbers">6</measure> 
+				<measure unit="puncts">10172</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0085</idno>
 			</publicationStmt>
@@ -35,45 +55,37 @@
 		</encodingDesc>
 		<profileDesc>
 			<abstract source="MdLT7">
-				<p>El relato autobiográfico de Gaspar de Montenegro [...]. Es un alto funcionario madrileño, pesimista y de sensibilidad enfermiza, que no se halla integrado en el círculo social que le corresponde. SE siente distinto de los demás y se recrea morbosamente en idea que le apartan de Dios. Se enamora de Rita, una enigmática mujer enferma que tiene un hijo, Rafaelín. Mantiene relaciones amorosas con ella hasta su muerte y decide quedarse con el niño; se siente violentamente atrído por la paternidad espiritual.</p>
-				<p>Quiere casarse con su novia Trini, pero a condición de que acepte a Rafaelín; la muchacha no sabe comprender los ideales de Gaspar y se niega. Montenegro solo está pendiente de la educación del niño. COntrata a un institutriz ingelsa, Annie, y a un preceptor, Solís, que es un joven maníaco a quien él saca de la miseria. EL protagonista comienza un juego peligro y macabro. Se siente atraído físicamente por Annie, pero se burla de ella porque sabe que solo busca su dinero; excita deliberadamente los feroces celos de Solís. En realidad, acecha a la muerte.</p>
-				<p>Trubu decide por fin casarse y Gaspar seinte ganas de vivir y de romper sus vínculos con la parca, pero Solís lo reta a duelo. Él se niega a defenderse. El preceptor disparar; nuestro hombre se aparta y la bala mata a Rafaelín que había acudido a defenderle. Anonadado, Gaspar comprende su orgullo y su error al atreverse a jugar con la muerte. Se pone humildemente en manos de Dios.</p>
+				<p>El relato autobiográfico de Gaspar de Montenegro [...]. Es un alto funcionario madrileño, pesimista y de sensibilidad enfermiza, que no se halla integrado en el círculo social que le corresponde. Se siente distinto de los demás y se recrea morbosamente en idea que le apartan de Dios. Se enamora de Rita, una enigmática mujer enferma que tiene un hijo, Rafaelín. Mantiene relaciones amorosas con ella hasta su muerte y decide quedarse con el niño; se siente violentamente atrído por la paternidad espiritual.</p>
+				<p>Quiere casarse con su novia Trini, pero a condición de que acepte a Rafaelín; la muchacha no sabe comprender los ideales de Gaspar y se niega. Montenegro solo está pendiente de la educación del niño. Contrata a un institutriz ingelsa, Annie, y a un preceptor, Solís, que es un joven maníaco a quien él saca de la miseria. EL protagonista comienza un juego peligroso y macabro. Se siente atraído físicamente por Annie, pero se burla de ella porque sabe que solo busca su dinero; excita deliberadamente los feroces celos de Solís. En realidad, acecha a la muerte.</p>
+				<p>Trini decide por fin casarse y Gaspar seinte ganas de vivir y de romper sus vínculos con la parca, pero Solís lo reta a duelo. Él se niega a defenderse. El preceptor disparar; nuestro hombre se aparta y la bala mata a Rafaelín que había acudido a defenderle. Anonadado, Gaspar comprende su orgullo y su error al atreverse a jugar con la muerte. Se pone humildemente en manos de Dios.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label"></term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="2">modernist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">sentimental</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre-lithist" cert="medium" resp="#jct" subtype="1">novela modernista</term>
-					<term type="subgenre-lithist" cert="medium" resp="#jct" subtype="2">novela esteticista</term>
-					<term type="narrative-perspective" cert="medium" resp="#jct">autodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">urban</term>
+					
+					<term type="subgenre" subtype="1">moralist</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="2">erotic</term>
+					<term type="subgenre" subtype="1">modernist</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">memoir</term>
+					
+					<term type="subgenre-lithist" subtype="1">novela modernista</term>
+					<term type="subgenre-lithist" subtype="2">novela esteticista</term>
+					<term type="narrative-perspective">autodiegetic</term>
+					<term type="setting">big-city</term>
 					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">female</term>
-
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -316,7 +328,7 @@
 				<p>Quiero gritar, y la voz se me apaga. Acaba de salir a danzar una pareja nueva... ¡Rita! ¡Rita!, ¡y de la mano de su niño; de la mano de Rafaelín!</p>
 				<p>Para bailar con su nene se ve obligada a bajarse. Sus cabellos de tinieblas, flotando, hacen resaltar la blancura sepulcral de su cara exangüe y delicadísima. El niño, tan rosado, ahora tiene carrillos de azucena... y los dos, arrastrados por el torbellino, fascinados por la mueca sardónica de la Guadañadora, brincan, se contorsionan epilépticos, y corren desbocados hacia la sima central.</p>
 				<p>Movido de horrible curiosidad, me acerco a la boca del pozo del abismo. Allá en el fondo -si hay fondo-, a profundidad incalculable, creo distinguir otro resplandor semejante al del sol enfermo y exánime que alumbra la llanura gris... Es algo confusamente rojizo, que se inflama y se extingue; es el ojo de carbunclo de un dragón que parpadea... ¡Fuego...! ¡Fuego...! ¡Hay fuego en la sima!</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>La voz de Marichu, ronca de susto:</p>
 				<p>-¡Señorito! ¡Señorito! ¡Venga! ¡La señorita se muere!</p>
 				<p>Y el médico y yo, despertados a un tiempo, él del feliz sueño de la buena digestión, yo del devaneo de mi fantasía volando con alas de murciélago, nos precipitamos hacia la alcoba.</p>
@@ -812,7 +824,7 @@
 				<p>¡El niño!... Mi <seg rend="italic">hijo...</seg> el <seg rend="italic">hijo</seg> de mi voluntad, de mi aspiración, de mi cariño espiritualizado, superior al instinto... ¡Y yo que no pensaba en él!</p>
 				<p>-Allá voy ahora mismo -dije, precipitando el cepillado de mi pelo y rechazando el chocolate.</p>
 				<p>Al niño -cuenta mía es- hay que dejarle bien acomodado, bien seguro en la tierra... No se lo legaré a Camila, sino a Trini, ya que un momento ha parecido tener entrañas para él... Si es preciso, me uniré a Trini en matrimonio, y al regresar de la iglesia... Quizá esto sea lo mejor. ¡Ea!, a poner en práctica lo decidido... Cuanto antes. Hoy mismo iré al balneario. Si Trini accediese, antes de una semana... Fingiré impaciencias de hombre súbitamente entusiasmado y que quiere lograr pronto su deseo, temeroso de que, al correr el tiempo, el deseo se gaste... Engañaré a Camila, que me ayudará ignorando mis verdaderos fines... ¿Serán estos planes el disfraz de una cobardía ante el acto supremo? No; es lo contrario; es que el acto no será en mí fruto de un arrebato, sino cristalización de aspiraciones y tendencias continuas, contra las cuales ya no tengo defensa. Bien me he resistido... Ya no batallo. Seca mía, venciste. Te llevo en la masa de la sangre. Abre tu tálamo frío...</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>Han transcurrido pocas horas desde que así pensaba... y en ellas cupo el suceso más espantoso... No sé cómo decírmelo a mí mismo, en mi autoconfesión... Y el suceso es lo de menos; nunca un suceso vale nada... Los efectos del suceso en mí... Soy <seg rend="italic">otro</seg>, y de esta vez, soy otro para siempre.</p>
 				<p>¿Cómo se ha inmutado mi ser? He aquí lo que no comprendo, lo que me confunde, y al mismo tiempo me inunda de dolor y de felicidad... No acierto, ni quiero, con el análisis de este sentir. Dos fuentes son mis ojos, y el manantial está tan adentro..., tan adentro... y se encontraba tan cerrado, tan intacto... que de fijo no lo agotaré nunca...</p>
 				<p>Reconstruyo la escena a esta hora avanzada de la noche, entre la majestad del silencio, con la ventana abierta, el chisporroteo de las velas encendidas, hallándome libre de la sociedad humana, solo y acompañado... ¡Basta! Tengo que escucharme a mi propio, tengo que intimar conmigo..., tengo que persuadirme de esta maravilla que en mi resplandece. ¡En mí! ¿Y qué puede importarme sino lo que es en mí? En mí mismo es donde todo sucede para mí, aunque lo produzca algo que no soy yo...</p>

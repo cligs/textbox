@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">1983</measure>
+				<measure unit="divs">10</measure>
+				<measure unit="words">100190</measure>
+				<measure unit="chars">586127</measure>
+				<measure unit="size_kb">624</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">1945</measure> 
+				<measure unit="line_verses">8</measure> 
+				<measure unit="heads">10</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">1927</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">566</measure> 
+				<measure unit="numbers">6</measure> 
+				<measure unit="puncts">18191</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0019</idno>
 			</publicationStmt>
@@ -40,18 +60,20 @@
 				<p>A la postre, los trabajadores rebeldes son aplastados y deciden buscar las mejoras por la vía de la concordia. EL pesimismo de la derrota queda paliado por las consideraciones finales de Salvatierra que, seguro de que al final triunfará la revolución, pone su esperanza en las ciudades, que no van a dejarse engañar por el falso consuelo del vino.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="author-gender">male</term>
+					
+					
 					
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="3">social</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="2">realist</term>
+					<term type="subgenre" subtype="1">naturalist</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label">novela</term>
 					
@@ -61,21 +83,7 @@
 					
 					<term type="subgenre-lithist" cert="high" resp="#jct" subtype="3">novela social</term>
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -2022,7 +2030,7 @@
 				<p>El mocetón siguió exponiendo sus planes. Don Fernando se encargaba de convencer al viejo; además, le daría cartas para sus amigos de América. Antes de quince días se embarcarían en Cádiz. ¡Huir, huir cuanto antes de una tierra de patíbulos, donde los fusiles tenían la misión de aplacar el hambre, y los ricos le tomaban al pobre la vida, la honra y la felicidad!...</p>
 				<p>—Cuando lleguemos—continuaba Rafael—serás mi mujer. Repetiremos nuestras pláticas de la reja. Mejor aún. Extremaré mi cariño pa que no creas que queda en mí ningún recuerdo amargo. Todo pasó. Don Fernando tié razón. Las vergüenzas del cuerpo representan muy poco... El amor es lo que importa; lo demás son preocupaciones de animales. ¿Tu corazoncito es mío? pues ya lo tengo todo... ¡María de la Lú! ¡Compañerita del arma! Vamos a marchar de cara al sol: ahora nacemos de veras; hoy empieza nuestro amor. Deja que te bese por primera vez en mi vida. Abrázame, compañera: que vea yo que eres mía, que serás el sostén de mi fuerza, mi apoyo cuando empiece la lucha allá abajo...</p>
 				<p>Y los dos jóvenes se abrazaron en la entrada de la casucha, juntando sus bocas sin ningún estremecimiento de pasión carnal, manteniéndose largo rato unidos, como si despreciasen el escándalo de las gentes, como si con su amor desafiaran los aspavientos de un mundo viejo que iban a abandonar.</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>Salvatierra acompañó en Cádiz hasta la escala del trasatlántico a su camarada, el señor Fermín, que partía para el nuevo mundo, con Rafael y María de la Luz.</p>
 				<p>¡Salud! Ya no volverían a verse. El mundo es demasiado grande para los pobres, siempre inmovilizados en el mismo sitio por las raíces de la necesidad.</p>
 				<p>Salvatierra sintió saltársele las lágrimas. Todas sus amistades, los recuerdos de su pasado, desvanecíanse esparcidos por la muerte o la desgracia. Se quedaba solo en medio de un pueblo, al que había intentado libertar y que ya no le conocía. Las nuevas generaciones le miraban como un loco que inspiraba cierto interés por su ascetismo; pero no entendían sus palabras.</p>

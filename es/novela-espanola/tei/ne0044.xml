@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">574</measure>
+				<measure unit="divs">9</measure>
+				<measure unit="words">19866</measure>
+				<measure unit="chars">114286</measure>
+				<measure unit="size_kb">127</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">545</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">9</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">536</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">196</measure> 
+				<measure unit="numbers">0</measure> 
+				<measure unit="puncts">5735</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0044</idno>
 			</publicationStmt>
@@ -34,43 +54,35 @@
 		</encodingDesc>
 		<profileDesc>
 			<abstract source="MdLE10">
-				<p>Está protagonizada por Federico Urios, un artista que cuenta su historia al autor, evocando sombríos recuerdos. Es una criatura decadente, con ramalazos de crueldad, romántica y exaltada, de perfiles borrosos y doliente sensibilidad. Ddesde su infancia se siente ahogado por el medio en que vive y sufre la falta de amor, encarnada primero en su padre y luego en su mujer. Ahora tiene necesidad de hablar para justificar el extravío a que ha llegado.</p>
+				<p>Está protagonizada por Federico Urios, un artista que cuenta su historia al autor, evocando sombríos recuerdos. Es una criatura decadente, con ramalazos de crueldad, romántica y exaltada, de perfiles borrosos y doliente sensibilidad. Desde su infancia se siente ahogado por el medio en que vive y sufre la falta de amor, encarnada primero en su padre y luego en su mujer. Ahora tiene necesidad de hablar para justificar el extravío a que ha llegado.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="2">modernist</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">sentimental</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">naturalist</term>
+					<term type="genre-label">novela</term>
+
+					<term type="subgenre" subtype="1">modernist</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="1">psicological</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">memoir</term>
+					<term type="subgenre" subtype="2">bildungsroman</term>
+
 					<term type="subgenre-lithist"></term>
-					<term type="narrative-perspective" cert="medium" resp="#jct">homodiegetic</term>
-					<term type="setting" cert="low" resp="#jct">rural</term>
+					<term type="narrative-perspective" >homodiegetic</term>
+					<term type="setting">rural</term>
 					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>

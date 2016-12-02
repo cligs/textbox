@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -16,11 +16,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">2258</measure>
+				<measure unit="divs">30</measure>
+				<measure unit="words">114210</measure>
+				<measure unit="chars">637259</measure>
+				<measure unit="size_kb">699</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">2180</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">29</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">2151</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">1256</measure> 
+				<measure unit="numbers">3</measure> 
+				<measure unit="puncts">25167</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0146</idno>
 			</publicationStmt>
@@ -35,19 +55,20 @@
 		</encodingDesc>
 		<profileDesc>
 			<abstract source="MdLE7">
-				<p>Silda, a quien todos llaman Sotileza, es una pobre huérfana que ha sido adoptada por los bondadosos Sidora y Mechelín que la quieren como si fuera su propia hija. CUando empieza a crecer, se convierte en una bellísima doncella cuyo amor se disputan Cleto, hijo de un metrimonio de la clase baja de vida poco ejemplar, formado por el tío Mocejón y Sargüeta, y Andrés, perteneciente a la burguesía acomodada. Pero Sotileza rechaza a los dos y sólo favorece al monstruoso Muergo, un tipo bruto y repugnante. Tras una serie de peripecias, Andrés se embarca para la pesca de merluza; hay un terrible temporal en el que está a punto de perder la vida. Muergo muere en esta ocasión. SE decide el compromiso entre Silda y Cleto antes de que este se marche a cumplir tres años de servicio. Andrés acabará emparejándose con Luisa, hermana de su socio Tolín.</p>
+				<p>Silda, a quien todos llaman Sotileza, es una pobre huérfana que ha sido adoptada por los bondadosos Sidora y Mechelín que la quieren como si fuera su propia hija. CUando empieza a crecer, se convierte en una bellísima doncella cuyo amor se disputan Cleto, hijo de un metrimonio de la clase baja de vida poco ejemplar, formado por el tío Mocejón y Sargüeta, y Andrés, perteneciente a la burguesía acomodada. Pero Sotileza rechaza a los dos y sólo favorece al monstruoso Muergo, un tipo bruto y repugnante. Tras una serie de peripecias, Andrés se embarca para la pesca de merluza; hay un terrible temporal en el que está a punto de perder la vida. Muergo muere en esta ocasión. Se decide el compromiso entre Silda y Cleto antes de que este se marche a cumplir tres años de servicio. Andrés acabará emparejándose con Luisa, hermana de su socio Tolín.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label"></term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="2">realist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">naturalist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="2">bildungsroman</term>
 					<term type="subgenre-lithist" cert="low" resp="x">novela costumbrista</term>
 					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
 					<term type="setting" cert="medium" resp="#jct">small-city</term>
@@ -55,18 +76,6 @@
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
-
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					
 					
 					
@@ -217,7 +226,7 @@
 				<p>-Yo voy también en cuanto deje estos calzones a mi madre.</p>
 				<p>-Y yo también -añadió Sula.</p>
 				<p>Silda llamó burro a Muergo; Guarín, Cole y los demás dijeron que se iban, quién al Muelle-Anaos, quién a las lanchas, quién a otros quehaceres, y Muergo a dejar los calzones en su casa, y se separaron a buen andar.</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>Todo esto acontecía en una hermosa mañana del mes de junio, bastantes años... muchos años hace, en una casa de la calle de la Mar, de Santander; de aquel Santander sin escolleras ni ensanches; sin ferrocarriles ni tranvías urbanos; sin la plaza de Velarde y sin vidrieras en los claustros de la catedral; sin <seg rend="italic">hoteles</seg> en el Sardinero y sin ferias ni barracones en la Alameda segunda; en el Santander con dársena y con pataches hasta la Pescadería; el Santander del Muelle-Anaos y de la Maruca; el de la Fuente Santa y de la Cueva del tío Cirilo; el de la Huerta de los Frailes en abertal y del provincial de Burgos envejeciéndose en el cuartel de San Francisco; el de la casa de Botín, inaccesible, sola y deshabitada; el de los Mártires en la Puntida, y de la calle de Tumbatrés; el de las gigantillas el día 3 de noviembre, aniversario de la <seg rend="italic">batalla de Vargas</seg>, con luminarias y fuegos artificiales por la noche, y de las corridas en que mataba Chabiri, picaba el Zapaterillo, banderilleaba Rechina, y capeaba el Pitorro, en la plaza de Botín, con música de los Nacionales; el Santander de los Mesones de Santa Clara, del Peso público y de Mingo, la Zulema y Tumbanavíos; del Chacolí de la Atalaya y del cuartel del Reganche en la calle Burgos; del parador de Hormaeche, y de la <seg rend="italic">casa del navío</seg>; el Santander de aquellos muchachos <seg rend="italic">decentes</seg>, pero muy mal vestidos que, con bozo en la cara todavía, jugaban al bote en la plaza Vieja, y hoy comienzan a humillar la cabeza al peso de las canas, obra, tanto como de los años, de la nostalgia de las cosas veneradas que se fueron para nunca más volver; del Santander que yo tengo acá dentro, muy adentro, en lo más hondo de mi corazón, y esculpido en la memoria de tal suerte, que a ojos cerrados me atrevería a trazarle con todo su perímetro, y sus calles, y el color de sus piedras, y el número, y los nombres y hasta las caras de sus habitantes; de aquel Santander, en fin, que a la vez que motivo de espanto y mofa para la desperdigada y versátil juventud de hogaño, que le conoce de oídas, es el único refugio que le queda al arte cuando con sus recursos se pretende ofrecer a la consideración de otras generaciones algo de lo que hay de pintoresco, sin dejar de ser castizo, en esta raza <seg rend="italic">pejina</seg> que va desvaneciéndose entre la abigarrada e insulsa confusión de las modernas costumbres.</p>
 			</div>
 			<div>
@@ -1001,7 +1010,7 @@
 				<p>¡Pensar que él gastaba sus ahorros en atavíos de sociedad y de paseo!... Si le fueron insufribles estos lugares cuando había clases y categorías, qué habían de parecerle cuando, desde la introducción de los vapores y de la legión de ingleses traída por Mould a Santander para acometer las obras del ferrocarril, ya podía un mozuelo imberbe salir a la plaza con sombrero de copa alta sin temor de que se la derribaran de la cabeza a tronchazos; andaban por la calle, vestidos de señores, los marinos de la <seg rend="italic">Berrona</seg>, sin la menor señal externa de lo que habían sido todos ellos cinco años antes, y Ligo, y Sama, y Madruga, y otros tales, si bien marinos todavía por dentro, y violentándose mucho para no descubrir la hilaza al hablar, mientras andaban por acá iban al Suizo a tomar sorbete, después de haber paseado en la Alameda con levita ceñida y sombrero de copa; y chapurreaban el inglés los chicos de la calle para jugar a las canicas con los rubicundos rapaces de la «soberbia Albión»; y habían caído los paraderos de Becedo, y estaba denunciada la casa de Isidro Cortés, entre las dos Alamedas, y en capilla, para ser terraplenada, la dársena chica, y a medio rellenar la Maruca; y, en fin, que toda carne había corrompido ya su camino, y estaba la población, de punto a cabo, hecha una indignidad de mescolanzas descoloridas y de confusiones intraducibles.</p>
 				<p>Quedárase todo ello para su amigo Tolín, que no perdía paseo en las Alamedas, muy soplado de sombrero alto, guante de cabritilla y bastón de retorcida ballena, y miraba tierno a todas las hijas de los comerciantes ricos; y aun para su mismo padre, don Venancio Liencres, y otros tales, que desde aquellas juntas de pudientes padecían tales pujos de publicidad y de elocuencia mercantil, que ni paraban en casa ni cerraban boca en todo el santo día de Dios.</p>
 				<p>Sí, bien apurado el asunto, Andrés y otra media docena escasa de valientes, tan apegados como él al tufillo alquitranado y a los placeres marítimos, eran los únicos ejemplares que sobrevivían de aquella raza de anfibios, que pocos años antes lo llenaban todo en el pueblo e imprimían carácter a su juventud.</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>Así estaban las personas, las cosas y los lugares de esta puntual historia, cuando Muergo y el hijo de Mocejón se dieron aquella mano de <seg rend="italic">morrás</seg> en el portal de Sotileza.</p>
 			</div>
 			<div>
@@ -2283,7 +2292,7 @@
 				<p>-¡Hijo!... ¡Hijo!...</p>
 				<p>Andrés, estremeciéndose, alzó la cabeza; y delante de una muchedumbre estupefacta, vio a su padre con los ojos abiertos, el sombrero en la mano y la espesa y blanca cabellera revuelta por el aire de la tempestad.</p>
 				<p>Aquella emoción suprema acabó con la fuerza de su espíritu; y el escarmentado mozo, plegando su cuerpo sobre el tabladillo de la chopa, y escondiendo su cara entre las manos trémulas, rompió a llorar como un niño, mientras la lancha se columpiaba en las ampollas colosales de la resaca, y los fatigados remeros daban el necesario respiro a sus pechos jadeantes.</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>Al mismo tiempo, en medio de las brumas de enfrente, un pobre patache, abandonado ya, barrida su cubierta, desgarradas sus lonas, tremolando al viento su cordaje deshilado, entre tumbos espantosos y cabezadas locas, con el último balance echaba los palos por la banda; saltaban las cadenas de las anclas con que se agarraba al fondo, en las ansias de la desesperación; reventaba una mar contra la quilla descubierta y lanzaba el mutilado casco en medio del furor de las rompientes, cuyas espumas escupían, casi en el acto, las astillas de su despedazado costillaje.</p>
 				<p>Aquellos tristes despojos flotantes eran lo único que quedaba del <seg rend="italic">Joven Antoñito de Ribadeo.</seg></p>
 			</div>
