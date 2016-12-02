@@ -62,6 +62,13 @@ See the [metadata.csv](metadata.csv) file for basic information about the novels
 |total            |             30 (2,506k) |
 
 
+## Sources
+The texts have been compiled from the following sources:
+
+* [Luso Livros](https://www.luso-livros.net/)
+* [Project Gutenberg](http://www.gutenberg.org/)
+* [Wikisource](https://pt.wikisource.org)
+
 ## Formats
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names are given according to the following schema: identifier.xml)
