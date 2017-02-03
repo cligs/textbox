@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -17,29 +17,61 @@
             <principal xml:id="uh">Ulrike Henny</principal>
          </titleStmt>
          <publicationStmt>
-            <publisher>CLiGS</publisher>
-            <availability status="publicdomain">
-               <p/>
+            <publisher>
+               <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+            </publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
             </availability>
-            <date>2015</date>
+            <date>2016</date>
             <idno type="cligs">nh0012</idno>
+            <idno type="url"
+               >https://raw.githubusercontent.com/cligs/textbox/master/es/novela-hispanoamericana/tei/nh0012.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">Wikisource <date>2009</date>. <ref
-               target="https://es.wikisource.org/wiki/En_la_sangre"
-            /></bibl>
-            <bibl type="print-source"></bibl>
-            <bibl type="edition-first">
-               <date when="1887">1887</date>
-            </bibl>
+            <bibl type="digital-source">"En la sangre." <seg rend="italic">Wikisource</seg>, <date
+                  when="2009">2009</date>, <ref target="https://es.wikisource.org/wiki/En_la_sangre"
+                  >https://es.wikisource.org/wiki/En_la_sangre</ref></bibl>
+            <bibl type="print-source">?</bibl>
+            <bibl type="edition-first">"En la sangre." <seg rend="italic">Sud-América</seg>, <date
+                  when="1887">1887</date>. <!--12.09.1887 to 14.11.1887-->. </bibl>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p/>
+         <p>The spelling has been checked and corrected where appropriate.</p>
+         <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
+            of oral speech (e.g. speech with accent) have been marked up.</p>
+         <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
       <profileDesc>
          <abstract>
-            <p/>
+            <p>
+               <quote>Con <seg rend="italic">En la sangre</seg>, lengua y estilo señalan la última
+                  etapa de la evolución ideológica del novelista. Movido por una preocupación de
+                  realismo y de mimetismo, Cambaceres utiliza ocasionalmente la lengua bastarda de
+                  los inmigrantes italianos mientras que su numen satírico coloca en boca de Genaro
+                  unas expresiones vulgares y desvalorizantes para el ambicioso. Pero la gran
+                  singularidad de <seg rend="italic">En la sangre</seg> [...] es el empleo
+                  sistemático del estilo indirecto libre y la redundancia que significa el empleo
+                  del pronombre sujeto colocado después del verbo, generalmente al final de la frase
+                  o de la oración.</quote>
+               <bibl>Cymerman, Claude L. Edición de <seg rend="italic">En la sangre</seg>. 1984, p.
+                  59-60. Cited by Lichtblau, Myron. <seg rend="italic">The Argentine Novel: an
+                     annotated bibliography</seg>. Lanham, Maryland, 1997, p. 162.</bibl>
+            </p>
+            <p>
+               <quote>Even more intentionally than in <seg rend="italic">Sin rumbo</seg>, Cambaceres
+                  follows Emile Zola's doctrine of determinism in his last novel, <seg rend="italic"
+                     >En la sangre</seg>, Cambaceres ascribes to the protagonist Genaro, the son of
+                  'lower-class' Italian immigrants, the worst possible hereditary factors and even
+                  more pernicious environment, and then sets him on his way in life to demonstrate
+                  how depraved, malicious and contemptible he can turn out to be.</quote>
+               <bibl>Lichtblau, Myron. <seg rend="italic">The Argentine novel in the nineteenth
+                     century.</seg> 1959, p. 167-168. Cited by Lichtblau, Myron. <seg rend="italic"
+                     >The Argentine Novel: an annotated bibliography.</seg> Lanham, Maryland, 1997
+                  p. 162.</bibl>
+            </p>
          </abstract>
          <textClass>
             <keywords scheme="keywords.csv">
@@ -49,18 +81,15 @@
                <term type="supergenre">narrative</term>
                <term type="genre">novel</term>
                <term type="genre-label"/>
-               <term type="subgenre" subtype="2">naturalistic</term>
-               <term type="subgenre" subtype="1">city</term>
-               <term type="subgenre" subtype="1">social</term>
-               <!-- ### -->
+               <term type="subgenre" subtype="2" resp="#uh">naturalistic</term>
+               <term type="subgenre" subtype="1" resp="#uh">city</term>
+               <term type="subgenre" subtype="1" resp="#uh">social</term>
                <term type="subgenre_tm" cert="low" resp="#uh">novela político-social</term>
-               <term type="subgenre_other">naturalistic novel</term>
+               <term type="subgenre_hist" subtype="2" resp="#uh">not_historical</term>
                <term type="form">prose</term>
                <term type="narrative-perspective">heterodiegetic</term>
                <term type="setting">urban</term>
                <term type="protagonist-gender">male</term>
-               <term type="publication-first" cert="low">book</term>
-               <term type="movement">naturalism</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -72,16 +101,16 @@
       <body>
          <div>
             <head>Capítulo I</head>
-            <p>De cabeza grande, de facciones chatas, ganchuda la nariz, saliente el labio
-               inferior, en la expresión aviesa de sus ojos chicos y sumidos, una capacidad de
-               buitre se acusaba.</p>
+            <p>De cabeza grande, de facciones chatas, ganchuda la nariz, saliente el labio inferior,
+               en la expresión aviesa de sus ojos chicos y sumidos, una capacidad de buitre se
+               acusaba.</p>
             <p>Llevaba un traje raído de pana gris, un sombrero redondo de alas anchas, un aro de
                oro en la oreja, la doblesuela claveteada de sus zapatos marcaba el ritmo de su andar
                pesado y trabajoso sobre las piedras desiguales de la calle.</p>
             <p>De vez en cuando, lentamente, paseaba la mirada en torno suyo, daba un golpe -uno
                solo- al llamador de alguna puerta, y, encorvado bajo el peso de la carga que
-               soportaban sus hombres: "tachero"... gritaba con voz gangosa: "¿componi calderi,
-               tachi, siñora?".</p>
+               soportaban sus hombres: "tachero"... gritaba con voz gangosa: "<seg type="oral"
+                  >¿componi calderi, tachi, siñora?</seg>".</p>
             <p>Un momento, alargando el cuello, hundía la vista en el zaguán. Continuaba luego su
                camino entre ruidos de latón y fierro viejo. Había en su paso una resignación de
                buey.</p>
@@ -100,22 +129,22 @@
             <p>Sin reparar en los otros, sin hacer alto en nada por su parte, el italiano cabizbajo
                se dirigía hacia el fondo, cuando una voz interpelándolo:</p>
             <p>-Va a encontrarse con novedades en su casa, don Esteban.</p>
-            <p>-¿Cosa dice?</p>
+            <p>-<seg type="foreign" xml:lang="it">¿Cosa dice?</seg></p>
             <p>-Su esposa está algo indispuesta.</p>
             <p>Limitándose a alzarse de hombros él, con toda calma siguió andando, caminó hasta dar
                con la hoja entornada de una puerta, la penúltima a la izquierda.</p>
             <p>Un grito salió, se oyó, repercutió seguido de otros atroces, desgarradores al
                abrirla.</p>
-            <p>-¿Sta inferma vos? -hizo el tachero avanzando hacia la única cama de la pieza, donde
-               una mujer gemía arqueada de dolor:</p>
+            <p>-¿<seg type="oral">Sta</seg> inferma vos? -hizo el tachero avanzando hacia la única
+               cama de la pieza, donde una mujer gemía arqueada de dolor:</p>
             <p>-¡Madonna, Madonna Santa...! -atinaba tan sólo a repetir ella, mientras gruesa,
                madura, majestuosa, un velo negro de encaje en la cabeza, un prendedor enorme en el
-               cuello y aros y cadena y anillos de doublé, muchos en los dedos, hallábase de pie
-               junto al catre la partera.</p>
+               cuello y aros y cadena y anillos de <seg type="foreign" xml:lang="fr">doublé</seg>,
+               muchos en los dedos, hallábase de pie junto al catre la partera.</p>
             <p>Se había inclinado, se había arremangado un brazo, el derecho, hasta el codo;
                manteníalo introducido entre las sábanas; como quien reza letanías, prodigaba
-               palabras de consuelo a la paciente, maternalmente la exhortaba: "¡Coraque Duña María,
-               ya viene lanquelito, é lúrtimo... coraque!..."</p>
+               palabras de consuelo a la paciente, maternalmente la exhortaba: "<seg type="oral"
+                  >¡Coraque Duña María, ya viene lanquelito, é lúrtimo... coraque!...</seg>"</p>
             <p>Mudo y como ajeno al cuadro que presenciaban sus ojos, dejóse estar el hombre,
                inmóvil un instante.</p>
             <p>Luego, arrugando el entrecejo y barbotando una blasfemia, volvió la espalda, echó
@@ -126,7 +155,7 @@
                sucedían, sin embargo, más frecuentes, más terribles cada vez.</p>
             <p>Como un eco perdido, alcanzábase a percibir la voz de la partera infundiéndole
                valor:</p>
-            <p>E lúrtimo... coraque!...</p>
+            <p><seg type="oral">E lúrtimo... coraque!...</seg></p>
             <p>La animación crecía en los grupos de inquilinos; las mujeres, alborotadas, se
                indignaban; entre ternos y groseras risotadas, estallaban los comentarios soeces de
                los hombres.</p>
@@ -181,9 +210,9 @@
          </div>
          <div>
             <head>Capítulo III</head>
-            <p>La situación entretanto mejoraba en la calle de San Juan. Consagrado sin cesar,
-               noche y día, a su mezquino tráfico ambulante, con el inquebrantable tesón de la idea
-               fija, continuaba arrastrando el padre una existencia de privaciones y miserias.</p>
+            <p>La situación entretanto mejoraba en la calle de San Juan. Consagrado sin cesar, noche
+               y día, a su mezquino tráfico ambulante, con el inquebrantable tesón de la idea fija,
+               continuaba arrastrando el padre una existencia de privaciones y miserias.</p>
             <p>Lavaba la madre, débil y enferma, de sol a sol, no obstante pasaba sus días en el
                bajo de la Residencia.</p>
             <p>Genaro, por su parte, bajo pena de arrostrar las iras formidables del primero, solía
@@ -823,9 +852,9 @@
                la capa artificiosa del estudio, disimulan su indigencia intelectual; plantas que se
                arrastran por el suelo sin lograr clavar sus raíces, vegetan y se secan sin dar
                fruto, parásitos de la ciencia, pobres diablos condenados a vivir recorriendo, ellos
-               también, su dolorosa via crucis en las bancas de derecho o en las salas de hospital,
-               para llegar en suma a merecer que les arrojen de lástima la deprimente limosna de un
-               título usurpado de suficiencia!</p>
+               también, su dolorosa <seg type="foreign" xml:lang="la">via crucis</seg> en las bancas
+               de derecho o en las salas de hospital, para llegar en suma a merecer que les arrojen
+               de lástima la deprimente limosna de un título usurpado de suficiencia!</p>
             <p>Sí, pensaba, eso era él, lo sentía, lo conocía. Abstraído, reconcentrado en el
                secreto examen que de sus propias fuerzas intentara, mirábase obligado a confesarse,
                a pesar suyo, su impotencia, íntimamente y a él solo, allá, en la negra, en la
@@ -861,9 +890,10 @@
             <p>¿Qué hacían, sin embargo, qué méritos contraían, qué esfuerzos, qué sacrificios les
                costaba la reputación, la fama que de clase en clase habían llegado a alcanzar?</p>
             <p>Pasaban su vida de estudiantes entregados al solaz y a los placeres, veíaseles en las
-               fiestas de continuo, iban a bailes, a los Clubs; oíalos él en los corrillos, en los
-               grupos de estudiantes, hablar, conversar, de sus amores, de las mujeres de mundo, de
-               sus queridas del teatro, de seis noches de trueno, de juegos y de orgía...</p>
+               fiestas de continuo, iban a bailes, a los <seg type="foreign" xml:lang="en"
+                  >Clubs</seg>; oíalos él en los corrillos, en los grupos de estudiantes, hablar,
+               conversar, de sus amores, de las mujeres de mundo, de sus queridas del teatro, de
+               seis noches de trueno, de juegos y de orgía...</p>
             <p>Pero era que brillaba en sus frentes la luz de la inteligencia, que podían ellos, que
                sabían, que comprendían, que el solo privilegio del ingenio bastaba a emanciparlos de
                toda ímproba labor... mientras él... ¡Oh, él!...</p>
@@ -1153,8 +1183,8 @@
                las carnes; erizado de terror, la había sacado; las bolillas chasqueaban, se
                entrechocaban, saltaban en tropel, como hirviendo... ¿en la urna?... sí, trasformada
                en una caldera enorme de brujas, y voces, varias voces, tres o cuatro, lo habían
-               chistado, lo habían llamado, brevemente, secamente, ¡pst, ep, eh! de una ventana, de
-               la puerta, de arriba, de allá atrás.</p>
+               chistado, lo habían llamado, brevemente, secamente, ¡<seg type="oral">pst, ep,
+                  eh</seg>! de una ventana, de la puerta, de arriba, de allá atrás.</p>
             <p>Como en un fulminante acceso de locura, presa de un pánico cerval permaneció un
                momento inmóvil, pasmado, estupefacto.</p>
             <p>Luego, en un endurecimiento de todo él, logró arrancarse de allí, pudo andar, llegó a
@@ -1236,11 +1266,12 @@
                complaciente el crédito de la casa.</p>
             <p>Pero lo abría, lo ventilaba, hacía sacudir el polvo en carnaval, al iniciarse los
                bailes; las ganancias en esa época se presentaban gordas y, adiós entonces moral y
-               miramientos; noche a noche, de las dos de la mañana en adelante era un train a tout
-               casser.</p>
+               miramientos; noche a noche, de las dos de la mañana en adelante era un <seg
+                  type="foreign" xml:lang="fr">train a tout casser</seg>.</p>
             <p>Allí también, concluido el año, solían citarse entre estudiantes; los amigos del
-               mismo curso, a festejar con una cena en que había pavo, tajadas de jamón y hasta
-               champagne por veinticinco pesos "a escote" la "sacada de clavo del examen".</p>
+               mismo curso, a festejar con una cena en que había pavo, tajadas de jamón y hasta <seg
+                  type="foreign" xml:lang="fr">champagne</seg> por veinticinco pesos "a escote" la
+               "sacada de clavo del examen".</p>
             <p>Y ocho o diez de los de la clase de Genaro y él entre ellos acababan de instalarse
                alrededor de la mesa, alegres, charlatanes, mientras esperaban que empezase el mozo a
                traer la cena, hablando cada cual, sin ton ni son y a todo azar, de lo primero que
@@ -1272,7 +1303,8 @@
                persuasión de su impotencia.</p>
             <p>Nada... ni una frase, ni dos palabras siquiera, sensatas, pertinentes, atinadas,
                habríase creído capaz de hacer brotar de sus labios... nada. . sentía su cabeza seca
-               como los vasos de Champagne dispersos sobre el mantel.</p>
+               como los vasos de <seg type="foreign" xml:lang="fr">Champagne</seg> dispersos sobre
+               el mantel.</p>
             <p>Y, con esa insistencia grosera y desmedida que comunica el vino, urgido, apremiado a
                gritos por sus compañeros, sin saber qué excusa dar, ni qué decir, ni qué hacer, como
                rompiéndosele a pedazos en medio de la algazara, el corazón le latía, le silbaban los
@@ -1292,8 +1324,9 @@
             <p>Y con toda la destreza, con la artimaña de un cómico, simuló hallarse ebrio él
                también; embotó la vista, separó una de otra las piernas, ladeó el cuerpo, como
                descuajado en la silla cabeceaba, babeaba, tartamudeaba, pedía más vino.</p>
-            <p>-Está mamau el gringuito -riéndose a carcajadas prorrumpieron en coro los demás-,
-               miserablemente mamau... angelito... ¡que la acuesten a la criatura!...</p>
+            <p>-Está <seg type="oral">mamau</seg> el gringuito -riéndose a carcajadas prorrumpieron
+               en coro los demás-, miserablemente <seg type="oral">mamau</seg>... angelito... ¡que
+               la acuesten a la criatura!...</p>
             <p>Bien pronto, en un descuido, desviada de él la atención, pudo salir Genaro sin ser
                visto, bajó en puntas de pies la escalera y perdiéndose entre las sombras espesas del
                zaguán, ganó la calle:</p>
@@ -1304,9 +1337,9 @@
                encarnecimiento de perros ratoneros, volvieron de arriba abajo la casa, preguntaron a
                los mozos, al patrón; ninguno de ellos lo había visto, nadie supo dar razón del
                desaparecido.</p>
-            <p>-¡Al bajo, a los bancos del paseo se ha de haber largau cuando menos a tomar el
-               fresco el muy mandria!... -dominando el confuso toletole saltó de pronto como
-               inspirada una voz.</p>
+            <p>-¡Al bajo, a los bancos del paseo se ha de haber <seg type="oral">largau</seg> cuando
+               menos a tomar el fresco el muy mandria!... -dominando el confuso toletole saltó de
+               pronto como inspirada una voz.</p>
             <p>¡Seguro, pues, era claro, era evidente... no haber caído antes en cuenta,
                zonzos!...</p>
             <p>Y resolvieron sin más ni más dirigirse todos al bajo.</p>
@@ -1323,8 +1356,8 @@
                regalaba masacote de chiquito, que lo había asistido del sarampión y que era íntima
                de la madre, se encontraba enferma en cama, de mucha gravedad.</p>
             <p>¡Y era un miserable él, un gran culpable, un gran canalla de haberse puesto en ese
-               estado en andar así, "tomau", cuando quién sabía, no estuviese ya en las últimas la
-               pobrecita señora, agonizando o tal vez muerta!...</p>
+               estado en andar así, <seg type="oral">"tomau"</seg>, cuando quién sabía, no estuviese
+               ya en las últimas la pobrecita señora, agonizando o tal vez muerta!...</p>
             <p>Y, poseído de cruel remordimiento, no tardó en soltar el llanto a sollozos, quiso
                desde allí, desde allí mismo y sin pérdida de tiempo ir a saber, a indagar, a tomar
                informes en la casa, a ofrecer a la familia o, en último caso, si era que tarde
@@ -1433,11 +1466,11 @@
                mostrarse, salir, pararse en la puerta de calle los domingos, a la hora en que
                pasaban las pollas al Retiro.</p>
             <p>Soñaba con tener tertulia en Colón, con ir en coche a Palermo, hacerse vestir por
-               Bonás o Fabre, ser socio de los dos clubs, el Plata y el Progreso, de este último
-               sobre todo, cuyo acceso era mirado por él como el honor más encumbrado, como la meta
-               de las humanas grandezas, y frente al cual, al retirarse a su casa de Colón, solía
-               pasar en noches de baile, contemplando desde abajo la casa bañada en luz, como
-               contemplaba las uvas el zorro de la fábula.</p>
+               Bonás o Fabre, ser socio de los dos <seg type="foreign" xml:lang="en">clubs</seg>, el
+               Plata y el Progreso, de este último sobre todo, cuyo acceso era mirado por él como el
+               honor más encumbrado, como la meta de las humanas grandezas, y frente al cual, al
+               retirarse a su casa de Colón, solía pasar en noches de baile, contemplando desde
+               abajo la casa bañada en luz, como contemplaba las uvas el zorro de la fábula.</p>
             <p>¡Oh, si pudiera, si de algún modo llegara a conseguir, si alguno de sus condiscípulos
                quisiera encargarse de presentarlo, de apadrinarlo, de empeñarse en su favor!...</p>
             <p>¡Pero cómo, siendo quien era, iba a atreverse él, con el padre que había tenido, con
@@ -1809,8 +1842,8 @@
             <p>-No es eso -continuó Genaro buscando una salida, tratando de encontrar una excusa,
                algún pretexto-, el gasto es lo que embroma, los cinco mil pesos, según creo, que
                tiene uno que largar.</p>
-            <p>-¡El gasto... el gasto... de cuándo acá tan pobrecito... todo un dandy, un mozo con
-               coche y con tertulia en Colón!</p>
+            <p>-¡El gasto... el gasto... de cuándo acá tan pobrecito... todo un <seg type="foreign"
+                  xml:lang="en">dandy</seg>, un mozo con coche y con tertulia en Colón!</p>
             <p>-No, no tan calvo, no creas; tengo atenciones yo, deberes serios que llenar; la vieja
                gasta mucho en Europa, yo mismo aquí suelo salirme de la vaina.</p>
             <p>-¡Bah, bah!... no embrome, compañero... Sobre todo, si necesita, hable, aquí estoy
@@ -1899,8 +1932,8 @@
                pagar con réditos de esa hecha... Si habría justicia... ¿Si sería cierto que había
                Dios?...</p>
             <p>Buscaba en vano tregua a su aflicción, en vano hacía por no pensar, no recordar, por
-               distraerse, por aturdirse siquiera, y bebía, pedía Jerez, Oporto, Champagne en sus
-               comidas.</p>
+               distraerse, por aturdirse siquiera, y bebía, pedía Jerez, Oporto, <seg type="foreign"
+                  xml:lang="fr">Champagne</seg> en sus comidas.</p>
             <p>Ni el vapor capitoso de los vinos, ni la camaradería bulliciosa de sus amigos, ni el
                vaivén, la confusión, el movimiento de las calles, la pública animación en los
                paseos, en los cafés, en los teatros, bastaban a arrancarlo de su hondo
@@ -1913,10 +1946,11 @@
                primeras horas de la noche debía ocuparse de él la comisión; le daría inmediata
                cuenta Carlos del resultado, se verían ambos a los diez en el Café de París.</p>
             <p>Antes de la hora y fatigado ya de esperar, había agotado Genaro su provisión de
-               cigarros, había pedido <seg type="foreign" xml:lang="fr">cognac</seg>, 
-               <seg type="foreign" xml:lang="fr">chartreuse</seg>, <seg type="foreign" xml:lang="fr">anisette</seg>, no importaba, lo que se le
-               hubiese antojado al mozo darle, una cosa de esas, cualquiera con el café... y diarios
-               que había dejarlo sin leer, doblados sobre la mesa.</p>
+               cigarros, había pedido <seg type="foreign" xml:lang="fr">cognac</seg>, <seg
+                  type="foreign" xml:lang="fr">chartreuse</seg>, <seg type="foreign" xml:lang="fr"
+                  >anisette</seg>, no importaba, lo que se le hubiese antojado al mozo darle, una
+               cosa de esas, cualquiera con el café... y diarios que había dejarlo sin leer,
+               doblados sobre la mesa.</p>
             <p>Las diez, diez y cuarto, diez y media; abríanse las puertas, de nuevo se cerraban,
                rechinaban sus goznes, golpeábanse sus hojas, volvía Genaro la mirada inquieta;
                nada... eran caras extrañas, habituados del café, gente que entraba y que salía... no
@@ -2002,7 +2036,7 @@
                entonces sí, trabajo y tiempo perdido... cuestión de volver a la andadas con alguna
                otra, y desconceptuado, desprestigiado por añadidura, desmonetizado en plaza como
                metal de mala ley.</p>
-            <p>Sin duda, dccíale Carlos en su carta, que había conseguido retirar en obsequio a él
+            <p>Sin duda, decíale Carlos en su carta, que había conseguido retirar en obsequio a él
                la solicitud, que era como si no lo hubiesen votado. Farsante ese también... ni medio
                que debía haberse empeñado, le había sacado el cuerpo, lo había dejado colgado no
                más... mucho le iba a hacer creer, mucha fe le iba a tener... ¡eran cortados todos
@@ -2147,12 +2181,13 @@
                todo sentido las calles del paseo; cuando luego de transcurrido largo rato y de haber
                ya perdido la esperanza de dar con ella, entre lo espeso de la concurrencia, creyó a
                lo lejos atinar a distinguirla.</p>
-            <p>Sí, con la madre; venía hacia él, vestida de foulard de la India a cuadro escocés,
-               dominando apenas el azul marino entre las tintas apagadas y sombrías de la estofa,
-               ceñido de relieve el talle; la pollera estrecha, caída simplemente, sin adorno,
-               perdida la pesada masa de su pelo negro bajo el ala de un sombrero de paja oro
-               antiguo y terciopelo. Dejaba ver el pie coquetamente, entrever, presentir más bien,
-               al caminar, el nacimiento de la pierna en la seda violeta de sus medias.</p>
+            <p>Sí, con la madre; venía hacia él, vestida de <seg type="foreign" xml:lang="fr"
+                  >foulard</seg> de la India a cuadro escocés, dominando apenas el azul marino entre
+               las tintas apagadas y sombrías de la estofa, ceñido de relieve el talle; la pollera
+               estrecha, caída simplemente, sin adorno, perdida la pesada masa de su pelo negro bajo
+               el ala de un sombrero de paja oro antiguo y terciopelo. Dejaba ver el pie
+               coquetamente, entrever, presentir más bien, al caminar, el nacimiento de la pierna en
+               la seda violeta de sus medias.</p>
             <p>Pasaron. Sonriéndose, con gesto amable, había retribuido el saludo de Genaro la
                señora. Volvieron a pasar; Máxima y él se miraron... como sabían mirarse.</p>
             <p>Y timorato, aprensivo, sin embargo, cobarde, con una cobardía austera de avaro, no
@@ -2301,9 +2336,10 @@
                al compás de las mazurcas y habaneras. Apenas el falsete atiplado de algún mocito
                compadre llegaba a arrojar una nota agria en el conjunto, o perturbaba el orden por
                acaso el momentáneo tropel de alguna riña.</p>
-            <p>Era arriba el tole-tole, eran en el foyer, en los salones, el barullo, el alboroto,
-               los chillidos, el bullicioso entrevero, el cotorreo enervante, exasperante, de dos
-               mil mujeres criollas disfrazadas, desatadas al amparo del disfraz...</p>
+            <p>Era arriba el tole-tole, eran en el <seg type="foreign" xml:lang="fr">foyer</seg>, en
+               los salones, el barullo, el alboroto, los chillidos, el bullicioso entrevero, el
+               cotorreo enervante, exasperante, de dos mil mujeres criollas disfrazadas, desatadas
+               al amparo del disfraz...</p>
             <p>Un grupo de dominós en número de ocho a diez, blancos, pugnaba por abrirse paso,
                lograba a duras penas penetrar hasta el salón de la esquina.</p>
             <p>Juntos todos, paseaban como extrañados la mirada. Si un hombre acertaba de paso a
@@ -2321,8 +2357,8 @@
                ambos alejándose-, y no ha sido sin trabajo, te lo juro. No quería por nada mamá,
                decía que era un loquero el nuestro, que no tenía pies ni cabeza venir nosotras a
                Colón; pero tanto hemos rogado, insistido y suplicado, que he conseguido por último
-               que nos acompañe y ahí está, la pobre, con otra señora más sentada en el foyer,
-               esperándonos.</p>
+               que nos acompañe y ahí está, la pobre, con otra señora más sentada en el <seg
+                  type="foreign" xml:lang="fr">foyer</seg>, esperándonos.</p>
             <p>Vamos a dar una vuelta no más, mi viejo, ¿eh? No voy a poder quedarme, no voy a poder
                estar mucho contigo; nos han traído con esa condición y hemos convenido en reunirnos
                dentro de un momento con las otras.</p>
@@ -2856,7 +2892,7 @@
             <p>¡Cuando pensaba en lo que le había costado a él, el tesón, la constancia, la
                paciencia de que se había armado, los bochornos que había sufrido, los julepes que
                había pasado, lo que había vivido muerto de miedo, soñando con asesinos, viéndolos en
-               cada essquina, contándose entre los difuntos ya!...</p>
+               cada esquina, contándose entre los difuntos ya!...</p>
             <p>¡No faltaba sino que fuera a dejarse soplar la dama ahora como un gran zonzo!...</p>
             <p>La posibilidad, la sola idea lo calentaba, le hacía arder la sangre, bastaba a
                ponerlo fuera de sí...</p>

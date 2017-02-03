@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">1398</measure>
+				<measure unit="divs">25</measure>
+				<measure unit="words">32088</measure>
+				<measure unit="chars">193592</measure>
+				<measure unit="size_kb">222</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">1322</measure> 
+				<measure unit="line_verses">4</measure> 
+				<measure unit="heads">25</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">1293</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">379</measure> 
+				<measure unit="numbers">1</measure> 
+				<measure unit="puncts">7471</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0041</idno>
 			</publicationStmt>
@@ -33,44 +53,31 @@
 			<p></p>
 		</encodingDesc>
 		<profileDesc>
-			<abstract>
+			<abstract source="#jct">
 				<p>Pedro Luis llega como nuevo médico del pueblo de Confines junto con Buenaventura, un hombre de más edad que él. Se nos muestran las relaciones de los personajes de Confines, como la cacique (Trinidad Bermúdez Sila), su sobrina Carmen, cura, etcétera. Pedro Luis intenta tener una relación sentimental con Carmen, pero esta se impulsada a rechazarle al saberse en el pueblo que Pedro Luis es expósito (fue abandonado por sus padres) y que Buenaventura lo recogió.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="high">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label">escenas</term>
-					<term type="subgenre" cert="high" resp="#jct" subtype="1">sentimental</term>
-					<term type="subgenre" cert="high" resp="#jct" subtype="2">naturalist</term>
-					<term type="subgenre" cert="high" resp="#jct" subtype="1">social</term>
-					<term type="subgenre" cert="high" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre-lithist" cert="high" resp="#jct" subtype="2">novela naturalista</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="high" resp="#jct">rural</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="2">realist</term>
+					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="setting">rural</term>
 					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
-
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>

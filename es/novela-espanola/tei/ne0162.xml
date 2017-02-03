@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -16,11 +16,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">505</measure>
+				<measure unit="divs">15</measure>
+				<measure unit="words">31476</measure>
+				<measure unit="chars">181632</measure>
+				<measure unit="size_kb">194</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">454</measure> 
+				<measure unit="line_verses">13</measure> 
+				<measure unit="heads">14</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">426</measure> 
+				<measure unit="abs">1</measure> 
+				<measure unit="paragraphs_ds">189</measure> 
+				<measure unit="numbers">21</measure> 
+				<measure unit="puncts">6142</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0162</idno>
 			</publicationStmt>
@@ -38,35 +58,26 @@
 				<p>Juan Vulgar es el típico estudiante que alimenta la fantasía de un espléndido porvenir, pero que tiene que conformarse con un modesto empleo de administrativo.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="low">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="2">realist</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">comedy</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">comedy</term>
+					<term type="subgenre" subtype="2">bildungsroman</term>
+
 					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="1">novela naturalista</term>
 					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="2">novela realista</term>
 					<term type="genre-label"></term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
+					
+					
 					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
 					<term type="setting" cert="low" resp="#jct">big-city</term>
 					<term type="protagonist-gender" cert="low" resp="#jct">male</term>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					
 					
 				</keywords>
@@ -340,7 +351,7 @@
 				<p>El desengaño era tremendo. A juicio de Juan, la injusticia y su propia mala suerte habían sido causa de todo. Tenía convenido con María que el día que supiese el fallo del tribunal, si la noticia era buena, cruzaría a hora fija por delante de su casa, pasándose el pañuelo por la cara; pero al llegar el momento de la cita le faltó valor, sintió vergüenza y cuando iba ya a cruzar sin hacer la seña por frente al balcón, tras cuyos visillos ella le aguardaba, de pronto atravesó la calle, esquivando que la niña pudiera verle, y pegado a la fachada de la casa, siguió lentamente hasta escapar como huido por la primer bocacalle que encontró. Ella le aguardó en vano, y después, por conducto del aya, recibió una carta muy romántica, por mitad elegía del desengaño e himno al amor que le servía de consuelo, donde iban mezcladas las quejas de la decepción y las esperanzas del deseo.</p>
 				<p>«¡No importa! -terminaba la carta-. ¡Qué son los años cuando sé que al término de tantas luchas están tus brazos para recibirme!» Esto de los años dejó a María desconcertada; pero contestó con otra epístola no menos amante, llena de protestas de constancia y juramentos de fidelidad.</p>
 				<p>Al recibirla Juan, faltole poco para llorar de agradecimiento y ternura. Olvidó casi todas sus tristezas, y aquella noche, tras cubrir de besos el papel mensajero de tamaña dicha, lo guardó bajo la almohada y durmió tranquilo.</p>
-				<milestone />
+				<milestone unit="section"/>
 			</div>
 			<div>
 				<head>- VIII -</head>

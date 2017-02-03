@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">1028</measure>
+				<measure unit="divs">50</measure>
+				<measure unit="words">71557</measure>
+				<measure unit="chars">413869</measure>
+				<measure unit="size_kb">436</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">895</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">50</measure> 
+				<measure unit="stages">20</measure> 
+				<measure unit="sps">21</measure> 
+				<measure unit="paragraphs">804</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">377</measure> 
+				<measure unit="numbers">70</measure> 
+				<measure unit="puncts">15604</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0027</idno>
 			</publicationStmt>
@@ -37,38 +57,25 @@
 				<p>Rosalía Pipaón, esposa de Francisco de Bringas (alias Thiers) ha logrado su sueño y ahora vive en el Palacio Real de Madrid, al servicio de la reina Isabel II con la que tiene ciertas semejanzas tanto físicas como psicológicas (del mismo modo que su marido con don Francisco de Asís, consorte de la reina). Con sus aspiraciones sociales conseguidas, no puede evitar embarcarse en una serie de gastos para poder mantener el nivel de la clase que la rodea, excesos que va acumulando sin que se entere su marido, hasta que las deudas acumuladas la lleven a prostituirse.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="2">naturalist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">social</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="2">realist</term>
+					<term type="subgenre" subtype="1">social</term>
 					<term type="subgenre-lithist" cert="low" subtype="2">novela naturalista</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">big-city</term>
+					<term type="narrative-perspective" cert="low" >heterodiegetic</term>
+					<term type="setting">big-city</term>
 					<term type="protagonist-gender">female</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
-
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-				</keywords>
+</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>

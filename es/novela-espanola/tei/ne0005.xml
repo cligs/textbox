@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -15,11 +15,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">727</measure>
+				<measure unit="divs">29</measure>
+				<measure unit="words">52555</measure>
+				<measure unit="chars">300788</measure>
+				<measure unit="size_kb">320</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">583</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">29</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">554</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">325</measure> 
+				<measure unit="numbers">3</measure> 
+				<measure unit="puncts">12159</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0005</idno>
 			</publicationStmt>
@@ -33,45 +53,35 @@
 			<p></p>
 		</encodingDesc>
 		<profileDesc>
-			<abstract>
-				<p source="wikipedia">Situada en el castizo Chamberí, uno de los barrios del ensanche del Madrid decimonónico, la novela presenta un mórbido triángulo amoroso entre una mujer, un viejo —que confunde honor y provecho— y un 'artista'.Al morir su madre, la huérfana Tristana es recogida por un amigo de la familia don Lope, que acabará convirtiéndose en su tutor-seductor. La joven protagonista se rebela ante tan humillante situación y al poco conoce y se enamora de Horacio, un pintor de ideas tradicionales que no acepta el espíritu feminista de Tristana. El pintor tiene que ausentarse de Madrid durante una larga temporada y la relación se enfría (aunque en Tristana sigue viva en un Horacio idealizado). Entretanto, a ella le han tenido que amputar una pierna, quedando así de nuevo atada a don Lope. Cuando Horacio regresa, nada queda entre ellos de las antiguas ilusiones. El pintor acabará casándose con otra mujer y Tristana cambiará sus sueños de ser actriz por una vida estéril y casi autómata, con Dios como único "objeto del deseo". Con un don Lope, cada día más chocho y arruinado, una boda de conveniencia para ambos precipita el final feliz de la novela.</p>
+			<abstract  source="wikipedia">
+				<p>Situada en el castizo Chamberí, uno de los barrios del ensanche del Madrid decimonónico, la novela presenta un mórbido triángulo amoroso entre una mujer, un viejo —que confunde honor y provecho— y un 'artista'. Al morir su madre, la huérfana Tristana es recogida por un amigo de la familia don Lope, que acabará convirtiéndose en su tutor-seductor. La joven protagonista se rebela ante tan humillante situación y al poco conoce y se enamora de Horacio, un pintor de ideas tradicionales que no acepta el espíritu feminista de Tristana. El pintor tiene que ausentarse de Madrid durante una larga temporada y la relación se enfría (aunque en Tristana sigue viva en un Horacio idealizado). Entretanto, a ella le han tenido que amputar una pierna, quedando así de nuevo atada a don Lope. Cuando Horacio regresa, nada queda entre ellos de las antiguas ilusiones. El pintor acabará casándose con otra mujer y Tristana cambiará sus sueños de ser actriz por una vida estéril y casi autómata, con Dios como único "objeto del deseo". Con un don Lope, cada día más chocho y arruinado, una boda de conveniencia para ambos precipita el final feliz de la novela.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label"></term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="2">realist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">social</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">naturaslist</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">sentimental</term>
-					<term type="subgenre" cert="medium" resp="#jct" subtype="1">spiritual</term>
-					<term type="subgenre-lithist" cert="medium" resp="#jct" subtype="1">novela naturalista</term>
-					<term type="subgenre-lithist" cert="medium" resp="#jct" subtype="2">novela espiritual</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">big-city</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="2">bildungsroman</term>
+					<term type="subgenre" subtype="1">naturaslist</term>
+					<term type="subgenre" subtype="1">erotic</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="1">spiritual</term>
+					<term type="subgenre-lithist" subtype="1">novela naturalista</term>
+					<term type="subgenre-lithist" subtype="2">novela espiritual</term>
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="setting">big-city</term>
 					<term type="protagonist-gender">female</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+
 				</keywords>
 			</textClass>
 		</profileDesc>

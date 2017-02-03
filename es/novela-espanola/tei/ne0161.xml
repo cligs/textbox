@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -16,11 +16,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">353</measure>
+				<measure unit="divs">16</measure>
+				<measure unit="words">30663</measure>
+				<measure unit="chars">179811</measure>
+				<measure unit="size_kb">188</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">305</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">16</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">288</measure> 
+				<measure unit="abs">1</measure> 
+				<measure unit="paragraphs_ds">45</measure> 
+				<measure unit="numbers">0</measure> 
+				<measure unit="puncts">4252</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0161</idno>
 			</publicationStmt>
@@ -38,39 +58,27 @@
 				<p>Nos muestra el caso de un joven que ha abrazado la religión presionado por su familia. Tras sus experiencias y observaciones como capellán de unos duques, decide abandonar su sacerdocio inauténtico.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="low">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="2">naturalism</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">anti-religious</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">naturalist</term>
+					<term type="subgenre" subtype="1">spiritual</term>
+					<term type="subgenre" subtype="2">realist</term>
 					
-					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="2">novela naturalista</term>
-					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="1">novela anticlerical</term>
-					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="1">novela realista</term>
+					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
+					<term type="subgenre-lithist" subtype="1">novela anticlerical</term>
+					<term type="subgenre-lithist" subtype="1">novela realista</term>
 					<term type="genre-label"></term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="protagonist-gender"  cert="low" resp="#jct">male</term>
+					<term type="narrative-perspective">heterodiegetic</term>
+					<term type="protagonist-gender" >male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
-					<term type="setting" cert="low" resp="#jct">rural</term>
-
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+					<term type="setting">rural</term>
 					
 				</keywords>
 			</textClass>
@@ -161,7 +169,7 @@
 				<p>Vas a cambiar de género de vida, de hábitos y costumbres, hasta de ambiente respirable, que no son iguales las auras puras de estos campos cercanos, al aire viciado de la ciudad. Aquí, por más que haya doblez y engaño, no son la maldad tan refinada ni la hipocresía tan astuta; allí la cortesanía hace el daño hondo y más disimulada la torpeza. Vivirás entre hombres que antes aprenden a averiguar el pensamiento ajeno que a expresar el propio, rozándote con gentes que procuran hacer a la mentira hurón de la verdad, y que tratarán de adquirir tu confianza engañando a otros, como luego te engañarán a ti para provecho de tercero. Anda en todo pecho la falsía, en todo cerebro la comedia: muchos la representan de tal suerte, que toman en serio su papel, y ni aun la muerte da fin a la farsa, pues otros fingen que les han creído, y la lisonja llega hasta el epitafio, manchando hasta los mármoles. Desconfía de cuanto te rodee y mantente en guardia casi más que contra las maldades ajenas, contra tus propias debilidades. Dios ha puesto en ti fe y razón; aquélla, como faro eterno a que caminas y te alumbra; ésta, como apoyo y sostén para cuando dudes; mas ten cuenta que si tu fe vacila, antes te será causa de desdicha que de consuelo y esperanza. Lee los libros que te pongan en las manos sin cui darte de profundizar en sus páginas más de lo que ellas te descubran; que el libro, como el vino, fortalece si no se abusa de él, embriaga si se le prodiga. La ciencia es a la paz del alma lo que el agua a la semilla; con poca se fecunda y con sobrada se anega. Tu vida hasta hoy ha sido aprender lo que habías de huir mañana: desde ahora vivirás entre el mal, evitando que logre corromperte. Tu misión es consolar al que sufre, alentar al que espera, perdonar al que yerra, labrar en tu corazón puerto donde busquen amparo los náufragos del mundo. No hay en la tierra misión más noble que la nuestra. Si la virtud pudiera ser orgullosa, nos sería dado envanecernos; pero hemos de unir a la bondad la mansedumbre, y por altivo nos está vedado el orgullo, como por pueril la vanidad.</p>
 				<p>Ya ves, Lázaro, qué hermosa perspectiva se te ofrece a la vista. La vida es combate de pasiones, que unas a otras se hieren y lastiman: tú serás de esos hombres que por vocación de caridad se mezclan en la pelea, llevando en su alma la mina inagotable de la piedad y en sus labios el manantial perenne de la esperanza. Así como unos curan las dolencias del cuerpo, otros cuidan de la pureza del espíritu: serás de ellos, y mientras el tuyo permanezca incólume, jamás te faltarán palabras con que infundir a tus hermanos la fe que te aliente. Cree y te creerán, que nunca inspiró la sinceridad desconfianza. Si la misión es difícil, no ha de ocultársete que la tentación es temible: ya lo irás viendo; pero si algo divino y fuerte hay en el hombre, es la voluntad. A todo has de sobreponerte, temiendo mas la propia indulgencia que la ajena censura. Sé hasta rencoroso contigo por tus culpas, débil hasta la exageración con las del prójimo; que el hombre debe ser tan avaro de virtudes como pródigo de perdones. Si la persecución te maltrata o la ironía te hostiga, recibe a la primera con mansedumbre y a la segunda con piedad; pues si la maldad debe hallarnos pacientes, el sarcasmo ha de inspirarnos lástima; merézcate siempre más conmiseración quien se burle de lo bueno que quien practique lo malo. Por las funciones de nuestro ministerio habrás de hablar al oído de la esposa, y en el tuyo depositará la virgen sus secretos: dí a aquélla que lo sacrifique todo a la paz de la casa, y a esta que todo lo posponga a la paz del alma. Al hereje responderás con la palabra de la verdad, tratándole como amigo perdido que hay que reconquistar, no como enemigo que es preciso vencer, y rezarás por la salvación de quien persista en el error, pues ya que la religión no sea patrimonio de todos, séalo al menos la piedad. No mortifiques al moribundo con el recuerdo de sus delitos aquí abajo; háblale de sus esperanzas allá arriba. Fe, perdón, mansedumbre: tal es tu lema; el corazón tu escudo, tu premio el reino de los cielos. Si de la violencia que te hicieren hubieses de morir, muere con valor, mas no con aquella calma que, puede ser cinismo, sino con esa serenidad que reflejando el tranquilo fondo del espíritu, sirve a los demás de un ejemplo que equivale a un consuelo.</p>
 				<p>Mas no fuera bueno que te marchases sin tener seguro puerto de llegada. He arreglado todo de manera que entrarás en la corte por tal puerta, que muchos desearían tu posición como término a sus ambiciones. Vas de capellán a casa de los duques de Algalia, señores tan poderosos como buenos. De tus deberes para con ellos nada te digo, mas la humildad de sacerdote no ha de echar en olvido la dignidad de hombre. Tengo por cierto que antes de poco no sabrán a quien mirar con más cariño; si a su venerable eclesiástico o a su discreto y leal amigo. Partirás en breve, y sabe Dios hasta cuándo. Acuérdate alguna vez de mí, y siempre de lo que te debes a ti mismo. Recibe mi bendición y ojalá te dé ella todos los bienes que la voluntad te desea.</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>De allí a pocos días partió Lázaro, y aunque alentado por sus esperanzas no dejó de darle mucho en qué pensar la visible contradicción existente entre los discretos consejos que acababa de escuchar y la vida no muy austera de su tío.</p>
 			</div>
 			<div>
@@ -248,7 +256,7 @@
 				<p>-Pero este nombramiento, -repuso Algalia, a quien por el momento sólo importaba su senaduría-, ¿qué quiere decir, a qué viene darme tan gran prueba de afecto?</p>
 				<p>-Félix está enamorado de Josefina, -contestó Margarita.</p>
 				<p>Ya tarde, los convidados fueron desfilando repletos de buenos manjares y llenos de curiosidad: ellos saboreando el aromoso veguero, y ellas hablando de los trajes de la duquesa y su hija. Si alguno callaba, era porque lo mal que digería no le dejaba murmurar de lo bien que había comido.</p>
-				<milestone />
+				<milestone unit="section"/>
 			</div>
 			<div>
 				<head>- VII -</head>
@@ -397,7 +405,7 @@
 				<p>El sacrificio estaba consumado. La conciencia se resistió siempre darle nombre de apostasía.</p>
 				<p>Entonces vinieron a consolarle esas ficciones engañosas que uno se forja en las grandes amarguras de la vida, falsas esperanzas que no han germinado al calor de la ilusión o del deseo, sino que llegan con paso tardo y torpe, rebeldes a la voluntad que las evoca: imagino que la soledad, el campo, la quietud mental, apaciguarían sus penas, y desde lo más hondo del corazón dejó subir hasta los labios una palabra que murmuró, amorosamente con voz muy baja. Todo su porvenir estaba condensado en ella.</p>
 				<p>¡La aldea!</p>
-				<milestone />
+				<milestone unit="section"/>
 			</div>
 			<div>
 				<head>- XV -</head>

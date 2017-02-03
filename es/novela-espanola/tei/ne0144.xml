@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
 	<teiHeader>
 		<fileDesc>
@@ -16,11 +16,31 @@
 				</author>
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
+			<extent>
+				<measure unit="lines">1671</measure>
+				<measure unit="divs">35</measure>
+				<measure unit="words">110075</measure>
+				<measure unit="chars">628043</measure>
+				<measure unit="size_kb">661</measure>
+
+				<measure unit="chapters">0</measure> 
+				<measure unit="blocks">1587</measure> 
+				<measure unit="line_verses">0</measure> 
+				<measure unit="heads">35</measure> 
+				<measure unit="stages">0</measure> 
+				<measure unit="sps">0</measure> 
+				<measure unit="paragraphs">1552</measure> 
+				<measure unit="abs">0</measure> 
+				<measure unit="paragraphs_ds">708</measure> 
+				<measure unit="numbers">27</measure> 
+				<measure unit="puncts">19816</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>The text is freely available.</p>
-				</availability>
+				<licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</licence>
+	</availability>
 				<date when="2015">2015</date>
 				<idno type="cligs">ne0144</idno>
 			</publicationStmt>
@@ -36,43 +56,32 @@
 		<profileDesc>
 			<abstract source="MdLE7">
 				<p>Pedro Sánchez nos cuenta su vida en forma autobiográfica. Su padre, un ejemplar hidalgo montañés, lo anima a marcharse a Madrid para emprender una brillante carrera bajo la protección de don Augusto Valenzuela, político de relieve con quien han trabajdo amistad durante el verano. Pero una vez en la corte, el prócer se desentiende de sus promesas y Pedro queda abandonado a su suerte. De la mano de Matica se inicia en el ambiente de tertulias y saraos. Obtiene un empleo administrativo en El clarín de la patria, periódico estrepitosamente revolucionario.</p>
-				<p>COn el tiempo se le confía la sección de crítica literaria. El ambiente está muy caldeado; nos encontramos en víspera de la revolucón de 1854. Pedro, movido por puro mimetismo, escribe un corrosivo Cuento oriental que tiene un impacto inaudito en la muchedumbre sublevada. Se ve obligado a esconerse. Estalla la revolución y el protagonista, sin saber exactamente por qué, alienta a las masas convertido en héroe popular. NO obstante protege a la familia de Valenzuela de un ataque inevitable. Se acentúa la ya vieja atracción que ejerce sobre él Clara, la hija.</p>
+				<p>Con el tiempo se le confía la sección de crítica literaria. El ambiente está muy caldeado; nos encontramos en víspera de la revolucón de 1854. Pedro, movido por puro mimetismo, escribe un corrosivo Cuento oriental que tiene un impacto inaudito en la muchedumbre sublevada. Se ve obligado a esconerse. Estalla la revolución y el protagonista, sin saber exactamente por qué, alienta a las masas convertido en héroe popular. No obstante protege a la familia de Valenzuela de un ataque inevitable. Se acentúa la ya vieja atracción que ejerce sobre él Clara, la hija.</p>
 				<p>Al ver los excesos de la revolución, Pedro siente repugnancia, pero no tiene más remedio que apoyar a los rebeldes, pues si siguen los otros en el poder, le costará la vida. Se convierte en un auténtico dirigente de las barricadas. Con la llegada de Espartero, se domina la situación y Pedro obtiene un espléndido destino. Se casa con Clara y acepta el cargo de gobernador civil de una provincia mediterránea.</p>
 				<p>Surgen problemas por culpa de la altivez de su mujer y se su suegra que despilfarran sin control; incluso se adueñan indebidamente de unos arbitrios. Pedro, indignado, intenta reparr esas faltas ante el pueblo. Su matrimonio está destruido. A la caída de Espartero, deja el cargo y veulve a Madrid desalentado. Su casa es un  infierno. Un día descubre que su mujer tiene un amante; lo reta y es vencido. Se marcha de España triste y humillado.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
+				<keywords scheme="keywords.csv" cert="medium">
 					<term type="author-continent">Europe</term>
 					<term type="author-country">Spain</term>
 					<term type="supergenre">narrative</term>
 					<term type="genre">novel</term>
 					<term type="subsubgenre"></term>
 					<term type="genre-label"></term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="2">historical</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">realist</term>
-					<term type="subgenre" cert="low" resp="#jct" subtype="1">sentimental</term>
-					<term type="subgenre-lithist" cert="low" resp="#jct">novela histórica</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">autodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">big-city</term>
+					<term type="subgenre" subtype="1">memoir</term>
+					<term type="subgenre" subtype="1">social</term>
+					<term type="subgenre" subtype="1">realist</term>
+					<term type="subgenre" subtype="1">sentimental</term>
+					<term type="subgenre" subtype="1">bildungsroman</term>
+					<term type="subgenre" subtype="2">historical</term>
+					<term type="subgenre-lithist" subtype="2">novela histórica</term>
+					<term type="subgenre-lithist" subtype="1">novela cortesana</term>
+					<term type="narrative-perspective">autodiegetic</term>
+					<term type="setting">big-city</term>
 					<term type="protagonist-gender">male</term>
 					<term type="publication">book</term>
 					<term type="form">prose</term>
 					<term type="author-gender">male</term>
-
-
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
 					
 				</keywords>
 			</textClass>
@@ -116,7 +125,7 @@
 				<p>Entre tanto, rayaba yo en los diez y ocho, y ¡asómbrense los imberbes de ahora, cansados de amar y rodar por el mundo! aún no tenía pizca de novia, ni trabajaba para tenerla, ni me acordaba de ello, ni había salido dos leguas más allá de los términos de mi lugar; y ¡asómbrense más todavía! el andar mi padre a la sazón empeñado en llevarme a dar un vistazo a Santander, me traía sin hora de sosiego, indeciso y turulato, sin poder darme cuenta yo mismo de si aquella impresión rarísima, por lo profunda y cosquillosa, me alegraba o me entristecía.</p>
 				<p>Llegó al fin el momento de decidirme, y, dos días después, el de sacar del fondo del baúl los trapitos de cristianar; meter, «por si acaso», una muda de mi padre y otra mía en la maleta; colocarla en el arzón trasero de la vieja silla <seg rend="italic">de borrenes</seg>, puesta ya sobre el hirsuto lomo del manso tordillo del cura; cabalgar de un salto, mientras mi padre, con sombrero de felpa, alto y bien armado corbatín de raso negro, larga levita verde botella y botas de media caña, puesto el pie izquierdo en el estribo, pasaba con alguna dificultad su pierna derecha por encima de las vacías alforjas, atadas sobre la grupa de su peludo rocín, harto de roer los helechos de la sierra; dar un adiós de despedida a los curiosos que nos contemplaban, y salir del pueblo sacando lumbres de los morrillos de sus callejones con las herraduras de los jamelgos.</p>
 				<p>¡Válgame Dios, qué grande me parecía el mundo a medida que entraba yo en lo desconocido, y a una hondonada seguía una cumbre, y a la cumbre otra hondonada, y luego una sierra y después un valle, y otra vez la cumbre, y vuelta a la hondonada! ¡Qué variedad de contornos, de matices, de objetos, de luces y de horizontes! Aquí la aldehuela agazapada entre peñascos y robledales; allí el molino maquilero, debajo de una chopera, a la margen del río, manso y transparente, reflejando en sus aguas sus festones de laurel y zarzas, alisos y parra silvestre, y su puente de dislocados sillares, mal sostenidos por ligazones de compacta yedra; junto al fresco manantial encerrado en un arca de mohosos cantos, el solitario <seg rend="italic">humilladero</seg>, obra de la piedad de un pueblo cristiano, si no de los remordimientos de un pecador arrepentido, pero reflejo siempre de una época de arraigada fe; sobre el camino que serpenteaba cuesta arriba, en lo alto de la sierra, un espeso cajigal con una ermita blanqueada: la ermita, para el santo patrono del lugar inmediato; el cajigal, para dar sombra a los romeros un día cada año. A cada paso algún signo de éstos, perenne testimonio de la fe de mis conterráneos. Y nada más puesto en razón en un país donde no hay un detalle cuya belleza, bien observada, no sea un himno de alabanza a la bondad y a la grandeza de Dios.</p>
-				<milestone />
+				<milestone unit="section"/>
 				<p>Y anda, anda, siempre una loma por delante, que me parecía la última, y al trasponerla, otra nueva más allá.</p>
 				<p>Al fin se acabaron las alturas; fuese allanando el terreno; la senda áspera y tortuosa que seguíamos trocábase en sólida carretera, la carretera en ancha calzada, y los edificios próximos a ella iban perdiendo su aspecto rústico y aldeano, y enfilándose en ambas orillas. Del corralón de uno de ellos salió echando demonios el primer coche de colleras que yo había visto en mi vida. Volaba delante de nosotros entre nubes de polvo, gritos del mayoral, matraqueo del herraje y sonar de las cascabeleras de las caballerías. Perdióse pronto de vista al fin de la calzada; y siguiéndola nosotros, llegamos al camino real, anchísimo arrecife, blanco como la nieve y duro como una peña. Había allí un parador de mala muerte, y entramos en él a descansar un rato de las tres largas horas de jornada que llevábamos; tomamos un refrigerio, y ofrecimos otro a los rendidos bucéfalos, consistente en un maquilero de maíz por boca, con la correspondiente paja, no de la fina de Castilla, pues algo tiraba, por lo negra y correosa, al trigo de la tierra.</p>
 				<p>Media hora después volvíamos a cabalgar y enderezábamos el rumbo a Santander. No se tome a exageración; pero es lo cierto que me sentí nueva y penosamente impresionado al verme entre gentes extrañas por completo para mí. Entre gentes extrañas digo, porque a los pocos pasos de nuestra salida del mesón topamos con la villa principal de la comarca, patria y residencia de los Calderetas consabidos. Advirtiómelo así mi padre; y como la carretera pasaba rozando la parte principal de la villa, vi casas aparatosas, calles que se me antojaron enormes, y personas que, por el atavío, me parecieron de mucha cuenta. Algo me tentó la curiosidad, y muchas preguntas hice a mi padre y hasta le apunté el deseo de ver un poco «lo de adentro»; pero como íbamos en busca de cosa más grande, y lo restante del día no daba ya para muchas detenciones si habíamos de llegar con sol a la ciudad, contentéme con poner el rocín al paso mientras atravesábamos aquel contorno de la población, y observar lo que buenamente se nos metía por los ojos.</p>
@@ -1410,7 +1419,7 @@
 			</div>
 			<div>
 				<head>- XXIX -</head>
-				<milestone />
+				<milestone unit="section"/>
 				<p>-Entre otras mil razones, porque el destino que desempeño aquí lo tengo a la puerta de casa, como quien dice; es cómodo, sin responsabilidad alguna para mí...</p>
 				<p>-También es obscuro.</p>
 				<p>-Otra razón más en su favor: nadie repara en él, ni en mí, ni en ustedes...</p>
