@@ -85,4 +85,4 @@ The texts have been compiled from the following sources:
 ## Copyright and Citation
 
 * The authors' copyright of the texts has already expired. This collection is published under a Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0).
-* Please provide a reference if you use this data in your teaching or research. The following is a citation suggestion: _Collection of 19th Century Portuguese Novels (1840-1910)_, edited by Ulrike Henny. Würzburg: CLiGS, 2016. https://github.com/cligs/textbox/master/pt/romancesportugueses/. 
+* Please provide a reference if you use this data in your teaching or research. The following is a citation suggestion: _Collection of 19th Century Portuguese Novels (1840-1910)_, edited by Ulrike Henny. Würzburg: CLiGS, 2016. https://github.com/cligs/textbox/master/portuguese/romancesportugueses/. 

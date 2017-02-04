@@ -29,4 +29,4 @@ See the "metadata.csv" file for basic information about the novels. The followin
 ## Copyright and Citation
 
 * The author's copyright of this texts have already expired. This collection is published under Creative Common Attribution 4.0 International.
-* Please provide a reference if you use this data in your teaching or research. The following is a citation suggestion: _Collection of 19th Century Spanish-American Novels (1880-1916)_, edited by Ulrike Henny. Würzburg: CLiGS, 2016. https://github.com/cligs/textbox/master/es/novela-hispanoamericana/. 
+* Please provide a reference if you use this data in your teaching or research. The following is a citation suggestion: _Collection of 19th Century Spanish-American Novels (1880-1916)_, edited by Ulrike Henny. Würzburg: CLiGS, 2016. https://github.com/cligs/textbox/master/spanish/novela-hispanoamericana/. 
