@@ -24,10 +24,11 @@ This collection is a subset of the _Théâtre classique_ collection published by
 * All plays are available as XML-TEI P5 (folder "tei")
 * Plays are also available as plain text versions, containing speaker text only (folder "txt")
 * Finally, the plays are available in the "zwischenformat", an abstraction of the full text containing data relevant to network analysis of plays (folder "zf")
+* Note that all plays have filenames following the pattern "author_short-title_id". 
 
 ## License and Citation
 
-All texts are in the public domain. The original markup and the metadata have been added by Paul Fièvre and his collaborators. The transformation to TEI P5 has been made by Ulrike Henny and Christof Schöch. The Zwischenformat data has been extracted by Christof Schöch, inspired by work of the DLINA group. 
+All texts are in the public domain. The original TEI P4 markup and the metadata have been added by Paul Fièvre and his collaborators. The transformation to TEI P5 has been made by Ulrike Henny. The zwischenformat data has been extracted by Christof Schöch, inspired by work of the DLINA group. 
 
 Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: __Collection de pièces the théâtre français du dix-septième siècle_, edited by Christof Schöch. Würzburg: CLiGS, 2017. URL: <https://github.com/cligs/textbox/master/french/theatre17/>, DOI <tbc>. 
 
