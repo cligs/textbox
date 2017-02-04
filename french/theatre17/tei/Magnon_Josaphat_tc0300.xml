@@ -1,0 +1,3219 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Josaphat</title>
+        <title type="sub">Tragi-comédie</title>
+        <title type="short">Josaphat</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">MAGNON, Jean</name>
+          <name type="short">Magnon</name>
+          <idno type="viaf"/>
+        </author>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0300</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date/>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1647</date>, <idno/>, <ref target="#"/>. .</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1644</date>, <idno/>, <ref target="#"/>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragi-comédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1641-1650</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONNAGES.</head>
+        <castItem>
+          <role xml:id="tc0300-ABENNER">ABENNER</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0300-JOSAPHAT">JOSAPHAT</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0300-ARACHE">ARACHE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0300-AMALAZIE">AMALAZIE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0300-BARLAAM">BARLAAM</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0300-NACOR">NACOR</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0300-GARDES">GARDES</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La scène est dans Narsingue, dans le Palais d'Abenner.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I. Amalazie, Arache.</head>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1">Vous soupirez Madame, et vous versez des larmes, </l>
+            <l n="2">Dans un temps où la Cour étale tous ses charmes ; </l>
+            <l n="3">Le Prince Josaphat a quitté son séjour, </l>
+            <l n="4">Et son père aujourd'hui le reçoit dans sa Cour ; </l>
+            <l n="5">Vous seule par vos pleurs altérez notre joie, </l>
+            <l n="6" part="I">De quoi vous plaignez-vous. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="6" part="F">Faut-il que je vous voie. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="7">Que me peut reprocher votre ressouvenir. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="8">Ah ! Cruel ? Ma mémoire a de quoi vous punir : </l>
+            <l n="9">Quoique vous le sachiez vous le voulez apprendre, </l>
+            <l n="10">Cent fois je vous l'ai dit, lassez-vous de l'entendre :</l>
+            <l n="11">Ne vous souvient-il plus des maux que j'ai soufferts </l>
+            <l n="12">Avez-vous oublié que je suis dans les fers, </l>
+            <l n="13">Que le Prince Abenner me tient en sa puissance, </l>
+            <l n="14">Qu'il garde mes États par droit de bienséance : </l>
+            <l n="15">Vous redirai-je encor que mes parents sont morts, </l>
+            <l n="16">Vous faut-il ajouter que c'est par vos efforts, </l>
+            <l n="17">Que sous votre conduite on entra dans mes terres </l>
+            <l n="18">Que la mort de mon père a terminé vos guerres, </l>
+            <l n="19">Et que la même main qui causa ma prison 	</l>
+            <l n="20">Est une main fatale à toute ma maison ; </l>
+            <l n="21">Mais dans le même temps que je vous rends coupable, </l>
+            <l n="22">L'amour me montre en vous quelque chose d'aimable ; </l>
+            <l n="23">Je ne puis vous absoudre et moins vous condamner, </l>
+            <l n="24">J'ignore à quel parti mon coeur doit incliner : </l>
+            <l n="25">J'écoute les raisons et de l'un et de l'autre, </l>
+            <l n="26">J'épouse sa querelle et j'embrasse la vôtre : </l>
+            <l n="27">Et par des mouvements d'amour et de courroux, </l>
+            <l n="28">Je vous préfère à lui, je le préfère à vous : </l>
+            <l n="29">Mais il vous est aisé de vaincre ma colère, </l>
+            <l n="30">J'aide à vous excuser de la mort de mon père, </l>
+            <l n="31">Dedans votre pardon je prends trop d'intérêt </l>
+            <l n="32">Je me fais à moi-même un favorable arrêt ? </l>
+            <l n="33">Prince défendez-vous j'incline à vous absoudre. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="34">Ce n'est qu'en ma faveur que vous pouvez résoudre ; </l>
+            <l n="35">J'entrai dans vos États par l'ordre de mon Roi </l>
+            <l n="36">Ce funeste armement dépendait-il de moi ; </l>
+            <l n="37">Au seul nom d'Abenner j'usurpai vos Provinces </l>
+            <l n="38">Par son commandement j'assujettis vos Princes </l>
+            <l n="39">Je leur donnai des lois qu'imposait un vainqueur, </l>
+            <l n="40">Et je leur fis subir une juste rigueur ; </l>
+            <l n="41">Je soumis votre père à ce joug nécessaire, </l>
+            <l n="42">Et d'un simple hommager j'en fis un tributaire ; </l>
+            <l n="43">Il se précipita dans un second malheur, </l>
+            <l n="44">Il tenta derechef le sort et sa valeur ? </l>
+            <l n="45">Mais malgré ses efforts il y laissa la vie </l>
+            <l n="46">Et par cet accident il remplit son envie, </l>
+            <l n="47">Il s'est conservé libre autant qu'il a vécu </l>
+            <l n="48">Et tout défait qu'il fût il ne fut point vaincu : </l>
+            <l n="49">D'un pas victorieux et d'une marche égale, </l>
+            <l n="50">Je devais assiéger sa ville capitale ; </l>
+            <l n="51">Je dus prendre Érissa le siège de vos Rois, </l>
+            <l n="52">Et soumettre par-là toute l'Inde à nos lois ; </l>
+            <l n="53">Je devais par sa prise achever notre guerre, </l>
+            <l n="54">Poussé de cet espoir ; j''y vins comme un tonnerre : </l>
+            <l n="55">J'y volai je vainquis, c'est là que je vous vis, </l>
+            <l n="56">Et qu'à tant de beautés, le coeur me fut ravi, </l>
+            <l n="57">Ce fut là que vos pleurs m'arrachèrent des larmes, </l>
+            <l n="58">Que j'accusai le sort du bonheur de mes armes, </l>
+            <l n="59">Et qu'ayant détesté ce malheureux emploi, </l>
+            <l n="60">Je me plaignis cent fois des Dieux et de mon Roi. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="61">Le Ciel et vous mon Prince êtes d'intelligence, </l>
+            <l n="62">Vous vous justifiez avecque violence, </l>
+            <l n="63">L'un et l'autre rejette un si funeste effet </l>
+            <l n="64">Et renvoie au destin tout le mal qu'ils m'ont fait ? </l>
+            <l n="65">Ah ! Destin seul auteur, du trépas de mon père, </l>
+            <l n="66">N'est-ce donc que sur toi, qu'agira ma colère, </l>
+            <l n="67">Dans mon ressentiment n'aurai-je que le sort </l>
+            <l n="68">Que je puisse accuser d'avoir causé sa mort, </l>
+            <l n="69" part="I">Que n'a-t-il un complice ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="69" part="F">Il en est seul coupable. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="70">Prince je vous absous vous êtes pardonnable ; </l>
+            <l n="71">Des yeux dont je vous vois je ne puis vous haïr, </l>
+            <l n="72">Et mon faible courroux se plaît à me trahir : </l>
+            <l n="73">J'ai beau renouveler une vieille querelle, </l>
+            <l n="74">Mon coeur se rend à vous dès qu'il se fait rebelle, </l>
+            <l n="75">Et ce séditieux qui me vient animer </l>
+            <l n="76">S'il m'émeut contre vous me force à vous aimer ; </l>
+            <l n="77">Tous les jours il vous donne une nouvelle grâce. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="78">Ah ! Pour la mériter, que faut-il que je fasse. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="79">Mon âme a bien assez de ces vieilles douleurs </l>
+            <l n="80">Sans qu'elle endure encor quelques nouveaux malheurs, </l>
+            <l n="81">Ne me hasardez point dedans votre personne. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="82">J'ai honte pour le Roi de vous voir sans Couronne </l>
+            <l n="83">Rends-moi donc Prince ingrat ce que je t'ai conquis </l>
+            <l n="84">Veux-tu garder des biens injustement acquis </l>
+            <l n="85">Veux-tu déposséder une illustre héritière </l>
+            <l n="86" part="I">Et par raison d'État. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="86" part="F">Je suis sa prisonnière ? </l>
+            <l n="87">C'est la façon d'agir de tous les conquérants. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="88">L'on a souvent parlé de tous vos différents </l>
+            <l n="89">Il ne se peut résoudre à vous rendre vos terres </l>
+            <l n="90">Il feint d'appréhender quelques nouvelles guerres ; </l>
+            <l n="91">Déjà les plus zélés redoutent son courroux </l>
+            <l n="92">Et personne au conseil n'ose parler pour vous. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="93">Hé bien jusqu'à la mort il faut porter ma chaîne. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="94">La force est raisonnable où la douleur est vaine : </l>
+            <l n="95">Toi sévère vertu qui m'apprend mon devoir, </l>
+            <l n="96">Donne-lui les conseils que tu me fais avoir ? </l>
+            <l n="97">N'ose-je murmurer rigoureuse contrainte </l>
+            <l n="98">Ah ! Que ne puis-je aller au-delà de la plainte. </l>
+            <l n="99" part="I">Je viendrais. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="99" part="F">Arrêtez, Prince, il est votre Roi. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="100">Il sait donc bien user des droits qu'il a sur moi. </l>
+            <l n="101">Pour être son vassal manquai-je de courage. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="102">Mon Prince avec honneur, rompons mon esclavage ; </l>
+            <l n="103">Je n'en veux point sortir par une lâcheté. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="104">Il reste un seul moyen pour votre liberté ; </l>
+            <l n="105" part="I">Consentez-y Madame ?</l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="105" part="F">Oui s'il est légitime, </l>
+            <l n="106">Je dédaigne un Empire acheté par un crime. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="107">Voyez le jeune Prince employez son pouvoir. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="108">Implorer sa faveur je ne le veux point voir ; </l>
+            <l n="109">Pour la fille d'un Roi ce langage est trop rude </l>
+            <l n="110">Et cet abaissement sent trop la servitude. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="111">J'ai su de vos beautés jusque-là le ravir. </l>
+            <l n="112">Qu'il se tient glorieux de vous pouvoir servir, </l>
+            <l n="113">Il désire vous voir avec impatience. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Amalazie, Arache, un Garde.</head>
+          <sp who="tc0300-UNGARDE">
+            <speaker>UN GARDE.</speaker>
+            <l n="114">Seigneur le Prince arrive avec magnificence, </l>
+            <l n="115">Déjà toute la Cour s'en va le recevoir </l>
+            <l n="116" part="I">Il paraîtra bientôt. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="116" part="F">Madame il le faut voir. </l>
+            <l n="117" part="I">J'ose vous en prier. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="117" part="F">Il vous faut satisfaire. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="118" part="I">Un Empire vaut bien. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="118" part="F">Prince c'est pour vous plaire : </l>
+            <l n="119">Mais s'il vous arrivait ce que j'ose prévoir</l>
+            <l n="120">Songez que malgré moi vous me le faites voir. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="121">Madame il m'a promis dedans sa solitude </l>
+            <l n="122">De s'employer pour vous avec beaucoup d'étude ; </l>
+            <l n="123">Il faut l'entretenir avant qu'il parle au Roi </l>
+            <l n="124">Allons le recevoir ? Madame je le vois. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Josaphat, Amalazie, Arache, Troupe de Courtisans.</head>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="125">Hé bien Seigneur le peuple a vu son jeune maître </l>
+            <l n="126">Enfin son Dieu visible a daigné lui paraître, </l>
+            <l n="127">Et tel que le Soleil quand il dore les cieux, </l>
+            <l n="128">L'éclat de votre vue éblouissait ses yeux ; </l>
+            <l n="129">La Cour de son côté ne s'est point épargnée </l>
+            <l n="130">Et par ses compliments sa joie est témoignée ; </l>
+            <l n="131">En voici l'armement que je vous viens offrir. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT, bas.</speaker>
+            <l n="132">Que ce fatal objet me va faire souffrir, </l>
+            <l n="133">Mon coeur pressent ses maux avant qu'il les connaisse. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="134">Cette Cour est heureuse ayant cette Princesse, </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="135">Quoi Prince, cette Cour a-t-elle tant d'appas. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="136">Ayant cette beauté qu'est-ce qu'elle n'a pas ; </l>
+            <l n="137">Cet Auguste Palais enferme Amalazie. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="138">Madame je le vois avecque jalousie, </l>
+            <l n="139">Et puisqu'il vous possède il semble que ce lieu </l>
+            <l n="140">Soit moins la Cour d'un Roi que le palais d'un Dieu ; </l>
+            <l n="141">Arache me vanta ce merveilleux ouvrage </l>
+            <l n="142">Mais il ne m'en traça qu'une imparfaite image ; </l>
+            <l n="143">Il ne put concevoir ni bien moins exprimer, </l>
+            <l n="144">Ces amas de beautés qu'il me voulut former. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="145">Seigneur vous me louez, ainsi qu'il m'a loué </l>
+            <l n="146">Et de peu d'agréments ma personne est douce : </l>
+            <l n="147">Des yeux accoutumés à répandre des pleurs : </l>
+            <l n="148">Une bouche employée à dire ses malheurs. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE, l'interrompant.</speaker>
+            <l n="149">Seigneur incessamment la mort est son envie. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="150">Madame, quel ennui vous fait haïr la vie. i</l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="151">J'en ai bien des raisons puisque mon père est mort, </l>
+            <l n="152">Je traîne en cette Cour un misérable sort ; </l>
+            <l n="153">Qui pour rendre Éternels tous les maux qu'il m'envoie </l>
+            <l n="154">Couvre mes déplaisirs d'une apparente joie ; </l>
+            <l n="155">Mes yeux sont amusés par mille passetemps, </l>
+            <l n="156">Et pendant que mes sens feignent d'être contents ; </l>
+            <l n="157">Mon âme incessamment fait des plaintes secrètes </l>
+            <l n="158">Et ne reçoit jamais d'allégresses parfaites, </l>
+            <l n="159">C'est un frein que le Ciel oppose à mes plaisirs, </l>
+            <l n="160">Un sujet Éternel de pleurs et de soupirs : </l>
+            <l n="161">Vous aurez su d'Arache une part de nos guerres. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="162">De lui-même j'ai su qu'il entra dans vos terres ; </l>
+            <l n="163">La prise d'Érissa, comme il la désola </l>
+            <l n="164">Et comme ayant conquis Circan et Bengala, </l>
+            <l n="165">Ces Royaumes fameux que le Gange divise </l>
+            <l n="166">Il borna par vos fers cette longue entreprise, </l>
+            <l n="167">Vous aurez su de lui comme j'ai supporté.</l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="168" part="I">Elle en fut avertie ?</l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="168" part="F">Il me l'a rapporté ? </l>
+            <l n="169">L'ai su jusqu'à quel point mon désastre vous touche. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="170">Vous avez dû savoir par cette même bouche : </l>
+            <l n="171">Que touchant ce sujet je parlerais au Roi </l>
+            <l n="172">Je l'ai promis au Prince, et je tiendrai ma foi. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="173">Seigneur je vous expose, et vous je vous hasarde </l>
+            <l n="174">Dans de divers périls mon âme vous regarde, </l>
+            <l n="175">Je vois dessus tous deux descendre son courroux </l>
+            <l n="176">Et crains que mes malheurs n'aillent jusques à vous. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="177">Je m'en vais le premier essuyer sa colère. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="178">N'encourez point pour moi l'inimitié d'un père. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="179">Ah ! Seigneur, que plutôt elle éclate sur moi. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="180">Et vous n'attirez point la disgrâce du Roi ; </l>
+            <l n="181">Dure éternellement un si long Esclavage. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="182">Nous n'en sortirons point à mon désavantage : </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="183">Je vais prier les Dieux de vous y seconder. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="184">Quand il vous faut servir, j'ose tout hasarder. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Josaphat, Arache.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="185" part="I">Prince qu'elle est aimable. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="185" part="F">Oui Seigneur elle est belle.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="186" part="I">Ô l'agréable objet. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="186" part="F">Tout est illustre en elle. </l>
+            <l n="187">Et jamais la beauté ne fut mieux dans son jour. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="188">Vous êtes glorieux de vivre en cette Cour ; </l>
+            <l n="189">Le Roi m'a fait nourrir dans un lieu de plaisance </l>
+            <l n="190">L'on ne m'entretenait que de magnificence : </l>
+            <l n="191">L'on donnait à mes yeux mille objets ravissants </l>
+            <l n="192">Et ma Cour s'occupait à divertir mes sens ; </l>
+            <l n="193">Mais rien de tout cela n'égale Amalazie </l>
+            <l n="194">Le Roi passe en bonheur tous les Rois de l'Asie : </l>
+            <l n="195">Mais Prince à ce propos ôtes-moi de souci, </l>
+            <l n="196">Mon père à quel sujet m'éloigne-t-il d'ici.</l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="197">C'est une vieille loi que nous tenons des Perses, </l>
+            <l n="198">Entre le Peuple et vous il n'est point de commerces : </l>
+            <l n="199">Les enfants de nos Rois sont nourris hors du bruit, </l>
+            <l n="200">Et pendant ce séjour un Prince les instruit ; </l>
+            <l n="201">Il leur doit enseigner la science des Princes, </l>
+            <l n="202">Et cet art glorieux de régir les Provinces :</l>
+            <l n="203">Il doit de temps en temps leur élever les yeux </l>
+            <l n="204">Et porter leurs esprits à connaître leurs Dieux.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="205">Arache, depuis peu mon âme est inquiète, </l>
+            <l n="206">Donne-moi de ces Dieux quelque preuve parfaite, </l>
+            <l n="207">Ces Dieux conversent-ils avecque les mortels </l>
+            <l n="208">Ont-ils les mêmes Corps qu'ils ont sur nos autels, </l>
+            <l n="209">Sur lequel de ces Dieux taille-t-on leurs images. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="210">L'artifice de l'homme inventa ces ouvrages ; </l>
+            <l n="211">Conformément aux sens il les fit corporels. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="212">Auraient-ils avec nous les mêmes naturels. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="213">Ils nous montrent souvent leurs amours et leurs haines. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="214">Ils ne sont point exempts des faiblesses humaines : </l>
+            <l n="215">D'ailleurs ce Jupiter qui règle leurs conseils </l>
+            <l n="216">À des inférieurs et n'a point de pareils, </l>
+            <l n="217">S'ils sont Dieux comme lui s'y peuvent-ils résoudre. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="218">Il reçut en partage et le Ciel et la foudre, </l>
+            <l n="219">Et dans ce grand traité qui mit Saturne aux fers </l>
+            <l n="220">Neptune eut l'Océan et Pluton les Enfers. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="221">Qui n'a pas respecté les intérêts d'un père, </l>
+            <l n="222">Ne relâcherait rien en faveur de son frère ; </l>
+            <l n="223">Et cette ambition qui fit armer trois Dieux, </l>
+            <l n="224">Ferait renouveler le partage des Cieux. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="225">Jupiter est en droit de garder son tonnerre </l>
+            <l n="226">Et lui prenant le Ciel vous a laissé la terre ; </l>
+            <l n="227">Mais Seigneur d'où vous naît ce désir curieux, </l>
+            <l n="228">Et pour quelle raison s'informer de nos Dieux : </l>
+            <l n="229">Ce sont secrets cachés à notre connaissance. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="230">Je vous dirai tantôt ce que mon âme en pense ; </l>
+            <l n="231">Rompons cet entretien je vois venir le Roi. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE, bas.</speaker>
+            <l n="232">Dieux du Dieu des Chrétiens aurait-il su la loi. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Abenner, Josaphat, Arache, Gardes.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="233" part="I">Vous avez vu Narsingue. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="233" part="F">Oui Seigneur je l'ai vue </l>
+            <l n="234">Et de quelle beauté dont ma Cour soit pourvue, </l>
+            <l n="235">Le séjour m'en déplaît, Narsingue a trop d'appas </l>
+            <l n="236">Cette Ville a dans soi ce qu'un désert n'a pas, </l>
+            <l n="237">Au reste votre cour est illustre et pompeuse </l>
+            <l n="238">Et l'âge qu'on y passe est une vie heureuse, </l>
+            <l n="239">Proche d'Amalazie un séjour est bien doux </l>
+            <l n="240">Et je vois votre Cour avec un oeil jaloux, </l>
+            <l n="241">Si j'osais vous prier ! Ah je manque d'audace. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="242" part="I">Je vous entends assez. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="242" part="F">Faites-moi cette grâce, </l>
+            <l n="243">Elle a trop de pouvoir pour ne pas commander. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="244">Seigneur encor un coup j'ose le demander. </l>
+            <l n="245">Je vous en importune au nom de ma victoire. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="246">Prince tous vos travaux sont dedans ma mémoire. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="247">Vous y verrez Seigneur les conquêtes de Cor, </l>
+            <l n="248">De Sanga, de Circan, d'Érissa, de Canor, </l>
+            <l n="249">De Malipur, d'Oxir, de Bengala, d'Ormasse </l>
+            <l n="250">Et la réduction, de l'Indie haute et basse, </l>
+            <l n="251">L'Océan aujourd'hui sert de borne à l'État. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="252">Si vous m'avez servi je ne suis point ingrat, </l>
+            <l n="253">D'un petit Souverain je vous ai fait grand Prince </l>
+            <l n="254">D'un grand nombre d'États j'accrus votre Province, </l>
+            <l n="255">Vous me devez la foi, ses seuls droits réservés </l>
+            <l n="256">Vous approchez de près de qui vous relevez, </l>
+            <l n="257">L'insolent Sinanor, me refusa l'hommage </l>
+            <l n="258">À mes Ambassadeurs il voulut faire outrage, </l>
+            <l n="259">Mes vassaux apprendront ce qu'il a su de moi </l>
+            <l n="260">Qu'il ne se faut point prendre à plus puissant que soi. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="261">Mais sa fille Seigneur, n'en est point responsable. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="262">Aussi dans mon conseil n'est-elle point coupable </l>
+            <l n="263">Prince en votre faveur je lui rends ses États. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="264">Monarque le plus grand de tous les Potentats. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="265">Seigneur cette action mérite des Empires. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="266">Tu me vois indulgent à ce que tu désires, </l>
+            <l n="267" part="I">Je veux aussi de toi ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="267" part="F">Que commanderez-vous, </l>
+            <l n="268" part="I">Je suis prêt d'obéir.</l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="268" part="F">Que tu sois son époux, </l>
+            <l n="269" part="I">Y consens-tu mon fils ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="269" part="F">Ah ! Que je vous embrasse </l>
+            <l n="270">J'allais vus demander cette seconde grâce, </l>
+            <l n="271">Vous entrez dans mon coeur vous voyez mes souhaits. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="272">Que ne puis-je exaucer tous les veux que tu fais </l>
+            <l n="273">Vous Prince dont le Zèle agissait tant pour elle </l>
+            <l n="274">Allez lui rapporter cette heureuse nouvelle. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE, bas.</speaker>
+            <l n="275">Se peut-il rencontrer un esprit plus confus. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="276">C'est la seule raison qui causa mes refus, </l>
+            <l n="277">Je la lui destinais et dans ma prévoyance </l>
+            <l n="278">J'assurai nos maisons d'une telle alliance, </l>
+            <l n="279">Si j'ai tu jusqu'ici cet Hymen à ma Cour </l>
+            <l n="280">C'est que pour l'achever j'attendais son retour. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="281">Allez lui présenter une double Couronne </l>
+            <l n="282">Et par-là demander le coeur que l'on me donne, </l>
+            <l n="283">Je vous suis, recevez un si célèbre emploi. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE, bas. </speaker>
+            <l n="284">Faut-il que ma prière ait agi contre moi, </l>
+            <l n="285">Je me charge Seigneur de cette confidence. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="286">Qu'on déclare partout cette réjouissance, </l>
+            <l n="287">Que Narsingue à l'envi célèbre cet amour. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE, bas.</speaker>
+            <l n="288">Ah ! Plutôt par ma mort solennisons ce jour ; </l>
+            <l n="289">Allons voir ma Princesse, allons lui tout redire </l>
+            <stage>Haut.</stage>
+            <l n="290">Et la soumettre au choix d'Arache ou d'un Empire. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT, seul.</speaker>
+            <l n="291">Je me vois bien déchu d'une haute espérance </l>
+            <l n="292">Je me vois rebuté contre toute apparence : </l>
+            <l n="293">Avoir pu dédaigner le fils de son vainqueur </l>
+            <l n="294">L'amour, ni la grandeur n'ont pu fléchir son coeur, </l>
+            <l n="295">C'est l'âme d'une Esclave elle aime trop ses chaines </l>
+            <l n="296">Je ne puis concevoir cette sorte de haine, </l>
+            <l n="297">C'est se haïr soi-même et non pas me haïr </l>
+            <l n="298">Ce coeur impérieux veut toujours obéir, </l>
+            <l n="299">Puisqu'elle aime ses fers que l'ingrate y demeure, </l>
+            <l n="300">L'orgueilleuse y veut vivre il faudra qu'elle y meure, </l>
+            <l n="301">L'objet de sa prison a de quoi la ravir </l>
+            <l n="302">Amalazie aux fers, la verrai-je servir, </l>
+            <l n="303">Ciel, combien de pensers mon esprit se propose </l>
+            <l n="304">Mon âme a des langueurs dont j'ignore la cause, </l>
+            <l n="305">Je me sens inquiet, et ne sais point pourquoi </l>
+            <l n="306">Les passions en foule agissent dessus moi. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Josaphat, Un Garde.</head>
+          <sp who="tc0300-UNGARDE">
+            <speaker>LE GARDE.</speaker>
+            <l n="307">Seigneur, un joailler se présente à la porte </l>
+            <l n="308">Il n'est rien d'excellent que cet homme n'apporte. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="309">Que l'on le fasse entrer mon oeil il faut choisir </l>
+            <l n="310">Et sur cent diamants deviner son désir, </l>
+            <l n="311">Éblouissons par-là les yeux d'Amalazie.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Josaphat, Barlaam, Gardes.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="312" part="I">Hé bien, qu'as-tu de beau ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="312" part="F">J'ai parcouru l'Asie, </l>
+            <l n="313">Et de tous leurs trésors j'ai dépouillé les mers. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="314">Montre, que de beautés composent l'Univers, </l>
+            <l n="315">Que la nature est riche et riche en belles choses </l>
+            <l n="316">Sa libéralité nous prodigue les roses, </l>
+            <l n="317">Les perles, les rubis, les diamants et l'or. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="318">L'on trouve dans son sein un Éternel trésor, </l>
+            <l n="319">Rien ne peut épuiser cette source féconde </l>
+            <l n="320">Et sa force entretien le commerce du monde. </l>
+            <note type="L">Coral : corail.</note>
+            <l n="321">Jusques au fonds des mers elle fait le coral </l>
+            <l n="322">Le lieu le plus stérile est le plus libéral, </l>
+            <l n="323">Que si par l'abondance il nous ressemble avare </l>
+            <l n="324">Par une rareté ce défaut se répare, </l>
+            <l n="325">Le plus creux d'un rocher engendre un diamant </l>
+            <l n="326">Et nous fait étonner de son accouchement. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="327" part="I">Comment se produit-il. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="327" part="F">Il est dans la nature ? </l>
+            <l n="328">Des semences de sel, de soufre, et de mercure, </l>
+            <l n="329">La terre s'entretient par ces trois qualités </l>
+            <l n="330">Et de là nous voyons mille diversités, </l>
+            <l n="331">De certaines humeurs par degrés s'épaississent </l>
+            <l n="332">Par un long cours de temps ces vapeurs s'endurcissent, </l>
+            <l n="333">D'une eau naît une glace il s'en fait des cailloux </l>
+            <l n="334">Et s'y forme une feuille et dessus et dessous, </l>
+            <l n="335">Pour le rendre épuré nous enlevons l'écorce </l>
+            <l n="336">Et par notre industrie on amollit sa force, </l>
+            <l n="337">Ces pierres à qui l'art donne tant de valeur </l>
+            <l n="338">Ne sont que des cristals différents en couleur, </l>
+            <l n="339">La pierre prend son lustre ou du lieu qui l'enserre </l>
+            <l n="340">Ou de cet aliment que lui donne la terre, </l>
+            <note type="C">Rencontre : rencontre est aussi masculin que féminin au XVIIème. </note>
+            <l n="341">D'autres sur ce rencontre en rapportent l'effet </l>
+            <l n="342">Aux diverses cuissons que le Soleil en fait.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="343" part="I">Et comme naît la perle ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="343" part="F">Une conque exposée, </l>
+            <l n="344">Se tourne vers le Ciel en reçoit la rosée ; </l>
+            <l n="345">Ramasse dans son sein la manne du matin </l>
+            <l n="346">Et se replonge en mer pleine de ce butin, </l>
+            <l n="347">Le Soleil y travaille il épaissit ces gouttes </l>
+            <l n="348">Et jusqu'au fonds des eaux il les échauffe toutes, </l>
+            <l n="349">Enfin par sa chaleur ou bien par ses rayons </l>
+            <l n="350">Il crée et fait durer tout ce que nous voyons, </l>
+            <l n="351">Vos maîtres mieux que moi vous apprennent ces choses, </l>
+            <l n="352">Ils savent discourir dessus ces belles causes. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="353">De combien ton trésor te semble-t-il valant. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <note type="L">Talent : Terme d'antiquité. Nom d'un poids, chez les Grecs, qui variait suivant les pays, qui fut primitivement de 19440 grammes, et que la réforme de Solon porta chez les Athéniens à 27000 grammes. [L]</note>
+            <l n="354">Le moindre diamant est du prix du talent, </l>
+            <l n="355">Je vous en montrerai d'un prix inestimable, </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="356">Expose ta richesse, et mets-la sur ma table. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="357">Je ne l'étale point devant vos courtisans, </l>
+            <l n="358">Qu'ils s'éloignent de nous que nuls n'y soient présents. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <note type="L">Suivant que : Suivant que. Conjonction. Selon que. [T]</note>
+            <l n="359">Tu me peux tout montrer, suivant qu'on se retire. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Josaphat, Barlaam.</head>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="360">Ôtez ce que mon Dieu m'a forcé de vous dire, </l>
+            <l n="361">La perle que je porte a bien d'autres clartés </l>
+            <l n="362">Sa lumière pénètre en des lieux écartés ; </l>
+            <note type="L">Gentil : Il se dit des anciens polythéistes, par opposition aux Juifs et aux Chrétiens. [L]</note>
+            <l n="363">Ce visible Soleil que les gentils honorent, </l>
+            <l n="364">N'est qu'un rayon du Dieu que les Chrétiens adorent ? </l>
+            <l n="365">L'Univers ne connaît qu'une Divinité, </l>
+            <l n="366">Cent beaux raisonnements prouvent cette unité : </l>
+            <l n="367">Le Monde a presque en soi des choses infinies, </l>
+            <l n="368">Dans leurs diversités elles semblent unies ; </l>
+            <l n="369">Et comme à chaque corps ce grand Dieu donne un cours </l>
+            <l n="370">Il semble que tout aille à ce premier secours. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="371">Que veut dire ceci découvrons ce mystère, </l>
+            <l n="372">Je commence à trouver le secret de mon père. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="373">L'on pourra moins douter de son Éternité, </l>
+            <l n="374">Puisqu'il comprend le monde avec immensité ; </l>
+            <l n="375">Celui qui donne l'âme à toute la nature, </l>
+            <l n="376">Peut-il pas subsister sans cette créature : </l>
+            <l n="377">Ce Dieu qui donne tout qui ne prend que de lui, </l>
+            <l n="378">Ne peut-il pas durer sans le secours d'autrui ; </l>
+            <l n="379">Il tira du néant une si lourde masse, </l>
+            <l n="380">Et mit dans un instant chaque corps en sa place ? </l>
+            <l n="381">Après avoir construit ce pompeux bâtiment, </l>
+            <l n="382">Ce premier architecte en vit tout l'ornement, </l>
+            <l n="383">Ayant considéré qu'il n'y fît point de fautes, </l>
+            <l n="384">Pour sa perfection il lui donna des hôtes : </l>
+            <l n="385">IL voulut créer l'homme, il lui fit des États, </l>
+            <l n="386">Autant que de mortels il fit des potentats, </l>
+            <note type="L">Hommager : Celui qui devait l'hommage. Vassal hommager. [L]</note>
+            <l n="387">Cet ingrat hommager devint bientôt rebelle, </l>
+            <l n="388">Ses malheureux enfants suivirent sa querelle, </l>
+            <l n="389">Son crime s'étendit jusqu'à ses héritiers, </l>
+            <l n="390">L'homme se fourvoya de ces premiers sentiers ; </l>
+            <l n="391">Son Dieu tout courroucé lui déclara la guerre, </l>
+            <l n="392">Un grand débordement purgea toute la terre : </l>
+            <l n="393">À peine un innocent se sauva de ses mains, </l>
+            <l n="394">Qui put perpétuer la race des humains ; </l>
+            <l n="395">Ses enfants dispersés les restes d'un déluge, </l>
+            <l n="396">À qui le Ciel et l'eau déniaient un refuge, </l>
+            <l n="397">Contre qui l'Univers s'était tout conjuré, </l>
+            <l n="398">Trouvèrent sur la terre un asile assuré : </l>
+            <l n="399">Ces seconds habitants la peuplèrent de crimes, </l>
+            <l n="400">Et tous leurs descendants suivirent leurs maximes ?</l>
+            <l n="401">La foudre qu'il tenait les allaient abîmer, </l>
+            <l n="402">Sans ces excès d'amour qu'on ne peut exprimer : </l>
+            <l n="403">Dieu descendit du Ciel pour regagner la terre, </l>
+            <l n="404">Son fils humanisé nous vint faire la guerre ; </l>
+            <l n="405">Et ce doux conquérant qui dédaignait nos corps, </l>
+            <l n="406">Pour réduire nos coeurs tenta tous ces efforts : </l>
+            <l n="407">Il imposa silence à tous vos vieux Oracles, </l>
+            <l n="408">Il nous vint exposer sa vie et ses miracles ? </l>
+            <l n="409">Dans son propre pays il fut mis sur la Croix, </l>
+            <l n="410">Et comme un imposteur mourut le Roi des Rois : </l>
+            <l n="411">Sa mort se fit sentir à chaque créature, </l>
+            <l n="412">Une commune éclipse aveugla la Nature, </l>
+            <l n="413">Et quoique le Soleil eût caché sa clarté ; </l>
+            <l n="414">Un Dieu mourant parut par cette obscurité : </l>
+            <l n="415">Ce Dieu trois jours après força sa sépulture, </l>
+            <l n="416">Et l'on vit violer l'ordre de la Nature ; </l>
+            <l n="417">Ce beau temps arrivé qu'il dût monter aux Cieux, </l>
+            <l n="418">Comme il avait prescrit il délaissa ses lieux : </l>
+            <l n="419">Son renom s'épandit de l'un à l'autre pôle, </l>
+            <l n="420">Les deux bouts de la terre ont reçu sa parole, </l>
+            <l n="421">Votre Palais se ferme à sa divine voix </l>
+            <l n="422">Et vous seul écoutez des Dieux d'or et de bois ? </l>
+            <l n="423">Je viens vous retirer d'une longue ignorance : </l>
+            <l n="424">Et je vous viens donner une autre connaissance, </l>
+            <l n="425">C'est là ce beau brillant que je tenais caché. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="426">Et c'est là le secret que j'ai longtemps cherché. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="427">Barlaam est mon nom, j'ai servi votre père, </l>
+            <l n="428">Loin d'être reconnu l'exil fut mon salaire ?</l>
+            <l n="429">Seigneur, mon plus grand crime était d'être Chrétien, </l>
+            <l n="430">J'abandonnai sa Cour, je délaissai mon bien, </l>
+            <l n="431">Là je vis demeurer mes timides complices. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="432" part="I">Des Chrétiens dans la Cour ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="432" part="F">Ils craignent les supplices ? </l>
+            <l n="433">Et s'ils n'appréhendaient la colère du Roi, </l>
+            <l n="434">Aux yeux de cette Cour ils publieraient leur foi, </l>
+            <l n="435">Le temps arrivera qu'ils se feront connaître </l>
+            <l n="436">Mon Dieu quand il lui plaît, se fait assez paraître. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="437">Vaines précautions entendement humain, </l>
+            <l n="438">Tu vois visiblement que ton conseil est vain. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="439">Votre père assembla les plus grands Astrologues </l>
+            <l n="440">Dessus votre naissance on fit cent dialogues, </l>
+            <l n="441">L'ayant examiné ils furent tous d'accord </l>
+            <l n="442">Que l'aspect de votre astre influait un beau sort, </l>
+            <l n="443">Et que votre Planète avait un beau visage </l>
+            <l n="444">Mais qu'on y remarquait un sinistre présage, </l>
+            <l n="445">Qu'un mal succéderait après un si grand bien </l>
+            <l n="446">Et qu'elle leur montrait que vous seriez Chrétien, </l>
+            <l n="447">Le Roi vous envoya dans une solitude </l>
+            <l n="448">En ayant arraché ce qu'elle avait de rude, </l>
+            <l n="449">Il crut rompre par-là ces dangereux avis. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="450">S'ils ont été donnés, ils ont été suivis ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="451">Cet endroit aux Chrétiens était inaccessible </l>
+            <l n="452">Moi, voyant que ma perte y serait infaillible, </l>
+            <l n="453">Je n'osai rien tenter que jusques à ce jour </l>
+            <l n="454">Que j'ai su que le Roi vous appelait en Cour. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="455" part="I">En sais-tu la raison ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="455" part="F">Il en a cru ses Mages, </l>
+            <l n="456">Qui pensent que le temps ait rompu leurs présages ; </l>
+            <l n="457">À peine les Chrétiens ont su votre retour, </l>
+            <l n="458">À peine avais-je su votre nouvelle amour ? </l>
+            <l n="459">Que nous avons formé ce nouveau stratagème. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="460">Mais tu t'es exposé dans un péril extrême ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="461">À l'envi les chrétiens ont brigué cet emploi, </l>
+            <l n="462">Tous le voulait avoir je l'ai gardé pour moi ; </l>
+            <l n="463">S'il est quelque danger leur zèle le partage, </l>
+            <l n="464">Et pour prendre leur part d'un si bel avantage ? </l>
+            <l n="465">Ils ont contribué de tous leurs diamants. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="466">Ô parfaite union ! Merveilleux sentiments ? </l>
+            <l n="467">Grand Dieu de Barlaam illumine mon âme, </l>
+            <l n="468">Éclaire mes esprits d'une céleste flamme, </l>
+            <l n="469">Et dispose mon coeur à recevoir ta Loi, </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="470">Pour s'y bien préparer il suffit de la Foi ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="471">Oui, je me sens pris d'une divine audace, </l>
+            <l n="472">Et mes sens sont remplis des effets de sa grâce ; </l>
+            <l n="473">Je me sens détacher des choses d'ici-bas, </l>
+            <l n="474">Et quand je vois le Ciel la terre a peu d'appas : </l>
+            <l n="475">Je recherchais en moi cette béatitude, </l>
+            <l n="476">Mon âme s'y portait avec inquiétude ? </l>
+            <l n="477">Elle a roulé longtemps de désirs en désirs. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="478">L'on ne trouve qu'en dieu de solides plaisirs. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="479">Arache, avec raison j'ai combattu tes fables, </l>
+            <l n="480">Mon esprit trouve enfin des raisons véritables : </l>
+            <l n="481">Je vois tes faussetés mon oeil n'est plus trompé, </l>
+            <l n="482">Et d'un voile confus il est développé ? </l>
+            <l n="483" part="I">Je te perds Barlaam. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="483" part="F">Ma prise est impossible, </l>
+            <l n="484">À cent pas du Palais je me rends invisible ; </l>
+            <l n="485">Il est des lieux secrets et grand nombre de cours, </l>
+            <l n="486">Les déserts de Sennar ont dix mille détours ; </l>
+            <l n="487">Un pays souterrains nous cache à votre vue, </l>
+            <l n="488">Et de précautions ma sortie est pourvue.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="489">Sors sors je t'y joindrai si je trouve ce lieu, </l>
+            <l n="490">Et là tu m'instruiras des secrets de ton Dieu, </l>
+            <l n="491" part="I">De ta Religion. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM, sortant.</speaker>
+            <l n="491" part="F">Il est de votre gloire ; </l>
+            <l n="492">Mon Dieu, j'ai commencé poursuivez ma victoire. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT, seul.</speaker>
+            <l n="493">J'entre dans le combat, puissant Dieu défends-moi, </l>
+            <l n="494">De moi je ne puis rien je puis tout avec toi, </l>
+            <l n="495">Fausses divinités que mon peuple idolâtre, </l>
+            <l n="496">Ma main vous encensait, ma main vous veut abattre ; </l>
+            <l n="497">J'adore le vrai dieu, vos honneurs lui sont dus, </l>
+            <l n="498">Et je me plains des soins que je vous ai rendus ; </l>
+            <l n="499">Je parle à des métaux à des dieux insensibles, </l>
+            <l n="500">Qu'on fait si corporels et qu'on rend invisibles ? </l>
+            <l n="501">Mon Dieu que vois-je ici ce qui m'est le plus cher, </l>
+            <l n="502">Donne-moi les moyens de le pouvoir toucher. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Josaphat, Abenner.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="503">Hé bien tout se prépare à ce grand hyménée, </l>
+            <l n="504">Il va solenniser cette belle journée, </l>
+            <l n="505">Tout le Peuple et la Cour dressent leur appareil, </l>
+            <l n="506">Narsingue jusqu'ici n'a rien vu de pareil ; </l>
+            <l n="507">Voici des diamants d'une grosseur extrême </l>
+            <l n="508">Il faut qu'elle les porte avec son diadème, </l>
+            <l n="509">Le front d'Amalazie éclairera ces lieux </l>
+            <l n="510">Et joindra tout son lustre à l'éclat de ses yeux. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="511">Seigneur, je viens de faire une plus belle emplette </l>
+            <l n="512">Je tiens en ma puissance une perle parfaite, </l>
+            <l n="513">Et vous la trouverez merveilleuse en ce point </l>
+            <l n="514">Que l'on la peut donner et qu'on ne la perd point, </l>
+            <l n="515">Tous la peuvent avoir quoiqu'elle soit unique </l>
+            <l n="516">Sans être divisée elle se communique, </l>
+            <l n="517">Telle que le Soleil qui peut tout éclairer </l>
+            <l n="518">Et qui commun qu'il est ne se peut attirer. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="519">Fais-moi participer d'une chose si rare. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="520">Celui qui la reçoit ne doit point être avare, </l>
+            <l n="521" part="I">Il doit tout prodiguer ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="521" part="F">J'offre tout mon trésor, </l>
+            <l n="522" part="I">Pourrait-il l'égaler.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="522" part="F">C'est trop peu que de l'or ; </l>
+            <l n="523">Son prix est excessif, sa valeur est extrême </l>
+            <l n="524">Il faut que par échange on se donne soi-même. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="525" part="I">Montre-moi cette perle ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="525" part="F">Elle vous éblouit ? </l>
+            <l n="526">L'on ne la saurait voir que quand on en jouit, </l>
+            <l n="527">Et dès qu'on la possède il s'y forme une flamme </l>
+            <l n="528">Invisible à nos yeux et visible à notre âme, </l>
+            <l n="529">Elle, dont la lumière y trouve tant d'appas </l>
+            <l n="530">Découvre apparemment ce que l'oeil ne voit pas. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="531" part="I">Fais-moi donc concevoir ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="531" part="F">Vous pouvez m'entendre ? </l>
+            <l n="532">Et sans être Chrétien l'on ne me peut comprendre. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="533" part="I">Chrétien ! </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="533" part="F">Oui je le suis, Seigneur imitez-moi, </l>
+            <l n="534" part="I">Quoi vous vous étonnez ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="534" part="F">Ah ! Mon fils est-ce toi ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="535">Oui, Seigneur, je vous parle et puissiez-vous m'entendre, </l>
+            <l n="536">Je sais que ce rencontre a de quoi vous surprendre ; </l>
+            <l n="537">C'est c'est de Barlaam de qui mon Dieu se sert </l>
+            <l n="538">Que sa voix a tiré du milieu d'un désert, </l>
+            <l n="539">Que le Ciel a choisi pour remplir vos présages </l>
+            <l n="540">Et qui pour mon salut a franchi cent passages, </l>
+            <l n="541">Il s'est ici glissé malgré mille témoins </l>
+            <l n="542">Et son déguisement a vaincu tous vos soins, </l>
+            <l n="543" part="I">Tous vos faux Dieux ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="543" part="M">Tais-toi. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="543" part="F">Je n'ai plus de paroles </l>
+            <l n="544">Que pour vous reprocher l'abus de vos idoles ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="545">À tes impiétés je tremble et je frémis, </l>
+            <l n="546">Sors, je ne te vois plus qu'entre mes ennemis ? </l>
+            <l n="547">Sors sors, blasphémateur évite ma colère.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="548">Hé bien sortons mon Dieu, je te laisse mon père. </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER, seul.</speaker>
+            <l n="549">C'est donc toi Barlaam, âme lâche et sans foi, </l>
+            <l n="550">Ayant trahi tes Dieux, viens-tu trahir ton Roi ? </l>
+            <l n="551">Tristes prédictions funestes conjonctures, </l>
+            <l n="552">Par qui nous prévoyons toutes nos aventures ? </l>
+            <l n="553">Esprits trop curieux qui cherchez vos malheurs </l>
+            <l n="554">Combien votre science a-t-elle de douleurs, </l>
+            <l n="555">De ses folles erreurs nos âmes sont déçues, </l>
+            <l n="556">L'homme sans y penser travaille à leurs issues ; </l>
+            <l n="557">IL entre dans le piège en voulant l'éviter, </l>
+            <l n="558">Et la peur de tomber le fait précipiter ? </l>
+            <l n="559">Nous sommes malheureux devant le temps de l'être, </l>
+            <l n="560">Et nos enfants le sont avant que de bien naître/ </l>
+            <l n="561">Josaphat est Chrétien, l'on me l'a présagé, </l>
+            <l n="562">Grand avertissement t'avais-je négligé ; </l>
+            <l n="563">Je vois par cet objet redoubler ma tristesse, </l>
+            <l n="564">Te puis-je consoler, malheureuse princesse. </l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Abenner, Amalazie, Arache.</head>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="565">Seigneur Amalazie attend de nouveaux fers. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="566">Non ce n'est point assez des maux que j'ai souffert ; </l>
+            <l n="567">Je me viens condamner à de nouvelles peines, </l>
+            <l n="568">Au trône à votre fils je préfère mes chaînes ; </l>
+            <l n="569">Ne vous prévalez pas des droits de mon vainqueur, </l>
+            <l n="570">Et ne présumer point de contraindre mon coeur : </l>
+            <l n="571">Le sort, en m'ôtant tout m'a laissé le courage, </l>
+            <l n="572">Le sang de Sinanor ne sent point l'esclavage ; </l>
+            <l n="573">Il n'éprouva jamais que c'est que d'obéir, </l>
+            <l n="574">Mais dans moi la fortune a voulu le trahir ? </l>
+            <l n="575">Elle a cru par la fille assujettir le père, </l>
+            <l n="576">Gardons en dépit d'elle un Royal caractère ; </l>
+            <l n="577">Oui, fameux Sinanor, je soutiendrai mon rang, </l>
+            <l n="578">Je saurai maintenir l'honneur d'un si beau sang ? </l>
+            <l n="579">Seigneur, n'alléguer point le droit de vos conquêtes, </l>
+            <l n="580">Ses pareils n'ont point vu que des Dieux sur leurs têtes ; </l>
+            <l n="581">Et le fameux motif de tous vos différents, </l>
+            <l n="582">N'est qu'un commun prétexte entre des conquérants : </l>
+            <l n="583">Vous prétendiez de lui de plus grands avantages, </l>
+            <l n="584">Vous vouliez son Empire et non pas ses hommages ; </l>
+            <l n="585">Sur un simple refus vous l'avez oppressé, </l>
+            <l n="586">Il vous dénia l'un, l'autre vous fut laissé ? </l>
+            <l n="587">Prenez tous ses États je vous les abandonne, </l>
+            <l n="588">Possédez-les Seigneur, la guerre vous les donne ; </l>
+            <l n="589">Le conseil de Narsingue autorise ses lois, </l>
+            <l n="590">Et s'il faut mon aveu je vous cède mes droits : </l>
+            <l n="591">Épuisez épuisez tout le sang de mon père, </l>
+            <l n="592">Élevez sur son trône une race étrangère ? </l>
+            <l n="593">Laissez-moi consommer dedans une prison, </l>
+            <l n="594">Et jusques à son soutien abattez ma maison : </l>
+            <l n="595">Mais délivrez mon coeur de cette servitude, </l>
+            <l n="596">L'esclavage du corps n'est-il pas assez rude ! </l>
+            <l n="597">Rien que ma liberté ne peut plaire à mes yeux. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="598">Haïssez Josaphat, il est trop odieux ? </l>
+            <l n="599">Votre possession est un don trop insigne ? </l>
+            <l n="600">En se rendant chrétien il s'en est fait indigne. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="601" part="I">Il est Chrétien ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="601" part="F">Il l'est qu'on coure des déserts, </l>
+            <l n="602">Qu'on cherche Barlaam qu'on l'accable de fers ; </l>
+            <l n="603" part="I">Vous gardes imprudents. </l>
+          </sp>
+          <sp who="tc0300-UNGARDE">
+            <speaker>UN GARDE.</speaker>
+            <l n="603" part="M">Seigneur. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="603" part="F">Suivez ce lâche, </l>
+            <l n="604">Malgré tous leurs détours c'est en vain qu'il s'y cache. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="605">Il sera malaisé de l'y pouvoir saisir, </l>
+            <l n="606">Et dès qu'on peut avoir un moment de moisir, </l>
+            <l n="607">Au sortir du Palais l'on s'abîme sous terre. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="608">Il y sera trouvé par l'éclat d'un Tonnerre ? </l>
+            <l n="609">Dieux ! S'il est de besoin que mon fils meure aussi, </l>
+            <l n="610">Si vous le souhaitez je le désire ainsi. </l>
+            <l n="611" part="I">Oui qu'il meure ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="611" part="M">Ah ! Seigneur. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="611" part="F">Tentez une autre voie, </l>
+            <l n="612">Servez-vous du moyen que le Ciel vous envoie : </l>
+            <l n="613">Je sais un beau secret dont vous devez usez, </l>
+            <l n="614">Le prince Josaphat s'y pourrait abuser ; </l>
+            <l n="615">Nacor et Barlaam ont tant de ressemblance, </l>
+            <l n="616">Que la Cour se trompait dedans cette apparence : </l>
+            <note type="L">Linéament : Il ne se dit que des traits du visage. [FC]</note>
+            <l n="617">L'on prenait l'un pour l'autre à leurs linéaments, </l>
+            <l n="618">Et l'on n'en fit jamais de vrais discernements ; </l>
+            <l n="619">Ils ont la même voix, ils ont même visage, </l>
+            <l n="620">Ils ont les mêmes moeurs, ils semblent du même âge : </l>
+            <l n="621">L'on croit que la Nature y fît mêmes efforts, </l>
+            <l n="622">Enfin qu'une seule âme anime ces deux corps. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="623" part="I">Je vois ton artifice ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="623" part="F">Il nous le faut instruire, </l>
+            <l n="624">Et devant votre fils, il le faut produire ; </l>
+            <l n="625">Il feindra quelque temps de prendre son parti, </l>
+            <l n="626">Et d'abord que son coeur se sera démenti ; </l>
+            <l n="627">Il se laissera vaincre après sa résistance. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="628">Il faut que de son Dieu, Nacor ait connaissance. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="629">Il sait parfaitement les erreurs d'un Chrétien. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="630">Hé bien ! Disposez-vous à ce grand entretien ? </l>
+            <l n="631">Rendez-vous-y Madame, et par votre présence, </l>
+            <l n="632">Vous donnerez du poids à cette conférence : </l>
+            <l n="633">Allons-y donc pourvoir, Dieux voici des arrêts, </l>
+            <l n="634">L'on y va décider de tous vos intérêts. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I. Abenner, Nacor.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="635">Nacor, en ce rencontre il se faut bien conduire, </l>
+            <l n="636">Je te ferai puissant si tu le peux réduire : </l>
+            <l n="637">Je te veux accabler et de bien et d'honneur. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="638">Et s'il ne me prenait que comme un suborneur ; </l>
+            <l n="639">S'il vient à découvrir ce mauvais artifice. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="640">N'importe, en ce dessein je serai ton complice : </l>
+            <l n="641">D'ailleurs, étant pareils de visage et de voix, </l>
+            <l n="642">Il est bien malaisé qu'il ne se trompe au choix ; </l>
+            <l n="643">Qu'il discerne le faux d'avec le véritable. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="644">Il est bien vrai qu'en tout je lui parais semblable. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="645">Je crains qu'au vêtement il n'est quelque soupçon. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="646">Il en peut bien avoir de diverse façon ? </l>
+            <l n="647">Barlaam put avoir quelque ami dans la ville, </l>
+            <l n="648">Qui lui persuada ce changement utile ; </l>
+            <l n="649">Et de crainte qu'au sien il n'ait été surpris, </l>
+            <l n="650">Il a pu dépouiller celui qu'il avait pris, </l>
+            <l n="651">Et d'ailleurs votre fils croit sa prise assurée, </l>
+            <l n="652">Sans s'en fier à vous ses yeux l'ont avérée ? </l>
+            <l n="653" part="I">Il me croit Barlaam. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="653" part="F">Il se doit rendre ici, </l>
+            <l n="654">La plupart de ma Cour s'y doit trouver aussi ? </l>
+            <l n="655">Feins bien adroitement, contrefais le fidèle, </l>
+            <l n="656">Laisse emporter ton âme au courant de ton zèle ; </l>
+            <l n="657">Et laissant par degrés ralentir cette ardeur, </l>
+            <l n="658">Après tant de chaleur montre quelque froideur ? </l>
+            <l n="659">Quitte insensiblement le soin de te défendre, </l>
+            <l n="660">Et par un défaut force toi de te rendre : </l>
+            <l n="661">Bientôt ce criminel me doit être amené. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="662" part="I">Je saurai maintenir ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="662" part="F">Voici cet obstiné : </l>
+            <l n="663">Nos Dieux dedans tes mains ont remis leur victoire, </l>
+            <l n="664">Et comme d'un dépôt réponds-leur de leur gloire : </l>
+            <l n="665">Fais enfin triompher la loi que nous tenons. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Abenner, Arache, Josaphat, Amalazie, Nacor, Courtisans.</head>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="666">Seigneur, voici le Prince et nous vous l'amenons. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="667">Viens donc coeur endurci, viens écouter ton maître. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="668" part="I">Ah ! Mon cher Barlaam ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="668" part="F">Viens seconder ce traître ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="669">Malgré ta prévoyance es-tu donc arrêté, </l>
+            <l n="670">Et dedans ce péril comment t'es-tu jeté. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="671">En sortant d'un danger j'ai rentré dans un autre, </l>
+            <l n="672">Et la garde du Roi moins proche que la vôtre ; </l>
+            <l n="673">À qui quelque rumeur donna ce grand loisir, </l>
+            <l n="674">Recouvra par hasard le temps de me saisir. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="675">Hé bien mon fils, mes Dieux n'ont-ils point de justice, </l>
+            <l n="676">En fuyant un abîme il trouve un précipice ; </l>
+            <l n="677">Et ce pressant remords quand il fut agité, </l>
+            <l n="678">Le ramène au péril qu'il avait évité ? </l>
+            <l n="679" part="I">Tu mourras suborneur. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="679" part="F">Que l'on m'ôte la vie. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="680">Je te contenterai si c'est là ton envie : </l>
+            <l n="681">J'avais cru te punir par un bannissement, </l>
+            <l n="682">Mais il faut t'ordonner un plus grand châtiment. </l>
+            <l n="683" part="I">Ton trépas. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="683" part="M">Je l'attends. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="683" part="F">Avant que tu l'endures, </l>
+            <l n="684">Je te veux faire voir toutes tes impostures ; </l>
+            <l n="685">De mes Dieux et du tien faire comparaison, </l>
+            <l n="686">Et par ton propre aveu convaincre ta raison ? </l>
+            <l n="687">Défends en liberté ta trompeuse doctrine, </l>
+            <l n="688">Parle-moi de ton Dieu dis-nous son origine ; </l>
+            <l n="689">S'il a des qualités à régner dans les Cieux, </l>
+            <l n="690">S'il est digne d'entrer au nombre de mes Dieux ; </l>
+            <l n="691">Et s'il a mérité qu'on lui bâtisse un Temple. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="692">C'est ici Barlaam que ton Dieu te contemple ? </l>
+            <l n="693">Tu te vois exposé dans un double danger, </l>
+            <l n="694">Tu ne t'en puis sauver, il s'y faut engager : </l>
+            <l n="695">Loin d'éviter la mort qui s'offre à ta carrière, </l>
+            <l n="696">Regarder ton trépas qui te suit en arrière ? </l>
+            <l n="697">Avance, ou bien recule, il faut ici périr, </l>
+            <l n="698">Vois donc en quel péril il te plaît de mourir : </l>
+            <l n="699">Quel ennemi veux-tu, le fils ou bien le père, </l>
+            <l n="700">Choisis de ma rigueur ou bien de sa colère : </l>
+            <l n="701">Même sans implorer un moment de loisir, </l>
+            <l n="702">Devant toute la Cour explique ton désir ; </l>
+            <l n="703">Je signe par mon sang la loi qui m'est apprise, </l>
+            <l n="704">La raison veut aussi que ta mort l'autorise ; </l>
+            <l n="705">Puis donc que mon salut t'amenait en ce lieu, </l>
+            <l n="706">Défends avecque moi la gloire de ton Dieu. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="707">Oui, je la maintiendrai puisqu'il me la confie, </l>
+            <l n="708">Et puisqu'il l'a commise à ma philosophie : </l>
+            <l n="709">Je m'offre à vous prouver toutes nos vérités, </l>
+            <l n="710">Et vous réduire au long toutes ces qualités, </l>
+            <l n="711">Ce grand Dieu que j'adore est tout inconcevable, </l>
+            <l n="712">Et l'on le définit une essence ineffable : </l>
+            <l n="713">Il vit tout commencer, il verra tout finir, </l>
+            <l n="714">Il comprend le passé, le présent, l'avenir ; </l>
+            <l n="715">Dans lui sont tous les temps il règle nos années, </l>
+            <l n="716">Et ce Maître absolu régit nos destinées : </l>
+            <l n="717">Vous donnez à vos Dieux un pouvoir limité, </l>
+            <l n="718">Vous les avez soumis à la fatalité ? </l>
+            <l n="719">Le mien ne reçoit point, ni d'égaux, ni de Maîtres, </l>
+            <l n="720">Cet être indépendant est le premier des êtres, </l>
+            <l n="721">Ce Dieu, quoiqu'il soit un, forme une Trinité, </l>
+            <l n="722">Et dans sa Trinité garde son unité : </l>
+            <l n="723">Le père en regardant sa très divine essence, </l>
+            <l n="724">Engendre son cher fils de cette connaissance ; </l>
+            <l n="725">Ainsi que d'un miroir où frappe le Soleil, </l>
+            <l n="726">Il s'en peut réfléchir un rayon tout pareil : </l>
+            <l n="727">Par des relations et de fils et de père, </l>
+            <l n="728">L'entendement de l'homme a conçu ce mystère, </l>
+            <l n="729">Non que cette action ait eu quelques instants, </l>
+            <l n="730">Qu'il soit intervenu priorité de temps : </l>
+            <l n="731">Le Père est seulement premier par origine, </l>
+            <l n="732">D'une émanation adorable et divine ; </l>
+            <l n="733">Du mutuel amour qu'ils se rendaient tous deux, </l>
+            <l n="734">Ils firent procéder un Dieu tout amoureux : </l>
+            <l n="735">Un esprit tout de feux, un esprit tout aimable, </l>
+            <l n="736">Et cet élancement produisit leur semblable ; </l>
+            <l n="737">Ainsi quoiqu'ils soient trois, l'on n'en doit croire qu'un, </l>
+            <l n="738">Tout ce que l'on possède est aux autres commun ? </l>
+            <l n="739">Concevez-les ensemble ils ont même avantage, </l>
+            <l n="740">Séparez leur personne ils ont même partage : </l>
+            <l n="741">Ils sont associés par un commerce étroit, </l>
+            <l n="742">Et tous trois d'un accord s'approprient un droit ? </l>
+            <l n="743">Ce Dieu qui conçoit tout, se pouvait seul comprendre, </l>
+            <l n="744">Ce qui sortait de lui dans lui se venait rendre : </l>
+            <l n="745">Par sa propre existence il logeait dedans lui, </l>
+            <l n="746">Et de son propre poids il était son appui : </l>
+            <l n="747">Ces mystères divins vous semblent inconcevables, </l>
+            <l n="748">Et de si hauts discours sont à peine traitables, </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="749">Qu'on arrache la langue à ce blasphémateur, </l>
+            <l n="750">Comme toi suborneur, il fut un imposteur ; </l>
+            <l n="751">Ton Dieu, s'est vu mourir avec ignominie. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="752">Il se soumit lui-même à cette tyrannie ? </l>
+            <l n="753">Il devait accomplir ce qu'il se prescrivait, </l>
+            <l n="754">Et selon ses souhaits toute chose arrivait. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="755">Tombe-t-il sous les sens qu'un Dieu se soit fait homme. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="756">L'amour qu'il a pour nous jusque-là le consomme ; </l>
+            <l n="757">Entre l'homme et le Ciel il fallait un milieu, </l>
+            <l n="758">Et pour votre pardon le sang d'un homme Dieu ? </l>
+            <l n="759">Vos Dieux ont bien paru sous diverses figures, </l>
+            <l n="760">Ils ont bien avili leurs divines natures ; </l>
+            <l n="761">Doutez-vous que le mien n'ait pu ce qu'ils ont fait, </l>
+            <l n="762">Et qu'il n'ait pu le même en un contraire effet ! </l>
+            <l n="763">Vos Dieux sous cette forme étaient ce que nous sommes, </l>
+            <l n="764">Ils étaient scandaleux aux yeux même des hommes ; </l>
+            <l n="765">Les mortels rougissaient de les voir vicieux, </l>
+            <l n="766">Et de leur voir souiller, et la Terre et les Cieux : </l>
+            <l n="767">Et quoiqu'accoutumés à des crimes extrêmes, </l>
+            <l n="768">Ils méprisaient des Dieux qui s'offensaient eux-mêmes : </l>
+            <l n="769">Le mien, prit sur la Terre un plus noble projet, </l>
+            <l n="770">Et le salut du monde était son seul objet, </l>
+            <l n="771">Il y vint habiter il en chassa le vice, </l>
+            <l n="772">Qui se vengeant d'un Dieu suscita son supplice ; </l>
+            <l n="773">Et qui par son abord se voyant abattu, </l>
+            <l n="774">Par un dernier effet fit punir la vertu ; </l>
+            <l n="775">Enfin vos Dieux souffraient et commettaient le crime, </l>
+            <l n="776">Ma loi n'enseigne rien qui ne soit légitime. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="777" part="I">C'est trop ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="777" part="F">Amalazie, Arache, vous mon Roi, </l>
+            <l n="778">Pliez, pliez le col subissez cette loi ; </l>
+            <l n="779">Le joug de mon Sauveur, n'est pas insupportable, </l>
+            <l n="780">Le servir c'est régner son Empire est aimable : </l>
+            <l n="781">Il nous entraîne à soi par de douces rigueurs, </l>
+            <l n="782">Et sans être Tyran il enlève nos coeurs ; </l>
+            <l n="783">Prenez, prenez mon Prince, une sainte furie, </l>
+            <l n="784">Par arrêt solennel chassez l'idolâtrie ; </l>
+            <l n="785">Rappelez les Chrétiens que vous avez chassés, </l>
+            <l n="786">Relevez les Autels que l'on a renversés ? </l>
+            <l n="787">Faites à notre Dieu de nobles sacrifices, </l>
+            <l n="788">Et condamnez au feu vos Dieux et leurs complices. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="789" part="I">Barlaam ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="789" part="F">Périssez vous qui les adorez, </l>
+            <l n="790">Qui rendez des honneurs à des marbres dorés ? </l>
+            <l n="791">Qui n'ayant point de Dieux vous faites des images, </l>
+            <l n="792">Et qui vous soumettez à vos propres ouvrages ? </l>
+            <l n="793">Périssent tous les Dieux que vous idolâtrez, </l>
+            <l n="794">Tombe, tombe, les lieux dans lesquels vous entrez. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="795" part="I">Traître ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="795" part="M">Je suis Chrétien. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="795" part="F">Cet adieu t'est funeste. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="796">Je le suis et l'étais ma foi se manifeste ? </l>
+            <l n="797">C'est se trop déguiser, Seigneur je suis Chrétien, </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="798" part="I">Il feint avec adresse ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="798" part="F">Il le contrefait bien. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="799" part="I">Vous en doutez encor ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="799" part="F">Lâche, tu continues. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="800">Toutes vos faussetés doivent être connues ! </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="801" part="I">Ah ! C'est trop Barlaam ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="801" part="F">Non, non, je suis Nacor. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="802">Dieu tout miraculeux je te bénis encor ; </l>
+            <l n="803">Tes opérations, sont vraiment merveilleuses. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="804">Et nos façons d'agir sont bien souvent trompeuses : </l>
+            <l n="805">Notre Dieu comme il veut détermine de tout, </l>
+            <l n="806">Quand l'homme a proposé ce Tout-Puissant résout ? </l>
+            <l n="807">Seigneur, l'on vous trompait dessus une apparence, </l>
+            <l n="808">Et votre oeil s'est déçu par cette ressemblance : </l>
+            <l n="809">Barlaam n'est point pris, je me nomme Nacor. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="810">Puissant Dieu des Chrétiens je te bénis encor ! </l>
+            <l n="811">Il n'appartient qu'à toi de faire ces miracles, </l>
+            <l n="812">De l'âme de mon père arrache tous obstacles : </l>
+            <l n="813">Le mensonge tient-t-il contre tes vérités, </l>
+            <l n="814">Et son aveuglement contre tant de clartés ? </l>
+            <l n="815">Amalazie, Arache adorez sa puissance, </l>
+            <l n="816">Et les rares effets de cette providence. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="817">Revenez, revenez de votre étonnement, </l>
+            <l n="818">Reconnaissez le Ciel à cet événement ? </l>
+            <l n="819">Mon Dieu, se joue ainsi de la prudence humaine, </l>
+            <l n="820">Pouvez-vous résister, à l'esprit qui vous traîne ; </l>
+            <l n="821">Qui par tant de clartés vous décille les yeux, </l>
+            <l n="822">Et dont le saint courroux vous arrache à vos Dieux ; </l>
+            <l n="823" part="I">Il vous fait violence ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="823" part="F">Ah ! Tu mourras perfide. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="824">Je suis fortifié je ne suis plus timide ; </l>
+            <l n="825">Sachez que Barlaam, m'enseigna cette loi, </l>
+            <l n="826">Mon Dieu dans son absence a soutenu ma foi ; </l>
+            <l n="827">Mon coeur mieux affermi ne craint plus vos supplices. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="828" part="I">Je les redoublerai ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="828" part="F">J'aurai mille complices ; </l>
+            <l n="829">Et toute votre Cour est pleine de Chrétiens, </l>
+            <l n="830" part="I">Ils me vont imiter. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="830" part="F">Être trahi des miens. </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="831">Loin de prêter la main à votre stratagème. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="832" part="I">Traître ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="832" part="F">J'ai concerté de vous tromper vous-même ; </l>
+            <l n="833">Et cette occasion s'étant offerte à moi, </l>
+            <l n="834">J'ai dû m'en prévaloir, j'ai dû Seigneur. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="835" part="I">Tais-toi ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="835" part="F">Puis donc qu'il se faut taire allons à mon martyre, </l>
+            <l n="836">Et tracer par mon sang ce que je ne puis dire. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="837" part="I">Qu'on le mène à la mort ? </l>
+          </sp>
+          <sp who="tc0300-NACOR">
+            <speaker>NACOR.</speaker>
+            <l n="837" part="F">Prince, je vais mourir. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="838">Notre Dieu t'a montré l'exemple de souffrir ? </l>
+            <l n="839">Va, va je te vais suivre, et suivre un si grand Maître </l>
+            <l n="840" part="I">Il est mort pour les siens. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="840" part="F">Veux-tu suivre ce traître. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Abenner, Amalazie, Arache, Josaphat.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="841">Seigneur, je suis chrétien, je me fais mon arrêt, </l>
+            <l n="842">Je suis pressé de mourir pour le même intérêt. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="843" part="I">Ah ! Seigneur ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="843" part="M">Ah ! Mon Prince. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="843" part="F">Arache et vous Princesse, </l>
+            <l n="844">Mon âme désavoue une telle faiblesse :</l>
+            <l n="845">Apprenez que mon Dieu se sait faire louer, </l>
+            <l n="846">Qu'à la face de tous il le faut avouer ; </l>
+            <l n="847">D'une indigne pitié votre haine est suivie, </l>
+            <l n="848">Après tous vos mépris devrais-je aimer la vie : </l>
+            <l n="849">Vous feignez de souffrir ne faites point d'effort, </l>
+            <l n="850">Je n'exige de vous qu'un soupir à ma mort, </l>
+            <l n="851" part="I">Vous Seigneur, ces faux Dieux ! </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <note type="L">Foudre : Exhalaison grasse et sulfurée qui s'enflamme par le choc des nues, et qui en sortant avec violence fait un grand bruit, et des effets extraordinaires sur la terre. [F]</note>
+            <l n="851" part="F">Ne crains-tu point la foudre. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="852">Elle mettra plutôt tous vos Autels en poudre. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="853">Les Autels de ton Dieu ne sont pas établis, </l>
+            <l n="854">Et quand ils le seraient ils seraient démolis ; </l>
+            <l n="855">J'en purgerais bientôt la face de la terre, </l>
+            <l n="856">Ma main épargnera cette peine au tonnerre/ 	</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="857">Ah ! Seigneur, si mon Dieu n'arrêtait son courroux, </l>
+            <l n="858">Son indignation éclaterait sur vous ? </l>
+            <l n="859">Mon Dieu, suspens ta foudre et retiens ta colère, </l>
+            <l n="860">Épargne en ma faveur la tête de mon père. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Abenner, Amalazie, Arache.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="861">Il court à son malheur il lui faut résister, </l>
+            <l n="862">Et malgré sa vitesse il le faut arrêter : </l>
+            <l n="863">Sauvez-le, Amalazie, et daignez l'entreprendre, </l>
+            <l n="864">Ce sont vos seuls efforts qui me le pourront rendre, </l>
+            <l n="865">Nous y perdons tous deux si mon fils est perdu. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="866">Attendez-le des Dieux, il vous sera rendu : </l>
+            <l n="867" part="I">Je ne puis rien sur lui ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="867" part="F">De vous seule j'espère, </l>
+            <l n="868">Faites ce que n'ont pu ni les Dieux ni son père, </l>
+            <l n="869">Madame, sa défaite est en votre pouvoir. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="870">Prenez d'autres moyens je ne le saurais voir ; </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="871">Rendez-moi cet office et vous servez vous-même. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="872" part="I">Seigneur, je n'y puis rien ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="872" part="F">Ma Princesse il vous aime, </l>
+            <l n="873">C'est trop se défier du pouvoir de vos yeux. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="874">Qui peuvent mes raisons, laissez ce soin aux dieux. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="875">Enfin, enfin je prie et même je l'ordonne, </l>
+            <l n="876">J'ai quelque autorité dessus votre personne. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="877" part="I">Vous Seigneur ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="877" part="F">Moi Madame, et vous l'éprouverez, </l>
+            <l n="878">Si vous n'obéissez vous la ressentirez ; </l>
+            <l n="879" part="I">Vous êtes mon esclave ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="879" part="F">Et je puis ne pas l'être, </l>
+            <l n="880">Bientôt par mon trépas je n'aurai point de Maître. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="881">Vous pourrez donc choisir de la mort ou de lui, </l>
+            <l n="882">Enfin de votre sort décidez aujourd'hui ; </l>
+            <l n="883">Entrez dedans vos fers ou dans mon alliance, </l>
+            <l n="884">Et de ces deux partis faites la différence : </l>
+            <l n="885">De vos ressentiments il me souvient encor, </l>
+            <note type="C">Vers 886, l'original porte Cinanor au lieu de Sinanor.</note>
+            <l n="886">Vous m'avez reprochez la mort de Sinanor ; </l>
+            <l n="887">Que je retiens ses biens par la loi de la guerre, </l>
+            <l n="888">Vous avez su les droits que j'avais sur sa terre : </l>
+            <l n="889">Et comme ce vassal força son Souverain, </l>
+            <l n="890">De les lui maintenir les armes à la main ; </l>
+            <l n="891">Vous ne démentez point l'orgueil de votre père, </l>
+            <l n="892">Dedans votre famille il est héréditaire ; </l>
+            <l n="893">Mais, je saurai rabattre un orgueil qui vous perd, </l>
+            <l n="894" part="I">Adieu pensez-y bien. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Amalazie, Arache.</head>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="894" part="F">Il s'est enfin ouvert, </l>
+            <l n="895">Et ce lion cache manifeste sa rage. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="896">Humiliez ce coeur abaissez ce courage. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="897">Ce tyran me l'ordonne il parle absolument, </l>
+            <l n="898">Moi, j'aimerais son fils après ce traitement ? </l>
+            <l n="899">Tyran, ton alliance a-t-elle tant de charmes, </l>
+            <l n="900">Je n'y remarque rien que des sujets de larmes ; </l>
+            <l n="901">Irai-je sur ce trône où tu me veux placer, </l>
+            <l n="902">Mon père en est tombé je l'ai vu renverser ; </l>
+            <l n="903">Et de quelque côté que je le considère, </l>
+            <l n="904">Il n'est point de chemin que le corps de mon père ? </l>
+            <l n="905">C'est là le seul degré qui m'élève à son rang, </l>
+            <l n="906">Et toute cette place est rouge de son sang ; </l>
+            <l n="907">Rends-moi dans mes États par de plus belles voies, </l>
+            <l n="908">Regarde cet endroit par lequel tu m'envoies ; </l>
+            <l n="909">Tu me donnes en dot le vol que tu me fis, </l>
+            <l n="910">Le père me le rend par la main de son fils : </l>
+            <l n="911">Et croyant lui remettre une part de son crime, </l>
+            <l n="912">Il pense d'un larcin faire un don légitime ? </l>
+            <l n="913">Garde, garde tyran ce que tu m'as volé, </l>
+            <l n="914">Vois à ton Empire un état désolé ; </l>
+            <l n="915">Tyran, enrichis-toi du sac de mes Provinces, </l>
+            <l n="916">Et rends ton héritier le plus puissant des Princes, </l>
+            <l n="917">Contrains tes alliés d'être ses hommagers, </l>
+            <l n="918">Force à l'idolâtrer les peuples étrangers ! </l>
+            <l n="919">Mais ne te flatte point de me le rendre aimable, </l>
+            <l n="920">Avec toute sa pompe il me semble effroyable ; </l>
+            <l n="921">Ce déplaisant objet m'est autant odieux, </l>
+            <l n="922">Qu'il est digne de l'être et qu'il l'est à nos Dieux. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="923" part="I">De quoi l'accusez-vous ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="923" part="F">Des crimes de son père, </l>
+            <l n="924">Par là je l'envisage et je le considère. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="925" part="I">Voyez-le ! </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="925" part="F">Me forcer de voir, votre rival. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="926">Madame, allez le voir je sais qu'il m'est fatal :</l>
+            <l n="927">Mais quelque sentiment que mon amour me donne, </l>
+            <l n="928">Le malheur de ce Prince afflige ma personne ? </l>
+            <l n="929">Permettez que j'imite un amour généreux, </l>
+            <l n="930">Qui préfère aux grandeurs un Prince malheureux ; </l>
+            <l n="931">Puisque j'admire en vous ces grandeurs de courage, </l>
+            <l n="932">Souffrez qu'en les louant je les mette en usage, </l>
+            <l n="933">Et que prenant de vous de si braves mouvements, </l>
+            <l n="934">Je pratique à mon tour ces nobles sentiments : </l>
+            <l n="935">Allez, allez Madame, essayez sa défaite, </l>
+            <l n="936">Vous avez en partage une âme trop parfaite : </l>
+            <l n="937">Quelque premier soupçon que mon amour ait eu, </l>
+            <l n="938">Il a tort de douter de la même vertu : </l>
+            <l n="939">Je n'appréhende point de perdre Amalazie, </l>
+            <l n="940">Elle a le coeur trop grand, tais-toi ma jalousie ; </l>
+            <l n="941">Tous tes raisonnements sont ici superflus, </l>
+            <l n="942">Laisse aller ma Princesse et ne la retient plus. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE, seule.</speaker>
+            <l n="943">Ce que n'a pu le trône, Arache l'a pu faire, </l>
+            <l n="944">Il le peut il le veut, Amour il faut lui plaire. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT, seul.</speaker>
+            <l n="945">Mon Dieu, tu vois des cieux les périls que je cours </l>
+            <l n="946">Parmi tant de dangers j'ai besoin d'un secours : </l>
+            <l n="947">Sans que mon coeur, contre eux hasarde sa défaite, </l>
+            <l n="948">Je les surmonterai par ma seule retraite ? </l>
+            <l n="949">Fermons à ma sortie et l'oreille et les yeux, </l>
+            <l n="950">N'écoutons que mon Dieu ne voyons que les Cieux ; </l>
+            <l n="951">Rentrons dans ce Palais j'y laisse Amalazie, </l>
+            <l n="952">Mon Dieu, divin rival vois-la sans jalousie : </l>
+            <l n="953">Ne me possède pas avec tant de rigueur, </l>
+            <l n="954">Et souffre qu'elle prenne une place à mon coeur, </l>
+            <l n="955">Mon amour pour tous deux sera toujours extrême, </l>
+            <l n="956">Tous deux vous m'êtes tout je t'adore et je l'aime ; </l>
+            <l n="957">Mais l'ingrate me hait et trompeur en ce point, </l>
+            <l n="958">Je te viens présenter ce qu'elle ne veut point ; </l>
+            <l n="959">Mon coeur détache-toi de cette indigne flamme </l>
+            <l n="960">Amour, profane amour sors enfin de mon âme ; </l>
+            <l n="961">Je ne te puis souffrir dedans ce lieu sacré, </l>
+            <l n="962">Il faut que tout en sorte étant pleine d'un dieu ; </l>
+            <l n="963">Mon Dieu je vois venir cette belle idolâtre. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Amalazie, Josaphat.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="964">Madame à quel dessein me venez-vous combattre ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="965">Vous savez le sujet qui me conduit ici.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="966">Certes vous m'étonnez par un si grand souci, </l>
+            <l n="967">Je ne puis découvrir d'où procède ce Zèle, </l>
+            <l n="968">Je ne l'attendais pas d'une âme si cruelle. </l>
+            <l n="969">À peine en vous voyant puis-je craindre mes yeux, </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="970">Me quittez-vous Seigneur délaissez-vous vos Dieux. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="971">Cet Éloge n'est dû qu'au Dieu de la nature, </l>
+            <l n="972">Dont la grandeur éclate en chaque créature, </l>
+            <l n="973">Dont la profusion a paru dessus vous </l>
+            <l n="974">Et qui de son image est devenu jaloux, </l>
+            <l n="975">S'il peut être troublé votre malheur le touche </l>
+            <l n="976">Écoutez son reproche il se plaint par ma bouche, </l>
+            <l n="977">Et vous dit qu'un objet qu'il a rempli d'appas, </l>
+            <l n="978">Est ingrat s'il ne l'aime et ne l'adore pas, </l>
+            <l n="979">C'est votre Souverain faites-lui donc hommage </l>
+            <l n="980">Et révérez un Dieu dont vous êtes l'image. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="981" part="I">Le Dieu que vous servez ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="981" part="F">Est un amant jaloux, </l>
+            <l n="982">Il ne veut point entrer en partage avec vous, </l>
+            <l n="983">Il a mis entre nous un éternel obstacle </l>
+            <l n="984">Et pour nous réunir il doit faire un miracle, </l>
+            <l n="985">Mais si je l'ose dire avec quelque raison </l>
+            <l n="986">Et si j'ose avancer cette comparaison, </l>
+            <l n="987">Vous pouvez, s'il l'a fait, défaire cet obstacle </l>
+            <l n="988">Et contre lui tenter un contraire miracle, </l>
+            <l n="989">En nous désunissant sa force s'est fait voir </l>
+            <l n="990">En nous réunissant montrez votre pouvoir, </l>
+            <l n="991">Votre Toute-Puissance égalera la sienne, </l>
+            <l n="992">Même vous la vaincrez en vous faisant Chrétienne, </l>
+            <l n="993">Vous me rendrez l'amour que l'on me vient d'ôter. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="994">Seigneur, à quel espoir vous laissez-vous flatter,</l>
+            <l n="995">Un Prince comme vous né dans l'or et la soie </l>
+            <l n="996">Qui doit vivre et mourir au milieu de la joie, </l>
+            <l n="997">Dont l'âge doit passer dans les contentements </l>
+            <l n="998">Et dont les jours n'auront que d'aimables moments, </l>
+            <l n="999">Se doit-il figurer un bien imaginaire </l>
+            <l n="1000">Souffrir toute sa vie un tourment volontaire, </l>
+            <l n="1001">Et dédaignant ici de solides appas</l>
+            <l n="1002">Courir après un bien qui ne se trouve pas, </l>
+            <l n="1003">Vous quittez pour cela, sujets, amis et père. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1004">À père, amis, sujets, mon amour vous préfère, </l>
+            <l n="1005">Si j'ai quelque regret c'est de vous délaisser. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1006">Seigneur plus d'une fois vous y devez penser. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1007">Il faut que je réponde à la voix qui m'appelle. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1008">Devriez-vous écouter une voix infidèle, </l>
+            <l n="1009">Et suivre un faux brillant qui vous mène au trépas. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1010">Madame imitez-moi, marchez dessus mes pas, </l>
+            <l n="1011">Toi dont la forte voix a frappé mes oreilles </l>
+            <l n="1012">Opère sur son coeur de semblables merveilles, </l>
+            <l n="1013">Et l'élevant des sens fais-le monter à toi ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1014">Votre félicité n'est donc que dans la foi, </l>
+            <l n="1015">Faut-il pour être heureux s'imaginer de l'être </l>
+            <l n="1016">Et peut-il accorder tout ce qui peut promettre. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1017">Il nous donne encor plus il peut tout ce qu'il veut </l>
+            <l n="1018">Et même en votre sort regardez ce qu'il peut, </l>
+            <l n="1019">Vous êtes absolue et du nombre des Reines, </l>
+            <l n="1020">Il a bien pu changer votre sceptre en chaînes, </l>
+            <l n="1021">Il vous veut réserver un Empire Éternel </l>
+            <l n="1022">Il vous ôte de l'âme un amour criminel, </l>
+            <l n="1023">Ce désir des grandeurs l'instrument de vos pertes </l>
+            <l n="1024">Et des calamités que vous avez souffertes. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1025">Est-ce là le secours que vous m'avez promis. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1026">Vous voyez l'impuissance où le monde m'a mis ; </l>
+            <l n="1027">Déjà ses partisans m'ont déclaré la guerre, </l>
+            <l n="1028">Et je ne puis plus rien du côté de la terre, </l>
+            <l n="1029">J'ai perdu mon crédit dans le conseil du Roi </l>
+            <l n="1030">Mais dans celui du Ciel donnez-moi quelque emploi, </l>
+            <l n="1031">Ordonnez que pour vous j'y fasse une prière </l>
+            <l n="1032">Des bontés de mon Dieu vous l'aurez toute entière, </l>
+            <l n="1033">Même vous aurez plus que vous ne demandez. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1034" part="I">Ô puissance secrète ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1034" part="F">Hé bien vous vous rendez ? </l>
+            <l n="1035">Voyez si ma faveur n'a pas de l'efficace </l>
+            <l n="1036">Puisque sans le prier il nous donne sa grâce. </l>
+            <l n="1037">Nacor a commencé ce que vous avez fait </l>
+            <l n="1038">De ses raisonnements c'est la suite et l'effet, </l>
+            <l n="1039">Vous avez achevé d'affermir ma croyance </l>
+            <l n="1040">Et j'étais disposé à cette connaissance, </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <note type="C">Sur l'original, une note manuscrite sur l'original déplace le nom du locuteur AMALAZIE au dessus du vers 1037. Nous laissons la forme imprimée.</note>
+            <l n="1041">Oui, je me rends au Dieu que vous nous enseignez. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1042">Quelles sont les bontés que vous me témoignez, </l>
+            <l n="1043">Il vous reste mon Dieu de nouvelles matières </l>
+            <l n="1044">Sur Arache et mon père étendez vos lumières, </l>
+            <l n="1045">Que de choses produit cet heureux changement </l>
+            <l n="1046">En vous donnant au Ciel je vous rends votre amant, </l>
+            <l n="1047">Je retourne à mes fers reprenez-moi Madame </l>
+            <l n="1048">Et me restituez une place en votre âme, </l>
+            <l n="1049">J'y puis bien compatir avecque notre Dieu, </l>
+            <l n="1050">Donnez-lui le premier à moi le second lieu. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1051">Je ne puis être à vous un autre me possède. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1052">Ô rival trop heureux ! Faut-il que je te cède, </l>
+            <l n="1053">Je ne demande plus d'où naissaient vos mépris. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1054">Ma conquête Seigneur n'est pas d'un si grand prix, </l>
+            <l n="1055">Que vous puis-je apporter qu'une dot très funeste </l>
+            <l n="1056">Je n'ai plus que des fers c'est tout ce qui me reste, </l>
+            <l n="1057">Seigneur je vous dois tout et ne vous donne rien, </l>
+            <l n="1058" part="I">Si ce n'est que les voeux ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1058" part="F">Ennemi de mon bien ? </l>
+            <l n="1059">Amant trop glorieux, Amant trop téméraire, </l>
+            <l n="1060">Quel était ton secret qu'avais-tu pour lui plaire, </l>
+            <l n="1061">Donne-moi, donne-moi, l'art de me faire aimer </l>
+            <l n="1062">Et vous Madame, au moins daignez me le nommer. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1063" part="I">Ignorez-le Seigneur ! </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1063" part="F">Il faut que je le sache </l>
+            <l n="1064">Il paraîtra bientôt c'est en vain qu'il se cache, </l>
+            <l n="1065">Et de quelque respect qu'il force ses désirs </l>
+            <l n="1066">Je le vais reconnaître au bruit de ses soupirs. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Amalazie, Josaphat, Arache.</head>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1067" part="I">Ah ! Seigneur, ah ! Madame. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1067" part="F">Et quoi d'où naît ce trouble ? </l>
+            <l n="1068" part="I">Arache qu'avez-vous ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1068" part="F">Ma frayeur se redouble. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1069">Prince retirez-nous de notre étonnement. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1070" part="I">Je le vais augmenter. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1070" part="F">Quel est ce changement ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1071">L'on a fait un théâtre au milieu de la place, </l>
+            <l n="1072">Il est environné d'un tas de populace, </l>
+            <l n="1073">Et ce monstre immobile autant que curieux, </l>
+            <l n="1074">Dessus cet échafaud semble attacher ses yeux ? </l>
+            <l n="1075">Là, Nacor aux tourments donne son corps en butte, </l>
+            <l n="1076">Et contre ses douleurs toute son âme lutte ; </l>
+            <l n="1077">Quelque appareil de mort que l'on lui vienne offrir, </l>
+            <l n="1078">Dedans cet intervalle il s'anime à souffrir, </l>
+            <l n="1079">Pendant que ses bourreaux reprennent leurs haleines, </l>
+            <l n="1080">D'une espérance avide il dévore ses peines ? </l>
+            <l n="1081">Il se plaint du délai qui les fait respirer </l>
+            <l n="1082">Il est impatient de vouloir endurer, </l>
+            <l n="1083">Et voyant leurs apprêts ainsi que des amorces, </l>
+            <l n="1084">Il leur désire même une part de ses forces : </l>
+            <l n="1085">En soi-même il se plaint contre cette langueur, </l>
+            <l n="1086">Et pour les exciter il montre sa vigueur ? </l>
+            <l n="1087">Eux comme des lions que fait rugir la rage, </l>
+            <l n="1088">D'un oeil étincelant s'entredonnent courage, </l>
+            <l n="1089">Et poussant dessus lui des regards furieux, </l>
+            <l n="1090">Ils s'efforçaient de loin de l'achever des yeux ; </l>
+            <l n="1091">D'un oeil qui les bravait il accroît leur audace </l>
+            <l n="1092">Ils joignent aussitôt l'effet à la menace, </l>
+            <l n="1093">Ils s'arment et Nacor les attend au combat, </l>
+            <l n="1094">Mais son corps tout percé visiblement s'abat ; </l>
+            <l n="1095">Ils y font promener et le fer et la flamme, </l>
+            <l n="1096">À force de fouir ils poursuivent son âme ? </l>
+            <l n="1097">Ces cruels curieux lassés de la chercher </l>
+            <l n="1098">Se vengent sur le corps qui la leur veut cacher, </l>
+            <l n="1099">Ils font de tous côtés de profondes blessures </l>
+            <l n="1100">Ils pensent la trouver à force d'ouvertures, </l>
+            <l n="1101">Et croyant obliger cette hôtesse à partir </l>
+            <l n="1102">Lui montrent cent endroits pour la faire sortir, </l>
+            <l n="1103">Cette âme entière en tout et dans chaque partie </l>
+            <l n="1104">Trouve encor que le coeur retarde sa sortie, </l>
+            <l n="1105">Avec quelque espérance elle entre dans ce fort </l>
+            <l n="1106">Mais ce dernier mourant ressent enfin sa mort, </l>
+            <l n="1107">Tout le corps en frémit sa force diminue </l>
+            <l n="1108">Elle lui reprochant qu'il l'a mal soutenue, </l>
+            <l n="1109">Et dédaignant ce lâche après si peu d'efforts </l>
+            <l n="1110">D'un soupir indigné laisse tomber son corps. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1111" part="I">Ô bienheureux Nacor ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1111" part="F">Votre coeur en soupire ; </l>
+            <l n="1112" part="I">Le plaignez-vous Madame. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1112" part="F">Oui je sens son martyre ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1113">Il est heureux Madame, et je ne le suis pas. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1114">Seigneur innocemment vous causez son trépas, </l>
+            <l n="1115">Avec étonnement j'ai vu tout ce spectacle </l>
+            <l n="1116">Et l'ayant vu je viens vous dire ce miracle. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1117">Je ressens son supplice et sens un second mal, </l>
+            <l n="1118">Arache, mes malheurs me donnent un rival, </l>
+            <l n="1119">Je souffre d'autant plus dedans ma jalousie, </l>
+            <l n="1120">Que je ne puis trouver l'Amant d'Amalazie, </l>
+            <l n="1121">Il ose bien l'ailer et n'ose l'avouer. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1122">Seigneur, c'est un respect dont on doit le louer. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1123">Mon rival m'appréhende, ô ! La faiblesse insigne </l>
+            <l n="1124">Ôtez-lui votre amour il s'en est fait indigne, </l>
+            <l n="1125" part="I">Arache, m'aimez-vous. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1125" part="F">Jusqu'à mourir pour vous. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1126">Cherchez donc mon rival contentez un jaloux, </l>
+            <l n="1127">Je vous donne un emploi que je prendrai moi-même, </l>
+            <l n="1128" part="I">Travaillons-y tous deux. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1128" part="F">Est-ce ainsi que l'on m'aime : </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1129">Quelle preuve plus grande en voudriez-vous avoir. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1130">Prince, si vous m'aimiez vous me le feriez voir ; </l>
+            <l n="1131">Quoi me traiter d'esclave et me vouloir contraindre, </l>
+            <l n="1132">Quoi m'aimant me donner des sujets de me plaindre ? </l>
+            <l n="1133">Et quoi, Prince, est-ce à vous à me donner la loi, </l>
+            <l n="1134">C'est à vous, c'est à vous, à la prendre de moi ; </l>
+            <l n="1135">N'usez point du pouvoir que la guerre vous donne, </l>
+            <l n="1136">Vous m'avez fait régner dessus votre personne : </l>
+            <l n="1137">Je saurai maintenir le droit qu'on m'a donné. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1138">Prononcez mon arrêt, je m'y suis condamné ? </l>
+            <l n="1139">Je vous redonne encore une entière puissance </l>
+            <l n="1140">Mais avec la justice accordez la clémence ? </l>
+            <l n="1141">Ne désespérez pas un malheureux Amant. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1142">Prince soumettez-vous à mon commandement, </l>
+            <l n="1143" part="I">Je vous défends d'aimer ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1143" part="F">N'achevez point Madame, </l>
+            <l n="1144">Je ne vous donne point ce pouvoir sur mon âme, </l>
+            <l n="1145">Vous usurpez un droit que je n'ai point sur moi. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1146">Et vous me contraignez à révoquer ma foi ; </l>
+            <l n="1147">Je serai toujours libre au milieu de mes chaines, </l>
+            <l n="1148">Et j'y saurai garder la Majesté des Reines. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1149">Ah ! Je ne prétends pas, de vous vouloir forcer, </l>
+            <l n="1150" part="I">Mais aussi permettez. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1150" part="F">Ah ! C'est trop me presser ? </l>
+            <l n="1151">Prince, je vous défends de m'aimer davantage, </l>
+            <l n="1152">Après cette défense une plainte m'outrage.</l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1153">Arrêt impérieux aussi bien que fatal, </l>
+            <l n="1154">Que l'on m'apprenne au moins le nom de mon rival. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1155" part="I">Je le connais Seigneur. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1155" part="F">Tu le connais Arache ?</l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1156" part="I">Prince. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1156" part="F">Non, non, Madame, il faut que l'on le sache, </l>
+            <l n="1157" part="I">C'est. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1157" part="F">Arache arrêtez, gardez de le nommer. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1158">Il fut trop criminel en vous osant aimer ; </l>
+            <l n="1159">Il m'a dit son malheur je vous le vais redire </l>
+            <l n="1160">Et vous aurez pitié d'un si cruel martyre, </l>
+            <l n="1161">J'aimais Amalazie et j'en étais aimé </l>
+            <l n="1162">M'a-t-il dit, et l'amour dans ses yeux s'est armé, </l>
+            <l n="1163">Et de ses mêmes traits dont il perça mon âme </l>
+            <l n="1164">Dedans la Cour du Prince il fit naître ma flamme, </l>
+            <l n="1165">Nous fûmes embrasés pour la même beauté. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1166" part="I">N'achevez point Arache ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1166" part="F">Étrange cruauté ? </l>
+            <l n="1167">Ah ! Madame, c'est trop, vous êtes inhumaine. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1168">Madame encor ce mot il ajouta, ma peine </l>
+            <l n="1169">Est un ressouvenir qui redoubla mon mal </l>
+            <l n="1170">Je travaillai moi-même à me faire un rival. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1171">Je reconnais le mien, c'est toi, c'est donc Arache. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1172">Oui, Seigneur, je l'étais en vain l'amour se cache, </l>
+            <l n="1173">Quoi Seigneur j'aimerais en même lieu que vous </l>
+            <l n="1174" part="I">Et vous ne vengez pas. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1174" part="F">Te voir avec courroux, </l>
+            <l n="1175">Ô trop discret Amant, ô ! Rival trop aimable. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1176">Il n'est point criminel je suis seule coupable : </l>
+            <l n="1177">Seigneurs, regardez-vous d'un esprit plus remis </l>
+            <l n="1178">Faut-il que ma beauté vous ait faits ennemis. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1179">Oui, Seigneur, j'ai failli mais regarder mon crime </l>
+            <l n="1180">Ai-je dû dédaigner ce que votre oeil estime, </l>
+            <l n="1181">Je vous vois dire en vous en voyant tant d'appas </l>
+            <l n="1182">Il eût été coupable en ne l'adorant pas, </l>
+            <l n="1183">Mais j'ai dû bien prévoir qu'elle avait quelques marques </l>
+            <l n="1184">À se faire adorer du plus grand des Monarques, </l>
+            <l n="1185">Je n'ai point dû séduire une telle beauté ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1186">Ah ! Cruel rends-moi donc ce que tu m'as ôté. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1187">Seigneur je vous la rends mon âme vous la cède, </l>
+            <l n="1188">Mon coeur est tout rempli du Dieu qui me possède. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1189">Tu me cèdes cruel, dispose de ton bien. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1190">Vous n'êtes point Chrétienne, et moi je suis Chrétien ; </l>
+            <l n="1191" part="I">Je ne puis vous aimer. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1191" part="F">Ô l'étrange surprise ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1192">Acceptez cet amant et par mon entremise. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1193" part="I">Toi Chrétien ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1193" part="F">Je le suis, je sens croître ma foi, </l>
+            <l n="1194">Et le sang de Nacor se fait sentir en moi. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1195" part="I">Me voudrais-tu quitter. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1195" part="F">Dieu quelle tyrannie, </l>
+            <l n="1196">Diviser une amour qu'on vit si bien unie. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1197">Divine providence, ô ! Puissance des Cieux, </l>
+            <l n="1198">Dont le secret ressort agit en tant de lieux, </l>
+            <l n="1199" part="I">La Princesse est Chrétienne ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1199" part="F">Ô Dieu quelle rencontre, </l>
+            <l n="1200">C'est ici puissant Dieu que ta grandeur se montre ? </l>
+            <l n="1201">Je puis donc vous aimer et sans empêchement, </l>
+            <l n="1202">Pardonnez-moi, Madame, un divin châtiment ; </l>
+            <l n="1203">Tout autre que ce Dieu qui fait tant de miracles, </l>
+            <l n="1204">Ne pouvait entre nous apporter des obstacles ? </l>
+            <l n="1205">Non, non, notre bonheur ne paraît qu'à demi, </l>
+            <l n="1206">Nous avons à combattre un second ennemi. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1207">Arache, point de guerre et point de jalousie, </l>
+            <l n="1208">Dieu seul doit posséder le coeur d'Amalazie, </l>
+            <l n="1209">Allons trouver le Roi mourons tous constamment ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1210">Seigneur, en ce rencontre agissons prudemment, </l>
+            <l n="1211">Il nous faut empêcher la mort de la Princesse, </l>
+            <l n="1212">Ce sexe pour souffrir a beaucoup de faiblesse, </l>
+            <l n="1213">Ne disons point au Roi que nous sommes Chrétiens. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1214">Ce sont vos sentiments, ce ne sont pas les miens. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1215">Vous verrez le succès qu'aura cette prudence. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Amalazie, Arache, Josaphat, Abenner, Barlaam.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1216">C'est par là que tu peux arrêter ma vengeance. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1217" part="I">Souffrez que je le voie ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1217" part="F">Ah ! Fidèle Nacor, </l>
+            <l n="1218">Est-ce toi que je vois ; quoi donc tu vis encor, </l>
+            <l n="1219" part="I">Ô ! Prodige inouï ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1219" part="F">Merveilleuse aventure ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1220">C'est là l'étonnement de toute la nature, </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1221" part="I">Vous voyez Barlaam ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1221" part="F">Il ne peut être pris ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1222">C'est avec raison que votre oeil est surpris, </l>
+            <l n="1223">La caverne où je vis est si vaste et profonde </l>
+            <l n="1224">Que j'étais invisible aux yeux de tout le monde </l>
+            <l n="1225">Quelques hommes armés m'appelaient dans ces bois </l>
+            <l n="1226">Je crus en les oyant entendre votre voix, </l>
+            <l n="1227">J'allais vous recevoir avec beaucoup de joie </l>
+            <l n="1228">Quand par ma propre erreur je me rendis leur proie, </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1229">Hé bien à quel sujet t'amène-t-on ici. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1230">Seigneur, Nacor est mort je veux mourir aussi ; </l>
+            <l n="1231">L'on m'a voulu tenter par l'aspect des délices, </l>
+            <l n="1232">L'on m'a voulu toucher par l'objet des supplices ? </l>
+            <l n="1233">Menaces, ni présents, ne m'ont point ébranlé, </l>
+            <l n="1234">Et parmi ces faux pas je n'ai point chancelé, </l>
+            <l n="1235">J'avais promis au Roi de vous venir séduire, </l>
+            <l n="1236" part="I">Mais.[..] </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1236" part="M">Suis-je encor trahi ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1236" part="F">Je venais vous instruire, </l>
+            <l n="1237">Et par mon exemple à mourir constamment, </l>
+            <l n="1238">Dessus l'esprit du Roi j'ai gagné ce moment ? </l>
+            <l n="1239">Et vous Prince aveuglé vous vous trompez vous-même </l>
+            <l n="1240">Vous vous enveloppez dans votre stratagème, </l>
+            <l n="1241">Et de ces mêmes traits qu'on lance contre nous </l>
+            <l n="1242">Et la honte et le coup retombent dessus vous ; </l>
+            <l n="1243">Et vous qui recherchez les grandeurs de la terre, </l>
+            <l n="1244">N'aspirez qu'à des biens que n'ôtent point la guerre ? </l>
+            <l n="1245">Et vous Prince vassal votre heur est décevant, </l>
+            <l n="1246">Notre Maître est si grand qu'on règne en le servant ; </l>
+            <l n="1247">Vous dont la passion excessive et profonde </l>
+            <l n="1248">Retient encore votre âme aux attaches du monde ; </l>
+            <l n="1249">L'on ne peut contenir dedans un même lieu, </l>
+            <note type="C">V. 1250, l'original porte "avec", il manque un pied au vers. Nous transcrivons "avecque" comme il est souvent l'usage.</note>
+            <note type="C">V. 1250, l'original porte "n'y", il s'agit vraisemblablement de "ni" .</note>
+            <l n="1250">La terre avec le Ciel, ni l'homme avecque Dieu. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE, bas à Arache.</speaker>
+            <l n="1251">Prince découvrons-nous ce grand zèle m'enflamme. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1252">Ce zèle est dangereux, conservez-vous Madame ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1253" part="I">Qu'on me mène à la mort. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1253" part="F">Hé bien donc tu mourras ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1254" part="I">Je demande la mienne. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1254" part="F">Hé bien donc tu l'auras ? </l>
+            <l n="1255">Traître fils, qui te rends indigne de ce titre. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1256" part="I">Regardez ce qu'il est. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1256" part="F">Vous serez notre arbitre, </l>
+            <l n="1257">Amalazie, et vous le devez condamner. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1258">Quel est ce triste emploi que l'on nous veut donner, </l>
+            <l n="1259" part="I">Ah ! Seigneur ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1259" part="M">Je le veux. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1259" part="F">Commandement farouche. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1260">L'arrêt m'en sera doux d'une si belle bouche. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I. Abenner, Barlaam.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1261">Écoute Barlaam, j'ai différé ta mort, </l>
+            <l n="1262" part="I">Je puis tout. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1262" part="F">Vous pouvez disposer de mon sort, </l>
+            <l n="1263">Je l'avoue et suis prêt d'en ouïr la Sentence. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1264">L'on juge Josaphat et dessus l'apparence, </l>
+            <l n="1265">L'on peut bien présumer qu'il sera condamné. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1266" part="I">Il saura bien mourir. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1266" part="F">Ne sois point obstiné ?</l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1267">Non comme j'ai vécu je veux mourir fidèle. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1268">Après cette chaleur tu blasphèmeras ton zèle ; </l>
+            <l n="1269">Et tu désavoueras cette austère vertu. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1270">En vain jusques ici j'aurai donc combattu, </l>
+            <l n="1271">Et j'abandonnerais le fruit de ma victoire, </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1272">Non je ne prétends pas de te ravir ta gloire ; </l>
+            <l n="1273">Ni moins de t'empêcher de révérer ton Dieu, </l>
+            <l n="1274">Même pour l'adorer je vous assigne un lieu, </l>
+            <l n="1275">Et dussent mes sujets condamner cet exemple, </l>
+            <l n="1276">Je permets aux chrétiens de lui bâtir un temple ; </l>
+            <l n="1277" part="I">Pourvu que Josaphat. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1277" part="F">Ne m'ajoutez donc rien, </l>
+            <l n="1278">Point de milieu, Seigneur, idolâtre ou Chrétien. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1279">Suppose que ton Dieu soit le seul adorable, </l>
+            <l n="1280">Ton obstination n'est-elle point blâmable ; </l>
+            <l n="1281">Du refus que tu fais donne-moi quelque sens </l>
+            <l n="1282">À des Dieux étrangers j'offrirais de l'encens : </l>
+            <l n="1283">Puisqu'en les encensant ou louant leurs idoles, </l>
+            <l n="1284">Mon coeur démentiraient mes mains et mes paroles ; </l>
+            <l n="1285">Qu'importe que mon fils manifeste sa Loi, </l>
+            <l n="1286">Suffit que dans son âme il conserve sa Foi ? </l>
+            <l n="1287">Tâche à le disposer à cette complaisance. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1288">Nous ne pratiquons point cette fausse prudence, </l>
+            <l n="1289">Nous publions son nom avec un front ouvert. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1290">Cette erreur t'est nuisible et ton zèle te perd ? </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1291">Prince, il faut recourir à d'autres artifices, </l>
+            <l n="1292">Ordonnez contre moi les plus rudes supplices ; </l>
+            <l n="1293">Et tout ce que la rage a jamais inventé, </l>
+            <l n="1294">Comme pour m'éprouver soit dessus-moi tenté : </l>
+            <l n="1295">Faites sonder mon coeur employez-y la flamme, </l>
+            <l n="1296">Et comme sur le corps qu'on agisse sur l'âme ? </l>
+            <l n="1297">Tâchez de la saisir et par mille tourments, </l>
+            <l n="1298">Essayez si l'esprit a quelques sentiments ; </l>
+            <l n="1299">Il en aura Seigneur, et contre sa nature, </l>
+            <l n="1300">De ne pouvoir souffrir ce que le corps endure : </l>
+            <l n="1301">Vous le sentirez plaindre, et dans sa dureté </l>
+            <l n="1302">Faire ce doux reproche à sa divinité ? </l>
+            <l n="1303">Vous qui m'avez formé d'une essence impassible, </l>
+            <l n="1304">Quand on souffre pour vous pourquoi suis-je insensible ; </l>
+            <l n="1305">Accordez cette grâce à mes justes transports, </l>
+            <l n="1306">Et me donnez ici la nature du corps : </l>
+            <l n="1307">Le corps voudrait former une contraire envie, </l>
+            <l n="1308">Il lui demanderait une plus longue vie ; </l>
+            <l n="1309">Il voudrait pour souffrir être fait immortel, </l>
+            <l n="1310">Mais malgré son ardeur je ne le veux point tel ; </l>
+            <l n="1311">C'est trop me retarder sortons de cette vie ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1312" part="I">Quoi tu ne veux donc pas. </l>
+          </sp>
+          <sp who="tc0300-BARLAAM">
+            <speaker>BARLAAM.</speaker>
+            <l n="1312" part="F">C'est là ma seule envie ; </l>
+            <l n="1313">En vain vous m'appelez pour quelque autre raison. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1314">Gardes, qu'on le remette au fonds de sa prison. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER, seul.</speaker>
+            <l n="1315">Trouve-t-on parmi nous de pareilles constances, </l>
+            <l n="1316">Est-ce à nous cruels Dieux de prendre vos vengeances ? </l>
+            <note type="L">Foudre : Se dit figurément de la colère de Dieu, ou des Rois. [F]</note>
+            <l n="1317">N'avez-vous pas un foudre ; êtes-vous impuissants, </l>
+            <l n="1318">Par un signe apparent confondez tous leurs sens ; </l>
+            <l n="1319">De l'âme des Chrétiens levez tous leurs scrupules, </l>
+            <l n="1320">Faites-vous voir des Dieux à tous ces incrédules, </l>
+            <l n="1321">Et puisqu'on nous demande où sont logés nos Dieux, </l>
+            <l n="1322">En vous représentants décillez-leur les yeux ; </l>
+            <l n="1323">Que l'un de vous descende, et se rende visible, </l>
+            <l n="1324">Qu'il donne de son être une preuve sensible ; </l>
+            <l n="1325">C'est que vous vous plaisez à nous voir incertains, </l>
+            <l n="1326">Et vous aimez l'erreur dans l'âme des humains : </l>
+            <l n="1327">Mais voici de retour le Prince et la Princesse, </l>
+            <l n="1328">Je tremble, leur abord marque quelque tristesse. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Abenner, Amalazie, Arache.</head>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1329" part="I">Qu'est devenu mon fils ? </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1329" part="F">Nous l'avons condamné. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1330">Quoi donc jusqu'à l'arrêt son coeur s'est obstiné ? </l>
+            <l n="1331">Gardes, qu'on l'exécute, arrêtez, qu'on l'amène, </l>
+            <l n="1332">Non, non, ce criminel est digne de ma haine ; </l>
+            <l n="1333">Je ne le veux point voir, qu'on l'aille dépêcher, </l>
+            <l n="1334" part="I">Différez ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE, bas.</speaker>
+            <l n="1334" part="F">J'ai prévu qu'il se pourrait toucher. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1335">Pourquoi retarde-t-on la mort de ce rebelle, </l>
+            <l n="1336">Votre compassion est ici criminelle ? </l>
+            <l n="1337">Prince, je n'entends point qu'el est votre intérêt, </l>
+            <l n="1338">Par sa punition achevez son arrêt ; </l>
+            <l n="1339">Quand je commande ici personne ne m'écoute, </l>
+            <l n="1340" part="I">Madame. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1340" part="F">Nous voyons toute votre âme en doute, </l>
+            <l n="1341">L'on n'ose s'assurer dessus vos volontés. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1342">Ah ! C'est trop le défendre, ô ! Dieux vous l'emportez, </l>
+            <l n="1343">Ce combat m'est honteux il est jugé qu'il meure. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1344" part="I">Enfin vous l'ordonnez ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1344" part="F">Il dut périr sur l'heure ; </l>
+            <l n="1345">Vous deviez sur le champ l'immoler à nos Dieux. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1346">Aussi l'avons-nous fait, il est mort à nos yeux ; </l>
+            <note type="C">v. 1347, dans l'original, on lit "l'on la décapité", nous corrigeons. </note>
+            <l n="1347">L'on l'a décapité dans la salle prochaine. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1348" part="I">Il est donc mort ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE, à Arache.</speaker>
+            <l n="1348" part="F">Voyez comme se perd sa haine ; </l>
+            <l n="1349">Comme insensiblement s'affaiblit sa rigueur, </l>
+            <l n="1350">Et comme l'amitié reprend place en son coeur. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1351">Hé bien ! Dieux inhumains j'ai suivi vos maximes, </l>
+            <l n="1352">Tigres non pas des Dieux vous voulez des victimes ; </l>
+            <l n="1353">Et vous voulez encore qu'on vous croie innocents, </l>
+            <l n="1354">Vous exigez de nous du sang au lieu d'encens ? </l>
+            <l n="1355">Traître Dieux, Dieux cruels, vrais partisans du vice, </l>
+            <l n="1356">S'il fallait pour vous plaire un pareil sacrifice ; </l>
+            <l n="1357">J'abhorre vos Autels, je veux être Chrétien, </l>
+            <l n="1358">Le plus clément des Dieux est aujourd'hui le mien ? </l>
+            <l n="1359">Et vous dont la Sentence et prompte et tyrannique, </l>
+            <l n="1360">À mes commandements immole un fils unique ; </l>
+            <l n="1361">Vous venez vous vanter de m'avoir obéi. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1362" part="I">Seigneur. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <note type="C">V. 1362, on lit "vous paressez", il s'agit plus vraisemblablement "paraissez".</note>
+            <l n="1362" part="F">Vous paraissez après m'avoir trahi ? </l>
+            <l n="1363">Vous aviez écouté la voix de ma colère, </l>
+            <l n="1364">Il vous fallait répondre à celle de son père ; </l>
+            <note type="C">V. 1365, Ajout d'une virgule après "perdez".</note>
+            <l n="1365">L'une disait, perdez, l'autre sauvez mon fils, </l>
+            <l n="1366" part="I">C'est ce qu'il fallait faire. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1366" part="F">Et c'est ce que je fis ; </l>
+            <l n="1367">Nous vous dissuadions de nous faire ses Juges, </l>
+            <l n="1368">En vain, Seigneur en vain, nous étions ses refuges ; </l>
+            <l n="1369" part="I">Il fallait vous complaire. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1369" part="F">Il ne le fallait pas. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1370" part="I">Nous devions. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1370" part="F">Vous deviez l'arracher de mes bras ? </l>
+            <l n="1371">Loin de le condamner il le fallait absoudre, </l>
+            <l n="1372">Et me donner loisir de m'y pouvoir résoudre ; </l>
+            <l n="1373">Après ce grand courroux que j'avais témoigné, </l>
+            <l n="1374">En dépit de vos Dieux je l'aurais épargné ; </l>
+            <l n="1375">Mais et vos Dieux et vous étiez d'intelligence, </l>
+            <l n="1376">Sur tous également j'étendrai ma vengeance ? </l>
+            <l n="1377">L'avenir en verra des effets éternels. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1378">Vous nous devez punir nous sommes criminels ; </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1379">Ne me prescrivez point ce que je saurai faire. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1380" part="I">Il est temps de parler. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1380" part="F">Je vous force à vous taire, </l>
+            <l n="1381">Vous n'avez que trop dit et n'avez que trop fait. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1382">De vos ressentiments nous prévîmes l'effet, </l>
+            <l n="1383" part="I">Le Prince n'est point mort. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1383" part="F">Ce n'est qu'un artifice, </l>
+            <l n="1384">De la mort de mon fils l'une et l'autre est complice, </l>
+            <l n="1385">Je veux que l'on vous rende un arrêt solennel, </l>
+            <l n="1386">Que ceux qui l'ont jugé suive le criminel, </l>
+            <l n="1387">Et que par un trépas qui tous trois nous assemble, </l>
+            <l n="1388">Les juges soient punis et la partie ensemble, </l>
+            <l n="1389">Dedans ce jugement nous nous sommes unis, </l>
+            <l n="1390">Et tous trois par raison devons être punis ? </l>
+            <l n="1391">Moi du commandement, vous de l'obéissance. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1392" part="I">Le voici ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1392" part="F">De mon faible, ils ont eu connaissance ; </l>
+            <l n="1393">De quel étonnement me trouvai-je surpris, </l>
+            <l n="1394">Et combien de pensers agitent mes esprits. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Abenner, Amalazie, Arache, Josaphat.</head>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1395">Seigneur je viens chercher un juge inexorable, </l>
+            <l n="1396">J'appelle devant vous d'un arrêt favorable ; </l>
+            <l n="1397">Mes juges m'ont fait grâce et je ne la veux pas, </l>
+            <l n="1398">Ils m'ont donné la vie et je veux le trépas ? </l>
+            <l n="1399">Ils m'ont été cruels vous me serez propice. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1400">Il le veut, il le veut, qu'on le mène au supplice ? </l>
+            <l n="1401">Non mon fils repends-toi, je signe ton pardon. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1402">Mon Dieu seul est en droit de nous faire ce don ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1403">Cruel tu te prévaux des sentiments d'un père, </l>
+            <l n="1404">Tu sais que ta présence apaise ma colère ; </l>
+            <l n="1405">Qu'elle excite en mon âme une vive pitié, </l>
+            <l n="1406">Et tu t'es reposé sur ma grande amitié ? </l>
+            <l n="1407">Tu ne t'es point déçu je me trompai moi-même, </l>
+            <l n="1408" part="I">C'est mon fils qui me hait. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1408" part="F">Ah ! Seigneur je vous aime ; </l>
+            <l n="1409">Et tout autre qu'un Dieu n'aurait rien dessus vous, </l>
+            <l n="1410">Le rival est trop grand pour en être jaloux ; </l>
+            <l n="1411">Plus que vous, plus que moi, je l'aime et je l'adore, </l>
+            <l n="1412">Après lui plus que moi mon âme vous honore. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1413">Ah ! Mon fils tu te perds je ne te puis sauver, </l>
+            <l n="1414">En vain votre pitié l'a voulu conserver ; </l>
+            <l n="1415" part="I">Nos lois veulent sa mort ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1415" part="F">Je leur offre ma vie. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1416">Cruels en le sauvant qu'elle était votre envie ? </l>
+            <l n="1417">Je me saurai venger de votre trahison, </l>
+            <l n="1418">Et bientôt mon conseil m'en va rendre raison ; </l>
+            <l n="1419">Vous avez eu pour lui cette injuste clémence, </l>
+            <l n="1420">L'on aura point pour vous cette même indulgence ? </l>
+            <l n="1421">Mais enfin répondez pourquoi l'a-t-on absous, </l>
+            <l n="1422">Madame, parlez-moi, Prince défendez-vous. </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1423">Seigneur, par mon aveu j'attends même supplice, </l>
+            <l n="1424">Le juge en ce beau crime est devenu complice ; </l>
+            <l n="1425">Arache, qu'est ceci, vous ne m'imitez pas, </l>
+            <l n="1426">Et quand je veux mourir vous craignez le trépas ; </l>
+            <l n="1427">Vous dois-je soupçonner d'un sentiment si lâche, </l>
+            <l n="1428">Ne vous déguisez point, je vous connais Arache ; </l>
+            <l n="1429">Et puisque le péril fut toujours votre objet, </l>
+            <l n="1430">Vous ne vous suspendez que pour le seul sujet ? </l>
+            <l n="1431">Si mourir pour son Prince est un dessein auguste, </l>
+            <l n="1432">Endurer pour son Dieu est un dessein plus juste, </l>
+            <l n="1433">Et quand l'occasion vous propose ce choix, </l>
+            <l n="1434">Servez-vous un vassal ou bien le Roi des Rois ;</l>
+            <l n="1435">Tantôt je vous blâmais du progrès de vos armes, </l>
+            <l n="1436">La mort de tous les miens m'arracha quelques larmes, </l>
+            <l n="1437">Et je vous accusais avec quelque raison, </l>
+            <l n="1438">Ou de la mort d'un père ou bien de ma prison ; </l>
+            <l n="1439">Je ne me plaindrai plus je vous suis redevable, </l>
+            <l n="1440">Vous fîtes mon bonheur me rendant misérable ? </l>
+            <l n="1441">M'ôtant avec mon sceptre un amour criminel, </l>
+            <l n="1442">Vous me faites donner un Empire Éternel ; </l>
+            <l n="1443">Participez mon Prince à ce beau diadème, </l>
+            <l n="1444">Et mon donnant ma part gardez-en pour vous-même ? </l>
+            <l n="1445">Vous Prince généreux dont j'appris cette loi, </l>
+            <l n="1446">Vous me rendez bien plus que ne m'ôta le Roi ; </l>
+            <l n="1447">Oui, Seigneur, à ce prix ma perte est ben légère, </l>
+            <l n="1448">Le fils me donne plus que ne m'ôta le père. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1449">Ô ! Dieu j'entends ta voix, et ressens ta vertu, </l>
+            <l n="1450">De me persécuter lasse-toi me dis-tu ; </l>
+            <l n="1451">Te dois-je demander quelque nouveau miracle, </l>
+            <l n="1452" part="I">Oui je t'ose tenter. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1452" part="F">Levons donc cet obstacle ? </l>
+            <l n="1453">C'est trop se déguiser, Seigneur j'étais Chrétien, </l>
+            <l n="1454" part="I">Et le Dieu des Chrétiens ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1454" part="F">Est, et ce sera le mien ;</l>
+            <l n="1455">Dieu de mon fils, d'Arache, et Dieu d'Amalazie, </l>
+            <l n="1456">T'adorent, et l'Europe, et l'Afrique et l'Asie ; </l>
+            <l n="1457">Scandale à tous les Dieux qu'ont formé les mortels, </l>
+            <l n="1458">Je vais les immoler sur leurs propres autels ? </l>
+            <l n="1459">Ces Dieux sont tous de corps que n'ont-ils eu des âmes, </l>
+            <l n="1460">Ils ressentiraient mieux lactivité des flammes ? </l>
+            <l n="1461">N'importe, allons détruire et leurs corps et leurs noms </l>
+            <l n="1462">Et dessous leurs débris enfermons leurs renoms ; </l>
+            <l n="1463" part="I">Je ne les connais plus. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1463" part="F">Je reconnais mon père. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1464">Ah ! C'est visiblement que ton Sauveur opère ; </l>
+            <l n="1465">Autre que notre Dieu n'eût pas eu ce pouvoir. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1466">Il se fait bien sentir s'il ne se fait pas voir, </l>
+            <l n="1467">Il toucha par ma voix le coeur de la Princesse, </l>
+            <l n="1468">Et ce Dieu qui travaille et partout et sans cesse ; </l>
+            <l n="1469">Pendant notre entretien touchait Arache encor, </l>
+            <l n="1470">Dont l'âme a ressenti la vertu de Nacor. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1471">Et bien cher Josaphat, tu me vois inutile, </l>
+            <l n="1472">Et tu me vois réduit dans un âge débile ? </l>
+            <l n="1473">Le sceptre que je tiens est un pesant fardeau, </l>
+            <note type="L">V. 1474, on devrait lire probablement "sous un poids si lourd" au lieu de "sans"</note>
+            <l n="1474">Et sans un poids si lourd j'incline à mon tombeau ? </l>
+            <l n="1475">Viens donc prendre les soins que me donne un Empire, </l>
+            <l n="1476">Souffre que je le quitte et que je me retire. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1477">Pensez-vous m'éblouir par l'éclat des grandeurs, </l>
+            <l n="1478">Et d'échauffer mon âme avec si peu d'ardeurs : </l>
+            <l n="1479">Seigneur, jouissez seul d'un si triste avantage, </l>
+            <l n="1480">Mon âme se réserve un plus noble partage ; </l>
+            <l n="1481">La terre est votre but et le Ciel est le mien, </l>
+            <l n="1482">Ici vous vous plaisez, là je trouve mon bien, </l>
+            <l n="1483">Et parmi les transports dont mon âme est saisie, </l>
+            <l n="1484">Mon oeil ne descend plus sur ceux d'Amalazie : </l>
+            <l n="1485">Je n'y rencontre plus ni d'amour, ni d'appas, </l>
+            <l n="1486">Et quoiqu'ils en soient pleins je ne les y vois pas ? </l>
+            <l n="1487">Jugez par ce mépris si je cherche un Empire, </l>
+            <l n="1488">Souffrez que je le laisse et que je me retire. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1489">Goûte un peu ce que c'est que du commandement. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1490">La souveraineté n'est point mon élément. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1491">Enfin je te l'ordonne et te remets ces marques, </l>
+            <l n="1492">Auxquelles nos sujets connaissent leurs monarques ; </l>
+            <l n="1493">De pleine autorité je te cède mes droits, </l>
+            <l n="1494">Et cette indépendance où me mettaient nos lois ? </l>
+            <l n="1495">Ne me conteste point la chose est résolue. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1496">J'en puis donc disposer de puissance absolue. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1497">Agis en souverain, tout relève de toi, </l>
+            <l n="1498">Prince, au nom de l'État, connaissez votre Roi. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1499">En pouvant donc jouir comme de mon bien même, </l>
+            <l n="1500">Et par le plein pouvoir que donne un diadème ; </l>
+            <l n="1501">J'élève sa personne entre les Potentats, </l>
+            <l n="1502">Et lui remets les droits que j'ai sur vos États ; </l>
+            <l n="1503">Entre tous nos vassaux il me plaît vous élire. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1504">À moi céder vos droits, retenez votre Empire ? </l>
+            <l n="1505">Prince, quelle raison vous le fait refuser, </l>
+            <l n="1506">Vous Seigneur quel motif vous le fait mépriser/ </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1507">Vous ferez le repos et de l'un et de l'autre, </l>
+            <l n="1508" part="I">Je confirme ce choix. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1508" part="F">Non, non, l'Empire est vôtre ? </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1509">Puisqu'il m'appartenait j'ai pu le lui donner. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1510">Étant maître à mon tour je puis vous couronner. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1511">Vous négligez le trône et moi je le dédaigne, </l>
+            <l n="1512">Puisque vous l'évitez il faut que je le craigne ? </l>
+            <l n="1513">Dois-je donc estimer ce que vous méprisez, </l>
+            <l n="1514">Et dois-je recevoir ce que vous refusez ; </l>
+            <l n="1515">L'offre que l'on me fait est un présent qui trompe, </l>
+            <l n="1516">L'on pense m'éblouir par ne fausse pompe ? </l>
+            <l n="1517">Si l'Empire vous plaît vous le devez garder, </l>
+            <l n="1518">Et s'il ne vous plaît pas, pourquoi me le céder. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1519">Un trône avec le Ciel qu'a-t-il de comparable. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1520">Seigneurs votre raison n'est point considérable : </l>
+            <l n="1521">Quelques divins qu'ils soient je blâme vos projets, </l>
+            <l n="1522">Venez par votre exemple instruire vos sujets ? </l>
+            <l n="1523">Quoi, traîner une vie oisive triste et rude, </l>
+            <l n="1524">Et vous ensevelir dans une solitude ; </l>
+            <l n="1525">Il faut vivre et mourir pour qui vous êtes nés, </l>
+            <l n="1526">Le Ciel à leur salut vous avait destiné ; </l>
+            <l n="1527">Venez vous acquitter de l'emploi qu'il vous donne. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1528">Hé bien, travaillons-y puisque le Ciel l'ordonne ! </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1529">Seigneur, je veux entrer dans le gouvernement, </l>
+            <l n="1530">Pour le premier essai de mon commandement ; </l>
+            <l n="1531">Et de l'autorité que vous m'avez donnée, </l>
+            <l n="1532">Sans vous en consulter je fais un hyménée. </l>
+          </sp>
+          <sp who="tc0300-ABENNER">
+            <speaker>ABENNER.</speaker>
+            <l n="1533" part="I">Vous avez tout pouvoir ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1533" part="F">Vous rival généreux, </l>
+            <l n="1534">Et que le seul mérite a fait le plus heureux ; </l>
+            <l n="1535">Digne de posséder notre illustre maîtresse, </l>
+            <l n="1536">Refusant mon Empire acceptez la Princesse, </l>
+            <l n="1537">Et de ces deux présents retenez le plus beau. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1538">Seigneur, ce sentiment ne vous est point nouveau ; </l>
+            <l n="1539">La générosité vous est trop naturelle ; </l>
+            <l n="1540" part="I">Vous la méritiez seule ? </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1540" part="F">Vous êtes digne d'elle ? </l>
+            <l n="1541">Par ma confession autant que par son choix. </l>
+          </sp>
+          <sp who="tc0300-ARACHE">
+            <speaker>ARACHE.</speaker>
+            <l n="1542">Mon heur va surpasser tout le bonheur des Rois ; </l>
+            <l n="1543">Le don de votre Empire est moins qu'Amalazie. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1544">Et vous le digne objet de notre jalousie. </l>
+            <l n="1545">Recevez de ma main ce que vous désirez, </l>
+            <l n="1546">Et ce parfait amant que vous me préférez ; </l>
+            <l n="1547" part="I">Je vous rends vos États ? </l>
+          </sp>
+          <sp who="tc0300-AMALAZIE">
+            <speaker>AMALAZIE.</speaker>
+            <l n="1547" part="F">Ô vertu sans seconde ! </l>
+            <l n="1548">Et digne de prétendre à l'Empire du monde. </l>
+          </sp>
+          <sp who="tc0300-JOSAPHAT">
+            <speaker>JOSAPHAT.</speaker>
+            <l n="1549">Par ce célèbre hymen achevons ce beau jour, </l>
+            <l n="1550">Rendons par ce plaisir l'allégresse à la Cour ?</l>
+            <l n="1551">Qu'elle quitte son deuil, qu'elle change de face, </l>
+            <l n="1552">Et que tout y retourne à sa première grâce, </l>
+            <l n="1553">Allons voir Barlaam, et que l'on dresse encor, </l>
+            <l n="1554">Un superbe sépulcre aux mânes de Nacor. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

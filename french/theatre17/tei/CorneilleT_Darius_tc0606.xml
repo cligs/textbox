@@ -1,0 +1,3288 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Darius</title>
+        <title type="sub">Tragédie</title>
+        <title type="short">Darius</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">CORNEILLE, Thomas</name>
+          <name type="short">CorneilleT</name>
+          <idno type="viaf"/>
+        </author>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0606</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2009</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1659</date>, <idno/>, <ref target="#"/>. Imprimée à Rouen, et Paris par G. de Luyne.</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1659</date>, <idno/>, <ref target="#"/>. Réprésenté pour la première fois en 1659 à l'Hôtel de Bourgogne.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1651-1660</term>
+          <term type="taille">1750-2000</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>ACTEURS.</head>
+        <castItem>
+          <role xml:id="tc0606-OCHUS">OCHUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-DARIUS">DARIUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-STATIRA">STATIRA</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-AMESTRIS">AMESTRIS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-MEGABISE">MÉGABISE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-OROPASTE">OROPASTE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-BAGOAS">BAGOAS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0606-BARSINE">BARSINE</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La Scène est à Persépolis. </p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Amestris, Mégabise.</head>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1">Quelque pouvoir sur vous que vous m'ayez fait prendre, </l>
+            <l n="2">Dans l'essai que j'en fais je n'ai rien à prétendre, </l>
+            <l n="3">Vous me tenez suspecte, et doutez que ma foi </l>
+            <l n="4">Usât bien d'un secret qui regarde le Roi. </l>
+            <l n="5">Soit pour cacher son trouble, ou braver la Nature, </l>
+            <l n="6">Il croit tout ce qu'on dit une vaine imposture, </l>
+            <l n="7">Et que ce Darius qu'on tire du tombeau </l>
+            <l n="8">N'est pour les Factieux qu'un prétexte nouveau, </l>
+            <l n="9">Mais pour moi qu'en secret le sang tâche d'instruire, </l>
+            <l n="10">Je crains à son erreur de me laisser séduire, </l>
+            <l n="11">Et c'est pour l'éviter que mes sens divisés </l>
+            <l n="12">Cherchent une clarté que vous me refusez.</l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="13">Madame, ce soupçon dont je souffre l'outrage </l>
+            <l n="14">Semble de mon amour désavouer l'hommage, </l>
+            <l n="15">Et je doute qu'il plaise à la soeur de mon Roi, </l>
+            <l n="16">Quand elle veut douter de pouvoir tout sur moi. </l>
+            <l n="17">Depuis que vos bontés par un aveu propice </l>
+            <l n="18">En ont daigné souffrir le secret sacrifice, </l>
+            <l n="19">À chaque occasion les Dieux me sont témoins </l>
+            <l n="20">Que le soin de vous plaire a borné tous mes soins. </l>
+            <l n="21">Jugez si cette amour ferme, ardente, sincère, </l>
+            <l n="22">Cacherait Darius à la soeur de son Père, </l>
+            <l n="23">Et s'il refuserait d'exposer à vos yeux </l>
+            <l n="24">Ce qui serait resté d'un sang si précieux. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="25">Comme l'on employa votre Père à l'épandre, </l>
+            <l n="26">S'il l'avait conservé, vous auriez pu l'apprendre, </l>
+            <l n="27">Ou si quelque Imposteur cherche à s'en prévaloir,</l>
+            <l n="28">Par conjecture au moins vous le pourriez savoir. </l>
+            <l n="29">Ochus pour affermir un Trône acquis par crime, </l>
+            <l n="30">Sans rien examiner en serait sa victime, </l>
+            <l n="31">Et pour sa sûreté, s'il peut le découvrir, </l>
+            <l n="32">Imposteur, ou vrai Prince, il le fera périr ; </l>
+            <l n="33">Mais la Nature en moi voudrait en vain se taire. </l>
+            <l n="34">Si je suis Soeur d'Ochus, Darius fut mon Frère, </l>
+            <l n="35">Et le Ciel de son Fils ayant sauvé les jours, </l>
+            <l n="36">Pour le moins en secret je lui dois mon secours. </l>
+            <l n="37">Non que si par la force, ainsi qu'on le soupçonne, </l>
+            <l n="38">Il voulait comme Aîné, reprendre la Couronne, </l>
+            <l n="39">J'appuyasse un parti qui ne peut s'assurer </l>
+            <l n="40">Sans répandre du sang que je devrais pleurer </l>
+            <l n="41">Je voudrais seulement tâcher avec adresse </l>
+            <l n="42">À lui faciliter l'hymen de la Princesse, </l>
+            <l n="43">Et par l'heureux effet d'un accord glorieux </l>
+            <l n="44">Remettre à Darius le bien de ses Aïeux.</l>
+            <l n="45">Jugez si j'ai sujet de le vouloir connaître. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="46">Mais ce n'est qu'un faux bruit qui le force à renaître, </l>
+            <l n="47">Madame, et vous savez que ce Prince au berceau </l>
+            <l n="48">Par un ordre secret rencontra son tombeau.</l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="49">Et bien, s'il a péri par cet ordre barbare, </l>
+            <l n="50">Sachons de ce grand nom quel Imposteur s'empare, </l>
+            <l n="51">Il n'est point de succès qu'il ne pût espérer </l>
+            <l n="52">Si pour lui Codoman osait se déclarer. </l>
+            <l n="53">De mille exploits fameux la vaste renommée </l>
+            <l n="54">Dans tous ses intérêts ferait entrer l'Armée, </l>
+            <l n="55">Et quoique sa vertu dût répondre de lui, </l>
+            <l n="56">Je crains qu'à ce murmure il ne serve d'appui. </l>
+            <l n="57">S'il est vrai qu'à me plaire un beau feu vous engage, </l>
+            <l n="58">Tâchez à pénétrer le fond de son courage. </l>
+            <l n="59">Adieu, j'attends par vous à me désabuser, </l>
+            <l n="60">Il est trop votre Ami pour vous rien déguiser. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Mégabise, Bagoas.</head>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="61">Oui, par de grands effets que tu ne peux attendre </l>
+            <l n="62">Tu connaîtras bientôt ce que tu veux apprendre, </l>
+            <l n="63">Et que dans son orgueil un grand coeur affermi </l>
+            <l n="64">Croit trahir ce qu'il est s'il s'élève à demi. </l>
+            <l n="65">Mes désirs vont au Trône, et pour m'y faire place </l>
+            <l n="66">L'attentat n'offrant rien que leur fierté n'embrasse, </l>
+            <l n="67">Les plus sanglants degrés, dans l'ardeur d'y monter, </l>
+            <l n="68">N'ont rien d'assez affreux pour pouvoir m'arrêter. </l>
+            <stage>À Bagoas qui entre. </stage>
+            <l n="69">As-tu vu nos Amis ? Sont-ils prêts à me suivre ? </l>
+          </sp>
+          <sp who="tc0606-BAGOAS">
+            <speaker>BAGOAS.</speaker>
+            <l n="70">Ils vous mettront au Trône, ou cesseront de vivre, </l>
+            <l n="71">Seigneur ; jamais Tyran avec plus de transport </l>
+            <l n="72">Par ses lâches fureurs ne fit jurer sa mort. </l>
+            <l n="73">Pour donner plus de force à leurs nobles colères, </l>
+            <l n="74">Ils se sont peint Ochus teint du sang de ses Frères, </l>
+            <l n="75">Lorsque pour régner seul sa noire passion </l>
+            <l n="76">Les fit tous immoler à son ambition. </l>
+            <l n="77">Ils ont vu de l'Aîné la Veuve infortunée </l>
+            <l n="78">De son Fils au berceau suivre la destinée, </l>
+            <l n="79">Du jeune Darius, que pour vous contre lui </l>
+            <l n="80">Ma fourbe après vingt ans fait revivre aujourd'hui. </l>
+            <l n="81">D'un beau succès pour eux c'est un augure aimable </l>
+            <l n="82">De voir à ce faux bruit le Peuple favorable. </l>
+            <l n="83">Déjà par son murmure et des souhaits confus </l>
+            <l n="84">Il cherche avidement ce sang de Darius. </l>
+            <l n="85">Il eut les voeux de tous quand son Père Artaxerse </l>
+            <l n="86">Le daigna, comme Aîné, couronner Roi de Perse, </l>
+            <l n="87">Et si jusqu'à ses jours sa fureur s'étendit, </l>
+            <l n="88">Ochus fut cru l'auteur du coup qui le perdit. </l>
+            <l n="89">Jugez avec quel zèle ils suivront l'imposture </l>
+            <l n="90">Qui vous fait de son Fils emprunter l'aventure, </l>
+            <l n="91">Et qui charmant leurs coeurs par un flatteur abus </l>
+            <l n="92">Leur fera croire en vous un Prince qui n'est plus. </l>
+            <l n="93">Tout s'y trouve plausible ; on sait que votre Père </l>
+            <l n="94">Fut seul choisi pour perdre et le Fils et la Mère, </l>
+            <l n="95">Et quoiqu'il ait versé ce sang si plaint de tous, </l>
+            <l n="96">Il pût, sauvant le Fils, le laisser vivre en vous. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="97">Ah ! Je ne cherche pas, quoi que j'en doive attendre, </l>
+            <l n="98">Par où justifier le nom que je vais prendre. </l>
+            <l n="99">Le Peuple aux nouveautés toujours prompt à courir </l>
+            <l n="100">Prendra pour Darius qui qu'on lui veuille offrir, </l>
+            <l n="101">Et lorsque assis au Trône on craindra ma puissance, </l>
+            <l n="102">Qui me demandera raison de ma naissance ? </l>
+            <l n="103">Mais Codoman lui seul arrête encor mon bras. </l>
+            <l n="104">Il est chéri du Peuple, adoré des Soldats, </l>
+            <l n="105">À l'Armée, à la Cour, chacun le favorise, </l>
+            <l n="106">Et nous ferions en vain éclater l'entreprise, </l>
+            <l n="107">Si dans notre parti, pour le mieux assurer, </l>
+            <l n="108">Mes soins auparavant n'avaient su l'attirer.</l>
+          </sp>
+          <sp who="tc0606-BAGOAS">
+            <speaker>BAGOAS.</speaker>
+            <l n="109">Quoi que vous en promette un espoir trop crédule, </l>
+            <l n="110">Je crains de sa vertu le sévère scrupule. </l>
+            <l n="111">Je sais que quelquefois du Roi mal satisfait </l>
+            <l n="112">Contre la tyrannie il s'emporte en secret, </l>
+            <l n="113">Qu'il hait sa politique, en blâme la maxime ; </l>
+            <l n="114">Mais il ne peut souffrir la moindre ombre du crime, </l>
+            <l n="115">Et croira se noircir d'un reproche trop bas, </l>
+            <l n="116">À le priver d'un Trône affermi par son bras.</l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="117">L'amitié qui nous lie obtiendra toute chose, </l>
+            <l n="118">Et quelque âpre vertu que son devoir m'oppose, </l>
+            <l n="119">Me croyant Darius à qui ce Trône est dû, </l>
+            <l n="120">À mes désirs sans peine il le verra rendu, </l>
+            <l n="121">Essayons seulement, pour avoir moins à craindre, </l>
+            <l n="122">À faire que d'Ochus il ait lieu de se plaindre, </l>
+            <l n="123">Et si pour l'épargner son zèle fait effort, </l>
+            <l n="124">Nous promettrons sa vie en conspirant sa mort. </l>
+          </sp>
+          <sp who="tc0606-BAGOAS">
+            <speaker>BAGOAS.</speaker>
+            <l n="125">C'est le plus sûr moyen ; mais cette violence </l>
+            <l n="126">Du côté d'Amestris vous défend l'espérance, </l>
+            <l n="127">Et vous croiriez en vain que son juste courroux </l>
+            <l n="128">Dans l'assassin d'un frère acceptât un Époux. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="129">Ah, que pour nos esprits l'Amour a peu de force </l>
+            <l n="130">Quand de l'ambition ils ont goûté l'amorce ! </l>
+            <l n="131">De ses bouillants désirs l'impérieuse ardeur </l>
+            <l n="132">Avecque tyrannie occupe tout un coeur, </l>
+            <l n="133">Et l'orgueil qu'elle inspire à ce coeur téméraire, </l>
+            <l n="134">Pour être écouté seul, force tout à se taire. </l>
+            <l n="135">Je l'avouerai pourtant ; d'abord de secrets noeuds </l>
+            <l n="136">Aux beautés d'Amestris acquirent tous mes voeux, </l>
+            <l n="137">Elle en reçut l'hommage, elle approuva ma flamme, </l>
+            <l n="138">Et c'est par où glissa ce poison dans mon âme. </l>
+            <l n="139">Je crus qu'ayant su plaire à la Soeur de mon Roi, </l>
+            <l n="140">Le Trône n'avait rien qui fût trop haut pour moi. </l>
+            <l n="141">Soudain à cette ardeur pressé de satisfaire, </l>
+            <l n="142">Je vis pour la remplir l'attentat nécessaire ; </l>
+            <l n="143">Je sus des Mécontents, j'animai leur courroux, </l>
+            <l n="144">Et d'un nom glorieux... Mais le Roi vient à nous. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Ochus, Statira, Mégabise, Oropaste, Barsine, Bagoas.</head>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS, à Statira.</speaker>
+            <l n="145">Va, d'un Peuple insolent laisse agir le murmure, </l>
+            <l n="146">Laisse-le d'un Fantôme embrasser l'imposture, </l>
+            <l n="147">Ma Fille, on trouvera moyen de l'arrêter. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="148">Seigneur, j'ai lieu pour vous de m'en inquiéter, </l>
+            <l n="149">Comme ce bruit lui plaît, la suite en est à craindre. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="150">Le feu n'ira pas loin avant que de s'éteindre. </l>
+            <l n="151">C'est de quelques Mutins l'imprudente chaleur </l>
+            <l n="152">Qui pour brouiller l'État cherchent une couleur, </l>
+            <l n="153">Et ne se sont permis cet espoir téméraire </l>
+            <l n="154">Que par l'abus d'un nom dont la mémoire est chère, </l>
+            <l n="155">Mais leur audace en vain fait vivre Darius. </l>
+            <l n="156">L'imposture est grossière, et ce Prince n'est plus. </l>
+            <l n="157">Tiribase à son Roi fut toujours trop fidèle. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="158">Recevez dans son Fils un garant de son zèle ; </l>
+            <l n="159">Pour négliger votre ordre et trahir votre espoir </l>
+            <l n="160">Tiribase, Seigneur, connut trop son devoir. </l>
+            <l n="161">Cent fois j'ai reçu de lui qu'en un âge si tendre </l>
+            <l n="162">Sa main trembla du sang qu'il lui fallut répandre, </l>
+            <l n="163">Qu'un premier mouvement altéra tout le sien, </l>
+            <l n="164">Mais il servait son Prince, et n'examina rien. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="165">Si mon scrupule alors en combattit le crime, </l>
+            <l n="166">Du grand Art de régner j'ignorai la maxime, </l>
+            <l n="167">Et je vois bien enfin qu'à maintenir leurs droits </l>
+            <l n="168">Les timides vertus sont indignes des Rois.</l>
+            <l n="169">Darius fut mon Frère et le Fils d'Artaxerse, </l>
+            <l n="170">Sa mort me donna droit à l'Empire de Perse, </l>
+            <l n="171">Mais je le vis mal sûr à vouloir épargner </l>
+            <l n="172">Ce qui resta d'un sang qui cessait de régner. </l>
+            <l n="173">Son Fils pour l'affermir mérita de le suivre, </l>
+            <l n="174">Pour le bien de l'État il dut cesser de vivre. </l>
+            <l n="175">Le Peuple contre nous eût tout osé pour lui, </l>
+            <l n="176">Puisque pour son Fantôme il s'émeut aujourd'hui. </l>
+            <l n="177">Je sais que tout est faux, mais si de l'artifice </l>
+            <l n="178">Je découvre, ou l'Auteur, ou le moindre Complice, </l>
+            <l n="179">Ce qu'ont de plus affreux les plus cruels trépas </l>
+            <l n="180">Laissera peu d'ardeur pour de tels attentats. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="181">Il est juste, Seigneur ; d'une si noire audace, </l>
+            <l n="182">C'est par des flots de sang que le crime s'efface, </l>
+            <l n="183">Et le Ciel trahira les soins que je vous dois, </l>
+            <l n="184">Si vous le découvrez par d'autres que par moi. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="185">Je sais quel est ton zèle ; agis, cher Mégabise, </l>
+            <l n="186">Préviens de nos Mutins l'insolente entreprise, </l>
+            <l n="187">Tâche d'en découvrir et l'ordre et le projet. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="188">J'y veillerai, Seigneur, en fidèle Sujet. </l>
+            <l n="189">Je vois des Mécontents dont mes sourdes intrigues </l>
+            <l n="190">Jusqu'au fond de leur sein pénétreront les ligues, </l>
+            <l n="191">Et j'agirai si bien, qu'avant qu'il soit deux jours </l>
+            <l n="192">De ce faux bruit qui plaît j'arrêterai le cours. </l>
+            <l n="193" part="I">Ne vous alarmez point. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="193" part="F">Et quel sujet d'alarmes ? </l>
+            <l n="194">Codoman est toujours le soutien de nos armes, </l>
+            <l n="195">Et quelques Factieux qui s'osent assembler, </l>
+            <l n="196">Son nom seul suffira pour les faire trembler. </l>
+            <l n="197">Depuis qu'un bon destin aux Persans favorable </l>
+            <l n="198">Arrête parmi nous ce Héros indomptable, </l>
+            <l n="199">Nos plus fiers Ennemis et battus et défaits </l>
+            <l n="200">Semblent de tous côtés n'aspirer qu'à la paix. </l>
+            <l n="201">Aussi pour n'avoir point à craindre qu'il nous quitte, </l>
+            <l n="202">Je veux d'un prix si haut honorer son mérite, </l>
+            <l n="203">Qu'en ses plus doux souhaits son espoir prévenu </l>
+            <l n="204">Fasse envier à tous le sort d'un Inconnu. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="205">Ce doit être un haut prix qu'un grand Roi lui prépare </l>
+            <l n="206">S'il reconnaît assez une vertu si rare ; </l>
+            <l n="207">Elle ne peut briller dans un plus vif éclat. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="208">Si je lui dois beaucoup, je cesse d'être ingrat, </l>
+            <l n="209">Quand un illustre hymen que mon choix autorise </l>
+            <l n="210">Doit unir à son sang le sang de Mégabise. </l>
+            <stage>À Mégabise. </stage>
+            <l n="211">Oui, je veux que ta Soeur, en lui donnant la main, </l>
+            <l n="212">Fixe enfin parmi nous son destin incertain. </l>
+            <l n="213">Disposes-y son coeur, toi qui peux tout sur elle. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="214">Cléone pour son Roi ne manque point de zèle, </l>
+            <l n="215">Et je lui ferais tort d'essayer mon pouvoir, </l>
+            <l n="216">Où votre choix, Seigneur, lui marque son devoir. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="217">L'intérêt de l'État presse cet hyménée ; </l>
+            <l n="218">Mais pour en voir sans trouble éclater la journée, </l>
+            <l n="219">Viens, qu'à ce nom fatal qu'on veut favoriser, </l>
+            <l n="220">J'examine avec toi ce qu'il faut opposer. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Statira, Barsine.</head>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="221">Madame, ou je me trompe, ou quoi que le Roi pense, </l>
+            <l n="222">Son ordre n'aura rien dont Cléone s'offense, </l>
+            <l n="223">Et ses désirs sans peine au devoir préparés... </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="224" part="I">Le cruel ordre ! Ah, Dieux ! </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="224" part="F">Quoi, vous en soupirez ! </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="225">Oui, Barsine, et l'orgueil où le sang m'autorise </l>
+            <l n="226">A beau de ce soupir condamner la surprise, </l>
+            <l n="227">Il a beau m'opposer tout l'éclat de mon rang ; </l>
+            <l n="228">La faiblesse du coeur en communique au sang, </l>
+            <l n="229">Et quelque âpre fierté qu'exige un Diadème, </l>
+            <l n="230">J'en perds le souvenir quand je perds ce que j'aime. </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="231">Que me fait présumer ce sentiment jaloux ? </l>
+            <l n="232" part="I">Codoman... </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="232" part="M">Ah, Barsine ! </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="232" part="F">Et quoi, l'aimeriez-vous ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="233">Hélas ! Demandes-tu quel sentiment me touche </l>
+            <l n="234">Quand mes yeux font pour toi l'office de ma bouche, </l>
+            <l n="235">Et que de leurs regards l'infidèle langueur </l>
+            <l n="236">T'abandonne à ce nom les secrets de mon coeur ? </l>
+            <l n="237">Je sais que de mon rang la dignité suprême </l>
+            <l n="238">Me devrait assurer l'empire de moi-même, </l>
+            <l n="239">Et domptant d'un beau feu les charmes trop puissants, </l>
+            <l n="240">Dégager ma raison du trouble de mes sens ; </l>
+            <l n="241">Mais quoi que l'on oppose à de si douces flammes, </l>
+            <l n="242">Les belles passions cherchent les belles âmes, </l>
+            <l n="243">Et l'amour de ses droits n'est pas si peu jaloux </l>
+            <l n="244">Qu'il prenne notre aveu pour triompher de nous. </l>
+            <l n="245">D'une haute vertu l'éblouissante amorce </l>
+            <l n="246">Lui fait faire d'abord un essai de sa force. </l>
+            <l n="247">C'est par là qu'en nos coeurs sans soupçon introduit </l>
+            <l n="248">D'un rare et plein mérite il y porte le bruit ; </l>
+            <l n="249">L'image qu'on s'en forme, et pompeuse et brillante, </l>
+            <l n="250">En arrache aussitôt une estime innocente, </l>
+            <l n="251">Elle flatte, ou s'y plaît, elle émeut, ou consent ; </l>
+            <l n="252">On croit qu'elle est toujours ce qu'elle est en naissant, </l>
+            <l n="253">Et lorsque de l'amour que cette erreur déguise, </l>
+            <l n="254">Par son inquiétude on conçoit la surprise, </l>
+            <l n="255">Le coeur s'en est déjà si bien laissé charmer, </l>
+            <l n="256">Qu'il n'est plus en état de refuser d'aimer. </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="257">Je vous plains du malheur où je vous vois réduite ; </l>
+            <l n="258">Mais vous pouvez, Madame, en prévenir la suite, </l>
+            <l n="259">Et d'Amestris pour vous intéressant la foi, </l>
+            <l n="260">Vous opposer par elle aux volontés du Roi. </l>
+            <l n="261">Employez le pouvoir qu'elle a sur Mégabise. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="262">De ce choix plus que moi tu la verras surprise, </l>
+            <l n="263">Et le coup que ma flamme a lieu de redouter, </l>
+            <l n="264">Par son propre intérêt la doit inquiéter. </l>
+            <l n="265" part="I">Elle aime Codoman. </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="265" part="F">Vous le croyez, Madame ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="266">Oui, Codoman sans doute a su charmer son âme. </l>
+            <l n="267">Ne te souvient-il plus avec quelle chaleur </l>
+            <l n="268">Elle m'a fait cent fois admirer sa valeur ; </l>
+            <l n="269">Que voulant à sa gloire acquérir mon suffrage, </l>
+            <l n="270">Elle s'étudiait à m'en tracer l'image, </l>
+            <l n="271">Et semblait mendier par cet adroit détour </l>
+            <l n="272">L'aveu du trop d'estime où l'engageait l'amour ? </l>
+            <l n="273">C'est ce qui de mon coeur me cacha la faiblesse ; </l>
+            <l n="274">Je ne crus qu'admirer, mais j'admirai sans cesse, </l>
+            <l n="275">Et ce flatteur appas séduisant ma raison, </l>
+            <l n="276">De mes sens révoltés couvrit la trahison. </l>
+            <l n="277">Un je ne sais quel trouble où je me vis réduire </l>
+            <l n="278">De leur rébellion voulut en vain m'instruire, </l>
+            <l n="279">Mon orgueil aima mieux hasarder mon repos </l>
+            <l n="280">Que de souffrir ailleurs l'hommage d'un Héros ; </l>
+            <l n="281">Mais ce fier sentiment dont ma vertu murmure, </l>
+            <l n="282">Pour surprendre mon coeur n'était qu'une imposture, </l>
+            <l n="283">Et j'ai trop reconnu, m'en laissant enflammer, </l>
+            <l n="284">Que qui veut être aimée a résolu d'aimer. </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="285">L'hommage d'un Héros dont la gloire est Maîtresse, </l>
+            <l n="286">Est digne de l'orgueil d'une grande Princesse, </l>
+            <l n="287">Mais quoi qu'à Codoman le vôtre ait déféré, </l>
+            <l n="288">En recevant ses voeux, qu'avez-vous espéré ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="289">Ah, que de mon secret ton âme trop grossière </l>
+            <l n="290">Pour juger d'un beau feu tire peu de lumière, </l>
+            <l n="291">Si tu crois qu'un grand coeur qui s'en laisse saisir </l>
+            <l n="292">Consulte en lui cédant l'espoir ou le désir ! </l>
+            <l n="293">Ce sont peut-être ailleurs des charmes légitimes ; </l>
+            <l n="294">Mais l'amour chez les Grands suit bien d'autres maximes. </l>
+            <l n="295">Comme à la vertu seule il rend un doux tribut,</l>
+            <l n="296">Aimer borne sa gloire, aimer est tout son but. </l>
+            <l n="297">Sans rien chercher de plus il met son heur suprême </l>
+            <l n="298">À tenir son objet renfermé dans soi-même, </l>
+            <l n="299">Sans cesse il l'examine, il l'observe, il le sert, </l>
+            <l n="300">Et ne connaît l'espoir qu'au moment qu'il le perd. </l>
+          </sp>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="301">D'une source bien pure un tel amour doit naître, </l>
+            <l n="302">Et si pour Codoman... mais je le vois paraître. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="303">Faut-il que je l'accable ? Ah rigoureux destin ! </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Statira, Darius, Barsine.</head>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS, sous le nom de Codoman.</speaker>
+            <l n="304">De quel fâcheux présage est pour moi ce chagrin, </l>
+            <l n="305">Madame ? Je ne sais ce que j'en dois attendre, </l>
+            <l n="306">Mais je tremble à savoir ce qu'il cherche à m'apprendre, </l>
+            <l n="307">Et d'un mortel effroi tous mes sens prévenus </l>
+            <l n="308">Succombent à des maux qui leur sont inconnus. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="309">Ces maux ne sont pas tels qu'il vous les fait paraître ; </l>
+            <l n="310">Si le Sort vous poursuit, vous en êtes le Maître, </l>
+            <l n="311">Et quelque orage enfin qui semble se former, </l>
+            <l n="312">Vous le dissiperez en cessant de m'aimer. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="313">Cessant de vous aimer ? Moi, Madame ? Ah, je doute </l>
+            <l n="314">Si c'est vous qui parlez, ou moi qui vous écoute, </l>
+            <l n="315">Et dans l'accablement qui confond ma raison, </l>
+            <l n="316">Moi-même je me suis suspect de trahison. </l>
+            <l n="317">À quoi que le Destin contre moi se prépare, </l>
+            <l n="318">Quand pour en divertir l'ordre le plus barbare </l>
+            <l n="319">Ce seul remède enfin se pourrait opposer, </l>
+            <l n="320">Hélas ! Serait-ce à vous à me le proposer ? </l>
+            <l n="321">Non, ne me dites point que le Sort m'assassine ; </l>
+            <l n="322">Mais dites, ta Princesse a juré ta ruine, </l>
+            <l n="323">Et par un beau triomphe à la fin obtenu, </l>
+            <l n="324">Son coeur se veut soustraire aux voeux d'un Inconnu. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="325">Si les ayant soufferts je m'en suis fait complice, </l>
+            <l n="326">À la seule vertu j'ai cru rendre justice, </l>
+            <l n="327">Et ce coeur dans son choix n'a point examiné </l>
+            <l n="328">S'il en aimait l'éclat sur un front couronné. </l>
+            <l n="329">Mais enfin aujourd'hui je ne puis plus sans crime </l>
+            <l n="330">Lui rien souffrir pour vous au-delà de l'estime, </l>
+            <l n="331" part="I">C'est pour Cléone seule... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="331" part="F">Ah ! Que me dites-vous ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="332">Que le Roi vous choisit pour être son Époux, </l>
+            <l n="333">Et que se réservant lui-même à vous le dire, </l>
+            <l n="334">Il la fait préparer à l'aveu qu'il désire. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="335">Ce coup surprend ma flamme, il le faut confesser. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="336">Ce choix en fait un crime, il n'y faut plus penser. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="337">Quoi, vous croyez déjà que mon coeur y consente ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="338">Quoi, vous refuseriez cette gloire éclatante ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="339">Quelque bonheur par là dont me flatte le Roi, </l>
+            <l n="340">Hors vous, hors votre amour, il n'en est point pour moi. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="341">Si vous n'acceptiez pas l'honneur qu'il vous veut faire, </l>
+            <l n="342">Pourriez-vous espérer de fléchir sa colère ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="343">Non, mais par votre aveu, si je puis l'obtenir, </l>
+            <l n="344">Pour rompre son dessein je le veux prévenir. </l>
+            <l n="345">C'est l'unique remède aux maux qu'il nous prépare, </l>
+            <l n="346">Il faut me déclarer avant qu'il se déclare, </l>
+            <l n="347">Lui découvrir ma flamme, et presser sa bonté </l>
+            <l n="348">D'en voir plutôt l'ardeur que la témérité. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="349">À quels nouveaux périls ce dessein vous engage ! </l>
+            <l n="350">Jaloux de ce qu'il est, il prend de tout ombrage, </l>
+            <l n="351">Et contre ses soupçons rendant peu de combat, </l>
+            <l n="352">La moindre ambition est un crime d'État. </l>
+            <l n="353">Ainsi croyant qu'en moi vous cherchez sa Couronne, </l>
+            <l n="354">Gardez qu'à ses transports son coeur ne s'abandonne, </l>
+            <l n="355">Et que de ses refus l'invincible fierté </l>
+            <l n="356">N'en porte la rigueur à trop d'indignité. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="357">Que contre mon audace il s'emporte, il s'enflamme, </l>
+            <l n="358">Ce que j'ai fait pour lui saura toucher son âme, </l>
+            <l n="359">Et s'il peut l'oublier, le rang où je me vois </l>
+            <l n="360">M'a donné des Amis qui parleront pour moi. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="361">Connaissez mieux la Cour et tous ses artifices. </l>
+            <l n="362">On vous flatte, on vous aime après vos grands services, </l>
+            <l n="363">Mais au premier revers, quoi qu'on vous eût promis, </l>
+            <l n="364">Si le Roi vous manquait, vous n'auriez plus d'Amis. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="365">Qu'ils m'abandonnent tous au milieu de l'orage, </l>
+            <l n="366">J'aurai pour moi du moins ma gloire et mon courage, </l>
+            <l n="367">Un si solide appui ne saurait m'abuser. </l>
+            <l n="368">Mais pourquoi craindre tout quand je dois tout oser ? </l>
+            <l n="369">Est-ce qu'un juste orgueil que le sang vous inspire </l>
+            <l n="370">A peine à consentir où bonheur où j'aspire, </l>
+            <l n="371">Et que de son éclat vos sentiments jaloux... </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="372">Ah ! C'est peu mériter ce que j'ai fait pour vous, </l>
+            <l n="373">Et ce doute outrageant que vous faîtes paraître </l>
+            <l n="374">Désavoue en secret l'amour qui le fait naître. </l>
+            <l n="375">Un coeur qui dans ses soins ne prend aucune part, </l>
+            <l n="376">Sans s'émouvoir de rien, remet tout au hasard, </l>
+            <l n="377">Et quoi qu'en juge ici votre injustice extrême, </l>
+            <l n="378">Vous montrer que je crains, c'est vous dire que j'aime, </l>
+            <l n="379">Et m'expose à regret à l'horreur d'un devoir, </l>
+            <l n="380">Qui me défend l'amour s'il vous défend l'espoir. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="381">Quoi, le Roi s'obstinant à condamner ma flamme, </l>
+            <l n="382">Princesse, vous voudrez me chasser de votre âme ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="383" part="I">J'y ferai mes efforts. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="383" part="F">Le pourrez-vous, hélas ! </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="384">Va, c'est te dire trop que ne répondre pas. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Statira, Amestris, Barsine.</head>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="385">C'est trop vous déguiser ; si cet hymen vous gêne, </l>
+            <l n="386">Confessez qu'en secret l'amour fait votre peine, </l>
+            <l n="387">Et que de ce qu'il perd le vif ressentiment </l>
+            <l n="388">Vous fait blâmer un choix qui vous coûte un Amant. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="389">Lui, mon Amant, Madame ! Ah, c'est un peu trop croire. </l>
+            <l n="390">J'estime Codoman, et prends part à sa gloire, </l>
+            <l n="391">Mais non pas jusqu'au point qu'on doive présumer </l>
+            <l n="392">Que mon coeur soit jamais capable de l'aimer. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="393">Quoi, Princesse, un Héros si grand, si magnanime, </l>
+            <l n="394">Ne mérite de vous qu'un sentiment d'estime, </l>
+            <l n="395">Et la fierté du sang dont vous tenez le jour, </l>
+            <l n="396">Croirait se faire outrage à souffrir son amour ?</l>
+            <l n="397">Je pensais que l'éclat des dons de la Fortune </l>
+            <l n="398">Ne pouvait éblouir qu'une âme trop commune, </l>
+            <l n="399">Et que quand la vertu justifiait nos voeux, </l>
+            <l n="400">L'espoir qui les flattait n'avait rien de honteux. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="401">Ce sont mes sentiments, et la mienne peut-être </l>
+            <l n="402">Pour tout autre que lui les aurait fait paraître, </l>
+            <l n="403">Mais quoi que sur mon coeur pût un charme si doux, </l>
+            <l n="404">Je trouverais ma gloire à me vaincre pour vous. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="405">La pensée est obscure, et j'ai peine à l'entendre, </l>
+            <l n="406" part="I">De grâce, expliquez-la. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="406" part="F">Voudrais-je m'en défendre </l>
+            <l n="407">Lorsque mille vertus qu'admire notre Cour </l>
+            <l n="408">Nous font voir Codoman digne de votre amour ? </l>
+            <l n="409">Je sais qu'il vous adore, et si pour son audace </l>
+            <l n="410">Ses grandes actions n'obtiennent point de grâce, </l>
+            <l n="411">Comme à brûler pour vous j'osai l'autoriser, </l>
+            <l n="412">C'est moi seule, c'est moi qu'il en faut accuser. </l>
+            <l n="413">Oui, Madame, un soupir, malgré sa retenue, </l>
+            <l n="414">Fit paraître à mes yeux âme toute nue, </l>
+            <l n="415">Et versa dans mon sein tout le secret d'un feu </l>
+            <l n="416">À qui de sa raison il refusait l'aveu. </l>
+            <l n="417">Loin d'en blâmer l'ardeur dans une si grande âme, </l>
+            <l n="418">Je prêtai quelque espoir à sa timide flamme, </l>
+            <l n="419">Et lui peignant en vous un esprit généreux, </l>
+            <l n="420">Je forçai son respect d'applaudir à ses voeux. </l>
+            <l n="421">Ainsi de mon secours tirant un doux présage, </l>
+            <l n="422">À vos pieds par mon ordre il en porta l'hommage. </l>
+            <l n="423">Et l'ayant pu soumettre à de si chères lois, </l>
+            <l n="424">Quoi qu'ordonne le Roi, je sais ce que je dois. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="425">Ah ! Si vous l'aviez su, m'auriez-vous exposée </l>
+            <l n="426">À rougir de connaître une victoire aisée, </l>
+            <l n="427">Et de pouvoir si peu sur mon coeur abattu, </l>
+            <l n="428">Qu'il n'ose au plein triomphe, enhardir ma vertu ? </l>
+            <l n="429">Puisque vous m'y forcez, je l'avouerai, Princesse ; </l>
+            <l n="430">Malgré moi, Codoman a surpris ma faiblesse, </l>
+            <l n="431">Ou plutôt j'ai souffert que ce coeur indiscret </l>
+            <l n="432">D'un feu qui lui plût trop me cachât le secret. </l>
+            <l n="433">Au moins ce choix du Roi par sa rigueur extrême </l>
+            <l n="434">M'apprend bien que j'aidais à me tromper moi-même, </l>
+            <l n="435">Et qu'où l'amour se plaît d'établir son pouvoir, </l>
+            <l n="436">De peur de s'en défendre, on n'en veut rien savoir. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="437">Laisser agir les Dieux dont l'ordre vous inspire ; </l>
+            <l n="438">De nos coeurs à leur gré lui seul règle l'empire, </l>
+            <l n="439">Et de nos passions les motifs différents </l>
+            <l n="440">Sont autant de secrets dont ils se font garants. </l>
+            <l n="441">Ainsi quoi qu'à vos feux le Roi mette d'obstacle </l>
+            <l n="442">Puisqu'ils les ont fait naître, espérez un miracle, </l>
+            <l n="443">Et que de leur secours vos désirs secondés </l>
+            <l n="444">Obtiendront le succès que vous en attendez. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="445">Dans l'espoir que pour moi l'amitié vous ordonne, </l>
+            <l n="446">Songez-vous que le Ciel me garde une Couronne, </l>
+            <l n="447">Et qu'esclave d'un rang qui m'en acquiert les droits, </l>
+            <l n="448">Je forme des désirs dont je n'ai point le choix ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="449">Pour peu que ces désirs avec mes soins s'entendent, </l>
+            <l n="450">Mon zèle vous répond de tout ce qu'ils prétendent, </l>
+            <l n="451">Et j'espère qu'un jour la Perse avec plaisir </l>
+            <l n="452">Couronnera le Roi que j'ose lui choisir. </l>
+            <l n="453">Daignerez-vous, Madame, en accepter l'augure ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="454">S'il me trompe, du moins j'en aime l'imposture, </l>
+            <l n="455">Et Codoman peut tant... mais adieu, je le vois, </l>
+            <l n="456">Vous apprendrez de lui les sentiments du Roi. </l>
+            <l n="457">Pour moi, qu'en son destin trop d'ardeur intéresse, </l>
+            <l n="458">Je fuis ce qui m'expose à montrer ma faiblesse. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Amestris, Darius.</head>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="459">Tu triomphes enfin, Codoman, et ton feu </l>
+            <l n="460">D'une auguste Princesse a mérité l'aveu. </l>
+            <l n="461">Si lorsque tu parais, sa retraite trop prompte </l>
+            <l n="462">T'en ôte la douceur pour te cacher sa honte, </l>
+            <l n="463">C'en doit être une au moins pleine d'appas pour toi </l>
+            <l n="464">Qu'elle ait pu confier son secret à ma foi. </l>
+            <l n="465">Après qu'à cet effort l'amour l'a su réduire, </l>
+            <l n="466">Tu dois croire l'envie impuissante à te nuire, </l>
+            <l n="467">Et qu'un succès plus prompt qu'on n'eût osé penser </l>
+            <l n="468">Justifiera l'espoir où j'ai dû te forcer. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="469">Je l'ai pris en tremblant, mais soit heur, soit disgrâce, </l>
+            <l n="470">Madame, il faut enfin en découvrir l'audace, </l>
+            <l n="471">Et le fatal revers qui menace ma foi </l>
+            <l n="472">Me contraint d'expliquer ma passion au Roi. </l>
+            <l n="473">J'y consens, mais hélas ! Puis-je sans vous déplaire </l>
+            <l n="474">Fuir l'hymen de la Soeur quand vous aimez le Frère ? </l>
+            <l n="475">Mégabise en ses voeux éprouve un sort bien doux, </l>
+            <l n="476">Et je dois du respect à qui brûle pour vous. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="477">Si j'ai sur Mégabise accepté quelque empire, </l>
+            <l n="478">J'ai cru ce qu'un beau zèle en ta faveur m'inspire, </l>
+            <l n="479">Et voulu m'acquérir ce coeur ambitieux, </l>
+            <l n="480">De peur qu'à la Princesse il n'élevât les yeux. </l>
+            <l n="481">Ainsi ton intérêt sollicita mon âme </l>
+            <l n="482">De me montrer sensible à l'aveu de sa flamme, </l>
+            <l n="483">Et je songeai bien plus par cet engagement </l>
+            <l n="484">À t'ôter un Rival qu'à choisir un Amant. </l>
+            <l n="485">Cependant quand mon coeur par mille soins n'aspire </l>
+            <l n="486">Qu'à te faciliter un chemin à l'Empire, </l>
+            <l n="487">Et qu'un secret instinct me fait croire qu'en toi </l>
+            <l n="488">La Perse après Ochus doit respecter son Roi, </l>
+            <l n="489">D'un bruit qui me confond le surprenant murmure </l>
+            <l n="490">En moi contre le sang révolte la Nature, </l>
+            <l n="491">Et soit pour Darius, soit pour un Imposteur, </l>
+            <l n="492">Partout également m'en fait craindre l'auteur. </l>
+            <l n="493">Bien qu'à ce Darius la Couronne soit due, </l>
+            <l n="494">Je tiens dans ses souhaits mon âme suspendue, </l>
+            <l n="495">Quand semant de son nom le charme précieux </l>
+            <l n="496">Je le vois contre Ochus presser les Factieux ; </l>
+            <l n="497">Et si d'un Imposteur la coupable insolence </l>
+            <l n="498">Attente sur un rang dont l'exclut la naissance, </l>
+            <l n="499">C'est toujours mettre obstacle au glorieux projet </l>
+            <l n="500">Qui te doii affranchir du titre de Sujet. </l>
+            <l n="501">Vois par là si j'éprouve un destin bien contraire </l>
+            <l n="502">Quand le vrai Darius s'arme contre mon Frère, </l>
+            <l n="503">Ou qu'un Fourbe prenant ce grand nom pour appui, </l>
+            <l n="504">Te dispute le droit de régner après lui. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="505">Ah ! Pour tant de bontés je n'ai qu'une âme ingrate, </l>
+            <l n="506">Si je crains devant vous que mon secret n'éclate, </l>
+            <l n="507">Et balance un aveu qui vous doit arracher </l>
+            <l n="508">Au scrupule inquiet où vous semblez pencher. </l>
+            <l n="509">Cessez, cessez enfin de paraître alarmée </l>
+            <l n="510">D'un nom qui fait juger une ligue formée, </l>
+            <l n="511">Vous la craindrez bien peu si vous tirant d'abus </l>
+            <l n="512">J'ose dans Codoman vous montrer Darius. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="513" part="I">Ô Dieux ! </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="513" part="F">Oui, vous voyez ce Prince déplorable </l>
+            <l n="514">Qu'Ochus sur sa naissance au berceau tint coupable, </l>
+            <l n="515">Et qu'eût perdu sans doute un ordre plein d'horreur </l>
+            <l n="516">Si Tiribase eût craint de tromper sa fureur. </l>
+            <l n="517">Il me sauva la vie, eut soin de mon enfance, </l>
+            <l n="518">Et m'ayant éprouvé digne de ma naissance, </l>
+            <l n="519">Ne me la déclara qu'après un fort serment </l>
+            <l n="520">De ne rien découvrir de cet événement, </l>
+            <l n="521">Et de ne souhaiter jamais le Diadème </l>
+            <l n="522">Que par l'heureux accord que vous pressez vous-même. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="523">Je ne m'étonne plus de ces transports secrets </l>
+            <l n="524">Qui m'ont fait jusqu'ici prendre vos intérêts. </l>
+            <l n="525">De tout votre destin obscurément instruite, </l>
+            <l n="526">La Nature agissait sur sa propre conduite, </l>
+            <l n="527">Et pour vous rétablir dans votre premier rang </l>
+            <l n="528">Pressait sans le savoir le suffrage du sang. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="529">Hélas ! Si sur Ochus il n'a le même empire, </l>
+            <l n="530">Mon espoir le plus doux par son refus expire, </l>
+            <l n="531">Puisque enfin Darius offert à sa rigueur </l>
+            <l n="532">Ne passera chez lui que pour un Imposteur. </l>
+            <l n="533">Que me sert d'être né du sang de nos Monarques, </l>
+            <l n="534">Si Tiribase est mort sans m'en laisser de marques, </l>
+            <l n="535">Et m'expose aujourd'hui, si je me montre en Roi, </l>
+            <l n="536">À la nécessité d'être cru sur ma foi ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="537">Quoi ! Pour justifier l'heur de votre naissance </l>
+            <l n="538">Un billet de sa main n'est pas votre assurance ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="539">En vain pour l'obtenir j'ai fait cent fois effort, </l>
+            <l n="540">Il me le réservait à l'instant de sa mort, </l>
+            <l n="541">Mais elle fut trop prompte, et l'Égypte asservie </l>
+            <l n="542">M'y tenait arrêté quand il perdit la vie. </l>
+            <l n="543">Jugez par cette absence où je me suis réduit. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="544">C'est ce qui vous oblige à semer ce grand bruit, </l>
+            <l n="545">Afin que si le Peuple aux nouveautés propice </l>
+            <l n="546">S'offre à contraindre Ochus de vous rendre justice, </l>
+            <l n="547">Vous puissiez, sur l'appui qu'il voudra vous prêter, </l>
+            <l n="548">Justifier un sort dont on pourrait douter ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="549">Ah, Madame, ce bruit où mon nom se hasarde </l>
+            <l n="550">N'attend point de succès dont l'effet me regarde, </l>
+            <l n="551">Et quoi qu'à le défendre il semble m'engager, </l>
+            <l n="552">J'en blâme le projet, et n'en sais que juger. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="553">S'il ne vient point de vous, qui l'aura donc fait naître ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="554">Tiribase, obligé de me faire connaître, </l>
+            <l n="555">Peut avoir, en mourant, à quelque Ami discret, </l>
+            <l n="556">Du Fils de Darius confier le secret. </l>
+            <l n="557">C'est sans doute par là que l'on sait qu'il respire, </l>
+            <l n="558">Mais à quoi que pour moi tout ce tumulte aspire, </l>
+            <l n="559">N'en prenez pour Ochus aucun sujet d'effroi ; </l>
+            <l n="560">Je suis Amant, et Prince ; il est et Père et Roi. </l>
+            <l n="561">Qu'il règne, j'y consens, et quoiqu'il en advienne, </l>
+            <l n="562">Ma tête entre ses mains vous répond de la sienne, </l>
+            <l n="563">Et que des Factieux désavouant l'effort, </l>
+            <l n="564">Je le rendrai toujours arbitre de mon sort. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="565">Ces nobles sentiments me le font trop paraître ; </l>
+            <l n="566">Ou Darius n'est plus, ou Codoman doit l'être. </l>
+            <l n="567">Mais de peur que le Roi ne le vît à regret, </l>
+            <l n="568">Lui découvrant vos feux, gardez votre secret, </l>
+            <l n="569">Et si par son refus il faut qu'il se révèle, </l>
+            <l n="570">Mégabise à mes soins saura joindre son zèle. </l>
+            <l n="571">Il l'écoute, il le croit, et peut-être pour vous </l>
+            <l n="572">Je puis seule au besoin désarmer son courroux. </l>
+            <l n="573">Jusque-là cependant cachez à la Princesse </l>
+            <l n="574">Ce qu'un scrupule exact rendrait suspect d'adresse, </l>
+            <l n="575">Et surtout... mais adieu, je vois venir le Roi, </l>
+            <l n="576">Parlez, et du succès reposez-vous sur moi. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Ochus, Darius, Oropaste.</head>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="577">Quoi, Seigneur, quand un Fourbe aspire à votre perte </l>
+            <l n="578">Vous méprisez la paix par cet accord offerte, </l>
+            <l n="579">Et croyez soutenir par d'assez grands efforts, </l>
+            <l n="580">Le tumulte au-dedans, et la guerre au-dehors ? </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="581">Si j'estime la paix, elle est pour moi sans charmes, </l>
+            <l n="582">Quand je ne la dois point à l'effroi de mes armes, </l>
+            <l n="583">Et Codoman peut-être aura peine à souffrir </l>
+            <l n="584">La gloire qu'elle assure à qui me l'ose offrir. </l>
+            <l n="585">Approche, Codoman, c'est de toi que j'espère </l>
+            <l n="586">Contre nos Factieux un conseil salutaire. </l>
+            <l n="587">Tandis qu'à la révolte ils semblent s'apprêter, </l>
+            <l n="588">De nouveaux Ennemis s'offrent à redouter, </l>
+            <l n="589">Et les Cadusiens battus en tant de guerres, </l>
+            <l n="590">Ne laissent pas encor de menacer nos terres, </l>
+            <l n="591">Si par mon alliance on offre à leurs souhaits </l>
+            <l n="592">L'inviolable noeud d'une éternelle paix. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="593">Quoi ? Vous pourriez, Seigneur, par un accord si lâche, </l>
+            <l n="594">Souffrir à votre gloire une honteuse tache, </l>
+            <l n="595">Et la Perse, aujourd'hui l'effroi des Nations, </l>
+            <l n="596">Traiterait de la paix à des conditions ? </l>
+            <l n="597">L'offre en est téméraire, et l'audace insolente, </l>
+            <l n="598">Et pour leur en donner une preuve éclatante, </l>
+            <l n="599">Autorisez mon bras à leur faire savoir </l>
+            <l n="600">Que c'est à vous d'en faire, et non d'en recevoir. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="601">J'aime en toi cette ardeur, mais ce qui m'embarrasse </l>
+            <l n="602">C'est d'un trouble intestin la secrète menace, </l>
+            <l n="603">Et que nous divisant, nous n'en soyons moins forts </l>
+            <l n="604">À résister ensemble et dedans et dehors. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="605">Que l'effort en soit joint, j'ai pour vous en défendre </l>
+            <l n="606">Une vie à donner, et du sang à répandre, </l>
+            <l n="607">Et peut-être, Seigneur, quoi qu'on ose tenter, </l>
+            <l n="608">Pour jouir du triomphe, il faudra l'acheter. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="609">Assez d'occasions ont signalé ton zèle, </l>
+            <l n="610">Mais en puis-je accepter cette preuve nouvelle, </l>
+            <l n="611">Sans qu'au moins tes souhaits affranchissent un Roi </l>
+            <l n="612">Du reproche honteux d'avoir peu fait pour toi ? </l>
+            <l n="613">Force cette vertu dont l'austère maxime </l>
+            <l n="614">Tient des prix les plus hauts le refus légitime. </l>
+            <l n="615">Tes désirs par les miens se verront seconder, </l>
+            <l n="616">Et pour obtenir tout, tu n'as qu'à demander. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="617">Si la vertu, Seigneur, à ce refus engage, </l>
+            <l n="618">J'en connais encor mal le scrupuleux usage ; </l>
+            <l n="619">Ce charme des grands coeurs agit peu sur le mien, </l>
+            <l n="620">Et pour trop souhaiter je ne demande rien. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="621">D'un pareil sentiment l'injustice m'offense ; </l>
+            <l n="622">Croire trop souhaiter, c'est borner ma puissance, </l>
+            <l n="623">Ou douter que je veuille, après tes grands exploits, </l>
+            <l n="624">M'acquitter en vrai Roi de ce que je te dois. </l>
+            <l n="625">Parle, et puisqu'à ton choix ma faveur abandonne </l>
+            <l n="626">Tout ce qu'à mon pouvoir a soumis la Couronne, </l>
+            <l n="627" part="I">S'il est rang, dignité, biens, trésors... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="627" part="F">Oui, Seigneur, </l>
+            <l n="628">Un précieux trésor ferait tout mon bonheur, </l>
+            <l n="629">L'espoir seul qui m'en flatte a droit sur ma franchise ; </l>
+            <l n="630">Et puisqu'à m'expliquer votre aveu m'autorise, </l>
+            <l n="631">Le coeur de la Princesse est le prix glorieux </l>
+            <l n="632">Où va de mes désirs le vol ambitieux. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="633" part="I">Quoi, ma Fille ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="633" part="F">Je sais qu'une pareille audace, </l>
+            <l n="634">À voir ce que je suis, est indigne de grâce ; </l>
+            <l n="635">Mais quand vous m'y forcez, que dois-je appréhender </l>
+            <l n="636">Des promesses d'un Roi qui veut tout m'accorder ? </l>
+            <l n="637">Au moins à sa vertu, pour s'expliquer entière, </l>
+            <l n="638">J'ai la gloire d'offrir une illustre matière, </l>
+            <l n="639">Et crains moins de faillir à ne me point borner, </l>
+            <l n="640">Qu'à lui demander moins qu'il ne me veut donner. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="641">Quand j'ai pressé pour vous ma bonté de paraître, </l>
+            <l n="642">J'ai cru qu'en vos désirs vous sauriez vous connaître, </l>
+            <l n="643">Et n'y souffririez pas un outrage à mon rang </l>
+            <l n="644">Que tout autre que vous expierait de son sang. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="645">Seigneur, si la Princesse est un prix où sans crime </l>
+            <l n="646">L'espoir ne peut porter un orgueil magnanime, </l>
+            <l n="647">Vous n'avez rien d'ailleurs qui ne soit au-dessous </l>
+            <l n="648">De ce qu'un zèle ardent m'a fait faire pour vous. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="649">Un peu de nom acquis rend votre audace extrême ; </l>
+            <l n="650">Mais en vous emportant au-delà de vous-même, </l>
+            <l n="651">Gardez qu'il ne me force à vous faire rentrer </l>
+            <l n="652">Dans ce honteux néant dont j'ai su vous tirer. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="653">J'y rentrerai, Seigneur, c'est mon plus doux partage, </l>
+            <l n="654">Et si de ce néant vous prenez avantage, </l>
+            <l n="655">Au moins l'ai-je rendu si beau, si glorieux, </l>
+            <l n="656">Qu'il vaut bien le brillant d'une suite d'Aïeux. </l>
+            <l n="657">C'est pour laisser de nous une triste mémoire </l>
+            <l n="658">Que de n'être fameux que de leur seule gloire, </l>
+            <l n="659">Et prétendre aux grands noms sur un fragile appui, </l>
+            <l n="660">Qu'en emprunter l'éclat de la vertu d'autrui. </l>
+            <l n="661">Qu'on se trouve en naissant au trône, ou dans la boue, </l>
+            <l n="662">Ce sont coups du hasard dont le Destin se joue, </l>
+            <l n="663">Et jamais un grand coeur ne tire vanité </l>
+            <l n="664">De ce qu'a fait pour lui son inégalité.</l>
+            <l n="665">Quel que soit son mérite, il en fuit l'avantage, </l>
+            <l n="666">S'il n'en est convaincu par son propre suffrage. </l>
+            <l n="667">En vain à quelque orgueil son rang l'ose enhardir, </l>
+            <l n="668">Il se juge au-dedans avant que s'applaudir, </l>
+            <l n="669">S'il répond de sa gloire, en fait le prix soi-même, </l>
+            <l n="670">Et quelque vaste éclat dont brille un Diadème, </l>
+            <l n="671">Tout ce pompeux dehors n'a point assez d'appas </l>
+            <l n="672">Pour lui faire estimer ce qu'il ne se doit pas. </l>
+            <l n="673">Qui que je sois enfin, peut-être que né Prince </l>
+            <l n="674">J'ai pour braver le Sort choisi cette Province, </l>
+            <l n="675">Et viens y faire voir que sang appui du sang </l>
+            <l n="676">La vertu peut de soi prétendre au plus haut rang. </l>
+            <l n="677">Quel surcroît après tout de gloire et de puissance </l>
+            <l n="678">Vous peut du plus grand Prince apporter l'alliance, </l>
+            <l n="679">Et que prétendez-vous d'un Gendre couronné, </l>
+            <l n="680">Que l'effort de ce bras ne vous ait pas donné ? </l>
+            <l n="681">Si le bandeau Royal en doit ceindre la tête, </l>
+            <l n="682">De trois Sceptres voisins j'ai fait votre conquête, </l>
+            <l n="683">Sur cent peuples par moi vous régnez aujourd'hui, </l>
+            <l n="684">Et j'ai gagné pour vous plus qu'il n'aura pour lui. </l>
+            <l n="685">Quoi que tente l'envie en sa plus forte rage, </l>
+            <l n="686">L'Égypte, l'Arménie en rendront témoignage, </l>
+            <l n="687">De mes nobles travaux ce sont les dignes fruits. </l>
+            <l n="688">Voilà dans mon néant, Seigneur, ce que je suis. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="689">Ma bonté jusqu'au bout t'a voulu faire grâce </l>
+            <l n="690">Souffrant de ton orgueil la criminelle audace, </l>
+            <l n="691">Ne me reproche point que tu m'as couronné, </l>
+            <l n="692">Je te rends plus ici que tu ne m'as donné, </l>
+            <l n="693">Et puisque de ta mort elle n'est point suivie, </l>
+            <l n="694">Insolent, souviens-toi que tu me dois la vie. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV.</head>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="695">Ah ! Puisqu'elle m'attire un outrage si bas, </l>
+            <l n="696">Ta pitié m'est cruelle à ne me l'ôter pas. </l>
+            <l n="697">Non, non, il n'est plus temps de cacher ta naissance ; </l>
+            <l n="698">Achève de te perdre, ou brave sa puissance, </l>
+            <l n="699">Malheureux Darius, et déclarant ton sort, </l>
+            <l n="700">Mérite, ou la Princesse, ou l'arrêt de ta mort, </l>
+            <l n="701">L'honneur te le commande, et l'amour t'y convie. </l>
+            <l n="702">Insolent, souviens-toi que tu me dois la vie ! </l>
+            <l n="703">Ah ! Cette indignité ne se saurait souffrir, </l>
+            <l n="704">Éclatons ; il nous faut ou régner, ou périr. </l>
+            <l n="705">Mais hélas ! Où m'emporte une aveugle colère ! </l>
+            <l n="706">J'adore Statira, c'est son Roi, c'est son Père. </l>
+            <l n="707">À quelles dures lois me faut-il obéir ! </l>
+            <l n="708">Je ne le puis aimer, et n'ose le haïr, </l>
+            <l n="709">Et lorsque contre lui Darius s'intéresse, </l>
+            <l n="710">Il trouve à son secours l'Amant de la Princesse. </l>
+            <l n="711">Tu l'emportes, Amour, et mon coeur est d'accord </l>
+            <l n="712">De m'offrir pour victime à qui cherche ma mort. </l>
+            <l n="713">Allons sans rien tenter après un coup si rude </l>
+            <l n="714">Convaincre cet ingrat de son ingratitude, </l>
+            <l n="715">Et mettre en son pouvoir ce sang dont sa fierté </l>
+            <l n="716">Avec tant de mépris traite l'obscurité. </l>
+            <l n="717">Découvrons-en la source, en vain je la déguise ; </l>
+            <l n="718">Mais j'en dois le secret d'abord à Mégabise ; </l>
+            <l n="719">Et je veux opposer à mon sort rigoureux </l>
+            <l n="720">Les fidèles conseils d'un Ami généreux. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Darius, Mégabise.</head>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="721">Ah, mon cher Mégabise, est-il quelque disgrâce </l>
+            <l n="722">Que ma triste infortune aujourd'hui ne surpasse ? </l>
+            <l n="723">Avez-vous vu le Roi ? Savez-vous mon ennui ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="724">J'ai tout su d'Oropaste, il sortait d'avec lui, </l>
+            <l n="725">Et je ne puis assez condamner sa colère. </l>
+            <l n="726">Mais aimer la Princesse, et ne l'avoir pu taire ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="727">J'ai failli, je l'avoue, et ce coeur outragé </l>
+            <l n="728">Par ce qu'il souffre, hélas ! vous rend assez vengé, </l>
+            <l n="729">Votre amitié sans doute eût secouru ma flamme ; </l>
+            <l n="730">Mais aussi désormais je vous ouvre mon âme, </l>
+            <l n="731">Et n'ai rien d'important dont je ne sois tout prêt </l>
+            <l n="732">À vous abandonner le plus cher intérêt. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="733">Votre coeur peut en moi prendre toute assurance, </l>
+            <l n="734">Et pour en mériter l'entière confiance, </l>
+            <l n="735">Je veux la prévenir par le plus haut secret </l>
+            <l n="736">Qui demanda jamais l'Ami le plus discret. </l>
+            <l n="737">Que par des sentiments dont la fierté vous blesse </l>
+            <l n="738">Ochus à votre amour refuse la Princesse, </l>
+            <l n="739">Qu'a pour vous ce refus qui vous doive étonner, </l>
+            <l n="740">Si Darius respire, et vous la peut donner ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="741">D'un semblable discours que faut-il que je pense ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="742">Qu'en vain pour Statira vous perdez l'espérance, </l>
+            <l n="743">Et que pour vous promettre ou refuser sa foi, </l>
+            <l n="744">Ochus n'est que son Père, et Darius son Roi. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="745" part="I">Quoi ? Vous connaissez donc... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="745" part="F">Oui, je puis bien connaître </l>
+            <l n="746">Sous quel Astre fatal son malheur le fit naître, </l>
+            <l n="747" part="I">Si Tiribase, hélas ! </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="747" part="F">Vous m'en dites assez, </l>
+            <l n="748">Je ne demande plus si vous le connaissez ; </l>
+            <l n="749">Mais j'atteste les Dieux qu'à taire sa naissance... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="750">Non, non, je n'ai de vous aucune défiance, </l>
+            <l n="751">Et vos serments en vain cherchent à m'assurer </l>
+            <l n="752">D'un coeur à qui le mien aime à se déclarer. </l>
+            <l n="753">Admirez seulement quelle rare conduite </l>
+            <l n="754">A su de mon Tyran arrêter la poursuite, </l>
+            <l n="755">Et par ma fausse mort l'abuser à tel point, </l>
+            <l n="756">Qu'il croit ma vie un songe, et ne s'en émeut point. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="757" part="I">Quoi, que me dites-vous ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="757" part="F">Ce que je dois vous dire, </l>
+            <l n="758">Qu'Ochus jura ma mort pour s'assurer l'Empire, </l>
+            <l n="759">Et qu'à me la donner Tiribase commis, </l>
+            <l n="760">M'ayant sauvé le jour, me fit croire son Fils. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="761" part="I">Vous êtes Darius ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="761" part="F">Oui, ce Darius même </l>
+            <l n="762">Sur qui la tyrannie usurpe un Diadème. </l>
+            <l n="763">Mais c'est trop voir régner un lâche au lieu de moi, </l>
+            <l n="764">Il faut rendre aux Persans leur véritable Roi. </l>
+            <l n="765">Sur le bruit de mon nom dont j'ai semé les charmes, </l>
+            <l n="766">Déjà le Peuple ému semble courir aux armes ; </l>
+            <l n="767">Entreprenons, régnons ; pour ce noble dessein </l>
+            <l n="768">J'ai des Amis tout prêts à me donner la main, </l>
+            <l n="769">Et si vous secondez une si juste audace, </l>
+            <l n="770">Le Tyran dès demain me peut voir en sa place, </l>
+            <l n="771">La ligue est bien formée, et d'une même voix </l>
+            <l n="772">Tous ne veulent qu'en moi le vrai sang de leurs Rois. </l>
+            <l n="773">Montrez-vous favorable à l'ardeur qui les presse. </l>
+            <l n="774">C'est l'unique moyen d'acquérir la Princesse, </l>
+            <l n="775">Sa foi de cet effort sera le digne prix. </l>
+            <l n="776">Mais quel trouble subit agite vos esprits ? </l>
+            <l n="777" part="I">Vous ne répondez point ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="777" part="F">Que puis-je vous répondre, </l>
+            <l n="778">Si tout ce que j'entends ne sert qu'à me confondre ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="779">Il suffit, Codoman, j'en connais le sujet ; </l>
+            <l n="780">Votre amour n'eût jamais qu'un Trône pour objet, </l>
+            <l n="781">Et plus ambitieux qu'Amant de la Princesse, </l>
+            <l n="782">Le nom de Darius vous étonne, vous blesse. </l>
+            <l n="783">À vos prétentions son espoir est fatal ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="784">Ah, qu'en juger ainsi c'est me connaître mal ! </l>
+            <l n="785">D'un sentiment si lâche en vain on me soupçonne, </l>
+            <l n="786">Et lorsqu'à Darius on doit une Couronne,</l>
+            <l n="787">J'ose sur moi des Dieux appeler le courroux </l>
+            <l n="788">Si je n'ai pas pour lui la même ardeur que vous, </l>
+            <l n="789">Si de son premier sort l'abaissement extrême </l>
+            <l n="790">Ne m'intéresse pas à l'égal de lui-même, </l>
+            <l n="791">Et si dans mes souhaits rien m'est plus précieux </l>
+            <l n="792">Que de revoir ce Prince au rang de ses Aïeux. </l>
+            <l n="793">Mais aimant Statira, j'irrite sa colère </l>
+            <l n="794">À me joindre au parti qui s'attaque à son Père ; </l>
+            <l n="795">Jugez par là du trouble où vous m'avez surpris. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="796">Et bien, déguisez-vous le dessein que j'ai pris, </l>
+            <l n="797">Et sans qu'aucun des deux par vous se favorise, </l>
+            <l n="798">Attendant le succès, ignorez l'entreprise. </l>
+            <l n="799">C'est assez qu'un Ami ne soit pas contre moi. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="800">Non, non, à Darius je sais ce que je dois ; </l>
+            <l n="801">Mais que de la Princesse il s'immole le Père... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="802">Je n'oublierai jamais que le mien fut son Frère, </l>
+            <l n="803">Et le sang n'agit pas avec si peu d'effort, </l>
+            <l n="804">Que reprenant mes droits je consente à sa mort. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="805">En vain à l'épargner sa chaleur vous convie ; </l>
+            <l n="806">Vous ne serez pas seul le maître de sa vie, </l>
+            <l n="807">Et de vos Conjurés l'impétueux courroux </l>
+            <l n="808">En saura dans leur haine ordonner malgré vous. </l>
+            <l n="809">Mais sans précipiter ainsi votre vengeance, </l>
+            <l n="810">Laissez-moi d'Amestris consulter la prudence. </l>
+            <l n="811">Au nom de Darius je la vois s'émouvoir, </l>
+            <l n="812">Et sans vous découvrir j'en puis beaucoup savoir. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="813">Quel que soit pour mon nom le zèle qui l'enflamme, </l>
+            <l n="814">Un secret est mal sûr dans les mains d'une Femme, </l>
+            <l n="815" part="I">Voyez-la, mais enfin songez... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="815" part="F">Je suis discret. </l>
+            <l n="816">Et l'on aura ma vie avant votre secret. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Ochus, Oropaste.</head>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="817">Non, non, s'il m'a servi, si sa haute vaillance </l>
+            <l n="818">A pu sur trois États étendre ma puissance, </l>
+            <l n="819">L'ingrat s'abandonnant à l'espoir d'être Roi, </l>
+            <l n="820">S'en destinait l'empire, et n'a fait que pour soi. </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="821">Seigneur, s'il m'est permis d'excuser son audace, </l>
+            <l n="822">Elle n'a rien en soi qui ne mérite grâce, </l>
+            <l n="823">Et comme sa vertu lui laisse peu d'égaux, </l>
+            <l n="824">L'amour n'est pas un crime indigne d'un Héros. </l>
+            <l n="825">Les plus grands coeurs cent fois s'en sont laissé surprendre.</l>
+            <l n="826">Il a vu la Princesse, il n'a pu s'en défendre, </l>
+            <l n="827">Et ce feu qu'a fait naître un mérite infini, </l>
+            <l n="828">Par un plus doux refus pouvait être puni. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="829">Va, ne t'abuse point ; quoi qu'il montre de flamme, </l>
+            <l n="830">N'en crois pas l'ardeur propre à bien remplir son âme, </l>
+            <l n="831">Et que pour occuper des désirs si bouillants </l>
+            <l n="832">Les transports de l'amour soient assez violents. </l>
+            <l n="833">De son ambition la chaleur inquiète </l>
+            <l n="834">Prend ce voile trompeur pour demeurer secrète ; </l>
+            <l n="835">Le Trône est l'objet seul qui charme ses esprits, </l>
+            <l n="836">Et pour en bien juger vois quel temps il a pris. </l>
+            <l n="837">De ses voeux arrogants il m'explique l'audace </l>
+            <l n="838">Quand le Cadusien d'un côté nous menace, </l>
+            <l n="839">Et que d'un Imposteur le factieux éclat </l>
+            <l n="840">Nous fait craindre de l'autre un funeste attentat. </l>
+            <l n="841">Contre ce double orage il se tient nécessaire, </l>
+            <l n="842">Et ce qu'on voit pour nous que son bras a su faire </l>
+            <l n="843">Le porte insolemment à vouloir aujourd'hui </l>
+            <l n="844">Abuser du besoin qu'on peut avoir de lui. </l>
+            <l n="845">Qui prend cet avantage, et peut oser prétendre </l>
+            <l n="846">Que la crainte me force à l'accepter pour Gendre, </l>
+            <l n="847">Après cette union qui trahirait mon sang, </l>
+            <l n="848">N'attendrait pas ma mort pour prétendre à mon rang. </l>
+            <l n="849">Je viens d'y donner ordre, et la paix souhaitée </l>
+            <l n="850">Par l'hymen de ma Soeur demeurant arrêtée, </l>
+            <l n="851">Nous verrons, dans ce bruit qui menace mes jours </l>
+            <l n="852">Si pour vaincre un Fantôme il nous faut son secours. </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="853">L'appui de Codoman le rendrait redoutable </l>
+            <l n="854">Si d'une lâcheté son coeur était capable ; </l>
+            <l n="855">Mais il a trop d'horreur pour de tels attentats, </l>
+            <l n="856">Et sa haute vertu vous répond de son bras. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="857">Comme il peut des Mutins seconder l'entreprise, </l>
+            <l n="858">On l'observe en secret de peur d'une surprise ; </l>
+            <l n="859">Mais dans tous ses desseins pour mieux le prévenir </l>
+            <l n="860">J'ai mandé la Princesse, et je la vois venir ; </l>
+            <l n="861" part="I">Tu vas savoir le reste. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Ochus, Statira, Barsine, Oropaste.</head>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="861" part="F">Approche, Fille ingrate, </l>
+            <l n="862">Enfin de ton grand coeur l'illustre effort éclate ; </l>
+            <l n="863">Et l'honneur d'avoir mis un Héros dans tes fers </l>
+            <l n="864">Va rehausser ta gloire aux yeux de l'Univers ? </l>
+            <l n="865">Les tiens de Codoman ont mérité l'hommage ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="866">S'ils ont pu l'enhardir à vous faire un outrage, </l>
+            <l n="867">J'en punirai, Seigneur, les criminels appas </l>
+            <l n="868">Qui savent vous déplaire en ne déplaisant pas. </l>
+            <l n="869">Sur l'éclat d'un grand nom qui rend sa gloire chère, </l>
+            <l n="870">Il s'est permis sans doute un espoir téméraire, </l>
+            <l n="871">Mais mon respect pour vous tient mes voeux trop bornés, </l>
+            <l n="872">Pour approuver jamais ce que vous condamnez. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="873">Si par une bassesse où l'amour te dispense </l>
+            <l n="874">Tu n'eusses pas des siens avoué l'insolence, </l>
+            <l n="875">Cet orgueil qui l'expose à toute ma rigueur </l>
+            <l n="876">Serait encor un crime enfermé dans son coeur ; </l>
+            <l n="877">Non qu'en te l'expliquant il ne t'ait abusée, </l>
+            <l n="878">Je vois de quelle ardeur son âme est embrasée, </l>
+            <l n="879">L'ingrat en veut au Trône, et n'aspire à ton choix </l>
+            <l n="880">Que dans le doux espoir d'en acquérir les droits ; </l>
+            <l n="881">Mais je sais les moyens d'arrêter tant d'audace. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="882">Seigneur, dans votre esprit ce soupçon trouve place ! </l>
+            <l n="883">Quand sa haute valeur lui rendait tout aisé, </l>
+            <l n="884">Général de l'Armée, en a-t-il abusé ? </l>
+            <l n="885">Dans l'Égypte où pour vous il traîna la victoire, </l>
+            <l n="886">Son coeur de ses exploits ne voulut que la gloire, </l>
+            <l n="887">Et si du Diadème il eût été jaloux, </l>
+            <l n="888">N'eût-il pas fait pour lui ce qu'il y fit pour vous ? </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="889">D'un Ennemi suspect cette indigne défense </l>
+            <l n="890">De ma flamme avec lui marque l'intelligence. </l>
+            <l n="891">Tu l'as reçue, ingrate, au mépris de cent Rois </l>
+            <l n="892">Dont ton hymen laissait la Couronne à mon choix. </l>
+            <l n="893">Tu te veux abaisser, j'y consens, mais n'espère </l>
+            <l n="894">Ni grâce de ton Roi, ni bonté de ton Père. </l>
+            <l n="895">Puisqu'il faut dans ton rang confondre un sort abject, </l>
+            <l n="896">Il vaut mieux élever un fidèle Sujet. </l>
+            <l n="897">Si quelqu'un dans ma Cour pouvait t'aimer sans crime, </l>
+            <l n="898">L'espoir dans Mégabise était plus légitime, </l>
+            <l n="899">Mais il s'en crut indigne, et pour s'être connu </l>
+            <l n="900">Il obtiendra le prix qu'il n'eût pas obtenu. </l>
+            <l n="901">Puisque jusqu'à se taire il a pu se contraindre, </l>
+            <l n="902">De son ambition je n'aurai rien à craindre. </l>
+            <l n="903">Obéis sans réplique, et songe dès demain, </l>
+            <l n="904">Pour m'ôter tout scrupule, à lui donner la main. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="905" part="I">Ah, Seigneur, s'il est vrai... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="905" part="F">Redoute ma colère, </l>
+            <l n="906">Je n'ai fait qu'abaisser l'orgueil d'un téméraire, </l>
+            <l n="907">Et de ce qu'on lui doit le criminel abus </l>
+            <l n="908">Pour sa punition n'a souffert qu'un refus ; </l>
+            <l n="909">Mais demain à l'hymen si tu n'es toute prête, </l>
+            <l n="910">Souviens-toi de son crime, et tremble pour sa tête. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Statira, Barsine.</head>
+          <sp who="tc0606-BARSINE">
+            <speaker>BARSINE.</speaker>
+            <l n="911">Madame, le malheur qui détruit votre espoir... </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="912">Hélas ! Barsine, hélas ! Peux-tu le concevoir, </l>
+            <l n="913">Si mon coeur que confond ce revers effroyable, </l>
+            <l n="914">Ne s'ose examiner sur tout ce qui l'accable, </l>
+            <l n="915">Et d'un Père indigné redoutant la fureur, </l>
+            <l n="916">Pour sentir trop son mal, n'en connaît pas l'horreur ? </l>
+            <l n="917">C'est donc peu que cédant à ma disgrâce extrême </l>
+            <l n="918">Ce coeur, ce triste coeur, s'arrache à ce qu'il aime, </l>
+            <l n="919">C'est peu de cet effort, si contraint d'obéir </l>
+            <l n="920">Lui-même il ne se livre à ce qu'il doit haïr. </l>
+            <l n="921">Ô rigueur de mon sort, dont l'injuste malice </l>
+            <l n="922">Tire de mon devoir mon plus cruel supplice ! </l>
+            <l n="923">S'il me défend d'aimer par quelle dure loi </l>
+            <l n="924">Faut-il que n'aimer pas soit un crime pour moi ? </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Darius, Statira, Barsine.</head>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="925">Madame, à quelque excès d'injustice et d'outrage </l>
+            <l n="926">Que de mon fier destin ait pu monter la rage, </l>
+            <l n="927">Pour en forcer l'injure, ou remplir le courroux, </l>
+            <l n="928">Souffrez qu'un malheureux prenne conseil de vous. </l>
+            <l n="929">Il ordonne ma mort, je pourrais l'en dédire ; </l>
+            <l n="930">Mais ma foi de mon coeur vous a soumis l'empire, </l>
+            <l n="931">Et je respecte trop toutes vos volontés, </l>
+            <l n="932">Pour n'y consentir pas si vous y consentez. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="933">Ce pouvoir que sur toi ton respect m'abandonne, </l>
+            <l n="934">Ne saurait empêcher ce que le Sort ordonne. </l>
+            <l n="935">Oui, telle est sa rigueur, qu'avec le Roi d'accord, </l>
+            <l n="936">Sans plus d'incertitude il a juré ta mort, </l>
+            <l n="937">Et par un dur surcroît au mal qui me tourmente, </l>
+            <l n="938">De peur d'y consentir il faut que j'y consente, </l>
+            <l n="939">Si toutefois pour toi ma perte est un malheur </l>
+            <l n="940">Qui te puisse obliger à mourir de douleur. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="941">Vous en doutez, Madame, et l'ardeur qui me presse </l>
+            <l n="942">Vous a si mal encor expliqué sa tendresse ! </l>
+            <l n="943">Et bien, puisque ce doute occupe vos esprits, </l>
+            <l n="944">Traitez un lâche Amant de haine et de mépris. </l>
+            <l n="945">C'est tout ce qu'il mérite en sa disgrâce extrême, </l>
+            <l n="946">S'il ne sait pas mourir quand il perd ce qu'il aime, </l>
+            <l n="947">Et se faire raison, en renonçant au jour, </l>
+            <l n="948">De ce qu'a fait le Sort d'outrage à son amour. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="949">J'ai pour toi trop d'estime, et quand ton espoir cesse, </l>
+            <l n="950">Ma vertu me répond en vain de ma faiblesse. </l>
+            <l n="951">Prête-moi ton exemple à la fortifier ; </l>
+            <l n="952">Pour en venir à bout tu n'as qu'à m'oublier. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="953">Ah ! Cessez un discours dont la suite m'accable. </l>
+            <l n="954">Qui conseille l'oubli s'en doit croire capable, </l>
+            <l n="955">Et qui le fait paraître, oblige à présumer, </l>
+            <l n="956">Ou qu'il n'aima jamais, ou qu'il sait mal aimer. </l>
+            <l n="957">Le véritable amour pour rien ne se relâche ; </l>
+            <l n="958">Plus son malheur est grand, plus son objet l'attache, </l>
+            <l n="959">Et s'il se voit réduit à cacher ses transports </l>
+            <l n="960">Il le venge au-dedans des feintes du dehors. </l>
+            <l n="961">Quoi que j'aie à languir sous un revers indigne, </l>
+            <l n="962">Laissez-moi l'endurer sans m'en souhaiter digne, </l>
+            <l n="963">Et ne m'exposez point au déplaisir affreux </l>
+            <l n="964">De voir que je déplaise à mourir malheureux. </l>
+            <l n="965">Est-ce peu du destin dont la rigueur m'opprime ? </l>
+            <l n="966">Pour la justifier dois-je commettre un crime, </l>
+            <l n="967">Et par ce lâche oubli déshonorant ma foi, </l>
+            <l n="968">Mériter ma disgrâce, et le mépris du Roi ? </l>
+            <l n="969">Non, non, ma destinée est glorieuse et belle, </l>
+            <l n="970">Je vis pour ma Princesse, et je mourrai pour elle, </l>
+            <l n="971">Sans qu'aucun engagement aide au sort qui me perd </l>
+            <l n="972">À me chasser d'un coeur où l'amour m'a souffert. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="973">Quoi ! Tu serais jaloux qu'une triste victoire </l>
+            <l n="974">Me permît d'immoler cet amour à ma gloire, </l>
+            <l n="975">Et dérobât mon âme à ces troubles puissants </l>
+            <l n="976">Qu'oppose à la raison la révolte des sens ? </l>
+            <l n="977">Hélas ! Juge des maux que le Ciel me prépare. </l>
+            <l n="978">Cet effort serait grand, et si tu veux, barbare, </l>
+            <l n="979">Mais un plus rude encor vient de m'être prescrit, </l>
+            <l n="980">Sous qui ma vertu tremble, et mon devoir frémit. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="981" part="I">Quoi, plus que m'oublier ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="981" part="F">Plus que m'arracher l'âme, </l>
+            <l n="982">Puisque de Mégabise il me doit rendre Femme. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="983" part="I">Vous ? Ma Princesse, vous ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="983" part="F">Il n'est rien plus certain. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="984" part="I">Quoi, le Roi... </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="984" part="F">Me condamne à lui donner la main. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="985" part="I">Et vous obéirez ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="985" part="F">J'obéirai sans doute </l>
+            <l n="986">Quelques rudes tourments que cet effort me coûte, </l>
+            <l n="987">Puisqu'aux coeurs les mieux nés l'amour sert de bourreau, </l>
+            <l n="988">Quand il faut l'étouffer pour aimer de nouveau. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="989">Je le vois bien, Madame ; un peu de violence </l>
+            <l n="990">Qu'il faut faire à vos voeux pour cette obéissance, </l>
+            <l n="991">Et deux ou trois soupirs échappés malgré vous </l>
+            <l n="992">Vengeront Codoman du bonheur d'un Époux. </l>
+            <l n="993">Que la constance est rare, et le pouvoir extrême, </l>
+            <l n="994">Qui vous laisse si bien disposer de vous-même, </l>
+            <l n="995">Que toujours au devoir prête à vous conformer, </l>
+            <l n="996">Vous acheviez sur l'heure, et commenciez d'aimer ! </l>
+            <l n="997">Pour moi, qui sans qu'ailleurs mon triste sort m'engage, </l>
+            <l n="998">N'aurais qu'à n'aimer plus pour en braver l'outrage, </l>
+            <l n="999">Ce remède à mon coeur offre tant à souffrir </l>
+            <l n="1000">Qu'avant que l'essayer je consens à mourir. </l>
+            <l n="1001">Heureux, dans un malheur qui n'en souffre point d'autres, </l>
+            <l n="1002">Si mon dernier soupir rencontrait un des vôtres, </l>
+            <l n="1003">Et forçait ma Princesse en ce fatal moment </l>
+            <l n="1004">A moins aimer l'Époux, pour mieux plaindre l'Amant. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1005">Cruel, pourquoi prêter un coeur qui se veut taire ? </l>
+            <l n="1006">J'ai dit ce que je dois, non ce que je puis faire. </l>
+            <l n="1007">Et quoi que ton erreur te laisse présumer,</l>
+            <l n="1008">Obéir malgré moi n'est pas cesser d'aimer. </l>
+            <l n="1009">Ce coeur, hélas ! Ce coeur te l'avoue à sa honte ; </l>
+            <l n="1010">Il voit toujours en toi le charme qui le dompte, </l>
+            <l n="1011">Et se peint Mégabise avec tous les défauts </l>
+            <l n="1012">Qui m'en rendent l'hymen le plus affreux des maux. </l>
+            <l n="1013">N'espère pas pourtant que quand ce choix m'étonne, </l>
+            <l n="1014">J'oppose aucun refus à l'ordre qu'on m'en donne ; </l>
+            <l n="1015">Mais je me flatte au moins, s'il me faut obéir, </l>
+            <l n="1016">Que forcée à t'aimer, contrainte à le haïr, </l>
+            <l n="1017">Ce criminel désordre et d'amour et de haine </l>
+            <l n="1018">Dont je sens que déjà l'injustice m'entraîne, </l>
+            <l n="1019">Ce déplaisir secret qu'avec tout son pouvoir </l>
+            <l n="1020">L'hymen ne rende pas mon coeur à mon devoir. </l>
+            <l n="1021">Ces indignes retours vers ma première flamme, </l>
+            <l n="1022">D'un si cruel reproche accableront mon âme, </l>
+            <l n="1023">Que par un prompt trépas ils expieront en moi </l>
+            <l n="1024">Le crime de manquer à ce que je me dois. </l>
+            <l n="1025">Est-ce assez te venger de mon obéissance ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1026">Ah ! Puisqu'il est ainsi, je reprends l'espérance, </l>
+            <l n="1027">Et pour vous affranchir d'un hymen odieux </l>
+            <l n="1028">J'ai trouvé, ma Princesse, un moyen glorieux, </l>
+            <l n="1029">Un moyen qui d'un choix que le Roi favorise </l>
+            <l n="1030">Pourra rendre l'effet douteux à Mégabise. </l>
+            <l n="1031">Non que de ses secrets on me voie abuser, </l>
+            <l n="1032">Mais j'ai les miens à part dont je puis disposer. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1033">Le voici qui s'avance. Adieu, je me retire ; </l>
+            <l n="1034">Tu m'aimes, on le sait, je n'ai rien à te dire. </l>
+            <l n="1035">Presse, agis, persuade, et surtout souviens-toi </l>
+            <l n="1036">Qu'on demande mon coeur, et qu'il n'est plus à moi. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Darius, Mégabise, Bagoas.</head>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1037">La princesse me fuit, et mon abord la chasse. </l>
+            <l n="1038">Mais, mon cher Codoman, savez-vous ma disgrâce, </l>
+            <l n="1039">Et que dans le soupçon que le Roi prend de vous </l>
+            <l n="1040">Son ordre dès demain m'en fait être l'Époux ? </l>
+            <l n="1041">Jugez ce que je souffre à trahir votre flamme. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1042">L'intérêt d'un Ami partage trop votre âme. </l>
+            <l n="1043">Enfin de cet hymen votre coeur est d'accord ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1044">Le peut-il sans se faire un violent effort ? </l>
+            <l n="1045">Mais pour en détourner la fatale surprise, </l>
+            <l n="1046">Il faudrait dès ce soir hasarder l'entreprise, </l>
+            <l n="1047">Et songeant en tumulte à la précipiter, </l>
+            <l n="1048">S'exposer au péril de voir tout avorter. </l>
+            <l n="1049">D'ailleurs, quand le succès nous serait favorable, </l>
+            <l n="1050">Ne rend-t-il pas d'Ochus la perte inévitable ? </l>
+            <l n="1051">Votre pressentiment fait naître ici le mien, </l>
+            <l n="1052">Dans ces confusions on ne distingue rien, </l>
+            <l n="1053">Vous me l'avez fait craindre ; et qu'attendrait la Perse </l>
+            <l n="1054">Du Fils de Darius, du Neveu d'Artaxerse, </l>
+            <l n="1055">Si par la mort d'un Roi que vous fîtes si grand </l>
+            <l n="1056">J'achetais lâchement un Trône qu'il me rend ? </l>
+            <l n="1057">Puisqu'il s'offre un moyen si doux, si légitime, </l>
+            <l n="1058">D'y monter aujourd'hui sans qu'il m'en coûte un crime, </l>
+            <l n="1059">Mon coeur à cet appas ne se peut refuser, </l>
+            <l n="1060">Mais votre seul aveu l'y doit autoriser. </l>
+            <l n="1061">C'est par votre vertu qu'aveuglément j'embrasse, </l>
+            <l n="1062">Que je cherche à régler ce qu'il faut que je fasse. </l>
+            <l n="1063">Si vous la consultez, elle vous offre jour </l>
+            <l n="1064">À voir le peu d'espoir qui reste à votre amour, </l>
+            <l n="1065">À voir qu'y renonçant en faveur de la gloire, </l>
+            <l n="1066">Vous obtenez sur vous la plus belle victoire, </l>
+            <l n="1067">Et rendez, à dompter des charmes si pressants, </l>
+            <l n="1068">Le Trône à Darius, et le calme aux Persans.</l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1069">C'est trop, et mon amour avec vous s'intéresse </l>
+            <l n="1070">Quand Darius au Trône appelle la Princesse. </l>
+            <l n="1071">Pour cet illustre hymen qui lui donne ce droit </l>
+            <l n="1072">Peut-être mon aveu peut plus que l'on ne croit ; </l>
+            <l n="1073">Mais quoi qu'il faille alors que Codoman expire, </l>
+            <l n="1074">En vous le promettant à peine il en soupire, </l>
+            <l n="1075">Sa flamme à Darius fait gloire de céder. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1076">Jamais à la vertu sut-on plus accorder ? </l>
+            <l n="1077">Certes pour cet effort, quoi que le Ciel ordonne, </l>
+            <l n="1078">Il vous doit plus qu'un Sceptre, et plus qu'une Couronne. </l>
+            <l n="1079">Pour moi, qui de vous seul croirai tenir le rang </l>
+            <l n="1080">Où m'élevait d'abord l'avantage du sang, </l>
+            <l n="1081">Si je vous en fais partager la puissance... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1082">Non, non, j'ai su toujours servir sans récompense ; </l>
+            <l n="1083">Mais vous puis-je expliquer un scrupule jaloux </l>
+            <l n="1084">Qu'un mouvement confus m'inspire contre vous ? </l>
+            <l n="1085">Il est bas, et peut-être il choque assez ma gloire </l>
+            <l n="1086">Pour pouvoir affaiblir l'éclat de ma victoire ; </l>
+            <l n="1087">Mais quoi que ma vertu lui veuille résister, </l>
+            <l n="1088">Il force malgré moi mon amour à douter. </l>
+            <l n="1089">Montrez-moi Darius que pressé de surprise </l>
+            <l n="1090">Il refuse en secret de voir dans Mégabise ; </l>
+            <l n="1091">Tirez-le d'une erreur dont il cherche l'appas. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1092">Quoi, quand je vous le dis, vous ne m'en croyez pas ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1093">J'ai tort, je le confesse, et je m'en tiens coupable ; </l>
+            <l n="1094">Mais quand l'amour perd tout, il n'est pas raisonnable. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1095">Vos sentiments pour moi sont assez inégaux. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1096">Aucun autre jamais n'en montra de plus hauts. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1097">Cent Amis qu'en mon sort un vrai zèle intéresse, </l>
+            <l n="1098">Ne m'ont point comme vous soupçonné de bassesse ; </l>
+            <l n="1099">Sans autre témoignage ils m'ont cru sur ma foi. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1100">Ils seraient scrupuleux s'ils perdaient comme moi. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1101">Mais tantôt votre amour s'est montré plus crédule. </l>
+            <l n="1102">Me croyant Darius, vous étiez sans scrupule ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1103">C'est que ce Darius n'aspirant qu'à régner, </l>
+            <l n="1104">Je ne voyais alors qu'un Trône à dédaigner. </l>
+            <l n="1105">Mais ici qu'il s'agit de m'ôter la Princesse, </l>
+            <l n="1106">Le seul objet pour qui mon coeur s'intéresse, </l>
+            <l n="1107">Puisque de votre rang j'ose me défier, </l>
+            <l n="1108">Il n'y faut point prétendre, ou le justifier. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1109">Je le pourrais sans peine, et suspect d'imposture </l>
+            <l n="1110">Il me serait aisé d'en convaincre l'injure ; </l>
+            <l n="1111">Mais après un soupçon que ma vertu confond, </l>
+            <l n="1112">Ne vous éclaircir pas, c'est en venger l'affront. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1113">Un Trône ébranle bien la vertu la plus forte. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1114">Vous pouvez me connaître, et parler de la sorte ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1115">Oui, mon coeur en effet croit vous connaître assez, </l>
+            <l n="1116">Mais j'ai lieu de douter si vous me connaissez. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1117">Ah ! Ce peu de respect en qui sait ma naissance... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1118">Ne vous emportez point à tant de violence, </l>
+            <l n="1119">Et pour la modérer, voyez, voyez en moi </l>
+            <l n="1120">L'Héritier d'un Empire, et le Fils d'un grand Roi. </l>
+            <l n="1121">Par divers intérêts j'en cache ici la gloire ; </l>
+            <l n="1122">Puisque je vous le dis, c'est à vous de m'en croire </l>
+            <l n="1123">Ou balancer du moins qui par plus de vertu </l>
+            <l n="1124">Pourrait mieux de nous deux mériter d'être cru. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1125">Je ne m'étonne point que le Roi sans colère </l>
+            <l n="1126">N'ait pu souffrir en vous un orgueil téméraire. </l>
+            <l n="1127">Vous le portez si haut, qu'il doit n'avoir pour prix </l>
+            <l n="1128">Qu'un pareil traitement, ou le dernier mépris. </l>
+            <l n="1129">Pour moi, qui n'ai pas droit d'en ordonner la peine, </l>
+            <l n="1130">Je veux bien applaudir à cette humeur hautaine. </l>
+            <l n="1131">J'y consens, demeurez sur votre seule foi </l>
+            <l n="1132">L'Héritier d'un Empire, et le Fils d'un grand Roi. </l>
+            <l n="1133">Ces hauts titres jamais n'auront rien qui me blesse ; </l>
+            <l n="1134">Mais cependant demain j'épouse la Princesse, </l>
+            <l n="1135">Et nous verrons alors quel sort sera plus doux </l>
+            <l n="1136">Du Fils d'un grand Monarque, ou bien de son Époux</l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1137">Vous vous flattez trop tôt d'une douceur semblable. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1138">Déclarant mon secret vous me rendrez coupable ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1139">Non, non, votre secret est sûr entre mes mains, </l>
+            <l n="1140">Et j'ai dans mon malheur de plus nobles desseins. </l>
+            <l n="1141">Apprenez seulement que l'ardeur qui m'embrase </l>
+            <l n="1142">Ne reconnaît en vous qu'un Fils de Tiribase, </l>
+            <l n="1143">Et que ce grand hymen qui vous doit élever </l>
+            <l n="1144">Sans tout mon sang versé ne se peut achever. </l>
+            <l n="1145" part="I">Adieu. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Mégabise, Bagoas.</head>
+          <sp who="tc0606-BAGOAS">
+            <speaker>BAGOAS.</speaker>
+            <l n="1145" part="F">Vous le voyez, Seigneur, quelle imprudence </l>
+            <l n="1146">Vous a fait ouvrir l'âme à trop de confiance. </l>
+            <l n="1147">Maître de vos secrets, il va tout publier. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1148">Tu croirais jusque-là qu'il se pût oublier ? </l>
+            <l n="1149">Malgré son désespoir il aime trop la gloire. </l>
+            <l n="1150">D'ailleurs, que dirait-il, que le Roi voulût croire ? </l>
+            <l n="1151">Comme il ne sait le nom d'aucun des Conjurés, </l>
+            <l n="1152">Ses projets contre moi seraient mal assurés, </l>
+            <l n="1153">Je puis tout démentir ; me pourra-t-il confondre ? </l>
+          </sp>
+          <sp who="tc0606-BAGOAS">
+            <speaker>BAGOAS.</speaker>
+            <l n="1154">Mais de ces Conjurés qui saura vous répondre ? </l>
+            <l n="1155">Surtout craignez Mitrane ; il voit qu'à regret </l>
+            <l n="1156">L'hymen de la Princesse, et murmure en secret. </l>
+            <l n="1157">Tout à l'heure avec moi son âme s'est ouverte, </l>
+            <l n="1158">Comme le Roi le hait, il en voulait la perte, </l>
+            <l n="1159">Et ne s'est déclaré pour vous si hautement </l>
+            <l n="1160">Que dans l'indigne espoir d'un plein renversement. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1161">Si pour m'oser trahir il a l'âme assez basse, </l>
+            <l n="1162">Cent illustres Amis soutiendront mon audace, </l>
+            <l n="1163">Et mon coeur du péril vainement combattu</l>
+            <l n="1164">Prenant le nom du Prince, en prendra la vertu. </l>
+            <l n="1165">Avecque tant d'éclat je la ferai paraître, </l>
+            <l n="1166">Que je démentirai le sang qui me fit naître. </l>
+            <l n="1167">Le Peuple sur ce nom déjà s'ose assembler, </l>
+            <l n="1168">Et le Roi dans ma perte aura lieu de trembler. </l>
+            <l n="1169">Mais je vois Amestris. L'importune surprise ! </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Amestris, Mégabise, Bagoas.</head>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1170">Et bien, le Ciel enfin couronne Mégabise ? </l>
+            <l n="1171">Il soumet à ses voeux le destin le plus doux ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1172">Il ferait trop pour moi, s'il faisait moins pour vous ; </l>
+            <l n="1173">Et puis-je à ses décrets montrer un coeur rebelle </l>
+            <l n="1174">Quand la paix résolue au Trône vous appelle, </l>
+            <l n="1175">Et que l'ordre absolu qu'il en a su donner </l>
+            <l n="1176">Ne me prive de vous que pour vous couronner ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1177">Ne prends point ce détour à cacher ta faiblesse, </l>
+            <l n="1178">Et si d'un feu tout pur la noble ardeur te presse, </l>
+            <l n="1179">Ne regarde que moi sans te considérer. </l>
+            <l n="1180">Je te préfère au Trône, ose m'y préférer. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1181">Souffrir que mon amour vous coûte un Diadème ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1182">J'y renonce pour toi, renonces-y de même. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1183">Mon coeur serait injuste, et de votre heur jaloux, </l>
+            <l n="1184">Sans se considérer, il ne doit voir que vous. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1185">Dis que ta lâcheté par une feinte flamme </l>
+            <l n="1186">Cachait l'ambition qui dévore ton âme. </l>
+            <l n="1187">Aussi t'abuses-tu si tu crois que ta foi </l>
+            <l n="1188">Me força d'abaisser mes désirs jusqu'à toi ; </l>
+            <l n="1189">Je t'en voyais indigne, et n'ai feint de descendre, </l>
+            <l n="1190">Que pour d'autres desseins que tu pourras apprendre. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1191">Puisqu'un motif secret vous fit trop abaisser, </l>
+            <l n="1192">Vous êtes en état de vous en dispenser ; </l>
+            <l n="1193">Mais au moins par l'hymen d'une grande Princesse, </l>
+            <l n="1194">Le Ciel prend quelque soin de purger ma bassesse. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1195">Tu le tiens déjà sûr, et ton avidité </l>
+            <l n="1196">Te place dans ce Trône où tu te crois monté ? </l>
+            <l n="1197">Je suivrai tes conseils, et prendrai la Couronne </l>
+            <l n="1198">Qu'un Traité favorable aujourd'hui m'abandonne ; </l>
+            <l n="1199">Mais si des malheureux le Ciel est le soutien, </l>
+            <l n="1200">Ayant tout espéré, crains de n'obtenir rien. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1201">La parole des Rois est trop inviolable. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1202">Je le sais, mais enfin le Ciel est équitable. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1203">Est-ce que cet hymen en combat l'équité ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1204">Le succès t'apprendra si tu t'es trop flatté ; </l>
+            <l n="1205">À ta confusion Darius peut paraître. </l>
+            <l n="1206">Sais-tu qu'il est vivant ? Sais-tu qu'il est ton Maître ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1207">Il doit l'être s'il vit, mais dans un bruit si doux </l>
+            <l n="1208">En êtes-vous certaine, et le connaissez-vous ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1209">Non, mais je vais agir avecque tant d'adresse, </l>
+            <l n="1210">Que pour rompre un hymen qui t'acquiert la Princesse, </l>
+            <l n="1211">L'ayant su découvrir, il faudra peu d'effort </l>
+            <l n="1212">À rejeter sur lui la gloire de ton sort. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1213">Mais son dessein connu rend sa perte certaine. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1214">Je puis tout sur le Roi, ne t'en mets point en peine. </l>
+            <l n="1215">Mais quand de mes conseils il ferait peu d'état, </l>
+            <l n="1216">Le Peuple pour son nom a déjà fait éclat, </l>
+            <l n="1217">Et ne souffrirait pas qu'un choix illégitime, </l>
+            <l n="1218">Pour plaire à ton orgueil, t'en fît une victime. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1219">Gardez ces sentiments, j'en suis si peu jaloux, </l>
+            <l n="1220">Que mon coeur sur ce point fait mêmes voeux que vous. </l>
+            <l n="1221">Je n'ai rien à prétendre où Darius aspire. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1222">Tu penses me braver, et doutes qu'il respire ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1223">Ce zèle aura pour moi toujours mêmes appas. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1224">Nous te verrons agir quand tu le connaîtras. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Statira, Mégabise, Barsine.</head>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1225">Que me dit ton silence après cette prière ? </l>
+            <l n="1226">Ta vertu tremble-t-elle à se montrer entière, </l>
+            <l n="1227">Et doutes-tu d'agir lorsque pressant ta foi, </l>
+            <l n="1228">Je t'offre les moyens d'être digne de moi ? </l>
+            <l n="1229">Je sais qu'ils sont fâcheux, que ce que je demande </l>
+            <l n="1230">Veut du coeur le plus grand l'épreuve la plus grande, </l>
+            <l n="1231">Et qu'au prix que la gloire au tien en doit coûter </l>
+            <l n="1232">Peu l'aimeraient assez pour oser l'acheter ; </l>
+            <l n="1233">Mais plus l'effort est rare où mon malheur t'excite, </l>
+            <l n="1234">Plus je montre sur moi ce qu'a pu ton mérite, </l>
+            <l n="1235">Et que de ton appui, dans mon espoir flottant, </l>
+            <l n="1236">Si je t'estimais moins, je n'attendrais pas tant. </l>
+            <l n="1237">Vois le Roi, parle-lui, romps ce triste Hyménée </l>
+            <l n="1238">Où par sa cruauté je me vois condamnée. </l>
+            <l n="1239">Renonce en ma faveur à ces charmes flatteurs, </l>
+            <l n="1240">Qui du Trône à tes sens étalent les douceurs, </l>
+            <l n="1241">Et si pour tant de biens dont tu perds l'espérance </l>
+            <l n="1242">L'éclat d'un beau triomphe est peu de récompense, </l>
+            <l n="1243">Songe que c'est beaucoup que par un tel secours </l>
+            <l n="1244">Je te veuille devoir le repos de mes jours. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1245">C'est beaucoup, je l'avoue, et la gloire est extrême </l>
+            <l n="1246">De consentir pour vous à s'immoler soi-même, </l>
+            <l n="1247">Mais sur tant de vertu, pardonnez si je dis </l>
+            <l n="1248">Que j'en laisse l'usage à des coeurs plus hardis. </l>
+            <l n="1249">Plus je m'arrête à voir ce qu'elle en ose attendre, </l>
+            <l n="1250">Plus le mien s'effarouche à vouloir y prétendre, </l>
+            <l n="1251">Et me fait murmurer d'être trop estimé, </l>
+            <l n="1252">S'il faut que je renonce à l'espoir d'être aimé. </l>
+            <l n="1253">Que me sert en effet une estime si haute, </l>
+            <l n="1254">Si mon amour aspire à tout ce qu'elle m'ôte, </l>
+            <l n="1255">Et si pour la remplir ses mouvements jaloux </l>
+            <l n="1256">Se font sacrifier ce qu'il voit de plus doux ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1257">Plût au Ciel que l'amour dont tu me peins la flamme, </l>
+            <l n="1258">Seul contre ta vertu fît révolter ton âme, </l>
+            <l n="1259">Sans qu'à l'ambition ton coeur assujetti </l>
+            <l n="1260">Par l'intérêt d'un Trône en soutint le parti. </l>
+            <l n="1261">Alors cette vertu sur tes sens souveraine </l>
+            <l n="1262">De leur rébellion triompherait sans peine, </l>
+            <l n="1263">Et saurait les réduire à voir qu'en ses souhaits </l>
+            <l n="1264">Le vrai, le pur amour, ne s'emporte jamais, </l>
+            <l n="1265">Que c'est un fier vainqueur, qui jaloux de sa gloire </l>
+            <l n="1266">Aspire à mériter le prix de sa victoire, </l>
+            <l n="1267">Et du plus doux empire estime peu l'espoir, </l>
+            <l n="1268">S'il doit tenir d'ailleurs ce qu'il veut se devoir. </l>
+            <l n="1269">Alors tu concevrais, que si ton coeur sensible </l>
+            <l n="1270">Apporte à mon bonheur un obstacle invincible, </l>
+            <l n="1271">Ces mouvements secrets qui s'opposent au tien, </l>
+            <l n="1272">Ne sont pas plus aisés à vaincre dans le mien, </l>
+            <l n="1273">Et sans examiner, si quoi que je t'estime </l>
+            <l n="1274">Mon aversion seule est ce qui les anime, </l>
+            <l n="1275">Tu te ressouviendrais qu'avant l'ordre du Roi </l>
+            <l n="1276">La beauté d'Amestris eut des charmes pour toi. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1277">Et bien, je suis haï, mais plût au Ciel, Madame, </l>
+            <l n="1278">Que votre seule haine inquiétât ma flamme, </l>
+            <l n="1279">Sans que les noeuds secrets d'une autre passion </l>
+            <l n="1280">Pussent rien ajouter à cette aversion. </l>
+            <l n="1281">Alors votre vertu de vos désirs maîtresse </l>
+            <l n="1282">Verrait dans cette haine une ombre de faiblesse, </l>
+            <l n="1283">Et qu'un grand coeur jamais n'en suit le mouvement, </l>
+            <l n="1284">Quand un principe aveugle en est le fondement. </l>
+            <l n="1285">Alors vous concevriez qu'un assidu service </l>
+            <l n="1286">Devant avec le temps en forcer l'injustice, </l>
+            <l n="1287">Il n'est pas impossible à qui peut m'estimer </l>
+            <l n="1288">De se pouvoir enfin résoudre de m'aimer ; </l>
+            <l n="1289">Et si de mes défauts l'exacte connaissance </l>
+            <l n="1290">Ne vous pouvait souffrir de m'en voir l'espérance, </l>
+            <l n="1291">Vous oublieriez du moins que par des voeux trop doux </l>
+            <l n="1292">L'orgueil de Codoman s'élève jusqu'à vous. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1293">Quoi, tu crains Codoman, et tu sais sa disgrâce ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1294">Je crains dans votre coeur l'Ennemi qui m'en chasse, </l>
+            <l n="1295">Et vois trop qu'il n'exige un refus si fatal, </l>
+            <l n="1296">Que pour se conserver à cet heureux Rival. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1297">Je plains dans son malheur le revers qui l'opprime, </l>
+            <l n="1298">Et quand je te demande un effort magnanime, </l>
+            <l n="1299">Je ne te dirai point qui presse mon ennui, </l>
+            <l n="1300">Si c'est haine pour toi, si c'est amour pour lui ; </l>
+            <l n="1301">Mais soit l'une, soit l'autre, aurai-je moins de peine </l>
+            <l n="1302">À chasser cet amour qu'à vaincre cette haine, </l>
+            <l n="1303">Et m'arrachant un coeur qui doit suivre ma foi, </l>
+            <l n="1304">Pourras-tu t'assurer que ce coeur soit à toi ? </l>
+            <l n="1305">Tâche à te contenter d'avoir droit d'y prétendre, </l>
+            <l n="1306">Mérites-en le don refusant de le prendre. </l>
+            <l n="1307">Je te l'ai déjà dit, renoncer à ma foi </l>
+            <l n="1308">C'est te mettre en état d'être digne de moi. </l>
+            <l n="1309">Donne à mes tristes voeux ce noble sacrifice, </l>
+            <l n="1310">Convaincs-moi d'être injuste en leur rendant justice, </l>
+            <l n="1311">Et fais que ma vertu qui cherche à t'estimer, </l>
+            <l n="1312">Me force à me haïr de ne pouvoir t'aimer. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1313">Et l'ardeur de mon zèle, et mon amour extrême </l>
+            <l n="1314">Peuvent seuls obtenir que ma Princesse m'aime, </l>
+            <l n="1315">Et comme enfin ce bien dont j'ose me flatter </l>
+            <l n="1316">Est un prix glorieux qu'on ne peut mériter, </l>
+            <l n="1317">J'attendrai de mes soins et d'un respect insigne </l>
+            <l n="1318">Tout ce qui peut un jour m'en rendre moins indigne ; </l>
+            <l n="1319">Mais que jusqu'au refus je puisse me trahir, </l>
+            <l n="1320">Le Roi parle, Madame, et je dois obéir. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1321">Au moins obtiens un temps de cette amour extrême </l>
+            <l n="1322">Où j'apprenne à t'aimer puisqu'il faut que je t'aime, </l>
+            <l n="1323">Que mon coeur à l'hymen se puisse préparer ; </l>
+            <l n="1324">Si tu n'oses le rompre, ose le différer. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1325">Madame, vous savez que c'est cette journée </l>
+            <l n="1326">Dont hier le Roi fit choix pour ce grand hyménée. </l>
+            <l n="1327">Il va se rendre au Temple, et m'envoyait vers vous... </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1328">Enfin ton intérêt est d'être mon Époux, </l>
+            <l n="1329">Et pourvu que ma main t'assure une Couronne, </l>
+            <l n="1330">Tu vois peu si mon coeur se refuse ou se donne ? </l>
+            <l n="1331">Mais du moins crains le Peuple, il murmure, il se plaint </l>
+            <l n="1332">De voir pour sa Princesse un choix qui la contraint, </l>
+            <l n="1333">Un choix qui détruisant l'union qu'il souhaite </l>
+            <l n="1334">L'arrache à Darius pour la laisser Sujette. </l>
+            <l n="1335">Comme on croit qu'il respire, il ne peut endurer </l>
+            <l n="1336">Qu'à ma main dans ce doute un autre ose aspirer. </l>
+            <l n="1337">Crains d'exposer le Roi, s'il s'émeut, s'il s'emporte. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1338">J'aime en lui pour ce nom une chaleur si forte, </l>
+            <l n="1339">Mais n'appréhendez point, ayant reçu ma foi, </l>
+            <l n="1340">Qu'on voie un Darius se déclarer pour Roi. </l>
+            <l n="1341">Quoi qu'on fasse pour vous la Couronne est certaine. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1342">Et bien, barbare, achève au péril de ma haine, </l>
+            <l n="1343">Prends cette triste main, prends et jouis d'un sort </l>
+            <l n="1344">Dont la nécessité me condamne à la mort ; </l>
+            <l n="1345">Mais si le Ciel est juste, il nous doit un exemple </l>
+            <l n="1346" part="I">Qui fasse voir... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1346" part="F">Madame, on nous attend au Temple, </l>
+            <l n="1347" part="I">Voici l'ordre du Roi. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1347" part="F">Dieux, puis-je y consentir ? </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Statira, Mégabise, Oropaste, Barsine, Suite d'Oropaste.</head>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1348">Tout est-il prêt enfin ? Venez-vous m'avertir ? </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1349" part="I">Seigneur, l'ordre est changé. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1349" part="M">Changé ? </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1349" part="F">Je vous étonne, </l>
+            <l n="1350">Mais je dois obéir à celui qu'on me donne, </l>
+            <l n="1351">Et pour servir du Roi l'impatient courroux, </l>
+            <l n="1352">Demander votre épée et répondre de vous. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1353" part="I">Mon épée ? </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1353" part="M">Oui, Seigneur, rendez. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1353" part="F">Que je la rende ? </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1354">Enfin c'est de sa part que je vous la demande. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1355">Au moins auparavant que je sache sur quoi... </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1356">La résistance est vaine où j'ai l'ordre du Roi. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1357" part="I">Prenez, il faut céder. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1357" part="F">Tu le vois, Mégabise, </l>
+            <l n="1358">Tu vois qu'à ton défaut le Ciel me favorise. </l>
+            <l n="1359">Va, loin de me venger de tes cruels refus, </l>
+            <l n="1360">Ta vie est en péril, je ne m'en souviens plus</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Mégabise, Oropaste.</head>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1361">Ô Rigueur d'un destin à nulle autre semblable ! </l>
+            <l n="1362">On m'élève si haut pour me rendre coupable. </l>
+            <l n="1363">Mais si je puis encor espérer des Amis, </l>
+            <l n="1364">De grâce, expliquez-moi quel crime j'ai commis. </l>
+            <l n="1365">Votre ordre porte-t-il de ne m'en rien apprendre ? </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1366">Seigneur, confusément si je l'ai su comprendre, </l>
+            <l n="1367">Le Roi de Darius vous croit être l'appui. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1368">Achevez, Codoman est sans doute avec lui ? </l>
+          </sp>
+          <sp who="tc0606-OROPASTE">
+            <speaker>OROPASTE.</speaker>
+            <l n="1369">Non, Seigneur, au contraire, il semble en être en peine ; </l>
+            <l n="1370">Mais avant qu'il songeât à l'ordre qui m'amène, </l>
+            <l n="1371">Itapherne et Mitrane ont paru fort longtemps </l>
+            <l n="1372">L'entretenir tout bas de secrets importants ; </l>
+            <l n="1373">Une égale chaleur animait l'un et l'autre, </l>
+            <l n="1374">Au nom de Darius ils ont mêlé le vôtre, </l>
+            <l n="1375">Et c'est par où je crois, Seigneur, que leur rapport </l>
+            <l n="1376">Vous a rendu suspect d'en appuyer le sort. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1377">Ce sort expose un sang dont la source est si pure </l>
+            <l n="1378">Que de la perfidie il bravera l'injure. </l>
+            <l n="1379">Que le courroux du Roi s'apprête à m'accabler, </l>
+            <l n="1380">Itapherne et Mitrane ont lieu seuls de trembler, </l>
+            <l n="1381">Ces lâches dont la foi se croit faire connaître </l>
+            <l n="1382">Lorsqu'ils l'osent noircir en trahissant leur Maître. </l>
+            <l n="1383">Qu'ils le livrent ce sang autrefois précieux, </l>
+            <l n="1384">Pour m'en faire justice il est là-haut des Dieux... </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Amestris, Mégabise, Oropaste.</head>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1385">Le croirai-je, Oropaste, et dois-je enfin me rendre, </l>
+            <l n="1386">À ce qu'un bruit confus m'a voulu faire entendre, </l>
+            <l n="1387">Que Darius au Roi vient d'être découvert ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1388">Vous le vouliez, Madame, et le Ciel l'a souffert. </l>
+            <l n="1389">On sait quel est ce Prince, êtes-vous satisfaite ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1390">Je vous plains du malheur où ce revers vous jette, </l>
+            <l n="1391">Ce coup de Codoman fait le dernier espoir. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1392">Le sang peut tout, Madame, il fera son devoir. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1393">Si le Roi lui résiste, il y va de ma gloire </l>
+            <l n="1394">De l'adoucir au point qu'il se force à le croire. </l>
+            <l n="1395">Au sort de Darius c'est le moins que je dois. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1396">J'avais de moins d'ardeur soupçonné votre foi, </l>
+            <l n="1397">Et doutais que pour lui ce zèle osât paraître, </l>
+            <l n="1398">Quand son mauvais destin vous l'aurait fait connaître. </l>
+            <l n="1399">Il est coupable enfin ayant droit de régner. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1400">C'est le Fils de mon Frère, il le faut épargner. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1401">Comme l'esprit d'Ochus est plein de violence, </l>
+            <l n="1402">C'est hasarder beaucoup qu'en prendre la défense. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1403">Ce serait démentir la gloire de mon rang </l>
+            <l n="1404">Que montrer un coeur lâche à défendre mon sang. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1405">Vous êtes généreuse, et ma joie est extrême </l>
+            <l n="1406">Que son sort éclairci vous laisse encor la même, </l>
+            <l n="1407">Et que pour lui toujours daignant vous expliquer... </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1408">Je vous l'avais promis, y pourrais-je manquer ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1409">Et vous voyez aussi que j'eus droit de vous dire </l>
+            <l n="1410">Que cessant de prétendre où Darius aspire, </l>
+            <l n="1411">Mon coeur de son destin était si peu jaloux, </l>
+            <l n="1412">Qu'il y prenait du moins même intérêt que vous. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1413">Dans ces hauts sentiments dont vous suivez la gloire, </l>
+            <l n="1414">Vous l'aimiez en effet plus que je n'osais croire. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1415">Il serait malaisé que ce coeur aujourd'hui </l>
+            <l n="1416">Avec moins de chaleur se déclarât pour lui. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1417">Puisqu'à me seconder votre âme est disposée, </l>
+            <l n="1418">Je forme en sa faveur une entreprise aisée, </l>
+            <l n="1419">Et comme dans un sort trop longtemps obscurci </l>
+            <l n="1420">Codoman m'a montré... mais le Roi vient ici. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Ochus, Amestris, Mégabise, Oropaste.</head>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1421">Avez-vous su, ma Soeur, l'attentat d'un rebelle ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1422">Darius est connu, j'en apprends la nouvelle. </l>
+            <l n="1423">Mais si jamais, Seigneur, mon zèle a mérité... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1424">Gardez pour cet ingrat d'implorer ma bonté, </l>
+            <l n="1425">Engager mes Sujets à le vouloir pour Maître ! </l>
+            <l n="1426">Les liguer ! Les séduire ! Il en mourra, le traître. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1427">Seigneur, si l'apparence est seule à consulter, </l>
+            <l n="1428">Darius est coupable, on n'en saurait douter, </l>
+            <l n="1429">D'un Peuple soulevé son nom a fait le crime ; </l>
+            <l n="1430">Mais avant que noircir un coeur si magnanime, </l>
+            <l n="1431">Songez pour vous cent fois de quelle ardeur pressé... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1432">Par son lâche projet il a tout effacé. </l>
+            <l n="1433">C'est votre sang, Seigneur, forcez-vous à l'entendre. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1434">Moi connaître mon sang en qui le veut répandre ? </l>
+            <l n="1435">Non, non, votre pitié ne peut rien obtenir ; </l>
+            <l n="1436">Qui conspirait ma perte, a dû me prévenir. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1437">Ah, Seigneur, pourriez-vous envier à la Perse </l>
+            <l n="1438">Les restes précieux du beau sang d'Artaxerse, </l>
+            <l n="1439">L'objet de son amour, l'héritier de ses Rois ? </l>
+            <l n="1440">Pour vous le demander elle emprunte ma voix, </l>
+            <l n="1441">C'est par moi qu'elle parle ; approche, Mégabise, </l>
+            <l n="1442">Viens appuyer l'effort où le sang m'autorise, </l>
+            <l n="1443">Viens aux pieds de ton Roi m'aider à le forcer...</l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1444">Vous croyez jusque-là qu'il se pût abaisser, </l>
+            <l n="1445">Et qu'après un dessein qui rend sa gloire entière, </l>
+            <l n="1446">Il voulût lâchement descendre à la prière ? </l>
+            <l n="1447">Non, quand son repentir croirait obtenir tout, </l>
+            <l n="1448">L'orgueil de sa grande âme ira jusques au bout. </l>
+            <l n="1449">Remarquez sur son front quelle insolente audace, </l>
+            <l n="1450">Ayant manqué le coup, porte encor la menace. </l>
+            <l n="1451">Voyez peinte en ses yeux par un secret transport </l>
+            <l n="1452">L'avidité du Trône, et l'ardeur de ma mort. </l>
+            <l n="1453">Déjà depuis longtemps que cette ardeur le gêne, </l>
+            <l n="1454">S'il n'eût craint Codoman, elle eût été certaine. </l>
+            <l n="1455">Pour rendre ses projets un peu plus assurés </l>
+            <l n="1456">Il voulut l'attirer parmi les Conjurés, </l>
+            <l n="1457">Et devoir de mes jours presser le sacrifice </l>
+            <l n="1458">Sitôt que de son crime il l'aurait fait complice, </l>
+            <l n="1459">Son trop de politique a su me garantir. </l>
+            <l n="1460">Parle enfin, Ingrat, parle, et m'ose démentir. </l>
+            <l n="1461">Dis qu'un léger scrupule à ta perte m'engage, </l>
+            <l n="1462">Qu'Itapherne et Mitrane ont ignoré ta rage, </l>
+            <l n="1463">Et n'ont pu m'avertir que ton lâche attentat </l>
+            <l n="1464">A ligué contre moi les plus grands de l'État. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1465">Puisque leur trahison à ma mort s'intéresse, </l>
+            <l n="1466">N'attends de Darius ni crainte ni faiblesse, </l>
+            <l n="1467">Sa vertu jusqu'au bout saura le soutenir, </l>
+            <l n="1468">Ils t'ont appris son crime, et tu peux l'en punir. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1469">Vous le voyez, ma Soeur, si pour sa noire audace </l>
+            <l n="1470">Vous pouviez justement solliciter ma grâce. </l>
+            <l n="1471">L'aveu l'en charme encor, et loin de l'étouffer, </l>
+            <l n="1472">Dans l'horreur de son crime il cherche à triompher. </l>
+            <l n="1473">Vous ne dites plus rien, et demeurez surprise ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1474">Seigneur, que vous dirai-je après son entreprise ? </l>
+            <l n="1475">Mon coeur est en désordre, et mes voeux incertains</l>
+            <l n="1476">Font qu'en un même instant je souhaite, et je crains. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1477">Aussi je l'avouerai ; je m'étonnais, Madame, </l>
+            <l n="1478">Que d'abord ma disgrâce eût pu toucher votre âme, </l>
+            <l n="1479">Et que de mon secret votre coeur averti </l>
+            <l n="1480">Avec tant de chaleur embrassât mon parti. </l>
+            <l n="1481">Faites gloire sitôt de la voir refroidie, </l>
+            <l n="1482">Du sort qui me veut perdre aidez la perfidie. </l>
+            <l n="1483">Darius n'en voit rien de plus rude à souffrir, </l>
+            <l n="1484">Et ne pouvant régner, il saura bien mourir. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1485">Oui, perfide, il mourra, sans que je veuille apprendre </l>
+            <l n="1486">Si c'est un Imposteur qui cherche à nous surprendre. </l>
+            <l n="1487">Qu'il remplisse d'un Prince, ou dérobe le sort, </l>
+            <l n="1488">Je ne vois que sa rage à conspirer ma mort, </l>
+            <l n="1489">Et Darius pour moi dans sa lâche entreprise </l>
+            <l n="1490">N'est pas moins criminel que serait Mégabise. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1491">Si j'osais m'oublier jusqu'à forcer mon coeur </l>
+            <l n="1492">De prendre quelque soin de fléchir ta rigueur, </l>
+            <l n="1493">Dans tout ce grand complot qu'a ruiné l'envie, </l>
+            <l n="1494">Je te justifierais qu'on respectait ta vie, </l>
+            <l n="1495">Et que mes voeux n'allaient, loin de trahir ma foi, </l>
+            <l n="1496">Qu'à m'assurer le droit de régner après toi. </l>
+            <l n="1497">Connu pour Darius, qu'un faux destin abaisse, </l>
+            <l n="1498">Je t'aurais seulement demandé la Princesse, </l>
+            <l n="1499">Pressé son hyménée, où sans me déclarer, </l>
+            <l n="1500">Connaissant son orgueil, je n'osais aspirer. </l>
+            <l n="1501">Tu le vois, puisque enfin sitôt qu'on me la donne, </l>
+            <l n="1502">Mon coeur avec plaisir te laisse la Couronne ; </l>
+            <l n="1503">Mais m'excusez à toi qui te veux abuser, </l>
+            <l n="1504">C'est une lâcheté qui ne peut s'excuser. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1505">Va, n'y perds point d'adresse, elle te serait vaine </l>
+            <l n="1506">À déguiser ton crime et corrompre ma haine ; </l>
+            <l n="1507">Je ne connais que trop quelle est ta trahison, </l>
+            <l n="1508">Déjà ton sang versé m'en aurait fait raison ; </l>
+            <l n="1509">Mais je veux que l'horreur des plus cruels supplices </l>
+            <l n="1510">Me venge en même temps de tes lâches Complices. </l>
+            <l n="1511">Avant que rien éclate ils seront arrêtés. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1512">Seigneur, refusez-vous de si douces clartés, </l>
+            <l n="1513">Et si de Darius une fausse apparence </l>
+            <l n="1514">Vous fait injustement soupçonner l'innocence, </l>
+            <l n="1515">Étant Prince, et d'un sang à vos peuples si cher, </l>
+            <l n="1516">Son malheur n'a-t-il rien qui vous puisse toucher ? </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1517">Vous appelez malheur un complot détestable ? </l>
+            <l n="1518">Par le seul nom qu'il prend il est assez coupable, </l>
+            <l n="1519">Et je mériterais de pareils attentats, </l>
+            <l n="1520">Si j'osais épargner qui ne m'épargnait pas. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Ochus, Darius, Amestris, Mégabise, Oropaste.</head>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1521">Je ne viens point ici par un surcroît d'audace </l>
+            <l n="1522">Conjurer un grand Roi de borner ma disgrâce, </l>
+            <l n="1523">Et de ne pas l'étendre à l'affreuse rigueur </l>
+            <l n="1524">Qui me déchire l'âme, et m'arrache le coeur. </l>
+            <l n="1525">Pour en punir l'excès, je sais qu'à Mégabise </l>
+            <l n="1526">Par un fatal hymen la Princesse est acquise, </l>
+            <l n="1527">C'est à moi de mourir, mais pour mourir content </l>
+            <l n="1528">Il faut que je vous rende un service important. </l>
+            <l n="1529">Du nom de Darius vos troubles semblent naître, </l>
+            <l n="1530">Je viens, Seigneur, je viens vous le faire connaître, </l>
+            <l n="1531" part="I">Et le livrant ici... </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1531" part="F">Va, l'on t'a prévenu, </l>
+            <l n="1532">Et Darius sans toi vient d'être reconnu. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1533">Oui, lâche, on me connaît, et tu n'as point la gloire </l>
+            <l n="1534">De trahir seul un Prince imprudent à te croire. </l>
+            <l n="1535">Parjure, c'est ainsi qu'à ton esprit discret </l>
+            <l n="1536">Je pouvais sans péril confier mon secret ? </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1537">Jamais un grand courage en faveur d'un Monarque </l>
+            <l n="1538">N'a donné de son zèle une plus noble marque. </l>
+            <l n="1539">En vain à le noircir tu te crois tout permis, </l>
+            <l n="1540">Traître, la trahison ne laisse point d'Amis, </l>
+            <l n="1541">Et puisqu'en le craignant tu suspendis ta rage, </l>
+            <l n="1542">C'est à lui, si je vis, que j'en dois l'avantage. </l>
+            <l n="1543">Viens, appui de mes jours, viens embrasser un Roi. </l>
+            <l n="1544">Dont l'aveugle soupçon fit outrage à ta foi. </l>
+            <l n="1545">Si sur le faux rapport de ma jalouse crainte </l>
+            <l n="1546">De trop d'ambition je te crus l'âme atteinte, </l>
+            <l n="1547">À ce dernier service ouvrant enfin les yeux </l>
+            <l n="1548">Je vois à ta vertu ce doute injurieux. </l>
+            <l n="1549">Plus j'en suis convaincu, plus j'en hais l'injustice. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1550">Seigneur, s'il est permis de vanter un service, </l>
+            <l n="1551">Pour vous montrer du mien toute la pureté, </l>
+            <l n="1552" part="I">Je dirai... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1552" part="F">Tu le peux, vante ta lâcheté. </l>
+            <l n="1553">Dis que d'un Prince offert à sa vengeance, </l>
+            <l n="1554">À ton indigne orgueil doit rendre l'espérance. </l>
+            <l n="1555">Dis que pour ce grand coup par ton zèle entrepris... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1556">Va, va selon ta peine on réglera son prix. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1557">Nous nous entendons peu, mais quoi qu'il en puisse être. </l>
+            <l n="1558">Si tu me connais mal, apprends à me connaître. </l>
+            <l n="1559" part="I">Je suis... </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1559" part="F">À ta vertu tu dois te confier, </l>
+            <l n="1560">Et c'est t'en repentir que la justifier. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1561">Vous vous déclarez donc, Madame, et quelque estime... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1562">Le Ciel ne souffre point de Protecteurs au crime ; </l>
+            <l n="1563">Mais c'est trop t'écouter. Oropaste, songez, </l>
+            <l n="1564">Le mettant en lieu sûr, que vous vous en chargez</l>
+            <stage>À Darius. </stage>
+            <l n="1565">Toi, tandis que mon ordre arrête ses Complices, </l>
+            <l n="1566">Envers le Peuple ému préviens leurs artifices. </l>
+            <l n="1567">À quoi qu'en leur faveur il se pût disposer, </l>
+            <l n="1568">Comme il t'aime et te croit, tu peux tour apaiser. </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Darius, Amestris.</head>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1569" part="I">Qu'avez-vous fait, Madame ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1569" part="F">Et que vouliez-vous faire ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1570">Mettre au jour un secret qui me perd à le taire, </l>
+            <l n="1571" part="I">Découvrir Darius. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1571" part="F">Et ne voyez-vous pas </l>
+            <l n="1572">Qu'en avouer le nom c'est courir au trépas ? </l>
+            <l n="1573">Sur un coupable espoir j'en vois avec surprise </l>
+            <l n="1574">Usurper lâchement la gloire à Mégabise. </l>
+            <l n="1575">Laissons-le seul pour vous au péril exposé. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1576">Jamais l'esprit du Roi ne fut mieux disposé. </l>
+            <l n="1577">Trompé par l'apparence il a cru que mon zèle </l>
+            <l n="1578">Lui venait faire part des complots d'un rebelle, </l>
+            <l n="1579">Et loin de me haïr d'avoir trop différé </l>
+            <l n="1580">À trahir un secret par d'autres déclaré, </l>
+            <l n="1581">De m'imputer à crime un aveu nécessaire </l>
+            <l n="1582">Quand l'attentat connu m'engage à ne rien taire, </l>
+            <l n="1583">Il veut me devoir tout, et perd le souvenir </l>
+            <l n="1584">De l'audace d'un feu qu'il a voulu punir. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1585">C'est son vrai sentiment peut-être qu'il exprime ; </l>
+            <l n="1586">Mais un retour si prompt peut avoir sa maxime, </l>
+            <l n="1587">Et quoi que son courroux ne fût point adouci, </l>
+            <l n="1588">Du moins par politique il agirait ainsi. </l>
+            <l n="1589">Il connaît qu'en secret le Peuple favorise </l>
+            <l n="1590">Ce nom de Darius dont s'arme Mégabise, </l>
+            <l n="1591">Et quand de son tumulte il doit tout redouter, </l>
+            <l n="1592">Sans exposer l'État peut-il vous irriter ? </l>
+            <l n="1593">Contre nos Factieux qui prendrait sa défense ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1594">Mais sur quoi puis-je encor fonder quelque espérance ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1595">Sur ce grand Peuple ému, qui par un noble effort </l>
+            <l n="1596">Voudra de Darius qu'on respecte le sort. </l>
+            <l n="1597">Alors sans craindre rien vous vous ferez connaître. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1598">Quoi, si dans le péril j'évite de paraître, </l>
+            <l n="1599">Lorsque pour Mégabise il l'aura fait cesser </l>
+            <l n="1600">Ce Peuple contre lui voudra s'intéresser ? </l>
+            <l n="1601">Ne pouvant de mon nom justifier la gloire </l>
+            <l n="1602">Je trouverai les coeurs disposés à me croire, </l>
+            <l n="1603">Sans qu'on puisse penser que mon sort déclaré </l>
+            <l n="1604">Cherche par l'imposture un bonheur assuré. </l>
+            <l n="1605">Non, non, Madame, non ; que Mégabise espère, </l>
+            <l n="1606">Quoi qu'il puisse arriver c'est à moi de me taire, </l>
+            <l n="1607">Son sort par mon aveu vient d'être confirmé. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1608">Un scrupule si vain vous tient trop alarmé. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1609">Si vous m'eussiez laissé découvrir ma naissance, </l>
+            <l n="1610">J'eusse pu mettre Ochus et la Perse en balance ; </l>
+            <l n="1611">Mais par un vif refus de hasarder mon sang </l>
+            <l n="1612">Avoir à Mégabise abandonné mon rang ! </l>
+            <l n="1613">Vous l'avez bien voulu, je ne m'en puis dédire. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1614">Ne jugez point si mal du zèle qui m'inspire, </l>
+            <l n="1615">Les Dieux dans mes desseins sauront me seconder. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1616">Mais reprendrai-je un nom que je viens de céder ? </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1617">Laissons agir le Peuple avant que dans résoudre, </l>
+            <l n="1618">Vous verrez que de tout le temps saura m'absoudre, </l>
+            <l n="1619">Et que loin qu'à vos voeux l'espoir soit défendu, </l>
+            <l n="1620">Pour vous et pour le Roi j'ai fait ce que j'ai dû. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Statira, Darius, Barsine.</head>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1621">Demandez-vous encor d'où naissent mes alarmes </l>
+            <l n="1622">Quand le tumulte croît jusqu'à prendre les armes, </l>
+            <l n="1623">Et que les Factieux hautement déclarés </l>
+            <l n="1624">Soutiennent contre nous de lâches Conjurés ? </l>
+            <l n="1625">En vain avant qu'au Peuple on eût pu rien apprendre, </l>
+            <l n="1626">Par des ordres secrets on a cru les surprendre. </l>
+            <l n="1627">Du sort de Darius en ce moment instruit </l>
+            <l n="1628">Il a reçu pour Chefs ceux que le Roi poursuit, </l>
+            <l n="1629">Et suivant en aveugle un zèle téméraire </l>
+            <l n="1630">N'écoute pour raison que ce qu'il lui suggère. </l>
+            <l n="1631">Vous l'avez éprouvé, quand sans y réussir </l>
+            <l n="1632">Vous-même avez longtemps pris soin de l'adoucir. </l>
+            <l n="1633">Dans son emportement il ne veut rien connaître, </l>
+            <l n="1634">Il demande son Prince, il demande son Maître, </l>
+            <l n="1635">Et ne cessera point que malgré ses refus </l>
+            <l n="1636">Il n'ait forcé le Roi de rendre Darius. </l>
+            <l n="1637">Jugez dans ce péril ce que j'ai lieu de craindre. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1638">Quoi qu'ordonne le Ciel, que ce Prince est à plaindre, </l>
+            <l n="1639">Si la peur qu'il n'échappe à la fureur du Roi </l>
+            <l n="1640">Est le motif secret du trouble où je vous vois ! </l>
+            <l n="1641">Je ne l'aurais point cru, qu'une âme noble et tendre </l>
+            <l n="1642">Des traits de la pitié se pût si bien défendre, </l>
+            <l n="1643">Qu'elle vît à regret un zèle généreux </l>
+            <l n="1644">Dérober à sa haine un Prince malheureux. </l>
+            <l n="1645">Si vous voulez sa mort il faudra qu'il périsse. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1646">Que ce doute honteux a pour moi d'injustice ! </l>
+            <l n="1647">Mais vous n'en affectez la fatale rigueur </l>
+            <l n="1648">Qu'afin de m'obliger à vous ouvrir mon coeur. </l>
+            <l n="1649">Et bien, puisque je vois qu'en un sort si funeste </l>
+            <l n="1650">Cette triste douceur est tout ce qui vous reste, </l>
+            <l n="1651">Jouissez d'un aveu que dans son désespoir </l>
+            <l n="1652">Mon feu trop complaisant arrache à mon devoir. </l>
+            <l n="1653">La révolte du Peuple et m'afflige et m'étonne ; </l>
+            <l n="1654">Non pour lui voir ailleurs souhaiter la Couronne, </l>
+            <l n="1655">Quoi qu'ait fait Darius je le dois épargner, </l>
+            <l n="1656">Étant Fils d'un Monarque il est né pour régner, </l>
+            <l n="1657">Je n'en murmure point ; mais ce qui fait ma peine </l>
+            <l n="1658">C'est que ce Peuple en moi veuille choisir sa Reine, </l>
+            <l n="1659">Me le faire épouser, et par cette union </l>
+            <l n="1660">Rendre l'État garant de sa rébellion. </l>
+            <l n="1661">C'est jusqu'où le séduit la chaleur qui l'emporte. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1662">Et pour ce Darius votre haine est si forte, </l>
+            <l n="1663">Qu'attachée à son nom, elle ne souffre en vous </l>
+            <l n="1664">Qu'un soin injurieux de le fuir pour Époux ! </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1665">Faut-il vous avouer pour surcroît de supplice, </l>
+            <l n="1666">Que peut-être par là je fais une injustice, </l>
+            <l n="1667">Et qu'un Prince, du Sort dès le berceau trahi, </l>
+            <l n="1668">Mériterait sans vous de n'être point haï ?</l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1669">Ah, puisqu'en son malheur c'est trop peu que le plaindre, </l>
+            <l n="1670">Cessez enfin pour moi, cessez de vous contraindre. </l>
+            <l n="1671">Soyez, montrez-vous juste, et pour dire encor plus, </l>
+            <l n="1672">Oubliez Codoman pour aimer Darius. </l>
+            <l n="1673">Son sort de votre amour attend toute sa gloire. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1674">Et c'est de Codoman ce que j'avais dû croire ! </l>
+            <l n="1675">Son feu pour Darius se peut intéresser ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1676">Mon feu dans ce qu'il fait n'a point à balancer. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1677">Qu'il prend pour sa conduite une injuste maxime ! </l>
+            <l n="1678">En vous il tient vertu ce qu'il m'impute à crime ; </l>
+            <l n="1679">S'il me porte à l'oubli je l'en dois estimer, </l>
+            <l n="1680">Et quand je le préviens je ne sais point aimer. </l>
+            <l n="1681">Au moins par cet effort qui vous a pu surprendre </l>
+            <l n="1682">Je vous laissais le coeur que je voulais vous rendre, </l>
+            <l n="1683">Et mon devoir timide à se trop hasarder </l>
+            <l n="1684">N'engageait pas ailleurs ce qu'il n'osait garder. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1685">Accusez Codoman de trahir ce qu'il aime, </l>
+            <l n="1686">Il trouve en ce reproche une douceur extrême, </l>
+            <l n="1687">Et pour vous l'expliquer, oyez jusqu'où ma foi </l>
+            <l n="1688">Porte les sentiments que vous avez de moi. </l>
+            <l n="1689">Sous un nom qui se rend la Perse favorable, </l>
+            <l n="1690">Mégabise s'est fait un illustre coupable, </l>
+            <l n="1691">Et j'espère être cru quand malgré cet abus</l>
+            <l n="1692">J'ose vous découvrir que je suis Darius. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1693" part="I">Vous, Darius ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1693" part="M">Moi-même. Expliquez-vous. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1693" part="F">Madame,</l>
+            <l n="1694">Doutant de mon destin vous doutez de ma flamme, </l>
+            <l n="1695">C'est d'un Roi malheureux que j'ai reçu le jour ; </l>
+            <l n="1696">Mais pour vous le prouver je n'ai que mon amour, </l>
+            <l n="1697">Son orgueil vous le dit, l'en tiendrez-vous croyable ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1698">Le Ciel seul rend d'imposture un Héros incapable, </l>
+            <l n="1699">Et contre Mégabise et tous ses Conjurés </l>
+            <l n="1700">Je vous crois Darius puisque vous l'assurez. </l>
+            <l n="1701">Mais pourquoi si longtemps un secret qui me blesse ! </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1702">Pour me répondre mieux du coeur de ma Princesse, </l>
+            <l n="1703">Et voir ses voeux se rendre à mes profonds respects, </l>
+            <l n="1704">Sans qu'un motif forcé me les rendit suspects. </l>
+            <l n="1705">Vous déclarant mon sort j'aurais eu lieu de craindre </l>
+            <l n="1706">Qu'à quelque complaisance il n'eût pu vous contraindre, </l>
+            <l n="1707">Qu'une ombre de justice à me rendre mon rang, </l>
+            <l n="1708">Au défaut de l'amour, n'eût fait agir le sang, </l>
+            <l n="1709">Et toujours incertain si l'ardeur qui m'enflamme </l>
+            <l n="1710">Sans l'éclat de mon nom aurait touché votre âme, </l>
+            <l n="1711">De ce doute inquiet le scrupule confus </l>
+            <l n="1712">Eût gêné Codoman dans l'heur de Darius. </l>
+            <l n="1713">J'en ai fui le supplice à garder le silence. </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1714">Mais enfin aujourd'hui quelle est votre espérance ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1715">Que vous dirai-je, hélas ! Quand un lâche Imposteur </l>
+            <l n="1716">D'un bruit qui me flattait se découvre l'auteur ? </l>
+            <l n="1717">J'en présumais déjà qu'on m'avait su connaître, </l>
+            <l n="1718">Que sans obscurité mon sort allait paraître, </l>
+            <l n="1719">Qu'en mourant Tiribase aurait d'un soin discret </l>
+            <l n="1720">Au sein de quelque ami fait tomber mon secret, </l>
+            <l n="1721">Que la preuve par lui m'en serait infaillible. </l>
+            <l n="1722">Cependant elle m'est d'autant plus impossible, </l>
+            <l n="1723">Qu'un traître sous mon nom ayant déjà paru, </l>
+            <l n="1724">Si je dis qui je suis, je ne serai pas cru. </l>
+            <l n="1725">Le Peuple qu'un faux zèle en sa faveur anime, </l>
+            <l n="1726">Sans rien examiner m'imputera son crime, </l>
+            <l n="1727">Et croyant que je cherche à lui voler son rang... </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Ochus, Darius, Statira, Amestris, Oropaste, Barsine.</head>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS, à Amestris.</speaker>
+            <l n="1728">C'est en vain qu'en ce lâche il reconnaît mon sang, </l>
+            <l n="1729">Sa révolte pour lui n'a rien qui m'épouvante ; </l>
+            <l n="1730">Plus je l'en vois aimé, plus ma haine s'augmente, </l>
+            <l n="1731">Et sa tête au besoin envoyée aux Mutins </l>
+            <l n="1732">Nous en saura bientôt soumettre les destins. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1733">Seigneur, craignez aussi que cette violence </l>
+            <l n="1734">D'un Peuple trop ému n'aigrisse l'insolence, </l>
+            <l n="1735" part="I">Et qu'à venger son Prince... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1735" part="F">Ah, dis un Imposteur, </l>
+            <l n="1736">Dis des droits qu'il nous vante un lâche Usurpateur. </l>
+            <l n="1737">Ce n'est point Darius, vous l'allez trop connaître. </l>
+            <l n="1738" part="I">Qu'on l'amène. </l>
+            <stage>Oropaste sort. </stage>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1738" part="F">Seigneur, il faut punir un Traître, </l>
+            <l n="1739">Mais ce Peuple est toujours à craindre en sa fureur </l>
+            <l n="1740">Si vous le punissez sans le tirer d'erreur. </l>
+            <l n="1741">D'un grand nom usurpé montrez-lui la surprise, </l>
+            <l n="1742">Qu'il aime Darius en vain dans Mégabise, </l>
+            <l n="1743">Et qu'en son zèle enfin par sa fourbe abusé </l>
+            <l n="1744">Il soutient contre vous un Prince supposé.</l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1745">Et qui le convaincra d'une erreur volontaire </l>
+            <l n="1746">Que tant de Factieux lui font tenir si chère ? </l>
+            <l n="1747">Non, non, sur quelque appui qu'il s'ose mutiner, </l>
+            <l n="1748">Par la mort du coupable il le faut étonner. </l>
+            <l n="1749">Nous en verrons bientôt ralentir son audace. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1750">De quoi que sa révolte aujourd'hui vous menace, </l>
+            <l n="1751">N'en craignez rien, Seigneur, nous saurons l'apaiser, </l>
+            <l n="1752">Et mon sang vous répond de ce qu'il peut oser. </l>
+            <l n="1753">Mais souvent la vengeance à qui la précipite... </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1754">Quoi, balancer encor la peine qu'il mérite ? </l>
+            <l n="1755">Craindre sous un faux nom un Fourbe déguisé ? </l>
+            <l n="1756">Je viens d'examiner ceux qui l'ont accusé, </l>
+            <l n="1757">Mais bien loin que pour Prince il se soit fait connaître </l>
+            <l n="1758">Ils l'ont cru sur sa foi de ce qu'il se dit être, </l>
+            <l n="1759">Et doutent qu'au besoin il pût justifier </l>
+            <l n="1760">Le secret qu'à leur zèle il sembla confier. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1761">Comme un Prince s'assure au brillant caractère </l>
+            <l n="1762">Qui parle bien souvent quand il cherche à se taire, </l>
+            <l n="1763">Incapable d'agir par un lâche intérêt </l>
+            <l n="1764">Il croit que se nommant il prouve ce qu'il est ; </l>
+            <l n="1765">Non qu'après l'attentat dont le Ciel vous préserve, </l>
+            <l n="1766">On doive à Mégabise une foi sans réserve, </l>
+            <l n="1767">Mais si, quoi qu'à sa fourbe on ait droit d'imputer, </l>
+            <l n="1768">Darius paraissait sans qu'on en pût douter ? </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1769">Ah, ne m'en parlez point, l'un de l'autre est complice, </l>
+            <l n="1770">Darius, Mégabise, il faut que tout périsse ; </l>
+            <l n="1771">Mais le sang pour son nom vous sait trop émouvoir, </l>
+            <l n="1772">Ce n'est qu'une imposture, et vous l'allez savoir. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Ochus, Darius, Statira, Amestris, Mégabise, Oropaste, Barsine.</head>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS, à Mégabise.</speaker>
+            <l n="1773">Viens, ingrat aux bontés que je t'ai fait paraître, </l>
+            <l n="1774">Viens voir ton Roi contraint de t'accepter pour Maître. </l>
+            <l n="1775">Car tu peux en effet ici bien plus que moi, </l>
+            <l n="1776">Puis que tous mes Sujets se déclarent pour toi. </l>
+            <l n="1777">Il est juste, et je dois à l'heur de ta naissance </l>
+            <l n="1778">Sacrifier ma haine et donner ma vengeance ; </l>
+            <l n="1779">Mais au moins pour répondre à ce grand changement </l>
+            <l n="1780">Prête quelque lumière à mon aveuglement. </l>
+            <l n="1781">Convaincs-moi que l'oubli de ta lâche entreprise </l>
+            <l n="1782">Fait grâce à Darius, et non à Mégabise, </l>
+            <l n="1783">Et que le sang d'un Frère assuré de régner </l>
+            <l n="1784">Est l'heureux sang qu'en toi je consens d'épargner. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1785">Sur tous les mouvements que ta haine t'inspire, </l>
+            <l n="1786">On t'a dit qui je suis, l'aveu t'en doit suffire. </l>
+            <l n="1787">Prononce, je suis prêt, et crains trop peu la mort </l>
+            <l n="1788">Pour prendre un lâche soin de t'éclaircir mon sort. </l>
+            <l n="1789">Aussi bien quel secours en pourrais-je prétendre ? </l>
+            <l n="1790">Le sang parle en ton coeur si tu le veux entendre, </l>
+            <l n="1791">Le Peuple, à qui le Ciel prête toujours sa voix, </l>
+            <l n="1792">Te montre Darius, te convainc de mes droits. </l>
+            <l n="1793">À ces vives clartés je vois que tu m'opposes, </l>
+            <l n="1794">Doute, j'y consens, doute, et perds-moi si tu l'oses. </l>
+            <l n="1795">Quelle que soit ta rage, au moins ai-je ce bien </l>
+            <l n="1796">Qu'en répandant mon sang tu hasardes le tien. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1797">C'est là ce qui te donne un coeur si magnanime ? </l>
+            <l n="1798">D'un Peuple révolté l'insolence t'anime, </l>
+            <l n="1799">Et tes jours s'assurant sur ce coupable appui, </l>
+            <l n="1800">Tu ne crains rien de moi quand je crains tout de lui ? </l>
+            <l n="1801">Mais si pour Darius j'écoute la Nature, </l>
+            <l n="1802">C'est à toi de m'ôter tout soupçon d'imposture, </l>
+            <l n="1803">Ou pour fourbe avoué, ton sang, ton lâche sang </l>
+            <l n="1804">Réparera l'affront que tu fais à mon rang. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1805">Et bien, crois en effet sur tes soupçons frivoles </l>
+            <l n="1806">Que je veux te voler ce rang que tu me voles, </l>
+            <l n="1807">Aux mouvements du sang ne donne aucune foi, </l>
+            <l n="1808">Comme un faux Darius punis-moi, venge-toi. </l>
+            <l n="1809">Te laissant une erreur que tu tiens légitime, </l>
+            <l n="1810">Je fais grâce à ta haine, et je t'épargne un crime, </l>
+            <l n="1811">Puisque enfin ta vengeance arrêtée en ton coeur </l>
+            <l n="1812">Perdrait en moi le Prince ainsi que l'imposteur. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1813">Oui, Traître, espère au Peuple, espère en tes Complices, </l>
+            <l n="1814">Nous verrons ta constance au milieu des supplices, </l>
+            <l n="1815">Et si, quand leur rigueur m'aura vengé de toi, </l>
+            <l n="1816">Ils oseront venger un Fourbe sur leur Roi. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1817">Et c'est pour voir ta peine et ton péril s'accroître </l>
+            <l n="1818">Que je dédaigne ici de me faire connaître. </l>
+            <l n="1819">Si tu pouvais prouver que tu perds Darius, </l>
+            <l n="1820">Après ma mort, Tyran, tu ne tremblerais plus, </l>
+            <l n="1821">Au lieu que pour mon nom toujours prêt d'entreprendre </l>
+            <l n="1822">Le Peuple s'armera pour qui l'osera prendre. </l>
+            <l n="1823">Ainsi toujours en doute, et toujours malheureux, </l>
+            <l n="1824">Crains tout ce que la Perse aura de généreux ; </l>
+            <l n="1825">Tour à tour contre toi, pour venger mon injure, </l>
+            <l n="1826">Ils feront vanité d'une belle imposture, </l>
+            <l n="1827">Tant que le Ciel enfin à l'un d'eux ait permis </l>
+            <l n="1828">De te chasser du Trône où le crime t'a mis. </l>
+            <l n="1829">Voilà sur quel espoir ma juste prévoyance </l>
+            <l n="1830">Aime à voir les Persans douter de ma naissance ; </l>
+            <l n="1831">Je suis un Imposteur, ordonne mon trépas, </l>
+            <l n="1832">Mais enfin par ma mort Darius ne meurt pas. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1833">Il ne m'importe, meurs, qui que tu veuilles être. </l>
+            <l n="1834">J'avoue en toi mon sang, j'aime à le reconnaître, </l>
+            <l n="1835">Ta perte m'offre ainsi le charme qui me plaît, </l>
+            <l n="1836">Et comme à Darius j'en prononce l'arrêt. </l>
+            <l n="1837">C'est lui qui doit périr, lui dont le nom rebelle </l>
+            <l n="1838">Rend à son Souverain tout un Peuple infidèle, </l>
+            <l n="1839">Et pour t'ôter l'espoir dont tes sens sont flattés, </l>
+            <l n="1840" part="I">Gardes, sans plus attendre... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1840" part="F">Ah, Seigneur, arrêtez ; </l>
+            <l n="1841">Puisque c'est Darius qui doit cesser de vivre, </l>
+            <l n="1842">Ne le cherchez qu'en moi, le voici qui se livre. </l>
+            <l n="1843">Fils, trop malheureux Fils d'un Père infortuné, </l>
+            <l n="1844">Je dois subir l'arrêt que vous avez donné, </l>
+            <l n="1845">Je le suis, je le sais sans savoir autre chose ; </l>
+            <l n="1846">Mais mon nom du tumulte étant la seule cause, </l>
+            <l n="1847">Pressé par ma vertu de vous le découvrir, </l>
+            <l n="1848">Si c'est peu pour régner, c'est assez pour mourir, </l>
+            <l n="1849">Et je ne craindrai pas qu'il soit suspect d'envie, </l>
+            <l n="1850">Quand je ne le reprends que pour quitter la vie. </l>
+            <l n="1851">Changez donc cet arrêt que je tiens suspendu, </l>
+            <l n="1852">Puisqu'il perd Darius, c'est à moi qu'il est dû. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1853">Va, quitte ce faux zèle ; offrir pour moi ta vie, </l>
+            <l n="1854">C'est joindre l'impudence à l'amitié trahie. </l>
+            <l n="1855">Ta vertu surprendrait dans ce faste emprunté, </l>
+            <l n="1856">Mais elle vient trop tard après ta lâcheté. </l>
+            <l n="1857">Je ne veux rien devoir au vain remords d'un traître. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1858">Sors d'erreur, Mégabise, et pense à me connaître. </l>
+            <l n="1859">Quand de ce que je suis j'ose avertir le Roi, </l>
+            <l n="1860">Ne crois pas que je songe à m'exposer pour toi. </l>
+            <l n="1861">D'un nom dont l'attentat semble ternir la gloire </l>
+            <l n="1862">Je ne veux qu'effacer une tache trop noire, </l>
+            <l n="1863">Et m'en croirais indigne à plus souffrir l'abus </l>
+            <l n="1864">Qui laisse en criminel condamner Darius. </l>
+            <l n="1865">Il faut, s'il doit tomber, que ce soit en victime, </l>
+            <l n="1866">Qu'on l'immole à ma gloire, et non pas à ton crime, </l>
+            <l n="1867">Et qu'à tout l'Univers son vrai sort découvert, </l>
+            <l n="1868">Montre que sa naissance est tout ce qui le perd. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1869">Mes voeux sont exaucés enfin, et la Nature... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1870">Quoi, tu refuserais de voir son imposture ? </l>
+            <l n="1871">Surpris de ton courroux, tantôt pour l'apaiser </l>
+            <l n="1872">Il venait me trahir, il venait m'accuser, </l>
+            <l n="1873">Et quand il voit le Peuple armé pour ma défense, </l>
+            <l n="1874">Contraindre ta fureur, étonner ta vengeance, </l>
+            <l n="1875">Il peut impunément, pour te réduire au choix, </l>
+            <l n="1876">Me voler ma naissance, et contester mes droits ? </l>
+            <l n="1877">Tout est bien concerté si sa fourbe est soufferte. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1878">Respecte ma vertu si tu poursuis ma perte. </l>
+            <l n="1879">Ce que j'ai dit tantôt a trop su t'abuser, </l>
+            <l n="1880">Je voulais me trahir, et non pas t'accuser. </l>
+            <l n="1881">Oui, Seigneur, mon amour n'espérant plus de grâce, </l>
+            <l n="1882">J'en venais par ma mort justifier l'audace, </l>
+            <l n="1883">Et mes superbes voeux vous font de sûrs garants </l>
+            <l n="1884">Du sang dont je me vante, et du nom que je prends. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1885">Oui, sans doute, ce sont des garants légitimes. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1886">Si je ne les crois pas, en croirai-je tes crimes. </l>
+            <l n="1887">Puisqu'à mon lâche Peuple il faut un Darius, </l>
+            <l n="1888">Le pouvant contenter, je ne le craindrai plus. </l>
+            <l n="1889">Espère, espère encor échapper à ma haine. </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1890">Et tu crois qu'à ce choix il souscrira sans peine, </l>
+            <l n="1891">Et que de mon destin s'étant fait protecteur, </l>
+            <l n="1892">Pour le vrai Darius il souffre un Imposteur ? </l>
+            <l n="1893">Les Chefs qu'il a reçus t'ôtent cette espérance, </l>
+            <l n="1894">De Tiribase même ils ont su ma naissance, </l>
+            <l n="1895">Et certains du secret ils sauront malgré toi </l>
+            <l n="1896">Choisir entre nous deux leur véritable Roi. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1897">Et si je te disais, que n'osant plus le taire, </l>
+            <l n="1898">Tiribase m'en fit seule dépositaire, </l>
+            <l n="1899">Et qu'avec certitude, et sans aucun abus, </l>
+            <l n="1900">Je sais que Codoman est le vrai Darius ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1901">Parlez, feignez, Madame, aidez au stratagème. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1902">Seigneur, ce que j'ai dit est la vérité même. </l>
+            <l n="1903">Depuis deux ans entiers que Tiribase est mort, </l>
+            <l n="1904">Je suis, sans qu'il l'ait su, maîtresse de son sort. </l>
+            <l n="1905">Avant que d'expirer il m'apprit quel mystère </l>
+            <l n="1906">Confondait Codoman et le Fils de mon Frère, </l>
+            <l n="1907">Et que déjà fameux par cent nobles travaux </l>
+            <l n="1908">Le sang de Darius animait un Héros ; </l>
+            <l n="1909">Qu'ayant vu sa vertu remplir son espérance, </l>
+            <l n="1910">Il l'avait averti de sa haute naissance, </l>
+            <l n="1911">Mais à condition qu'un hymen glorieux </l>
+            <l n="1912">Le pourrait seul remettre au rang de ses Aïeux. </l>
+            <l n="1913">Voilà sur quoi, Seigneur, j'ai travaillé sans cesse </l>
+            <l n="1914">À lui faire élever ses voeux à la Princesse, </l>
+            <l n="1915">Sans qu'il pût même encor soupçonner aujourd'hui </l>
+            <l n="1916">Que de ce qu'il est né je susse plus que lui ; </l>
+            <l n="1917">Et si sur ce grand bruit qu'un Fourbe a su répandre, </l>
+            <l n="1918">Je l'eusse enfin connu capable d'entreprendre, </l>
+            <l n="1919">Il ne m'aurait jamais entendu publier </l>
+            <l n="1920">Ce qu'un autre que moi ne peut justifier. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1921">Et bien, traître, est-ce assez pour ordonner ta peine ? </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1922">Oui, si l'on en consulte et ta rage et ta haine ; </l>
+            <l n="1923">Mais Tiribase ailleurs fait un autre rapport. </l>
+          </sp>
+          <sp who="tc0606-AMESTRIS">
+            <speaker>AMESTRIS.</speaker>
+            <l n="1924">Consens-tu que sa main en décide le sort ? </l>
+            <l n="1925">Tiens, vois, méchant ; approche, est-ce son caractère ? </l>
+            <l n="1926">Vous connaîtrez, Seigneur, ce billet de son Père. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS, lit.</speaker>
+            <l n="1927">"J'ai sauvé Darius, mais sans aucun dessein </l>
+            <l n="1928">De le laisser maître de sa naissance. </l>
+            <l n="1929">La Princesse Amestris seule en a connaissance, </l>
+            <l n="1930">Et doit de Statira briguer pour lui la main. </l>
+            <l n="1931">Persans, acceptez-le pour Maître </l>
+            <l n="1932">Si jamais votre Roi consent à cet accord. </l>
+            <l n="1933">Le nom de Codoman qui déguise son sort </l>
+            <l n="1934">Vous le fera connaître."</l>
+            <stage>Tiribase. </stage>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1935">Par quel fatal revers vois-je tout découvert ? </l>
+            <l n="1936">J'espère en Tiribase, et c'est lui qui me perd. </l>
+            <l n="1937">Ah Dieux ! Injustes dieux, dont l'indigne colère </l>
+            <l n="1938">Pour condamner le Fils fait revivre le Père, </l>
+            <l n="1939">Vous, qui sembliez m'offrir l'appui de mes forfaits, </l>
+            <l n="1940">J'en vais souffrir la peine, êtes-vous satisfaits ! </l>
+            <l n="1941">Oui, je ne suis qu'un fourbe et le Ciel m'abandonne </l>
+            <l n="1942">Quand ton trépas conclu m'assurait ta Couronne. </l>
+            <l n="1943">Venge, venge la Perse, et ces Dieux ennemis </l>
+            <l n="1944">Qui ne m'ont pas tenu ce qu'ils m'avaient promis, </l>
+            <l n="1945">Ces Dieux dont l'indulgence aux grands crimes propice </l>
+            <l n="1946">Tient le mien trop léger pour s'en rendre complice, </l>
+            <l n="1947">Leur secours est certain à qui n'ose en trembler, </l>
+            <l n="1948">Et pour en être digne il faut te ressembler. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1949">Qu'on l'ôte de mes yeux, attendant que ma haine </l>
+            <l n="1950">Par l'arrêt qu'il mérite ait résolu sa peine. </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1951" part="I">Ah, Seigneur, si je puis... </l>
+          </sp>
+          <sp who="tc0606-MEGABISE">
+            <speaker>MÉGABISE.</speaker>
+            <l n="1951" part="F">Ne lui demande rien, </l>
+            <l n="1952">Au défaut de son sang j'abandonne le mien. </l>
+            <l n="1953">Il faut qu'il soit versé, ce sang lâche et timide, </l>
+            <l n="1954">Qui trembla si longtemps pour un seul parricide, </l>
+            <l n="1955">L'avoir trop différé mérite le trépas, </l>
+            <l n="1956">Et je le punirais de ne me punir pas.</l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1957">Gardes, qu'on le réserve aux plus cruels supplices. </l>
+            <stage>Mégabise rentre, et Ochus continue à parler à Darius. </stage>
+            <l n="1958">Vous, à qui jusqu'ici j'ai fait tant d'injustices,</l>
+            <l n="1959">Et comme Codoman, et comme Darius, </l>
+            <l n="1960">Voudrez-vous oublier un indigne refus ?</l>
+            <l n="1961">Quand je vous devrais tout, ma fausse défiance... </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1962">Ah, ne poursuivez point un discours qui m'offense. </l>
+            <l n="1963">Si du vrai Darius vous craignez les desseins, </l>
+            <l n="1964">Prévenez-en l'effet, sa vie est en vos mains. </l>
+            <l n="1965">Disposez-en, Seigneur, vous en êtes le maître. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1966">Nous n'aurons rien à craindre après la mort d'un traître, </l>
+            <l n="1967">Mais à tant de vertu pour répondre à mon tour, </l>
+            <l n="1968">Est-ce assez de l'hymen que pressait votre amour ? </l>
+            <l n="1969">Est-ce assez que ma Fille en soit la récompense ? </l>
+          </sp>
+          <sp who="tc0606-DARIUS">
+            <speaker>DARIUS.</speaker>
+            <l n="1970">C'est assez qu'un grand Roi me souffre l'espérance, </l>
+            <l n="1971">Pourvu que ma Princesse, exorable à mes voeux, </l>
+            <l n="1972">D'une heureuse union approuve les doux noeuds. </l>
+            <l n="1973">Ai-je montré, Madame, une flamme assez pure ? </l>
+          </sp>
+          <sp who="tc0606-STATIRA">
+            <speaker>STATIRA.</speaker>
+            <l n="1974">Aussi vous me voyez obéir sans murmure. </l>
+            <l n="1975">Jugez si dans mon coeur l'aveu de votre espoir </l>
+            <l n="1976">Pouvait mieux prévenir les ordres du devoir. </l>
+          </sp>
+          <sp who="tc0606-OCHUS">
+            <speaker>OCHUS.</speaker>
+            <l n="1977">Vous, ma Soeur, qu'aujourd'hui l'offre d'un Diadème </l>
+            <l n="1978">Chez les Cadusiens élève au rang suprême, </l>
+            <l n="1979">Confirmez-en l'accord, et comblant leurs souhaits, </l>
+            <l n="1980">Par l'hymen de leur Prince assurez-nous la paix. </l>
+            <l n="1981">Cependant, pour forcer l'imposture au silence, </l>
+            <l n="1982">Allons de Darius expliquer la naissance, </l>
+            <l n="1983">Et du faux et du vrai publiant les destins, </l>
+            <l n="1984">En faveur de ce nom faire grâce aux Mutins. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

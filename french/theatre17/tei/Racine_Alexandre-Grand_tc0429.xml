@@ -1,0 +1,2287 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Alexandre le grand</title>
+        <title type="sub">Tragédie</title>
+        <title type="short">Alexandre-Grand</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">RACINE, Jean</name>
+          <name type="short">Racine</name>
+          <idno type="viaf"/>
+        </author>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0429</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2011</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1697</date>, <idno/>, <ref target="#"/>. À Paris, Chez Pierre Trabouillet, dans la Galerie des Prisonniers, à l'Image Saint-Hubert..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1665</date>, <idno/>, <ref target="#"/>. Représenté pour la première fois au Théâtre du Palais-Royal, le 4 décembre 1665.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1691-1700</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem>
+          <role xml:id="tc0429-ALEXANDRE">ALEXANDRE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0429-PORUS">PORUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0429-TAXILE">TAXILE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0429-AXIANE">AXIANE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0429-CLEOFILE">CLÉOFILE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0429-EPHESTION">ÉPHESTION</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0429-SUITEDALEXANDRE">SUITE D'ALEXANDRE</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La scène est sur le bord de l'Hydaspe, dans le camp de Taxile.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Taxile, Cléofile.</head>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1">Quoi ? Vous allez combattre un roi dont la puissance</l>
+            <l n="2">Semble forcer le ciel à prendre sa défense ;</l>
+            <l n="3">Sous qui toute l'Asie a vu tomber ses rois,</l>
+            <l n="4">Et qui tient la fortune attachée à ses lois ?</l>
+            <l n="5">Mon frère, ouvrez les yeux pour connaître Alexandre,</l>
+            <l n="6">Voyez de toutes parts les trônes mis en cendre,</l>
+            <l n="7">Les peuples asservis, et les rois enchaînés,</l>
+            <l n="8">Et prévenez les maux qui les ont entraînés.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="9">Voulez-vous que frappé d'une crainte si basse,</l>
+            <l n="10">Je présente la tête au joug qui nous menace, </l>
+            <l n="11">Et que j'entende dire aux peuples indiens,</l>
+            <l n="12">Que j'ai forgé moi-même et leurs fers et les miens ?</l>
+            <l n="13">Quitterai-je Porus, trahirai-je ces princes,</l>
+            <l n="14">Que rassemble le soin d'affranchir nos provinces,</l>
+            <l n="15">Et qui sans balancer sur un si noble choix, </l>
+            <l n="16">Sauront également vivre ou mourir en rois ?</l>
+            <l n="17">En voyez-vous un seul, qui sans rien entreprendre</l>
+            <l n="18">Se laisse terrasser au seul nom d'Alexandre,</l>
+            <l n="19">Et le croyant déjà maître de l'univers,</l>
+            <l n="20">Aille esclave empressé lui demander des fers ?</l>
+            <l n="21">Loin de s'épouvanter à l'aspect de sa gloire,</l>
+            <l n="22">Ils l'attaqueront même au sein de la victoire.</l>
+            <l n="23">Et vous voulez, ma soeur, que Taxile aujourd'hui,</l>
+            <l n="24">Tout prêt à le combattre, implore son appui.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="25">Aussi n'est-ce qu'à vous que ce prince s'adresse, </l>
+            <l n="26">Pour votre amitié seule Alexandre s'empresse ;</l>
+            <l n="27">Quand la foudre s'allume et s'apprête à partir,</l>
+            <l n="28">Il s'efforce en secret de vous en garantir.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="29">Pourquoi suis-je le seul que son courroux ménage ?</l>
+            <l n="30">De tous ceux que l'Hydaspe oppose à son courage, </l>
+            <l n="31">Ai-je mérité seul son indigne pitié ?</l>
+            <l n="32">Ne peut-il à Porus offrir son amitié ?</l>
+            <l n="33">Ah ! Sans doute il lui croit l'âme trop généreuse</l>
+            <l n="34">Pour écouter jamais une offre si honteuse,</l>
+            <l n="35">Il cherche une vertu qui lui résiste moins, </l>
+            <l n="36">Et peut-être il me croit plus digne de ses soins.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="37">Dites, sans l'accuser de chercher un esclave,</l>
+            <l n="38">Que de ses ennemis il vous croit le plus brave,</l>
+            <l n="39">Et qu'en vous arrachant les armes de la main,</l>
+            <l n="40">Il se promet du reste un triomphe certain. </l>
+            <l n="41">Son choix à votre nom n'imprime point de taches,</l>
+            <l n="42">Son amitié n'est point le partage des lâches ;</l>
+            <l n="43">Quoiqu'il brûle de voir tout l'univers soumis,</l>
+            <l n="44">On ne voit point d'esclave au rang de ses amis.</l>
+            <l n="45">Ah ! Si son amitié peut souiller votre gloire, </l>
+            <l n="46">Que ne m'épargniez-vous une tache si noire ?</l>
+            <l n="47">Vous connaissez les soins qu'il me rend tous les jours,</l>
+            <l n="48">Il ne tenait qu'à vous d'en arrêter le cours.</l>
+            <l n="49">Vous me voyez ici maîtresse de son âme,</l>
+            <l n="50">Cent messages secrets m'assurent de sa flamme, </l>
+            <l n="51">Pour venir jusqu'à moi ses soupirs embrasés</l>
+            <l n="52">Se font jour à travers de deux camps opposés.</l>
+            <l n="53">Au lieu de le haïr, au lieu de m'y contraindre,</l>
+            <l n="54">De mon trop de rigueur je vous ai vu vous plaindre.</l>
+            <l n="55">Vous m'avez engagée à souffrir son amour, </l>
+            <l n="56">Et peut-être, mon frère, à l'aimer à mon tour.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="57">Vous pouvez, sans rougir du pouvoir de vos charmes,</l>
+            <l n="58">Forcer ce grand guerrier à vous rendre les armes,</l>
+            <l n="59">Et sans que votre coeur doive s'en alarmer,</l>
+            <l n="60">Le vainqueur de l'Euphrate a pu vous désarmer. </l>
+            <l n="61">Mais l'État aujourd'hui suivra ma destinée,</l>
+            <l n="62">Je tiens avec mon sort sa fortune enchaînée,</l>
+            <l n="63">Et quoique vos conseils tâchent de me fléchir,</l>
+            <l n="64">Je dois demeurer libre afin de l'affranchir.</l>
+            <l n="65">Je sais l'inquiétude où ce dessein vous livre ; </l>
+            <l n="66">Mais comme vous, ma soeur, j'ai mon amour à suivre.</l>
+            <l n="67">Les beaux yeux d'Axiane, ennemis de la paix,</l>
+            <l n="68">Contre votre Alexandre arment tous leurs attraits.</l>
+            <l n="69">Reine de tous les coeurs, elle met tout en armes,</l>
+            <l n="70">Pour cette liberté que détruisent ses charmes, </l>
+            <l n="71">Elle rougit des fers qu'on apporte en ces lieux,</l>
+            <l n="72">Et n'y saurait souffrir de tyrans que ses yeux.</l>
+            <l n="73">Il faut servir, ma soeur, son illustre colère.</l>
+            <l n="74" part="I">Il faut aller...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="74" part="F">Hé bien, perdez-vous pour lui plaire !</l>
+            <l n="75">De ces tyrans si chers suivez l'arrêt fatal, </l>
+            <l n="76">Servez-les, ou plutôt servez votre rival.</l>
+            <l n="77">De vos propres lauriers souffrez qu'on le couronne,</l>
+            <l n="78">Combattez pour Porus, Axiane l'ordonne ;</l>
+            <l n="79">Et par de beaux exploits, appuyant sa rigueur,</l>
+            <l n="80">Assurez à Porus l'empire de son coeur. </l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="81" part="I">Ah ! Ma soeur, croyez-vous que Porus...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="81" part="F">Mais vous-même,</l>
+            <l n="82">Doutez-vous en effet qu'Axiane ne l'aime ?</l>
+            <l n="83">Quoi, ne voyez-vous pas avec quelle chaleur,</l>
+            <l n="84">L'ingrate à vos yeux même étale sa valeur ?</l>
+            <l n="85">Quelque brave qu'on soit, si nous la voulons croire, </l>
+            <l n="86">Ce n'est qu'autour de lui que vole la Victoire ;</l>
+            <l n="87">Vous formeriez sans lui d'inutiles desseins,</l>
+            <l n="88">La liberté de l'Inde est toute entre ses mains.</l>
+            <l n="89">Sans lui déjà nos murs seraient réduits en cendre,</l>
+            <l n="90">Lui seul peut arrêter les progrès d'Alexandre : </l>
+            <l n="91">Elle se fait un dieu de ce prince charmant,</l>
+            <l n="92">Et vous doutez encor qu'elle en fasse un amant ?</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="93">Je tâchais d'en douter, cruelle Cléofile.</l>
+            <l n="94">Hélas ! Dans son erreur affermissez Taxile.</l>
+            <l n="95">Pourquoi lui peignez-vous cet objet odieux ? </l>
+            <l n="96">Aidez-le bien plutôt à démentir ses yeux.</l>
+            <l n="97">Dites-lui qu'Axiane est une beauté fière,</l>
+            <l n="98">Telle à tous les mortels qu'elle est à votre frère.</l>
+            <l n="99" part="I">Flattez de quelque espoir...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="99" part="F">Espérez, j'y consens :</l>
+            <l n="100">Mais n'espérez plus rien de vos soins impuissants. </l>
+            <l n="101">Pourquoi dans les combats chercher une conquête,</l>
+            <l n="102">Qu'à vous livrer lui-même Alexandre s'apprête ?</l>
+            <l n="103">Ce n'est pas contre lui qu'il la faut disputer,</l>
+            <l n="104">Porus est l'ennemi qui prétend vous l'ôter.</l>
+            <l n="105">Pour ne vanter que lui, l'injuste renommée</l>
+            <l n="106">Semble oublier les noms du reste de l'armée :</l>
+            <l n="107">Quoi qu'on fasse, lui seul en ravit tout l'éclat,</l>
+            <l n="108">Et comme ses sujets il vous mène au combat.</l>
+            <l n="109">Ah ! Si ce nom vous plaît, si vous cherchez à l'être,</l>
+            <l n="110">Les Grecs et les Persans vous enseignent un maître. </l>
+            <l n="111">Vous trouverez cent rois compagnons de vos fers,</l>
+            <l n="112">Porus y viendra même avec tout l'univers.</l>
+            <l n="113">Mais Alexandre enfin ne vous tend point de chaînes ;</l>
+            <l n="114">Il laisse à votre front ces marques souveraines,</l>
+            <l n="115">Qu'un orgueilleux rival ose ici dédaigner. </l>
+            <l n="116">Porus vous fait servir, il vous fera régner.</l>
+            <l n="117">Au lieu que de Porus vous êtes la victime,</l>
+            <l n="118">Vous serez... Mais voici ce rival magnanime.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="119">Ah ! Ma soeur, je me trouble, et mon coeur alarmé,</l>
+            <l n="120">En voyant mon rival, me dit qu'il est aimé. </l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="121">Le temps vous presse. Adieu. C'est à vous de vous rendre</l>
+            <l n="122">L'esclave de Porus, ou l'ami d'Alexandre.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Porus, Taxile.</head>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="123">Seigneur, ou je me trompe, ou nos fiers ennemis,</l>
+            <l n="124">Feront moins de progrès qu'ils ne s'étaient promis.</l>
+            <l n="125">Nos chefs et nos soldats brûlants d'impatience, </l>
+            <l n="126">Font lire sur leur front une mâle assurance ;</l>
+            <l n="127">Ils s'animent l'un l'autre, et nos moindres guerriers</l>
+            <l n="128">Se promettent déjà des moissons de lauriers.</l>
+            <l n="129">J'ai vu de rang en rang cette ardeur répandue,</l>
+            <l n="130">Par des cris généreux éclater à ma vue : </l>
+            <l n="131">Ils se plaignent qu'au lieu d'éprouver leur grand coeur,</l>
+            <l n="132">L'oisiveté d'un camp consume leur vigueur.</l>
+            <l n="133">Laisserons-nous languir tant d'illustres courages ?</l>
+            <l n="134">Notre ennemi, Seigneur, cherche ses avantages :</l>
+            <l n="135">Il se sent faible encore, et pour nous retenir</l>
+            <l n="136">Éphestion demande à nous entretenir.</l>
+            <l n="137" part="I">Et par de vains discours...</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="137" part="F">Seigneur, il faut l'entendre,</l>
+            <l n="138">Nous ignorons encor ce que veut Alexandre.</l>
+            <l n="139">Peut-être est-ce la paix qu'il nous veut présenter.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="140">La paix ! Ah de sa main pourriez-vous l'accepter ? </l>
+            <l n="141">Hé quoi ? Nous l'aurons vu par tant d'horribles guerres,</l>
+            <l n="142">Troubler le calme heureux dont jouissaient nos terres,</l>
+            <l n="143">Et le fer à la main entrer dans nos États,</l>
+            <l n="144">Pour attaquer des rois qui ne l'offensaient pas ?</l>
+            <l n="145">Nous l'aurons vu piller des provinces entières, </l>
+            <l n="146">Du sang de nos sujets faire enfler nos rivières,</l>
+            <l n="147">Et quand le ciel s'apprête à nous l'abandonner,</l>
+            <l n="148">J'attendrai qu'un tyran daigne nous pardonner ?</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="149">Ne dites point, Seigneur, que le ciel l'abandonne.</l>
+            <l n="150">D'un soin toujours égal sa faveur l'environne : </l>
+            <l n="151">Un roi qui fait trembler tant d'États sous ses lois,</l>
+            <l n="152">N'est pas un ennemi que méprisent les rois.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="153">Loin de le mépriser j'admire son courage,</l>
+            <l n="154">Je rends à sa valeur un légitime hommage.</l>
+            <l n="155">Mais je veux à mon tour mériter les tributs</l>
+            <l n="156">Que je me sens forcé de rendre à ses vertus.</l>
+            <l n="157">Oui je consens qu'au ciel on élève Alexandre;</l>
+            <l n="158">Mais si je puis, Seigneur, je l'en ferai descendre,</l>
+            <l n="159">Et j'irai l'attaquer jusque sur les autels </l>
+            <l n="160">Que lui dresse en tremblant le reste des mortels. </l>
+            <l n="161">C'est ainsi qu'Alexandre estima tous ces princes,</l>
+            <l n="162">Dont sa valeur pourtant a conquis les provinces.</l>
+            <l n="163">Si son coeur dans l'Asie eût montré quelque effroi,</l>
+            <l n="164">Darius en mourant l'aurait-il vu son roi ?</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="165">Seigneur, si Darius avait su se connaître, </l>
+            <l n="166">Il régnerait encore où règne un autre maître.</l>
+            <l n="167">Cependant cet orgueil qui causa son trépas,</l>
+            <l n="168">Avait un fondement que vos mépris n'ont pas.</l>
+            <l n="169">La valeur d'Alexandre à peine était connue,</l>
+            <l n="170">Ce foudre était encore enfermé dans la nue. </l>
+            <l n="171">Dans un calme profond Darius endormi</l>
+            <l n="172">Ignorait jusqu'au nom d'un si faible ennemi.</l>
+            <l n="173">Il le connut bientôt, et son âme étonnée</l>
+            <l n="174">De tout ce grand pouvoir se vit abandonnée ;</l>
+            <l n="175">Il se vit terrassé d'un bras victorieux, </l>
+            <l n="176">Et la foudre en tombant lui fit ouvrir les yeux.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="177">Mais encore à quel prix croyez-vous qu'Alexandre</l>
+            <l n="178">Mette l'indigne paix dont il veut vous surprendre ?</l>
+            <l n="179">Demandez-le, Seigneur, à cent peuples divers,</l>
+            <l n="180">Que cette paix trompeuse a jetés dans les fers. </l>
+            <l n="181">Non, ne nous flattons point, sa douceur nous outrage.</l>
+            <l n="182">Toujours son amitié traîne un long esclavage :</l>
+            <l n="183">En vain on prétendrait n'obéir qu'à demi ;</l>
+            <l n="184">Si l'on n'est son esclave, on est son ennemi.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="185">Seigneur, sans se montrer lâche ni téméraire, </l>
+            <l n="186">Par quelque vain hommage on peut le satisfaire.</l>
+            <l n="187">Flattons par des respects ce prince ambitieux,</l>
+            <l n="188">Que son bouillant orgueil appelle en d'autres lieux.</l>
+            <l n="189">C'est un torrent qui passe, et dont la violence</l>
+            <l n="190">Sur tout ce qui l'arrête exerce sa puissance ; </l>
+            <l n="191">Qui grossi du débris de cent peuples divers,</l>
+            <l n="192">Veut du bruit de son cours remplir tout l'univers.</l>
+            <l n="193">Que sert de l'irriter par un orgueil sauvage ?</l>
+            <l n="194">D'un favorable accueil honorons son passage,</l>
+            <l n="195">Et lui cédant des droits que nous reprendrons bien, </l>
+            <l n="196">Rendons-lui des devoirs qui ne nous coûtent rien.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="197">Qui ne nous coûtent rien, Seigneur ? L'osez-vous croire ?</l>
+            <l n="198">Compterai-je pour rien la perte de ma gloire ?</l>
+            <l n="199">Votre empire, et le mien seraient trop achetés,</l>
+            <l n="200">S'ils coûtaient à Porus les moindres lâchetés. </l>
+            <l n="201">Mais croyez-vous qu'un prince enflé de tant d'audace,</l>
+            <l n="202">De son passage ici ne laissât point de trace ?</l>
+            <l n="203">Combien de rois brisés à ce funeste écueil,</l>
+            <l n="204">Ne règnent plus qu'autant qu'il plaît à son orgueil ?</l>
+            <l n="205">Nos couronnes d'abord devenant ses conquêtes, </l>
+            <l n="206">Tant que nous régnerions flotteraient sur nos têtes,</l>
+            <l n="207">Et nos sceptres en proie à ses moindres dédains,</l>
+            <l n="208">Dès qu'il aurait parlé tomberaient de nos mains.</l>
+            <l n="209">Ne dites point qu'il court de province en province,</l>
+            <l n="210">Jamais de ses liens il ne dégage un prince, </l>
+            <l n="211">Et pour mieux asservir les peuples sous ses lois,</l>
+            <l n="212">Souvent dans la poussière il leur cherche des rois.</l>
+            <l n="213">Mais ces indignes soins touchent peu mon courage,</l>
+            <l n="214">Votre seul intérêt m'inspire ce langage;</l>
+            <l n="215">Porus n'a point de part dans tout cet entretien, </l>
+            <l n="216">Et quand la gloire parle il n'écoute plus rien.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="217">J'écoute comme vous ce que l'honneur m'inspire,</l>
+            <l n="218">Seigneur, mais il m'engage à sauver mon empire.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="219">Si vous voulez sauver l'un et l'autre aujourd'hui,</l>
+            <l n="220">Prévenons Alexandre, et marchons contre lui. </l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="221">L'audace et le mépris sont d'infidèles guides.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="222">La honte suit de près les courages timides.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="223">Le peuple aime les rois qui savent l'épargner.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="224">Il estime encor plus ceux qui savent régner.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="225">Ces conseils ne plairont qu'à des âmes hautaines. </l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="226">Ils plairont à des rois, et peut-être à des reines.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="227">La reine, à vous ouïr, n'a des yeux que pour vous.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="228">Un esclave est pour elle un objet de courroux.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="229">Mais croyez-vous, Seigneur, que l'amour vous ordonne</l>
+            <l n="230">D'exposer avec vous son peuple et sa personne ? </l>
+            <l n="231">Non, non, sans vous flatter, avouez qu'en ce jour</l>
+            <l n="232">Vous suivez votre haine, et non pas votre amour.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="233">Hé bien, je l'avouerai, que ma juste colère</l>
+            <l n="234">Aime la guerre autant que la paix vous est chère.</l>
+            <l n="235">J'avouerai que brûlant d'une noble chaleur, </l>
+            <l n="236">Je vais contre Alexandre éprouver ma valeur.</l>
+            <l n="237">Du bruit de ses exploits mon âme importunée</l>
+            <l n="238">Attend depuis longtemps cette heureuse journée.</l>
+            <l n="239">Avant qu'il me cherchât, un orgueil inquiet</l>
+            <l n="240">M'avait déjà rendu son ennemi secret. </l>
+            <l n="241">Dans le noble transport de cette jalousie,</l>
+            <l n="242">Je le trouvais trop lent à traverser l'Asie.</l>
+            <l n="243">Je l'attirais ici par des voeux si puissants,</l>
+            <l n="244">Que je portais envie au bonheur des Persans.</l>
+            <l n="245">Et maintenant encor s'il trompait mon courage, </l>
+            <l n="246">Pour sortir de ces lieux, s'il cherchait un passage,</l>
+            <l n="247">Vous me verriez moi-même armé pour l'arrêter,</l>
+            <l n="248">Lui refuser la paix qu'il nous veut présenter.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="249">Oui, sans doute, une ardeur si haute et si constante</l>
+            <l n="250">Vous promet dans l'histoire une place éclatante ; </l>
+            <l n="251">Et sous ce grand dessein dussiez-vous succomber,</l>
+            <l n="252">Au moins c'est avec bruit qu'on vous verra tomber.</l>
+            <l n="253">La reine vient. Adieu. Vantez-lui votre zèle,</l>
+            <l n="254">Découvrez cet orgueil qui vous rend digne d'elle.</l>
+            <l n="255">Pour moi je troublerais un si noble entretien, </l>
+            <l n="256">Et vos coeurs rougiraient des faiblesses du mien.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Porus, Axiane.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="257">Quoi, Taxile me fuit ? Quelle cause inconnue...</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="258">Il fait bien de cacher sa honte à votre vue,</l>
+            <l n="259">Et puisqu'il n'ose plus s'exposer aux hasards,</l>
+            <l n="260">De quel front pourrait-il soutenir vos regards ? </l>
+            <l n="261">Mais laissons-le, Madame et puisqu'il veut se rendre,</l>
+            <l n="262">Qu'il aille avec sa soeur adorer Alexandre.</l>
+            <l n="263">Retirons, nous d'un camp, où l'encens à la main</l>
+            <l n="264">Le fidèle Taxile attend son souverain.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="265" part="I">Mais, Seigneur, que dit-il ?</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="265" part="F">Il en fait trop paraître. </l>
+            <l n="266">Cet esclave déjà m'ose vanter son maître, </l>
+            <l n="267" part="I">Il veut que je le serve...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="267" part="F">Ah ! Sans vous emporter,</l>
+            <l n="268">Souffrez que mes efforts tâchent de l'arrêter.</l>
+            <l n="269">Ses soupirs, malgré moi, m'assurent qu'il m'adore.</l>
+            <l n="270">Quoi qu'il en soit, souffrez que je lui parle encore, </l>
+            <l n="271">Et ne le forçons point par ce cruel mépris, </l>
+            <l n="272">D'achever un dessein qu'il peut n'avoir pas pris.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="273">Hé quoi, vous en doutez ? Et votre âme s'assure</l>
+            <l n="274">Sur la foi d'un amant infidèle, et parjure,</l>
+            <l n="275">Qui veut à son tyran vous livrer aujourd'hui, </l>
+            <l n="276">Et croit en vous donnant, vous obtenir de lui. </l>
+            <l n="277">Hé bien, aidez-le donc à vous trahir vous-même,</l>
+            <l n="278">Il vous peut arracher à mon amour extrême ;</l>
+            <l n="279">Mais il ne peut m'ôter par ses efforts jaloux,</l>
+            <l n="280">La gloire de combattre et de mourir pour vous. </l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="281">Et vous croyez qu'après une telle insolence, </l>
+            <l n="282">Mon amitié, Seigneur, serait sa récompense ?</l>
+            <l n="283">Vous croyez que mon coeur s'engageant sous sa loi,</l>
+            <l n="284">Je souscrirais au don qu'on lui ferait de moi ?</l>
+            <l n="285">Pouvez-vous, sans rougir, m'accuser d'un tel crime ? </l>
+            <l n="286">Ai-je fait pour ce prince éclater tant d'estime ? </l>
+            <l n="287">Entre Taxile et vous, s'il fallait prononcer,</l>
+            <l n="288">Seigneur, le croyez-vous, qu'on me vît balancer ?</l>
+            <l n="289">Sais-je pas que Taxile est une âme incertaine,</l>
+            <l n="290">Que l'amour le retient quand la crainte l'entraîne ? </l>
+            <l n="291">Sais-je pas que sans moi sa timide valeur</l>
+            <l n="292">Succomberait bientôt aux ruses de sa soeur ?</l>
+            <l n="293">Vous savez qu'Alexandre en fit sa prisonnière,</l>
+            <l n="294">Et qu'enfin cette soeur retourna vers son frère,</l>
+            <l n="295">Mais je connus bientôt qu'elle avait entrepris</l>
+            <l n="296">De l'arrêter au piège où son coeur était pris. </l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="297">Et vous pouvez encor demeurer auprès d'elle ?</l>
+            <l n="298">Que n'abandonnez-vous cette soeur criminelle ?</l>
+            <l n="299">Pourquoi par tant de soins voulez-vous épargner</l>
+            <l n="300" part="I">Un prince...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="300" part="F">C'est pour vous que je le veux gagner. </l>
+            <l n="301">Vous verrai-je accablé du soin de nos provinces, </l>
+            <l n="302">Attaquer seul un roi vainqueur de tant de princes ?</l>
+            <l n="303">Je vous veux dans Taxile offrir un défenseur,</l>
+            <l n="304">Qui combatte Alexandre en dépit de sa soeur.</l>
+            <l n="305">Que n'avez-vous pour moi cette ardeur empressée ? </l>
+            <l n="306">Mais d'un soin si commun votre âme est peu blessée ; </l>
+            <l n="307">Pourvu que ce grand coeur périsse noblement,</l>
+            <l n="308">Ce qui suivra sa mort le touche faiblement.</l>
+            <l n="309">Vous me voulez livrer sans secours, sans asile,</l>
+            <l n="310">Au courroux d'Alexandre, à l'amour de Taxile, </l>
+            <l n="311">Qui me traitant bientôt en superbe vainqueur, </l>
+            <l n="312">Pour prix de votre mort demandera mon coeur.</l>
+            <l n="313">Hé bien, Seigneur, allez. Contentez votre envie,</l>
+            <l n="314">Combattez, oubliez le soin de votre vie.</l>
+            <l n="315">Oubliez que le ciel favorable à vos voeux</l>
+            <l n="316">Vous préparait peut-être un sort assez heureux. </l>
+            <l n="317">Peut-être qu'à son tour Axiane charmée,</l>
+            <l n="318">Allait... Mais non, Seigneur, courez vers votre armée.</l>
+            <l n="319">Un si long entretien vous serait ennuyeux,</l>
+            <l n="320">Et c'est vous retenir trop longtemps en ces lieux. </l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="321">Ah ! Madame, arrêtez, et connaissez ma flamme, </l>
+            <l n="322">Ordonnez de mes jours, disposez de mon âme,</l>
+            <l n="323">La gloire y peut beaucoup, je ne m'en cache pas,</l>
+            <l n="324">Mais que n'y peuvent point tant de divins appas !</l>
+            <l n="325">Je ne vous dirai point que pour vaincre Alexandre</l>
+            <l n="326">Vos soldats et les miens allaient tout entreprendre, </l>
+            <l n="327">Que c'était pour Porus un bonheur sans égal,</l>
+            <l n="328">De triompher tout seul aux yeux de son rival.</l>
+            <l n="329">Je ne vous dis plus rien. Parlez en souveraine.</l>
+            <l n="330">Mon coeur met à vos pieds et sa gloire, et sa haine. </l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="331">Ne craignez rien : ce coeur qui veut bien m'obéir, </l>
+            <l n="332">N'est pas entre des mains qui le puissent trahir.</l>
+            <l n="333">Non, je ne prétends pas jalouse de sa gloire,</l>
+            <l n="334">Arrêter un héros qui court à la victoire.</l>
+            <l n="335">Contre un fier ennemi précipitez vos pas, </l>
+            <l n="336">Mais de vos alliés ne vous séparez pas. </l>
+            <l n="337">Ménagez-les, Seigneur, et d'une âme tranquille</l>
+            <l n="338">Laissez agir mes soins sur l'esprit de Taxile ;</l>
+            <l n="339">Montrez en sa faveur des sentiments plus doux, </l>
+            <l n="340">Je le vais engager à combattre pour vous. </l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="341">Hé bien, Madame, allez, j'y consens avec joie. </l>
+            <l n="342">Voyons Éphestion, puisqu'il faut qu'on le voie.</l>
+            <l n="343">Mais sans perdre l'espoir de le suivre de près,</l>
+            <l n="344">J'attends Éphestion, et le combat après.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Cléofile, Éphestion.</head>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="345">Oui, tandis que vos rois délibèrent ensemble, </l>
+            <l n="346">Et que tout se prépare au conseil qui s'assemble, </l>
+            <l n="347">Madame permettez que je vous parle aussi</l>
+            <l n="348">Des secrètes raisons qui m'amènent ici.</l>
+            <l n="349">Fidèle confident du beau feu de mon maître,</l>
+            <l n="350">Souffrez que je l'explique aux yeux qui l'ont fait naître, </l>
+            <l n="351">Et que pour ce héros, j'ose vous demander</l>
+            <l n="352">Le repos qu'à vos rois il veut bien accorder.</l>
+            <l n="353">Après tant de soupirs, que faut-il qu'il espère ?</l>
+            <l n="354">Attendez-vous encore après l'aveu d'un frère ?</l>
+            <l n="355">Voulez-vous que son coeur incertain et confus, </l>
+            <l n="356">Ne se donne jamais sans craindre vos refus ? </l>
+            <l n="357">Faut-il mettre à vos pieds le reste de la terre ?</l>
+            <l n="358">Faut-il donner la paix ? Faut-il faire la guerre ?</l>
+            <l n="359">Prononcez. Alexandre est tout prêt d'y courir,</l>
+            <l n="360">Ou pour vous mériter, ou pour vous conquérir. </l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="361">Puis-je croire qu'un prince, au comble de la gloire, </l>
+            <l n="362">De mes faibles attraits garde encor la mémoire ?</l>
+            <l n="363">Que traînant après lui la victoire et l'effroi</l>
+            <l n="364">Il se puisse abaisser à soupirer pour moi ?</l>
+            <l n="365">Des captifs comme lui brisent bientôt leur chaîne, </l>
+            <l n="366">À de plus hauts desseins la gloire les entraîne, </l>
+            <l n="367">Et l'amour dans leurs coeurs interrompu, troublé,</l>
+            <l n="368">Sous le faix des lauriers est bientôt accablé.</l>
+            <l n="369">Tandis que ce héros me tint sa prisonnière,</l>
+            <l n="370">J'ai pu toucher son coeur d'une atteinte légère ; </l>
+            <l n="371">Mais je pense, Seigneur, qu'en rompant mes liens, </l>
+            <l n="372">Alexandre à son tour brisa bientôt les siens.</l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="373">Ah ! Si vous l'aviez vu brûlant d'impatience,</l>
+            <l n="374">Compter les tristes jours d'une si longue absence,</l>
+            <l n="375">Vous sauriez que l'amour précipitant ses pas, </l>
+            <l n="376">Il ne cherchait que vous en courant aux combats. </l>
+            <l n="377">C'est pour vous qu'on l'a vu, vainqueur de tant de princes,</l>
+            <l n="378">D'un cours impétueux traverser vos provinces.</l>
+            <l n="379">Et briser en passant sous l'effort de ses coups,</l>
+            <l n="380">Tout ce qui l'empêchait de s'approcher de vous. </l>
+            <l n="381">On voit en même champ vos drapeaux et les nôtres,</l>
+            <l n="382">De ses retranchements il découvre les vôtres,</l>
+            <l n="383">Mais après tant d'exploits, ce timide vainqueur,</l>
+            <l n="384">Craint qu'il ne soit encor bien loin de votre coeur.</l>
+            <l n="385">Que lui sert de courir de contrée en contrée, </l>
+            <l n="386">S'il faut que de ce coeur vous lui fermiez l'entrée ? </l>
+            <l n="387">Si pour ne point répondre à de sincères voeux,</l>
+            <l n="388">Vous cherchez chaque jour à douter de ses feux ?</l>
+            <l n="389">Si votre esprit armé de mille défiances...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="390">Hélas ! De tels soupçons sont de faibles défenses, </l>
+            <l n="391">Et nos coeurs se formant mille soins superflus, </l>
+            <l n="392">Doutent toujours du bien qu'ils souhaitent le plus.</l>
+            <l n="393">Oui, puisque ce héros veut que j'ouvre mon âme,</l>
+            <l n="394">J'écoute avec plaisir le récit de sa flamme ;</l>
+            <l n="395">Je craignais que le temps n'en eût borné le cours, </l>
+            <l n="396">Je souhaite qu'il m'aime, et qu'il m'aime toujours. </l>
+            <l n="397">Je dis plus. Quand son bras força notre frontière,</l>
+            <l n="398">Et dans les murs d'Omphis m'arrêta prisonnière,</l>
+            <l n="399">Mon coeur qui le voyait maître de l'univers,</l>
+            <l n="400">Se consolait déjà de languir dans ses fers ; </l>
+            <l n="401">Et loin de murmurer contre un destin si rude, </l>
+            <l n="402">Il s'en fit, je l'avoue, une douce habitude,</l>
+            <l n="403">Et de sa liberté perdant le souvenir,</l>
+            <l n="404">Même en la demandant, craignait de l'obtenir.</l>
+            <l n="405">Jugez si son retour me doit combler de joie. </l>
+            <l n="406">Mais tout couvert de sang, veut-il que je le voie ? </l>
+            <l n="407">Est-ce comme ennemi qu'il se vient présenter,</l>
+            <l n="408">Et ne me cherche-t-il que pour me tourmenter ?</l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="409">Non, Madame, vaincu du pouvoir de vos charmes,</l>
+            <l n="410">Il suspend aujourd'hui la terreur de ses armes. </l>
+            <l n="411">Il présente la paix à des rois aveuglés,</l>
+            <l n="412">Et retire la main qui les eût accablés.</l>
+            <l n="413">Il craint que la victoire à ses voeux trop facile,</l>
+            <l n="414">Ne conduise ses coups dans le sein de Taxile;</l>
+            <l n="415">Son courage sensible à vos justes douleurs, </l>
+            <l n="416">Ne veut point de lauriers arrosés de vos pleurs.</l>
+            <l n="417">Favorisez les soins où son amour l'engage,</l>
+            <l n="418">Exemptez sa valeur d'un si triste avantage,</l>
+            <l n="419">Et disposez des rois qu'épargne son courroux,</l>
+            <l n="420">À recevoir un bien qu'ils ne doivent qu'à vous. </l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="421">N'en doutez point, Seigneur, mon âme inquiétée,</l>
+            <l n="422">D'une crainte si juste est sans cesse agitée.</l>
+            <l n="423">Je tremble pour mon frère, et crains que son trépas,</l>
+            <l n="424">D'un ennemi si cher n'ensanglante le bras.</l>
+            <l n="425">Mais en vain je m'oppose à l'ardeur qui l'enflamme, </l>
+            <l n="426">Axiane et Porus tyrannisent son âme ;</l>
+            <l n="427">Les charmes d'une reine, et l'exemple d'un roi,</l>
+            <l n="428">Dès que je veux parler, s'élèvent contre moi.</l>
+            <l n="429">Que n'ai-je point à craindre en ce désordre extrême ?</l>
+            <l n="430">Je crains pour lui, je crains pour Alexandre même. </l>
+            <l n="431">Je sais qu'en l'attaquant, cent rois se sont perdus,</l>
+            <l n="432">Je sais tous ses exploits ; mais je connais Porus.</l>
+            <l n="433">Nos peuples qu'on a vus triomphants à sa suite,</l>
+            <l n="434">Repousser les efforts du Persan et du Scythe,</l>
+            <note type="C">V. 635, On devrait lire "tous fiers" mais il s'agit bien de "tout".</note>
+            <l n="435">Et tout fiers des lauriers dont il les a chargés, </l>
+            <l n="436">Vaincront à son exemple, ou périront vengés.</l>
+            <l n="437" part="I">Et je crains...</l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="437" part="F">Ah ! Quittez une crainte si vaine,</l>
+            <l n="438">Laissez courir Porus où son malheur l'entraîne ;</l>
+            <l n="439">Que l'Inde en sa faveur arme tous ses États,</l>
+            <l n="440">Et que le seul Taxile en détourne ses pas. </l>
+            <l n="441" part="I">Mais les voici.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="441" part="F">Seigneur, achevez votre ouvrage.</l>
+            <l n="442">Par vos sages conseils dissipez cet orage.</l>
+            <l n="443">Ou s'il faut qu'il éclate, au moins souvenez-vous</l>
+            <l n="444">De la faire tomber sur d'autres que sur nous.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Porus, Taxile, Éphestion.</head>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="445">Avant que le combat qui menace vos têtes, </l>
+            <l n="446">Mette tous vos États au rang de nos conquêtes,</l>
+            <l n="447">Alexandre veut bien différer ses exploits,</l>
+            <l n="448">Et vous offrir la paix pour la dernière fois.</l>
+            <l n="449">Vos peuples prévenus de l'espoir qui vous flatte,</l>
+            <l n="450">Prétendaient arrêter le vainqueur de l'Euphrate ; </l>
+            <note type="L">Hydaspe : Rivière du Pakistan passant à l'est de l'actuelle Islamabad, où eut leur la bataille du même nom.</note>
+            <l n="451">Mais l'Hydaspe malgré tant d'escadrons épars,</l>
+            <l n="452">Voit enfin sur ses bords flotter nos étendards.</l>
+            <l n="453">Vous les verriez plantés jusques sur vos tranchées,</l>
+            <l n="454">Et de sang et de morts vos campagnes jonchées,</l>
+            <l n="455">Si ce héros couvert de tant d'autres lauriers, </l>
+            <l n="456">N'eût lui-même arrêté l'ardeur de nos guerriers.</l>
+            <l n="457">Il ne vient point ici, souillé du sang des princes,</l>
+            <l n="458">D'un triomphe barbare effrayer vos provinces ;</l>
+            <l n="459">Et cherchant à briller d'une triste splendeur,</l>
+            <l n="460">Sur le tombeau des rois élever sa grandeur. </l>
+            <l n="461">Mais vous-mêmes trompés d'un vain espoir de gloire,</l>
+            <l n="462">N'allez point dans ses bras irriter la Victoire ;</l>
+            <l n="463">Et lorsque son courroux demeure suspendu,</l>
+            <l n="464">Princes, contentez-vous de l'avoir attendu.</l>
+            <l n="465">Ne différez point tant à lui rendre l'hommage, </l>
+            <l n="466">Que vos coeurs, malgré vous rendent à son courage,</l>
+            <l n="467">Et recevant l'appui que vous offre son bras,</l>
+            <l n="468">D'un si grand défenseur honorez vos États.</l>
+            <l n="469">Voilà ce qu'un grand roi veut bien vous faire entendre,</l>
+            <l n="470">Prêt à quitter le fer, et prêt à le reprendre. </l>
+            <l n="471">Vous savez son dessein. Choisissez aujourd'hui,</l>
+            <l n="472">Si vous voulez tout perdre, ou tenir tout de lui.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="473">Seigneur, ne croyez point qu'une fierté barbare</l>
+            <l n="474">Nous fasse méconnaître une vertu si rare,</l>
+            <l n="475">Et que dans leur orgueil nos peuples affermis, </l>
+            <l n="476">Prétendent malgré vous être vos ennemis.</l>
+            <l n="477">Nous rendons ce qu'on doit aux illustres exemples,</l>
+            <l n="478">Vous adorez des dieux qui nous doivent leurs temples.</l>
+            <l n="479">Des héros qui chez vous passaient pour des mortels,</l>
+            <l n="480">En venant parmi nous, ont trouvé des autels. </l>
+            <l n="481">Mais en vain l'on prétend chez des peuples si braves,</l>
+            <l n="482">Au lieu d'adorateurs, se faire des esclaves,</l>
+            <l n="483">Croyez-moi, quelque éclat qui les puisse toucher,</l>
+            <l n="484">Ils refusent l'encens qu'on leur veut arracher.</l>
+            <l n="485">Assez d'autres États devenus vos conquêtes, </l>
+            <l n="486">De leurs rois sous le joug ont vu ployer les têtes.</l>
+            <l n="487">Après tous ces États qu'Alexandre a soumis,</l>
+            <l n="488">N'est-il pas temps, Seigneur, qu'il cherche des amis ?</l>
+            <l n="489">Tout ce peuple captif, qui tremble au nom d'un maître,</l>
+            <l n="490">Soutient mal un pouvoir qui ne fait que de naître. </l>
+            <l n="491">Ils ont, pour s'affranchir, les yeux toujours ouverts.</l>
+            <l n="492">Votre empire n'est plein que d'ennemis couverts.</l>
+            <l n="493">Ils pleurent en secret leurs rois sans diadèmes. </l>
+            <l n="494">Vos fers trop étendus se relâchent d'eux-mêmes ;</l>
+            <l n="495">Et déjà dans leur coeur les Scythes mutinés,</l>
+            <l n="496">Vont sortir de la chaîne, où vous nous destinez.</l>
+            <l n="497">Essayez, en prenant notre amitié pour gage,</l>
+            <l n="498">Ce que peut une foi qu'aucun serment n'engage ;</l>
+            <l n="499">Laissez un peuple au moins qui puisse quelquefois</l>
+            <l n="500">Applaudir sans contrainte au bruit de vos exploits. </l>
+            <l n="501">Je reçois à ce prix l'amitié d'Alexandre.</l>
+            <l n="502">Et je l'attends déjà, comme un roi doit attendre</l>
+            <l n="503">Un héros dont la gloire accompagne les pas,</l>
+            <l n="504">Qui peut tout sur mon coeur, et rien sur mes États.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="505">Je croyais, quand l'Hydaspe assemblant ses provinces </l>
+            <l n="506">Au secours de ses bords fit voler tous ses princes,</l>
+            <l n="507">Qu'il n'avait avec moi, dans des desseins si grands,</l>
+            <l n="508">Engagé que des rois ennemis des tyrans.</l>
+            <l n="509">Mais puisqu'un roi flattant la main qui nous menace,</l>
+            <l n="510">Parmi ses alliés brigue une indigne place, </l>
+            <l n="511">C'est à moi de répondre aux voeux de mon pays,</l>
+            <l n="512">Et de parler pour ceux que Taxile a trahis.</l>
+            <l n="513">Que vient chercher ici le roi qui vous envoie ?</l>
+            <l n="514">Quel est ce grand secours que son bras nous octroie ?</l>
+            <l n="515">De quel front ose-t-il prendre sous son appui </l>
+            <l n="516">Des peuples qui n'ont point d'autre ennemi que lui ?</l>
+            <l n="517">Avant que sa fureur ravageât tout le monde,</l>
+            <l n="518">L'Inde se reposait dans une paix profonde ;</l>
+            <l n="519">Et si quelques voisins en troublaient les douceurs,</l>
+            <l n="520">Il portait dans son sein d'assez bons défenseurs. </l>
+            <l n="521">Pourquoi nous attaquer ? Par quelle barbarie</l>
+            <l n="522">A-t-on de votre maître excité la furie ?</l>
+            <l n="523">Vit-on jamais chez lui nos peuples en courroux</l>
+            <l n="524">Désoler un pays inconnu parmi nous ?</l>
+            <l n="525">Faut-il que tant d'États, de déserts, de rivières, </l>
+            <l n="526">Soient entre nous et lui d'impuissantes barrières ?</l>
+            <l n="527">Et ne saurait-on vivre au bout de l'univers,</l>
+            <l n="528">Sans connaître son nom, et le poids de ses fers ?</l>
+            <l n="529">Quelle étrange valeur, qui ne cherchant qu'à nuire,</l>
+            <l n="530">Embrase tout, sitôt qu'elle commence à luire, </l>
+            <l n="531">Qui n'a que son orgueil pour règle et pour raison,</l>
+            <l n="532">Qui veut que l'univers ne soit qu'une prison,</l>
+            <l n="533">Et que maître absolu de tous tant que nous sommes,</l>
+            <l n="534">Ses esclaves en nombre égalent tous les hommes.</l>
+            <l n="535">Plus d'États, plus de rois. Ses sacrilèges mains </l>
+            <l n="536">Dessous un même joug rangent tous les humains.</l>
+            <l n="537">Dans son avide orgueil je sais qu'il nous dévore.</l>
+            <l n="538">De tant de souverains nous seuls régnons encore.</l>
+            <l n="539">Mais que dis-je nous seuls ? Il ne reste que moi,</l>
+            <l n="540">Où l'on découvre encor les vestiges d'un roi. </l>
+            <l n="541">Mais c'est pour mon courage une illustre matière.</l>
+            <l n="542">Je vois d'un oeil content trembler la terre entière,</l>
+            <l n="543">Afin que par moi seul les mortels secourus,</l>
+            <l n="544">S'ils sont libres, le soient de la main de Porus,</l>
+            <l n="545">Et qu'on dise partout dans une paix profonde : </l>
+            <l n="546"> « Alexandre vainqueur eût dompté tout le monde,</l>
+            <l n="547">Mais un roi l'attendait au bout de l'univers,</l>
+            <l n="548">Par qui le monde entier a vu briser ses fers. » </l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="549">Votre projet du moins nous marque un grand courage.</l>
+            <l n="550">Mais, Seigneur, c'est bien tard s'opposer à l'orage. </l>
+            <l n="551">Si le monde penchant n'a plus que cet appui,</l>
+            <l n="552">Je le plains, et vous plains vous-même autant que lui.</l>
+            <l n="553">Je ne vous retiens point. Marchez contre mon maître,</l>
+            <l n="554">Je voudrais seulement qu'on vous l'eût fait connaître,</l>
+            <l n="555">Et que la Renommée eût voulu par pitié </l>
+            <l n="556">De ses exploits au moins vous conter la moitié.</l>
+            <l n="557" part="I">Vous verriez...</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="557" part="F">Que verrais-je ? Et que pourrais-je apprendre</l>
+            <l n="558">Qui m'abaisse si fort au dessous d'Alexandre ?</l>
+            <l n="559">Serait-ce sans effort les Persans subjugués,</l>
+            <l n="560">Et vos bras tant de fois de meurtres fatigués ? </l>
+            <l n="561">Quelle gloire en effet d'accabler la faiblesse</l>
+            <l n="562">D'un roi déjà vaincu par sa propre mollesse,</l>
+            <l n="563">D'un peuple sans vigueur et presque inanimé,</l>
+            <l n="564">Qui gémissait sous l'or dont il était armé,</l>
+            <l n="565">Et qui tombant en foule, au lieu de se défendre, </l>
+            <l n="566">N'opposait que des morts au grand coeur d'Alexandre ?</l>
+            <l n="567">Les autres éblouis de ses moindres exploits</l>
+            <l n="568">Sont venus à genoux lui demander des lois,</l>
+            <l n="569">Et leur crainte écoutant je ne sais quels oracles,</l>
+            <l n="570">Ils n'ont pas cru qu'un dieu pût trouver des obstacles. </l>
+            <l n="571">Mais nous, qui d'un autre oeil jugeons des conquérants,</l>
+            <l n="572">Nous savons que les dieux ne sont pas des tyrans ;</l>
+            <l n="573">Et de quelque façon qu'un esclave le nomme,</l>
+            <l n="574">Le fils de Jupiter passe ici pour un homme.</l>
+            <l n="575">Nous n'allons point de fleurs parfumer son chemin, </l>
+            <l n="576">Il nous trouve partout les armes à la main.</l>
+            <l n="577">Il voit à chaque pas arrêter ses conquêtes.</l>
+            <l n="578">Un seul rocher ici lui coûte plus de têtes,</l>
+            <l n="579">Plus de soins, plus d'assauts, et presque plus de temps</l>
+            <l n="580">Que n'en coûte à son bras l'empire des Persans. </l>
+            <l n="581">Ennemis du repos qui perdit ces infâmes,</l>
+            <l n="582">L'or qui naît sous nos pas, ne corrompt point nos âmes.</l>
+            <l n="583">La gloire est le seul bien qui nous puisse tenter,</l>
+            <l n="584">Et le seul que mon coeur cherche à lui disputer.</l>
+            <l n="585" part="I">C'est elle...</l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION, en se levant.</speaker>
+            <l n="585" part="F">Et c'est aussi ce que cherche Alexandre. </l>
+            <l n="586">À de moindres objets son coeur ne peut descendre.</l>
+            <l n="587">C'est ce qui l'arrachant du sein de ses États,</l>
+            <l n="588">Au trône de Cyrus lui fit porter ses pas,</l>
+            <l n="589">Et du plus ferme empire ébranlant les colonnes,</l>
+            <l n="590">Attaquer, conquérir, et donner les couronnes. </l>
+            <l n="591">Et puisque votre orgueil ose lui disputer</l>
+            <l n="592">La gloire du pardon qu'il vous fait présenter,</l>
+            <l n="593">Vos yeux dès aujourd'hui témoins de sa victoire,</l>
+            <l n="594">Verront de quelle ardeur il combat pour la gloire.</l>
+            <l n="595">Bientôt le fer en main vous le verrez marcher. </l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="596">Allez donc, je l'attends, ou je le vais chercher.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Porus, Taxile.</head>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="597">Quoi vous voulez au gré de votre impatience...</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="598">Non, je ne prétends point troubler votre alliance.</l>
+            <l n="599">Éphestion aigri seulement contre moi,</l>
+            <l n="600">De vos soumissions rendra compte à son roi. </l>
+            <l n="601">Les troupes d'Axiane à me suivre engagées</l>
+            <l n="602">Attendent le combat sous mes drapeaux rangées :</l>
+            <l n="603">De son trône et du mien je soutiendrai l'éclat,</l>
+            <l n="604">Et vous serez, Seigneur, le juge du combat.</l>
+            <l n="605">À moins que votre coeur animé d'un beau zèle</l>
+            <l n="606">De vos nouveaux amis n'embrasse la querelle.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Axiane, Porus, Taxile.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE, à Taxile.</speaker>
+            <l n="607">Ah ! que dit-on de vous, Seigneur ? Nos ennemis</l>
+            <l n="608">Se vantent que Taxile est à moitié soumis,</l>
+            <l n="609">Qu'il ne marchera point contre un roi qu'il respecte.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="610">La foi d'un ennemi doit être un peu suspecte, </l>
+            <l n="611">Madame, avec le temps ils me connaîtront mieux.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="612">Démentez-donc, Seigneur, ce bruit injurieux,</l>
+            <l n="613">De ceux qui l'ont semé confondez l'insolence.</l>
+            <l n="614">Allez comme Porus les forcer au silence,</l>
+            <l n="615">Et leur faire sentir par un juste courroux, </l>
+            <l n="616">Qu'ils n'ont point d'ennemi plus funeste que vous.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="617">Madame, je m'en vais disposer mon armée.</l>
+            <l n="618">Ecoutez moins ce bruit qui vous tient alarmée.</l>
+            <l n="619">Porus fait son devoir, et je ferai le mien.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Axiane, Porus.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="620">Cette sombre froideur ne m'en dit pourtant rien, </l>
+            <l n="621">Lâche, et ce n'est point là, pour me le faire croire,</l>
+            <l n="622">La démarche d'un roi qui court à la victoire.</l>
+            <l n="623">Il n'en faut plus douter. Et nous sommes trahis.</l>
+            <l n="624">Il immole à sa soeur sa gloire et son pays,</l>
+            <l n="625">Et sa haine, Seigneur, qui cherche à vous abattre</l>
+            <l n="626">Attend pour éclater que vous alliez combattre.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="627">Madame, en le perdant je perds un faible appui,</l>
+            <l n="628">Je le connaissais trop pour m'assurer sur lui.</l>
+            <l n="629">Mes yeux sans se troubler ont vu son inconstance.</l>
+            <l n="630">Je craignais beaucoup plus sa molle résistance. </l>
+            <l n="631">Un traître en nous quittant pour complaire à sa soeur,</l>
+            <l n="632">Nous affaiblit bien moins qu'un lâche défenseur.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="633">Et cependant, Seigneur, qu'allez-vous entreprendre ?</l>
+            <l n="634">Vous marchez sans compter les forces d'Alexandre.</l>
+            <l n="635">Et courant presque seul au-devant de leurs coups, </l>
+            <l n="636">Contre tant d'ennemis vous n'opposez que vous.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="637">Hé quoi ? Voudriez-vous qu'à l'exemple d'un traître,</l>
+            <l n="638">Ma frayeur conspirât à vous donner un maître ?</l>
+            <l n="639">Que Porus dans un camp se laissant arrêter,</l>
+            <l n="640">Refusât le combat qu'il vient de présenter ? </l>
+            <l n="641">Non, non, je n'en crois rien. Je connais mieux, Madame,</l>
+            <l n="642">Le beau feu que la gloire allume dans votre âme.</l>
+            <l n="643">C'est vous, je m'en souviens, dont les puissants appas</l>
+            <l n="644">Excitaient tous nos rois, les traînaient aux combats,</l>
+            <l n="645">Et de qui la fierté refusant de se rendre</l>
+            <l n="646">Ne voulait pour amant qu'un vainqueur d'Alexandre.</l>
+            <l n="647">Il faut vaincre, et j'y cours, bien moins pour éviter</l>
+            <l n="648">Le titre de captif, que pour le mériter.</l>
+            <l n="649">Oui, Madame, je vais dans l'ardeur qui m'entraîne</l>
+            <l n="650">Victorieux ou mort mériter votre chaîne. </l>
+            <l n="651">Et puisque mes soupirs s'expliquaient vainement</l>
+            <l n="652">À ce coeur que la gloire occupe seulement,</l>
+            <l n="653">Je m'en vais par l'éclat qu'une victoire donne</l>
+            <l n="654">Attacher de si près la gloire à ma personne,</l>
+            <l n="655">Que je pourrai peut-être amener votre coeur, </l>
+            <l n="656">De l'amour de la gloire à l'amour du vainqueur.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="657">Hé bien, Seigneur, allez. Taxile aura peut-être</l>
+            <l n="658">Des sujets dans son camp plus braves que leur maître.</l>
+            <l n="659">Je vais les exciter par un dernier effort.</l>
+            <l n="660">Après dans votre camp j'attendrai votre sort. </l>
+            <l n="661">Ne vous informez point de l'état de mon âme.</l>
+            <l n="662" part="I">Triomphez et vivez.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="662" part="F">Qu'attendez-vous, Madame ?</l>
+            <l n="663">Pourquoi dès ce moment ne puis-je pas savoir</l>
+            <l n="664">Si mes tristes soupirs ont pu vous émouvoir ?</l>
+            <l n="665">Voulez-vous (car le sort, adorable Axiane, </l>
+            <l n="666">À ne vous plus revoir peut-être me condamne)</l>
+            <l n="667">Voulez-vous qu'en mourant, un prince infortuné</l>
+            <l n="668">Ignore à quelle gloire il était destiné ?</l>
+            <l n="669" part="I">Parlez.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="669" part="M">Que vous dirai-je ?</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="669" part="F">Ah, divine Princesse,</l>
+            <l n="670">Si vous sentiez pour moi quelque heureuse faiblesse, </l>
+            <l n="671">Ce coeur qui me promet tant d'estime en ce jour</l>
+            <l n="672">Me pourrait bien encor promettre un peu d'amour.</l>
+            <l n="673">Contre tant de soupirs peut-il bien se défendre ?</l>
+            <l n="674" part="I">Peut-il...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="674" part="F">Allez, Seigneur, marchez contre Alexandre.</l>
+            <l n="675">La victoire est à vous, si ce fameux vainqueur</l>
+            <l n="676">Ne se défend pas mieux contre vous que mon coeur.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Axiane, Cléofile.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="677">Quoi, Madame, en ces lieux on me tient enfermée ?</l>
+            <l n="678">Je ne puis au combat voir marcher mon armée ?</l>
+            <l n="679">Et commençant par moi sa noire trahison,</l>
+            <l n="680">Taxile de son camp me fait une prison ? </l>
+            <l n="681">C'est donc là cette ardeur qu'il me faisait paraître ?</l>
+            <l n="682">Cet humble adorateur se déclare mon maître :</l>
+            <l n="683">Et déjà son amour lassé de ma rigueur</l>
+            <l n="684">Captive ma personne au défaut de mon coeur ?</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="685">Expliquez mieux les soins, et les justes alarmes</l>
+            <l n="686">D'un roi qui pour vainqueur ne connaît que vos charmes,</l>
+            <l n="687">Et regardez, Madame, avec plus de bonté</l>
+            <l n="688">L'ardeur qui l'intéresse à votre sûreté.</l>
+            <l n="689">Tandis qu'autour de nous deux puissantes armées</l>
+            <l n="690">D'une égale chaleur au combat animées, </l>
+            <l n="691">De leur fureur partout font voler les éclats,</l>
+            <l n="692">De quel autre côté conduiriez-vous vos pas ?</l>
+            <l n="693">Où pourriez-vous ailleurs éviter la tempête ?</l>
+            <l n="694">Un plein calme en ces lieux assure votre tête.</l>
+            <l n="695" part="I">Tout est tranquille...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="695" part="F">Et c'est cette tranquillité</l>
+            <l n="696">Dont je ne puis souffrir l'indigne sûreté.</l>
+            <l n="697">Quoi, lorsque mes sujets mourant dans une plaine,</l>
+            <l n="698">Sur les pas de Porus combattent pour leur reine,</l>
+            <l n="699">Qu'au prix de tout leur sang ils signalent leur foi,</l>
+            <l n="700">Que le cri des mourants vient presque jusqu'à moi, </l>
+            <l n="701">On me parle de paix ? Et le camp de Taxile</l>
+            <l n="702">Garde dans ce désordre une assiette tranquille ;</l>
+            <l n="703">On flatte ma douleur d'un calme injurieux,</l>
+            <l n="704">Sur des objets de joie on arrête mes yeux ?</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="705">Madame, voulez-vous que l'amour de mon frère</l>
+            <l n="706">Abandonne aux périls une tête si chère ?</l>
+            <l n="707" part="I">Il sait trop les hasards...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="707" part="F">Et pour m'en détourner</l>
+            <l n="708">Ce généreux amant me fait emprisonner ?</l>
+            <l n="709">Et tandis que pour moi son rival se hasarde,</l>
+            <l n="710">Sa paisible valeur me sert ici de garde ? </l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="711">Que Porus est heureux ! Le moindre éloignement</l>
+            <l n="712">À votre impatience est un cruel tourment.</l>
+            <l n="713">Et si l'on vous croyait, le soin qui vous travaille</l>
+            <l n="714">Vous le ferait chercher jusqu'au champ de bataille.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="715">Je ferais plus, Madame. Un mouvement si beau</l>
+            <l n="716">Me le ferait chercher jusque dans le tombeau,</l>
+            <l n="717">Perdre tous mes États, et voir d'un oeil tranquille</l>
+            <l n="718">Alexandre en payer le coeur de Cléofile.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="719">Si vous cherchez Porus, pourquoi m'abandonner ?</l>
+            <l n="720">Alexandre en ces lieux pourra le ramener. </l>
+            <l n="721">Permettez que veillant au soin de votre tête,</l>
+            <l n="722">À cet heureux amant l'on garde sa conquête.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="723">Vous triomphez, Madame, et déjà votre coeur</l>
+            <l n="724">Vole vers Alexandre, et le nomme vainqueur.</l>
+            <l n="725">Mais sur la seule foi d'un amour qui vous flatte, </l>
+            <l n="726">Peut-être avant le temps ce grand orgueil éclate.</l>
+            <l n="727">Vous poussez un peu loin vos voeux précipités,</l>
+            <l n="728">Et vous croyez trop tôt ce que vous souhaitez.</l>
+            <l n="729" part="I">Oui, oui...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="729" part="F">Mon frère vient, et nous allons apprendre</l>
+            <l n="730">Qui de nous deux, Madame, aura pu se méprendre. </l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="731">Ah ! Je n'en doute plus, et ce front satisfait</l>
+            <l n="732">Dit assez à mes yeux que Porus est défait.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Taxile, Axiane, Cléofile.</head>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="733">Madame, si Porus avec moins de colère</l>
+            <l n="734">Eût suivi les conseils d'une amitié sincère,</l>
+            <l n="735">Il m'aurait en effet épargné la douleur</l>
+            <l n="736">De vous venir moi-même annoncer son malheur.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="737" part="I">Quoi Porus...</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="737" part="F">C'en est fait. Et sa valeur trompée</l>
+            <l n="738">Des maux que j'ai prévus se voit enveloppée.</l>
+            <l n="739">Ce n'est pas (car mon coeur respectant sa vertu</l>
+            <l n="740">N'accable point encore un rival abattu) </l>
+            <l n="741">Ce n'est point que son bras disputant la victoire</l>
+            <l n="742">N'en ait aux ennemis ensanglanté la gloire ;</l>
+            <l n="743">Qu'elle-même attachée à ses faits éclatants</l>
+            <l n="744">Entre Alexandre et lui n'ait douté quelque temps.</l>
+            <l n="745">Mais enfin contre moi sa vaillance irritée</l>
+            <l n="746">Avec trop de chaleur s'était précipitée.</l>
+            <l n="747">J'ai vu ses bataillons rompus et renversés,</l>
+            <l n="748">Vos soldats en désordre, et les siens dispersés,</l>
+            <l n="749">Et lui-même à la fin entraîné dans leur fuite,</l>
+            <l n="750">Malgré lui du vainqueur éviter la poursuite, </l>
+            <l n="751">Et de son vain courroux trop tard désabusé,</l>
+            <l n="752">Souhaiter le secours qu'il avait refusé.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="753">Qu'il avait refusé ? Quoi donc ? Pour ta patrie,</l>
+            <l n="754">Ton indigne courage attend que l'on te prie ?</l>
+            <l n="755">Il faut donc malgré toi te traîner aux combats, </l>
+            <l n="756">Et te forcer toi-même à sauver tes États ?</l>
+            <l n="757">L'exemple de Porus, puisqu'il faut qu'on t'y porte,</l>
+            <l n="758">Dis-moi, n'était-ce pas une voix assez forte ?</l>
+            <l n="759">Ce héros en péril, ta maîtresse en danger,</l>
+            <l n="760">Tout l'État périssant n'a pu t'encourager ? </l>
+            <l n="761">Va, tu sers bien le maître à qui ta soeur te donne.</l>
+            <l n="762">Achève, et fais de moi ce que sa haine ordonne.</l>
+            <l n="763">Garde à tous les vaincus un traitement égal,</l>
+            <l n="764">Enchaîne ta maîtresse en livrant ton rival.</l>
+            <l n="765">Aussi bien, c'en est fait. Sa disgrâce, et ton crime</l>
+            <l n="766">Ont placé dans mon coeur ce héros magnanime.</l>
+            <l n="767">Je l'adore, et je veux avant la fin du jour</l>
+            <l n="768">Déclarer à la fois ma haine, et mon amour,</l>
+            <l n="769">Lui vouer à tes yeux une amitié fidèle,</l>
+            <l n="770">Et te jurer aux siens une haine immortelle. </l>
+            <l n="771">Adieu, tu me connais. Aime-moi si tu veux.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="772">Ah ! N'espérez de moi que de sincères voeux,</l>
+            <l n="773">Madame, n'attendez ni menaces ni chaînes,</l>
+            <l n="774">Alexandre sait mieux ce qu'on doit à des reines.</l>
+            <l n="775">Souffrez que sa douceur vous oblige à garder</l>
+            <l n="776">Un trône que Porus devait moins hasarder ;</l>
+            <l n="777">Et moi-même en aveugle on me verrait combattre</l>
+            <l n="778">La sacrilège main qui le voudrait abattre.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="779">Quoi par l'un de vous deux mon sceptre raffermi,</l>
+            <l n="780">Deviendrait dans mes mains le don d'un ennemi ? </l>
+            <l n="781">Et sur mon propre trône on me verrait placée</l>
+            <l n="782">Par le même tyran qui m'en aurait chassée ?</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="783">Des reines et des rois vaincus par sa valeur,</l>
+            <l n="784">Ont laissé par ses soins adoucir leur malheur.</l>
+            <l n="785">Voyez de Darius et la femme et la mère, </l>
+            <l n="786">L'une le traite en fils, l'autre le traite en frère.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="787">Non, non, je ne sais point vendre mon amitié,</l>
+            <l n="788">Caresser un tyran, et régner par pitié.</l>
+            <l n="789">Penses-tu que j'imite une faible Persane ?</l>
+            <l n="790">Qu'à la cour d'Alexandre on retienne Axiane ? </l>
+            <l n="791">Et qu'avec mon vainqueur courant tout l'univers,</l>
+            <l n="792">J'aille vanter partout la douceur de ses fers ?</l>
+            <l n="793">S'il donne les États, qu'il te donne les nôtres.</l>
+            <l n="794">Qu'il te pare, s'il veut, des dépouilles des autres.</l>
+            <l n="795">Règne, Porus ni moi n'en serons point jaloux. </l>
+            <l n="796">Et tu seras encor plus esclave que nous.</l>
+            <l n="797">J'espère qu'Alexandre amoureux de sa gloire,</l>
+            <l n="798">Et fâché que ton crime ait souillé sa victoire,</l>
+            <l n="799">S'en lavera bientôt par ton propre trépas.</l>
+            <l n="800">Des traîtres comme toi font souvent des ingrats ; </l>
+            <l n="801">Et de quelques faveurs que sa main t'éblouisse,</l>
+            <note>Bessus : Satrape qui livra et assassina son empereur Darius pour complaire à Alexandre. Ce dernier fit supplicier Brassus, n'acceptant pas une victoire obtenue par trahison.</note>
+            <l n="802">Du perfide Bessus regarde le supplice.</l>
+            <l n="803" part="I">Adieu.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Taxile, Cléofile.</head>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="803" part="F">Cédez, mon frère, à ce bouillant transport.</l>
+            <l n="804">Alexandre et le temps vous rendront le plus fort.</l>
+            <l n="805">Et cet âpre courroux, quoi qu'elle en puisse dire, </l>
+            <l n="806">Ne s'obstinera point au refus d'un empire.</l>
+            <l n="807">Maître de ses destins, vous l'êtes de son coeur.</l>
+            <l n="808">Mais dites-moi, vos yeux ont-ils vu le vainqueur ? </l>
+            <l n="809">Quel traitement, mon frère, en devons-nous attendre ?</l>
+            <l n="810" part="I">Qu'a-t-il dit ?</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="810" part="F">Oui, ma soeur, j'ai vu votre Alexandre. </l>
+            <l n="811">D'abord ce jeune éclat, qu'on remarque en ses traits,</l>
+            <l n="812">M'a semblé démentir le nombre de ses faits.</l>
+            <l n="813">Mon coeur plein de son nom n'osait, je le confesse,</l>
+            <l n="814">Accorder tant de gloire avec tant de jeunesse.</l>
+            <l n="815">Mais de ce même front l'héroïque fierté, </l>
+            <l n="816">Le feu de ses regards, sa haute majesté</l>
+            <l n="817">Font connaître Alexandre. Et certes son visage</l>
+            <l n="818">Porte de sa grandeur l'infaillible présage ;</l>
+            <l n="819">Et sa présence auguste appuyant ses projets</l>
+            <l n="820">Ses yeux comme son bras font partout des sujets. </l>
+            <l n="821">Il sortait du combat. Ébloui de sa gloire</l>
+            <l n="822">Je croyais dans ses yeux voir briller la Victoire.</l>
+            <l n="823">Toutefois à ma vue oubliant sa fierté,</l>
+            <l n="824">Il a fait à son tour éclater sa bonté.</l>
+            <l n="825">Ses transports ne m'ont point déguisé sa tendresse. </l>
+            <l n="826">Retournez, m'a-t-il dit, auprès de la princesse,</l>
+            <l n="827">Disposez ses beaux yeux à revoir un vainqueur</l>
+            <l n="828">Qui va mettre à ses pieds sa victoire et son coeur.</l>
+            <l n="829">Il marche sur mes pas. Je n'ai rien à vous dire,</l>
+            <l n="830">Ma soeur, de votre sort je vous laisse l'empire, </l>
+            <l n="831">Je vous confie encor la conduite du mien.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="832">Vous aurez tout pouvoir, ou je ne pourrai rien.</l>
+            <l n="833">Tout va vous obéir, si le vainqueur m'écoute.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="834">Je vais donc... Mais on vient. C'est lui-même sans doute.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Alexandre, Taxile, Cléofile, Éphestion, Suite d'Alexandre.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="835">Allez, Éphestion. Que l'on cherche Porus, </l>
+            <l n="836">Qu'on épargne sa vie, et le sang des vaincus. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Alexandre, Taxile, Cléofile.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE, à Taxile.</speaker>
+            <l n="837">Seigneur, est-il donc vrai qu'une reine aveuglée</l>
+            <l n="838">Vous préfère d'un roi la valeur déréglée ?</l>
+            <l n="839">Mais ne le craignez point. Son empire est à vous.</l>
+            <l n="840">D'une ingrate à ce prix fléchissez le courroux. </l>
+            <l n="841">Maître de deux États, arbitre des siens mêmes,</l>
+            <l n="842">Allez avec vos voeux offrir trois diadèmes.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="843">Ah ! C'en est trop, Seigneur, prodiguez un peu moins...</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="844">Vous pourrez à loisir reconnaître mes soins.</l>
+            <l n="845">Ne tardez point. Allez où l'amour vous appelle, </l>
+            <l n="846">Et couronnez vos feux d'une palme si belle.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Alexandre, Cléofile.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="847">Madame, à son amour je promets mon appui.</l>
+            <l n="848">Ne puis-je rien pour moi quand je puis tout pour lui ?</l>
+            <l n="849">Si prodigue envers lui des fruits de la victoire,</l>
+            <l n="850">N'en aurai-je pour moi qu'une stérile gloire ? </l>
+            <l n="851">Les sceptres devant vous ou rendus ou donnés,</l>
+            <l n="852">De mes propres lauriers mes amis couronnés,</l>
+            <l n="853">Les biens que j'ai conquis répandus sur leurs têtes,</l>
+            <l n="854">Font voir que je soupire après d'autres conquêtes.</l>
+            <l n="855">Je vous avais promis que l'effort de mon bras</l>
+            <l n="856">M'approcherait bientôt de vos divins appas ;</l>
+            <l n="857">Mais dans ce même temps, souvenez-vous, Madame,</l>
+            <l n="858">Que vous me promettiez quelque place en votre âme.</l>
+            <l n="859">Je suis venu. L'amour a combattu pour moi.</l>
+            <l n="860">La Victoire elle-même a dégagé ma foi. </l>
+            <l n="861">Tout cède autour de vous. C'est à vous de vous rendre,</l>
+            <l n="862">Votre coeur l'a promis, voudra-t-il s'en défendre ?</l>
+            <l n="863">Et lui seul pourrait-il échapper aujourd'hui</l>
+            <l n="864">À l'ardeur d'un vainqueur qui ne cherche que lui ?</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="865">Non, je ne prétends pas que ce coeur inflexible</l>
+            <l n="866">Garde seul contre vous le titre d'invincible.</l>
+            <l n="867">Je rends ce que je dois à l'éclat des vertus</l>
+            <l n="868">Qui tiennent sous vos pieds cent peuples abattus.</l>
+            <l n="869">Les Indiens domptés sont vos moindres ouvrages.</l>
+            <l n="870">Vous inspirez la crainte aux plus fermes courages. </l>
+            <l n="871">Et quand vous le voudrez, vos bontés à leur tour</l>
+            <l n="872">Dans les coeurs les plus durs inspireront l'amour.</l>
+            <l n="873">Mais, Seigneur, cet éclat, ces victoires, ces charmes,</l>
+            <l n="874">Me troublent bien souvent par de justes alarmes.</l>
+            <l n="875">Je crains que satisfait d'avoir conquis un coeur, </l>
+            <l n="876">Vous ne l'abandonniez à sa triste langueur ;</l>
+            <l n="877">Qu'insensible à l'ardeur que vous aurez causée,</l>
+            <l n="878">Votre âme ne dédaigne une conquête aisée.</l>
+            <l n="879">On attend peu d'amour d'un héros tel que vous.</l>
+            <l n="880">La gloire fit toujours vos transports les plus doux. </l>
+            <l n="881">Et peut-être, au moment que ce grand coeur soupire,</l>
+            <l n="882">La gloire de me vaincre est tout ce qu'il désire.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="883">Que vous connaissez mal les violents désirs</l>
+            <l n="884">D'un amour qui vers vous porte tous mes soupirs !</l>
+            <l n="885">J'avouerai qu'autrefois au milieu d'une armée</l>
+            <l n="886">Mon coeur ne soupirait que pour la Renommée,</l>
+            <l n="887">Les peuples et les rois devenus mes sujets,</l>
+            <l n="888">Étaient seuls à mes voeux d'assez dignes objets,</l>
+            <l n="889">Les beautés de la Perse à mes yeux présentées</l>
+            <l n="890">Aussi bien que ses rois ont paru surmontées. </l>
+            <l n="891">Mon coeur d'un fier mépris armé contre leurs traits,</l>
+            <l n="892">N'a pas du moindre hommage honoré leurs attraits.</l>
+            <l n="893">Amoureux de la gloire, et partout invincible,</l>
+            <l n="894">Il mettait son bonheur à paraître insensible.</l>
+            <l n="895">Mais hélas, que vos yeux ces aimables tyrans, </l>
+            <l n="896">Ont produit sur mon coeur des effets différents !</l>
+            <l n="897">Ce grand nom de vainqueur n'est plus ce qu'il souhaite,</l>
+            <l n="898">Il vient avec plaisir avouer sa défaite,</l>
+            <l n="899">Heureux ! Si votre coeur se laissant émouvoir,</l>
+            <l n="900">Vos beaux yeux à leur tour avouaient leur pouvoir. </l>
+            <l n="901">Voulez-vous donc toujours douter de leur victoire ;</l>
+            <l n="902">Toujours de mes exploits me reprocher la gloire ?</l>
+            <l n="903">Comme si les beaux noeuds où vous me tenez pris,</l>
+            <l n="904">Ne devaient arrêter que de faibles esprits.</l>
+            <l n="905">Par des faits tout nouveaux, je m'en vais vous apprendre</l>
+            <l n="906">Tout ce que peut l'amour sur le coeur d'Alexandre.</l>
+            <l n="907">Maintenant que mon bras engagé sous vos lois</l>
+            <l n="908">Doit soutenir mon nom et le vôtre à la fois,</l>
+            <l n="909">J'irai rendre fameux par l'éclat de la guerre</l>
+            <l n="910">Des peuples inconnus au reste de la terre, </l>
+            <l n="911">Et vous faire dresser des autels en des lieux</l>
+            <l n="912">Où leurs sauvages mains en refusent aux dieux.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="913">Oui, vous y traînerez la victoire captive,</l>
+            <l n="914">Mais je doute, Seigneur, que l'amour vous y suive ;</l>
+            <l n="915">Tant d'États, tant de mers qui vont nous désunir, </l>
+            <l n="916">M'effaceront bientôt de votre souvenir.</l>
+            <l n="917">Quand l'Océan troublé vous verra sur son onde,</l>
+            <l n="918">Achever quelque jour la conquête du monde ;</l>
+            <l n="919">Quand vous verrez les rois tomber à vos genoux,</l>
+            <l n="920">Et la terre en tremblant se taire devant vous, </l>
+            <l n="921">Songerez-vous, Seigneur, qu'une jeune princesse,</l>
+            <l n="922">Au fond de ses États vous regrette sans cesse,</l>
+            <l n="923">Et rappelle en son coeur les moments bienheureux</l>
+            <l n="924">Où ce grand conquérant l'assurait de ses feux ?</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="925">Hé quoi ? Vous croyez donc qu'à moi-même barbare</l>
+            <l n="926">J'abandonne en ces lieux une beauté si rare ?</l>
+            <l n="927">Mais vous-même plutôt voulez-vous renoncer</l>
+            <l n="928">Au trône de l'Asie où je vous veux placer ?</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="929">Seigneur, vous le savez, je dépends de mon frère.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="930">Ah ! S'il disposait seul du bonheur que j'espère, </l>
+            <l n="931">Tout l'empire de l'Inde asservi sous ses lois</l>
+            <l n="932">Bientôt en ma faveur irait briguer son choix.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="933">Mon amitié pour lui n'est point intéressée.</l>
+            <l n="934">Apaisez seulement une reine offensée,</l>
+            <l n="935">Et ne permettez pas qu'un rival aujourd'hui</l>
+            <l n="936">Pour vous avoir bravé soit plus heureux que lui.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="937">Porus était sans doute un rival magnanime,</l>
+            <l n="938">Jamais tant de valeur n'attira mon estime.</l>
+            <l n="939">Dans l'ardeur du combat je l'ai vu, je l'ai joint,</l>
+            <l n="940">Et je puis dire encor qu'il ne m'évitait point. </l>
+            <l n="941">Nous nous cherchions l'un l'autre. Une fierté si belle</l>
+            <l n="942">Allait entre nous deux finir notre querelle,</l>
+            <l n="943">Lorsqu'un gros de soldats se jetant entre nous</l>
+            <l n="944">Nous a fait dans la foule ensevelir nos coups.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Alexandre, Cléofile, Éphestion.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="945">Hé bien ramène-t-on ce prince téméraire ? </l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="946">On le cherche partout. Mais quoi qu'on puisse faire,</l>
+            <l n="947">Seigneur, jusques ici sa fuite ou son trépas</l>
+            <l n="948">Dérobe ce captif au soin de vos soldats.</l>
+            <l n="949">Mais un reste des siens entourés dans leur fuite,</l>
+            <l n="950">Et du soldat vainqueur arrêtant la poursuite, </l>
+            <l n="951">À nous vendre leur mort semblent se préparer.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="952">Désarmez les vaincus sans les désespérer.</l>
+            <l n="953">Madame, allons fléchir une fière princesse,</l>
+            <l n="954">Afin qu'à mon amour Taxile s'intéresse ;</l>
+            <l n="955">Et puisque mon repos doit dépendre du sien, </l>
+            <l n="956">Achevons son bonheur pour établir le mien.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE, seule.</speaker>
+            <l n="957">N'entendrons-nous jamais que des cris de victoire,</l>
+            <l n="958">Qui de mes ennemis me reprochent la gloire ?</l>
+            <l n="959">Et ne pourrai-je au moins en de si grands malheurs</l>
+            <l n="960">M'entretenir moi seule avecque mes douleurs ? </l>
+            <l n="961">D'un odieux amant sans cesse poursuivie,</l>
+            <l n="962">On prétend malgré moi m'attacher à la vie.</l>
+            <l n="963">On m'observe, on me suit. Mais, Porus, ne crois pas</l>
+            <l n="964">Qu'on me puisse empêcher de courir sur tes pas.</l>
+            <l n="965">Sans doute à nos malheurs ton coeur n'a pu survivre, </l>
+            <l n="966">En vain tant de soldats s'arment pour te poursuivre,</l>
+            <l n="967">On te découvrirait au bruit de tes efforts,</l>
+            <l n="968">Et s'il te faut chercher ce n'est qu'entre les morts.</l>
+            <l n="969">Hélas ! En me quittant, ton ardeur redoublée</l>
+            <l n="970">Semblait prévoir les maux dont je suis accablée, </l>
+            <l n="971">Lorsque tes yeux aux miens découvrant ta langueur,</l>
+            <l n="972">Me demandaient quel rang tu tenais dans mon coeur ;</l>
+            <l n="973">Que sans t'inquiéter du succès de tes armes</l>
+            <l n="974">Le soin de ton amour te causait tant d'alarmes.</l>
+            <l n="975">Et pourquoi te cachais-je avec tant de détours</l>
+            <l n="976">Un secret si fatal au repos de tes jours ?</l>
+            <l n="977">Combien de fois tes yeux forçant ma résistance</l>
+            <l n="978">Mon coeur s'est-il vu prêt de rompre le silence ?</l>
+            <l n="979">Combien de fois sensible à tes ardents désirs</l>
+            <l n="980">M'est-il en ta présence échappé des soupirs ? </l>
+            <l n="981">Mais je voulais encor douter de ta victoire.</l>
+            <l n="982">J'expliquais mes soupirs en faveur de la gloire,</l>
+            <l n="983">Je croyais n'aimer qu'elle. Ah ! Pardonne, grand Roi,</l>
+            <l n="984">Je sens bien aujourd'hui que je n'aimais que toi.</l>
+            <l n="985">J'avouerai que la gloire eut sur moi quelque empire. </l>
+            <l n="986">Je te l'ai dit cent fois. Mais je devais te dire</l>
+            <l n="987">Que toi seul en effet m'engageas sous ses lois.</l>
+            <l n="988">J'appris à la connaître en voyant tes exploits;</l>
+            <l n="989">Et de quelque beau feu qu'elle m'eût enflammée,</l>
+            <l n="990">En un autre que toi je l'aurais moins aimée. </l>
+            <l n="991">Mais que sert de pousser des soupirs superflus,</l>
+            <l n="992">Qui se perdent en l'air et que tu n'entends plus ?</l>
+            <l n="993">Il est temps que mon âme au tombeau descendue,</l>
+            <l n="994">Te jure une amitié si longtemps attendue.</l>
+            <l n="995">Il est temps que mon coeur pour gage de sa foi</l>
+            <l n="996">Montre qu'il n'a pu vivre un moment après toi.</l>
+            <l n="997">Aussi bien penses-tu que je voulusse vivre</l>
+            <l n="998">Sous les lois d'un vainqueur à qui ta mort nous livre ?</l>
+            <l n="999">Je sais qu'il se dispose à me venir parler,</l>
+            <l n="1000">Qu'en me rendant mon sceptre il veut me consoler. </l>
+            <l n="1001">Il croit peut-être, il croit que ma haine étouffée</l>
+            <l n="1002">À sa fausse douceur servira de trophée.</l>
+            <l n="1003">Qu'il vienne. Il me verra toujours digne de toi</l>
+            <l n="1004">Mourir en reine ainsi que tu mourus en roi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Alexandre, Axiane.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1005">Hé bien, Seigneur, hé bien, trouvez-vous quelques charmes</l>
+            <l n="1006">À voir couler des pleurs que font verser vos armes ?</l>
+            <l n="1007">Ou si vous m'enviez en l'état où je suis,</l>
+            <l n="1008">La triste liberté de pleurer mes ennuis ?</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1009">Votre douleur est libre, autant que légitime.</l>
+            <l n="1010">Vous regrettez, Madame, un prince magnanime. </l>
+            <l n="1011">Je fus son ennemi. Mais je ne l'étais pas</l>
+            <l n="1012">Jusqu'à blâmer les pleurs qu'on donne à son trépas.</l>
+            <l n="1013">Avant que sur ses bords l'Inde me vît paraître,</l>
+            <l n="1014">L'éclat de sa vertu me l'avait fait connaître.</l>
+            <l n="1015">Entre les plus grands rois il se fit remarquer, </l>
+            <l n="1016" part="I">Je savais...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1016" part="F">Pourquoi donc le venir attaquer ?</l>
+            <l n="1017">Par quelle loi faut-il qu'aux deux bouts de la terre</l>
+            <l n="1018">Vous cherchiez la vertu pour lui faire la guerre ?</l>
+            <l n="1019">Le mérite à vos yeux ne peut-il éclater</l>
+            <l n="1020">Sans pousser votre orgueil à le persécuter ? </l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1021">Oui, j'ai cherché Porus. Mais quoi qu'on puisse dire,</l>
+            <l n="1022">Je ne le cherchais pas afin de le détruire.</l>
+            <l n="1023">J'avouerai que brûlant de signaler mon bras</l>
+            <l n="1024">Je me laissai conduire au bruit de ses combats,</l>
+            <l n="1025">Et qu'au seul nom d'un roi jusqu'alors invincible, </l>
+            <l n="1026">À de nouveaux exploits mon coeur devint sensible.</l>
+            <l n="1027">Tandis que je croyais par mes combats divers</l>
+            <l n="1028">Attacher sur moi seul les yeux de l'univers,</l>
+            <l n="1029">J'ai vu de ce guerrier la valeur répandue</l>
+            <l n="1030">Tenir la Renommée entre nous suspendue, </l>
+            <l n="1031">Et voyant de son bras voler partout l'effroi,</l>
+            <l n="1032">L'Inde sembla m'ouvrir un champ digne de moi.</l>
+            <l n="1033">Lassé de voir des rois vaincus sans résistance,</l>
+            <l n="1034">J'appris avec plaisir le bruit de sa vaillance :</l>
+            <l n="1035">Un ennemi si noble a su m'encourager, </l>
+            <l n="1036">Je suis venu chercher la gloire et le danger.</l>
+            <l n="1037">Son courage, Madame, a passé mon attente.</l>
+            <l n="1038">La Victoire à me suivre autrefois si constante</l>
+            <l n="1039">M'a presque abandonné pour suivre vos guerriers.</l>
+            <l n="1040">Porus m'a disputé jusqu'aux moindres lauriers. </l>
+            <l n="1041">Et j'ose dire encor qu'en perdant la victoire,</l>
+            <l n="1042">Mon ennemi lui-même a vu croître sa gloire,</l>
+            <l n="1043">Qu'une chute si belle élève sa vertu,</l>
+            <l n="1044">Et qu'il ne voudrait pas n'avoir point combattu.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1045">Hélas ! Il fallait bien qu'une si noble envie</l>
+            <l n="1046">Lui fît abandonner tout le soin de sa vie,</l>
+            <l n="1047">Puisque de toutes parts trahi, persécuté,</l>
+            <l n="1048">Contre tant d'ennemis il s'est précipité.</l>
+            <l n="1049">Mais vous, s'il était vrai que son ardeur guerrière</l>
+            <l n="1050">Eût ouvert à la vôtre une illustre carrière, </l>
+            <l n="1051">Que n'avez-vous, Seigneur, dignement combattu ?</l>
+            <l n="1052">Fallait-il par la ruse attaquer sa vertu ?</l>
+            <l n="1053">Et loin de remporter une gloire parfaite,</l>
+            <l n="1054">D'un autre que de vous attendre sa défaite ?</l>
+            <l n="1055">Triomphez. Mais sachez que Taxile en son coeur</l>
+            <l n="1056">Vous dispute déjà ce beau nom de vainqueur ;</l>
+            <l n="1057">Que le traître se flatte avec quelque justice</l>
+            <l n="1058">Que vous n'avez vaincu que par son artifice.</l>
+            <l n="1059">Et c'est à ma douleur un spectacle assez doux</l>
+            <l n="1060">De le voir partager cette gloire avec vous. </l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1061">En vain votre douleur s'arme contre ma gloire.</l>
+            <l n="1062">Jamais on ne m'a vu dérober la victoire,</l>
+            <l n="1063">Et par ces lâches soins qu'on ne peut m'imputer,</l>
+            <l n="1064">Tromper mes ennemis au lieu de les dompter.</l>
+            <l n="1065">Quoique partout ce semble accablé sous le nombre, </l>
+            <l n="1066">Je n'ai pu me résoudre à me cacher dans l'ombre ;</l>
+            <l n="1067">Ils n'ont de leur défaite accusé que mon bras,</l>
+            <l n="1068">Et le jour a partout éclairé mes combats.</l>
+            <l n="1069">Il est vrai que je plains le sort de vos provinces,</l>
+            <l n="1070">J'ai voulu prévenir la perte de vos princes. </l>
+            <l n="1071">Mais s'ils avaient suivi mes conseils et mes voeux,</l>
+            <l n="1072">Je les aurais sauvés, ou combattu tous deux.</l>
+            <l n="1073" part="I">Oui croyez...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1073" part="F">Je crois tout. Je vous crois invincible ;</l>
+            <l n="1074">Mais, Seigneur, suffit-il que tout vous soit possible ?</l>
+            <l n="1075">Ne tient-il qu'à jeter tant de rois dans les fers ? </l>
+            <l n="1076">Qu'à faire impunément gémir tout l'univers ?</l>
+            <l n="1077">Et que vous avaient fait tant de villes captives,</l>
+            <l n="1078">Tant de morts dont l'Hydaspe a vu couvrir ses rives ?</l>
+            <l n="1079">Qu'ai-je fait, pour venir accabler en ces lieux</l>
+            <l n="1080">Un héros sur qui seul j'ai pu tourner les yeux ? </l>
+            <l n="1081">A-t-il de votre Grèce inondé les frontières ?</l>
+            <l n="1082">Avons-nous soulevé des nations entières,</l>
+            <l n="1083">Et contre votre gloire excité leur courroux ? </l>
+            <l n="1084">Hélas ! Nous l'admirions sans en être jaloux.</l>
+            <l n="1085">Contents de nos États, et charmés l'un de l'autre</l>
+            <l n="1086">Nous attendions un sort plus heureux que le vôtre.</l>
+            <l n="1087">Porus bornait ses voeux à conquérir un coeur,</l>
+            <l n="1088">Qui peut-être aujourd'hui l'eût nommé son vainqueur.</l>
+            <l n="1089">Ah ! N'eussiez-vous versé qu'un sang si magnanime,</l>
+            <l n="1090">Quand on ne vous pourrait reprocher que ce crime, </l>
+            <l n="1091">Ne vous sentez-vous pas, Seigneur, bien malheureux,</l>
+            <l n="1092">D'être venu si loin rompre de si beaux noeuds ?</l>
+            <l n="1093">Non, de quelque douceur que se flatte votre âme,</l>
+            <l n="1094" part="I">Vous n'êtes qu'un tyran.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1094" part="F">Je le vois bien, Madame,</l>
+            <l n="1095">Vous voulez que saisi d'un indigne courroux</l>
+            <l n="1096">En reproches honteux j'éclate contre vous.</l>
+            <l n="1097">Peut-être espérez-vous, que ma douceur lassée</l>
+            <l n="1098">Donnera quelque atteinte à sa gloire passée.</l>
+            <l n="1099">Mais quand votre vertu ne m'aurait point charmé,</l>
+            <l n="1100">Vous attaquez, Madame, un vainqueur désarmé. </l>
+            <l n="1101">Mon âme malgré vous à vous plaindre engagée</l>
+            <l n="1102">Respecte le malheur où vous êtes plongée.</l>
+            <l n="1103">C'est ce trouble fatal qui vous ferme les yeux,</l>
+            <l n="1104">Qui ne regarde en moi qu'un tyran odieux.</l>
+            <l n="1105">Sans lui vous avoueriez que le sang et les larmes</l>
+            <l n="1106">N'ont pas toujours souillé la gloire de mes armes</l>
+            <l n="1107" part="I">Vous verriez...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1107" part="F">Ah, Seigneur, puis-je ne les point voir</l>
+            <l n="1108">Ces vertus dont l'éclat aigrit mon désespoir ?</l>
+            <l n="1109">N'ai-je pas vu partout la victoire modeste</l>
+            <l n="1110">Perdre avec vous l'orgueil qui la rend si funeste ? </l>
+            <l n="1111">Ne vois-je pas le Scythe et le Perse abattus</l>
+            <l n="1112">Se plaire sous le joug et vanter vos vertus,</l>
+            <l n="1113">Et disputer enfin par une aveugle envie,</l>
+            <l n="1114">À vos propres sujets le soin de votre vie ?</l>
+            <l n="1115">Mais que sert à ce coeur que vous persécutez</l>
+            <l n="1116">De voir partout ailleurs adorer vos bontés ?</l>
+            <l n="1117">Pensez-vous que ma haine en soit moins violente</l>
+            <l n="1118">Pour voir baiser partout la main qui me tourmente ?</l>
+            <l n="1119">Tant de rois par vos soins vengés ou secourus,</l>
+            <l n="1120">Tant de peuples contents, me rendent-ils Porus ?</l>
+            <l n="1121">Non, Seigneur, je vous hais d'autant plus qu'on vous aime,</l>
+            <l n="1122">D'autant plus qu'il me faut vous admirer moi-même,</l>
+            <l n="1123">Que l'univers entier m'en impose la loi,</l>
+            <l n="1124">Et que personne enfin ne vous hait avec moi.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1125">J'excuse les transports d'une amitié si tendre. </l>
+            <l n="1126">Mais, Madame, après tout ils doivent me surprendre.</l>
+            <l n="1127">Si la commune voix ne m'a point abusé,</l>
+            <l n="1128">Porus d'aucun regard ne fut favorisé.</l>
+            <l n="1129">Entre Taxile et lui votre coeur en balance,</l>
+            <l n="1130">Tant qu'ont duré ses jours a gardé le silence. </l>
+            <l n="1131">Et lorsqu'il ne peut plus vous entendre aujourd'hui,</l>
+            <l n="1132">Vous commencez, Madame, à prononcer pour lui ?</l>
+            <l n="1133">Pensez-vous que sensible à cette ardeur nouvelle,</l>
+            <l n="1134">Sa cendre exige encor que vous brûliez pour elle ?</l>
+            <l n="1135">Ne vous accablez point d'inutiles douleurs. </l>
+            <l n="1136">Des soins plus importants vous appellent ailleurs.</l>
+            <l n="1137">Vos larmes ont assez honoré sa mémoire.</l>
+            <l n="1138">Régnez, et de ce rang soutenez mieux la gloire ;</l>
+            <l n="1139">Et redonnant le calme à vos sens désolés,</l>
+            <l n="1140">Rassurez vos États par sa chute ébranlés. </l>
+            <l n="1141">Parmi tant de grands rois choisissez-leur un maître.</l>
+            <l n="1142" part="I">Plus ardent que jamais Taxile...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1142" part="F">Quoi le traître ?</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1143">Hé ! De grâce prenez des sentiments plus doux,</l>
+            <l n="1144">Aucune trahison ne le souille envers vous.</l>
+            <l n="1145">Maître de ses États il a pu se résoudre</l>
+            <l n="1146">À se mettre avec eux à couvert de la foudre.</l>
+            <l n="1147">Ni serment, ni devoir ne l'avaient engagé</l>
+            <l n="1148">À courir dans l'abîme où Porus s'est plongé.</l>
+            <l n="1149">Enfin souvenez-vous qu'Alexandre lui-même</l>
+            <l n="1150">S'intéresse au bonheur d'un prince qui vous aime. </l>
+            <l n="1151">Songez que réunis par un si juste choix</l>
+            <l n="1152">L'Inde et l'Hydaspe entiers couleront sous vos lois,</l>
+            <l n="1153">Que pour vos intérêts tout me sera facile</l>
+            <l n="1154">Quand je les verrai joints avec ceux de Taxile.</l>
+            <l n="1155">Il vient. Je ne veux point contraindre ses soupirs. </l>
+            <l n="1156">Je le laisse lui-même expliquer ses désirs.</l>
+            <l n="1157">Ma présence à vos yeux n'est déjà que trop rude.</l>
+            <l n="1158">L'entretien des amants cherche la solitude.</l>
+            <l n="1159" part="I">Je ne vous trouble point.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Axiane, Taxile.</head>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1159" part="F">Approche, puissant roi,</l>
+            <l n="1160">Grand monarque de l'Inde, on parle ici de toi. </l>
+            <l n="1161">On veut en ta faveur combattre ma colère.</l>
+            <l n="1162">On dit que tes désirs n'aspirent qu'à me plaire,</l>
+            <l n="1163">Que mes rigueurs ne font qu'affermir ton amour.</l>
+            <l n="1164">On fait plus, et l'on veut que je t'aime à mon tour.</l>
+            <l n="1165">Mais sais-tu l'entreprise où s'engage ta flamme ? </l>
+            <l n="1166">Sais-tu par quels secrets on peut toucher mon âme ?</l>
+            <l n="1167" part="I">Es-tu prêt...</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="1167" part="F">Ah Madame, éprouvez seulement</l>
+            <l n="1168">Ce que peut sur mon coeur un espoir si charmant.</l>
+            <l n="1169" part="I">Que faut-il faire ?</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1169" part="F">Il faut, s'il est vrai que l'on m'aime,</l>
+            <l n="1170">Aimer la gloire, autant que je l'aime moi-même, </l>
+            <l n="1171">Ne m'expliquer ses voeux que par mille beaux faits, </l>
+            <l n="1172">Et haïr Alexandre autant que je le hais.</l>
+            <l n="1173">Il faut marcher sans crainte au milieu des alarmes,</l>
+            <l n="1174">Il faut combattre, vaincre, ou périr sous les armes.</l>
+            <l n="1175">Jette, jette les yeux sur Porus et sur toi, </l>
+            <l n="1176">Et juge qui des deux était digne de moi. </l>
+            <l n="1177">Oui, Taxile, mon coeur douteux en apparence,</l>
+            <l n="1178">D'un esclave, et d'un roi faisait la différence.</l>
+            <l n="1179">Je l'aimai, je l'adore. Et puisqu'un sort jaloux</l>
+            <l n="1180">Lui défend de jouir d'un spectacle si doux, </l>
+            <l n="1181">C'est toi que je choisis pour témoin de sa gloire, </l>
+            <l n="1182">Mes pleurs feront toujours revivre sa mémoire,</l>
+            <l n="1183">Toujours tu me verras au fort de mon ennui,</l>
+            <l n="1184">Mettre tout mon plaisir à te parler de lui.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="1185">Ainsi je brûle en vain pour une âme glacée ? </l>
+            <l n="1186">L'image de Porus n'en peut être effacée, </l>
+            <l n="1187">Quand j'irais pour vous plaire affronter le trépas,</l>
+            <l n="1188">Je me perdrais, Madame, et ne vous plairais pas.</l>
+            <l n="1189" part="I">Je ne puis donc...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1189" part="F">Tu peux recouvrer mon estime.</l>
+            <l n="1190">Dans le sang ennemi tu peux laver ton crime. </l>
+            <l n="1191">L'occasion te rit, Porus dans le tombeau</l>
+            <l n="1192">Rassemble ses soldats autour de son drapeau.</l>
+            <l n="1193">Son ombre seule encor semble arrêter leur fuite.</l>
+            <l n="1194">Les tiens même, les tiens honteux de ta conduite,</l>
+            <l n="1195">Font lire sur leurs fronts justement courroucés</l>
+            <l n="1196">Le repentir du crime où tu les a forcés. </l>
+            <l n="1197">Va seconder l'ardeur du feu qui les dévore.</l>
+            <l n="1198">Venge nos libertés qui respirent encore.</l>
+            <l n="1199">De mon trône et du tien deviens le défenseur.</l>
+            <l n="1200">Cours, et donne à Porus un digne successeur. </l>
+            <l n="1201">Tu ne me réponds rien. Je vois sur ton visage, </l>
+            <l n="1202">Qu'un si noble dessein étonne ton courage.</l>
+            <l n="1203">Je te propose en vain l'exemple d'un héros.</l>
+            <l n="1204">Tu veux servir. Va, sers, et me laisse en repos.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="1205">Madame, c'en est trop. Vous oubliez peut-être</l>
+            <l n="1206">Que si vous m'y forcez, je puis parler en maître.</l>
+            <l n="1207">Que je puis me lasser de souffrir vos dédains,</l>
+            <l n="1208">Que vous et vos États, tout est entre mes mains,</l>
+            <l n="1209">Qu'après tant de respects qui vous rendent plus fière,</l>
+            <l n="1210" part="I">Je pourrai...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1210" part="F">Je t'entends. Je suis ta prisonnière ; </l>
+            <l n="1211">Tu veux peut-être encor captiver mes désirs,</l>
+            <l n="1212">Que mon coeur en tremblant réponde à tes soupirs.</l>
+            <l n="1213">Hé bien, dépouille enfin cette douceur contrainte.</l>
+            <l n="1214">Appelle à ton secours la terreur et la crainte,</l>
+            <l n="1215">Parle en tyran tout prêt à me persécuter. </l>
+            <l n="1216">Ma haine ne peut croître, et tu peux tout tenter.</l>
+            <l n="1217">Surtout ne me fais point d'inutiles menaces.</l>
+            <l n="1218">Ta soeur vient t'inspirer ce qu'il faut que tu fasses.</l>
+            <l n="1219">Adieu. Si ses conseils et mes voeux en sont crus,</l>
+            <l n="1220">Tu m'aideras bientôt à rejoindre Porus. </l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="1221" part="I">Ah ! Plutôt...</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Taxile, Cléofile.</head>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1221" part="F">Ah ! Quittez cette ingrate princesse,</l>
+            <l n="1222">Dont la haine a juré de nous troubler sans cesse,</l>
+            <l n="1223">Qui met tout son plaisir à vous désespérer.</l>
+            <l n="1224" part="I">Oubliez...</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="1224" part="F">Non, ma soeur, je la veux adorer.</l>
+            <l n="1225">Je l'aime. Et quand les voeux que je pousse pour elle, </l>
+            <l n="1226">N'en obtiendraient jamais qu'une haine immortelle,</l>
+            <l n="1227">Malgré tous ses mépris, malgré tous vos discours,</l>
+            <l n="1228">Malgré moi-même, il faut que je l'aime toujours.</l>
+            <l n="1229">Sa colère après tout n'a rien qui me surprenne.</l>
+            <l n="1230">C'est à vous, c'est à moi qu'il faut que je m'en prenne, </l>
+            <l n="1231">Sans vous, sans vos conseils, ma soeur, qui m'ont trahi.</l>
+            <l n="1232">Si je n'étais aimé, je serais moins haï.</l>
+            <l n="1233">Je la verrais sans vous par mes soins défendue,</l>
+            <l n="1234">Entre Porus et moi demeurer suspendue.</l>
+            <l n="1235">Et ne serait-ce pas un bonheur trop charmant </l>
+            <l n="1236">Que de l'avoir réduite à douter un moment ?</l>
+            <l n="1237">Non, je ne puis plus vivre accablé de sa haine,</l>
+            <l n="1238">Il faut que je me jette aux pieds de l'inhumaine.</l>
+            <l n="1239">J'y cours. Je vais m'offrir à servir son courroux</l>
+            <l n="1240">Même contre Alexandre, et même contre vous. </l>
+            <l n="1241">Je sais de quelle ardeur vous brûlez l'un pour l'autre.</l>
+            <l n="1242">Mais c'est trop oublier mon repos pour le vôtre,</l>
+            <l n="1243">Et sans m'inquiéter du succès de vos feux,</l>
+            <l n="1244">Il faut que tout périsse, ou que je sois heureux.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1245">Allez donc, retournez sur le champ de bataille, </l>
+            <l n="1246">Ne laissez point languir l'ardeur qui vous travaille.</l>
+            <l n="1247">À quoi s'arrête ici ce courage inconstant ?</l>
+            <l n="1248">Courez. On est aux mains. Et Porus vous attend.</l>
+          </sp>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE.</speaker>
+            <l n="1249">Quoi Porus n'est point mort ? Porus vient de paraître ?</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1250">C'est lui. De si grands coups le font trop reconnaître. </l>
+            <l n="1251">Il l'avait bien prévu. Le bruit de son trépas</l>
+            <l n="1252">D'un vainqueur trop crédule a retenu le bras.</l>
+            <l n="1253">Il vient surprendre ici leur valeur endormie,</l>
+            <l n="1254">Troubler une victoire encor mal affermie.</l>
+            <l n="1255">Il vient n'en doutez point, en amant furieux</l>
+            <l n="1256">Enlever sa maîtresse ou périr à ses yeux.</l>
+            <l n="1257">Que dis-je ? Votre camp séduit par cette ingrate,</l>
+            <l n="1258">Prêt à suivre Porus en murmures éclate.</l>
+            <l n="1259">Allez vous-même, allez en généreux amant</l>
+            <l n="1260">Au secours d'un rival aimé si tendrement, </l>
+            <l n="1261" part="I">Adieu.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0429-TAXILE">
+            <speaker>TAXILE, seul.</speaker>
+            <l n="1261" part="F">Quoi ? La fortune obstinée à me nuire</l>
+            <l n="1262">Ressuscite un rival armé pour me détruire ?</l>
+            <l n="1263">Cet amant reverra les yeux qui l'ont pleuré,</l>
+            <l n="1264">Qui tout mort qu'il était me l'avaient préféré ?</l>
+            <l n="1265">Ah ! C'en est trop. Voyons ce que le sort m'apprête, </l>
+            <l n="1266">À qui doit demeurer cette noble conquête.</l>
+            <l n="1267">Allons. N'attendons pas dans un lâche courroux</l>
+            <l n="1268">Qu'un si grand différend se termine sans nous.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Alexandre, Cléofile.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1269">Quoi ? Vous craigniez Porus même après sa défaite ?</l>
+            <l n="1270">Ma victoire à vos yeux semblait-elle imparfaite ? </l>
+            <l n="1271">Non, non, c'est un captif qui n'a pu m'échapper,</l>
+            <l n="1272">Que mes ordres partout ont fait envelopper.</l>
+            <l n="1273">Loin de le craindre encor ne songez qu'à le plaindre.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1274">Et c'est en cet état que Porus est à craindre.</l>
+            <l n="1275">Quelque brave qu'il fût, le bruit de sa valeur</l>
+            <l n="1276">M'inquiétait bien moins que ne fait son malheur.</l>
+            <l n="1277">Tant qu'on l'a vu suivi d'une puissante armée,</l>
+            <l n="1278">Ses forces, ses exploits ne m'ont point alarmée.</l>
+            <l n="1279">Mais, Seigneur, c'est un roi malheureux et soumis,</l>
+            <l n="1280">Et dès lors je le compte au rang de vos amis. </l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1281">C'est un rang où Porus n'a plus droit de prétendre,</l>
+            <l n="1282">Il a trop recherché la haine d'Alexandre.</l>
+            <l n="1283">Il sait bien qu'à regret je m'y suis résolu ;</l>
+            <l n="1284">Mais enfin je le hais autant qu'il l'a voulu.</l>
+            <l n="1285">Je dois même un exemple au reste de la terre. </l>
+            <l n="1286">Je dois venger sur lui tous les maux de la guerre ;</l>
+            <l n="1287">Le punir des malheurs qu'il a pu prévenir,</l>
+            <l n="1288">Et de m'avoir forcé moi-même à le punir.</l>
+            <l n="1289">Vaincu deux fois, haï de ma belle princesse...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1290">Je ne hais point Porus, Seigneur, je le confesse. </l>
+            <l n="1291">Et s'il m'était permis d'écouter aujourd'hui</l>
+            <l n="1292">La voix de ses malheurs qui me parle pour lui,</l>
+            <l n="1293">Je vous dirais qu'il fut le plus grand de nos princes,</l>
+            <l n="1294">Que son bras fut longtemps l'appui de nos provinces,</l>
+            <l n="1295">Qu'il a voulu, peut-être, en marchant contre vous</l>
+            <l n="1296">Qu'on le crût digne au moins de tomber sous vos coups,</l>
+            <l n="1297">Et qu'un même combat signalant l'un et l'autre,</l>
+            <l n="1298">Son nom volât partout à la suite du vôtre.</l>
+            <l n="1299">Mais si je le défends, des soins si généreux</l>
+            <l n="1300">Retombent sur mon frère et détruisent ses voeux. </l>
+            <l n="1301">Tant que Porus vivra, que faut-il qu'il devienne ?</l>
+            <l n="1302">Sa perte est infaillible, et peut-être la mienne.</l>
+            <l n="1303">Oui, oui, si son amour ne peut rien obtenir,</l>
+            <l n="1304">Il m'en rendra coupable et m'en voudra punir.</l>
+            <l n="1305">Et maintenant encor, que votre coeur s'apprête</l>
+            <l n="1306">À voler de nouveau de conquête en conquête,</l>
+            <l n="1307">Quand je verrai le Gange entre mon frère et vous,</l>
+            <l n="1308">Qui retiendra, Seigneur, son injuste courroux ?</l>
+            <l n="1309">Mon âme loin de vous languira solitaire.</l>
+            <l n="1310">Hélas ! S'il condamnait mes soupirs à se taire, </l>
+            <l n="1311">Que deviendrait alors ce coeur infortuné ?</l>
+            <l n="1312">Où sera le vainqueur à qui je l'ai donné ?</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1313">Ah c'en est trop, Madame, et si ce coeur se donne,</l>
+            <l n="1314">Je saurai le garder, quoi que Taxile ordonne,</l>
+            <l n="1315">Bien mieux que tant d'États, qu'on m'a vu conquérir</l>
+            <l n="1316">Et que je n'ai gardés que pour vous les offrir.</l>
+            <l n="1317">Encore une victoire, et je reviens, Madame,</l>
+            <l n="1318">Borner toute ma gloire à régner sur votre âme,</l>
+            <l n="1319">Vous obéir moi-même, et mettre entre vos mains</l>
+            <l n="1320">Le destin d'Alexandre et celui des humains. </l>
+            <l n="1321">Le Malien m'attend prêt à me rendre hommage.</l>
+            <l n="1322">Si près de l'océan que faut-il davantage</l>
+            <l n="1323">Que d'aller me montrer à ce fier élément,</l>
+            <l n="1324">Comme vainqueur du monde, et comme votre amant ?</l>
+            <l n="1325" part="I">Alors...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1325" part="F">Mais quoi, Seigneur, toujours guerre sur guerre ? </l>
+            <l n="1326">Cherchez-vous des sujets au-delà de la terre ?</l>
+            <l n="1327">Voulez-vous pour témoins de vos faits éclatants</l>
+            <l n="1328">Des pays inconnus même à leurs habitants ?</l>
+            <l n="1329">Qu'espérez-vous combattre en des climats si rudes ?</l>
+            <l n="1330">Ils vous opposeront de vastes solitudes, </l>
+            <l n="1331">Des déserts que le ciel refuse d'éclairer,</l>
+            <l n="1332">Où la nature semble elle-même expirer.</l>
+            <l n="1333">Et peut-être le sort, dont la secrète envie</l>
+            <l n="1334">N'a pu cacher le cours d'une si belle vie,</l>
+            <l n="1335">Vous attend dans ces lieux, et veut que dans l'oubli</l>
+            <l n="1336">Votre tombeau du moins demeure enseveli.</l>
+            <l n="1337">Pensez-vous y traîner les restes d'une armée,</l>
+            <l n="1338">Vingt fois renouvelée, et vingt fois consumée ?</l>
+            <l n="1339">Vos soldats dont la vue excite la pitié,</l>
+            <l n="1340">D'eux-mêmes en cent lieux ont laissé la moitié. </l>
+            <l n="1341">Et leurs gémissements vous font assez connaître...</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1342">Ils marcheront, Madame, et je n'ai qu'à paraître.</l>
+            <l n="1343">Ces coeurs qui dans un camp d'un vain loisir déçus</l>
+            <l n="1344">Comptent en murmurant les coups qu'ils ont reçus,</l>
+            <l n="1345">Revivront pour me suivre, et blâmant leurs murmures, </l>
+            <l n="1346">Brigueront à mes yeux de nouvelles blessures.</l>
+            <l n="1347">Cependant de Taxile appuyons les soupirs.</l>
+            <l n="1348">Son rival ne peut plus traverser ses désirs,</l>
+            <l n="1349">Je vous l'ai dit, Madame, et j'ose encor vous dire...</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1350" part="I">Seigneur, voici la reine.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Alexandre, Axiane, Cléofile.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1350" part="F">Hé bien ! Porus respire. </l>
+            <l n="1351">Le ciel semble, Madame, écouter vos souhaits,</l>
+            <l n="1352" part="I">Il vous le rend...</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1352" part="F">Hélas ! Il me l'ôte à jamais !</l>
+            <l n="1353">Aucun reste d'espoir ne peut flatter ma peine,</l>
+            <l n="1354">Sa mort était douteuse, elle devient certaine,</l>
+            <l n="1355">Il y court. Et peut-être il ne s'y vient offrir</l>
+            <l n="1356">Que pour me voir encore, et pour me secourir.</l>
+            <l n="1357">Mais que ferait-il seul contre toute une armée ?</l>
+            <l n="1358">En vain ses grands efforts l'ont d'abord alarmée.</l>
+            <l n="1359">En vain quelques guerriers qu'anime son grand coeur</l>
+            <l n="1360">Ont ramené l'effroi dans le camp du vainqueur. </l>
+            <l n="1361">Il faut bien qu'il succombe, et qu'enfin son courage</l>
+            <l n="1362">Tombe sur tant de morts qui ferment son passage.</l>
+            <l n="1363">Encor si je pouvais en sortant de ces lieux,</l>
+            <l n="1364">Lui montrer Axiane, et mourir à ses yeux.</l>
+            <l n="1365">Mais Taxile m'enferme, et cependant le traître</l>
+            <l n="1366">Du sang de ce héros est allé se repaître</l>
+            <l n="1367">Dans les bras de la mort il le va regarder,</l>
+            <l n="1368">Si toutefois encore il ose l'aborder.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1369">Non, Madame, mes soins ont assuré sa vie.</l>
+            <l n="1370">Son retour va bientôt contenter votre envie. </l>
+            <l n="1371" part="I">Vous le verrez.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1371" part="F">Vos soins s'étendraient jusqu'à lui ?</l>
+            <l n="1372">Le bras qui l'accablait deviendrait son appui ?</l>
+            <l n="1373">J'attendrais son salut de la main d'Alexandre ?</l>
+            <l n="1374">Mais quel miracle enfin n'en dois-je point attendre ?</l>
+            <l n="1375">Je m'en souviens, Seigneur, vous me l'avez promis</l>
+            <l n="1376">Qu'Alexandre vainqueur n'avait plus d'ennemis.</l>
+            <l n="1377">Ou plutôt ce guerrier ne fut jamais le vôtre.</l>
+            <l n="1378">La gloire également vous arma l'un et l'autre,</l>
+            <l n="1379">Contre un si grand courage il voulut s'éprouver,</l>
+            <l n="1380">Et vous ne l'attaquiez qu'afin de le sauver. </l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1381">Ses mépris redoublés qui bravent ma colère,</l>
+            <l n="1382">Mériteraient sans doute un vainqueur plus sévère.</l>
+            <l n="1383">Son orgueil en tombant semble s'être affermi.</l>
+            <l n="1384">Mais je veux bien cesser d'être son ennemi.</l>
+            <l n="1385">J'en dépouille, Madame, et la haine et le titre, </l>
+            <l n="1386">De mes ressentiments je fais Taxile arbitre</l>
+            <l n="1387">Seul il peut à son choix le perdre ou l'épargner,</l>
+            <l n="1388">Et c'est lui seul enfin que vous devez gagner.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1389">Moi, j'irais à ses pieds mendier un asile ?</l>
+            <l n="1390">Et vous me renvoyez aux bontés de Taxile ? </l>
+            <l n="1391">Vous voulez que Porus cherche un appui si bas ?</l>
+            <l n="1392">Ah, Seigneur, votre haine a juré son trépas.</l>
+            <l n="1393">Non, vous ne le cherchiez qu'afin de le détruire.</l>
+            <l n="1394">Qu'une âme généreuse est facile à séduire !</l>
+            <l n="1395">Déjà mon coeur crédule oubliant son courroux</l>
+            <l n="1396">Admirait des vertus qui ne sont point en vous. </l>
+            <l n="1397">Armez-vous donc, Seigneur, d'une valeur cruelle.</l>
+            <l n="1398">Ensanglantez la fin d'une course si belle.</l>
+            <l n="1399">Après tant d'ennemis qu'on vous vit relever,</l>
+            <l n="1400">Perdez le seul enfin que vous deviez sauver. </l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1401">Hé bien, aimez Porus sans détourner sa perte.</l>
+            <l n="1402">Refusez la faveur qui vous était offerte.</l>
+            <l n="1403">Soupçonnez ma pitié d'un sentiment jaloux,</l>
+            <l n="1404">Mais enfin s'il périt n'en accusez que vous.</l>
+            <l n="1405">Le voici. Je veux bien le consulter lui-même.</l>
+            <l n="1406">Que Porus de son sort soit l'arbitre suprême.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Alexandre, Porus, Axiane, Cléofile, Éphestion, Gardes d'Alexandre.</head>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1407">Hé bien de votre orgueil, Porus, voilà le fruit.</l>
+            <l n="1408">Où sont ces beaux succès qui vous avaient séduit ?</l>
+            <l n="1409">Cette fierté si haute est enfin abaissée.</l>
+            <l n="1410">Je dois une victime à ma gloire offensée. </l>
+            <l n="1411">Rien ne vous peut sauver. Je veux bien toutefois</l>
+            <l n="1412">Vous offrir un pardon refusé tant de fois.</l>
+            <l n="1413">Cette reine elle seule à mes bontés rebelle</l>
+            <l n="1414">Aux dépens de vos jours veut vous être fidèle,</l>
+            <l n="1415">Et que sans balancer vous mouriez seulement</l>
+            <l n="1416">Pour porter au tombeau le nom de son amant.</l>
+            <l n="1417">N'achetez point si cher une gloire inutile.</l>
+            <l n="1418">Vivez. Mais consentez au bonheur de Taxile.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="1419" part="I">Taxile ?</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1419" part="M">Oui.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="1419" part="F">Tu fais bien. Et j'approuve tes soins.</l>
+            <l n="1420">Ce qu'il a fait pour toi ne mérite pas moins. </l>
+            <l n="1421">C'est lui qui m'a des mains arraché la victoire.</l>
+            <l n="1422">Il t'a donné sa soeur. Il t'a vendu sa gloire.</l>
+            <l n="1423">Il t'a livré Porus. Que feras-tu jamais</l>
+            <l n="1424">Qui te puisse acquitter d'un seul de ses bienfaits ?</l>
+            <l n="1425">Mais j'ai su prévenir le soin qui te travaille. </l>
+            <l n="1426">Va le voir expirer sur le champ de bataille.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1427" part="I">Quoi Taxile ?</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1427" part="M">Qu'entends-je ?</l>
+          </sp>
+          <sp who="tc0429-EPHESTION">
+            <speaker>ÉPHESTION.</speaker>
+            <l n="1427" part="F">Oui, Seigneur, il est mort,</l>
+            <l n="1428">Il s'est livré lui-même aux rigueurs de son sort.</l>
+            <l n="1429">Porus était vaincu. Mais au lieu de se rendre,</l>
+            <l n="1430">Il semblait attaquer et non pas se défendre. </l>
+            <l n="1431">Ses soldats à ses pieds étendus et mourants</l>
+            <l n="1432">Le mettaient à l'abri de leurs corps expirants.</l>
+            <l n="1433">Là, comme dans un fort, son audace enfermée</l>
+            <l n="1434">Se soutenait encor contre toute une armée,</l>
+            <l n="1435">Et d'un bras qui portait la terreur et la mort</l>
+            <l n="1436">Aux plus hardis guerriers en défendait l'abord.</l>
+            <l n="1437">Je l'épargnais toujours. Sa vigueur affaiblie</l>
+            <l n="1438">Bientôt en mon pouvoir aurait laissé sa vie,</l>
+            <l n="1439">Quand sur ce champ fatal Taxile descendu,</l>
+            <l n="1440">« Arrêtez, c'est à moi que ce captif est dû,</l>
+            <l n="1441">C'en est fait, a-t-il dit, et ta perte est certaine,</l>
+            <l n="1442">Porus, il faut périr ou me céder la reine. » </l>
+            <l n="1443">Porus à cette voix ranimant son courroux,</l>
+            <l n="1444">A relevé ce bras lassé de tant de coups.</l>
+            <l n="1445">Et cherchant son rival d'un oeil fier et tranquille, </l>
+            <l n="1446">« N'entends-je pas, dit-il, l'infidèle Taxile</l>
+            <l n="1447">Ce traître à sa patrie, à sa maîtresse, à moi ?</l>
+            <l n="1448">Viens lâche, poursuit-il, Axiane est à toi.</l>
+            <l n="1449">Je veux bien te céder cette illustre conquête,</l>
+            <l n="1450">Mais il faut que ton bras l'emporte avec ma tête.</l>
+            <l n="1451">Approche. » À ce discours ces rivaux irrités</l>
+            <l n="1452">L'un sur l'autre à la fois se sont précipités.</l>
+            <l n="1453">Nous nous sommes en foule opposés à leur rage.</l>
+            <l n="1454">Mais Porus parmi nous court et s'ouvre un passage,</l>
+            <l n="1455">Joint Taxile, le frappe et lui perçant le coeur, </l>
+            <l n="1456">Content de sa victoire, il se rend au vainqueur.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1457">Seigneur, c'est donc à moi de répandre des larmes.</l>
+            <l n="1458">C'est sur moi qu'est tombé tout le faix de vos armes.</l>
+            <l n="1459">Mon frère a vainement recherché votre appui,</l>
+            <l n="1460">Et votre gloire, hélas, n'est funeste qu'à lui. </l>
+            <l n="1461">Que lui sert au tombeau l'amitié d'Alexandre ?</l>
+            <l n="1462">Sans le venger, Seigneur, l'y verrez-vous descendre ?</l>
+            <l n="1463">Souffrirez-vous qu'après l'avoir percé de coups,</l>
+            <l n="1464">On en triomphe aux yeux de sa soeur et de vous ?</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1465">Oui, Seigneur, écoutez les pleurs de Cléofile. </l>
+            <l n="1466">Je la plains. Elle a droit de regretter Taxile.</l>
+            <l n="1467">Tous ses efforts en vain l'ont voulu conserver,</l>
+            <l n="1468">Elle en a fait un lâche, et ne l'a pu sauver.</l>
+            <l n="1469">Ce n'est point que Porus ait attaqué son frère.</l>
+            <l n="1470">Il s'est offert lui-même à sa juste colère. </l>
+            <l n="1471">Au milieu du combat que venait-il chercher ?</l>
+            <l n="1472">Au courroux du vainqueur venait-il l'arracher ?</l>
+            <l n="1473">Il venait accabler, dans son malheur extrême,</l>
+            <l n="1474">Un roi que respectait la Victoire elle-même.</l>
+            <l n="1475">Mais pourquoi vous ôter un prétexte si beau ? </l>
+            <l n="1476">Que voulez-vous de plus ? Taxile est au tombeau.</l>
+            <l n="1477">Immolez-lui, Seigneur, cette grande victime.</l>
+            <l n="1478">Vengez-vous. Mais songez que j'ai part à son crime.</l>
+            <l n="1479">Oui, oui, Porus, mon coeur n'aime point à demi,</l>
+            <l n="1480">Alexandre le sait, Taxile en a gémi. </l>
+            <l n="1481">Vous seul vous l'ignoriez. Mais ma joie est extrême,</l>
+            <l n="1482">De pouvoir en mourant vous le dire à vous-même.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="1483">Alexandre, il est temps que tu sois satisfait.</l>
+            <l n="1484">Tout vaincu que j'étais tu vois ce que j'ai fait.</l>
+            <l n="1485">Crains Porus ; crains encor cette main désarmée, </l>
+            <l n="1486">Qui venge sa défaite au milieu d'une armée.</l>
+            <l n="1487">Mon nom peut soulever de nouveaux ennemis,</l>
+            <l n="1488">Et réveiller cent rois dans leurs fers endormis.</l>
+            <l n="1489">Étouffe dans mon sang ces semences de guerre,</l>
+            <l n="1490">Va vaincre en sûreté le reste de la terre. </l>
+            <l n="1491">Aussi bien n'attends pas qu'un coeur comme le mien</l>
+            <l n="1492">Reconnaisse un vainqueur, et te demande rien.</l>
+            <l n="1493">Parle, et sans espérer que je blesse ma gloire,</l>
+            <l n="1494">Voyons comme tu sais user de la victoire.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1495">Votre fierté, Porus, ne se peut abaisser. </l>
+            <l n="1496">Jusqu'au dernier soupir vous m'osez menacer.</l>
+            <l n="1497">En effet ma victoire en doit être alarmée.</l>
+            <l n="1498">Votre nom peut encor plus que toute une armée.</l>
+            <l n="1499">Je m'en dois garantir. Parlez donc. Dites-moi,</l>
+            <l n="1500" part="I">Comment prétendez-vous que je vous traite ? </l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="1500" part="F">En roi. </l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1501">Hé bien, c'est donc en roi qu'il faut que je vous traite.</l>
+            <l n="1502">Je ne laisserai point ma victoire imparfaite.</l>
+            <l n="1503">Vous l'avez souhaité, vous ne vous plaindrez pas.</l>
+            <l n="1504">Régnez toujours, Porus, je vous rends vos États.</l>
+            <l n="1505">Avec mon amitié recevez Axiane. </l>
+            <l n="1506">À des liens si doux tous deux je vous condamne.</l>
+            <l n="1507">Vivez, régnez tous deux, et seuls de tant de rois</l>
+            <l n="1508">Jusques aux bords du Gange allez donner vos lois.</l>
+            <stage>À Cléofile.</stage>
+            <l n="1509">Ce traitement, Madame, a droit de vous surprendre.</l>
+            <l n="1510">Mais enfin, c'est ainsi que se venge Alexandre. </l>
+            <l n="1511">Je vous aime, et mon coeur touché de vos soupirs</l>
+            <l n="1512">Voudrait par mille morts venger vos déplaisirs.</l>
+            <l n="1513">Mais vous-même pourriez prendre pour une offense</l>
+            <l n="1514">La mort d'un ennemi qui n'est plus en défense.</l>
+            <l n="1515">Il en triompherait, et bravant ma rigueur</l>
+            <l n="1516">Porus dans le tombeau descendrait en vainqueur.</l>
+            <l n="1517">Souffrez que jusqu'au bout achevant ma carrière</l>
+            <l n="1518">J'apporte à vos beaux yeux ma vertu toute entière.</l>
+            <l n="1519">Laissez régner Porus couronné par mes mains.</l>
+            <l n="1520">Et commandez vous-même au reste des humains. </l>
+            <l n="1521">Prenez les sentiments que ce rang vous inspire,</l>
+            <l n="1522">Faites dans sa naissance admirer votre empire ;</l>
+            <l n="1523">Et regardant l'éclat qui se répand sur vous,</l>
+            <l n="1524">De la soeur de Taxile oubliez le courroux.</l>
+          </sp>
+          <sp who="tc0429-AXIANE">
+            <speaker>AXIANE.</speaker>
+            <l n="1525">Oui, Madame, régnez, et souffrez que moi-même</l>
+            <l n="1526">J'admire le grand coeur d'un héros qui vous aime.</l>
+            <l n="1527">Aimez, et possédez l'avantage charmant</l>
+            <l n="1528">De voir toute la terre adorer votre amant.</l>
+          </sp>
+          <sp who="tc0429-PORUS">
+            <speaker>PORUS.</speaker>
+            <l n="1529">Seigneur, jusqu'à ce jour, l'univers en alarmes</l>
+            <l n="1530">Me forçait d'admirer le bonheur de vos armes. </l>
+            <l n="1531">Mais rien ne me forçait en ce commun effroi,</l>
+            <l n="1532">De reconnaître en vous plus de vertus qu'en moi,</l>
+            <l n="1533">Je me rends. Je vous cède une pleine victoire.</l>
+            <l n="1534">Vos vertus, je l'avoue, égalent votre gloire,</l>
+            <l n="1535">Allez, Seigneur, rangez l'univers sous vos lois, </l>
+            <l n="1536">Il me verra moi-même appuyer vos exploits.</l>
+            <l n="1537">Je vous suis, et je crois devoir tout entreprendre</l>
+            <l n="1538">Pour lui donner un maître aussi grand qu'Alexandre.</l>
+          </sp>
+          <sp who="tc0429-CLEOFILE">
+            <speaker>CLÉOFILE.</speaker>
+            <l n="1539">Seigneur, que vous peut dire un coeur triste, abattu ?</l>
+            <l n="1540">Je ne murmure point contre votre vertu. </l>
+            <l n="1541">Vous rendez à Porus la vie et la couronne,</l>
+            <l n="1542">Je veux croire qu'ainsi votre gloire l'ordonne,</l>
+            <l n="1543">Mais ne me pressez point. En l'état où je suis,</l>
+            <l n="1544">Je ne puis que me taire et pleurer mes ennuis.</l>
+          </sp>
+          <sp who="tc0429-ALEXANDRE">
+            <speaker>ALEXANDRE.</speaker>
+            <l n="1545">Oui, Madame, pleurons un ami si fidèle, </l>
+            <l n="1546">Faisons en soupirant éclater notre zèle</l>
+            <l n="1547">Et qu'un tombeau superbe instruise l'avenir,</l>
+            <l n="1548">Et de votre douleur et de mon souvenir. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

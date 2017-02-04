@@ -1,0 +1,3588 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Mélite</title>
+        <title type="sub">Comédie</title>
+        <title type="short">Mélite</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">CORNEILLE, Pierre</name>
+          <name type="short">CorneilleP</name>
+          <idno type="viaf"/>
+        </author>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0122</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2015</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1682</date>, <idno/>, <ref target="#"/>. À PARIS, Chez GULLAUME DE LUYNE, Libraire juré, au Palais, en la Galerie des Merciers, sous la montée de la Cour des Aides, à la Justice..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1642</date>, <idno/>, <ref target="#"/>. Représenté pour la première fois en 1642 au Théâtre du Marais</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Comédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1681-1690</term>
+          <term type="taille">1750-2000</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem>
+          <role xml:id="tc0122-ERASTE">ÉRASTE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-TIRCIS">TIRCIS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-PHILANDRE">PHILANDRE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-MELITE">MÉLITE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-CHLORIS">CHLORIS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-LISIS">LISIS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-CLITON">CLITON</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0122-LANOURRICEDEMELITE">LA NOURRICE DE MÉLITE</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La scène est à Paris.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Eraste, Tircis.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1">Je te l'avoue, ami, mon mal est incurable ;</l>
+            <l n="2">Je n'y sais qu'un remède, et j'en suis incapable :</l>
+            <l n="3">Le change serait juste, après tant de rigueur ;</l>
+            <l n="4">Mais malgré ses dédains, Mélite a tout mon coeur ;</l>
+            <l n="5">Elle a sur tous mes sens une entière puissance ;</l>
+            <l n="6">Si j'ose en murmurer, ce n'est qu'en son absence,</l>
+            <l n="7">Et je ménage en vain dans un éloignement</l>
+            <l n="8">Un peu de liberté pour mon ressentiment ;</l>
+            <l n="9">D'un seul de ses regards l'adorable contrainte</l>
+            <l n="10">Me rend tous mes liens, en resserre l'étreinte,</l>
+            <l n="11">Et par un si doux charme aveugle ma raison,</l>
+            <l n="12">Que je cherche mon mal et fuis ma guérison.</l>
+            <l n="13">Son oeil agit sur moi d'une vertu si forte,</l>
+            <l n="14">Qu'il ranime soudain mon espérance morte,</l>
+            <l n="15">Combat les déplaisirs de mon coeur irrité,</l>
+            <l n="16">Et soutient mon amour contre sa cruauté ;</l>
+            <l n="17">Mais ce flatteur espoir qu'il rejette en mon âme</l>
+            <l n="18">N'est qu'un doux imposteur qu'autorise ma flamme,</l>
+            <l n="19">Et qui, sans m'assurer ce qu'il semble m'offrir,</l>
+            <l n="20">Me fait plaire en ma peine, et m'obstine à souffrir.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="21">Que je te trouve, ami, d'une humeur admirable !</l>
+            <l n="22">Pour paraître éloquent tu te feins misérable :</l>
+            <l n="23">Est-ce à dessein de voir avec quelles couleurs</l>
+            <l n="24">Je saurais adoucir les traits de tes malheurs ?</l>
+            <l n="25">Ne t'imagine pas qu'ainsi, sur ta parole,</l>
+            <l n="26">D'une fausse douleur un ami te console ;</l>
+            <l n="27">Ce que chacun en dit ne m'a que trop appris</l>
+            <l n="28">Que Mélite pour toi n'eut jamais de mépris.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="29">Son gracieux accueil et ma persévérance</l>
+            <l n="30">Font naître ce faux bruit d'une vaine apparence :</l>
+            <l n="31">Ses mépris sont cachés, et s'en font mieux sentir ;</l>
+            <l n="32">Et n'étant point connus, on n'y peut compatir.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="33">En étant bien reçu, du reste que t'importe ?</l>
+            <l n="34">C'est tout ce que tu veux des filles de sa sorte.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="35">Cet accès favorable, ouvert et libre à tous,</l>
+            <l n="36">Ne me fait pas trouver mon martyre plus doux :</l>
+            <l n="37">Elle souffre aisément mes soins et mon service ;</l>
+            <l n="38">Mais loin de se résoudre à leur rendre justice,</l>
+            <l n="39">Parler de l'hyménée à ce coeur de rocher,</l>
+            <l n="40">C'est l'unique moyen de n'en plus approcher.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="41">Ne dissimulons point ; tu règles mieux ta flamme,</l>
+            <l n="42">Et tu n'es pas si fou que d'en faire ta femme.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="43">Quoi ! Tu sembles douter de mes intentions ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="44">Je crois malaisément que tes affections,</l>
+            <l n="45">Sur l'éclat d'un beau teint qu'on voit si périssable,</l>
+            <l n="46">Règlent d'une moitié le choix invariable.</l>
+            <l n="47">Tu serais incivil, de la voir chaque jour</l>
+            <l n="48">Et ne lui pas tenir quelques propos d'amour ;</l>
+            <l n="49">Mais d'un vain compliment ta passion bornée</l>
+            <l n="50">Laisse aller tes desseins ailleurs pour l'hyménée.</l>
+            <l n="51">Tu sais qu'on te souhaite aux plus riches maisons,</l>
+            <l n="52" part="I">Que les meilleurs partis...</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="52" part="F">Trêve de ces raisons ;</l>
+            <l n="53">Mon amour s'en offense, et tiendrait pour supplice</l>
+            <l n="54">De recevoir des lois d'une sale avarice :</l>
+            <l n="55">Il me rend insensible aux faux attraits de l'or,</l>
+            <l n="56">Et trouve en sa personne un assez grand trésor.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="57">Si c'est là le chemin qu'en aimant tu veux suivre,</l>
+            <l n="58">Tu ne sais guère encore ce que c'est que de vivre.</l>
+            <l n="59">Ces visages d'éclat sont bons à cajoler,</l>
+            <l n="60">C'est là qu'un apprenti doit s'instruire à parler ;</l>
+            <l n="61">J'aime à remplir de feux ma bouche en leur présence ;</l>
+            <l n="62">La mode nous oblige à cette complaisance ;</l>
+            <l n="63">Tous ces discours de livre alors sont de raison :</l>
+            <l n="64">Il faut feindre des maux, demander guérison,</l>
+            <l n="65">Donner sur le Phébus, promettre des miracles,</l>
+            <l n="66">Jurer qu'on brisera toutes sortes d'obstacles ;</l>
+            <l n="67">Mais du vent et cela doivent être tout un.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="68">Passe pour des beautés qui sont dans le commun ;</l>
+            <l n="69">C'est ainsi qu'autrefois j'amusai Chrysolithe :</l>
+            <l n="70">Mais c'est d'autre façon qu'on doit servir Mélite.</l>
+            <l n="71">Malgré tes sentiments, il me faut accorder</l>
+            <l n="72">Que le souverain bien n'est qu'à la posséder.</l>
+            <l n="73">Le jour qu'elle naquit, Vénus, bien qu'immortelle,</l>
+            <l n="74">Pensa mourir de honte en la voyant si belle ;</l>
+            <l n="75">Les Grâces, à l'envi, descendirent des cieux</l>
+            <l n="76">Pour se donner l'honneur d'accompagner ses yeux ;</l>
+            <l n="77">Et l'Amour, qui ne put entrer dans son courage,</l>
+            <l n="78">Voulut obstinément loger sur son visage.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="79">Tu le prends d'un haut ton, et je crois qu'au besoin</l>
+            <l n="80">Ce discours emphatique irait encore bien loin.</l>
+            <l n="81">Pauvre amant, je te plains qui ne sais pas encore</l>
+            <l n="82">Que bien qu'une beauté mérite qu'on l'adore,</l>
+            <l n="83">Pour en perdre le goût, on n'a qu'à l'épouser.</l>
+            <l n="84">Un bien qui nous est dû se fait si peu priser,</l>
+            <l n="85">Qu'une femme, fût-elle entre toutes choisie,</l>
+            <l n="86">On en voit en six mois passer la fantaisie.</l>
+            <l n="87">Tel au bout de ce temps n'en voit plus la beauté</l>
+            <l n="88">Qu'avec un esprit sombre, inquiet, agité ;</l>
+            <l n="89">Au premier qui lui parle, ou jette l'oeil sur elle,</l>
+            <l n="90">Mille sottes frayeurs lui brouillent la cervelle ;</l>
+            <l n="91">Ce n'est plus lors qu'une aide à faire un favori,</l>
+            <l n="92">Un charme pour tout autre, et non pour un mari.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="93">Ces caprices honteux et ces chimères vaines</l>
+            <l n="94">Ne sauraient ébranler des cervelles bien saines ;</l>
+            <l n="95">Et quiconque a su prendre une fille d'honneur</l>
+            <l n="96">N'a point à redouter l'appât d'un suborneur.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="97">Peut-être dis-tu vrai, mais ce choix difficile</l>
+            <l n="98">Assez et trop souvent trompe le plus habile ;</l>
+            <l n="99">Et l'hymen de soi-même est un si lourd fardeau,</l>
+            <l n="100">Qu'il faut l'appréhender à l'égal du tombeau.</l>
+            <l n="101">S'attacher pour jamais aux côtés d'une femme !</l>
+            <l n="102">Perdre pour des enfants le repos de son âme !</l>
+            <l n="103">Voir leur nombre importun remplir une maison !</l>
+            <l n="104">Ah ! Qu'on aime ce joug avec peu de raison !</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="105">Mais il y faut venir ; c'est en vain qu'on recule,</l>
+            <l n="106">C'est en vain qu'on refuit, tôt ou tard on s'y brûle ;</l>
+            <l n="107">Pour libertin qu'on soit, on s'y trouve attrapé :</l>
+            <l n="108">Toi-même, qui fais tant le cheval échappé,</l>
+            <l n="109">Nous te verrons un jour songer au mariage.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="110">Alors ne pense pas que j'épouse un visage :</l>
+            <l n="111">Je règle mes désirs suivant mon intérêt.</l>
+            <l n="112">Si Doris me voulait, toute laide qu'elle est,</l>
+            <l n="113">Je l'estimerais plus qu'Aminte et qu'Hippolyte ;</l>
+            <l n="114">Son revenu chez moi tiendrait lieu de mérite :</l>
+            <l n="115">C'est comme il faut aimer. L'abondance des biens</l>
+            <l n="116">Pour l'amour conjugal a de puissants liens :</l>
+            <l n="117">La beauté, les attraits, l'esprit, la bonne mine,</l>
+            <l n="118">Échauffent bien le coeur, mais non pas la cuisine ;</l>
+            <l n="119">Et l'hymen qui succède à ces folles amours,</l>
+            <l n="120">Après quelques douceurs, a bien de mauvais jours.</l>
+            <l n="121">Une amitié si longue est fort mal assurée</l>
+            <l n="122">Dessus des fondements de si peu de durée.</l>
+            <l n="123">L'argent dans le ménage a certaine splendeur</l>
+            <l n="124">Qui donne un teint d'éclat à la même laideur ;</l>
+            <l n="125">Et tu ne peux trouver de si douces caresses</l>
+            <l n="126">Dont le goût dure autant que celui des richesses.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="127">Auprès de ce bel oeil qui tient mes sens ravis,</l>
+            <l n="128">A peine pourrais-tu conserver ton avis.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="129">La raison en tous lieux est également forte.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="130">L'essai n'en coûte rien ; Mélite est à sa porte ;</l>
+            <l n="131">Allons, et tu verras dans ses aimables traits</l>
+            <l n="132">Tant de charmants appas, tant de brillants attraits,</l>
+            <l n="133">Que tu seras forcé toi-même à reconnaître</l>
+            <l n="134">Que si je suis un fou, j'ai bien raison de l'être.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="135">Allons, et tu verras que toute sa beauté</l>
+            <l n="136">Ne saura me tourner contre la vérité.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Eraste, Mélite, Tircis.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="137">De deux amis, madame, apaisez la querelle.</l>
+            <l n="138">Un esclave d'amour le défend d'un rebelle,</l>
+            <l n="139">Si toutefois un coeur qui n'a jamais aimé,</l>
+            <l n="140">Fier et vain qu'il en est, peut être ainsi nommé.</l>
+            <l n="141">Comme, dès le moment que je vous ai servie,</l>
+            <l n="142">J'ai cru qu'il était seul la véritable vie,</l>
+            <l n="143">Il n'est pas merveilleux que ce peu de rapport</l>
+            <l n="144">Entre nos deux esprits sème quelque discord.</l>
+            <l n="145">Je me suis donc piqué contre sa médisance</l>
+            <l n="146">Avec tant de malheur, ou tant d'insuffisance,</l>
+            <l n="147">Que des droits si sacrés et si pleins d'équité</l>
+            <l n="148">N'ont pu se garantir de sa subtilité,</l>
+            <l n="149">Et je l'amène ici, n'ayant plus que répondre,</l>
+            <l n="150">Assuré que vos yeux le sauront mieux confondre.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="151">Vous deviez l'assurer plutôt qu'il trouverait,</l>
+            <l n="152">En ce mépris d'amour, qui le seconderait.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="153">Si le coeur ne dédit ce que la bouche exprime,</l>
+            <l n="154">Et ne fait de l'amour une plus haute estime,</l>
+            <l n="155">Je plains les malheureux à qui vous en donnez,</l>
+            <l n="156">Comme à d'étranges maux par leur sort destinés.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="157">Ce reproche sans cause avec raison m'étonne :</l>
+            <l n="158">Je ne reçois d'amour et n'en donne à personne.</l>
+            <l n="159">Les moyens de donner ce que je n'eus jamais ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="160">Ils vous sont trop aisés ; et par vous désormais</l>
+            <l n="161">La nature pour moi montre son injustice</l>
+            <l n="162">À pervertir son cours pour me faire un supplice.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="163">Supplice imaginaire, et qui sent son moqueur.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="164">Supplice qui déchire et mon âme et mon coeur.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="165">Il est rare qu'on porte avec si bon visage</l>
+            <l n="166">L'âme et le coeur ensemble en si triste équipage.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="167">Votre charmant aspect suspendant mes douleurs,</l>
+            <l n="168">Mon visage du vôtre emprunte les couleurs.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="169">Faites mieux ; pour finir vos maux et votre flamme,</l>
+            <l n="170">Empruntez tout d'un temps les froideurs de mon âme.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="171">Vous voyant, les froideurs perdent tout leur pouvoir ;</l>
+            <l n="172">Et vous n'en conservez que faute de vous voir.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="173">Eh quoi ! Tous les miroirs ont-ils de fausses glaces ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="174">Penseriez-vous y voir la moindre de vos grâces ?</l>
+            <l n="175">De si frêles sujets ne sauraient exprimer</l>
+            <l n="176">Ce que l'amour aux coeurs peut lui seul imprimer ;</l>
+            <l n="177">Et quand vous en voudrez croire leurs impuissances,</l>
+            <l n="178">Cette légère idée et faible connaissance</l>
+            <l n="179">Que vous aurez par eux de tant de raretés</l>
+            <l n="180">Vous mettra hors de pair de toutes les beautés.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="181">Voilà trop vous tenir dans une complaisance</l>
+            <l n="182">Que vous dussiez quitter, du moins en ma présence,</l>
+            <l n="183">Et ne démentir pas le rapport de vos yeux,</l>
+            <l n="184">Afin d'avoir sujet de m'entreprendre mieux.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="185">Le rapport de mes yeux, aux dépens de mes larmes,</l>
+            <l n="186">Ne m'a que trop appris le pouvoir de vos charmes.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="187">Sur peine d'être ingrate, il faut de votre part</l>
+            <l n="188">Reconnaître les dons que le ciel vous départ.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="189">Voyez que d'un second mon droit se fortifie.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="190">Voyez que son secours montre qu'il s'en défie.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="191">Je me range toujours d'avec la vérité.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="192">Si vous la voulez suivre, elle est de mon côté.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="193">Oui, sur votre visage, et non en vos paroles.</l>
+            <l n="194">Mais cessez de chercher ces refuites frivoles ;</l>
+            <l n="195">Et prenant désormais des sentiments plus doux,</l>
+            <l n="196">Ne soyez plus de glace à qui brûle pour vous.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="197">Un ennemi d'amour me tenir ce langage !</l>
+            <l n="198">Accordez votre bouche avec votre courage ;</l>
+            <l n="199">Pratiquez vos conseils, ou ne m'en donnez pas.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="200">J'ai connu mon erreur auprès de vos appas.</l>
+            <l n="201" part="I">Il vous l'avait bien dit.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="201" part="F">Ainsi donc, par l'issue</l>
+            <l n="202">Mon âme sur ce point n'a point été déçue ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="203">Si tes feux en son coeur produisaient même effet,</l>
+            <l n="204">Crois-moi, que ton bonheur serait bientôt parfait.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="205">Pour voir si peu de chose aussitôt vous dédire,</l>
+            <l n="206">Me donne à vos dépens de beaux sujets de rire ;</l>
+            <l n="207">Mais je pourrais bientôt à m'entendre flatter</l>
+            <l n="208">Concevoir quelque orgueil qu'il vaut mieux éviter.</l>
+            <l n="209" part="I">Excusez ma retraite.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="209" part="F">Adieu, belle inhumaine,</l>
+            <l n="210">De qui seule dépend, et ma joie, et ma peine.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="211">Plus sage à l'avenir, quittez ces vains propos,</l>
+            <l n="212">Et laissez votre esprit et le mien en repos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Eraste, Tircis.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="213">Maintenant suis-je un fou ? Mérité-je du blâme ?</l>
+            <l n="214">Que dis-tu de l'objet ? Que dis-tu de ma flamme ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="215">Que veux-tu que j'en die ? Elle a je ne sais quoi</l>
+            <l n="216">Qui ne peut consentir que l'on demeure à soi.</l>
+            <l n="217">Mon coeur, jusqu'à présent à l'amour invincible,</l>
+            <l n="218">Ne se maintient qu'à force aux termes d'insensible ;</l>
+            <l n="219">Tout autre que Tircis mourrait pour la servir.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="220">Confesse franchement qu'elle a su te ravir,</l>
+            <l n="221">Et que tu ne veux pas prendre pour cette belle</l>
+            <l n="222">Avec le nom d'amant le titre d'infidèle.</l>
+            <l n="223">Rien que notre amitié ne t'en peut détourner ;</l>
+            <l n="224">Mais ta muse du moins, facile à suborner,</l>
+            <l n="225">Avec plaisir déjà prépare quelques veilles</l>
+            <l n="226">A de puissants efforts pour de telles merveilles.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="227">En effet, ayant vu tant et de tels appas,</l>
+            <l n="228">Que je ne rime point, je ne le promets pas.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="229">Tes feux n'iront-ils point plus avant que la rime ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="230">Si je brûle jamais, je veux brûler sans crime.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="231">Mais si sans y penser tu te trouvais surpris ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="232">Quitte pour décharger mon coeur dans mes écrits.</l>
+            <l n="233">J'aime bien ces discours de plaintes et d'alarmes,</l>
+            <l n="234">De soupirs, de sanglots, de tourments et de larmes ;</l>
+            <l n="235">C'est de quoi fort souvent je bâtis ma chanson,</l>
+            <l n="236">Mais j'en connais, sans plus, la cadence et le son.</l>
+            <l n="237">Souffre qu'en un sonnet je m'efforce à dépeindre</l>
+            <l n="238">Cet agréable feu que tu ne peux éteindre :</l>
+            <l n="239">Tu le pourras donner comme venant de toi.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="240">Ainsi ce coeur d'acier qui me tient sous sa loi,</l>
+            <l n="241">Verra ma passion pour le moins en peinture.</l>
+            <l n="242">Je doute néanmoins qu'en cette portraiture</l>
+            <l n="243">Tu ne suives plutôt tes propres sentiments.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="244">Me prépare le ciel de nouveaux châtiments,</l>
+            <l n="245">Si jamais un tel crime entre dans mon courage !</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="246">Adieu. Je suis content, j'ai ta parole en gage,</l>
+            <l n="247">Et sais trop que l'honneur t'en fera souvenir.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS, seul.</speaker>
+            <l n="248">En matière d'amour rien n'oblige à tenir ;</l>
+            <l n="249">Et les meilleurs amis, lorsque son feu les presse,</l>
+            <l n="250">Font bientôt vanité d'oublier leur promesse.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Philandre, Chloris.</head>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="251">Je meure, mon souci, tu dois bien me haïr ;</l>
+            <l n="252">Tous mes soins depuis peu ne vont qu'à te trahir.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="253">Ne m'épouvante point ; à ta mine, je pense</l>
+            <l n="254">Que le pardon suivra de fort près cette offense,</l>
+            <l n="255">Sitôt que j'aurai su quel est ce mauvais tour.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="256">Sache donc qu'il ne vient sinon de trop d'amour.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="257">J'eusse osé le gager, qu'ainsi par quelque ruse</l>
+            <l n="258">Ton crime officieux porterait son excuse.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="259">Ton adorable objet, mon unique vainqueur,</l>
+            <l n="260">Fait naître chaque jour tant de feux en mon coeur,</l>
+            <l n="261">Que leur excès m'accable, et que pour m'en défaire</l>
+            <l n="262">J'y cherche des défauts qui puissent me déplaire :</l>
+            <l n="263">J'examine ton teint dont l'éclat me surprit,</l>
+            <l n="264">Les traits de ton visage et ceux de ton esprit ;</l>
+            <l n="265">Mais je n'en puis trouver un seul qui ne me charme.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="266">Et moi, je suis ravie, après ce peu d'alarme,</l>
+            <l n="267">Qu'ainsi tes sens trompés te puissent obliger</l>
+            <l n="268">À chérir ta Chloris, et jamais ne changer.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="269">Ta beauté te répond de ma persévérance,</l>
+            <l n="270">Et ma foi qui t'en donne une entière assurance...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="271">Voilà fort doucement dire que, sans ta foi,</l>
+            <l n="272">Ma beauté ne pourrait te conserver à moi.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="273">Je traiterais trop mal une telle maîtresse</l>
+            <l n="274">De l'aimer seulement pour tenir ma promesse :</l>
+            <l n="275">Ma passion en est la cause et non l'effet ;</l>
+            <l n="276">Outre que tu n'as rien qui ne soit si parfait,</l>
+            <l n="277">Qu'on ne peut te servir sans voir sur ton visage</l>
+            <l n="278">De quoi rendre constant l'esprit le plus volage.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="279">Ne m'en conte point tant de ma perfection :</l>
+            <l n="280">Tu dois être assuré de mon affection ;</l>
+            <l n="281">Et tu perds tout l'effort de ta galanterie,</l>
+            <l n="282">Si tu crois l'augmenter par une flatterie.</l>
+            <l n="283">Une fausse louange est un blâme secret :</l>
+            <l n="284">Je suis belle à tes yeux, il suffit, sois discret ;</l>
+            <l n="285">C'est mon plus grand bonheur, et le seul où j'aspire.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="286">Tu sais adroitement adoucir mon martyre.</l>
+            <l n="287">Mais parmi les plaisirs qu'avec toi je ressens,</l>
+            <l n="288">A peine mon esprit ose croire mes sens,</l>
+            <l n="289">Toujours entre la crainte et l'espoir en balance ;</l>
+            <l n="290">Car s'il faut que l'amour naisse de ressemblance,</l>
+            <l n="291">Mes imperfections nous éloignant si fort,</l>
+            <l n="292">Qu'oserais-je prétendre en ce peu de rapport ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="293">Du moins ne prétends pas qu'à présent je te loue,</l>
+            <l n="294">Et qu'un mépris rusé, que ton coeur désavoue,</l>
+            <l n="295">Me mette sur la langue un babil affété,</l>
+            <l n="296">Pour te rendre à mon tour ce que tu m'as prêté :</l>
+            <l n="297">Au contraire, je veux que tout le monde sache</l>
+            <l n="298">Que je connais en toi des défauts que je cache.</l>
+            <l n="299">Quiconque avec raison peut être négligé</l>
+            <l n="300">A qui le veut aimer est bien plus obligé.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="301">Quant à toi, tu te crois de beaucoup plus aimable ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="302">Sans doute ; et qu'aurais-tu qui me fût comparable ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="303">Regarde dans mes yeux, et reconnais qu'en moi</l>
+            <l n="304">On peut voir quelque chose aussi parfait que toi.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="305">C'est sans difficulté, m'y voyant exprimée.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="306">Quitte ce vain orgueil dont ta vue est charmée.</l>
+            <l n="307">Tu n'y vois que mon coeur, qui n'a plus un seul trait,</l>
+            <l n="308">Que ceux qu'il a reçus de ton charmant portrait,</l>
+            <l n="309">Et qui, tout aussitôt que tu t'es fait paraître,</l>
+            <l n="310">Afin de te mieux voir, s'est mis à la fenêtre.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="311">Le trait n'est pas mauvais ; mais puisqu'il te plaît tant,</l>
+            <l n="312">Regarde dans mes yeux, ils t'en montrent autant ;</l>
+            <l n="313">Et nos feux tout pareils ont mêmes étincelles.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="314">Ainsi, chère Chloris, nos ardeurs mutuelles,</l>
+            <l n="315">Dedans cette union prenant un même cours,</l>
+            <l n="316">Nous préparent un heur qui durera toujours.</l>
+            <l n="317">Cependant, en faveur de ma longue souffrance...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="318" part="I">Tais-toi, mon frère vient.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Tircis, Philandre, Chloris.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="318" part="F">Si j'en crois l'apparence,</l>
+            <l n="319">Mon arrivée ici fait quelque contretemps.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="320" part="I">Que t'en semble, Tircis ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="320" part="F">Je vous vois si contents,</l>
+            <l n="321">Qu'à ne vous rien celer touchant ce qu'il me semble</l>
+            <l n="322">Du divertissement que vous preniez ensemble,</l>
+            <l n="323">De moins sorciers que moi pourraient bien deviner</l>
+            <l n="324">Qu'un troisième ne fait que vous importuner.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="325">Dis ce que tu voudras ; nos feux n'ont point de crimes,</l>
+            <l n="326">Et pour t'appréhender ils sont trop légitimes,</l>
+            <l n="327">Puisqu'un hymen sacré promis ces jours passés,</l>
+            <l n="328">Sous ton consentement, les autorise assez.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="329">Ou je te connais mal, ou son heure tardive</l>
+            <l n="330">Te désoblige fort de ce qu'elle n'arrive.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="331" part="I">Ta belle humeur te tient, mon frère.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="331" part="F">Assurément.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="332" part="I">Le sujet ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="332" part="F">J'en ai trop dans ton contentement.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="333" part="I">Le coeur t'en dit d'ailleurs.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="333" part="F">Il est vrai, je te jure ;</l>
+            <l n="334" part="I">J'ai vu je ne sais quoi...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="334" part="F">Dis tout, je t'en conjure.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="335">Ma foi, si ton Philandre avait vu de mes yeux,</l>
+            <l n="336">Tes affaires, ma soeur, n'en iraient guère mieux.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="337">J'ai trop de vanité pour croire que Philandre</l>
+            <l n="338">Trouve encore après moi qui puisse le surprendre.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="339">Tes vanités à part, repose-t'en sur moi</l>
+            <l n="340">Que celle que j'ai vue est bien autre que toi.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="341">Parle mieux de l'objet dont mon âme est ravie ;</l>
+            <l n="342">Ce blasphème à tout autre aurait coûté la vie.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="343">Nous tomberons d'accord sans nous mettre en pourpoint.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="344">Encor, cette beauté, ne la nomme-t-on point ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="345">Non, pas si tôt. Adieu : ma présence importune</l>
+            <l n="346">Te laisse à la merci d'Amour et de la brune.</l>
+            <l n="347">Continuez les jeux que vous avez quittés.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="348">Ne crois pas éviter mes importunités :</l>
+            <l n="349">Ou tu diras le nom de cette incomparable,</l>
+            <l n="350">Ou je vais de tes pas me rendre inséparable.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="351">Il n'est pas fort aisé d'arracher ce secret.</l>
+            <l n="352" part="I">Adieu : ne perds point temps.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="352" part="F">Ô l'amoureux discret !</l>
+            <l n="353">Eh bien ? Nous allons voir si tu sauras te taire.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <stage>Il retient Chloris, qui suit son frère.</stage>
+            <l n="354">C'est donc ainsi qu'on quitte un amant pour un frère ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="355">Philandre, avoir un peu de curiosité,</l>
+            <l n="356">Ce n'est pas envers toi grande infidélité :</l>
+            <l n="357">Souffre que je dérobe un moment à ma flamme,</l>
+            <l n="358">Pour lire malgré lui jusqu'au fond de son âme.</l>
+            <l n="359">Nous en rirons après ensemble, si tu veux.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="360">Quoi ! C'est là tout l'état que tu fais de mes feux ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="361">Je ne t'aime pas moins, pour être curieuse,</l>
+            <l n="362">Et ta flamme à mon coeur n'est pas moins précieuse.</l>
+            <l n="363">Conserve-moi le tien, et sois sûr de ma foi.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="364">Ah, folle ! Qu'en t'aimant il faut souffrir de toi !</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, seul.</speaker>
+            <l n="365">Je l'avais bien prévu que ce coeur infidèle</l>
+            <l n="366">Ne se défendrait point des yeux de ma cruelle,</l>
+            <l n="367">Qui traite mille amants avec mille mépris,</l>
+            <l n="368">Et n'a point de faveurs que pour le dernier pris.</l>
+            <l n="369">Sitôt qu'il l'aborda, je lus sur son visage</l>
+            <l n="370">De sa déloyauté l'infaillible présage ;</l>
+            <l n="371">Un inconnu frisson dans mon corps épandu</l>
+            <l n="372">Me donna les avis de ce que j'ai perdu.</l>
+            <l n="373">Depuis, cette volage évite ma rencontre,</l>
+            <l n="374">Ou, si malgré ses soins le hasard me la montre,</l>
+            <l n="375">Si je puis l'aborder, son discours se confond,</l>
+            <l n="376">Son esprit en désordre à peine me répond ;</l>
+            <l n="377">Une réflexion vers le traître qu'elle aime</l>
+            <l n="378">Presque à tous moments le ramène en lui-même ;</l>
+            <l n="379">Et tout rêveur qu'il est, il n'a point de soucis</l>
+            <l n="380">Qu'un soupir ne trahisse au seul nom de Tircis.</l>
+            <l n="381">Lors, par le prompt effet d'un changement étrange,</l>
+            <l n="382">Son silence rompu se déborde en louange.</l>
+            <l n="383">Elle remarque en lui tant de perfections,</l>
+            <l n="384">Que les moins éclairés verraient ses passions ;</l>
+            <l n="385">Sa bouche ne se plaît qu'en cette flatterie,</l>
+            <l n="386">Et tout autre propos lui rend sa rêverie.</l>
+            <l n="387">Cependant, chaque jour aux discours attachés,</l>
+            <l n="388">Ils ne retiennent plus leurs sentiments cachés ;</l>
+            <l n="389">Ils ont des rendez-vous où l'amour les assemble ;</l>
+            <l n="390">Encor hier sur le soir je les surpris ensemble ;</l>
+            <l n="391">Encor tout de nouveau je la vois qui l'attend.</l>
+            <l n="392">Que cet oeil assuré marque un esprit content !</l>
+            <l n="393">Perds tout respect, Eraste, et tout soin de lui plaire :</l>
+            <l n="394">Rends, sans plus différer, ta vengeance exemplaire ;</l>
+            <l n="395">Mais il vaut mieux t'en rire, et pour dernier effort</l>
+            <l n="396">Lui montrer en raillant combien elle a de tort.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Eraste, Mélite.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="397">Quoi ! Seule et sans Tircis ! Vraiment c'est un prodige ;</l>
+            <l n="398">Et ce nouvel amant déjà trop vous néglige,</l>
+            <l n="399">Laissant ainsi couler la belle occasion</l>
+            <l n="400">De vous conter l'excès de son affection.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="401">Vous savez que son âme en est fort dépourvue.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="402">Toutefois, ce dit-on, depuis qu'il vous a vue,</l>
+            <l n="403">Il en porte dans l'âme un si doux souvenir,</l>
+            <l n="404">Qu'il n'a plus de plaisirs qu'à vous entretenir.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="405">Il a lieu de s'y plaire avec quelque justice.</l>
+            <l n="406">L'amour ainsi qu'à lui me paraît un supplice ;</l>
+            <l n="407">Et sa froideur, qu'augmente un si lourd entretien,</l>
+            <l n="408">Le résout d'autant mieux à n'aimer jamais rien.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="409">Dites : à n'aimer rien que la belle Mélite.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="410">Pour tant de vanité j'ai trop peu de mérite.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="411">En faut-il tant avoir pour ce nouveau venu ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="412" part="I">Un peu plus que pour vous.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="412" part="F">De vrai, j'ai reconnu,</l>
+            <l n="413">Vous ayant pu servir deux ans, et davantage,</l>
+            <l n="414">Qu'il faut si peu que rien à toucher mon courage.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="415">Encor si peu que c'est vous étant refusé,</l>
+            <l n="416">Présumez comme ailleurs vous serez méprisé.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="417">Vos mépris ne sont pas de grande conséquence,</l>
+            <l n="418">Et ne vaudront jamais la peine que j'y pense ;</l>
+            <l n="419">Sachant qu'il vous voyait, je m'étais bien douté</l>
+            <l n="420">Que je ne serais plus que fort mal écouté.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="421">Sans que mes actions de plus près j'examine,</l>
+            <l n="422">A la meilleure humeur je fais meilleure mine ;</l>
+            <l n="423">Et s'il m'osait tenir de semblables discours,</l>
+            <l n="424">Nous romprions ensemble avant qu'il fût deux jours.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="425">Si chaque objet nouveau de même vous engage,</l>
+            <l n="426">Il changera bientôt d'humeur et de langage.</l>
+            <l n="427">Caressé maintenant aussitôt qu'aperçu</l>
+            <l n="428">Qu'aurait-il à se plaindre, étant si bien reçu ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="429">Eraste, voyez-vous, trêve de jalousie ;</l>
+            <l n="430">Purgez votre cerveau de cette frénésie :</l>
+            <l n="431">Laissez en liberté mes inclinations.</l>
+            <l n="432">Qui vous a fait censeur de mes affections ?</l>
+            <l n="433">Est-ce à votre chagrin que j'en dois rendre conte ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="434">Non, mais j'ai malgré moi pour vous un peu de honte,</l>
+            <l n="435">De ce qu'on dit partout du trop de privauté</l>
+            <l n="436">Que déjà vous souffrez à sa témérité.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="437">Ne soyez en souci que de ce qui vous touche.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="438">Le moyen, sans regret, de vous voir si farouche</l>
+            <l n="439">Aux légitimes voeux de tant de gens d'honneur,</l>
+            <l n="440">Et d'ailleurs si facile à ceux d'un suborneur ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="441">Ce n'est pas contre lui qu'il faut en ma présence</l>
+            <l n="442">Lâcher les traits jaloux de votre médisance.</l>
+            <l n="443">Adieu. Souvenez-vous que ces mots insensés</l>
+            <l n="444">L'avanceront chez moi plus que vous ne pensez.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, seul.</speaker>
+            <l n="445">C'est là donc ce qu'enfin me gardait ton caprice ?</l>
+            <l n="446">C'est ce que j'ai gagné par deux ans de service ?</l>
+            <l n="447">C'est ainsi que mon feu, s'étant trop abaissé,</l>
+            <l n="448">D'un outrageux mépris se voit récompensé ?</l>
+            <l n="449">Tu m'oses préférer un traître qui te flatte ;</l>
+            <l n="450">Mais dans ta lâcheté ne crois pas que j'éclate,</l>
+            <l n="451">Et que par la grandeur de mes ressentiments</l>
+            <l n="452">Je laisse aller au jour celle de mes tourments.</l>
+            <l n="453">Un aveu si public qu'en ferait ma colère</l>
+            <l n="454">Enflerait trop l'orgueil de ton âme légère,</l>
+            <l n="455">Et me convaincrait trop de ce désir abject</l>
+            <l n="456">Qui m'a fait soupirer pour un indigne objet.</l>
+            <l n="457">Je saurai me venger, mais avec l'apparence</l>
+            <l n="458">De n'avoir pour tous deux que de l'indifférence.</l>
+            <l n="459">Il fut toujours permis de tirer sa raison</l>
+            <l n="460">D'une infidélité par une trahison.</l>
+            <l n="461">Tiens, déloyal ami, tiens ton âme assurée</l>
+            <l n="462">Que ton heur surprenant aura peu de durée,</l>
+            <l n="463">Et que, par une adresse égale à tes forfaits,</l>
+            <l n="464">Je mettrai le désordre où tu crois voir la paix.</l>
+            <l n="465">L'esprit fourbe et vénal d'un voisin de Mélite</l>
+            <l n="466">Donnera prompte issue à ce que je médite.</l>
+            <l n="467">A servir qui l'achète il est toujours tout prêt,</l>
+            <l n="468">Et ne voit rien d'injuste où brille l'intérêt.</l>
+            <l n="469">Allons sans perdre temps lui payer ma vengeance,</l>
+            <l n="470">Et la pistole en main presser sa diligence.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Tircis, Chloris.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="471">Ma soeur, un mot d'avis sur un méchant sonnet</l>
+            <l n="472">Que je viens de brouiller dedans mon cabinet.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="473">C'est à quelque beauté que ta muse l'adresse ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="474">En faveur d'un ami je flatte sa maîtresse.</l>
+            <l n="475">Vois si tu le connais, et si, parlant pour lui,</l>
+            <l n="476">J'ai su m'accommoder aux passions d'autrui.</l>
+            <stage>Sonnet</stage>
+            <l n="477">Après l'oeil de Mélite il n'est rien d'admirable...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="478" part="I">Ah ! Frère, il n'en faut plus.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="478" part="F">Tu n'es pas supportable</l>
+            <l n="479" part="I">De me rompre sitôt.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="479" part="F">C'était sans y penser ;</l>
+            <l n="480" part="I">Achève.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="480" part="F">Tais-toi donc, je vais recommencer.</l>
+            <stage>Sonnet</stage>
+            <l n="481">Après l'oeil de Mélite il n'est rien d'admirable ;</l>
+            <l n="482">Il n'est rien de solide après ma loyauté.</l>
+            <l n="483">Mon feu, comme son teint, se rend incomparable ;</l>
+            <l n="484">Et je suis en amour ce qu'elle est en beauté.</l>
+            <l n="485">Quoi que puisse à mes sens offrir la nouveauté,</l>
+            <l n="486">Mon coeur à tous ses traits demeure invulnérable ;</l>
+            <l n="487">Et bien qu'elle ait au sien la même cruauté,</l>
+            <l n="488">Ma foi pour ses rigueurs n'en est pas moins durable.</l>
+            <l n="489">C'est donc avec raison que mon extrême ardeur</l>
+            <l n="490">Trouve chez cette belle une extrême froideur,</l>
+            <l n="491">Et que sans être aimé je brûle pour Mélite :</l>
+            <l n="492">Car de ce que les dieux, nous envoyant au jour,</l>
+            <l n="493">Donnèrent pour nous deux d'amour et de mérite,</l>
+            <l n="494">Elle a tout le mérite, et moi j'ai tout l'amour.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="495" part="I">Tu l'as fait pour Eraste ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="495" part="F">Oui, j'ai dépeint sa flamme.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="496">Comme tu la ressens peut-être dans ton âme ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="497">Tu sais mieux qui je suis, et que ma libre humeur</l>
+            <l n="498">N'a de part en mes vers que celle de rimeur.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="499">Pauvre frère ! Vois-tu, ton silence t'abuse ;</l>
+            <l n="500">De la langue ou des yeux, n'importe qui t'accuse :</l>
+            <l n="501">Les tiens m'avaient bien dit, malgré toi, que ton coeur</l>
+            <l n="502">Soupirait sous les lois de quelque objet vainqueur ;</l>
+            <l n="503">Mais j'ignorais encore qui tenait ta franchise,</l>
+            <l n="504">Et le nom de Mélite a causé ma surprise</l>
+            <l n="505">Sitôt qu'au premier vers ton sonnet m'a fait voir</l>
+            <l n="506">Ce que depuis huit jours je brûlais de savoir.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="507" part="I">Tu crois donc que j'en tiens ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="507" part="M">Fort avant.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="507" part="F">Pour Mélite ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="508">Pour Mélite ; et, de plus, que ta flamme n'excite</l>
+            <l n="509">Au coeur de cette belle aucun embrasement.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="510" part="I">Qui t'en a tant appris ? Mon sonnet ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="510" part="F">Justement.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="511">Et c'est ce qui te trompe avec tes conjectures,</l>
+            <l n="512">Et par où ta finesse a mal pris ses mesures.</l>
+            <l n="513">Un visage jamais ne m'aurait arrêté,</l>
+            <l n="514">S'il fallait que l'amour fût tout de mon côté.</l>
+            <l n="515">Ma rime seulement est un portrait fidèle</l>
+            <l n="516">De ce qu'Eraste souffre en servant cette belle ;</l>
+            <l n="517">Mais quand je l'entretiens de mon affection,</l>
+            <l n="518">J'en ai toujours assez de satisfaction.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="519">Montre, si tu dis vrai, quelque peu plus de joie ;</l>
+            <l n="520">Et rends-toi moins rêveur, afin que je te croie.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="521">Je rêve, et mon esprit ne s'en peut exempter ;</l>
+            <l n="522">Car sitôt que je viens à me représenter</l>
+            <l n="523">Qu'une vieille amitié de mon amour s'irrite,</l>
+            <l n="524">Qu'Eraste s'en offense, et s'oppose à Mélite,</l>
+            <l n="525">Tantôt je suis ami, tantôt je suis rival ;</l>
+            <l n="526">Et, toujours balancé d'un contrepoids égal,</l>
+            <l n="527">J'ai honte de me voir insensible, ou perfide.</l>
+            <l n="528">Si l'amour m'enhardit, l'amitié m'intimide.</l>
+            <l n="529">Entre ces mouvements mon esprit partagé</l>
+            <l n="530">Ne sait duquel des deux il doit prendre congé.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="531">Voilà bien des détours pour dire, au bout du conte,</l>
+            <l n="532">Que c'est contre ton gré que l'amour te surmonte.</l>
+            <l n="533">Tu présumes par là me le persuader ;</l>
+            <l n="534">Mais ce n'est pas ainsi qu'on m'en donne à garder.</l>
+            <l n="535">A la mode du temps, quand nous servons quelque autre,</l>
+            <l n="536">C'est seulement alors qu'il n'y va rien du nôtre.</l>
+            <l n="537">Chacun en son affaire est son meilleur ami,</l>
+            <l n="538">Et tout autre intérêt ne touche qu'à demi.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="539">Que du foudre à tes yeux j'éprouve la furie,</l>
+            <l n="540">Si rien que ce rival cause ma rêverie !</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="541">C'est donc assurément son bien qui t'est suspect ;</l>
+            <l n="542">Son bien te fait rêver, et non pas son respect ;</l>
+            <l n="543">Et, toute amitié bas, tu crains que sa richesse</l>
+            <l n="544">En dépit de tes feux n'obtienne ta maîtresse.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="545">Tu devines, ma soeur ; cela me fait mourir.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="546">Ce sont vaines frayeurs dont je veux te guérir.</l>
+            <l n="547">Depuis quand ton Eraste en tient-il pour Mélite ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="548">Il rend depuis deux ans hommage à son mérite.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="549">Mais dit-il les grands mots ? Parle-t-il d'épouser ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="550" part="I">Presque à chaque moment.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="550" part="F">Laisse-le donc jaser.</l>
+            <l n="551">Ce malheureux amant ne vaut pas qu'on le craigne ;</l>
+            <l n="552">Quelque riche qu'il soit, Mélite le dédaigne :</l>
+            <l n="553">Puisqu'on voit sans effet deux ans d'affection,</l>
+            <l n="554">Tu ne dois plus douter de son aversion ;</l>
+            <l n="555">Le temps ne la rendra que plus grande et plus forte.</l>
+            <l n="556">On prend soudain au mot les hommes de sa sorte,</l>
+            <l n="557">Et sans rien hasarder à la moindre longueur,</l>
+            <l n="558">On leur donne la main dès qu'ils offrent le coeur.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="559">Sa mère peut agir de puissance absolue.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="560">Crois que déjà l'affaire en serait résolue,</l>
+            <l n="561">Et qu'il aurait déjà de quoi se contenter</l>
+            <l n="562">Si sa mère était femme à la violenter.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="563">Ma crainte diminue, et ma douleur s'apaise ;</l>
+            <l n="564">Mais si je t'abandonne, excuse mon trop d'aise.</l>
+            <l n="565">Avec cette lumière et ma dextérité,</l>
+            <l n="566">J'en veux aller savoir toute la vérité.</l>
+            <l n="567" part="I">Adieu.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="567" part="F">Moi, je m'en vais paisiblement attendre</l>
+            <l n="568">Le retour désiré du paresseux Philandre.</l>
+            <l n="569">Un moment de froideur lui fera souvenir</l>
+            <l n="570">Qu'il faut une autre fois tarder moins à venir.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Eraste, Cliton.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, lui donnant une lettre.</speaker>
+            <l n="571">Va-t'en chercher Philandre, et dis-lui que Mélite</l>
+            <l n="572">A dedans ce billet sa passion décrite ;</l>
+            <l n="573">Dis-lui que sa pudeur ne saurait plus cacher</l>
+            <l n="574">Un feu qui la consume et qu'elle tient si cher :</l>
+            <l n="575">Mais prends garde surtout à bien jouer ton rôle ;</l>
+            <l n="576">Remarque sa couleur, son maintien, sa parole ;</l>
+            <l n="577">Vois si dans la lecture un peu d'émotion</l>
+            <l n="578">Ne te montrera rien de son intention.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="579" part="I">Cela vaut fait, monsieur.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="579" part="F">Mais, après ce message,</l>
+            <l n="580">Sache avec tant d'adresse ébranler son courage,</l>
+            <l n="581">Que tu viennes à bout de sa fidélité.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="582">Monsieur, reposez-vous sur ma subtilité ;</l>
+            <l n="583">Il faudra malgré lui qu'il donne dans le piège ;</l>
+            <note type="L">Pleige : Ancien terme de jurisprudence. Celui qui sert de garant, de caution. [L]</note>
+            <l n="584">Ma tête sur ce point vous servira de pleige ;</l>
+            <l n="585" part="I">Mais aussi vous savez...</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="585" part="F">Oui, va, sois diligent.</l>
+            <l n="586">Ces âmes du commun n'ont pour but que l'argent ;</l>
+            <l n="587">Et je n'ai que trop vu par mon expérience...</l>
+            <l n="588" part="I">Mais tu reviens bientôt ?</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="588" part="F">Donnez-vous patience,</l>
+            <l n="589">Monsieur ; il ne nous faut qu'un moment de loisir,</l>
+            <l n="590">Et vous pourrez vous-même en avoir le plaisir.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="591" part="I">Comment ?</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="591" part="F">De ce carrefour j'ai vu venir Philandre.</l>
+            <l n="592">Cachez-vous en ce coin, et de là sachez prendre</l>
+            <l n="593">L'occasion commode à seconder mes coups.</l>
+            <l n="594">Par là nous le tenons. Le voici ; sauvez-vous.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Philandre, Eraste, Cliton.</head>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <stage>Eraste est caché et les écoute.</stage>
+            <l n="595">Quelle réception me fera ma maîtresse ?</l>
+            <l n="596">Le moyen d'excuser une telle paresse ?</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="597">Monsieur, tout à propos je vous rencontre ici,</l>
+            <l n="598">Expressément chargé de vous rendre ceci.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="599" part="I">Qu'est-ce ?</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="599" part="F">Vous allez voir, en lisant cette lettre,</l>
+            <l n="600">Ce qu'un homme jamais n'oserait se promettre.</l>
+            <l n="601" part="I">Ouvrez-la seulement.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="601" part="F">Va, tu n'es qu'un conteur.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="602">Je veux mourir, au cas qu'on me trouve menteur.</l>
+            <stage>Lettre supposée de Mélite à Philandre.</stage>
+            <p n="1">
+              <s n="1">Malgré le devoir et la bienséance du sexe, celle-ci m'échappe en faveur de vos mérites, pour vous apprendre que c'est Mélite qui vous écrit, et qui vous aime. </s>
+              <s n="2">Si elle est assez heureuse pour recevoir de vous une réciproque affection, contentez-vous de cet entretien par lettres, jusqu'à ce qu'elle ait ôté de l'esprit de sa mère quelques personnes qui n'y sont que trop bien pour son contentement.</s>
+            </p>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, feignant d'avoir lu la lettre par-dessus son épaule.</speaker>
+            <l n="603">C'est donc la vérité que la belle Mélite</l>
+            <l n="604">Fait du brave Philandre une louable élite,</l>
+            <l n="605">Et qu'il obtient ainsi de sa seule vertu</l>
+            <l n="606">Ce qu'Eraste et Tircis ont en vain débattu ?</l>
+            <l n="607">Vraiment dans un tel choix mon regret diminue ;</l>
+            <l n="608">Outre qu'une froideur depuis peu survenue,</l>
+            <l n="609">De tant de voeux perdus ayant su me lasser,</l>
+            <l n="610">N'attendait qu'un prétexte à m'en débarrasser.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="611">Me dis-tu que Tircis brûle pour cette belle ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="612" part="I">Il en meurt.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="612" part="F">Ce courage à l'amour si rebelle ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="613" part="I">Lui-même.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="613" part="F">Si ton coeur ne tient plus qu'à demi,</l>
+            <l n="614">Tu peux le retirer en faveur d'un ami ;</l>
+            <l n="615">Sinon, pour mon regard ne cesse de prétendre :</l>
+            <l n="616">Étant pris une fois, je ne suis plus à prendre.</l>
+            <l n="617">Tout ce que je puis faire à ce beau feu naissant,</l>
+            <l n="618">C'est de m'en revancher par un zèle impuissant ;</l>
+            <l n="619">Et ma Chloris la prie, afin de s'en distraire,</l>
+            <l n="620">De tourner, s'il se peut, sa flamme vers son frère.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="621">Auprès de sa beauté qu'est-ce que ta Chloris ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="622">Un peu plus de respect pour ce que je chéris.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="623">Je veux qu'elle ait en soi quelque chose d'aimable ;</l>
+            <l n="624">Mais enfin à Mélite est-elle comparable ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="625">Qu'elle le soit ou non, je n'examine pas</l>
+            <l n="626">Si des deux l'une ou l'autre a plus ou moins d'appas.</l>
+            <l n="627">J'aime l'une ; et mon coeur pour toute autre insensible...</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="628">Avise toutefois, le prétexte est plausible.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="629">J'en serais mal voulu des hommes et des dieux.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="630">On pardonne aisément à qui troue son mieux.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="631" part="I">Mais en quoi gît ce mieux ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="631" part="F">En esprit, en richesse.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="632">Ô le honteux motif à changer de maîtresse !</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="633" part="I">En amour.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="633" part="F">Chloris m'aime, et si je m'y connais,</l>
+            <l n="634">Rien ne peut égaler celui qu'elle a pour moi.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="635">Tu te détromperas, si tu veux prendre garde</l>
+            <l n="636">A ce qu'à ton sujet l'une et l'autre hasarde.</l>
+            <l n="637">L'une en t'aimant s'expose au péril d'un mépris :</l>
+            <l n="638">L'autre ne t'aime point que tu n'en sois épris ;</l>
+            <l n="639">L'une t'aime engagé vers une autre moins belle :</l>
+            <l n="640">L'autre se rend sensible à qui n'aime rien qu'elle,</l>
+            <l n="641">L'une au-dessus des siens te montre son ardeur ;</l>
+            <l n="642">Et l'autre après leur choix quitte un peu sa froideur :</l>
+            <l n="643" part="I">L'une...</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="643" part="F">Adieu : des raisons de si peu d'importance</l>
+            <l n="644">Ne pourraient en un siècle ébranler ma constance.</l>
+            <stage>Il dit ce vers à Cliton tout bas.</stage>
+            <l n="645">Dans deux heures d'ici tu viendras me revoir.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="646">Disposez librement de mon petit pouvoir.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, seul.</speaker>
+            <l n="647">Il a beau déguiser, il a goûté l'amorce ;</l>
+            <l n="648">Chloris déjà sur lui n'a presque plus de force :</l>
+            <l n="649">Ainsi je suis deux fois vengé du ravisseur,</l>
+            <l n="650">Ruinant tout ensemble, et le frère, et la soeur.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Tircis, Eraste, Mélite.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="651" part="I">Eraste, arrête un peu.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="651" part="M">Que me veux-tu ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="651" part="F">Te rendre</l>
+            <l n="652">Ce sonnet que pour toi j'ai promis d'entreprendre.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE, au travers d'une jalousie, cependant qu'Eraste lit le sonnet.</speaker>
+            <l n="653">Que font-ils là tous deux ? Qu'ont-ils à démêler ?</l>
+            <l n="654">Ce jaloux à la fin le pourra quereller ;</l>
+            <l n="655">Du moins les compliments, dont peut-être ils se jouent,</l>
+            <l n="656">Sont des civilités qu'en l'âme ils désavouent.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="657">J'y donne une raison de ton sort inhumain.</l>
+            <l n="658">Allons, je le veux voir présenter de ta main</l>
+            <l n="659">A ce charmant objet dont ton âme est blessée.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, lui rendant son sonnet.</speaker>
+            <l n="660">Une autre fois, Tircis ; quelque affaire pressée</l>
+            <l n="661">Fait que je ne saurais pour l'heure m'en charger.</l>
+            <l n="662">Tu trouveras ailleurs un meilleur messager.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS, seul.</speaker>
+            <l n="663">La belle humeur de l'homme ! Ô dieux, quel personnage !</l>
+            <l n="664">Quel ami j'avais fait de ce plaisant visage !</l>
+            <l n="665">Une mine froncée, un regard de travers,</l>
+            <l n="666">C'est le remerciement, que j'aurai de mes vers.</l>
+            <l n="667">Je manque, à son avis, d'assurance ou d'adresse,</l>
+            <l n="668">Pour les donner moi-même à sa jeune maîtresse,</l>
+            <l n="669">Et prendre ainsi le temps de dire à sa beauté</l>
+            <l n="670">L'empire que ses yeux ont sur ma liberté.</l>
+            <l n="671">Je pense l'entrevoir par cette jalousie :</l>
+            <l n="672">Oui, mon âme de joie en est toute saisie.</l>
+            <l n="673">Hélas ! Et le moyen de pouvoir lui parler,</l>
+            <l n="674">Si mon premier aspect l'oblige à s'en aller ?</l>
+            <l n="675">Que cette joie est courte, et qu'elle est cher vendue !</l>
+            <l n="676">Toutefois tout va bien, la voilà descendue.</l>
+            <l n="677">Ses regards pleins de feu s'entendent avec moi ;</l>
+            <l n="678">Que dis-je ? En s'avançant elle m'appelle à soi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Mélite, Tircis.</head>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="679">Eh bien ! Qu'avez-vous fait de votre compagnie ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="680">Je ne puis rien juger de ce qui l'a bannie :</l>
+            <l n="681">A peine ai-je eu loisir de lui dire deux mots.</l>
+            <l n="682">Qu'aussitôt le fantasque, en me tournant le dos,</l>
+            <l n="683" part="I">S'est échappé de moi.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="683" part="F">Sans doute il m'aura vue,</l>
+            <l n="684">Et c'est de là que vient cette fuite imprévue.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="685">Vous aimant comme il fait, qui l'eût jamais pensé ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="686">Vous ne savez donc rien de ce qui s'est passé ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="687">J'aimerais beaucoup mieux savoir ce qui se passe,</l>
+            <l n="688">Et la part qu'a Tircis en votre bonne grâce.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="689">Meilleur aucunement qu'Eraste ne voudrait.</l>
+            <l n="690">Je n'ai jamais connu d'amant si maladroit ;</l>
+            <l n="691">Il ne saurait souffrir qu'autre que lui m'approche.</l>
+            <l n="692">Dieux ! Qu'à votre sujet il m'a fait de reproche !</l>
+            <l n="693">Vous ne sauriez me voir sans le désobliger.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="694">Et de tous mes soucis c'est là le plus léger.</l>
+            <l n="695">Toute une légion de rivaux de sa sorte</l>
+            <l n="696">Ne divertirait pas l'amour que je vous porte,</l>
+            <l n="697">Qui ne craindra jamais les humeurs d'un jaloux.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="698">Aussi le croit-il bien, ou je me trompe.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="699" part="I">Et vous ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="699" part="F">Bien que cette croyance à quelque erreur m'expose,</l>
+            <l n="700">Pour lui faire dépit, j'en croirai quelque chose.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="701">Mais afin qu'il reçût un entier déplaisir,</l>
+            <l n="702">Il faudrait que nos coeurs n'eussent plus qu'un désir,</l>
+            <l n="703">Et quitter ces discours de volontés sujettes,</l>
+            <l n="704">Qui ne sont point de mise en l'état où vous êtes.</l>
+            <l n="705">Vous-même consultez un moment vos appas ;</l>
+            <l n="706">Songez à leurs effets, et ne présumez pas</l>
+            <l n="707">Avoir sur tous les coeurs un pouvoir si suprême,</l>
+            <l n="708">Sans qu'il vous soit permis d'en user sur vous-même.</l>
+            <l n="709">Un si digne sujet ne reçoit point de loi,</l>
+            <l n="710">De règle, ni d'avis, d'un autre que de soi.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="711">Ton mérite, plus fort que ta raison flatteuse,</l>
+            <l n="712">Me rend, je le confesse, un peu moins scrupuleuse.</l>
+            <l n="713">Je dois tout à ma mère, et pour tout autre amant</l>
+            <l n="714">Je voudrais tout remettre à son commandement ;</l>
+            <l n="715">Mais attendre pour toi l'effet de sa puissance,</l>
+            <l n="716">Sans te rien témoigner que par obéissance,</l>
+            <l n="717">Tircis, ce serait trop ; tes rares qualités</l>
+            <l n="718">Dispensent mon devoir de ces formalités.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="719">Que d'amour et de joie un tel aveu me donne !</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="720">C'est peut-être en trop dire, et me montrer trop bonne ;</l>
+            <l n="721">Mais par là tu peux voir que mon affection</l>
+            <l n="722">Prend confiance entière en ta discrétion.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="723">Vous la verrez toujours dans un respect sincère</l>
+            <l n="724">Attacher mon bonheur à celui de vous plaire,</l>
+            <l n="725">N'avoir point d'autre soin, n'avoir point d'autre esprit ;</l>
+            <l n="726">Et si vous en voulez un serment par écrit,</l>
+            <l n="727">Ce sonnet que pour vous vient de tracer ma flamme,</l>
+            <l n="728">Vous fera voir à nu jusqu'au fond de mon âme.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="729">Garde bien ton sonnet, et pense qu'aujourd'hui</l>
+            <l n="730">Mélite veut te croire autant et plus que lui.</l>
+            <l n="731">Je le prends toutefois comme un précieux gage</l>
+            <l n="732">Du pouvoir que mes yeux ont pris sur ton courage.</l>
+            <l n="733">Adieu : sois-moi fidèle en dépit du jaloux.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="734">Ô ciel ! Jamais amant eut-il un sort plus doux !</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE</head>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE, seul.</speaker>
+            <l n="735">Tu l'as gagné, Mélite ; il ne m'est pas possible</l>
+            <l n="736">D'être à tant de faveurs plus longtemps insensible.</l>
+            <l n="737">Tes lettres où sans fard tu dépeins ton esprit,</l>
+            <l n="738">Tes lettres où ton coeur est si bien par écrit,</l>
+            <l n="739">Ont charmé tous mes sens par leurs douces promesses.</l>
+            <l n="740">Leur attente vaut mieux, Chloris, que tes caresses.</l>
+            <l n="741">Ah ! Mélite, pardon ! Je t'offense à nommer</l>
+            <l n="742">Celle qui m'empêcha si longtemps de t'aimer.</l>
+            <l n="743">Souvenirs importuns d'une amante laissée,</l>
+            <l n="744">Qui venez malgré moi remettre en ma pensée</l>
+            <l n="745">Un portrait que j'en veux tellement effacer</l>
+            <l n="746">Que le sommeil ait peine à me le retracer,</l>
+            <l n="747">Hâtez-vous de sortir sans plus troubler ma joie ;</l>
+            <l n="748">Et retournant trouver celle qui vous envoie,</l>
+            <l n="749">Dites-lui de ma part pour la dernière fois</l>
+            <l n="750">Qu'elle est en liberté de faire un autre choix ;</l>
+            <l n="751">Que ma fidélité n'entretient plus ma flamme,</l>
+            <l n="752">Ou que s'il m'en demeure encore un peu dans l'âme,</l>
+            <l n="753">Je souhaite, en faveur de ce reste de foi,</l>
+            <l n="754">Qu'elle puisse gagner au change autant que moi.</l>
+            <l n="755">Dites-lui que Mélite, ainsi qu'une déesse,</l>
+            <l n="756">Est de tous nos désirs souveraine maîtresse,</l>
+            <l n="757">Dispose de nos coeurs, force nos volontés,</l>
+            <l n="758">Et que par son pouvoir nos destins surmontés</l>
+            <l n="759">Se tiennent trop heureux de prendre l'ordre d'elle ;</l>
+            <l n="760" part="I">Enfin que tous mes voeux...</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Tircis, Philandre.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="760" part="M">Philandre !</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="760" part="F">Qui m'appelle ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="761">Tircis, dont le bonheur au plus haut point monté</l>
+            <l n="762">Ne peut être parfait sans te l'avoir conté.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="763">Tu me fais trop d'honneur par cette confidence.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="764">J'userais envers toi d'une sotte prudence,</l>
+            <l n="765">Si je faisais dessein de te dissimuler</l>
+            <l n="766">Ce qu'aussi bien mes yeux ne sauraient te celer.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="767">En effet, si l'on peut te juger au visage,</l>
+            <l n="768">Si l'on peut par tes yeux lire dans ton courage,</l>
+            <l n="769">Ce qu'ils montrent de joie à tel point me surprend,</l>
+            <l n="770">Que je n'en puis trouver de sujet assez grand ;</l>
+            <l n="771">Rien n'atteint, ce me semble, aux signes qu'ils en donnent.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="772">Que fera le sujet, si les signes t'étonnent ?</l>
+            <l n="773">Mon bonheur est plus grand qu'on ne peut soupçonner.</l>
+            <l n="774">C'est quand tu l'auras su qu'il faudra t'étonner.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="775">Je ne le saurai pas sans marque plus expresse.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="776" part="I">Possesseur, autant vaut...</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="776" part="M">De quoi ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="776" part="F">D'une maîtresse</l>
+            <l n="777">Belle, honnête, jolie, et dont l'esprit charmant</l>
+            <l n="778">De son seul entretien peut ravir un amant ;</l>
+            <l n="779" part="I">En un mot, de Mélite.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="779" part="F">Il est vrai qu'elle est belle :</l>
+            <l n="780" part="I">Tu n'as pas mal choisi ; mais...</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="780" part="M">Quoi, mais ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="780" part="F">T'aime-t-elle ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="781" part="I">Cela n'est plus en doute.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="781" part="M">Et de coeur ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="781" part="F">Et de coeur,</l>
+            <l n="782" part="I">Je t'en réponds.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="782" part="F">Souvent un visage moqueur</l>
+            <l n="783">N'a que le beau semblant d'une mine hypocrite.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="784">Je ne crains rien de tel du côté de Mélite.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="785">Écoute, j'en ai vu de toutes les façons ;</l>
+            <l n="786">J'en ai vu qui semblaient n'être que des glaçons,</l>
+            <l n="787">Dont le feu retenu par une adroite feinte</l>
+            <l n="788">S'allumait d'autant plus qu'il souffrait de contrainte ;</l>
+            <l n="789">J'en ai vu, mais beaucoup, qui, sous le faux appas</l>
+            <l n="790">Des preuves d'un amour qui ne les touchait pas,</l>
+            <l n="791">Prenaient du passe-temps d'une folle jeunesse</l>
+            <l n="792">Qui se laisse affiner à ces traits de souplesse,</l>
+            <l n="793">Et pratiquaient sous main d'autres affections :</l>
+            <l n="794">Mais j'en ai vu fort peu de qui les passions</l>
+            <l n="795">Fussent d'intelligence avec tout le visage.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="796">Et de ce petit nombre est celle qui m'engage ;</l>
+            <l n="797">De sa passion je me tiens aussi sûr</l>
+            <l n="798">Que tu te peux tenir de celle de ma soeur.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="799">Donc si ton espérance à la fin n'est déçue,</l>
+            <l n="800">Ces deux amours auront une pareille issue ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="801">Si cela n'arrivait, je me tromperais fort.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="802">Pour te faire plaisir j'en veux être d'accord.</l>
+            <l n="803">Cependant apprends-moi comment elle te traite,</l>
+            <l n="804">Et qui te fait juger son ardeur si parfaite.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="805">Une parfaite ardeur a trop de truchements</l>
+            <l n="806">Par qui se faire entendre aux esprits des amants ;</l>
+            <l n="807" part="I">Un coup d'oeil, un soupir...</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="807" part="F">Ces faveurs ridicules</l>
+            <l n="808">Ne servent qu'à duper des âmes trop crédules.</l>
+            <l n="809" part="I">N'as-tu rien que cela ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="809" part="F">Sa parole et sa foi.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="810">Encor c'est quelque chose. Achève, et conte-moi</l>
+            <l n="811">Les petites douceurs, les aimables tendresses</l>
+            <l n="812">Qu'elle se plaît à joindre à de telles promesses.</l>
+            <l n="813">Quelques lettres du moins te daignent confirmer</l>
+            <l n="814">Ce voeu qu'entre tes mains elle a fait de t'aimer ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="815">Recherche qui voudra ces menus badinages,</l>
+            <l n="816">Qui n'en sont pas toujours de fort sûrs témoignages ;</l>
+            <l n="817">Je n'ai que sa parole, et ne veux que sa foi.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="818">Je connais donc quelqu'un plus avancé que toi.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="819">J'entends qui tu veux dire, et pour ne te rien feindre,</l>
+            <l n="820">Ce rival est bien moins à redouter qu'à plaindre.</l>
+            <l n="821">Eraste, qu'ont banni ses dédains rigoureux...</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="822">Je parle de quelque autre un peu moins malheureux.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="823">Je ne connais que lui qui soupire pour elle.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="824">Je ne te tiendrai point plus longtemps en cervelle :</l>
+            <l n="825">Pendant qu'elle t'amuse avec ses beaux discours,</l>
+            <l n="826">Un rival inconnu possède ses amours ;</l>
+            <l n="827">Et la dissimulée, au mépris de ta flamme,</l>
+            <l n="828">Par lettres, chaque jour, lui fait don de son âme.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="829">De telles trahisons lui sont trop en horreur.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="830">Je te veux, par pitié, tirer de cette erreur.</l>
+            <l n="831">Tantôt, sans y penser, j'ai trouvé cette lettre ;</l>
+            <l n="832">Tiens, vois ce que tu peux désormais t'en promettre.</l>
+            <stage>Lettre supposée de Mélite à Philandre.</stage>
+            <p n="1">
+              <s n="1">Je commence à m'estimer quelque chose, puisque je vous plais ; et mon miroir m'offense tous les jours, ne me représentant pas assez belle, comme je m'imagine qu'il faut être pour mériter votre affection. </s>
+              <s n="">Aussi je veux bien que vous sachiez que Mélite ne croit la posséder que par faveur, ou comme une récompense extraordinaire d'un excès d'amour, dont elle tâche de suppléer au défaut des grâces que le ciel lui a refusées.</s>
+            </p>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="833">Maintenant qu'en dis-tu ? N'est-ce pas t'affronter ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="834">Cette lettre en tes mains ne peut m'épouvanter.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="835" part="I">La raison ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="835" part="F">Le porteur a su combien je t'aime,</l>
+            <l n="836">Et par galanterie il t'a pris pour moi-même,</l>
+            <l n="837">Comme aussi ce n'est qu'un de deux parfaits amis.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="838">Voilà bien te flatter plus qu'il ne t'est permis,</l>
+            <l n="839">Et pour ton intérêt aimer à te méprendre.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="840">On t'en aura donné quelque autre pour me rendre,</l>
+            <l n="841">Afin qu'encore un coup je sois ainsi déçu.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="842">Oui, j'ai quelque billet que tantôt j'ai reçu ;</l>
+            <l n="843" part="I">Et puisqu'il est pour toi...</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="843" part="F">Que ta longueur me tue !</l>
+            <l n="844" part="I">Dépêche.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="844" part="F">Le voilà que je te restitue.</l>
+            <stage>Autre lettre supposée de Mélite à Philandre.</stage>
+            <p n="1">
+              <s n="1">Vous n'avez plus affaire qu'à Tircis ; je le souffre encore, afin que par sa hantise je remarque plus exactement ses défauts et les fasse mieux goûter à ma mère. </s>
+              <s n="2">Après cela Philandre et Mélite auront tout loisir de rire ensemble des belles imaginations dont le frère et la soeur ont repu leurs espérances.</s>
+            </p>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="845">Te voilà tout rêveur, cher ami ; par ta foi,</l>
+            <l n="846">Crois-tu que ce billet s'adresse encore à toi ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="847">Traître ! C'est donc ainsi que ma soeur méprisée</l>
+            <l n="848">Sert à ton changement d'un sujet de risée ?</l>
+            <l n="849">C'est ainsi qu'à sa foi Mélite osant manquer,</l>
+            <l n="850">D'un parjure si noir ne fait que se moquer ?</l>
+            <l n="851">C'est ainsi que sans honte à mes yeux tu subornes</l>
+            <l n="852">Un amour qui pour moi devait être sans bornes ?</l>
+            <l n="853">Suis-moi tout de ce pas ; que l'épée à la main</l>
+            <l n="854">Un si cruel affront se répare soudain :</l>
+            <l n="855">Il faut que pour tous deux ta tête me réponde.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="856">Si, pour te voir trompé, tu te déplais au monde,</l>
+            <l n="857">Cherche en ce désespoir qui t'en veuille arracher.</l>
+            <l n="858">Quant à moi, ton trépas me coûterait trop cher.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="859" part="I">Quoi ! Tu crains le duel ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="859" part="F">Non ; mais j'en crains la suite,</l>
+            <l n="860">Où la mort du vaincu met le vainqueur en fuite ;</l>
+            <l n="861">Et du plus beau succès le dangereux éclat</l>
+            <l n="862">Nous fait perdre l'objet et le prix du combat.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="863">Tant de raisonnement et si peu de courage</l>
+            <l n="864">Sont de tes lâchetés le digne témoignage.</l>
+            <l n="865">Viens, ou dis que ton sang n'oserait s'exposer.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="866">Mon sang n'est plus à moi ; je n'en puis disposer,</l>
+            <l n="867">Mais puisque ta douleur de mes raisons s'irrite,</l>
+            <l n="868">J'en prendrai, dès ce soir, le congé de Mélite.</l>
+            <l n="869" part="I">Adieu.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS, seul.</speaker>
+            <l n="869" part="F">Tu fuis, perfide, et ta légèreté</l>
+            <l n="870">T'ayant fait criminel, te met en sûreté !</l>
+            <l n="871">Reviens, reviens défendre une place usurpée :</l>
+            <l n="872">Celle qui te chérit vaut bien un coup d'épée.</l>
+            <l n="873">Fais voir que l'infidèle, en se donnant à toi,</l>
+            <l n="874">A fait choix d'un amant qui valait mieux que moi,</l>
+            <l n="875">Soutiens son jugement, et sauve ainsi de blâme</l>
+            <l n="876">Celle qui pour la tienne a négligé ma flamme.</l>
+            <l n="877">Crois-tu qu'on la mérite à force de courir ?</l>
+            <l n="878">Peux-tu m'abandonner ses faveurs sans mourir ?</l>
+            <l n="879">O lettres, ô faveurs, indignement placées,</l>
+            <l n="880">A ma discrétion honteusement laissées !</l>
+            <l n="881">O gages qu'il néglige ainsi que superflus !</l>
+            <l n="882">Je ne sais qui de nous vous diffamez le plus ;</l>
+            <l n="883">Je ne sais qui des trois doit rougir davantage :</l>
+            <l n="884">Car vous nous apprenez qu'elle est une volage,</l>
+            <l n="885">Son amant un parjure, et moi sans jugement,</l>
+            <l n="886">De n'avoir rien prévu de leur déguisement :</l>
+            <l n="887">Mais il le fallait bien que cette âme infidèle,</l>
+            <l n="888">Changeant d'affection, prît un traître comme elle ;</l>
+            <l n="889">Et que le digne amant qu'elle a su rechercher</l>
+            <l n="890">A sa déloyauté n'eût rien à reprocher.</l>
+            <l n="891">Cependant j'en croyais cette fausse apparence</l>
+            <l n="892">Dont elle repaissait ma frivole espérance ;</l>
+            <l n="893">J'en croyais ses regards, qui, tout remplis d'amour,</l>
+            <l n="894">Étaient de la partie en un si lâche tour.</l>
+            <l n="895">Ô ciel ! Vit-on jamais tant de supercherie,</l>
+            <l n="896">Que tout l'extérieur ne fût que tromperie ?</l>
+            <l n="897">Non, non, il n'en est rien ; une telle beauté</l>
+            <l n="898">Ne fut jamais sujette à la déloyauté.</l>
+            <l n="899">Faibles et seuls témoins du malheur qui me touche,</l>
+            <l n="900">Vous êtes trop hardis de démentir sa bouche.</l>
+            <l n="901">Mélite me chérit, elle me l'a juré ;</l>
+            <l n="902">Son oracle reçu, je m'en tiens assuré.</l>
+            <l n="903">Que dites-vous là contre ? Êtes-vous plus croyables ?</l>
+            <l n="904">Caractères trompeurs, vous me contez des fables,</l>
+            <l n="905">Vous voulez me trahir ; mais vos efforts sont vains :</l>
+            <l n="906">Sa parole a laissé son coeur entre mes mains.</l>
+            <l n="907">A ce doux souvenir ma flamme se rallume :</l>
+            <l n="908">Je ne sais plus qui croire ou d'elle ou de sa plume :</l>
+            <l n="909">L'une et l'autre en effet n'ont rien que de léger ;</l>
+            <l n="910">Mais du plus ou du moins je n'en puis que juger.</l>
+            <l n="911">Loin, loin, doutes flatteurs que mon feu me suggère ;</l>
+            <l n="912">Je vois trop clairement qu'elle est la plus légère ;</l>
+            <l n="913">La foi que j'en reçus s'en est allée en l'air,</l>
+            <l n="914">Et ces traits de sa plume osent encor parler,</l>
+            <l n="915">Et laissent en mes mains une honteuse image</l>
+            <l n="916">Où son coeur, peint au vif, remplit le mien de rage.</l>
+            <l n="917">Oui, j'enrage, je meurs, et tous mes sens troublés</l>
+            <l n="918">D'un excès de douleur se trouvent accablés ;</l>
+            <l n="919">Un si cruel tourment me gêne et me déchire,</l>
+            <l n="920">Que je ne puis plus vivre avec un tel martyre.</l>
+            <l n="921">Mais cachons-en la honte, et nous donnons du moins</l>
+            <l n="922">Ce faux soulagement, en mourant sans témoins.</l>
+            <l n="923">Que mon trépas secret empêche l'infidèle</l>
+            <l n="924">D'avoir la vanité que je sois mort pour elle.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Chloris, Tircis.</head>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="925">Mon frère, en ma faveur retourne sur tes pas.</l>
+            <l n="926">Dis-moi la vérité ; tu ne me cherchais pas ?</l>
+            <l n="927">Eh quoi ! Tu fais semblant de ne me pas connaître ?</l>
+            <l n="928">Ô dieux ! En quel état te vois-je ici paraître !</l>
+            <l n="929">Tu pâlis tout à coup, et tes louches regards</l>
+            <l n="930">S'élancent incertains presque de toutes parts !</l>
+            <l n="931">Tu manques à la fois de couleur et d'haleine !</l>
+            <l n="932">Ton pied mal affermi ne te soutient qu'à peine !</l>
+            <l n="933">Quel accident nouveau te trouble ainsi les sens ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="934">Puisque tu veux savoir le mal que je ressens,</l>
+            <l n="935">Avant que d'assouvir l'inexorable envie</l>
+            <l n="936">De mon sort rigoureux qui demande ma vie,</l>
+            <l n="937">Je vais t'assassiner d'un fatal entretien,</l>
+            <l n="938">Et te dire en deux mots mon malheur et le tien.</l>
+            <l n="939">En nos chastes amours de tous deux on se moque ;</l>
+            <l n="940">Philandre... Ah ! La douleur m'étouffe et me suffoque.</l>
+            <l n="941">Adieu, ma soeur, adieu ; je ne puis plus parler ;</l>
+            <l n="942">Lis, et, si tu le peux, tâche à te consoler.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="943" part="I">Ne m'échappe donc pas.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="943" part="F">Ma soeur, je te supplie...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="944">Quoi ! Que je t'abandonne à ta mélancolie ?</l>
+            <l n="945">Voyons auparavant ce qui te fait mourir,</l>
+            <l n="946">Et nous aviserons à te laisser courir.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="947" part="I">Hélas ! Quelle injustice !</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS, après avoir lu les lettres qu'il lui a données.</speaker>
+            <l n="947" part="F">Est-ce là tout, fantasque ?</l>
+            <l n="948">Quoi ! Si la déloyale enfin lève le masque,</l>
+            <l n="949">Oses-tu te fâcher d'être désabusé ?</l>
+            <l n="950">Apprends qu'il te faut être en amour plus rusé ;</l>
+            <l n="951">Apprends que les discours des filles bien sensées</l>
+            <l n="952">Découvrent rarement le fond de leurs pensées</l>
+            <l n="953">Et que, les yeux aidant à ce déguisement,</l>
+            <l n="954">Notre sexe a le don de tromper finement.</l>
+            <l n="955">Apprends aussi de moi que ta raison s'égare,</l>
+            <l n="956">Que Mélite n'est pas une pièce si rare,</l>
+            <l n="957">Qu'elle soit seule ici qui vaille la servir ;</l>
+            <l n="958">Assez d'autres objets y sauront te ravir.</l>
+            <l n="959">Ne t'inquiète point pour une écervelée</l>
+            <l n="960">Qui n'a d'ambition que d'être cajolée,</l>
+            <l n="961">Et rend à plaindre ceux qui, flattant ses beautés,</l>
+            <l n="962">Ont assez de malheur pour en être écoutés.</l>
+            <l n="963">Damon lui plut jadis, Aristandre et Géronte ;</l>
+            <l n="964">Eraste après deux ans n'y voit pas mieux son conte.</l>
+            <l n="965">Elle t'a trouvé bon seulement pour huit jours,</l>
+            <l n="966">Philandre est aujourd'hui l'objet de ses amours ;</l>
+            <l n="967">Et peut-être déjà (tant elle aime le change)</l>
+            <l n="968">Quelque autre nouveauté le supplante et nous venge.</l>
+            <l n="969">Ce n'est qu'une coquette avec tous ses attraits ;</l>
+            <l n="970">Sa langue avec son coeur ne s'accorde jamais.</l>
+            <l n="971">Les infidélités sont ses jeux ordinaires ;</l>
+            <l n="972">Et ses plus doux appas sont tellement vulgaires,</l>
+            <l n="973">Qu'en elle homme d'esprit n'admira jamais rien</l>
+            <l n="974">Que le sujet pourquoi tu lui voulais du bien.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="975">Penses-tu m'arrêter par ce torrent d'injures ?</l>
+            <l n="976">Que ce soient vérités, que ce soient impostures,</l>
+            <l n="977">Tu redoubles mes maux au lieu de les guérir.</l>
+            <l n="978">Adieu : rien que la mort ne peut me secourir.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS, seule.</speaker>
+            <l n="979">Mon frère... Il s'est sauvé ; son désespoir l'emporte :</l>
+            <l n="980">Me préserve le ciel d'en user de la sorte !</l>
+            <l n="981">Un volage me quitte, et je le quitte aussi ;</l>
+            <l n="982">Je l'obligerais trop de m'en mettre en souci.</l>
+            <l n="983">Pour perdre des amants, celles qui s'en affligent</l>
+            <l n="984">Donnent trop d'avantage à ceux qui les négligent :</l>
+            <l n="985">Il n'est lors que la joie ; elle nous venge mieux ;</l>
+            <l n="986">Et la fit-on à faux éclater par les yeux,</l>
+            <l n="987">C'est montrer par bravade à leur vaine inconstance</l>
+            <l n="988">Qu'elle est pour nous toucher de trop peu d'importance.</l>
+            <l n="989">Que Philandre à son gré rende ses voeux contents ;</l>
+            <l n="990">S'il attend que j'en pleure, il attendra longtemps.</l>
+            <l n="991">Son coeur est un trésor dont j'aime qu'il dispose ;</l>
+            <l n="992">Le larcin qu'il m'en fait me vole peu de chose ;</l>
+            <l n="993">Et l'amour qui pour lui m'éprit si follement</l>
+            <l n="994">M'avait fait bonne part de son aveuglement.</l>
+            <l n="995">On enchérit pourtant sur ma faute passée ;</l>
+            <l n="996">Dans la même folie une autre embarrassée</l>
+            <l n="997">Le rend encor parjure, et sans âme, et sans foi,</l>
+            <l n="998">Pour se donner l'honneur de faillir après moi.</l>
+            <l n="999">Je meure, s'il n'est vrai que la moitié du monde</l>
+            <l n="1000">Sur l'exemple d'autrui se conduit et se fonde !</l>
+            <l n="1001">A cause qu'il parut quelque temps m'enflammer,</l>
+            <l n="1002">La pauvre fille a cru qu'il valait bien l'aimer,</l>
+            <l n="1003">Et sur cette croyance elle en a pris envie :</l>
+            <l n="1004">Lui pût-elle durer jusqu'au bout de sa vie !</l>
+            <l n="1005">Si Mélite a failli me l'ayant débauché,</l>
+            <l n="1006">Dieux, par là seulement punissez son péché !</l>
+            <l n="1007">Elle verra bientôt que sa digne conquête</l>
+            <l n="1008">N'est pas une aventure à me rompre la tête :</l>
+            <l n="1009">Un si plaisant malheur m'en console à l'instant.</l>
+            <l n="1010">Ah ! Si mon fou de frère en pouvait faire autant,</l>
+            <l n="1011">Que j'en aurais de joie, et que j'en ferais gloire !</l>
+            <l n="1012">Si je puis le rejoindre, et qu'il me veuille croire,</l>
+            <l n="1013">Nous leur ferons bien voir que leur change indiscret</l>
+            <l n="1014">Ne vaut pas un soupir, ne vaut pas un regret.</l>
+            <l n="1015">Je me veux toutefois en venger par malice,</l>
+            <l n="1016">Me divertir une heure à m'en faire justice ;</l>
+            <l n="1017">Ces lettres fourniront assez d'occasion</l>
+            <l n="1018">D'un peu de défiance et de division.</l>
+            <l n="1019">Si je prends bien mon temps, j'aurai pleine matière</l>
+            <l n="1020">À les jouer tous deux d'une belle manière.</l>
+            <l n="1021">En voici déjà l'un qui craint de m'aborder.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Philandre, Chloris.</head>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1022">Quoi ! Tu passes, Philandre, et sans me regarder ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1023">Pardonne-moi, de grâce ; une affaire importune</l>
+            <l n="1024">M'empêche de jouir de ma bonne fortune ;</l>
+            <l n="1025">Et son empressement, qui porte ailleurs mes pas,</l>
+            <l n="1026">Me remplissait l'esprit jusqu'à ne te voir pas.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1027">J'ai donc souvent le don d'aimer plus qu'on ne m'aime ;</l>
+            <l n="1028">Je ne pense qu'à toi, j'en parlais en moi-même.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1029" part="I">Me veux-tu quelque chose ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1029" part="F">Il t'ennuie avec moi ;</l>
+            <l n="1030">Mais, comme de tes feux, j'ai pour garant ta foi,</l>
+            <l n="1031">Je ne m'alarme point. N'était ce qui te presse,</l>
+            <l n="1032">Ta flamme un peu plus loin eût porté la tendresse,</l>
+            <l n="1033">Et je t'aurais fait voir quelques vers de Tircis</l>
+            <l n="1034">Pour le charmant objet de ses nouveaux soucis.</l>
+            <l n="1035">Je viens de les surprendre, et j'y pourrais encore</l>
+            <l n="1036">Joindre quelques billets de l'objet qu'il adore ;</l>
+            <l n="1037">Mais tu n'a pas le temps : toutefois, si tu veux</l>
+            <l n="1038">Perdre un demi-quart d'heure à les lire nous deux...</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1039">Voyons donc ce que c'est, sans plus longue demeure ;</l>
+            <l n="1040">Ma curiosité pour ce demi-quart d'heure</l>
+            <l n="1041" part="I">S'osera dispenser.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1041" part="F">Aussi tu me promets,</l>
+            <l n="1042">Quand tu les auras lus, de n'en parler jamais ?</l>
+            <l n="1043" part="I">Autrement, ne crois pas...</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE, reconnaissant les lettres.</speaker>
+            <l n="1043" part="F">Cela s'en va sans dire :</l>
+            <l n="1044">Donne, donne-les-moi, tu ne les saurais lire ;</l>
+            <l n="1045">Et nous aurions ainsi besoin de trop de temps.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS, les resserrant.</speaker>
+            <l n="1046">Philandre, tu n'es pas encore où tu prétends ;</l>
+            <l n="1047">Quelque hautes faveurs que ton mérite obtienne,</l>
+            <l n="1048">Elles sont aussi bien en ma main qu'en la tienne ;</l>
+            <l n="1049">Je les garderai mieux, tu peux en assurer</l>
+            <l n="1050">La belle qui pour toi daigne se parjurer.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1051">Un homme doit souffrir d'une fille en colère ;</l>
+            <l n="1052">Mais je sais comme il faut les ravoir de ton frère ;</l>
+            <l n="1053">Tout exprès je le cherche, et son sang ou le mien...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1054">Quoi ! Philandre est vaillant, et je n'en savais rien !</l>
+            <l n="1055">Tes coups sont dangereux quand tu ne veux pas feindre,</l>
+            <l n="1056">Mais ils ont le bonheur de se faire peu craindre ;</l>
+            <l n="1057">Et mon frère, qui sait comme il s'en faut guérir,</l>
+            <l n="1058">Quand tu l'aurais tué, pourrait n'en pas mourir.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1059">L'effet en fera foi, s'il en a le courage.</l>
+            <l n="1060">Adieu. J'en perds le temps à parler davantage.</l>
+            <l n="1061" part="I">Tremble.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1061" part="F">J'en ai grand lieu, connaissant ta vertu,</l>
+            <l n="1062">Pourvu qu'il y consente, il sera bien battu.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Mélite, la Nourrice.</head>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1063">Cette obstination à faire la secrète</l>
+            <l n="1064">M'accuse injustement d'être trop peu discrète.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1065">Ton importunité n'est pas à supporter :</l>
+            <l n="1066">Ce que je ne sais point, te le puis-je conter ?</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1067">Les visites d'Eraste un peu moins assidues</l>
+            <l n="1068">Témoignent quelque ennui de ses peines perdues,</l>
+            <l n="1069">Et ce qu'on voit par là de refroidissement</l>
+            <l n="1070">Ne fait que trop juger son mécontentement.</l>
+            <l n="1071">Tu m'en veux cependant cacher tout le mystère.</l>
+            <l n="1072">Mais je pourrais enfin en croire ma colère,</l>
+            <l n="1073">Et pour punition te priver des avis</l>
+            <l n="1074">Qu'a jusqu'ici ton coeur si doucement suivis.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1075">C'est à moi de trembler après cette menace,</l>
+            <l n="1076">Et toute autre du moins tremblerait à ma place.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1077">Ne raillons point. Le fruit qui t'en est demeuré</l>
+            <l n="1078">(Je parle sans reproche, et tout considéré)</l>
+            <l n="1079">Vaut bien... Mais revenons à notre humeur chagrine ;</l>
+            <l n="1080" part="I">Apprends-moi ce que c'est.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1080" part="F">Veux-tu que je devine ?</l>
+            <l n="1081">Dégoûté d'un esprit si grossier que le mien,</l>
+            <l n="1082">Il cherche ailleurs peut-être un meilleur entretien.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1083">Ce n'est pas bien ainsi qu'un amant perd l'envie</l>
+            <l n="1084">D'une chose deux ans ardemment poursuivie ;</l>
+            <l n="1085">D'assurance un mépris l'oblige à se piquer ;</l>
+            <l n="1086">Mais ce n'est pas un trait qu'il faille pratiquer.</l>
+            <l n="1087">Une fille qui voit, et que voit la jeunesse,</l>
+            <l n="1088">Ne s'y doit gouverner qu'avec beaucoup d'adresse ;</l>
+            <l n="1089">Le dédain lui messied, ou, quand elle s'en sert,</l>
+            <l n="1090">Que ce soit pour reprendre un amant qu'elle perd.</l>
+            <l n="1091">Une heure de froideur, à propos ménagée,</l>
+            <l n="1092">Peut rembraser une âme à demi dégagée,</l>
+            <l n="1093">Qu'un traitement trop doux dispense à des mépris</l>
+            <l n="1094">D'un bien dont cet orgueil fait mieux savoir le prix.</l>
+            <l n="1095">Hors ce cas, il lui faut complaire à tout le monde,</l>
+            <l n="1096">Faire qu'aux voeux de tous l'apparence réponde,</l>
+            <l n="1097">Et sans embarrasser son coeur de leurs amours,</l>
+            <l n="1098">Leur faire bonne mine et souffrir leurs discours ;</l>
+            <l n="1099">Qu'à part ils pensent tous avoir la préférence,</l>
+            <l n="1100">Et paraissent ensemble entrer en concurrence ;</l>
+            <l n="1101">Que tout l'extérieur de son visage égal</l>
+            <l n="1102">Ne rende aucun jaloux du bonheur d'un rival ;</l>
+            <l n="1103">Que ses yeux partagés leur donnent de quoi craindre,</l>
+            <l n="1104">Sans donner à pas un aucun lieu de se plaindre ;</l>
+            <l n="1105">Qu'ils vivent tous d'espoir jusqu'au choix d'un mari,</l>
+            <l n="1106">Mais qu'aucun cependant ne soit le plus chéri,</l>
+            <l n="1107">Et qu'elle cède enfin, puisqu'il faut qu'elle cède,</l>
+            <l n="1108">A qui paiera le mieux le bien qu'elle possède :</l>
+            <l n="1109">Si tu n'eusses jamais quitté cette leçon,</l>
+            <l n="1110">Ton Eraste avec toi vivrait d'autre façon.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1111">Ce n'est pas son humeur de souffrir ce partage ;</l>
+            <l n="1112">Il croit que mes regards soient son propre héritage,</l>
+            <l n="1113">Et prend ceux que je donne à tout autre qu'à lui</l>
+            <l n="1114">Pour autant de larcins faits sur le bien d'autrui.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1115">J'entends à demi-mot ; achève, et m'expédie</l>
+            <l n="1116">Promptement le motif de cette maladie.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1117">Si tu m'avais, nourrice, entendue à demi,</l>
+            <l n="1118" part="I">Tu saurais que Tircis...</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1118" part="F">Quoi ! Son meilleur ami !</l>
+            <l n="1119">N'a-ce pas été lui qui te l'a fait connaître ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1120">Il voudrait que le jour en fût encore à naître ;</l>
+            <l n="1121">Et si d'auprès de moi je l'avais écarté,</l>
+            <l n="1122">Tu verrais tout à l'heure Eraste à mon côté.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1123">J'ai regret que tu sois leur pomme de discorde :</l>
+            <l n="1124">Mais puisque leur humeur ensemble ne s'accorde,</l>
+            <l n="1125">Eraste n'est pas homme à laisser échapper ;</l>
+            <l n="1126">Un semblable pigeon ne se peut rattraper :</l>
+            <l n="1127">Il a deux fois le bien de l'autre, et davantage.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1128">Le bien ne touche point un généreux courage.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1129">Tout le monde l'adore et tâche d'en jouir.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1130">Il suit un faux éclat qui ne peut m'éblouir.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1131">Auprès de sa splendeur toute autre est fort petite.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1132">Tu le places au rang qui n'est dû qu'au mérite.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1133">On a trop de mérite étant riche à ce point.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1134">Les biens en donnent-ils à ceux qui n'en ont point ?</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1135">Oui, ce n'est que par là qu'on est considérable.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1136">Mais ce n'est que par là qu'on devient méprisable.</l>
+            <l n="1137">Un homme dont les biens font toutes les vertus</l>
+            <l n="1138">Ne peut être estimé que des coeurs abattus.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1139">Est-il quelques défauts que les biens ne réparent ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1140">Mais plutôt en est-il où les biens ne préparent ?</l>
+            <l n="1141">Étant riche, on méprise assez communément</l>
+            <l n="1142">Des belles qualités le solide ornement ;</l>
+            <l n="1143">Et d'un luxe honteux la richesse suivie</l>
+            <l n="1144">Souvent par l'abondance aux vices nous convie.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1145" part="I">Enfin je reconnais...</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1145" part="F">Qu'avec tout ce grand bien</l>
+            <l n="1146">Un jaloux sur mon coeur n'obtiendra jamais rien.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1147">Et que d'un cajoleur la nouvelle conquête</l>
+            <l n="1148">T'imprime, à mon regret, ces erreurs dans la tête ;</l>
+            <l n="1149" part="I">Si ta mère le sait...</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1149" part="F">Laisse-moi ces soucis,</l>
+            <l n="1150">Et rentre, que je parle à la soeur de Tircis.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1151">Peut-être elle t'en veut dire quelque nouvelle.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1152">Ta curiosité te met trop en cervelle.</l>
+            <l n="1153">Rentre, sans t'informer de ce qu'elle prétend ;</l>
+            <l n="1154">Un meilleur entretien avec elle m'attend.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Chloris, Mélite.</head>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1155">Je chéris tellement celles de votre sorte,</l>
+            <l n="1156">Et prends tant d'intérêt en ce qui leur importe,</l>
+            <l n="1157">Qu'aux pièces qu'on leur fait je ne puis consentir,</l>
+            <l n="1158">Ni même en rien savoir sans les avertir.</l>
+            <l n="1159">Ainsi donc, au hasard d'être la mal venue,</l>
+            <l n="1160">Encor que je vous sois, peu s'en faut, inconnue,</l>
+            <l n="1161">Je viens vous faire voir que votre affection</l>
+            <l n="1162">N'a pas été fort juste en son élection.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1163">Vous pourriez, sous couleur de rendre un bon office,</l>
+            <l n="1164">Mettre quelque autre en peine avec cet artifice ;</l>
+            <l n="1165">Mais pour m'en repentir j'ai fait un trop bon choix ;</l>
+            <l n="1166">Je renonce à choisir une seconde fois ;</l>
+            <l n="1167">Et mon affection ne s'est point arrêtée</l>
+            <l n="1168">Que chez un cavalier qui l'a trop méritée.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1169">Vous me pardonnerez, j'en ai de bons témoins ;</l>
+            <l n="1170">C'est l'homme qui de tous la mérite le moins.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1171">Si je n'avais de lui qu'une faible assurance,</l>
+            <l n="1172">Vous me feriez entrer en quelque défiance ;</l>
+            <l n="1173">Mais je m'étonne fort que vous l'osiez blâmer,</l>
+            <l n="1174">Ayant quelque intérêt vous-même à l'estimer.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1175">Je l'estimai jadis, et je l'aime et l'estime</l>
+            <l n="1176">Plus que je ne faisais auparavant son crime.</l>
+            <l n="1177">Ce n'est qu'en ma faveur qu'il ose vous trahir,</l>
+            <l n="1178">Et vous pouvez juger si je le puis haïr,</l>
+            <l n="1179">Lorsque sa trahison m'est un clair témoignage</l>
+            <l n="1180">Du pouvoir absolu que j'ai sur son courage.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1181">Le pousser à me faire une infidélité,</l>
+            <l n="1182">C'est assez mal user de cette autorité.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1183">Me le faut-il pousser où son devoir l'oblige ?</l>
+            <l n="1184">C'est son devoir qu'il suit alors qu'il vous néglige.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1185">Quoi ! Le devoir chez vous oblige aux trahisons !</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1186">Quand il n'en aurait point de plus justes raisons,</l>
+            <l n="1187">La parole donnée, il faut que l'on la tienne.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1188">Cela fait contre vous ; il m'a donné la sienne.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1189">Oui, mais ayant déjà reçu mon amitié,</l>
+            <l n="1190">Sur un voeu solennel d'être un jour sa moitié,</l>
+            <l n="1191">Peut-il s'en départir pour accepter la vôtre ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1192">De grâce, excusez-moi, je vous prends pour une autre,</l>
+            <l n="1193">Et c'était à Chloris que je croyais parler.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1194" part="I">Vous ne vous trompez pas.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1194" part="F">Donc, pour mieux me railler,</l>
+            <l n="1195">La soeur de mon amant contrefait ma rivale ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1196">Donc, pour mieux m'éblouir, une âme déloyale</l>
+            <l n="1197">Contrefait la fidèle ? Ah ! Mélite, sachez</l>
+            <l n="1198">Que je ne sais que trop ce que vous me cachez.</l>
+            <l n="1199">Philandre m'a tout dit : vous pensez qu'il vous aime :</l>
+            <l n="1200">Mais, sortant d'avec vous, il me conte lui-même</l>
+            <l n="1201">Jusqu'aux moindres discours dont votre passion</l>
+            <l n="1202">Tâche de suborner son inclination.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1203">Moi, suborner Philandre ! Ah ! Que m'osez-vous dire ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1204" part="I">La pure vérité.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1204" part="F">Vraiment, en voulant rire,</l>
+            <l n="1205">Vous passez trop avant ; brisons là, s'il vous plaît.</l>
+            <l n="1206">Je ne vois point Philandre, et ne sais quel il est.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1207">Vous en croirez du moins votre propre écriture.</l>
+            <l n="1208" part="I">Tenez, voyez, lisez.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1208" part="F">Ah, dieux, quelle imposture !</l>
+            <l n="1209">Jamais un de ces traits ne partit de ma main.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1210">Nous pourrions demeurer ici jusqu'à demain,</l>
+            <l n="1211">Que vous persisteriez dans la méconnaissance :</l>
+            <l n="1212" part="I">Je les vous laisse. Adieu.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1212" part="F">Tout beau ! Mon innocence</l>
+            <l n="1213">Veut apprendre de vous le nom de l'imposteur,</l>
+            <l n="1214">Pour faire retomber l'affront sur son auteur.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1215">Vous pensez me duper, et perdez votre peine.</l>
+            <l n="1216">Que sert le désaveu, quand la preuve est certaine ?</l>
+            <l n="1217">A quoi bon démentir ? À quoi bon dénier... ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1218">Ne vous obstinez point à me calomnier ;</l>
+            <l n="1219">Je veux que si jamais j'ai dit mot à Philandre...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1220">Remettons ce discours : quelqu'un vient nous surprendre ;</l>
+            <l n="1221">C'est le brave Lisis, qui semble sur le front</l>
+            <l n="1222">Porter empreints les traits d'un déplaisir profond.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Lisis, Mélite, Chloris.</head>
+          <sp who="tc0122-LISIS">
+            <speaker>Lisis, à Chloris.</speaker>
+            <l n="1223">Préparez vos soupirs à la triste nouvelle</l>
+            <l n="1224">Du malheur où nous plonge un esprit infidèle ;</l>
+            <l n="1225">Quittez son entretien, et venez avec moi</l>
+            <l n="1226">Plaindre un frère au cercueil par son manque de foi.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1227" part="I">Quoi ! Son frère au cercueil !</l>
+          </sp>
+          <sp who="tc0122-LISIS">
+            <speaker>LISIS.</speaker>
+            <l n="1227" part="F">Oui, Tircis, plein de rage</l>
+            <l n="1228">De voir que votre change indignement l'outrage,</l>
+            <l n="1229">Maudissant mille fois le détestable jour</l>
+            <l n="1230">Que votre bon accueil lui donna de l'amour,</l>
+            <l n="1231">Dedans ce désespoir a chez moi rendu l'âme ;</l>
+            <l n="1232" part="I">Et mes yeux désolés...</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1232" part="F">Je n'en puis plus ; je pâme.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1233" part="I">Au secours ! Au secours !</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Cliton, la Nourrice, Mélite, Lisis, Chloris.</head>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1233" part="F">D'où provient cette voix ?</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1234" part="I">Qu'avez-vous, mes enfants ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1234" part="F">Mélite, que tu vois...</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1235">Hélas ! Elle se meurt ; son teint vermeil s'efface,</l>
+            <l n="1236">Sa chaleur se dissipe ; elle n'est plus que glace.</l>
+          </sp>
+          <sp who="tc0122-LISIS">
+            <speaker>LISIS, à Cliton.</speaker>
+            <l n="1237">Va quérir un peu d'eau ; mais il faut te hâter.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON, à Lisis.</speaker>
+            <l n="1238">Si proches du logis, il vaut mieux l'y porter.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1239">Aidez mes faibles pas ; les forces me défaillent,</l>
+            <l n="1240">Et je vais succomber aux douleurs qui m'assaillent.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, seul.</speaker>
+            <l n="1241">A la fin je triomphe, et les destins amis</l>
+            <l n="1242">M'ont donné le succès que je m'étais promis.</l>
+            <l n="1243">Me voilà trop heureux, puisque par mon adresse</l>
+            <l n="1244">Mélite est sans amant, et Tircis sans maîtresse ;</l>
+            <l n="1245">Et comme si c'était trop peu pour me venger,</l>
+            <l n="1246">Philandre et sa Chloris courent même danger.</l>
+            <l n="1247">Mais par quelle raison leurs âmes désunies</l>
+            <l n="1248">Pour les crimes d'autrui seront-elles punies ?</l>
+            <l n="1249">Que m'ont-ils fait tous deux pour troubler leurs accords ?</l>
+            <l n="1250">Fuyez de ma pensée, inutiles remords ;</l>
+            <l n="1251">La joie y veut régner, cessez de m'en distraire.</l>
+            <l n="1252">Chloris m'offense trop d'être soeur d'un tel frère ;</l>
+            <l n="1253">Et Philandre, si prompt à l'infidélité,</l>
+            <l n="1254">N'a que la peine due à sa crédulité.</l>
+            <l n="1255">Mais que me veut Cliton, qui sort de chez Mélite ?</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Eraste, Cliton.</head>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1256">Monsieur, tout est perdu : votre fourbe maudite,</l>
+            <l n="1257">Dont je fus à regret le damnable instrument,</l>
+            <l n="1258">A couché de douleur Tircis au monument.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1259">Courage ! Tout va bien, le traître m'a fait place,</l>
+            <l n="1260">Le seul qui me rendait son courage de glace,</l>
+            <l n="1261">D'un favorable coup la mort me l'a ravi.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1262">Monsieur, ce n'est pas tout, Mélite l'a suivi.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1263">Mélite l'a suivi ! Que dis-tu, misérable ?</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1264">Monsieur, il est trop vrai ; le moment déplorable</l>
+            <l n="1265">Qu'elle a su son trépas, a terminé ses jours.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1266" part="I">Ah, ciel ! S'il est ainsi...</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1266" part="F">Laissez là ces discours,</l>
+            <l n="1267">Et vantez-vous plutôt que par votre imposture</l>
+            <l n="1268">Ces malheureux amants trouvent la sépulture,</l>
+            <l n="1269">Et que votre artifice a mis dans le tombeau</l>
+            <l n="1270">Ce que le monde avait de parfait et de beau.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1271">Tu m'oses donc flatter, infâme, et tu supprimes</l>
+            <l n="1272">Par ce reproche obscur la moitié de mes crimes ?</l>
+            <l n="1273">Est-ce ainsi qu'il te faut n'en parler qu'à demi ?</l>
+            <l n="1274">Achève tout d'un coup ; dis que maîtresse, ami,</l>
+            <l n="1275">Tout ce que je chéris, tout ce qui dans mon âme</l>
+            <l n="1276">Sut jamais allumer une pudique flamme,</l>
+            <l n="1277">Tout ce que l'amitié me rendit précieux,</l>
+            <l n="1278">Par ma fourbe a perdu la lumière des cieux ;</l>
+            <l n="1279">Dis que j'ai violé les deux lois les plus saintes,</l>
+            <l n="1280">Qui nous rendent heureux par leurs douces contraintes ;</l>
+            <l n="1281">Dis que j'ai corrompu, dis que j'ai suborné,</l>
+            <l n="1282">Falsifié, trahi, séduit, assassiné :</l>
+            <l n="1283">Tu n'en diras encor que la moindre partie.</l>
+            <l n="1284">Quoi ! Tircis est donc mort, et Mélite est sans vie !</l>
+            <l n="1285">Je ne l'avais pas su, Parques, jusqu'à ce jour,</l>
+            <l n="1286">Que vous relevassiez de l'empire d'Amour ;</l>
+            <l n="1287">J'ignorais qu'aussitôt qu'il assemble deux âmes,</l>
+            <l n="1288">Il vous pût commander d'unir aussi leurs trames.</l>
+            <l n="1289">Vous en relevez donc, et montrez aujourd'hui</l>
+            <l n="1290">Que vous êtes pour nous aveugles comme lui !</l>
+            <l n="1291">Vous en relevez donc, et vos ciseaux barbares</l>
+            <l n="1292">Tranchent comme il lui plaît les destins les plus rares !</l>
+            <l n="1293">Mais je m'en prends à vous, moi qui suis l'imposteur,</l>
+            <l n="1294">Moi qui suis de leurs maux le détestable auteur !</l>
+            <l n="1295">Hélas ! Et fallait-il que ma supercherie</l>
+            <l n="1296">Tournât si lâchement tant d'amour en furie !</l>
+            <l n="1297">Inutiles regrets, repentirs superflus,</l>
+            <l n="1298">Vous ne me rendez pas Mélite qui n'est plus !</l>
+            <l n="1299">Vos mouvements tardifs ne la font pas revivre :</l>
+            <l n="1300">Elle a suivi Tircis, et moi je la veux suivre.</l>
+            <l n="1301">Il faut que de mon sang je lui fasse raison,</l>
+            <l n="1302">Et de ma jalousie, et de ma trahison,</l>
+            <l n="1303">Et que de ma main propre une âme si fidèle</l>
+            <l n="1304">Reçoive... Mais d'où vient que tout mon corps chancelle ?</l>
+            <l n="1305">Quel murmure confus ! Et qu'entends-je hurler ?</l>
+            <l n="1306">Que de pointes de feu se perdent parmi l'air !</l>
+            <l n="1307">Les dieux à mes forfaits ont dénoncé la guerre ;</l>
+            <l n="1308">Leur foudre décoché vient de fendre la terre,</l>
+            <l n="1309">Et, pour leur obéir, son sein me recevant</l>
+            <l n="1310">M'engloutit, et me plonge aux enfers tout vivant.</l>
+            <l n="1311">Je vous entends, grands dieux ; c'est là-bas que leurs âmes</l>
+            <l n="1312">Aux champs Elysiens éternisent leurs flammes ;</l>
+            <l n="1313">C'est là-bas qu'à leurs pieds il faut verser mon sang :</l>
+            <l n="1314">La terre à ce dessein m'ouvre son large flanc,</l>
+            <note type="L">Styx : Fleuve qui, selon la mythologie, coulait aux enfers ; les dieux juraient par le Styx, et ce serment ne pouvait être violé. [L]</note>
+            <l n="1315">Et jusqu'aux bords du Styx me fait libre passage ;</l>
+            <l n="1316">Je l'aperçois déjà, je suis sur son rivage.</l>
+            <l n="1317">Fleuve, dont le saint nom est redoutable aux dieux,</l>
+            <l n="1318">Et dont les neuf replis ceignent ces tristes lieux,</l>
+            <l n="1319">N'entre point en courroux contre mon insolence,</l>
+            <l n="1320">Si j'ose avec mes cris violer ton silence :</l>
+            <l n="1321">Je ne te veux qu'un mot. Tircis est-il passé ?</l>
+            <l n="1322">Mélite est-elle ici ?... Mais qu'attends-je ? Insensé !</l>
+            <l n="1323">Ils sont tous deux si chers à ton funeste empire,</l>
+            <l n="1324">Que tu crains de les perdre, et n'oses m'en rien dire.</l>
+            <l n="1325">Vous donc, esprits légers, qui, manque de tombeaux,</l>
+            <l n="1326">Tournoyez vagabonds à l'entour de ces eaux,</l>
+            <l n="1327">A qui Caron cent ans refuse sa nacelle,</l>
+            <l n="1328">Ne m'en pourriez-vous point donner quelque nouvelle ?</l>
+            <l n="1329">Parlez, et je promets d'employer mon crédit</l>
+            <l n="1330">A vous faciliter ce passage interdit.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1331">Monsieur, que faites-vous ? Votre raison, troublée</l>
+            <l n="1332">Par l'effort des douleurs dont elle est accablée,</l>
+            <l n="1333" part="I">Figure à votre vue...</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1333" part="F">Ah ! Te voilà, Caron !</l>
+            <l n="1334">Dépêche promptement et d'un coup d'aviron</l>
+            <l n="1335">Passe-moi, si tu peux, jusqu'à l'autre rivage.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1336">Monsieur, rentrez en vous, regardez mon visage ;</l>
+            <l n="1337" part="I">Reconnaissez Cliton.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1337" part="F">Dépêche, vieux nocher,</l>
+            <l n="1338">Avant que ces esprits nous puissent approcher.</l>
+            <l n="1339">Ton bateau de leur poids fondrait dans les abîmes ;</l>
+            <l n="1340">Il n'en aura que trop d'Eraste et de ses crimes.</l>
+            <l n="1341">Quoi ! Tu veux te sauver à l'autre bord sans moi ?</l>
+            <l n="1342">Si faut-il qu'à ton cou je passe malgré toi.</l>
+            <stage>Il se jette sur les épaules de Cliton, qui l'emporte derrière le théâtre.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII.</head>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE, seul.</speaker>
+            <l n="1343">Présomptueux rival, dont l'absence importune</l>
+            <l n="1344">Retarde le succès de ma bonne fortune,</l>
+            <l n="1345">As-tu si tôt perdu cette ombre de valeur</l>
+            <l n="1346">Que te prêtait tantôt l'effort de ta douleur ?</l>
+            <l n="1347">Que devient à présent cette bouillante envie</l>
+            <l n="1348">De punir ta volage aux dépens de ma vie ?</l>
+            <l n="1349">Il ne tient plus qu'à toi que tu ne sois content ;</l>
+            <l n="1350">Ton ennemi t'appelle, et ton rival t'attend.</l>
+            <l n="1351">Je te cherche en tous lieux, et cependant ta fuite</l>
+            <l n="1352">Se rit impunément de ma vaine poursuite.</l>
+            <l n="1353">Crois-tu, laissant mon bien dans les mains de ta soeur,</l>
+            <l n="1354">En demeurer toujours l'injuste possesseur ;</l>
+            <l n="1355">Ou que ma patience à la fin échappée</l>
+            <l n="1356">(Puisque tu ne veux pas le débattre à l'épée),</l>
+            <l n="1357">Oubliant le respect du sexe, et tout devoir,</l>
+            <l n="1358">Ne laisse point sur elle agir mon désespoir ?</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Eraste, Philandre.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1359">Détacher Ixion pour me mettre en sa place,</l>
+            <l n="1360">Mégères, c'est à vous une indiscrète audace.</l>
+            <l n="1361">Ai-je, avec même front que cet ambitieux,</l>
+            <l n="1362">Attenté sur le lit du monarque des cieux ?</l>
+            <note type="L">Euménides : nom donné aux Furies par antiphrase. [B]</note>
+            <l n="1363">Vous travaillez en vain, barbares Euménides :</l>
+            <l n="1364">Non, ce n'est pas ainsi qu'on punit les perfides.</l>
+            <l n="1365">Quoi ! Me presser encor ? Sus, de pieds et de mains</l>
+            <l n="1366">Essayons d'écarter ces monstres inhumains.</l>
+            <l n="1367">À mon secours, esprits ! Vengez-vous de vos peines !</l>
+            <l n="1368">Écrasons leurs serpents ! Chargeons-les de vos chaînes !</l>
+            <l n="1369">Pour ces filles d'enfer nous sommes trop puissants.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1370">Il semble à ce discours qu'il ait perdu le sens.</l>
+            <l n="1371">Eraste, cher ami, quelle mélancolie</l>
+            <l n="1372">Te met dans le cerveau cet excès de folie ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1373">Équitable Minos, grand juge des enfers,</l>
+            <l n="1374">Voyez qu'injustement on m'apprête des fers !</l>
+            <l n="1375">Faire un tour d'amoureux, supposer une lettre,</l>
+            <l n="1376">Ce n'est pas un forfait qu'on ne puisse remettre.</l>
+            <l n="1377">Il est vrai que Tircis en est mort de douleur,</l>
+            <l n="1378">Que Mélite après lui redouble ce malheur,</l>
+            <l n="1379">Que Chloris sans amant ne sait à qui s'en prendre ;</l>
+            <l n="1380">Mais la faute n'en est qu'au crédule Philandre ;</l>
+            <l n="1381">Lui seul en est la cause et son esprit léger,</l>
+            <l n="1382">Qui trop facilement résolut de changer ;</l>
+            <l n="1383">Car ces lettres, qu'il croit l'effet de ses mérites,</l>
+            <l n="1384">La main que vous voyez les a toutes écrites.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1385">Je te laisse impuni, traître ; de tels remords</l>
+            <l n="1386">Te donnent des tourments pires que mille morts :</l>
+            <l n="1387">Je t'obligerais trop de t'arracher la vie ;</l>
+            <l n="1388">Et ma juste vengeance est bien mieux assouvie</l>
+            <l n="1389">Par les folles horreurs de cette illusion.</l>
+            <l n="1390">Ah, grands dieux ! Que je suis plein de confusion !</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCÈNE IX.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, seul.</speaker>
+            <l n="1391">Tu t'enfuis donc, barbare ! Et me laissant en proie</l>
+            <l n="1392">A ces cruelles soeurs, tu les combles de joie ?</l>
+            <l n="1393">Non, non, retirez-vous, Tisiphone, Alecton,</l>
+            <l n="1394">Et tout ce que je vois d'officiers de Pluton.</l>
+            <l n="1395">Vous me connaissez mal ; dans le corps d'un perfide</l>
+            <l n="1396">Je porte le courage et les forces d'Alcide.</l>
+            <l n="1397">Je vais tout renverser dans ces royaumes noirs,</l>
+            <l n="1398">Et saccager moi seul ces ténébreux manoirs.</l>
+            <l n="1399">Une seconde fois le triple chien Cerbère</l>
+            <note type="L">Aconit : Terme de botanique. Plante fort vénéneuse, de la famille des renonculacées. [L]</note>
+            <l n="1400">Vomira l'aconit en voyant la lumière.</l>
+            <l n="1401">J'irai du fond d'enfer dégager les Titans ;</l>
+            <l n="1402">Et si Pluton s'oppose à ce que je prétends,</l>
+            <l n="1403">Passant dessus le ventre à sa troupe mutine,</l>
+            <note type="L">Proserpine : Femme de Pluton et déesse des Enfers, était fille de Jupiter et de Cérès. [B]</note>
+            <l n="1404">J'irai d'entre ses bras enlever Proserpine.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCÈNE X. Lisis, Chloris.</head>
+          <sp who="tc0122-LISIS">
+            <speaker>LISIS.</speaker>
+            <l n="1405">N'en doute plus, Chloris, ton frère n'est point mort ;</l>
+            <l n="1406">Mais ayant su de lui son déplorable sort,</l>
+            <l n="1407">Je voulais éprouver, par cette triste feinte,</l>
+            <l n="1408">Si celle qu'il adore, aucunement atteinte,</l>
+            <l n="1409">Deviendrait plus sensible aux traits de la pitié</l>
+            <l n="1410">Qu'aux sincères ardeurs d'une sainte amitié.</l>
+            <l n="1411">Maintenant que je vois qu'il faut qu'on nous abuse,</l>
+            <l n="1412">Afin que nous puissions découvrir cette ruse,</l>
+            <l n="1413">Et que Tircis en soit de tout point éclairci,</l>
+            <l n="1414">Sois sûre que dans peu je te le rends ici.</l>
+            <l n="1415">Ma parole sera d'un prompt effet suivie :</l>
+            <l n="1416">Tu reverras bientôt ce frère plein de vie ;</l>
+            <l n="1417">C'est assez que je passe une fois pour trompeur.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1418">Si bien qu'au lieu du mal nous n'aurons que la peur ?</l>
+            <l n="1419">Le coeur me le disait. Je sentais que mes larmes</l>
+            <l n="1420">Refusaient de couler pour de fausses alarmes,</l>
+            <l n="1421">Dont les plus dangereux et plus rudes assauts</l>
+            <l n="1422">Avaient beaucoup de peine à m'émouvoir à faux ;</l>
+            <l n="1423">Et je n'étudiai cette douleur menteuse</l>
+            <l n="1424">Qu'à cause qu'en effet j'étais un peu honteuse</l>
+            <l n="1425">Qu'une autre en témoignât plus de ressentiment.</l>
+          </sp>
+          <sp who="tc0122-LISIS">
+            <speaker>LISIS.</speaker>
+            <l n="1426">Après tout, entre nous, confesse franchement,</l>
+            <l n="1427">Qu'une fille en ces lieux, qui perd un frère unique,</l>
+            <l n="1428">Jusques au désespoir fort rarement se pique :</l>
+            <l n="1429">Ce beau nom d'héritière a de telles douceurs,</l>
+            <l n="1430">Qu'il devient souverain à consoler des soeurs.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1431">Adieu, railleur, adieu : son intérêt me presse</l>
+            <l n="1432">D'aller rendre d'un mot la vie à sa maîtresse ;</l>
+            <l n="1433">Autrement je saurais t'apprendre à discourir.</l>
+          </sp>
+          <sp who="tc0122-LISIS">
+            <speaker>LISIS.</speaker>
+            <l n="1434">Et moi, de ces frayeurs de nouveau te guérir.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Cliton, la Nourrice.</head>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1435">Je ne t'ai rien celé ; tu sais toute l'affaire.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1436">Tu m'en as bien conté. Mais se pourrait-il faire</l>
+            <l n="1437">Qu'Eraste eût des remords si vifs et si pressants</l>
+            <l n="1438">Que de violenter sa raison et ses sens ?</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1439">Eût-il pu, sans en perdre entièrement l'usage,</l>
+            <l n="1440">Se figurer Caron des traits de mon visage,</l>
+            <l n="1441">Et de plus, me prenant pour ce vieux nautonier,</l>
+            <l n="1442">Me payer à bons coups des droits de son denier ?</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1443" part="I">Plaisante illusion !</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1443" part="F">Mais funeste à ma tête,</l>
+            <l n="1444">Sur qui se déchargeait une telle tempête,</l>
+            <l n="1445">Que je tiens maintenant à miracle évident</l>
+            <l n="1446">Qu'il me soit demeuré dans la bouche une dent.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1447">C'était mal reconnaître un si rare service.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, derrière le théâtre.</speaker>
+            <l n="1448" part="I">Arrêtez, arrêtez, poltrons !</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1448" part="F">Adieu, nourrice.</l>
+            <l n="1449">Voici ce fou qui vient, je l'entends à la voix ;</l>
+            <l n="1450">Crois que ce n'est pas moi qu'il attrape deux fois.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1451">Pour moi, quand je devrais passer pour Proserpine,</l>
+            <l n="1452">Je veux voir à quel point sa fureur le domine.</l>
+          </sp>
+          <sp who="tc0122-CLITON">
+            <speaker>CLITON.</speaker>
+            <l n="1453">Contente, à tes périls, ton curieux désir.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1454">Quoi qu'il puisse arriver, j'en aurai le plaisir.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Eraste, la Nourrice.</head>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1455">En vain je les rappelle, en vain pour se défendre</l>
+            <l n="1456">La honte et le devoir leur parlent de m'attendre ;</l>
+            <l n="1457">Ces lâches escadrons de fantômes affreux</l>
+            <l n="1458">Cherchent leur assurance aux cachots les plus creux,</l>
+            <l n="1459">Et se fiant à peine à la nuit qui les couvre,</l>
+            <l n="1460">Souhaitent sous l'enfer qu'un autre enfer s'entr'ouvre.</l>
+            <l n="1461">Ma voix met tout en fuite, et dans ce vaste effroi,</l>
+            <l n="1462">La peur saisit si bien les ombres et leur roi,</l>
+            <l n="1463">Que, se précipitant à de promptes retraites,</l>
+            <l n="1464">Tous leurs soucis ne vont qu'à les rendre secrètes.</l>
+            <l n="1465">Le bouillant Phlégéthon, parmi ses flots pierreux,</l>
+            <l n="1466">Pour les favoriser ne roule plus de feux ;</l>
+            <l n="1467">Tisiphone tremblante, Alecton et Mégère,</l>
+            <l n="1468">Ont de leurs flambeaux noirs étouffé la lumière ;</l>
+            <l n="1469">Les Parques même en hâte emportent leurs fuseaux,</l>
+            <l n="1470">Et dans ce grand désordre oubliant leurs ciseaux,</l>
+            <l n="1471">Caron, les bras croisés, dans sa barque s'étonne</l>
+            <l n="1472">De ce qu'après Eraste il n'a passé personne.</l>
+            <l n="1473">Trop heureux accident, s'il avait prévenu</l>
+            <l n="1474">Le déplorable coup du malheur avenu !</l>
+            <l n="1475">Trop heureux accident, si la terre entr'ouverte</l>
+            <l n="1476">Avant ce jour fatal eût consenti ma perte,</l>
+            <l n="1477">Et si ce que le ciel me donne ici d'accès</l>
+            <l n="1478">Eût de ma trahison devancé le succès !</l>
+            <l n="1479">Dieux, que vous savez mal gouverner votre foudre !</l>
+            <l n="1480">N'était-ce pas assez pour me réduire en poudre,</l>
+            <l n="1481">Que le simple dessein d'un si lâche forfait ?</l>
+            <l n="1482">Injustes ! Deviez-vous en attendre l'effet ?</l>
+            <l n="1483">Ah, Mélite ! Ah, Tircis ! Leur cruelle justice</l>
+            <l n="1484">Aux dépens de vos jours me choisit un supplice.</l>
+            <l n="1485">Ils doutaient que l'enfer eût de quoi me punir</l>
+            <l n="1486">Sans le triste secours de ce dur souvenir.</l>
+            <l n="1487">Tout ce qu'ont les enfers de feux, de fouets, de chaînes,</l>
+            <l n="1488">Ne sont auprès de lui que de légères peines ;</l>
+            <l n="1489">On reçoit d'Alecton un plus doux traitement.</l>
+            <l n="1490">Souvenir rigoureux ! Trêve, trêve un moment !</l>
+            <l n="1491">Qu'au moins avant ma mort, dans ces demeures sombres</l>
+            <l n="1492">Je puisse rencontrer ces bienheureuses ombres !</l>
+            <l n="1493">Use après, si tu veux, de toute ta rigueur ;</l>
+            <l n="1494">Et si pour m'achever tu manques de vigueur,</l>
+            <stage>Il met la main sur son épée.</stage>
+            <l n="1495">Voici qui t'aidera : mais derechef, de grâce,</l>
+            <l n="1496">Cesse de me gêner durant ce peu d'espace.</l>
+            <l n="1497">Je vois déjà Mélite. Ah ! Belle ombre, voici</l>
+            <l n="1498">L'ennemi de votre heur qui vous cherchait ici ;</l>
+            <l n="1499">C'est Eraste, c'est lui qui n'a plus d'autre envie</l>
+            <l n="1500">Que d'épandre à vos pieds son sang avec sa vie :</l>
+            <l n="1501">Ainsi le veut le sort ; et tout exprès les dieux</l>
+            <l n="1502">L'ont abîmé vivant en ces funestes lieux.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1503">Pourquoi permettez-vous que cette frénésie</l>
+            <l n="1504">Règne si puissamment sur votre fantaisie ?</l>
+            <l n="1505">L'enfer voit-il jamais une telle clarté ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1506">Aussi ne la tient-il que de votre beauté ;</l>
+            <l n="1507">Ce n'est que de vos yeux que part cette lumière.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1508">Ce n'est que de mes yeux ! Dessillez la paupière,</l>
+            <l n="1509">Et d'un sens plus rassis jugez de leur éclat.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1510">Ils ont, de vérité, je ne sais quoi de plat ;</l>
+            <l n="1511">Et plus je vous contemple, et plus sur ce visage</l>
+            <l n="1512">Je m'étonne de voir un autre air, un autre âge :</l>
+            <l n="1513">Je ne reconnais plus aucun de vos attraits ;</l>
+            <l n="1514">Jadis votre nourrice avait ainsi les traits,</l>
+            <l n="1515">Le front ainsi ridé, la couleur ainsi blême,</l>
+            <l n="1516">Le poil ainsi grison. Ô dieux ! C'est elle-même.</l>
+            <l n="1517">Nourrice, qui t'amène en ces lieux pleins d'effroi ?</l>
+            <l n="1518">Y viens-tu rechercher Mélite comme moi ?</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1519">Cliton la vit pâmer, et se brouilla de sorte</l>
+            <l n="1520">Que la voyant si pâle, il la crut être morte ;</l>
+            <l n="1521">Cet étourdi trompé vous trompa comme lui.</l>
+            <l n="1522">Au reste, elle est vivante ; et peut-être aujourd'hui</l>
+            <l n="1523">Tircis, de qui la mort n'était qu'imaginaire,</l>
+            <l n="1524">De sa fidélité recevra le salaire.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1525">Désormais donc en vain je les cherche ici-bas ;</l>
+            <l n="1526">En vain pour les trouver je rends tant de combats.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1527">Votre douleur vous trouble, et forme des nuages</l>
+            <l n="1528">Qui séduisent vos sens par de fausses images ;</l>
+            <l n="1529">Cet enfer, ces combats, ne sont qu'illusions.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1530">Je ne m'abuse point de fausses visions,</l>
+            <l n="1531">Mes propres yeux ont vu tous ces monstres en fuite,</l>
+            <l n="1532">Et Pluton, de frayeur, en quitter la conduite.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1533">Peut-être que chacun s'enfuyait devant vous,</l>
+            <l n="1534">Craignant votre fureur et le poids de vos coups.</l>
+            <l n="1535">Mais voyez si l'enfer ressemble à cette place ;</l>
+            <l n="1536">Ces murs, ces bâtiments, ont-ils la même face ?</l>
+            <l n="1537">Le logis de Mélite et celui de Cliton</l>
+            <l n="1538">Ont-ils quelque rapport à celui de Pluton ?</l>
+            <l n="1539">Quoi ! N'y remarquez-vous aucune différence ?</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1540">De vrai, ce que tu dis a beaucoup d'apparence,</l>
+            <l n="1541">Nourrice ; prends pitié d'un esprit égaré</l>
+            <l n="1542">Qu'ont mes vives douleurs d'avec moi séparé :</l>
+            <l n="1543">Ma guérison dépend de parler à Mélite.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1544">Différez, pour le mieux, un peu cette visite,</l>
+            <l n="1545">Tant que, maître absolu de votre jugement,</l>
+            <l n="1546">Vous soyez en état de faire un compliment.</l>
+            <l n="1547">Votre teint et vos yeux n'ont rien d'un homme sage ;</l>
+            <l n="1548">Donnez-vous le loisir de changer de visage ;</l>
+            <l n="1549">Un moment de repos que vous prendrez chez vous...</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1550">Ne peut, si tu n'y viens, rendre mon sort plus doux ;</l>
+            <l n="1551">Et ma faible raison, de guide dépourvue,</l>
+            <l n="1552">Va de nouveau se perdre en te perdant de vue.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1553">Si je vous suis utile, allons ; je ne veux pas</l>
+            <l n="1554">Pour un si bon sujet vous épargner mes pas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Chloris, Philandre.</head>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1555">Ne m'importune plus, Philandre, je t'en prie ;</l>
+            <l n="1556">Me rapaiser jamais passe ton industrie.</l>
+            <l n="1557">Ton meilleur, je t'assure, est de n'y plus penser ;</l>
+            <l n="1558">Tes protestations ne font que m'offenser :</l>
+            <l n="1559">Savante, à mes dépens, de leur peu de durée,</l>
+            <l n="1560">Je ne veux point en gage une foi parjurée,</l>
+            <l n="1561">Un coeur que d'autres yeux peuvent si tôt brûler,</l>
+            <l n="1562">Qu'un billet supposé peut si tôt ébranler.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1563">Ah ! Ne remettez plus dedans votre mémoire</l>
+            <l n="1564">L'indigne souvenir d'une action si noire ;</l>
+            <l n="1565">Et pour rendre à jamais nos premiers voeux contents,</l>
+            <l n="1566">Étouffez l'ennemi du pardon que j'attends.</l>
+            <l n="1567">Mon crime est sans égal ; mais enfin, ma chère âme...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1568">Laisse là désormais ces petits mots de flamme,</l>
+            <l n="1569">Et par ces faux témoins d'un feu mal allumé</l>
+            <l n="1570">Ne me reproche plus que je t'ai trop aimé.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1571">De grâce, redonnez à l'amitié passée</l>
+            <l n="1572">Le rang que je tenais dedans votre pensée</l>
+            <l n="1573">Derechef, ma Chloris, par ces doux entretiens,</l>
+            <l n="1574">Par ces feux qui volaient de vos yeux dans les miens,</l>
+            <l n="1575">Par ce que votre foi me permettait d'attendre...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1576">C'est où dorénavant tu ne dois plus prétendre.</l>
+            <l n="1577">Ta sottise m'instruit, et par là je vois bien</l>
+            <l n="1578">Qu'un visage commun, et fait comme le mien,</l>
+            <l n="1579">N'a point assez d'appas, ni de chaîne assez forte,</l>
+            <l n="1580">Pour tenir en devoir un homme de ta sorte.</l>
+            <l n="1581">Mélite a des attraits qui savent tout dompter :</l>
+            <l n="1582">Mais elle ne pourrait qu'à peine t'arrêter :</l>
+            <l n="1583">Il te faut un sujet qui la passe ou l'égale ;</l>
+            <l n="1584">C'est en vain que vers moi ton amour se ravale ;</l>
+            <l n="1585">Fais-lui, si tu m'en crois, agréer tes ardeurs.</l>
+            <l n="1586">Je ne veux point devoir mon bien à ses froideurs.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1587">Ne me déguisez rien, un autre a pris ma place ;</l>
+            <l n="1588">Une autre affection vous rend pour moi de glace.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1589">Aucun jusqu'à ce point n'est encore arrivé ;</l>
+            <l n="1590">Mais je te changerai pour le premier trouvé.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1591">C'en est trop, tes dédains épuisent ma souffrance.</l>
+            <l n="1592">Adieu. Je ne veux plus avoir d'autre espérance,</l>
+            <l n="1593">Sinon qu'un jour le ciel te fera ressentir</l>
+            <l n="1594">De tant de cruautés le juste repentir.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1595">Adieu. Mélite et moi nous aurons de quoi rire</l>
+            <l n="1596">De tous les beaux discours que tu me viens de dire.</l>
+            <l n="1597" part="I">Que lui veux-tu mander ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1597" part="F">Va, dis-lui de ma part</l>
+            <l n="1598">Qu'elle, ton frère et toi, reconnaîtrez trop tard</l>
+            <l n="1599">Ce que c'est que d'aigrir un homme de ma sorte.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1600">Ne crois pas la chaleur du courroux qui t'emporte ;</l>
+            <l n="1601">Tu nous ferais trembler plus d'un quart d'heure ou deux.</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1602">Tu railles, mais bientôt nous verrons d'autres jeux :</l>
+            <l n="1603">Je sais trop comme on venge une flamme outragée.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1604">Le sais-tu mieux que moi, qui suis déjà vengée ?</l>
+            <l n="1605" part="I">Par où t'y prendras-tu ? De quel air ?</l>
+          </sp>
+          <sp who="tc0122-PHILANDRE">
+            <speaker>PHILANDRE.</speaker>
+            <l n="1605" part="F">Il suffit.</l>
+            <l n="1606" part="I">Je sais comme on se venge.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1606" part="F">Et moi comme on s'en rit.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Tircis, Mélite.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1607">Maintenant que le sort, attendri par nos plaintes,</l>
+            <l n="1608">Comble notre espérance et dissipe nos craintes,</l>
+            <l n="1609">Que nos contentements ne sont plus traversés</l>
+            <l n="1610">Que par le souvenir de nos malheurs passés,</l>
+            <l n="1611">Ouvrons toute notre âme à ces douces tendresses</l>
+            <l n="1612">Qu'inspirent aux amants les pleines allégresses ;</l>
+            <l n="1613">Et d'un commun accord chérissons nos ennuis,</l>
+            <l n="1614">Dont nous voyons sortir de si précieux fruits.</l>
+            <l n="1615">Adorables regards, fidèles interprètes</l>
+            <l n="1616">Par qui nous expliquions nos passions secrètes,</l>
+            <l n="1617">Doux truchements du coeur, qui déjà tant de fois</l>
+            <l n="1618">M'avez si bien appris ce que n'osait la voix,</l>
+            <l n="1619">Nous n'avons plus besoin de votre confidence ;</l>
+            <l n="1620">L'amour en liberté peut dire ce qu'il pense,</l>
+            <l n="1621">Et dédaigne un secours qu'en naissante ardeur</l>
+            <l n="1622">Lui faisaient mendier la crainte et la pudeur.</l>
+            <l n="1623">Beaux yeux, à mon transport pardonnez ce blasphème !</l>
+            <l n="1624">La bouche est impuissante où l'amour est extrême ;</l>
+            <l n="1625">Quand l'espoir est permis, elle a droit de parler ;</l>
+            <l n="1626">Mais vous allez plus loin qu'elle ne peut aller.</l>
+            <l n="1627">Ne vous lassez donc point d'en usurper l'usage ;</l>
+            <l n="1628">Et quoi qu'elle m'ait dit, dites-moi davantage.</l>
+            <l n="1629">Mais tu ne me dis mot, ma vie ! Et quels soucis</l>
+            <l n="1630">T'obligent à te taire auprès de ton Tircis ?</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1631">Tu parles à mes yeux, et mes yeux te répondent.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1632">Ah ! Mon heur, il est vrai, si tes désirs secondent</l>
+            <l n="1633">Cet amour qui paraît et brille dans tes yeux,</l>
+            <l n="1634">Je n'ai rien désormais à demander aux dieux.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1635">Tu t'en peux assurer ; mes yeux, si pleins de flamme,</l>
+            <l n="1636">Suivent l'instruction des mouvements de l'âme :</l>
+            <l n="1637">On en a vu l'effet, lorsque ta fausse mort</l>
+            <l n="1638">A fait sur tous mes sens un véritable effort :</l>
+            <l n="1639">On en a vu l'effet, quand, te sachant en vie,</l>
+            <l n="1640">De revivre avec toi j'ai pris aussi l'envie :</l>
+            <l n="1641">On en a vu l'effet, lorsqu'à force de pleurs</l>
+            <l n="1642">Mon amour et mes soins, aidés de mes douleurs,</l>
+            <l n="1643">Ont fléchi la rigueur d'une mère obstinée</l>
+            <l n="1644">Et gagné cet aveu qui fait notre hyménée ;</l>
+            <l n="1645">Si bien qu'à ton retour ta chaste affection</l>
+            <l n="1646">Ne trouve plus d'obstacle à sa prétention.</l>
+            <l n="1647">Cependant l'aspect seul des lettres d'un faussaire</l>
+            <l n="1648">Te sut persuader tellement le contraire,</l>
+            <l n="1649">Que sans vouloir m'entendre, et sans me dire adieu,</l>
+            <l n="1650">Jaloux et furieux tu partis de ce lieu.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1651">J'en rougis ; mais apprends qu'il n'était pas possible</l>
+            <l n="1652">D'aimer comme j'aimais, et d'être moins sensible ;</l>
+            <l n="1653">Qu'un juste déplaisir ne saurait écouter</l>
+            <l n="1654">La raison qui s'efforce à le violenter ;</l>
+            <l n="1655">Et qu'après des transports de telle promptitude,</l>
+            <l n="1656">Ma flamme ne te laisse aucune incertitude.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1657">Tout cela serait peu, n'était que ma bonté</l>
+            <l n="1658">T'en accorde un oubli sans l'avoir mérité,</l>
+            <l n="1659">Et que, tout criminel, tu m'es encore aimable.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1660">Je me tiens donc heureux d'avoir été coupable,</l>
+            <l n="1661">Puisque l'on me rappelle au lieu de me bannir,</l>
+            <l n="1662">Et qu'on me récompense au lieu de me punir.</l>
+            <l n="1663">J'en aimerai l'auteur de cette perfidie ;</l>
+            <l n="1664">Et si jamais je sais quelle main si hardie...</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Chloris, Tircis, Mélite.</head>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1665">Il vous fait fort bon voir, mon frère, à cajoler,</l>
+            <l n="1666">Cependant qu'une soeur ne se peut consoler,</l>
+            <l n="1667">Et que le triste ennui d'une attente incertaine</l>
+            <l n="1668">Touchant votre retour la tient encore en peine !</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1669">L'amour a fait au sang un peu de trahison ;</l>
+            <l n="1670">Mais Philandre pour moi t'en aura fait raison.</l>
+            <l n="1671">Dis-nous, auprès de lui retrouves-tu ton conte,</l>
+            <l n="1672">Et te peut-il revoir sans montrer quelque honte ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1673">L'infidèle m'a fait tant de nouveaux serments,</l>
+            <l n="1674">Tant d'offres, tant de voeux, et tant de compliments,</l>
+            <l n="1675" part="I">Mêlés de repentirs...</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <note type="L">Exorable : Qui se laisse vaincre et persuader par les raisons, les prières ou la compassion. [F]</note>
+            <l n="1675" part="F">Qu'à la fin exorable,</l>
+            <l n="1676">Vous l'avez regardé d'un oeil plus favorable.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1677" part="I">Vous devinez fort mal.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1677" part="F">Quoi ! Tu l'as dédaigné ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1678">Du moins, tous ses discours n'ont encor rien gagné.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1679">Si bien qu'à n'aimer plus votre dépit s'obstine ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1680">Non pas cela du tout, mais je suis assez fine :</l>
+            <l n="1681">Pour la première fois, il me dupe qui veut ;</l>
+            <l n="1682">Mais pour une seconde, il m'attrape qui peut.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1683" part="I">C'est-à-dire, en un mot...</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1683" part="F">Que son humeur volage</l>
+            <l n="1684">Ne me tient pas deux fois en un même passage.</l>
+            <l n="1685">En vain dessous mes lois il revient se ranger.</l>
+            <l n="1686">Il m'est avantageux de l'avoir vu changer</l>
+            <l n="1687">Avant que de l'hymen le joug impitoyable,</l>
+            <l n="1688">M'attachant avec lui, me rendît misérable.</l>
+            <l n="1689">Qu'il cherche femme ailleurs, tandis que, de ma part,</l>
+            <l n="1690">J'attendrai du destin quelque meilleur hasard.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1691">Mais le peu qu'il voulut me rendre de service</l>
+            <l n="1692">Ne lui doit pas porter un si grand préjudice.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1693">Après un tel faux-bond, un change si soudain,</l>
+            <l n="1694">A volage, volage, et dédain pour dédain.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1695">Ma soeur, ce fut pour moi qu'il osa s'en dédire.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1696">Et pour l'amour de vous, je n'en ferai que rire,</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1697">Et pour l'amour de moi vous lui pardonnerez.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1698">Et pour l'amour de moi vous m'en dispenserez.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1699" part="I">Que vous êtes mauvaise !</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1699" part="F">Un peu plus qu'il ne semble.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1700">Je vous veux toutefois remettre bien ensemble.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1701">Ne l'entreprenez pas ; peut-être qu'après tout</l>
+            <l n="1702">Votre dextérité n'en viendrait pas à bout.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Tircis, la Nourrice, Eraste, Mélite, Chloris.</head>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1703">De grâce, mon souci, laissons cette causeuse :</l>
+            <l n="1704">Qu'elle soit, à son choix, facile ou rigoureuse,</l>
+            <l n="1705">L'excès de mon ardeur ne saurait consentir</l>
+            <l n="1706">Que ces frivoles soins te viennent divertir.</l>
+            <l n="1707">Tous nos pensers sont dûs, en l'état où nous sommes,</l>
+            <l n="1708">A ce noeud qui me rend le plus heureux des hommes,</l>
+            <l n="1709">Et ma fidélité, qu'il va récompenser...</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <l n="1710">Vous donnera bientôt autre chose à penser.</l>
+            <l n="1711">Votre rival vous cherche, et la main à l'épée,</l>
+            <l n="1712">Vient demander raison de sa place usurpée.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, à Mélite.</speaker>
+            <l n="1713">Non, non, vous ne voyez en moi qu'un criminel,</l>
+            <l n="1714">A qui l'âpre rigueur d'un remords éternel</l>
+            <l n="1715">Rend le jour odieux, et fait naître l'envie</l>
+            <l n="1716">De sortir de sa gêne en sortant de la vie.</l>
+            <l n="1717">Il vient mettre à vos pieds sa tête à l'abandon ;</l>
+            <l n="1718">La mort lui sera douce à l'égal du pardon.</l>
+            <l n="1719">Vengez donc vos malheurs ; jugez ce que mérite</l>
+            <l n="1720">La main qui sépara Tircis d'avec Mélite,</l>
+            <l n="1721">Et de qui l'imposture avec de faux écrits</l>
+            <l n="1722">A dérobé Philandre aux voeux de sa Chloris.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1723">Éclaircis du seul point qui nous tenait en doute,</l>
+            <l n="1724" part="I">Que serais-tu d'avis de lui répondre ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1724" part="F">Écoute</l>
+            <l n="1725" part="I">Quatre mots à quartier.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1725" part="F">Que vous avez de tort</l>
+            <l n="1726">De prolonger ma peine en différant ma mort !</l>
+            <l n="1727">De grâce, hâtez-vous d'abréger mon supplice,</l>
+            <l n="1728">Ou ma main préviendra votre lente justice.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1729">Voyez comme le ciel a de secrets ressorts</l>
+            <l n="1730">Pour se faire obéir malgré nos vains efforts.</l>
+            <l n="1731">Votre fourbe, inventée à dessein de nous nuire,</l>
+            <l n="1732">Avance nos amours au lieu de les détruire :</l>
+            <l n="1733">De son fâcheux succès, dont nous devions périr,</l>
+            <l n="1734">Le sort tire un remède afin de nous guérir.</l>
+            <l n="1735">Donc, pour nous revancher de la faveur reçue,</l>
+            <l n="1736">Nous en aimons l'auteur à cause de l'issue ;</l>
+            <l n="1737">Obligés désormais de ce que tour à tour</l>
+            <l n="1738">Nous nous sommes rendu tant de preuves d'amour,</l>
+            <l n="1739">Et de ce que l'excès de ma douleur sincère</l>
+            <l n="1740">A mis tant de pitié dans le coeur de ma mère,</l>
+            <l n="1741">Que, cette occasion prise comme aux cheveux,</l>
+            <l n="1742">Tircis n'a rien trouvé de contrainte à ses voeux ;</l>
+            <l n="1743">Outre qu'en fait d'amour la fraude est légitime ;</l>
+            <l n="1744">Mais puisque vous voulez la prendre pour un crime,</l>
+            <l n="1745">Regardez, acceptant le pardon ou l'oubli,</l>
+            <l n="1746">Par où votre repos sera mieux établi.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1747">Tout confus et honteux de tant de courtoisie,</l>
+            <l n="1748">Je veux dorénavant chérir ma jalousie ;</l>
+            <l n="1749">Et puisque c'est de là que vos félicités...</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE, à Eraste.</speaker>
+            <l n="1750">Quittez ces compliments, qu'ils n'ont pas mérités ;</l>
+            <l n="1751">Ils ont tous deux leur compte, et sur cette assurance</l>
+            <l n="1752">Ils tiennent le passé dans quelque indifférence,</l>
+            <l n="1753">N'osant se hasarder à des ressentiments</l>
+            <l n="1754">Qui donneraient du trouble à leurs contentements.</l>
+            <l n="1755">Mais Chloris qui s'en tait vous la gardera bonne,</l>
+            <l n="1756">Et seule intéressée, à ce que je soupçonne,</l>
+            <l n="1757">Saura bien se venger sur vous, à l'avenir,</l>
+            <l n="1758">D'un amant échappé qu'elle pensait tenir.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE, à Chloris.</speaker>
+            <l n="1759">Si vous pouviez souffrir qu'en votre bonne grâce</l>
+            <l n="1760">Celui qui l'en tira pût occuper sa place,</l>
+            <l n="1761">Eraste, qu'un pardon purge de son forfait,</l>
+            <l n="1762">Est prêt de réparer le tort qu'il vous a fait.</l>
+            <l n="1763">Mélite répondra de ma persévérance :</l>
+            <l n="1764">Je n'ai pu la quitter qu'en perdant l'espérance ;</l>
+            <l n="1765">Encore avez-vous vu mon amour irrité</l>
+            <l n="1766">Mettre tout en usage en cette extrémité ;</l>
+            <l n="1767">Et c'est avec raison que ma flamme contrainte</l>
+            <l n="1768">De réduire ses feux dans une amitié sainte,</l>
+            <l n="1769">Mes amoureux désirs, vers elle superflus,</l>
+            <l n="1770">Tournent vers la beauté qu'elle chérit le plus.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1771" part="I">Que t'en semble, ma soeur ?</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1771" part="F">Mais toi-même, mon frère ?</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1772">Tu sais bien que jamais je ne te fus contraire.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1773">Tu sais qu'en tel sujet ce fut toujours de toi</l>
+            <l n="1774">Que mon affection voulut prendre la loi.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1775">Encor que dans tes yeux tes sentiments se lisent,</l>
+            <l n="1776">Tu veux qu'auparavant les miens les autorisent.</l>
+            <l n="1777">Parlons donc pour la forme. Oui, ma soeur, j'y consens,</l>
+            <l n="1778">Bien sûr que mon avis s'accommode à ton sens.</l>
+            <l n="1779">Fassent les puissants dieux que par cette alliance</l>
+            <l n="1780">Il ne reste entre nous aucune défiance,</l>
+            <l n="1781">Et que m'aimant en frère, et ma maîtresse en soeur,</l>
+            <l n="1782">Nos ans puissent couler avec plus de douceur !</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1783">Heureux dans mon malheur, c'est dont je les supplie,</l>
+            <l n="1784">Mais ma félicité ne peut être accomplie</l>
+            <l n="1785">Jusqu'à ce qu'après vous son aveu m'ait permis</l>
+            <l n="1786">D'aspirer à ce bien que vous m'avez promis.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1787">Aimez-moi seulement, et, pour la récompense,</l>
+            <l n="1788">On me donnera bien le loisir que j'y pense.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1789">Oui, sous condition qu'avant la fin du jour</l>
+            <l n="1790">Vous vous rendrez sensible à ce naissant amour.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1791">Vous prodiguez en vain vos faibles artifices ;</l>
+            <l n="1792">Je n'ai reçu de lui ni devoir, ni services.</l>
+          </sp>
+          <sp who="tc0122-MELITE">
+            <speaker>MÉLITE.</speaker>
+            <l n="1793">C'est bien quelque raison ; mais ceux qu'il m'a rendus,</l>
+            <l n="1794">Il ne les faut pas mettre au rang des pas perdus ;</l>
+            <l n="1795">Ma soeur, acquitte-moi d'une reconnaissance</l>
+            <l n="1796">Dont un autre destin m'a mise en impuissance ;</l>
+            <l n="1797">Accorde cette grâce à nos justes désirs.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1798">Ne nous refuse pas ce comble à nos plaisirs.</l>
+          </sp>
+          <sp who="tc0122-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1799">Donnez à leurs souhaits, donnez à leurs prières,</l>
+            <l n="1800">Donnez à leurs raisons ces faveurs singulières ;</l>
+            <l n="1801">Et pour faire aujourd'hui le bonheur d'un amant,</l>
+            <l n="1802">Laissez-les disposer de votre sentiment.</l>
+          </sp>
+          <sp who="tc0122-CHLORIS">
+            <speaker>CHLORIS.</speaker>
+            <l n="1803">En vain en ta faveur chacun me sollicite,</l>
+            <l n="1804">J'en croirai seulement la mère de Mélite ;</l>
+            <l n="1805">Son avis m'ôtera la peur du repentir,</l>
+            <l n="1806">Et ton mérite alors m'y fera consentir.</l>
+          </sp>
+          <sp who="tc0122-TIRCIS">
+            <speaker>TIRCIS.</speaker>
+            <l n="1807">Entrons donc ; et tandis que nous irons le prendre,</l>
+            <l n="1808">Nourrice, va t'offrir pour maîtresse à Philandre.</l>
+          </sp>
+          <sp who="tc0122-NOURRICE">
+            <speaker>La NOURRICE.</speaker>
+            <stage>Tous rentrent, et elle demeure seule.</stage>
+            <l n="1809">Là, là, n'en riez point ; autrefois en mon temps</l>
+            <l n="1810">D'aussi beaux fils que vous étaient assez contents,</l>
+            <l n="1811">Et croyaient de leur peine avoir trop de salaire</l>
+            <l n="1812">Quand je quittais un peu mon dédain ordinaire.</l>
+            <l n="1813">A leur compte, mes yeux étaient de vrais soleils</l>
+            <l n="1814">Qui répandaient partout des rayons nonpareils ;</l>
+            <l n="1815">Je n'avais rien en moi qui ne fût un miracle ;</l>
+            <l n="1816">Un seul mot de ma part leur était un oracle.</l>
+            <l n="1817">Mais je parle à moi seule. Amoureux, qu'est ceci ?</l>
+            <l n="1818">Vous êtes bien hâtés de me quitter ainsi !</l>
+            <l n="1819">Allez, quelle que soit l'ardeur qui vous emporte,</l>
+            <l n="1820">On ne se moque point des femmes de ma sorte ;</l>
+            <l n="1821">Et je ferai bien voir à vos feux empressés</l>
+            <l n="1822">Que vous n'en êtes pas encor où vous pensez.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
