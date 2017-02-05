@@ -58,7 +58,7 @@ The texts have been compiled from the following sources:
 
 * [Wikisource](https://pt.wikisource.org) (7 texts)
 * [Biblioteca Virtual Miguel de Cervantes](http://www.cervantesvirtual.com) (5 texts)
-* [Internet Archive](https://archive.org)(3 texts)
+* [Internet Archive](https://archive.org) (3 texts)
 * [Biblioteca Digital Argentina](http://old.clarin.com.ar/pbda/) (2 texts)
 * [La novela corta. Una biblioteca virtual](http://www.lanovelacorta.com) (2 texts)
 * [Project Gutenberg](http://www.gutenberg.org/) (2 texts)
@@ -74,7 +74,8 @@ Source formats have been HTML, PDF and image files.
 * txt: Simple plain text containing only the main text of the novels (File names: identifier.txt, e.g. nh0002.txt)
 * annotated: TEI files further annotated with FreeLing and WordNet
 * pdf: Reading versions generated from the TEI files
-[//]: # A linguistically annotated version for use with the TXM analysis tool can be downloaded here: http://zenodo.org/record/47218
+
+<!-- A linguistically annotated version for use with the TXM analysis tool can be downloaded here: http://zenodo.org/record/47218 -->
 
 ## Data Curation
 * The texts have been submitted to a spellcheck based on a dictionary for contemporary Spanish. The result of the check can be found in [spellcheck.csv](spellcheck.csv).
