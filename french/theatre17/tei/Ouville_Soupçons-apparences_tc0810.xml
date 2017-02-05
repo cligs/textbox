@@ -1,0 +1,3535 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Les soupçons sur les apparences</title>
+        <title type="sub">Comédie</title>
+        <title type="short">Soupçons-apparences</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">OUVILLE, Antoine le Métel</name>
+          <name type="short">Ouville</name>
+          <idno type="viaf"/>
+        </author>
+        <principal>Édition critique établie, annotée et introduite par Clotilde Avel sous la direction de Monsieur le Professeur Georges Forestier. Mémoire de Master 1 de Littératures françaises. Université Paris IV-Sorbonne UFR de Littérature française et comparée 2005-2006</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0810</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2014</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1650</date>, <idno/>, <ref target="#"/>. .</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1641</date>, <idno/>, <ref target="#"/>. Représenté pour la première fois en 1641 à l'Hôtel de Bourgogne.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Comédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1641-1650</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>ACTEURS.</head>
+        <castItem>
+          <role xml:id="tc0810-LEANDRE">LÉANDRE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-FILEMON">FILEMON</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-ALCIPE">ALCIPE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-ASTREE">ASTRÉE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-ORPHISE">ORPHISE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-HIPOLITE">HIPOLITE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-SYLVAIN">SYLVAIN</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-VALENTIN">VALENTIN</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-PICART">PICART</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-UNVOISIN">UN VOISIN</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0810-VIOLONS">VIOLONS</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La Scène est à Paris.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIERE. Alcipe, Sylvain tenant un flambeau.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1">Arrête, nous voici dans la rue, où demeure</l>
+            <l n="2">L'inflexible beauté, qui consent que je meure ;</l>
+            <l n="3" part="I">J'aperçois son logis.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="3" part="F">Apercevez aussi</l>
+            <l n="4">Que de votre tourment elle a peu de souci.</l>
+            <l n="5">Depuis cinq ou six mois que vous brûlez pour elle, </l>
+            <l n="6">Ne vous est elle pas également cruelle ?</l>
+            <l n="7">L'absence d'un mari vous flatte sans raison,</l>
+            <l n="8">L'amour qu'elle lui porte, est sans comparaison.</l>
+            <l n="9">En quelque lieu qu'il soit, il possède son âme,</l>
+            <l n="10">Et la vertu du sexe, est toute en cette femme ; </l>
+            <l n="11">Je ne suis qu'un valet ignorant et brutal,</l>
+            <l n="12">Mais si vous me croyez, vous ne feriez pas mal,</l>
+            <l n="13">Cessez d'une poursuite injuste autant que vaine,</l>
+            <l n="14">Vous ferez plus ailleurs avecque moins de peine</l>
+            <l n="15">Et n'offenserez pas dans votre passion, </l>
+            <l n="16">D'un ancien ami la pure affection.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="17">Oui, tu n'es qu'un valet, ce propos me le montre ;</l>
+            <l n="18">L'on ne respecte rien en pareille rencontre.</l>
+            <l n="19">Les plus parfaits amis, les plus proches parents</l>
+            <l n="20">Ne passent en amour que pour indifférents. </l>
+            <l n="21">Léandre, je l'avoue, est bien dans mon estime ;</l>
+            <l n="22">Mon bras pour le servir tiendrait tout légitime :</l>
+            <l n="23">Mais au terme où sa femme aujourd'hui m'a rendu ;</l>
+            <l n="24">Crois que pour en jouir, rien ne m'est défendu.</l>
+            <l n="25">Suis moi sans répliquer, je m'en vais à sa porte </l>
+            <l n="26">Prendre l'occasion que quelqu'un entre ou sorte.</l>
+            <l n="27" part="I">Éteins donc le flambeau.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="27" part="M">Cela vaut fait. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="27" part="F">Allons,</l>
+            <l n="28">Mais ciel qu'heureusement j'entends des violons !</l>
+            <l n="29">Ils ne sont au plus loin qu'en la place prochaine :</l>
+            <l n="30">Si tu m'aimes Sylvain, cours vite et les amène : </l>
+            <l n="31">De ces doux instruments les sons mélodieux</l>
+            <l n="32">Divertiront l'objet qui plaît tant à mes yeux.</l>
+            <l n="33">Léandre c'est trop tard que tu me fais reproche,</l>
+            <l n="34">J'aime trop mes plaisirs, et je m'en crois trop proche.</l>
+            <l n="35">Donne trêve à la plainte, et c'est un vain discours </l>
+            <l n="36">Qui ne peut m'empêcher d'arriver où je cours.</l>
+            <l n="37">Tu m'opposes la loi d'une amitié jurée,</l>
+            <l n="38">J'oppose à cette loi tous les charmes d'Astrée.</l>
+            <l n="39">Selon les sentiments d'un coeur comme le mien,</l>
+            <l n="40">Où l'on voit tant d'appas, un ami n'est plus rien. </l>
+            <l n="41">Son respect peut beaucoup ; mais sa force est petite,</l>
+            <l n="42">Où la beauté se trouve avecque le mérite ;</l>
+            <l n="43">Astrée a l'une et l'autre, et cet objet charmant</l>
+            <l n="44">Me rend traître envers toi sans mon consentement :</l>
+            <l n="45">Quelque attrait qu'en ses yeux je découvre et j'admire, </l>
+            <l n="46">Je ne m'y porte pas, leur vif éclat m'attire,</l>
+            <l n="47">Et vouloir résister à leurs puissants efforts,</l>
+            <l n="48">C'est m'étreindre de noeuds plus prégnants et plus forts.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Alcipe, Sylvain, les violons.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="49">Amis concertez vous, et que votre harmonie</l>
+            <l n="50">Soulage, s'il se peut ma langueur infinie, </l>
+            <l n="51">Par vos divers accords essayez de toucher</l>
+            <l n="52">Un esprit insensible ou plutôt un rocher.</l>
+            <stage>Les violons jouent.</stage>
+            <l n="53">C'est assez, quelqu'un vient d'ouvrir une fenêtre :</l>
+            <l n="54">Retirez vous, Sylvain songe à les reconnaître.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Astrée, Alcipe, Syllvain.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE, à sa fenestre.</speaker>
+            <l n="55" part="I">N'est-ce pas vous Alcipe ? </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="55" part="F">Oui, Madame, c'est moi, </l>
+            <l n="56">Avec tout le respect et l'amour que je dois.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="57">Puisqu'en un fol espoir votre coeur persévère,</l>
+            <l n="58">Retenez les avis d'une femme en colère :</l>
+            <l n="59">Alcipe, je suis lasse, et vos vaines ardeurs</l>
+            <l n="60">Bien loin de m'enflammer augmentent mes froideurs. </l>
+            <l n="61">J'ai longtemps par mépris négligé votre peine ;</l>
+            <l n="62">Mais ce mépris se change en une forte haine.</l>
+            <l n="63">Évitez-en l'effet, en vous ôtant du sein</l>
+            <l n="64">L'espoir d'exécuter votre lâche dessein :</l>
+            <l n="65">Pour être sans mari, ma vertu n'est pas moindre. </l>
+            <l n="66">À votre vain effort, l'enfer se pourrait joindre ;</l>
+            <l n="67">Tout l'Univers enfin me viendrait assaillir, </l>
+            <l n="68">Sans qu'en ce grand assaut mon honneur pût faillir.</l>
+            <l n="69">Après un tel discours qu'avez-vous à prétendre ?</l>
+            <l n="70">Craignez, craignez plutôt le retour de Léandre. </l>
+            <l n="71">Il viendra pour punir vos projets insensés,</l>
+            <l n="72">Plutôt que je ne dis, et que vous ne pensez.</l>
+            <l n="73">Adieu, nourrissez-vous d'espérances frivoles ;</l>
+            <l n="74">Mais interprétez bien mes dernières paroles.</l>
+            <stage>Elle ferme la fenêtre et se retire.</stage>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="75" part="I">Qu'en dites-vous, Monsieur ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="75" part="F">Menace ni mépris, </l>
+            <l n="76">Ne me peut détourner du chemin que j'ai pris,</l>
+            <l n="77">Dusse-je avec l'honneur y perdre la lumière,</l>
+            <l n="78">Je veux aller au bout, et franchir la carrière.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="79">Comment le pourrez vous, si Léandre revient ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="80">L'on m'en a menacé, Sylvain, il m'en souvient, </l>
+            <l n="81">Mais je connais assez que l'ingrate que j'aime,</l>
+            <l n="82">Pour éprouver mon coeur, trouve ce stratagème.</l>
+            <l n="83">C'est pour mieux s'assurer si je suis résolu, </l>
+            <l n="84">Et ne me dédis point de ce que j'ai voulu.</l>
+            <l n="85">Mais que Léandre vienne ; et qu'après tout sa femme, </l>
+            <l n="86">D'un langage indiscret lui découvre ma flamme,</l>
+            <l n="87">Je n'ignore pas l'art de lui persuader</l>
+            <l n="88">Que je m'en tenais près, afin de la garder ;</l>
+            <l n="89" part="I">Que je ne la priais...</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="89" part="F">Monsieur, quelqu'un s'avance.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="90">Tirons nous à l'écart, et gardons le silence. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Picard, Alcipe, Sylvain, Atrée, Hyppolite.</head>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD tenant un flambeau.</speaker>
+            <l n="91">Malgré l'ombre et l'horreur de cet air obscurci,</l>
+            <l n="92">Je ne me trompe pas : heurtons fort, c'est ici.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="93">À voir de ce garçon l'habit et la posture,</l>
+            <note type="C">Mercure : Dieu des messagers.</note>
+            <l n="94">Il semble un officier du Bureau de Mercure.</l>
+          </sp>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD.</speaker>
+            <l n="95">Déjà dans ce logis chacun est endormi, </l>
+            <l n="96">Redoublons toutefois en maître, ou comme ami.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="97">Ah ! Je n'en doute plus, c'est un de ces infâmes,</l>
+            <l n="98">Qui vendent la jeunesse et la beauté des femmes ;</l>
+            <l n="99">L'infidèle à dessein m'a traité rudement ;</l>
+            <l n="100">Pour s'aller divertir avec un autre amant. </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE, à la fenêtre.</speaker>
+            <l n="101">Insolent c'en est trop, votre impudence est telle,</l>
+            <l n="102">Qu'un propos de mépris, n'est pas assez pour elle :</l>
+            <l n="103">Je ne sais qui me tient, qu'en mon juste courroux</l>
+            <l n="104">Je ne fasse sortir les voisins dessus vous.</l>
+            <l n="105">Heurter violemment, et de nuit à ma porte ! </l>
+            <l n="106">Traite-t-on de cet air les femmes de ma sorte ?</l>
+            <l n="107" part="I">Retirez-vous, ou bien.</l>
+          </sp>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD, bas.</speaker>
+            <l n="107" part="F">Cette malfaçon</l>
+            <l n="108">Fait naître en mon esprit je ne sais quel soupçon ;</l>
+            <l n="109" part="I">Mais désabusons-la.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="109" part="F">Quelle audace est la vôtre ?</l>
+          </sp>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD.</speaker>
+            <l n="110">Madame, apaisez-vous, vous prenez l'un pour l'autre, </l>
+            <l n="111" part="I">Je suis valet d'Orphise.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="111" part="F">Ah ! Bon Dieu que j'ai tort !</l>
+            <l n="112">Pourquoi viens-tu si tard, et heurtes-tu si fort ?</l>
+          </sp>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD.</speaker>
+            <l n="113">Pour vous donner avis de venir tout à l'heure, </l>
+            <l n="114">Autrement sans vous voir, il faudra qu'elle meure.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="115">Quel mal à ma cousine est-il donc survenu ? </l>
+          </sp>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD.</speaker>
+            <l n="116">Je ne vous le puis dire, il ne m'est pas connu.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="117" part="I">Attends moi, je m'en vais.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN, à Alcipe.</speaker>
+            <l n="117" part="F">Votre esprit quand j'y pense,</l>
+            <l n="118">Établit un soupçon dessus peu d'apparence.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="119">Que veux-tu, tout me choque, et quiconque aime bien,</l>
+            <l n="120">Craint, pense mal de tout, et ne se fie à rien. </l>
+          </sp>
+          <sp who="tc0810-PICARD">
+            <speaker>PICARD.</speaker>
+            <l n="121">À qui pouvait Astrée adresser ses menaces ?</l>
+            <l n="122">Peut-être à quelque amant hors de ses bonnes grâces.</l>
+            <l n="123">Quelque galant possible autrefois en faveur, </l>
+            <l n="124">Est aujourd'hui puni d'avoir été causeur,</l>
+            <l n="125">L'apparence à cela donne quelque ouverture. </l>
+            <l n="126">L'absence de Léandre en croît la conjecture,</l>
+            <l n="127">Toutefois, tels soupçons souvent sont mal conçus,</l>
+            <l n="128">Et d'ailleurs je n'ai rien à gloser là dessus.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE, bas.</speaker>
+            <l n="129">Voyez l'opinion de ce dernier des hommes.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE, sortant de son logis, et suivie d'Hypolite portant une petite lanterne.</speaker>
+            <l n="130">Allons, ce n'est pas loin : en trois pas nous y sommes. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="131">L'occasion est belle, agissons sans parler.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN, le retenant.</speaker>
+            <l n="132">Monsieur, que pensez-vous ? Où voulez vous aller ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="133">Sylvain, je la veux suivre, et puisque la prière</l>
+            <l n="134">Ne peut rien m'obtenir de cette femme altière,</l>
+            <l n="135">Je me sens résolu dans mes brûlants transports, </l>
+            <l n="136">Pour vaincre son orgueil, d'en venir aux efforts.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="137">Surmontez cette humeur, et si chaude et si prompte. </l>
+            <l n="138">Vous verrez vos efforts tourner à votre honte.</l>
+            <l n="139">Les voisins sortiront au moindre de ses cris,</l>
+            <l n="140">Et vous aurez l'affront de fuir, ou d'être pris. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="141">Il ne m'importe pas ; cette fière ennemie</l>
+            <l n="142">Aura du moins sa part dedans cette infamie.</l>
+            <l n="143">Allons sans plus tarder, au point de son retour,</l>
+            <l n="144">Contenter à la fois ma haine et mon amour.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="145" part="I">Monsieur, encor un coup.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="145" part="M">Tais toi.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="145" part="F">Pour vous je tremble. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="146">Retirons nous d'ici, quelqu'un vient, ce me semble.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Léandre, Filemon.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="147">Je rends grâces au Ciel, nous sommes arrivez ; </l>
+            <l n="148">J'en sens plus de plaisir que vous n'en concevez.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="149">Je me trouve lassé du chemin et du coche.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="150">Vous vous délasserez, notre logis est proche. </l>
+            <l n="151">Avec affection, nous vous y recevrons,</l>
+            <l n="152">Et vous serez traité le mieux que nous pourrons.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="153">Sans autre compliment, cher ami, je vous prie ;</l>
+            <l n="154">Permettez moi d'aller en mon hôtellerie.</l>
+            <l n="155">Ne vous opposez pas à ce juste désir. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="156">J'écoute ce discours avec peu de plaisir.</l>
+            <l n="157">Quoi j'aurai fait chez vous si longtemps ma demeure, </l>
+            <l n="158">Et vous iriez ailleurs ? Non ferez, ou je meure,</l>
+            <l n="159">Il ne faut que heurter, voici notre maison.</l>
+            <stage>Il frappe à la porte.</stage>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="160" part="I">Adieu.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="160" part="F">De tels adieux ne sont pas de saison, </l>
+            <l n="161">Vivons avec franchise, et méprisons la mode.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="162">Faut-il qu'à mon sujet, chez vous l'on s'incommode ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="163">Certes vous agissez d'autre air que je n'agis :</l>
+            <l n="164">Ce propos, Filemon, me pique, et j'en rougis.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="165">Mais me dois-je produire en habit de campagne ? </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="166">La grâce et l'air de Cour toujours vous accompagne.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="167">Léandre encor un coup, s'il vous plaît, consentez.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="168">Je m'offense à la fin de vos civilités. </l>
+            <l n="169">Aucun ne nous répond, ma femme est endormie.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="170">Il se peut faire en ville avecque quelque amie. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="171">Des maximes qu'elle a, vous êtes mal instruit,</l>
+            <l n="172">Elle sort peu de jour, et point du tout de nuit :</l>
+            <l n="173">Quoi que belle, que jeune, et que Parisienne,</l>
+            <l n="174">L'on trouve peu d'humeurs semblables à la sienne ;</l>
+            <l n="175">Elle aime la retraite, et fait son entretien </l>
+            <l n="176">D'un livre, dont l'auteur à son gré parle bien.</l>
+            <l n="177">Elle ne fut jamais jusqu'à ce point hardie,</l>
+            <l n="178">De voir sans mon aveu, ni bal, ni comédie ;</l>
+            <l n="179">Et croit trop accorder à ses yeux innocents,</l>
+            <l n="180">Quand par une fenestre, elle voit les passants. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="181">De son sexe elle est donc l'exemple et la merveille,</l>
+            <l n="182">Et Paris n'en a pas encor une pareille ;</l>
+            <l n="183">Cependant, entre nous, je dirai, s'il vous plaît</l>
+            <l n="184">Qu'on tarde à demander qui heurte, et ce que c'est.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="185">Je m'en vais redoubler, mais d'une main si forte, </l>
+            <l n="186">Que s'ils ne sont tous morts, ils viendront à la porte.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="187">Certes après ce bruit, il nous sera permis</l>
+            <l n="188">De les estimer morts aussitôt qu'endormis.</l>
+            <l n="189">Les vitres ont tremblé de ces coups de tonnerre,</l>
+            <l n="190">Et j'ai dessous mes pieds senti frémir la terre. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="191">L'on ne vient point ouvrir ; surpris, triste, confus,</l>
+            <l n="192">Et troublé de soupçons, si jamais je le fus,</l>
+            <l n="193">Je crois trop convaincu d'une telle apparence,</l>
+            <l n="194">Qu'Astrée indignement me traite en mon absence.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="195">N'ayez pas ce penser d'un miracle d'amour, </l>
+            <l n="196">Qui ne sort point de nuit, et rarement de jour ;</l>
+            <l n="197">D'une Parisienne, et jeune, et bien aimable,</l>
+            <l n="198">Dont le bon naturel n'eut jamais de semblable ;</l>
+            <l n="199">Qui se plaît d'être seule, et qu'un livre bienfait</l>
+            <l n="200">Du soir jusqu'au matin instruit et satisfait. </l>
+            <l n="201">D'une femme soumise, et qui vous idolâtre,</l>
+            <l n="202">Jusqu'à vous consulter pour aller au théâtre ;</l>
+            <l n="203">Et qui croit qu'à ses yeux c'est beaucoup accorder,</l>
+            <l n="204">De souffrir qu'en la rue ils puissent regarder.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="205">Est-ce ainsi qu'en raillant, ami, tu me consoles ? </l>
+            <l n="206">Pourquoi m'adresses-tu ces piquantes paroles ?</l>
+            <l n="207">Il est vrai que l'ingrate avec son suborneur,</l>
+            <l n="208">Sans respect de l'hymen, me blesse dans l'honneur.</l>
+            <l n="209">Je n'en dois plus douter, l'apparence l'assure,</l>
+            <l n="210">Et je l'aperçois trop dans cette nuit obscure. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="211" part="I">Heurtez encor un coup.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="211" part="F">Je le ferai sans fruit.</l>
+            <stage>Il heurte.</stage>
+          </sp>
+          <sp who="tc0810-LEVOISIN">
+            <speaker>UN VOISIN, à la fenêtre.</speaker>
+            <l n="212">Qui sont ceux qui là bas font si longtemps du bruit ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="213">Mon ami, c'est Léandre, ou le mari d'Astrée.</l>
+          </sp>
+          <sp who="tc0810-LEVOISIN">
+            <speaker>LE VOISIN.</speaker>
+            <l n="214">Un quart-d'heure plutôt, vous l'eussiez rencontrée ;</l>
+            <l n="215">Elle est sortie alors, pour aller secourir </l>
+            <l n="216">Sa cousine malade en danger de mourir.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="217">Il me suffit, voisin, je vous en remercie ;</l>
+            <l n="218">Que d'un doute fâcheux, mon âme est éclaircie !</l>
+            <l n="219">Soupçon injurieux, mensonge que je hais !</l>
+            <l n="220">Va, sors de mon esprit, et n'y rentre jamais. </l>
+            <l n="221">Vous avez comme moi, mal pensé de ma femme.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="222">L'on garde comme vous un déplaisir en l'âme.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="223">Vous plaît-il demeurer ici seul un moment,</l>
+            <l n="224">Je vais chez ma parente, et reviens promptement.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="225">Volontiers, qu'aisément dessus peu d'apparence, </l>
+            <l n="226">Il nous arrive à tous d'accuser l'innocence !</l>
+            <l n="227">Mais où va cette Dame, il me le faut savoir,</l>
+            <l n="228">Et sans qu'elle me voie, essayer de la voir.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Astrée, Hyppolite, Picard, Alcipe, Sylvain, Filemon.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="229">Retourne t'en Picard, c'est assez d'Hypolite :</l>
+            <l n="230">Ma frayeur de ce soir n'a pas été petite. </l>
+            <l n="231">Ma cousine toujours sentant le moindre mal</l>
+            <l n="232">M'alarme, et me remplit d'un trouble sans égal.</l>
+            <l n="233">Mets la clef à la porte, Hyppolite, et te hâte.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="234" part="I">Arrêtez.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="234" part="M">Pour Alcipe.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="234" part="F">Oui, pour Alcipe, ingrate.</l>
+            <l n="235">La force m'obtiendra ce qu'en vain les soupirs </l>
+            <l n="236">Ont tâché d'obtenir à mes ardents désirs.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="237">Au secours, justes Cieux ! Pouvez-vous sans vengeance, </l>
+            <l n="238">Souffrir d'un effronté la brutale insolence ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="239">Défends toi, téméraire, et reçois de ma main,</l>
+            <l n="240">De tes lâches efforts, le châtiment soudain. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="241" part="I">Ô Ciel, je suis blessé !</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="241" part="F">C'est encor mon envie,</l>
+            <l n="242">Que tu sois sans parole, et sans force, et sans vie.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="243" part="I">Fuyons, c'est le plus sûr.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="243" part="F">Fuyez, lâches, fuyez,</l>
+            <l n="244">Vous faites des affronts, mais vous les essuyez.</l>
+            <l n="245">Heureux en ce combat autant qu'on le peut être, </l>
+            <l n="246">J'ai vengé votre affront, et désarmé ce traître.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="247">Généreux Cavalier, saurai-je votre nom ? </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="248">Ceux qui le savent bien, me nomment Filemon.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="249" part="I">Lyonnais ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="249" part="M">Lyonnais.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="249" part="F">Grand ami de Léandre ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="250">Nous venons d'arriver, et je suis à l'attendre. </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="251">Si pour mes intérêts, je puis vous émouvoir,</l>
+            <l n="252">Taisez lui l'action que vous venez de voir.</l>
+            <l n="253">Quoi qu'en moi quelquefois se forment des chimères,</l>
+            <l n="254">Et conçois des soupçons de choses plus légères ;</l>
+            <l n="255">Cavalier, je vous crois discret jusqu'à ce point. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="256">Pour de plus grands secrets, je ne parlerais point ; </l>
+            <l n="257">Même pour éviter qu'en voyant cette épée</l>
+            <l n="258">De quelque faux ombrage, il ait l'âme occupée,</l>
+            <l n="259">Je la saurai fort bien dérober à ses yeux.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="260">Hyppolite, prends-la, c'est encor pour le mieux. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="261">Tant de précaution que pareille occurrence</l>
+            <l n="262">N'est pas en mon avis de fort bonne apparence.</l>
+            <l n="263">J'interprète sa peur de mauvaise façon,</l>
+            <l n="264">Et rentre, peu s'en faut, dans mon premier soupçon.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Léandre, Filemon.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="265" part="I">Je ne l'ai pas trouvée. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="265" part="F">Elle est aussi venue. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="266">Par ce chemin, sans doute, et moi par cette rue :</l>
+            <l n="267">Ma cousine n'est pas si prête de mourir.</l>
+            <l n="268">Semblable maladie est prompte à se guérir,</l>
+            <l n="269">J'ai su du médecin et de l'apothicaire ;</l>
+            <l n="270">Que ce n'était qu'un mal aux femmes ordinaire. </l>
+            <l n="271" part="I">Entrons sans compliment.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="271" part="F">Je n'en sais faire aucun.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="272" part="I">Passez-donc. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="272" part="F">Je le veux, de peur d'être importun.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Alcipe, Sylvain.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="273">Donne moi ton épée, il faut que mon courage</l>
+            <l n="274">Me venge hautement de ce sensible outrage.</l>
+            <l n="275">Avant que le Soleil nous ramène le jour, </l>
+            <l n="276">J'éteindrai dans leur sang leur criminelle amour.</l>
+            <l n="277">L'insolent, dont la main plus heureuse qu'adroite</l>
+            <l n="278">M'a de son premier coup contraint à la retraite,</l>
+            <l n="279">Pend au bras de l'ingrate, et reçoit à l'envi</l>
+            <l n="280">Le doux contentement qu'en vain j'ai poursuivi ! </l>
+            <l n="281">C'est le second mari de cette âme infidèle ;</l>
+            <l n="282">Aurait-il autrement entrepris sa querelle ?</l>
+            <l n="283">L'apparence en ce point, marque sa trahison,</l>
+            <l n="284">Persuade mes yeux, et convainc ma raison.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="285">Il est vrai qu'à juger de chaque circonstance, </l>
+            <l n="286">Astrée avec cet homme a de l'intelligence.</l>
+            <l n="287">Entrer dans son logis ! Et pour son intérêt,</l>
+            <l n="288">Être à vous attaquer et si prompt et si prêt,</l>
+            <l n="289">Montre aux moins avisés et clairement explique,</l>
+            <l n="290">Qu'ils fomentent entr'eux une ardeur impudique. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="291">Il est entré le traître ! Et celle qu'il séduit,</l>
+            <l n="292">Le croit faire sortir, et dans l'ombre et sans bruit ;</l>
+            <l n="293">Mais d'un semblable espoir en vain elle se flatte,</l>
+            <l n="294">Il faut que mon dépit et que sa honte éclate ;</l>
+            <stage>Il heurte à la porte.</stage>
+            <l n="295">Sors, lâche, je t'attends, et mon coeur irrité </l>
+            <l n="296">Prépare un châtiment à ta témérité.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="297">Hé de grâce, Monsieur, voyez ce que vous faites ;</l>
+            <l n="298">L'appeler au combat tout blessé que vous êtes ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="299">Si pour tirer raison de cet audacieux,</l>
+            <l n="300">Mon bras ne me sert bien, je le tuerai des yeux. </l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="301" part="I">L'on sort. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="301" part="F">Ciel, c'est L2andre avec mon adversaire !</l>
+            <l n="302">En cette occasion qu'imaginer ? Que faire ?</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="303">Continuez toujours vos menaçants propos ;</l>
+            <l n="304">Assurez vous du reste, et soyez en repos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Léandre, Filemon, Alcipe, Sylvain.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="305">En des maisons d'honneur apporter du scandale !</l>
+            <l n="306">A-t-on jamais parlé d'une insolence égale ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="307">Les lâches, les marauds, les traîtres, les filous,</l>
+            <l n="308">Ils seraient bien hardis, s'ils ne craignaient les loups !</l>
+            <note type="L">À l'mpourvue : avec suprise. [F]</note>
+            <l n="309">Me prendre à l'impourvue, et saisir mon épée ?</l>
+            <l n="310">D'un mortel déplaisir j'en ai l'âme occupée ; </l>
+            <l n="311">Je me meurs, je déteste, et du dépit que j'ai,</l>
+            <l n="312">Je ne me connais plus, et suis pis qu'enragé.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="313">Je ne me trompe pas, c'est Alcipe lui-même.</l>
+            <l n="314">Qu'en cet événement, ma surprise est extrême !</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="315">N'êtes vous pas encor de ces courages bas,</l>
+            <l n="316">Qui, s'ils ne volaient point, ne subsisteraient pas ?</l>
+            <l n="317">Rien que deux contre moi, vous saurez tout à l'heure</l>
+            <l n="318">Qu'il n'arrive jamais qu'un affront me demeure.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="319">Ces propos envers nous ne vous sont pas permis ;</l>
+            <l n="320">Alcipe, connaissez vos anciens amis. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="321">Infâmes, mes amis n'ont rien qui vous ressemble.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON, bas.</speaker>
+            <l n="322">C'est lui que j'ai tantôt désarmé, ce me semble.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="323">Vos propos à la fin sont trop injurieux.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="324">Excusez les transports d'un homme furieux.</l>
+            <l n="325">Monsieur, rentrez en vous, et me veuillez entendre, </l>
+            <l n="326" part="I">C'est Léandre.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="326" part="F">Est-il vrai ! Serait-ce vous, Léandre ? </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="327" part="I">Oui, c'est moi.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="327" part="F">Pardonnez, ce qu'un juste courroux</l>
+            <l n="328">Me faisait adresser à tout autre qu'à vous.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="329">Dites-nous le sujet de ce désordre extrême ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="330">Sylvain vous le peut dire aussi bien que moi-même : </l>
+            <l n="331">Cependant j'essaierai de rappeler mes sens,</l>
+            <l n="332">Et sortir tout à fait de ces transports puissants.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="333">Mon maître revenait de faire une visite :</l>
+            <l n="334">Je vous laisse à penser si l'objet le mérite ;</l>
+            <l n="335">Quand au coin de la rue il se trouve surpris </l>
+            <note type="L">Filou : se dit par extension d'un trompeur subtil, d'un escroc, et de tous ceux qui se servent de mauvaise voies pour s'emparer du bien d'autrui. Se dit aussi d'un coupeur de bourse ; de celui qui vole par adresse, ou par surprise. [F]</note>
+            <l n="336">De cinq ou six filous des mieux faits de Paris :</l>
+            <l n="337">Ils demandent d'abord ou la bourse ou la vie ;</l>
+            <l n="338">Mais son coeur et son bras combattent cette envie.</l>
+            <l n="339">Il presse, il est pressé ; mais lui seul contre eux tous, </l>
+            <l n="340">Comment se pourrait-il garantir de leurs coups ? </l>
+            <l n="341">On le blesse à la main dont il tient son épée.</l>
+            <l n="342">Elle tombe, aussitôt la mienne est occupée ;</l>
+            <l n="343">Il la prend, il s'en sert, et chaud en ce combat,</l>
+            <l n="344">Les attaque en lion, et les charge, et les bat.</l>
+            <l n="345">Au signal d'un sifflet, leur troupe se dissipe, </l>
+            <l n="346">Et je me vois alors tout seul avec Alcipe.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="347">D'où vient donc qu'il s'emporte avecque tant d'excès ?</l>
+            <l n="348">Si ton récit s'accorde avecque le succès,</l>
+            <l n="349">Sa valeur en ce choc, n'a pas été trompée.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="350">C'est qu'un de ces filous emporte son épée ; </l>
+            <stage>Ici Filemon rentre chez Léandre.</stage>
+            <l n="351">Et qu'il est affligé plus que tous les humains,</l>
+            <l n="352">De savoir qu'elle passe en de si viles mains.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="353">Le sujet est petit, pour de si grandes plaintes.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="354">J'en ressens toutefois de mortelles atteintes,</l>
+            <l n="355">Et ne saurais penser à ce sanglant affront, </l>
+            <l n="356">Qu'avec la rage au coeur, et la rougeur au front.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="357">Mais pourquoi rudement heurter à cette porte ? </l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="358">Pour vous mieux obliger à nous prêter main-forte.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="359">De qui donc saviez-vous mon retour à Paris ?</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="360">D'un Marchand de Lyon, qui nous l'avait appris. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Astrée, Léandre, Alcipe, Sylvain.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="361">Voulez-vous demeurer toujours dans cette rue ?</l>
+            <l n="362">Pour de si longs discours n'est-il pas heure indue ?</l>
+            <l n="363">Vous avez des secrets au moins un million ;</l>
+            <l n="364">Mais où peut être allé votre ami de Lyon ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="365">Il n'en faut pas douter, ce généreux courage </l>
+            <l n="366">Court après les filous, pour venger votre outrage,</l>
+            <l n="367" part="I">Je vais le secourir.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="367" part="F">Les miens suivraient vos pas ;</l>
+            <l n="368">Mais mon coeur serait mal secondé de mon bras.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="369">Alcipe demeurez ; tout le pouvoir des charmes</l>
+            <l n="370">Ne le peut empêcher de tomber sous nos armes. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Alcipe, Astrée, Hyppolite, Sylvain.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="371" part="I">Je rentre. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="371" part="M">Je vous suis.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="371" part="F">N'allez pas plus avant.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="372" part="I">Madame !</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="372" part="F">C'est donner des paroles au vent ;</l>
+            <l n="373">Quoi dedans ma maison j'introduirais un homme</l>
+            <l n="374">Que l'impudique ardeur d'un fol amour consomme ?</l>
+            <l n="375">Et qui depuis longtemps sans crainte et sans respect, </l>
+            <l n="376">Tient ma vertu forcée, et mon honneur suspect ?</l>
+            <l n="377">Un infidèle ami, de qui l'âme est si noire, </l>
+            <l n="378">Qu'il tâche de souiller de son ami la gloire ;</l>
+            <l n="379">Et contre tous les droits d'amour et d'amitié,</l>
+            <l n="380">Voudrait ingratement lui ravir sa moitié : </l>
+            <l n="381">C'était peu d'employer d'inutiles amorces.</l>
+            <l n="382">Vous en êtes venu jusqu'à d'injustes forces ;</l>
+            <l n="383">Mais le Ciel favorable, en ce besoin pressant,</l>
+            <l n="384">Oui le Ciel a rendu votre effort impuissant.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="385">Madame, ce reproche est juste, je l'avoue : </l>
+            <l n="386">Le principe en est noble, et même je le loue.</l>
+            <l n="387">Je fus trop insolent, et trop audacieux</l>
+            <l n="388">De me flatter du bien d'agréer à vos yeux,</l>
+            <l n="389">Rien d'impur ne peut plaire à ces astres sans tache.</l>
+            <l n="390">Ils pénètrent un coeur, ils voient ce qu'on y cache. </l>
+            <l n="391">Dans son aveuglement, il en est éclairé :</l>
+            <l n="392">S'il a quelque souillure, il en est épuré.</l>
+            <l n="393">Et si sa passion s'accroît et persévère,</l>
+            <l n="394">Ils savent l'en guérir d'un regard de colère.</l>
+            <l n="395">Je ressens dans le mien, ce prompt et rare effet ; </l>
+            <l n="396">Mes illicites feux sont éteints tout à fait ;</l>
+            <l n="397">Je ne suis plus pressé de ces transports étranges,</l>
+            <l n="398">Et je vous aime enfin comme on aime les anges,</l>
+            <l n="399">D'un amour pur et saint, exempt de tout remords,</l>
+            <l n="400">Franc des impressions qui nous viennent du corps : </l>
+            <l n="401">Et s'il faut qu'en un mot, je m'exprime, Madame, </l>
+            <l n="402">Plus pur que le Soleil, aussi pur que votre âme.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="403">Si vous parlez sans fard, mon courroux affaibli</l>
+            <l n="404">Possible avec le temps mettra tout en oubli :</l>
+            <l n="405">Mais jusqu'à ce moment, ou par grâce, ou par crainte, </l>
+            <l n="406">Redoutez de mes yeux une seconde atteinte.</l>
+            <l n="407">Évitez ma présence, et vous affermissez</l>
+            <l n="408">Dedans le repentir de vos projets passez.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="409">Quoi m'imposer, Madame une loi si sévère ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="410">Le soin de votre bien m'ordonne de le faire ; </l>
+            <l n="411">C'est pour votre repos que j'en dispose ainsi,</l>
+            <l n="412">Ne trouvez pas mauvais que je vous laisse ici.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Alcipe, Sylvain.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="413">Ne trouvez pas mauvais que j'en tire vengeance : </l>
+            <l n="414">Mon feu conserve encor toute sa violence.</l>
+            <l n="415">Ma langue avec mon coeur, ne s'accordait pas bien, </l>
+            <l n="416">Lors que je vous disais, qu'il ne m'en restait rien.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="417">Étouffez-en plutôt, et le tout, et le reste :</l>
+            <l n="418">Vous vous délivrerez, d'un poison, d'une peste,</l>
+            <l n="419">D'un mal de tous les maux le plus contagieux</l>
+            <l n="420">Que l'on reçoit dans l'âme, et qu'on prend par les yeux. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="421">Sylvain, tu me surprends, tu parais habille homme.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="422">Il se trouve des clercs, plus ignorants à Rome.</l>
+            <l n="423">Et sans faire du vain, je jurerais ma foi,</l>
+            <note type="L">Badaud : sot, niais, ignorant. [F]</note>
+            <l n="424">Qu'on en voit dans Paris de plus badauds que moi.</l>
+            <l n="425">Mon esprit a paru dedans mon personnage, </l>
+            <l n="426">Lorsque de ces filous j'ai supposé l'outrage.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="427">Oui certes, tu t'en es dignement acquitté ;</l>
+            <l n="428">J'ai connu ton génie, et ta dextérité :</l>
+            <l n="429">Mais quelque bon succès qu'ait eu notre mensonge,</l>
+            <l n="430">Un soupçon dissipé dans un autre me plonge ; </l>
+            <l n="431">Léandre est abusé ; mais l'ami de Lyon</l>
+            <l n="432">N'est pas assurément de même opinion :</l>
+            <l n="433">Il m'a connu sans doute, et s'est fait violence</l>
+            <l n="434">De me voir, de m'ouïr et garder le silence.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="435">Ils reviennent tous deux, nous serions bien trompez, </l>
+            <l n="436">S'ils avaient en courant nos filous attrapés.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Filemon, Léandre, Alcipe, Sylvain.</head>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="437">Ma peine, grâce au Ciel, n'a pas été trompée ;</l>
+            <l n="438">Ne vous affligez plus, j'apporte votre épée.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="439">Tout cède, tout se rend au brave Filemon.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="440" part="I">Les filous !</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="440" part="F">Ha ! Tout beau, vous savez mal leur nom. </l>
+            <l n="441">Et comme les objets se grossissent dans l'ombre,</l>
+            <l n="442">À vos sens étonnés un seul homme a fait nombre.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="443" part="I">Un seul homme !</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="443" part="M">Un seul homme. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="443" part="F">Ils étaient plus de six.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="444">Cavalier, parlez-en d'un esprit plus rassis,</l>
+            <l n="445">Vous nous feriez juger dedans cette occurrence, </l>
+            <l n="446">Que la peur vous ôta jusqu'à la connaissance ;</l>
+            <l n="447">Qu'en des temps seulement vous êtes généreux,</l>
+            <l n="448">Et que la mort pour vous est d'un aspect affreux.</l>
+            <l n="449">Un seul avantage de sa bonne conduite,</l>
+            <l n="450">Vous a mis sans défense, et contraint à la fuite. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="451">Vous me parlez ici d'un langage inconnu.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="452">Nous étions séparés quand vous estes venu,</l>
+            <l n="453">Et celui dont je parle, et pour qui je respire,</l>
+            <l n="454">M'avait dit à peu prés ce que je vais vous dire.</l>
+            <l n="455">Vous vous méprenez trop, de crier aux filous, </l>
+            <l n="456">Arrêtez, et m'oyez Alcipe, si c'est vous.</l>
+            <l n="457">La mortelle frayeur d'une attaque imprévue </l>
+            <l n="458">Vous a troublé l'esprit aussi bien que la vue.</l>
+            <l n="459">De tous les gens d'honneurs je professe la loi ;</l>
+            <l n="460">Si vous êtes blessé, sachez que c'est de moi. </l>
+            <l n="461">Je n'ai pu supporter l'extrême violence</l>
+            <l n="462">Dont votre aveugle amour usait en ma présence ;</l>
+            <l n="463">Et crois avoir agi comme un homme de coeur,</l>
+            <l n="464">D'avoir pris le parti d'une femme d'honneur.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="465" part="I">Ce brave est fanfaron.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="465" part="F">Ce brave a du courage, </l>
+            <l n="466">Et je ne pense pas qu'il change de langage,</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="467">Vous vous piquez, ce semble, Alcipe, à quel sujet ?</l>
+            <l n="468">Il ne dit rien de lui, c'est un récit qu'il fait.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="469" part="I">C'est un conte ennuyeux.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="469" part="F">Achevez de m'entendre.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="470" part="I">Je ne puis. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="470" part="F">En tout cas, je m'adresse à Léandre, </l>
+            <l n="471">Je laisse quelque temps l'inconnu dans l'erreur.</l>
+            <l n="472">Il parle en menaçant, j'écoute sans terreur :</l>
+            <l n="473">Mon silence le choque, il veut que je réponde,</l>
+            <l n="474">Il demeure à ma voix le plus surpris du monde,</l>
+            <l n="475">Six en attaquer un, le prendre en trahison ; </l>
+            <l n="476">Il faut qu'en ce moment vous m'en fassiez raison,</l>
+            <l n="477">Lui dis-je, et si la mort n'a point pour vous de charmes,</l>
+            <l n="478">Que vous vous disposiez à me rendre les armes.</l>
+            <l n="479">Vous me redoutez peu, mais en vous assaillant,</l>
+            <l n="480">Vous saurez si je suis téméraire ou vaillant. </l>
+            <l n="481">S'il vous est plus aisé de me vaincre qu'un autre ;</l>
+            <l n="482">Je prends son intérêt, soutenez bien le vôtre.</l>
+            <l n="483">Lors l'oeil bon, le pied ferme, et le bras prompt et fort ;</l>
+            <l n="484">Je lui porte, il s'écrie, ah ! Cavalier, j'ai tort,</l>
+            <l n="485">L'ombre a fait mon abus que votre voix dissipe, </l>
+            <l n="486">Je vous ai cru d'abord, et traité comme Alcipe.</l>
+            <l n="487">L'abus est pardonnable où la nuit vous a mis,</l>
+            <l n="488">Je le connais, lui dis-je, et nous sommes amis.</l>
+            <l n="489">J'en ressens, répond-il, un plaisir incroyable : </l>
+            <l n="490">Je vous ferai de tout un récit véritable. </l>
+            <l n="491">Si mon juste motif n'est pas raison pour vous,</l>
+            <l n="492">Je porte à mon côté de quoi la faire à tous.</l>
+            <l n="493">Cela dit, il commence à peu près en ces termes.</l>
+            <l n="494">Que l'on voit peu d'amis véritables et fermes !</l>
+            <l n="495">Alcipe en avait un qui le voulait trahir ; </l>
+            <l n="496">Il en aimait la femme, et c'était le haïr.</l>
+            <l n="497">Pour elle, il eut au coeur une illicite flamme.</l>
+            <l n="498">Il crut en triompher, parce qu'elle était femme.</l>
+            <l n="499">L'absence d'un mari flatta son lâche espoir,</l>
+            <l n="500">Il en venait toujours, ou toujours l'allait voir. </l>
+            <note type="L">Art d'aimer (l') : Ouevre de'Ovide.</note>
+            <l n="501">Tout ce que l'Art d'aimer, ou plutôt de séduire ;</l>
+            <l n="502">Peut en un tel dessein suggérer et prescrire :</l>
+            <l n="503">Tout ce qu'un lâche amant saurait s'imaginer</l>
+            <l n="504">Pour plaire, pour surprendre, enfin pour suborner,</l>
+            <l n="505">Alcipe le pratique, Alcipe l'exécute. </l>
+            <l n="506">Sans relâche il poursuit, sans cesse il persécute ;</l>
+            <l n="507">Aujourd'hui les soupirs parlent pour son amour ;</l>
+            <l n="508">Ce sont demain les dons, la plainte un autre jour ;</l>
+            <l n="509">Mais la beauté qu'il aime, en épouse fidèle</l>
+            <l n="510">S'oppose, et répond mal aux pensées qu'il a d'elle. </l>
+            <l n="511">Et comme en l'élément où vont les matelots,</l>
+            <l n="512">Une roche résiste à la fureur des flots ;</l>
+            <l n="513">Elle repousse Alcipe, et sa vertu s'explique ;</l>
+            <l n="514">Plus ce brutal courage, ou s'échauffe, ou se pique.</l>
+            <l n="515">Cette rare vertu qu'il devrait respecter, </l>
+            <l n="516">Loin de guérir son mal, ne fait que l'irriter.</l>
+            <l n="517">Privé de tout espoir d'obtenir ce qu'il pense,</l>
+            <l n="518">Il le veut emporter avecque violence.</l>
+            <l n="519">Il choisit le temps propre à ce honteux dessein,</l>
+            <l n="520">Il tient à cette dame un poignard sur le sein : </l>
+            <l n="521">Et la nuit secondant sa criminelle envie,</l>
+            <l n="522">Il tâche à lui ravir, ou l'honneur, ou la vie.</l>
+            <l n="523">Lors vers lui par le Ciel heureusement conduit,</l>
+            <l n="524">Je vois cette action plus noire que la nuit :</l>
+            <l n="525">Dedans le même instant ma main paraît armée, </l>
+            <l n="526">Et sert plus promptement qu'elle n'est réclamée.</l>
+            <l n="527">Le nom de cavalier, mon courage, mon rang,</l>
+            <l n="528">Pour satisfaction me demandent du sang.</l>
+            <l n="529">Je donne à ce brutal une soudaine alarme ;</l>
+            <l n="530">J'attaque, je poursuis, je blesse, je désarme : </l>
+            <l n="531">Il fuit pour éviter de plus funestes coups,</l>
+            <l n="532">Et se croit bien vengé de crier aux filous.</l>
+            <l n="533">Voila sans déguiser le récit véritable</l>
+            <l n="534">Du glorieux motif d'un courroux équitable ;</l>
+            <l n="535">Voila pourquoi ce coeur jamais noble à demi, </l>
+            <l n="536">A généreusement entrepris votre ami.</l>
+            <l n="537">Si vous n'approuvez pas cet acte magnanime,</l>
+            <l n="538">Vous me voyez tout prêt à soutenir mon crime.</l>
+            <l n="539">Je ne m'en repends point, de si nobles forfaits</l>
+            <l n="540">N'apportent point de honte à ceux qui les ont faits. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="541">Vous avez bonne grâce à retirer un conte. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="542">Qui fait qu'un peu de sang au visage vous monte ;</l>
+            <l n="543">Mais sans plus vous aigrir, puis que ce nom vous plaît,</l>
+            <l n="544">Je m'en vais achever le conte comme il est.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="545">Soit conte, soit histoire, Alcipe faites trêve ; </l>
+            <l n="546">Et pour l'amour de moi permettez qu'il achève.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="547">Étonné des propos que tient le cavalier,</l>
+            <l n="548">Si je fais des efforts, c'est à le supplier ;</l>
+            <l n="549">Obligé par raison d'étouffer ma colère :</l>
+            <l n="550">Du parler arrogant, je passe à la prière, </l>
+            <l n="551">Cavalier j'ignorais ce que je viens d'ouïr ;</l>
+            <l n="552">Mais le flambeau d'amour nous peut tous éblouir.</l>
+            <l n="553">Qu'est-ce qu'un bel objet me peut tenter, lui dis-je,</l>
+            <l n="554">Et n'aimer pas l'aimable, est-ce pas un prodige ?</l>
+            <l n="555">Sans lâcheté l'on cède à de divins appas ; </l>
+            <l n="556">Si l'on manquait de coeur, on n'y céderait pas.</l>
+            <l n="557">Alcipe à dire vrai, me semble peu coupable ; </l>
+            <l n="558">Et puisqu'elle est d'amour, sa faute est excusable.</l>
+            <l n="559">Devenez bons amis, chérissez-vous tous deux.</l>
+            <l n="560">Et faites un accord sincère, et généreux. </l>
+            <l n="561">Ma haine, répond-il, est toute dissipée ;</l>
+            <l n="562">Pour vous en assurer, je vous rends son épée.</l>
+            <l n="563">Si son courage imite et seconde le mien,</l>
+            <l n="564">L'ami qu'il trahissait n'en saura jamais rien.</l>
+            <l n="565">Là ses adieux se font, les miens se font de même, </l>
+            <l n="566">Résolu de l'aimer, et d'aimer ce qu'il aime.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="567">Alcippe à votre ami, faire un pareil affront !</l>
+            <l n="568">Ce discours me regarde autant qu'il me confond.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="569">Me soupçonneriez-vous d'une telle insolence ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="570">Oui, si j'étais d'humeur à croire l'apparence. </l>
+            <l n="571">Quel autre en peut avoir de plus justes soupçons ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="572">Des soupçons qu'a fait naître un conteur de chansons.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="573">Ce nom lui convient mal, on le tient honnête homme ; </l>
+            <l n="574">Je le connais fort bien et sais comme il se nomme.</l>
+            <l n="575">Que si le moindre mot vous choque en mon récit, </l>
+            <l n="576">Il vous le soutiendra, je vous l'ai déjà dit.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="577">Je vous l'ai dit aussi, quoi qu'on se persuade,</l>
+            <note type="L">Rodomontade : Vanterie, ou menace vaine et sans fondement. [F]</note>
+            <l n="578">Qu'il sait la raillerie et la rodomontade.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="579">Nous voyons toutefois, et vous le confessez,</l>
+            <l n="580">Que l'on vous compte au rang de ceux qu'il a blessez. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="581" part="I">Ah ! Ce reproche...</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="581" part="F">Alcipe où va votre colère ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="582" part="I">Ailleurs...</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="582" part="F">Le même bras toujours prêt à bien faire.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="583">De grâce, Filemon, terminez ce propos. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="584">Cavalier autre part nous en dirons deux mots.</l>
+            <l n="585" part="I">Adieu.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="585" part="F">Je saurai bien adoucir ce courage. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="586" part="I">C'est assez.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="586" part="F">Je le suis, montrez-vous le plus sage.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Alcipe, Sylvain.</head>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="587">Il vous a ballotté d'une étrange façon,</l>
+            <l n="588">Dessus le bout du doigt il savait sa leçon :</l>
+            <l n="589">Après ce traitement prétendez vous encore</l>
+            <l n="590">D'entretenir longtemps le feu qui vous dévore ? </l>
+            <l n="591">Voulez vous abusé d'un espoir décevant,</l>
+            <l n="592">Dessus la mer d'amour cingler à contre-vent ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="593">Oui, je veux persister malgré tous les obstacles,</l>
+            <l n="594">En faveur des amants le temps fait des miracles :</l>
+            <l n="595">J'aurai par l'artifice, y dusse-je périr, </l>
+            <l n="596">Ce qu'en vain mes soupirs ont tâché d'acquérir.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Astrée, Orphise, Hyppolite.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="597">Cousine à quel propos vous donner cette peine ? </l>
+            <l n="598">Ne me le celez point, autre chose vous mène,</l>
+            <l n="599">Apprenant votre mal, j'ai du vous visiter ;</l>
+            <l n="600">Et rien ne vous oblige à vous en acquitter. </l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="601">Sans paraître incivile, et manquer de conduite ;</l>
+            <l n="602">Je ne pouvais d'un jour différer ma visite.</l>
+            <l n="603">Mon devoir m'obligeait de répondre à vos soins,</l>
+            <l n="604">Et pour n'y pas manquer pouvais-je faire moins ?</l>
+            <l n="605">Mais de grâce cousine, ôtez moi d'une peine, </l>
+            <l n="606">Quelle autre chose encor croyez vous qui m'amène ?</l>
+            <note type="L">Penser : nom masculin au XVIIème pour « pensée ».</note>
+            <l n="607">Quelque secret penser que vous puissiez avoir, </l>
+            <l n="608">N'en imaginez rien que l'honneur de vous voir.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="609">Hyppolite au matin vous a dit à l'Église,</l>
+            <l n="610">Qu'un jeune Cavalier, vous rougissez Orphise ! </l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="611">Qu'un jeune Cavalier, et bien qu'en pensez-vous ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="612">Arrivé d'hier au soir était logé chez nous.</l>
+            <l n="613">Si le vrai s'accommode avec ma conjecture,</l>
+            <l n="614">Elle vous en a fait l'agréable peinture ;</l>
+            <l n="615">Et le désir secret de voir l'original, </l>
+            <l n="616">Vous a fait, je m'assure, oublier votre mal.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="617">Cousine, votre esprit se forme une pensée,</l>
+            <l n="618">Dont toute autre que moi se tiendrait offensée ;</l>
+            <l n="619">Ce Cavalier a-t-il tant, et de tels appas,</l>
+            <l n="620">Que pour les admirer on doive faire un pas ? </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="621">Cousine avecque moi, soyez plus ingénue,</l>
+            <l n="622">Ne l'avez vous pas vu quand vous estes venue ?</l>
+            <l n="623">C'était lui qui lisait, et dont le compliment, </l>
+            <l n="624">Vous a semblé d'abord si doux et si charmant.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="625">Vous en dites beaucoup, je ne m'y connais guère, </l>
+            <l n="626">Ou tout ce qu'il m'a dit est d'un style ordinaire.</l>
+            <l n="627">Que voit-on dans son port qu'on ne remarque ailleurs ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="628">Votre oreille et vos yeux ne sont pas des meilleurs.</l>
+            <l n="629">Il n'ignore pas un des termes à la mode,</l>
+            <l n="630">A tout ce que l'on veut son esprit s'accommode. </l>
+            <note type="L">Cageol : mot tiré du verbe cageoler ou cajoler, i.e. selon Furetière, dire des douceurs des paroles honnêtes et obligeantes. Seul emploi identifié.</note>
+            <l n="631">Qu'on le mette au cageol, ou sur le sérieux,</l>
+            <l n="632">Il s'en rencontre peu qui s'en démêlent mieux.</l>
+            <l n="633">Vous parlez de son port ; que voit-on qui n'agrée ?</l>
+            <l n="634">Cousine avouez-le, vous faites la sucrée ;</l>
+            <l n="635">Ou si vos sentiments se produisent sans fard, </l>
+            <l n="636">Vous n'aimâtes jamais et n'en savez pas l'Art.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="637">Si ce discours Cousine explique bien les vôtres,</l>
+            <l n="638">Je vous y crois savante autant et plus que d'autres :</l>
+            <l n="639">Cet hôte si bien fait au rapport de vos yeux,</l>
+            <l n="640">S'il garde le secret, ne saurait être mieux. </l>
+            <l n="641">Cousine vous l'aimez, afin que je m'exprime ;</l>
+            <l n="642">Si l'amour n'accompagne, il suit de près l'estime.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="643">C'est aller trop avant, cousine je m'en plains, </l>
+            <l n="644">Je règle mieux mes yeux, mon coeur et mes desseins.</l>
+            <l n="645">Quoi qu'en ce Cavalier l'on trouve d'agréable : </l>
+            <l n="646">Léandre est l'homme seul qui me paraît aimable.</l>
+            <l n="647">J'expirerai devant que lui manquer de foi ;</l>
+            <l n="648">Mais d'où naît le soupçon que vous avez de moi ?</l>
+            <l n="649" part="I">Répondez ma cousine.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="649" part="F">Il naît de l'apparence ;</l>
+            <l n="650">Vous louez l'étranger avec trop d'éloquence.</l>
+            <l n="651">Celles que l'Hymenée attache à des maris,</l>
+            <l n="652">Ne parlent en ce sens que de leurs favoris.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="653">Que votre intention explique mal la mienne !</l>
+            <l n="654">Ma vertu se soutient, sans que l'on la soutienne,</l>
+            <l n="655">Au prix de mon mari l'étranger ne m'est rien, </l>
+            <l n="656">C'est pour l'amour de vous que j'en ai dit du bien ;</l>
+            <l n="657">C'est à votre sujet que j'ai voulu moi-même</l>
+            <l n="658">Vous parler hautement de son mérite extrême :</l>
+            <l n="659">Ses parents dans Lyon peuvent tout aujourd'hui,</l>
+            <l n="660">Et je voulais de loin vous incliner pour lui. </l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="661">Ah ! Ma chère cousine excusez moi de grâce ; </l>
+            <l n="662">Je brûle, et j'essayais de paraître de glace,</l>
+            <l n="663">J'ai vu ce cavalier, son visage m'a plu.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="664" part="I">En un mot vous l'aimez ?</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="664" part="F">Non pas, mais je l'ai vu.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="665">Avant que de céder, vous ne résistez guère : </l>
+            <l n="666">Quoi ce jeune étranger a pu si tôt vous plaire ?</l>
+            <l n="667">Ce Cavalier a-t-il des charmes si puissants,</l>
+            <l n="668">Qu'ils triomphent d'abord de l'esprit et des sens ?</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="669">Honteuse d'avouer le faible de mon âme,</l>
+            <l n="670">Je montrais des glaçons et cachais de la flamme ; </l>
+            <l n="671">Mais hélas les brasiers que j'avais au dedans</l>
+            <l n="672">Pour être plus secrets, n'étaient pas moins ardents.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="673">À ce mal si pressant il faut trouver remède.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="674">Puis-je sans vanité me promettre de l'aide ? </l>
+            <l n="675">Ce noble Cavalier si chéri dans Lyon, </l>
+            <l n="676">N'y passait pas le temps sans inclination :</l>
+            <l n="677">Et ma présomption semblerait bien étrange</l>
+            <l n="678">De croire qu'il voulut pour moi courir au change.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="679">Ne désespérez rien, ménageons vos amours ;</l>
+            <l n="680">Encor qu'on soit aimé, l'on aime pas toujours. </l>
+            <l n="681">Le Lyonnais possible et sans fers et sans flamme,</l>
+            <l n="682">Est venu dans Paris afin d'y prendre femme ;</l>
+            <l n="683">Son valet à propos dresse ses pas ici,</l>
+            <l n="684">Il rendra sur ce point notre doute éclairci.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Valentin, Aastrée, Orphise, Hyppolite.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="685" part="I">Écoute un mot. </l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="685" part="F">Le temps ne me le peut permettre, </l>
+            <l n="686">Je vais voir au courrier s'il n'a point quelque lettre.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="687" part="I">De Lyon ?</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="687" part="M">De Lyon.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="687" part="M">Pour ton maître ?</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="687" part="F">Pour lui.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="688" part="I">De la part ?</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="688" part="F">D'un objet qui l'enflamme aujourd'hui.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="689" part="I">Ah ! Je meurs à ces mots.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="689" part="F">Qu'ont-ils de si funeste ?</l>
+            <l n="690">Venez l'entretenir, je conduirai le reste. </l>
+            <stage>Astrée parle à Hyppolyte bas à l'oreille.</stage>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="691">Les lettres sont dis-tu de la part d'un objet</l>
+            <l n="692">Dont ton maître amoureux est esclave et sujet,</l>
+            <l n="693">De qui depuis longtemps il supporte les chaînes ;</l>
+            <l n="694">Et seul aujourd'hui fait ses liens et ses peines.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="695">Il est ainsi, Madame, et permissent les cieux </l>
+            <l n="696">Qu'il portât autre part sa pensée et ses yeux !</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE, bas à Hyppolyte.</speaker>
+            <l n="697">Va vite, et fais si bien que tu me les apporte. </l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="698">Qui t'oblige à former des souhaits de la sorte ?</l>
+            <l n="699">Celle de qui ton maître est si fort enflammé,</l>
+            <l n="700">A-t-elle rien qui soit indigne d'être aimé ? </l>
+            <l n="701">N'est-elle pas bien noble, et bien riche, et bien belle ?</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="702">Toutes ces qualités se rencontrent en elle ;</l>
+            <l n="703" part="I">Mais.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="703" part="M">Explique ce mais.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="703" part="F">Ce point m'est défendu,</l>
+            <l n="704">Mon maître le saurait, et je serais perdu.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="705">Nous ignorons de tout ; et nos bouches sont closes ; </l>
+            <l n="706">Après qu'on nous a dit en secret quelques choses.</l>
+            <l n="707" part="I">Parle.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="707" part="F">Mon maître vient, Ciel quel est mon souci,</l>
+            <l n="708">Que ne dira-t-il pas de me trouver ici !</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Filemon, Astrée, Orphise, Valentin.</head>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <note type="L">Maraud : Terme injurieux qui se dit des gueux, des coquins qui n'ont ni bien ni honneur, qui sont capables de faire toutes sortes de lâchetés. [F]</note>
+            <note type="L">Coquin : terme injurieux qu'on dit à toutes sortes de petites gens qui mènent une vie libertine, friponne, fainéante qui n'ont aucun sentiment d'honnêteté.</note>
+            <l n="709">Quoi maraud, quoi coquin, quoi perfide, quoi traître ? </l>
+            <l n="710">C'est ainsi que tu suis les ordres de ton maître ; </l>
+            <l n="711">Mes Dames pardonnez, si mon juste courroux</l>
+            <l n="712">Envers ce misérable éclate devant vous :</l>
+            <l n="713">J'attends par le courrier des lettres d'importance,</l>
+            <l n="714">Pour qui j'ai des désirs et de l'impatience ;</l>
+            <l n="715">Va vite malheureux, mille coups aujourd'hui... </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="716">Nous sommes elle et moi, plus coupables que lui :</l>
+            <l n="717">Nous l'avons retenu, soyez lui moins sévère.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="718">Mes Dames à ce mot, je suis hors de colère,</l>
+            <l n="719">Rends grâce à ces beautés de qui je suis les lois, </l>
+            <l n="720">Et sois à me servir plus prompt une autre fois.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="721">Nous ne demandons pas si c'est quelque maîtresse</l>
+            <l n="722">Que votre éloignement retient dans la tristesse ;</l>
+            <l n="723">Et qui pour soulager son tourment amoureux</l>
+            <l n="724">Vous doit dans ses écrits exagérer ses feux.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="725">Je veux bien l'avouer, les lettres que j'espère </l>
+            <l n="726">Sont de douces faveurs d'une main qui m'est chère ;</l>
+            <l n="727">D'un objet plus aimable encor qu'il n'est aimé :</l>
+            <l n="728">Mais pour qui vainement mon coeur est enflammé.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="729">Pourrions nous cavalier savoir cette aventure ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="730">Elle est certainement bien étrange et bien dure. </l>
+            <l n="731">Oui vous saurez l'état de mes tristes amours</l>
+            <l n="732">Que la suite du temps vous apprendrait toujours.</l>
+            <l n="733">J'aimai dedans Lyon, et fus aimé de même,</l>
+            <l n="734">D'une Dame charmante et de mérite extrême,</l>
+            <l n="735">Jeune, de noble sang, et même dont les biens </l>
+            <l n="736">S'ils ne les surpassaient, ne cédaient pas aux miens ;</l>
+            <l n="737">Elle souffrait pour moi, si je brûlais pour elle ; </l>
+            <l n="738">Nous avions en un mot une amour mutuelle.</l>
+            <l n="739">Mais une vielle haine entre nos deux maisons,</l>
+            <l n="740">S'oppose au doux hymen que nous nous proposons. </l>
+            <l n="741">Nous tâchons vainement de réunir nos pères ;</l>
+            <l n="742">Plus nous les en prions, plus ils nous sont contraires,</l>
+            <l n="743">Ainsi n'espérant rien que du sort et des cieux,</l>
+            <l n="744">Je quitte pour six mois le charme de mes yeux.</l>
+            <l n="745">Rome, Naples, Venise, et Padoue, et Florence ; </l>
+            <l n="746">Furent pendant ce temps, témoins de ma souffrance.</l>
+            <l n="747">L'été quand je partis commençait ses chaleurs,</l>
+            <l n="748">L'hiver quand je revins, exerçait ses rigueurs :</l>
+            <l n="749">Florinde à mon abord ne fut pas oubliée ;</l>
+            <l n="750">L'on m'assura d'abord qu'elle était mariée, </l>
+            <l n="751">( Florinde, c'est le nom de l'objet souverain,</l>
+            <l n="752">À qui j'ai tant rendu de services en vain)</l>
+            <l n="753">Si j'en sentis au coeur, une mortelle atteinte,</l>
+            <l n="754">Si mon ressentiment s'exprima par la plainte ;</l>
+            <l n="755">Et si mes vains regrets furent sitôt passez, </l>
+            <l n="756">Je ne vous le dis pas, vous le jugez assez.</l>
+            <l n="757">Je revois cependant cette aimable personne,</l>
+            <l n="758">Toujours dans les respects que le devoir ordonne.</l>
+            <l n="759">Son mari trop enclin aux jalouses erreurs,</l>
+            <l n="760">En conçoit contre nous de secrètes fureurs. </l>
+            <l n="761">Toutes nos actions, lui donnent de l'ombrage, </l>
+            <l n="762">Il croit que nous parlons de tout notre visage.</l>
+            <l n="763">Que nos yeux concertés s'entretiennent d'amour,</l>
+            <l n="764">Qu'ils se marquent le lieu, qu'ils se donnent le jour.</l>
+            <l n="765">Cela n'arrête pas le cours de mes visites, </l>
+            <l n="766">Je révère toujours Florinde, et ses mérites ;</l>
+            <l n="767">Enfin qu'arriva-t-il ? Nous étions elle et moi</l>
+            <l n="768">À nous entretenir de je ne sais plus quoi ;</l>
+            <l n="769">Quand son petit laquais contre son ordinaire,</l>
+            <l n="770">Ferma sur nous la porte, et crut beaucoup nous plaire. </l>
+            <l n="771">La clef tombe en fermant : il ne l'avise pas,</l>
+            <l n="772">Nous demeurons en haut, et lui descend en bas.</l>
+            <l n="773">Par un nouveau malheur, notre jaloux arrive,</l>
+            <l n="774">Florinde est à sa voix aussi morte que vive :</l>
+            <l n="775">Il hurle, l'on ne peut ouvrir par le dedans. </l>
+            <l n="776">Il redouble, et tout bas murmure entre ses dents.</l>
+            <l n="777">Enfin cet ombrageux à tel excès s'emporte,</l>
+            <l n="778">Que d'un grand coup de pied il enfonce la porte.</l>
+            <l n="779">Il entre, et sans parler, cet homme furieux</l>
+            <l n="780">Vient donner à Florinde un soufflet à mes yeux. </l>
+            <l n="781">Il relevait la main pour en donner un autre,</l>
+            <l n="782">Quand je lui dis : Monsieur, quel caprice est le vôtre ?</l>
+            <l n="783">Faut-il que vous suiviez ces ombrages légers ?</l>
+            <l n="784">Faites mieux, n'ayez plus ces indignes pensers.</l>
+            <l n="785">Et n'en venez jamais à telles violences, </l>
+            <l n="786">Pour des soupçons fondés dessus des apparences.</l>
+            <l n="787">L'apparence est trop claire, et mon bras irrité </l>
+            <l n="788">En venge le soupçon comme une vérité.</l>
+            <l n="789">Il me porte à ces mots un ou deux coups d'épée ;</l>
+            <l n="790">La mienne en ma défense est soudain occupée. </l>
+            <l n="791">Je passe, et plus adroit, ou plus aimé du sort,</l>
+            <l n="792">Je le mets sur la place, et le laisse pour mort.</l>
+            <l n="793">Sa chute fait du bruit, j'entends quelqu'un qui monte,</l>
+            <l n="794">Si l'accident est prompt, ma retraite est plus prompte.</l>
+            <l n="795">Le coup se fit le soir, je partis le matin. </l>
+            <l n="796">Voila de mes amours l'histoire et le destin ;</l>
+            <l n="797">Les lettres que j'attends sont de l'infortunée,</l>
+            <l n="798">Qui seule à tant de maux se voit abandonnée.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="799">Que peut-elle espérer de votre affection ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="800">Je m'en retournerai s'il le faut à Lyon ; </l>
+            <l n="801">Et si pour cette mort la justice l'arrête,</l>
+            <l n="802">Jusques sur l'échafaud j'irai porter ma tête.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="803" part="I">Mais avez-vous tué ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="803" part="F">Je n'en suis pas certain, </l>
+            <l n="804">Mon courage en ce cas désavouerait ma main.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="805">Et cette veuve un jour deviendrait votre femme ? </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="806">Elle craint autrement les soupçons et le blâme,</l>
+            <l n="807">Elle aimait son époux ; et ferait son effort</l>
+            <l n="808">D'immoler le vivant sur la tombe du mort.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="809">N'espérant donc plus rien que vengeance et que larmes,</l>
+            <l n="810">Que ne devenez-vous sensible à d'autres charmes ? </l>
+            <l n="811">Que ne faites-vous choix de quelque digne objet,</l>
+            <l n="812">Dont vous soyez ensemble et monarque et sujet ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="813">Je n'ai pas tant tardé de perdre ma franchise ;</l>
+            <l n="814">Presque dès mon abord elle vous fut surprise :</l>
+            <l n="815">Depuis le peu de temps que je suis dans Paris, </l>
+            <l n="816">On m'a volé mon coeur : deux beaux yeux me l'ont pris.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="817">Ne connaîtrons-nous point ces voleurs admirables, </l>
+            <l n="818">Qu'on aime d'autant plus qu'on les trouve coupables ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="819">M'en plaindre et les nommer, il ne m'est pas permis ;</l>
+            <l n="820">Ils touchent de trop près à l'un de mes amis. </l>
+            <l n="821">Que ce mot soit assez, le temps et mes affaires</l>
+            <l n="822">M'empêchent de parler en paroles plus claires ;</l>
+            <l n="823">Vous connaîtrez un jour ces yeux remplis d'appas,</l>
+            <l n="824">Si je vois que mes feux ne leur déplaisent pas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Valnetin, Filemon, Astrée, Orphise.</head>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="825">Et bien m'apportes-tu les lettres désirées ? </l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="826" part="I">Ah ! Monsieur.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="826" part="M">Qu'est-ce donc ?</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="826" part="F">On les a retirées,</l>
+            <l n="827">Quelqu'un de votre part les est allé quérir.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="828">Ce coup est suffisant de me faire mourir.</l>
+            <l n="829">Voila, méchant coquin ! l'effet de ta paresse.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="830" part="I">Vous nous avez promis. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="830" part="F">Je tiendrai ma promesse, </l>
+            <l n="831">Permettez cependant que changeant de propos,</l>
+            <l n="832">J'aille sur ce sujet écrire un ou deux mots.</l>
+            <l n="833">Je veux donner avis de cette procédure,</l>
+            <l n="834">Afin qu'une autre fois l'on change d'écriture,</l>
+            <l n="835">D'adresse, de cachet, de qualités, de nom, </l>
+            <l n="836">Et que ce soit Alcandre, au lieu de Filemon.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE V. Astrée, Orphise.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="837">Vous êtes, ma cousine, à présent soulagée ; </l>
+            <l n="838">Son âme dans Lyon ne s'est point engagée ;</l>
+            <l n="839">J'espère que l'hymen, vous fera son lien.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="840">Je le souhaite hélas ! Et n'en espère rien. </l>
+            <l n="841">Ne vous souvient-il pas des choses qu'il a dites ?</l>
+            <l n="842">Qu'il adore un objet sans égal en mérites ;</l>
+            <l n="843">Qu'il n'était presque pas arrivé dans Paris,</l>
+            <l n="844">Qu'il aperçut des yeux dont son coeur fut épris.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="845">Ce n'est que d'hier au soir qu'il est en cette ville ; </l>
+            <l n="846">Ainsi de son discours le sens est bien facile.</l>
+            <l n="847">Il n'a pu voir encor personne que nous deux.</l>
+            <l n="848">Conjecturez de-là, que vous causez ses feux.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="849" part="I">Il vous a vue aussi. </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="849" part="F">Mais l'hymen qui me lie,</l>
+            <l n="850">Dit trop qu'il n'en peut rien espérer sans folie. </l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="851">Il aima bien Florinde, et même noeud pourtant.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="852">Vous me vaincrez enfin, si vous en dites tant.</l>
+            <l n="853">A juger toutefois selon les apparences,</l>
+            <l n="854">Vous seule assurément fondez ses espérances.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="855">Cousine, que ce mot me soit encor permis, </l>
+            <l n="856">Vous touchez de plus prés à l'un de ses amis.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="857">Vous me mettez, Orphise, en une peine extrême,</l>
+            <l n="858">Je doute si c'est vous ou si c'est moi qu'il aime.</l>
+            <l n="859">L'apparence est égale, et de tous les côtés,</l>
+            <l n="860">J'y vois de mêmes nuits et de mêmes clartés. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Hyppolite, Astrée, Orphise.</head>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="861">J'ai le paquet, Madame, et si j'ai fait promettre </l>
+            <l n="862">Qu'on me reconnaîtra s'il vient quelqu'autre lettre.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="863">Voyons en le secret, et si le cavalier</l>
+            <l n="864">N'a rien au fond du coeur de plus particulier.</l>
+            <stage>Lettre de Florinde à Filemon.</stage>
+            <p n="1">
+              <s n="1">MONSIEUR.</s>
+            </p>
+            <p n="2">
+              <s n="1">Le Ciel a voulu pour ma joie et pour votre repos, que mon mari ait presque été aussitôt guéri que blessé ; si une démarche qu'il fit, ne le garantit pas tout à fait du coup que vous lui portâtes, il le rendit léger. Le pied lui manqua, non la force, ni la résolution. </s>
+              <s n="2">Il se porte aussi bien qu'auparavant ; mais j'en suis plus maltraitée que jamais : ses soupçons le travaillent sans trêve, et lui me persécute sans relâche. S'il continue, je vous le manderai ; mais partez aussitôt, et si vous êtes généreux, venez délivrer de peine l'innocente autant qu'affligée</s>
+            </p>
+            <p n="3">
+              <s n="1">FLORINDE.</s>
+            </p>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE, après avoir lu.</speaker>
+            <l n="865">Nous mettrons tant la ruse, et l'intrigue en usage, </l>
+            <l n="866">Que nous l'empêcherons de faire ce voyage.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="867">Détournez ce papier, Léandre vient à nous.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Léandre, Astrée, Orphise, Hyppolite.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="868">Que craignez vous de moi, quel écrit cachez vous ? </l>
+            <l n="869">À voir votre maintien vous paraissez surprise.</l>
+            <l n="870" part="I">Qu'est-ce ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="870" part="F">Ce sont des vers qu'on a fait pour Clorise. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="871" part="I">D'amour ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="871" part="M">Peut être bien.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="871" part="F">Vous voulez tout savoir ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="872">Ne vous en fâchez point, je ne les veux pas voir ; </l>
+            <l n="873">Mais je désirerais d'entendre de vous même,</l>
+            <l n="874">Si notre nouvel hôte est indigne qu'on l'aime.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="875">Il n'est pas haïssable, il le faut avouer, </l>
+            <l n="876">Mais qu'a-t-il tant aussi que l'on doive louer ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="877">Vous vous connaissez mal au mérite des hommes ;</l>
+            <l n="878">Il est un doux aimant du sexe que nous sommes.</l>
+            <l n="879">Vous ne vîtes jamais de Cavalier mieux fait ;</l>
+            <l n="880">Il n'est point d'agrément, ni de vertu qu'il n'ait. </l>
+            <l n="881">S'il parle, on est ravi dés qu'il ouvre la bouche.</l>
+            <l n="882">Il charme sur le luth lors que sa main le touche,</l>
+            <l n="883">Aux armes il est craint, il ravit dans le bal ;</l>
+            <l n="884">Et le Dieu des combats n'est pas mieux à cheval.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="885">Quelle naïveté se compare à la vôtre ? </l>
+            <l n="886">Ce discours serait mieux en la bouche d'une autre.</l>
+            <l n="887">Madame, une autre fois parlez d'autre façon,</l>
+            <l n="888">Un mari plus crédule en aurait du soupçon.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="889">Mais vous n'êtes pas homme à prendre de l'ombrage. </l>
+            <l n="890">Je vous dirai de plus, que je crains qu'on l'outrage, </l>
+            <l n="891">Il a des ennemis qui conspirent sa mort,</l>
+            <l n="892">On ne les connaît pas, il est perdu s'il sort.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="893">Comment le savez-vous, pourquoi faut-il qu'il craigne ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="894">Des hommes inconnus, sous une fausse enseigne,</l>
+            <l n="895">Ont surpris aujourd'hui ses lettres au Courrier. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="896">Votre crainte est prudente, il s'en faut défier.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="897">Ce sont quelques amis du mari de Florinde.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="898">Je prise Filemon plus que tout l'or de l'Inde. </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="899">Faites donc qu'on le cèle, et qu'il ne sorte pas.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="900">Je vais touchant ce point le trouver de ce pas. </l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Astrée, Orphise, Hyppolite.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="901">Connaissez vous le but de ce prompt stratagème ? </l>
+            <l n="902">Il irait s'il sortait, chez le Courrier lui-même ;</l>
+            <l n="903">Recevrait ses paquets, ferait réponse aussi,</l>
+            <l n="904">Et possible demain s'éloignera d'ici.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="905" part="I">J'admire votre esprit.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="905" part="F">Ce n'est pas tout encore, </l>
+            <l n="906">Le Lyonnais écrit à l'objet qu'il adore ;</l>
+            <l n="907">Il faut avoir sa lettre, et pour n'y pas manquer,</l>
+            <l n="908">Hyppolite, écoutez, ce qu'il faut pratiquer.</l>
+            <stage>Elle lui parle à l'oreille.</stage>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="909">Amour qui sait mon mal aide à notre entreprise.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="910">Mes ordres sont donnés, retirons nous Orphise. </l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCÈNE IX.</head>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="911">Que l'esprit d'une femme a de ressors divers ! </l>
+            <l n="912">Qu'il sait de faux sentiers et de chemins couverts,</l>
+            <l n="913">Qui croit nous voir dedans, ne nous voit qu'en l'écorce,</l>
+            <l n="914">Nous faisons plus par air que les hommes par force.</l>
+            <l n="915">Les plus rusés d'entre eux s'y trouvent confondus, </l>
+            <note type="L">Rets : Filet, lacis de plusieurs cordes jointes ensemble par plusieurs noeuds qui laissent de grandes et de petites mailles. [F]</note>
+            <l n="916">Et se prennent aux rets que nous avons tendus.</l>
+            <l n="917">Filemon le saura ; mais son valet s'approche,</l>
+            <l n="918">Et tire en mon avis des lettres de sa poche :</l>
+            <l n="919">Elles sont de la part du jeune Lyonnais.</l>
+            <l n="920">Il les faut attraper pour la seconde fois, </l>
+            <l n="921">Et pour y réussir, me servir de l'adresse,</l>
+            <l n="922">Dont me vient en secret d'instruire ma maîtresse.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCÈNE X. Hyppolite, Valentin.</head>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="923" part="I">Adieu belle Hyppolite ! </l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="923" part="F">Adieu beau Valentin.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="924">Ce que c'est qu'en un mois me peigner un matin ;</l>
+            <l n="925">Encor un coup, adieu, je vais porter ma lettre. </l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="926">En quel mortel danger, ne te vas tu pas mettre ?</l>
+            <l n="927">Tu n'en reviendras pas, songe à ton testament,</l>
+            <l n="928" part="I">J'en pleure de douleur.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="928" part="F">Hyppolite, comment ?</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="929">Comment pauvre garçon ? Es-tu sans conjecture, </l>
+            <l n="930">De te voir accueilli d'une triste aventure, </l>
+            <l n="931">Où t'allais-tu jeter, où t'es-tu presque mis ?</l>
+            <l n="932">Ton maître n'a-t-il pas de secrets ennemis.</l>
+            <l n="933">N'a-t-on pas aujourd'hui ses lettres diverties ?</l>
+            <l n="934">Que l'on fait contre lui de funestes parties,</l>
+            <l n="935">Je te plains s'il advient qu'une fois tu sois pris : </l>
+            <l n="936">Ils t'assassineront pour avoir ses écrits,</l>
+            <l n="937" part="I">Qu'en crois-tu Valentin ?</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="937" part="F">Hyppolite, je pense</l>
+            <l n="938">Qu'on garde des soupçons dessus moins d'apparence ;</l>
+            <l n="939">Mais ce paquet tout seul, ira-t-il au Courrier.</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="940">Reçoit de mon amour ce plaisir tout entier, </l>
+            <l n="941" part="I">Donne.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="941" part="M">Tu m'aimes donc ?</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="941" part="F">Ô la belle demande !</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="942">J'aurais tort d'en douter, l'apparence en est grande, </l>
+            <l n="943" part="I">Parlons de notre amour.</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="943" part="F">Non, disons-nous adieu,</l>
+            <l n="944">Ton maître pesterait s'il venait en ce lieu.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="945">J'y suis depuis ce mot pieds-nus sur des épines. </l>
+            <l n="946">Le retour, comme on dit, serait pis que mâtines ;</l>
+            <l n="947" part="I">Adieu donc, Hyppolite !</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="947" part="F">Adieu donc Valentin,</l>
+            <l n="948">Que sois-tu quelque jour mon réveille-matin.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Astrée, Orphise.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="949">Il faut de plus en plus que notre esprit s'exerce </l>
+            <l n="950">À prendre leurs écrits, et rompre leur commerce. </l>
+            <l n="951">L'adresse d'Hypolite a secondé vos veux,</l>
+            <l n="952">Déplions cette lettre, et lisons toutes deux.</l>
+            <stage>Lettre de Filemon à Florinde.</stage>
+            <p n="1">
+              <s n="1">MADAME.</s>
+            </p>
+            <p n="2">
+              <s n="1">Je vous donne avis que votre mari a mis ordre de surprendre nos lettres. </s>
+              <s n="2">Ce procédé me fait croire que les soupçons qu'il a pu concevoir, s'augmentent d'heure à autre ; s'il est ainsi, quoi que vous n'en soyez pas maltraitée maintenant vous le pourrez être un jour. Je le crains</s>
+            </p>
+            <p n="1">
+              <s n="1">FILEMON.</s>
+            </p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Léandre, Astrée, Orphise.</head>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE, à ASTRÉE.</speaker>
+            <l n="953" part="I">Cachez... </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="953" part="F">Encor un coup, ce procédé me fâche ;</l>
+            <l n="954">Que puis-je présumer d'un écrit qu'on me cache ?</l>
+            <l n="955">Dissimulons pourtant, et nous fermons les yeux ; </l>
+            <l n="956">L'on est souvent puni d'être trop curieux.</l>
+            <l n="957">J'ai fait ce que j'ai pu, sans le pouvoir réduire :</l>
+            <l n="958">Filemon ne croit rien capable de lui nuire.</l>
+            <l n="959">Son coeur pour le péril ne s'est point démenti ;</l>
+            <l n="960">Il sortira bientôt s'il n'est déjà sorti. </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="961">Il faut l'en empêcher quelque soit son envie,</l>
+            <l n="962">C'est à vous plus qu'à lui de conserver sa vie.</l>
+            <l n="963">Il est logé chez vous, vous l'avez amené.</l>
+            <l n="964">Du destin qu'il aurait vous seriez soupçonné.</l>
+            <l n="965">Ma prière possible aura plus d'efficace, </l>
+            <l n="966">J'en obtiendrai ce point ou de force ou de grâce ;</l>
+            <l n="967">Ma cousine venez, en ce pressant danger,</l>
+            <l n="968">Nous avons tout à craindre, et rien à négliger.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE, seul.</speaker>
+            <l n="969">À mille autres ces soins donneraient de l'ombrage ;</l>
+            <l n="970">Mais le Ciel n'est pas dur, ou bien Astrée est sage. </l>
+            <l n="971">Ses plus secrets désirs se conforment aux miens.</l>
+            <l n="972">Elle suit mon humeur, mes pensers sont les siens.</l>
+            <l n="973">J'estime Filemon, Astrée en fait de même :</l>
+            <l n="974">Et l'aime seulement à cause que je l'aime.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Sylvain, Léandre.</head>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="975">Il me faut acquitter de ma commission. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="976" part="I">Sylvain, qui cherche tu ?</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="976" part="F">Votre ami de Lyon.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="977" part="I">Pourquoi ?</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="977" part="F">Pour lui donner le billet que je porte.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="978" part="I">De la part ?</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="978" part="M">De mon maître. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="978" part="F">En user de la sorte !</l>
+            <l n="979" part="I">Donne le moi.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="979" part="M">Je crains.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="979" part="F">Donne sans résister,</l>
+            <l n="980">Il lui fait un défi ; je n'en dois pas douter. </l>
+            <note type="L">Cartel : Écrit qu'on envoie à quelqu'un pour le défier en combat singulier, soit pour des tournois, soit pour une due formé. Cet écrit contient ordinairement, le lieu, la manière, le sujet, le jour et l'heure du combat. [F]</note>
+            <l n="981">En voici le cartel, tout semble me le dire :</l>
+            <l n="982">J'en ferais un serment avant que de le lire.</l>
+            <l n="983">Alcipe, vos respects sont feints et dangereux ;</l>
+            <l n="984">Ce n'est pas là le trait d'un homme généreux.</l>
+            <l n="985">Appeler mon ami ! Je commence à connaître </l>
+            <l n="986">Que vous ne l'êtes pas, ou ne voulez plus l'être.</l>
+            <l n="987">Je lirai ce billet, non pour m'en assurer ;</l>
+            <l n="988">Mais pour en voir le style, et puis le déchirer.</l>
+            <stage>Lettre d'Alcipe à Filemon.</stage>
+            <p n="1">
+              <s n="1">MONSIEUR.</s>
+            </p>
+            <p n="2">
+              <s n="1">J'ai fait réflexion sur le sujet de nôtre différent ; j'eus tort de m'emporter, et j'avoue que vôtre récit fut plus obligeant qu'outrageux. </s>
+              <s n="2">Je vous recherche d'amitié, si vous n'êtes moins généreux que je me le persuade, vous ne refuserez pas qu'ayant aujourd'hui à visiter Léandre pour quelque chose de secret, nous nous entrevoyons, et étouffions toute nôtre haine dans nos embrassements, je vous en prie, et suis vôtre très affectionné serviteur, et si vous le voulez dès maintenant,</s>
+              <s n="3">Votre très intime ami Alcipe.</s>
+            </p>
+            <l n="989">Je demeure confus, ma surprise est étrange.</l>
+            <l n="990">Alcipe, mon regret me punit et vous venge ; </l>
+            <l n="991">Je meurs de déplaisir qu'un soupçon si tôt pris</l>
+            <l n="992">M'ait fait parler de vous avec tant de mépris.</l>
+            <l n="993">Indices décevants, clartés fausses et sombres.</l>
+            <l n="994">C'est la dernière fois que je suivrai vos ombres,</l>
+            <l n="995">C'est la dernière fois que je serai déçu, </l>
+            <l n="996">Et mon repos troublé d'un soupçon mal conçu.</l>
+            <l n="997">Va retrouver ton maître, et lui dis qu'avec joie</l>
+            <l n="998">J'ai reçu de ta main le billet qu'il envoie.</l>
+            <l n="999">J'attends ici qu'il vienne, au reste cèle lui</l>
+            <l n="1000">Ce qu'un trompeur soupçon m'a fait dire de lui. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Alcipe, Léandre, Sylvain.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE, portant le bras droit en écharpe.</speaker>
+            <l n="1001">Mon secret est pressant, et ne m'a pu permettre</l>
+            <l n="1002">D'attendre pour venir, réponse de ma lettre.</l>
+            <l n="1003">Au surplus cher ami ! Voyez moi d'un bon oeil.</l>
+            <l n="1004">J'ai salué votre hôte, et lui m'a fait accueil :</l>
+            <l n="1005">Nos petits différents sont éteints sans réserve, </l>
+            <l n="1006">Et j'entreprendrai tout s'il faut que je le serve.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1007">Les grands coeurs d'ordinaire ont de prompts mouvements ;</l>
+            <l n="1008">Mais ces nobles chaleurs ne durent pas longtemps.</l>
+            <l n="1009">Un important secret vous amenait encore ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1010">Ce secret est l'aveu d'un feu qui me dévore,</l>
+            <l n="1011">Et qui rendu plus grand depuis votre retour,</l>
+            <l n="1012">Ne saurait différer à se produire au jour ;</l>
+            <l n="1013">N'osant rien espérer de ma propre personne,</l>
+            <l n="1014">Si ce feu ne vous plaît, tout espoir m'abandonne ;</l>
+            <l n="1015">Et si votre crédit n'agit en ma faveur, </l>
+            <l n="1016">Je mourrai du beau trait qui m'a blessé le coeur.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1017">Pour vos félicités si je puis quelque chose,</l>
+            <l n="1018">Il n'est rien que je craigne, il n'est rien que je n'ose ;</l>
+            <l n="1019">Il n'est rien où mes soins ne veuillent témoigner</l>
+            <l n="1020">Qu'un ami me fait tort, qui pense m'épargner ; </l>
+            <l n="1021">Déclarez moi d'où nait votre amoureux martyre :</l>
+            <l n="1022">J'emploierai le crédit, la prière et l'empire.</l>
+            <l n="1023">Je n'entreprends jamais une chose à demi,</l>
+            <l n="1024">Et sais bien le devoir d'un véritable ami.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1025">La divine beauté dont mon âme est éprise ; </l>
+            <l n="1026">C'est et sera toujours l'incomparable Orphise ;</l>
+            <l n="1027">Mais qu'avecque raison, je crains que ses attraits</l>
+            <l n="1028">Soient peu d'intelligence avecque mes souhaits !</l>
+            <l n="1029">Cher Léandre vous seul favorable à ma plainte, </l>
+            <l n="1030">Pouvez facilement dissiper cette crainte : </l>
+            <l n="1031">Orphise vous est proche, et si vous l'y portez,</l>
+            <l n="1032">Son inclination suivra vos volontés.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1033">Oui je vous le promets, je ferai mon possible</l>
+            <note type="L">Exorable : Qui se laisse vaincre et persuader par le sraisons, les pirères ou la compassion. [F]</note>
+            <l n="1034">Pour la rendre à vos voeux exorable et sensible :</l>
+            <l n="1035">Un plus noble parti ne se peut proposer ; </l>
+            <l n="1036">J'essaierai dés tantôt de la l'y disposer.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1037">Je crois qu'il vaudrait mieux, avant que lui rien dire,</l>
+            <l n="1038">Tâcher de m'acquérir sur elle quelque empire ;</l>
+            <l n="1039">Lui faire les doux yeux, lui marquer mon tourment ;</l>
+            <l n="1040">L'incliner à l'amour sans qu'elle sut comment ; </l>
+            <l n="1041">Et par la complaisance aux amants ordinaire,</l>
+            <l n="1042">Avant que de parler, m'assurer de lui plaire.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1043">L'avis est raisonnable, et me fait présumer</l>
+            <l n="1044">Que vous composeriez un nouvel Art d'aimer.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1045">Cependant à l'objet qui mes ardeurs excite </l>
+            <l n="1046">Chez vous sous votre aveu, je puis rendre visite.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1047">Vous y pouvez venir comme en votre maison.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1048">Adieu ; cette faveur est sans comparaison,</l>
+            <l n="1049">Mon espérance croît, et ma peur se dissipe.</l>
+            <stage>Il laisse tomber un billet.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE, seul.</speaker>
+            <l n="1050">Ce papier est tombé de la poche d'Alcipe, </l>
+            <l n="1051">Serait-ce à son insu, serait ce par dessein ?</l>
+            <l n="1052">Je n'en saurais former un jugement certain.</l>
+            <l n="1053">Lirai-je cet écrit, dois-je ne le pas lire ?</l>
+            <l n="1054">Secret empressement, ne me le peux tu dire ?</l>
+            <l n="1055">Mouvement curieux ne saurais-tu juger </l>
+            <l n="1056">S'il doit me satisfaire ou s'il doit m'affliger ?</l>
+            <l n="1057">Enfin quelque en mon coeur en puisse être l'atteinte ;</l>
+            <l n="1058">La curiosité l'emporte sur la crainte.</l>
+            <stage>Billet d'Alcipe à Léandre.</stage>
+            <p n="1">
+              <s n="1">LÉANDRE.</s>
+            </p>
+            <p n="2">
+              <s n="1">Connaissez mieux vos véritables amis, des deux que vous croyez avoir, l'un vous sert et l'autre vous trahit. </s>
+              <s n="2">Je ne nomme personne ; mais je suis assuré que si vous étiez revenu seul de Lyon, votre femme vivrait avecque plus d'honneur, et vous avec moins d'infamie.</s>
+            </p>
+            <stage>Après avoir lu.</stage>
+            <l n="1059">Tu te méprends Alcippe, ou le flambeau des cieux, </l>
+            <l n="1060">N'est qu'un comète en l'air qui paraît à nos yeux : </l>
+            <l n="1061">L'air un rien complaisant, et la terre une boule</l>
+            <l n="1062">Qui se meut de tout temps, et que le destin roule :</l>
+            <l n="1063">L'océan un amas de feux et de bûchers ;</l>
+            <l n="1064">Ses poissons des oiseaux ; des hommes ses rochers ?</l>
+            <l n="1065">Tu te trompes, te dis-je, et ton avis offense </l>
+            <l n="1066">Et la sagesse même et la même innocence.</l>
+            <l n="1067">Astrée et la vertu s'accordent en ce point,</l>
+            <l n="1068">Qu'où l'une ne peut être, aussi l'autre n'est point.</l>
+            <l n="1069">Alcipe toutefois mon intérêt te touche,</l>
+            <l n="1070">Ce n'est qu'un envers moi que ton coeur et ta bouche ; </l>
+            <l n="1071">Tu me chéris sans fard, et ta sincérité</l>
+            <l n="1072">M'apprend que cet écrit n'est pas sans vérité.</l>
+            <l n="1073">Mais que malaisément, et qu'avec peine extrême</l>
+            <l n="1074">Un homme se résout à blâmer ce qu'il aime !</l>
+            <l n="1075">Que difficilement il demeure d'accord </l>
+            <l n="1076">Des choses qu'il redoute à l'égal de la mort !</l>
+            <l n="1077">Astrée, il est trop vrai que vous m'êtes parjure ;</l>
+            <l n="1078">J'en ai pour mon malheur plus d'une conjecture :</l>
+            <l n="1079">J'en rencontre à regret dedans mon souvenir</l>
+            <l n="1080">Trop d'indices puissants, que j'en voudrais bannir. </l>
+            <l n="1081">Par deux diverses fois surprise à l'impourvue,</l>
+            <l n="1082">N'avez vous pas caché des écrits à ma vue ?</l>
+            <l n="1083">N'avez vous pas loué d'un air, que j'ai repris </l>
+            <l n="1084">L'insolent qui me traite avec tant de mépris,</l>
+            <l n="1085">Le téméraire ami, l'âme perfide et noire, </l>
+            <l n="1086">Qui souille ingratement et mon lit et ma gloire ?</l>
+            <l n="1087">C'était peu, lâche femme, infidèle moitié ;</l>
+            <l n="1088">Seul et digne sujet de mon inimitié !</l>
+            <l n="1089">Tu m'as enveloppé dans tes sales pratiques,</l>
+            <l n="1090">J'ai servi d'instrument à tes feux impudiques. </l>
+            <l n="1091">J'ai moi-même à ton gré supplié ton amant</l>
+            <l n="1092">Qu'il se tint au logis, ou sortit rarement.</l>
+            <l n="1093">C'était pour le mieux voir, et selon ton envie</l>
+            <l n="1094">Être en ta sale ardeur à toute heure assouvie.</l>
+            <l n="1095">Si tu crois t'excuser, tu le prétends en vain ; </l>
+            <l n="1096">Rien ne peut m'arracher le poignard de la main.</l>
+            <l n="1097">De tes brutalités j'ai trop de connaissances,</l>
+            <l n="1098">En pourrais-je douter après tant d'apparences ?</l>
+            <l n="1099">Non non, je ne le puis, et je ne le dois pas ;</l>
+            <l n="1100">Mais venger mon affront et hâter son trépas : </l>
+            <l n="1101" part="I">Tu mourras, il le faut.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Léandre, Hyppolite.</head>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="1101" part="F">De qui parle Léandre, </l>
+            <l n="1102">Son discours est obscur, tâchons à le comprendre.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1103">Rien ne te peut parer de ce funeste coup,</l>
+            <l n="1104">Je te plains toutefois, et je me plains beaucoup ;</l>
+            <l n="1105">Mais mon honneur le veut, sois y donc préparée ; </l>
+            <l n="1106">Je tiendrai ma parole, et tu mourras Astrée !</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE, à l'écart.</speaker>
+            <l n="1107">Qu'a-t-il dit, qu'ai-je ouï, Ciel quelle est sa fureur !</l>
+            <l n="1108">Allons par nos avis empêcher ce malheur.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE, seul.</speaker>
+            <l n="1109">Ami qui mieux que moi découvre l'artifice, </l>
+            <l n="1110">Que ne te dois-je pas pour un si bon office ? </l>
+            <l n="1111">Tous deux m'assassinaient par un si lâche tour ;</l>
+            <l n="1112">Puisque le point d'honneur m'est plus cher que le jour.</l>
+            <l n="1113">Tu brûles pour Orphise, ah deviens froid pour elle !</l>
+            <l n="1114">Elle est d'intelligence avec mon infidèle ;</l>
+            <l n="1115">Tu courrais même sort, et bientôt même affront </l>
+            <l n="1116">Noircirait ta mémoire, et rougirait ton front.</l>
+            <l n="1117">De ce pressentiment le motif est bien ample,</l>
+            <l n="1118">Elle fréquente Astrée, elle en suivrait l'exemple.</l>
+            <l n="1119">Elle vient la perfide, avec une chaleur</l>
+            <l n="1120">Qui montre assez les feux qu'elle cache en son coeur. </l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCÈNE IX. Léandre, Astrée, Hyppolite.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1121">Monsieur informez moi de l'outrage ou du crime,]</l>
+            <l n="1122">Pour qui ma mort vous semble aujourd'hui légitime ?</l>
+            <l n="1123">Je viens savoir de vous le sujet du dessein</l>
+            <l n="1124">Qui vous porte à me mettre un poignard dans le sein.</l>
+            <l n="1125">De quoi vous plaignez vous, de quoi suis-je coupable ; </l>
+            <l n="1126">Quel crime ai-je commis, m'en croyez vous capable ?</l>
+            <l n="1127">Expliquez-vous, Léandre, ou mes justes douleurs</l>
+            <l n="1128">Préviendront en ce lieu, l'effet de vos fureurs.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE, bas.</speaker>
+            <l n="1129">L'innocente personne ! il est juste, Madame,</l>
+            <l n="1130">Que je vous ouvre ici jusqu'au fond de mon âme ; </l>
+            <l n="1131">Mais qu'Hyppolite sorte, un homme est peu discret,</l>
+            <l n="1132">Qui déclare à plusieurs un semblable secret.</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE, bas en s'en allant.</speaker>
+            <l n="1133">Je le comprends assez sans que l'on me le die, </l>
+            <l n="1134">Il la veut poignarder, Cieux quelle perfidie !</l>
+            <l n="1135">À quel aveuglement s'est-il abandonné ? </l>
+            <l n="1136">Mais détournons ce coup avant qu'il soit donné.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCÈNE X. Léandre, Astrée.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1137" part="I">Hyppolite est sortie. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1137" part="F">Il faut fermer la porte,</l>
+            <l n="1138">Aucun ne doit entendre un secret de la sorte.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1139">Il va trancher mes jours, l'indice en est trop grand.</l>
+            <l n="1140">J'en vois venir le coup que mon courage attend ; </l>
+            <l n="1141">Quel désespoir le meut, quelle fureur l'inspire ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1142">Ne vous doutez vous point de ce que je veux dire ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1143">Votre trouble présent d'où procède le mien, </l>
+            <l n="1144">Est un fâcheux énigme où je ne comprends rien :</l>
+            <l n="1145">Toutefois ma mémoire en ce malheur heureuse, </l>
+            <l n="1146">Mais pour le croître aussi peut-être ingénieuse,</l>
+            <l n="1147">Me propose qu'Alcipe était tantôt ici.</l>
+            <l n="1148">J'augure que lui seul cause votre souci ;</l>
+            <l n="1149">Et que ce faux ami dissimulant sa haine,</l>
+            <l n="1150">Vous a fait des discours qui vous mettent en peine. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1151">Madame apprenez moi de qui vous le tenez.</l>
+            <l n="1152">Vous en êtes instruite, ou vous le devinez :</l>
+            <l n="1153">Ce que j'ai su de lui, trouble en effet ma joie,</l>
+            <l n="1154">Et vous fera mourir, si le Ciel n'y pourvoie.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1155">Il invente, il suppose et ce méchant esprit </l>
+            <l n="1156">Ne tend qu'à vous tromper de parole ou d'écrit.</l>
+            <l n="1157">Ne vous y fiez pas, jugez mieux de son âme ;</l>
+            <l n="1158">Que l'amitié déferre à l'amour d'une femme.</l>
+            <l n="1159">La malice qu'il a, ne peut s'imaginer,</l>
+            <l n="1160">Alcipe me veut perdre, et vous veut ruiner. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1161">Ni votre opinion, ni votre médisance, </l>
+            <l n="1162">Ne saurait en ce point affaiblir ma croyance.</l>
+            <l n="1163">Alcipe est véritable, il ne suppose rien,</l>
+            <l n="1164">Mon intérêt le touche, il veille pour mon bien ;</l>
+            <l n="1165">S'il songe à mon honneur, je songe au sien de même ; </l>
+            <l n="1166">Il me sert, je le sers ; il me chérit, je l'aime.</l>
+            <l n="1167">Bref entre mes amis il n'est pas le dernier :</l>
+            <l n="1168">Mais que sert ce discours ? Vous m'allez tout nier.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1169">Oui je vais tout nier ; pour plaire à son envie,</l>
+            <l n="1170">Accorderai-je un point si fatal à ma vie ? </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1171">Vous le confessez-donc, vous en devez mourir.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1172">Oui, le Ciel même à tort me voudrait secourir :</l>
+            <l n="1173">Sans marquer mon regret par des ruisseaux de larmes,</l>
+            <l n="1174">Mes mains mes propres mains auraient recours aux armes.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1175">L'arrêt en est donné, c'est fait de votre sort ; </l>
+            <l n="1176">Mon honneur m'y contraint, attendez donc la mort.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCÈNE XI. Filemon, Orphise, Astrée, Léandre, Hyppolite.</head>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1177">Cruel, impitoyable, inhumain, sanguinaire ! </l>
+            <l n="1178">Ouvrez, ou vous verrez, ce qu'un effort peut faire.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1179" part="I">User de violence !</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1179" part="F">Ouvrez vous dis-je, ouvrez.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1180" part="I">Que je sache pourquoi ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1180" part="F">Tantôt vous le saurez. </l>
+            <stage>Léandre ouvre.</stage>
+            <stage>Étant entré.</stage>
+            <l n="1181">Quelle aveugle fureur, quelle soudaine rage</l>
+            <l n="1182">Vous conseille aujourd'hui ce criminel outrage ?</l>
+            <l n="1183">Par quelle aversion, par quelle inimitié</l>
+            <l n="1184">Votre bras s'arme-t-il contre votre moitié ?</l>
+            <l n="1185">Et pour dire en un mot, quelle brutale envie, </l>
+            <l n="1186">Vous fait, mari barbare, attenter sur sa vie ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1187">Moi vouloir accourcir la trame de ses jours ?</l>
+            <l n="1188">D'elle, sans qui des miens j'arrêterais le cours ?</l>
+            <l n="1189">D'où vous naît ce soupçon, d'où vous vient cette crainte ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1190">C'est inutilement recourir à la feinte, </l>
+            <l n="1191">C'est nous cacher en vain ce que nous connaissons ;</l>
+            <l n="1192">Un indice trop fort établit nos soupçons,</l>
+            <l n="1193">Hyppolite parlez, et dites à sa honte</l>
+            <l n="1194">Les propos qu'a tenu sa colère trop prompte.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1195">Qu'est-ce donc que j'ai dit, qu'as-tu donc entendu ? </l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="1196">Ces mots dont mon esprit est resté confondu ;</l>
+            <l n="1197">Mais mon honneur le veut, sois y donc préparée ;</l>
+            <l n="1198">Je tiendrai ma parole, et tu mourras Astrée.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1199">Propos mal entendus, discours mal digérés,</l>
+            <l n="1200">Soupçons injurieux, et mal conjecturés ! </l>
+            <l n="1201">J'ai prononcé ces mots, je ne m'en puis défendre,</l>
+            <l n="1202">Mais elle, Astrée et vous les deviez mieux entendre.</l>
+            <l n="1203">Écoutez seulement, vous serez convaincus :</l>
+            <l n="1204">Alcipe m'est venu demander mille écus,</l>
+            <l n="1205">Il les doit, on le presse, il les faut sans demeure ; </l>
+            <l n="1206">Par malheur je n'ai pas cette somme pour l'heure ;</l>
+            <l n="1207">L'amitié toutefois qui m'a parlé pour lui,</l>
+            <l n="1208">M'a fait la lui promettre au plus tard aujourd'hui.</l>
+            <l n="1209">Je ne sais d'où l'avoir ; dans le temps où nous sommes</l>
+            <l n="1210">Emprunter de l'argent, c'est poignarder les hommes. </l>
+            <l n="1211">L'on ne prête plus rien, et moins que mille écus</l>
+            <l n="1212">Feraient qu'un honnête homme aurait mille refus :</l>
+            <l n="1213">Obligé néanmoins de tenir ma promesse,</l>
+            <l n="1214">Je me suis en rêvant avisé d'une adresse,</l>
+            <l n="1215">C'est de faire tantôt venir des joailliers, </l>
+            <l n="1216">Leur proposer bijoux, bagues, pendants, colliers,</l>
+            <l n="1217">Ce qu'Astrée en un mot peut avoir de plus rare, </l>
+            <l n="1218">Et dont selon son gré parfois elle se pare ;</l>
+            <l n="1219">Je sais comment son sexe aime ces petits biens,</l>
+            <l n="1220">Qu'ils sont tous ses plaisirs, et tous ses entretiens. </l>
+            <l n="1221">J'ai crû que pour Alcipe exécutant mon zèle,</l>
+            <l n="1222">Astrée en souffrirait une peine éternelle,</l>
+            <l n="1223">Et que la dépouiller de ces petits trésors,</l>
+            <l n="1224">Ce serait d'un seul coup lui donner mille morts.</l>
+            <l n="1225">L'âme de ce penser diversement émue, </l>
+            <l n="1226">Je me délibérais d'en éviter l'issue,</l>
+            <l n="1227">Quand l'objet d'un ami nuisible à mon repos,</l>
+            <l n="1228">M'a fait, je m'en souviens prononcer ce propos ;</l>
+            <l n="1229">Mais mon honneur le veut, sois y donc préparée,</l>
+            <l n="1230">Je tiendrai ma parole, et tu mourras Astrée ; </l>
+            <l n="1231">Voilà de vos soupçons les indices puissants ;</l>
+            <l n="1232">Mais de ce que j'ai dit, le véritable sens.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1233" part="I">Certes nous avons tort.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1233" part="F">Léandre est seul coupable,</l>
+            <l n="1234">Et si je l'ose dire, il n'est pas excusable ;</l>
+            <l n="1235">A-t-il du présumer qu'étant ce que je suis, </l>
+            <l n="1236">Un absolu refus augmentât ses ennuis ?</l>
+            <l n="1237">Recevez cette clef, allez sans plus attendre, </l>
+            <l n="1238">Prendre en mon cabinet, les choses qu'il faut vendre,</l>
+            <l n="1239">Satistaites Alcipe avant la fin du jour,</l>
+            <l n="1240">Et recevez de moi cette preuve d'amour. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1241">Ô femme généreuse ! Ô femme complaisante,</l>
+            <l n="1242">Que ce consentement me plaît et me contente,</l>
+            <l n="1243">Que ce trait de bonté remplit bien mes souhaits :</l>
+            <l n="1244">Ami, parole, honneur vous serez satisfaits.</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCÈNE XII. Filemon, Astrée, Orphise.</head>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1245">Généreux Cavalier, je ne saurais moins faire </l>
+            <l n="1246">Que de vous appeler mon Ange tutélaire ;</l>
+            <l n="1247">Encor que le péril ne fut que supposé</l>
+            <l n="1248">Pour l'éloigner de moi, vous avez tout osé.</l>
+            <l n="1249">Le pouvoir d'un mari, ses fureurs, son ombrage,</l>
+            <l n="1250">N'ont point intimidé votre illustre courage. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1251">Il n'est point de danger que je n'affronte ainsi</l>
+            <l n="1252">Pour vous servir, Madame, et vous Madame aussi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCÈNE XIII. Astrée, Orphise, Hyppolite.</head>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1253">Qu'en dirons nous cousine, et qu'en devons nous croire, </l>
+            <l n="1254">Laquelle de nous deux occupe sa mémoire ?</l>
+            <l n="1255">Vous servir lui serait un glorieux emploi ; </l>
+            <l n="1256">Il dit en même temps, même chose de moi.</l>
+            <l n="1257">Qu'en devons nous juger, laquelle est ce qu'il aime ?</l>
+            <l n="1258">Si mon amour est grand, mon soupçon est extrême,</l>
+            <l n="1259">Il me parlait de feux, mais pour vous secourir,</l>
+            <l n="1260">L'a-t-il fallu presser, a-t-il craint de mourir ? </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1261">Votre soupçon, cousine, est juste, je l'avoue,</l>
+            <l n="1262">Dans le doute où je suis, je le blâme et le loue ;</l>
+            <l n="1263">S'il m'aime, il se méprend : s'il vous aime, il fait bien ;</l>
+            <l n="1264">D'Orphise il aura tout, d'Astrée il n'aura rien.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIERE.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE, seul tenant une lettre.</speaker>
+            <l n="1265">Sacré respect d'Hymen, sentiments de tendresse, </l>
+            <l n="1266">Silence, abandonnez une épouse traîtresse,</l>
+            <l n="1267">Je crois, je sais, je vois son infidélité,</l>
+            <l n="1268">Ce n'est plus un soupçon, c'est une vérité,</l>
+            <l n="1269">Leur lâche trahison, me paraît toute nue,</l>
+            <l n="1270">Cette lettre convainc ma raison et ma vue, </l>
+            <l n="1271">Cet infidèle écrit dit tout fidèlement,</l>
+            <l n="1272">Et quoi qu'il soit muet il parle hautement,</l>
+            <l n="1273">J'y lis leur lâchetés, j'y vois leur artifice,</l>
+            <l n="1274">Chaque trait de leur plume, en est un de malice,</l>
+            <l n="1275">Le Ciel à qui nos coeurs ne sauraient rien cacher, </l>
+            <l n="1276">Me fournit ce témoin qu'on ne peut reprocher.</l>
+            <stage>Il lit.</stage>
+            <stage>Lettre de Filemon à Florinde. </stage>
+            <p n="1">
+              <s n="1">MADAME.</s>
+            </p>
+            <p n="2">
+              <s n="1">Je vous donne avis que votre mari a mis ordre de surprendre nos lettres. </s>
+              <s n="2">Ce procédé me fait croire que les soupçons qu'il a pu concevoir, s'augmentent d'heure à autre ; s'il est ainsi quoi que vous n'en soyez pas maltraitée maintenant vous le pourrez être un jour. </s>
+              <s n="3">Je le crains, mais si ma crainte est vraie, déclarez-le moi, rien ne m'empêchera de vous voir, et de trouver si vous y consentez, le moyen de vous délivrer de sa tyrannie ; au reste comme votre réponse nous importe à tous deux également, ne la confiez qu'à Hyppolite, qui me la fera tenir, et pour chercher en tout notre sûreté, que la suscription soit d'autre main que de la vôtre, changez de cachet, et faites l'adresse non plus à Filemon, mais au Cavalier Alcandre chez Arimant dans la Place-Royale.</s>
+            </p>
+            <l n="1277">Traître ami, qui me rend mon épouse ennemie,</l>
+            <note type="C">Le vers 1278 rappelle l'acte I, scène 3, du Cid de Corneille, v. 238 : « N'ai-je donc tant vécu que pour cette infamie ».</note>
+            <l n="1278">Pourquoi m'as-tu jeté dedans cette infamie ?</l>
+            <l n="1279">Pourquoi de cet opprobre as-tu chargé mon front ?</l>
+            <l n="1280">Ah ! Je me vangerai de ce sensible affront, </l>
+            <l n="1281">Ma colère sera pleinement assouvie ; </l>
+            <l n="1282">Tu m'as ôté l'honneur, je t'ôterai la vie,</l>
+            <l n="1283">Quand on noircit ainsi les hommes de mon rang,</l>
+            <l n="1284">Pour laver cette tâche, ils demandent du sang.</l>
+            <l n="1285">Et toi perfide femme autre fois tant aimée ! </l>
+            <l n="1286">Pourquoi si lâchement trahir ta renommée ?</l>
+            <l n="1287">Pourquoi jusqu'à ce point démentir ta vertu ?</l>
+            <l n="1288">Qui t'en peut excuser, quel sujet en as-tu ?</l>
+            <l n="1289">N'as-tu pas dessus moi toujours eu cet empire,</l>
+            <l n="1290">Que l'amour nous demande et que l'hymen désire ; </l>
+            <l n="1291">T'ai-je rien refusé, qu'est-ce en quoi mes désirs</l>
+            <l n="1292">Ont jamais négligé de suivre tes plaisirs ?</l>
+            <l n="1293">Quelque reste d'amour en ta faveur s'exprime,</l>
+            <l n="1294">Je tâche de trouver quelque excuse à ton crime ;</l>
+            <l n="1295">Mais je n'en trouve point, et puis je dois savoir </l>
+            <l n="1296">Qu'un tel aveuglement n'en peut jamais avoir ;</l>
+            <l n="1297">Ta faute est sans excuse, elle sera sans grâce.</l>
+            <l n="1298">J'apprends de mon honneur ce qu'il faut que je fasse ;</l>
+            <l n="1299">Son rigoureux désir s'accorde à mon souhait,</l>
+            <l n="1300">Il demande ta mort, il sera satisfait. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Alcipe, Léandre, Sylvain.</head>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1301">Ô vous ami parfait accourez à mon aide !</l>
+            <l n="1302">Par vous j'ai su mon mal, donnez y du remède.</l>
+            <l n="1303">Toute chose est commune aux amis généreux,</l>
+            <l n="1304">Joignons donc nos efforts et nous vengeons tous deux.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1305" part="I">De quoi ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1305" part="F">L'ignorez-vous ? D'une femme infidèle, </l>
+            <l n="1306">D'un lâche et faux ami qui m'outrage avec elle ;</l>
+            <l n="1307">De deux objets aimés, de qui je suis haï,</l>
+            <l n="1308">De qui je suis trompé, de qui je suis trahi :</l>
+            <l n="1309">De Filemon, d'Astrée, et s'il vous faut tout dire,</l>
+            <l n="1310">De celle qui sur vous s'est acquis de l'empire : </l>
+            <l n="1311">D'Orphise, d'Hyppolite, enfin de tous les miens ; </l>
+            <l n="1312">Voyez ce qu'en dépose un écrit que je tiens.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE, après avoir lu.</speaker>
+            <l n="1313">Après ce témoignage on ne peut que répondre.</l>
+            <l n="1314">Quelque excuse qu'on cherche, il la saura confondre,</l>
+            <l n="1315">Orphise toutefois n'est point nommée ici. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1316">L'amour parle pour elle, et vous aveugle aussi.</l>
+            <l n="1317">Ignorez vous encor qu'elle et ma lâche femme</l>
+            <l n="1318">Semblent dedans deux corps n'avoir qu'une seule âme ?</l>
+            <l n="1319">Que l'une ne fait rien que l'autre ne l'ait su ?</l>
+            <l n="1320">Elle vous décevrait comme elle m'a déçu. </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1321">Il n'en faut plus parler, j'ai l'âme trop outrée :</l>
+            <l n="1322">J'aime dès maintenant Orphise moins qu'Astrée ;</l>
+            <l n="1323">Mais comment cet écrit qui les accuse tous,</l>
+            <l n="1324">A-t-il pu de leurs mains passer jusques à vous ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1325">Mon ingrate moitié, seul objet de ma haine, </l>
+            <l n="1326">À le tenir secret mettait toute sa peine ;</l>
+            <l n="1327">Mais dans son cabinet introduit par bonheur, </l>
+            <l n="1328">Je l'ai vu, je l'ai pris, j'ai lu mon déshonneur.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1329">Que prétendez vous faire en cette conjoncture ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1330">Ce que veut un affront de pareille nature, </l>
+            <l n="1331">Ce que le point d'honneur conseille aux nobles coeurs ;</l>
+            <l n="1332">Éteindre dans leur sang leurs coupables ardeurs.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1333">Joignez le jugement avecque le courage :</l>
+            <l n="1334">Filemon doit tout seul périr dans cet orage ;</l>
+            <l n="1335">Les autres ne sont pas pour supporter vos coups, </l>
+            <l n="1336">Il faut que le sujet se mesure au courroux.</l>
+            <l n="1337">Qu'il ait pareille force, et que la résistance</l>
+            <l n="1338">Soit cause que le coup ait plus de violence ;</l>
+            <l n="1339">Abandonnez Astrée : un généreux dédain,</l>
+            <l n="1340">Lui sera plus mortel qu'un coup de votre main. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1341">J'écoute votre avis que je pourrai bien suivre ;</l>
+            <l n="1342">Mais mon perfide ami demain ne doit plus vivre.</l>
+            <l n="1343">Quelque Dieu qu'à son aide il invoque aujourd'hui,</l>
+            <l n="1344">Mes sanglantes fureurs doivent fondre sur lui.</l>
+            <l n="1345">Oui le juste dessein de châtier ce traître, </l>
+            <l n="1346">Est tout prêt d'éclater, s'il savait où paraître.</l>
+            <l n="1347">Car de me l'immoler dedans notre maison,</l>
+            <l n="1348">Cet acte aurait des traits de quelque trahison.</l>
+            <l n="1349">Pour perfide qu'il soit, pour lâche qu'on le nomme,</l>
+            <l n="1350">Je le voudrais pourtant traiter en honnête homme. </l>
+            <l n="1351">Le voir hors de chez moi, l'y punir, me venger ;</l>
+            <l n="1352">Contenter mon dépit, ou du moins l'alléger.</l>
+            <l n="1353">Mais quoi ce criminel, si digne de ma haine,</l>
+            <l n="1354">Est par cette raison à couvert de sa peine.</l>
+            <l n="1355">Il ne sort point du tout, et simple que je suis, </l>
+            <l n="1356">J'ai moi-même ajouté ce comble à mes ennuis !</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1357">Si c'est ce sujet seul qui s'oppose au tonnerre</l>
+            <l n="1358">Dont l'éclat foudroyant le doit jeter par terre ;</l>
+            <l n="1359">Je sais et rien du tout ne l'en peut garantir,</l>
+            <l n="1360">L'infaillible moyen de l'en faire sortir. </l>
+            <l n="1361">Allez, d'un seul moment n'en différez l'issue,</l>
+            <l n="1362">Vous n'avez qu'à l'attendre en la prochaine rue.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1363">J'y vais dans le dessein de ne rien pardonner,</l>
+            <l n="1364">D'y recevoir la mort, ou bien de la donner.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Alcipe, Sylvain.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1365">Courage, mon amour augmente et persévère : </l>
+            <l n="1366">La fortune se rend, tout me devient prospère.</l>
+            <l n="1367">Je touche au doux moment si longtemps attendu,</l>
+            <l n="1368">Je m'en vais tout gagner, où j'avais tout perdu.</l>
+            <l n="1369">Soit que Léandre tue, ou soit tué lui même ;</l>
+            <l n="1370">L'un et l'autre trépas rend mon bon-heure extrême. </l>
+            <l n="1371">La fin de ce combat ne peut trahir mes voeux,</l>
+            <l n="1372">D'un et d'autre côté j'obtiens ce que je veux.</l>
+            <l n="1373">S'il tue il faut qu'il fuie, et cependant ma flamme</l>
+            <l n="1374">Pourra tout à loisir solliciter sa femme.</l>
+            <l n="1375">S'il est tué, mon sort ne sera pas moins doux, </l>
+            <l n="1376">J'aime Astrée et pourrais devenir son époux.</l>
+            <l n="1377">Toi, Sylvain, qui tantôt reprenais ma conduite ;</l>
+            <l n="1378">Tiens un autre discours, admires-en la suite ;</l>
+            <l n="1379">Si j'avais écouté tes conseils et ta peur,</l>
+            <l n="1380">Je ne me verrais pas si près de mon bonheur. </l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1381">On se trompe parfois, et contre l'apparence, </l>
+            <l n="1382">Un orage imprévu détruit notre espérance.</l>
+            <l n="1383">On échoue à la rade, et vos pareils souvent,</l>
+            <l n="1384">Croyant tenir un corps, n'embrassent que du vent.</l>
+            <l n="1385">Quelque soit votre joie, elle est mal assurée, </l>
+            <l n="1386">Et crains qu'elle ne soit de fort peu de durée.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1387">Tais-toi, tu me déplais de tenir ce discours ;</l>
+            <l n="1388">Tout me rit, j'aperçois l'objet de mes amours.</l>
+            <l n="1389">Filemon la conduit, feignons de bonne grâce,</l>
+            <l n="1390">Et l'obligeons par ruse à nous céder la place. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Filemon, Astrée, Alcipe, Sylvain, Hyppolite.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1391">Ah ! Madame, j'allais, il y va, je l'ai vu, </l>
+            <l n="1392">Sans second, on le dit, il est vrai, je l'ai su ;</l>
+            <l n="1393">C'est pour tirer raison d'une injure reçue :</l>
+            <l n="1394">Ils se doivent trouver dans la prochaine rue,</l>
+            <l n="1395">Inhumain envers vous, à soi-même cruel </l>
+            <l n="1396" part="I">Léandre.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1396" part="M">Qu'est-ce donc ?</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1396" part="F">Va se battre en duel,</l>
+            <l n="1397">Si j'avais la main libre, on verrait mon épée</l>
+            <l n="1398">En cette occasion volontiers occupée.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1399">Il suffit de la mienne, et d'un zèle aussi grand </l>
+            <l n="1400">Je ferai repentir quiconque l'entreprend. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Alcipe, Astrée, Hyppolite, Sylvain.</head>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1401">Léandre a de l'adresse autant que de courage ;</l>
+            <l n="1402">Mais le sort en ce point imite le visage.</l>
+            <l n="1403">Qu'il paraît différent, qu'il est souvent trompeur,</l>
+            <l n="1404">Qu'il dément la pensée et qu'il trahit le coeur !</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1405">Son bon droit maintenu de la faveur céleste, </l>
+            <l n="1406">Détournera de lui tout accident funeste.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1407">Mais enfin, si le Ciel permettait son trépas ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1408">Je le suivrais de près, j'irais dessus ses pas.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1409">Quoi cédant à l'excès d'une douleur profonde,</l>
+            <l n="1410">D'un si rare ornement vous priveriez le monde ? </l>
+            <l n="1411">Vous laisseriez périr tant de divins attraits ?</l>
+            <l n="1412">Toute la terre en deuil en ferait des regrets,</l>
+            <l n="1413">Tous les yeux pleureraient cette perte commune,</l>
+            <l n="1414">Et Charon passerait cent milles âmes pour une.</l>
+            <l n="1415">Formez d'autres desseins, tenez d'autres discours, </l>
+            <l n="1416">Et souhaitez plutôt d'éterniser vos jours.</l>
+            <l n="1417">De quelle vaine crainte êtes vous alarmée ?</l>
+            <l n="1418">Une galante veuve est toujours estimée.</l>
+            <note type="L">Chérissable : Digne d'être chéri. [L]</note>
+            <l n="1419">C'est toujours un objet chérissable et chéri,</l>
+            <l n="1420">Qui ne manque jamais d'amant ou de mari. </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1421">Alcipe gardez bien d'en dire davantage.</l>
+            <l n="1422">De quel front osez vous me tenir ce langage ?</l>
+            <l n="1423">Est-ce là le respect que vous m'avez promis ?</l>
+            <l n="1424">Qu'est devenu ce coeur si pur et si soumis ?</l>
+            <l n="1425">Vos illicites feux se rallument sans doute ; </l>
+            <l n="1426">Vôtre flamme renaît ; mais étouffez la toute.</l>
+            <l n="1427">Ma vertu continue, et mes sévérités </l>
+            <l n="1428">Vous puniraient enfin de vos témérités.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1429">N'importe, à votre gré soyez douce ou sévère.</l>
+            <l n="1430">Oui, ma flamme renaît, elle croît, et j'espère : </l>
+            <l n="1431">La douceur ne peut rien, la force pourra tout,</l>
+            <l n="1432">J'entreprends rarement que je n'en vienne à bout.</l>
+            <l n="1433" part="I">Consentez...</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1433" part="M">Insolent !</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1433" part="M">Consentez ou...</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="1433" part="F">Madame,</l>
+            <l n="1434">Rentrez, et vous sauvez des mains de cet infâme.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1435">Vous fuyez ; mais en vain, j'irais pour vous trouver, </l>
+            <l n="1436">Où le flambeau du jour ne saurait arriver.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1437" part="I">Monsieur.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1437" part="M">Ne me dis rien. </l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1437" part="F">Mais Léandre peut être...</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1438">Léandre ne vit plus, ou n'ose plus paraître.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Léandre, Filemon.</head>
+          <stage>Pour lier la scène, il faut que Léandre paraisse en un coin du théâtre.</stage>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1439">Je le vois le perfide, il vient le suborneur. </l>
+            <l n="1440">Mourons dans ce combat, ou vengeons notre honneur : </l>
+            <l n="1441" part="I">Défends-toi, lâche ami.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1441" part="M">Léandre.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1441" part="F">L'artifice</l>
+            <l n="1442">Ne saurait d'un moment reculer ton supplice.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1443" part="I">Vous me méconnaissez.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1443" part="F">Non, infidèle, non.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1444" part="I">Considérez, je suis... </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1444" part="F">Le traître Filemon.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1445">Je m'offense à ce mot, Léandre que je sache, </l>
+            <l n="1446">Qui vous fait me traiter d'infidèle et de lâche ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1447">Tu ne le sais que trop ; mais sans plus répliquer,</l>
+            <l n="1448">Ce n'est que par ce fer que je veux m'expliquer,</l>
+            <l n="1449" part="I">Défends-toi donc.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1449" part="F">Le sang au visage me monte,</l>
+            <l n="1450">Tout autre éprouverait ma colère plus prompte. </l>
+            <l n="1451">Je vous satisferai n'en doutez nullement :</l>
+            <l n="1452">Mais ne me niez pas cet éclaircissement.</l>
+            <l n="1453">Que je connaisse au moins la nature du crime</l>
+            <l n="1454">Qui m'acquiert votre haine, et m'ôte votre estime.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1455">Ce crime est le plus noir qu'on ait jamais commis ; </l>
+            <l n="1456">Horrible et détestable à tous les vrais amis.</l>
+            <l n="1457">Attenter sur mon lit, abuser de ma femme !</l>
+            <l n="1458">Sus l'épée à la main, ce penser seul m'enflamme.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1459">Je ne la l'y mets point, l'innocent opprimé</l>
+            <l n="1460">Se tient plus fort tout nu, qu'un criminel armé ; </l>
+            <l n="1461">Tenez voila mon sein, faites une ouverture :</l>
+            <l n="1462">Vous verrez dans mon coeur une amitié plus pure.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1463" part="I">À la fin j'aurai tort !</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1463" part="F">Vous l'aurez en effet,</l>
+            <l n="1464">Avec le repentir de l'affront qui m'est fait.</l>
+            <l n="1465">Quel indice avez vous qui marque mon offense ? </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1466">J'en ai plus d'une preuve et plus d'une apparence ;</l>
+            <l n="1467">Mais pour n'en faire pas un importun récit :</l>
+            <l n="1468">Consultez ce billet, et voyez ce qu'il dit.</l>
+            <stage>Il lit le billet qu'Alcipe a laissé tomber.</stage>
+            <l n="1469" part="I">Vous demeurez confus.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <stage>Après que Filemon a lu.</stage>
+            <l n="1469" part="F">J'imagine, je songe</l>
+            <l n="1470">Qui peut avoir écrit cet horrible mensonge ? </l>
+            <l n="1471">Quiconque l'a pu faire, est certain de sa mort :</l>
+            <l n="1472">Ce projet de mon coeur est un arrêt du sort.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1473" part="I">C'est...</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1473" part="M">Poursuivez.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1473" part="M">Alcipe.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1473" part="F">Alcipe, le perfide !</l>
+            <note type="L">Alcide : autre nom d'Hercule.</note>
+            <l n="1474">Fut-il un Gérion, je serai son Alcide.</l>
+            <l n="1475">Je ne vous ai jamais à ce point offensé ; </l>
+            <l n="1476" part="I">C'est un traître imposteur.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1476" part="F">Je l'avais bien pensé.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1477">Ne m'osant attaquer avec la force ouverte, </l>
+            <l n="1478">Sa malice en secret tente tout pour ma perte :</l>
+            <l n="1479">Mais le lâche qu'il est, se le promet en vain.</l>
+            <l n="1480">Sachez que sa blessure est un coup de ma main. </l>
+            <l n="1481">Que vous êtes celui dont il aimait la femme,</l>
+            <l n="1482">Et que pas un que moi n'a puni cet infâme.</l>
+            <l n="1483">Vous apprendrez un jour cette histoire à loisir.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1484">Alcipe m'aurait fait ce sanglant déplaisir !</l>
+            <l n="1485">Non cela ne se peut, si je l'aime, il m'honore. </l>
+            <l n="1486">A cet autre témoin que direz vous encore ?</l>
+            <stage>Il lui donne la lettre qu'il a trouvée dans le cabinet d'Astrée.</stage>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1487">Ce témoin me convainc bien moins que le premier.</l>
+            <l n="1488">Cet écrit est de moi ; je ne le puis nier,</l>
+            <l n="1489">Je l'adresse à Florinde, et mande à cette belle,</l>
+            <l n="1490">Que j'ai le même coeur qu'autrefois j'eus pour elle ; </l>
+            <l n="1491">Et que si son mari la traite rudement,</l>
+            <l n="1492">J'en médite et résous le dernier châtiment.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1493">Mais en ce grand dessein que peut faire Hyppolite ?</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1494">Qu'aisément un soupçon dans votre âme s'excite !</l>
+            <l n="1495">Hyppolite est parente et confidente aussi </l>
+            <l n="1496">De la belle affligée à qui j'écris ceci :</l>
+            <l n="1497">Ressouvenez vous en, vous l'avez cent fois vue</l>
+            <l n="1498">Dans le bal, au théâtre, au temple, et dans la rue.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1499">Oui je m'en ressouviens, et reçois des clartés</l>
+            <l n="1500">Qui dissipent mon doute et mes obscurités. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1501">Léandre à votre tour tirez moi d'une peine.</l>
+            <l n="1502">D'où vous vient cet écrit ? Faites que je l'apprenne.</l>
+            <l n="1503">Vous avez au rapport qu'Alcipe vous a fait,</l>
+            <l n="1504">Corrompu le courrier, ou gagné mon valet.</l>
+            <l n="1505">L'apparence le dit, et m'oblige à le croire. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1506">Vous m'accusez à tort d'une action si noire.</l>
+            <l n="1507">J'use moins d'artifice, et ma sincérité</l>
+            <l n="1508">Ne me permit jamais une infidélité.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1509" part="I">Mais cette lettre enfin ? </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1509" part="F">Consultez en Astrée ;</l>
+            <l n="1510">C'est dans son cabinet que je l'ai rencontré. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1511">Allons donc la trouver et nous éclaircissons</l>
+            <l n="1512">Sur les divers motifs de nos fâcheux soupçons.</l>
+            <l n="1513">Qu'aujourd'hui notre erreur tout à fait se dissipe ;</l>
+            <l n="1514">Hâtons nous, nous pourrons y rencontrer Alcippe ;</l>
+            <l n="1515">Et le traître avouera, s'il n'aime mieux périr, </l>
+            <l n="1516">Qu'un autre plus que moi, ne vous saurait chérir.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1517">Justes Cieux accordez à mon âme tremblante,</l>
+            <l n="1518">Qu'Alcipe soit coupable, et ma femme innocente !</l>
+            <l n="1519">Que j'apprenne de l'un le zèle dangereux,</l>
+            <l n="1520">De l'autre l'innocence et l'amour généreux. </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Orphise, Astrée, Hyppolite.</head>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1521">L'insolent vous parlait avec tant d'impudence ? </l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1522">Il a même passé jusqu'à la violence.</l>
+            <l n="1523">Il m'a dessus la gorge osé porter la main,</l>
+            <l n="1524">Et fait quelque autre effort plus grand ; mais aussi vain.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Alcipe, Astrée, Orphise, Hyppolite, Sylvain.</head>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="1525" part="I">Il revient.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1525" part="F">Téméraire avez vous donc envie ?... </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1526">D'obtenir vos faveurs, ou d'avoir votre vie.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1527" part="I">Ah ! Le lâche courage.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1527" part="F">Ah ! Le coeur sans pitié.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1528">Le généreux amour ! La parfaite amitié ! </l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1529">Ne parlez plus d'ami, quand la vie est éteinte,</l>
+            <l n="1530">Le coeur le plus zélé n'a qu'une amitié feinte ; </l>
+            <l n="1531">Léandre ne vit plus, la mort vous le ravit,</l>
+            <l n="1532">Et je veux obtenir sa place en votre lit.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1533">S'il ne vit plus, méchant, le Ciel le ressuscite</l>
+            <l n="1534">Pour prendre une vengeance égale à son mérite.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1535" part="I">Filemon l'accompagne.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1535" part="F">Ah ! Je suis découvert. </l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1536" part="I">Je vous l'avais bien dit.</l>
+          </sp>
+          <sp who="tc0810-ALCIPE">
+            <speaker>ALCIPE.</speaker>
+            <l n="1536" part="F">Tout me nuit, tout me perd ;</l>
+            <l n="1537">Mais que tardai-je plus ? Évitons leur colère,</l>
+            <l n="1538" part="I">Fuyons Sylvain. </l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1538" part="F">Fuyons, nous ne saurions mieux faire.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCÈNE IX. Léandre, Filemon, Astrée, Orphise, Hyppolite, Sylvain, Valentin.</head>
+          <stage>Hyppolite retient Sylvain.</stage>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1539" part="I">Tiens le bien Hyppolite.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1539" part="M">Arrête.</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1539" part="F">J'obéis.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1540">Au brave qui s'enfuit, tu donnais des avis, </l>
+            <l n="1541">Et suivant d'aujourd'hui le Proverbe vulgaire, </l>
+            <l n="1542">Étais de ses secrets le grand dépositaire ?</l>
+          </sp>
+          <sp who="tc0810-SYLVAIN">
+            <speaker>SYLVAIN.</speaker>
+            <l n="1543">Monsieur, s'il eut voulu suivre mes sentiments,</l>
+            <l n="1544">Je ne recevrais pas ces mauvais traitements.</l>
+            <l n="1545">Lui dedans la chaleur d'une indiscrète flamme, </l>
+            <l n="1546">N'aurait pas attenté sur l'honneur de Madame ;</l>
+            <l n="1547">Ni de ce bras vainqueur, le juste et prompt secours,</l>
+            <l n="1548">Presque éteint dans son sang le flambeau de ses jours ;</l>
+            <l n="1549">Car enfin les filous n'étaient qu'imaginaires,</l>
+            <l n="1550">Leurs coups que fiction, nos clameurs que chimères : </l>
+            <l n="1551">Et bientôt en ce jeu l'on m'eut vu le trahir,</l>
+            <l n="1552">N'eut été qu'un valet doit toujours obéir.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1553">Après un tel aveu, quel soupçon vous demeure ?</l>
+            <l n="1554">Méritai-je de vivre, ou faut-il que je meure ?</l>
+            <l n="1555" part="I">Suis-je un perfide ami ?</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1555" part="F">Mais ne le suis-je pas ? </l>
+            <l n="1556">Pour ma punition, est-ce assez d'un trépas ?</l>
+            <l n="1557">Hymen, ami, vertu que j'ai tant offensée ;</l>
+            <l n="1558">Remarquez de quel trait j'en ai l'âme blessée,</l>
+            <l n="1559">Et que votre justice ait égard aujourd'hui </l>
+            <l n="1560">À ne me punir pas des malices d'autrui. </l>
+            <l n="1561">Toi de mon faux ami confident et complice,</l>
+            <l n="1562">Tu devrais éprouver un rigoureux supplice ;</l>
+            <l n="1563">Mais puis qu'avec regret tu suivais ses desseins,</l>
+            <l n="1564">Ton mal ne sera pas si grand que tu le crains.</l>
+            <l n="1565">Cependant à mes yeux n'ose jamais paraître, </l>
+            <l n="1566">Et porte de ma part ce soufflet à ton maître.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="1567">Voilà pauvres valets, comme on nous traite tous,</l>
+            <l n="1568">Quand notre sort permet que nous servions des fous.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1569">La vérité connue a dissipé mes doutes ;</l>
+            <l n="1570">Et comme eux, cher ami, mes craintes le sont toutes : </l>
+            <l n="1571">Je jouis maintenant d'un repos accompli.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1572">Pour moi, je n'ai pas mis cette lettre en oubli.</l>
+            <l n="1573">Son secret m'inquiète, et je prirais Madame</l>
+            <l n="1574">De donner sur ce point quelque jour à mon âme.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1575">Je le veux ; aussi bien de votre part aussi, </l>
+            <l n="1576">Il me reste un soupçon qui doit être éclairci :</l>
+            <l n="1577">Vous êtes noble, riche, adroit en toute chose :</l>
+            <l n="1578">Qui vous voit une fois vous aime ou s'y dispose.</l>
+            <l n="1579">Je vous connais discret, modeste et généreux,</l>
+            <l n="1580">Je souhaitais de plus de vous voir amoureux, </l>
+            <l n="1581">Mais d'un digne sujet, et de qui l'hymenée</l>
+            <l n="1582">Avecque votre sort joignit la destinée.</l>
+            <l n="1583">J'ai cru, ( votre coeur même en a fait un aveu )</l>
+            <l n="1584">Que vous pouviez nourrir en secret quelque feu ;</l>
+            <l n="1585">Et qu'ayant le mérite égal à la fortune, </l>
+            <l n="1586">Vous vous faisiez partout cent maîtresses pour une.</l>
+            <l n="1587">J'ai pensé d'autre part que dans l'éloignement</l>
+            <l n="1588">Une lettre entretient l'amante avec l'amant :</l>
+            <l n="1589">Que c'est où leur amour à bien feindre s'exerce,</l>
+            <l n="1590">Et j'ai fait mon pouvoir d'en rompre le commerce. </l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN, bas.</speaker>
+            <l n="1591" part="I">Je suis perdu, Madame.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1591" part="F">Encor à quel dessein ?</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1592" part="I">Cousine.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1592" part="F">De vous mettre une autre ardeur au sein.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1593">Il n'était pas besoin incomparable Astrée ! </l>
+            <l n="1594">Admirable en beauté plus encor qu'admirée ;</l>
+            <l n="1595">Il n'était pas besoin de prendre ce souci : </l>
+            <l n="1596">J'ai bien dedans le sein une autre ardeur aussi.</l>
+            <l n="1597">Dois-je la déclarer, non non je la dois taire :</l>
+            <l n="1598">Dans cette passion, je suis trop téméraire.</l>
+            <l n="1599">Léandre, s'il le veut, m'y pourrait bien aider ;</l>
+            <l n="1600">Mais l'en prier aussi, c'est trop se hasarder. </l>
+            <l n="1601" part="I">Toutefois...</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1601" part="F">Filemon, n'achevez pas de grâce.</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1602" part="I">Il l'aime et non pas moi.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1602" part="F">Que faut-il que je fasse ?</l>
+            <l n="1603">Écoutez un amant à demi consumé</l>
+            <l n="1604">D'un feu que vous avez en partie allumé.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1605" part="I">Que pourrait-il prétendre ?</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1605" part="F">Encor un coup silence. </l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1606">Ami, souscrirez-vous à cette violence ?</l>
+            <l n="1607">C'est me donner la mort, que me nier ce bien.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1608">Vous tenez un propos où je ne comprends rien.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1609">Il faut donc m'adresser à la divine Orphise :</l>
+            <l n="1610">Elle en prendra le sens, ainsi que ma franchise. </l>
+            <l n="1611">C'est elle qui m'enchaîne, et qui me fait brûler ;</l>
+            <l n="1612">C'est le souverain bien dont je voulais parler.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1613" part="I">Ô Ciel ! Quelle surprise ?</l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1613" part="F">Cousine qu'elle est douce !</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1614">Votre visage change, est-ce qu'il se courrouce ?</l>
+            <l n="1615">Astrée, Orphise, ami favorisez mes feux, </l>
+            <l n="1616">Et n'éconduisez pas un discret amoureux.</l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1617">Orphise est trop prudente, et trop respectueuse,</l>
+            <l n="1618">Pour contrefaire ici la fille dédaigneuse.</l>
+            <l n="1619">Ma cousine parlez, vainquez votre pudeur ;</l>
+            <l n="1620">Ne répondez vous pas à cette noble ardeur ? </l>
+          </sp>
+          <sp who="tc0810-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1621">Étant votre parente et sous votre tutelle,</l>
+            <l n="1622">Si cette ardeur vous plaît, elle me semble belle.</l>
+          </sp>
+          <sp who="tc0810-ASTREE">
+            <speaker>ASTRÉE.</speaker>
+            <l n="1623">Ce mot a mon soupçon tout à fait éclairci.</l>
+            <l n="1624">Vous vous aimiez tous deux, et m'en doutais aussi ;</l>
+            <l n="1625">Même pour mieux former ces douces harmonies, </l>
+            <l n="1626">Qui composent un tout de deux âmes unies ;</l>
+            <l n="1627">Et de peur qu'en sortant vous ne vinssiez à voir</l>
+            <l n="1628">Quelque agréable objet qui pût vous émouvoir ;</l>
+            <l n="1629">J'ai su sur un soupçon d'une noire entreprise,</l>
+            <l n="1630">Vous retenir toujours auprès de votre Orphise. </l>
+          </sp>
+          <sp who="tc0810-LEANDRE">
+            <speaker>LÉANDRE.</speaker>
+            <l n="1631">Trop soupçonneux mari, j'ai pris à contre sens,</l>
+            <l n="1632">Ses pensers les plus saints et les plus innocents.</l>
+          </sp>
+          <sp who="tc0810-FILEMON">
+            <speaker>FILEMON.</speaker>
+            <l n="1633">Vous m'avez fait, Madame, une faveur insigne ; </l>
+            <l n="1634">Je ne l'espérais pas, et je m'en crois indigne ;</l>
+            <l n="1635">Mais si tout ce bonheur n'est pas illusion, </l>
+            <l n="1636">Allons tout quatre ensemble en écrire à Lyon.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="1637">Hyppolite dis-moi si tu m'aimes encore ?</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="1638">Non, c'est peu de t'aimer, Valentin, je t'adore.</l>
+          </sp>
+          <sp who="tc0810-VALENTIN">
+            <speaker>VALENTIN.</speaker>
+            <l n="1639">Je pensais échapper de tes mignons appas.</l>
+          </sp>
+          <sp who="tc0810-HYPPOLITE">
+            <speaker>HYPPOLITE.</speaker>
+            <l n="1640">Tu le peux faire encor ; car je ne t'aime pas. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

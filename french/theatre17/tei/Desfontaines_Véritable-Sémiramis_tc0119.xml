@@ -1,0 +1,2605 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La véritable sémiramis</title>
+        <title type="sub">Tragédie</title>
+        <title type="short">Véritable-Sémiramis</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">DESFONTAINES, Nicolas Marie dit</name>
+          <name type="short">Desfontaines</name>
+          <idno type="viaf"/>
+        </author>
+        <principal>Texte établi par Camille Frejaville, dans le cadre d'un travail d'édition critique sous la direction de Georges Forestier. (Université Paris-Sorbonne)</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0119</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2014</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1647</date>, <idno/>, <ref target="#"/>. À PARIS, Chez PIERRE LAMY, en la grande Salle du Palais, au second Pilier..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1646</date>, <idno/>, <ref target="#"/>. Représenté pour la première fois en 1646.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1641-1650</term>
+          <term type="taille">1750-2000</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>LES PERSONNAGES</head>
+        <castItem>
+          <role xml:id="tc0119-NINUS">NINUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-SEMIRAMIS">SÉMIRAMIS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-PRAZIMENE">PRAZIMÈNE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-MELISTRATE">MELISTRATE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-ORONCLIDE">ORONCLIDE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-MERZABANE">MERZABANE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-ZENOPIRE">ZENOPIRE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-CAMBISES">CAMBISES</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-PALMEDON">PALMÉDON</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0119-LESGARDES">LES GARDES</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La scène est dans une Salle du Palais Royal à Babylone.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Sémiramis, Merzabane, Herminie.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1">Melistrate amoureux ? Ah ! Je ne le puis croire ;</l>
+            <l n="2">S'il aime Merzabane, il n'aime que la gloire ;</l>
+            <l n="3">Et cet ambitieux, et superbe vainqueur,</l>
+            <l n="4">Ne borne pas ses voeux, à régner sur un coeur :</l>
+            <l n="5">L'orgueilleux aime mieux que la valeur enchaîne</l>
+            <l n="6">Des soldats subjugués, qu'une fameuse Reine,</l>
+            <l n="7">Que Mars a fait cent fois triompher à son tour,</l>
+            <l n="8">Mais qui succombe enfin sous les traits de l'amour.</l>
+            <l n="9">Son courage qui forme ou calme les tempêtes,</l>
+            <l n="10">Qui détruit, quand il veut, ou produit nos conquêtes,</l>
+            <l n="11">Se plaît dans les hasards dont son coeur est épris,</l>
+            <l n="12">Et pour un Sceptre offert, n'aurait que des mépris.</l>
+            <l n="13">Il ne veut rien tenir des mains de la Fortune,</l>
+            <l n="14">Si sa valeur n'agit, sa faveur l'importune ;</l>
+            <l n="15">Et cet esprit hautain mépriserait son rang ;</l>
+            <l n="16">Sil ne l'avait acquis aux dépens de son sang ;</l>
+            <l n="17">Il trouve arrogant son Empire en lui-même,</l>
+            <l n="18">Lui-même il fait sa Cour, ses Lois, son Diadème,</l>
+            <l n="19">Et n'emprunte l'éclat dont il est revêtu,</l>
+            <l n="20">Que de celui qu'il a de sa propre vertu.</l>
+            <l n="21">C'est elle seule aussi qui l'enflamme et le blesse,</l>
+            <l n="22">C'est elle dont il fait son illustre Maîtresse;</l>
+            <l n="23">Et comme elle peut tout sur un digne Amant,</l>
+            <l n="24">Tout autre, Merzabane, y prétend vainement.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="25">Madame, il est bien vrai que c'est la vertu même,</l>
+            <l n="26">Pour qui ce coeur altier sent une amour extrême ;</l>
+            <l n="27">Mais parmi les transports de ses nobles ardeurs,</l>
+            <l n="28">Il n'est pas tout à fait ennemi des grandeurs :</l>
+            <l n="29">Ainsi qu'un bel objet, un Empire a des charmes,</l>
+            <l n="30">Il verse pour tous deux et du sang et des larmes, </l>
+            <l n="31">L'un et l'autre lui plaît ; et je crois en ce jour,</l>
+            <l n="32">Que son ambition suit de près son amour.</l>
+            <l n="33">De plus, s'il m'est permis de vous ouvrir mon âme,</l>
+            <l n="34">Je crois que son orgueil est plus grand que sa flamme ;</l>
+            <l n="35">Et l'objet qu'il chérit, ne lui plairait pas tant,</l>
+            <l n="36">S'il n'était le degré du Trône qu'il attend.</l>
+            <l n="37">Vous devez, grande Reine, abaisser son audace,</l>
+            <l n="38">Qui se veut élever au dessus de sa race ;</l>
+            <l n="39">Et par un merveilleux et nouvel attentat,</l>
+            <l n="40">Au rang Assyrien joindre un simple soldat.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <stage>À demi-voix, bas.</stage>
+            <l n="41">M'aimerait-il ? Ô Dieux ! Ah, tire moi de peine;</l>
+            <l n="42" part="I">Qu'est-ce donc qu'il prétend ?</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="42" part="F">L'amour de Prazimène.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="43" part="I">L'amour de Prazimène !</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="43" part="M">Oui sans doute.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="43" part="F">Et comment ?</l>
+            <l n="44">Répond-elle aux ardeurs de ce parfait Amant ?</l>
+            <l n="45">Leur inclination est-elle mutuelle ?</l>
+            <l n="46">Et de qui tenez-vous cette étrange nouvelle ?</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="47">De la Cour, de l'armée, et de mes propres yeux.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="48">Il l'aime ? Ah l'insolent ! Il est aimé ? Grand Dieux !</l>
+            <l n="49">Que m'a-t-on découvert, et que viens-je d'entendre ?</l>
+            <l n="50">Il s'aiment, et je suis la dernière à l'apprendre ?</l>
+            <l n="51">Mais qu'elle aime, qu'elle aime ; en vain, sans mon aveu,</l>
+            <l n="52">Son aveugle désir nourrit un si beau feu,</l>
+            <l n="53">Quel qu'il soit, je sais bien les moyens de l'éteindre,</l>
+            <l n="54">Et de briser les traits qui la peuvent atteindre :</l>
+            <l n="55">En vain par ses devoirs, sa flamme et ses soupirs,</l>
+            <l n="56">Son téméraire Amant répond à ses désirs ;</l>
+            <l n="57">Quand il ferait d'un sang égal à son courage,</l>
+            <l n="58">Quand de tout l'Orient il ferait son partage,</l>
+            <l n="59">Prazimène ferait, choquant mes volontés,</l>
+            <l n="60">Et la borne et l'écueil de ses prospérités.</l>
+            <l n="61">Je suis leur Souveraine, et j'ai cet avantage,</l>
+            <l n="62">Que l'une, de mes soins est le plus cher ouvrage,</l>
+            <l n="63">Et que l'autre doit plus sa gloire et son bonheur,</l>
+            <l n="64">À mes rares bontés, qu'à sa haute valeur.</l>
+            <l n="65">C'est donc en vain que l'un est de l'autre idolâtre,</l>
+            <l n="66">Je n'ai rien élevé que je ne puisse abattre :</l>
+            <l n="67">Oui, quand il me plaira, je ne veux qu'un moment,</l>
+            <l n="68">Pour détruire l'Amour, et l'Amante et l'Amant.</l>
+            <l n="69">Mais avant ce grand coup, apprends nous, Merzabane,</l>
+            <l n="70">La naissance et le cours d'un feu que je condamne,</l>
+            <l n="71">Mais qui n'aurait jamais mon courroux enflammé,</l>
+            <l n="72">Si pour un autre objet il était allumé.</l>
+            <note type="C">Vers 73, il y a un point d'interrogation présent dans l'édition originale au lieu du point d'exclamation.</note>
+            <l n="73">Parle donc ! Car ce bruit peut être une imposture,</l>
+            <l n="74">Que des esprits jaloux ont cru par conjecture,</l>
+            <l n="75">Ne te souvenant pas, que souvent à la Cour,</l>
+            <l n="76">L'artifice est caché sous le front de l'Amour,</l>
+            <l n="77">Et qu'ordinairement le secours d'une feinte,</l>
+            <l n="78">Fait qu'une âme y parait sensiblement atteinte,</l>
+            <l n="79">Qui loin de soupirer pour un objet parfait,</l>
+            <l n="80">Quand elle feint d'aimer, hait souvent en effet.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="81">Madame, je connais la Cour et ses adresses,</l>
+            <l n="82">Je connais ses détours, et ses feintes caresses ;</l>
+            <l n="83">Mais l'amour dont je parle à votre Majesté,</l>
+            <l n="84">Est bien d'autre nature, et d'autre qualité ;</l>
+            <l n="85">Puis qu'enfin cette ardeur visiblement éclate,</l>
+            <l n="86">Au yeux de Prazimène, au cours de Melistrate,</l>
+            <l n="87">Et que jamais ce Dieu, qui règne sur nos sens,</l>
+            <l n="88">N'a vu des feux si purs, ni des fers si puissants,</l>
+            <l n="89">Je ne vous dirai point quand naquit cette flamme,</l>
+            <l n="90">Ni comment chacun d'eux la reçue en son âme,</l>
+            <l n="91">Puis que vous savez, bien qu'un si doux sentiment,</l>
+            <l n="92">En de jeunes esprits s'introduit aisément,</l>
+            <l n="93">Surtout quand une rare et divine merveille,</l>
+            <l n="94">À d'illustres soupirs ne ferme point l'oreille,</l>
+            <l n="95">Mais d'un oeil dont la grâce a banni la rigueur,</l>
+            <l n="96">Fait pour celui qu'elle aime, un passage à son coeur.</l>
+            <l n="97">Melistrate a des yeux, il a vu Prazimène,</l>
+            <l n="98">Ses regards amoureux ont commencé la chaîne ;</l>
+            <l n="99">Et le grade où depuis vous l'avez élevé,</l>
+            <l n="100">A malgré vos désirs cet ouvrage achevé.</l>
+            <l n="101">Il ne reste donc plus maintenant qu'à vous dire,</l>
+            <l n="102">Ce qui m'a découvert sa flamme et son martyre,</l>
+            <l n="103">Et comme tout le camp qui nous avait suivis,</l>
+            <l n="104">A vu Mars seconder les desseins de son fils.</l>
+            <l n="105">Cette double puissance la valeur unie,</l>
+            <l n="106">Éclata hautement au fond de l'Arménie,</l>
+            <l n="107">Où cet ambitieux et jeune Conquérant,</l>
+            <l n="108">Malgré nos ennemis, passa comme un torrent.</l>
+            <l n="109">Ce fut là, qu'orgueilleux d'une belle victoire,</l>
+            <l n="110">Il combattit l'Amour, pour accroître sa gloire,</l>
+            <l n="111">Et qu'on vit opposer pour le vaincre à son tour,</l>
+            <l n="112">Le mérite au mérite, et l'Amour à l'Amour.</l>
+            <l n="113">Ce fut là, qu'une grande et sanglante défaite,</l>
+            <l n="114">Força honteusement Barzane à la retraite,</l>
+            <l n="115">Qui pour lui préparer un triomphe nouveau,</l>
+            <l n="116">Se sauva dans les murs, dont il fit son tombeau. </l>
+            <l n="117">Et ce fut là, Madame, où ce grand Capitaine,</l>
+            <l n="118">Subjugua l'Arménie, et conquit Prazimène.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="119">Ce glorieux exploit qui nous fut rapporté,</l>
+            <l n="120">Toucha peut-être un peu cette jeune Beauté,</l>
+            <l n="121">Son courage lui plût, et ce n'est pas un crime,</l>
+            <l n="122">Pour les coeurs généreux, d'avoir beaucoup d'estime.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="123">Non, mais elle fit voir presque en ce même jour,</l>
+            <l n="124">Que l'on passe aisément de l'estime à l'Amour.</l>
+            <l n="125">Ce ne fut pas pourtant cette haute conquête,</l>
+            <l n="126">Ni tant d'autres lauriers qui brillaient sur sa tête,</l>
+            <l n="127">Qui lui firent aimer ce superbe vainqueur ;</l>
+            <l n="128">Ce fut un noble orgueil qui lui toucha le coeur,</l>
+            <l n="129">Et le mépris qu'il eut pour une illustre Dame,</l>
+            <l n="130">Fit ce que n'avait pu sa valeur ni sa flamme.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="131">C'est ce point que j'ignore, et que l'on m'avait tu.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="132">Et c'est pourtant celui que tout un camp a vu.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="133">Parle donc, Merzabane, et m'apprends cette histoire ?</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="134">Après une assez belle et fameuse victoire,</l>
+            <note type="L">Legerde : ville d'Arménie. [NdA]</note>
+            <l n="135">Legerde, où commandait un prince audacieux,</l>
+            <l n="136">Crût pouvoir arrêter un camp victorieux ;</l>
+            <l n="137">Melistrate l'attaque, elle fait résistance ;</l>
+            <l n="138">L'orgueilleux Benzamin paraît à sa défense,</l>
+            <l n="139">Qui d'un courage haut, impatient et fier,</l>
+            <l n="140">Appelle Melistrate en combat singulier.</l>
+            <l n="141">Il reçoit ce cartel, il l'accepte, il s'apprête,</l>
+            <l n="142">D'immoler au Dieu Mars cette orgueilleuse tête ;</l>
+            <l n="143">Mais l'Amour qui crût lors que Mars lui faisait tort,</l>
+            <l n="144">Referma pour ses traits la gloire de sa mort.</l>
+            <l n="145">Ils combattent pourtant, et le sort est en peine,</l>
+            <l n="146">Auquel il veut montrer sa faveur ou sa haine,</l>
+            <l n="147">Mais à la fin honteux de s'être démenti,</l>
+            <l n="148">Il quitte Benzamin, et prend notre parti.</l>
+            <l n="149">Melistrate vainqueur, et content de sa gloire,</l>
+            <l n="150">Fut courtois au vaincu, plus qu'on ne le peut croire ;</l>
+            <l n="151">Et comme il était lors à vaincre accoutumé,</l>
+            <l n="152">Il vainquit combattant, et vainquit désarmé,</l>
+            <l n="153">Car comme il s'acquerrait un si glorieux titre,</l>
+            <l n="154">Xidiane des murs, se rendit leur arbitre ;</l>
+            <l n="155">Et noyant son amour au sang de Benzamin,</l>
+            <l n="156">En ses légèretés, imita le destin.</l>
+            <l n="157">Dès lors que le vainqueur se présente à la vue,</l>
+            <l n="158">son éclat l'éblouit, elle parait émue ;</l>
+            <l n="159">Et l'ayant pris pour Mars sous l'armet, à son tour,</l>
+            <l n="160">Elle le prend alors pour le Dieu de l'Amour :</l>
+            <l n="161">En vain elle combat en faveur de sa flamme,</l>
+            <l n="162">Le vainqueur, comme au camp, triomphe dans son âme ;</l>
+            <l n="163">Et le triste vaincu n'a plu aucunes parts,</l>
+            <l n="164">Ni dans ce coeur ingrat, ni dedans ses remparts.</l>
+            <l n="165">De l'un et l'autre lieu, Melistrate est le Maître,</l>
+            <l n="166">Il pardonne au trahi, mais il punit le traître ;</l>
+            <l n="167">Et rend par un illustre et célèbre refus, </l>
+            <l n="168">L'objet qui lui présente, interdit et confus.</l>
+            <l n="169">Lors l'Amour se retire, et fait place à la rage,</l>
+            <l n="170">Benzamin est surpris, et pense qu'on l'outrage,</l>
+            <l n="171">Quand il voit que l'on traite avec tant de mépris,</l>
+            <l n="172">Celle dont il était si tendrement épris.</l>
+            <l n="173">Xidiane en son sang, lave sa perfidie ;</l>
+            <l n="174">Et soudain son Amant, d'une main plus hardie,</l>
+            <l n="175">Pour venger son trépas, fait un dernier effort,</l>
+            <l n="176">Blesse au sein Melistrate, et se donne la mort.</l>
+            <l n="177">Tout le monde est confus d'une telle aventure,</l>
+            <l n="178">On enlève le mort, on songe à sa blessure ;</l>
+            <l n="179">Mais le blessé néglige et son sang et ses jours,</l>
+            <l n="180">Et des médicaments, refuse le secours.</l>
+            <l n="181">Il souffre seulement que Palmédon arrête,</l>
+            <l n="182">Le sang qui hasardait une si chère tête ;</l>
+            <l n="183">Mais il proteste alors qu'on travaille en vain,</l>
+            <l n="184">Et que sa guérison dépend d'une autre main.</l>
+            <l n="185">Son refus nous surprend, son discours nous étonne,</l>
+            <l n="186">Il nous fait retirer d'auprès de sa personne,</l>
+            <l n="187">Pour dépêcher sans doute un courrier en secret,</l>
+            <l n="188">Vers l'objet sans lequel il ne vit qu'à regret.</l>
+            <l n="189">Prazimène apprend donc l'accident qu'il annonce,</l>
+            <l n="190">Écrit à Melistrate, et fait cette réponse.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS, lit.</speaker>
+            <l n="191">« Melistrate vous avez tort,</l>
+            <l n="192">D'écouter une injuste envie ;</l>
+            <l n="193">Souvenez-vous que votre mort,</l>
+            <l n="194">Doit être la fin de ma vie ;</l>
+            <l n="195">Et que vouloir perdre le jour,</l>
+            <l n="196">C'est attenter aux miens, et finir mon amour. »</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="197"> Elle l'aime. Ô fatale aventure !</l>
+            <l n="198">Je n'en saurais douter, voilà son écriture.</l>
+            <l n="199">Oui, cette heureuse main sauva notre vainqueur,</l>
+            <l n="200">Et la même aujourd'hui me déchire le coeur.</l>
+            <l n="201">Mais d'où vient cette lettre ? Et qui te l'a pu rendre ?</l>
+            <l n="202">Éclaircit-moi d'un point que je ne puis comprendre.</l>
+            <l n="203">Un Amant si discret, et si prudent encore,</l>
+            <l n="204">A-t-il pu négliger un si rare trésor ?</l>
+            <l n="205">Est-ce un effet du sort, ou bien de ton adresse ?</l>
+            <l n="206">Achève, et satisfaits au désir qui me presse.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="207">Je vous vais contenter, Madame, en peu de mots.</l>
+            <l n="208">Un jour, comme il était dans un profond repos,</l>
+            <l n="209">J'entrai dedans sa chambre à l'heure accoutumée, </l>
+            <l n="210">Pour recevoir de lui les ordres de l'armée :</l>
+            <l n="211">Mais de peur de troubler un paisible sommeil;</l>
+            <l n="212">Je crus que je devais attendre son réveil.</l>
+            <l n="213">Je m'approche du lit, où voyant cette lettre,</l>
+            <l n="214">Ma curiosité me semble tout permettre,</l>
+            <l n="215">Je la prends, je la lis ; et sans trop contester,</l>
+            <l n="216">Je fais en même temps dessein de l'emporter.</l>
+            <l n="217">Mon dessein réussit, la lettre me demeure ;</l>
+            <l n="218">Pour les ordres du camp, je choisis une autre heure ;</l>
+            <l n="219">Et fait que rien alors ne me rendit suspect,</l>
+            <l n="220">Ou qu'il fut retenu de crainte, ou de respect,</l>
+            <l n="221">Il ne m'a point jamais parlé de cette perte,</l>
+            <l n="222">Par qui dorénavant sa flamme est découverte,</l>
+            <l n="223">Et par qui désormais vous pouvez rendre vains,</l>
+            <l n="224">Ses soupirs, son espoir, ses voeux et ses desseins.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="225">C'est ce que je veux faire ; allez, qu'on se retire.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS seule.</speaker>
+            <l n="226">Il suffit, je connais le charme qui l'attire ; </l>
+            <l n="227">Et que sur ce grand coeur qui fait ma passion,</l>
+            <l n="228">Prazimène peut moins, que son ambition.</l>
+            <l n="229">Hé bien, cher Melistrate, il te faut satisfaire,</l>
+            <l n="230">T'élever aux grandeurs que ton courage espère ;</l>
+            <l n="231">Mais il faut que mon coeur soit l'illustre degré,</l>
+            <l n="232">Du Trône, où je prétends que tu sois adoré.</l>
+            <l n="233">Aussi bien est-il temps que ma vengeance éclate,</l>
+            <l n="234">Contre un Roi que j'hais, encore que je le flatte,</l>
+            <l n="235">Contre un Roi, mais Tyran ; contre un usurpateur,,</l>
+            <l n="236">Qui de tous mes ennuis est le fatal auteur ;</l>
+            <l n="237">Qui fit de mes États le tombeau de mon père,</l>
+            <l n="238">Qui nagea dans le sang d'une tête si chère ;</l>
+            <l n="239">Et tout fumant encore de ce meurtre inhumain,</l>
+            <l n="240">Me força toute en peurs, à lui donner la main,</l>
+            <l n="241">Oui, le traître usurpa ma Couronne et ma couche,</l>
+            <l n="242">Sans l'aveu de mon coeur, ni celui de ma bouche ;</l>
+            <l n="243">Et tout m'abandonnant en ce funeste jour,</l>
+            <l n="244">La violence fit, ce que n'eût pu l'Amour</l>
+            <l n="245">Mais apprends, ô Tyran, que pour briser ma chaîne,</l>
+            <l n="246">Jusques ici mon coeur a déguisé sa haine,</l>
+            <l n="247">Que je vais par ta mort remonter à mon rang,</l>
+            <l n="248">Donner tête pour tête, et le sang pour le sang.</l>
+            <l n="249">Mon père veut de moi ce juste sacrifice,</l>
+            <l n="250">Ne lui refusons pas cet agréable office ;</l>
+            <l n="251">Et pour l'exécuter avec plus de soin,</l>
+            <l n="252">Acquérons nous un bras, qui nous serve au besoin ;</l>
+            <l n="253">Faisons de Melistrate un époux légitime,</l>
+            <l n="254">Et que la vertu règne, où triomphait le crime :</l>
+            <l n="255">Pour un si beau dessein, tout doit être permis ;</l>
+            <l n="256">Meurs donc le plus cruel de tous mes ennemis.</l>
+            <l n="257">Et puis l'âge te presse, et la Parque ravie,</l>
+            <l n="258">Est prête d'achever la trame de ta vie,</l>
+            <l n="259">Ôte lui le plaisir d'en arrêter le cours,</l>
+            <l n="260">Et donne à mon bonheur le reste de tes jours :</l>
+            <l n="261">Permets que mes plaisirs naissent de ton désastre,</l>
+            <l n="262">Et que ta nuit enfin, soit l'orient d'un Astre,</l>
+            <l n="263">Dont l'éclat ici bas n'eut jamais de pareil,</l>
+            <l n="264">Et paraît à mes yeux plus beau que le Soleil.</l>
+            <l n="265">Tout prêt de succomber aux faiblesses de l'âge,</l>
+            <l n="266">Le trépas t'est sans doute un heureux avantage,</l>
+            <l n="267">Puis qu'abrégeant tes jours, il peut mettre à couvert</l>
+            <l n="268">Des Lauriers que le temps fait souvent que l'on perd :</l>
+            <l n="269">Oui, ta mort peut sauver le reste de ta gloire,</l>
+            <l n="270">De tes sanglants projets, effacer la mémoire,</l>
+            <l n="271">Et faire quelques jours admirer aux Humains,</l>
+            <l n="272">Des Palmes, qu'un moment peut ravir à tes mains.</l>
+            <l n="273">Meurs, Ninus, meurs, avant que ton honneur expire ;</l>
+            <l n="274">Si tu vis plus longtemps, ton destin sera pire ;</l>
+            <l n="275">Approuve mon dessein; et par un noble effort,</l>
+            <l n="276">Évite mille morts, par une seule mort.</l>
+            <l n="277">Tu m'as juré cent fois qu'elle te serait chère,</l>
+            <l n="278">Si jamais elle avait le bonheur de me plaire :</l>
+            <l n="279">Elle me plaît, Ninus, je la veux ; et je crois,</l>
+            <l n="280">Qu'il ne faut point douter des promesses d'un Roi.</l>
+            <l n="281">Tu ne saurais périr d'un coup plus favorable,</l>
+            <l n="282">Mais n'aperçois-je pas ce Prince misérable ?</l>
+            <l n="283">Ah ! Parlons, il est temps, et feignons toutefois.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Ninus, Sémiramis, et Gardes.</head>
+          <sp who="tc0119-NINUS">
+            <speaker>NINUS.</speaker>
+            <l n="284">Ne saurais-je jamais le trouble où je vous vois ?</l>
+            <l n="285">Vous verrais-je toujours dans la mélancolie,</l>
+            <l n="286">Où votre âme paraît si fort ensevelie ?</l>
+            <l n="287">Sans que votre bonté, secondant mon désir ;</l>
+            <l n="288">M'apprenne le sujet de votre déplaisir ?</l>
+            <l n="289">Contentez, ma Princesse, une si juste envie,</l>
+            <l n="290">Il y va de ma joie, il y va de ma vie ;</l>
+            <l n="291">Et vous me ravirez l'une et l'autre aujourd'hui,</l>
+            <l n="292">Si vous persévérez en ce funeste ennui.</l>
+            <l n="293">Si pour le soulager, je puis trop peu de chose,</l>
+            <l n="294">Je dirai qu'à bon droit vous m'en taisez la cause ;</l>
+            <l n="295">Mais si ce rare effet est possible aux humains,</l>
+            <l n="296">Puis que tous vos désirs sont sur moi souverains,</l>
+            <l n="297">Je vous reprocherai, Princesse généreuse,</l>
+            <l n="298">Que votre affection est trop respectueuse,</l>
+            <l n="299">Si ne se fiant pas aux ardeurs d'un époux,</l>
+            <l n="300">Elle épargnait un sang, qu'elle sait tout à vous.</l>
+            <l n="301">Oui Madame, parlez, s'il vous est nécessaire,</l>
+            <l n="302">Cette épée et ce bras, s'en vont vous satisfaire ;</l>
+            <l n="303">Et même si ma mort rend vos jours plus heureux,</l>
+            <l n="304">J'en recevrai le coup d'un visage amoureux.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="305">Seigneur, n'achevez pas ce discours qui m'offense,</l>
+            <l n="306">Et ne me pressez point de rompre mon silence,</l>
+            <l n="307">De peur que mon orgueil, ou ma témérité,</l>
+            <l n="308">Ne me rende odieuse à votre Majesté.</l>
+            <l n="309">Il suffit de savoir que je suis femme et vaine,</l>
+            <l n="310">Et que ma vanité fait vos soins et ma peine :</l>
+            <l n="311">De vous dire à quel point mon coeur ose aspirer,</l>
+            <l n="312">C'est ce que sans rougir, je ne puis déclarer ;</l>
+            <l n="313">Que votre majesté, s'il lui plaît, m'en dispense,</l>
+            <l n="314">Ce secret me pourrait ôter sa bienveillance,</l>
+            <l n="315">Ou du moins altérer cet amour si parfait,</l>
+            <l n="316">Dont vous m'offrez encore un si sensible effet.</l>
+          </sp>
+          <sp who="tc0119-NINUS">
+            <speaker>NINUS.</speaker>
+            <l n="317">Certes, il faut qu'il soit d'une importance extrême, </l>
+            <l n="318">Si vous vous défiez d'un Prince qui vous aime,</l>
+            <l n="319">Et si vous le celez, à qui voudrait périr,</l>
+            <l n="320">Pour appuyer vos voeux, et vous y secourir.</l>
+            <l n="321">Hé bien, en ce dessein soyez opiniâtre,</l>
+            <l n="322">Croyez qu'on vous trahit, quand on vous idolâtre ;</l>
+            <l n="323">Et puis que mon tourment vous contente et vous plaît,</l>
+            <l n="324">Ne le finissez point, tout extrême qu'il est.</l>
+            <l n="325">Dites qu'en ma douleur, vous trouvez vos délices,</l>
+            <l n="326">Que votre déplaisir finit par mes supplices,</l>
+            <l n="327">Et que vous aimez mieux que je meure enragé,</l>
+            <l n="328">Que de rendre d'un mot mon esprit allégé.</l>
+            <l n="329">Si c'est l'ambition qui vous rend languissante,</l>
+            <l n="330">Dites-moi son objet, et quelle est votre attente ;</l>
+            <l n="331">Et d'un soin merveilleux j'emploierai mon pouvoir,</l>
+            <l n="332">À la porter plus loin, même que votre espoir.</l>
+            <l n="333">Notre Empire s'étend sur cent belles Provinces,</l>
+            <l n="334">Nous avons pour vassaux, et des Rois et des Princes,</l>
+            <l n="335">Et si tant de grandeur est peu pour vos projets,</l>
+            <l n="336">Bientôt tous les humains deviendront vos sujets ;</l>
+            <l n="337">Et lors que vous serez la Maîtresse du monde,</l>
+            <l n="338">Si votre autorité veut être sans seconde,</l>
+            <l n="339">Moi-même vous cédant, et mon Sceptre et mes droits,</l>
+            <l n="340">Je serai le premier à fléchir sous vos lois.</l>
+            <l n="341">Si vous le désirez, je ferai plus encore,</l>
+            <l n="342">Je ferai dans ces lieux, que chacun vous adore,</l>
+            <l n="343">Et que tout l'Univers vous dressant des Autels,</l>
+            <l n="344">Vous rende les honneurs, qu'on rend aux immortels.</l>
+            <l n="345">Après ce zèle ardent, et cette déférence,</l>
+            <l n="346">Pouvez-vous, ma Princesse, observer le silence ?</l>
+            <l n="347">Ah ! Parlez ; et croyez que pour vous obéir,</l>
+            <l n="348">Je serai prêt à tout, jusques à me trahir.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="349">Ce n'est pas d'aujourd'hui que j'ai vu grand Monarque,</l>
+            <l n="350">De votre affection, une infaillible marque.</l>
+            <l n="351">Dès lors que j'eus l'honneur de paraître à vos yeux,</l>
+            <l n="352">je reconnus en vous ce feu prodigieux,</l>
+            <l n="353">Qui n'ayant pour objet que fort peu de mérites,</l>
+            <l n="354">N'a jamais eu pourtant ni bornes, ni limites,</l>
+            <l n="355">Puis qu'en vous combattant, enfin je vous acquis,</l>
+            <l n="356">Et que de conquérant, vous fûtes le conquis.</l>
+            <l n="357">Mais en vain mon esprit, ma langue, et ma mémoire,</l>
+            <l n="358">Vous retracent ici le tableau de ma gloire ;</l>
+            <l n="359">Celui que vous voulez de mes sens interdits,</l>
+            <l n="360">Veut bien d'autres couleurs, et des traits plus hardis.</l>
+            <l n="361">Obéissons pourtant ; mais en cette occurrence,</l>
+            <l n="362">Souvenez vous, seigneur, que mon obéissance</l>
+            <l n="363">Est plutôt un effet de votre autorité,</l>
+            <l n="364">Que de mon imprudence, ou de ma volonté.</l>
+            <l n="365">Il ne faut pas enfin, pour me rendre contente,</l>
+            <l n="366">Que l'Univers soumis, remplisse mon attente,</l>
+            <l n="367">Que votre affection oblige les mortels,</l>
+            <l n="368">À flatter mon orgueil, ni d'encens, ni d'Autels,</l>
+            <l n="369">Ou que pour satisfaire à mon effronterie,</l>
+            <l n="370">Votre zèle à l'amour joigne l'idolâtrie.</l>
+            <l n="371">Je ne me laisse pas à ce point aveugler,</l>
+            <l n="372">J'ai de l'ambition, mais je la sais régler ;</l>
+            <l n="373">Et pour la vanité dont mon âme est saisie,</l>
+            <l n="374">Il suffira, grand Roi, du Sceptre de l'Asie.</l>
+            <l n="375">Si seule j'ai l'honneur pour trois jours seulement,</l>
+            <l n="376">De pouvoir sur le trône agir absolument,</l>
+            <l n="377">Mon âme en cet état pleinement satisfaite,</l>
+            <l n="378">Aura de vos bontés, tout ce qu'elle souhaite.</l>
+            <l n="379">Ce n'est pas qu'aspirant à ce degré si haut,</l>
+            <l n="380">Je vois en vos exploits ni tâche, ni défaut ;</l>
+            <l n="381">Au contraire, Seigneur, votre conduite est telle,</l>
+            <l n="382">Quelle est des plus parfaits, l'admirable modèle ;</l>
+            <l n="383">Et la sainte équité qu'on remarque en vos Lois,</l>
+            <l n="384">Devrait être la règle et l'étude des Rois.</l>
+            <l n="385">Permettez qu'en suivant ce merveilleux exemple,</l>
+            <l n="386">Babylone ravie, aujourd'hui me contemple ;</l>
+            <l n="387">Et regarde une femme avec étonnement,</l>
+            <l n="388">Faire rougir des Rois, par son Gouvernement.</l>
+            <l n="389">Vous savez, ô Ninus, par des preuves certaines,</l>
+            <l n="390">Que j'ai toujours fait honte à tous vos Capitaines ;</l>
+            <l n="391">Qu'ils ont en cent combats admiré ma valeur,</l>
+            <l n="392">Que toujours ma prudence a surmonté la leur ;</l>
+            <l n="393">Et leur gloire est autant dessous de la nôtre,</l>
+            <l n="394">Que la mienne parait au dessous de la vôtre,</l>
+            <l n="395">Souffrez qu'en peu de jours j'ajoute à cet éclat,</l>
+            <l n="396">L'avantage et l'honneur de régir un État ;</l>
+            <l n="397">Et que je fasse un jour dire aux races futures,</l>
+            <l n="398">Qui sans doute liront nos belles aventures,</l>
+            <l n="399">Quels étaient, justes Dieux ! Les hommes de ce temps,</l>
+            <l n="400">Si les femmes ont fait des miracles si grands ;</l>
+            <l n="401">Ou si vous répugnez au désir qui me presse,</l>
+            <l n="402">Faites un autre effort, oubliez ma faiblesse ;</l>
+            <l n="403">Et puis que mon regret m'en peut allez punir,</l>
+            <l n="404">Chassez en désormais jusques au souvenir.</l>
+            <l n="405">Mais ce n'est pas assez, réparez de ma teste,</l>
+            <l n="406">L'offense que vous fait une injuste requête ;</l>
+            <l n="407">Dans les flots de mon sang, étouffez mon orgueil ;</l>
+            <l n="408">Et puis qu'au lieu du Trône, on m'apprête un cercueil ;</l>
+            <l n="409" part="I">Enfin</l>
+          </sp>
+          <sp who="tc0119-NINUS">
+            <speaker>NINUS.</speaker>
+            <l n="409" part="F">N'achève pas, il suffit ma Princesse,</l>
+            <l n="410">Que je vous ai d'abord engagé ma promesse ;</l>
+            <l n="411">Et ma foi vous doit rendre assuré à ce point,</l>
+            <l n="412">Que les serments des Rois, ne se révoquent point.</l>
+            <l n="413">Oui, dedans mes États vous serez Souveraine,</l>
+            <l n="414">Seule vous jouirez du beau Titre de Reine ;</l>
+            <l n="415">Et pour rendre plutôt vos désirs satisfaits,</l>
+            <l n="416">Je m'en vais de ce pas travailler aux effets.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="417">Dis que par cette voie à ma faveur ouverte,</l>
+            <l n="418">Tu t'en vas, malheureux, travailler à ta perte ;</l>
+            <l n="419">Et par l'étrange effet d'un prodige nouveau,</l>
+            <l n="420">Me préparer un trône, et t'ouvrir le tombeau.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Sémiramis, Prazimène, Herminie.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="421">Pourquoi désavouer une chose certaine ?</l>
+            <l n="422">Ne dissimulez point ; vous l'aimez Prazimène ;</l>
+            <l n="423">Et sans considérer s'il est digne de vous,</l>
+            <l n="424">Votre aveugle désir le choisit pour époux.</l>
+            <l n="425">Oui, n'en rougissez point, vous aimez Melistrate ;</l>
+            <l n="426">J'avoue avec vous que sa valeur éclate,</l>
+            <l n="427">Que son bras généreux est l'appui de l'État ;</l>
+            <l n="428">Mais ce grand homme enfin, n'est qu'un simple soldat ;</l>
+            <l n="429">Ses belles actions méritent votre estime ;</l>
+            <l n="430">La gloire est à ses faits un tribut légitime ;</l>
+            <l n="431">Et je crois qu'il rencontre en ses nobles emplois,</l>
+            <l n="432">Un salaire assez grand, pour ses rares exploits,</l>
+            <l n="433">Mais vous donner à lui ! Songez-vous, Prazimène,</l>
+            <l n="434">Qu'un sujet est trop bas pour une Souveraine ?</l>
+            <l n="435">Et que vous faites tort, par un indigne amour,</l>
+            <l n="436">À cet illustre sang, dont vous tenez le jour ?</l>
+            <l n="437">Comment vous êtes vous à ce point oubliée ?</l>
+            <l n="438">Ne vous souvient-il plus d'être notre alliée ?</l>
+            <l n="439">Et que vous offensez, par des lâches soupirs,</l>
+            <l n="440">Un coeur qui doit prétendre à bien d'autres désirs ?</l>
+            <l n="441">Ah ! Reconnaissez-vous, et rentrez en vous-même ;</l>
+            <l n="442">Le prix de votre amour, doit être un diadème ;</l>
+            <l n="443">L'espérance d'un Trône, en doit être l'objet ;</l>
+            <l n="444">Un Roi doit vous charmer, et non pas un sujet.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="445">Madame, le beau feu dont on me croit atteinte,</l>
+            <l n="446">Est tel, que je le puis avouer sans contrainte :</l>
+            <l n="447">Oui, j'aime Melistrate ; et je serais sans coeur,</l>
+            <l n="448">Si j'étais insensible aux traits de ce vainqueur.</l>
+            <l n="449">Mais dans ce sentiment que la vertu me donne,</l>
+            <l n="450">J'aime ses qualités bien plus que sa personne ;</l>
+            <l n="451">Et quiconque atteindrait à ses perfections,</l>
+            <l n="452">Partagerait aussi mes inclinations :</l>
+            <l n="453">Il est vrai que je suis de naissance Royale,</l>
+            <l n="454">Mais la sienne n'est pas à la mienne inégale,</l>
+            <l n="455">Puis qu'il fait voir assez par ses nobles exploits,,</l>
+            <l n="456">S'il n'est du sang des Dieux, qu'il est du sang des Rois.</l>
+            <l n="457">La pompe ni l'orgueil, ne font point les Monarques,</l>
+            <l n="458">Les pourpres et les grandeurs, en sont de faibles marques ;</l>
+            <l n="459">Mais il faut avouer, quelque erreur qu'on ait eu,</l>
+            <l n="460">Que ce qui fait les Rois, est la seule vertu.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="461">Oui, mais cette vertu qui n'est pas ordinaire,</l>
+            <l n="462">Descend fort rarement dans une âme vulgaire,</l>
+            <l n="463">Le vice enfin l'imite ; et l'on peut bien alors,</l>
+            <l n="464">Adorer l'un pour l'autre, et l'ombre pour le corps.</l>
+            <l n="465">Déjà ce faux brillant qui vous plaît et vous flatte,</l>
+            <l n="466">Vous séduit en faveur de votre Melistrate ;</l>
+            <l n="467">Il a si bien charmé votre coeur et vos yeux,</l>
+            <l n="468">Qu'ils auraient à mépris et des Rois et des Dieux :</l>
+            <l n="469">Mais quoi que vos vertus lâchement étouffées,</l>
+            <l n="470">À ce jeune Héros soient d'illustres trophées,</l>
+            <l n="471">M'assureriez-vous bien qu'il n'ait point de froideur</l>
+            <l n="472">Pour une si puissante et si fidèle ardeur ?</l>
+            <l n="473">La gloire est un Démon d'une étrange nature,</l>
+            <l n="474">Qui la possède plus, connaît moins la mesure ;</l>
+            <l n="475">C'est un Démon qui tue avec des appas,</l>
+            <l n="476">Qui commande toujours, et ne s'arrête pas.</l>
+            <l n="477">Peut-être que devant quelle eut enflé son âme,</l>
+            <l n="478">Melistrate eut pour vous quelque légère flamme ;</l>
+            <l n="479">Et son esprit alors moins superbe et plus doux ;</l>
+            <l n="480">Ne crût point s'abaisser, en s'adressant à vous :</l>
+            <l n="481">Mais maintenant que tout pour sa gloire conspire,</l>
+            <l n="482">Qu'il ne lui faut qu'un pas pour monter à l'Empire,</l>
+            <l n="483">Et que tout l'Univers le redoute aujourd'hui,</l>
+            <l n="484">Peut-être qu'il vous croit bien au dessous de lui :</l>
+            <l n="485">Évitez cet affront, songez y, Prazimène,</l>
+            <l n="486">Vous devez craindre tout d'une âme si hautaine ;</l>
+            <l n="487">Il peut rendre vos voeux, et trompés et confus ;</l>
+            <l n="488">Toute amante qui s'offre, est digne de refus ;</l>
+            <l n="489">Et d'une passion trop ardente et trop prompte,</l>
+            <l n="490">Il n'en résulte rien, souvent que de la honte.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="491">Mon coeur n'a rien à craindre en cette occasion,</l>
+            <l n="492">Ni de la vanité, ni de ma passion :</l>
+            <l n="493">Madame, à quelque point que mon âme le prise,</l>
+            <l n="494">Je suis à conquérir, et ne suis pas conquise.</l>
+            <l n="495">Il m'a bien avoué que dès lors qu'il me vit,</l>
+            <l n="496">Il trouva quelque chose en moi qui le ravit ;</l>
+            <l n="497">Mais que le même objet qui fit naître sa flamme, </l>
+            <l n="498">Lui mit avec l'amour, tant de respect en l'âme,</l>
+            <l n="499">Qu'il a longtemps brûlé, sans oser déclarer,</l>
+            <l n="500">L'ardeur qui le faisait sans cesse soupirer.</l>
+            <l n="501">Le jour que couronné des mains de la victoire,</l>
+            <l n="502">Il parut à la Cour tout rayonnant de gloire,</l>
+            <l n="503">D'un superbe ennemi triomphant et vainqueur,</l>
+            <l n="504">J'appris lors que mes yeux triomphaient de son coeur</l>
+            <l n="505">Sortant d'auprès de vous, cet illustre courage,</l>
+            <l n="506">Tout tremblant de respect, vint m'offrir cet hommage,</l>
+            <l n="507">Et je fus toutefois glorieuse à ce point,</l>
+            <l n="508">Qu'encore qu'il me plût, je ne l'acceptai point.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="509">Non, mais de ce mépris son âme s'est vengée,</l>
+            <l n="510">Et pour lui désormais votre humeur est changée ;</l>
+            <l n="511">Après tant de froideurs, à présent vous brûlez ?</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="512" part="I">Moi, Madame ?</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="512" part="F">Oui vous, en vain vous le celez ;</l>
+            <l n="513">Les effets, malgré vous, l'ont assez fait paraître.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="514" part="I">Quels effets ?</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="514" part="M">Voyez-les.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE, reconnaissant la Lettre.</speaker>
+            <l n="514" part="F">Ah, l'ingrat ! Ah, le traître !</l>
+            <l n="515" part="I">Que voyez-vous, mes yeux ?</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="515" part="F">Un étrange secret.</l>
+            <l n="516">Ô le parfait Amant ! Qu'il est sage et discret.</l>
+            <l n="517">Hé bien, que ferez-vous après un tel outrage ?</l>
+            <l n="518">Ainsi que sans raison, serez-vous sans courage ?</l>
+            <l n="519">Si vous étiez aimable à ce superbe esprit,</l>
+            <l n="520">L'ingrat n'aurait jamais négligé cet écrit.</l>
+            <l n="521">Il l'aurait tenu cher à l'égal de sa vie ;</l>
+            <l n="522">Mais ravi qu'on vous sache à ses lois asservie,</l>
+            <l n="523">Lui même l'a sans doute à chacun exposé,</l>
+            <l n="524">Et permis un larcin, qu'on n'aurait pas osé.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="525">Prêt de faire en son sang un funeste naufrage,</l>
+            <l n="526">Il eut de ma pitié ce honteux témoignage ;</l>
+            <l n="527">Mais puis qu'il est perfide, il verra qu'à son tour,</l>
+            <l n="528">Le dépit en mon coeur, est plus fort que l'amour.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="529">Sans porter votre esprit à quelque violence,</l>
+            <l n="530">À ses lâches projets, opposez la prudence ;</l>
+            <l n="531">Et quand vous le verrez, qu'un assez froid accueil,,</l>
+            <l n="532">Par de justes mépris, punisse son orgueil :</l>
+            <l n="533">Cependant, agréez les devoirs d'Oronclide,</l>
+            <l n="534">Répondez à ses voeux, aux yeux de ce perfide,</l>
+            <l n="535">Afin que le voyant près de vous en crédit, </l>
+            <note type="L">Forcener : Devenir forcené, perdre la raison.</note>
+            <l n="536">Il forcène de rage, et crève de dépit.</l>
+            <l n="537">Ce choix réparera la bassesse de l'autre,</l>
+            <l n="538">Oronclide est d'un sang qui répond mieux au votre,</l>
+            <l n="539">Il a des qualités capables de charmer ;</l>
+            <l n="540">Et si vous m'en croyez, vous le devez aimer.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="541">Sortant si fraîchement d'un visible naufrage,</l>
+            <l n="542">Je ne veux point si tôt m'exposer à l'orage,</l>
+            <l n="543">Ni trop imprudemment une autrefois courir,</l>
+            <l n="544">Vers le même rocher, où j'ai pensé périr.</l>
+            <l n="545">Je veux dorénavant, en pareille occurrence,</l>
+            <l n="546">Employer plus de temps, et plus de prévoyance,</l>
+            <l n="547">Et montrer désormais, que plus sage en amour,</l>
+            <l n="548">Prazimène n'est pas la conquête d'un jour.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="549" part="I">Vous y pourrez songer, allez.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE, s'en allant.</speaker>
+            <l n="549" part="F">C'est mon envie :</l>
+            <l n="550">Mais non, perdons plutôt l'espérance et la vie,</l>
+            <l n="551">Et faisons par un coup aussi juste que beau,</l>
+            <l n="552">Qu'où l'Amour eu son Trône, il trouve son tombeau.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS, seule.</speaker>
+            <l n="553">Tout répond à mes voeux ; le dépit et la haine,</l>
+            <l n="554">Font d'étranges effets au coeur de Prazimène ;</l>
+            <l n="555">Cette ruse subtile a rompu ses liens,</l>
+            <l n="556">Et la même à présent vient d'assurer les miens :</l>
+            <l n="557">Mon bonheur désormais n'a plus rien qui l'égale,</l>
+            <l n="558">Puis que j'ai supplanté ma superbe rivale,</l>
+            <l n="559">Et que tout se dispose au gré de mes désirs,</l>
+            <l n="560">À seconder ma flamme, et faire mes plaisirs.</l>
+            <l n="561">D'elle-même déjà ma victime s'apprête,</l>
+            <l n="562">Le glaive pend déjà sur son illustre tête ;</l>
+            <l n="563">Et pour ce sacrifice ardemment désiré,</l>
+            <l n="564">Le magnifique Autel est déjà préparé ;</l>
+            <l n="565">Pour un coup si célèbre et de telle importance,</l>
+            <l n="566">On attend seulement mon ordre, et ma préférence ;</l>
+            <l n="567">Et pour exécuter un si hardi dessein,</l>
+            <l n="568">Je n'ai plus désormais qu'à choisir une main,</l>
+            <l n="569">Qui puisse sans remords faire un illustre crime,</l>
+            <l n="570">Et sans étonnement immoler la victime.</l>
+            <l n="571" part="I">La voici.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Sémiramis, Merzabane.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="571" part="F">Merzabane, aujourd'hui je veux voir,</l>
+            <l n="572">Combien mes volontés ont sur vous de pouvoir.</l>
+            <l n="573">Je vous vais révéler un secret qui me touche,</l>
+            <l n="574">Jusqu'au point qu'à regret je le fis à ma bouche ;</l>
+            <l n="575">Et pourtant, sans tirer de vous aucun serment,</l>
+            <l n="576">Mon coeur va devant vous s'ouvrir entièrement :</l>
+            <l n="577">Aussi loin de prier, songez que je commande ;</l>
+            <l n="578">Le trépas de Ninus, est ce que je demande ;</l>
+            <l n="579">Et pour me procurer ce bonheur souverain,</l>
+            <l n="580">Connaissant votre coeur, j'ai choisi votre main.</l>
+            <l n="581">Ne me demandez pas les raisons, ni la cause,</l>
+            <l n="582">mais songez aux effets de ce que je propose ;</l>
+            <l n="583">Il suffit que ce coup est un coup que je veux,</l>
+            <l n="584">Pour sortir de mes fers, et pour vous rendre heureux.</l>
+            <l n="585">De plus, souvenez-vous, qu'en suivant mon envie,</l>
+            <l n="586">Cette mort que j'attends, assure votre vie, </l>
+            <l n="587">Que d'injustes soupçons vont bien tôt vous ravir,</l>
+            <l n="588">Si la crainte vous rend trop lent à me servir.</l>
+            <l n="589">Pour vous rendre discret, ayez en la mémoire,</l>
+            <l n="590">Que je mets en vos mains mon repos et ma gloire ;</l>
+            <l n="591">Et si vous ne voulez vous-même vous trahir,</l>
+            <l n="592">Qu'il n'est plus même en vous de me désobéir ;</l>
+            <l n="593">Vous ayant honoré de cette confidence,</l>
+            <l n="594">Votre esprit ne doit plus demeurer en balance ;</l>
+            <l n="595">Songez-y Merzabane, où je vous ferai voir,</l>
+            <l n="596">Qu'il faut donner le coup, ou bien le recevoir.</l>
+            <l n="597">Comme ce coup est grand, tentez votre courage ;</l>
+            <l n="598">Ou si le coeur vous manque en un si grand ouvrage,</l>
+            <l n="599">Au moins ayez des yeux pour voir exécuter,</l>
+            <l n="600">Ce qu'une vaine peur vous défend de tenter :</l>
+            <l n="601">Oui, oui, si vous tremblez, venez voir une femme,</l>
+            <l n="602">Achever hardiment le complot qu'elle trame,</l>
+            <l n="603">Et vous faire avouer, qu'elle n'aura pas moins</l>
+            <l n="604">De grands admirateurs, qu'elle aura de témoins.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="605">Madame, si jamais j'avais manqué de zèle,</l>
+            <l n="606">Pour rendre à vos désirs un service fidèle,</l>
+            <l n="607">Vous pourriez soupçonner en cette occasion,</l>
+            <l n="608">Mon ardeur, mon courage, et ma discrétion ;</l>
+            <l n="609">Mais vous ayant donné tant de preuves certaines,</l>
+            <l n="610">Que pour moi, vos désirs sont des lois souveraines,</l>
+            <l n="611">Pardonnez si je dis à votre Majesté,</l>
+            <l n="612">Qu'elle a tort de douter de ma fidélité.</l>
+            <l n="613">Madame, croyez donc que pour votre service,</l>
+            <l n="614">Il n'est rien que je n'ose, et que je n'accomplisse ;</l>
+            <l n="615">J'affronterai pour vous, et l'enfer et les Cieux,</l>
+            <l n="616">Le fer, le feu, la mort, et les hommes et les Dieux :</l>
+            <l n="617">Pour vous je trouverai tout acte légitime,</l>
+            <l n="618">Je hasarderai tout, ma gloire, mon estime,</l>
+            <l n="619">Ma fortune, mon sang, mon pays, mon honneur,</l>
+            <l n="620">Pourvu que mon péril fasse votre bonheur.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="621">Vous ne hasardez rien en un si bon office,</l>
+            <l n="622">Puis que même Ninus sera votre complice,</l>
+            <l n="623">Et que ce lâche Roi, devenu mon sujet,</l>
+            <l n="624">Secondera le coup, dont il sera l'objet.</l>
+            <l n="625">Pour trois jours seulement il me cède l'Empire ,</l>
+            <l n="626">Mais dés ce même jour je prétends qu'il expire ;</l>
+            <l n="627">Et que pour m'assurer le Trône tout à fait,</l>
+            <l n="628">Il signe de son sang le présent qu'il m'a fait.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="629">Madame quand j'aurai l'ordre qu'il me faut suivre,</l>
+            <l n="630">Il cessera bientôt de régner et de vivre.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="631">Quelqu'un vient, suivez moi, je vous dirai comment</l>
+            <l n="632">Vous pourrez obéir à mon commandement.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV.</head>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE, seule.</speaker>
+            <l n="633">Tyran des coeurs, Bourreau des âmes,</l>
+            <l n="634">Maître des Humains, et des Dieux,</l>
+            <l n="635">Redoutable vainqueur des plus ambitieux,</l>
+            <l n="636">Dieu de fers, de soupirs, de tourments, et de flammes :</l>
+            <l n="637">Amour, que les coups de tes traits,</l>
+            <l n="638">Ont d'abords de puissants attraits,</l>
+            <l n="639">Qu'ils sont une agréable et charmante blessure ;</l>
+            <l n="640">Mais après de si doux moments,</l>
+            <l n="641">Hélas ! Que ton humeur change bien de nature,</l>
+            <l n="642">Et qu'elle est fatale aux amants.</l>
+            <l n="643">En vain insensible et rebelle,</l>
+            <l n="644">Mon coeur a longtemps combattu ; </l>
+            <l n="645">Pour venger cet affront, tu punis ma vertu,</l>
+            <l n="646">Par les légèretés d'un Amant infidèle.</l>
+            <l n="647">Ah ! Si tu ne me fais raison</l>
+            <l n="648">De cette injuste trahison,</l>
+            <l n="649">Je sais bien les moyens de braver ta malice ;</l>
+            <l n="650">Et faisant un illustre effort,</l>
+            <l n="651">M'affranchir de tes fers, et de ton injustice,</l>
+            <l n="652">Avec les traits de la mort.</l>
+            <l n="653">Mais c'est la commune allégeance</l>
+            <l n="654">Que cherchent les faibles Esprits ;</l>
+            <l n="655">Aux mépris d'un ingrat, opposons le mépris,</l>
+            <l n="656">Et de ses propres traits, faisons notre vengeance :</l>
+            <l n="657">Que son nom soit enseveli</l>
+            <l n="658">Dedans un éternel oubli,</l>
+            <l n="659">Que les feintes ardeurs sortent de ma mémoire ;</l>
+            <l n="660">Et que par de justes dédains,</l>
+            <l n="661">Mes yeux réparent tôt, en dépit de sa gloire,</l>
+            <l n="662">La faute qu'ont feinte mes mains.</l>
+            <l n="663">Melistrate ! Ô grands Dieux ! Est-il bien véritable,</l>
+            <l n="664">Que d'un crime si noir il ait été capable ?</l>
+            <l n="665">La fortune aurait-elle à ce point aveuglé,</l>
+            <l n="666">Cet Astre de la Cour, cet Esprit si réglé ?</l>
+            <l n="667">Ah ! Quoi que son forfait ait beaucoup d'apparence,</l>
+            <l n="668">Mes yeux peuvent à peine établir ma créance,</l>
+            <l n="669">Et je sens en mon coeur un secret mouvement,</l>
+            <l n="670">Qui me parle en faveur de ce perfide Amant ;</l>
+            <l n="671">J'écoute avec plaisir ce penser qui me flatte,</l>
+            <l n="672">Et puis je le détruis, et blâme Melistrate.</l>
+            <l n="673">Ah ! Désordres confus de mes pensées errantes,</l>
+            <l n="674">Où se termineront mes desseins différents ?</l>
+            <l n="675">Je déteste son nom, je le hais, je l'abhorre,</l>
+            <l n="676">Je le fuis, je le crains, et si je l'aime encore :</l>
+            <l n="677">Je sens mon feu s'éteindre, et puis se rallumer ;</l>
+            <l n="678">Je ne le puis haïr, je ne le puis aimer,</l>
+            <l n="679">Le dépit me saisit, et puis il m'abandonne,</l>
+            <l n="680">Tantôt je le condamne, après je lui pardonne ;</l>
+            <l n="681">Et dans ces flots divers, qui viennent m'agiter,</l>
+            <l n="682">Mon esprit incertain ne sait où s'arrêter : </l>
+            <l n="683">Ah ! C'est trop Mais, ô Dieux ! Ne vois-je point paraître</l>
+            <l n="684">Le Confident adroit d'un si perfide Maître ?</l>
+            <l n="685" part="I">Oui, c'est lui ; que ferai-je ?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Prazimène, Palmédon.</head>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="685" part="F">Avancez, Palmédon ;</l>
+            <l n="686">Qu'est-ce, me venez-vous demander un pardon,</l>
+            <l n="687">Pour le plus insolent et plus lâche des hommes,</l>
+            <l n="688">Qu'ait soutenu la Terre en ce siècle où nous sommes ?</l>
+            <l n="689">Ou pour plaire à ce coeur en crimes si féconds,</l>
+            <l n="690">Venez-vous au premier ajouter le second ?</l>
+            <l n="691">Ce vainqueur orgueilleux, ce superbe courage,</l>
+            <l n="692">Veut-il de mon amour quelqu'autre témoignage ?</l>
+            <l n="693">N'est-il pas satisfait de ceux qu'il a reçus ?</l>
+            <l n="694">Ne répondent-ils pas aux voeux qu'il a conçus ?</l>
+            <l n="695">Ont-ils trop de froideur, ou trop d'indifférence,</l>
+            <l n="696">Pour étaler ma honte, ou bien son arrogance ?</l>
+            <l n="697">Ayant jeté ma Lettre avec tant de mépris,</l>
+            <l n="698">Peut être que l'ingrat veut ravoir ses écrits ;</l>
+            <l n="699">Et vous, pour obéir à cette âme hautaine,</l>
+            <l n="700">Vous les redemandez peut-être à Prazimène.</l>
+            <l n="701">Mais quoi qu'ils soient formés et signés de son sang,</l>
+            <l n="702">Qu'il sache néanmoins, que celles de mon rang,</l>
+            <l n="703">À sa confusion, ont assez de courage,</l>
+            <l n="704">Pour avoir méprisé ce honteux avantage.</l>
+            <l n="705">Oui, si ce projet seul vous amène en ces lieux ;</l>
+            <l n="706">Vous pouvez retourner vers cet ambitieux,</l>
+            <l n="707">Et lui certifier que j'ai réduit en cendre,</l>
+            <l n="708">Les Lettres dont les traits ont pensé me surprendre ;</l>
+            <l n="709">Et que son coeur ingrat, que j'estimais à tort,</l>
+            <l n="710">S'il était en mes mains, aurait un même sort.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="711">Confus, triste, pensif, je ne sais que résoudre,</l>
+            <l n="712">Ayant ouï gronder l'épouvantable foudre,</l>
+            <l n="713">Qui menace aujourd'hui le Héros plus parfait,</l>
+            <l n="714">Et le plus innocent que la Nature ait fait.</l>
+            <l n="715">Mais, ô Dieux ! Quels Démons pleins d'envie et de rage,</l>
+            <l n="716">Ont si soudainement excité cet orage  ?</l>
+            <l n="717">Qu'ai-je vu ? Qu'ai-je ouï ? Quelles impressions,</l>
+            <l n="718">Causent en votre coeur ces altérations ?</l>
+            <l n="719">Quoi, Madame, est-ce en vous que cette haine éclate ?</l>
+            <l n="720">Est-ce vous qui se plaint, et blâme Melistrate ?</l>
+            <l n="721">Vous qu'il aime, ou plutôt qu'il adore en tous lieux,</l>
+            <l n="722">Avec plus de respect, qu'on n'adore les Dieux.</l>
+            <l n="723">Quoi, vous traitez d'ingrat ; d'insolent et de traître,</l>
+            <l n="724">Le plus fidèle amant que le ciel ait fait naître ?</l>
+            <l n="725">Quoi, vous le condamnez, et même sans l'ouïr ?</l>
+            <l n="726">Lui qui mourrait cent fois, plutôt que vous trahir.</l>
+            <l n="727">Ah ! Quittez cette erreur, et quittez la pensée, </l>
+            <l n="728">Que par aucun mépris il vous ait offensée ;</l>
+            <l n="729">Il est toujours lui-même ; il est toujours à vous,</l>
+            <l n="730">Et mérite, sans doute, un traitement plus doux.</l>
+            <l n="731">Après tant de respects, après tant d'assurances,</l>
+            <l n="732">D'ardeurs, de voeux, de soins, de pleurs, d'obéissances,</l>
+            <l n="733">D'un véritable amour, ordinaires témoins,</l>
+            <l n="734">Vous deviez bien, Madame en douter un peu moins.</l>
+            <l n="735">Comment avez-vous pu si légèrement croire,</l>
+            <l n="736">De si faux sentiments, formés contre sa gloire ?</l>
+            <l n="737">Quel charme si puissant a pu vous éblouir ?</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="738">Celui qu'il souhaitait afin de me trahir,</l>
+            <l n="739">La lettre qu'en son nom vous m'avez demandée,</l>
+            <l n="740">Et qu'enfin ma pitié vous avait accordée :</l>
+            <l n="741">Oui, ce funeste écrit que vous eûtes de moi,</l>
+            <l n="742">Quand son perfide sang m'assurait de sa foi,</l>
+            <l n="743">Étant par son moyen au pouvoir de la Reine,</l>
+            <l n="744">Fait avec raison éclater Prazimène.</l>
+            <l n="745">S'il m'avait adorée avec tant de ferveur,</l>
+            <l n="746">Il aurait mieux gardé cette insigne faveur,</l>
+            <l n="747">Et n'aurait pas rendu par un trait qui me pique,</l>
+            <l n="748">Sa vanité visible, et ma honte publique.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="749">Ah ! Madame, il suffit : Souffrez, au nom des Dieux,</l>
+            <l n="750">Que Palmédon ici vous dessille les yeux,</l>
+            <l n="751">Et qu'il vous fasse voir, qu'une fausse apparence,</l>
+            <l n="752">Vous fait injustement condamner l'innocence :</l>
+            <l n="753">Il est vrai que l'écrit dont vous m'avez parlé,</l>
+            <l n="754">Lui fut dernièrement dans sa chambre volé,</l>
+            <l n="755">Tandis qu'il reposait, et qu'il songeait encore,</l>
+            <l n="756">Au présent qu'il tenait d'une main qu'il adore.</l>
+            <l n="757">Oui, Madame, aussi tôt qu'il eut reçu de moi</l>
+            <l n="758">Ce gage mutuel d'une constante foi,</l>
+            <l n="759">Il baisa mille fois ce divin caractère,</l>
+            <l n="760">Le sommeil le surprit, et lors un téméraire,</l>
+            <l n="761">S'approchant de son lit en ce triste moment,</l>
+            <l n="762">Sans doute lui ravit un trésor si charmant.</l>
+            <l n="763">Hélas ! À son réveil quelle fut sa tristesse,</l>
+            <l n="764">Quand il ne trouva plus l'écrit de sa Princesse !</l>
+            <l n="765">Ah ! Je vis sa douleur, je vis son désespoir,</l>
+            <l n="766">Et plût aux Dieux alors, que vous l'eussiez pu voir ;</l>
+            <l n="767">D'une juste pitié, votre belle âme atteinte,</l>
+            <l n="768">Eut de ce cher objet détourné votre plainte.</l>
+            <l n="769">Pour la faire éclater avec plus de raison,</l>
+            <l n="770">Contre le lâche auteur de cette trahison.</l>
+            <l n="771">Merzabane, Madame, a fait ce trait perfide,</l>
+            <l n="772">Pour perdre Melistrate, et servir Oronclide,</l>
+            <l n="773">Qui n'osant jusqu'à vous élever ses esprits,</l>
+            <l n="774">Bâtira désormais sur ce triste débris.</l>
+            <l n="775" part="I">Mais hélas !</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="775" part="F">C'est assez, n'en dit pas davantage,</l>
+            <l n="776">Tes puissantes raisons ont apaisé l'orage,</l>
+            <l n="777">Qui m'a presque réduite à descendre au tombeau ;</l>
+            <l n="778">Mais à peine j'en sors, que j'en crains un nouveau :</l>
+            <l n="779">Le projet d'Oronclide est une autre tempête,</l>
+            <l n="780">Dont déjà les éclairs ont menacé ma tête ;</l>
+            <l n="781">Mais autant qu'elle soit en état d'éclater,</l>
+            <l n="782">Puis que je la prévois, je pourrai l'éviter.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="783">Melistrate revient, et je crois que ses calmes</l>
+            <l n="784">Pourront rendre vos jours plus sereins et plus calmes ;</l>
+            <l n="785">Je vous venais, Madame, annoncer son retour.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="786">Tu me rends, Palmédon, et la vie et l'amour.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIERE. Ninus, Sémiramis, Merzabane, Oronclide, Cambises, Zénophire, et les Gardes.</head>
+          <sp who="tc0119-NINUS">
+            <speaker>NINUS, au trône.</speaker>
+            <l n="787">Enfin voici l'heureuse et célèbre journée,</l>
+            <l n="788">Que la même vertu se verra couronnée,</l>
+            <l n="789">Et que le plus parfait des ouvrages des Cieux,</l>
+            <l n="790">Régnera sur un trône égal à ceux des Dieux .</l>
+            <l n="791">Princes, qui relevez de ce superbe Empire,</l>
+            <l n="792">Que tout le monde craint, et que le Ciel admire,</l>
+            <l n="793">Appui de cet État, et qu'on peut en ce jour,</l>
+            <l n="794">appeler justement les Astres de ma cour :</l>
+            <l n="795">Il est temps que ma voix vous fasse l'ouverture,</l>
+            <l n="796">D'un projet admirable à toute la Nature,</l>
+            <l n="797">Et vous rende savants en cette occasion,</l>
+            <l n="798">Des illustres motifs d'une telle action.</l>
+            <l n="799">Il faut premièrement vous remettre en mémoire,</l>
+            <l n="800">Ces triomphes divers, et ces jours pleins de gloire,</l>
+            <l n="801">Qui nous virent dompter tant de peuples puissants,</l>
+            <l n="802">Les Parthes, ceux de Tyr, les Mèdes, les Persans ;</l>
+            <l n="803">Et puis vous souvenir quelles forces si prestes,</l>
+            <l n="804">Bornèrent tout à coup le cours de nos conquêtes.</l>
+            <l n="805">Vous savez qu'animé de ces nobles ardeurs,</l>
+            <l n="806">Qu'inspire le désir, de nouvelles grandeurs,</l>
+            <l n="807">Au Roi de Syriens, je dénonçai la guerre,</l>
+            <l n="808">Que j'armai contre lui presque toute la Terre,</l>
+            <l n="809">Et que je contraignis ce Prince généreux,</l>
+            <l n="810">De céder au plus fort, ou du moins plus heureux.</l>
+            <l n="811">Vous savez qu'Ascalon fut son dernier asile,</l>
+            <l n="812">Que je lui fis alors un tombeau de sa Ville ;</l>
+            <l n="813">Et vous n'ignorez pas qu'après ce grand effort,</l>
+            <l n="814">L'Amour se résolut de combattre la mort.</l>
+            <l n="815">Oui, ce pâle Démon de tant de funérailles,</l>
+            <l n="816">M'ayant suivi toujours en trois grandes batailles,</l>
+            <l n="817">Fut enfin arrêté par les traits d'un enfant,</l>
+            <l n="818">Que deux yeux tout divins rendirent triomphant.</l>
+            <l n="819">Souvenez-vous un peu quelle fut l'assurance,</l>
+            <l n="820">La générosité, l'adresse, et la vaillance</l>
+            <l n="821">Du redoutable bras qui m'osa défier,</l>
+            <l n="822">Et tenter les hasards d'un combat singulier.</l>
+            <l n="823">Ne m'avouerez vous pas qu'une telle personne,</l>
+            <l n="824">Qui sait vaincre des Rois, mérite une Couronne ?</l>
+            <l n="825">On n'en saurait douter, et c'est ce que je veux,`</l>
+            <l n="826">Pour lui rendre justice, et contenter ses voeux :</l>
+            <l n="827">Vous la voyez ici, cette personne auguste,</l>
+            <l n="828">Que je dois honorer d'un hommage si juste :</l>
+            <l n="829">Oui, c'est ce rare objet, cette Sémiramis,</l>
+            <l n="830">Dont le bras a défait un monde d'ennemis,</l>
+            <l n="831">Cet objet si charmant qui fait toute ma gloire,</l>
+            <l n="832">Que le destin révère, et que suit la victoire,</l>
+            <l n="833">Sémiramis enfin, dont les nobles travaux,</l>
+            <l n="834">Après cent beaux combats, m'ont rendu sans rivaux.</l>
+            <l n="835">Mais en vain je vous faits ces brillantes peintures,</l>
+            <l n="836">Puisque vous avez vu ses hautes aventures,</l>
+            <l n="837">Et que de tant d'exploits, de prudence, et de soins,</l>
+            <l n="838">Elle vous a rendus les illustres témoins.</l>
+            <l n="839">Combien de fois couverte, et de sang et de poudre,</l>
+            <l n="840">A-t-elle devant moi passé comme la foudre ?</l>
+            <l n="841">De combien de dangers m'a-t-elle retiré ?</l>
+            <l n="842">Combien de fois son bras, aussi craint qu'admiré,</l>
+            <l n="843">A-t-il des plus vaillants étonné le courage,</l>
+            <l n="844">Et forcé les vainqueurs à changer de visage ?</l>
+            <l n="845">Lors que dans les conseils je la laissais agir,</l>
+            <l n="846">Ne vous a-t-elle pas vous même fait rougir ?</l>
+            <l n="847">Et contraint maintes fois les âmes plus altières,</l>
+            <l n="848">De céder à l'éclat de ses vives lumières ?</l>
+            <l n="849">Je pourrais ajouter à tant de beaux effets,</l>
+            <l n="850">Ceux que ce grand esprit a produits dans la paix,</l>
+            <l n="851">Ces murs si renommés, dont ma belle Amazone,</l>
+            <l n="852">N'a pas moins embelli, que muni Babylone,</l>
+            <l n="853">Ces Temples si fameux, et ces Palais divers,</l>
+            <l n="854">Dont la magnificence étonne l'Univers :</l>
+            <l n="855">Mais laissant à vos yeux l'objet de ces merveilles,</l>
+            <l n="856">Des plus rares effets vont charmer vos oreilles.</l>
+            <l n="857">Pour donner à des traits, si doux et si charmants,</l>
+            <l n="858">Et leur perfection, et leur finissements,</l>
+            <l n="859">Figurez vous ma Reine, alors qu'elle surmonte,</l>
+            <l n="860">Dans l'horreur de la nuit, le traître Thermodonte :</l>
+            <l n="861">Voyez la qui s'habille, et qui s'arme à demi,</l>
+            <l n="862">Pour aller repousser ce superbe ennemi,</l>
+            <l n="863">Qui pressé des transports d'une ardeur sans égale,</l>
+            <l n="864">Venait pour attenter à ma couche Royale :</l>
+            <l n="865">Voyez la tête nue, et les cheveux épars,</l>
+            <l n="866">Fendre un Peuple surpris en ses propres remparts,</l>
+            <l n="867">Rétablir le désordre, arrêter l'insolence,</l>
+            <l n="868">Faire agir la valeur, avec la prudence ;</l>
+            <l n="869">Et d'un bras, par les Dieux à vaincre destiné,</l>
+            <l n="870">Immoler à ses pieds, un Monstre couronné.</l>
+            <l n="871">Après cette action, et mille exploits célèbres,</l>
+            <l n="872">Dont l'éclat se perdit dans l'horreur des ténèbres,</l>
+            <l n="873">Puis-je, sans être injuste, et passer pour un ingrat,</l>
+            <l n="874">Refuser à ses mains les rênes de l'État ?</l>
+            <l n="875">Non, non, ce n'est pas même un salaire assez ample,</l>
+            <l n="876">Et c'est trop peu qu'un trône, à qui mérite un Temple :</l>
+            <l n="877">Toutefois, puis qu'enfin un objet si parfait,</l>
+            <l n="878">Borne là ses désirs, approuvons en l'effet ;</l>
+            <l n="879">Et lui cédant les droits de ma toute-puissance,</l>
+            <l n="880">Rendons lui le premier entier obéissance :</l>
+            <l n="881">Que chacun se dispose à ce juste devoir ;</l>
+            <l n="882">Rendez comme vassaux, hommage à son pouvoir ;</l>
+            <l n="883">Prêtez lui le serment, et révérez en Reine,</l>
+            <l n="884">Celle qui désormais est votre Souveraine.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="885">Grand Prince, pardonnez à ma témérité,</l>
+            <l n="886">Si je dis franchement à votre Majesté,</l>
+            <l n="887">Que j'ai pour ma patrie une âme trop fidèle,</l>
+            <l n="888">Pour faire jamais rien, qui soit indigne d'elle,</l>
+            <l n="889">Ou souffrir que mon coeur consente lâchement,</l>
+            <l n="890">À ce prodigieux et triste changement.</l>
+            <l n="891">Les révolutions, encore que fameuses,</l>
+            <l n="892">En matière d'État, sont toujours dangereuses ;</l>
+            <l n="893">Et l'on n'a jamais vu dans les siècles passés,</l>
+            <l n="894">De Princes souverain, qui se soient abaissés.</l>
+            <l n="895">On dit bien qu'autrefois le Dieu de la lumière,</l>
+            <l n="896">Reçut de Phaëton une même prière ;</l>
+            <l n="897">Et que trop indulgent à ces superbes voeux,</l>
+            <l n="898">Il le mit, pour un jour, sur son char lumineux ;</l>
+            <l n="899">Mais on assure aussi, qu'errant à l'aventure,</l>
+            <l n="900">Son désordre pensa ruiner la Nature ;</l>
+            <l n="901">Et que pour le punir d'un si funeste orgueil,</l>
+            <l n="902">Le feu fit son supplice, et l'onde son cercueil.</l>
+            <l n="903">Je conteste, Seigneur, en parlant de la sorte,</l>
+            <l n="904">Que j'écoute un peu trop le zèle qui m'emporte ;</l>
+            <l n="905">Et parmi vos vassaux, je ne saurais nier,</l>
+            <l n="906">Que mon avis ne doive être dit le dernier :</l>
+            <l n="907">Mais voyant qu'ils n'ont pas le coeur ni l'assurance,</l>
+            <l n="908">De parler en un fait de telle conséquence ;</l>
+            <l n="909">J'aime bien mieux faillir à ma sincérité,</l>
+            <l n="910">Que par ma complaisance, ou par ma lâcheté.</l>
+            <l n="911">Que la Reine, ô grand Roi, s'il lui plaît, me pardonne,</l>
+            <l n="912">Si du joug de ses Lois, j'affranchis ma personne ;</l>
+            <l n="913">Ne la pouvant subir, j'aime mieux dés ce jour,</l>
+            <l n="914">Pour le temps de son Règne, abandonner la Cour,</l>
+            <l n="915">Et m'exempter au moins de cette honte infâme,</l>
+            <l n="916">Qu'on ait vu Merzabane, Esclave d'une Femme.</l>
+          </sp>
+          <sp who="tc0119-NINUS">
+            <speaker>NINUS.</speaker>
+            <l n="917">Dis plutôt qu'un Esprit sous le vice abattu,</l>
+            <l n="918">Ne reconnaît jamais les Lois de la vertu.</l>
+            <l n="919">Mais en vain d'une voix insolente et profane,</l>
+            <l n="920">Tu choques mes désirs ; souviens-toi, Merzbabane,</l>
+            <l n="921">Que tu te dois résoudre à sentir mon courroux,</l>
+            <l n="922">Ou bien lui rendre hommage, et même à genoux ;</l>
+            <l n="923">Et si durant le temps qu'elle aura cet Empire,</l>
+            <l n="924">Aucun de cette Cour s'absente ou se retire,</l>
+            <l n="925">Je jure par le feu, Sainte Divinité,</l>
+            <l n="926">Qu'il se repentira de sa témérité.</l>
+            <l n="927">Avancez donc, Madame, et prenez, grande Reine,</l>
+            <l n="928">Avec ces ornements, le rang de Souveraine ;</l>
+            <l n="929">Usez sur nous des droits d'un pouvoir absolu.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="930">Hé bien j'obéirai, puis que tu l'as voulu ;</l>
+            <l n="931">Mais puis qu'en ce devoir tu me faits violence,</l>
+            <l n="932">Si tu viens à périr par mon obéissance,</l>
+            <l n="933">Souviens-toi pour le moins que ce événement,</l>
+            <l n="934">Ne sera que l'effet de ton commandement.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS, au trône.</speaker>
+            <l n="935">Princes, si j'ai reçu ces adorables marques,</l>
+            <l n="936">Qu'a remis en mes mains le plus grand des Monarques,</l>
+            <l n="937">Ne vous figurez pas, qu'en cette occasion,</l>
+            <l n="938">Je n'ai eu pour l'objet que mon ambition,</l>
+            <l n="939">Puis qu'enfin vous verrez que mon âme n'aspire,</l>
+            <l n="940">Qu'à l'affermissement de ce superbe Empire,</l>
+            <l n="941">Et que dans peu de temps, vous connaîtrez en moi,</l>
+            <l n="942">Un coeur beaucoup plus grand que d'un homme et d'un Roi.</l>
+            <l n="943">Mais avant que je passe à cette expérience,</l>
+            <l n="944">Voyons quelques effets de votre obéissance ;</l>
+            <l n="945">Retirez-vous, Ninus, et comme mon sujet,</l>
+            <l n="946">Laissez-moi désormais achever mon projet ;</l>
+            <l n="947">Votre présence ici ne m'est plus nécessaire.</l>
+          </sp>
+          <sp who="tc0119-NINUS">
+            <speaker>NINUS, s'en allant.</speaker>
+            <l n="948">Il est de mon devoir d'obéir, et me taire.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="949" part="I">Allez.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Sémiramis, Camises, Zénophire, Oronclide, Merzabane, et les Gardes.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS, debout.</speaker>
+            <l n="949" part="F">Dieux ! Que ferai-je ? Et quel est mon dessein ?</l>
+            <l n="950">Je tremble, je frémis, le coeur me bat au sein ;</l>
+            <l n="951">Sur le point de parler, j'ouvre et ferme la bouche,</l>
+            <l n="952">Et sens je ne sais quoi dans l'âme qui me touche :</l>
+            <l n="953">Toutefois c'est en vain que je veux reculer,</l>
+            <l n="954">Le trait déjà lancé, ne se peut rappeler ;</l>
+            <l n="955">Il faut, il faut franchir constamment la carrière ;</l>
+            <l n="956">Et qu'avec le Sceptre, il perde la lumière.</l>
+            <stage>Elle se remet au Trône, et continue.</stage>
+            <l n="957">Si par mes yeux, Seigneurs, ou par mon action,</l>
+            <l n="958">Vous voyez maintenant quelque altération,</l>
+            <l n="959">Peut-être croyez-vous que mon esprit s'étonne,</l>
+            <l n="960">Ou se trouve accablé du faix d'une Couronne :</l>
+            <l n="961">Mais vous pouvez penser, qu'ayant vu sous nos pieds,</l>
+            <l n="962">Avec leurs grandeurs, des Rois humiliés,</l>
+            <l n="963">Notre coeur est trop bon, et notre âme trop ferme,</l>
+            <l n="964">Pour être jamais mise en un si mauvais terme.</l>
+            <l n="965">Sachez donc que le trouble où je suis à présent,</l>
+            <l n="966">Naît d'un sujet plus juste, et beaucoup plus puissant,`</l>
+            <l n="967">Et que Sémiramis n'en peut être affranchie,</l>
+            <l n="968">Sans se trahir soi-même, ou cette Monarchie.</l>
+            <l n="969">Vous voyez bien, Seigneurs, ainsi que je le vois,</l>
+            <l n="970">Le tort qu'on vient de faire au sacré rang des Rois ;</l>
+            <l n="971">Et je ne doute point, qu'un si sensible outrage,</l>
+            <l n="972">De vos sens interdits, ne suspende l'usage ;</l>
+            <l n="973">Mais que par cet affront, vos esprits rappelés,</l>
+            <l n="974">Vous vengent de vos droits lâchement violés ;</l>
+            <l n="975">Il me cède ses droits, son sceptre, sa couronne,</l>
+            <l n="976">Il m'abandonne tout, et je vous l'abandonne :</l>
+            <l n="977">Mais que dis-je, il me cède ? il ne me cède rien,</l>
+            <l n="978">Ce Trône est mon partage, et ce Sceptre est mon bien ;</l>
+            <l n="979">Vous parlant de ses droits, ma langue s'est trompée,</l>
+            <l n="980">Il me rend seulement ma couronne usurpée ;</l>
+            <l n="981">Et ce lâche ennemi des Peuples et des Rois,</l>
+            <l n="982">Se rendant mon sujet, ne me rend que mes droits :</l>
+            <l n="983">De cet usurpateur, cet État fut la proie,</l>
+            <l n="984">Il se fit à l'Empire une sanglante voie ;</l>
+            <l n="985">Et de sa propre main, mon père massacré,</l>
+            <l n="986">Du Trône où je l'ai vu, fut le premier degré :</l>
+            <l n="987">Oui, son tombeau servit à ce sanglant ouvrage,</l>
+            <l n="988">Dont le funeste objet réveille mon courage ;</l>
+            <l n="989">Il me dit qu'un Tyran dont je veux le trépas,</l>
+            <l n="990">M'en doit pareillement former le premier pas.</l>
+            <l n="991">C'est ce que je demande, et ce qu'il vous faut faire,</l>
+            <l n="992">Pour apaiser les Dieux, et l'ombre de mon père,</l>
+            <l n="993">Qui vous voyant subir d'illégitimes Lois,</l>
+            <l n="994">Pour vous en affranchir, vous parle par ma voix.</l>
+            <l n="995">Ne lui refusez pas ce juste sacrifice,</l>
+            <l n="996">C'est un sujet coupable, et je veux qu'il périsse.</l>
+            <l n="997">Si j'ai jusques ici son trépas différé,</l>
+            <l n="998">Ce n'était qu'à dessein de le rendre assuré,</l>
+            <l n="999">Et pour ne pas manquer, par trop d'impatience,</l>
+            <l n="1000">Une si raisonnable et si noble vengeance.</l>
+            <l n="1001">Merzabane, on vous a commandé d'obéir,</l>
+            <l n="1002">Songez que mon espoir ne se doit point trahir,</l>
+            <l n="1003">Qu'il veut un prompt effet, que je suis Souveraine,</l>
+            <l n="1004">Qu'il faut suivre mes Lois, ou redouter ma haine ;</l>
+            <l n="1005">Et quiconque osera me choquer, ou m'aigrir,</l>
+            <l n="1006">Qu'il doit, avec Ninus, se résoudre à périr.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Cambises, Zénophire, Merzabane, Oronclide.</head>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1007">Hé bien, Seigneurs, enfin qu'elle est votre pensée ?</l>
+            <l n="1008">Prendrons-nous le parti d'une Reine offensée ?</l>
+            <l n="1009">Subirons-nous le joug où nous sommes soumis ?</l>
+            <l n="1010">Serons-nous ses sujets, ou bien ses ennemis ?</l>
+            <l n="1011">C'est Ninus qui nous fait un si sensible outrage.</l>
+            <l n="1012">Quoi ? Comme il fut sans coeur, serez-vous sans courage ?</l>
+            <l n="1013">Qui vous rend de la sorte interdits, et confus ?</l>
+          </sp>
+          <sp who="tc0119-ZENOPHIRE">
+            <speaker>ZENOPHIRE.</speaker>
+            <l n="1014">Un trouble, Merzabane, où jamais je ne fus,</l>
+            <l n="1015">Un prodige incroyable, une étrange merveille,</l>
+            <l n="1016">Qui fait qu'avec raison je doute si je veille.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1017">Certes, ce changement est si prodigieux,</l>
+            <l n="1018">Que mon esprit encore le dispute à mes yeux ;</l>
+            <l n="1019">Et cette vérité tient si fort du mensonge,</l>
+            <l n="1020">Que même en la voyant, je croyais faire un songe :</l>
+            <l n="1021">Mais enfin ma raison a réveillé mes sens,</l>
+            <l n="1022">Que tenaient assoupis des charmes si puissants ;</l>
+            <l n="1023">Et tout ce que j'ai vu n'a plus rien qui m'étonne.</l>
+            <l n="1024">On reçoit aisément l'éclat d'une Couronne ;</l>
+            <l n="1025">Mais quand il faut quitter un si bel ornement,</l>
+            <l n="1026">Un coeur ambitieux s'y résout rarement.</l>
+            <l n="1027">Pour cette qualité si pompeuse et si chère,</l>
+            <l n="1028">L'Enfant assez souvent s'arme contre le père ;</l>
+            <l n="1029">Et le Frère envieux d'un pouvoir souverain,</l>
+            <l n="1030">Dispute quelquefois le Sceptre à son germain.</l>
+            <l n="1031">Ne présumez donc pas que la Reine le quitte,</l>
+            <l n="1032">Cette haute vengeance, où sa voix vous invite,</l>
+            <l n="1033">Est sans doute un moyen quelle veut obtenir,</l>
+            <l n="1034">Pour s'assurer le trône, et pour s'y maintenir.</l>
+          </sp>
+          <sp who="tc0119-CAMBISES">
+            <speaker>CAMBISES.</speaker>
+            <l n="1035">Mais on peut mépriser une injuste demande,</l>
+            <l n="1036" part="I">Et rétablir Ninus.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1036" part="F">Oui, mais elle commande ;</l>
+            <l n="1037">Et dans l'état qu'elle est, ne lui pas obéir,</l>
+            <l n="1038">C'est pour sauver Ninus, nous mêmes nous trahir :</l>
+            <l n="1039">Elle est femme, il est vrai, mais femme généreuse,</l>
+            <l n="1040">Invincible, prudente, adroite, et valeureuse ;</l>
+            <l n="1041">Et qui dés qu'elle aurait nos desseins reconnus,</l>
+            <l n="1042">Sans doute nous perdrait, aussi bien que Ninus.</l>
+            <l n="1043">Nous avons tous souffert qu'il lui rendit hommage,</l>
+            <l n="1044">Et cette tolérance à présent nous engage ?</l>
+            <l n="1045">Puis qu'enfin le silence est un consentement,</l>
+            <l n="1046">En cette occasion, qui tient lieu de serment.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1047">Non, non, il n'est plus temps de marcher en arrière,</l>
+            <l n="1048">Nous sommes trop avant dedans cette carrière,</l>
+            <l n="1049">Il faut que désormais nous allions jusqu'au bout ;</l>
+            <l n="1050">Et puis qu'il est certain que la Reine peut tout,</l>
+            <l n="1051">Ne nous immolons point, pour le salut d'un autre,</l>
+            <l n="1052">Et pour son intérêt, n'oublions point le nôtre ;</l>
+            <l n="1053">Le trépas de Ninus, est le bien de l'État ;</l>
+            <l n="1054">Car pensant se remettre en son premier éclat,</l>
+            <l n="1055">Les refus qu'il aura de la part de la Reine,</l>
+            <l n="1056">L'empliront aussitôt de dépit et de haine,</l>
+            <l n="1057">Qui semant parmi nous mille divisions,</l>
+            <l n="1058">Combleront tout d'horreurs, et de confusions.</l>
+            <l n="1059">Par toute l'Assyrie, et par toutes les Villes,</l>
+            <l n="1060">On ne verra que meurtres et que guerre civiles,</l>
+            <l n="1061">Qui d'un si grand Empire, et tant d'États si beaux,</l>
+            <l n="1062">Ne feront à la fin, que de tristes tombeaux :</l>
+            <l n="1063">Oui, je vous vois déjà déchirer vos entrailles,</l>
+            <l n="1064">Et des fleuves de sang arroser vos murailles,</l>
+            <l n="1065">Si nous ne prévenons par un coup vigoureux,</l>
+            <l n="1066">Mais nécessaire enfin, des jours si malheureux.</l>
+          </sp>
+          <sp who="tc0119-ZENOPHIRE">
+            <speaker>ZENOPHIRE.</speaker>
+            <l n="1067">Hé bien, puis que si bien tu nous en dis les causes,</l>
+            <l n="1068">Passe jusqu'aux effets de ce que tu proposes ;</l>
+            <l n="1069">Et puis que de ce coup dépend notre bonheur,</l>
+            <l n="1070">Nous t'en voulons céder, et la gloire et l'honneur.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1071">Suivez ce sentiment qu'approuve Zenophire,</l>
+            <l n="1072">Puis que c'est le salut du Peuple et de l'Empire ;</l>
+            <l n="1073">Un long retardement n'apporte point de fruit,</l>
+            <l n="1074">Et le dessein qu'il trame est à demi détruit ;</l>
+            <l n="1075">La valeur sert ici moins que la diligence.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1076">Reposer-vous sur moi de ce coup d'importance ;</l>
+            <l n="1077">Puis que vous consentez, il va perdre le jour,</l>
+            <l n="1078">Victime infortunée, et d'État et d'Amour.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Merzabane, Oronclide.</head>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1079">De ce pas, Oronclide, allez trouver la Reine,</l>
+            <l n="1080">Vous la rencontrerez dans la salle prochaine ;</l>
+            <l n="1081">Elle vous veut parler, suivez aveuglément,</l>
+            <l n="1082">Et ses intentions et son commandement.</l>
+            <l n="1083">Je vais trouver Ninus, elle veut qu'il périsse ;</l>
+            <l n="1084">J'en vais faire en secret un sanglant sacrifice.</l>
+            <l n="1085">Cependant gardez-vous d'éventer ce dessein ;</l>
+            <l n="1086">Et ne permettez pas qu'il vous sorte du sein,</l>
+            <l n="1087">Que dans ce même lieu vous ne voyez paraître</l>
+            <l n="1088">Melistrate réduit en l'état qu'il doit être.</l>
+            <l n="1089">Il revient, et tantôt, comme je l'ai pu voir,</l>
+            <l n="1090">On a fait choix de vous, pour l'aller recevoir.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Melistrate, Oronclide, Palmédon, et suite.</head>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1091">Grand Prince, l'ornement et l'honneur de l'Asie,</l>
+            <l n="1092">le trouve de l'excès en votre courtoisie ;</l>
+            <l n="1093">Tant de civilités ont pour moi trop d'éclat,</l>
+            <l n="1094">Et c'est trop s'abaisser, pour un simple soldat.</l>
+            <l n="1095">C'était chez vous, Seigneur, qu'il vous fallait attendre</l>
+            <l n="1096">Les devoirs que je suis obligé de vous rendre,</l>
+            <l n="1097">Et non pas prévenir à ma confusion,</l>
+            <l n="1098">Et mes justes respects, et mon affection.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1099">Ce n'est de mes devoirs que la moindre partie,</l>
+            <l n="1100">Et tout l'excès paraît en votre modestie,</l>
+            <l n="1101">Puisque je ne pouvais prendre un plus digne emploi,</l>
+            <l n="1102">Que d'aller recevoir et mon maître et mon Roi.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1103">Quoi, Seigneur, feignez vous de ne me pas connaître ?</l>
+            <l n="1104">Ninus est votre Roi, Ninus est votre Maître,</l>
+            <l n="1105">Je suis sa créature ; et je suis trop peu vain,</l>
+            <l n="1106">Pour usurper des droits dus à mon Souverain.</l>
+            <l n="1107">Allez donc, Oronclide, allez lui rendre hommage,</l>
+            <l n="1108">Et ne me tenez pas un injuste langage,</l>
+            <l n="1109">Je vous suivrai de près ; et je vous ferai voir,</l>
+            <l n="1110">Que je me sais connaître, et faire mon devoir.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1111">Quand vous saurez aussi quel est l'état des choses,</l>
+            <l n="1112">Et de mon procédé les raisons et les causes,</l>
+            <l n="1113">Je crois pareillement que je vous ferai voir,</l>
+            <l n="1114">Que je me sais connaître, et faire mon devoir.</l>
+            <l n="1115">Je sais bien, et j'avoue avec toute la Terre,</l>
+            <l n="1116">Que ce bras triomphant, que ce foudre de guerre,</l>
+            <l n="1117">Qui dispose à son gré du destin des États,</l>
+            <l n="1118">Aime à les maintenir et ne les prétend pas.</l>
+            <l n="1119">Je sais bien que l'orgueil est un monstre qu'il brave,</l>
+            <l n="1120">Que l'ambition cède, et qu'elle est votre Esclave ;</l>
+            <l n="1121">Mas si nous négligions un si généreux bras,</l>
+            <l n="1122">Après tant de vaincus, il ferait des ingrats ;</l>
+            <l n="1123">Et nous mériterions d'expier notre offense,</l>
+            <l n="1124">Dessous le même fer qui prit notre défense,</l>
+            <l n="1125">Si l'Assyrte enfin ne donnait aujourd'hui,</l>
+            <l n="1126">Son Sceptre et sa Couronne, à qui fut son appui :</l>
+            <l n="1127">Oui, Seigneur, croyez-moi, la saison est venue,</l>
+            <l n="1128">Qu'on verra la vertu dignement reconnue,</l>
+            <l n="1129">Et que sans concurrents, ainsi que sans rivaux,</l>
+            <l n="1130">Vous jouirez du fruit de vos nobles travaux.</l>
+            <l n="1131">La gloire que vos faits répandaient sur un autre,</l>
+            <l n="1132">Retournera sur vous, et sera toute votre ;</l>
+            <l n="1133">Les soldats dont l'ardeur secondait vos projets,</l>
+            <l n="1134">de vos imitateurs, deviendront vos sujets ;</l>
+            <l n="1135">Et votre autorité désormais sans seconde,</l>
+            <l n="1136">Vous rendra de vassal, le plus grand Roi du monde.</l>
+            <l n="1137">Enfin, Ninus est mort. Quoi, je vous vois pâlir ?</l>
+            <l n="1138">Ah ! Son trône est un lieu que vous devez remplir ;</l>
+            <l n="1139">Les marques de son sang vous en tracent la voie,</l>
+            <l n="1140">Ne lui donnez donc point que des larmes de joie ;</l>
+            <l n="1141">Et ne soupirez pas pour un heureux malheur,</l>
+            <l n="1142">Qui vous doit élever à ce haut rang d'honneur.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1143">Comment, Ninus est mort, et vous parlez de joie,</l>
+            <l n="1144">Vous voulez qu'en son sang ma tristesse se noie.</l>
+            <l n="1145">Ah ! Discours sans raison ! Ô penser plein d'horreur !</l>
+            <l n="1146">La joie est insensé, où règne la fureur !</l>
+            <l n="1147">Ninus est mort ? Ô Dieux ! Et comment Oronclide,</l>
+            <l n="1148">L'a-t-on assassiné ? Quel est son homicide ?</l>
+            <l n="1149">Ce traître, cet ingrat, respire-t-il le jour ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1150" part="I">Oui, Seigneur.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1150" part="M">Qui ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1150" part="M">Vous.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1150" part="M">Moi ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1150" part="F">Vous, ou plutôt l'Amour.</l>
+            <l n="1151">oui, ce cruel Enfant que vous avez fait naître,</l>
+            <l n="1152">Est ce lâche assassin, cet ingrat, et ce traître ;</l>
+            <l n="1153">Mais dont le crime enfin nous semble juste et doux,</l>
+            <l n="1154">Puis que ce qu'il nous ôte, il le répare en vous.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1155">Quoi, l'Amour produit-il les effets de la haine ?</l>
+            <l n="1156" part="I">Mais quel est ce amour,et de qui ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1156" part="F">De la Reine.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1157">De la Reine, Seigneur ? Ah ! Ne m'éprouvez point,</l>
+            <l n="1158">Mon esprit n'est pas vain ni crédule à ce point.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1159" part="I">Il est vrai toutefois.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1159" part="F">Et peut-être, Oronclide,</l>
+            <l n="1160">Vous croyez que je puis aimer cette perfide,</l>
+            <l n="1161">Et qu'une aveugle ardeur sera l'indigne prix</l>
+            <l n="1162">Du plus lâche attentat que l'on ait entrepris !</l>
+            <l n="1163">Est-il possible, ô Ciel ! Que l'éclat de ma gloire,</l>
+            <l n="1164">Soit aujourd'hui souillé d'une tâche si noire !</l>
+            <l n="1165">Et que l'ingrate ait crû, qu'un crime plein d'horreur,</l>
+            <l n="1166">Fut le degré d'un trône, et la clef de mon coeur !</l>
+            <l n="1167">Non, non, je ne veux point d'un présent si funeste ;</l>
+            <l n="1168">Loin de le souhaiter, mon âme le déteste ;</l>
+            <l n="1169">Et je croirais mon sort et plus doux et plus beaux,</l>
+            <l n="1170">Si plutôt que le Trône, on m'offrait le tombeau.</l>
+            <l n="1171">Ah ! Que ne suis-je mort au milieu des batailles,</l>
+            <l n="1172">Toute une armée en deuil eut fait mes funérailles ;</l>
+            <l n="1173">Je serais glorieux, et j'aurais le bon-heur,</l>
+            <l n="1174">D'avoir fini mes jours dedans le lit d'honneur ;</l>
+            <l n="1175">Au lieu que par un sort horrible à ma mémoire,</l>
+            <l n="1176">Je survis à mon Prince, et peut-être à ma gloire.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1177">Dites que par un sort aussi beau que charmant,</l>
+            <l n="1178">Vous survivez au Prince, et glorieusement,</l>
+            <l n="1179">Vu que par un effet dont l'Univers s'étonne,</l>
+            <l n="1180">Le coup qui l'a détruit , vous laisse une Couronne ;</l>
+            <l n="1181">Et que pour ce bonheur qui devrait vous charmer,</l>
+            <l n="1182">Il vous faut seulement vous résoudre d'aimer.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1183">Vous me connaissez mal, de me croire capable,</l>
+            <l n="1184">D'être jamais atteint d'un feu si détestable..</l>
+            <l n="1185">Apprenez Oronclide, en cette occasion,</l>
+            <l n="1186">Que je suis sans amour, et sans ambition ;</l>
+            <l n="1187">Ce superbe appareil, qui trompe tant de Princes,</l>
+            <l n="1188">Qui rougit si souvent du sang de leurs Provinces,</l>
+            <l n="1189">Et ce faste orgueilleux, où l'on croit tant d'appas,</l>
+            <l n="1190">Cache seulement l'homme, et ne l'honore pas :</l>
+            <l n="1191">C'est la vertu qui fait les maîtres de la terre,</l>
+            <l n="1192">Et qui met leur grandeur à l'abri du tonnerre ;</l>
+            <l n="1193">C'est elle, dont l'effort aussi juste que doux,</l>
+            <l n="1194">Met les humbles au Trône, et les grands à genoux ;</l>
+            <l n="1195">Sans elle un Potentat n'est qu'une belle feinte,</l>
+            <l n="1196">Qu'une Idole qu'on flatte, à cause quelle est crainte ;</l>
+            <l n="1197">Tenant un Sceptre en main, il n'est qu'un corps orné ;</l>
+            <l n="1198">Il porte une Couronne, et n'est pas couronné.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1199">Mépriser de la sorte une grandeur royale,</l>
+            <l n="1200">C'est pratiquer sans doute une étrange morale ;</l>
+            <l n="1201">L'état le plus parfait où l'on puisse aspirer,</l>
+            <l n="1202">C'est d'atteindre à celui qui nous fait adorer.</l>
+            <l n="1203">Des sujets, un Palais, un Sceptre, une Couronne,</l>
+            <note type="L">Dais : Meuble précieux qui sert de parade et de titre d'honneur chez les princes et les ducs. Il est fait en forme d'un haut lit, composé de trois pentes d'un fonds et d'un dossier. [F]</note>
+            <l n="1204">Le dais, et les grandeurs qu'un Empire nous donne,</l>
+            <l n="1205">Sont des poids trop pesants, pour ne pas renverser</l>
+            <l n="1206">Tout ce que vos raisons me pourraient opposer.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1207">Le Trône qu'établit le crime ou l'injustice,</l>
+            <l n="1208">À ses usurpateurs n'est qu'un grand précipice ;</l>
+            <l n="1209">L'Empire sans l'honneur ne fut jamais un bien ;</l>
+            <l n="1210">La Couronne est un poids, et le Sceptre n'est rien.</l>
+            <l n="1211">Ne m'alléguez donc plus de si lâches maximes,</l>
+            <l n="1212">Et ne me rendez pas complice de vos crimes.</l>
+            <l n="1213">Allez et trop long temps vous m'avez combattu,</l>
+            <l n="1214">N'espérez pas jamais d'ébranler ma vertu,</l>
+            <l n="1215">Ni que l'ambition fasse que je consente,</l>
+            <l n="1216">Qu'on revête mon corps d'une pourpre sanglante,</l>
+            <l n="1217">D'une pourpre qu'a teinte en mille endroits divers,</l>
+            <l n="1218">Le sang du plus grand Roi qu'ait connu l'Univers.</l>
+            <l n="1219">Si malgré mes desseins, et contre mon envie,</l>
+            <l n="1220">J'ai pu causer la fin d'une si belle vie,</l>
+            <l n="1221">Qu'on sache que bien loin d'être son successeur,</l>
+            <l n="1222">De mon consentement, j'en serai le vengeur,.</l>
+            <l n="1223">Ou si pour empêcher le courroux qui m'enflamme,</l>
+            <l n="1224">On tranche de mes jours la mal-heureuse trame,</l>
+            <l n="1225">Pour nous venger tous deux en dépit de la mort,</l>
+            <l n="1226">C'est de toi, juste Ciel, que j'attends cet effort :</l>
+            <l n="1227">Arme en notre faveur cette immortelle foudre,</l>
+            <l n="1228">Qui réduit les Palais et les Villes en poudre,</l>
+            <l n="1229">Ces flammes, ces éclairs, et ce bras tout puissant,</l>
+            <l n="1230">Si propice et si prompte à venger l'innocent.</l>
+            <l n="1231">Ou si jamais, grands Dieux, vous me croyez capable</l>
+            <l n="1232">De souffrir sans horreur une offre si coupable,</l>
+            <l n="1233">Faites qu'auparavant que j'en vienne aux effets,</l>
+            <l n="1234">Que ma tête soit mise en butte à tous vos traits.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1235">Voilà pour un bonheur que ma voix vous annonce,</l>
+            <l n="1236">Une bien dédaigneuse et superbe réponse !</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1237">Et voilà pour un Prince, et grand et généreux,</l>
+            <l n="1238">Un office bien bas, bien lâche, et bien honteux !</l>
+            <l n="1239">Est-ce vous que je vois ? Est-ce vous, Oronclide,</l>
+            <l n="1240">Qui me venez parler pour une parricide ?</l>
+            <l n="1241">N'est-ce point un Fantôme, ou quelque illusion,</l>
+            <l n="1242">Qui s'offrant à mes sens, fait cette impression ?</l>
+            <l n="1243">C'est bien vous, si j'en crois les traits de ce visage ;</l>
+            <l n="1244">Mais qu'il est mal d'accord avec votre courage :</l>
+            <l n="1245">Un si grand changement rend mon esprit confus ;</l>
+            <l n="1246">Et dans ce lâche état, je ne vous connais plus.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1247">Ce propos arrogant le fait assez paraître,</l>
+            <l n="1248">Si dedans votre orgueil vous m'aviez pu connaître,</l>
+            <l n="1249">Vous parleriez d'un ton moins superbe et moins haut ;</l>
+            <l n="1250">Je vous puis envoyer du Trône à l'échafaud ;</l>
+            <l n="1251">D'un Arrêt plus puissant, qu'un éclat de la foudre,</l>
+            <l n="1252">Mettre tout votre orgueil et vos lauriers en poudre,</l>
+            <l n="1253">Et vous faire donner par la main d'un Bourreau,</l>
+            <l n="1254">Au lieu du Diadème un funeste bandeau.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1255">Quel qu'il soit, quelque main même qui me l'apprête,</l>
+            <l n="1256">Sans crainte et sans horreur, j'abandonne ma tête ;</l>
+            <l n="1257">Et je l'estimerai beaucoup moins odieux,</l>
+            <l n="1258">Que celui qui t'aveugle, et l'esprit et les yeux :</l>
+            <l n="1259">Oui, lâche ambassadeur d'une horrible furie,</l>
+            <l n="1260">Et traître à ton honneur, et traître à ta patrie,</l>
+            <l n="1261">Tu peux exécuter ton barbare dessein,</l>
+            <l n="1262">Et redire à l'objet qui te l'a mis au sein,</l>
+            <l n="1263">Qu'il n'est point de tourment, ni de mort si cruelle,</l>
+            <l n="1264">Qui ne me soit plus douce et plus aimable qu'elle.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1265">Gardes, qu'on le conduise à mon appartement.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON, mettant la main sur son épée.</speaker>
+            <l n="1266" part="I">Ah ! Seigneur.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1266" part="M">Palmédon.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1266" part="F">Arrêtez, autrement</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1267">On me fera mourir, c'est ce que je demande.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1268">Arrêtez, je le veux, et je vous le commande ;</l>
+            <l n="1269">Je vais suivre Ninus; et c'est beaucoup pour moi,</l>
+            <l n="1270">Qu'on répande mon sang, sur celui de mon Roi.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE, seul.</speaker>
+            <l n="1271">Ô Fureurs ! Ô désirs ! Ô pouvoir d'une Reine !</l>
+            <l n="1272">En cette occasion, que votre ordre me gêne !</l>
+            <l n="1273">Détruire Melistrate ? Ah lâche ! Quoi, veux-tu</l>
+            <l n="1274">Te détruire toi-même, et trahir ta vertu ?</l>
+            <l n="1275">Ah ! Reviens ma raison, et fais mieux ton office,</l>
+            <l n="1276">Retire mon honneur des bords du précipice ;</l>
+            <l n="1277">Et malgré ma faiblesse en un pas si glissant,</l>
+            <l n="1278">Fais moi vivre équitable, ou, mourir innocent.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Melistrate, Oronclide, Prazimène, Palmédon, et les Gardes.</head>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE, de derrière le théâtre.</speaker>
+            <l n="1279" part="I">Ah !</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1279" part="M">D'où vient cette voix ? Quel est ce bruit ?</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1279" part="F">Perfide,</l>
+            <l n="1280" part="I">Voilà ce qui t'est du.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1280" part="M">Qu'est-ce donc ?</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1280" part="F">Oronclide.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE, regardant Melistrate.</speaker>
+            <l n="1281" part="I">Justes Dieux ! Qu'ai- je fait ?</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1281" part="F">Je ne suis que blessé,</l>
+            <l n="1282">Achève, achève lâche, un coup mal commencé ;</l>
+            <l n="1283">Tu me serais cruel, étant plus pitoyable,</l>
+            <l n="1284">Frappe, éteints dans mon sang les jours d'un misérable,</l>
+            <l n="1285">Et songe, quand le sort attaque un malheureux,</l>
+            <l n="1286">Que le coup qui le tue, est le moins rigoureux.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1287">Ah ! Ne l'accuse point, voici le bras coupable,</l>
+            <l n="1288">Qui vient d'exécuter un coup si détestable.</l>
+            <l n="1289">Va, va, lâche instrument d'une aveugle fureur,</l>
+            <l n="1290">Abandonne ma main, ton fer me fait horreur ;</l>
+            <l n="1291">Toutefois déloyal, viens punir une ingrate,</l>
+            <l n="1292">Viens passer dans mon sein, et venger Melistrate,</l>
+            <l n="1293" part="I">Viens percer</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1293" part="M">Ah ! Madame, arrêtez.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1293" part="F">Laisse moi,</l>
+            <l n="1294">Ou plutôt venge un coup qui s'adressait à toi ;</l>
+            <l n="1295">Oui, oui, perce ce coeur, qu'une ardeur légitime</l>
+            <l n="1296">Armait pour la vertu, mais qui commet un crime,</l>
+            <l n="1297">N'ayant pu discerner dans son aveuglement,</l>
+            <l n="1298">Le sein d'un ennemi, de celui d'un Amant.</l>
+            <l n="1299">Non, ce coup t'appartient par une juste haine,</l>
+            <l n="1300">Puni la déplorable et triste Prazimène,</l>
+            <l n="1301">Qui pensant te sauver, ou du moins secourir,</l>
+            <l n="1302">Aide à tes ennemis à te faire périr.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1303">Que vois-je ? Est-ce un effet qu'ayant produit quelques charmes ?</l>
+            <l n="1304">Est-ce vous ma Princesse ? Ah ! Laissez-là ces armes,</l>
+            <l n="1305">Et faites moi périr d'un coup plus glorieux ;</l>
+            <l n="1306">Pour me percer le coeur, il suffit de vos yeux,</l>
+            <l n="1307">Sans qu'aucun autre effort serve à votre colère,</l>
+            <l n="1308">Ils n'ont qu'à témoigner que j'ai pu vous déplaire ;</l>
+            <l n="1309">Et bien tôt ma douleur réparera le tort,</l>
+            <l n="1310">Que ce fer vous a fait, en différant ma mort.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1311">Ah ! Qu'il faut bien plutôt que la mienne répare</l>
+            <l n="1312">L'outrage qu'à regret vous a fait ce barbare ;</l>
+            <l n="1313">Et que mes yeux confus par des traits plus humains,</l>
+            <l n="1314">Montrent qu'ils ne sont pas complices de mes mains ;</l>
+            <l n="1315">D'un sang qui m'est si cher, ces cruelles sont teintes,</l>
+            <l n="1316">Mais croyez que mon coeur en ressent les atteintes,</l>
+            <l n="1317">Et que dans le tombeau je vous aurais suivi,</l>
+            <l n="1318">Si le jour, par ma main, vous eut été ravi.</l>
+            <l n="1319">Non, je ne venais pas pour un coup si perfide,</l>
+            <l n="1320">Je voulais vous sauver, en perdant Oronclide,</l>
+            <l n="1321">Que je savais chargé d'une commission,</l>
+            <l n="1322">Fatale à vos désirs, comme à notre union.</l>
+            <l n="1323">Mais peut être tandis que ce remords vous flatte,</l>
+            <l n="1324">Mon imprudence ici hasarde Melistrate ;</l>
+            <l n="1325">Et je ne songe pas qu'il faut à son secours,</l>
+            <l n="1326">Employer d'autres soins, que de simples discours.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1327">Ah ! Qu'ils sont souverains ! Et que ces doux oracles,</l>
+            <l n="1328">Font en un même temps deux insignes miracles !</l>
+            <l n="1329">Qu'ils font en ma faveur d'agréables efforts !</l>
+            <l n="1330">Qu'ils savent promptement guérir l'âme et le corps !</l>
+            <l n="1331">Et que même la mort a peine de prétendre</l>
+            <l n="1332">Aucun droit sur un coeur que vous daignez défendre !</l>
+            <l n="1333">Dès lors que vous avez commencé de parler,</l>
+            <l n="1334">Mon sang, chère Princesse, a cessé de couler ;</l>
+            <l n="1335">Et comme s'il eut vu que vous blâmiez sa course,</l>
+            <l n="1336">Il n'ose par respect s'éloigner de sa source ;</l>
+            <l n="1337">Mais inutilement vous avez différée</l>
+            <l n="1338">Le trépas que j'attends, et qui m'est préparé ;</l>
+            <l n="1339">Je vais mourir, Madame, et par la main d'un autre,</l>
+            <l n="1340">Je ne méritais pas de mourir de la vôtre ;</l>
+            <l n="1341">Et je trouve pourtant mon destin assez doux,</l>
+            <l n="1342">En ce point pour le moins, que je mourrai pour vous.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1343">Vous mourrez, dites-vous, et par la main d'un autre ?</l>
+            <l n="1344">Elle confondra donc mon sang avec le vôtre ;</l>
+            <l n="1345">Et le trait de la Mort agissant à son tour,</l>
+            <l n="1346">Fera pour nos esprits, ce qu'aurait fait l'Amour :</l>
+            <l n="1347">Oui, divisant nos corps, il unira nos âmes,</l>
+            <l n="1348">Ses funestes glaçons n'éteindront pas nos flammes ;</l>
+            <l n="1349">Et le fleuve d'oubli perdra sa qualité,</l>
+            <l n="1350">Par ma persévérance et ma fidélité.</l>
+            <l n="1351">Mais dites-moi de grâce, avant que m'y résoudre,</l>
+            <l n="1352">De quel bras si puissant doit partir cette foudre ?</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1353">De celui d'Oronclide et de Sémiramis.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1354">Ah ! Ne me comptez plus entre vos ennemis.</l>
+            <l n="1355">Je me rends, Melistrate, et je mets bas les armes,</l>
+            <l n="1356">Je cède à vos vertus, aussi bien qu'à vos charmes ;</l>
+            <l n="1357">Et mon coeur qui s'était lâchement démenti,</l>
+            <l n="1358">Quitte un projet injuste, et prend votre parti.</l>
+            <l n="1359">Ce monstre si fatal aux plus nobles courages,</l>
+            <l n="1360">Et qui s'offre à nos sens sous mille faux visages,</l>
+            <l n="1361">L'ambition d'abord avec son poison,</l>
+            <l n="1362">Avait trompé mes sens, et séduit ma raison ;</l>
+            <l n="1363">L'Amour en même temps s'est rendu son complice ;</l>
+            <l n="1364">Et comme il est adroit et rempli d'artifice.</l>
+            <l n="1365">Il déguisait mon crime avec tant d'appas,</l>
+            <l n="1366">Que mon esprit charmé, ne le connaissait pas.</l>
+            <l n="1367">Mais maintenant, Seigneur, que vos vives lumières</l>
+            <l n="1368">Ont dissipé la nuit qui couvrait mes paupières,</l>
+            <l n="1369">Qu'à votre auguste aspect le bandeau m'est tombé,</l>
+            <l n="1370">Et m'a rendu le jour qu'il m'avait dérobé,</l>
+            <l n="1371">Que mon ambition cesse en votre présence,</l>
+            <l n="1372">Périsse mon amour avec mon espérance,</l>
+            <l n="1373">et périsse Oronclide avec Sémiramis,</l>
+            <l n="1374">Si jamais on le voit entre vos ennemis.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1375">Qu'entends-je, ô justes Dieux ! Que l'on vous doit d'hommages,</l>
+            <l n="1376">D'avoir remis en l'un de vos plus beaux ouvrages,</l>
+            <l n="1377">Que le vice tenait lâchement abattu,</l>
+            <l n="1378">Les nobles sentiments qu'inspire la vertu !</l>
+            <l n="1379">Que je vous dois d'encens, et que j'aurai de gloire,</l>
+            <l n="1380">Si ma captivité cause cette victoire,</l>
+            <l n="1381">Et s je contribue à ce grand changement,</l>
+            <l n="1382">Lorsque j'en attendais tout autre événement !</l>
+            <l n="1383">Oui, je n'en doute plus, je vois sur ce visage,</l>
+            <l n="1384">De votre repentir un trop clair témoignage.</l>
+            <l n="1385" part="I">J'ois du bruit, c'est la Reine.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1385" part="F">Ah ! Sortons de ces lieux,</l>
+            <l n="1386">Il n'est pas temps encore de paraître à ses yeux ;</l>
+            <l n="1387">Sortons ; et vous verrez par un trait sans exemple,</l>
+            <l n="1388">D'un juste repentir, une preuve assez grande.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Sémiramis, Merzabane.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1389">Oui, sans vous je n'avais l'Empire qu'à demi,</l>
+            <l n="1390">Le trépas de Ninus, a mon trône affermi ;</l>
+            <l n="1391">Par un effet si prompte, j'ai connu votre zèle,</l>
+            <l n="1392">Et même en trahissant que vous m'étiez fidèle :</l>
+            <l n="1393">Mais dites-moi comment et quel fut votre abord ?</l>
+            <l n="1394">Et de quel front enfin il a reçu la mort.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1395">D'un visage constant, et d'un courage ferme,</l>
+            <l n="1396">Il a vu de ses jours le déplorable terme ;</l>
+            <l n="1397">Et m'a fait reconnaître, en mourant sans effroi,</l>
+            <l n="1398">S'il vivait en sujet, qu'il expirait en Roi.</l>
+            <l n="1399">Dés lors qu'il eut quitté votre auguste présence,</l>
+            <l n="1400">Après avoir cédé ses droits et sa puissance,</l>
+            <l n="1401">Il se retira seul dans son appartement,</l>
+            <l n="1402">Où je le fis sans bruit investir promptement ;</l>
+            <l n="1403">Et laissant la plupart de mes gens à la porte,</l>
+            <l n="1404">J'entre ; Ninus alors me parle de la sorte.</l>
+            <l n="1405">Qu'est-ce donc , Merzabane, et quel est votre emploi ?</l>
+            <l n="1406">Désire-t-on encore quelque chose de moi ?</l>
+            <l n="1407">Quelle commission en ce lieu vous amène ?</l>
+            <l n="1408">Mon devoir, répliquai-je, et l'ordre de la Reine ;</l>
+            <l n="1409">Vous-même vous m 'avez commandé d'obéir.</l>
+            <l n="1410">Il est vrai, répond-il, garde de la trahir,</l>
+            <l n="1411">Toutes ses volontés sont des Lois qu'il faut suivre.</l>
+            <l n="1412">Et bien j'obéis, dis-je ; et toi cesse de vivre.</l>
+            <l n="1413">Lors ma main le frappant, il a dit seulement ;</l>
+            <l n="1414">Merzabane, je meurs, et péris justement ;</l>
+            <l n="1415">Tu n'as que d'un moment prévenu mon envie,</l>
+            <l n="1416">Puis qu'en perdant le Sceptre, il faut perdre la vie.</l>
+            <l n="1417">Ce grand Prince, à ces mots, est enfin expiré ;</l>
+            <l n="1418">Et peu troublé du coup, je me suis retiré.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1419">C'est assez, nous pourrons, ainsi que je l'espère,</l>
+            <l n="1420">Récompenser au fils, les services du père,</l>
+            <l n="1421" part="I">Le voici de retour.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Sémiramis, Merzabane, Oronclide, et suite.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1421" part="F">Hé bien, qu'avez-vous fait ?</l>
+            <l n="1422">notre projet enfin aura-t-il son effet ?</l>
+            <l n="1423">Melistrate vient-il ? Et dois-je à sa personne</l>
+            <l n="1424">Préparer un supplice, ou bien une couronne ?</l>
+            <l n="1425">Hésite-t-il au choix, ou d'un sceptre, ou des fers ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1426">Non ; de ces deux présents à ce grand coeur offerts,</l>
+            <l n="1427">Le premier lui déplaît ; et sa haute constance,</l>
+            <l n="1428">Regarde le second avec indifférence :</l>
+            <l n="1429">Enfin il m'a fait voir, qu'il aimait beaucoup mieux,</l>
+            <l n="1430">Être esclave innocent, que monarque odieux.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1431">Quoi, loin de m'adorer, l'insolent me dédaigne !</l>
+            <l n="1432">Ah perfide ! C'est trop, tu sauras que je règne ;</l>
+            <l n="1433">Et puis que tes mépris ont osé m'outrager,</l>
+            <l n="1434">Tu ne me verras pas moins prompte à me venger.</l>
+            <l n="1435">Tu mourras, orgueilleux ; et ton âme hautaine,</l>
+            <l n="1436">Qui brave mon amour, éprouvera ma haine ;</l>
+            <l n="1437">Tu mourras. Ah, que dis-je ? Ô vengeance ! Ô courroux !</l>
+            <l n="1438">Haine, mépris, amour, où me réduisez-vous ?</l>
+            <l n="1439">Où me rendez-vous, impérieuse flamme ?</l>
+            <l n="1440">Si Melistrate meurt, que deviendra mon âme ?</l>
+            <l n="1441">Les coups qui la tiendront, ne m'atteignent-ils pas ?</l>
+            <l n="1442">Sa mort n'est-elle point l'arrêt de mon trépas ?</l>
+            <l n="1443">Et quoi que je propose en me fureur extrême,</l>
+            <l n="1444">Le puis-je perdre enfin, sans me perdre moi-même ?</l>
+            <l n="1445">Non, qu'il vive. Mais quoi ? Je lui suis en horreur, </l>
+            <l n="1446">Il faut donc, il faut donc qu'ils sente ma fureur :</l>
+            <l n="1447">Oui, oui, vengeons sur lui l'outrage par l'outrage,</l>
+            <l n="1448">Donnons cet insolent pour victime à ma rage,</l>
+            <l n="1449">Enterrons, et la cause et l'objet de mes feux,</l>
+            <l n="1450">Et puis, s'il est besoin, perdons-nous avec eux.</l>
+            <l n="1451">Son plaisir fait mon deuil, son repos fait ma peine,</l>
+            <l n="1452">Son espoir fait ma crainte, et son amour ma haine ;</l>
+            <l n="1453">Et ce qui plus m'outrage et blesse mes esprits,</l>
+            <l n="1454">C'est que seule je suis l'objet de ses mépris.</l>
+            <l n="1455">Faisons donc reconnaître à cette âme arrogante,</l>
+            <l n="1456">Que Melistrate est faible, et moi toute puissante ;</l>
+            <l n="1457">Que toute me doit céder, que mes voeux sont des Lois,</l>
+            <l n="1458">Qu'il n'est rien qu'un sujet, et moi Reine des Rois.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1459">Ne différez donc point, que votre haine éclate,</l>
+            <l n="1460">En Oronclide ici vous trouvez Melistrate,</l>
+            <l n="1461">Son âme vit en moi, mon âme vit en lui,</l>
+            <l n="1462">Même coeur, même esprit nous anime aujourd'hui ;</l>
+            <l n="1463">De qui que le sang coule, on le peut dire notre,</l>
+            <l n="1464">La fortune de l'un, se communique à l'autre ;</l>
+            <l n="1465">Et le Ciel fait en nous de si justes accords,</l>
+            <l n="1466">Que vous frappez son coeur, si vous frappez mon corps.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1467" part="I">A-t-il perdu le sens ?</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1467" part="F">Que dit ce téméraire ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1468">Je dis ce que je dois, et que vous devez faire,</l>
+            <l n="1469">Plutôt que d'étouffer ma gloire et mon honneur,</l>
+            <l n="1470">Par les lâches effets d'un conseil suborneur ;</l>
+            <l n="1471">Mais avant désormais qu'on m'y puisse résoudre,</l>
+            <l n="1472">Lancez, lancez sur moi les carreaux de la foudre,</l>
+            <l n="1473">Dieux justes, Dieux vengeurs, plutôt que de souffrir,</l>
+            <l n="1474">Qu'ingrat à vos faveurs, je les laisse périr.</l>
+            <l n="1475">Vous avez attaché mon honneur à ma vie,,</l>
+            <l n="1476">Que la perte de l'un, soit de l'autre suivie ;</l>
+            <l n="1477">Ou si chacun des deux doit périr à son tour,</l>
+            <l n="1478">Au moins avant l'honneur, que je perde le jour.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1479">C'est donc de la façon que je suis obéie,</l>
+            <l n="1480">L'Amant m'a méprisée, et l'Ami m'a trahie ;</l>
+            <l n="1481">Bien, bien, pour ne nous pas satisfaire à demi,</l>
+            <l n="1482">Nous perdons tout ensemble, et l'Amant et l'Ami .</l>
+            <l n="1483">Qu'on l'ôte de mes yeux, Gardes qu'on s'en saisisse.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1484">Non, souffrez qu'à vos yeux j'achève son supplice ;</l>
+            <l n="1485">Et que par un prodige aussi grand que nouveau,</l>
+            <l n="1486">En son père à présent il trouve son Bourreau.</l>
+            <l n="1487">Puis qu'il s'est départi de son obéissance,</l>
+            <l n="1488">Qu'il renonce l'ingrat encore à sa naissance ;</l>
+            <l n="1489">S'il tient de moi le jour, par un contraire effort,</l>
+            <l n="1490">Je saurai lui ravir et lui donner la mort.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1491">Suis, suis, père inhumain, tes sanglantes victimes,</l>
+            <l n="1492">Qu'un coup si généreux couronne tous tes crimes,</l>
+            <l n="1493">Tu pourras bien encore ajouter sans effroi</l>
+            <l n="1494">Le meurtre de ton fils, à celui de ton Roi.</l>
+            <l n="1495">Ah ! Si tu n'avais pas ce sacré caractère,</l>
+            <l n="1496">Qui veut que je t'épargne et que je te révère,</l>
+            <l n="1497">Que ma main de bon coeur laverait en ton sang,</l>
+            <l n="1498">Cet immortel affront que tu faits à ton rang !</l>
+            <l n="1499">Et suivant les ardeurs d'un zèle légitime,</l>
+            <l n="1500">D'un Prince malheureux, te rendrait la victime.</l>
+            <l n="1501">Mais puis que ce respect, mon destin, et les Dieux,</l>
+            <l n="1502">Ne me permettent pas un coup si glorieux,</l>
+            <l n="1503">Je m'en vais de tout point contenter ton envie,</l>
+            <l n="1504">Et te rendre, barbare, et mon sang et ma vie.</l>
+            <l n="1505">Viens donc ; quelle raison rend ton courroux si lent ?</l>
+            <l n="1506" part="I">Viens me donner la mort.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1506" part="F">Ah, qu'il est insolent !</l>
+            <l n="1507" part="I">Qu'il est audacieux ! Qu'on l'emmène.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1507" part="F">Ah, je tremble !</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Sémiramis, Merzabane.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1508">Il confond aujourd'hui nos intérêts ensemble ;</l>
+            <l n="1509">Et l'arrogant oublie en son lâche projet,</l>
+            <l n="1510">Et qu'il est votre fils, et qu'il est mon sujet.</l>
+            <l n="1511">Soyez donc partisan de ma juste colère,</l>
+            <l n="1512">Il cesse d'être fils, vous cessez d'être père,</l>
+            <l n="1513">Il nous a reproché le meurtre de son Roi,</l>
+            <l n="1514">Il est votre censeur, vengez-vous, vengez-moi ;</l>
+            <l n="1515">Puis que pour un ingrat sa passion éclate,</l>
+            <l n="1516">Commençons par sa mort, à punir Melistrate;</l>
+            <l n="1517">Attendant que le temps plus propice à nos voeux,</l>
+            <l n="1518">Nous donne les moyens de les perdre tous deux.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Palmédon, Mélistrate.</head>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1519" part="I">Palmédon</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1519" part="F">Ah, Seigneur ! Retirez-vous de grâce ;</l>
+            <l n="1520">Ignorez vous encore qu'ici tout vous menace ?</l>
+            <l n="1521">Et que par vos mépris, une Reine en courroux,</l>
+            <l n="1522">Brûle de se venger d'Oronclide et de vous ?</l>
+            <l n="1523">Pour un même transport, ce Prince est à la chaîne ;</l>
+            <l n="1524" part="I">Évitez ce malheur.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1524" part="F">Ah ! C'est ce qui m'amène.</l>
+            <l n="1525">Ne m'importune pas d'un si lâche conseil ;</l>
+            <l n="1526">Par un même chemin, je cherche un sort pareil. </l>
+            <l n="1527">Quoi, veux-tu que d'une âme aussi faible qu'ingrate,</l>
+            <l n="1528">Je démente le coeur qu'eut toujours Melistrate ?</l>
+            <l n="1529">Veux-tu que j'abandonne un ami généreux,</l>
+            <l n="1530">Qui pour mes intérêts, s'est rendu mal-heureux ?</l>
+            <l n="1531">Quand il parait pour moi, veux-tu que je me cache ?</l>
+            <l n="1532">Ah, non, non, Palmédon, je ne suis pas si lâche,</l>
+            <l n="1533">Il faut que de tout point nos destins soient égaux,</l>
+            <l n="1534">Que nos biens soient communs aussi bien que nos maux ;</l>
+            <l n="1535">Et comme ce grand coeur a pris part à mes peines,</l>
+            <l n="1536">Que je partage aussi la gloire de ses chaînes.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1537" part="I">Mais, Seigneur.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1537" part="F">Tout obstacle est ici superflu,</l>
+            <l n="1538">On délibère en vain sur un point résolu.</l>
+            <l n="1539">Empêcher les effets d'un coup si légitime,</l>
+            <l n="1540">C'est pour sauver ma vie exposer mon estime ;</l>
+            <l n="1541">Et par le lâche effet d'un conseil suborneur,</l>
+            <l n="1542">Pour épargner mon sang, prodiguer mon honneur.</l>
+            <l n="1543">Il a promis ma tête, et pour elle il s'immole,</l>
+            <l n="1544">Il faut par mon retour dégager sa parole ;</l>
+            <l n="1545">Et bravant mes malheurs, comme nos ennemis,</l>
+            <l n="1546">Le tirer noblement des fers où je l'ai mis.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1547">Dites que vous allez par des ardeurs si vaines,</l>
+            <l n="1548">Vous perdre imprudemment et resserrer ses chaînes :</l>
+            <l n="1549">Dites que par ce prompt et mal-heureux retour,</l>
+            <l n="1550">Vous allez ruiner l'espoir de votre amour.</l>
+            <l n="1551">Voyez à quel péril ce zèle vous hasarde.</l>
+            <l n="1552">Forcerez-vous tout seul les soldats de la garde ?</l>
+            <l n="1553">Et si vous espérez d'un Peuple plein d'effroi,</l>
+            <l n="1554">Fera-t-il plus pour vous, qu'il n'a fait pour son Roi ?</l>
+            <l n="1555">Ah ! Ne vous fiez pas à ce monstre à cent têtes,</l>
+            <l n="1556">Qui sait mieux exciter, qu'apaiser les tempêtes ;</l>
+            <l n="1557">Et laissez faire aux Dieux, qui font tout sagement,</l>
+            <l n="1558">Ce qu'ici votre ardeur tente inutilement.</l>
+            <l n="1559">De plus, ce qui me flatte en cette conjoncture,</l>
+            <l n="1560">C'est qu'il vient d'arriver une étrange aventure ;</l>
+            <l n="1561">Et dont je me promets un bon événement,</l>
+            <l n="1562">Si vous ne le troublez par votre empressement.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1563" part="I">Hé bien, je le croirai ; mais achevé.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1563" part="F">Oronclide,</l>
+            <l n="1564">D'un bras qu'arma le sort, et que la vertu guide,</l>
+            <l n="1565">A blessé Merzabane, et ce grand coup est tel,</l>
+            <l n="1566">Que d'un commun accord, on le juge mortel.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1567">Mais il est dans les fers, et je ne puis comprendre</l>
+            <l n="1568" part="I">Comment ce coup s'est fait.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1568" part="F">Je m'en vais vous l'apprendre.</l>
+            <l n="1569">Aussitôt que la Reine eut montré son courroux</l>
+            <l n="1570">Contre ce cher ami, qui s'exposa pour vous,</l>
+            <l n="1571">Merzabane craignant l'effet de sa colère,</l>
+            <l n="1572">Feignit de renoncer aux tendresses d'un père ;</l>
+            <l n="1573">Et par ce tour adroit, le voulant conserver,</l>
+            <l n="1574">Il s'offrit de le perdre, afin de le sauver.</l>
+            <l n="1575">La Reine le voyant si plein d'ire et de zèle,</l>
+            <l n="1576">Crût ne pouvoir choisir une main plus fidèle,</l>
+            <l n="1577">Que celle qui déjà sans crainte et sans horreur</l>
+            <l n="1578">Avait sacrifié Ninus à sa fureur.</l>
+            <l n="1579">Cependant Oronclide en une tour obscure</l>
+            <l n="1580">Se résout à la mort qu'il attend sans murmure ;</l>
+            <l n="1581">Et d'un visage égal témoigne qu'il est prêt ;</l>
+            <l n="1582">Comme de la souffrir, d'en entendre l'arrêt.</l>
+            <l n="1583">Mais sans doute les Dieu touchés de sa constance</l>
+            <l n="1584">Ont voulu faire en lui triompher l'innocence,</l>
+            <l n="1585">Et montrer par un rare et juste événement,</l>
+            <l n="1586">Qu'une haute vertu succombe rarement.</l>
+            <l n="1587">Ils ont pour cet effet permis qu'en cet orage</l>
+            <l n="1588">Un soldat résolu, mais d'un noble courage,</l>
+            <l n="1589">Ait été par bonheur à sa garde commis,</l>
+            <l n="1590">Du choix de Merzabane et de Sémiramis.</l>
+            <l n="1591">Ce Soldat le voyant au bord du précipice,</l>
+            <l n="1592">Et ne pouvant souffrir une telle injustice,</l>
+            <l n="1593">S'est enfin découvert ; et lui parlant sans fard,</l>
+            <l n="1594">En cette extrémité l'a fourni d'un poignard,</l>
+            <l n="1595">Qui dans ce même temps a réveillé l'envie,</l>
+            <l n="1596">Ou de venger sa mort, ou de venger sa vie.</l>
+            <l n="1597">Oronclide est encore dans un penser si doux,</l>
+            <l n="1598">Quand il entend un bruit de clefs et de verrous ;</l>
+            <l n="1599">Le soldat se retire, et lui dans le silence,</l>
+            <l n="1600">Attend le fer en main, un objet qui s'avance ;</l>
+            <l n="1601">Et que dans son désordre il ne peut discerner,</l>
+            <l n="1602">Par la clarté qu'il porte, et qu'il vient lui donner.</l>
+            <l n="1603">Ne se figurant rien alors que de sinistre,</l>
+            <l n="1604">Il croit que de sa mort, c'est l'infâme Ministre,</l>
+            <l n="1605">Qui vient exécuter l'ordre qu'il a reçu</l>
+            <l n="1606">Du plus cruel esprit que l'Enfer ait conçu.</l>
+            <l n="1607">Enfin le voyant proche, il s'emporte et s'élance</l>
+            <l n="1608">Sur celui qui l'aborde avec violence ;</l>
+            <l n="1609">Et sans se relâcher en son juste dessein,</l>
+            <l n="1610">Lui plonge avec vigueur le poignard dans le sein.</l>
+            <l n="1611">Le malheureux s'écrie, Ah ! Que fais-tu, profane ?</l>
+            <l n="1612">Oronclide à la voix reconnaît Merzabane ;</l>
+            <l n="1613">Et croyant avoir fait un crime plein d'horreur,</l>
+            <l n="1614">Il veut contre soi-même employer sa fureur.</l>
+            <l n="1615">Le blessé se saisit du poignard, et l'arrache ;</l>
+            <l n="1616">L'homicide gémit, et se plaint sans relâche,</l>
+            <l n="1617">Dedans l'erreur qu'il est d'avoir ouvert le flanc,</l>
+            <l n="1618">Qu'il avait crû toujours la source de son sang.</l>
+            <l n="1619">Mais Merzabane enfin, sans songer à l'outrage</l>
+            <l n="1620">Qu'il en avait reçu, calme un peu cet orage ;</l>
+            <l n="1621">Et lors lui déclarant qu'il n'était pas son fils,</l>
+            <l n="1622">Ses sens de furieux, devinrent interdits.</l>
+            <l n="1623">Puis sortant tout à coup de ce désordre étrange,</l>
+            <l n="1624">En curiosité ce grand trouble se change ;</l>
+            <l n="1625">Il demande, il supplie, il presse pour savoir</l>
+            <l n="1626">Qui l'avait mis au jour, qu'il croyait lui devoir.</l>
+            <l n="1627">Mais voulant ménager la force qui lui reste,</l>
+            <l n="1628">Pour ne pas rendre en vain ce secret manifeste,</l>
+            <l n="1629">Merzabane affaibli, dit qu'il est à propos,</l>
+            <l n="1630">Tant pour son intérêt, comme pour son repos,</l>
+            <l n="1631">Que ce discours se fasse et se preuve à la Reine ;</l>
+            <l n="1632">Oronclide consent, Merzabane l'y mène ;</l>
+            <l n="1633">Et je crois qu'à présent ils sont à son lever,</l>
+            <l n="1634">Pour faire ce récit, qu'on doit y achever.</l>
+            <l n="1635">C'est ce que depuis peu j'ai su du soldat même</l>
+            <l n="1636">Qui servit Oronclide de ce désordre extrême ;</l>
+            <l n="1637">Et nous fera tirer en cette occasion</l>
+            <l n="1638">Un ordre merveilleux de sa confusion,</l>
+            <l n="1639">Faisant dorénavant, par la perte d'un autre,</l>
+            <l n="1640">Le salut d'Oronclide, aussi bien que le vôtre.</l>
+            <l n="1641">Ne précipitez rien, attendez cet effet,</l>
+            <l n="1642">Et bientôt votre esprit se verra satisfait,</l>
+            <l n="1643">Si votre désespoir ne le rend inutile.</l>
+            <l n="1644">Allez, Seigneur, allez vous rendre à votre asile,</l>
+            <l n="1645">Tandis qu'un peu de nuit que va chasser le jour,</l>
+            <l n="1646">Vous y permet encore un facile retour.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1647">Non, non, que ma fortune ou soit pure ou meilleure,</l>
+            <l n="1648">Qu'Oronclide soit libre, ou qu'il vive ou qu'il meure,</l>
+            <l n="1649">Je veux aller montrer à la Reine aujourd'hui,</l>
+            <l n="1650">Que je veux vivre enfin, ou mourir avec lui.</l>
+            <l n="1651">Elle vient, je l'entends, allons à sa rencontre.</l>
+          </sp>
+          <sp who="tc0119-PALMEDON">
+            <speaker>PALMÉDON.</speaker>
+            <l n="1652">Il n'est pas temps encore que ce grand coeur se montre,</l>
+            <l n="1653">Ne la surprenez point, et donnez un moment</l>
+            <l n="1654">Aux premières chaleurs de son ressentiment :</l>
+            <l n="1655">Votre ami la va mettre en un assez grand trouble,</l>
+            <l n="1656">Sans que hors de saison votre abord le redouble.</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1657">Hé bien, d'un peu de temps différons cet effort ;</l>
+            <l n="1658">Mais ce jour doit conclure ou ma vie ou ma mort.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Sémiramis, Merzabane, Oronclide, Prazimène, et suite.</head>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1659">Que demande un perfide, et qu'est-ce qu'il espère ?</l>
+            <l n="1660">Vient-il joindre mon sang, à celui de son père ?</l>
+            <l n="1661">Par un si triste objet pense-t-il m'émouvoir ?</l>
+            <l n="1662">Vient-il braver ma haine, ou montrer son pouvoir ?</l>
+            <l n="1663">Croit-il qu'un parricide excuse son audace ?</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1664" part="I">Non, non, je veux ma mort.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1664" part="F">Et j'implore sa grâce.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1665">Comment vous suppliez pour qui vous fait périr ?</l>
+            <l n="1666">Sauverez-vous la vie, à qui vous fait mourir ?</l>
+            <l n="1667">À qui vous fut cruel, serez-vous pitoyable ?</l>
+            <l n="1668">C'est un fils, il est vrai, mais un fils détestable,</l>
+            <l n="1669">Mais un monstre plutôt que l'Enfer a vomi,</l>
+            <l n="1670">Et votre plus barbare et mortel ennemi ;</l>
+            <l n="1671">Il faut de votre sang retrancher ce prodige,</l>
+            <l n="1672">Arracher cette branche, indigne de sa tige ;</l>
+            <l n="1673">Et foudroyer enfin un si funeste fruit ,</l>
+            <l n="1674">Qui dément, et qui perd l'arbre qui l'a produit.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1675">Ah ! Madame, sauvez, non pas un parricide,</l>
+            <l n="1676">Mais bien la vertu même, en sauvant Oronclide,</l>
+            <l n="1677">Mais un fils généreux que le sort m'a donné,</l>
+            <l n="1678">et qui mériterait de se voir couronné ;</l>
+            <l n="1679">Mais un fils, ou plutôt un illustre prodige,</l>
+            <l n="1680">Une branche admirable et digne de sa tige,</l>
+            <l n="1681">Une excellente fleur, adorable fruit,</l>
+            <l n="1682">Qui sera refleurir l'arbre qui l'a produit.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1683">Mais priant pour ce fils, vous me parlez d'un autre.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1684" part="I">Hélas ! Il n'est pas mien !</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1684" part="F">Comment ? Il n'est pas vôtre !</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1685" part="I">Non.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1685" part="M">De qui donc ?</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1685" part="M">Bons Dieux !</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1685" part="F">Vous allez tout savoir.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE, à part.</speaker>
+            <l n="1686">Sans toi, ses actions le faisaient assez voir.</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1687">Lors que le grand Ninus, ô fatale mémoire !</l>
+            <l n="1688">Osai-je prononcer un nom si plein de gloire,</l>
+            <l n="1689">Moi qui suis l'exécrable et perfide meurtrier</l>
+            <l n="1690">Du Héros, qui jamais l'ait porté le premier ?</l>
+            <l n="1691">Lors, dis-je, que Ninus triomphant dans les armes,</l>
+            <l n="1692">Fut vaincu par vos yeux, et soumis à vos charmes,</l>
+            <l n="1693">Deux ans auparavant, une jeune beauté,</l>
+            <l n="1694">Avait à ce grand coeur ravi la liberté ;</l>
+            <l n="1695">Et quoi que dans la pourpre elle ne fut pas née,</l>
+            <l n="1696">Elle osa bien prétendre un Royal Hyménée ;</l>
+            <l n="1697">Son dessein réussit, elle l'y disposa,</l>
+            <l n="1698">Et malgré nos conseils, ce Prince l'épousa.</l>
+            <l n="1699">Mais cette ardeur si prompte, et si démesurée,</l>
+            <l n="1700">Passa comme un éclair, et n'eut point de durée ;</l>
+            <l n="1701">Car au point de produire un fruit de son amour,</l>
+            <l n="1702">En lui donnant la vie, elle perdit le jour.</l>
+            <l n="1703">Presqu'en ce même temps, un mien fils prit naissance,</l>
+            <l n="1704">Ninus était absent, j'avais toute puissance ;</l>
+            <l n="1705">De sorte que je pus, sans que l'on en sut rien,</l>
+            <l n="1706">Supposer mon Enfant à la place du sien,</l>
+            <l n="1707">Espérant quelque jour lui faire connaître,</l>
+            <l n="1708">Qu'il tenait de moi seul sa grandeur et son être ;</l>
+            <l n="1709">Et qu'il devait enfin dans les occasions,</l>
+            <l n="1710">Récompenser mes soins, et mes affections.</l>
+            <l n="1711">Mais peu de temps après, la Fortune inconstante,</l>
+            <l n="1712">Détruisit mes projets, et trompa mon attente ;</l>
+            <l n="1713">Car à peine mon fils dans la pourpre parut,</l>
+            <l n="1714">Que la bizarre dit aussi tôt qu'il mourut ;</l>
+            <l n="1715">Quoi qu'avec lui périt ma plus chère espérance,</l>
+            <l n="1716">Mon deuil fut toutes fois moindre que ma constance ;</l>
+            <l n="1717">Et je me consolai dans mon adversité,</l>
+            <l n="1718">de celui que le Sort ne m'avait pas ôté.</l>
+            <l n="1719">Comme il fut plein de coeur, aussi bien que d'adresse,</l>
+            <l n="1720">J'eus pour lui du depuis beaucoup plus de tendresse ;</l>
+            <l n="1721">Et l'inclination produisit les effets,</l>
+            <l n="1722">Qu'au lieu de mon amour, la Nature aurait faits.</l>
+            <l n="1723">J'aimai donc cet Enfant, et c'était Oronclide,</l>
+            <l n="1724">Dès ses plus jeunes ans, il parut un Alcide ;</l>
+            <l n="1725">Et les vices divers dont son coeur triompha,</l>
+            <l n="1726">Sont les monstres affreux que ce Prince étouffa ;</l>
+            <l n="1727">Après tant de travaux si dignes de mémoire,</l>
+            <l n="1728">C'est en moi qu'il achève et ses faits et sa gloire ;</l>
+            <l n="1729">Car de tant d'ennemis dont il fut combattu,</l>
+            <l n="1730">J'étais le plus fatal à sa haute vertu.</l>
+            <l n="1731">Il ne prit toutefois jamais part à mes crimes,</l>
+            <l n="1732">Il rejeta toujours mes cruelles maximes,</l>
+            <l n="1733">Puis que son coup hélas, plus juste que le mien,</l>
+            <l n="1734">En répandant mon sang, n'a vengé que le sien.</l>
+            <l n="1735">Oui, le fils a vengé le trépas de son père ;</l>
+            <l n="1736">Mais il vous reste encore une vengeance à faire :</l>
+            <l n="1737">Enfin pour expier tous les maux que je fis,</l>
+            <l n="1738">Vengez-vous de tous ceux qu'a soufferts votre fils ;</l>
+            <l n="1739">Mais il n'est pas besoin que votre foudre éclate,</l>
+            <l n="1740">Car je sens que la mort vous venge, et Melistrate :</l>
+            <l n="1741">Ce qui me reste à dire avant que d'expirer,,</l>
+            <l n="1742">C'est que ce cher Amant, qui vous fait soupirer,</l>
+            <l n="1743" part="I">Est votre fils, Madame.</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1743" part="F">Ô Dieux ! Quelle aventure !</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1744">Et si vous consultez la voix de la Nature,</l>
+            <l n="1745">Vous saurez qu'en ces feux dans votre âme excités,</l>
+            <l n="1746">Votre sang agissait plus que ses qualités.</l>
+            <l n="1747">La nuit qui vous coûta tant de sang et de larmes,</l>
+            <l n="1748">Quand Thermodonte vient s'immoler à vos armes,</l>
+            <l n="1749">Me servant de désordre et de l'occasion ,</l>
+            <l n="1750">J'enlevai cet obstacle à mon ambition ;</l>
+            <l n="1751">Je déguisai son nom, ainsi que sa naissance ;</l>
+            <l n="1752">Et quelqu'un que j'avais de mon intelligence,</l>
+            <l n="1753">Le faisant élever en des lieux peu connus,</l>
+            <l n="1754">Par mon ordre, obscurcit le beau sang de Ninus.</l>
+            <l n="1755">Mais enfin ce grand coeur a forcé tout obstacle,</l>
+            <l n="1756" part="I">Je vous le rends.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1756" part="F">Ô Ciel ! Qui croira ce miracle ?</l>
+          </sp>
+          <sp who="tc0119-MERZABANE">
+            <speaker>MERZABANE.</speaker>
+            <l n="1757">Je doit être croyable en l'état où je suis.</l>
+            <l n="1758">Suppléez, Oronclide, à ce que je ne puis ;</l>
+            <l n="1759">Rappelez votre Frère, et faites que la Reine, </l>
+            <l n="1760">Au delà de mes jours n'étende point sa haine ;</l>
+            <l n="1761">Et si j'ose former encore quelques souhaits,</l>
+            <l n="1762">Souffrez que hors d'ici j'aille mourir en paix.</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1763">Va, meurs, d'un peu de temps devance ta complice,</l>
+            <l n="1764">Le trépas pour tous deux est un bien doux supplice :</l>
+            <l n="1765">Heureuse si ce coeur pouvait être percé</l>
+            <l n="1766">Par les mains de ce fils, dont les yeux m'ont blessé..</l>
+            <l n="1767" part="I">Ce sacrifice enfin</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Mélistrate, SÉMIRAMIS, Prazimène, Oronclide, et suite.</head>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1767" part="F">Sera bien légitime ;</l>
+            <l n="1768">Qu'on apprête l'Autel, en voici la victime,</l>
+            <l n="1769">Qui loin de faire effort à se justifier,</l>
+            <l n="1770">Vient soi-même s'offrir, et se sacrifier.</l>
+            <l n="1771">Commandez seulement, ma main est toute preste ;</l>
+            <l n="1772">Et ce fer, pour insigne et dernier conquête,</l>
+            <l n="1773">Vous va donner un coeur, mais un coeur tout sanglant,</l>
+            <l n="1774">Que vous n'avez pu voir amoureux ni brûlant ;</l>
+            <l n="1775">Mais un coeur où l'amour de la vertu réside,</l>
+            <l n="1776">Qui veut mourir pour elle, et sauver Oronclide,</l>
+            <l n="1777">Qui vient plus généreux, que vous ne l'espériez,</l>
+            <l n="1778">S'est jeté dans les fers que vous me prépariez</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1779">C'est en vain qu'à présent ce zèle vous emporte,</l>
+            <l n="1780">En vain votre courage éclate de la sorte,</l>
+            <l n="1781">En vain à mon courroux vous venez vous offrir,</l>
+            <l n="1782">Pour sauver Oronclide, ou pour le secourir.</l>
+            <l n="1783">Depuis peu mon destin a bien changé de face,</l>
+            <l n="1784">C'est à lui, c'est à vous qu'il faut demander grâce ;</l>
+            <l n="1785">Et je m'abaisserais à ce honteux devoir,</l>
+            <l n="1786">Si la mort que je veux n'était en mon pouvoir..</l>
+            <l n="1787">Il est juste pourtant que je vous la demande,</l>
+            <l n="1788">C'est un droit désormais qu'il faut que je vous rende ;</l>
+            <l n="1789">Et si vous êtes tels qu'on me vient d'assurer,</l>
+            <l n="1790">Il n'est rien qu'aujourd'hui je ne doive espérer.</l>
+            <l n="1791">On vous dit tous deux fils du malheureux monarque,</l>
+            <l n="1792">Que j'ai fait sans remords immoler à la Parque.</l>
+            <l n="1793">Si vous êtes les fils, si vous estes son sang,</l>
+            <l n="1794">Vengez la mort d'un père, et reprenez son rang ;</l>
+            <l n="1795">Ce grand coup en sera la véritable preuve,</l>
+            <l n="1796">Je suis sa meurtrière, et je ne suis pas veuve,</l>
+            <l n="1797">Puis que ce coeur enfin n'a jamais consenti</l>
+            <l n="1798">À ce fatal hymen, dont il s'est ressenti.</l>
+            <l n="1799">Qui de vous a le plus de haine ou de courage ?</l>
+            <l n="1800">Sa main en Merzabane a commencé l'ouvrage ;</l>
+            <l n="1801">Et pour vous faire part d'un si célèbre emploi,</l>
+            <l n="1802">C'est à vous, Melistrate, à l'achever en moi.</l>
+            <l n="1803">Que différez vous donc à venger votre père ?</l>
+            <l n="1804">Quoi pour un coup si juste, on tremble ? On délibère ?</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1805" part="I">Hélas !</l>
+          </sp>
+          <sp who="tc0119-SEMIRAMIS">
+            <speaker>SÉMIRAMIS.</speaker>
+            <l n="1805" part="F">Cette pitié n'est pour moi que rigueur ;</l>
+            <l n="1806">Frappez, vous savez bien le chemin de mon coeur,</l>
+            <l n="1807">Vous l'avez déjà mis dans les fers, dans la flamme,</l>
+            <l n="1808">Percé de mille traits qui m'ont arraché l'âme ;</l>
+            <l n="1809">Et je serais déjà dans les bras de la mort,</l>
+            <l n="1810">Si vos charmes n'avaient suspendu son effort.</l>
+            <l n="1811">Faites-les donc cesser, ces redoutables charmes,</l>
+            <l n="1812">Si leurs traits m'ont blessée, achevez par vos armes ;</l>
+            <l n="1813">Et puis que je n'avais que d'injustes desseins,</l>
+            <l n="1814">Que le crime des yeux soit puni par les mains.</l>
+            <l n="1815">Mais hélas ! Je vois bien qu'en cette conjoncture,</l>
+            <l n="1816">La nature en ce lieu combattra la Nature;</l>
+            <l n="1817">Et que mon sexe ici vainement respecté,</l>
+            <l n="1818">Servira de prétexte à votre lâcheté :</l>
+            <l n="1819">C'est pourquoi je ne veux dans ma fureur extrême,</l>
+            <l n="1820">Demander du secours désormais qu'à moi-même ;</l>
+            <l n="1821">Je ne veux à ce coup employer que mon bras,</l>
+            <l n="1822">Trop humains ennemis, je vous rends vos états ;</l>
+            <l n="1823">Et pour rendre en mourant ma douleur sans égale,</l>
+            <l n="1824">Je veux voir avec vous triompher ma rivale,</l>
+            <l n="1825">Du débris de mon sort, faire le sien plus beau,</l>
+            <l n="1826">Et l'élever au trône, en entrant au tombeau.</l>
+            <l n="1827">Brillante illusion, précieuse fumée,</l>
+            <l n="1828">Dont ce matin encore mon âme était charmée,</l>
+            <l n="1829">Je vous quitte, grandeurs, présents empoisonnés,</l>
+            <l n="1830">Qui détruisez toujours ceux que vous couronnez.</l>
+            <l n="1831">Melistrate, Ascalon sera votre partage,</l>
+            <l n="1832">Cet Empire est mon bien, il est votre apanage ;</l>
+            <l n="1833">Et comme par mes soins Babylone est à moi,</l>
+            <l n="1834">Je vous la donne encore,et je vous en faits Roi.</l>
+            <l n="1835">Qu'Oronclide succède aux États de son père,</l>
+            <l n="1836">La mort est désormais tout le bien que j'espère ;</l>
+            <l n="1837">C'est le seuls que je veux ; et je le tiens si cher,</l>
+            <l n="1838">Que ni vous, ni les Dieux, ne sauriez l'empêcher.</l>
+          </sp>
+          <sp who="tc0119-PRAZIMENE">
+            <speaker>PRAZIMÈNE.</speaker>
+            <l n="1839" part="I">Seigneurs</l>
+          </sp>
+          <sp who="tc0119-MELISTRATE">
+            <speaker>MELISTRATE.</speaker>
+            <l n="1839" part="M">Nous vous suivons ; Oronclide</l>
+          </sp>
+          <sp who="tc0119-ORONCLIDE">
+            <speaker>ORONCLIDE.</speaker>
+            <l n="1839" part="F">Ah ! Mon frère,</l>
+            <l n="1840">Que le Ciel aujourd'hui nous est doux et sévère !</l>
+            <l n="1841">Et qu'aux biens qu'il nous donne et nous ôte, le sort</l>
+            <l n="1842">Mêle confusément, et l'Amour et la Mort !</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

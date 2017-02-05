@@ -1,0 +1,2935 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Téléphonte</title>
+        <title type="sub">Tragi-comédie</title>
+        <title type="short">Téléphonte</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">GILBERT, Gabriel</name>
+          <name type="short">Gilbert</name>
+          <idno type="viaf"/>
+        </author>
+        <principal>Texte établi par **** ***** (Maîtrise de Lettres modernes - Université de la Sorbonne Paris IV, 2011-2012) sous la direction de Georges Forestier.</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0526</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2012</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1662</date>, <idno/>, <ref target="#"/>. À PARIS, Chez TOUSSAINT QUINET, au Palais, en la petite Salle, sous la montée de la Cour des Aides..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1645</date>, <idno/>, <ref target="#"/>. Représenté pour le première fois en 1645.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragi-comédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1661-1670</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>PERSONNAGES</head>
+        <castItem>
+          <role xml:id="tc0526-HERMOCRATE">HERMOCRATE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-DEMOCHARE">DEMOCHARE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-MEROPE">MÉROPE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-TELEPHONTE">TÉLÉPHONTE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-PHILOCLEE">PHILOCLÉE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-TYRENE">TYRÈNE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-CEPHALIE">CÉPHALIE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0526-ORPHISE">ORPHISE</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La scène est à Mycènes dans le Péloponese.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Mérope, Céphalie.</head>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1">Divin flambeau du Ciel dont la course diverse</l>
+            <l n="2">Visite l'Indien, et le Scythe, et le Perse ;</l>
+            <l n="3">Qui portes ta lumière en cent climats divers,</l>
+            <l n="4">Et qui fais tous les jours le tour de l'Univers :</l>
+            <l n="5">ToI qui de tous les Dieux sais mieux ce que nous sommes,</l>
+            <l n="6">Qui peux mieux remarquer l'infortune des hommes,</l>
+            <l n="7">Qui connais leur misère, et luis sur leurs tombeaux,</l>
+            <l n="8">Et d'horreur tous les jours t'en caches sous les eaux,</l>
+            <l n="9">Fus-tu jamais touché d'une si juste plainte ?</l>
+            <l n="10">J'ai vu dans une nuit ma race presque éteinte ;</l>
+            <l n="11">Un barbare, un tyran de mon bonheur jaloux,</l>
+            <l n="12">M'a ravi mes enfants, et mon fidèle époux.</l>
+            <l n="13">Par une impiété qui n'eut jamais d'exemple,</l>
+            <l n="14">Il a tué son Roi jusques dedans un Temple,</l>
+            <l n="15">Aux yeux de son épouse et des Dieux immortels</l>
+            <l n="16">Et de ce sacré sang fait rougir les autels.</l>
+            <l n="17">Ce grand héros est mort par la main d'un perfide ;</l>
+            <l n="18">Qui ne fut pas content après ce parricide,</l>
+            <l n="19">Il voulut qu'un dessein plein d'horreur s'accomplît,</l>
+            <l n="20">En occupant son trône il entra dans son lit,</l>
+            <l n="21">Et pour mieux satisfaire à sa cruelle envie,</l>
+            <l n="22">Il lui ravit le sceptre, et la femme et la vie,</l>
+            <l n="23">Toujours de puis ce temps, et ce crime odieux,</l>
+            <l n="24">Cresphonte et mes enfants sont présents à mes yeux.</l>
+            <l n="25">Ô mortel souvenir ! ô douleur trop amère !</l>
+            <l n="26">J'ai les ressentiments : et de femme, et de mère,</l>
+            <l n="27">Avecque mon époux j'ai mon sang à venger,</l>
+            <l n="28">Le trépas du tyran peut seul me soulager,</l>
+            <l n="29">Il peut à mes douleurs donner de l'allégeance,</l>
+            <l n="30">Et si je vis encor, je vis pour la vengeance,</l>
+            <l n="31">Oui le devoir m'y force, et je l'entreprendrai</l>
+            <l n="32">Et si je ne le perds au moins je me perdrai.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="33">Il vous révère trop pour vous faire un outrage,</l>
+            <l n="34">Ce barbare pour vous laisse dormir sa rage,</l>
+            <l n="35">Vos appas l'ont charmé, près de votre beauté,</l>
+            <l n="36">Il quitte la fureur, l'orgueil, la cruauté,</l>
+            <l n="37">La sanguinaire humeur qui fait que l'on l'abhorre,</l>
+            <l n="38">Son esprit s'adoucit, dirai-je plus encore,</l>
+            <l n="39">Pour vous il cesse d'être au nombre des tyrans.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="40">Qu'est-ce que tu me dis, et qu'est-ce que j'apprends ?</l>
+            <l n="41">Ne m'a-t-il pas traitée avecque tyrannie ?</l>
+            <l n="42">N'ai-je pas éprouvé sa brutale manie ?</l>
+            <l n="43">Après s'être souillé dedans le sang des miens</l>
+            <l n="44">Ne m'a-t-il pas ravi mon honneur et mes biens ?</l>
+            <l n="45">Depuis trois fois cinq ans il me tient en servage</l>
+            <l n="46" part="I">Est-ce là cet amour ?</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="46" part="F">Mais par son mariage</l>
+            <l n="47" part="I">Il croit tout effacer.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="47" part="F">Ah ce fut malgré moi,</l>
+            <l n="48">Je donnai bien la main, mais je retiens ma foi ;</l>
+            <l n="49">À ce traître le Ciel ne m'a point destinée,</l>
+            <note type="L">Junon : La Déesse Junon était fille de Saturne et de Rhée. Elle était Déesse des Royaumes et des Empires, des richesses, des mariages (...). Elle était encore la Déesse de la propreté et des ornements, et c'est pour cela que ses statues avaient les cheveux frisés et disposés très proprement, et avec grand soin. [T]</note>
+            <l n="50">La pudique Junon, ni le saint hyménée,</l>
+            <l n="51">Ni l'amour conjugal n'ont point uni nos coeurs ;</l>
+            <note type="L">Mégère : Nom propre d'une des trois Furies. Fig. Femme méchante et emportée. [L]</note>
+            <l n="52">La Discorde plutôt, et Mégère et ses soeurs,</l>
+            <l n="53">Un furieux amour, et les haines mortelles,</l>
+            <l n="54">Sont venus célébrer ces noces criminelles,</l>
+            <l n="55">Le nom de ravisseur, et non celui d'époux,</l>
+            <l n="56">Pour qui m'a violée est encore trop doux ;</l>
+            <l n="57">Oui l'Hymen qui oppose à ma juste colere,</l>
+            <l n="58">N'est qu'un lien infâme, et qu'un long adultère.</l>
+            <l n="59">Digne pour le punir d'un supplice éternel,</l>
+            <l n="60">Je ne suis point coupable il est seul criminel,</l>
+            <l n="61">Ce qu'il fit par fureur je le fis par contrainte,</l>
+            <l n="62">Que pouvais-je à la force opposer que la plainte,</l>
+            <l n="63">Chere ombre, cher Cresphonte, écoute mes transports,</l>
+            <l n="64">Si ton lâche meurtrier rend esclave mon corps,</l>
+            <l n="65">Tu possèdes toujours et mon coeur, et mon âme,</l>
+            <l n="66">Et dans les bras d'autrui je suis encor ta femme.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="67">Un fils vous reste encor chez les Étoliens,</l>
+            <l n="68">Que l'on comble à Chalcis et d'honneur et de biens</l>
+            <l n="69">Que leur Roi généreux destine pour son gendre,</l>
+            <l n="70">Il viendra vous venger, il viendra vous défendre.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="71">Vingt ans sont écoulés depuis qu'en cette Cour,</l>
+            <l n="72">Loin des yeux du Tyran il respire le jour,</l>
+            <l n="73">Et quand je le sauvai de cette main meurtrière,</l>
+            <l n="74">À peine il jouissoit de la douce lumiere,</l>
+            <l n="75">Il n'avait encor vu que le cours d'un Soleil.</l>
+            <l n="76">Mais est il de malheur à mon malheur pareil,</l>
+            <l n="77">Je faisais en secret élever Téléphonte,</l>
+            <l n="78">Pour punir Hermocrate, et pour venger ma honte ;</l>
+            <l n="79">Mais ce dragon veillant enfin l'a decouvert,</l>
+            <l n="80">C'est là ce qui le sauve, et c'est ce qui me perd.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="81">Avecque sa valeur tout un peuple le garde,</l>
+            <l n="82">Comme son Roi futur ce peuple le regarde,</l>
+            <l n="83">Le favori des Dieux, le puissant Amynthas</l>
+            <l n="84">Lui donnera sa fille avecque ses États,</l>
+            <l n="85">En vain l'orgueilleux fils du superbe Hermocrate</l>
+            <l n="86">Pour lui donner la main la menace et la flatte,</l>
+            <l n="87">Il n'a point cet honneur d'être sorti de vous</l>
+            <l n="88">Pour prétendre à celui d'être un jour son époux</l>
+            <l n="89">Philoclée est constante et rien ne la surmonte,</l>
+            <l n="90">Elle hait Demochare et chérit Téléphonte,</l>
+            <l n="91">Quoiqu'il puisse arriver cette illustre beauté</l>
+            <l n="92">Ne donnera son coeur qu'à qui l'a mérité.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="93">Ô bons Dieux que je plains cette jeune Princesse</l>
+            <l n="94">Qu'elle a dans cette Cour, d'ennuis et de tristesse,</l>
+            <l n="95">Et qu'un injuste sort l'enlève à ses parents,</l>
+            <l n="96">La faisant devenir le butin des tyrans.</l>
+            <l n="97">Le Ciel l'a fait tomber dans la main d'un pirate,</l>
+            <l n="98">Pour la rendre captive en cette terre ingrate,</l>
+            <l n="99">Pour gémir dans les fers, voir ses desseins trahis</l>
+            <l n="100">Loin des yeux de son père, et loin de son pays.</l>
+            <l n="101">Encor que son destin soit triste et déplorable</l>
+            <l n="102">Son malheur et le mien n'ont rien de comparable :</l>
+            <l n="103">Mais je crains pour mon fils encor plus que pour moi ;</l>
+            <l n="104">On bannit de ces lieux la pudeur et la foi :</l>
+            <l n="105">Où le crime peut tout rien n'est en assurance.</l>
+            <l n="106" part="I">Ah ! Superbe tyran.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="106" part="F">Vivez en espérance,</l>
+            <l n="107">L'amour le peut fléchir, le Ciel l'humilier.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="108">Ne sais-tu pas l'édit qu'il a fait publier</l>
+            <l n="109">Et le nouveau tourment que sa fureur m'apprête ?</l>
+            <l n="110">N'a-t-il pas de mon fils fait proscrire la tête,</l>
+            <note type="L">Talent : Fameux poids et monnaie des Anciens qui était de différente valeur selon les pays. Il est assez difficile de réduire la valeur d'un talent à la monnaie de France. [F]</note>
+            <l n="111">Et cinquante talents n'en sont-ils pas le prix ?</l>
+            <l n="112">Sachant ce que peut l'or sur de lâches esprits,</l>
+            <l n="113">Tu vois si j'ai raison de former cette plainte,</l>
+            <l n="114">Et si je dois changer mon espérance en crainte.</l>
+            <l n="115">À toute heure j'attends qu'une homicide main</l>
+            <l n="116">Vienne pour demander à ce tigre inhumain,</l>
+            <l n="117">L'effet de sa promesse, et le prix de son crime.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="118">La justice du Ciel veut une autre victime :</l>
+            <l n="119" part="I">Mais Hermocrate vient.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="119" part="F">Ah ! Je le vois, c'est lui</l>
+            <l n="120">Qui dans sa main injuste a le sceptre d'autrui.</l>
+            <l n="121">Il faut dissimuler notre pieuse haine.</l>
+            <l n="122">Et tâcher de fléchir sa fureur inhumaine ;</l>
+            <l n="123">Pour épargner mon sang il faut verser des pleurs ;</l>
+            <l n="124">Et peindre sur mon front l'excès de mes douleurs ;</l>
+            <l n="125">La raison ne peut rien sur cet esprit farouche,</l>
+            <l n="126">Mais avec la pitié faisons qu'elle le touche.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Le Tyran, Mérope.</head>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="127">Race du grand Archas, et de ces premiers Rois,</l>
+            <l n="128">Qui dans ce doux climat ont fais fleurir les lois ;</l>
+            <l n="129">Cet honneur est bien grand, mais le Ciel vous fit telle,</l>
+            <l n="130">Qu'on vous peut dire encor moins illustre que belle,</l>
+            <l n="131">Bien qu'entre nos héros vous contiez vos aïeux.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="132">Ils brillent dans l'Olympe, et je souffre en ces lieux,</l>
+            <l n="133">Ainsi que leur bonheur mon malheur est extrême.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="134">Et quoi n'avez vous pas un époux qui vous aime,</l>
+            <l n="135">Ne partagez vous pas mes honneurs et mes biens ?</l>
+            <l n="136">Quoi ne régnez-vous pas sur les Mycéniens ?</l>
+            <l n="137">Dans le Péloponnèse, et dans toute la Grèce</l>
+            <l n="138">Vous révère-t-on pas comme grande Princesse ?</l>
+            <l n="139">Quel est donc le sujet qui cause ce souci ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="140">Je suis Reine, il est vrai, mais je suis mère aussi,</l>
+            <l n="141">Et j'ai les sentiments que la Nature donne :</l>
+            <l n="142">À quoi me peut servir l'éclat qui m'environne,</l>
+            <l n="143">Ce sceptre, cette pourpre, et ce bandeau royal ?</l>
+            <l n="144">À quoi me sert ce bien, s'il n'empêche mon mal ?</l>
+            <l n="145">Que me sert votre amour éprouvant votre haine ?</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="146">Pouvez-vous estimer que cette amour soit vaine,</l>
+            <l n="147">Qui vous a conservé votre honneur, votre rang ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="148">Quoi peut-on chérir ceux dont on répand le sang ?</l>
+            <l n="149">Et massacrer le fils dont on aime la mère ?</l>
+            <l n="150">Est-ce là ce grand soin que l'on prend de me plaire ?</l>
+            <l n="151">Ah ! Révoquez plutôt cet édit violent,</l>
+            <l n="152">Que l'on peut dire injuste autant qu'il est sanglant.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="153">Mais ma vie autrement n'est pas en assurance.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="154" part="I">C'est un crime.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="154" part="F">Ou plutôt un acte de prudence.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="155" part="I">Qui perd un innocent.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="155" part="F">Mais qui conserve un Roi.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="156">Il se doit conserver sans violer la loi.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="157">Mais la loi la plus forte est la loi naturelle.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="158">Cette loi fuit le crime, et n'est jamais cruelle,</l>
+            <l n="159">Elle abhorre le meurtre, et les lâches desseins,</l>
+            <l n="160">Et tous ses mouvements sont et justes et saints ;</l>
+            <l n="161">Vous suivriez la vertu, si vous l'aviez suivie ;</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="162">Elle enseigne à chacun de conserver sa vie,</l>
+            <l n="163">Et de la préférer même à celle d'autrui ;</l>
+            <l n="164">C'est ce que justement je pratique aujourd'hui :</l>
+            <l n="165">Téléphonte ennemi de l'époux de sa mère,</l>
+            <l n="166">Ne peut me voir vivant, ni souffrir un beau-père,</l>
+            <l n="167">Il dit qu'il me perdra, qu'il vengera les siens,</l>
+            <l n="168">Jusques dessus mon trône, entre les bras des miens ;</l>
+            <l n="169">Je le veux prévenir, et punir sa folie ;</l>
+            <l n="170">Je le ferai périr jusques dans l'Étolie,</l>
+            <l n="171">Jusques dans son asile, à la Cour d'Amynthas,</l>
+            <l n="172">Mon pouvoir s'étendra bien plus loin que son bras,</l>
+            <l n="173">Oui ce funeste édit, cette noire tempête,</l>
+            <l n="174">Est un foudre mortel lancé contre sa tête,</l>
+            <l n="175">Qui le doit terrasser sous son puissant effort,</l>
+            <l n="176">Et qui porte avec soi la vengeance, et la mort.</l>
+            <l n="177">Ainsi donc justement m'opposant à sa rage,</l>
+            <l n="178">J'oppose au mal le mal, et l'outrage à l'outrage.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="179" part="I">Ô Ciel ! Ô juste Ciel !</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="179" part="F">De quoi vous plaignez-vous ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="180" part="I">Méprisez-vous mes pleurs ?</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="180" part="F">Suis-je pas votre époux ?</l>
+            <l n="181">Le Saint noeud qui nous joint, le Dieu qui nous assemble,</l>
+            <l n="182">N'a-t-il pas confondu nos intérêts ensemble ?</l>
+            <l n="183">Oui, oui, quelqu'autre objet qui vous puisse toucher,</l>
+            <l n="184">Le salut d'un mari vous doit être plus cher.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="185">Helas sauvez mon fils, et perdez cette envie.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="186">Si sa vie est ma mort, sa mort sera ma vie.</l>
+            <l n="187">Tous ces soupirs sont vains, et ces pleurs superflus,</l>
+            <l n="188">Le dessein en est pris, qu'on ne m'en parle plus.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="189">Si l'on verse mon sang, si le fils suit le père,</l>
+            <note type="L">Parques : divinités des Enfers chargées de filer la vie des hommes, étaient au nombre de trois, Clotho, Lachésis, Atropos : Chlotho préside à la naissance et tient le fuseau, Lachésis le tourne et file, Atropos coupe le fil. [B]</note>
+            <l n="190">La Parque en même temps enlèvera la mère,</l>
+            <l n="191">Sa mort est votre vie, et sera mon trépas,</l>
+            <l n="192">Je quitterai ce corps pour le suivre là bas.</l>
+            <l n="193">S'il descend chez les morts, il faudra que je meure,</l>
+            <l n="194">Et son dernier moment sera ma dernière heure.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Le Tyran, Demochare.</head>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="195">Madame. Elle s'en va pleine de désespoir,</l>
+            <l n="196">Je ne puis l'ouir plaindre, et ne pas m'émouvoir,</l>
+            <l n="197" part="I">Ah que je suis troublé !</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="197" part="F">Pour les pleurs d'une femme,</l>
+            <l n="198">Faut-il que la douleur s'empare de votre âme ?</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="199">Bien que son deuil me cause un déplaisir secret,</l>
+            <l n="200">Et bien qu'en l'affligeant je m'afflige à regret,</l>
+            <l n="201">C'est pas là mon fils tout ce qui me tourmente,</l>
+            <l n="202">D'un songe que j'ai fait l'image m'épouvante :</l>
+            <l n="203">Apprends si j'ai raison d'en avoir tant d'effroi,</l>
+            <l n="204">Cresphonte cette nuit a paru devant moi.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="205" part="I">Cresphonte !</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="205" part="F">Oui, j'ai vu ce malheureux monarque,</l>
+            <l n="206">Tel que lors qu'il tomba victime de la Parque ;</l>
+            <l n="207">Le teint pâle et défait, et le corps tout sanglant,</l>
+            <l n="208">M'appelant par trois fois, mais d'un ton triste et lent :</l>
+            <l n="209">Je sors, ce m'a-t-il dit, du séjour effroyable,</l>
+            <note type="L">Ramentevoir : Faire ressouvenir de quelque chose.[F]</note>
+            <l n="210">Pour te ramentevoir ton crime abominable ;</l>
+            <l n="211">Contemple ton Roi mort, repais tes yeux cruels.</l>
+            <l n="212">Mais crois qu'il est des Dieux, et des feux éternels,</l>
+            <l n="213">Lors il est disparu, que dis tu de ce songe ?</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="214">Ce que l'on dit de tous, le songe est un mensonge,</l>
+            <l n="215">Un simulacre vain qu'engendre le sommeil,</l>
+            <l n="216">Un fantôme léger qui s'enfuit au réveil,</l>
+            <l n="217">Et qui n'a de pouvoir que sur la fantaisie.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="218">D'une secrète horreur j'ai l'âme encor saisie.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="219">Faut-il être troublé d'un objet décevant,</l>
+            <l n="220">Et peut-on craindre un mort qu'on attaqua vivant ?</l>
+            <l n="221">D'un corps qu'on a détruit peut on redouter l'ombre ?</l>
+            <l n="222">Cresphonte vous étonne, et rend votre humeur sombre ;</l>
+            <l n="223">Vous qui l'appréhendez triomphez de son sort,</l>
+            <l n="224">Il n'est rien, vous régnez, vous vivez, il est mort.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="225" part="I">Mais son fils est vivant.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="225" part="F">Sa triste destinée,</l>
+            <l n="226">Pour borner vos soucis sera bientôt bornée ;</l>
+            <l n="227">Et les talents promis par votre édit prudent,</l>
+            <l n="228">Pourraient faire un meurtrier même d'un confident,</l>
+            <l n="229">L'espoir d'un si grand gain, la récompense offerte,</l>
+            <l n="230">Emportera plusieurs à conspirer sa perte.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="231">N'appréhendez donc rien, on a conté trois mois,</l>
+            <l n="232">Depuis que dans Mycènes on publia ces lois.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="233">Quoi perdez-vous si tôt l'espoir et le courage ?</l>
+            <l n="234">Ne faut-il pas du temps pour faire le voyage,</l>
+            <l n="235">Choisir l'occasion, et la prendre à propos ?</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="236">Ah ! Long retardement fatal à mon repos :</l>
+            <l n="237">Ce soin trouble le cours de ma bonne fortune,</l>
+            <l n="238" part="I">Qui m'en délivrera ?</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <note type="L">Lune : Est aussi une mesure du temps dont se dont servis plusieurs peuples peuples de l'Antiquité qui avaient des mois et des années lunaires. [F]</note>
+            <l n="238" part="F">Si dedans une lune</l>
+            <l n="239">Personne n'exécute un si hardi dessein,</l>
+            <l n="240">Je m'offre à lui plonger un poignard dans le sein.</l>
+            <l n="241">À moi seul appartient de tuer Téléphonte,</l>
+            <l n="242">Je ne saurais souffrir qu'on publie à ma honte,</l>
+            <l n="243">Que le désir de l'or ait eu plus de pouvoir,</l>
+            <l n="244">Que l'amour paternelle et la loi du devoir.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="245">Bien plus que mon repos ta personne m'est chère.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="246">On doit tout hasarder pour le salut d'un père.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="247">Ton courage me plaît, mais je n'en puis user,</l>
+            <l n="248">Le péril est trop grand où tu veux t'exposer,</l>
+            <l n="249">J'ai songé dès longtemps un moyen plus facile,</l>
+            <l n="250">Si mon malheur rendait cet édit inutile.</l>
+            <l n="251">Je tiens, comme tu sais, la fille d'Amynthas,</l>
+            <l n="252">Qu'un pirate amena jusques dans mes États,</l>
+            <l n="253">Et pour la vendre ici la ravit sur Neptune.</l>
+            <l n="254">Son père la regrette, et sait son infortune,</l>
+            <l n="255">De son Royaume entier il la rachèterait,</l>
+            <l n="256">Mais ce serait en vain quand il me l'offrirait,</l>
+            <l n="257">Il faut pour la ravoir me rendre Téléphonte.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="258">Si de cette demande il ne fait point de conte.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="259">Je lui ferai savoir que je me puis venger,</l>
+            <l n="260">Et le menacerai de la faire égorger.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="261" part="I">L'égorger, ô bons Dieux !</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="261" part="F">Ne crains rien, mais espère,</l>
+            <l n="262">Et je fais ce discours pour étonner son père,</l>
+            <l n="263">Pour le faire résoudre à tout ce que je veux :</l>
+            <l n="264">Ton amour suit mon choix, et j'approuve tes feux,</l>
+            <l n="265">Je prise Philoclée, et te le dis encore,</l>
+            <l n="266">Non pas pour ses beautés qui font que tu l'adores ;</l>
+            <l n="267">Mais comme l'héritière, et la fille d'un Roi,</l>
+            <l n="268">Qui tient un vaste Empire, et régit sous sa loi,</l>
+            <l n="269">Ces fameuses cités, et ces terres fécondes,</l>
+            <note type="L">Evene : Fleuve au bord duquel le Centaure Nessus enleva Déjanire à Hercule.</note>
+            <l n="270">Que le beau fleuve Evene arrose de ses ondes.</l>
+            <l n="271">Ce vieux Roi que les ans courbent vers le tombeau,</l>
+            <l n="272">Lui veut quitter le sceptre, et le royal bandeau ;</l>
+            <l n="273">Pour l'élever au trône il s'apprête à descendre,</l>
+            <l n="274">Et semble pour mourir n'attendre plus qu'un gendre,</l>
+            <l n="275">De force, ou d'amitié, c'est toi qui le seras,</l>
+            <l n="276">Par cet illustre hymen, mon fils, tu régneras,</l>
+            <l n="277">Et la Grèce verra deux Rois dans ma famille.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="278">Mais rendant Téléphonte il reprendra sa fille,</l>
+            <l n="279">Étant hors de vos mains, et n'en disposant plus,</l>
+            <l n="280">Mon amour sera vaine, et vos soins superflus.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="281">Avant que d'envoyer vers le Roi d'Étolie</l>
+            <l n="282">Je veux qu'un Dieu vous joigne, et que la foi vous lie,</l>
+            <l n="283">Unis d'un sacré noeud, qui vous peut diviser ?</l>
+            <l n="284">Son père après cela n'en peut plus disposer,</l>
+            <l n="285">Ni l'ôter de tes mains sans la couvrir de honte ;</l>
+            <l n="286">Il faudra qu'il la laisse, et rende Téléphonte,</l>
+            <l n="287">Il faudra qu'Amynthas consente à ton bonheur,</l>
+            <l n="288">Pour sauver à sa fille et la vie et l'honneur.</l>
+            <l n="289">Mais on dit que l'ingrate est contraire à ta flamme.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="290">Il faut, si mon amour ne peut rien sur son âme,</l>
+            <l n="291">La traiter en esclave, user d'autorité,</l>
+            <l n="292">Et lui faire des lois de votre volonté.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="293">Dis lui qu'à cet hymen il faut qu'elle s'apprête,</l>
+            <l n="294">Que je veux dès demain en célébrer la fête.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="295">Ah Seigneur qu'avez vous ! ô bons Dieux vous tremblez !</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="296">Malgré moi mes esprits sont encore troublez,</l>
+            <l n="297">Cresphonte me revient sans cesse en la pensée,</l>
+            <l n="298">L'affreuse vision n'en peut être effacée ;</l>
+            <l n="299">Je veux sacrifier aux noires Déités,</l>
+            <l n="300">Et tâcher de fléchir les Mânes irrités :</l>
+            <l n="301">Que Chrysante, Amynthor, donne ordre au sacrifice.</l>
+          </sp>
+          <sp who="tc0526-AMYNTHOR">
+            <speaker>AMYNTHOR.</speaker>
+            <l n="302" part="I">Je vais l'en avertir.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="302" part="F">Ma crainte est un supplice.</l>
+            <l n="303">Je n'aurai point l'esprit en paix ; ni satisfait</l>
+            <l n="304">Que cet édit sanglant n'ait produit son effet.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="305">Espérez seulement, la mort de Téléphonte</l>
+            <l n="306">Dissipera bientôt l'ennui qui vous surmonte.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Mérope, Philoclée.</head>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="307">Je n'ai rien obtenu ni pour vous ni pour moi,</l>
+            <l n="308">Le Tyran foule aux pieds la justice et la loi ;</l>
+            <l n="309">Son âme veut son sang, elle en est altérée,</l>
+            <l n="310">Il est inexorable et moi désespérée.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="311">Comment, au désespoir vous vous abandonnés.</l>
+            <l n="312">Servez-vous des conseils que vous m'avez donnés,</l>
+            <l n="313">Lors qu'un astre ennemi me déclarant sa haine,</l>
+            <l n="314">Je me vis amener captive dans Mycènes.</l>
+            <l n="315">Un désespoir plus juste allait borner mes jours,</l>
+            <l n="316">Et rien ne me retient que vos sages discours ;</l>
+            <l n="317">Vous consoliez autrui, consolez-vous vous même.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="318" part="I">Mon mal est sans pareil.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="318" part="F">Et le mien est extrême.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="319" part="I">Nos maux sont différents.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="319" part="F">Je souffre plus que vous.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="320" part="I">Ah ! Je crains pour mon fils.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="320" part="F">Et moi pour mon époux.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="321">J'ai dedans les douleurs qui me déchirent l'âme</l>
+            <l n="322" part="I">Les sentiments de mère.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="322" part="F">Et moi ceux d'une femme.</l>
+            <l n="323">Après tant de malheurs que vous avez pleurés</l>
+            <l n="324">Que vos yeux à pleurer sont encor préparés,</l>
+            <l n="325">J'ai vu d'une saison la course terminée</l>
+            <l n="326">Depuis que dans ces lieux je plains ma destinée,</l>
+            <l n="327">Sans avoir encor peu jouir d'un seul moment</l>
+            <l n="328">Où je pusse avec vous soupirer librement.</l>
+            <l n="329">Ni d'un illustre fils vous raconter l'histoire</l>
+            <l n="330">Aussi pleine de maux qu'elle est pleine de gloire.</l>
+            <l n="331">Nos barbares tyrans nous observant toujours</l>
+            <l n="332">M'ont ôté le moyen d'en faire le discours.</l>
+            <l n="333">Jusqu'à ce triste jour que ces âmes brutales</l>
+            <l n="334">M'ont mis en liberté pour mes noces fatales.</l>
+            <l n="335">Ils me flattent en vain, et j'ai donné ma foi,</l>
+            <l n="336">Je suis à Téléphonte, et Téléphonte à moi.</l>
+            <l n="337">L'on devait célébrer notre heureux hyménée,</l>
+            <l n="338">Au retour de Delos où l'on m'avait menée,</l>
+            <l n="339">Pour accomplir un voeu que ma mère avait fait :</l>
+            <l n="340">Mais le cruel destin en retarda l'effet.</l>
+            <l n="341">Ô Dieux qu'en un moment la fortune est changeante,</l>
+            <l n="342">Tout semblait à souhait répondre à mon attente,</l>
+            <l n="343">Le Ciel était serein, et les flots adoucis,</l>
+            <l n="344">Je découvrais déjà les hauts murs de Chalcis,</l>
+            <l n="345">Lorsque je vis changer mes plaisirs en misères,</l>
+            <l n="346">Et les liens d'hymen aux chaînes des corsaires.</l>
+            <l n="347">Mais pour rendre mes maux plus rudes et plus grands,</l>
+            <l n="348">Je passai de leurs mains en celles des tyrans,</l>
+            <l n="349">Et de fille de Roi je devins leur captive.</l>
+            <l n="350">Voyez donc de quels biens la fortune me prive,</l>
+            <l n="351">Et jugez si vos maux surpassent mes douleurs.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="352">Le sort de même cause a tiré nos malheurs ;</l>
+            <l n="353">Nous souffrons des tyrans l'Empire illégitime,</l>
+            <l n="354">Nous sommes toutes deux les esclaves du crime.</l>
+            <l n="355" part="I">Ah mon cher Téléphonte !</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="355" part="F">Un fils vous peut toucher,</l>
+            <l n="356">Mais mon affection me le rend bien plus cher,</l>
+            <l n="357">Vous ne l'avez point vu depuis sa tendre enfance,</l>
+            <l n="358">Vous aimez par instinct, et moi par connaissance :</l>
+            <l n="359">Vous l'aimez seulement comme venant de vous,</l>
+            <l n="360">Moi comme vertueux et comme mon époux ;</l>
+            <l n="361">Et l'on nous élevait à la Cour de mon père,</l>
+            <l n="362">Sous les aimables noms et de soeur et de frère.</l>
+            <l n="363">Que l'Hymen seulement devait changer un jour,</l>
+            <l n="364">Afin que l'amitié fît éclore l'amour.</l>
+            <l n="365">Ah si vous aviez vu ce fils incomparable !</l>
+            <l n="366">Et si vous connaissiez son adresse admirable,</l>
+            <l n="367">Son esprit, sa valeur, sa générosité,</l>
+            <l n="368">Son zèle envers les siens, sa grande piété,</l>
+            <l n="369">Comme il hait les tyrans, et la sainte colère,</l>
+            <l n="370">Dont il est embrasé dès qu'il pense à son père,</l>
+            <l n="371">Ah si vous connaissiez son ardente amitié !</l>
+            <l n="372">Je crois que votre amour s'accroîtrait de moitié.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="373">Que ce discours me plaît, continuez encore,</l>
+            <l n="374">Il charme avec mes sens l'ennui qui me dévore :</l>
+            <l n="375">Si tes hautes vertus surpassent tes malheurs,</l>
+            <l n="376">Mon fils, c'est t'offenser que te donner des pleurs.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="377">Il n'avait pas seize ans, quand sa vertu guerrière</l>
+            <l n="378">Trouva pour s'exercer une illustre matière.</l>
+            <l n="379">Le perfide Lycas par ses lâches projets,</l>
+            <l n="380">Ayant contre mon père excité ses sujets,</l>
+            <l n="381">Mis l'effroi dans nos champs, et le feu dans nos villes,</l>
+            <l n="382">Téléphonte apaisa les tempêtes civiles ;</l>
+            <l n="383">Car de ses propres mains ayant tué Lycas,</l>
+            <l n="384">Les rebelles vaincus mirent les armes bas.</l>
+            <l n="385">Ah qu'il le fit beau voir quand il fit son entrée,</l>
+            <note type="L">Rhée : Rhea, déesse qu'on identifie avec Cybèle et qui est censée être la femme de Saturne, fut mère de Jupiter, Neptune, Pluton, Vesta et Cérès, et parvint par une ruse à soustraire ses enfant à la mort que leur destinait Saturne. [L]</note>
+            <l n="386">Dans les riches cités du petit fils de Rhée ;</l>
+            <l n="387">Et qu'on vit éclater dans un char triomphant,</l>
+            <l n="388">Ce héros qui n'était encore qu'un enfant :</l>
+            <l n="389">Chacun crût voir un Dieu tant il avait de gloire,</l>
+            <l n="390">Et tant il empruntait d'éclat de sa victoire.</l>
+            <l n="391">Les peuples délivrés des maux qu'ils avaient eus,</l>
+            <l n="392">Élevaient jusqu'au Ciel son nom et ses vertus.</l>
+            <l n="393">À de nouveaux lauriers sa valeur veut prétendre,</l>
+            <l n="394">Et fils aussi pieux comme généreux gendre,</l>
+            <l n="395">Il veut venger son père ayant vengé le mien,</l>
+            <l n="396">Voyant qu'en Étolie on ne craignait plus rien,</l>
+            <l n="397">Il demande aussitôt que ces troupes fidèles,</l>
+            <l n="398">Dont on s'était servi pour vaincre les rebelles</l>
+            <l n="399">Luy servissent aussi pour vaincre les tyrans,</l>
+            <l n="400">Et retirer des fers son peuple et ses parents.</l>
+            <l n="401">Il en prie Amynthas, le presse, l'importune,</l>
+            <l n="402">Mon père qui prenait le soin de sa fortune,</l>
+            <l n="403">Qui l'avait élevé dès ses plus tendres ans,</l>
+            <l n="404">Lui conseille d'attendre encore quelque temps,</l>
+            <l n="405">Doutant de sa prudence, et non de son courage,</l>
+            <l n="406">Mais lui qui ne saurait attendre davantage,</l>
+            <l n="407">Qui prend pour un refus un tel retardement,</l>
+            <l n="408">Dit qu'il sert des ingrats, et s'en plaint hautement,</l>
+            <l n="409">Et qu'il ira lui-même accomplir son envie,</l>
+            <l n="410">Qu'il perdra le Tyran, ou qu'il perdra la vie.</l>
+            <l n="411">Il eut exécuté tout ce qu'il projetait,</l>
+            <l n="412">Mais avecque mes pleurs l'amour qu'il me portait,</l>
+            <l n="413">Le retenait toujours à la Cour de mon père.</l>
+            <l n="414">Il voulait se venger sans pourtant me déplaire,</l>
+            <l n="415">Et les larmes aux yeux il n'osait me quitter.</l>
+            <l n="416">Mais ne me voyant plus, ne pouvant l'arrêter,</l>
+            <l n="417">Je sais qu'il poursuivra sa première entreprise,</l>
+            <l n="418">Il viendra furieux jusqu'aux bords de Pamise,</l>
+            <l n="419">Pour y trouver la mort ; c'est là tout mon souci.</l>
+            <l n="420" part="I">C'est là toute ma crainte.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="420" part="F">Et c'est la mienne aussi.</l>
+            <l n="421">Mais il faut toutefois dissimuler ma haine,</l>
+            <l n="422">J'attends de jour en jour le généreux Tyrene,</l>
+            <l n="423">Il peut chasser ma crainte, et mes soucis cuisants,</l>
+            <l n="424">Il sait tous mes secrets, c'est lui depuis quinze ans.</l>
+            <l n="425">Qui porte et qui rapporte avec des soins fidèles</l>
+            <l n="426">De mon fils et de moi, les secrètes nouvelles.</l>
+            <l n="427">Mais la soeur du soleil a fait trois fois son tour,</l>
+            <l n="428">Depuis qu'il est parti sans être de retour.</l>
+            <l n="429">Jamais de le revoir je n'eus si grande envie,</l>
+            <l n="430">Pour savoir si mon fils est sorti de la vie,</l>
+            <l n="431">Ou si sa diligence a prévenu sa mort,</l>
+            <l n="432">S'il a peu l'avertir qu'on veut borner son sort,</l>
+            <l n="433">Et lui faire savoir cet édit homicide,</l>
+            <l n="434">Avant qu'on ait commis un si grand parricide,</l>
+            <l n="435">Et fait un acte impie en causant son trépas.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="436">Je crains pour Téléphonte, et crains pour Amynthas,</l>
+            <l n="437">J'ai peur que mon malheur l'ait comblé de tristesse,</l>
+            <l n="438">J'étais toute sa joie, et crains que sa vieillesse</l>
+            <l n="439">N'ait pu souffrir ma perte, et mon ravissement,</l>
+            <l n="440">Sans qu'une prompte mort l'ait mis au monument.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="441">Plutôt pour vous ravoir il arme en Étolie,</l>
+            <l n="442">Il sait que vous vivez ; Mais que veut Céphalie ?</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Céphalie, Mérope, Philoclée.</head>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="443">C'est Tyrène, Madame, est dedans ce Palais.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="444">Enfin le juste Ciel exauce nos souhaits.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="445">Allons donc sans tarder savoir cette nouvelle ;</l>
+            <l n="446">Mais voici Demochare, ah rencontre cruelle !</l>
+            <l n="447" part="I">Ah respects importuns !</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="447" part="F">Souffrez son entretien,</l>
+            <l n="448">Tandis que j'apprendrai votre sort et le mien.</l>
+            <l n="449">Plus il est inhumain, plus montrez vous humaine,</l>
+            <l n="450">Et devant son amour cachez bien votre haine.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="451">Je sais ce que je suis, comme je dois parler,</l>
+            <l n="452">Un magnanime coeur ne peut dissimuler.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Démochare, Philoclée.</head>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="453">D'où naist cette douleur ? Pourquoi, belle Princesse,</l>
+            <l n="454">Livrez-vous vos appas au deuil, à la tristesse ?</l>
+            <l n="455">Ces soucis et ces pleurs n'auront-ils point de fin ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="456">Non, si le juste Ciel ne change mon destin.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="457">Vous triomphez des coeurs et de la destinée,</l>
+            <l n="458">Un bonheur sans pareil suivra votre hyménée,</l>
+            <l n="459">Deux sceptres vous sont dus en cette illustre Cour,</l>
+            <l n="460">Celui de la Fortune, et celui de l'Amour.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="461" part="I">Ô Ciel, ô juste Ciel !</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="461" part="F">Vous changez de visage.</l>
+            <l n="462">Est-ce vous offenser, et vous faire un outrage,</l>
+            <l n="463">De chérir vos beautéz et de les révérer ?</l>
+            <l n="464">Méprisez-vous le Dieu qui vous fait adorer ?</l>
+            <l n="465" part="I">Et fuyez-vous l'Amour ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="465" part="F">Je le fuis comme un vice.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="466">Puisqu'il veut qu'on vous serve il est plein de justice.</l>
+            <l n="467">Il inspire la gloire en troublant le repos,</l>
+            <l n="468">Et des hommes souvent il en fait des héros,</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="469">Et des monstres aussi, des tigres sanguinaires,</l>
+            <l n="470">De perfides sujets, d'infâmes adultères,</l>
+            <l n="471">Lâches usurpateurs des trônes de leurs Rois,</l>
+            <l n="472">Et qui foulent aux pieds toutes sortes de loix ;</l>
+            <l n="473">Qui chasseraient les Dieux s'ils pouvaient, de leurs temples,</l>
+            <l n="474">Je n'irais pas bien loin pour en voir des exemples.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="475">Ce discours me surprend, il est hors de saison,</l>
+            <l n="476">Pourquoi m'offensez-vous sans aucune raison.</l>
+            <l n="477">Qui vous fait proférer ces mots insupportables,</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="478">C'est l'extrême pitié que j'ai de mes semblables,</l>
+            <l n="479">La peur qu'un même sort me comble un jour d'ennui.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="480">Mais laissant l'avenir, et l'intérêt d'autrui,</l>
+            <l n="481">Quel sujet maintenant avez-vous de vous plaindre ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="482">C'est que je naquis libre, et l'on me veut contraindre.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="483">Cette contrainte est douce, et facile à souffrir,</l>
+            <l n="484">Alors qu'à sa captive un Prince vient s'offrir.</l>
+            <l n="485">Que dans tous ses États il la rend souveraine,</l>
+            <l n="486">Que d'esclave qu'elle est, il en fait une Reine ;</l>
+            <l n="487">Qu'il veut dessus le trône élever ses beautés,</l>
+            <l n="488">Qu'il la comble de gloire et de félicités.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="489">Dans le rang que je tiens et que le sang me donne,</l>
+            <l n="490">Je ne saurais manquer de sceptre et de couronne ;</l>
+            <l n="491">Je n'ai que des héros et des Rois pour parents :</l>
+            <l n="492">Sans allier ma race à celle des tyrans,</l>
+            <l n="493">Sans être leur épouse et régner par le crime</l>
+            <l n="494">Mon père me conserve un trône légitime.</l>
+            <l n="495">Qui n'est point usurpé, qu'il tient de ses aïeux,</l>
+            <l n="496">Et que n'abattra point la Justice des Cieux.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="497">Ah ne vantez point tant votre illustre origine,</l>
+            <l n="498">Les hommes naissent tels que le Ciel les destine.</l>
+            <l n="499">Si mon père n'eut pas des sceptres en naissant,</l>
+            <l n="500">Il en eut par prudence et par son bras puissant ;</l>
+            <l n="501">Et si de quelque faute on l'estime coupable,</l>
+            <l n="502">L'Amour la fit commettre, et la rend excusable.</l>
+            <l n="503">Mais il règne, et son règne est de gloire suivi.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="504">S'il était dépouillé de ce qu'il a ravi,</l>
+            <l n="505">S'il rendait ses États à ses Rois légitimes,</l>
+            <l n="506">Il ne lui resterait que la honte et les crimes.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="507">Vous que vous reste-t-il avec votre fierté,</l>
+            <l n="508">Le Ciel vous a ravi jusqu'à la liberté ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="509" part="I">Il m'a laissé l'honneur.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="509" part="F">Il est en ma puissance,</l>
+            <l n="510">Songez quel est celui que ce mépris offense,</l>
+            <l n="511">Voyez votre fortune et les honneurs offerts,</l>
+            <l n="512">Abaissez votre orgueil et reprenez vos fers.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="513" part="I">Est-ce ainsi qu'on me traite ?</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="513" part="F">Est-ce ainsi qu'on me brave ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="514" part="I">Ah trop cruel tyran !</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="514" part="F">Trop orgueilleuse esclave.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="515">Ah vengeance ! Ah mon père ! Ah mes divins aïeux !</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="516">Vous réclamez en vain les hommes et les Dieux.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="517">Ah je mourrai plutôt que me voir outragée,</l>
+            <l n="518">Si l'on voyait ma mort on la verrait vengée.</l>
+            <l n="519">Et le grand Amynthas armerait à la fois</l>
+            <l n="520">Toutes les nations qu'il range sous ses lois :</l>
+            <l n="521">Les Dolopes fameux, les voisins des Albanes,</l>
+            <l n="522">Les Calydoniens, et les fiers Athamanes.</l>
+            <l n="523">Inondant ces pays ainsi que des torrents,</l>
+            <l n="524">Des États usurpez chasseraient les tyrans,</l>
+            <l n="525">Et leur donnant la mort pour leurs dignes salaires,</l>
+            <l n="526">Remettraient mon époux au trône de ses pères.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="527">Vous avez un époux, ô Ciel qu'ai-je entendu !</l>
+            <l n="528" part="I">Mais qui serait-ce enfin ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="528" part="F">Hélas ! Tout est perdu,</l>
+            <l n="529" part="I">Et j'ai tout découvert.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="529" part="F">Serait-ce Téléphonte ?</l>
+            <l n="530">C'est lui-même, c'est lui, la fureur me surmonte,</l>
+            <l n="531">Téléphonte, ô bons Dieux ! Mon ennemi mortel,</l>
+            <l n="532">L'horreur de tous les miens, ce brutal, ce cruel,</l>
+            <l n="533">Qui veut tremper ses mains dans le sang de mon père,</l>
+            <l n="534">Quoi, c'est ce furieux, c'est lui qu'on me préfère ?</l>
+            <l n="535">C'est lui qui cause donc ces dédains, des froideurs,</l>
+            <l n="536">Qui vous fait mépriser ma gloire et mes grandeurs ?</l>
+            <l n="537">Ce fugitif sans biens, ce Prince sans couronne,</l>
+            <l n="538">Que la fortune laisse et le Ciel abandonne.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="539">Mais ses hautes vertus ne l'abandonnent pas,</l>
+            <l n="540">Ne le méprisez point et songez à Lycas.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="541">Quoi vous me menacez en parlant de la sorte,</l>
+            <l n="542">L'aveugle passion vous trouble et vous transporte,</l>
+            <l n="543">Et ce coeur si pudique aujourd'hui se dément,</l>
+            <l n="544">Et montre trop d'amour, louant trop son amant.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="545">L'Amour n'est point honteux qui naît de l'Hymenée,</l>
+            <l n="546">Téléphonte a ma foi, je lui suis destinée</l>
+            <l n="547">Et ma flamme s'accorde avec l'honnêteté.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="548">Pour irriter un coeur déjà trop irrité,</l>
+            <l n="549">Pour remplir mon esprit d'une fureur jalouse,</l>
+            <l n="550">Vous feignez de l'aimer et d'être son épouse.</l>
+            <l n="551">Mais qu'il soit votre époux, et qu'il ait des appas,</l>
+            <l n="552">Le dessein que j'ai fait ne se changera pas.</l>
+            <l n="553">Voici mes volontés, et les lois de mon père,</l>
+            <l n="554">Demain dès que le jour luira sur l'hémisphère</l>
+            <l n="555">Au Temple de Junon je veux être avec vous,</l>
+            <l n="556">Là nous prendrons les noms et d'épouse et d'époux.</l>
+            <l n="557">Que nul de votre part ne choque mon envie :</l>
+            <l n="558">Car un seul mot lâché lui coûterait la vie.</l>
+            <l n="559">Vous y pourrez songer tout le reste du jour,</l>
+            <l n="560">Mais pour votre intérêt respectez mon amour.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="561">Ce coeur ne brûlera que d'une chaste flamme,</l>
+            <l n="562">Je sais ce que je dois, je sais que je suis femme,</l>
+            <l n="563">Je sais à quoi m'oblige un si sacré lien ;</l>
+            <l n="564">Un injuste pouvoir sur moi n'obtiendra rien.</l>
+            <l n="565">Je ferai sans respect, sans crainte de personne,</l>
+            <l n="566">Tout ce que veut l'honneur, et que le Ciel ordonne.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV.</head>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE, seul.</speaker>
+            <l n="567">L'Inhumaine s'enfuit le coeur plein de fierté,</l>
+            <l n="568">L'audacieux esprit, la superbe beauté,</l>
+            <l n="569">Elle sait que je brûle, elle sait que je l'aime,</l>
+            <l n="570">Que vouloir l'outrager, c'est m'outrager moi-même ;</l>
+            <l n="571">Elle sait qu'un soupir suffit pour m'émouvoir,</l>
+            <l n="572">Et son coeur en secret se rit de mon pouvoir.</l>
+            <l n="573">Je veux l'humilier et punir son audace,</l>
+            <l n="574">Orgueilleuse beauté n'espère plus de grâce,</l>
+            <l n="575">Si demain ton esprit ne répond à mes voeux,</l>
+            <l n="576">Si ta sévère humeur ne brûle de mes feux,</l>
+            <l n="577">Et si tu ne consens à l'hymen où j'aspire,</l>
+            <l n="578">Tu me nommes tyran, mais je deviendrai pire.</l>
+            <l n="579">Je n'aurai plus pour toi nul rayon de bonté,</l>
+            <l n="580">Ma fureur passera jusqu'à l'extrémité.</l>
+            <l n="581">Je ferai sans respect, sans crainte de personne,</l>
+            <l n="582">Ce qu'Hermocrate veut et que le Ciel ordonne.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Philoclée. Orphise.</head>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="583">Tyrene pourrait seul me tirer de souci :</l>
+            <l n="584">Mais je n'ai pu le voir depuis qu'il est ici.</l>
+            <l n="585">J'allais de Téléphonte apprendre la fortune,</l>
+            <l n="586">Lors que de son rival la rencontre importune,</l>
+            <l n="587">Comme tu sais, Orphise, empêcha mon désir :</l>
+            <l n="588">Mais il a bien payé ce cruel déplaisir.</l>
+            <l n="589">Par un juste dépit j'ai témoigné ma haine,</l>
+            <l n="590">Dés que je l'ai quitté j'ai couru chez la Reine,</l>
+            <l n="591">Et m'en suis séparée avecque grand regret,</l>
+            <l n="592">Mais je n'ai jamais pu lui parler en secret.</l>
+            <l n="593">Ny de ce qui me trouble apprendre la nouvelle :</l>
+            <l n="594">Par malheur Hermocrate était lors avec elle,</l>
+            <l n="595">Et ne la quitta point tout le temps que j'y fus,</l>
+            <l n="596">La Reine avait l'esprit inquiet et confus,</l>
+            <l n="597">Et sans qu'elle ait parlé, sur son triste visage</l>
+            <l n="598">J'ai trop leu les effets d'un malheureux message</l>
+            <l n="599">Si mon soupçon est vrai, que ferai-je ô bons Dieux !</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="600">Bannissez cette crainte, espérez tout des Cieux.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="601">Ah Tyrene, viens donc, viens vite et m'en délivre,</l>
+            <l n="602">Viens dire à mon Amour s'il faut mourir ou vivre.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="603">Il sait le triste état où vos jours sont réduits</l>
+            <l n="604">Aussi bien que vous-même, et connaît vos ennuis,</l>
+            <l n="605">Vos craintes, vos désirs, votre amour, votre haine :</l>
+            <l n="606">Mais il viendra bientôt pour vous tirer de peine.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="607">Je ne puis supporter ce long retardement,</l>
+            <l n="608">Je crois attendre un siècle attendant un moment.</l>
+            <l n="609">Mon esprit inquiet me met à la torture,</l>
+            <l n="610">Je brûle de savoir quelle est son aventure,</l>
+            <l n="611">Tyrene le sait bien, et ne me l'apprend pas.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="612">En cent lieux différents vous conduisez vos pas,</l>
+            <l n="613">Comme vous le cherchez il vous cherche peut-être,</l>
+            <l n="614">Dans votre appartement quelqu'un l'a vu paraître</l>
+            <l n="615" part="I">Vous étiez chez la Reine.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="615" part="F">Ah sans doute il me fuit,</l>
+            <l n="616">Il craint de m'annoncer le malheur qui me suit,</l>
+            <l n="617">Et d'affliger encor un esprit qui soupire,</l>
+            <l n="618">Sachant mon infortune il me la devrait dire.</l>
+            <l n="619">Il sait bien que la crainte augmente le souci,</l>
+            <l n="620">Et qu'appréhendant tout, je souffre tout aussi.</l>
+            <l n="621">Nul tourment n'est égal à mon inquiétude,</l>
+            <l n="622">Si j'en savais la cause il me serait moins rude.</l>
+            <l n="623">Mais Demochare vient pour me persécuter,</l>
+            <l n="624" part="I">Fuyons.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="624" part="F">Il faut l'attendre et ne pas l'irriter.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="625">Ah ce mauvais génie est toujours à ma suite,</l>
+            <l n="626">Quelle est ma destinée, où me vois-je réduite ?</l>
+            <l n="627">Il agite ma vie, et trouble mon repos</l>
+            <l n="628">Je ne saurais souffrir ces insolents propos,</l>
+            <l n="629">Un généreux mépris est ici nécessaire,</l>
+            <l n="630">C'est l'unique moyen qui m'en pourra défaire.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. DEMOCHARE, PHILOCLEE.</head>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="631">Un chagrin éternel accompagne vos jours.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="632">Aussi quelque importun m'assassine toujours.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="633">Sans en avoir sujet on vous oit toujours plaindre.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="634">Je souffre assez de maux sans qu'il m'en faille feindre.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="635">Si vous avez beaucoup d'ennuis et de souci,</l>
+            <l n="636" part="I">La fortune en est cause.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="636" part="F">Et les Tyrans aussi.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="637">Votre esprit querelleux est sans cesse en colère.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="638">C'est que l'on prend plaisir sans cesse à me déplaire.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="639">Je n'eus jamais dessein de vous désobliger,</l>
+            <l n="640">Croyez qu'avec regret je viens vous affliger.</l>
+            <l n="641">Mais le destin le veut et ma fortune est telle,</l>
+            <l n="642">Qu'il faut que je vous dise une triste nouvelle.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="643">Ceci n'est point nouveau, votre abord m'est fatal,</l>
+            <l n="644">Vous ne m'avez jamais annoncé que du mal.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="645">Je vous parle avec crainte, et plains votre martyre.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="646">Qui cause mes malheurs, craint-il de me les dire ?</l>
+            <l n="647" part="I">Achevez, achevez.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="647" part="F">Ceci vient de Chalcis.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="648" part="I">Dieux !</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="648" part="F">Ce mot seulement augmente vos soucis.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="649">Enfin déclarez-moi quelle est cette aventure.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="650">Sachez que Téléphonte est dans la sépulture.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="651">Vous croyez sans raison que vous m'étonnerez,</l>
+            <l n="652">Vous dites seulement ce que vous désirez,</l>
+            <l n="653" part="I">Et non la vérité.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="653" part="F">N'en doutez point Madame,</l>
+            <l n="654">Mon superbe rival enfin a rendu l'âme,</l>
+            <l n="655">Mon père s'est vangé par un juste trespas,</l>
+            <l n="656">Vous saurez qu'il n'est plus à la Cour d'Amynthas</l>
+            <l n="657">Qu'il est sorti du monde, et nous laisse l'Empire,</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="658">Comment l'auriez-vous su ? Qui vous l'aurait peu dire ?</l>
+            <l n="659">Aux vôtres dans ces lieux nul accès n'est permis,</l>
+            <l n="660" part="I">Répondez donc ?</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="660" part="F">Les Rois ont par tout des amis.</l>
+            <l n="661">On ne peut rien cacher aux yeux des sages Princes,</l>
+            <l n="662">J'ai de bons espions dans toutes vos Provinces.</l>
+            <l n="663">Et c'est d'eux que j'ai su la mort de mon rival.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="664" part="I">Hélas s'il disait vrai !</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="664" part="F">Ce coup vous est fatal.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="665" part="I">Téléphonte est vivant.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="665" part="F">Il est dedans la Tombe.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="666">Le Ciel ne permet pas que la vertu succombe,</l>
+            <l n="667">Il est trop équitable et veille sur les Rois,</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="668">Vous ne le croyez pas, et pleurez toutefois.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="669">Parmi mes ennemis serai-je sans alarmes.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="670">Je viens, je viens ici pour essuyer vos larmes.</l>
+            <l n="671">Puis que vous êtes veuve et n'avez plus d'époux,</l>
+            <l n="672">Je viens prendre sa place, et viens m'offrir à vous.</l>
+            <l n="673">En perdant un mari vous en gagnez un autre,</l>
+            <l n="674">Rien n'empêche à présent que je ne sois le vôtre.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="675">Que vous le soyez, comment, par quelle loi ?</l>
+            <l n="676">Je suis à Téléphonte, et j'ai donné ma foi.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="677">Si durant qu'il vivait mon Amour fut un crime,</l>
+            <l n="678">À présent qu'il est mort ma flamme est légitime.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="679">J'ignore jusqu'ici quel est son triste sort,</l>
+            <l n="680">Je ne sais pas encor s'il est vivant, ou mort.</l>
+            <l n="681">En quelque lieu qu'il soit, seul il règne en mon âme,</l>
+            <l n="682">N'espérez donc jamais que je sois votre femme.</l>
+            <l n="683">Par des liens sacrez je tiens à mon époux,</l>
+            <l n="684">S'il est encor vivant, je ne puis être à vous.</l>
+            <l n="685">S'il est mort, je n'en puis épouser l'homicide.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="686" part="I">De quoi m'accusez-vous ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="686" part="F">D'un dessein parricide.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="687">Ce bras ne l'a point mis dedans le monument.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="688">Vous en êtes la cause, un autre l'instrument.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="689">Je ne vous ai point fait cette sanglante injure.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="690">Mon époux n'est donc point dedans la sépulture ?</l>
+            <l n="691">Non, non, il vit encor et viendra me venger,</l>
+            <l n="692">Il viendra dans ces lieux, non pas en étranger,</l>
+            <l n="693">Sans secours, sans appui, sans pouvoir, sans estime,</l>
+            <l n="694">Mais en libérateur, mais en Roi légitime.</l>
+            <l n="695">Il viendra pour punir ses perfides sujets,</l>
+            <l n="696">Et le Ciel secondant ses glorieux projets,</l>
+            <l n="697">De monstres pour jamais purgera cet Empire.</l>
+            <l n="698">C'est ce que vous craignez, c'est ce que je désire.</l>
+            <l n="699">Hermocrate avec vous redoute ses efforts,</l>
+            <l n="700">D'horribles visions lui donnent mille morts.</l>
+            <l n="701">Une éternelle crainte est compagne du vice,</l>
+            <l n="702">L'impie en vain aux Dieux prépare un sacrifice.</l>
+            <l n="703">Téléphonte viendra pour troubler son repos,</l>
+            <l n="704">Il n'évitera point le bras de ce héros.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="705">Il n'est plus rien qu'un ombre aussi bien que son père :</l>
+            <l n="706">Mais que n'est-il vivant ce jeune téméraire ?</l>
+            <l n="707">Que ne le puis je voir dans les champs de l'honneur ?</l>
+            <l n="708">Je voudrais seul à seul lui montrer ma valeur.</l>
+            <l n="709">J'aurais bientôt son sang, j'aurais bientôt sa vie,</l>
+            <l n="710">Et ma vertu serait de triomphe suivie.</l>
+            <l n="711">De ce fameux combat pour l'Amour entrepris,</l>
+            <l n="712">Vous seriez tout ensemble et l'objet et le prix.</l>
+            <l n="713">Vous me seriez acquise aussi bien que l'Empire :</l>
+            <l n="714">C'est ce que vous craignez, c'est ce que je désire.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="715">Ah si vous le voyiez les armes à la main,</l>
+            <l n="716">Une subite peur vous glacerait le sein,</l>
+            <l n="717">Sa valeur vous mettant l'épouvante dans l'âme,</l>
+            <l n="718">Vous ne songeriez plus à lui ravir sa femme.</l>
+            <l n="719">Le sceptre avec ce fer de vos mains tomberait,</l>
+            <l n="720">Et votre orgueil vaincu, sa grâce implorerait.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="721">Le superbe soumis implorerait la mienne.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="722">Vanter votre valeur, l'égaler à la sienne,</l>
+            <l n="723">C'est vouloir égaler et le faible et le fort,</l>
+            <l n="724" part="I">Le lâche et le vaillant.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="724" part="F">Et le vif et le mort.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="725">Comme lui votre bras imite un père illustre,</l>
+            <l n="726">Votre coeur généreux dès son troisième lustre</l>
+            <l n="727">S'est acquis le renom des plus fameux guerriers,</l>
+            <l n="728">Vous êtes comme lui tout couvert de lauriers,</l>
+            <l n="729">Un peuple tout entier vous doit sa délivrance,</l>
+            <l n="730">Et la Grèce admirant votre haute vaillance,</l>
+            <l n="731">Vous a vu triompher dans ces riches Citez,</l>
+            <l n="732">Traînant après un char des ennemis domptés.</l>
+            <l n="733">Votre esprit d'Hermocrate en rien ne dégénère,</l>
+            <l n="734">Vous êtes digne fils de ce vertueux père.</l>
+            <l n="735">Être sujet perfide, usurper des États,</l>
+            <l n="736">Faire d'injustes lois et de noirs attentats,</l>
+            <l n="737">À ses gages tenir des meurtriers infâmes</l>
+            <l n="738">Et faire le vaillant en mal traitant des femmes,</l>
+            <l n="739">Ce sont là vos vertus, ce sont là vos hauts faits.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="740">Ah c'est trop m'outrager, cessez donc désormais,</l>
+            <l n="741">Ou je me vengerai par un coup légitime.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="742">Si vous êtes honteux qu'on vous reproche un crime,</l>
+            <l n="743">Ce reproche à bon droit rend votre esprit confus :</l>
+            <l n="744">Mais de l'avoir commis vous devez l'être plus.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="745">Vous sentirez qu'enfin la fureur me surmonte.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="746">Réservez-la plutôt pour vaincre Téléphonte ;</l>
+            <l n="747">Vous en aurez besoin ; je vous l'ai déjà dit,</l>
+            <l n="748">Son bras accomplira tout ce que j'ai prédit.</l>
+            <l n="749" part="I">Ce langage vous trouble.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="749" part="F">Il n'a rien qui m'émeuve,</l>
+            <l n="750">Téléphonte n'est plus, et Philoclée est veuve.</l>
+            <l n="751">L'un ne peut m'offenser, l'autre est en mon pouvoir,</l>
+            <l n="752">Et quel est mon dessein, je vous l'ai fait savoir.</l>
+            <l n="753">Je vous l'ai déjà dit, et vous le dis encore,</l>
+            <l n="754">Ne méprisez donc plus celui qui vous adore,</l>
+            <l n="755">Comme je suis à vous, vous devez être à moi,</l>
+            <l n="756" part="I">Hermocrate l'ordonne.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="756" part="F">Ah Tyrannique loi.</l>
+            <l n="757" part="I">Je n'y puis consentir.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="757" part="F">Vous êtes à Mycèsnes,</l>
+            <l n="758">Et non en Étolie, et sur les bords d'Evene,</l>
+            <l n="759">Rien ne peut empêcher ce que j'ai résolu,</l>
+            <l n="760">Ici mon père règne, et je suis absolu.</l>
+            <l n="761">Montrez-vous complaisante à ma pudique flamme,</l>
+            <l n="762">Tandis que le respect loge encor dans mon âme,</l>
+            <l n="763">Choisissez me voyant maître de votre sort,</l>
+            <l n="764">Ou l'Amour ou la haine, ou l'hymen ou la mort.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="765">Quoi pensez-vous Barbare étonner mon courage ?</l>
+            <l n="766">Qui cherche le trépas, peut-il craindre l'orage ?</l>
+            <l n="767">Non, non, lancez le foudre et terminez mon sort,</l>
+            <l n="768">Oüy, je choisis la haine, et j'attendrai la mort.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="769">La mort dans les discours n'est jamais effroyable,</l>
+            <l n="770">Mais quand elle est présente, elle est épouvantable.</l>
+            <l n="771">Demain vous quitterez ce mépris, cet orgueil,</l>
+            <l n="772">Et le trône royal est plus doux qu'un cercueil.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Philoclée, Orphise.</head>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="773">Tyran tu crois en vain accomplir ton envie,</l>
+            <l n="774">Je saurai préférer mon honneur à ma vie ;</l>
+            <l n="775">Je saurai me montrer en courant au trépas,</l>
+            <l n="776">Digne de Téléphonte et digne d'Amynthas.</l>
+            <l n="777">Digne d'un tel époux, et digne d'un tel père,</l>
+            <l n="778">Mais je crains pour ces deux bien plus que je n'espère.</l>
+            <l n="779">Et Tyrene a grand tort de tarder si long-temps,</l>
+            <l n="780">À me faire savoir de secrets importants.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="781">Il a beaucoup de zèle et vous d'impatience,</l>
+            <l n="782">Mais ne l'accusez plus, je le vois qui s'avance.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Philoclée, Tyrene.</head>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="783">Ah Tyrene ! En deux mots dis moi quel est mon sort,</l>
+            <l n="784">Mon père est-il vivant, Téléphonte est-il mort ?</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="785">Amynthas, grâce aux Dieux, est encor plein de vie.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="786">Mais à mon cher époux, dis moi, l'a t on ravie ?</l>
+            <l n="787">On me vient d'assurer qu'il est dans le tombeau,</l>
+            <l n="788">Dis moi s'il voit encor le céleste flambeau ;</l>
+            <l n="789">Ne flatte point mon coeur d'une espérance vaine,</l>
+            <l n="790">Ne me déguise rien, et me tire de peine.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="791">Dissimulons : son sort est encor inconnu,</l>
+            <l n="792">On ne sait à la Cour ce qu'il est devenu.</l>
+            <l n="793">L'on a cherché partout, et traversé l'Empire,</l>
+            <l n="794">De la mer d'Ionie aux montagnes d'Epire.</l>
+            <l n="795">Quelques voeux qu'on ait faits, quelque soin qu'on ait pris,</l>
+            <l n="796">On n'a rien découvert, on n'en a rien appris.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="797">Demochare a dit vrai, nul espoir ne me reste,</l>
+            <l n="798">Voilà l'effet de cet édit funeste,</l>
+            <l n="799">Et le Ciel s'est moqué de mes justes souhaits,</l>
+            <l n="800">Pour rendre des tyrans les désirs satisfaits.</l>
+            <l n="801">Ah mon fidèle époux ! Ah misérable veuve !</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="802">De son trépas encor nous n'avons nulle preuve,</l>
+            <l n="803">S'il était descendu dans le séjour des morts,</l>
+            <l n="804">Au moins dans l'Étolie on eut quitté son corps.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="805">On chercherait en vain hors du sein de la terre</l>
+            <l n="806">Celui que désormais au dedans elle enserre,</l>
+            <l n="807">Les perfides meurtriers de ce jeune héros,</l>
+            <l n="808">D'une tombe funeste auront couvert ses os :</l>
+            <l n="809">Non pour aucun dessein pieux et légitime,</l>
+            <l n="810">Non pour aucun respect, mais pour couvrir leur crime,</l>
+            <l n="811">Et pour l'ensevelir avec ce que j'aimais.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="812">S'il était succombé sous ces fatales lois,</l>
+            <l n="813">Les Barbares auteurs de cette violence</l>
+            <l n="814">En auraient demandé l'infâme récompense,</l>
+            <l n="815">Et déjà dans Mycènes on eut vu ces bourreaux</l>
+            <l n="816">Chercher un nouveau prix pour des crimes nouveaux.</l>
+            <l n="817">Mais ce jeune monarque en dépit de l'envie</l>
+            <l n="818">Voit encor le soleil, et respire la vie.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="819">L'avarice travaille à creuser son cercueil,</l>
+            <l n="820">Et le jour n'est pas loin qui me doit mettre en deuil,</l>
+            <l n="821">On lui dresse partout des embûches mortelles,</l>
+            <l n="822">J'attends à tous moments de funestes nouvelles,</l>
+            <l n="823">Et je crois déjà voir ces tragiques effets,</l>
+            <l n="824">Que son lâche assassin est dedans le Palais,</l>
+            <l n="825">Que dans sa main sanglante il en porte la tête,</l>
+            <l n="826">Et la crainte en mon coeur excite une tempête.</l>
+            <l n="827">Fortune, ma vertu succombe sous tes coups,</l>
+            <l n="828">Avec ma liberté je perdais mon époux,</l>
+            <l n="829">Et je me trouve encor entre les mains perfides</l>
+            <l n="830">De ceux qui font vertu d'être ses homicides.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="831">Amynthas ayant su votre captivité,</l>
+            <l n="832">Arme dans ses États pour vostre liberté.</l>
+            <l n="833">Et bien que de soldats abonde l'Étolie,</l>
+            <l n="834">À ses sujets encor ses voisins il allie,</l>
+            <l n="835">Et fait en diligence equiper des vaisseaux,</l>
+            <l n="836">Pour dompter la fureur des Tyrans et des eaux.</l>
+            <l n="837">Il veut que dans ces lieux la flame, le fer brille :</l>
+            <l n="838">Il veut perdre Hermocrate et delivrer sa fille,</l>
+            <l n="839">Estouffer dans son sang les crimes anciens,</l>
+            <l n="840">Et vanger d'un seul coup Téléphonte et les siens.</l>
+            <l n="841">Si ce Monarque vient pour vostre delivrance,</l>
+            <l n="842">Faites qu'au desespoir succede l'esperance.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="843">La mort sera plus prompte et le devancera,</l>
+            <l n="844">C'est elle avec ses traits qui me délivrera</l>
+            <l n="845">Des chaînes d'Hermocrate et de l'amour barbare</l>
+            <l n="846">De son fils inhumain, du cruel Demochare,</l>
+            <l n="847">Qui me veut imposer une trop rude loi,</l>
+            <l n="848">Et qui veut devenir mon époux malgré moi,</l>
+            <l n="849">Me faire violer la foi que j'ai donnée,</l>
+            <l n="850">Il veut que je consente à ce triste hymenée ;</l>
+            <l n="851">Que je préfère un crime au conjugal Amour ;</l>
+            <l n="852">Et pour m'y disposer ne me donne qu'un jour.</l>
+            <l n="853">Que mon coeur agité souffre une étrange peine,</l>
+            <l n="854">Me faut-il éprouver le destin de la Reine.</l>
+            <l n="855">Que dis-je ? Où suis-je ? Ô Dieux, que dois-je devenir ?</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="856" part="I">Le présent vous fait peur.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="856" part="F">Encor plus l'avenir.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="857" part="I">Vous devez espérer.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="857" part="F">Mais j'ai sujet de craindre.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="858" part="I">Apaisez ces regrets.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="858" part="F">J'ai raison de me plaindre.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="859" part="I">Il faut se consoler.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="859" part="F">Ah pour me consoler</l>
+            <l n="860">Il faudrait d'un époux les esprits rappeler,</l>
+            <l n="861">Qu'il sortit du tombeau que vivant je le visse.</l>
+            <l n="862">Faut-il que la vertu soit esclave du vice ?</l>
+            <l n="863" part="I">Quoi Téléphonte est mort !</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="863" part="F">Aveuglement d'Amour !</l>
+            <l n="864">Le Prince en quelque lieu respire encor le jour :</l>
+            <l n="865">Mais votre désespoir un cercueil lui prépare.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="866">Je ne puis éviter la tombe, ou Demochare,</l>
+            <l n="867">J'abhorre ce perfide, et veux dès aujourd'hui</l>
+            <l n="868">Me donner la mort, pour n'être pas à lui.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="869">Bien qu'il vous persécute, et semble inexorable,</l>
+            <l n="870">J'espère de le rendre à vos voeux favorable,</l>
+            <l n="871">Et retarder l'hymen que vous appréhendez,</l>
+            <l n="872">Madame est-ce pas là ce que vous demandez ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="873">Tu voudrais lui parler, perds plutôt cette envie,</l>
+            <l n="874">Ce dessein périlleux te coûterait la vie.</l>
+            <l n="875">Demochare est amant, mais un amant cruel,</l>
+            <l n="876">Il a fait, le Barbare, un serment solennel,</l>
+            <l n="877">Que qui lui parlera de ce triste hyménée,</l>
+            <l n="878">Dont il m'a fait savoir la fatale journée,</l>
+            <l n="879">Il recevra le prix de sa témérité,</l>
+            <l n="880">Et pour son châtiment il perdra la clarté.</l>
+            <l n="881">Je pleure incessamment, je me plains, je soupire,</l>
+            <l n="882">Personne en ma faveur n'oserait lui rien dire,</l>
+            <l n="883">On sait qu'à sa fureur s'égale son pouvoir.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="884">Quoi qu'il puisse arriver, je ferai mon devoir</l>
+            <l n="885">Pour prolonger vos jours, si j'abrège ma vie</l>
+            <l n="886">Une si belle mort sera digne d'envie,</l>
+            <l n="887">Ne craignez rien pour moi je m'en vais l'aborder.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="888">À ton zèle pieux en fin il faut céder.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Céphalie, Mérope.</head>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="889" part="I">Tout est perdu Madame.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="889" part="F">Et qu'as-tu Céphalie ?</l>
+            <l n="890">Quelque nouveau malheur nous vient-il d'Étolie ?</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="891">Ah je frémis d'horreur. Le puis-je dire ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="892" part="I">Ô Dieux !</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="892" part="F">Un espion qui vient d'arriver en ces lieux,</l>
+            <l n="893">Dit que le Prince est mort, et que son homicide</l>
+            <l n="894">Viendra chercher le prix d'un acte si perfide.</l>
+            <l n="895" part="I">Et le tyran le sait.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="895" part="F">Hélas ! Que me dis-tu ?</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="896" part="I">Madame.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="896" part="M">Je me meurs.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="896" part="F">Montrez votre vertu.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="897">Par ce cruel récit me l'as-tu pas ravie ?</l>
+            <l n="898">Quoi mon fils pour jamais est privé de la vie ?</l>
+            <l n="899">Et son lâche assassin voit encor le soleil,</l>
+            <l n="900">Il vient chercher le prix d'un crime sans pareil,</l>
+            <l n="901">D'un forfait incroyable à la race future,</l>
+            <l n="902">Qui met le sang des Rois dedans la séépulture ;</l>
+            <l n="903">Un héros qui devait être exempt du trépas.</l>
+            <l n="904">As-tu vu l'espion, ne te trompes-tu pas ?</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="905" part="I">Je ne me trompe point.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="905" part="F">Ah misérable mère !</l>
+            <l n="906">Quoi te reservais-tu pour voir cette misère.</l>
+            <l n="907">Ai-je à mon propre honneur préféré la clarté,</l>
+            <l n="908">Pour voir jusqu'à quel point monte l'impiété,</l>
+            <l n="909">Et le dernier malheur où tombe un misérable,</l>
+            <l n="910">Hélas qui désormais me sera secourable !</l>
+            <l n="911">J'ai perdu mon espoir, ma gloire, mon support,</l>
+            <l n="912">Enfin j'ai tout perdu, puisque mon fils est mort.</l>
+            <l n="913">Mais je vois ce Tyran dont la rage inhumaine</l>
+            <l n="914" part="I">A causé tous mes maux.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Le Tyran, Mérope.</head>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="914" part="F">Dieux ! J'apercois la Reine,</l>
+            <l n="915" part="I">Évitons sa présence.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="915" part="F">Ah cruel ! Me fuis-tu ?</l>
+            <l n="916">Viens voir les beaux effets de ta haute vertu,</l>
+            <l n="917">Viens voir en ma douleur ce qu'a produit ta rage,</l>
+            <l n="918">Je suis encor vivante achève ton ouvrage,</l>
+            <l n="919">Et rends ton crime illustre en m'ôtant la clarté,</l>
+            <l n="920">Lâche et barbare auteur de ma calamité.</l>
+            <l n="921">Viens, viens, pour terminer ma vie et ma misère,</l>
+            <l n="922">Homicide du fils, viens, massacre la mère,</l>
+            <l n="923">Viens pour m'ouvrir le sein, viens me percer le flanc,</l>
+            <l n="924">Achève de verser, ce n'est qu'un même sang,</l>
+            <l n="925">Épuises-en ce corps, et rougis-en la place,</l>
+            <l n="926">Que je suive au tombeau le dernier de ma race.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="927">Sachant que je vous aime, et ce que je vous suis,</l>
+            <l n="928">Croyez que ma tristesse égale vos ennuis,</l>
+            <l n="929">Mon coeur comme le vôtre a de rudes alarmes,</l>
+            <l n="930">Je ne puis voir vos pleurs sans répandre des larmes,</l>
+            <l n="931">Mon esprit participe aux douleurs que je vois.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="932">Ah ! Vrai monstre du Nil pleure et dévore moi,</l>
+            <l n="933">Finis par mon trépas mon destin lamentable,</l>
+            <note type="L">Pitoyable : État malheureux de celui qui excite à la pitié. [F]</note>
+            <l n="934">Par une impiété montre-toi pitoyable.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="935">Quoi, moi vous outrager, mettre fin à vos jours,</l>
+            <l n="936">Ah ! J'en voudrais plutôt éterniser le cours.</l>
+            <l n="937">Pouvoir au sort des Dieux régler vos destinées,</l>
+            <l n="938">Et rendre vos beautés à jamais fortunées,</l>
+            <l n="939">Mon âme vous révère, et vous me faites tort.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="940">Barbare, fais-tu voir ton amour par la mort ?</l>
+            <l n="941">Celle de Téléphonte en est-elle une marque ?</l>
+            <l n="942">Ton coeur pour m'obliger l'offre-t-il à la Parque ?</l>
+            <l n="943">Pour montrer le respect qu'il a toujours pour moi,</l>
+            <l n="944">Tu devais amener l'assassin avec toi.</l>
+            <l n="945">Du meurtre de mon fils sa main encor sanglante,</l>
+            <l n="946">M'aurait mieux assuré de sa fin violente.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="947">Mon coeur ici vous jure en présence des Dieux,</l>
+            <l n="948">Qu'il le prive à regret de la clarté des Cieux.</l>
+            <l n="949">Si quelque autre moyen flattant mon espérance,</l>
+            <l n="950">Eut pu mettre avec moi ma flamme en assurance,</l>
+            <l n="951">Jamais ce triste édit n'eut abrégé son sort,</l>
+            <l n="952">Et votre oeil affligé n'eut point pleuré sa mort.</l>
+            <l n="953">Je ne fus point poussé d'ambition, d'envie,</l>
+            <l n="954">Le désir de régner, ni celui de la vie,</l>
+            <l n="955">Ne m'a point inspiré d'avancer son trépas</l>
+            <l n="956">Mais celui de jouir de vos divins appas,</l>
+            <l n="957">Et de vous posséder sans troubles, et sans craintes.</l>
+            <l n="958">Tarissez donc vos pleurs, et finissez vos plaintes.</l>
+            <l n="959">Puis que je ne vois plus d'obstacle à mes amours,</l>
+            <l n="960">Rien n'agitera plus le calme de vos jours ;</l>
+            <l n="961">Éloignez du passé la fâcheuse mémoire,</l>
+            <l n="962">Regardez l'avenir plein d'heur et plein de gloire.</l>
+            <l n="963">Les disgrâces, les maux, les regrets, les soupirs</l>
+            <l n="964">Désormais feront place aux honneurs, aux plaisirs.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="965">Il faut qu'à la douleur mon esprit s'abandonne,</l>
+            <l n="966">Tu m'ôtes mes enfants Cresphonte et la couronne.</l>
+            <l n="967">Je suis mère sans fils, et femme sans époux,</l>
+            <l n="968">Et des traits de ta main je sens les derniers coups.</l>
+            <l n="969">Le désespoir me suit et succède à ma crainte,</l>
+            <l n="970">Nul des miens n'est vivant, ma famille est éteinte,</l>
+            <l n="971">Il ne m'en reste plus que les seuls monuments,</l>
+            <l n="972">Mes larmes et mon deuil, et mes gémissements.</l>
+            <l n="973">Après que tu m'as fait un sort si déplorable,</l>
+            <l n="974">Crois-tu que de plaisir mon esprit soit capable.</l>
+            <l n="975">J'ai ton discours impie, et toi-même en horreur,</l>
+            <l n="976">Et je veux dans ton sang éteindre ma fureur.</l>
+            <l n="977">Ah meurtrier de ton Prince, assassin de Cresphonte !</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="978">Je le dois avouer, et je le puis sans honte,</l>
+            <l n="979">Par le vouloir d'un Dieu j'ai fait périr un Roi,</l>
+            <l n="980">Pour l'Amour et pour vous j'ai violé la loi,</l>
+            <l n="981">Et je préfère à tout vos beautés que j'adore,</l>
+            <l n="982">Si j'ai fait un grand mal, j'eusse fait pis encore :</l>
+            <l n="983">Dans ces lieux seulement éclatât ma fureur,</l>
+            <l n="984">Mais j'eusse fait du monde un théâtre d'horreur,</l>
+            <l n="985">Mon bras à tous les Rois eut déclaré la guerre,</l>
+            <l n="986">Et pour vous posséder eut désolé la terre.</l>
+            <l n="987">Il eut fait voir par tout l'image du trépas.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="988">Ce que je viens d'entendre, ô Ciel ! L'entends-tu pas ?</l>
+            <l n="989">Fais luire les éclairs, et d'un trait de tempête</l>
+            <l n="990">De ce monstre cruel viens écraser la tête.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="991">Ces imprécations me donnent peu d'effroi,</l>
+            <l n="992">Et le Ciel aujourd'hui s'est déclaré pour moi,</l>
+            <l n="993">Le foudre que je crains n'est que votre colère.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="994">Crois que tous tes forfaits recevraient leur salaire,</l>
+            <l n="995">Si Mérope impuissante avait le foudre en main</l>
+            <l n="996">Je te ferais périr, ô coeur trop inhumain !</l>
+            <l n="997">Par un supplice long, affreux, épouvantable,</l>
+            <l n="998">Je te rendrais toi-même à toi-même effroyable,</l>
+            <l n="999">Et ton corps foudroyé fumant dedans ces lieux,</l>
+            <l n="1000">D'un spectacle si beau je repaîtrais mes yeux.</l>
+          </sp>
+          <sp who="tc0526-LETYRAN">
+            <speaker>LE TYRAN.</speaker>
+            <l n="1001">Je souffre tout de vous, rien ne m'en peut déplaire,</l>
+            <l n="1002">Je sais votre douleur, et que vous êtes mère,</l>
+            <l n="1003">Mais songez qu'Hermocrate est aussi votre époux,</l>
+            <l n="1004">Et malgré cet outrage, a du respect pour vous,</l>
+            <l n="1005">Pour vous le témoigner il faut que je vous quitte,</l>
+            <l n="1006">Au lieu de l'apaiser ma présence l'irrite,</l>
+            <l n="1007">Le temps pourra calmer ses esprits furieux,</l>
+            <l n="1008">Tandis, allons au Temple, et rendons grâce aux Dieux.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Mérope, Céphalie.</head>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1009">Va superbe tyran leur offrir des victimes,</l>
+            <l n="1010">Ils sont tes protecteurs, ils couronnent tes crimes,</l>
+            <l n="1011">Regarde avec orgueil le céleste flambeau,</l>
+            <l n="1012">Pour moi je vais descendre en la nuit du tombeau.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1013">Quoi voulez-vous commettre un si grand parricide,</l>
+            <l n="1014">Et de vous-même ainsi devenant l'homicide,</l>
+            <l n="1015">Rendrez-vous les Tyrans moins criminels que vous,</l>
+            <l n="1016">Appréhendez encor le céleste courroux.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1017">Quoi, veux-tu que je vive au milieu des supplices ?</l>
+            <l n="1018">Parmi le sang, la mort, la cruauté, les vices.</l>
+            <l n="1019">Tous les miens sont péris, il ne reste que moi,</l>
+            <l n="1020">Fuyons de ces Palais cruels et pleins d'effroi ;</l>
+            <l n="1021">Allons dans les enfers, allons trouver Cresphonte,</l>
+            <l n="1022">Androphile, Drias, Eudeme, et Téléphonte ;</l>
+            <l n="1023">Suivons dans le tombeau le père et les enfants,</l>
+            <l n="1024">Et laissons dans ces lieux les crimes triomphants.</l>
+            <l n="1025">Je vois avec horreur l'adultère Mycènes,</l>
+            <l n="1026">Ce fleuve ensanglanté, cette Terre inhumaine,</l>
+            <l n="1027">Ce Ciel et ce soleil, je les déteste tous,</l>
+            <l n="1028">Et tout m'est effroyable où n'est pas mon époux,</l>
+            <l n="1029">Où d'un cruel tyran l'insolence me brave,</l>
+            <l n="1030">Où l'on m'ôte l'honneur, où l'on me fait esclave,</l>
+            <l n="1031">Où je suis sans mari, sans enfants, sans pouvoir,</l>
+            <l n="1032">Enfin veuve de tout, et même de l'espoir.</l>
+            <l n="1033">C'est trop perdre de temps en si plaintes si vaines,</l>
+            <l n="1034">Finissons d'un seul coup et ma vie et mes peines,</l>
+            <l n="1035">Et de nos propres mains déchirons-nous le sein.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1036" part="I">Ô Dieux !</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1036" part="M">Cruelle, non.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1036" part="F">Quel est votre dessein ?</l>
+            <l n="1037">Arrêtez, arrêtez, et que pensez-vous faire ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1038">Quoi veux-tu m'empêcher de finir ma misère ?</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Orphise, Céphalie, Mérope.</head>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1039" part="I">Dieux ! Qu'est-ce que je vois ?</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1039" part="F">Venez la secourir.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1040" part="I">Que faites-vous Madame ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1040" part="F">Ah laissez moi mourir !</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1041" part="I">Calmez cette fureur.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1041" part="F">Votre pitié m'offense.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1042">Armez-vous d'un poignard, et pour votre allégeance,</l>
+            <l n="1043">Qu'une juste fureur vous le mette à la main.</l>
+            <l n="1044">Venez, venez punir le meurtrier inhumain,</l>
+            <l n="1045">Il est dedans ces lieux cet esprit sanguinaire.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1046" part="I">Ô bons Dieux !</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1046" part="F">La Princesse aussi se désespère :</l>
+            <l n="1047">Si vous pleurez un fils, elle pleure un époux ;</l>
+            <l n="1048">Elle sait qu'il est mort, s'afflige comme vous,</l>
+            <l n="1049">Accuse tous les Dieux, sa fureur est extrême :</l>
+            <l n="1050">Mais ne veut pas mourir sans venger ce qu'elle aime,</l>
+            <l n="1051">Sans donner à ses yeux un si triste plaisir :</l>
+            <l n="1052">Imitez Philoclée, et son pieux désir.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1053">Avec autant d'amour ai-je moins de courage,</l>
+            <l n="1054">Non, ce dessein tragique est conforme à ma rage,</l>
+            <l n="1055">Découvre le meurtrier à ma juste fureur,</l>
+            <l n="1056">Je boirais de son sang, je mangerais son coeur,</l>
+            <l n="1057">Où le trouverons-nous pour assouvir ma haine.</l>
+          </sp>
+          <sp who="tc0526-ORPHISE">
+            <speaker>ORPHISE.</speaker>
+            <l n="1058">Il n'est pas loin d'ici, n'en soyez point en peine.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1059">Allons donc lui donner le prix justement dû,</l>
+            <l n="1060">Allons verser son sang pour mon sang répandu.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE, seul.</speaker>
+            <l n="1061">J'ai quitté l'Étolie et je suis à Mycènes,</l>
+            <l n="1062">Je viens pour satisfaire à l'Amour, à la haine,</l>
+            <l n="1063">Je viens pour délivrer ma femme et mes parents,</l>
+            <l n="1064">Je viens pour me venger et perdre les tyrans,</l>
+            <l n="1065">Je viens pour me montrer digne fils de Cresphonte,</l>
+            <l n="1066">Sous le nom d'assassin je cache Téléphonte.</l>
+            <l n="1067">Je passe pour ami chez mes fiers ennemis,</l>
+            <l n="1068">Je cherche de ma mort le salaire promis,</l>
+            <l n="1069">Ce salaire est leur sang, ce salaire est leur vie,</l>
+            <l n="1070">Je brûle dès longtemps d'accomplir mon envie.</l>
+            <l n="1071">Encor que ce dessein soit périlleux, soit grand,</l>
+            <l n="1072">Il ne fait point frémir l'esprit qui l'entreprend.</l>
+            <l n="1073">Celui qui se propose une fin glorieuse</l>
+            <l n="1074">Ne la doit pas quitter pour être périlleuse :</l>
+            <l n="1075">Il doit laisser au Ciel, qui fit tout sagement</l>
+            <l n="1076">Le soin de son salut, et de l'événement.</l>
+            <l n="1077">C'est ce que j'entreprends, c'est que je veux faire,</l>
+            <l n="1078">Je sais que je suis fils, qu'il faut venger mon père.</l>
+            <l n="1079">Je méprise le sort et les coups du malheur,</l>
+            <l n="1080">Je ferai mon devoir, les Dieux feront le leur.</l>
+            <l n="1081">Je vois avec plaisir la fatale journée,</l>
+            <l n="1082">Que pour un si grand coup choisit la destinée.</l>
+            <l n="1083">Songe à cette action, réjouis-toi mon bras,</l>
+            <l n="1084">Quand même je mourrais, elle ne mourrait pas.</l>
+            <l n="1085">Sortez mes chers parents de la nuit éternelle,</l>
+            <l n="1086">Montrez-vous tous sanglants où la gloire m'appelle,</l>
+            <l n="1087">D'une pieuse audace échauffez-moi le coeur,</l>
+            <l n="1088">Redoublez mon courage et me rendez vainqueur :</l>
+            <l n="1089">Telle que désormais en puisse être l'issue,</l>
+            <l n="1090">Je ne puis retarder l'entreprise conçue.</l>
+            <l n="1091">Et devant que le jour rallume son flambeau,</l>
+            <l n="1092">Ou les tyrans ou moi seront dans le tombeau.</l>
+            <l n="1093">Je pouvais équiper une puissante armée,</l>
+            <l n="1094">Et faire devant moi voler la Renommée,</l>
+            <l n="1095">Effrayer et dompter ces monstres inhumains :</l>
+            <l n="1096">Mais tenant et ma femme et ma mère en leurs mains,</l>
+            <l n="1097">Tout ce que je chéris étant en leur puissance,</l>
+            <l n="1098">Ils pouvaient se venger même de ma vengeance,</l>
+            <l n="1099">Au lieu que venant seul en soldat, non en Roi,</l>
+            <l n="1100">Mon courage et mon bras ne hasardent que moi.</l>
+            <l n="1101">Je ne viens pas pourtant en jeune téméraire,</l>
+            <l n="1102">Et je suis la raison autant que la colère.</l>
+            <l n="1103">Une aveugle fureur ne conduit point mes pas,</l>
+            <l n="1104">Tyrene et ses amis seconderont mon bras,</l>
+            <l n="1105">Il est sujet fidèle et puissant dans Mycènes,</l>
+            <l n="1106">Puis Hermocrate ici n'est qu'un objet de haine,</l>
+            <l n="1107">Pour moi j'y suis aimé, mon nom connu des miens</l>
+            <l n="1108">Suffit pour émouvoir tous les Messéniens,</l>
+            <l n="1109">Ainsi j'ai dans ces lieux une secrète armée,</l>
+            <l n="1110">De l'amour de son Prince, et du Ciel animée.</l>
+            <l n="1111">Le peuple qui soupire après sa liberté</l>
+            <l n="1112">Me fera voir son zèle en cette extrémité.</l>
+            <l n="1113">J'ai caché mon dessein pour le mieux faire éclore,</l>
+            <l n="1114">La Reine n'en sait rien, la Princesse l'ignore :</l>
+            <l n="1115">Et je les laisse un temps au deuil s'abandonner,</l>
+            <l n="1116">Afin que le Tyran n'ait rien à soupçonner.</l>
+            <l n="1117">Pour venir dans ces lieux avec plus d'assurance,</l>
+            <l n="1118">Et de ce que je suis éloigner l'apparence,</l>
+            <l n="1119">J'ai fait semer le bruit dans Chalcis de ma mort,</l>
+            <l n="1120">Toute la Cour en deuil pleure mon triste sort.</l>
+            <l n="1121">Hermocrate est au Temple, en son lieu Demochare</l>
+            <l n="1122">À qui je dois parler, grand accueil me prépare.</l>
+            <l n="1123">Je dois aller trouver cet orgueilleux rival,</l>
+            <l n="1124">Est-il quelque supplice à mon supplice égal ?</l>
+            <l n="1125">Pourrais-je commander à ma fureur jalouse ?</l>
+            <l n="1126">Il veut faire un outrage à ma pudique épouse.</l>
+            <l n="1127">Ce brutal suit son père, il l'imite aujourd'hui,</l>
+            <l n="1128">Il veut ravir l'honneur et la femme d'autrui,</l>
+            <l n="1129">Il veut que dès demain un fatal hyménée</l>
+            <l n="1130">M'enlève la beauté que le Ciel m'a donnée.</l>
+            <l n="1131">Ô Dieux ! le seul penser m'ôte le jugement,</l>
+            <l n="1132">À peine je retiens ma colère un moment ;</l>
+            <l n="1133">Modérons-nous pourtant, faisons-nous violence</l>
+            <l n="1134">Cachons notre douleur, assurons la vengeance,</l>
+            <l n="1135">Afin de parvenir au but où je prétends,</l>
+            <l n="1136">Ma fureur dans mon sein sommeille quelque temps ;</l>
+            <l n="1137">Je l'aperçois qui vient, dissimulons mon âme,</l>
+            <l n="1138">Oublions un instant et l'amour et ma femme.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Demochare, Tyndare.</head>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1139">Je te viens recevoir en l'absence du Roi,</l>
+            <l n="1140">Et j'ai voulu venir jusqu'au devant de toi,</l>
+            <l n="1141">Je brûlais de te voir, je sais ce qui t'amène,</l>
+            <l n="1142">Tu viens, brave étranger, pour nous tirer de peine,</l>
+            <l n="1143">Tu nous viens assurer que Téléphonte est mort.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1144">Oui, ce bras et la Parque ont terminé son sort.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1145">Ami tu me ravis avec cette nouvelle,</l>
+            <l n="1146">On ne peut trop louer une action si belle,</l>
+            <l n="1147">Le coup en est hardi, le dessein généreux,</l>
+            <l n="1148">Il sauve cet état, et te doit rendre heureux,</l>
+            <l n="1149">Tu n'as pas vainement entrepris ce voyage,</l>
+            <l n="1150">On te prépare un prix égal à ton courage,</l>
+            <l n="1151">Le salaire t'attend, n'en sois point en souci.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1152">C'est là ce qui m'amène, et je l'espère ainsi.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1153">Que cette juste mort rend illustre ta vie,</l>
+            <l n="1154">Que j'exalte ce bras, que je te porte envie,</l>
+            <l n="1155">Ce meurtre est glorieux et plein de piété,</l>
+            <l n="1156">Moi-même je voudrais l'avoir exécuté,</l>
+            <l n="1157">Une gloire immortelle eut été mon salaire,</l>
+            <l n="1158">Que le fils est heureux qui peut venger son père.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1159" part="I">Ce sentiment est juste.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1159" part="F">Il vit toujours en moi.</l>
+            <l n="1160">Mais tu fais plus encor en conservant un Roi,</l>
+            <l n="1161">C'est l'image des Dieux ici bas révérée.</l>
+            <l n="1162">Outre que parmi nous sa personne est sacrée,</l>
+            <l n="1163">On le peut dire aussi père de ses sujets,</l>
+            <l n="1164">Vois donc de quels honneurs sont suivis tes projets.</l>
+            <l n="1165">Un Monarque te doit son sceptre et sa couronne,</l>
+            <l n="1166">Si la paix règne ici ta valeur nous la donne,</l>
+            <l n="1167">Par toi notre ennemi voit ses desseins trahis,</l>
+            <l n="1168">Mais apprends moi ton nom, ton destin, ton pays.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1169">On me nomme Tyndare, et je suis de Mycènes,</l>
+            <l n="1170">La Fortune toujours m'a témoigné sa haine,</l>
+            <l n="1171">Me trouvant en bas age et sans père et sans biens</l>
+            <l n="1172">Je me vis élever chez les Étoliens,</l>
+            <l n="1173">Jusqu'à ce jour fatal qu'une sainte furie,</l>
+            <l n="1174">Ou plutôt cet amour qu'on a pour la patrie,</l>
+            <l n="1175">M'inspira le dessein de sauver cet État,</l>
+            <l n="1176">De venger de ma main le cruel attentat</l>
+            <l n="1177" part="I">Tramé contre mon Roi.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1177" part="F">Ah ! Viens que je t'embrasse,</l>
+            <l n="1178">Que j'aime ta valeur ta généreuse audace.</l>
+            <l n="1179">Crois que mon père aussi n'a rien qui ne soit tien,</l>
+            <l n="1180">Ton destin va changer n'appréhendes plus rien :</l>
+            <l n="1181">Pour te récompenser c'est peu que des caresses,</l>
+            <l n="1182">Je te veux faire part de toutes mes richesses.</l>
+            <l n="1183">Par toi je vais goûter un bonheur sans pareil,</l>
+            <l n="1184">Je suis le plus heureux qui soit sous le soleil.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1185">Je n'ai rien fait encor digne d'un grand courage,</l>
+            <l n="1186" part="I">J'attends l'occasion.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1186" part="F">Que veux-tu davantage ?</l>
+            <l n="1187">N'as-tu pas de mon père assuré les États ?</l>
+            <l n="1188">Je possède en repos la fille d'Amynthas.</l>
+            <l n="1189">On ne peut trop louer ta haute hardiesse,</l>
+            <l n="1190">Un Roi te doit son sceptre, un Amant sa maîtresse ;</l>
+            <l n="1191">Ton bras ne nous a pas obligés à demi,</l>
+            <l n="1192">Tu tuais mon rival tuant son ennemi,</l>
+            <l n="1193">Une bonne fortune à l'autre est enchaînée,</l>
+            <l n="1194">Rien ne peut désormais troubler mon hyménée,</l>
+            <l n="1195">Et je veux dès demain que le flambeau du jour</l>
+            <l n="1196">Éclaire mon triomphe et les pompes d'Amour :</l>
+            <l n="1197">Tu seras le témoin de mon bonheur extrême,</l>
+            <l n="1198" part="I">Tu viens tout à propos.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1198" part="F">La Princesse vous aime,</l>
+            <l n="1199">De vos hautes vertus son coeur sera le prix.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1200" part="I">L'ingrate.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1200" part="F">À ce discours il est un peu surpris,</l>
+            <l n="1201">Pardonnez moi Seigneur, si j'ose ouvrir la bouche</l>
+            <l n="1202">Mais je prends tant de part à tout ce qui vous touche,</l>
+            <l n="1203" part="I">Que je ne m'en puis taire.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1203" part="F">Ah ! Dis tout franchement,</l>
+            <l n="1204">Tu le peux désormais, parle donc hardiment.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1205">Sondons-le jusqu'au bout, un bruit court à Mycènes,</l>
+            <l n="1206" part="I">Mais sans doute un faux bruit.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1206" part="F">Quel ! Ôte moi de peine.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1207">On dit que la Princesse est triste en cette Cour,</l>
+            <l n="1208">Et près de son hymen témoigne peu d'amour ;</l>
+            <l n="1209">Qu'elle a quelque froideur et quelque indifférence,</l>
+            <l n="1210">Mais ce discours du peuple est bien hors d'apparence.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1211">Une fille toujours nous cache son dessein,</l>
+            <l n="1212">La glace est sur la langue et le feu dans son sein,</l>
+            <l n="1213">À ce nom d'hyménée elle fait la cruelle.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1214">Mais le terme s'approche, y consentira-t-elle ?</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1215">Elle y doit consentir, elle doit être à moi.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1216">L'on dit qu'à Téléphonte elle a donné sa foi,</l>
+            <l n="1217">Que par mille serments elle s'est engagée :</l>
+            <l n="1218">Mais pour vous justement on la verra changée.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1219">Qui change avec le sort, il agit prudemment,</l>
+            <l n="1220">Toute chose aujourd'hui l'oblige au changement :</l>
+            <l n="1221">Je suis seul héritier du sceptre de Mycènes,</l>
+            <l n="1222">Devenant mon épouse, elle deviendra Reine,</l>
+            <l n="1223">Je la comble d'honneurs, comme moi de plaisirs.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1224">Mais si la volonté s'accorde à vos désirs,</l>
+            <l n="1225">Et si sa froide humeur fait encor résistance,</l>
+            <l n="1226">Aurez vous ce respect et cette complaisance,</l>
+            <l n="1227">Que de ne pas user d'un absolu pouvoir,</l>
+            <l n="1228">Possible que ses pleurs vous pourront émouvoir.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1229">Je veux sans différer jouir de tant de charmes,</l>
+            <l n="1230">Je ne suis point émeu de soupirs ni de larmes,</l>
+            <l n="1231">Leur pouvoir est bien grand, mais il me doit céder,</l>
+            <l n="1232">De force ou d'amitié je la veux posséder,</l>
+            <l n="1233">Il faut ou qu'elle meure, ou qu'elle soit ma femme.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1234">Barbare auparavant je t'arracherai l'âme.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1235">Philoclée est captive et sujette à mes lois,</l>
+            <l n="1236">Tu sais qu'elle est esclave, une esclave est sans choix,</l>
+            <l n="1237">Je ne vois nul obstacle à notre mariage</l>
+            <l n="1238">Puis Téléphonte est mort, et la mort la dégage,</l>
+            <l n="1239">Il n'est plus en état de me la disputer,</l>
+            <l n="1240">Tu m'as conté sa mort et je n'en puis douter,</l>
+            <l n="1241">Du succès de mes feux ne te mets point en peine,</l>
+            <l n="1242">Je saurai bien fléchir cette belle inhumaine,</l>
+            <l n="1243">Et l'Hymen dès demain la doit mettre en mes bras,</l>
+            <l n="1244">Elle est dedans Mycènes et mon rival là-bas,</l>
+            <l n="1245">Pour joindre à ses tourments une fureur jalouse</l>
+            <l n="1246">Des Enfers dans mon lit il verra son épouse,</l>
+            <l n="1247">Il ne peut plus troubler ni mon père ni moi,</l>
+            <l n="1248">L'un est amant heureux, l'autre paisible Roi.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1249">Votre bonne fortune enfin n'est plus douteuse.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1250">Si ce traître a fini sa trame malheureuse,</l>
+            <l n="1251">Dessous ton bras vainqueur si tu l'as abattu,</l>
+            <l n="1252">Quelle marque à mon père en apporteras tu ?</l>
+            <l n="1253">Pour l'en mieux assurer apportes-tu sa tête</l>
+            <l n="1254">Qui de l'État troublé doit calmer la tempête ?</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1255">Oui je l'apporte au Roi, j'ai tout ce qu'il prétend.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1256">Tyndare sur un point rend mon esprit content,</l>
+            <l n="1257">Dis moi comme était fait ce jeune téméraire,</l>
+            <l n="1258">Dis comme tu vainquis ce puissant Adversaire,</l>
+            <l n="1259">Qui faisait tant le brave et tant parler de soi,</l>
+            <l n="1260">Qui se vantait qu'un jour il nous ferait la loi.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1261">Il était de mon poil, à peu près de mon age,</l>
+            <l n="1262">Entreprenant, hardi, l'on vantait son courage ;</l>
+            <l n="1263">Il a toujours sans peur affronté le trépas,</l>
+            <l n="1264">Il montra sa valeur lorsqu'il tua Lycas,</l>
+            <l n="1265">Son courage depuis osait tout entreprendre,</l>
+            <l n="1266">Pour en venir à bout il fallait le surprendre :</l>
+            <l n="1267">On n'ose ouvertement attaquer un grand coeur,</l>
+            <l n="1268">Mais on peut par la ruse en être le vainqueur.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1269">Si ta main le tuant n'eût prévenu la mienne,</l>
+            <l n="1270">Ma valeur eût dans peu triomphé de la sienne,</l>
+            <l n="1271">Moi-même j'eusse été chez les Étoliens,</l>
+            <l n="1272">Pour contenter ma haine et pour venger les miens,</l>
+            <l n="1273">Par ce coup généreux j'eusse avec Téléphonte</l>
+            <l n="1274">Entièrement éteint la race de Cresphonte :</l>
+            <l n="1275">J'eusse achevé l'ayant dessous moi terrassé,</l>
+            <l n="1276">L'ouvrage que mon père a si bien commencé,</l>
+            <l n="1277">Mais qu'as-tu ? Tu pâlis, tu changes de visage.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1278">Le travail du vaisseau, la longueur du voyage</l>
+            <l n="1279">Me privant de vigueur rend mon corps abattu.</l>
+          </sp>
+          <sp who="tc0526-DEMOCHARE">
+            <speaker>DEMOCHARE.</speaker>
+            <l n="1280">Le repos lui rendra sa première vertu,</l>
+            <l n="1281">Le sommeil cette nuit adoucira ta peine.</l>
+            <l n="1282">Mais il faut qu'à mon père à l'instant je te mène,</l>
+            <l n="1283">D'affreuses visions ses esprits agités,</l>
+            <l n="1284">Il voulait apaiser les tristes Deités,</l>
+            <l n="1285">Mais le Ciel dissipant de si vaines menaces,</l>
+            <l n="1286">Lui fait changer sa crainte en action de grâces.</l>
+            <l n="1287">Il ne reviendra point que l'astre qui nous luit,</l>
+            <l n="1288">En tombant chez Thétis n'ait fait place à la nuit,</l>
+            <l n="1289">Allons donc lui conter la mort de Téléphonte,</l>
+            <l n="1290">Que ta main dans son sang a lavé notre honte.</l>
+            <l n="1291">Assuré désormais d'être de ses amis,</l>
+            <l n="1292">Viens recevoir de lui le salaire promis.</l>
+          </sp>
+          <sp who="tc0526-TYNDARE">
+            <speaker>TYNDARE.</speaker>
+            <l n="1293">Bientôt à tes pareils tu serviras d'exemple,</l>
+            <l n="1294">Oui, oui, je te suivrai jusques dedans le Temple,</l>
+            <l n="1295">Pour t'y sacrifier et ton père avec toi,</l>
+            <l n="1296">Ah belle occasion ! Ô Ciel seconde moi.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Tydée, Thoas, Tyrene.</head>
+          <sp who="tc0526-TYDEE">
+            <speaker>TYDÉE.</speaker>
+            <l n="1297">Tyrene, est-il possible, as-tu vu Téléphonte ?</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="1298">Oui, j'ai vu notre Roi l'héritier de Cresphonte ;</l>
+            <l n="1299">C'est lui même qui vient de paraître à vos yeux,</l>
+            <l n="1300">Avecque Demochare il sortait de ces lieux,</l>
+            <l n="1301">Il le conduit au Temple, il le mène à son père :</l>
+            <l n="1302">Lui-même de sa mort vient chercher le salaire,</l>
+            <l n="1303" part="I">C'est lui qui passe ici pour son propre assassin.</l>
+          </sp>
+          <sp who="tc0526-THOAS">
+            <speaker>THOAS.</speaker>
+            <l n="1304" part="I">Ô Dieux !</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="1304" part="F">Il entreprend un généreux dessein,</l>
+            <l n="1305">Il vient des bords d'Evene aux rives de Pamise,</l>
+            <l n="1306">Afin de rendre aux siens l'honneur et la franchise.</l>
+            <l n="1307">Il faut mes chers amis, il faut le secourir,</l>
+            <l n="1308">Avecque notre Prince il faut vaincre ou mourir,</l>
+            <l n="1309">Le Ciel qui vous enjoint ce que je vous propose,</l>
+            <l n="1310">Ne vous a pas ici fait rencontrer sans cause,</l>
+            <l n="1311">Pour ce dessein pieux il a conduit vos pas,</l>
+            <l n="1312">Et pour l'exécuter demande votre bras.</l>
+          </sp>
+          <sp who="tc0526-TYDEE">
+            <speaker>TYDÉE.</speaker>
+            <l n="1313">Il faut de la vertu soutenir la querelle,</l>
+            <l n="1314">Et suivre Téléphonte où l'honneur nous appelle,</l>
+            <l n="1315">Magnanime assassin je te tiens pour mon Roi,</l>
+            <l n="1316">Et contre les tyrans je t'engage ma foi.</l>
+          </sp>
+          <sp who="tc0526-THOAS">
+            <speaker>THOAS.</speaker>
+            <l n="1317">Suivons les mouvements d'une juste vengeance.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="1318">Trente encor avec nous sont de l'intelligence,</l>
+            <l n="1319">Ils se rendront au Temple et feront leur devoir,</l>
+            <l n="1320">L'on peut en un besoin tout le peuple émouvoir.</l>
+          </sp>
+          <sp who="tc0526-THOAS">
+            <speaker>THOAS.</speaker>
+            <l n="1321">Allons donc pour les joindre, allons brave Tyrene,</l>
+            <l n="1322">Secondons notre Prince, et délivrons Mycènes.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="1323">La nuit nous favorise et tout nous est permis,</l>
+            <l n="1324">La Justice est pour nous, les Dieux sont nos amis,</l>
+            <l n="1325">Le Temple n'est pas loin, achevons l'entreprise,</l>
+            <l n="1326">La prudence qui veut qu'on use de surprise,</l>
+            <l n="1327">Ne permet pas aussi qu'on retarde un moment ;</l>
+          </sp>
+          <sp who="tc0526-THOAS">
+            <speaker>THOAS.</speaker>
+            <l n="1328" part="I">Mais quelqu'un vient ici.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="1328" part="F">Sortons donc promptement.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Mérope, Philoclée.</head>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1329">Il ne faut plus chercher cet assassin, cet traître,</l>
+            <l n="1330">Un traître comme lui l'aura fait disparaître.</l>
+            <l n="1331">Et nous avons couru tout le palais en vain.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1332">Nous n'accomplirons point un si juste dessein,</l>
+            <l n="1333">Ô Destin trop cruel ! Ô Ciel plein d'injustice !</l>
+            <l n="1334">Qui sauve un parricide, et l'arrache au supplice.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1335" part="I">Hélas !</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1335" part="F">Tout nous perd, tout nous nuit,</l>
+            <l n="1336">Le tyran est armé, l'homicide s'enfuit,</l>
+            <l n="1337">Il évite ce fer, la mort, et ma colère.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1338">Avec nos ennemis le Ciel nous est contraire.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1339">Le Ciel veut ma ruine, et mon sort s'accomplit,</l>
+            <l n="1340">Un monstre furieux est entré dans mon lit,</l>
+            <l n="1341">Il m'a ravi l'honneur et dévoré ma race,</l>
+            <l n="1342">Un avare assassin achève ma disgrâce,</l>
+            <l n="1343">Le Tyran, l'assassin, et le Ciel, et le sort,</l>
+            <l n="1344">Pour me combler d'ennuis aujourd'hui sont d'accord,</l>
+            <l n="1345">J'ai souffert tous les maux, et pour mon allégeance</l>
+            <l n="1346">Je ne saurais goûter le bien de la vengeance.</l>
+            <l n="1347">Ô rage ! ô désespoir ! Large abîme ouvre toi,</l>
+            <l n="1348">Fleuves débordez-vous, montagnes couvrez moi,</l>
+            <l n="1349">Que de mes tristes jours la course étant bornée,</l>
+            <l n="1350">Mes fiers persécuteurs suivent ma destinée,</l>
+            <l n="1351">Qu'ils descendent tous vifs chez les noirs habitants,</l>
+            <l n="1352">En vain je perce l'air de mes cris éclatants,</l>
+            <l n="1353">L'on a fermé l'Olympe à ma juste prière.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1354">Nous tenons dans nos mains de quoi nous satisfaire,</l>
+            <l n="1355">Le chemin est ouvert qui conduit à la mort,</l>
+            <l n="1356">Et ceci sans les Dieux peut borner notre sort :</l>
+            <l n="1357">Mais perdons avec nous les artisans du crime,</l>
+            <l n="1358">Suivons la passion, l'esprit qui nous anime,</l>
+            <l n="1359">Et pour mieux nous venger de tant de cruautés,</l>
+            <l n="1360">Que nos seules fureurs soient nos Divinités,</l>
+            <l n="1361">Et que ce même fer et nous perde et nous venge.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1362">Cette haute entreprise est digne de louange,</l>
+            <l n="1363">Courage, exécutons ce dessein furieux :</l>
+            <l n="1364">Prenons, prenons la place et le foudre des Dieux,</l>
+            <l n="1365" part="I">Faisons périr Tyndare.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1365" part="F">Il fuit votre présence,</l>
+            <l n="1366">Et dérobe sa tête aux coups de la vengeance.</l>
+            <l n="1367">Ah Barbare ! Ah cruel ! Viens, viens tigre inhumain,</l>
+            <l n="1368">Viens chercher le salaire, il est dedans ma main.</l>
+            <l n="1369">Je veux t'ouvrir le sein, déchirer tes entrailles,</l>
+            <l n="1370">Et venger Téléphonte avant mes funérailles.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1371">Ah ce nom me remplit et d'amour et d'horreur !</l>
+            <l n="1372">Ce sanguinaire esprit en vain fuit ma fureur,</l>
+            <l n="1373">Qu'il aille se cacher dans les eaux sous la terre,</l>
+            <l n="1374">Qu'il se mette à couvert des éclats du tonnerre,</l>
+            <l n="1375">Et qu'il cherche un aile à son impiété</l>
+            <l n="1376">Où la pâle mort règne avec l'obscurité,</l>
+            <l n="1377">Ma haine le suivra dans ces demeures sombres,</l>
+            <l n="1378">J'irai le tourmenter chez le tyran des ombres,</l>
+            <l n="1379">La rage dans le coeur, en la main les flambeaux,</l>
+            <l n="1380">Mes esprits irrités deviendront ses bourreaux.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1381">Vos fureurs justement vous rendent implacable,</l>
+            <l n="1382">Mais votre aveuglement pardonne au plus coupable.</l>
+            <l n="1383">Vous songez à venger vos illustres parents</l>
+            <l n="1384">Et pensant au meurtrier oubliez les tyrans,</l>
+            <l n="1385">Ce sont ceux justement que ma haine regarde.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1386">Allons donc les punir, allons, qui nous retarde,</l>
+            <l n="1387">Allons les poignarder jusques sur nos autels,</l>
+            <l n="1388">Qu'ils ont rougis du sang du plus grand des mortels.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1389">Dans notre désespoir usons de la prudence,</l>
+            <l n="1390">Pour ôter le soupçon d'une juste vengeance.</l>
+            <l n="1391">Dans ce triste Palais attendons leur retour</l>
+            <l n="1392">Qu'avec eux l'assassin perde à l'instant le jour,</l>
+            <l n="1393">Que dans le sang de trois nos armes soient plongées,</l>
+            <l n="1394">Nous mourrons, il est vrai, mais nous mourons vengées.</l>
+            <note type="L">Préfix : Terme certain, marqué et définitif. [F]</note>
+            <l n="1395">De la fin de nos maux voici le jour préfix,</l>
+            <l n="1396">Je suivrai mon époux, vous suivrez votre fils,</l>
+            <l n="1397">Le sang nous a conjoints, et notre hymen nous lie.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1398" part="I">Mais quelqu'un vient ici.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1398" part="M">C'est...</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1398" part="M">Qui...</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1398" part="F">C'est Céphalie.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Mérope, Céphalie, Philoclée.</head>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1399">Approche, approche, et vois mes desseins imparfaits,</l>
+            <l n="1400">Le sort cruel s'oppose à mes justes souhaits,</l>
+            <l n="1401">Le Ciel semble approuver un si grand parricide,</l>
+            <l n="1402">Des mains de la Justice il sauve l'homicide.</l>
+            <l n="1403">En vain d'un fer vainqueur nous armons notre main,</l>
+            <l n="1404">Nous n'avons point trouvé dans ces lieux l'inhumain.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1405">Je l'y croyais pourtant, mais il était au temple,</l>
+            <l n="1406">Il reçoit de son crime un salaire bien ample,</l>
+            <l n="1407">Et ce monstre en triomphe au Palais est conduit,</l>
+            <l n="1408">Et je l'ai découvert dans l'ombre de la nuit,</l>
+            <l n="1409">Au lieu de se cacher il veut que l'on le voie,</l>
+            <l n="1410">Et le peuple insensé jette des cris de joie,</l>
+            <l n="1411">Et par un bruit confus élève jusqu'aux Cieux</l>
+            <l n="1412">Cet ennemi commun des hommes et des Dieux.</l>
+            <l n="1413">Un nombre de soldats l'assiste et l'environne,</l>
+            <l n="1414">Le Tyran avec lui partage sa couronne.</l>
+            <l n="1415">Cet assassin impie a la suite d'un Roi.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1416">Ce discours me transporte et me remplit d'effroi.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1417" part="I">Mais j'entends quelque bruit.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1417" part="F">Ma fureur est extrême,</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1418">Je crois l'apercevoir, oui, c'est lui, c'est lui-même.</l>
+          </sp>
+        </div>
+        <div type="scene" n="">
+          <head>SCÈNE IV. Téléphonte, Mérope, Philoclée, Céphalie.</head>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE, parle à ceux de sa suite.</speaker>
+            <l n="1419" part="I">Qu'on ne me suive pas.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1419" part="F">Suivons la passion.</l>
+          </sp>
+          <sp who="tc0526-CEPHALIE">
+            <speaker>CEPHALIE.</speaker>
+            <l n="1420" part="I">Il vient seul.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1420" part="F">Servons nous de cette occasion.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1421">Je veux voir si la Reine à qui je dois mon être,</l>
+            <l n="1422">Par quelque instinct secret me pourra reconnaître.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1423">Allons sans retarder massacrer l'inhumain :</l>
+            <l n="1424">Mais d'où vient que ce fer me tremble dans la main ;</l>
+            <l n="1425">D'où vient que je pâlis, que d'horreur je frissonne.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1426">Le courage au besoin ainsi vous abandonne,</l>
+            <l n="1427">J'exécuterai seule un acte si pieux.</l>
+            <l n="1428" part="I">Ah traître tu mourras !</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1428" part="M">Oh Dieux que vois-je !</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1428" part="F">Oh Dieux !</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1429" part="I">N'est-ce pas Philoclée ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1429" part="M">Oui c'est elle.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1429" part="F">Inhumaine</l>
+            <l n="1430">Devenez-vous perfide en retardant sa peine,</l>
+            <l n="1431" part="I">Qu'attendez-vous ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1431" part="M">Hélas !</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1431" part="F">Suis ton intention.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1432">Vous laissez-vous fléchir à la compassion,</l>
+            <l n="1433">Après ce qu'a commis ce Démon détestable ?</l>
+            <l n="1434">C'est une impiété que d'être pitoyable ;</l>
+            <l n="1435" part="I">Laissez, laissez moi faire.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1435" part="F">Ah retenez ce bras !</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1436">Non je me veux venger par un juste trépas,</l>
+            <l n="1437">En vain vous m'empêchez, la fureur me surmonte.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1438">Tremperez-vous vos mains au sang de Téléphonte ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1439" part="I">Téléphonte,</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1439" part="M">C'est lui</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1439" part="F">Dieux que me dites vous !</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1440">Vous voyez votre fils, et je vois mon époux.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1441" part="I">Il n'est pas mort,</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1441" part="M">Non, non.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1441" part="F">Quelle horrible colère</l>
+            <l n="1442">Arme contre ma vie, et ma femme, et ma mère ?</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1443">Nous n'avions pas dessein mon fils de t'outrager,</l>
+            <l n="1444">Au lieu de te punir, nous voulions te venger.</l>
+            <l n="1445">De nos pieuses mains tu vois tomber les armes.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1446">Connais notre innocence, et vois couler nos larmes.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1447">Ne suis-je pas frappé d'un juste étonnement ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1448">Ah surprise agréable ! Ah doux ravissement !</l>
+            <l n="1449">D'un tigre furieux, tu n'es donc pas la proie ?</l>
+            <l n="1450">Il faut que la douleur face place à la joie.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1451">Viens et ne crains plus rien mon fils, embrasse nous</l>
+            <l n="1452">Sans un secret instinct j'allais nous perdre tous,</l>
+            <l n="1453">Nature me retint de faire un parricide :</l>
+            <l n="1454">Mais pourquoi voulais-tu passer pour homicide ?</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1455">Pour mieux exécuter le dessein que j'avais.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1456">En fin malgré le sort mon fils je te revois</l>
+            <l n="1457">Quel bonheur imprévu succède à notre peine ?</l>
+            <l n="1458">Ô femmes ! Ô soldats ! Ô peuple de Mycènes !</l>
+            <l n="1459">Accourez et voyez Téléphonte vivant,</l>
+            <l n="1460">Hélas je me repais d'un bonheur décevant.</l>
+            <l n="1461">Ô mon fils je te perds lorsque je te rencontre,</l>
+            <l n="1462">Je te vois avec crainte aux lieux où règne un Monstre,</l>
+            <l n="1463">Et tu trouves la mort en trouvant tes parents :</l>
+            <l n="1464">Mais fuis pour éviter la fureur des Tyrans.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1465">Fuis mon fidèle époux de cette terre ingrate,</l>
+            <l n="1466">Nous craignons justement la fureur d'Hermocrate.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1467" part="I">N'appréhendez plus rien.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1467" part="F">Tout est à redouter.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1468">Il n'est plus en état de vous persécuter.</l>
+            <l n="1469">Que loin de votre esprit la crainte soit bannie,</l>
+            <l n="1470">Les tyrans sont éteints avec la tyrannie.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1471">Pouvons-nous espérer cette félicité ?</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1472" part="I">Ô Ciel !</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1472" part="F">Ils ont perdu le sceptre et la clarté.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1473">Ah ! D'un acte héroïque exemple illustre et rare :</l>
+            <l n="1474" part="I">Mais fais-nous ce récit.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1474" part="F">Sitôt que Demochare</l>
+            <l n="1475">Eut appris mon trépas, qu'il crut légèrement,</l>
+            <l n="1476">Les Dieux pour le punir troublants son jugement,</l>
+            <l n="1477">De le favoriser la Fortune étant lasse,</l>
+            <l n="1478">Il me conduit au Temple, et fier et plein d'audace,</l>
+            <l n="1479">Jusqu'aux pieds de l'autel j'accompagne ses pas :</l>
+            <l n="1480">Il aborde son père, il lui parle assez bas,</l>
+            <l n="1481">Il lui conte ma mort, et pour l'ôter de peine,</l>
+            <l n="1482">Voici, ce lui dit-il, le vainqueur que j'amène.</l>
+            <l n="1483">Hermocrate à ces mots d'aise tout hors de soi,</l>
+            <l n="1484">Quitte le sacrifice et se tourne vers moi :</l>
+            <l n="1485">Je ne perds point de temps, et pour punir son crime,</l>
+            <l n="1486">Du couteau qui devait égorger la victime</l>
+            <l n="1487">Je frappe le Tyran, et lui perce le sein,</l>
+            <l n="1488">Le voyant à mes pieds, je poursuis mon dessein,</l>
+            <l n="1489">Et les armes au poing j'attaque Demochare :</l>
+            <l n="1490">Lui surpris de ce coup, me nomme ingrat, barbare,</l>
+            <l n="1491">Il demande secours, il appelle les siens,</l>
+            <l n="1492">À moi, dit-il, soldats, à moi Messéniens,</l>
+            <l n="1493">Venez, venez venger votre illustre Monarque,</l>
+            <l n="1494">Qu'un traître a fait tomber dans les bras de la Parque.</l>
+            <l n="1495">C'est moi dis-je, qui suis ton légitime Roi,</l>
+            <l n="1496">Seconde Téléphonte, ô mon peuple suis moi !</l>
+            <l n="1497">À ce nom il se trouble, et chacun me contemple,</l>
+            <l n="1498">Un murmure confus se répand dans le Temple.</l>
+            <l n="1499">Avec moi l'on dirait qu'ils veulent tous mourir,</l>
+            <l n="1500">Pas un d'eux toutes fois ne me vient secourir :</l>
+            <l n="1501">Et ce peuple incertain ne sait ce qui doit faire.</l>
+            <l n="1502">Demochare tandis qui veut venger son père,</l>
+            <l n="1503">Ardent à ma ruine, avide de mon sang,</l>
+            <l n="1504">Excite ses soldats, et marche au premier rang.</l>
+            <l n="1505">Ô Ciel ! dis-je aussitôt, s'il faut que je succombe,</l>
+            <l n="1506">Fais que mon ennemi me suive dans la tombe,</l>
+            <l n="1507">Et qu'il n'ait pas le bien de vivre après ma mort.</l>
+            <l n="1508">Seul j'allais soutenir leur violent effort :</l>
+            <l n="1509">Mais pour me garantir des coups de la tempête,</l>
+            <l n="1510">Voici des gens armés, et Tyrene à la tête,</l>
+            <l n="1511">Il vient à mon secours, perce jusqu'à l'Autel,</l>
+            <l n="1512">Lui montrant le tyran, frappé d'un coup mortel,</l>
+            <l n="1513">Ma voix l'incite encor d'en éteindre la race,</l>
+            <l n="1514">Du sang des ennemis il fait rougir la place,</l>
+            <l n="1515">Et dispensant mon bras d'un combat inégal,</l>
+            <l n="1516">Nous laisse seul à seul rival contre rival.</l>
+            <l n="1517">Ici chacun de nous veut montrer sa vaillance,</l>
+            <l n="1518">Et chacun de son père entreprend la vengeance.</l>
+            <l n="1519">Tous deux dans ce duel également armez,</l>
+            <l n="1520">Tous deux également de fureur animez,</l>
+            <l n="1521">Cherchons dans le péril, ou la mort, ou la gloire.</l>
+            <l n="1522">Enfin mon ennemi me cède la victoire,</l>
+            <l n="1523">Il succombe, et la mort erre dedans ses yeux,</l>
+            <l n="1524">Lors en lui reprochant ses crimes odieux,</l>
+            <l n="1525">Suis, lui dis-je, Hermocrate, allez Tyrans infâmes,</l>
+            <l n="1526">Chercher dans les enfers des sceptres et des femmes,</l>
+            <l n="1527">Des royaumes nouveaux, de nouvelles amours,</l>
+            <l n="1528">Et finissant sa vie avecque ce discours,</l>
+            <l n="1529">Parmi des flots de sang son âme criminelle</l>
+            <l n="1530">Du Temple est descendue en la nuit éternelle,</l>
+            <l n="1531">En ces lieux de Cresphonte ils ont les jours finis,</l>
+            <l n="1532">Et dans ces mêmes lieux ils ont été punis.</l>
+          </sp>
+          <sp who="tc0526-MEROPE">
+            <speaker>MÉROPE.</speaker>
+            <l n="1533">Un renom immortel suivra cette victoire,</l>
+            <l n="1534" part="I">Que mon fils a d'honneur.</l>
+          </sp>
+          <sp who="tc0526-PHILOCLEE">
+            <speaker>PHILOCLÉE.</speaker>
+            <l n="1534" part="F">Et mon époux de gloire</l>
+            <l n="1535">Nous ne jouissons plus d'un bonheur décevant.</l>
+            <l n="1536">Qu'est devenu Tyrene ? Est-il encor vivant</l>
+            <l n="1537" part="I">Ou mort dans le combat ?</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE DERNIÈRE. Téléphonte, Tyrene, Mérope, Philoclée.</head>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1537" part="F">N'en soyez plus en peine,</l>
+            <l n="1538">Je l'aperçois qui vient, approchez-vous Tyrene,</l>
+            <l n="1539">Et venez prendre part à ma félicité.</l>
+            <l n="1540">Je ne puis trop louer votre fidélité,</l>
+            <l n="1541">Je veux que vos vertus reçoivent leur salaire.</l>
+          </sp>
+          <sp who="tc0526-TYRENE">
+            <speaker>TYRENE.</speaker>
+            <l n="1542">Je n'ai fait aujourd'hui que ce que j'ai dû faire.</l>
+            <l n="1543">Les sujets en naissant doivent tout à leurs Rois.</l>
+          </sp>
+          <sp who="tc0526-TELEPHONTE">
+            <speaker>TÉLÉPHONTE.</speaker>
+            <l n="1544">Les Dieux ont exaucé tous nos voeux à la fois,</l>
+            <l n="1545">J'ai vengé par le sang mes frères et mon père,</l>
+            <l n="1546">J'ai délivré ma femme et mon peuple et ma mère,</l>
+            <l n="1547">Aux rives de Pamise on verra désormais</l>
+            <l n="1548">Fleurir la liberté, la justice, et la paix.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
