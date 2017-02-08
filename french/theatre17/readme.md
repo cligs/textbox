@@ -32,7 +32,7 @@ This collection is a subset of the _Théâtre classique_ collection published by
 
 All texts are in the public domain. The original TEI P4 markup and the metadata have been added by Paul Fièvre and his collaborators. The transformation to TEI P5 has been made by Ulrike Henny. The zwischenformat data has been extracted by Christof Schöch, inspired by work of the DLINA group. 
 
-Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion:_<em>Collection de pièces the théâtre français du dix-septième siècle</em>, edited by Christof Schöch. Würzburg: CLiGS, 2017. URL: <https://github.com/cligs/textbox/master/french/theatre17/>, DOI <tbc>. 
+Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: <em>Collection de pièces the théâtre français du dix-septième siècle</em>, edited by Christof Schöch, based on work by Paul Fièvre. Würzburg: CLiGS, 2017. URL: <https://github.com/cligs/textbox/master/french/theatre17/>. 
 
 
 
