@@ -23,10 +23,11 @@ This collection is a subset of the _Théâtre classique_ collection published by
 
 ## Formats 
 
-* All plays are available as XML-TEI P5 (folder "tei")
-* Plays are also available as plain text versions, containing speaker text only (folder "txt")
-* Finally, the plays are available in the "zwischenformat", an abstraction of the full text containing data relevant to network analysis of plays (folder "zf")
 * Note that all plays have filenames following the pattern "author_short-title_id". 
+* All plays are available as XML-TEI P5, which is the master format (folder "tei")
+* Plays are also available as plain text versions, containing speaker text only (folder "txt")
+* Plays are also available in a tagged version (part of speech and lemmata) based on the the PRESTO model for TreeTagger (folder "trt")
+* Finally, the plays are available in the "zwischenformat", an abstraction of the full text containing data relevant to network analysis of plays (folder "zf")
 
 ## License and Citation
 
