@@ -1,0 +1,2543 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Osman</title>
+        <title type="sub">Tragédie</title>
+        <title type="short">Osman</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">TRISTAN L'HERMITE, François</name>
+          <name type="short">TristanLHermite</name>
+          <idno type="viaf"/>
+        </author>
+        <principal/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0908</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2016</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1656</date>, <idno/>, <ref target="#"/>. À PARIS, Chez GUILLAUME DE LUYNES, Libraire juré, au Palais, dans la salle des Merciers, à la Justice..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1646</date>, <idno/>, <ref target="#"/>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1651-1660</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>LES PERSONNAGES</head>
+        <castItem>
+          <role xml:id="tc0908-LASULTANE">LA SULTANE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-FATIME">FATIME</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-LEONTINE">LÉONTINE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-OSMAN">OSMAN</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-LAFILLEduMUFTI">LA FILLE du MUFTI</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-SELIM">SELIM</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-MAMUD">MAMUD</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-ORCAN">ORCAN</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-LODIA">LODIA</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-UNCAPIGI">UN CAPIGI</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0908-DesJANISSAIRES">Des JANISSAIRES</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La Scène est à Constantinople.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE.</head>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE Soeur, dormante.</speaker>
+            <l n="1">Demeure, Parricide, arrête, sacrilège ! </l>
+            <l n="2">Quoi ! Le sang Ottoman n'a point de privilège : </l>
+            <l n="3">On l'épanche à ma vue, on perd, devant mes yeux. </l>
+            <l n="4">Le plus grand des mortels et le plus glorieux ! </l>
+            <l n="5">Ah c'est fait, il est mort, j'en suis trop assurée, </l>
+            <l n="6">De cet illustre corps l'âme s'est séparée ! </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Fatime, La Sultane Soeur, Léontine.</head>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="7">Quel bruit s'est élevé qui s'augmente si fort ? </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="8" part="I">Achevez inhumains ! </l>
+          </sp>
+          <sp who="tc0908-LEONTINE">
+            <speaker>LÉONTINE.</speaker>
+            <l n="8" part="F">C'est Madame qui dort.</l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="9">C'est un songe fâcheux dont elle est travaillée.</l>
+          </sp>
+          <sp who="tc0908-LEONTINE">
+            <speaker>LÉONTINE.</speaker>
+            <l n="10">Il faut la réveiller ; mais elle est réveillée. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="11">Ô sommeil outrageux qui me trouble si fort, </l>
+            <l n="12">On peut bien t'appeler le frère de la mort ! </l>
+            <l n="13">Puis qu'assis sur nos yeux avec tes noires ailes </l>
+            <l n="14">Tu donnes des frayeurs et des peines mortelles. </l>
+            <l n="15" part="I">Léontine !</l>
+          </sp>
+          <sp who="tc0908-LEONTINE">
+            <speaker>LÉONTINE.</speaker>
+            <l n="15" part="M">Madame !</l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="15" part="F">Ah ! Viens me consoler </l>
+            <l n="16">D'une vaine douleur dont je ne puis parler, </l>
+            <l n="17">D'un songe furieux qui m'a donné des peines, </l>
+            <l n="18">Par qui mon sang encore est figé dans mes veines ; </l>
+            <l n="19">Et qui sera suivi de si mauvais effets </l>
+            <l n="20">Que possible il faudra succomber sous le faix. </l>
+          </sp>
+          <sp who="tc0908-LEONTINE">
+            <speaker>LÉONTINE.</speaker>
+            <l n="21">C'est un songe, Madame, un déceveur, un traître, </l>
+            <l n="22">Dont on est garanti dès qu'on l'a pu connaître; </l>
+            <l n="23">Toujours à bon augure on prend les plus mauvais, </l>
+            <l n="24">L'image de la Guerre y figure la Paix ; </l>
+            <l n="25">Ses matières de pleurs montrent que l'on doit rire, </l>
+            <l n="26">Et ce qu'il a de doux est ce qu'il a de pire. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="27">Je croirais comme toi que toute cette peur </l>
+            <l n="28">Naîtrait d'une chimère et d'un songe trompeur, </l>
+            <l n="29">N'était que nos apprêts et la rumeur publique </l>
+            <l n="30">Me le font estimer un songe prophétique; </l>
+            <l n="31">Mais, Fatime ! Sans toi je ne craindrais plus rien. </l>
+            <l n="32">La fille du Mufti s'oppose à notre bien ; </l>
+            <l n="33">En voyant son portrait, Osman la crut si belle, </l>
+            <l n="34">Que son retardement n'est que pour l'amour d'elle. </l>
+            <l n="35">Mais comment parut-il ce portrait si fatal, </l>
+            <l n="36">De qui l'enchantement nous cause tant de mal ? </l>
+            <l n="37">Fut-ce par accident ou fut-ce par adresse. </l>
+            <note type="L">Hautesse : Titre d'honneur qu'on donne en ces quartier aux Empereurs d'Orient. [F]</note>
+            <l n="38">Que tu le laissas choir aux pieds de sa Hautesse ?</l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="39">Ce fut par un malheur que je ne comprends pas : </l>
+            <l n="40">Avec ce bracelet il tomba de mon bras. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="41">Un soupçon là-dessus me tombe en la pensée, </l>
+            <l n="42">Que Fatime en ce fait peut être intéressée, </l>
+            <l n="43">Et que d'un trait subtil et non pas imprudent, </l>
+            <l n="44">Elle fit par dessein naître cet accident. </l>
+            <l n="45" part="I">Qu'en est-il ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="45" part="F">Moi, Madame, ah que l'Enfer m'abîme! </l>
+            <l n="46" part="I">Si jamais je pensai ! </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="46" part="F">Comment, c'est un beau crime, </l>
+            <l n="47">Ne t'en excuse point, ne fais point de serment : </l>
+            <l n="48">La Fille du Mufti mérite infiniment ; </l>
+            <l n="49">Suivant ce stratagème Osman est à la veille </l>
+            <l n="50">D'une félicité qui n'a point de pareille ; </l>
+            <l n="51">Et soit par une adresse, ou soit par un hasard, </l>
+            <l n="52">Tu dois en ce bonheur entrer de quelque part : </l>
+            <l n="53">Il te siérait trop mal de porter une chaîne </l>
+            <l n="54">Et d'avoir pour amie une Sultane Reine. </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="55">Hé ! Madame, oubliez mon indiscrétion </l>
+            <l n="56">Et ne me soupçonnez d'aucune ambition : </l>
+            <l n="57">Car je refuserais l'honneur d'une couronne </l>
+            <l n="58">Pour achever mes jours près de votre personne ! </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="59">Les fuseaux de ton sort ne roulent pas ainsi : </l>
+            <l n="60">La Sultane future en prendra le souci. </l>
+            <l n="61">Tu ne saurais manquer d'être dans son estime ; </l>
+            <l n="62">Il faudra pour le moins un Bassa pour Fatime. </l>
+            <l n="63">Si le malheur aussi vient à nous accabler, </l>
+            <l n="64">Que ces Soldats mutins que l'on voit s'assembler; </l>
+            <l n="65">Avecque leur désordre augmentent leur licence </l>
+            <l n="66">Et privent le Sultan de sceptre et de puissance, </l>
+            <l n="67">L'innocente Fatime à qui la chaîne plaît, </l>
+            <l n="68">Demeurera toujours esclave comme elle est. </l>
+            <stage>Se tournant vers Léontine.</stage>
+            <l n="69">Toi qui de Mustapha prends un soin charitable </l>
+            <l n="70">Et dont il a toujours la visite agréable, </l>
+            <l n="71">Va voir cet homme saint, cet illustre parent, </l>
+            <l n="72">À qui de l'avenir le cours est apparent, </l>
+            <l n="73">Consulte son esprit sur la matière sombre, </l>
+            <l n="74">Qui me donne des soins et des peines sans nombre ; </l>
+            <l n="75">Afin que son conseil dissipe ma terreur. </l>
+            <l n="76">Dis lui que j'ai songé : mais voici l'Empereur. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Osman, La Sultane Soeur, un Huissier.</head>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="77">Enfin, c'est fait, ma soeur ! la chose est préparée </l>
+            <l n="78">Pour succéder bientôt comme elle est désirée. </l>
+            <l n="79">En cette occasion rien ne nous peut manquer, </l>
+            <l n="80">Dans quatre grands vaisseaux j'ai tout fait embarquer ; </l>
+            <l n="81">Et le Perse animé, le Russe et le Cosaque, </l>
+            <l n="82">Qui vont forcer Byzance à la première attaque, </l>
+            <l n="83">Et donner tout en proie à leurs cruels efforts, </l>
+            <l n="84">N'auront pas le loisir de piller nos trésors ; </l>
+            <l n="85">Je n'aurai pas l'ennui de voir réduire en cendre </l>
+            <l n="86">Cette grande Cité que je ne puis défendre ; </l>
+            <l n="87">Ne trouvant plus ici que ce Camp mutiné, </l>
+            <l n="88">Que ces lâches soldats qui m'ont abandonné ; </l>
+            <l n="89">Qui ne gardent plus d'ordre et font assez comprendre. </l>
+            <l n="90">Que de leur multitude on ne doit rien attendre : </l>
+            <l n="91">Le dessein de partir ne se peut différer. </l>
+            <l n="92">Ne pouvant nous défendre, il faut nous retirer. </l>
+            <l n="93">Nous ne saurions attendre avec ces tristes restes </l>
+            <l n="94">Qu'une perte apparente et des succès funestes ; </l>
+            <l n="95">Il faut céder au temps, à l'orage obscurci. </l>
+            <l n="96">Qui ne nous permet plus de demeurer ici. </l>
+            <l n="97">La faiblesse est trop grande en ce bord où nous sommes. </l>
+            <l n="98">Nous reviendrons un jour quand nous aurons des hommes, </l>
+            <l n="99">Et même il est prédit dans nos sacrés écrits </l>
+            <l n="100">Qu'enfin nous reprendrons ce qu'on nous aura pris. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="101">Seigneur, qui vous fait craindre une telle aventure ? </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="102">Des soldats dont le luxe amollit la nature, </l>
+            <l n="103">Des courages faillis qui font de tous côtés </l>
+            <l n="104">Mourir la discipline entre les voluptés. </l>
+            <l n="105">Je n'ai plus de soldats que ce corps lâche et traître </l>
+            <l n="106">Amoureux du repos, ennemi de son maître, </l>
+            <l n="107">Sorti de race infâme et de sang de chrétien, </l>
+            <l n="108">Qu'autrefois mes aïeux prirent pour leur soutien ; </l>
+            <l n="109">Mais qui reste inutile au sort qui nous accable. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="110">Ces soldats sont pourtant un corps considérable. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="111">Quel fut devant Ouchin ce courage bouillant, </l>
+            <l n="112">Qui les a fait passer pour un corps si vaillant ? </l>
+            <l n="113">Le Niester tint pour faux tout ce qu'on en raconte, </l>
+            <l n="114">Il rougit de leur sang bien moins que de leur honte ; </l>
+            <l n="115">Les lâches balançaient accompagnant mes pas. </l>
+            <l n="116">Ils venaient au combat et ne combattaient pas, </l>
+            <l n="117">Aux lieux où leur valeur n'était si nécessaire. </l>
+            <l n="118">On trouvait un eunuque au lieu d'un janissaire : </l>
+            <l n="119">Leur lâcheté stupide en ce fameux abord </l>
+            <l n="120">Ne donnait pas un coup en recevant la mort. </l>
+            <l n="121">On les voyait tomber ces cours pusillanimes, </l>
+            <l n="122">Non comme des Soldats, mais comme des victimes ; </l>
+            <l n="123">Comme des animaux abrutis comme ils sont, </l>
+            <l n="124">Sans avancer le bras et sans lever le front. </l>
+            <l n="125">Voyant ce grand désordre et ces terreurs extrêmes , </l>
+            <l n="126">J'en fis autant périr que les ennemis mêmes; </l>
+            <l n="127">Je coupai mille bras dans ce juste courroux, </l>
+            <l n="128">Pour les traîner par force à la presse des coups : </l>
+            <l n="129">Le fils de Sigismond ravi de leur défaite, </l>
+            <l n="130">En les faisant plier, se moqua du prophète, </l>
+            <l n="131">Passa dessus leurs corps, donna jusqu'à mon parc, </l>
+            <l n="132">Perça mes pavillons des flèches de son arc, </l>
+            <l n="133">Et se fut acharné longtemps à la tuerie. </l>
+            <l n="134">Si je n'eusse en personne arrêté sa furie; </l>
+            <l n="135">Si je n'eusse exposé le sang des Ottomans, </l>
+            <l n="136">Pour attiédir l'ardeur de ces grands mouvements. </l>
+            <l n="137">Quoi me commettre encor à des âmes si basses, </l>
+            <l n="138">Qui ne peuvent ouïr prières ni menaces; </l>
+            <l n="139">Quand un faible ennemi se met à les chasser, </l>
+            <l n="140">Et ne reprennent cour que pour me menacer ? </l>
+            <l n="141">Je veux, pour mon repos comme pour leur supplice, </l>
+            <l n="142">En un autre climat faire une autre milice. </l>
+            <l n="143">L'Egypte enfante assez de soldats florissants </l>
+            <l n="144">Qui sont fort courageux et fort obéissants, </l>
+            <l n="145">Et qui, sans m'étourdir d'une plainte importune, </l>
+            <l n="146">Trouveront de la joie à suivre ma fortune. </l>
+            <l n="147">Ils sauront comme moi combattre à coups de main, </l>
+            <l n="148">Ils supporteront mieux et le froid et la faim. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="149">En prenant le conseil de faire une retraite, </l>
+            <l n="150">Il eut fallu tenir la chose plus secrète ; </l>
+            <l n="151">Il eut été besoin que vous fussiez parti </l>
+            <l n="152">Devant que dans la ville on en fut averti. </l>
+            <l n="153">Le peuple en est ému, le soldat en murmure, </l>
+            <l n="154">Et tant d'avis reçus sont de mauvais augure. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <note type="L">Penser : nom masculin au XVIIème pour « pensée ».</note>
+            <l n="155">Gardons bien de tomber dans des pensers si bas : </l>
+            <l n="156">Ils peuvent murmurer ; mais je ne les crains pas, </l>
+            <l n="157">Et quelque bruit mutin qui partout retentisse, </l>
+            <l n="158">Il faut que je m'embarque et que l'on m'obéisse. </l>
+            <l n="159">Ne porterais-je enfin le titre d'Empereur, </l>
+            <l n="160">Que pour être conduit par la commune erreur? </l>
+            <l n="161">Quoi l'on me chargerait d'invisibles entraves, </l>
+            <l n="162">Pour m'ajouter en suite au nombre des esclaves ? </l>
+            <l n="163">Quoi l'on me contraindrait de garder la Cité ? </l>
+            <l n="164">Je puis passer ailleurs en toute liberté : </l>
+            <l n="165">D'un pouvoir absolu sans qu'on ait rien à dire, </l>
+            <l n="166">Je puis mettre partout le siège de l'Empire. </l>
+            <l n="167">Aussi ces bruits confus ne m'empêcheront pas </l>
+            <l n="168">De porter dans l'Asie, et mon trône, et mes pas, </l>
+            <l n="169">D'y faire une Milice et plus belle et plus forte, </l>
+            <l n="170">Que celle qui sans fruit murmure à notre porte, </l>
+            <l n="171">Qui portera la guerre aux lieux qu'il me plaira, </l>
+            <l n="172">Et qui fera périr quiconque en parlera. </l>
+            <l n="173">Que si nos matelots ne mettent point au large, </l>
+            <l n="174">C'est que notre vaisseau n'a point encor sa charge : </l>
+            <l n="175">J'y veux faire embarquer le plus beau des trésors, </l>
+            <l n="176">Que jamais la Nature ait produit sur ces bords, </l>
+            <stage>En se tournant vers Fatime.</stage>
+            <l n="177">Cette jeune beauté de charmes si pourvue, </l>
+            <l n="178">Qu'on m'a représentée et que je n'ai point vue. </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="179">Seigneur! elle est bien faite, elle a beaucoup d'appas, </l>
+            <l n="180">Qu'en un objet vulgaire on ne rencontre pas; </l>
+            <l n="181">Mais à n'en point mentir, j'estime davantage </l>
+            <l n="182">Les traits de son esprit que ceux de son visage. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="183">Mais elle a les yeux noirs et les cheveux aussi ? </l>
+            <l n="184" part="I">Sa gorge est belle encor ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="184" part="F">Seigneur elle est ainsi. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="185" part="I">Sa taille ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="185" part="M">Avantageuse. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="185" part="M">Et son esprit ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="185" part="F">Céleste. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="186" part="I">Sa parole ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="186" part="M">Charmante. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="186" part="M">Et son humeur ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="186" part="F">Modeste.</l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="187" part="I">Agréable ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="187" part="F">Mais fière et pleine d'un orgueil </l>
+            <l n="188">À mettre d'un amant l'espérance au cercueil. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="189">Elle dédaignera l'amour que j'ai pour elle ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="190">Seigneur, je ne crois pas qu'elle soit si cruelle. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="191">Fatime est en crédit, Fatime est en honneur, </l>
+            <l n="192">Voyez comme elle traite avecque son Seigneur !</l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="193">Quoi son aimable esprit répond à son visage ? </l>
+            <l n="194" part="I">A-t-elle tant d'appas ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="194" part="F">Elle en a davantage; </l>
+            <l n="195">Mais quoi, je suis suspecte avec quelque raison, </l>
+            <stage>La Sultane lui fait un signe comme pour lui importer silence.</stage>
+            <l n="196">Ayant été longtemps nourrie en sa Maison, </l>
+            <l n="197">Possible l'amitié m'a fasciné la vue, </l>
+            <l n="198">Et sa jeune beauté d'appas est moins pourvue. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="199">Elle est intéressée à la louer si fort. </l>
+            <l n="200">Au hasard du naufrage elle tend vers le port ; </l>
+            <l n="201">Mais votre amour, Seigneur, se trouve sans exemple ! </l>
+            <l n="202">Vous vous en êtes pris à la voir dans le Temple. </l>
+            <l n="203">C'était ne la point voir, on n'a jamais parlé </l>
+            <l n="204">Que l'on fut ébloui par un soleil voilé. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="205">Mais, ma soeur, j'en ai vu la taille et la peinture. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="206">Mais, Seigneur, ce portrait peut être vue imposture. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="207">Quelqu'un aura-t-il pris plaisir à m'abuser ? </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="208">On aura pris plaisir à la favoriser. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="209">On ne peut me tromper sans une audace extrême. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="210">Le peintre aura voulu la tromper elle-même. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="211">C'est soupçonner un mal sans aucun fondement. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="212">Mais c'est aussi, Seigneur, aimer légèrement. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="213">Il n'importe comment ; je me veux satisfaire. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="214">Seigneur ! Un prompt départ vous serait nécessaire, </l>
+            <l n="215">Et je redoute fort que cet objet charmant </l>
+            <l n="216">Apporte un grand obstacle à votre embarquement. </l>
+            <l n="217">Son père à vos désirs oppose des scrupules. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="218">On combat de ma part ses raisons ridicules ; </l>
+            <l n="219">Par mon commandement le vizir est parti, </l>
+            <l n="220">Pour dire promptement mon désir au Mufti. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="221">Vous savez son humeur qui n'est guère traitable. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="222">Il sait que ma colère est assez redoutable. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="223">Si j'ose déclarer le danger que j'y vois, </l>
+            <l n="224">J'ai peur qu'à vos désirs il oppose la loi, </l>
+            <l n="225">Et que de cet effort à l'instant ne résulte </l>
+            <l n="226">Tous les mauvais effets qui naissent d'un tumulte. </l>
+            <l n="227">Déjà le Janissaire ému par la Cité, </l>
+            <l n="228">Est contre le sérail à demi révolté. </l>
+            <l n="229">Il ne faut qu'un prétexte à ces âmes cruelles, </l>
+            <l n="230">Qui brûlent de désir pour les choses nouvelles : </l>
+            <l n="231">Vous leur en donnez deux en cette occasion,</l>
+            <l n="232">En choquant la police et la religion. </l>
+            <l n="233">De moi, je tiens déjà pour présages sinistres,</l>
+            <l n="234">L'audace qui les porte à blâmer vos ministres ;</l>
+            <l n="235">Contre vos serviteurs exprimer leur courroux, </l>
+            <l n="236">C'est indirectement se vouloir prendre à vous ; </l>
+            <l n="237">Il est même apparent que ces troupes rebelles </l>
+            <l n="238">De vos desseins secrets ont appris des nouvelles. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <note type="L">Aga : Terme d'histoire et de relations. Ce mot signifie dans la langue des Mogols, et dans celle des Khovarezmien, un homme puissant, un seigneur et un commandant. Les turcs se servent de ce mot pour signifier absolument un commandant. [F]</note>
+            <l n="239">Qui leur aurait appris ? L'Aga qui n'en sait rien ? </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="240">Des traîtres, des méchants, qui sont les gens de bien. </l>
+            <l n="241">Dieu fasse s'il lui plaît que ma peur soit trompée. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="242">Hormis le Musulman qui porte mon épée, </l>
+            <l n="243">Et toujours pour me plaire a cent propos flatteurs, </l>
+            <l n="244">Je ne puis soupçonner nul de mes serviteurs.</l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="245">Le Selictar Aga qui fait le politique </l>
+            <l n="246">Et s'entretient toujours pour la cause publique ? </l>
+            <l n="247">Ah ! Mon esprit le craint, et serait ébahi </l>
+            <l n="248">Que cet homme trompeur ne vous eut point trahi ; </l>
+            <l n="249">L'Aspic qui s'entortille à l'heure qu'on l'enchante, </l>
+            <l n="250">A bien moins de replis que cette âme méchante ; </l>
+            <l n="251">Dans ses déguisements je le connais, Seigneur ! </l>
+            <l n="252">Je vois distinctement dans le fonds de son cour. </l>
+            <l n="253">En sa noirceur cachée il pense à quelque ouvrage, </l>
+            <l n="254">Que n'expriment jamais sa voix, ni son visage, </l>
+            <l n="255">Il vous trahit sans doute et va par ce forfait </l>
+            <l n="256">Éclaircir les horreurs d'un songe que j'ai fait.</l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="257">Hé ! De grâce, ma soeur, ne parlons point de songes, </l>
+            <l n="258">On ne peut rien connaître en leurs confus mensonges, </l>
+            <l n="259">Et les faire expliquer par le plus entendu. </l>
+            <l n="260">N'est rien qu'une folie et que du temps perdu ; </l>
+            <l n="261">Je fis, dès l'autre Lune, un songe épouvantable </l>
+            <l n="262">Qui n'a point eu depuis de suite remarquable. </l>
+            <l n="263">Selon qu'on expliquait le chameau débridé, </l>
+            <l n="264">Je devais de l'Empire être dépossédé ; </l>
+            <l n="265">Mais tous ces pronostics sont des chimères vaines, </l>
+            <l n="266">Ce farouche animal est encor sous les rênes, </l>
+            <l n="267">Il aura beau gémir et beau se tourmenter, </l>
+            <l n="268">Je sais parfaitement comme il faut le dompter. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="269">Seigneur, le coup encor peut suivre la menace, </l>
+            <l n="270" part="I">Le temps n'est point passé. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="270" part="F">Non ; mais il faut qu'il passe. </l>
+            <l n="271">Pour tromper le malheur il faut nous en aller, </l>
+            <l n="272">Partons dès cette nuit ; mais qui nous veut parler ? </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="273">Un Eunuque, Seigneur, a quelque charge expresse </l>
+            <l n="274">D'apporter promptement un mot à ta Hautesse. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="275">C'est de chez le Mufti que ce messager vient, </l>
+            <l n="276">Et c'est à mon vizir que l'eunuque appartient. </l>
+            <l n="277">Il faut que le mufti dans son indépendance </l>
+            <l n="278">Fasse à mes passions accorder sa prudence, </l>
+            <l n="279">S'il me fait perdre encor du temps à le prier ; </l>
+            <l n="280">Mais sachons ce que c'est, donne-moi ce papier. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <stage>LETTRE DU GRAND VIZIR.</stage>
+            <l n="281">Seigneur, par cet Exprès, j'avertis ta Hautesse, </l>
+            <l n="282">Que le Mufti dispute avec ton grand vizir, </l>
+            <l n="283">Et fait lutter les lois et sa feinte sagesse </l>
+            <l n="284">Contre sa propre gloire et son propre désir. </l>
+            <l n="285">Si j'ose mettre ici l'espoir dont je me flatte. </l>
+            <l n="286">De l'offre avantageuse il est fort combattu ; </l>
+            <l n="287">Mais avant que céder il veut qu'on le combatte, </l>
+            <l n="288">Et que sa résistance exprime sa vertu. </l>
+            <l n="289">Tandis un bruit confus s'épand parmi la ville ; </l>
+            <l n="290">Ce qui pour ton respect m'afflige au dernier point. </l>
+            <l n="291">Encor pour conjurer cette guerre civile, </l>
+            <l n="292">Je fais chercher l'Aga et ne le trouve point. </l>
+            <l n="293">Dans l'aveugle transport d'une brutale rage, </l>
+            <note type="L">Janissaire : Garde du grand seigneur, ou soldat de l'infanterie turquesque. [F]</note>
+            <l n="294">Je vois de tous cotez le janissaire armé, </l>
+            <l n="295">Seigneur, fais donner ordre à ce naissant orage, </l>
+            <l n="296">Je voudrais être mort et qu'il fut bien calmé. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="297">Seigneur, votre vizir, si j'entends bien sa lettre,</l>
+            <l n="298">Du côté de l'amour vous semble tout promettre ; </l>
+            <l n="299">Mais il y marque aussi que les mauvais destins </l>
+            <l n="300">Semblent vous menacer du côté des mutins. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="301">C'est se troubler l'esprit d'une crainte inutile, </l>
+            <l n="302">Nous mettrons bientôt l'ordre et la paix dans la ville : </l>
+            <l n="303">Et nous viendrons à bout d'un plus puissant parti, </l>
+            <l n="304">Ayant avecque nous la fille du Mufti. </l>
+            <stage>Parlant à l'eunuque.</stage>
+            <l n="305">Dis-lui qu'il m'est aisé de calmer la tempête, </l>
+            <l n="306">Qui bruit près du sérail et gronde sur sa tête, </l>
+            <l n="307">Et que le seul péril dont il est menacé,</l>
+            <l n="308">Est à n'achever pas ce qu'il a commencé. </l>
+            <l n="309">Il n'a qu'à satisfaire à mon ardente envie, </l>
+            <l n="310">Pour assurer par là mon bonheur et sa vie ;</l>
+            <l n="311">Qu'il presse le Mufti, je te le dis encor. </l>
+            <stage>Parlant à l'huissier.</stage>
+            <l n="312">Qu'on lui donne une veste et qui soit de drap d'or. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. La Sultane soeur, Fatime, Léontine.</head>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="313">Songe plein de terreur, épouvantable Histoire !</l>
+            <l n="314">Dont le funeste objet repasse en ma mémoire ; </l>
+            <l n="315">M'offriras-tu toujours des matières de deuil, </l>
+            <l n="316">Et dois-tu m'obséder jusques dans le cercueil ? </l>
+            <l n="317">Faut-il absolument que mon âme craintive </l>
+            <l n="318">Souffre un cruel effet paravant qu'il arrive ; </l>
+            <l n="319">Comme si ce malheur par le ciel réservé </l>
+            <l n="320">N'affligeait pas assez quand il est arrivé ? </l>
+            <l n="321">Ici dans les replis des nuages d'un songe, </l>
+            <l n="322">le tiens pour vérité ce qui n'est qu'un mensonge : </l>
+            <l n="323">Car c'est un accident dont le ciel m'avertit, </l>
+            <l n="324">Un avis d'une part qui jamais ne mentit, </l>
+            <l n="325">Un rais mystérieux d'une lumière sainte,</l>
+            <l n="326">Qui tient enveloppé le vrai parmi la feinte ; </l>
+            <l n="327">Mais le ciel toutefois peut, durant le sommeil, </l>
+            <l n="328">Étonner notre esprit, pour nous donner conseil ; </l>
+            <l n="329">La résolution de notre destinée </l>
+            <l n="330">Toujours dans ses avis n'est pas déterminée ; </l>
+            <l n="331">Les Foudres murmurant ne tombent pas toujours, </l>
+            <l n="332">Un mouvement du cour en détourne le cours ; </l>
+            <l n="333">Ô Fortune inconstante et de qui les caprices </l>
+            <l n="334">Élèvent et font choir les plus grands édifices ! </l>
+            <l n="335">Et qui prends sans raison plaisir à détrôner, </l>
+            <l n="336">Ceux à qui justement tu devrais tout donner, </l>
+            <l n="337">J'ai peur qu'aveuglément tu ne choques mon frère, </l>
+            <l n="338">À ses nobles desseins tu fus toujours contraire. </l>
+            <l n="339">Le feras-tu périr et t'accableras-tu, </l>
+            <l n="340">À cause de l'amour qu'il porte à la vertu ? </l>
+            <l n="341">Tempère ton dépit, suspend ta jalousie, </l>
+            <l n="342">Et permets pour le moins qu'il passe dans l'Asie. </l>
+            <l n="343">Astres qui menacés les plus beaux de ses jours, </l>
+            <l n="344">Pour changer ses destins, prenez un autre cours, </l>
+            <l n="345">Et n'exterminez pas par une injuste guerre, </l>
+            <l n="346">Celui qu'on peut nommer un astre de la Terre ! </l>
+            <l n="347">Et vous saints messagers, sacrés nonces des Cieux, </l>
+            <l n="348">Éclairez son esprit et dessillez ses yeux : </l>
+            <l n="349">Donnez-lui des conseils, faites qu'il les approuve, </l>
+            <l n="350">Et l'ôtez du danger où sa teste se trouve. </l>
+            <l n="351">Il suit imprudemment un conseil qui le perd, </l>
+            <l n="352">Et d'un oeil confiant il voit l'abîme ouvert : </l>
+            <l n="353">Son cour se réjouit au plus fort de l'orage, </l>
+            <l n="354">Au point de son trépas il fait un mariage. </l>
+            <l n="355">On a beau le presser, on a beau l'avertir, </l>
+            <l n="356">Il veut faire une noce au temps qu'il doit partir : </l>
+            <l n="357">Il croit être assuré quand je vois qu'il succombe ; </l>
+            <l n="358">Il fait dresser son lit, lorsqu'on ouvre sa tombe. </l>
+            <l n="359">Ô que mon âme souffre à prévoir ses malheurs. </l>
+            <l n="360">Et que son mauvais sort me coûtera de pleurs ! </l>
+            <l n="361" part="I">Mais le voici. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Osman, La Sultane Soeur, Fatime, Léontine.</head>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="361" part="F">Ma Soeur répand toujours des larmes, </l>
+            <l n="362">Son âme incessamment prend de fausses alarmes, </l>
+            <l n="363">La nuit, elle s'applique à songer mon trépas , </l>
+            <l n="364">Le jour, elle ressent les maux que je n'ai pas : </l>
+            <l n="365">De grâce, à ma faveur, quitte cette humeur noire. </l>
+            <l n="366">Et te tiens assurée à l'ombre de ma gloire, </l>
+            <l n="367">Je sais fort bien l'ennui dont ton cour est touché,</l>
+            <l n="368">Que ta discrétion m'a finement caché. </l>
+            <l n="369">Je sais bien qu'un ermite, enclos dans sa cellule, </l>
+            <l n="370">Vient de donner du trouble à ton esprit crédule, </l>
+            <l n="371">Qu'il te fait redouter un songe décevant, </l>
+            <l n="372">Dont la solidité n'est rien qu'ombre et que vent. </l>
+            <l n="373">Crois-tu donc Mustapha ! Ce Dervis frénétique ?</l>
+            <l n="374">Est-ce une bouche à rendre une voix prophétique ?</l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE Soeur.</speaker>
+            <l n="375">Seigneur, ce vieux ermite est du sang ottoman. </l>
+            <l n="376">Acmat était son frère, il est oncle d'Osman ; </l>
+            <l n="377">On a vu dans ses mains les rênes de l'Empire, </l>
+            <l n="378">Et maintenant au Ciel son cour dévot aspire ; </l>
+            <l n="379">Il prie, il souffre, il jeûne, et de hautes clartés </l>
+            <l n="380">Le consolent parfois dans ses austérités. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="381">Mais enfin ces clartés pour les choses futures, </l>
+            <l n="382">Passant par son esprit, deviennent fort obscures. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE Soeur.</speaker>
+            <l n="383">Mais, Seigneur, ce qu'il dit n'a rien qui soit suspect, </l>
+            <l n="384">Et toute sa folie est digne de respect ; </l>
+            <l n="385">Car les sacrés transports donnés à ses mérites </l>
+            <l n="386">Des Anges immortels nous marquent les visites. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="387">Et sur quels fondements l'explique-t-on ainsi ? </l>
+            <l n="388" part="I">Sachons en la raison. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="388" part="F">La raison ? La voici. </l>
+            <l n="389">Lorsque de tous péchés une âme s'est purgée, </l>
+            <l n="390">De dons surnaturels elle est avantagée, </l>
+            <l n="391">Et s'élevant au ciel, elle manque aux accords </l>
+            <l n="392">Dont elle doit régler les mouvements du corps : </l>
+            <l n="393">De là viennent, Seigneur, ces gestes qui font rire, </l>
+            <l n="394">Que l'ignorant méprise et que le sage admire, </l>
+            <l n="395">Et nous devons toujours révérer les propos </l>
+            <l n="396">De ceux de qui l'esprit n'est jamais en repos. </l>
+            <l n="397">En leurs dérèglements la grâce est manifeste ; </l>
+            <l n="398">Puisqu'ils sont agités d'une cause céleste. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="399">Mais les autres États quand ils sont menacés, </l>
+            <l n="400">Demandent-ils ainsi conseil aux insensés, </l>
+            <l n="401">Et voit-on quelque part que les grands politiques </l>
+            <l n="402">Concertent leur conduite avec des frénétiques ? </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="403">Cet État élevé sur les plus grands États </l>
+            <l n="404">Subsiste par des lois que les autres n'ont pas ;</l>
+            <l n="405">Et sa propre grandeur fait voir la différence </l>
+            <l n="406">De notre politique et de notre créance. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="407">Mais sur le songe enfin qu'a dit cet obsédé ? </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="408">Qu'Osman dans peu de jours se verra dégradé, </l>
+            <l n="409">Qu'un, qu'on estime abject, s'en va tenir sa place,</l>
+            <l n="410">Ayant précipité sa dernière disgrâce. </l>
+            <l n="411">C'est le juste sujet des plaintes que je fais.</l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="412">Ma soeur, pour m'obliger ne m'en parle jamais. </l>
+            <l n="413">Si j'entrais en colère, il me prendrait envie </l>
+            <l n="414">De voir s'il a prévu le terme de sa vie, </l>
+            <l n="415">Si de quelque fer chaud il peut être aveuglé, </l>
+            <l n="416">Si d'une corde d'arc il doit être étranglé : </l>
+            <l n="417">S'il ne craint point la flamme, ou n'a point peur encore </l>
+            <l n="418">De trouver en buvant trop d'eau dans le Bosphore. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="419">Ha ! C'est à quoi. Seigneur ! Il ne faut pas penser. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="420">Par ces traits d'imprudence il m'y pourrait forcer. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="421">Parmi vos sentiments la piété le garde. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="422">Qu'il ne parle donc plus de rien qui me regarde. </l>
+            <l n="423">le lui ferais, possible, un fort mauvais parti. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Mamud, Osman, Orcane, Sélim, la Fille du Mufti.</head>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="424">Seigneur, voici venir la fille du Mufti, </l>
+            <l n="425" part="I">Le Grand Vizir l'amène. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="425" part="F">Ô Cieux ! Quelle nouvelle ? </l>
+            <l n="426" part="I">Ha ! Ma soeur, la voici. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="426" part="F">Je vais au devant d'elle. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="427">Serait-ce ici l'objet dont mon cour est épris ! </l>
+            <l n="428">Cette mine superbe étonne mes esprits.</l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE Soeur.</speaker>
+            <l n="429">Mon frère vous attend avec impatience. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <stage>Il regarde le portrait.</stage>
+            <l n="430">En ce pinceau trompeur j'eus trop de confiance. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="431">Madame, par ce choix il me fait tant d'honneur, </l>
+            <l n="432">Que rien que sa bonté n'égale mon bonheur. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="433">Ô Cieux ! Qu'elle a le port impérieux et grave ! </l>
+            <l n="434">Auprès d'elle ma soeur ne semble qu'une esclave ; </l>
+            <l n="435">Mais elle a plus d'orgueil vingt fois que de beauté, </l>
+            <l n="436">Le portrait qu'on en fit, est un portrait flatté. </l>
+            <l n="437">Ce ne sont pas ses yeux, ce n'est pas son visage, </l>
+            <l n="438">Et cette gorge peinte éclate davantage ; </l>
+            <l n="439">Cet hymen dessiné ne s'accomplira pas. </l>
+            <l n="440">Au prix de sa Peinture elle a trop peu d'appas. </l>
+            <l n="441" part="I">Ha ! Fatime.</l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="441" part="F">Seigneur... Ô Dieux ! Je suis perdue ! </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="442">C'est donc cette beauté de grâces si pourvue ? </l>
+            <l n="443">Combien as-tu reçu pour la louer si fort ? </l>
+            <l n="444">Va, va, ton sexe seul t'exempte de la mort. </l>
+            <l n="445">Aux aveugles désirs la prudence succède, </l>
+            <l n="446">Et j'ai perdu mon mal en voyant mon remède. </l>
+            <stage>S'avançant vers la fille du Mufti.</stage>
+            <l n="447">Madame, je ne veux que ce que me permet </l>
+            <l n="448">Avec facilité la loi de Mahomet. </l>
+            <l n="449">Je ne donnerai point, en irritant le temple, </l>
+            <l n="450">Aux sultans à venir un si mauvais exemple ; </l>
+            <l n="451">Mon esprit a goûté les raisons du Mufti, </l>
+            <l n="452">J'étais dans une erreur, enfin j'en suis sorti. </l>
+            <l n="453">Sans perdre plus de temps, allez, qu'on la ramène. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="454" part="I">Mamud, suivons ses pas. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="454" part="F">N'en prenez pas la peine. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="455">Après avoir vanté sa grâce et ses appas, </l>
+            <l n="456">Que Fatime la suive et ne revienne pas. </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="457">Madame, pardonnez si j'ai commis ce crime. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="458" part="I">Sors vite. </l>
+          </sp>
+          <sp who="tc0908-LEONTINE">
+            <speaker>LÉONTINE.</speaker>
+            <l n="458" part="F">Il ne faut plus de Bassa pour Fatime. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="459">De grâce, retournez, ne m'accompagnez plus. </l>
+            <l n="460">Selim, tes compliments sont ici superflus ; </l>
+            <l n="461">Et puis que l'Empereur n'aime pas ma présence, </l>
+            <l n="462">Me servir est pécher contre la complaisance : </l>
+            <l n="463">Tu n'en saurais douter, il s'en est expliqué. </l>
+            <l n="464">Pourquoi donc s'arrêter près d'un sujet moqué, </l>
+            <l n="465">D'une Fille à peu près sur le trône placée. </l>
+            <l n="466">Et qu'on a du sérail indignement chassée ? </l>
+            <l n="467">M'élisant pour sa femme, Osman s'était mépris, </l>
+            <l n="468">Je suis avec raison digne de son mépris : </l>
+            <l n="469">La fille du Mufti n'est pas d'une naissance </l>
+            <l n="470">Qu'il put tant honorer avecque bienséance ; </l>
+            <l n="471">Il lui faut un objet qu'avecque plus de soin </l>
+            <l n="472">Quelqu'un de ses Bassas fasse venir de loin. </l>
+            <l n="473">Quelque beauté Latine ou quelqu'autre captive, </l>
+            <l n="474">Que l'on aura tiré des mains de quelque juive. </l>
+            <l n="475">Et que l'on aura vue en plus d'une autre Cour, </l>
+            <l n="476">Sera plus à propos l'objet de son Amour ; </l>
+            <l n="477">Mais je voudrais savoir d'où lui vient ce caprice </l>
+            <l n="478">De joindre à m'enlever la force à l'artifice. </l>
+            <l n="479">Et m'honorer si fort pour se rire de moi. </l>
+            <l n="480">Et se moquer ainsi du Ciel et de la Loi : </l>
+            <l n="481">Le Prophète là-haut n'aura point de puissance. </l>
+            <l n="482">Ou, devant qu'il soit peu, j'en aurai la vengeance. </l>
+            <l n="483">Il aura contre lui tous les bons musulmans, </l>
+            <l n="484">Les Anges, les humains, les Cieux, les éléments; </l>
+            <l n="485">Et n'eut-il que moi seule à sa mort préparée, </l>
+            <l n="486">Qu'il sache que sa vie est fort mal assurée. </l>
+            <l n="487" part="I">Dites lui, dites lui. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="487" part="F">Madame, un mot tout bas. </l>
+            <stage>Se tournant vers Mamud.</stage>
+            <l n="488">Prends garde que quelqu'un ne nous écoute pas. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="489" part="I">Hé ! Que me veux-tu dire ? </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="489" part="F">Un secret d'importance. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="490" part="I">C'est ?</l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="490" part="F">Que tout notre camp fera votre vengeance, </l>
+            <l n="491">Et que possible même avant la fin du jour. </l>
+            <l n="492">Vous verrez maltraiter ce Prince à votre tour. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="493">Ô promesse agréable et douce autant que vaine ! </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="494">C'est selon l'apparence une chose certaine. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="495" part="I">Mais, de quelle façon ? </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="495" part="F">Écoutez seulement, </l>
+            <l n="496">Je vous vais déclarer le tout confidemment. </l>
+            <l n="497">À me garder la foi vous êtes engagée, </l>
+            <l n="498">Par les cruels mépris qui vous ont outragée. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="499" part="I">Poursuis donc ? </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="499" part="F">Vous saurez que ce présomptueux, </l>
+            <l n="500">Vient de faire un voyage assez infructueux. </l>
+            <l n="501">Il s'était aveuglé d'une superbe envie. </l>
+            <l n="502">De voir en conquérant les murs de Cracovie ; </l>
+            <l n="503">Mais de cette entreprise il fut mal satisfait : </l>
+            <l n="504">Ce furent des desseins qui n'eurent point d'effet. </l>
+            <l n="505">Et quoi que proposât son ardeur indiscrète. </l>
+            <l n="506">Tout son camp mutiné voulut faire retraite. </l>
+            <l n="507">Lui qui honteusement retourna sur ses pas. </l>
+            <l n="508">En conçut un dépit contre tous ses soldats, </l>
+            <l n="509">Mais avec tant de rage et si peu de justice, </l>
+            <l n="510">Qu'il résolut dés lors d'éteindre sa milice, </l>
+            <l n="511">De transporter son siège et ses trésors ailleurs, </l>
+            <l n="512">Pour trouver un terroir et des soldats meilleurs, </l>
+            <l n="513">Et laisser cette ville en proie à l'infidèle, </l>
+            <l n="514">Gomme pour l'immoler à sa haine mortelle : </l>
+            <l n="515">Vous voyez la noirceur de ce grand attentat, </l>
+            <l n="516">S'il choque la patrie et les lois de l'État. </l>
+            <l n="517">Tandis il fait courir un bruit qu'il s'achemine, </l>
+            <l n="518">Pour accomplir un voeu, vers la sainte Médine. </l>
+            <l n="519">Et que tant de trésors dessus l'onde portés </l>
+            <l n="520">Sont pour y faire voir ses libéralités ; </l>
+            <l n="521">Mais il se trompera sur ce qu'il se propose , </l>
+            <l n="522">C'est assez que Selim ait découvert la chose, </l>
+            <l n="523">La milice avertie, avant qu'il soit demain , </l>
+            <l n="524">Verra son crime écrit et signé de sa main : </l>
+            <l n="525">Le sélictar Aga m'a confié naguère, </l>
+            <l n="526">Une lettre d'Osman pour le Bassa du Caire, </l>
+            <l n="527">Qui fait voir clairement tout ce que j'en ai dit. </l>
+            <l n="528">Est-ce assez pour remettre un esprit interdit ? </l>
+            <l n="529">Rien ne nous est suspect, lisez-la cette lettre. </l>
+            <l n="530">Par qui votre désir se pourra tout promettre. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="531">Ha ! Ce qu'on me fait voir et qu'on m'a fait ouïr, </l>
+            <l n="532">En flattant ma douleur, la fait évanouir ! </l>
+            <stage>Au BASSA du Caire.</stage>
+            <l n="533">Nous enlevons d'ici le débris de l'Empire, </l>
+            <l n="534">Et d'aller voir le Nil nous avons résolu, </l>
+            <l n="535">Viens au devant de nous et sagement déchire </l>
+            <l n="536">Ce billet important dés que tu l'auras lu. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="537">Quoi qu'il ait commandé la lettre est toute entière, </l>
+            <l n="538">Et doit à ses malheurs servir d'ample matière : </l>
+            <l n="539">Pourvu que du Mufti nous soyons secondés, </l>
+            <l n="540">Les passages bientôt seront si bien gardés, </l>
+            <l n="541">Qu'il peut dés ce moment perdre la fantaisie </l>
+            <l n="542">D'aller asseoir son trône au delà de l'Asie. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="543">Travaille à la révolte et fais dés aujourd'hui </l>
+            <l n="544">Que pour tout renverser il ne tienne qu'à lui. </l>
+            <l n="545">Mon Père absolument sachant cette nouvelle </l>
+            <l n="546">Mourra de déplaisir, ou prendra ma querelle. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="547">Mais si j'avais tant fait avecque mes amis, </l>
+            <l n="548">Que du trône aujourd'hui le Sultan fut démis. </l>
+            <l n="549">Et que selon le droit et selon votre envie, </l>
+            <l n="550">Osman dans les sept tours allât perdre la vie ; </l>
+            <l n="551">Dites-moi de quel prix serait récompensé </l>
+            <l n="552">Le glorieux Selim, l'ayant ainsi poussé. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="553">D'un honneur non pareil, d'une immortelle gloire, </l>
+            <l n="554">Qui mettrait à jamais sa valeur dans l'Histoire. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="555" part="I">Mais rien de votre part ? </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="555" part="F">Si tu sais me venger, </l>
+            <l n="556">Je saurai de quel front tu braves le danger. </l>
+            <l n="557">Marche à cette entreprise et que rien ne t'arrête. </l>
+            <l n="558">Je connaîtrai ton cour quand je verrai sa tête. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="559" part="I">Il suffit, il suffit. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="559" part="F">Va donc et souviens-toi. </l>
+            <l n="560">Que tu sers ta Patrie, en t'employant pour moi. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="561">Selim, retirons nous, j'ai peur qu'on nous découvre. </l>
+            <l n="562">J'entends un certain bruit d'une porte qui s'ouvre. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Selim, Orcane, Mamud.</head>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="563">C'est Orcane, un des chefs de notre faction. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="564">Le Sultan vient de faire une belle action. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="565" part="I">Elle est épouvantable. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="565" part="F">Elle est assez étrange. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="566">Mais elle est à sa gloire, elle est à sa louange. </l>
+            <l n="567">Il faut que dans l'Histoire elle lui donne lieu, </l>
+            <l n="568">Et l'y fasse passer pour quelque demi-Dieu. </l>
+            <l n="569">S'il est rien de pareil à son dernier voyage, </l>
+            <l n="570">C'est la solennité de ce beau mariage. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="571">Ce sont des coups d'État de son conseil secret. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="572">Ce sont des procédés qu'on voit avec regret. </l>
+            <l n="573">Et des déportements dont la milice émue, </l>
+            <l n="574">Si nous en sommes crûs, n'aura jamais la vue. </l>
+            <l n="575">Nous sommes tous déçus, nous sommes tous trahis, </l>
+            <l n="576">Le Sultan va passer dans un autre pays : </l>
+            <l n="577">Et ceux qu'il fait agir au bien de ses affaires, </l>
+            <l n="578">Ne veulent plus du tout qu'il ait des janissaires. </l>
+            <l n="579">Que de femmes de morts, que de soldats blessés. </l>
+            <l n="580">Par son proche départ seront récompensés ! </l>
+            <l n="581">Nous qui depuis longtemps attendons à la porte, </l>
+            <l n="582">Serons aussi payez d'une pareille sorte : </l>
+            <note type="L">Ébarber : Raser, couper la barbe.</note>
+            <l n="583">Et des gens ébarbés, des bouffons, des flatteurs </l>
+            <l n="584">S'engraisseront du sang de ses bons serviteurs : </l>
+            <l n="585">Sans avoir d'aucun faix les épaules chargées, </l>
+            <l n="586">Ils boiront nos sueurs en doux sorbets changés. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="587">Il y faut donner ordre, il faut bien empêcher </l>
+            <l n="588">La suite des conseils qui nous coûtent si cher, </l>
+            <l n="589">Et que ses conseillers, ces lâches hypocrites. </l>
+            <l n="590">Soient reconnus d'un prix digne de leurs mérites ; </l>
+            <l n="591">Il faudra les traiter avec toute rigueur. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="592">Je serai des premiers à leur manger le cour.</l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="593">Je crois que le Mufti sera de la partie; </l>
+            <l n="594">Il était au Divan quand sa fille est sortie : </l>
+            <l n="595">Encor que son esprit soit prudent et caché, </l>
+            <l n="596">D'un affront si sanglant son cour paraît touché : </l>
+            <l n="597">Il a pris le chemin du camp de la milice, </l>
+            <l n="598">Feignant d'être appelle pour un fait de police. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="599">Allons le consulter sur cette affaire ici, </l>
+            <l n="600">Cependant que du port on prendra le souci ; </l>
+            <l n="601">Que l'on empêchera qu'aujourd'hui l'on embarque </l>
+            <l n="602">Ni Sultan, ni Bassas, ni personne de marque. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="603">Nous sommes tous perdus s'il vient à se sauver. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="604">Mamud, prends cette charge et nous viens retrouver. </l>
+            <l n="605">Tout ce qui peut passer du côté de l'Asie, </l>
+            <l n="606">Nous mettant en péril, nous tient en jalousie. </l>
+            <l n="607">Avecque vigilance il s'y faut gouverner. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="608">Je conçois assez bien l'ordre qu'il faut donner, </l>
+            <l n="609">Et je vais employer à ce secret office, </l>
+            <l n="610">Les plus forts régiments qui soient dans la milice. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="611">Va donc, de notre part nous n'épargnerons rien </l>
+            <l n="612">Pour faire avecque nous armer les gens de bien. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE.</head>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <stage>Stances.</stage>
+            <l n="613">Prince grand, mais trop orgueilleux </l>
+            <l n="614">Des dons rares et merveilleux </l>
+            <l n="615">Que le Ciel fit à ta naissance! </l>
+            <l n="616">Ne présume pas tant d'un glorieux destin, </l>
+            <l n="617">Tu connais ta valeur, tu connais ta puissance, </l>
+            <l n="618">Mais tu ne connais pas ta fin. </l>
+            <l n="619">Ne triomphe pas du mépris, </l>
+            <l n="620">Dont tu m'as mise à si bas prix ; </l>
+            <l n="621">Le Ciel abhorre les superbes. </l>
+            <l n="622">C'est avec trop d'orgueil aujourd'hui t'élever, </l>
+            <l n="623">La foudre bien souvent met plus bas que les herbes, </l>
+            <l n="624">Les cèdres qui la vont braver.</l>
+            <l n="625">Entre ceux qui te sont soumis, </l>
+            <l n="626">Tu ne peux faire d'Ennemis, </l>
+            <l n="627">Qui ne soient fort considérables. </l>
+            <l n="628">Le bonheur des plus grands dont on craint le pouvoir </l>
+            <l n="629">Peut être traversé par les plus misérables, </l>
+            <l n="630">S'ils sont armez du désespoir. </l>
+            <l n="631">Une assez grande passion, </l>
+            <l n="632">Va faire à ma discrétion </l>
+            <l n="633">Cette vengeance désirée. </l>
+            <l n="634">Selim en ma faveur dessine ton trépas : </l>
+            <l n="635">Au gré de mes désirs ta mort est assurée, </l>
+            <l n="636">Ou bien son amour ne l'est pas. </l>
+            <l n="637">Lorsqu'il m'offre sa liberté. </l>
+            <l n="638">Tout l'espoir dont il s'est flatté </l>
+            <l n="639">Se fonde sur tes funérailles. </l>
+            <l n="640">C'est de tes derniers maux que doit naître son bien : </l>
+            <l n="641">Il faut qu'il ait tiré ton cour de tes entrailles, </l>
+            <l n="642">Pour avoir quelque part au mien. </l>
+            <l n="643">Mais que dis-je avoir quelque part ? </l>
+            <l n="644">Son mérite arrive trop tard, </l>
+            <l n="645">Pour s'introduire en cette place. </l>
+            <l n="646">Il a beau pour me plaire ici s'abandonner ; </l>
+            <l n="647">Il faut qu'il soit certain, quelque chose qu'il fasse, </l>
+            <l n="648">Que mon cour n'est plus à donner. </l>
+            <l n="649">Cieux ! Des sentiments incertains </l>
+            <l n="650">Font secrètement que je crains </l>
+            <l n="651">Un effet que je sollicite. </l>
+            <l n="652">Puis qu'au destin d'Osman mon triste sort est joint. </l>
+            <l n="653">Faites qu'absolument il ait ce qu'il mérite. </l>
+            <l n="654">Ou ce qu'il ne mérite point. </l>
+            <l n="655">Quoi pour ses intérêts avoir le cour si tendre ! </l>
+            <l n="656">Que dirait-on de toi si l'on t'allait entendre ? </l>
+            <l n="657">Quel reproche honteux ne te ferait-on pas </l>
+            <l n="658">Si l'on voyait en toi des sentiments si bas ? </l>
+            <l n="659">Ce généreux dépit que le mépris excite, </l>
+            <l n="660">Te laisse donc encor penser à son mérite. </l>
+            <l n="661">Et souffre qu'en peignant sa grâce et sa valeur. </l>
+            <l n="662">Ta mémoire s'applique à décevoir ton cour ? </l>
+            <l n="663">Tu l'aimes ? Oui je l'aime : eh bien qu'en veux-tu dire, </l>
+            <l n="664">Raison, qui sur mon âme a pris un tel empire, </l>
+            <l n="665">Que dans les mouvements du plus grand déplaisir, </l>
+            <l n="666">Tu ne lui laisses pas l'usage du désir ?</l>
+            <l n="667">Oui ! J'aime ce cruel, oui, j'aime ce barbare, </l>
+            <l n="668">Et confesse toujours que son mérite est rare ; </l>
+            <l n="669">Je trouve que sa mine éblouit tous les yeux, </l>
+            <l n="670">Qu'il semble que ce Prince est descendu des Cieux, </l>
+            <l n="671">Comme un brillant éclair, comme un foudre de guerre, </l>
+            <l n="672">Capable de dompter tous les cours de la terre. </l>
+            <l n="673">Je trouve que sans crime on le peut adorer, </l>
+            <l n="674">Et que tout notre sexe a droit d'en soupirer. </l>
+            <l n="675">Mais jusques à quel point s'égare ta pensée ? </l>
+            <l n="676">Oses-tu discourir ainsi qu'une insensée, </l>
+            <l n="677">Oublier ta disgrâce et mettre sur l'Autel </l>
+            <l n="678">Un monstre en cruauté, ton ennemi mortel ? </l>
+            <l n="679">Qui te fit recevoir comme Sultane Reine, </l>
+            <l n="680">Et qui t'a dégradée avecque tant de haine, </l>
+            <l n="681">Après t'avoir montré par un souris amer. </l>
+            <l n="682">Que tu n'es point aimable et qu'il ne peut t'aimer? </l>
+            <l n="683">Ha ! C'est une rigueur, Ha ! C'est une insolence </l>
+            <l n="684">Qui ne doit point tenir ma colère en balance. </l>
+            <l n="685">Sur le point de sa perte encore balancer ? </l>
+            <l n="686">C'est trop : et ma raison a droit de me tancer. </l>
+            <l n="687">Il faut que le superbe apprenne à son dommage </l>
+            <l n="688">À respecter un sexe à qui tout doit hommage. </l>
+            <l n="689">Il faut que le cruel, accablé par les siens, </l>
+            <l n="690">Soit trop chargé d'ennuis pour se moquer des miens. </l>
+            <l n="691">Il faut, pour satisfaire à ma haine infinie, </l>
+            <l n="692">Qu'on éclate tout haut contre sa tyrannie, </l>
+            <l n="693">Qu'il soit haï de tous, qu'il soit abandonné, </l>
+            <l n="694">Qu'il soit assiégé, pris, dégradé, détrôné, </l>
+            <l n="695">Que sa haute valeur se trouve méprisée. </l>
+            <l n="696">Qu'aux plus petits du peuple il serve de risée, </l>
+            <l n="697">Qu'il perde toute estime et toute autorité. </l>
+            <l n="698">Qu'ayant perdu l'espoir il perde la clarté ; </l>
+            <l n="699">Et qu'il sache, emporté de ce courant funeste, </l>
+            <l n="700">Que s'il m'eut conservée, il eut sauvé le reste. </l>
+            <l n="701">Voila les sentiments que je dois concevoir. </l>
+            <l n="702">Pour demeurer toujours aux termes du devoir. </l>
+            <l n="703">Que Selim contre lui mène donc les rebelles ; </l>
+            <l n="704">Mais cet homme qui vient m'en dira des nouvelles. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. La Fille du Mufti, Mulsuman.</head>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="705">Approche, Musulman, qui te fait larmoyer ? </l>
+          </sp>
+          <sp who="tc0908-MUSULMAN">
+            <speaker>MUSULMAN.</speaker>
+            <l n="706">C'est Madame un succès qui me vient d'effrayer. </l>
+            <l n="707">Un prodige d'audace, un miracle de gloire </l>
+            <l n="708">Que la postérité ne voudra jamais croire, </l>
+            <l n="709">Et que moi qui l'ai vu, ce rare événement, </l>
+            <l n="710">Ne puis m'imaginer qu'avec étonnement. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="711">Hé ! De grâce dis-moi, quelle est cette aventure ? </l>
+            <l n="712">Le sang du Saint Mufti t'en prie et t'en conjure. </l>
+          </sp>
+          <sp who="tc0908-MUSULMAN">
+            <speaker>MUSULMAN.</speaker>
+            <l n="713">Madame, en un moment vingt mil hommes armés </l>
+            <l n="714">S'étaient parmi la ville en bataillons formez; </l>
+            <l n="715">Ils murmuraient tout haut et, parmi leurs murmures, </l>
+            <l n="716">Contre le grand Vizir vomissaient des injures, </l>
+            <l n="717">Disaient que cet objet et de haine et d'horreur, </l>
+            <l n="718">Qui voulait vers le Caire enlever l'Empereur, </l>
+            <l n="719">Méritait sur le champ de périr d'un supplice </l>
+            <l n="720">Qui se trouvât conforme à sa noire malice. </l>
+            <l n="721">Les armes à la main ils allaient le trouver, </l>
+            <l n="722">Juraient que le sérail ne le pourrait sauver. </l>
+            <l n="723">Et poussant mille cris qui montaient jusqu'aux nues, </l>
+            <l n="724">Ils en gagnaient déjà toutes les avenues ; </l>
+            <l n="725">Lorsque pour effrayer les chefs de ce parti. </l>
+            <l n="726">Les portes s'entrouvrant, Osman en est sorti. </l>
+            <l n="727">Et s'est conduit au pas vers cette multitude, </l>
+            <l n="728">Qui ne l'a vu venir qu'avec inquiétude. </l>
+            <l n="729">Il semblait qu'avec art il avait dédaigné </l>
+            <l n="730">Que dans un si bel acte il fut accompagné. </l>
+            <l n="731">Étant seul à cheval, sa personne admirable </l>
+            <l n="732">Aux yeux de tout le monde était plus vénérable, </l>
+            <l n="733">Pour donner l'épouvante à ce grand armement, </l>
+            <note type="L">Capigis : soldat ottoman.</note>
+            <l n="734">Quarante Capigis le suivaient seulement. </l>
+            <l n="735">Et six pages d'honneur dont l'un portait sa trousse, </l>
+            <l n="736">Et les autres tenaient les cordons de sa housse : </l>
+            <l n="737">Dessus ses brodequins et sur sa veste encor, </l>
+            <l n="738">Éclataient des rubis, des perles et de l'or, </l>
+            <note type="L">Cimeterre : Grosse épée et pesante, qui ne tranche que d'un côyé, et qui est un peu recourbée sur la bout. [F]</note>
+            <l n="739">Et dessus le fourreau d'un riche cimeterre , </l>
+            <l n="740">Qu'on redoute aux combats à l'égal du tonnerre, </l>
+            <l n="741">Et qui fait resplendir de mortelles clartés, </l>
+            <l n="742">De larges diamants brillaient de tous cotés ; </l>
+            <l n="743">Mais cette belle taille et cet air magnifique, </l>
+            <l n="744">Qui font comme l'amour la Fortune publique, </l>
+            <l n="745">Éblouissaient les yeux et frappaient les esprits </l>
+            <l n="746">Avec mille brillants qui sont dVn autre pris. </l>
+            <l n="747">Après avoir lancé des regards tout de flamme, </l>
+            <l n="748">Qui passants sur les fronts pénétraient jusqu'à l'âme, </l>
+            <l n="749">Et faisant dans les cours un merveilleux progrès, </l>
+            <l n="750">Voici ce qu'à la troupe il a dit à peu près : </l>
+            <l n="751">« Qui veut dans ce tumulte attirer ma disgrâce ? </l>
+            <l n="752">Ne suis-je pas Osman, de l'Ottomane race ? </l>
+            <l n="753">Qui fais trembler la terre à mon auguste aspect, </l>
+            <l n="754">Et qui sers le Prophète avec humble respect ? </l>
+            <l n="755">A-t-on pu remarquer quelque sujet de blâme, </l>
+            <l n="756">Entre mes actions même au fonds de mon âme, </l>
+            <l n="757">Pour vouloir abaisser à de serviles lois, </l>
+            <l n="758">Celui qui sous ses pieds tient les têtes des Rois ? </l>
+            <l n="759">Qu'est-ce qu'on peut produire à mon désavantage ? </l>
+            <l n="760">Me peut-on accuser de manquer de courage, </l>
+            <l n="761">Et n'ai-je pas fait voir les traits d'une valeur, </l>
+            <l n="762">Dont les plus grands périls augmentent la chaleur ? </l>
+            <l n="763">Lorsque sur les chrétiens j'ai fait quelque conquête, </l>
+            <l n="764">Ai-je lâché le pied marchant à votre tête? </l>
+            <l n="765">Et quelqu'un m'a-t-il vu balancer tant soit peu, </l>
+            <l n="766">Pour donner avec vous au jour du plus grand feu ? </l>
+            <l n="767">Suis-je un prince hébété, suis-je un prince barbare, </l>
+            <l n="768">Voluptueux, ingrat, cruel, injuste, avare, </l>
+            <l n="769">Qui de vin chaque jour s'enivre en lieu secret, </l>
+            <l n="770">Et que l'on voit au trône avec quelque regret ? </l>
+            <l n="771">Entre tant de soldats est-il quelque personne. </l>
+            <l n="772">Qui de vices pareils m'accuse ou me soupçonne ? </l>
+            <l n="773">Il n'a rien qu'à parler, il n'a qu'à repartir, </l>
+            <l n="774">Je le ferai mourir aussitôt que mentir. » </l>
+            <l n="775">Il mit, disant ces mots, la main au cimeterre, </l>
+            <l n="776">Et porta ses regards sur tous les gens de guerre : </l>
+            <l n="777">Qui touchés et transis d'un si noble courroux, </l>
+            <l n="778">Jetant les armes bas, se mirent à genoux. </l>
+            <l n="779">Et comme en un instant amollis par des charmes </l>
+            <l n="780">Autour de l'Empereur versèrent tous des larmes ; </l>
+            <l n="781">Ensuite le Sultan partout s'est promené, </l>
+            <l n="782">Visitant tous les rangs de ce camp étonné, </l>
+            <l n="783">Et voyant des soldats dont la mine insolente </l>
+            <l n="784">Semblait respecter peu la sienne menaçante </l>
+            <l n="785">Il a fait un signal parmi les assemblés </l>
+            <note type="L">Capigi : Gardien portier du sérail dans l'empire ottoman.</note>
+            <l n="786">À douze capigis qui les ont étranglés ; </l>
+            <l n="787">Mais soudain, sans murmure et sans qu'à ce spectacle, </l>
+            <l n="788">La troupe soulevée ait apporté d'obstacle, </l>
+            <l n="789">Et vingt mille soldats d'un seul homme pressés, </l>
+            <l n="790">Sont devenus muets comme des marbres glacés : </l>
+            <l n="791">Ainsi le grand Osman laissant partout la crainte, </l>
+            <l n="792">Du sérail qu'il habite a regagné l'enceinte; </l>
+            <l n="793">Mais au tout petit pas et comme faisant voir </l>
+            <l n="794">Qu'il faut que l'Univers tremble sous son pouvoir. </l>
+            <l n="795">Madame, c'est ainsi que la chose s'est faite. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="796">L'événement est beau, j'en suis fort satisfaite, </l>
+            <l n="797" part="I">C'est assez. </l>
+          </sp>
+          <sp who="tc0908-MUSULMAN">
+            <speaker>MUSULMAN.</speaker>
+            <l n="797" part="F">Mais Selim, qui tourne ici ses pas. </l>
+            <l n="798">Possible vous dira ce que je ne sais pas, </l>
+            <l n="799">Lui qui faisait agir cette troupe animée. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="800">Il suffit du succès dont tu m'as informée. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Sélim, La Fille du Mufti.</head>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="801">Madame, par l'avis que je viens vous donner, </l>
+            <l n="802">D'un effet merveilleux je vais vous étonner, </l>
+            <l n="803">Et de quelque vertu dont vous soyez pourvue, </l>
+            <l n="804">Cela vous surprendra, vous en serez émue ; </l>
+            <l n="805">Écoutez une chose étrange au dernier point. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="806">Sélim, tes lâchetés ne me surprendront point. </l>
+            <l n="807">On me vient d'avertir qu'elles sont sans pareilles, </l>
+            <l n="808">Et leur bruit à l'instant a frappé mes oreilles. </l>
+            <l n="809">Bien loin d'exécuter ce que tu m'as promis, </l>
+            <l n="810">Tu viens d'abandonner tous nos meilleurs amis ; </l>
+            <l n="811">Osman, seul à cheval, t'a fait quitter les armes. </l>
+            <l n="812">Et fléchir les genoux et répandre des larmes : </l>
+            <l n="813">Et vraiment ton courage a fort bien réussi, </l>
+            <l n="814">Puisque dans ce danger tes pleurs l'on adouci : </l>
+            <l n="815">Quoi ! Ce brave Bassa, cette âme grande et forte, </l>
+            <l n="816">Se laisse épouvanter aux huissiers de la porte ? </l>
+            <l n="817">Une terreur soudaine a figé tout son sang. </l>
+            <l n="818">Il en frissonne encor, il en paraît tout blanc ; </l>
+            <l n="819">Mais puis qu'on le remarque entre ceux qui murmurent </l>
+            <l n="820">Il faudra que sa fuite, ou la mort le rassurent. </l>
+            <l n="821">Retourne voir Osman, ce héros glorieux. </l>
+            <l n="822">Qui tire à point nommé des larmes de tes yeux. </l>
+            <l n="823">Va l'adorer encore, et par ta flatterie </l>
+            <l n="824">Modère adroitement l'excès de sa furie ;</l>
+            <note type="L">Mignon : Signifie aussi, favori, soit en terme d'amitié, soit d'amour. Le plupart des Princes ont des mignons, des favoris qui les gouvernent. [F]</note>
+            <l n="825">Suis-le vers le grand Caire avecque ses mignons, </l>
+            <l n="826">De peur d'être étouffé comme tes compagnons : </l>
+            <l n="827">Évite sagement tout accident funeste, </l>
+            <l n="828" part="I">Mais ne me vois jamais. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="828" part="F">Apprenez donc le reste. </l>
+            <l n="829">Madame, vous saurez qu'éloigné de la peur, </l>
+            <l n="830">Je n'ai jamais manqué ni de foi, ni de cour. </l>
+            <l n="831" part="I">Écoutez-moi de grâce. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="831" part="F">Et que me peux-tu dire ? </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="832">Que seul j'ai relevé la gloire de l'Empire, </l>
+            <l n="833">Qu'Osman est en péril et que, ce même jour, </l>
+            <l n="834">Quelque grand changement fera voir mon amour. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="835">Ne tiens point ces propos ; ta vanité me blesse, </l>
+            <l n="836">Dis plutôt que tes pleurs feront voir ta faiblesse. </l>
+            <l n="837">Va, va, par ma vengeance, égalant son mépris, </l>
+            <l n="838">J'aurai de ce beau coup et la peine et le prix. </l>
+            <l n="839">Il apprendra bientôt, par une fin tragique, </l>
+            <l n="840">Que j'aspire à l'honneur d'une fille héroïque. </l>
+            <l n="841">Il saura qu'aujourd'hui mon cour s'élève bien </l>
+            <l n="842">Au dessus de mon sexe et possible du sien : </l>
+            <l n="843">J'ai des pressentiments, quoi que Sélim me jure, </l>
+            <l n="844">Que cette seule main vengera mon injure. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="845" part="I">Mais, Madame, écoutez. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="845" part="F">Ha ! Je n'écoute rien. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="846">Madame, je tairai ce que vous savez bien, </l>
+            <l n="847">Ce désespoir d'Osman, cette audace effroyable, </l>
+            <l n="848">Dont encor la grandeur me paraît incroyable. </l>
+            <l n="849">Apprenez seulement que lorsqu'il est sorti, </l>
+            <note type="L">Mufti : C'est la chef de la religion mahométane, résidant à Constantinople. Le Mufti est le souverain interprète du Coran, qui décide les quesiton de la Loi. [F]</note>
+            <l n="850">J'étais dans la mosquée avecque le Mufti : </l>
+            <l n="851">Qui, pour mieux appuyer ce coup de conséquence, </l>
+            <note type="L">Bassa : ou bacha. On peut dire l'un ou l'autre. C'est un officier en Turquis qui a le commandement dans une province, ou qui en a le gouvernement. [F]</note>
+            <l n="852">Animait nos Bassas par sa vive éloquence, </l>
+            <l n="853">Excitait tout le peuple et lui donnait horreur </l>
+            <l n="854">Des dangereux conseils qu'embrasse l'Empereur : </l>
+            <l n="855">Déjà de tous côtés la populace instruite </l>
+            <l n="856">De ses mauvais desseins, du complot, de sa suite, </l>
+            <l n="857">Murmurait dans le Temple et parlait hautement </l>
+            <l n="858">Contre la cruauté de son gouvernement : </l>
+            <l n="859">Alors qu'un janissaire approchant avec peine, </l>
+            <l n="860">Tout couvert de sueur, comme tout hors d'haleine, </l>
+            <l n="861">Aborda votre père et lui vint annoncer, </l>
+            <l n="862">Ce qui tout en public se venait de passer. </l>
+            <l n="863">Et comme Osman superbe et tout enflé de gloire </l>
+            <l n="864">Rentrait dans le sérail après cette victoire, </l>
+            <l n="865">Et de son bel exploit laissait nos mutinés </l>
+            <l n="866">Avec confusion sur la place étonnés, </l>
+            <l n="867">Nous y marchons, Madame, et votre père même </l>
+            <l n="868">Vient pour les rassurer dans ce péril extrême, </l>
+            <l n="869">Leur reproche tout haut, comme une trahison, </l>
+            <l n="870">Cette docilité contraire à la raison. </l>
+            <l n="871">Ce lâche abaissement devant une puissance </l>
+            <l n="872">Qui pour nous exposer, nous soustrait sa présence, </l>
+            <l n="873">Et transportant ailleurs son siège et ses trésors, </l>
+            <l n="874">Ne laisse que sa haine en ces funestes bords. </l>
+            <l n="875">Ses propos sont goûtés, sa voix est un tonnerre </l>
+            <l n="876">Qui réveille l'audace au cour des gens de guerre. </l>
+            <l n="877">Lors, deux bassas et moi courons de rang en rang, </l>
+            <l n="878">Et de termes pareils leur échauffons le sang, </l>
+            <l n="879">Mettons devant leurs yeux de nouvelles images, </l>
+            <l n="880">De tant d'affronts reçus, de mépris et d'outrages, </l>
+            <l n="881">Et faisant contempler à ces soldats troublés </l>
+            <l n="882">Leurs tristes compagnons sur le champ étranglés, </l>
+            <l n="883">Leur ôtons le respect qu'ils ont pour la personne </l>
+            <l n="884">D'un qui les extermine, ou qui les abandonne. </l>
+            <l n="885">Les Janissaires lors reprennent leurs esprits </l>
+            <l n="886">Et les armes en main poussent de nouveaux cris , </l>
+            <l n="887">Marchent vers le sérail d'une vitesse prompte </l>
+            <l n="888">Et se promettent bien de réparer leur honte : </l>
+            <l n="889">Moi, je marche à leur tête et leur parle toujours, </l>
+            <l n="890">Afin que leur ardeur s'échauffe à mon discours. </l>
+            <l n="891">Quoi qu'on puisse opposer à des troupes si fortes, </l>
+            <l n="892">Nous allons du sérail faire enfoncer les portes. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="893">Comment, de but en blanc, sans lui faire savoir </l>
+            <l n="894">Que l'on s'apaisera s'il fait mieux son devoir ? </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="895">Madame, votre Père est un grand politique : </l>
+            <l n="896">De trouver un prétexte il sait bien la pratique. </l>
+            <l n="897">Deux articles devant lui seront exposés </l>
+            <l n="898">Et nous savons fort bien qu'ils seront refusés. </l>
+            <l n="899">Sur ce premier refus, notre effroyable ligue. </l>
+            <l n="900">De même qu'un torrent qui renverse une digue, </l>
+            <l n="901">Et va du laboureur détruire le travail. </l>
+            <l n="902">Ira du même pas enfoncer le sérail. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="903">Pour conjurer bientôt cette grande tempête, </l>
+            <l n="904">Osman n'aura qu'à faire un signe de la tête. </l>
+            <l n="905">L'avantage, Sélim, n'est pas donné des Cieux </l>
+            <l n="906">De pouvoir soutenir les regards de ses yeux. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="907" part="I">Vous le verrez. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="907" part="F">Va donc sans tarder davantage. </l>
+            <l n="908">Profite bien du temps, poursuis ce grand ouvrage : </l>
+            <l n="909">L'occasion est chauve et prompte à s'éloigner, </l>
+            <l n="910">Aussitôt qu'elle s'offre, il la faut empoigner ; </l>
+            <l n="911">Mais encor que Selim avecque diligence, </l>
+            <l n="912">Au hasard de périr travaille à ma vengeance. </l>
+            <l n="913">C'est généreusement, qu'il se souvienne bien </l>
+            <l n="914">Que pour tous ses travaux je ne lui promets rien. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="915">Tu ne me promets rien pour un si grand service ? </l>
+            <l n="916">C'est par ingratitude ou c'est par artifice : </l>
+            <l n="917">le n'ai qu'à trauailler, pour en venir à bout, </l>
+            <l n="918">Tu ne me promets rien ; mais je me promets tout. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Osman, Lodia, Précepteur.</head>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="919">M'embarquer à la hâte ? Il ne sera pas dit </l>
+            <l n="920">Que ce nouveau murmure ait eu tant de crédit, </l>
+            <l n="921">Et que pour éviter des rumeurs populaires, </l>
+            <l n="922">Un Sultan soit de nuit passé dans ses galères. </l>
+            <l n="923">Quoi, dans cette faiblesse Osman pourrait tomber ? </l>
+            <l n="924">Non, non, il veut partir et non se dérober. </l>
+            <l n="925">Il faut que la trompette en tous lieux retentisse, </l>
+            <l n="926">Et que de mon départ le peuple elle avertisse. </l>
+            <l n="927">Je veux sortir au pas, et voir si sans effroi </l>
+            <l n="928">Quelqu'un entreprendra de parler contre moi ? </l>
+            <l n="929">Le Bassa de la mer sans sujet appréhende, </l>
+            <l n="930">IL n'a pas digéré les choses qu'il me mande ; </l>
+            <l n="931">Et ce zèle qu'il n'a que pour ma sûreté. </l>
+            <l n="932">Doit être plus jaloux de mon autorité. </l>
+            <l n="933">Je ne suis pas aussi résolu de le croire, </l>
+            <l n="934">Je prendrai seul le soin de conserver ma gloire </l>
+            <l n="935">Dis-lui qu'à mon égard les affaires vont bien : </l>
+            <l n="936">Tandis qu'il se repose et qu'il ne craigne rien. </l>
+            <l n="937">Après avoir remis la troupe mutinée, </l>
+            <l n="938">Je pourrai m'embarquer demain l'après-dînée. </l>
+            <l n="939">Qu'il tienne cependant ses soldats sur la mer ; </l>
+            <l n="940">Afin que les forçats soient tous prêts à ramer ; </l>
+            <l n="941">Et toi, qui pris toujours soin de ma nourriture </l>
+            <l n="942">Viens me donner conseil dessus cette aventure ! </l>
+            <l n="943">Et sans dissimuler dis moi ton sentiment </l>
+            <note type="L">Partement : Action par laquelle on part, et on quitte un lieu pour aller en un autre. [F]</note>
+            <l n="944">Sur l'état de ce trouble et de mon partement, </l>
+            <l n="945" part="I">Parle et sans me flatter. </l>
+          </sp>
+          <sp who="tc0908-LODIA">
+            <speaker>LODIA.</speaker>
+            <l n="945" part="F">Seigneur, ton grand courage </l>
+            <l n="946">S'accroît dans le péril et dépite l'orage ; </l>
+            <l n="947">Mais la fureur des vents, l'orgueil des flots mutins </l>
+            <l n="948">Font souvent faire bris aux plus heureux destins; </l>
+            <l n="949">Et c'est pourquoi, Seigneur, toutes les sages testes </l>
+            <l n="950">Avec discrétion respectent les tempêtes : </l>
+            <l n="951">Tempère s'il te plaît la force de ton cour. </l>
+            <l n="952">Qui de tout, en tous lieux, veut demeurer vainqueur. </l>
+            <l n="953">Et ménage un peu mieux le cours de cette vie. </l>
+            <l n="954">Dont Alexandre même eut soupiré d'envie. </l>
+            <l n="955">Garde mieux ta personne et n'expose pas tant </l>
+            <l n="956">Ces trésors qu'un malheur peut perdre en un instant. </l>
+            <l n="957">Tu sais que ta milice est toute mécontente. </l>
+            <l n="958">Et qu'elle est en fureur autour de toi flottante : </l>
+            <l n="959">S'il faut qu'elle s'élève une seconde fois. </l>
+            <l n="960">Elle te peut porter en de mauvais détroits ; </l>
+            <l n="961">L'Histoire te conseille et si tu la contemples. </l>
+            <l n="962">Beaucoup de tes aïeux te fourniront d'exemples : </l>
+            <l n="963">Qui s'étant mal conduits ou s'étant mal gardés, </l>
+            <l n="964">Par ces soldats mutins ont été dégradés ; </l>
+            <l n="965">Et pour s'être conduits par de mauvaises traces, </l>
+            <l n="966">Avec confusion sont morts dans leurs disgrâces. </l>
+            <l n="967">Seigneur, dessus ce point je ne te flatte pas, </l>
+            <l n="968">Demeure s'il te plaît, ou bien hâte tes pas. </l>
+            <l n="969">Oppose ta puissance à ce torrent terrible. </l>
+            <l n="970">Si tu crois en avoir un succès infaillible; </l>
+            <l n="971">Sinon détourne-toi pour le laisser passer. </l>
+            <l n="972">De peur que sa fureur vienne à te terrasser. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="973">Le sang à ce discours au visage me monte, </l>
+            <l n="974">Je partirais pour vivre et vivre avecque honte, </l>
+            <l n="975">Et je serais par là réduit honteusement, </l>
+            <l n="976">À porter d'Empereur le titre indignement : </l>
+            <l n="977">Quoi, des soldats mutins, sans cour et sans conduite, </l>
+            <l n="978">M'obligeront à prendre une honteuse fuite, </l>
+            <l n="979">Je craindrais leurs clameurs, je craindrais leur abord, </l>
+            <l n="980">Moi qui dans les combats n'ai pu craindre la mort, </l>
+            <l n="981">Moi, qui portant mes pas aussi loin que mes pères, </l>
+            <l n="982">Ai semé la terreur sous les deux hémisphères, </l>
+            <l n="983">Je serais ébranlé par ces fils de chrétiens, </l>
+            <l n="984">Qu'un opprobre odieux met au nombre des chiens : </l>
+            <l n="985">Quand ils s'assembleraient, cette canaille émue </l>
+            <l n="986">Ne pourrait soutenir un éclat de ma vue : </l>
+            <l n="987">Puis, que ferait le peuple en cette occasion, </l>
+            <l n="988">Se voudrait-il mêler dans la sédition ? </l>
+            <l n="989">Serait-il aveuglé jusqu'à me méconnaître, </l>
+            <l n="990">Lui qui m'a vu régner après m'avoir vu naître ? </l>
+            <l n="991">Pourrait-il oublier l'honneur de nos aïeux </l>
+            <l n="992">Dont la grandeur encore éclate dans nos yeux? </l>
+          </sp>
+          <sp who="tc0908-LODIA">
+            <speaker>LODIA.</speaker>
+            <l n="993">Non, non, Seigneur ! Ton peuple est selon l'ordinaire, </l>
+            <l n="994">D'une humeur pacifique, et douce, et débonnaire. </l>
+            <l n="995">Il pense à son trafic, il pense à son travail </l>
+            <l n="996">Et sait qu'il vit en paix par l'ordre du sérail; </l>
+            <l n="997">Que sans l'autorité d'un sultan juste et sage, </l>
+            <l n="998">Ses femmes et ses biens seraient mis au pillage, </l>
+            <l n="999">Et qu'il serait porté dans d'extrêmes dangers </l>
+            <l n="1000">Par nos propres soldats ou par des étrangers : </l>
+            <l n="1001">Il est tout alarmé de ces rumeurs publiques </l>
+            <l n="1002">Et de se voir contraint de fermer ses boutiques ; </l>
+            <l n="1003">Mais quoi que de son Peuple Osman soit fort aimé, </l>
+            <l n="1004">Qu'est-ce que peut tenter ce peuple désarmé ? </l>
+            <l n="1005">Pour abattre aujourd'hui l'orgueil du janissaire, </l>
+            <l n="1006">Un secours plus puissant te serait nécessaire. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1007">Je n'ai pour arrêter tous ces braves guerriers </l>
+            <l n="1008">Qu'à faire du sérail armer les officiers ? </l>
+          </sp>
+          <sp who="tc0908-LODIA">
+            <speaker>LODIA.</speaker>
+            <l n="1009">Un autre expédient me vient à la pensée, </l>
+            <l n="1010">Contre quelqu'un des tiens cette troupe est poussée ? </l>
+            <l n="1011">L'honneur de tes bienfaits irrite son courroux. </l>
+            <l n="1012">De tout ce qui la fâche elle se prend à nous. </l>
+            <l n="1013">Saoule de notre sang cette race mutine,</l>
+            <l n="1014">Qui porte en ton État une ardeur intestine : </l>
+            <l n="1015">Nous serons trop heureux t'exprimant notre foi, </l>
+            <l n="1016">De servir de victime et de mourir pour toi. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1017">Comment, pour contenter ces troupes criminelles </l>
+            <l n="1018">Nous abandonnerions nos serviteurs fidèles? </l>
+            <l n="1019">Nous aurions trop d'horreur de cette lâcheté, </l>
+            <l n="1020">Lorsque nous les perdrons, nous perdrons la clarté. </l>
+            <l n="1021">Mais que me veut ma soeur les yeux couverts de larmes ? </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. La Sultane Soeur, Osman, Lodia.</head>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="1022">Seigneur, tout est perdu ; vingt mille hommes en armes </l>
+            <l n="1023">Menacent le sérail et viennent fondre ici ! </l>
+            <l n="1024" part="I">Tu les verras bientôt. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1024" part="F">Ils nous verront aussi ; </l>
+            <l n="1025">Mais du cours de tes pleurs essuye un peu la trace, </l>
+            <l n="1026">Car c'est une faiblesse indigne de ta race. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="1027">Seigneur ! Souffre mes pleurs dans ce mortel effroi </l>
+            <l n="1028">Sachant que je ne pleure et ne crains que pour toi ! </l>
+            <l n="1029">S'il fallait qu'aujourd'hui tu fusses dans le Caire, </l>
+            <l n="1030">L'image de la mort ne m'étonnerait guère ; </l>
+            <l n="1031">Mais te voyant ici dans un grand embarras, </l>
+            <l n="1032">Ayant de tous côtés des mutins sur les bras, </l>
+            <l n="1033">Te sachant assiégé de toute une milice, </l>
+            <l n="1034">Je m'afflige Seigneur ! Avec quelque justice : </l>
+            <l n="1035">Tu n'as fait qu'échapper de l'orage passé, </l>
+            <l n="1036">Et je vois qu'aussitôt il est recommencé ! </l>
+          </sp>
+          <sp who="tc0908-LODIA">
+            <speaker>LODIA.</speaker>
+            <l n="1037">J'ai peur que le Mufti dont toute la famille </l>
+            <l n="1038">S'intéresse au mépris qu'on a fait de sa fille, </l>
+            <l n="1039">Par un trait de vengeance en cette occasion, </l>
+            <l n="1040">N'ait réveillé le trouble et la sédition, </l>
+            <l n="1041">Et retordant la Loi d'une subtile adresse, </l>
+            <l n="1042">N'en explique les points pour nuire à ta Hautesse. </l>
+          </sp>
+          <sp who="tc0908-LASULTANE">
+            <speaker>LA SULTANE.</speaker>
+            <l n="1043">On dit que consulté par ces mutins armés. </l>
+            <l n="1044">Il écrit des billets dont ils sont animés, </l>
+            <l n="1045">Et qu'au lieu qu'il devrait leur imposer silence, </l>
+            <l n="1046">Ce méchant en raison fonde leur insolence. </l>
+            <l n="1047">Par ses écrits, Seigneur ! comme par ses discours </l>
+            <l n="1048">À la fureur passée il donne un plus grand cours. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1049">Si ce vieux hypocrite excite ma colère, </l>
+            <l n="1050">Par le chef glorieux d'Acmat qui fut mon père, </l>
+            <l n="1051">Bien que parmi le peuple on le révère tant, </l>
+            <l n="1052">Je lui ferai voler la tête en un instant. </l>
+            <l n="1053">Et par là ferai voir au peuple de la Thrace, </l>
+            <stage>À ce vers il se fait grand bruit derrière le Théâtre.</stage>
+            <l n="1054">Qu'un trépas violent suit de près ma menace, </l>
+            <l n="1055">Et que le châtiment ne peut jamais manquer </l>
+            <l n="1056">À quiconque entreprend de me venir choquer. </l>
+            <l n="1057">Mais quel grand bruit déjà vient frapper nos oreilles ? </l>
+            <l n="1058">Ose-t-on nous troubler par des rumeurs pareilles ? </l>
+            <l n="1059">Dépêche de ma part, va t'en leur ordonner </l>
+            <l n="1060">De garder le silence, ou de s'en retourner : </l>
+            <l n="1061">Si de ce mandement ils n'ont aucune crainte, </l>
+            <l n="1062">J'irai sur le balcon pour entendre leur plainte. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Un Capigi, Orcane, Mamud, Sélim, Compagnie de Soldats.</head>
+          <sp who="tc0908-CAPIGI">
+            <speaker>CAPIGI.</speaker>
+            <l n="1063">Musulmans, qui vous meut ? Qui vous met en fureur </l>
+            <l n="1064" part="I">Que pretendez-vous? </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="1064" part="F">Parler à l'Empereur. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1065">Nous lui voulons parler et prétendons encore </l>
+            <l n="1066">L'informer sur le champ des choses qu'il ignore. </l>
+          </sp>
+          <sp who="tc0908-CAPIGI">
+            <speaker>CAPIGI.</speaker>
+            <l n="1067">Possible vos soupçons vous le font figurer ? </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="1068">Oui, de ce qu'il ignore ou qu'il veut ignorer, </l>
+            <l n="1069">D'un dangereux Conseil qui va perdre l'Empire, </l>
+            <l n="1070">S'il ne fait pour Osman quelque chose de pire. </l>
+          </sp>
+          <sp who="tc0908-CAPIGI">
+            <speaker>CAPIGI.</speaker>
+            <l n="1071">Parlez de l'Empereur avec plus de respect. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="1072">Nous savons comme toi ce qui nous est suspect, </l>
+            <l n="1073">Nous connaissons fort bien cette fausse fenêtre, </l>
+            <l n="1074">D'où souvent en secret il nous oit sans paraître ; </l>
+            <l n="1075">Mais ce n'est plus le temps de surprendre les siens, </l>
+            <l n="1076">L'excès de ses rigueurs relâche nos liens, </l>
+            <l n="1077">Et son camp glorieux, qu'il maltraite et qu'il brave, </l>
+            <l n="1078">Ne saurait plus souffrir qu'on le traite en esclave. </l>
+            <l n="1079">Nous voulons promptement lui donner des avis. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="1080">Et si nous prétendons encor qu'ils soient suivis. </l>
+            <stage>Osman paraît en un Balcon.</stage>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1081">Ouvre donc cette porte avant que l'on t'en presse : </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="1082" part="I">Ouvre, ouvre vitement! </l>
+          </sp>
+          <sp who="tc0908-CAPIGI">
+            <speaker>CAPIGI.</speaker>
+            <l n="1082" part="F">Vous voyez sa Hautesse. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Osman, Orcane, Sélim, Mamud.</head>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1083">Qui vous fait assembler pour me donner conseil ? </l>
+            <l n="1084">L'ombre est-elle en état d'éclairer le soleil ? </l>
+            <l n="1085">Et ceux dont le reproche a diffamé la vie, </l>
+            <l n="1086">Doivent-ils se mêler de calmer mon envie ? </l>
+            <l n="1087">Vous êtes-vous émus en fuyant les combats, </l>
+            <l n="1088">Pour voir si votre sens vaut mieux que votre bras ? </l>
+            <l n="1089">Et si pour rétablir les affaires publiques </l>
+            <l n="1090">De fort mauvais soldats seront bons politiques ? </l>
+            <l n="1091">Il fait beau voir ici ces enfants de tribut, </l>
+            <l n="1092">Qui de tous les humains sont le dernier rebut, </l>
+            <l n="1093">Nous empresser ainsi de leurs vaines requêtes, </l>
+            <l n="1094">Eux dont la lâcheté retarde nos conquêtes : </l>
+            <l n="1095">Ne leur souvient-il plus qu'au temps qu'il faut marcher </l>
+            <l n="1096">Notre Hautesse même a peine à les chercher ? </l>
+            <l n="1097">Lorsqu'il faut ravager d'étrangères provinces, </l>
+            <l n="1098">Porter nos alliés, ou châtier des Princes </l>
+            <l n="1099">Et rendre à cet Empire un service important,</l>
+            <l n="1100">Leur Corps si paresseux ne se hâte pas tant. </l>
+            <l n="1101">En ces occasions, ces gens qui font les braves, </l>
+            <l n="1102">Se tiennent jour et nuit enfermés dans des caves : </l>
+            <l n="1103">S'enivrent en secret, n'osent se faire voir. </l>
+            <l n="1104">De crainte de répondre à la voix du devoir. </l>
+            <l n="1105">De peur de partager une gloire immortelle, </l>
+            <l n="1106">S'ils marchaient sur mes pas où l'honneur les appelle. </l>
+            <l n="1107">Avez-vous oublié combien les Polonais </l>
+            <l n="1108">En une lune ou deux vous ont battus de fois ? </l>
+            <l n="1109">Mais en nombre inégal, sans nulle résistance. </l>
+            <l n="1110">Et même sans garder de rang ni de distance. </l>
+            <l n="1111">Sans redouter la honte et d'autres châtiments </l>
+            <l n="1112">Et sans prêter l'oreille à nos commandements. </l>
+            <l n="1113">Allez, hommes sans cour ! Sortez, lâche canaille ! </l>
+            <l n="1114">Témoignez votre audace au front d'une bataille, </l>
+            <l n="1115">Opposez-vous alors à nos mauvais destins, </l>
+            <l n="1116">Et dans un plein repos faites moins les mutins. </l>
+            <l n="1117">Réglez vos actions, ô Milice imprudente ! </l>
+            <l n="1118">Et non les volontés d'une âme indépendante </l>
+            <l n="1119">Dont votre lâcheté soutient mal l'intérêt, </l>
+            <l n="1120">Et qui peut librement faire ce qu'il lui plaît : </l>
+            <l n="1121">Vous excitez en vain cette rumeur mutine, </l>
+            <l n="1122">Lorsque je veux partir pour la Sainte Médine : </l>
+            <l n="1123">Vers le sacré tombeau je porterai mes pas, </l>
+            <l n="1124">Que vos séditions ne retarderont pas. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="1125">Seigneur, accorde-nous un moment d'audience, </l>
+            <l n="1126">Donne-toi pour ta gloire un peu de patience ! </l>
+            <l n="1127">Nous avons quelque chose à te représenter. </l>
+          </sp>
+          <sp who="tc0908-CAPIGI">
+            <speaker>CAPIGI.</speaker>
+            <l n="1128">Silence, le Sultan fait signe d'écouter. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="1129">Seigneur, qui des grands Rois es le maître ou l'arbitre ! </l>
+            <l n="1130">Qui te nomme un Soleil, te donne un juste titre; </l>
+            <l n="1131">Mais comme l'on connaît et comme nous voyons, </l>
+            <l n="1132">De cet astre brillant nous sommes les rayons : </l>
+            <l n="1133">Puisque notre valeur exprime sa puissance </l>
+            <l n="1134">Et fait sentir sa bonne ou mauvaise influence. </l>
+            <l n="1135">Nous pouvons dire aussi que l'Empire est un corps </l>
+            <l n="1136">Composé de cités, d'hommes et de trésors. </l>
+            <l n="1137">Et que pour lui fournir des forces nécessaires </l>
+            <l n="1138">Nous sommes aujourd'hui ses nerfs et ses artères : </l>
+            <l n="1139">Toi, Seigneur, es son Chef qui le dois gouverner, </l>
+            <l n="1140">Régler ses mouvements et non l'abandonner! </l>
+            <l n="1141">Car c'est en cet emploi que ta vertu parfaite </l>
+            <l n="1142">Doit hautement répondre à la Loi du Prophète. </l>
+            <l n="1143">Ne te souvient-il plus lors que sur nos pavois </l>
+            <l n="1144">Nous t'élevâmes haut en te donnant nos voix; </l>
+            <l n="1145">Quand notre élection vint avec la puissance </l>
+            <l n="1146">Avantager ainsi l'ordre de ta naissance : </l>
+            <l n="1147">Nous ne t'avons élu que pour nous bien traiter, </l>
+            <l n="1148">Pour payer nos travaux et non pour nous quitter, </l>
+            <l n="1149">Et les douleurs aussi que nous avons senties, </l>
+            <l n="1150">C'est de quoi ce grand chef rompt avec ses parties. </l>
+            <l n="1151">Et suivant d'un dépit le mouvement ardent. </l>
+            <l n="1152">Va par un prompt départ se perdre en nous perdant. </l>
+            <l n="1153">Seigneur, pour désoler nos troupes éplorées. </l>
+            <l n="1154">Tu fais semer partout des raisons colorées. </l>
+            <l n="1155">De prétextes divers appuyant ton courroux, </l>
+            <l n="1156">Tu blâmes notre corps et tu te plains de nous ! </l>
+            <l n="1157">Tu dis qu'en la Pologne, où ton désir aspire, </l>
+            <l n="1158">Nous avons ravalé la Gloire de l'Empire, </l>
+            <l n="1159">Que nous avons plié devant les Polonais, </l>
+            <l n="1160">Sans vouloir écouter tes ordres ni ta voix ; </l>
+            <l n="1161">Seigneur, quand de faillir nous serions incapables, </l>
+            <l n="1162">Voulant nous accuser, tu nous rendrais coupables ; </l>
+            <l n="1163">Mais sur ce braVe fait à ta vue intenté, </l>
+            <l n="1164">Crois moins à ta colère et plus à ta bonté. </l>
+            <l n="1165">Pense mieux à la chose et ta noble indulgence </l>
+            <l n="1166">Éteindra dans ton cour tout désir de vengeance. </l>
+            <l n="1167">Quand tu fis ce voyage étrange et malheureux, </l>
+            <l n="1168">Manquas-tu de soldats braves et généreux ? </l>
+            <l n="1169">Une histoire fidèle en a conté cent mille </l>
+            <l n="1170">Victimes en ces lieux d'un projet inutile, </l>
+            <l n="1171">D'un dessein qui pour toi semblait un peu trop bas </l>
+            <l n="1172">Et que les gens de bien ne te conseillaient pas ; </l>
+            <l n="1173">Nous ne manquâmes point dans ce triste voyage </l>
+            <l n="1174">D'ardeur pour te servir, de force et de courage : </l>
+            <l n="1175">Si nos armes alors eurent peu de bonheur, </l>
+            <l n="1176">L'on y vit de la perte et non du déshonneur : </l>
+            <l n="1177">Et le Niester superbe a trop fait de trophée </l>
+            <l n="1178">D'une troupe turquesque en ses flots étouffée : </l>
+            <l n="1179">Toutefois l'ennemi, dont tu dis les exploits, </l>
+            <l n="1180">Serré de tous côtés et réduit aux abois, </l>
+            <l n="1181">D'une milice faible, et lâche, et méprisée, </l>
+            <l n="1182">Reçut pourtant la paix qui lui fut imposée ; </l>
+            <l n="1183">Cinq articles nouveaux de son Prince acceptés </l>
+            <l n="1184">Découvrent clairement qu'ils furent les domptés, </l>
+            <l n="1185">Pourquoi donc aujourd'hui ta Hautesse animée </l>
+            <l n="1186">Nous doit-elle traiter en déserteurs d'armée ? </l>
+            <l n="1187">Et veut-elle en fuyant nous réduire à la faim. </l>
+            <l n="1188">Lorsqu'elle est obligée à nous donner du pain ? </l>
+            <l n="1189">Pourquoi faut-il, Seigneur ! Employer l'artifice </l>
+            <l n="1190">Pour tromper auJourd'hui ton peuple et ta milice ? </l>
+            <l n="1191">Quoi ? Feindre pour la Mecque un voeu de sainteté; </l>
+            <l n="1192">C'est te trahir toi-même avec impiété ! </l>
+            <l n="1193">Et c'est prendre à témoin la puissance divine </l>
+            <l n="1194">D'une mauvaise foi que Byzance devine, </l>
+            <l n="1195">Et qui sous la couleur d'un voile spécieux </l>
+            <l n="1196">A paru dès l'abord toute claire à nos yeux. </l>
+            <l n="1197">Nous savons bien, Seigneur ! que ce pèlerinage </l>
+            <l n="1198">Est vraiment une fuite et non pas un voyage : </l>
+            <l n="1199">Il ne faut point user de serments superflus ; </l>
+            <l n="1200">On voit bien que tu pars pour ne revenir plus. </l>
+            <l n="1201">Tu n'as rien oublié de toutes tes richesses ; </l>
+            <l n="1202">On en a vu remplir un grand nombre de caisses, </l>
+            <l n="1203">Et le soin d'emporter tes plus riches trésors </l>
+            <l n="1204">T'a fait même passer jusqu'au séjour des morts. </l>
+            <l n="1205">L'âme du grand Acmat dans une voûte obscure, </l>
+            <l n="1206">Si l'on en croit les tiens, en a fait un murmure, </l>
+            <l n="1207">S'est plainte bassement de quoi l'on est entré </l>
+            <l n="1208">Pour ôter une enseigne à son turban sacré : </l>
+            <l n="1209">Et même t'a repris, par des songes funestes, </l>
+            <l n="1210">Du dessein que tu fais d'abandonner ses restes. </l>
+            <l n="1211">Quitte donc cet objet qui t'est pernicieux, </l>
+            <l n="1212">Et qui peut t'attirer la colère des Cieu x; </l>
+            <l n="1213">Et pour mieux conserver ta gloire et ta couronne, </l>
+            <l n="1214">Sois un peu moins facile aux conseils qu'on te donne : </l>
+            <l n="1215">Reconnais le danger où ce charme t'a mis, </l>
+            <l n="1216">Et discerne les tiens d'entre tes ennemis ; </l>
+            <l n="1217">C'est ce que notre corps en larmes te demande. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1218">Et les têtes des trois qu'il faut que l'on nous rende. </l>
+            <l n="1219">Pour nous voir à la fin d'un si grand déplaisir, </l>
+            <l n="1220">Il faut que nous ayons celle du grand Vizir, </l>
+            <l n="1221">Celle du secrétaire et celle de ce traître </l>
+            <l n="1222">Qui s'est rendu si riche en dérobant son maître. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1223">Leur audace à tel point ose se dérégler ! </l>
+            <l n="1224">Où sont des Capigis qu'on les aille étrangler. </l>
+          </sp>
+          <sp who="tc0908-ORCANE">
+            <speaker>ORCANE.</speaker>
+            <l n="1225">Ne ferme plus l'oreille à nos justes requêtes ! </l>
+            <l n="1226">Seigneur, fais sur le champ qu'on nous donne ces têtes </l>
+            <l n="1227">Si tu ne satisfais nos désirs promptement, </l>
+            <l n="1228">Nous irons les saisir dans ton appartement. </l>
+          </sp>
+          <sp who="tc0908-LODIA">
+            <speaker>LODIA.</speaker>
+            <l n="1229">Quoi ? Parler à la porte avec tant d'insolence ? </l>
+            <l n="1230">Musulmans, l'Empereur vous impose silence ! </l>
+            <l n="1231">Il est temps de vous taire et de vous retirer. </l>
+          </sp>
+          <sp who="tc0908-SELIM">
+            <speaker>SELIM.</speaker>
+            <l n="1232">Non pas sans le revoir, et sans te déchirer ; </l>
+            <l n="1233">Monstre, qui te nourris des misères publiques, </l>
+            <l n="1234">Et t'enrichis toujours par des moyens obliques. </l>
+            <l n="1235">Qu'on tire sur ce traître ! Il a beau se cacher, </l>
+            <l n="1236">D'entre les bras d'Osman nous l'irons arracher. </l>
+            <l n="1237">Donnons, mes Compagnons ? Cette affaire avancée </l>
+            <l n="1238">N'a pas lieu maintenant d'être plus balancée : </l>
+            <l n="1239">C'est trop indignement se laisser rebuter. </l>
+            <l n="1240">C'est assez discourir ; il faut exécuter. </l>
+            <l n="1241">Mamud, pour consoler tout le camp qui soupire, </l>
+            <l n="1242">Ordonne de l'attaque et que le canon tire. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE.</head>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN, seul.</speaker>
+            <l n="1243">Fortune ! Nymphe inconstante, </l>
+            <l n="1244">Qui, sur une conque flottante, </l>
+            <l n="1245">Fais tourner ta voile à tout vent ! </l>
+            <l n="1246">Auras-tu pour Osman des outrages sans nombre ? </l>
+            <l n="1247">Il est si fort changé que ce n'est plus que l'ombre </l>
+            <l n="1248">De ce grand Empereur qu'il fut auparavant. </l>
+            <l n="1249">Le désordre de la licence </l>
+            <l n="1250">Qui choque aujourd'hui ma Puissance, </l>
+            <l n="1251">N'eut jamais de comparaison. </l>
+            <l n="1252">On ne voit en ce lieu que sang et que tueries, </l>
+            <l n="1253">On brise le sérail, et le feu des furies </l>
+            <l n="1254">Se porte sans respect jusqu'en cette maison. </l>
+            <l n="1255">D'ici la raison est bannie, </l>
+            <l n="1256">Le cours d'une aveugle manie </l>
+            <l n="1257">N'y reconnaît plus le devoir. </l>
+            <l n="1258">En ces extrémités quel secours dois-je attendre ? </l>
+            <l n="1259">Mes amis sont éteints, ce n'est plus rien que cendre, </l>
+            <l n="1260">Et tous mes ennemis accroissent leur pouvoir. </l>
+            <l n="1261">Monstres ennemis du mérite, </l>
+            <l n="1262">Et que son bel éclat irrite ! </l>
+            <l n="1263">Finirez-vous par mon trépas ? </l>
+            <l n="1264">Et vous, chers serviteurs, honorables victimes, </l>
+            <l n="1265">Dont la fidélité passe pour des grands crimes, </l>
+            <l n="1266">Mourrai-je du regret de ne vous venger pas ? </l>
+            <l n="1267">Rien n'est égal à ma disgrâce : </l>
+            <l n="1268">Le malheur me suit à la trace, </l>
+            <l n="1269">Je ne sais plus où me guider, </l>
+            <l n="1270">Je me trouve accablé de soucis et de peines ; </l>
+            <l n="1271">Et qui ne connaît point les misères humaines, </l>
+            <l n="1272">Pour en voir le tableau n'a qu'à me regarder. </l>
+            <l n="1273">Mon turban n'a plus sa couronne : </l>
+            <l n="1274">Son éclat pompeux environne </l>
+            <l n="1275">Le front d'un Dervis hébété. </l>
+            <l n="1276">Mustapha l'insensé m'ôte mon héritage, </l>
+            <l n="1277">Tout le monde me quitte et pour tout avantage </l>
+            <l n="1278">Je n'ai que ma valeur qui ne m'a point quitté. </l>
+            <l n="1279">Mustapha proclamé prendrait une couronne </l>
+            <l n="1280">Sur la tête d'Osman ? D'Osman ? Cela m'étonne. </l>
+            <l n="1281">Si les fils d'Ismaël, dont le camp glorieux </l>
+            <l n="1282">Paraît tantôt vaincu, tantôt victorieux, </l>
+            <l n="1283">Avaient en nos combats le sort si favorable </l>
+            <l n="1284">Que leur prospérité me rendit misérable : </l>
+            <l n="1285">Encor qu'à leur progrès je me visse immolé </l>
+            <l n="1286">Ce malheur éclatant me rendrait consolé ; </l>
+            <l n="1287">J'y verrais pour le moins quelque ombre de justice ; </l>
+            <l n="1288">Un beau coup me ferait tomber au précipice. </l>
+            <l n="1289">Si c'était Ladislas, que j'ai vu quelquefois </l>
+            <l n="1290">Combattre au premier rang dans de fameux exploits, </l>
+            <l n="1291">Et montrer aux périls un courage intrépide, </l>
+            <l n="1292">Que pousse la valeur et que la gloire guide : </l>
+            <l n="1293">Je ne trouverais pas mon sort trop inhumain. </l>
+            <l n="1294">Je dirais : je péris ; mais d'une belle main. </l>
+            <l n="1295">Et le bras glorieux sous lequel je succombe, </l>
+            <l n="1296">De ses propres lauriers peut honorer ma tombe. </l>
+            <l n="1297">Mais que je sois détruit, mais que je sois chassé, </l>
+            <l n="1298">Par un homme idiot, par un oncle insensé, </l>
+            <l n="1299">Qui s'est réduit lui-même en un lieu solitaire,</l>
+            <l n="1300">Qui ne saurait parler, ni ne saurait se taire ; </l>
+            <l n="1301">Qu'à ce Prince hébété l'Empire soit offert, </l>
+            <l n="1302">C'est un nouveau Dédale où ma raison se perd : </l>
+            <l n="1303">C'est un accablement où toute ma constance </l>
+            <l n="1304">Ne saurait opposer assez de résistance, </l>
+            <l n="1305">Je ne puis démêler un noeud si fort confus, </l>
+            <l n="1306">Je m'y vois, je m'y cherche, et ne m'y trouve plus. </l>
+            <l n="1307">Toutefois, quelque espoir flatte encore mon âme. </l>
+            <l n="1308">Ussin Bassa me garde un zèle tout de flamme ; </l>
+            <l n="1309">Il peut encor pour moi quelque ligue former </l>
+            <l n="1310">Avec son confident le Bassa de le Mer. </l>
+            <l n="1311">Il faut que j'aille voir ce couple si fidèle </l>
+            <l n="1312">Qui soutiendra ma chute et prendra ma querelle : </l>
+            <l n="1313">Il faut mettre à l'épreuve une longue amitié. </l>
+            <l n="1314">Que peuvent augmenter les traits de la pitié. </l>
+            <l n="1315">Cieux ! Qu'est-ce que je vois ! Cette fille importune </l>
+            <l n="1316">Accroît par son objet ma mauvaise fortune. </l>
+            <l n="1317">Ne prenons pas la route où ses pas sont tournés. </l>
+            <l n="1318">Ou passons promptement, le mouchoir sur le nez. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. La Fille du Mufti, Osman, Fatime.</head>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1319">Arrête, digne Prince ! Autant que misérable, </l>
+            <l n="1320">Sois civil à qui plaint ton sort si déplorable, </l>
+            <l n="1321">Et salue, en passant, la fille d'un Mufti </l>
+            <l n="1322">Qui de tant de malheurs t'aurait bien garanti ; </l>
+            <l n="1323">Si tu n'eusses troublé la paix de sa famille, </l>
+            <l n="1324">En faisant un éclat au mépris de sa fille ; </l>
+            <l n="1325">Si ton orgueil trop grand eut un peu respecté </l>
+            <l n="1326">L'éclat de ses vertus et de sa sainteté ; </l>
+            <l n="1327">Tes jours auraient le calme au lieu de la tempête, </l>
+            <note type="L">Diadème : C'était autrefois un bandeau royal de tissu de fil, de laine, ou de soie, qui était la marque de la royauté, parce que les rois s'en ceignaient le front pour laisser le couronne aux Dieux. [L]</note>
+            <l n="1328">Le diadème encor brillerait sur ta tête, </l>
+            <l n="1329">Et le sacré respect de la religion </l>
+            <l n="1330">Prendrait tes intérêts en cette occasion. </l>
+            <l n="1331">Mon père affermissant sur ton front la couronne </l>
+            <l n="1332">Maintiendrait le respect qu'on doit à ta personne : </l>
+            <l n="1333">Avant que de la sorte on t'osât assaillir </l>
+            <l n="1334">La Loi de Mahomet viendrait à défaillir. </l>
+            <l n="1335">Dans tes mauvais succès tu vois ton injustice; </l>
+            <l n="1336">Tu vois quel est le tort que t'a fait ton caprice. </l>
+            <l n="1337">Que me peux-tu répondre en ce funeste jour ? </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1338">Que je trouve mes maux plus doux que ton amour. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1339">J'aurais par mon amour affermi ta puissance. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1340">Ce mal aurait possible accablé ma constance. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1341">Mon amour en ta bouche un mal se peut nommer ! </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1342">Je penserais plutôt à mourir qu'à t'aimer. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1343">Seigneur ! Par ces rigueurs tu punis mon audace, </l>
+            <l n="1344">Qui trop insolemment s'attache à ta disgrâce : </l>
+            <l n="1345">Aussi, t'oser blâmer durant cette saison, </l>
+            <l n="1346">C'est manquer de courage autant que de raison. </l>
+            <l n="1347">Pardonne-moi ce crime, ô Prince magnanime ! </l>
+            <l n="1348">Si ce premier transport peut passer pour un crime, </l>
+            <l n="1349">Tu sais bien que mon sexe a trop de vanité </l>
+            <l n="1350">Pour être sans dépit quand il est rebuté ; </l>
+            <l n="1351">Mais je tiendrais pourtant mes pensers condamnables </l>
+            <l n="1352">S'ils osaient insulter au sort des misérables. </l>
+            <l n="1353">Si la publique voix d'une aveugle fureur </l>
+            <l n="1354">N'avait point à tes yeux fait un autre empereur, </l>
+            <l n="1355">Si ton autorité reprenait la licence, </l>
+            <l n="1356">Si le Sérail encor était en ta puissance, </l>
+            <l n="1357">Et qu'on t'en vit sortir en glorieux vainqueur, </l>
+            <l n="1358">Je prendrais un poignard pour te percer le cour. </l>
+            <l n="1359">Et faire voir à tous par l'effet de ma haine </l>
+            <l n="1360">Que je mérite bien d'être Sultane Reine : </l>
+            <l n="1361">Mais aujourd'hui, Seigneur, te voyant détrôné, </l>
+            <l n="1362">Mal voulu des soldats, des tiens abandonné. </l>
+            <l n="1363">Sans crédit, sans amis, et même sans retraite, </l>
+            <l n="1364">Je suspens ma vengeance et notre paix est faite. </l>
+            <l n="1365">Mon cour en tes malheurs trouve si peu de droit, </l>
+            <l n="1366">Qu'il irait s'opposer à qui te poursuivrait, </l>
+            <l n="1367">Te servant de bouclier dans cette violence </l>
+            <l n="1368">Pour préserver ton sein des traits que l'on te lance : </l>
+            <l n="1369">Mais sur ces sentiments ne t'imagine pas </l>
+            <l n="1370">Que ta grandeur passée eut pour moi des appas. </l>
+            <l n="1371">Je trouvais ta personne encor plus précieuse </l>
+            <l n="1372">Et je ne t'aimais point comme une ambitieuse. </l>
+            <l n="1373">De peur que ton esprit ne soit en quelque erreur, </l>
+            <l n="1374">J'aimais Osman lui-même et non pas l'Empereur, </l>
+            <l n="1375">Et je considérais en ta noble personne </l>
+            <l n="1376">Des brillants d'autre prix que ceux de ta couronne. </l>
+            <l n="1377">Si les décrets du Ciel, si l'ordre du Destin </l>
+            <l n="1378">Avaient mis sous mes lois les climats du matin , </l>
+            <l n="1379">Et si, par des progrès où ta valeur aspire. </l>
+            <l n="1380">Le Danube et le Rhin coulaient dans mon Empire, </l>
+            <l n="1381">Osman de ces États serait maître aujourd'hui ; </l>
+            <l n="1382">Il n'aurait qu'à m'aimer et tout serait à lui. </l>
+            <l n="1383">Ne fut-il qu'un Soldat vêtu d'une cuirasse, </l>
+            <l n="1384">N'eut-il rien que son cour, son esprit et sa grâce, </l>
+            <l n="1385">Et mon âme serait encore au désespoir </l>
+            <l n="1386">De n'avoir rien de plus pour mettre en son pouvoir. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1387">C'est assez, c'est assez, n'en dis pas davantage !</l>
+            <l n="1388">Un si tendre propos amollit mon courage, </l>
+            <l n="1389">J'ai besoin qu'il soit ferme en l'état où je suis. </l>
+            <l n="1390">Et ces traits de ton zèle augmentent mes ennuis. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1391">Mon zèle est grand, Seigneur ! et souhaite ta gloire. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1392">L'assiette où je me vois m'oblige de le croire ; </l>
+            <l n="1393">Mais Osman moins que toi se trouve intéressé. </l>
+            <l n="1394">Ne me retarde plus. Adieu ! Je suis pressé. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1395">Mais où vas-tu, Seigneur ! délaissé de la sorte ? </l>
+            <l n="1396" part="I">Tu cours à ton trépas. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1396" part="F">Il n'importe, il n'importe. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1397">Veuille te retirer en cet appartement. </l>
+            <l n="1398" part="I">On te cherche partout. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1398" part="F">Nullement, nullement. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1399">Ta tête est mise à prix, ne t'expose donc guère. </l>
+          </sp>
+          <sp who="tc0908-OSMAN">
+            <speaker>OSMAN.</speaker>
+            <l n="1400">Au plus hardi marchand, je la vendrai bien chère. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. La Fille du Mufti, Fatime.</head>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1401">Ha ! Le cour insensible, ha ! Le cruel qu'il est, </l>
+            <l n="1402">Sa cruauté me tue et sa vertu me plaît : </l>
+            <l n="1403">Il ne me peut souffrir, il me hait, il m'abhorre; </l>
+            <l n="1404">Il me quitte, il me fuit, et si je l'aime encore. </l>
+            <l n="1405">Ô Sultan malheureux ! On va dessus tes traces. </l>
+            <l n="1406">On va par ton trépas terminer tes disgrâces, </l>
+            <l n="1407">Et ton cour qui paraît et si grand et si haut </l>
+            <l n="1408">Ne pourra soutenir un si puissant assaut. </l>
+            <l n="1409">Je vois ta résistance et vois ton cimeterre </l>
+            <l n="1410">Faire voler d'abord quelques testes par terre; </l>
+            <l n="1411">Mais il faudra subir les lois de ton malheur, </l>
+            <l n="1412">Et qu'à la fin le nombre accable la valeur : </l>
+            <l n="1413">Il faudra que des tiens la fureur sans seconde </l>
+            <l n="1414">Donne une nuit dernière aux plus beaux jours du monde. </l>
+            <l n="1415">Pourquoi t'ai-je revu, Prince trop glorieux ? </l>
+            <l n="1416">Que n'ai-je été pour toi sans oreille, sans yeux, </l>
+            <l n="1417">Sans orgueil, sans courroux, sans esprit, sans adresse, </l>
+            <l n="1418">Sans soupirs et sans pleurs, ou plutôt sans tendresse ? </l>
+            <l n="1419">Pourquoi de ton objet me laissai-je toucher ? </l>
+            <l n="1420">Ou pourquoi n'es-tu pas plus tendre qu'un rocher ? </l>
+            <l n="1421">Pourquoi ta cruauté n'est-elle point capable </l>
+            <l n="1422">D'être pour mon sujet un peu moins qu'implacable ? </l>
+            <l n="1423">Je te suivrais partout dans ce pressant danger, </l>
+            <l n="1424">Soit pour te secourir, ou soit pour te venger : </l>
+            <l n="1425">Et si toute espérance enfin était perdue </l>
+            <l n="1426">J'aurais au moins le bien de périr à ta vue. </l>
+            <l n="1427">De marquer de mon sang la grandeur de ma foi, </l>
+            <l n="1428">Et de dire en mourant : « Osman, je meurs pour toi ! </l>
+            <l n="1429">D'un courage constant je meurs pour ta querelle. </l>
+            <l n="1430">Et je ne voudrais pas que ma mort fut plus belle : </l>
+            <l n="1431">Souviens-toi, que toi seul eus droit de me charmer, </l>
+            <l n="1432">Que je cesse de vivre et non pas de t'aimer. » </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="1433">Ha Madame ! Arrêtez ces larmes et ces plaintes, </l>
+            <l n="1434">Possible son salut dissipera vos craintes. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1435" part="I">Ha Fatime ! </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="1435" part="F">Jamais je n'ai bien su comment </l>
+            <l n="1436">Ce feu dans votre sein s'éprit si vivement : </l>
+            <l n="1437">Et si ce souvenir n'accroît votre martyre, </l>
+            <l n="1438" part="I">Dites-m'en quelque chose. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1438" part="F">Ha ! Le puis-je bien dire </l>
+            <l n="1439">Sans rougir, sans frémir ? Le puis-je dire, ô Dieux ! </l>
+            <l n="1440">Tout ce mal m'est venu d'avoir ouvert les yeux ! </l>
+            <l n="1441">Un bruit avantageux en ma triste mémoire </l>
+            <l n="1442">Avait déjà tracé mille traits à sa gloire. </l>
+            <l n="1443">Lorsque par sa présence et sans aucun dessein </l>
+            <l n="1444">Il se grava lui-même au milieu de mon sein. </l>
+            <l n="1445">En un jour triomphant, je le vis, ce Monarque </l>
+            <l n="1446">Dont le sort glorieux semble braver la Parque, </l>
+            <l n="1447">Que le jour était beau qui me fut si fatal ! </l>
+            <l n="1448">Je le vis comme en pompe, il sortait à cheval ; </l>
+            <l n="1449">Lorsque pour élever sa haute renommée </l>
+            <l n="1450">Il menait vers le Nord une puissante armée, </l>
+            <l n="1451">Jamais les yeux mortels n'ont rien vu de pareil ; </l>
+            <l n="1452">Il avait de l'éclat autant que le Soleil. </l>
+            <l n="1453">Il semblait qu'il marchât pour mettre tout en flamme, </l>
+            <l n="1454">Et ce feu dangereux ne brûla que mon âme. </l>
+            <l n="1455">J'observai trop ce Prince aimable et redouté, </l>
+            <l n="1456">Qui, s'il n'ôtait la vie, ôtoit la liberté. </l>
+            <l n="1457">Tant de charmants appas, de grâces, de merveilles </l>
+            <l n="1458">Entrèrent par mes yeux comme par mes oreilles; </l>
+            <l n="1459">Que ma raison timide à ce premier abord </l>
+            <l n="1460">Laissa ravir mon cour sans faire aucun effort, </l>
+            <l n="1461">Et par tant de vertus et de charmes séduite, </l>
+            <l n="1462">Se porta d'elle-même à quitter ma conduite : </l>
+            <l n="1463">Elle laissa mon âme au pouvoir de mes sens, </l>
+            <l n="1464">À la discrétion de ces désirs naissants, </l>
+            <l n="1465">Qui prenant toujours force et croissant à toute heure </l>
+            <l n="1466">Ont empiré le mal dont il faut que je meure. </l>
+            <l n="1467">À quels termes cruels, à quel point de malheur, </l>
+            <l n="1468">M'ont réduite depuis ma crainte et ma douleur ? </l>
+            <l n="1469">Mais enfin la douleur plus vivement empreinte </l>
+            <l n="1470">En mon âme enflammée a surmonté la crainte. </l>
+            <l n="1471">J'ai quitté les soupirs, les pleurs et les regrets. </l>
+            <l n="1472">Pour soulager mon mal par de meilleurs secrets : </l>
+            <l n="1473">En de tranquilles nuits vingt fois je suis allée </l>
+            <l n="1474">Conduite de l'amour, nus pieds, échevelée, </l>
+            <l n="1475">En des antres obscurs, aux entrailles des monts, </l>
+            <l n="1476">Pour demander avis et secours aux Démons : </l>
+            <l n="1477">Mais tout cela sans fruit ; car leur noire puissance </l>
+            <l n="1478">En recevant mes soins trompait mon innocence ; </l>
+            <l n="1479">Enfin, comme l'amour, quand il est bien puissant, </l>
+            <l n="1480">Se rend ingénieux et dévient agissant, </l>
+            <l n="1481">Je me voulus servir de cette aimable fille. </l>
+            <l n="1482">Que la soeur du Sultan prit en notre famille : </l>
+            <l n="1483">Tu sais bien tout le reste, il me souvint de toi, </l>
+            <l n="1484">Je déposai bientôt mon secret à ta foi, </l>
+            <l n="1485">Avec cette fatale et funeste peinture </l>
+            <l n="1486">Qui causa de nous deux la mauvaise aventure ; </l>
+            <l n="1487">Mais quels hommes de sang, quels horribles coureurs </l>
+            <l n="1488">Avec un si grand bruit augmentent mes terreurs ? </l>
+            <l n="1489">Ha ! Mon espoir se perd et mes craintes s'accroissent, </l>
+            <l n="1490">C'en est fait ; je l'apprends de ces gens qui paraissent. </l>
+            <l n="1491">Ils viennent tout exprès m'en faire le rapport. </l>
+            <l n="1492" part="I">Qu'est-ce que vous cherchez ? </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. La Fille du Mufti, Fatime, Mamud.</head>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1492" part="F">Madame, Osman est mort. </l>
+            <l n="1493">C'est de la part d'Orcan que nous venons te dire </l>
+            <l n="1494">Qu'il a perdu la vie aussi bien que l'Empire, </l>
+            <l n="1495">Et ce même Bassa t'en dirait le détail, </l>
+            <l n="1496">N'était que Mustapha le retient au sérail ; </l>
+            <l n="1497">Mais de ce grand avis ma bouche s'est chargée. </l>
+            <l n="1498">D'où vient que tout à coup sa couleur est changée ? </l>
+            <l n="1499">Il semble à ce discours que des ennuis pressants </l>
+            <l n="1500">Lui veuillent dérober la liberté des sens. </l>
+            <l n="1501">Un repentir tardif à son courroux succède ; </l>
+            <l n="1502">Mais quoi, cet accident est un mal sans remède ? </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1503" part="I">Ha ! Fatime !</l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="1503" part="M">Ha! Madame! </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1503" part="F">Osman mort aujourd'hui, </l>
+            <l n="1504">Toute notre espérance est morte avecque lui ; </l>
+            <l n="1505">Mais apprends-moi le reste et de quelle manière </l>
+            <l n="1506">Le Sultan fils d'Acmat a perdu la lumière. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1507">Madame, il l'a perdue avec tant de valeur, </l>
+            <l n="1508">Que Mustapha lui-même en a de la douleur ; </l>
+            <l n="1509">Il pleure cette mort, lui qui l'a commandée </l>
+            <l n="1510">Et qui d'une fenêtre encor l'a regardée. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1511">Je m'en étonne fort, une belle action </l>
+            <l n="1512">Apporte à ses auteurs bien peu d'affliction ; </l>
+            <l n="1513" part="I">Mais poursuis ce récit ! </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1513" part="F">Pour vous dire le reste </l>
+            <l n="1514">D'une chose admirable ; autant qu'elle est funeste, </l>
+            <l n="1515">Quand l'Empereur qui vit partout fut proclamé, </l>
+            <l n="1516">Osman, de ce grand bruit, ne fut point alarmé ; </l>
+            <l n="1517">Mais, travesti pourtant, alla parmi la ville </l>
+            <l n="1518">Faire de ses amis la recherche inutile : </l>
+            <l n="1519">Car les amis de Cour, ces mouches des Palais, </l>
+            <l n="1520">Dans les adversités ne nous suivent jamais : </l>
+            <l n="1521">Et si dans un bon sort leur lâcheté nous loue, </l>
+            <l n="1522">Leur main dans un mauvais nous jette de la boue. </l>
+            <l n="1523">Peu de gens prirent part à son grand déplaisir. </l>
+            <l n="1524">Hormis Ussin Bassa, qu'il fit son grand Vizir. </l>
+            <l n="1525">Honneur infructueux, sans crédit, sans puissance, </l>
+            <l n="1526">Et dont la fin bientôt a suivi la naissance : </l>
+            <l n="1527">Il voulait sous ce titre haranguer les soldats, </l>
+            <l n="1528">Leur donner des raisons qu'ils ne recevaient pas ; </l>
+            <l n="1529">Mais ces impatients choqués de son audace </l>
+            <l n="1530">L'ont en moins d'un moment déchiré sur la place : </l>
+            <l n="1531">Et ce peuple animé traîne encor les morceaux </l>
+            <l n="1532">De son corps misérable à travers les ruisseaux. </l>
+            <l n="1533">Tandis Osman le cherche et faisant ceste quête, </l>
+            <l n="1534">Trouve une Compagnie et Sélim à la tête </l>
+            <l n="1535">D'un mouchoir à l'instant il tâche à se cacher, </l>
+            <l n="1536">Mais Sélim reconnaît ce qu'il allait chercher ; </l>
+            <l n="1537">Le découvre à sa troupe et lui criant : « Arrête », </l>
+            <note type="L">Pertuisane : Arme d'hast, qui est une espèce de hallebarde qui a un fer plus long, plus large et plus tranchant que les autres. [F] </note>
+            <l n="1538">Tient pour le terrasser sa pertuisane prête. </l>
+            <l n="1539">Le Sultan pour cela ne s'épouvante pas, </l>
+            <l n="1540">Met le sabre à la main, le vient joindre au grand pas </l>
+            <l n="1541">Et, parant un grand coup avecque la main gauche </l>
+            <l n="1542">Lui met le corps en deux comme une herbe qu'on fauche, </l>
+            <l n="1543">Ensuite, se servant du même coutelas, </l>
+            <l n="1544">Il fait soudain voler vingt têtes et vingt bras : </l>
+            <note type="L">Presse : Foule, multitude de personnes qui se pressent. [Ac. 1762]</note>
+            <l n="1545">Les premiers abattus, il entre dans la presse, </l>
+            <l n="1546">Frappe de tous côtés et chamaille sans cesse, </l>
+            <l n="1547">Pénètre avec le fer jusqu'au septième rang </l>
+            <l n="1548">Et ne donne aucun coup sans répandre du sang : </l>
+            <l n="1549">De même qu'un lion pressé dans ine chasse. </l>
+            <l n="1550">Qui valets et piqueurs, chiens et chevaux terrasse, </l>
+            <l n="1551">Et paraît au péril noblement courroucé </l>
+            <l n="1552">En s'adressant toujours à ceux qui l'ont blessé, </l>
+            <l n="1553">Ainsi le grand Osman, deçà, delà, s'arrête </l>
+            <l n="1554">À quiconque paraît lui vouloir faire tête. </l>
+            <l n="1555">Et sans détruire ceux qui semblent s'effrayer, </l>
+            <l n="1556">Il court aux plus hardis et les va foudroyer : </l>
+            <l n="1557">Je crois qu'infatigable en sa propre furie </l>
+            <l n="1558">Il en eut jusqu'au soir fait une boucherie, </l>
+            <l n="1559">Si, tandis qu'il tenait encor le bras haussé, </l>
+            <l n="1560">D'un grand coup par derrière on ne l'eut point blessé ; </l>
+            <l n="1561">Mais le sifflant éclair d'une tranchante hache </l>
+            <l n="1562">La moitié du bras droit de l'autre lui détache : </l>
+            <l n="1563">Dès qu'il est désarmé, qu'il est hors de combat, </l>
+            <l n="1564">Chacun se jette à lui, par terre l'on l'abat, </l>
+            <l n="1565">Et comme encor d'un bras il lutte dans la fange. </l>
+            <l n="1566">Qu'il en tient quelques-uns qu'avec les dents il mange, </l>
+            <l n="1567">D'autres prennent le temps de le venir charger, </l>
+            <l n="1568">Et lui coupent le col sans courre aucun danger. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1569">Ô brutale furie ! Ô cruauté barbare ! </l>
+            <l n="1570">A-t-on pu l'exercer sur un sujet si rare ? </l>
+            <l n="1571">Ainsi donc fut meurtri par des monstres pervers </l>
+            <l n="1572">Le Prince le plus grand qui fut en l'Univers. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1573">Ce chef si glorieux, cette tête héroïque </l>
+            <l n="1574">Est portée au sérail sur le fer d'une pique, </l>
+            <l n="1575">On dirait qu'elle jette un regard menaçant. </l>
+            <l n="1576">Que d'un feu de vengeance elle éclaire en passant, </l>
+            <l n="1577">Et l'un de nos Dervis remarque en ce visage </l>
+            <l n="1578">De nos prochains malheurs un assuré présage. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1579">C'est assez, c'est assez, de grâce arrête-toi ! </l>
+            <l n="1580">On n'a rien fait encore, on ne peut rien sans moi. </l>
+            <l n="1581">Quoi que fidèlement ta bouche me raconte, </l>
+            <l n="1582">L'Impérieux Osman vit encor à ma honte. </l>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1583" part="I">Osman vivrait encor. </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1583" part="F">Oui, oui, tu ne sais pas </l>
+            <l n="1584">Qu'un obstacle secret s'oppose à son trépas; </l>
+            <l n="1585">De quelque haut exploit dont ta troupe se vante, </l>
+            <l n="1586">Le Sultan n'est point mort, puisque je suis vivante. </l>
+            <l n="1587">Je l'aperçois encor noblement dépité </l>
+            <l n="1588">Au retour de Pologne où les siens l'ont quitté. </l>
+            <l n="1589">Quand son grand cour contraint de cacher sa colère </l>
+            <l n="1590">Brûle d'un feu secret qui par ses yeux éclaire : </l>
+            <l n="1591">Je le vois, ce grand Prince, au point d'un partement </l>
+            <l n="1592°">Qui fait connaître aux siens son mécontentement ; </l>
+            <l n="1593">Je l'aperçois qui m'aime et qui me persécute, </l>
+            <l n="1594">Qu'il brave les malheurs et qu'il leur sert de butte, </l>
+            <l n="1595">Je vois son port auguste et plein de majesté, </l>
+            <l n="1596">Qui relève l'éclat d'une mêle beauté : </l>
+            <l n="1597">Et vois même briller, parmi l'air qu'il respire, </l>
+            <l n="1598">La grandeur Ottomane et celle de l'Empire. </l>
+            <l n="1599">On ne l'a pas détruit, encor qu'on l'ait surpris. </l>
+            <l n="1600">Il nage dans mon sang, il court dans mes esprits ; </l>
+            <l n="1601">Avec son insolence, avec son injustice, </l>
+            <l n="1602">Il subsiste en mon cour ; mais il faut qu'il périsse, </l>
+            <l n="1603">Il mourra sur le champ, cet aimable inhumain. </l>
+            <l n="1604">Qui ne pouvait mourir que d'un coup de ma main. </l>
+            <stage>Elle se donne trois coups de poignard.</stage>
+          </sp>
+          <sp who="tc0908-MAMUD">
+            <speaker>MAMUD.</speaker>
+            <l n="1605">Ha ! Madame, arrêtez ! Vous meurtrir de la sorte ! </l>
+          </sp>
+          <sp who="tc0908-LAFILLEDUMUFTI">
+            <speaker>LA FILLE DU MUFTI.</speaker>
+            <l n="1606" part="I">C'en est fait ! C'en est fait ! </l>
+          </sp>
+          <sp who="tc0908-FATIME">
+            <speaker>FATIME.</speaker>
+            <l n="1606" part="F">Ha ! Malheur ! Elle est morte ! </l>
+            <l n="1607">Soutenez-la de grâce et faites promptement </l>
+            <l n="1608">Qu'on mette nos deux corps dedans un monument. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

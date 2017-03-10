@@ -1,0 +1,2976 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Perside ou la suite d'ibrahim bassa</title>
+        <title type="sub">Tragédie</title>
+        <title type="short">Perside</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">DESFONTAINES, Nicolas Marie dit</name>
+          <name type="short">Desfontaines</name>
+          <idno type="viaf"/>
+        </author>
+        <principal>Texte établi par Camille Neumuller, dans le cadre d'un travail d'édition critique sous la direction de Georges Forestier. (Université Paris-Sorbonne)</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0422</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2015</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1644</date>, <idno/>, <ref target="#"/>. À PARIS, Chez TOUSSAINCT QUINET, au Palais, sous la montée de la Cour des Aides..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1642</date>, <idno/>, <ref target="#"/>. Représenté pour la première fois en 1642.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1641-1650</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>LES PERSONNAGES</head>
+        <castItem>
+          <role xml:id="tc0422-SOLIMAN">SOLIMAN</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-ERASTE">ERASTE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-ACHMAT">ACHMAT</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-PIRRUS">PIRRUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-HALY">HALY</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-PERSIDE">PERSIDE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-HERMINIE">HERMINIE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-ALCOMIRE">ALCOMIRE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-ORMANE">ORMANE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0422-TROUPEDEJANISSAIRES">TROUPE DE JANISSAIRES</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La Scène est au Sérail, de dehors à Constantinople.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Soliman, et sa suite, Eraste, Herminie, et suite ; Dès l'ouverture du Théâtre paraîtront des deux côtés les drapeaux de Rhodes et ceux de Bellegrade.</head>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1">En quel état, Seigneur, faut-il que je paraisse ?</l>
+            <l n="2">Quel rang dois-je tenir auprès de ta Hautesse ?</l>
+            <l n="3">Si devers ces drapeaux elle tourne les yeux</l>
+            <l n="4">Elle me recevra comme victorieux,</l>
+            <l n="5">Mais de l'autre côté ces marques de ta gloire </l>
+            <l n="6">Par un pompeux éclat effacent ma victoire,</l>
+            <l n="7">Et ces nobles témoins à mes yeux trop connus</l>
+            <l n="8">M'apprennent que je suis au rang de tes vaincus :</l>
+            <l n="9">En quelque état pourtant que je puisse paraître</l>
+            <l n="10">Ou vainqueur ou vaincu, je reconnais mon maître </l>
+            <l n="11">Trop heureux si de toi j'obtiens la qualité</l>
+            <l n="12">De sujet plein de zèle et de fidélité.</l>
+            <l n="13">Rhodes par ta valeur à tes lois asservie</l>
+            <l n="14">Et moins digne à mes yeux de pitié que d'envie,</l>
+            <l n="15">Et je vois sans regret mon Pays abattu </l>
+            <l n="16">Rendre un illustre hommage à ta haute vertu,</l>
+            <l n="17">Si lorsque tu le pris pour objet de tes armes</l>
+            <l n="18">Je refusai d'y mener tes gens d'armes,</l>
+            <l n="19">Ce n'est pas que son sort ne me fut apparent</l>
+            <l n="20">Mais c'est que je voulais qu'il t'eut pour conquérant </l>
+            <l n="21">Et que la qualité du bras qui le surmonte</l>
+            <l n="22">Par le rang du vainqueur diminuât sa honte,</l>
+            <l n="23">Contre lui ta Hautesse a fait un juste effort</l>
+            <l n="24">Et moi je ne pouvais le combattre sans tort,</l>
+            <l n="25">Je me rendais ingrat, attaquant ce rebelle, </l>
+            <l n="26">J'étais traître envers lui, si je t' étais fidèle ;</l>
+            <l n="27">Et quelque heureux succès qu'eut produit ma valeur</l>
+            <l n="28">Mon triomphe eut sans doute étouffé mon honneur,</l>
+            <l n="29">Au lieu que par une autre et plus juste victoire</l>
+            <l n="30">J'ai signalé Seigneur ton nom et ma mémoire, </l>
+            <l n="31">Soumis à ton Empire un Royaume puissant</l>
+            <l n="32">Et forcé le Soleil à craindre le Croissant,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="33">Tu me fais tort Eraste, et ton respect m'offense</l>
+            <l n="34">Si retournant vainqueur de l'effroi de Byzance,</l>
+            <l n="35">Après ce grand exploit tu peux encore douter </l>
+            <l n="36">En quelle qualité tu te dois présenter,</l>
+            <l n="37">Ton insigne valeur te peut assez apprendre</l>
+            <l n="38">Auprès de Soliman le rang que tu dois prendre,</l>
+            <l n="39">Et nonobstant l'orgueil d'un suprême pouvoir</l>
+            <l n="40">Je sais bien de quel front je te dois recevoir, </l>
+            <l n="41">Je lis sur ces drapeaux le destin des Rebelles</l>
+            <l n="42">La prise de Belgrade, et la mort de Gazelles,</l>
+            <l n="43">Qui sans doute en ses murs aima mieux s'enterrer</l>
+            <l n="44">Que d'attendre sa prise ou que s'en retirer.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="45">Tu l'as dit Soliman, il est mort ce rebelle </l>
+            <l n="46">Oui Seigneur, il est mort, mais sa mort est si belle,</l>
+            <l n="47">Et son dernier moment le rend si glorieux</l>
+            <l n="48">Que son trépas sans doute a fait des envieux,</l>
+            <l n="49">Il est mort : mais comment ? dans les bras de la gloire</l>
+            <l n="50">Après m'avoir deux fois arraché la victoire, </l>
+            <l n="51">Et contraint tes soldats de céder aux efforts</l>
+            <l n="52">Que son bras foudroyant fit sentir aux plus forts,</l>
+            <l n="53">D'abord que par ton ordre il me voit en campagne</l>
+            <l n="54">Il quitte les remparts, il sort, il me dédaigne,</l>
+            <l n="55">Et superbe avançant à la tête des siens </l>
+            <l n="56">Sans attendre le choc il attaque les miens </l>
+            <l n="57">En ce premier abord sa valeur ou sa rage</l>
+            <l n="58">Malgré ma résistance a beaucoup d'avantage, </l>
+            <l n="59">Dans sa témérité son dessein réussit</l>
+            <l n="60">La mort va par les rangs que son fer éclaircit</l>
+            <l n="61">Et je me vois réduit en ce désordre extrême </l>
+            <l n="62">Par un beau désespoir de me perdre moi-même,</l>
+            <l n="63">Ou de rendre au soldat de frayeur abattu</l>
+            <l n="64">Par un trait généreux sa première vertu.</l>
+            <l n="65">Voyant donc que la peur d'une entière défaite</l>
+            <l n="66">Lui faisait méditer une indigne retraite, </l>
+            <l n="67">Et que les plus hardis cédant de toutes parts</l>
+            <l n="68">Tâchaient de se sauver avec leurs étendards</l>
+            <l n="69">Je me saisis du tien d'une ardeur infinie</l>
+            <l n="70">Et le lance au travers de l'armée ennemie,</l>
+            <l n="71">A cet objet chacun sent un noble courroux</l>
+            <l n="72">La honte les ranime et les ramène aux coups, </l>
+            <l n="73">Où toujours le dépit embrasant leur courage </l>
+            <l n="74">L'ennemi cède enfin à ce dernier orage</l>
+            <l n="75">Et mon Rival superbe est trop tard averti</l>
+            <l n="76">Que l'heur qui le suivait à quitté son parti.</l>
+            <l n="77">Presque seul il demeure engagé dans la presse</l>
+            <l n="78">Il ne s'étonne pas, il frappe, il tue, il blesse,</l>
+            <l n="79">Il attaque, il défend, et son courage est tel</l>
+            <l n="80">Que parmi tant de morts il parait immortel :</l>
+            <l n="81">On le craint, on l'admire, on fuit à sa rencontre,</l>
+            <l n="82">Je le cherche, et bientôt sa valeur me le montre, </l>
+            <l n="83">Je l'arrête, et de peur qu'en ce combat fatal</l>
+            <l n="84">Il m'échappe, je joins et j'abats son cheval,</l>
+            <l n="85">Prévoyant le danger l'insolent saute à terre</l>
+            <l n="86">Et me rend la pareille à coups de cimeterre :</l>
+            <l n="87">Nous voyant main à main, tous deux piqués d'honneur </l>
+            <l n="88">Tous deux sans avantage et tous deux pleins de cour,</l>
+            <l n="89"> Compagnons dis-je aux miens laissez-moi cette gloire</l>
+            <l n="90">Que je puisse tout seul achever la victoire !</l>
+            <l n="91">A moi seul appartient ce généreux effort !</l>
+            <l n="92">Soyez donc seulement les témoins de mon sort ! </l>
+            <l n="93">J'ordonne, on m'obéit, notre combat commence,</l>
+            <l n="94">J'attaque mon Rival, il se met en défense,</l>
+            <l n="95">Et sait si vaillamment soutenir mon assaut</l>
+            <l n="96">Que plus il perd de sang plus son courage est haut :</l>
+            <l n="97">Mais malgré ce grand cour sa force enfin le laisse </l>
+            <l n="98">Son corps percé de coups chancelle de faiblesse,</l>
+            <l n="99">Et se voyant ainsi sur le point de périr :</l>
+            <l n="100"> Je n'ai pu me dit-il te vaincre, il faut mourir</l>
+            <l n="101">C'est à quoi maintenant mon honneur me convie</l>
+            <l n="102">Et je vais satisfaire à cette illustre envie, </l>
+            <l n="103">Je le veux empêcher, mais inutilement</l>
+            <l n="104">Car son fer est plus prompt que mon empêchement.</l>
+            <l n="105">Il tombe, et par ce trait d'une constance extrême</l>
+            <l n="106">Ce grand cour en mourant triomphe de lui-même,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="107">Puisque Rhodes produit de si braves guerriers </l>
+            <l n="108">Par là juge combien m'ont coûté mes lauriers ,</l>
+            <l n="109">Juge pour asservir un peuple opiniâtre.</l>
+            <l n="110">Combien nous avons eu d'Erastes à combattre ,</l>
+            <l n="111">Certes, lorsque j'ai vu des cours si résolus</l>
+            <l n="112">J'ai cru plus d'une fois mes desseins superflus, </l>
+            <l n="113">Et que mille vaisseaux combattant leur audace</l>
+            <l n="114">Reverraient sans effet le Bosphore de Thrace.</l>
+            <l n="115">Mais enfin ma valeur et le sort m'ont soumis</l>
+            <l n="116">Les plus déterminés de tous mes ennemis,</l>
+            <l n="117">Tu sauras le succès de toutes nos batailles ; </l>
+            <l n="118">Mais c'est assez parlé de funérailles,</l>
+            <l n="119">Il est temps que la paix succède à tant de maux</l>
+            <l n="120">Et que je donne un prix à tes nobles travaux.</l>
+            <l n="121">J'ai reçu de tes mains le fruit de ta conquête</l>
+            <l n="122">Et de ma part aussi la récompense est prête, </l>
+            <l n="123">Vois cet objet divin, cette illustre beauté</l>
+            <l n="124">Où préside la grâce avec la majesté !</l>
+            <l n="125">Je te la donne Eraste, et crois qu'en Herminie</l>
+            <l n="126">Je te fais un présent de valeur infinie.</l>
+            <l n="127">Il est vrai que le sort l'a soumise à mes lois </l>
+            <l n="128">Mais son mérite peut se soumettre des Rois ;</l>
+            <l n="129">Et moi-même aujourd'hui je confesse sans honte</l>
+            <l n="130">Que malgré mes efforts sa beauté me surmonte,</l>
+            <l n="131">Et qu'ici tous mes sens révoltés contre moi</l>
+            <l n="132">Ne la céderaient pas à tout autre qu'à toi. </l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="133">Puisque ce rare objet a l'honneur de te plaire</l>
+            <l n="134">Ton Eraste Seigneur, n'est pas si téméraire,</l>
+            <l n="135">Que de jeter les yeux ou des voeux indiscrets</l>
+            <l n="136">Sur un bien qui pourrait te coûter des regrets.</l>
+            <l n="137">Tu ferais trop pour moi donnant cette Princesse </l>
+            <l n="138">Elle a des qualités dignes de ta hautesse</l>
+            <l n="139">Et si je consentais au don que tu me fais</l>
+            <l n="140">Ta générosité trahiraient tes souhaits.</l>
+            <l n="141">Ne fais point cet effort où ton rang te dispense,</l>
+            <l n="142">L'honneur de te servir m'est trop de récompense. </l>
+            <l n="143">De tes contentements je forme mes plaisirs,</l>
+            <l n="144">Et ce rare bonheur borne tous mes désirs.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="145">Eraste, encore un coup je t'avouerai sans feinte</l>
+            <l n="146">Que pour cette beauté je ressens quelqu'atteinte,</l>
+            <l n="147">Mais quelques doux attraits qu'ait un bien si charmant </l>
+            <l n="148">Ton insigne valeur me touche également,</l>
+            <l n="149">Et voyant ton ardeur et si pure et si forte,</l>
+            <l n="150">Sur mes affections ton mérite l'emporte.</l>
+            <l n="151">Puisque tes volontés se forment de mes voeux</l>
+            <l n="152">Ne me conteste plus ce laurier que je veux, </l>
+            <l n="153">J'ai fait sur mon amour triompher ta vaillance,</l>
+            <l n="154">Laisse-toi maintenant vaincre à ma bienveillance</l>
+            <l n="155">Accepte de ma main... Quoi vous me résistez ? </l>
+            <stage>Comme il va pour prendre la main à Herminie, elle refuse.</stage>
+            <l n="156">D'où provient cet orgueil ? Naît-il de vos beautés ?</l>
+            <l n="157">Quoi ? parce que j'ai dit qu'elles m'ont fait esclave </l>
+            <l n="158">Cet oeil impérieux fait le vain, et me brave ?</l>
+            <l n="159">Obéissez Madame, et vous connaissez mieux.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="160">Je me connais Seigneur, et j'atteste les Dieux,</l>
+            <l n="161">Que ce que ta hautesse a pris pour arrogance</l>
+            <l n="162">Est un trait de courage autant que de prudence, </l>
+            <l n="163">Je sais ce que je suis, et ce que je te dois, </l>
+            <l n="164">Je sais que le destin m'a soumise à tes lois,</l>
+            <l n="165">Et je n'ignore pas que j'aurais peu de grâce</l>
+            <l n="166">En un si triste état de montrer de l'audace.</l>
+            <l n="167">Mais mon fort ne rend pas mon esprit si confus </l>
+            <l n="168">Qu'il ne me sache au mépris opposer le refus.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="169">Vous redoutez un mal qui n'a point d'apparence</l>
+            <l n="170">Quoi ces profonds respects, et cette déférence,</l>
+            <l n="171">Qu'à votre occasion Eraste m'a fait voir</l>
+            <l n="172" part="I">Vous choquent.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="172" part="F"> Non Seigneur, il a fait son devoir, </l>
+            <l n="173">Il te doit cet honneur, il te doit cet hommage.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="174">Quel est donc ce mépris que craint votre courage ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="175">Celui que ta Hautesse eut enfin reconnu</l>
+            <l n="176">Si ma juste froideur ne l'eut pas prévenu.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="177">Eraste, as-tu conçu quelque haine pour elle ? </l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="178">Je ne suis pas si lâche, et Madame est trop belle.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="179">Il en est à vos yeux de plus belles que moi.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="180">Mais s'il vous aime enfin recevrez-vous sa foi ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="181">Alors que j'aurai vu des effets de sa flamme</l>
+            <l n="182">Il verra le pouvoir qu'il aura sur mon âme. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="183">En louant vos beautés il montre son amour</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="184">La louange est un bien qu'on produit à la Cour</l>
+            <l n="185">Et qu'Eraste obligeant donnerait à toute autre,</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="186">S'il voyait un mérite aussi grand que le vôtre,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="187">Ces compliments adroits et ces subtilités </l>
+            <l n="188">Font voir bien moins d'amour que de civilités,</l>
+            <l n="189">Avant que mon cour aime et que ma foi s'engage</l>
+            <l n="190">Je veux d'autres devoirs qu'un frivole langage.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="191">Un courage si franc est rarement trompeur,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="192">Le temps seul me pourra guérir de cette peur, </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN, à Eraste.</speaker>
+            <l n="193">Il faut à ses désirs accorder quelque chose</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="194">J'obéis sans contrainte a la loi qu'elle m'impose</l>
+            <l n="195">Certain que mon amour et ma fidélité,</l>
+            <l n="196">Seront un rare exemple à la postérité.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="197">Voila déjà Madame un effet de vos charmes, </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="198" part="I">J'en doute.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="198" part="F">Cependant va mettre bas les armes.</l>
+            <l n="199">Et puis viens témoigner que tu peux tour-à-tour</l>
+            <l n="200">Joindre aux Lauriers de Mars les myrtes de l'amour.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Soliman. Herminie et suite.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="201">Ne dissimulez plus belle et sage Herminie</l>
+            <l n="202">Dites-moi franchement toute feinte bannie,</l>
+            <l n="203">D'où naissent vos froideurs, et quelle opinion </l>
+            <l n="204">Vous porte pour Eraste à tant d'aversion ?</l>
+            <l n="205">Quel est le fondement de votre défiance ?</l>
+            <l n="206">Est-ce une conjecture, ou quelque expérience ?</l>
+            <l n="207">A-t-il autrefois vu vos célestes beautés ?</l>
+            <l n="208">L'orgueil a-t-il paru parmi ses qualités ? </l>
+            <l n="209">A-t-il trompé vos voeux par des promesses vaines ?</l>
+            <l n="210">Poussé de faux soupirs, entretenu vos peines ?</l>
+            <l n="211">Ou croyez-vous enfin qu'en quelque occasion</l>
+            <l n="212">Il ait manqué d'amour, ou de discrétion ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="213">Non Seigneur, ton Eraste est la même prudence </l>
+            <l n="214">Il est noble, il est franc, il est sans insolence,</l>
+            <l n="215">Et bien qu'il n'ait jamais jeté les yeux sur moi</l>
+            <l n="216">Je sais pourtant qu'il est plein d'ardeur et de foi,</l>
+            <l n="217">Que sa discrétion jointe à sa modestie</l>
+            <l n="218">N'est de ses qualités que la moindre partie, </l>
+            <l n="219">Et qu'il n'est point de cour quelqu'orgueil qu'il ait eu</l>
+            <l n="220">Qui n'ait plus d'une fois envié sa vertu.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="221">Pourquoi donc auprès d'elle êtes-vous sans atteinte ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="222">Elle me toucherait si j'avais moins de crainte.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="223">Mais la crainte est injuste ou tout est si parfait. </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="224">De ses perfections c'est pourtant un effet.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="225">Mais vous-même avouez que son âme est fidèle,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="226">Et je crains justement à cause qu'elle est telle.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="227">Ce discours est obscur parlez plus clairement.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="228">C'est qu'il aime Seigneur un objet si charmant, </l>
+            <l n="229">Qu'en vain j'espérerais de porter son courage</l>
+            <l n="230">A me rendre jamais un volontaire hommage,</l>
+            <l n="231">Il aime trop ses fers, il les trouve trop beaux</l>
+            <l n="232">Pour vouloir de ma main en prendre de nouveaux.</l>
+            <l n="233">Connaissant une amour et si rare et si forte </l>
+            <l n="234" part="I">Mais on nous interrompt.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="234" part="F">Qu'est-ce ? achevez n'importe.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="235">Non Seigneur, ta Hautesse aura plus de plaisir</l>
+            <l n="236">Si je t'en entretiens avec plus de loisir,</l>
+            <l n="237">Cet éclaircissement est de trop longue haleine </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="238" part="I">Bien donc à tantôt.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Soliman. Herminie et suite.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="238" part="F">Parlez, qui vous amène ?</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="239">Je te viens avertir qu'Achmat vient d'arriver</l>
+            <l n="240" part="I">Il demande à te voir</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="240" part="F"> Qu'il me vienne trouver </l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="241">Je crois pour cet effet qu'il attend à la porte,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="242" part="I">Qu'il entre.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="242" part="F"> N'est-il pas à propos que je sorte ?</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="243" part="I">Vous le pouvez.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="243" part="M"> Adieu. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Soliman, Pirrus, Achamt, Perside, et suite.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="243" part="F">Que vois-je justes Dieux ?</l>
+            <l n="244">Quel Ange de lumière apparaît à mes yeux ?</l>
+            <l n="245">Celle qu'on dit jadis qui régnait en Cythère</l>
+            <l n="246">Et qu'autrefois amour avoua pour sa mère,</l>
+            <l n="247">Bien qu'on l'ait estimée une divinité </l>
+            <l n="248">N'eut jamais tant d'attraits qu'en à cette beauté.</l>
+            <l n="249">Mais peut-être qu'aussi n'est-elle pas mortelle.</l>
+            <l n="250">Qu'est-ce donc cher Achmat ? Dites-moi, que veut-elle ?</l>
+            <l n="251">Attendrait-elle bien quelque grâce de nous ?</l>
+            <l n="252">Ah ! J'implore la sienne, et l'attends à genoux. </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="253">Ah Seigneur que fais-tu ? Quoi Soliman s'abaisse !</l>
+            <l n="254">Ah cet abaissement offense ta Hautesse,</l>
+            <l n="255">Cet honneur t'appartient, il est de son devoir</l>
+            <l n="256">Elle te le doit rendre et non le recevoir,</l>
+            <l n="257">Ta puissance aujourd'hui sur elle souveraine </l>
+            <l n="258" part="I">En peut faire une esclave.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="258" part="F">Ou plutôt une Reine</l>
+            <l n="259">Oui Madame, espérez de mon affection</l>
+            <l n="260">Des faveurs au-delà de votre ambition,</l>
+            <l n="261">Attendez tout de moi grandeur, sceptre, couronne </l>
+            <l n="262">Richesses, dignités, je vous les abandonne</l>
+            <l n="263">Et loin de vous traiter avec quelque rigueur</l>
+            <l n="264">A tous ces beaux présents je veux joindre mon cour.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="265">Après avoir senti la fureur de tes armes</l>
+            <l n="266">Tes faveurs Soliman ont pour moi peu de charmes </l>
+            <l n="267">Et j'aurais peu de grâce en l'état ou je suis</l>
+            <l n="268">De recevoir tes dons quand tu fais mes ennuis :</l>
+            <l n="269">Ton amour de trop près suit ici ta furie</l>
+            <l n="270">Ta main dégoutte encor du sang de ma Patrie</l>
+            <l n="271">Et de quelque côté que je tourne les yeux </l>
+            <l n="272">Je vois de nos malheurs les témoins odieux,</l>
+            <l n="273">Garde donc tes présents, et crois si je respire</l>
+            <l n="274">Que mon ambition n'est pas pour un Empire,</l>
+            <l n="275">Qu'un plus juste désir me conservait le jour,</l>
+            <l n="276" part="I">Mais mon espoir est mort. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="276" part="F">Et non pas mon amour,</l>
+            <l n="277">Cessez chère beauté de m'être si cruelle.</l>
+            <l n="278">Ou si vous imitez cette ville rebelle.</l>
+            <l n="279">Dont l'obstination ma bravé si longtemps</l>
+            <l n="280">Et coûté pour l'avoir cent mille combattants, </l>
+            <l n="281">Permettez pour le moins à ce cour qui vous aime</l>
+            <l n="282">Qu'il espère qu'un jour vous en ferez de même,</l>
+            <l n="283">Et qu'après cent combats mon invincible amour</l>
+            <l n="284">Pourra de vos rigueurs triompher à son tour.</l>
+            <l n="285">Je mets en ce bonheur le comble de ma gloire </l>
+            <l n="286">Et si j'obtiens sur vous cette illustre victoire,</l>
+            <l n="287">Tout l'Univers conquis par mes nobles travaux</l>
+            <l n="288">Sera la récompense et le prix de mes maux.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="289">Non, ne te flattes point d'une vaine espérance</l>
+            <l n="290">Rhodes a succombé, mais non pas ma constance, </l>
+            <l n="291">Et quoique son destin m'ait mis en ton pouvoir</l>
+            <l n="292">Je sais bien quelles lois mon cour doit recevoir,</l>
+            <l n="293">Il est tel que malgré ta puissance suprême</l>
+            <l n="294">Il me rendra toujours arbitre de moi-même,</l>
+            <l n="295">Tu me peux mettre aux fers et m'y faire souffrir </l>
+            <l n="296">Mais non pas s'il me plaît m'empêcher de mourir.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="297">Vos yeux ont des appâts trop puissants et trop rares</l>
+            <l n="298">Pour produire en mon cour des effets si barbares,</l>
+            <l n="299">Les tourments ni les fers ne sont pas faits pour vous</l>
+            <l n="300">Et vous tâchez en vain d'exciter mon courroux, </l>
+            <l n="301">Ce noble orgueil me plaît, cette rigueur me charme</l>
+            <l n="302">Si le dépit m'aigrit, la pitié me désarme,</l>
+            <l n="303">Et dit tacitement à mon cour amoureux</l>
+            <l n="304">Que le seul désespoir vous rend sourde à mes voeux</l>
+            <l n="305">Que le temps et mes soins vous rendront plus sensible, </l>
+            <l n="306">Et qu'enfin vous perdrez le titre d'invincible,</l>
+            <l n="307">Alors que vos esprits de douleur accablés</l>
+            <l n="308">Dans un lieu de repos se verront moins troublés.</l>
+            <l n="309">Flatté de cet espoir je consens dés cette heure</l>
+            <l n="310">Que ce prochain Palais vous serve de demeure. </l>
+            <l n="311" part="I">Prenez-en soin Achmat.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE, s'en allant.</speaker>
+            <l n="311" part="F"> Que mon sort serait beau</l>
+            <l n="312">Si plutôt qu'un Palais il m'offrait un tombeau.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Soliman, Herminie, Achmat, Pirrus.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="313">Mais me dites-vous vrai ? quoi, cette belle Esclave</l>
+            <l n="314">Qui méprise mes voeux, qui me fuit, qui me brave </l>
+            <l n="315">Est cet objet charmant dont vous vouliez parler</l>
+            <l n="316">Quand l'abord de Pirrus nous est venu troubler ?</l>
+            <l n="317">Ah ! certes si c'est là cette Illustre Perside</l>
+            <l n="318">Qui put porter Eraste à ce juste homicide,</l>
+            <l n="319">Dont le coup l'a forcé de venir en ma Cour </l>
+            <l n="320">Je ne m'étonne plus d'un si parfait amour,</l>
+            <l n="321">Je ne m'étonne plus qu'il vous ait refusée</l>
+            <l n="322">Ni qu'elle est à mes yeux ma grandeur méprisée.</l>
+            <l n="323">Un feu si bien épris s'éteint malaisément</l>
+            <l n="324">Et le cour qui le sent brûle éternellement. </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="325">Oui c'est elle Seigneur, dès qu'on te l'a nommée</l>
+            <l n="326">Dans mon opinion je me suis confirmée.</l>
+            <l n="327">Et ce nom si célèbre a donné du crédit</l>
+            <l n="328">Aux merveilles qu'Achmat devant toi m'en a dit,</l>
+            <l n="329">Il est vrai que charmé de sa grâce infinie </l>
+            <l n="330">Eraste peut sans tort mépriser Herminie,</l>
+            <l n="331">Mais Perside Seigneur, avec peu de raison</l>
+            <l n="332">T'a fait voir tant d'orgueil assez hors de saison</l>
+            <l n="333">Quand les rigueurs du sort nous rendent malheureuses</l>
+            <l n="334">Il sied bien quelquefois d'être un peu généreuses, </l>
+            <l n="335">Mais lorsqu'un tel vainqueur no' réduit à ce point</l>
+            <l n="336">Il faut à ce grand cour que le respect soit joint,</l>
+            <l n="337">Et que l'humilité retenant notre langue</l>
+            <l n="338">Nos pleurs et nos soupirs fassent notre harangue.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="339">Celles qui pour le jour ont encore du souci </l>
+            <l n="340">Doivent dans les malheurs se gouverner ainsi,</l>
+            <l n="341">Mais quand le désespoir rend la vie importune</l>
+            <l n="342">On n'a plus de respect, on brave la fortune.</l>
+            <l n="343">Et pour hâter ses coups au lieu de la flatter</l>
+            <l n="344">Par des termes hardis on tâche à l'irriter. </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="345">Je le veux croire Achmat, mais l'exemple en est rare</l>
+            <l n="346">La vie est un trésor dont chacun est avare,</l>
+            <l n="347">Un malheureux Amant court toujours au trépas</l>
+            <l n="348">Il en fait les desseins, mais il ne le suit pas,</l>
+            <l n="349">Il l'appelle à son aide au mal qui le tourmente, </l>
+            <l n="350">Mais alors qu'il parait, son abord l'épouvante</l>
+            <l n="351">Et force sa raison d'avouer à son tour</l>
+            <l n="352">Qu'il n'est rien ici-bas de si cher que le jour.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="353">La frayeur peut beaucoup sur un esprit timide</l>
+            <l n="354">Mais elle ne peut rien sur celui de Perside, </l>
+            <l n="355">Un cour comme le sien est capable de tout</l>
+            <l n="356">Il n'est point de dessein dont il ne vienne à bout,</l>
+            <l n="357">Prends-y garde Seigneur, ordonne qu'on la veille</l>
+            <l n="358">Où tu perdras bientôt cette rare merveille,</l>
+            <l n="359">Qui sans ma vigilance et mes soins assidus </l>
+            <l n="360">Eut rendu par sa mort mes travaux superflus,</l>
+            <l n="361">Et ravi le bonheur d'offrir à ta Hautesse</l>
+            <l n="362">Le plus charmant objet qu'ait jamais vu la Grèce,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="363">Quoi ? Contre ses beaux jours a-t-elle armé sa main ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="364">Oui, mais ayant prévu ce projet inhumain, </l>
+            <l n="365">Je l'ai depuis toujours de si près observée</l>
+            <l n="366">Que de ses propres mains enfin je l'ai sauvée.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="367" part="I">Où la trouvâtes-vous ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="367" part="F"> Au fonds de son palais</l>
+            <l n="368">Où n'attendant plus rien d'autre qu'un succès très mauvais, </l>
+            <l n="369">Cette fière beauté toute désespérée</l>
+            <l n="370">S'était lors pour mourir sans doute retirée.</l>
+            <l n="371">Car lorsque j'approchai de son appartement</l>
+            <l n="372">J'entendis ce discours qu'elle tint hautement ,</l>
+            <l n="373"> Cher Eraste flatté d'une vaine espérance </l>
+            <l n="374">Mon cour a jusqu'ici témoigné sa constance,</l>
+            <l n="375">Mais puisque le destin ruine mon espoir</l>
+            <l n="376">Souffre enfin qu'il te rende un funeste devoir,</l>
+            <l n="377">Reçois de ta Perside... À ces mots je m'avance</l>
+            <l n="378">Et m'ayant fait passage avec violence, </l>
+            <l n="379">Je la trouve troublée, et le fer en main</l>
+            <l n="380">Haut et prêt d'achever son tragique dessein,</l>
+            <l n="381">Aussitôt arrêtant cette main criminelle</l>
+            <l n="382">J'arrache son poignard, et je me saisis d'elle,</l>
+            <l n="383">Mais elle me fait voir par un autre transport </l>
+            <l n="384">Le regret qu'elle avait d'avoir manqué sa mort,</l>
+            <l n="385">Maudissant son salut et me faisant entendre</l>
+            <l n="386">Que celui des vaincus est de n'en plus attendre,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="387">Perside ignore donc qu'Eraste soit ici,</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="388">Sans doute, et sur ce point je me suis éclairci. </l>
+            <l n="389">Car voulant consoler cette belle affligée,</l>
+            <l n="390">Et rendre par l'espoir sa douleur allégée,</l>
+            <l n="391">Je lui dis que bientôt elle pourrait revoir,</l>
+            <l n="392">La cause de sa flamme et de son désespoir</l>
+            <l n="393">Qu'Eraste, à ce beau nom ses yeux fondant en larmes </l>
+            <l n="394">Elle rompt ses cheveux, elle outrage ses charmes,</l>
+            <l n="395">Et poussant vers le ciel un pitoyable hélas !</l>
+            <l n="396">Eraste me dit-elle a senti le trépas,</l>
+            <l n="397">Il est mort, il est mort, et je le voulais suivre,</l>
+            <l n="398">Lorsque ta cruauté m'a contrainte de vivre, </l>
+            <l n="399">Vous vous trompez lui dis-je Ah ! s'il vivait encore,</l>
+            <l n="400">Reprit-elle, il aurait défendu son trésor,</l>
+            <l n="401">Je sais qu'il m'estimait beaucoup plus que sa vie</l>
+            <l n="402">Et qu'il n'aurait pu voir que je fusse asservie,</l>
+            <l n="403">On l'aurait vu, dit-elle, au milieu des hasards </l>
+            <l n="404">Le Cimeterre au poing défendre nos remparts,</l>
+            <l n="405">Ou par sa chère vue empêcher sa Perside</l>
+            <l n="406">De se rendre aujourd'hui de soi-même homicide,</l>
+            <l n="407">Il est donc au tombeau j'en douterais en vain,</l>
+            <l n="408">Autant que mes malheurs son trépas est certain, </l>
+            <l n="409">Je vis pourtant Achmat, mais je suis assurée</l>
+            <l n="410">Que ma perte n'est pas pour longtemps différée,</l>
+            <l n="411">Et que malgré vos soins, et la force, et le sort</l>
+            <l n="412">Je saurai bien rejoindre Eraste par ma mort </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="413">Nous l'espérons en vain amour que dois-je faire ? </l>
+            <l n="414">La dois-je abandonner ? me dois-je satisfaire ?</l>
+            <l n="415">Écouter mes désirs, la contraindre, ou céder ?</l>
+            <l n="416">La rendre à son Eraste, ou bien la posséder ?</l>
+            <l n="417">Quand je pense aux attraits dont l'ingrate est pourvue</l>
+            <l n="418">Je ne puis étouffer l'amour que j'ai conçu, </l>
+            <l n="419">Je sens que son ardeur s'accroît à tout moment</l>
+            <l n="420">Et que mon cour se plaît en ce noble tourment,</l>
+            <l n="421">Mais d'ailleurs quand je songe à cette belle flamme</l>
+            <l n="422">Qui depuis si longtemps triomphe dans son âme,</l>
+            <l n="423">Quand je vois cet esprit et si grand et si fort </l>
+            <l n="424">Soupirer pour Eraste ou courir à la mort,</l>
+            <l n="425">Ma raison aussitôt pour elle se déclare,</l>
+            <l n="426">Et sa fidélité si constante et si rare,</l>
+            <l n="427">Force ma passion à modérer ses feux</l>
+            <l n="428">Et de se relâcher en faveur de ses voeux, </l>
+            <l n="429">Eraste d'autre part que j'aime, et qui l'adore</l>
+            <l n="430">Qui nourrit dans son sein un feu qui le dévore,</l>
+            <l n="431">Eraste dont sans doute elle a reçu la foi</l>
+            <l n="432">Eraste qui ne vit que pour elle et pour moi,</l>
+            <l n="433">Eraste son amour, Eraste mes délices </l>
+            <l n="434">Cet Eraste en un mot qui par mille services,</l>
+            <l n="435">A vaincu ses dédains et m'a gagné le cour</l>
+            <l n="436">Se présente à mes sens en superbe vainqueur,</l>
+            <l n="437">Et semble reprocher à mon âme enflammée,</l>
+            <l n="438">Qu'à tort je lui ravis cette personne aimée. </l>
+            <l n="439">Soliman Soliman, enfin que résous-tu ?</l>
+            <l n="440">Quitte quitte l'amour, écoute la vertu,</l>
+            <l n="441">Par un beau sentiment et d'honneur et de gloire</l>
+            <l n="442">Emporte sur toi-même une illustre victoire,</l>
+            <l n="443">Et montre à l'Univers par ce dernier effort </l>
+            <l n="444">Que pour te résister il n'est rien d'assez fort.</l>
+            <l n="445" part="I">Qu'on les fasse venir.</l>
+            <stage>Achmat va quérir Perside, et Pirrus, Eraste.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Soliman, Herminie.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="445" part="F"> Vous verrez Herminie</l>
+            <l n="446">Ce que peut la vertu sur un noble Génie,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="447">Certes par cet effet de générosité </l>
+            <l n="448">Tu forces tous les cours d'admirer ta bonté,</l>
+            <l n="449">Et l'on doit avouer que ces aimables charmes</l>
+            <l n="450">Te font plus aujourd'hui d'Esclaves que tes armes,</l>
+            <l n="451">Quoi tenir en tes mains un si riche trésor</l>
+            <l n="452">Un butin, plus charmant que les perles et l'or, </l>
+            <l n="453">Un miracle d'amour une rare merveille,</l>
+            <l n="454">Une beauté parfaite ainsi que sans pareille</l>
+            <l n="455">Un chef-d'ouvre accompli de nature et des cieux,</l>
+            <l n="456">Et digne enfin des voeux et des Rois et des Dieux,</l>
+            <l n="457">Et malgré les ardeurs de ton amour extrême </l>
+            <l n="458">En obliger un autre, et te vaincre toi-même,</l>
+            <l n="459">Ah plus je considère un tel événement</l>
+            <l n="460">Plus son divin effet confond mon jugement,</l>
+            <l n="461">Et ce puissant effort qui te rend adorable</l>
+            <l n="462">Encore qu'il soit vrai me parait incroyable. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="463">je vous le ferai voir, n'en croyez que vos yeux,</l>
+            <l n="464" part="I">Mais Perside s'avance.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Soliman, Herminie, Perside, Achmat.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="464" part="F">Ah traits impérieux!</l>
+            <l n="465">Regards qui triomphez des plus superbes âmes</l>
+            <l n="466">Que je chéris vos coups, mais que je crains vos flammes ! </l>
+            <l n="467">Qu'ai-je dit ? Que ferai-je ? Hélas qu'ai-je promis ?</l>
+            <l n="468">Peux-tu vaincre mon cour de si doux ennemis !</l>
+            <l n="469">Raison à mon secours, vertu prête tes armes,</l>
+            <l n="470">Sans toi je ne saurais m'opposer à ses charmes,</l>
+            <l n="471">Et contre mes désirs tous mes sens révoltés </l>
+            <l n="472">Vont encor sans son aide adorer ses beautés.</l>
+            <l n="473">Avancez belle ingrate, hé bien ce grand courage</l>
+            <l n="474">À qui rien ne résiste, à qui tout fait hommage,</l>
+            <l n="475">Vous porte-t-il encore à vous priver du jour,</l>
+            <l n="476">Plutôt que de prêter l'oreille à mon amour ? </l>
+            <l n="477">Est-ce un point résolu ? quoi ! n'est-il pas possible</l>
+            <l n="478">De vous rendre jamais à mes voeux plus sensible ?</l>
+            <l n="479">Considérez mon rang, regardez mes Grandeurs,</l>
+            <l n="480">Écoutez mes soupirs, et voyez mes ardeurs,</l>
+            <l n="481">Et par ce grand respect que Soliman vous porte </l>
+            <l n="482">Jugez si vous devez le traiter de la forte,</l>
+            <l n="483">Que ferez-vous enfin ? que doit-il espérer ?</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="484">Le plaisir de me voir constamment endurer</l>
+            <l n="485">Et de répandre enfin et mon sang et ma vie</l>
+            <l n="486">Plutôt que de répondre à sa brutale envie. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="487">L'amour que j'ai pour vous adorable beauté</l>
+            <l n="488">Mérite à mon avis une autre qualité,</l>
+            <l n="489">Car venant de vos yeux ma flamme est aussi pure</l>
+            <l n="490">Qu'être noble élément au lieu de sa nature</l>
+            <l n="491">Et je vous puis jurer qu'en cette occasion, </l>
+            <l n="492">L'honneur et la vertu règlent ma passion.</l>
+            <l n="493">Quoi sur mes volontés vous rendre souveraine,</l>
+            <l n="494">Élever votre sort au beau titre de Reine,</l>
+            <l n="495">Soumettre à vos beautés mes Empires et moi</l>
+            <l n="496">Sont-ce les fondements des mépris que je vois, </l>
+            <l n="497">Ah ! Perside agissez avec plus de justice,</l>
+            <l n="498">Votre cour à vos voeux rend un mauvais office,</l>
+            <l n="499">De vous faire aujourd'hui par un indigne choix,</l>
+            <l n="500">Préférer le cercueil à la pourpre des Rois</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="501">De même la victime en pompe couronnée </l>
+            <l n="502">Avec mille ornements au supplice est menée,</l>
+            <l n="503">On ne m'éblouit point par l'éclat des présents</l>
+            <l n="504">Les fers pour être d'or ne sont pas moins pesants,</l>
+            <l n="505">Et mon âme Seigneur, que tu crois si hautaine</l>
+            <l n="506">N' a point d'ambition pour le titre de Reine, </l>
+            <l n="507">Si le destin pour elle avait moins de rigueur</l>
+            <l n="508">Ses voeux se borneraient à posséder un cour,</l>
+            <l n="509">Mais ce cour, ô fatale et funeste mémoire</l>
+            <l n="510">Ce cour si précieux a passé l'ombre noire,</l>
+            <l n="511">Et quittant loin d'ici sa Perside et le jour </l>
+            <l n="512">Emporté quant et lui mes voeux et mon amour.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="513" part="I">Prodigieuse ardeur ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="513" part="F"> Admirable constance,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="514">Qu'opposerais-je plus à cette résistance ?</l>
+            <l n="515">Cédons cédons mon cour, c'est assez combattu </l>
+            <l n="516">Votre amour s'est fait voir, montrons notre vertu.</l>
+            <l n="517">Perside, puisqu'enfin l'éclat de ma fortune</l>
+            <l n="518">Au lieu de vous charmer vous la rend importune,</l>
+            <l n="519">Et qu'un rang moins superbe a pour vous plus d'appâts</l>
+            <l n="520">Je veux à votre sort en donner un plus bas, </l>
+            <l n="521">Un des grands de ma Cour, mes plus chères délices</l>
+            <l n="522">Qui me rend tous les jours mille illustre services,</l>
+            <l n="523">Jeune, adroit, libéral, et dont les qualités</l>
+            <l n="524">Se pourraient asservir les plus rares beautés</l>
+            <l n="525">Est le noble parti que ma main vous destine </l>
+            <l n="526" part="I">Je veux que vous l'aimiez.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="526" part="F"> Ah ! Ce trait m'assassine,</l>
+            <l n="527">Je veux que vous l'aimiez, vouloir impérieux ?</l>
+            <l n="528">Disposes-tu des cours ? disposes-tu des yeux ?</l>
+            <l n="529">Je veux que vous l'aimiez ! D'où naîtra cette flamme ?</l>
+            <l n="530">Eraste n'est pas mort, Il vit dedans mon âme </l>
+            <l n="531">Il règne, il règne, encore dedans mon souvenir,</l>
+            <l n="532">Et malgré ton pouvoir rien ne l'en peut bannir</l>
+            <l n="533">Change donc si tu veux ta fatale ordonnance,</l>
+            <l n="534">Demande un autre effet à mon obéissance,</l>
+            <l n="535">Ne dis pas à ce cour je veux que vous aimiez </l>
+            <l n="536">Cruel dis-lui plutôt, je veux que vous mouriez,</l>
+            <l n="537">En ce point Soliman je suivrai ton envie,</l>
+            <l n="538">Oui commande à tes yeux qu'on m'arrache la vie,</l>
+            <l n="539">Je suis prête à mourir si tu me le permets,</l>
+            <l n="540">Mais Eraste étant mort je n'aimerai jamais. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="541">Perside un grand mérite a beaucoup de puissance,</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="542">Quel qu'il soit, il sera moindre que ma constance,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="543">J'espère toutefois qu'il en sera vainqueur,</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="544">Plutôt que cela soit j'arracherai mon cour,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="545">Il se laissera mieux arracher par ses charmes </l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="546">J'ai des moyens plus surs que de si faibles armes,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="547">Voici ce cher objet voyons votre pouvoir,</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="548">Ah ! Ne m'obligez pas seulement à le voir,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="549">Ah ! Qui craint le combat redoute sa défaite.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="550">En semblables combats on vainc par la retraite </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE IV. Soliman, Perside, Herminie, Achmat, Pirrus, Eraste.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="551" part="I">Eraste.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="551" part="M"> Justes Dieux !</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="551" part="F"> Cet adorable objet</l>
+            <l n="552">Que le sort de la guerre a rendu mon sujet,</l>
+            <l n="553" part="I">Quoi ? Tu trembles. </l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="553" part="F">Mes yeux, qu'avez-vous vu paraître ?</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="554" part="I">Connais-tu cet objet ?</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="554" part="F"> Je le dois bien connaître.</l>
+            <l n="555">Ah Perfide ! ah Seigneur ! permets que devant toi</l>
+            <l n="556">Je lui rende à genoux l'honneur que je lui dois, </l>
+            <l n="557">Je sais que ce respect n'est du qu'à ta Hautesse</l>
+            <l n="558">Mais pardonne à l'amour cette juste tendresse,</l>
+            <l n="559" part="I">Perside.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="559" part="F">Cher Eraste, ah ! Que mon sort est doux</l>
+            <l n="560">Qu'heureux sont les malheurs qui me rendent à vous ?</l>
+            <l n="561">Ah ! Vous me faites tort par cette déférence </l>
+            <l n="562">Levez-vous, c'est assez, Soliman s'en offense.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE, à Achmat.</speaker>
+            <l n="563">Certes ce rare amour ne se peut trop louer.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE, à Soliman.</speaker>
+            <l n="564">Seigneur je suis vaincue il le faut avouer,</l>
+            <l n="565">Eraste a sur mon cour une entière puissance</l>
+            <l n="566">Et sa fidélité force ma résistance, </l>
+            <l n="567">Ta Hautesse tantôt par un arrêt charmant</l>
+            <l n="568">Ma commandé d'aimer cet adorable Amant,</l>
+            <l n="569">Je t'obéis Seigneur, j'accepte mon servage</l>
+            <l n="570">Et mes voeux t'en rendront un éternel hommage,</l>
+            <l n="571">Si pour rendre mon heur plus grand et plus parfait </l>
+            <l n="572">Tu confirmes ici le don que tu m'a fait.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="573" part="I">Eraste qu'en dis-tu ?</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="573" part="F">Que mon âme est charmée</l>
+            <l n="574">À l'aspect des beaux yeux dont elle est enflammée,</l>
+            <l n="575">Que mes sens confondus en cette occasion </l>
+            <l n="576">Prennent ce que je vois pour une illusion,</l>
+            <l n="577">Et qu'en l'excès de joie ou ce bonheur me plonge</l>
+            <l n="578">Mon esprit seulement pense faire un beau songe.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="579">Je sais bien que d'abord cet objet t'a surpris,</l>
+            <l n="580">Mais rappelle tes sens, et reprends tes esprits. </l>
+            <l n="581">Eraste ton cour aime, il adore Perside,</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="582">S'il ne l'adorait pas il serait un perfide</l>
+            <l n="583">C'est le premier objet qui l'a fait soupirer,</l>
+            <l n="584">Ce fut aussi sur lui qu'il apprit à tirer,</l>
+            <l n="585">Et mes yeux arrosant ses belles mains de larmes, </l>
+            <l n="586">Payèrent les premiers le tribut de ses charmes.</l>
+            <l n="587">Elle approuva mes feux et mon cour enflammé</l>
+            <l n="588">Ne l'aima pas longtemps sans qu'il en fut aimé,</l>
+            <l n="589">Si bien que mon bonheur était incomparable</l>
+            <l n="590">Si comme il était grand il eut été durable, </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="591">Qui put donc traverser un si parfait amour ?</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="592">Catalde un chevalier que je privai du jour,</l>
+            <l n="593">Et de qui le destin touchant toute la ville,</l>
+            <l n="594">Me fit auprès de toi rechercher un asile,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="595" part="I">Qui causa ce désordre ? </l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="595" part="F"> Un célèbre tournois</l>
+            <l n="596">Où parut son adresse en mille beaux exploits.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="597">Oui Perside et l'amour secondant mon courage</l>
+            <l n="598">J'obtiens sur mes rivaux, un heureux avantage</l>
+            <l n="599">Là comme il importait à ma discrétion </l>
+            <l n="600">Je voulus triompher de mon ambition,</l>
+            <l n="601">Et sortir inconnu du champ de ma victoire</l>
+            <l n="602">Mais un si beau dessein fut trahi par ma gloire,</l>
+            <l n="603">Car un des soutenants jaloux ou curieux</l>
+            <l n="604">Découvrit malgré moi mon front victorieux, </l>
+            <l n="605">Et levant mon armet fit tomber une chaîne</l>
+            <l n="606">Que je portais au col en faveur de ma Reine,</l>
+            <l n="607">Ce cher et riche don d'une si belle main</l>
+            <l n="608">S'égare dans la presse. et je le cherche en vain,</l>
+            <l n="609">Catalde la remontre, il le prend, il le cache </l>
+            <l n="610">Et par une action aussi vaine que lâche,</l>
+            <l n="611">Il en fait un présent à certaine beauté</l>
+            <l n="612">Qui lors dans ses liens le tenait arrêté,</l>
+            <l n="613">L'orgueilleuse s'en pare il est vu de Perfide</l>
+            <l n="614">Elle le reconnaît, et m'estime perfide, </l>
+            <l n="615">Croyant que cet objet avait reçu de moi</l>
+            <l n="616">Cette fatale chaîne et peut-être ma foi.</l>
+            <l n="617">Alors ce faux soupçon allumant sa colère,</l>
+            <l n="618">L'ingrate me bannit, je meurs, je désespère,</l>
+            <l n="619">Mais plus par mes regrets je tâche de l'adoucir </l>
+            <l n="620">Et moins je vois d'espoir d'y pouvoir réussir,</l>
+            <l n="621">Toujours à sa pitié sa cruauté s'oppose</l>
+            <l n="622">Et je souffre un tourment dont j'ignore la cause,</l>
+            <l n="623">Le Sort enfin lassé de me voir endurer</l>
+            <l n="624">Après mille langueurs me permet d'espérer, </l>
+            <l n="625">Au fort de mes malheurs il décile ma vue</l>
+            <l n="626">Il me fait découvrir le serpent qui me tue,</l>
+            <l n="627">Et me montrant ma chaîne en une indigne main</l>
+            <l n="628">Me porte quant et quant à ce juste dessein ;</l>
+            <l n="629">Connaissant la beauté qui possédait ma perte </l>
+            <l n="630">Sans lui parler jamais que je l'avais soufferte,</l>
+            <l n="631">Je l'aborde, l'accoste, et lui faisant la Cour</l>
+            <l n="632">Je feins adroitement que je brûle d'amour,</l>
+            <l n="633">Je cajole, on me croit, elle m'est favorable</l>
+            <l n="634">Et par un faux tourment j'en cause un véritable ; </l>
+            <l n="635">Au gré de mes désirs la voyant à ce point</l>
+            <l n="636">Pour la mieux engager je ne la quitte point,</l>
+            <l n="637">Je fais le languissant, et sur tout je la presse</l>
+            <l n="638">Que par une faveur digne d'une maîtresse,</l>
+            <l n="639">Elle me fasse voir l'estime qu'elle fait </l>
+            <l n="640">D'un amour qu'à ses yeux je feignais si parfait,</l>
+            <l n="641">Sans peine à mes désirs sa volonté se range</l>
+            <l n="642">Je lui fais un présent, et par un doux échange,</l>
+            <l n="643">L'aveugle qui ne sait ou tend un pareil tour</l>
+            <l n="644">Me redonne ma chaîne et me rend mon amour, </l>
+            <l n="645">Ravi de ce butin je quitte cette Belle</l>
+            <l n="646">Mais comme en l'admirant je sortais de chez elle,</l>
+            <l n="647">Catalde me remontre et me voit en la main</l>
+            <l n="648">Ce trésor qu'il voulut me disputer en vain,</l>
+            <l n="649">Car à sa lâcheté pensant joindre l'outrage </l>
+            <l n="650">Je noyais dans son sang et sa honte, et sa rage.</l>
+            <l n="651">Après ce juste coup mon cour devait régner,</l>
+            <l n="652">Mais au contraire hélas ! Il fallut m'éloigner,</l>
+            <l n="653">Et même en ce désordre où la fureur préside</l>
+            <l n="654">Je n'eus pas le bonheur de parler à Perside, </l>
+            <l n="655">Qui reçut de ma main au défaut de mes yeux</l>
+            <l n="656">Et mes derniers devoirs et mes tristes adieux.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="657">Ah ! Cesse cher Eraste, au moins s'il t'est possible</l>
+            <l n="658">Ne me reproches pas un départ si sensible,</l>
+            <l n="659">Car ce cour qui jamais ne cessa de t'aimer </l>
+            <l n="660">S'il le put ressentir ne saurait l'exprimer,</l>
+            <l n="661">Tu sauras toutefois que mon deuil fut extrême,</l>
+            <l n="662">Que toujours fus depuis odieuse à moi-même</l>
+            <l n="663">J'ai conspiré cent fois à me priver du jour,</l>
+            <l n="664">Pour faire par mon sang raison à ton amour. </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="665" part="I">J'en puis être témoin.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="665" part="F">Ô ! vertu sans pareille !</l>
+            <l n="666">Vouloir pour moi mourir ? Ô prodige ! Ô merveille !</l>
+            <l n="667">Rare exemple d'amour, et de fidélité</l>
+            <l n="668">Que ne vous dois-je point après cette bonté, </l>
+            <l n="669">Seigneur, si mes exploits ont pour toi quelques charmes</l>
+            <l n="670">Si tu dois quelque prix au succès de mes armes,</l>
+            <l n="671">Si tu me crois encore digne de te servir</l>
+            <l n="672">Contre les nations que tu veux asservir,</l>
+            <l n="673">Par tout ce que j'ai fait, et ce que je puis faire </l>
+            <l n="674">Accorde-moi, Seigneur, cet illustre salaire,</l>
+            <l n="675">Accorde-moi Perside, ou si mon cour à tort</l>
+            <l n="676">De prétendre fi haut, accorde-moi la mort.</l>
+            <l n="677">A son occasion je la trouverai belle</l>
+            <l n="678">Car si tu ne veux pas que je vive pour elle, </l>
+            <l n="679">L'amour et le devoir m'imposent cette loi</l>
+            <l n="680">Que je meure pour elle, ayant vécu pour moi. </l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="681">Je mourrai si tu meurs c'est à quoi je suis prête.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="682">Pourquoi diffères-tu Soliman ? Qui t-arrête ?</l>
+            <l n="683">L'amour est-il encor sur tes sens absolu ? </l>
+            <l n="684">Non non il doit céder c'est un point résolu,</l>
+            <l n="685">Triomphe ma raison triomphe, et fais connaître</l>
+            <l n="686">Qu'un Dieu même aujourd'hui me reconnaît pour maître.</l>
+            <l n="687">Vivez heureux Amants, chassez vos déplaisirs</l>
+            <l n="688">Soliman aujourd'hui s'accorde à vos désirs, </l>
+            <l n="689" part="I">Perside est pour Eraste.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="689" part="F">Ô ! grâce inespérée.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="690">Puisse être ta Hautesse en tous lieux adorée,</l>
+            <l n="691">Et porter ton renom et ta gloire si loin,</l>
+            <l n="692">Qu'elle en rende dans peu tout le monde témoin, </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Herminie, Alcomire.</head>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="693">Vous vous moquez de moi m'appelant inhumaine ?</l>
+            <l n="694">Puis-je le soulager, si j'ignore sa peine ?</l>
+            <l n="695">Vous me dites qu'Achmat a pour moi de l'amour,</l>
+            <l n="696">Où l'a-t-il fait paraître, ou m'a-t-il fait la cour ?</l>
+            <l n="697">Certes s'il aime ainsi sa flamme est bien secrète. </l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="698">Et vous pour l'avouer, vous êtes trop discrète.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="699">Avouerais-je une ardeur que je ne connais pas ?</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="700">C'est pourtant un effet qu'ont produit vos appâts,</l>
+            <l n="701">Et que sa passion vous aurait fait connaître,</l>
+            <l n="702">S'il n'avait du respect pour l'amour de son maître. </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="703">Pour l'amour de son maître ah ! quittez cette erreur</l>
+            <l n="704">Vous offensez les voeux d'un si grand Empereur,</l>
+            <l n="705">Il est trop généreux, trop puissant, et trop brave</l>
+            <l n="706">Pour s'abaisser au point que d'aimer une Esclave.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="707">Ne vous défendez point par cette qualité, </l>
+            <l n="708">Du pouvoir qu'à sur lui votre rare beauté,</l>
+            <l n="709">En cette occasion vous l'êtes l'un de l'autre</l>
+            <l n="710">Le sort vous a fait sienne, et l'amour le fait vôtre,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="711">C'est illustre captif fait de trop beaux liens</l>
+            <l n="712">Pour descendre jamais à la honte des miens, </l>
+            <l n="713">Je suis trop malheureuse et Perside est trop belle.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="714">Il brûlera pour vous comme il a fait pour elle,</l>
+            <l n="715">Et comme le destin vous traite également,</l>
+            <l n="716">Un jour il vous pourra céder à votre Amant.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="717" part="I">Ô mon Amant ! Ô qui ? </l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="717" part="F">Votre cour en soupire.</l>
+            <l n="718">Et vos yeux malgré vous disent votre martyre,</l>
+            <l n="719">Ne dissimulez plus avouez franchement</l>
+            <l n="720" part="I">Que sa discrétion vous touche.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="720" part="F">Nullement, </l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="721">Lorsque d'un si beau trait nous nous sentons atteindre</l>
+            <l n="722">Il est bien malaisé de souffrir et de feindre.</l>
+            <l n="723">La langue quelquefois peut bien dissimuler</l>
+            <l n="724">Mais quand elle se tait les yeux savent parler</l>
+            <l n="725">Et le cour trop pressé des ardeurs de sa flamme, </l>
+            <l n="726">Montre par ses soupirs les blessures de l'âme.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="727" part="I">Je soupire il est vrai, mais...</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="727" part="F">Ô dieux que je crains !</l>
+            <l n="728" part="I">Elle aime mon amant.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="728" part="F">Que mes soupirs sont vains ; </l>
+            <l n="729">J'aime j'aime, et l'objet ou mon amour aspire</l>
+            <l n="730" part="I">C'est Soliman.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="730" part="M"> Hé bien.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="730" part="F">Tu souris Alcomire,</l>
+            <l n="731">Mais sache qu'un grand cour pour être malheureux </l>
+            <l n="732">N'a point de sentiments qui ne soient généreux,</l>
+            <l n="733">Et quand il tomberait du trône en l'esclavage</l>
+            <l n="734">Il changerait de sort, mais non pas de courage,</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="735">Si mon oeil Herminie a paru plus riant</l>
+            <l n="736">Au nom d'un Empereur qu'adore l'orient, </l>
+            <l n="737">Apprend que ma gaieté vient de toute autre cause</l>
+            <l n="738">Que de la passion que ton cour se propose,</l>
+            <l n="739">Et que loin de blâmer un si noble dessein</l>
+            <l n="740">Je tâcherais moi-même à le mettre en ton sein,</l>
+            <l n="741">Si les hautes vertus de ce Prince adorable </l>
+            <l n="742">Ne m'avait épargné cet effort agréable.</l>
+            <l n="743">Suis, crois-moi, suis sans peur tes illustres projets</l>
+            <l n="744">L'amour comme il lui plaît égale ses sujets,</l>
+            <l n="745">Et le sang d'Amurat d'où tu tiens ta naissance</l>
+            <l n="746">Semble favoriser cette haute espérance. </l>
+            <l n="747">Soliman je l'avoue est grand, est glorieux,</l>
+            <l n="748">Mais enfin qu'est-il plus que furent tes aïeux ?</l>
+            <l n="749">Il règne sur un trône, il porte un Diadème,</l>
+            <l n="750">Jadis tes devanciers le portèrent de même,</l>
+            <l n="751">Et tant de qualités qui te font adorer </l>
+            <l n="752">Te permettent encor d'y pouvoir aspirer.</l>
+            <l n="753">Achmat je le confesse, est généreux, et brave</l>
+            <l n="754" part="I">Mais c'est trop peu pour toi.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="754" part="F"> C'est trop pour un Esclave,</l>
+            <l n="755">Mais quelque passion qui te puisse enflammer </l>
+            <l n="756">Mon esprit ne saurait se résoudre à l'aimer.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="757">Aussi vaut-il mieux être Sultane Reine</l>
+            <l n="758" part="I">Que femme d'un Bassa.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="758" part="F"> Tu me veux rendre vaine,</l>
+            <l n="759">Mais de peur que l'appât de ce subtil poison </l>
+            <l n="760">Ne séduise mon cour et trouble ma raison,</l>
+            <l n="761">Souffre que je l'évite et que je me retire,</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="762" part="I">Adieu belle Herminie,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="762" part="F">Adieu chère Alcomire,</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Alcomire, Achmat.</head>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="763">Qu'elle m'ôte du cour un étrange souci </l>
+            <l n="764">Je craignais son amour, mais Achmat vient ici, </l>
+            <l n="765">Tâchons adroitement de lire dans son âme</l>
+            <l n="766">Si la belle Herminie est l'objet de sa flamme,</l>
+            <l n="767" part="I">Quoi rêveur et pensif ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="767" part="F">Ajoute encore Amant. </l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="768" part="I">D'un objet sans pareil ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="768" part="F">Ah ! Dieux qu'il est charmant</l>
+            <l n="769">Mais que de peu d'espoir mon amour est suivie.</l>
+            <l n="770">Et qu'inutilement mon âme en est ravie.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="771">Quelle est cette beauté si parfaite à vos yeux ? </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="772">Un miracle, un prodige, un chef-d'ouvre des cieux.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="773">Son nom ? Cache mon cour la douleur qui te presse. </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="774">Alcomire as-tu vu cette jeune Princesse</l>
+            <l n="775">Que le sort de la guerre a mise entre nos mains ?</l>
+            <l n="776">Ce sont de ses beaux yeux les regards inhumains </l>
+            <l n="777">Qui m'ont percé le cour, et jeté dans mon âme</l>
+            <l n="778">Malgré ma résistance une invincible flamme,</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="779">A peine dans Byzance êtes vous de retour</l>
+            <l n="780">Que déjà sa beauté vous donne tant d'amour ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="781">Oui pour elle déjà ma flamme est infinie. </l>
+            <l n="782">Sans d'extrêmes transports peut-on voir Herminie ?</l>
+            <l n="783">Je l'ai vue il suffit, ses attraits m'ont charmé.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="784">Mais croyez-vous vous qu'un jour vous en soyez aimé ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="785">Peut-être que d'abord cette belle inhumaine</l>
+            <l n="786">Méprisera mes voeux se rira de ma peine, </l>
+            <l n="787">Mais sache qu'à la fin il n'est point de rigueur</l>
+            <l n="788">Dont un parfait amour ne se rende vainqueur,</l>
+            <l n="789">Il n'est point de vertu pareille à la constance,</l>
+            <l n="790">Nous n'exécutons rien que par son assistance,</l>
+            <l n="791">Et tous les hauts desseins que nous préméditons </l>
+            <l n="792">Se perdent quand d'abord nous les précipitons,</l>
+            <l n="793">Il n'est point de grand cour que le temps ne fléchisse</l>
+            <l n="794">Il n'est point de mépris qu'un beau feu n'adoucisse,</l>
+            <l n="795">Et celui qui sans l'art de bien persévérer.</l>
+            <l n="796">Obtiendra tôt ou tard ce qu'il peut espérer, </l>
+            <l n="797">Par la suite du temps, l'or se fait de la terre,</l>
+            <l n="798">L'air mange les métaux et l'eau creuse la pierre,</l>
+            <l n="799">Les plus fermes remparts sont enfin renversés,</l>
+            <l n="800">Et les plus orgueilleux se trouvent abaissés.</l>
+            <l n="801">Quand on l'espère moins la beauté la plus fière </l>
+            <l n="802">Relâche quelquefois de son humeur altière,</l>
+            <l n="803">Et recevant les feux qu'elle-même a causés</l>
+            <l n="804">Lance autant de soupirs qu'elle en a méprisés.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="805">Mais vous ne savez pas que cette impérieuse,</l>
+            <l n="806">Cette beauté superbe autant que glorieuse, </l>
+            <l n="807">Brûle pour Soliman, et que ce haut projet</l>
+            <l n="808">L'empêchera toujours de chérir un sujet !</l>
+            <l n="809">Vous savez qu'Amurat lui donna la naissance</l>
+            <l n="810">Que son père étant mort elle quitta Byzance,</l>
+            <l n="811">Et que pour dissiper la peur qui la saisit </l>
+            <l n="812">Rhodes fut le séjour qu'à lors elle choisit,</l>
+            <l n="813">Cette dernière guerre enfin vous la rendue,</l>
+            <l n="814">Mais lorsqu'elle croyait que le sort l'eut perdue,</l>
+            <l n="815">C'est lorsqu'elle triomphe, et que ce noble cour</l>
+            <l n="816">Dans sa captivité règne sur son vainqueur. </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="817">Pour aimer Soliman, ce n'est pas conséquence</l>
+            <l n="818">Qu'un succès si charmant suive son espérance,</l>
+            <l n="819">Il a voulu tantôt la donner au Vizir.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="820">Son inclination parait en ce désir</l>
+            <l n="821">Et vous devez par la reconnaître qu'il l'aime, </l>
+            <l n="822">Pétrarquiste en un mot est un autre lui-même</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="823">Mais c'est par mon moyen qu'Eraste est bien heureux</l>
+            <l n="824">Et par cette raison il la doit à mes voeux,</l>
+            <l n="825">Perside est ma conquête, Herminie est la sienne</l>
+            <l n="826">Un juste échange veut que ce prix m'appartienne, </l>
+            <l n="827" part="I">Je le dois espérer.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE, à part.</speaker>
+            <l n="827" part="F">Tu t'en promets beaucoup</l>
+            <l n="828">Mais j'aurai peu d'adresse ou je romprai ce coup.</l>
+            <l n="829">Allez allez Achmat, allez voir cette belle </l>
+            <l n="830">Déjà malgré le corps votre esprit est chez elle, </l>
+            <l n="831">Suivez ce beau désir, mais ressouvenez-vous</l>
+            <l n="832">Que vous pouvez choisir des liens bien plus doux.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="833">Ainsi le veut amour, et telle est ma fortune</l>
+            <l n="834">Je cours après mon mal, mais je vous importune.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III.</head>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE, seule.</speaker>
+            <l n="835">Il s'en va dans l'espoir d'être bientôt heureux </l>
+            <l n="836">Où de se voir aimé comme il est amoureux,</l>
+            <l n="837">Et moi je reste ici pour essuyer ma honte</l>
+            <l n="838">Et rompre si je puis le beau trait qui me dompte,</l>
+            <l n="839">Mais que dis-je bon Dieux, et que puis-je espérer</l>
+            <l n="840">Si mon cour souffre un mal qu'il n'ose déclarer, </l>
+            <l n="841">Et si je suis réduite à ce malheur extrême</l>
+            <l n="842">De voir qu'un autre objet m'a ravi ce que j'aime,</l>
+            <l n="843">Rigoureux frein d'amour ! Tyrannique respect</l>
+            <l n="844">Qui nous fait craindre tout, qui nous rends tout suspect,</l>
+            <l n="845">Fâcheuse loi du sexe et de la bienséance </l>
+            <l n="846">Pour vous avoir suivis je perds mon espérance,</l>
+            <l n="847">Mais voici l'Empereur. Amour éteins mes feux</l>
+            <l n="848">Ou fais qu'Achmat enfin les rende pus heureux.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Perside, Soliman, Herminie, Achmat.</head>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="849">Je n'ai plus de regret Seigneur que ta Hautesse</l>
+            <l n="850">Ait rendu mon pays tributaire à la Grèce ; </l>
+            <l n="851">Puisqu'un jour ce destin par tes exploits divers</l>
+            <l n="852">Lui doit être commun avec tout l'Univers,</l>
+            <l n="853">Et si le monde entier doit être ton partage</l>
+            <l n="854">Rhodes en son malheur au moins a l'avantage.</l>
+            <l n="855">Que toi-même en personne es venu demander </l>
+            <l n="856">Un bien qu'a tes vertus on devait accorder.</l>
+            <l n="857">Mais comme elle en avait trop peu de connaissance</l>
+            <l n="858">Qu'elle ne t'a donné qu'après sa résistance.</l>
+            <l n="859">S'il t'avait coûté moins tu l'aurais méprisé</l>
+            <l n="860">Le triomphe est honteux d'un combat trop aisé, </l>
+            <l n="861">Ta peine et tes travaux ont relevé ta gloire</l>
+            <l n="862">Et te forcent sans doute à chérir ta victoire,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="863">Je l'estime si fort et suis si glorieux.</l>
+            <l n="864">D'avoir fait ce qu'en vain ont tenté mes aïeux,</l>
+            <l n="865">Que je préférerais au reste de la terre, </l>
+            <l n="866">Les illustres lauriers cueillis en cette guerre</l>
+            <l n="867">Mais ce qui me les rends et plus chers et plus doux</l>
+            <l n="868">C'est Perside, qu'ils sont accompagnés de vous,</l>
+            <l n="869">Après votre conquête il n'est rien d'agréable,</l>
+            <l n="870">Il n'est rien de charmant, rien de considérable, </l>
+            <l n="871">Et quiconque aujourd'hui possède un si beau prix</l>
+            <l n="872">Peut voir tout l'Univers avecque du mépris.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="873">Épargne-moi Seigneur, ta bonté trop extrême</l>
+            <l n="874">Fais qu'ici devant toi je me cherche en moi-même,</l>
+            <l n="875">Ta faveur me confond, et je ne sais pourquoi </l>
+            <l n="876">Tu me rends aujourd'hui l'honneur que je reçois,</l>
+            <l n="877">Tu sais que la raison veut que je le rejette ;</l>
+            <l n="878">Puisque mon sort m'apprend que je suis ta sujette</l>
+            <l n="879">Et que toute ma gloire et ma félicité</l>
+            <l n="880">Dépendent désormais de cette qualité, </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="881">Ah ! Perside arrêtez, vous commettez un crime</l>
+            <l n="882">Quand votre modestie abaisse votre estime,</l>
+            <l n="883">Ce respect vous trahit, et je ne sais pourquoi</l>
+            <l n="884">Il veut désavouer les attraits que je vois,</l>
+            <l n="885">C'est lui que la raison ordonne qu'on rejette </l>
+            <l n="886">Le sort vous a fait Reine et non pas ma sujette,</l>
+            <l n="887">Et désormais ma gloire et ma félicité</l>
+            <l n="888">Dépendent tout à fait de cette qualité,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE, à part.</speaker>
+            <l n="889" part="I">Il l'aime il l'aime encore.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="889" part="F">Ah ! Seigneur ta Hautesse, </l>
+            <l n="890">Veut éprouver ici jusqu'où va ma faiblesse,</l>
+            <l n="891">Mais je puis assurer que mon ambition</l>
+            <l n="892">Se limite au bonheur de mon affection,</l>
+            <l n="893">Et que si je prétends au rang de souveraine,</l>
+            <l n="894" part="I">Ce n'est que sur un cour. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="894" part="F">Hé bien belle inhumaine</l>
+            <l n="895">Ce cour est sous vos lois, il n'obéit qu'à vous.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="896">C'est de toi que je tiens un Empire si doux</l>
+            <l n="897">Et je t'en dois Seigneur, un éternel hommage.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="898" part="I">Que ce discours me plaît ! </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE, à part.</speaker>
+            <l n="898" part="F"> Mais hélas ! qu'il m'outrage.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN, à Achmat.</speaker>
+            <l n="899">Hé bien mon cher Achmat, est-il sous le soleil,</l>
+            <l n="900" part="I">Un Prince plus heureux ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="900" part="F">Ton heur est sans pareil,</l>
+            <l n="901">Et tes prospérités égalent ta puissance : </l>
+            <l n="902">Mais Seigneur, ton Achmat attend sa récompense,</l>
+            <l n="903">Tu sais ce qu'il a fait, et tu lui dois donner.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE, à part.</speaker>
+            <l n="904">Que prétend-il, ô Dieux ? Que va-t-il ordonner ?</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="905">Oui je vous dois un prix, mais en cette occurrence</l>
+            <l n="906">Que demandez-vous ? quelle est votre espérance ? </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="907">Seigneur ton Herminie est l'objet de mes voeux ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE, bas.</speaker>
+            <l n="908" part="I">Et tu l'es de ma haine.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="908" part="F">Achmat oui je le veux,</l>
+            <l n="909">J'accorde à vos désirs cette belle Herminie.</l>
+            <l n="910">..................................</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="911">Vaines prétentions où me réduisez-vous ? </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT, à Soliman.</speaker>
+            <l n="912">Que je te dois d'encens pour un arrêt si doux.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="913">Ah Seigneur qu'a-tu dit ? quelle est ton ordonnance :</l>
+            <l n="914">Ne te souvient-il plus du rang de ma naissance,</l>
+            <l n="915">Quel insigne malheur te porte à me haïr,</l>
+            <l n="916" part="I">Jusqu'au point... </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="916" part="F">C'est assez, il me faut obéir.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="917">Triste commandement ! rigoureuse contrainte !</l>
+            <l n="918" part="I">Mourons, mourons plutôt.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="918" part="F">Étouffez cette plainte.</l>
+            <l n="919">Achmat allez la rendre à son appartement </l>
+            <l n="920">Et là vous acquittez des devoirs d'un Amant.</l>
+            <stage>Ils sortent.</stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Soliman, Perside.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="921">Enfin, belle Perside, il faut que je confesse</l>
+            <l n="922">Devant vos yeux divins mon extrême faiblesse,</l>
+            <l n="923">Amour encore un coup me réduit aux abois,</l>
+            <l n="924">Et malgré ma raison me remet sous vos lois : </l>
+            <l n="925">J'ai pensé vainement échapper de mes chaînes,</l>
+            <l n="926">Je rentre en mes liens, je retourne à mes peines,</l>
+            <l n="927">Et mon cour aujourd'hui trouve son joug si beau</l>
+            <l n="928">Qu'il ne veut désormais le quitter qu'au tombeau,</l>
+            <l n="929">Recevez votre Esclave, objet trop adorable </l>
+            <l n="930">Approuvez son retour, soyez lui favorable,</l>
+            <l n="931">Par son naufrage même, il vous a mise au port</l>
+            <l n="932">Pour l'y mettre à présent faites un même effort,</l>
+            <l n="933">Vous savez que pour vous, il s'est vaincu soi-même</l>
+            <l n="934">Qu'il a trahi ses feux, sa puissance suprême, </l>
+            <l n="935">Son repos, son bonheur, sa gloire, et ses plaisirs</l>
+            <l n="936">Pour se sacrifier au gré de vos désirs,</l>
+            <l n="937">Maintenant qu'il vous a de tout point satisfaite</l>
+            <l n="938">Vous devez consentir au bonheur qu'il souhaite,</l>
+            <l n="939">Et par un traitement aussi juste que doux </l>
+            <l n="940">Faire aujourd'hui pour lui ce qu'il a fait pour vous.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="941">Quel charme, justes dieux ! rend ma vue éblouie,</l>
+            <l n="942">Confond mon jugement, et trompe mon ouïe.</l>
+            <l n="943">Ce n'est point Soliman qui me parait ici,</l>
+            <l n="944">Il a trop de vertu pour en parler ainsi, </l>
+            <l n="945">Il sait trop que Perside est constante et fidèle</l>
+            <l n="946">Pour lui persuader une amour criminelle,</l>
+            <l n="947">Il sait trop, il sait trop qu'elle chérit l'honneur.</l>
+            <l n="948">Change donc ce discours insolent suborneur</l>
+            <l n="949">Et par une action et si lâche et si noire </l>
+            <l n="950">Cesse de m'offenser et de ternir ta gloire</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="951">Trop charmante beauté sortez de cette erreur,</l>
+            <l n="952">Et voyez à vos pieds mourir un Empereur,</l>
+            <l n="953">Hélas c'est Soliman : mais Soliman en flamme</l>
+            <l n="954">Soliman aux abois, et qui va rendre l'âme </l>
+            <l n="955">Si vos yeux moins cruels n'empêchent son trépas.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="956">Tu me parles en vain, va je ne te crois pas,</l>
+            <l n="957">Soliman est discret, Soliman est plus sage.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="958">C'est lui-même pourtant qui vous rend cet hommage.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="959">Ah ! Si c'est toi Seigneur pourquoi te démens-tu ? </l>
+            <l n="960">Quel Monstre ? Quel Démon a détruit ta vertu ?</l>
+            <l n="961">Cette force d'esprit si rare et si connue</l>
+            <l n="962">T'a-t-elle abandonné ? Qu'est-elle devenue,</l>
+            <l n="963">Ah ! Si c'est moi Seigneur, qui te cause ce tort,</l>
+            <l n="964">Si ce sont mes attraits qui te troublent si fort, </l>
+            <l n="965">Bannis de tes états cette beauté funeste,</l>
+            <l n="966">Fuis ses yeux criminels à l'égal de la peste,</l>
+            <l n="967">Évite son abord, et pour la mieux punir</l>
+            <l n="968">Détruis-en si tu peux jusques au souvenir</l>
+            <l n="969">J'aime mieux que ma mort prévienne ton envie </l>
+            <l n="970">Que de me voir fatale au lustre de ta vie.</l>
+            <l n="971">Si c'est là ton dessein je le tiens à bonheur,</l>
+            <l n="972">Dispose de mon sang, mais laisse-moi l'honneur.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="973">Votre honneur désormais est franc de toute atteinte,</l>
+            <l n="974">Vous pouvez m'obliger et sans honte et sans crainte </l>
+            <l n="975">Vous êtes au sérail et seule et sans témoin.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="976">Pour faillir en secret on empêche pas moins.</l>
+            <l n="977">Mais c'est trop écouter un discours qui m'outrage</l>
+            <l n="978" part="I">Sortons.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="978" part="M"> Adieu cruelle. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN, seul.</speaker>
+            <l n="978" part="F">Ô Désespoir ! Ô rage !</l>
+            <l n="979">Hé ! bien, que feras-tu Soliman ? Ce mépris</l>
+            <l n="980">N'est-il pas suffisant à guérir tes esprits ?</l>
+            <l n="981">Ah bien loin de détruire il augmente ma flamme</l>
+            <l n="982">Elle règne en mon cour, elle embrase mon âme </l>
+            <l n="983">Et toutes ses rigueurs profitent aussi peu,</l>
+            <l n="984">Que font des gouttes d'eau pour éteindre un grand feu,</l>
+            <l n="985">Quand je crois l'étouffer c'est lorsqu'il se rallume</l>
+            <l n="986">Quand je pense être sain, c'est lorsqu'il me consume,</l>
+            <l n="987">Et comme dans les airs le tonnerre se fait</l>
+            <l n="988">Par le rude combat et du chaud et du froid. </l>
+            <l n="989">Ainsi quand sa froideur vient à choquer ma flamme</l>
+            <l n="990">Il se fait seulement un foudre pour mon âme,</l>
+            <l n="991">Dont l'invincible trait rend mon cour abattu</l>
+            <l n="992">Et sans m'ôter le jour lui ravit sa Vertu. </l>
+            <l n="993">Songe donc Soliman à ce que tu veux faire</l>
+            <l n="994">Sois plus respectueux, où fois plus téméraire,</l>
+            <l n="995">Cesse enfin de languir, et par un prompt effort</l>
+            <l n="996">Choisis sans différer ou l'amour ou la mort.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Achmat, Hermine.</head>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT, sortant de l'appartement d'Herminie.</speaker>
+            <l n="997">Non, non n'espérez pas me traitant de la sorte </l>
+            <l n="998">Que sur ma passion votre rigueur l'emporte,</l>
+            <l n="999">Je connais la raison qui cause vos mépris,</l>
+            <l n="1000">Je sais de quelle ardeur votre cour est épris,</l>
+            <l n="1001">Et je n'ignore pas qu'une haute espérance</l>
+            <l n="1002">Ne soit le fondement du refus qui m'offense, </l>
+            <l n="1003">Mais apprenez aussi que je sais le moyen</l>
+            <l n="1004">D'étouffer votre espoir, et d'assurer le mien.</l>
+            <l n="1005">Oui, oui beauté superbe, il faut que tout périsse</l>
+            <l n="1006">Ou qu'au gré de mes voeux mon dessein réussisse,</l>
+            <l n="1007">Vous n'êtes plus à vous, et vous êtes à moi, </l>
+            <l n="1008" part="I">Soliman qui peut tout.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1008" part="F"> Ne peut rien sur ma foi.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1009" part="I">Vous êtes son esclave.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1009" part="F">Oui mais non pas la tienne.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1010">Vous devez obéir puisque vous êtes sienne.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1011">De deux maîtres puissants qui régissent mon sort</l>
+            <l n="1012">Je résiste au plus faible, et je cède au plus fort.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1013">Où règne Soliman il n'est point d'autre maître.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1014">Où règne Soliman n'espère pas de l'être.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1015">Je vous entends Madame, et je sais vos desseins </l>
+            <l n="1016" part="I">Mais il aime Perside.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1016" part="F"> Et ses feux seront vains.</l>
+            <l n="1017">Puisqu'au gré de ses voeux Eraste la possède</l>
+            <l n="1018" part="I">Cet obstacle est puissant,</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1018" part="F"> J'en sais bien le remède. </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1019">Va, va mettre en effet tes projets inhumains,</l>
+            <l n="1020">Moi je saurai bientôt me tirer de tes mains.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1021">Oui, oui malgré ce cour si contraire à ma flamme</l>
+            <l n="1022">Je vais exécuter le complot que je trame,</l>
+            <l n="1023">Et te réduire au point de ne plus espérer </l>
+            <l n="1024">Le grade impérieux où tu veux aspirer.</l>
+            <l n="1025">Oui cruelle je sais qu'Eraste est un obstacle</l>
+            <l n="1026">Qui fait que ce charmant et visible miracle</l>
+            <l n="1027">Pour qui les plus grands cours ont tant de passion</l>
+            <l n="1028">Est pour un Empereur sans inclination ; </l>
+            <l n="1029">Mais pour son intérêt il faut qu'il s'en délivre</l>
+            <l n="1030">Notre commun repos veut qu'il cesse de vivre,</l>
+            <l n="1031">Et que par ce grand coup nous renversions tous deux</l>
+            <l n="1032">Le seul empêchement qui s'oppose à nos voeux.</l>
+            <l n="1033">Eraste je sais bien qu'envers toi je suis traître </l>
+            <l n="1034">Mais toi-même tu l'es au repos de ton maître,</l>
+            <l n="1035">Car ta fidélité, fatale à ses plaisirs</l>
+            <l n="1036">Par son propre mérite a trahi ses désirs.</l>
+            <l n="1037">Je t'aimais autrefois et maintenant je m'aime,</l>
+            <l n="1038">Je n'ai plus soin de toi pour songer à moi-même </l>
+            <l n="1039">Tu me nuis, je t'hais et mon cour en ce jour</l>
+            <l n="1040">A conclu ton trépas pour plaire à mon amour,</l>
+            <l n="1041">Je ne puis écouter les lois de la nature</l>
+            <l n="1042">Je songe à me guérir par ta propre blessure,</l>
+            <l n="1043">J'ai dessein de te perdre afin de me sauver </l>
+            <l n="1044">Et de causer ta chute afin de m'élever,</l>
+            <l n="1045">Enfin pardonne-moi si je te suis barbare</l>
+            <l n="1046">L'amitié nous joignit et l'amour nous sépare,</l>
+            <l n="1047">J'avance ton malheur pour avancer mon bien</l>
+            <l n="1048">Et pour cet intérêt je n'écoute plus rien. </l>
+            <l n="1049">Allons c'est trop parler la chose est résolue</l>
+            <l n="1050">La foudre est toute prête et sa mort est conclue,</l>
+            <l n="1051">Amour cruel auteur de ce hardi dessein</l>
+            <l n="1052">Favorise un forfait que tu m'a mis au sein.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III.</head>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1053">Tyran des cours bourreau des âmes, </l>
+            <l n="1054">Maître des humains et des Dieux,</l>
+            <l n="1055">Redoutable vainqueur des plus ambitieux</l>
+            <l n="1056">Dieu de fers de soupirs, de tourments, et de flammes,</l>
+            <l n="1057">Amour que les coups de tes traits</l>
+            <l n="1058">Ont d'abord de puissants attraits ! </l>
+            <l n="1059">Qu'ils font une agréable et charmante blessure</l>
+            <l n="1060">Mais après de si doux moments,</l>
+            <l n="1061">Hélas ! que ta douceur change bien de nature,</l>
+            <l n="1062">Et qu'elle est fatale aux amants !</l>
+            <l n="1063">Puisque je vis sous ton Empire </l>
+            <l n="1064">Et qu'Eraste a ma liberté,</l>
+            <l n="1065">Pourquoi par ton caprice, ou par ta cruauté.</l>
+            <l n="1066">Fais-tu que Soliman pour moi-même soupire.</l>
+            <l n="1067">Je ne puis partager mes voeux</l>
+            <l n="1068">Mon amour ne peut être à deux, </l>
+            <l n="1069">Eraste est mon époux, Soliman est mon Prince ;</l>
+            <l n="1070">Mais le premier est mon vainqueur</l>
+            <l n="1071">Et si le sort à l'un a donné ma Province,</l>
+            <l n="1072">Amour donne à l'autre mon cour.</l>
+            <l n="1073">Une chose leur est commune </l>
+            <l n="1074">Parmi leurs inégalités,</l>
+            <l n="1075">Deux aveugles des deux sont les divinités</l>
+            <l n="1076">L'un doit tout à l'amour et l'autre à la fortune,</l>
+            <l n="1077">L'un est content de mes ardeurs,</l>
+            <l n="1078">L'autre est au faîte des grandeurs </l>
+            <l n="1079">Et son ambition ne peut être assouvie,</l>
+            <l n="1080">Eraste asservi sous mes lois</l>
+            <l n="1081">Se plaît en ses liens et son cour sans envie,</l>
+            <l n="1082">Les préfère aux sceptres des Rois.</l>
+            <l n="1083">Prince dont l'injuste puissance, </l>
+            <l n="1084">Suppose à nos feux innocents,</l>
+            <l n="1085">Si je suis insensible aux flammes que tu sens.</l>
+            <l n="1086">Ne prends point ma rigueur pour désobéissance.</l>
+            <l n="1087">Un Dieu dont tu sens le pouvoir</l>
+            <l n="1088">M'ordonne ce juste devoir, </l>
+            <l n="1089">Je ne puis résister à celui qui te dompte,</l>
+            <l n="1090">S'il rend Eraste triomphant,</l>
+            <l n="1091">Afin de mieux couvrir mes refus et ta honte.</l>
+            <l n="1092">Dis que c'est le choix d'un enfant.</l>
+            <l n="1093">Beau sujet de mes soins, cher objet de ma flamme </l>
+            <l n="1094">Oui, oui tu seras seul à posséder mon âme,</l>
+            <l n="1095">Et de quelque façon qu'on attaque mon cour</l>
+            <l n="1096">Il ne reconnaîtra jamais d'autre vainqueur :</l>
+            <l n="1097">Mais ô Dieux je le vois, et son visage blême,</l>
+            <l n="1098">Témoigne à cet abord une douleur extrême. </l>
+            <l n="1099">Il frémit, il pâlit, et par ses changements</l>
+            <l n="1100">Montre qu'il sent au cour d'étranges mouvements.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Perside, Eraste.</head>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1101">Qu'avez-vous Eraste ? Et quel mauvais présage</l>
+            <l n="1102">Tirai-je de vos yeux et de votre visage.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1103">Vous me demandez hélas ! Ce que vous jugez bien.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1104">Parlez plus clairement où je ne comprends rien.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1105">Hé bien je vais parler, voyez mes yeux Madame </l>
+            <l n="1106">Par eux vous apprendrez le tourment de mon âme,</l>
+            <l n="1107">Par eux vous apprendrez que je viens en ce lieu</l>
+            <l n="1108">Pour vous dire peut-être un éternel à dieu.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1109">Un éternel a dieu cher Eraste ! Ah je tremble.</l>
+            <l n="1110">Un éternel adieu ? Non non mourons ensemble </l>
+            <l n="1111">Ou si tu veux enfin que j'écoute le tien,</l>
+            <l n="1112">Eraste en même temps reçoit aussi le mien,</l>
+            <l n="1113">Mon âme avec la tienne est si bien attachée</l>
+            <l n="1114">Qu'on ne la verra point par la mort arrachée,</l>
+            <l n="1115">Et tu dois recevoir des preuves de ma foi </l>
+            <l n="1116">Me voyant toujours vivre et mourir avec toi.</l>
+            <l n="1117">A tout événement mon cour se peut résoudre</l>
+            <l n="1118">Si sur l'un de nous deux le sort lance la foudre,</l>
+            <l n="1119">Le coup qu'il recevra mettra l'autre au tombeau,</l>
+            <l n="1120">Et rien n'est assez fort pour rompre un noeud si beau. </l>
+            <l n="1121" part="I">Crois-tu que ta Perside....</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1121" part="F"> Ah ! Cesse ma chère âme</l>
+            <l n="1122">Je douterais à tort des ardeurs de ta flamme,</l>
+            <l n="1123">La crainte et les soupçons dont je suis combattu</l>
+            <l n="1124">Attaquent mon repos et non pas ta Vertu. </l>
+            <l n="1125">Par mille beaux effets elle m'est si connue</l>
+            <l n="1126">Et parait à mes yeux si charmante et si nue</l>
+            <l n="1127">Que si dans mes malheurs je doutais de ta foi</l>
+            <l n="1128">Je me rendrais indigne et du jour et de toi,</l>
+            <l n="1129">Mais je crains un amour armé d'une puissance </l>
+            <l n="1130">Contre qui ta vertu n'aura point de défense,</l>
+            <l n="1131">Qui foule aux pieds l'honneur, les lois et le devoir</l>
+            <l n="1132">Et dans sa volonté limite son pouvoir,</l>
+            <l n="1133">Oui je crains Soliman, oui je crains un barbare</l>
+            <l n="1134">Dont le lâche dessein aujourd'hui nous sépare, </l>
+            <l n="1135">Je redoute un voleur qui m'enlève mon bien,</l>
+            <l n="1136">J'appréhende celui qui n'appréhende rien</l>
+            <l n="1137">Et qui pour te ravir avec plus de licence,</l>
+            <l n="1138">Par des moyens adroits me ravit ta présence</l>
+            <l n="1139">Pour rendre auprès de toi ses efforts plus puissants. </l>
+            <l n="1140">Il feint de redouter les armes des Persans,</l>
+            <l n="1141">Mais c'est moi qu'il redoute, et non pas leur victoire</l>
+            <l n="1142">Sous prétexte pourtant de procurer ma gloire,</l>
+            <l n="1143">Ce mortel Ennemi m'éloigne seulement,</l>
+            <l n="1144">Comme un fâcheux obstacle à son contentement, </l>
+            <l n="1145">Et me fait Général d'une puissante armée</l>
+            <l n="1146">Pour m'ôter un trésor dont son âme est charmée,</l>
+            <l n="1147">Je sais qu'il t'aime hélas ! Et qu'il me veut trahir,</l>
+            <l n="1148">Je sais que je te perds, mais il faut obéir.</l>
+            <l n="1149">Étrange et dure loi de mon sort déplorable </l>
+            <l n="1150">Qu'autant aimé qu'Amant je sois si misérable ?</l>
+            <l n="1151">Amour ? Cruel amour que t'a fait ma vertu ?</l>
+            <l n="1152">Tyran de mon repos à quoi me réduis-tu ?</l>
+            <l n="1153">Quel caprice est le tien ? Quelle est ma destinée ?</l>
+            <l n="1154">Tu veux m'ôter Perside ? Et tu me l'as donnée. </l>
+            <l n="1155">Ah ! Ravis-moi plutôt le bien de la clarté</l>
+            <l n="1156">Que la possession de sa rare beauté.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1157">Non, non mon cher époux étouffe cette crainte</l>
+            <l n="1158">Dont trop indignement ta belle âme est atteinte,</l>
+            <l n="1159">Ta Perside est à toi, rien ne peut te l'ôter </l>
+            <l n="1160">Non pas même la mort mais tu vas me quitter,</l>
+            <l n="1161">Tu le dis, je t'entends, ton âme se désole</l>
+            <l n="1162">Et ma mort ne suit pas cette triste parole ?</l>
+            <l n="1163">Quoi tu pars ? tu t'en vas, tu me fais tes adieux ?</l>
+            <l n="1164">Et sa cruelle main ne ferme pas mes yeux ? </l>
+            <l n="1165">Tu t'en vas cher Eraste, et lâche je respire,</l>
+            <l n="1166">Quand ton éloignement ordonne que j'expire,</l>
+            <l n="1167">Ah ! Qu'à bon droit, Eraste, et qu'avec raison</l>
+            <l n="1168">Tu soupçonnes mon cour de quelque trahison</l>
+            <l n="1169">Si lorsque tu me dis qu'il faut que tu me laisses </l>
+            <l n="1170">Par mes pleurs seulement je fais voir mes faiblesses,</l>
+            <l n="1171">Ah ! trop lâches effets de mon ressentiment</l>
+            <l n="1172">Que vous exprimez mal l'excès de mon tourment,</l>
+            <l n="1173">Larmes ne coulez plus, ou montrez mieux mes peines</l>
+            <l n="1174">Arrêtez-vous mes yeux, mais ouvrez-vous mes veines </l>
+            <l n="1175">Il n'appartient qu'a vous à pleurer mes malheurs</l>
+            <l n="1176">Et mon sang peut tout seul faire voir mes douleurs.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1177">Épargne ce beau sang sèche ces belles larmes</l>
+            <l n="1178">Enfin le temps me presse, il faut prendre les armes,</l>
+            <l n="1179">Oui, Perfide, je pars et je te dis adieu, </l>
+            <l n="1180">Mais vis pour ton Eraste et demeure en ce lieu,</l>
+            <l n="1181">Peut-être que le fort qui nous est si contraire</l>
+            <l n="1182">Malgré ma défiance aura moins de colère,</l>
+            <l n="1183">Je crains tout d'un Tyran de vices revêtu</l>
+            <l n="1184">Mais craignant son amour, j'espère en ta vertu, </l>
+            <l n="1185">Parmi mes déplaisirs cet espoir me console,</l>
+            <l n="1186">Oui ta foi me rassure, et ma crainte s'envole,</l>
+            <l n="1187">Je sais que ton esprit en fut toujours vainqueur</l>
+            <l n="1188">Adieu dans ce baiser je te laisse mon cour.</l>
+            <l n="1189">Soit enfin que je parte ou soit que je demeure </l>
+            <l n="1190">Soit que je vive en guerre,ou bien soit que j'y meure,</l>
+            <l n="1191">Soit que le Ciel m'assiste ou qu'il soit contre moi</l>
+            <l n="1192">Rien ne peut empêcher que je ne sois à toi ;</l>
+            <l n="1193">Je l'ai cent fois juré, je te le jure encore</l>
+            <l n="1194">Soit absent ou présent il faut que je t'adore, </l>
+            <l n="1195">Et qu'enfin ton beau nom répété mille fois</l>
+            <l n="1196">Soit les derniers propos que prononce ma voix.</l>
+            <l n="1197">Adieu chère Perside, et perdant ma présence,</l>
+            <l n="1198">Pour me mieux consoler fais-moi voir ta constance</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1199" part="I">Adieu donc cher Eraste. </l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1199" part="M"> Adieu Madame.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1199" part="F">Hélas !</l>
+            <l n="1200" part="I">Te reverrai-je encor ?</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1200" part="F"> Non ne l'espère pas ?</l>
+            <l n="1201" part="I">Adieu.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE, seule.</speaker>
+            <l n="1201" part="F"> Capricieuse et bizarre fortune</l>
+            <l n="1202">Après un doux effet que tu m'es importune, </l>
+            <l n="1203">Que d'un trouble soudain mon repos est suivi,</l>
+            <l n="1204">A peine ai-je un bonheur que je le vois ravi,</l>
+            <l n="1205">Je sens en même temps ces faveurs, et ta rage</l>
+            <l n="1206">Tu me jettes au port, et tu me fais un naufrage,</l>
+            <l n="1207">Tu fais lors que je meurs semblant de me guérir </l>
+            <l n="1208">Et puis lorsque je vis tes traits me font mourir,</l>
+            <l n="1209">Inconstante Déesse à mes yeux infidèle</l>
+            <l n="1210">Sois-moi plus favorable, ou sois-moi plus cruelle,</l>
+            <l n="1211">Ne me fais plus languir, détermine mon sort</l>
+            <l n="1212">Et délibère enfin ou ma vie ou ma mort. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Soliman, Achmat, Pirrus, Haly, quelques Janissaires.</head>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1213">Tu hasardes beaucoup Seigneur, et cette adresse</l>
+            <l n="1214">Dont tu crois te servir, est nuisible à la Grèce,</l>
+            <l n="1215">Tu connais bien Eraste, et tu n'ignores pas</l>
+            <l n="1216">Qu'il a bien du crédit sur les cours des Soldats,</l>
+            <l n="1217">Par cet éloignement tu te promets peut-être </l>
+            <l n="1218">De posséder Perside et de t'en rendre maître,</l>
+            <l n="1219">mais tant que son esprit nourrira l'espoir</l>
+            <l n="1220">Ne prétends pas jamais que tu puisses l'avoir,</l>
+            <l n="1221">Un feu comme le sien a trop de violence</l>
+            <l n="1222">Pour céder aux ennuis d'une légère absence, </l>
+            <l n="1223">Eraste est trop avant dedans son souvenir,</l>
+            <l n="1224">La distance des lieux ne l'en saurait bannir</l>
+            <l n="1225">Et tant que ce Rival jouira de la vie,</l>
+            <l n="1226">Toujours un vain espoir trompera ton envie,</l>
+            <l n="1227">Car si tu presses trop cet objet orgueilleux, </l>
+            <l n="1228">Tu fais contre toi-même un dessein périlleux,</l>
+            <l n="1229">Soudain elle mettra son Eraste en alarmes,</l>
+            <l n="1230">Qui te venant combattre avec tes propres armes,</l>
+            <l n="1231">Te ravira peut-être avec cette beauté,</l>
+            <l n="1232">Et l'Empire et le Trône où je te vois monté, </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1233">J'approuve vos raisons, et votre prévoyance,</l>
+            <l n="1234">Dans vos sages avis je vois mon imprudence,</l>
+            <l n="1235">Je reconnais ma faute, et je veux aujourd'hui</l>
+            <l n="1236">Malgré ses faits passés me défier de lui.</l>
+            <l n="1237">Mais pour exécuter un conseil salutaire </l>
+            <l n="1238">Achmat la diligence est toujours nécessaire,</l>
+            <l n="1239" part="I">Faites venir Eraste allez,</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1239" part="F">Prends ce souci</l>
+            <l n="1240">Pirrus, va, ma présence est nécessaire ici,</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1241" part="I">J'y vais, </l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1241" part="M"> Qu'il vienne tôt, vole.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Soliman, Achmat, Haly.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1241" part="F">Eraste, Perside,</l>
+            <l n="1242">Qu'à votre occasion je suis lâche et timide</l>
+            <l n="1243">Que dedans mes désirs je suis peu résolu,</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1244">Tu te devrais Seigneur rendre plus absolu </l>
+            <l n="1245">C'est excès de bonté qui nuit à ta Hautesse</l>
+            <l n="1246">Produit des insolents alors qu'elle s'abaisse,</l>
+            <l n="1247">Vois comme auprès de toi Perside est sans respect,</l>
+            <l n="1248" part="I">Et qu'Eraste.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1248" part="M"> Achevez.... </l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1248" part="F"> Te doit être suspect.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1249">Ah ! Ne l'offensez pas je connais trop son zèle,</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1250">Et tu sauras trop tard qu'il ne t'est pas fidèle.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1251">Ces drapeaux que je vois parlent ici pour lui.</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1252">Et ces autres Seigneur la causent aujourd'hui. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1253">Ceux-là sont seulement les témoins de ma gloire.</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1254">Ils le sont des regrets qu'il a de ta victoire,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1255">Il est vrai que d'abord cet objet l'a surpris,</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1256">Et toujours ces objets irritent ces esprits,</l>
+            <l n="1257">Perside d'autre part excitant sa furie </l>
+            <l n="1258">Le porte incessamment à venger sa Patrie :</l>
+            <l n="1259">Il couve ce dessein, et propice à ses voeux</l>
+            <l n="1260">Déjà l'occasion lui montrait ses cheveux,</l>
+            <l n="1261">Si ta Hautesse ici par nos soins avertie</l>
+            <l n="1262">Révoquant son pouvoir n'en rompait la partie, </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1263">Le perfide l'ingrat ! Il faut le prévenir.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1264" part="I">Ce n'est pas assez.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1264" part="M"> Quoi donc ?</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1264" part="F"> Crains l'avenir</l>
+            <l n="1265">L'affront qu'il recevra va piquer son courage </l>
+            <l n="1266">Et bien qu'un feint respect te déguise sa rage,</l>
+            <l n="1267">Il pourra tôt ou tard par de lâches complots</l>
+            <l n="1268">Venger ses passions et troubler ton repos,</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1269">En cette occasion qu'est-il besoin de faire ?</l>
+            <l n="1270" part="I">Que me conseillez-vous ? </l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1270" part="F"> De perdre un téméraire,</l>
+            <l n="1271">Qui conspire dans l'âme à te priver du jour</l>
+            <l n="1272">Qui s'oppose à ta gloire et nuit à ton amour.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1273">Hé bien, puisque l'état aujourd'hui m'y convie</l>
+            <l n="1274">Puisque sa mort importe au repos de ma vie, </l>
+            <l n="1275">Perdons-le, c'en est fait, mon esprit s'y résout.</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1276">Pour toi les yeux fermés, j'ose et j'entreprends tout.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1277">Si j'ai reçu par vous cet avis salutaire</l>
+            <l n="1278">Vous recevrez de moi son prix et son salaire,</l>
+            <l n="1279">Mais laissez cet ingrat, et qu'il vive en repos </l>
+            <l n="1280">Je l'empêcherai bien, ah ! qu'il vient à propos,</l>
+            <l n="1281">Je vais par un reproche et juste et légitime</l>
+            <l n="1282">Imprimer dans son cour le remords de son crime,</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Soliman, Eraste, Achamt, Haly, Pittus, et Janissaires.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1283">Ton cour est grand, Eraste, il le faut avouer,</l>
+            <l n="1284">Ta générosité ne se peut trop louer, </l>
+            <l n="1285">Et Rhodes que le sort et mon bras m'ont donnée</l>
+            <l n="1286">Après ses hauts exploits est bien infortunée,</l>
+            <l n="1287">D'être aujourd'hui contrainte de relever de moi</l>
+            <l n="1288">Ayant pour citoyens des hommes comme toi,</l>
+            <l n="1289">Certes dans son malheur elle est beaucoup à plaindre </l>
+            <l n="1290">Mais ce ressentiment pourra bientôt s'éteindre,</l>
+            <l n="1291">Puis qu'enfin ta valeur sensible à ses regrets</l>
+            <l n="1292">Va contre Soliman prendre ses intérêts,</l>
+            <l n="1293">Et par une importante et célèbre victoire</l>
+            <l n="1294">La remettre en ses droits et rétablir sa gloire, </l>
+            <l n="1295">Certes de ce projet le prétexte est fort beau</l>
+            <l n="1296">Mais son funeste effet me semble un peu nouveau,</l>
+            <l n="1297">Eraste, il est certain que j'ai vaincu ta Patrie</l>
+            <l n="1298">Ce fâcheux souvenir excite ta furie,</l>
+            <l n="1299">Mais en te souvenant de ses heureux malheurs </l>
+            <l n="1300">Tu devais quant et quant songer à mes faveurs,</l>
+            <l n="1301">Et par un prompt remords renoncer à l'envie,</l>
+            <l n="1302">De m'ôter ma conquête et peut-être la vie.</l>
+            <l n="1303">Ce discours te surprend avec quelque raison</l>
+            <l n="1304">Tu me croyais si bien cacher ta trahison, </l>
+            <l n="1305">Que la trame en étant adroitement couverte</l>
+            <l n="1306">Je ne la devais voir qu'en apprenant ma perte,</l>
+            <l n="1307">Mais le démon qui-veille au salut des états</l>
+            <l n="1308">Ma découvert ton piège, et les noirs attentats,</l>
+            <l n="1309">Éventé ton dessein, et dissipé les charmes </l>
+            <l n="1310">Qui faisaient contre moi tourner mes propres armes,</l>
+            <l n="1311">Ayant prévu le mal je saurai l'éviter.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1312">Et si tu veux mon sang je te puis contenter,</l>
+            <l n="1313">Oui, oui que ta Hautesse achève son envie</l>
+            <l n="1314">Eraste t'est suspect il doit perdre la vie. </l>
+            <l n="1315">Mais en l'abandonnant à de sanglants effets</l>
+            <l n="1316">Ne lui reproche pas de si lâches forfaits.</l>
+            <l n="1317">Si tu fais le dessein de perdre un misérable</l>
+            <l n="1318">Au moins accuse-le d'un crime véritable,</l>
+            <l n="1319">Et pour le condamner avec plus d'équité </l>
+            <l n="1320">Fais paraître sa faute en sa témérité.</l>
+            <l n="1321">Alors ta cruauté se rendra légitime</l>
+            <l n="1322">En l'accusant d'aimer tu nommeras son crime,</l>
+            <l n="1323">Et tu le blâmeras avec juste raison</l>
+            <l n="1324">Si chérir son épouse est une trahison. </l>
+            <l n="1325">Peut-être j'ai failli d'aimer une Déesse</l>
+            <l n="1326">Dont les chastes attraits plaisaient à ta Hautesse,</l>
+            <l n="1327">Mais qui s'empêcherait du crime que j'ai fait</l>
+            <l n="1328">Si mon juge lui-même a causé son effet,</l>
+            <l n="1329">Bien, sois-en Soliman le possesseur paisible </l>
+            <l n="1330">Ton rang et mes malheurs te rendent tout loisible,</l>
+            <l n="1331">Ravis-moi ravis-moi cette illustre beauté</l>
+            <l n="1332">Qu'au prix de tant de sang j'ai si bien acheté,</l>
+            <l n="1333">Mais donne-moi la mort et dans mon infortune</l>
+            <l n="1334">Préviens par ce beau coup notre honte commune, </l>
+            <l n="1335">C'est l'unique moyen d'assurer ton amour,</l>
+            <l n="1336">Ne diffère donc pas à me priver du jour,</l>
+            <l n="1337">Aussi bien ce Sérail le théâtre tragique</l>
+            <l n="1338">Des noires actions d'une ardeur impudique,</l>
+            <l n="1339">Est tout accoutumé de souffrir sans horreur </l>
+            <l n="1340">Ces prodiges nouveaux de rage et de fureur,</l>
+            <l n="1341">Déjà l'assassinat y passe en habitude</l>
+            <l n="1342">Et dans cette honteuse et ville servitude.</l>
+            <l n="1343">Parmi tes courtisans, et tes lâches flatteurs</l>
+            <l n="1344">Et le meurtre et l'inceste ont des approbateurs. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1345">Cet insolent propos montre à qui je me fie</l>
+            <l n="1346">Mais ce n'est pas ainsi que l'on se justifie,</l>
+            <l n="1347">Ce procédé ne sert qu'a vous rendre suspect</l>
+            <l n="1348">Et vous devriez au moins avoir plus de respect.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1349">Seigneur mes actions sont toutes innocentes </l>
+            <l n="1350">Et j'en pourrais donner des preuves évidentes</l>
+            <l n="1351">Mais ce serait en vain, tu connaîtras un jour,</l>
+            <l n="1352">Quel était ton Eraste, et quel est ton amour.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1353">Et vous dans le Château du bord de la mer noire</l>
+            <l n="1354">Vous apprendrez bientôt à respecter ma gloire, </l>
+            <l n="1355" part="I">Emmenez-le Pirrus.</l>
+          </sp>
+          <sp who="tc0422-ERASTE">
+            <speaker>ERASTE.</speaker>
+            <l n="1355" part="F">Je n'y recule pas</l>
+            <l n="1356">Et même si tu veux nous irons au trépas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCÈNE IX. Soliman, Achmat, Haly.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1357">Non je n'en doute plus il est, il est Perside,</l>
+            <l n="1358">Il sait la passion que j'ai pour sa Perside, </l>
+            <l n="1359">L'ingrat en est jaloux, mes feux m'ont haïr</l>
+            <l n="1360">Et son ressentiment le porte à me trahir,</l>
+            <l n="1361">Qu'il meure, va Haly, mène mes Janissaires</l>
+            <l n="1362">Et puis donne aux muets les ordres nécessaires.</l>
+            <l n="1363">Va...non reviens, attends, avis, haine, courroux, </l>
+            <l n="1364">Perside, Eraste, amour, où me réduisez-vous.</l>
+            <l n="1365">Où me réduisez-vous impérieuse flamme ?</l>
+            <l n="1366">Si mon Eraste meurt que deviendra mon âme ?</l>
+            <l n="1367">Les coups qui l'atteindront ne m'atteignent-ils pas ?</l>
+            <l n="1368">Sa mort n'est-elle pas l'arrêt de mon trépas </l>
+            <l n="1369">Et quoi que je propose en ce courroux extrême</l>
+            <l n="1370">Le puis-je perdre enfin sans me perdre moi-même ?</l>
+            <l n="1371">Non, non quoi qu'il en soit ses malheurs sont les miens</l>
+            <l n="1372">Les plus beaux de mes jours sont attachés aux siens,</l>
+            <l n="1373">Je souhaite ma mort en désirant la sienne, </l>
+            <l n="1374">Son trépas est le mien et sa vie est la mienne ?</l>
+            <l n="1375" part="I">Qu'il vive donc qu'il vive.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1375" part="M">Ah ! Seigneur.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1375" part="F">Laissez-moi,</l>
+            <l n="1376">Eraste est innocent, ces drapeaux que je vois ; </l>
+            <l n="1377">Me parlent hautement en faveur de son zèle.</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1378" part="I">Mais Perside Seigneur....</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1378" part="F"> Non il est infidèle.</l>
+            <l n="1379">Perds donc sans différer celui qui nous aima</l>
+            <l n="1380">Celui qui nous servit, celui qui nous charma, </l>
+            <l n="1381">Va Haly, c'en est fait, mon amour veut qu'il meure</l>
+            <stage>Il sort.</stage>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1382">Se peut-il présenter d'occasion meilleure.</l>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1383">Non Haly, hâte-toi rien ne le peut sauver.</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1384">Suivez tout de ce pas je m'en vais le trouver,</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE PREMIÈRE. Pirrus, Alcomire.</head>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="1385">Pirrus, si vous voulez m'acquérir et me plaire </l>
+            <l n="1386">Il faut perdre un ingrat, et servir ma colère,</l>
+            <l n="1387">Il faut punir Achmat dont l'esprit orgueilleux</l>
+            <l n="1388">Après m'avoir vaincue a rejeté mes voeux</l>
+            <l n="1389">Montrez donc par ce coup qu'il vous faut entreprendre</l>
+            <l n="1390">Que m'ayant su gagner vous me savez défendre, </l>
+            <l n="1391">Et pour vous y porter avec plus de courroux</l>
+            <l n="1392">Songez que je vous aime et que je suis à vous.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1393">Madame, ce discours est-il bien véritable ?</l>
+            <l n="1394">Puis-je attendre de vous cet honneur incroyable ?</l>
+            <l n="1395">Et me comblerez-vous par de si grands bienfaits </l>
+            <l n="1396">Si mon bras aujourd'hui s'accorde à vos souhaits ?</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="1397">Oui Pirrus, mais il faut contenter mon envie.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1398">C'est assez Alcomire, il va perdre la vie.</l>
+            <l n="1399">J'apporterai son cour à vos sacrés genoux</l>
+            <l n="1400">Vous le verrez sanglant et tout percé de coups, </l>
+            <l n="1401">Et pour mieux satisfaire au deuil qui vous anime</l>
+            <l n="1402">Je veux en le frappant lui reprocher son crime,</l>
+            <l n="1403">Adieu, quand il aurait tout le secours des Cieux</l>
+            <l n="1404">Vous le reverrez mort et moi victorieux.</l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="1405">Demeure encore un peu, mais que dis-je timide ? </l>
+            <l n="1406">L'ingrat m'a méprisée, il a trahi Perside,</l>
+            <l n="1407">Alcomire, Herminie, Eraste et L'empereur,</l>
+            <l n="1408">Qu'il meure donc l'ingrat, qu'il sente ta fureur,</l>
+            <l n="1409">Ce n'est point lâcheté que de trahir un traître.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1410">Si c'est pour vous servir je fais gloire de l'être. </l>
+          </sp>
+          <sp who="tc0422-ALCOMIRE">
+            <speaker>ALCOMIRE.</speaker>
+            <l n="1411">Va c'en est fait, adieu venge-moi promptement.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1412">En moi vous trouverez un plus fidèle Amant.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II.</head>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1413">Enfin le coup est fait et selon mon envie</l>
+            <l n="1414">Eraste vient de perdre et l'amour et la vie,</l>
+            <l n="1415">De funestes cordeaux ont rompu ses liens </l>
+            <l n="1416">Et ses feux étouffés font revivre les miens.</l>
+            <l n="1417">Perside avec le temps pourra sécher ses larmes,</l>
+            <l n="1418">Et Soliman piqué des attraits de ses charmes</l>
+            <l n="1419">Se voyant sans obstacle, ainsi que son Rival,</l>
+            <l n="1420">Rendra son heur parfait, et le mien sans égal. </l>
+            <l n="1421" part="I">Mais je vois Herminie avançons.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Achmat, Herminie.</head>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1421" part="F">Belle ingrate</l>
+            <l n="1422">Il faut enfin quitter cet espoir qui vous flatte,</l>
+            <l n="1423">Vous aimez Soliman, mais il n'est pas pour vous</l>
+            <l n="1424">Et Perside à ses yeux a des attraits plus doux, </l>
+            <l n="1425">Il n'a plus de Rival, ce jeune téméraire</l>
+            <l n="1426">N'est plus dorénavant en état de lui plaire,</l>
+            <l n="1427">Ce brasier est éteint, Eraste est au tombeau.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1428">Qu'infères-tu de là ? que j'aime son bourreau ?</l>
+            <l n="1429">Non, mon cruel Achmat, je sais ta perfidie </l>
+            <l n="1430">Et voilà déloyal comme j'y remédie.</l>
+            <stage>Elle frappe Achmat d'un poignard.</stage>
+          </sp>
+          <sp who="tc0422-ACHMAT">
+            <speaker>ACHMAT.</speaker>
+            <l n="1431">Ô destins ! Ah je meurs ! Ce coup m'ôte le jour.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1432">Ce sont là des faveurs dignes de ton amour.</l>
+            <l n="1433">Pour les criminels, et les âmes traîtresses</l>
+            <l n="1434">Je ne destine pas de plus douces caresses. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Herminie, Pirrus.</head>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS, en entrant se veut retirer.</speaker>
+            <l n="1435" part="I">Dieux qu'est-ce que je vois ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1435" part="F">Pirrus où fuyez-vous ?</l>
+            <l n="1436">Avancez, et voyez l'effet de mon courroux,</l>
+            <l n="1437">J'ai fait cet homicide, et je veux qu'on le sache</l>
+            <l n="1438">Vu qu'en l'exécutant je n'ai rien fait de lâche, </l>
+            <l n="1439">J'ai perdu l'ennemi de tous les gens de bien.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1440">Je le sais, mais ô Dieux ! Quel malheur est le mien ?</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1441">De quoi vous plaignez-vous ? du sort de cet infâme ?</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1442">Non : mais en le perdant vous me perdez Madame.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1443">Comment ? avez-vous peur pour être ici venu ? </l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1444">Au contraire, je crains pour être prévenu,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1445">Pour être prévenu ? je ne saurais comprendre</l>
+            <l n="1446">Ce que par ce discours vous voulez faire entendre.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1447">Apprenez que poussé d'un semblable dessein</l>
+            <l n="1448">Je venais lui plonger ce poignard dans le sein, </l>
+            <l n="1449">Et que par ce beau coup je gagnais Alcomire</l>
+            <l n="1450">Dont ce perfide Amant dédaignais le martyre.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1451">Hé bien ! puis que ma main a vengé ses mépris</l>
+            <l n="1452">Contente de l'honneur, je vous cède le prix,</l>
+            <l n="1453">J'ai travaillé pour vous, et pour ma récompense </l>
+            <l n="1454">Enlevez seulement ce corps de ma présence,</l>
+            <l n="1455" part="I">Allez.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1455" part="F">Par un endroit qui regarde la mer,</l>
+            <l n="1456">Assez proche d'ici je le vais abîmer,</l>
+            <l n="1457">De peur que pour ce coup nous ne soyons en peine. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V.</head>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1458">Dépêchez donc Pirrus que quelqu'un ne survienne</l>
+            <l n="1459">Ce n'est pas tout mon cour il faut vaincre ou mourir,</l>
+            <l n="1460">Qu'amour m'élève au Trône ou me fasse périr,</l>
+            <l n="1461">Allons trouver Perside, animons sa constance,</l>
+            <l n="1462">Et contre Soliman armons sa résistance, </l>
+            <l n="1463">Mais quel est ce guerrier ? Quel est ce jeune Mars,</l>
+            <l n="1464">Qui lance dans ces lieux de si tristes regards.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Perside, Herminie, Ormane.</head>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1465" part="I">Cher Eraste !</l>
+          </sp>
+          <sp who="tc0422-ORMANE">
+            <speaker>ORMANE.</speaker>
+            <l n="1465" part="F">Arrêtez. Où courez-vous Madame.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1466" part="I">Est-ce Perside ô Dieux ? </l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1466" part="M">Eraste ma chère âme.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1466" part="F">C'est elle.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1467">Cher Eraste, où fuis-tu de mes yeux ?</l>
+            <l n="1468">Pour la dernière fois je te vis en ces lieux,</l>
+            <l n="1469">Ne t'y verrai-je plus ? Qu'est-ce qui t'en sépare ? </l>
+            <l n="1470">Hélas ! d'un seul moment ne me sois pas avare,</l>
+            <l n="1471">Viens voir en cet habit et dessous cet armet,</l>
+            <l n="1472">En quelle extrémité ta Perside se met.</l>
+            <l n="1473">Et comme la fureur peinte sur son visage</l>
+            <l n="1474">Aussi bien que ses mains seconde son courage, </l>
+            <l n="1475">Quoi tu ne parais point ma vie, et ta rigueur</l>
+            <l n="1476">Me refuse tes yeux, ton oreille, et ton cour ?</l>
+            <l n="1477">Et je n'obtiendrai point dans le mal qui me touche</l>
+            <l n="1478">Un seul de tes regards, et deux mots de ta bouche ?</l>
+            <l n="1479">Ah ! Si le souvenir d'une feinte amitié </l>
+            <l n="1480">Te peut encor toucher d'un rayon de pitié,</l>
+            <l n="1481">Ne me refuse point cette dernière grâce,</l>
+            <l n="1482">Ou si comme ton corps ton Esprit est de glace,</l>
+            <l n="1483">Et si cette insensible et mortelle froideur</l>
+            <l n="1484">Qui s'en est emparé est passé jusqu'au cour, </l>
+            <l n="1485">Souffre que je t'enflamme et que mon feu t'anime</l>
+            <l n="1486">Par les ardents baisers d'une amour légitime,</l>
+            <l n="1487">Et que ce vain esprit qui ne me sert de rien</l>
+            <l n="1488">Abandonne mon corps et passe dans le tien.</l>
+            <l n="1489">Ah ! Cesse ma douleur des discours si frivoles </l>
+            <l n="1490">L'air avec mon espoir emporte mes paroles. </l>
+            <l n="1491" part="I">Il est mort, il est mort.</l>
+          </sp>
+          <sp who="tc0422-ORMANE">
+            <speaker>ORMANE.</speaker>
+            <l n="1491" part="F"> Arrêtez ces clameurs</l>
+            <l n="1492" part="I">Madame.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1492" part="M"> Apaisez-vous. </l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1492" part="F"> Ah ! Je pâme ! Ah je meurs !</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1493" part="I">Perside... Ouvre les yeux.</l>
+          </sp>
+          <sp who="tc0422-ORMANE">
+            <speaker>ORMANE.</speaker>
+            <l n="1493" part="F">Ah ! Sa douleur l'emporte</l>
+            <l n="1494">Rendez-la juste Ciel moins sensible et moins forte,</l>
+            <l n="1495">Et ne permettez pas que son cour abattu </l>
+            <l n="1496">Perde dans ce malheur sa première vertu,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1497" part="I">Courage, elle revient.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1497" part="F"> Odieuse lumière,</l>
+            <l n="1498">Pourquoi viens-tu couvrir ma débile paupière ?</l>
+            <l n="1499">Pourquoi fais-tu pour moi ce pitoyable effort ? </l>
+            <l n="1500">Que ne me laisses-tu dans les bras de la mort,</l>
+            <l n="1501">Ô trop faibles effets de l'ennui qui me presse !</l>
+            <l n="1502">Ô trop lâches transports, et trop lente faiblesse ;</l>
+            <l n="1503">Cruel soulagement et malheureux retour</l>
+            <l n="1504">Du chemin de la mort à la clarté du jour, </l>
+            <l n="1505">Puis qu'il ne m'est rendu que pour voir mes supplices</l>
+            <l n="1506">Que pour voir au tombeau mes plus chères délices,</l>
+            <l n="1507">Et joindre à la rigueur de ce cruel tourment</l>
+            <l n="1508">Le sensible regret d'en être l'instrument.</l>
+            <l n="1509">Détestables attraits, beauté lâche complice </l>
+            <l n="1510">Des fureurs d'un Tyran et de son injustice,</l>
+            <l n="1511">Périssez périssez, innocents ennemis,</l>
+            <l n="1512">Et réparez le mal que vous avez commis.</l>
+            <l n="1513">Ah ! Qu'en vous je recherche une faible allégeance</l>
+            <l n="1514">Le sang de mon époux veut une autre vengeance. </l>
+            <l n="1515">Armons-nous armons-nous, d'une juste fureur</l>
+            <l n="1516">Et portons le poignard au sein d'un l'Empereur.</l>
+            <l n="1517">Oui cruel tu verras une constante femme</l>
+            <l n="1518">Porter dans ton palais et le fer et la flamme.</l>
+            <l n="1519">Soulever contre toi les Enfers et les Cieux </l>
+            <l n="1520">Et tout ce que la terre a de plus furieux,</l>
+            <l n="1521">Conspirer contre toi mille coups téméraires</l>
+            <l n="1522">Te chercher sans frayeur entre tes Janissaires</l>
+            <l n="1523">Achever dans leurs bras son généreux dessein</l>
+            <l n="1524">Et porter sa vengeance et la mort dans ton sein. </l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1525">Ah ! Faible quel transport t'aveugle de la sorte</l>
+            <l n="1526">Pour en venir à bout tu n'es pas assez forte,</l>
+            <l n="1527">Avecque cet habit pour un si grand dessein </l>
+            <l n="1528">Il te fallait encor et le cour et la main,</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1529">Ah ! Madame, est-ce vous ? Pardonnez Herminie </l>
+            <l n="1530">Cette méconnaissance à ma rage infinie,</l>
+            <l n="1531">Pardonnez mes transports à ma juste douleur</l>
+            <l n="1532">Vous saviez mon amour, vous savez mon malheur</l>
+            <l n="1533">Et vous saurez enfin qu'une juste vengeance</l>
+            <l n="1534">M'arme contre les traits d'une injuste puissance, </l>
+            <l n="1535">Depuis l'assassinat qu'un barbare à commis,</l>
+            <l n="1536">J'ai cru pour mon époux que tout m'était permis,</l>
+            <l n="1537">Que l'épée à ma main était même décente,</l>
+            <l n="1538">Pour venger les malheurs d'une flamme innocente.</l>
+            <l n="1539">Et qu'il fallait enfin sur le point de périr</l>
+            <l n="1540">Affronter un Tyran le perdre et puis mourir.</l>
+            <l n="1541">C'est où mon désespoir aujourd'hui me convie</l>
+            <l n="1542" part="I">C'est où tend ma fureur.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1542" part="F">Ah ! Quittez cette envie,</l>
+            <l n="1543">Songez plus d'une fois à ce coup important, </l>
+            <l n="1544">Et ne vous perdez pas en le précipitant :</l>
+            <l n="1545">Où voulez-vous courir ? et que pensez-vous faire ?</l>
+            <l n="1546">Un effort ridicule autant que téméraire,</l>
+            <l n="1547">Qui loin de contenter vos généreux esprits</l>
+            <l n="1548">Vous fera repentir de l'avoir entrepris </l>
+            <l n="1549">Arrêtez arrêtez, vous cherchez votre honte,</l>
+            <l n="1550">Et ce n'est pas ainsi que Soliman se dompte</l>
+            <l n="1551">Si vous voulez venger votre illustre moitié</l>
+            <l n="1552">Il suffit d'employer les traits de la pitié,</l>
+            <l n="1553">Et par votre vertu d'imprimer dans son âme, </l>
+            <l n="1554">Mille cuisants remords de sa brutale flamme,</l>
+            <l n="1555">Dont l'aveugle fureur l'a sans doute porté,</l>
+            <l n="1556">A donner un arrêt si plein de cruauté.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1557">Quand les pertes hélas nous sont indifférentes</l>
+            <l n="1558">Il nous est bien aisé de faire les prudentes, </l>
+            <l n="1559">Mais lorsque notre cour sent de si rudes traits</l>
+            <l n="1560">Il ne s'apaise point par de simples regrets,</l>
+            <l n="1561">L'excès de ma douleur veut un autre dictame</l>
+            <l n="1562">Il faut il faut du sang au courroux qui m'enflamme,</l>
+            <l n="1563">Et si pour le verser mon bras n'est assez fort </l>
+            <l n="1564">C'est de toi juste Ciel que j'attends cet effort,</l>
+            <l n="1565">Arme, arme en ma faveur cette immortelle foudre</l>
+            <l n="1566">Qui réduit les Palais et les Villes en poudre,</l>
+            <l n="1567">Ces flammes, ces éclairs et ce bras tout puissant</l>
+            <l n="1568">Si propice et si prompt à venger l'innocent. </l>
+            <l n="1569">Et toi qui dans le Ciel ayant pris ta volée</l>
+            <l n="1570">Laisses dans ces bas lieux Perside désolée,</l>
+            <l n="1571">Songe à ce que je fus, songe à ce que je suis,</l>
+            <l n="1572">Ne m'abandonne pas à l'excès des ennuis,</l>
+            <l n="1573">Puis qu'à mes tristes yeux ta présence est ravie </l>
+            <l n="1574">Je ne veux point traîner une mourante vie,</l>
+            <l n="1575">Après toi cher époux je vais perdre le jour</l>
+            <l n="1576">Et par ma mort enfin te montrer mon amour,</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1577">Ah l'illustre courage ! Ah l'Épouse fidèle </l>
+            <l n="1578">Allons suivons ses pas et mourons avec elle, </l>
+            <l n="1579">Aussi bien Soliman, et le coup que j'ai fait</l>
+            <l n="1580">Semblent-ils m'ordonner ce légitime effet.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Soliman, Pirrus, Haly, troupe de Janissaires.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1581">Devancez-moi Haly, voyez si la cruelle </l>
+            <l n="1582">Se pourra bien résoudre à me souffrir chez elle.</l>
+            <l n="1583">Dites-lui que je veux seulement lui parler </l>
+            <l n="1584">Et qu'enfin je n'y vais que pour la consoler : </l>
+            <l n="1585">Je sais bien que d'abord cette belle inhumaine</l>
+            <l n="1586">Fera voir dans ses yeux sa colère et sa haine,</l>
+            <l n="1587">Mais peut-être qu'enfin ces fortes passions</l>
+            <l n="1588">Se pourront adoucir par nos soumissions, </l>
+            <l n="1589" part="I">Frappez.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCÈNE VIII. Soliman, Haly, Pirrus, Perside. Ormane, troupe de Janissaires.</head>
+          <stage>Pyrrus frappe à la porte de Perside.</stage>
+          <sp who="tc0422-ORMANE">
+            <speaker>ORMANE, du balcon.</speaker>
+            <l n="1589" part="M">Que voulez-vous ?</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1589" part="F"> Je demande Perside.</l>
+          </sp>
+          <sp who="tc0422-ORMANE">
+            <speaker>ORMANE.</speaker>
+            <l n="1590" part="I">Qui ?</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1590" part="M">C'est le grand Seigneur. </l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE, paraissant au balcon, bas.</speaker>
+            <l n="1590" part="F">Ah c'est mon homicide</l>
+            <l n="1591">Je ne le connais point et mon Seigneur est mort,</l>
+            <l n="1592" part="I">Allez retirez-vous.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1592" part="F">Pirrus frappez plus fort,</l>
+            <l n="1593">Et si l'on ne vous ouvre, en cette résistance, </l>
+            <l n="1594">Faites agir la force avec la violence.</l>
+            <l n="1595" part="I">Brisez tout, rompez tout.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1595" part="F">Arrêtez insolents</l>
+            <l n="1596">Ou je saurai punir ces efforts violents.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1597">Ô ciel ? Où sommes-nous ? Quoi Seigneur un esclave </l>
+            <l n="1598">Devant nous, à tes yeux te méprise et te brave ?</l>
+            <l n="1599">Et cet objet superbe où tendent tes souhaits</l>
+            <l n="1600">Refuse impunément l'honneur que tu lui fais ?</l>
+            <l n="1601">Ah ! Permets-moi Seigneur de punir cet outrage.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1602" part="I">Que veux-tu ? C'est Perside ; il obéit.</l>
+          </sp>
+          <sp who="tc0422-PIRRUS">
+            <speaker>PIRRUS.</speaker>
+            <l n="1602" part="F">J'enrage,</l>
+            <l n="1603">Quoi manquer de respect pour toi son Empereur,</l>
+            <l n="1604" part="I">Je crève de dépit.</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1604" part="F">Calme cette fureur,</l>
+            <l n="1605">Il te sied mal Pirrus à faire le bravache </l>
+            <l n="1606">Ayant le cour si bas, le courage si lâche,</l>
+            <l n="1607">Et l'âme si contraire aux belles actions</l>
+            <l n="1608">Qu'on peut voir sans trembler tes résolutions.</l>
+            <l n="1609">Il est vrai qu'un sujet doit imiter son maître</l>
+            <l n="1610">Soliman est cruel et lâche ; tu veux l'être : </l>
+            <l n="1611">L'inhumain vient de mettre un Eraste au tombeau</l>
+            <l n="1612">Un autre reste encor, tu seras son bourreau,</l>
+            <l n="1613">Mais déjà tu pâlis à l'aspect de mes armes,</l>
+            <l n="1614">Cet armet t'épouvante et te met en alarmes</l>
+            <l n="1615">Et ton maître rougit d'avoir si lâchement, </l>
+            <l n="1616">Assassiné celui dont il fut l'ornement.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1617">C'est trop, c'est trop souffrir dépêchez Janissaires</l>
+            <l n="1618">Perdez cet insolent, percez ces téméraires,</l>
+            <l n="1619">Faites pleuvoir sur eux une grêle de traits</l>
+            <l n="1620">Si Perside parait, respectez ses attraits, </l>
+            <l n="1621">Mais que cet arrogant sente toutes vos flèches</l>
+            <l n="1622">Faites dessus son corps mille mortelles brèches,</l>
+            <l n="1623" part="I">Châtiez son orgueil.</l>
+          </sp>
+          <sp who="tc0422-HALY">
+            <speaker>HALY.</speaker>
+            <l n="1623" part="F">Il en tient, il est mort</l>
+          </sp>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE.</speaker>
+            <l n="1624">Ô favorable trait ? Ô bienheureux effort </l>
+            <l n="1625">Cher Eraste à ce coup je vais cesser de vivre</l>
+            <l n="1626">Mon cour te va trouver, mon âme te va suivre,</l>
+            <l n="1627">Et par une action digne de ta pitié</l>
+            <l n="1628">Rejoindre sa plus chère et plus belle moitié.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCÈNE IX. Herminie, Soliman, Haly, Pirrus et Janissaires.</head>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN, voyant paraître Herminie.</speaker>
+            <l n="1629">Arrêtez-vous Soldats Perside va paraître </l>
+            <l n="1630">Mais ou ses déplaisirs me la font méconnaître.</l>
+            <l n="1631">Ou ce ne sont pas là les attraits glorieux,</l>
+            <l n="1632">De l'objet inhumain qui plaît tant à mes yeux</l>
+            <l n="1633">Ce n'est pas là Perside, elle a bien plus d'audace.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1634">Tu pouvais dire aussi qu'elle avait plus de grâce </l>
+            <l n="1635">Mais Seigneur ce bel Astre autrefois sans pareil,</l>
+            <l n="1636">Dont le brillant éclat faisait honte au Soleil</l>
+            <l n="1637">Est prêt de s'éclipser et de ravir au monde,</l>
+            <l n="1638">Les rais d'une clarté qui n'eut point de seconde.</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1639" part="I">Que dit-elle ! ô malheur.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1639" part="F">Ce que tu pourras voir. </l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1640">Allons allons lui rendre un funeste devoir</l>
+            <l n="1641">Ah ! Divine Perside adorable lumière,</l>
+            <l n="1642">Déité que j'adore écoute ma prière,</l>
+            <l n="1643">Et me permets au moins pour la dernière fois </l>
+            <l n="1644">De voir ton beau visage et d'entendre ta voix.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1645">Ta Hautesse à présent peut entrer sans obstacle</l>
+            <l n="1646">Et te rendre témoin d'un funeste spectacle,</l>
+            <l n="1647">Ta fureur en est cause et tu peux en ce jour</l>
+            <l n="1648">Voir les justes effets qu'a produit son amour. </l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCÈNE DERNIÈRE. Perside, Soliman, Haly, Pirrus, Herminie, les Janissaires. Dans une chambre.</head>
+          <sp who="tc0422-PERSIDE">
+            <speaker>PERSIDE, tirant sa flèche du sein.</speaker>
+            <l n="1649">Approche Soliman, viens cruel viens Perside</l>
+            <l n="1650">Boire le sang d'Eraste et celui de Perside,</l>
+            <l n="1651">Le sang de mon époux ne te suffisait pas</l>
+            <l n="1652">Soûle-toi maintenant de ce sanglant repas,</l>
+            <l n="1653">Vois Tigre couronné vois l'effet de ta rage </l>
+            <l n="1654">Vois de tes cruautés le déplorable ouvrage,</l>
+            <l n="1655">Telles sont tes amours, telles sont tes faveurs</l>
+            <l n="1656">Tels sont pour toi mes feux, et telles mes ferveurs.</l>
+            <l n="1657">C'en est fait, je me meurs, ma force est affaiblie</l>
+            <l n="1658">Et de mon triste corps mon âme se délie, </l>
+            <l n="1659">Reçois-la cher Eraste au partir de ces lieux</l>
+            <l n="1660" part="I">Et prends....</l>
+          </sp>
+          <sp who="tc0422-SOLIMAN">
+            <speaker>SOLIMAN.</speaker>
+            <l n="1660" part="F">Attends un peu, Perside, ouvre les yeux...</l>
+            <l n="1661">Diffères d'un moment ce trépas pitoyable</l>
+            <l n="1662">Et vois par ses remords expirer un coupable, </l>
+            <l n="1663">Vois quelle est sa douleur, quel est son repentir</l>
+            <l n="1664">Quels sont les rudes traits qu'ils lui font ressentir,</l>
+            <l n="1665">Et si de ce tourment tu n'es pas satisfaite,</l>
+            <l n="1666">Vois lui souffrir pour toi le trépas qu'il souhaite,</l>
+            <l n="1667">Mais tu n'écoutes pas ni ma voix ni mon deuil, </l>
+            <l n="1668">Et ta haine te suit jusques dans le cercueil</l>
+            <l n="1669">N'importe, il te faut suivre et réparer mon crime,</l>
+            <l n="1670">Non je ne te veux pas dérober ta victime ;</l>
+            <l n="1671">J'ai répandu ton sang celui de ton époux,</l>
+            <l n="1672">Il faut qu'ici le mien se répande pour vous </l>
+            <l n="1673">Conseillers inhumains, lâches monstres d'envie,</l>
+            <l n="1674">Vous qui fûtes toujours les bourreaux de ma vie,</l>
+            <l n="1675">Ne laissez plus languir ce misérable corps,</l>
+            <l n="1676">Faites faites sur lui de plus justes efforts</l>
+            <l n="1677">Ravissez-lui le jour, avancez son supplice, </l>
+            <l n="1678">Et vos mains lui rendront un agréable office</l>
+            <l n="1679">Mais je l'attends en vain de votre lâcheté</l>
+            <l n="1680">Ma douleur vous prévient en cette extrémité,</l>
+            <l n="1681">Ah ! son excès me tue, et je sens que j'expire,</l>
+            <l n="1682">Sujet infortuné de mon premier martyre </l>
+            <l n="1683">Vertueuse Herminie objet rare et charmant,</l>
+            <l n="1684">Que je devais traiter plus favorablement,</l>
+            <l n="1685">Si quelque sentiment te reste dedans l'âme</l>
+            <l n="1686">Des premières ardeurs que t'inspira ma flamme,</l>
+            <l n="1687">Ne me refuse pas un rayon de pitié </l>
+            <l n="1688">Et souffre que je meure avec ton amitié</l>
+            <l n="1689">De cet unique espoir mon Esprit se console,</l>
+            <l n="1690">Mais ma force me laisse, et mon âme s'envole.</l>
+          </sp>
+          <sp who="tc0422-HERMINIE">
+            <speaker>HERMINIE.</speaker>
+            <l n="1691">Il n'est qu'évanoui portez le promptement</l>
+            <l n="1692">Dessus le premier lit de son appartement, </l>
+            <l n="1693">Le plus commodément et vos soins et votre aide</l>
+            <l n="1694">Donneront à ses sens un utile remède,</l>
+            <l n="1695">Amour qui vois ici ce beau corps abattu</l>
+            <l n="1696">Ne crois pas qu'à tes traits il serve de Trophée,</l>
+            <l n="1697">Ici malgré la mort et ta flamme étouffée, </l>
+            <l n="1698">Triomphent seulement l'honneur et la vertu,</l>
+            <l n="1699">Ou s'il te reste encor quelque faible puissance</l>
+            <l n="1700">Elle naîtra de ma constance.</l>
+            <l n="1701">Qui fera revivre tes feux</l>
+            <l n="1702">Favorise mon espérance. </l>
+            <l n="1703">Mais si tu réponds à mes voeux</l>
+            <l n="1704">Accorde à ma persévérance.</l>
+            <l n="1705">Après tant de malheurs un succès plus heureux. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

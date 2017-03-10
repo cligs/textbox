@@ -1,0 +1,3021 @@
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Ostorius</title>
+        <title type="sub">Tragédie</title>
+        <title type="short">Ostorius</title>
+        <title type="idno">
+          <idno type="viaf"/>
+        </title>
+        <author>
+          <name type="full">PURE, Michel Abbé de</name>
+          <name type="short">Pure</name>
+          <idno type="viaf"/>
+        </author>
+        <principal>Texte établie par Ernest Fièvre à partir du document numérisé de GALLICA.</principal>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CLiGS</publisher>
+        <idno type="cligs">tc0748</idno>
+        <date>2016</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digital-source"><date>2017</date>, <idno/>, <ref target="http://theatre-classique-fr/"/>. Publié par Paul Fièvre.</bibl>
+        <bibl type="print-source"><date>1659</date>, <idno/>, <ref target="#"/>. À PARIS,  Chez GUILLAUME DE LUYNE,  au Palais, en la Galerie des Merciers, sous la montée de la Cour des Aides, à la Justice..</bibl>
+        <bibl type="edition-first"><date/>, <idno/>, <ref target="#"/>.</bibl>
+        <bibl type="performance-first"><date>1658</date>, <idno/>, <ref target="#"/>. </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <abstract>
+        <p/>
+      </abstract>
+      <textClass>
+        <keywords scheme="keywords.csv">
+          <term type="supergenre">drama</term>
+          <term type="genre">Tragédie</term>
+          <term type="structure">cinq actes</term>
+          <term type="form">vers</term>
+          <term type="period">1651-1660</term>
+          <term type="taille">1500-1750</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2017-02-03" who="cf">Initial TEI version.</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <castList>
+        <head>ACTEURS</head>
+        <castItem>
+          <role xml:id="tc0748-OSTORIUS">OSTORIUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0748-DIDIUS">DIDIUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0748-CARACTACUS">CARACTACUS</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0748-LEPRINCEDESILURE">LE PRINCE DE SILURE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0748-CARTIDE">CARTIDE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0748-SARCIDE">SARCIDE</role>
+        </castItem>
+        <castItem>
+          <role xml:id="tc0748-LEONICE">LÉONICE</role>
+        </castItem>
+      </castList>
+      <set>
+        <p>La Scène est à Rome dans le Jardin d'Ostorius.</p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTE I</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I.</head>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE, seule.</speaker>
+            <l n="1">Partage rigoureux, de mon âme enflammée </l>
+            <l n="2">Qui soupire et qui craint d'aimer et d'être aimée ; </l>
+            <l n="3">Cause de mon désordre, effet de mon devoir, </l>
+            <l n="4">Qui fais vivre et mourir ma crainte et mon espoir. </l>
+            <l n="5">Ha laisse en liberté les penchants de mon âme. </l>
+            <l n="6">Abandonne ma gloire, ou protège ma flamme, </l>
+            <l n="7">Ou si ma gloire doit à mes yeux prévaloir </l>
+            <l n="8">Abandonne ma flamme, et soutiens mon devoir.</l>
+            <l n="9">De mes sens agités calme l'inquiétude, </l>
+            <l n="10">Prends parti, range-toi, sors de l'incertitude, </l>
+            <l n="11">C'est trop longtemps tenir mes esprits en suspens </l>
+            <l n="12">Entre des intérêts si chers et si pressants. </l>
+            <l n="13">Je ne demande pas une injuste victoire </l>
+            <l n="14">Qui pour flatter mes sens fasse ombrage à ma gloire, </l>
+            <l n="15">Je ne veux seulement que savoir qui des deux </l>
+            <l n="16">Doit régner dans mon âme, ou ma gloire ou mes feux. </l>
+            <l n="17">Si j'aime Ostorius ma flamme est-elle injuste ? </l>
+            <l n="18">S'il est mon ennemi, c'est un vainqueur auguste, </l>
+            <l n="19">Si je suis dans ses fers, il est dessous ma loi, </l>
+            <l n="20">Et s'il touche mon âme il soupire pour moi : </l>
+            <l n="21">Mais bizarre succès de mon destin contraire ! </l>
+            <l n="22">Je trouve en cet amant l'ennemi de mon Père, </l>
+            <l n="23">Les Bretons subjugués, mon pays que je perds, </l>
+            <l n="24">Le sujet de ma honte et l'horreur de mes fers. </l>
+            <l n="25">Quoi je pourrais chérir l'Auteur de tant de pertes </l>
+            <l n="26">Que toute ma maison de lui seul a souffertes ?</l>
+            <l n="27">Et laissant à mes feux éblouir ma raison </l>
+            <l n="28">J'aimerais l'ennemi de toute ma maison ? </l>
+            <l n="29">Ne me fais pas ce tort Tyran des belles âmes </l>
+            <l n="30">Amour ; aimable enfant et père de mes flammes </l>
+            <l n="31">Non non, n'en souffre point d'indigne de tes feux </l>
+            <l n="32">De l'honneur de tes lois, de l'ordre de mes voeux. </l>
+            <l n="33">Mon coeur s'il t'est permis d'aimer ; aime le Prince </l>
+            <l n="34">Il a voulu sauver ton Père et ta Province, </l>
+            <l n="35">Un si noble dessein t'ôte la liberté, </l>
+            <l n="36">De tourner tes désirs de quelque autre côté. </l>
+            <l n="37">Si la vertu te charme estime sa vaillance ; </l>
+            <l n="38">Si le trône te plaît estime sa naissance, </l>
+            <l n="39">Enfin il t'est égal étant né fils de Roi </l>
+            <l n="40">Il est de plus encor malheureux comme toi ; </l>
+            <l n="41">Ce mot frappe mon âme, et nos communes chaînes </l>
+            <l n="42">Rangent de son parti jusqu'à mes propres peines. </l>
+            <l n="43">Comment être insensible à de si dignes feux ? </l>
+            <l n="44">Pour te faire justice, hé ! Fais grâce à tes voeux ; </l>
+            <l n="45">Il le faut ; tu le dois : mais tu me tyrannises </l>
+            <l n="46">Trop farouche devoir ; Auteur de mes surprises, </l>
+            <l n="47">Arbitre impérieux dont la sévère loi... </l>
+            <l n="48" part="I">Mais Léonice vient, cessons. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Sarcide, Léonice.</head>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="48" part="F">Que fait le Roi ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="49">Je viens de le laisser ; Madame, avec la Reine </l>
+            <l n="50">Et qui paraît troublé d'une nouvelle peine </l>
+            <l n="51" part="I">Il est pensif et triste. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="51" part="F">En dit-on le sujet ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="52">Si je l'ai bien compris vous en êtes l'objet. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE, bas.</speaker>
+            <l n="53">Aurait-on aperçu les troubles de mon âme </l>
+            <l n="54" part="I">Malheureuse ! Hé pourquoi ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="54" part="F">Le dirai-je ; Madame... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="55" part="I">Qui te retient ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="55" part="F">La crainte ; et je m'aperçois bien. </l>
+            <l n="56" part="I">Que je vais vous déplaire. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="56" part="F">Achève et ne crains rien. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="57">On craint qu'Ostorius par l'éclat de sa gloire </l>
+            <l n="58">N'ait jusque sur vos sens étendu sa victoire, </l>
+            <l n="59">Et que tant de rayons dont brille ce Vainqueur </l>
+            <l n="60">N'aient ébloui votre âme et surpris votre coeur. </l>
+            <l n="61">Cependant ce serait une visible injure </l>
+            <l n="62">Que recevrait de vous le Prince de Silure. </l>
+            <l n="63">Car outre les Héros qu'il a pour ses Aïeux </l>
+            <l n="64">Et dont le premier rang est écoulé des Dieux </l>
+            <l n="65">Que n'a-t-il fait pour vous, pour le Roi votre Père </l>
+            <l n="66">Dans ce dernier combat que n'a-t-il osé faire, </l>
+            <l n="67">Lorsque voyant ce Roi sans suite et délaissé </l>
+            <l n="68">Dans un gros d'ennemis de toutes parts pressé </l>
+            <l n="69">Pour le vouloir tirer de ce péril extrême </l>
+            <l n="70">Il prodigua sa vie, et s'exposa soi-même </l>
+            <l n="71">Et sans autre second que ses propres efforts </l>
+            <l n="72">Pour lui sauver la vie essuya mille morts. </l>
+            <l n="73">Que si vous vous lassez d'une vertu sublime </l>
+            <l n="74">Descendez à ces soins de respect et d'estime, </l>
+            <l n="75">Dont le coeur de ce Prince en soupirant pour vous </l>
+            <l n="76">A flatté sa constance et secondé ses coups. </l>
+            <l n="77">Pouvez-vous regarder ses soins, sa complaisance </l>
+            <l n="78">Avec si peu d'estime et tant d'indifférence </l>
+            <l n="79">Avoir pour tant d'effets d'une tendre amitié </l>
+            <l n="80">Une âme si sévère, et si peu de pitié. </l>
+            <l n="81">Ha ne vous laissez point noircir du nom d'ingrate </l>
+            <l n="82">Qu'un peu plus de constance en votre amour éclate </l>
+            <l n="83">Croyez-vous un peu moins, et croyez plus le Roi, </l>
+            <l n="84">Manquez plutôt d'amour que de manquer de foi </l>
+            <l n="85">Dieux si votre rigueur pareille à sa disgrâce </l>
+            <l n="86">Préfère Ostorius et le met en sa place </l>
+            <l n="87">N'êtes-vous pas injuste à tant d'affection, </l>
+            <l n="88">À tant de beaux efforts, à tant de passion ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="89">Non je ne le suis pas : mais je suis malheureuse </l>
+            <l n="90">Ta pensée est injuste, et m'est injurieuse. </l>
+            <l n="91">Quoi ? Tu me crois si faible et d'un coeur assez bas </l>
+            <l n="92">Pour me laisser surprendre à d'indignes appas ? </l>
+            <l n="93">Et qu'un goût égaré de ma raison séduite </l>
+            <l n="94">Puisse aveugler mon âme et troubler ma conduite ? </l>
+            <l n="95">Ha je ferai bien voir qu'un coeur comme le mien </l>
+            <l n="96">Se porte à ce qu'il doit ou ne se porte à rien : </l>
+            <l n="97">Non, n'appréhende pas qu'une faible imposture </l>
+            <l n="98">S'y fasse par les sens de honteuse ouverture. </l>
+            <l n="99">Rien ne saurait entrer que par l'ordre des lois.</l>
+            <l n="100">Par l'aveu de mon Père, et par un juste choix, </l>
+            <l n="101">C'est me faire rougir d'oser croire que j'aime. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="102">Un si beau sentiment est digne de vous-même. </l>
+            <l n="103">Mais ce jeune vainqueur qui de vous est épris ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="104" part="I">Hé bien. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="104" part="F">Ne fait-il point de peine à vos esprits ? </l>
+            <l n="105">Il a fait parmi nous éclater tant de charmes. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="106" part="I">Qu'importe ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="106" part="F">Qu'il peut bien vous causer des alarmes, </l>
+            <l n="107">Embarrasser vos sens, détourner vos souhaits, </l>
+            <l n="108">Et de votre vertu troubler au moins la paix. </l>
+            <l n="109">Dedans le plus beau calme un orage s'excite, </l>
+            <l n="110" part="I">On vous le voit traiter... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="110" part="F">En homme de mérite. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="111" part="I">Mais de l'estimer tant. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="111" part="F">Dois-je pas l'estimer. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="112">L'estime est un grand pas pour conduire à l'aimer. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="113">Tout beau, sur mes discours règle ta conjecture. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="114">Mais quel rang donnez-vous au Prince de Silure. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="115">Comme objets différents, j'ai différents regards. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="116">Mais le Prince a pour vous essuyer des hasards. </l>
+            <l n="117">Qui font même entre égaux un peu de différence </l>
+            <l n="118">Et qui méritent bien un peu de bienveillance </l>
+            <l n="119">La Reine vient, il faut me taire et m'en aller. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="120">Arrête encore un peu : car je te veux parler. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Cartide, Sarcide, Léonice.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="121">Ma Fille il faut t'armer de force et de courage, </l>
+            <l n="122">Il faut que ta vertu de nos fers nous dégage, </l>
+            <l n="123">Et que tes sentiments sagement ménagés : </l>
+            <l n="124">Nous tirent des périls où nous sommes plongés. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="125" part="I">Hélas ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="125" part="F">N'interromps point de raisonnables larmes </l>
+            <l n="126">Laisse agir tes sanglots, et tes justes alarmes, </l>
+            <note type="L">Improuver : Ne pas approuver, blâmer. [L]</note>
+            <l n="127">Je ne puis improuver des pleurs et des soupirs, </l>
+            <l n="128">Dont seule je suis cause attaquant tes désirs : </l>
+            <l n="129">Mais si l'amour t'abat, que l'honneur te relève. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="130" part="I">Que je suis malheureuse, ô Dieux ! </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="130" part="F">Achève, achève, </l>
+            <l n="131">Ne fais point violence à de justes regrets, </l>
+            <l n="132">Tu peux bien en flatter de si chers intérêts : </l>
+            <l n="133">Mais parmi ces regrets, fais ce que tu dois faire, </l>
+            <l n="134">Prends pitié de ta mère ; et délivre ton Père, </l>
+            <l n="135">Que si ton amitié ne vient pas jusqu'à moi </l>
+            <l n="136">Va laisse-moi mourir, mais délivre le Roi. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="137">Sans me faire d'injure, hé Madame de grâce, </l>
+            <l n="138">Éprouvez mon respect, que faut-il que je fasse. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="139">J'ai peine à te le dire, et ne puis m'exprimer. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="140" part="I">Faut-il mourir ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="140" part="M">Non, non. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="140" part="M">Quoi donc ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="140" part="F">Il faut aimer. </l>
+            <l n="141">Ce mot paraît bien doux : mais la suite est amère. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="142">N'importe ; seulement dites ce qu'il faut faire. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="143">Il faut trahir tes sens, et dégager ton coeur, </l>
+            <l n="144">En faire Ostorius le maître, et le Vainqueur. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE, bas.</speaker>
+            <l n="145" part="I">Léonice ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="145" part="F">Je sais que le Prince en ton âme, </l>
+            <l n="146">A de longtemps jeté des semences de flamme, </l>
+            <l n="147">Qu'il a frappé tes sens, qu'il soupire pour toi, </l>
+            <l n="148">Cependant l'intérêt de ta gloire et du Roi, </l>
+            <l n="149">Quelque juste douleur qui ton âme possède </l>
+            <l n="150">Demande à ta vertu que ta passion cède, </l>
+            <l n="151">Et contre tes sens ton devoir affermi </l>
+            <l n="152">Au lieu de ton Amant place notre ennemi. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="153" part="I">Notre ennemi ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="153" part="F">Le Ciel pour nous faire justice, </l>
+            <l n="154">Lassé de ses rigueurs et devenu propice. </l>
+            <l n="155">Pour tes jeunes appas enflamme Ostorius. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="156" part="I">Mais... </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="156" part="F">Ne m'oppose point de discours superflus. </l>
+            <l n="157">Il faut l'aimer, ma fille, ou voir dedans nos chaînes, </l>
+            <l n="158">Terminer notre vie, ou prolonger nos peines. </l>
+            <l n="159">Quels soins n'a-t-il pas pris pour adoucir nos fers ? </l>
+            <l n="160">Pour flatter la rigueur de tant de maux soufferts. </l>
+            <l n="161">Soit, quittant la Bretagne, ou dans notre voyage. </l>
+            <l n="162">Quelles bontés pour nous n'a-t-il mis en usage </l>
+            <l n="163">Et maintenant à Rome au lieu d'une prison, </l>
+            <l n="164">Tu vois que ce vainqueur nous loge en sa maison. </l>
+            <l n="165">Nous laisse en liberté goûter ces promenades, </l>
+            <l n="166">La fraîcheur de ces eaux, et de ces palissades, </l>
+            <l n="167">Et semble ne vouloir auprès de l'Empereur, </l>
+            <l n="168">Pour prix de ses exploits, que nous faire faveur. </l>
+            <l n="169">Que pour nous il franchit ces maximes Romaines, </l>
+            <l n="170">Des Fiers ressentiments, et des pompeuses haines. </l>
+            <l n="171">Et que pouvant flatter ses voeux et son espoir, </l>
+            <l n="172">À de profonds respects, il borne son pouvoir. </l>
+            <l n="173">Je sais qu'un premier choix que notre âme a pu faire, </l>
+            <l n="174">Laisse éternellement un profond caractère, </l>
+            <l n="175">Dans les coeurs prévenus si vivement tracé, </l>
+            <l n="176">Qu'à moins d'un grand effort il n'est point effacé. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="177">Vous me voulez donner une aide superflue, </l>
+            <l n="178">C'est assez qu'il le faut pour m'y voir résolue. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="179">Ma fille embrasse-moi ; qu'un si beau sentiment </l>
+            <l n="180">Est doux à ma pensée, et flatte mon tourment ! </l>
+            <l n="181">Mais bien que j'applaudisse à ton obéissance, </l>
+            <l n="182">Je sais qu'un tel effort n'est point sans violence. </l>
+            <l n="183">Qu'un si grand changement ne se fait point soudain </l>
+            <l n="184">Que ton coeur est au Prince, et qu'il hait ce Romain. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="185">Quoique l'instinct m'inspire, ou pour l'un, ou pour l'autre. </l>
+            <l n="186">Madame aveuglement mon choix suivra le vôtre. </l>
+            <l n="187">Ordonnez seulement, et mon coeur vous répond, </l>
+            <l n="188">D'être à tous vos désirs obéissant et prompt. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="189">Si ta vertu ma fille à toi-même est sévère, </l>
+            <l n="190">Songe qu'elle est utile à ta gloire, à ton Père. </l>
+            <l n="191">Je m'en vais te laisser, et vais voir le vainqueur. </l>
+            <l n="192" part="I">Il m'attend. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Sarcide, Léonice.</head>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="192" part="F">Vois-tu bien jusqu'où pour mon malheur... </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="193">Vous changez de couleur, qui trouble ainsi votre âme ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="194">Une ardeur que j'approuve ensemble et que je blâme, </l>
+            <l n="195">Car tu peux bien penser qu'auprès de mon devoir, </l>
+            <l n="196">Mes plus pressants désirs n'auront point de pouvoir. </l>
+            <l n="197">Et que malgré les coups d'un aimable martyre, </l>
+            <l n="198">Ma raison sur mes sens, aura toujours Empire. </l>
+            <l n="199">Mais : je ne puis celer les peines de mon coeur, </l>
+            <l n="200">S'il me faut en bannir mon unique vainqueur, </l>
+            <l n="201">Le Prince seul y règne, et remplit mon idée, </l>
+            <l n="202">Je possède son âme, et j'en suis possédée, </l>
+            <l n="203">Mon coeur s'émeut sans cesse et me parle de lui. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="204">Vous venez cependant malgré tout votre ennui, </l>
+            <l n="205" part="I">Désigner sa disgrâce. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="205" part="F">En faveur de mon Père ? </l>
+            <l n="206">J'ai bien pu me forcer, et paraître contraire. </l>
+            <l n="207">Et par un bel effort sur mes chastes ardeurs </l>
+            <l n="208">Affecter contre lui d'apparentes froideurs : </l>
+            <l n="209">Mais ce déguisement était peu volontaire, </l>
+            <l n="210">Et bien que mon devoir le rendît nécessaire, </l>
+            <l n="211">Je ressentais toujours ces troubles innocents, </l>
+            <l n="212">Dont la première atteinte embarrasse les sens : </l>
+            <l n="213">Et qui sous les appas d'une peine inconnue, </l>
+            <l n="214">Persuade l'amour à la raison émue. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="215">Je vous plains : mais je vous approcher Didius, </l>
+            <l n="216">Comme il est tout puissant auprès d'Ostorius, </l>
+            <l n="217">Vous pourriez vous servir de son conseil peut-être. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="218">Ostorius le suit, je ne veux point paraître, </l>
+            <l n="219" part="I">Allons, retirons-nous. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Ostorius, Didius.</head>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="219" part="F">Quoi toujours en ces lieux ? </l>
+            <l n="220">Ainsi vous exposer aux bruits des envieux ? </l>
+            <l n="221">Au murmure du peuple, au nombre d'incrédules ? </l>
+            <l n="222">Dans les divers esprits, répandre des scrupules. </l>
+            <l n="223">Que ce qu'on dit de vous ne soit de ces faux bruits, </l>
+            <l n="224">Dont on repaît souvent les peuples mal instruits ? </l>
+            <l n="225">En ces âmes de boue, encore que grossières. </l>
+            <l n="226">La malice est subtile, et pleine de lumières, </l>
+            <l n="227">Et quelques beaux succès qu'ait eus votre combat, </l>
+            <l n="228">Si votre amour paraît, il perd tout son éclat. </l>
+            <l n="229" part="I">Vous ne me dites rien ? </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="229" part="F">Hé que puis-je te dire ? </l>
+            <l n="230">Sinon que je suis triste, et que mon coeur soupire : </l>
+            <l n="231">Qu'un désordre si beau s'est glissé dans mon coeur, </l>
+            <l n="232">Que je ne goûte rien des plaisirs d'un vainqueur, </l>
+            <l n="233">Que ce que ma victoire y peut verser de charmes, </l>
+            <l n="234">Se tourne incontinent en matière de larmes, </l>
+            <l n="235">Qu'en mes propres succès, je trouve mes malheurs, </l>
+            <l n="236">Et parmi mes lauriers la source de mes pleurs. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="237">Il faudrait pour le moins en arrêter la course, </l>
+            <l n="238">Attendant que le temps en fit tarir la source. </l>
+            <l n="239">Et de peur de languir en des maux si pressants, </l>
+            <l n="240">Faire agir la raison et prévenir le temps. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="241">Hé que peut la raison sur un mal qu'elle cause ? </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="242">Détourner le péril où l'amour vous expose. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="243">Que ce péril m'est cher, et qu'il me paraît doux. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="244">Mais, Seigneur, ce péril est-il digne de vous. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="245">Hélas ? Il faut mourir, ma mort est assurée, </l>
+            <l n="246">Sarcide, mon destin, et les Dieux l'ont jurée, </l>
+            <l n="247">Je gagne une bataille et le nom de vainqueur, </l>
+            <l n="248">Et je perds en échange et ma joie et mon coeur. </l>
+            <l n="249">Je suis victorieux, et je perds ma franchise, </l>
+            <l n="250">Amant d'une ennemie et captif de ma prise. </l>
+            <l n="251">Et mon bizarre sort me fait en même jour, </l>
+            <l n="252">Le vainqueur d'un combat, et l'esclave d'amour. </l>
+            <l n="253">Ma fortune en naissant est bien interrompue ! </l>
+            <l n="254">La victoire m'anime, et Sarcide me tue : </l>
+            <l n="255">Devoir impitoyable, inexorable honneur, </l>
+            <l n="256">Je n'ai que trop de gloire, et trop peu de bonheur. </l>
+            <l n="257">Donne un peu de relâche aux peines de mon âme ; </l>
+            <l n="258">Donne un peu plus d'espace aux ardeurs de ma flamme. </l>
+            <l n="259">Accorde mes désirs et tes sévères lois, </l>
+            <l n="260">L'intérêt de ma gloire et celui de mon choix, </l>
+            <l n="261">Tâche de rallier ces aimables contraires, </l>
+            <l n="262">Réunis si tu peux ses nobles adversaires, </l>
+            <l n="263">Ces partis opposés d'Amant et de vainqueur, </l>
+            <l n="264">Qui partagent mon âme et déchirent mon coeur : </l>
+            <l n="265">Mais hélas que je fais d'inutiles prières, </l>
+            <l n="266">Amour ce dur Tyran ne les écoute guères. </l>
+            <l n="267">Toi que j'éprouve en tout plein de soins obligeants, </l>
+            <l n="268">De grâce, à mes désirs rend les tiens indulgents. </l>
+            <l n="269">Laisse là ma victoire, et travaille à ma peine. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="270">Malgré ma passion, la vôtre me ramène, </l>
+            <l n="271">Et bien que mon devoir dût me rendre opposé, </l>
+            <l n="272">Aux ardeurs dont je vois votre coeur embrasé. </l>
+            <l n="273">Je veux bien m'employer à soulager votre âme, </l>
+            <l n="274">À guérir votre peine, et servir votre flamme. </l>
+            <l n="275">Vous n'avez que me croire, et j'ose me flatter... </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="276">Le cours de mes malheurs n'est pas pour s'arrêter </l>
+            <l n="277">À ces flatteurs efforts de ton zèle inutile. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="278">Votre amour vous fait voir la chose difficile. </l>
+            <l n="279">Vos plus fiers ennemis ne sont-ils pas vaincus ? </l>
+            <l n="280">Hé, quoi n'avez-vous pas le Roi Caractacus ? </l>
+            <l n="281">N'est-il pas dans vos fers, n'est-il pas dans vos chaînes ? </l>
+            <l n="282">Quoi n'y tenez-vous pas et le Prince et les Reines ? </l>
+            <l n="283">Sachez que l'Empereur vous les ayant soumis, </l>
+            <l n="284">Vous en êtes le maître, et tout vous est permis. </l>
+            <l n="285">Usez de ce pouvoir au gré de votre envie, </l>
+            <l n="286">En faveur de vos feux, n'épargnez point leur vie : </l>
+            <l n="287">Rendez vos passions arbitres de leur sort, </l>
+            <l n="288">Qu'ils flattent vos désirs, ou subissent la mort. </l>
+            <l n="289">L'Empereur, le Sénat vous en ont rendu maître, </l>
+            <l n="290">S'ils veulent l'ignorer, hé faites-leur connaître. </l>
+            <l n="291">Vous êtes trop modeste, ou faites-leur savoir, </l>
+            <l n="292">Jusques où l'Empereur étend votre pouvoir, </l>
+            <l n="293">Soyez moins indulgent : si leur âme est si fière, </l>
+            <l n="294">Faites, faites trembler Sarcide la première. </l>
+            <l n="295">Faites-lui sans bassesse écouter vos désirs, </l>
+            <l n="296">D'un peu plus d'assurance, appuyer vos soupirs. </l>
+            <l n="297">Et vous verrez bientôt sa rigueur abattue, </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="298">Hélas que sa vertu ne t'est guères connue, </l>
+            <l n="299">La crainte est inutile et ne l'ébranle pas, </l>
+            <l n="300">Le respect seulement peut toucher ses appas, </l>
+            <l n="301">Les âmes de son ordre, et qui sont bien placées, </l>
+            <l n="302">Au-dessus de la crainte, élèvent leurs pensées, </l>
+            <l n="303">Et sur ces bas efforts haussant leurs sentiments, </l>
+            <l n="304">Se font un lit de gloire au milieu des tourments. </l>
+            <l n="305">Je connais mieux que toi le coeur de la Princesse, </l>
+            <l n="306">Le sexe même en elle est exempt de faiblesse. </l>
+            <l n="307">Et son mâle courage à l'épreuve des coups, </l>
+            <l n="308">Au lieu de s'étonner bravera mon courroux. </l>
+            <l n="309">Ainsi ne promets rien d'un effort téméraire : </l>
+            <l n="310">Songe qu'outre sa force elle dépend d'un Père. </l>
+            <l n="311">Qui me hait, et qui seul peut vaincre sa fierté. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="312">Hé bien accordez-lui Seigneur la liberté. </l>
+            <l n="313">Contre un si grand bienfait pourra-t-il se défendre </l>
+            <l n="314">Lui-même obligera Sarcide de se rendre. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="315">Ce moyen est plus juste, et m'offre un bien si doux, </l>
+            <l n="316">Que de mes plus grands maux, il adoucit les coups : </l>
+            <l n="317">Mais hélas Didius tu n'as rien fait encore, </l>
+            <l n="318">Sarcide aime le Prince, et le Prince l'adore. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="319">Que pourrait contre vous ce Prince malheureux. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="320">Être aimé, Didius, comme il est amoureux. </l>
+            <l n="321">Tout mon rival qu'il est je connais son mérite, </l>
+            <l n="322">Sa vertu me ravit, bien que son feu m'irrite. </l>
+            <l n="323">Et mon coeur est troublé de crainte et de pitié. </l>
+            <l n="324">D'estime, et de chagrin, d'amour, et d'amitié. </l>
+            <l n="325">Sans cesse sa valeur revient en ma mémoire, </l>
+            <l n="326">Elle y dispute encor ce semble ma victoire. </l>
+            <l n="327">Et malgré le destin qui m'élève, et l'abat, </l>
+            <l n="328">Mon estime pour lui réveille le combat. </l>
+            <l n="329">Je vois Caractacus tout sanglant de carnage. </l>
+            <l n="330">Donnant la mort partout où peut donner sa rage, </l>
+            <l n="331">Et que le sort jaloux de son trop de vertu, </l>
+            <l n="332">Rend malgré ses efforts à mes pieds abattu. </l>
+            <l n="333">N'étais-je pas heureux d'un succès si propice ? </l>
+            <l n="334">Mais le destin bientôt eut changé de caprice. </l>
+            <l n="335">Le Prince ce Héros par des coups plus qu'humains, </l>
+            <l n="336">Perce jusqu'à ce Roi, l'arrache de nos mains. </l>
+            <l n="337">Et par un coup fatal qui me charme et m'accable, </l>
+            <l n="338">Fait de mon prisonnier un Roi son redevable. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="339">Il n'est pas moins le vôtre, et vous l'avez repris. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="340">Oui : mais les premiers coups frappent mieux les esprits : </l>
+            <l n="341">Et le Roi trop sensible à des efforts si dignes, </l>
+            <l n="342">Voulant d'un juste prix, payer ces coups insignes </l>
+            <l n="343">Destina la Princesse à ce jeune Héros, </l>
+            <l n="344">Voilà ce qui m'alarme, et trouble mon repos. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="345">Seigneur défaites-vous du chagrin qui vous presse, </l>
+            <l n="346">Je vous livre aujourd'hui Père, Rival, Maîtresse. </l>
+            <l n="347">Ils seront trop heureux d'avoir la liberté, </l>
+            <l n="348">De voir par vos bontés leur vie en sûreté. </l>
+            <l n="349">Et leurs esprits ravis de leurs peines passées. </l>
+            <l n="350">Iront dans vos désirs de toutes leurs pensées. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="351">Tu me rends trop heureux et tu charmes mon sort. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="352">Ce facile succès coûtera peu d'effort. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="acte" n="2">
+        <head>ACTE II</head>
+        <div type="scene" n="">
+          <head>SCÈNE I. Le Prince, Léonice.</head>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="353">Je craignais comme vous que l'éclat d'un grand homme, </l>
+            <l n="354">La douceur de l'espoir, ou le séjour de Rome </l>
+            <l n="355">Dissipant peu à peu l'excès de son malheur, </l>
+            <l n="356">N'eût donné quelque atteinte à sa première ardeur : </l>
+            <l n="357">Mais ne soupirez point, votre secret murmure, </l>
+            <l n="358">À sa fidélité, ne peut que faire injure </l>
+            <l n="359">Sachez que du vainqueur les traits sont impuissants, </l>
+            <l n="360">Que vous charmez Sarcide et régnez sur ses sens. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="361">Pour consoler mon âme aimable Léonice, </l>
+            <l n="362">Ton soin officieux use en vain d'artifice. </l>
+            <l n="363">Je sens trop ma disgrâce, et connais mon destin </l>
+            <l n="364">Et je ne vois que trop de causes de chagrin. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="365">Si vous êtes aimé, qu'avez-vous à vous plaindre ? </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="366">Si je suis malheureux, que n'ai-je pas à craindre ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="367">L'inconstance en un coeur si haut, et si bien né. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="368">C'est aussi sa vertu qui tient le mien gêné : </l>
+            <l n="369">Car plus elle en témoigne, et plus elle est aimable, </l>
+            <l n="370">Plus je dois excuser un rival qui m'accable. </l>
+            <l n="371">Et vois tant de raisons d'adorer ses appas, </l>
+            <l n="372">Que je le haïrais s'il ne l'adorait pas. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="373">Je vois bien à peu près où va votre pensée </l>
+            <l n="374">Un peu de jalousie a votre âme blessée. </l>
+            <l n="375">Et de votre rival les éclatants soupirs, </l>
+            <l n="376">Vous semblent dangereux, et troublent vos désirs. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="377">De grâce juge mieux de l'excès de mes peines, </l>
+            <l n="378">Depuis qu'Ostorius nous retient dans ces chaînes, </l>
+            <l n="379">Je n'ai que trop connu jusqu'où pour mon malheur, </l>
+            <l n="380">L'éclat de ma Princesse a porté sa valeur. </l>
+            <l n="381">La douceur de ses yeux, le pouvoir de leurs charmes ; </l>
+            <l n="382">Ont forcé ce Romain de mettre bas les armes </l>
+            <l n="383">Et du destin d'amour les bizarres hasards, </l>
+            <l n="384">Ont fait de ce vainqueur triompher ses regards. </l>
+            <l n="385">De si doux ennemis ont vaincu toute haine, </l>
+            <l n="386">Ont fléchi tout l'orgueil de la fierté romaine. </l>
+            <l n="387">Et leur douce rigueur tournée en Majesté, </l>
+            <l n="388">A fait vaincre au respect toute animosité : </l>
+            <l n="389">Mais tous ces beaux effets de ses aimables charmes, </l>
+            <l n="390">À mon coeur asservi, n'ont point donné d'alarmes, </l>
+            <l n="391">Bien loin d'être jaloux, j'étais ravi de voir, </l>
+            <l n="392">Ces plus dignes mortels rangés sous son pouvoir. </l>
+            <l n="393">Et ce concours de voeux de nos âmes blessées, </l>
+            <l n="394">Semblait sur ses Autels adorer mes pensées. </l>
+            <l n="395">Assembler des respects pour honorer ses lois, </l>
+            <l n="396">Et faire amas de fleurs pour couronner mon choix. </l>
+            <l n="397">J'aurais vu tous les coeurs gémir sous son Empire, </l>
+            <l n="398">Disputer à mes sens l'honneur de mon martyre. </l>
+            <l n="399">Partager avec moi la gloire de ses coups, </l>
+            <l n="400">Sans en avoir d'alarmes, et sans être jaloux : </l>
+            <l n="401">Et sa vertu flattant mon amoureuse atteinte, </l>
+            <l n="402">Mon espoir était libre, et mes désirs sans crainte. </l>
+            <l n="403">Et de ces bas chagrins mes respects épurés, </l>
+            <l n="404">Ne poussaient de mon coeur, que des voeux assurés. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="405">Quel est donc le sujet Prince de votre peine ? </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="406">L'ordre qu'elle m'a dit qu'avait donné la Reine. </l>
+            <l n="407">D'aimer Ostorius et craindre son pouvoir. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="408">Cet ordre ne doit pas affaiblir votre espoir. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="409" part="I">Hélas ! </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="409" part="F">Je vous le jure, et vous me devez croire, </l>
+            <l n="410">Cet Ordre à vos désirs va donner la victoire ; </l>
+            <l n="411">Et loin de vous détruire, il va vous faire aimer, </l>
+            <l n="412">La défense est un art qui peut mieux la charmer. </l>
+            <l n="413">Elle vient, vous verrez si je connais son âme, </l>
+            <l n="414">Si cet ordre retient le progrès de sa flamme. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Léonice, Le Prince, Sarcide.</head>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="415">Notre disgrâce au moins n'aura pas le pouvoir </l>
+            <l n="416">Prince de me ravir le moyen de vous voir. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="417">Jugez à ce bonheur si ma joie est petite, </l>
+            <l n="418">Elle accable mes sens et mon peu de mérite. </l>
+            <l n="419">Et mon cruel destin chassait bien loin l'espoir, </l>
+            <l n="420">D'une faveur si grande, et du bien de vous voir. </l>
+            <l n="421">Je ne me flattais pas d'un si doux avantage. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE, bas.</speaker>
+            <l n="422">Mais mon coeur vois-tu bien jusqu'où l'amour t'engage. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE, bas.</speaker>
+            <l n="423">L'excès de mon bonheur confond mes propres voeux. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="424">N'importe, oui parlons pourquoi celer des feux, </l>
+            <l n="425">Qu'un glorieux destin alluma dans nos âmes, </l>
+            <l n="426">L'honneur, ni la vertu ne perd rien dans ces flammes </l>
+            <l n="427">Et je puis sans rougir avouer des ardeurs, </l>
+            <l n="428">Qui sans toucher aux sens, ont embrasé nos coeurs </l>
+            <l n="429">Puisque votre vertu leur donna la naissance, </l>
+            <l n="430">Et fit de leurs progrès la douce violence, </l>
+            <l n="431">Mon coeur offenserait cette même vertu, </l>
+            <l n="432">D'en avoir du scrupule, et d'être combattu. </l>
+            <l n="433">Oui sous l'autorité d'un si juste principe, </l>
+            <l n="434">Mon sexe même a droit que mon coeur s'émancipe, </l>
+            <l n="435">Et paye à vos soupirs étouffés, et naissants, </l>
+            <l n="436">Ce tribut amoureux que leur devaient mes sens. </l>
+            <l n="437">Que j'expose à vos yeux les secrets de mon âme. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="438">Les Dieux seront jaloux de mon bonheur, Madame, </l>
+            <l n="439">Ils porteront envie à ma félicité. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="440">Contre tant de vertus en vain j'ai résisté. </l>
+            <l n="441">Et me laissant aller à cette douce pente, </l>
+            <l n="442">Où le mérite jette une âme indifférente, </l>
+            <l n="443">Ayant de ces penchants, ma vertu pour garant, </l>
+            <l n="444">Je permis que mon coeur fût plus qu'indifférent. </l>
+            <l n="445">Lors bien que de ma voix la liberté captive, </l>
+            <l n="446">N'osa vous en tracer de peinture plus vive. </l>
+            <l n="447">Vous pouviez aisément juger par ma langueur, </l>
+            <l n="448">Le trouble de mes sens, et celui de mon coeur. </l>
+            <l n="449">Hélas ! Vous fallait-il d'image plus expresse, </l>
+            <l n="450">Pour peu que votre coeur se connût en tendresse. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="451">Pour mon coeur attendri ce reproche est trop dur, </l>
+            <l n="452">Mon respect m'a rendu ce sentiment obscur. </l>
+            <l n="453">Et mon âme n'a pu se rendre intelligente, </l>
+            <l n="454">D'un bonheur qui transit mes voeux et mon attente. </l>
+            <l n="455">Mon espoir s'égarait trop loin des doux excès, </l>
+            <l n="456">D'une grâce si belle, et d'un si cher succès. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="457" part="I">Hélas ! </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="457" part="F">Vous rétracter de là ! Quoi ma Princesse, </l>
+            <l n="458" part="I">Vous lassez-vous sitôt d'un bien qui... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="458" part="F">Ma faiblesse </l>
+            <l n="459">Fait languir trop longtemps mes glorieux desseins, </l>
+            <l n="460">Et donne trop de force à des feux que j'éteins, </l>
+            <l n="461">Peuvent-ils éclater sans obscurcir ma gloire, </l>
+            <l n="462">Sans blesser ma vertu, sans ternir ma mémoire.</l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="463" part="I">Dieux que dois-je en attendre ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="463" part="F">Un noble et juste effort, </l>
+            <l n="464">Pour sortir du désordre et changer notre sort. </l>
+            <l n="465">Car enfin quelque droit qu'usurpe la tendresse, </l>
+            <l n="466">Sur mes sens prévenus, sur ma propre faiblesse. </l>
+            <l n="467">Je l'empêcherai bien d'aller jusqu'au pouvoir, </l>
+            <l n="468">De hasarder ma gloire et trahir mon devoir, </l>
+            <l n="469">Ainsi que j'ai senti, je vaincrai mes tendresses, </l>
+            <l n="470">Ma raison et ma gloire en seront les maîtresses ; </l>
+            <l n="471">Mes sens n'ont rien souffert qui les ait déréglés, </l>
+            <l n="472">Ils se sont éblouis : mais non pas aveuglés. </l>
+            <l n="473">Et malgré la rigueur des coups les plus sensibles, </l>
+            <l n="474">Ils ont toujours suivi ces guides infaillibles. </l>
+            <l n="475">Par qui de toute ardeur mes désirs dépouillés, </l>
+            <l n="476">Rendent mon âme libre, et mes yeux décillés, </l>
+            <l n="477">Je ne vois que mon Père, et ne vois autre chose, </l>
+            <l n="478">Son salut est l'objet que seul je me propose. </l>
+            <l n="479">Et de quelque autre ardeur que mon coeur soit atteint, </l>
+            <l n="480">Mon Père se l'attire et mon devoir l'éteint. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="481">Je vous entends, Madame, et sans me rien plus dire, </l>
+            <l n="482">Ce rigoureux devoir m'ordonne que j'expire. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="483">Non vivez, et sachez que ma propre rigueur, </l>
+            <l n="484">Ne s'arme contre vous qu'en dépit de mon coeur. </l>
+            <l n="485">Que c'est mon seul devoir qui vous fait injustice. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="486">Ha je suis trop heureux dans un si doux supplice. </l>
+            <l n="487">Pourvu que ce cruel épargne vos désirs, </l>
+            <l n="488">Et laisse un bien si doux à mes mourants soupirs. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="489">Ha vous-même épargnez la douleur qui me presse, </l>
+            <l n="490" part="I">Dérobez à mes yeux... </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="490" part="F">J'obéis ma Princesse : </l>
+            <l n="491">Mais dût ce dur devoir vous faire me haïr, </l>
+            <l n="492">Ce n'est pas pour longtemps que j'y puis obéir. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Sarcide, Léonice.</head>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="493" part="I">Quoi Léonice il part ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="493" part="F">Hélas, il meurt, Madame, </l>
+            <l n="494">Et vos rigueurs ont mis le désordre en son âme. </l>
+            <l n="495" part="I">Il est au désespoir. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="495" part="F">Que ne l'arrêtais-tu, </l>
+            <l n="496">Ta pitié devait-elle imiter ta vertu. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="497">Vous savez le respect que j'ai pour vos pensées. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="498">Il en faut avoir moins pour les âmes blessées. </l>
+            <l n="499">Regarde ton respect un peu trop scrupuleux, </l>
+            <l n="500">En quel état met-il son âme et mes voeux ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="501">Puisque ma complaisance a trahi ma conduite, </l>
+            <l n="502">Qu'en ce fâcheux état elle vous a réduite. </l>
+            <l n="503">Madame permettez qu'un peu de liberté, </l>
+            <l n="504">Ose en faire raison à ma fidélité. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="505">Veux-tu pas condamner un amant misérable, </l>
+            <l n="506">Insulter au destin qui me tue et l'accable. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="507">Non, Madame, mes soins ont un plus digne objet, </l>
+            <l n="508">Un plus juste dessein, un plus hardi projet. </l>
+            <l n="509">Jusqu'ici j'ai flatté les ardeurs de votre âme, </l>
+            <l n="510">J'ai parlé pour le Prince, et j'ai servi sa flamme, </l>
+            <l n="511">J'ai pour vos chastes feux jusqu'ici combattu, </l>
+            <l n="512">Je n'ai plus de regard que pour votre vertu </l>
+            <l n="513">Le destin lui prépare une illustre matière, </l>
+            <l n="514">De glorieux périls, une belle carrière </l>
+            <l n="515">Où vous pouvez servir, sans blesser votre foi, </l>
+            <l n="516">Votre Amant, votre gloire, et la Reine et le Roi. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="517">Ha c'est assez pour moi dans l'ardeur qui me presse, </l>
+            <l n="518">D'avoir banni le Prince, et vaincu ma tendresse. </l>
+            <l n="519">D'avoir su préférer la gloire à mes désirs, </l>
+            <l n="520">Le devoir à l'amour, et la peine aux plaisirs. </l>
+            <l n="521">De si rudes efforts épuisent ma faiblesse, </l>
+            <l n="522">Et je ne puis rien plus que mourir de tristesse. </l>
+            <l n="523">Tous remèdes sont vains contre un si cruel mal. </l>
+            <l n="524">Même de ma vertu le secours est fatal. </l>
+            <l n="525">Elle cède ce semble à ma propre faiblesse : </l>
+            <l n="526">Mais ce n'est qu'un pur art pour vaincre ma tendresse. </l>
+            <l n="527">Pour bannir doucement d'inutiles soupirs, </l>
+            <l n="528">Et ne rien hasarder auprès de mes désirs. </l>
+            <l n="529">Si je cours Léonice, où la vertu m'appelle, </l>
+            <l n="530">Je trouve mon amour encor plus juste qu'elle. </l>
+            <l n="531">Le Prince malgré moi que je viens de bannir, </l>
+            <l n="532">Rentre victorieux dedans mon souvenir, </l>
+            <l n="533">Si d'ailleurs quelque larme à mes yeux échappée </l>
+            <l n="534">Veut courir à l'objet dont mon âme est frappée. </l>
+            <l n="535">Je trouve un dur devoir dont ma vertu se sert ; </l>
+            <l n="536">Et dont l'honneur me flatte et la rigueur me perd. </l>
+            <l n="537">Ainsi : de tout côté le sort cruel m'accable, </l>
+            <l n="538">Il me faut devenir malheureuse, ou coupable : </l>
+            <l n="539">Et je ne puis donner, ni recevoir de loi, </l>
+            <l n="540">Sans blesser, ou mon Père ou mon amour, ou moi.</l>
+            <l n="541">Destin fais-moi raison d'un si cruel caprice, </l>
+            <l n="542">Faut-il que ma vertu devienne mon supplice, </l>
+            <l n="543">Et que le plus haut point d'espoir qui m'est permis, </l>
+            <l n="544">Soit de n'oser aimer que mes seuls ennemis </l>
+            <l n="545">Amant, ennemi, Père, amour, vertu, nature, </l>
+            <l n="546">De mes voeux révoltés insensible murmure. </l>
+            <l n="547">Ne laissez plus flotter parmi tant de malheurs, </l>
+            <l n="548">Mon désespoir injuste, et mes justes douleurs. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="549">Traitez mieux le vainqueur, et votre malheur cesse. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="550">Ha laissez-moi plutôt expirer de tristesse. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="551" part="I">Mais pourquoi ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="551" part="F">Mes penchants vont trop à l'estimer, </l>
+            <l n="552">Si je veux obéir, je ne veux pas aimer. </l>
+            <l n="553">Si pour Ostorius je captive mon âme, </l>
+            <l n="554">Je veux qu'un pur devoir, et non l'amour m'enflamme, </l>
+            <l n="555">Avec ce doux penser, me soumettre à sa loi, </l>
+            <l n="556">Qu'il tient ces mouvements d'un autre que de moi. </l>
+            <l n="557">Que son rival ne peut m'accuser d'inconstance, </l>
+            <l n="558">Ni condamner des feux de pure obéissance. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="559">Qui peut donc rendre ainsi votre coeur alarmé. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="560">Ha ! Qu'un objet aimable est aisément aimé. </l>
+            <l n="561">Et qu'une âme attendrie après toutes ses fuites, </l>
+            <l n="562">Se défend faiblement contre tant de mérites. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="563" part="I">Que résolvez-vous donc ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="563" part="F">D'aller voir le vainqueur, </l>
+            <l n="564">M'immoler à des voeux qui me font de l'horreur. </l>
+            <l n="565">Et plus ferme en amour, que non pas en la haine, </l>
+            <l n="566">Contraindre ma vertu à être moins inhumaine. </l>
+            <l n="567">De flatter ce Romain et par des traits trompeurs, </l>
+            <l n="568">Combattre nos destins, et vaincre nos malheurs. </l>
+            <l n="569">Sauver ainsi mon Père aussi bien que le Prince, </l>
+            <l n="570">Tâcher pour chacun d'eux, d'obtenir leur Province. </l>
+            <l n="571">Puis revenant à moi de ces voeux égarés, </l>
+            <l n="572">Mon âme rétablie et mes sens rassurés </l>
+            <l n="573">Vengez sur moi d'un coup mon amour et ma haine</l>
+            <l n="574">L'injure de ma flamme et l'excès de ma peine : </l>
+            <l n="575" part="I">Mais Didius approche éloignons-nous. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Caractacus, Didius.</head>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="575" part="F">Enfin, </l>
+            <l n="576">Grâce à votre vainqueur, vos maux sont à leur fin. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="577">Je n'attendais pas moins d'une âme si parfaite : </l>
+            <l n="578">Mais sa bonté surpasse encor ce qu'on souhaite. </l>
+            <l n="579">Pour elle c'est trop peu d'effacer des soupirs, </l>
+            <l n="580">Elle veut par ses soins prévenir les désirs. </l>
+            <l n="581">Son obligeante ardeur court au-devant des choses ; </l>
+            <l n="582">Plutôt que nos souhaits, ses faveurs sont écloses. </l>
+            <l n="583">Et répandent sur nous de si charmants bienfaits, </l>
+            <l n="584">Qu'on n'eût pu sans rougir en former des souhaits. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="585">L'ardeur de vous servir encor plus loin le porte, </l>
+            <l n="586">Il veut vous obliger d'une plus noble sorte. </l>
+            <l n="587">Et ne voulant pour vous laisser rien d'imparfait, </l>
+            <l n="588">Il veut joindre une grâce à son premier bienfait. </l>
+            <l n="589">D'une grâce si pure, une grâce si belle, </l>
+            <l n="590">Que la reconnaissance en doit être éternelle. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="591">Je ne suis point ingrat si je suis malheureux. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="592">Ostorius aussi vous traite en généreux. </l>
+            <l n="593">À vos libres désirs soumet son âme altière, </l>
+            <l n="594">Et vous fait par ma bouche une ardente prière : </l>
+            <l n="595">Qui change en vos destins tout ce qu'ils ont d'amer, </l>
+            <l n="596">Qui bannit tous vos maux, et qui vous doit charmer. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="597">Un vainqueur des vaincus que ne doit-il attendre ? </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="598">De n'être plus vainqueur, et d'être votre Gendre. </l>
+            <l n="599">De quitter un beau nom pour en prendre un plus doux, </l>
+            <l n="600">Si l'un le séparait, l'autre le joint à vous. </l>
+            <l n="601">Heureusement ainsi le sort change de face, </l>
+            <l n="602">La gloire vous revient, votre malheur s'efface : </l>
+            <l n="603">Mais quoi ; vous balancez, et paraissez surpris ? </l>
+            <l n="604">Lequel de ces deux noms alarme vos esprits ; </l>
+            <l n="605" part="I">Ou le non de vainqueur ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="605" part="F">Non c'est celui de Gendre. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="606">Un vainqueur des vaincus, que ne doit-il attendre ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="607">Je ne veux rien ôter au pouvoir du vainqueur, </l>
+            <l n="608">Mais aussi son pouvoir n'ôte rien à mon coeur. </l>
+            <l n="609">Seigneur sans perdre temps en de paroles vaines, </l>
+            <l n="610">L'amour ne peut pas naître après de fortes haines. </l>
+            <l n="611">Nul de ses sentiments en soi-même vieillis, </l>
+            <l n="612">N'a l'âme sitôt libre et les sens recueillis, </l>
+            <l n="613">Et de nos passions les attaches mutines, </l>
+            <l n="614">Ne laissent pas ainsi de prendre leurs racines. </l>
+            <l n="615">Depuis plus de dix ans nous sommes ennemis, </l>
+            <l n="616">Dans l'ardeur des excès er reçus, et commis. </l>
+            <l n="617">Et tu crois Didius que sitôt on oublie, </l>
+            <l n="618">Une haine si forte, et si bien établie. </l>
+            <l n="619">Tu crois que d'un bienfait par hasard échappé, </l>
+            <l n="620">Le coeur d'un ennemi soit aussitôt frappé ? </l>
+            <l n="621">Que l'ardeur s'en éteigne, et que l'âme y succombe ? </l>
+            <l n="622">Que du haut de sa haine aussitôt elle tombe ? </l>
+            <l n="623">Encor que les bienfaits se fassent estimer, </l>
+            <l n="624">Dans les coeurs généreux, ils ne font point aimer. </l>
+            <l n="625">Il faut à la tendresse une plus libre cause, </l>
+            <l n="626">La source en est au Ciel dont le destin dispose, </l>
+            <l n="627">Et verse dans les coeurs ces mouvements cachés </l>
+            <l n="628">Que les autres ressorts n'ont au plus qu'ébauchés. </l>
+            <l n="629">L'âme pour l'amitié veut de justes espaces, </l>
+            <l n="630">Elle est trop en contrainte au milieu des disgrâces. </l>
+            <l n="631">Elle épuise en soupirs ses plus doux mouvements, </l>
+            <l n="632">Et s'enveloppe toute en ses ressentiments. </l>
+            <l n="633">À peine suffit-elle à sa douleur extrême, </l>
+            <l n="634">Mais sans plus raisonner consulte-toi toi-même, </l>
+            <l n="635">Tu peux bien sans m'aimer prendre de moi pitié, </l>
+            <l n="636">C'est générosité : mais non pas amitié. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="637">De plus doux sentiments n'auraient pas moins de force, </l>
+            <l n="638" part="I">Vous vous perdez. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="638" part="F">La vie est une faible amorce. </l>
+            <l n="639" part="I">Pour un Roi généreux. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="639" part="F">Mais pourquoi ce transport. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="640">Pour tenir dans mon coeur le rang d'un autre effort. </l>
+            <l n="641">Que l'ordre de mon sort, et le poids de ma chaîne </l>
+            <l n="642">Refuse à mes désirs, et dérobe à ma haine. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="643">La prudence défend ces désirs impuissants. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="644">Du moins mon impuissance en console mes sens. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="645">Modérez, modérez cet excès de courage. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="646">Didius qu'ai-je plus à craindre de l'orage. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="647" part="I">L'horreur d'une prison et la mort. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="647" part="F">Tous les deux, </l>
+            <l n="648">Élèveront ma gloire, et me rendront heureux. </l>
+            <l n="649">Adieu Tu verras bien si je crains tes menaces. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>[SCÈNE V].</head>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS, seul.</speaker>
+            <l n="650">Ô Dieux vit-on jamais affaire à tant de faces. </l>
+            <l n="651">Tout semble nous flatter, et rire à nos desseins. </l>
+            <l n="652">D'un vainqueur amoureux, respecter les destins, </l>
+            <l n="653">Détourner un rival, surmonter les obstacles, </l>
+            <l n="654">Au progrès de mes soins promettre des miracles, </l>
+            <l n="655">Et le moment après je revois tous mes maux, </l>
+            <l n="656">Mon malheur véritable, et ces beaux semblants faux : </l>
+            <l n="657">Mais allons et tâchons par un peu de conduite, </l>
+            <l n="658">D'en couper mes progrès, et d'en régler la suite. </l>
+            <l n="659">Et faisons que le Prince, et le Roi divisés, </l>
+            <l n="660">Nos voeux soient mieux reçus, ou soient moins méprisés. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>ACTE III</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I. Caractacus, Cartide.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="661">Déférez un peu moins à votre grand courage. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="662">Déférez un peu moins à votre faux ombrage. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="663">Votre fausse vertu que la raison combat, </l>
+            <l n="664">Fait que vous paraissez moins généreux qu'ingrat. </l>
+            <l n="665">Ostorius vous sert, Ostorius vous aime, </l>
+            <l n="666">Il tâche de vous rendre et Sceptre et Diadème. </l>
+            <l n="667">De vous tirer des fers, épargner un affront, </l>
+            <l n="668">Vous charger des lauriers qu'il dérobe à son front. </l>
+            <l n="669">Il renonce au triomphe, à ces excès de gloire, </l>
+            <l n="670">À ce prix juste et grand d'une illustre victoire. </l>
+            <l n="671">Vous Seigneur, cependant pour le Prince aujourd'hui, </l>
+            <l n="672">Osez-vous déclarer hautement contre lui. </l>
+            <l n="673">Dieux sur tant de faveurs, si belles, si visibles. </l>
+            <l n="674">Pouvez-vous jeter des regards insensibles. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="675">Je sens tous ces bienfaits, comme il faut les sentir. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="676">Sentez aussi vos maux, et tâchez d'en sortir. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="677">Si je sens peu les miens, les vôtres me tourmentent, </l>
+            <l n="678">J'ai beau vaincre les uns, les autres les augmentent : </l>
+            <l n="679">Mais hélas vainement des vôtres et des miens, </l>
+            <l n="680">Nous espérons la fin dans ces tristes liens. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="681">Oui bien si vous voulez vous obstiner à croire, </l>
+            <l n="682">Les vains égarements de votre fausse gloire. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="683">Madame, vous voudriez me voir manquer de foi ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="684">Non Sire gardez-la : mais la gardez en Roi. </l>
+            <l n="685">La foi des Rois n'est pas rampante, ni servile, </l>
+            <l n="686">Elle est tout élevée, et pour le moins utile. </l>
+            <l n="687">Elle n'engage point alors qu'elle est sans fruit, </l>
+            <l n="688">Et porte sa dispense alors qu'elle leur nuit. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="689">La foi des Rois doit être au-dessus de l'utile, </l>
+            <l n="690">Dans le rang des destins, dans un ciel immobile. </l>
+            <l n="691">Dans un ordre affermi, dont je nomme les lois, </l>
+            <l n="692">Destin parmi les Dieux, et foi parmi les Rois. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="693">Hé bien garde-la donc entière, inviolable, </l>
+            <l n="694">Qu'ainsi que les destins, elle soit immuable. </l>
+            <l n="695">Quelle aveugle surprise éblouit ta vertu ? </l>
+            <l n="696">Si tu ne m'aimes plus cruel la gardes-tu. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="697">Pourquoi si rudement attaquer ma tendresse, </l>
+            <l n="698">Hé tu n'as pas besoin de secours, ni d'adresse. </l>
+            <l n="699">Et c'est assez t'armer de me parler de toi, </l>
+            <l n="700" part="I">Sans m'appeler coupable et... </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="700" part="F">Vois jusqu'où ta foi </l>
+            <l n="701">Ta téméraire foi t'engage et te hasarde. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="702">Je le vois : mais n'importe il faut que je la garde. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="703">Si tu m'aimes si peu, songe à tes intérêts, </l>
+            <l n="704">Prévois de tes destins les rigoureux Arrêts. </l>
+            <l n="705">Qu'un vainqueur irrité de ton injuste obstacle, </l>
+            <l n="706">Va t'exposer au peuple en Triomphe, en spectacle. </l>
+            <l n="707">Il en a le pouvoir, tu le sais, et tu veux, </l>
+            <l n="708">Au hasard de nos jours contrarier ses feux. </l>
+            <l n="709">Juge si l'amitié du Prince est bien solide, </l>
+            <l n="710">De vouloir à ce prix lui disputer Sarcide. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="711">Et si d'Ostorius l'amour remplit le coeur, </l>
+            <l n="712">Qu'aussi bien que Sarcide, il aime mon honneur. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="713">Oublions-les tous deux, et faisons-nous justice, </l>
+            <l n="714">Si la peur ne peut rien, que l'amour te fléchisse. </l>
+            <l n="715">Ne le regarde plus de cet oeil de rigueur... </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="716">Comment donc regarder Madame, son vainqueur. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="717">Comme un vrai généreux dont les bienfaits éclatent. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="718">Comme un ambitieux dont les succès nous flattent. </l>
+            <l n="719">Vous donnez un peu trop de créance à vos sens. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="720">Les bienfaits sont pour nous des charmes bien puissants </l>
+            <l n="721">Je m'en sens obligée et m'en trouve confuse. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="722">Ce terme est spécieux, et ce mot vous abuse ; </l>
+            <l n="723">Détrompez-vous, Madame, il est certains bienfaits, </l>
+            <l n="724">Qui n'ont que l'apparence, et n'obligent jamais. </l>
+            <l n="725">Celui qui les reçoit n'en est point redevable, </l>
+            <l n="726">Il peut en être ingrat, et n'être point coupable. </l>
+            <l n="727">Et les plus généreux peuvent les recevoir. </l>
+            <l n="728">D'un esprit insensible, et sans en rien devoir. </l>
+            <l n="729">Ils n'ont rien du bienfait que la seule surface, </l>
+            <l n="730">Qu'une fausse couleur de mérite et de grâce. </l>
+            <l n="731">Qu'un éclat surprenant, que de fausses bontés, </l>
+            <l n="732">Que des dehors trompeurs, et des voeux imités. </l>
+            <l n="733">On voit d'Ostorius l'ambition trop claire, </l>
+            <l n="734">Sa bonté contrefaite, et son coeur mercenaire, </l>
+            <l n="735">Et s'il avait pour nous un peu plus d'amitié, </l>
+            <l n="736">Nous goûterions déjà les fruits de sa pitié. </l>
+            <l n="737">Vous pourriez dire alors tout ce que vous me dites, </l>
+            <l n="738">Porter mes sentiments à flatter ses mérites. </l>
+            <l n="739">Et peut-être l'effort de mon propre intérêt, </l>
+            <l n="740">Me ferait voir le Prince autre qu'il ne paraît </l>
+            <l n="741" part="I">Mais il vient à propos. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Caractacus, Cartide, Le Prince.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="741" part="F">Évitons-le. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="741" part="F">Madame, </l>
+            <l n="742">Non, non, ne craignez pas que l'ardeur qui m'enflamme </l>
+            <l n="743">Du chagrin qui me tue, accuse vos rigueurs, </l>
+            <l n="744">La faiblesse du sexe en absout vos frayeurs : </l>
+            <stage>Au Roi.</stage>
+            <l n="745">Mais vous dont les vertus mâles, et peu communes, </l>
+            <l n="746">Semblaient être au-dessus de toutes les fortunes. </l>
+            <l n="747">Et répandre sur vous un si glorieux sort, </l>
+            <l n="748">Qu'il dût braver les temps, et survivre à la mort, </l>
+            <l n="749">Aux premiers mouvements qu'un faible orage excite, </l>
+            <l n="750">L'alarme vous enlève à mon peu de mérite. </l>
+            <l n="751">Et les premiers assauts à peine sont donnés, </l>
+            <l n="752">Que votre bonté fuit, et vous m'abandonnez. </l>
+            <l n="753">Un Ennemi commun, l'auteur de nos misères, </l>
+            <l n="754">Prévaut au souvenir de nos illustres Pères. </l>
+            <l n="755">Et je vois préférer à ce sang précieux, </l>
+            <l n="756">Tout ce que la raison vous doit rendre odieux. </l>
+            <l n="757">Que votre rigueur est pour moi bien inhumaine, </l>
+            <l n="758">Devais-je être haï plus qu'un objet de haine. </l>
+            <l n="759">Et mes profonds respects avaient-ils mérité, </l>
+            <l n="760">Ces rigoureux excès d'une infidélité. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="761">Je garde le silence en paix, et vous écoute </l>
+            <l n="762">Pour punir par vous-même un injurieux doute : </l>
+            <l n="763" part="I">Mais sachez... </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="763" part="F">Que saurais-je à quel point vous portez, </l>
+            <l n="764">Un rival enrichi du bien que vous m'ôtez. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="765" part="I">Écoutez. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="765" part="F">Mon malheur ne m'est que trop visible. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="766" part="I">Le transport vous aveugle. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="766" part="F">Et n'est que trop sensible. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="767" part="I">Sachez donc, sachez. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="767" part="F">Que vous manquez de foi ? </l>
+            <l n="768">Je le veux ignorer, et pour vous, et pour moi. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Caractacus, Cartide.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="769">Vous balancez encore après cette insolence. </l>
+            <l n="770">Vous voudriez le servir encor qu'il vous offense. </l>
+            <l n="771">Et vous conserverez vos désirs embrasés, </l>
+            <l n="772">Pour cet audacieux qui les a méprisés. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="773">Madame, je l'avoue, il me laisse une idée, </l>
+            <l n="774">Avec mes premiers voeux assez mal accordée. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="775">Astres soyez bénis, et vous Dieux justes Dieux, </l>
+            <l n="776">Qui versez la lumière, et décillez ses yeux, </l>
+            <l n="777">Ouvre-les, cher Époux, à ce rayon qui brille, </l>
+            <l n="778">En faveur de toi-même, en faveur de ta Fille. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="779">Je songe à tous Madame, au Prince, à vous, à moi, </l>
+            <l n="780">À vos fers, à sa flamme, à l'honneur de ma foi. </l>
+            <l n="781">Ces objets sont unis, je veux l'un comme l'autre, </l>
+            <l n="782">Je ne sépare point son intérêt du nôtre. </l>
+            <l n="783">S'il ne faut que mon sang pour votre liberté, </l>
+            <l n="784">Vous serez bientôt libre, et moi tôt acquitté. </l>
+            <l n="785">Mais de quelque façon que le destin m'opprime, </l>
+            <l n="786">Ma foi sera sans tâche, et ma vertu sans crime. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="787">Modérez des rigueurs qui me feront mourir. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="788">Modérez des bontés qui me feraient rougir. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="789" part="I">Désirez-vous ma mort ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="789" part="F">Désirez-vous ma honte ? </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="790">Puisque de mes périls tu fais si peu de compte </l>
+            <l n="791">Je vais les avancer par un coup si cruel, </l>
+            <l n="792">Qu'il te sera honteux, et plus qu'à moi mortel. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="793">Hélas mon coeur se serre, et la douleur me presse, </l>
+            <l n="794">Au moins qu'à Didius je cache ma faiblesse. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Caractacus, Cartide, Didius.</head>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="795">Je viens encore à vous pour vous faire savoir. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="796" part="I">Hé quoi ! </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="796" part="F">D'Ostorius l‘amour et le pouvoir. </l>
+            <l n="797">Il estime Sarcide, il adore ses charmes. </l>
+            <l n="798">Ne le contraignez point d'user du droit des armes, </l>
+            <l n="799">Rendez-vous aux bontés dont il veut se servir, </l>
+            <l n="800">Et donnez-lui, Seigneur, ce qu'il peut vous ravir. </l>
+            <l n="801">Répondez à ses voeux d'un peu de complaisance, </l>
+            <l n="802">Ne vous exposez point aux traits de violence. </l>
+            <l n="803">Qui ne sont que trop forts dans les mains d'un vainqueur. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="804">Pour me persuader, tu veux me faire peur. </l>
+            <l n="805">Me prends-tu Didius pour une âme commune, </l>
+            <l n="806">Crois-tu de m'étonner par ma propre infortune. </l>
+            <l n="807">Et qu'une lâche crainte ébranlant ma vertu, </l>
+            <l n="808">Pour me voir menacé, j'en sois plus abattu. </l>
+            <l n="809">Il faut finir sa vie ainsi qu'on l'a reçue, </l>
+            <l n="810">Il faut à sa naissance assortir son issue. </l>
+            <l n="811">Et je rendrai la mienne en dépit de mon sort, </l>
+            <l n="812">Digne de ma naissance, et belle dans ma mort, </l>
+            <l n="813">À la gloire des miens, ma fin sera fidèle, </l>
+            <l n="814">Plus j'aurai de malheurs, plus elle en sera belle. </l>
+            <l n="815">Et la sévérité de tes derniers arrêts, </l>
+            <l n="816">Contre tes cruautés, prendra mes intérêts. </l>
+            <l n="817">Ma foi dans ma disgrâce acquerra de l'estime, </l>
+            <l n="818">Et répandra sur moi la gloire de ton crime. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="819" part="I">Hé que vous sert... </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="819" part="F">Adieu connais mieux mes pareils. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="820" part="I">Mais encor... </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="820" part="F">Didius porte ailleurs tes conseils. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Cartide, Didius.</head>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="821">Je vous plains, et le plains d'avoir l'âme si forte, </l>
+            <l n="822">Et de craindre si peu les Ordres que je porte. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="823">Ce reste de fureur n'est qu'un effet mourant, </l>
+            <l n="824">D'un courroux qui s'éteint, et d'un coeur qui se rend. </l>
+            <l n="825">Ne t'en étonne point si le Ciel me seconde, </l>
+            <l n="826">Ou pour peu qu'à mes soins Ostorius réponde... </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="827">N'en doutez pas, Madame, et tenez pour certain, </l>
+            <l n="828">Qu'il n'épargnera rien pour un si beau dessein : </l>
+            <l n="829">Mais il faut, mais il faut nous défaire du Prince. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="830">Didius pour exil donnez-lui sa Province. </l>
+            <l n="831">Il est assez puni, s'il peut être chassé. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="832">Il est bien moins puni, qu'il n'est récompensé. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="833">Mais Ostorius vient, adieu je me retire, </l>
+            <l n="834">Tu pourras mieux tout seul de mes désirs l'instruire. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Ostorius, Didius.</head>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="835" part="I">Sarcide est-elle, ici ? </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="835" part="F">Non Seigneur : mais je viens </l>
+            <l n="836">D'avoir avec le Prince un fort long entretien. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="837">Hé bien avoue-t-il qu'il aime la Princesse. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="838">Sans attendre de lui, qu'il le nie, ou confesse. </l>
+            <l n="839">Il vous faut l'immoler, et le faire mourir, </l>
+            <l n="840">Lui seul fait vos destins succéder, ou périr. </l>
+            <l n="841">Ce jeune ambitieux fait croire à la Princesse, </l>
+            <l n="842">Que pour la délivrer il n'a que trop d'adresse. </l>
+            <l n="843">Qu'auprès de l'Empereur un ressort quoique obscur </l>
+            <l n="844">Doit bientôt faire éclore un succès grand et sûr. </l>
+            <l n="845">Aussitôt que le Roi se dispose à vous plaire, </l>
+            <l n="846">Par cet espoir trompeur, il tâche à l'en distraire. </l>
+            <l n="847">Bref il vous faut le perdre, il est trop dangereux, </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="848">Je le hais, je ne puis rien de plus rigoureux </l>
+            <l n="849">C'est assez le punir de lui donner ma haine, </l>
+            <l n="850">De lui ravir l'honneur d'une amitié romaine. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="851">La haine est inutile à moins de se venger. </l>
+            <l n="852">Et sans doute le met moins que vous en danger. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="853" part="I">Quoi contre un malheureux ? </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="853" part="F">Non mais contre un perfide, </l>
+            <l n="854">Profitez en sa mort des peines de Sarcide. </l>
+            <l n="855">Elle vient je la vois, je m'en vais vous laisser. </l>
+            <l n="856">Un témoin en amour, ne fait qu'embarrasser. </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Ostorius, Sarcide, Léonice.</head>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="857">Que vous promettez-vous des peines de Sarcide, </l>
+            <l n="858">Peut-être croyez-vous que la mort l'intimide. </l>
+            <l n="859">Et qu'un désir de vivre, allumant quelque espoir, </l>
+            <l n="860">À l'aide de sa peur trahira mon devoir. </l>
+            <l n="861">Que vous connaissez mal les vertus étrangères, </l>
+            <l n="862">Encor qu'elles n'aient pas ces lueurs mensongères </l>
+            <l n="863">Qui d'un obscur dedans font briller les dehors, </l>
+            <l n="864">Et n'ornent les esprits que des beautés du corps. </l>
+            <l n="865">Elles ne laissent pas d'avoir de justes guides, </l>
+            <l n="866">Des désirs épurés et des règles solides </l>
+            <l n="867">Qui de la raison droite élèvent le pouvoir, </l>
+            <l n="868">Et désarmant la crainte assurent le devoir. </l>
+            <l n="869">Ainsi dans mes malheurs, quelque sort qui préside, </l>
+            <l n="870">Ne vous promettez rien des pensées de Sarcide. </l>
+            <l n="871">Elle est dedans vos fers il est vrai : mais son coeur, </l>
+            <l n="872">Est encore tout libre, et n'a point de vainqueur. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="873">Vous pouvez bien encor porter plus loin sa gloire, </l>
+            <l n="874">Chatouiller son orgueil, et flatter sa victoire. </l>
+            <l n="875">Et l'amour combattant sous vos divins appas, </l>
+            <l n="876">A bien plus fait par eux, que n'a pas fait mon bras. </l>
+            <l n="877">Aussi ne vais-je pas à vous que je sais magnanime, </l>
+            <l n="878">Qu'à pas respectueux, et conduits par l'estime. </l>
+            <l n="879">Sans former nul espoir, sans mêler des désirs, </l>
+            <l n="880">Et frustrant mon ardeur de tout, hors des soupirs. </l>
+            <l n="881">De ces muets efforts, de mon cruel martyre, </l>
+            <l n="882">J'enchante mes douleurs alors que je soupire. </l>
+            <l n="883">Glorieux de ma peine, et ravi de mes maux, </l>
+            <l n="884">S'ils peuvent suppléer à ce peu que je vaux. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="885">Sans parler de vos maux, nos fers et vos conquêtes, </l>
+            <l n="886">Nous font assez savoir, Seigneur, ce que vous êtes. </l>
+            <l n="887">Et sans faire valoir de vaines passions, </l>
+            <l n="888">Tout le monde sait bien vos plus belles actions. </l>
+            <l n="889">Votre vertu partout a semé de l'estime, </l>
+            <l n="890">Elle en a parmi nous bien qu'elle nous opprime </l>
+            <l n="891">Et nous sommes témoins de vos faits signalés... </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="892">Vous croyez m'élever, et vous me ravalez, </l>
+            <l n="893">Car enfin quelque éclat dont brille ma vaillance, </l>
+            <l n="894">S'il ne peut rien gagner sur votre indifférence </l>
+            <l n="895">Qu'est-ce qu'un vain rayon, qu'un éclat imposteur, </l>
+            <l n="896">Et d'une gloire indue, une fausse vapeur. </l>
+            <l n="897">C'est en vain que le Ciel a secondé mes armes, </l>
+            <l n="898">Si j'ai pour ennemis vos beaux yeux et vos charmes. </l>
+            <l n="899">Et si le beau succès de mes fameux combats, </l>
+            <l n="900">Arme votre rigueur, et choque vos appas. </l>
+            <l n="901">Non, non quelque faveur que m'ait fait la fortune, </l>
+            <l n="902">La fin m'en est mortelle, et la suite importune. </l>
+            <l n="903">Ah je ne puis porter la gloire de mes coups, </l>
+            <l n="904">Ni l'espoir de guérir ceux qui viennent de vous.</l>
+            <l n="905">Ô téméraire espoir dont mes sens s'éblouissent. </l>
+            <l n="906">Ces coups sont grands et beaux, ils blessent et ravissent : </l>
+            <l n="907" part="I">Mais si... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="907" part="F">N'achevez pas, tant de mots échappés </l>
+            <l n="908">Ont un peu trop de force, et mes sens sont frappés. </l>
+            <l n="909">Mais enfin sans user d'un plus long artifice, </l>
+            <l n="910">Qui d'une vaine ardeur amuse le caprice. </l>
+            <l n="911">Vous a-t-on dit au vrai le sentiment du Roi. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="912" part="I">On me l'a fait penser. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="912" part="F">Apprenez-le de moi. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="913">Puisqu'il est rigoureux, souffrez que je l'ignore, </l>
+            <l n="914">Rien ne peut empêcher que je ne vous adore. </l>
+            <l n="915">Qu'un éternel respect ne dure en ma langueur, </l>
+            <l n="916">Mais ne m'exposez point à quelque autre rigueur. </l>
+            <l n="917">Je souffre tout de vous, j'en adore mes peines, </l>
+            <l n="918">Je révère vos lois, encore qu'inhumaines, </l>
+            <l n="919" part="I">Mais pour d'autres... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="919" part="F">Hé quoi vous semblez menacer, </l>
+            <l n="920">Ceux que pour moi le Ciel pourrait intéresser ? </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="921">S'il est quelque autre heureux, qui pour vous s'intéresse </l>
+            <l n="922">Avec plus de succès, avec moins de paresse. </l>
+            <l n="923">Et de qui les efforts plus heureux que les miens, </l>
+            <l n="924">Préviennent ma pensée, et rompent vos liens. </l>
+            <l n="925">Du moins à mes désirs ne faites point d'injure. </l>
+            <l n="926">Croyez qu'il n'en est point dont l'ardeur soit plus pure. </l>
+            <l n="927">Et s'il m'est bienséant d'un peu les estimer, </l>
+            <l n="928">Qu'on puisse plus souffrir, qu'on doive moins blâmer : </l>
+            <l n="929">Si l'excès en allait, jusqu'à dire que j'aime, </l>
+            <l n="930">Jusqu'à vous exprimer ma passion extrême. </l>
+            <l n="931">Jusqu'à vous oser dire en faveur de mes sens, </l>
+            <l n="932">Le désordre où je suis et les maux que je sens. </l>
+            <l n="933">Vous pourriez justement m'appeler téméraire, </l>
+            <l n="934">Condamner mes transports, me forcer à me taire. </l>
+            <l n="935">Je n'appellerais point d'un arrêt si fatal, </l>
+            <l n="936">Et je puis tout souffrir si ce n'est un rival. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="937">Qui parle de rival, est-ce pour me confondre ? </l>
+            <l n="938">Croit-il que ma rougeur n'ait rien à lui répondre. </l>
+            <l n="939">Non, non vous vous trompez, et me connaissez mal </l>
+            <l n="940">Guérissez votre orgueil de la peur d'un rival. </l>
+            <l n="941">Il faut vous croire aimé pour avoir cette crainte. </l>
+            <l n="942">Cette présomption suppose une autre atteinte. </l>
+            <l n="943">Et sur ce faux penser bâtissant votre espoir, </l>
+            <l n="944">Votre orgueil téméraire offense mon devoir. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="945">Il vaut bien mieux souffrir adorable Princesse, </l>
+            <l n="946">Un rival bienheureux, qui pour vous s'intéresse </l>
+            <l n="947">Et passer sous silence une injuste rigueur. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="948">Puisque ce mot vous plaît qui choque mon honneur </l>
+            <l n="949">Au hasard de me nuire, il faut vous satisfaire, </l>
+            <l n="950">Ma langueur me fatigue, et que sert de me taire. </l>
+            <l n="951">Quel qui soit ce rival l'objet de mes souhaits, </l>
+            <l n="952">Il vous le faut aimer, ou ne me voir jamais. </l>
+            <l n="953">Je vous laisse à ce mot, et n'ai plus rien à dire.</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>[SCÈNE VIII].</head>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS, seul.</speaker>
+            <l n="954">Beauté trop rigoureuse ! Ha plutôt que j'expire. </l>
+            <l n="955">Dures extrémités où je me vois réduit, </l>
+            <l n="956">Mon amour sans espoir, ou mon espoir sans fruit. </l>
+            <l n="957">Un rival bienheureux règne dans son âme, </l>
+            <l n="958">Qui jouit de ma peine, et se rit de ma flamme. </l>
+            <l n="959">Trop heureux ennemi que je tiens dans mes fers, </l>
+            <l n="960">Que bien loin de punir, j'établis et je sers. </l>
+            <l n="961">Et qui par le pouvoir d'une rigueur extrême, </l>
+            <l n="962">Doit par delà l'estime obtenir que je l'aime. </l>
+            <l n="963">Tyranniques appas, vous voulez le haïr, </l>
+            <l n="964">De m'imposer ces lois et m'y faire obéir. </l>
+            <l n="965">Ou ne me voir jamais ajoute l'insensible, </l>
+            <l n="966">Ha l'un est bien cruel : mais l'autre est impossible. </l>
+            <l n="967">Sarcide est trop aimable, et je suis trop épris, </l>
+            <l n="968">Il n'est point d'ennemi, que je n'aime à ce prix, </l>
+            <l n="969">Que je n'aime ? Que dis-je ? Une espérance vaine, </l>
+            <l n="970">Détruira dans mon âme une si juste haine. </l>
+            <l n="971">Et par un faux respect, mon courroux endormi, </l>
+            <l n="972">Pourra me rendre aimable ce rival ennemi ? </l>
+            <l n="973">Venez à mon secours, vertu, fierté Romaine, </l>
+            <l n="974">Principes glorieux d'une invincible haine. </l>
+            <l n="975">Instinct impérieux des vifs ressentiments, </l>
+            <l n="976">Pour qui la raison même arme ses mouvements. </l>
+            <l n="977">Contre un rival heureux, irritez vos puissances, </l>
+            <l n="978">Soutenez ma colère, appuyez mes vengeances </l>
+            <l n="979">Oui souffrir un rival, c'est n'aimer qu'à demi, </l>
+            <l n="980">Pour sauver notre amour, perdons notre ennemi. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="acte" n="4">
+        <head>ACTE IV</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I. Sarcide, Léonice.</head>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="981">Je tremble pour ce Prince, et souffrez que ma crainte, </l>
+            <l n="982">Ose s'émanciper, et vous faire ma plainte. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="983" part="I">Qu'ai-je fait ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="983" part="F">Vous avez maltraitant le vainqueur, </l>
+            <l n="984">Exposé votre amant à sa mauvaise humeur. </l>
+            <l n="985">Pensiez-vous de servir le Prince de Silure ? </l>
+            <l n="986">L'excès de vos bontés, va tourner en injure. </l>
+            <l n="987" part="I">Ostorius sans doute... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="987" part="F">Il n'entreprendra rien. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="988" part="I">Mais il est Amoureux. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="988" part="F">Il en usera bien. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="989" part="I">Il a le coeur trop tendre. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="989" part="F">Il a l'âme trop belle. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="990">Hélas ! Que vous avez une bonté cruelle. </l>
+            <l n="991">Sachez qu'Ostorius n'est pas pour lui céder, </l>
+            <l n="992">L'honneur de vous servir, ou de vous posséder. </l>
+            <l n="993">Vous vous êtes Madame un peu trop déclarée, </l>
+            <l n="994">La fureur aussitôt en son âme est entrée. </l>
+            <l n="995">Et j'ai peine à penser, connaissant les Romains, </l>
+            <l n="996">Qu'il épargne un rival qu'il tient entre ses mains. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="997">Tu suis les sentiments de ton âme saisie. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="998">Je suis ceux du pouvoir joint à la jalousie.</l>
+            <l n="999">Serait-ce le premier qu'on verrait égorgé </l>
+            <l n="1000">Par un rival jaloux qui s'en serait vengé. </l>
+            <l n="1001">Ne faites point valoir ici votre constance, </l>
+            <l n="1002">Elle ne peut passer que pour indifférence. </l>
+            <l n="1003">Et si votre devoir s'oppose à l'amitié, </l>
+            <l n="1004">Ne vous dispensez pas d'une juste pitié, </l>
+            <l n="1005">Pour moi je ne saurais surmonter ma tristesse. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1006">Il est vrai j'en dis trop, j'ai tort, je le confesse : </l>
+            <l n="1007" part="I">Mais encor que crains-tu ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1007" part="F">Je crains tout de son sort, </l>
+            <l n="1008">Et s'il faut m'expliquer je le crois déjà mort. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1009" part="I">Mort ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1009" part="M">Oui Madame, mort. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1009" part="F">Faut-il que je le croie. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1010" part="I">Vous en pleurez ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1010" part="M">J'en meurs. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1010" part="F">Le Ciel nous le renvoie. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Sarcide, Léonice, Le Prince.</head>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1011">J'ose en ces lieux Madame encor me présenter, </l>
+            <l n="1012">Paraître devant vous qu'il me faut éviter. </l>
+            <l n="1013">Non pour y rétablir par des pleurs mercenaires, </l>
+            <l n="1014">Un espoir interdit, ou des voeux téméraires : </l>
+            <l n="1015">Mais pour y consacrer à vos divins appas, </l>
+            <l n="1016">Par un dernier effort ma vie et mon trépas </l>
+            <l n="1017">Je vous dois l'un et l'autre, et mon ardeur extrême </l>
+            <l n="1018">Ne croit pas vous devoir rien moins que tout-moi-même </l>
+            <l n="1019">Je trouve toutefois cet hommage imparfait, </l>
+            <l n="1020">Sans l'ordre de vos yeux à qui mon coeur le fait. </l>
+            <l n="1021">Sans eux c'est vainement que mon cruel martyre, </l>
+            <l n="1022">Tâche de m'arracher des lois de votre empire. </l>
+            <l n="1023">Je brave les destins qui vous font me haïr </l>
+            <l n="1024">Si l'ordre de vos yeux ne m'y fait obéir : </l>
+            <l n="1025">Mais exclu de tous voeux, et de toute espérance, </l>
+            <l n="1026">Souffrez que mon respect rompe encore le silence. </l>
+            <l n="1027">Et qu'il me soit permis, en me voyant périr, </l>
+            <l n="1028">De vous aimer encore, et d‘oser le haïr. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1029">Serait-ce bien m'aimer que m'ôter votre estime, </l>
+            <l n="1030">De vouloir le haïr, et me pousser au crime. </l>
+            <l n="1031">Rappelez vos esprits, pouvez-vous m'estimer, </l>
+            <l n="1032">Et vouloir le haïr, ou penser à m'aimer. </l>
+            <l n="1033">Quoi vous le haïrez, s'il faut que je l'adore, </l>
+            <l n="1034">Vous me verrez l'aimer, et m'aimerez encore. </l>
+            <l n="1035">Je souffrirai qu'on m'aime étant dessous sa loi, </l>
+            <l n="1036">Ou bien qu'on le haïsse alors qu'il est à moi. </l>
+            <l n="1037">Connaissez mieux mon âme, et ce que je suis née, </l>
+            <l n="1038">Et si jamais le sort conclut cette Hyménée, </l>
+            <l n="1039">Et que d'Ostorius il fasse mon époux, </l>
+            <l n="1040">N'attendez pas de moi des sentiments pour vous </l>
+            <l n="1041">Quoiqu'en votre faveur amour me sollicite, </l>
+            <l n="1042">Qu'il présente à mon coeur votre rare mérite. </l>
+            <l n="1043">Mes regards détournés ; et mes désirs soumis, </l>
+            <l n="1044">Vous feront moins aimer, qu'un chef des ennemis. </l>
+            <l n="1045">Ainsi de nos ardeurs, affaiblissons la force, </l>
+            <l n="1046">Faisons avec nous-même un vertueux divorce. </l>
+            <l n="1047">Bannissons de nos coeurs ces précieux instincts, </l>
+            <l n="1048">Embrassons le devoir, et suivons nos destins, </l>
+            <l n="1049">Ils arment contre vous mon bonheur et mon père, </l>
+            <l n="1050">Je ne puis rien pour moi, ni pour vous que me taire. </l>
+            <l n="1051">Soupirer en secret, me plaindre sourdement, </l>
+            <l n="1052">Mais malgré l'un et l'autre obéir hautement. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1053">Le sort à mes désirs, ou propice, ou contraire, </l>
+            <l n="1054">Me donne peu d'alarmes, et ne m'étonne guère : </l>
+            <l n="1055">Mais de voir votre père irrité contre moi, </l>
+            <l n="1056">Oublier ses serments, et me manquer de foi. </l>
+            <l n="1057" part="I">Mes sens surpris... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1057" part="F">Ô Dieux quelle erreur vous abuse, </l>
+            <l n="1058">Ignorez-vous tous deux ce que le Roi refuse. </l>
+            <l n="1059">Et que de Didius les trop faibles ressorts, </l>
+            <l n="1060">N'ont fait auprès de lui que d'impuissants efforts, </l>
+            <l n="1061">Sachez donc que du Roi les bontés singulières, </l>
+            <l n="1062">Ont bien loin du vainqueur rejeté les prières. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1063" part="I">Ô Dieux que me dis-tu ? </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1063" part="F">Ce que je sais fort bien. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1064" part="I">Hélas ! </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1064" part="F">S'il est ainsi, quel bonheur est le mien. </l>
+            <l n="1065">Mes tourments vont mourir, et mes désirs renaître, </l>
+            <l n="1066">Mais qu'un prompt souvenir les fait tôt disparaître. </l>
+            <l n="1067">Penses-tu qu'il pardonne à la témérité, </l>
+            <l n="1068">Dont mon coeur amoureux tantôt s'est emporté. </l>
+            <l n="1069">J'ai perdu le respect et mon âme bouillante, </l>
+            <l n="1070">N'a pu se retenir au milieu de sa pente. </l>
+            <l n="1071">Que je me suis moi-même innocemment trahi, </l>
+            <l n="1072">Et pour trop vous aimer que je me suis haï. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1073">Loin que de cette ardeur, ce grand Prince s'afflige, </l>
+            <l n="1074">Il l'impute à l'amour, et son coeur s'en oblige. </l>
+            <l n="1075">Vous n'avez qu'à le voir, il en sera ravi. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1076">Que tu fais de plaisir à mon coeur asservi. </l>
+            <stage>[À Sarcide].</stage>
+            <l n="1077">Mais de vous, que faut-il, Madame, que j'espère. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1078" part="I">Mon devoir. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1078" part="F">Il sera conforme aux voeux d'un Père ? </l>
+            <l n="1079">Mais quoi votre oeil se trouble, et vos sens interdits, </l>
+            <l n="1080">Semblent être offensés de ce que je vous dis. </l>
+            <l n="1081">Seriez-vous un obstacle au bonheur qui m'arrive ? </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1082">Prince mes fers vous font me traiter de captive. </l>
+            <l n="1083">De mon Père pour moi la générosité, </l>
+            <l n="1084">Exposera sa vie avec sa liberté ? </l>
+            <l n="1085">Et d'un devoir surpris la trompeuse apparence, </l>
+            <l n="1086">Pourra par de faux traits de mon obéissance : </l>
+            <l n="1087">Ou raccourcir ses jours, ou prolonger ses fers ? </l>
+            <l n="1088">Ces pièges sont pour moi trop grossiers et trop clairs, </l>
+            <l n="1089">Je dois à sa vertu l'hommage de ma mienne, </l>
+            <l n="1090">Ne point dégénérer, et répondre en la sienne, </l>
+            <l n="1091">Et plus elle s'expose, ou parle en ma faveur, </l>
+            <l n="1092">Et plus je dois contre elle épouser mon malheur. </l>
+            <l n="1093">Passer dans le parti d'une flamme étrangère, </l>
+            <l n="1094">En fille vertueuse, abandonner mon Père. </l>
+            <l n="1095">Hasarder mes amours, et m'en faire haïr, </l>
+            <l n="1096">Et forcer ma vertu, de lui désobéir. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1097">Courons donc au trépas, puisque tout m'est contraire. </l>
+            <l n="1098">Je pers incessamment, ou la fille, ou le Père. </l>
+            <l n="1099">Mille maux différents me disputent mon bien, </l>
+            <l n="1100">Nous hasardons tout, et ne craignons plus rien. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1101" part="I">Ostorius approche. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1101" part="F">Évitez sa colère. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1102">Je tâche à l'irriter, bien loin de m'y soustraire. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1103" part="I">Mais je crains que sa haine... </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1103" part="F">Et moi que son amour... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1104" part="I">Ha c'est trop je m'en vais. </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Ostorius, Le Prince.</head>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1104" part="F">Vous faisiez votre cour ? </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE, bas.</speaker>
+            <l n="1105">Tout beau mon coeur dispense un peu ta haine. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS, bas.</speaker>
+            <l n="1106">Hélas si tu savais l'ordre de l'inhumaine. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE, bas.</speaker>
+            <l n="1107">S'il savait son bonheur, pourrait-il soupirer. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1108">Cessons ! Cessons de craindre en cessant d'espérer. </l>
+            <l n="1109">Vous étiez m'a-t-on dit avecque la Princesse, </l>
+            <l n="1110">Est-ce que ma présence, ou la chasse, ou vous blesse ? </l>
+            <l n="1111" part="I">Vous rêvez. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1111" part="F">Oui, Seigneur, quand je vois mes liens </l>
+            <l n="1112">Je vois que vos destins doivent beaucoup aux miens. </l>
+            <l n="1113">Ces obstacles forcés qui gênent mon courage, </l>
+            <l n="1114">Dérobent bien des coups à ma haine, à ma rage. </l>
+            <l n="1115">Et leur injuste poids, qui rend vain mon courroux, </l>
+            <l n="1116">En retient bien en moi qui tomberaient sur vous. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1117">De votre triste état la visible impuissance, </l>
+            <l n="1118">À vos emportements ôte tout air d'offense. </l>
+            <l n="1119">Vous pouvez contre moi librement murmurer, </l>
+            <l n="1120">Ce n'est pas contre vous qu'il me faut mesurer. </l>
+            <l n="1121">Vos fers à ma colère ont des bornes prescrites, </l>
+            <l n="1122">Pour elle vos malheurs sont de justes limites. </l>
+            <l n="1123">Et pour peu que je pense à l'objet que je sers, </l>
+            <l n="1124">Je crois au lieu de vous, voir ma colère aux fers. </l>
+            <l n="1125">Admirez les efforts de son pouvoir suprême, </l>
+            <l n="1126">Il me fit vous haïr, il faut que je vous aime. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1127">Que vous m'aimiez ? Je tiens cet amour bien suspect, </l>
+            <l n="1128">J'adore en vous un bien pour qui j'ai du respect. </l>
+            <l n="1129">Mais je haïs encor plus le mal que vous me faites. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1130">J'adore en vous Sarcide, et plains ce que vous êtes. </l>
+            <l n="1131">Mais cet aimable objet qui nous a su charmer, </l>
+            <l n="1132">Au lieu de vous haïr, me force à vous aimer. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1133">Loin de vous faire aimer, elle augmente ma haine, </l>
+            <l n="1134" part="I">Mais quoi vous m'aimeriez. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1134" part="F">Elle est ma Souveraine. </l>
+            <l n="1135">J'obéis, c'est tout dire, et suis des mouvements, </l>
+            <l n="1136">Qui règnent dans mon âme, et sur mes sentiments : </l>
+            <l n="1137">Mais n'en abusez pas, mettez tout en balance, </l>
+            <l n="1138" part="I">J'ai beaucoup de respect. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1138" part="F">Et moi peu d'espérance. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1139">Sa vertu me répond de ses divins appas. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1140">La mienne vous répond que vous ne l'aurez pas. </l>
+            <l n="1141">Seigneur puisque tous deux nous brûlons pour ces charmes, </l>
+            <l n="1142">Vengeons nos coeurs troublez pas le sort de nos armes. </l>
+            <l n="1143">Dégagez-moi des fers, et brisez mes liens, </l>
+            <l n="1144">Pour honorer vos feux ou pour punir les miens. </l>
+            <l n="1145">Non que je veuille ainsi me soustraire à mes peines, </l>
+            <l n="1146">Au sortir d'un combat je reprendrai mes chaînes, </l>
+            <l n="1147">Ou consens si le sort favorise mon bras, </l>
+            <l n="1148">Qu'on me fasse périr par la main des soldats. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1149">D'un peu trop de valeur votre fierté se flatte. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1150">Il est temps, il est temps que l'un ou l'autre éclate, </l>
+            <l n="1151">Et qu'un beau désespoir s'émancipe à son tour, </l>
+            <l n="1152">Et tire nos respects des gênes de l'amour. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1153" part="I">Hé bien... Mais le Roi vient. </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Le Prince, Ostorius, Caractacus.</head>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1153" part="F">Ha ! Souffrez que j'embrasse. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1154">Vous m'embrasser perfide ? Éloignez-vous de grâce. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1155">Dieux ? Justes toutefois puisque j'ai mérité, </l>
+            <l n="1156">Ce cruel châtiment de ma témérité, </l>
+            <l n="1157">Non ne m'écoutez plus, non, ni vous non plus Sire. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1158" part="I">Ton crime le mérite. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1158" part="F">Il ne peut être pire. </l>
+            <l n="1159">Mais si mes sentiments ont pu vous outrager, </l>
+            <l n="1160">Je cours au désespoir, et vais vous en venger. </l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCÈNE V. Caractacus, Ostorius.</head>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1161">Je sens bien le motif de l'effort qui le chasse, </l>
+            <l n="1162">Mais pour mieux m'en servir, je demande sa grâce, </l>
+            <l n="1163">Ce n'est pas son malheur à qui je veux devoir, </l>
+            <l n="1164">Le succès de mes feux, et l'heur de mon espoir. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1165" part="I">De quel espoir Seigneur ? </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1165" part="F">D'obtenir la Princesse, </l>
+            <l n="1166">De finir sous ses Lois le tourment qui me presse, </l>
+            <l n="1167">D'occuper ce beau rang dont le Prince est déchu, </l>
+            <l n="1168">Enfin d'être agréable autant qu'il a déplu. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1169">Votre vertu Seigneur, donne force à la mienne, </l>
+            <l n="1170">Il faut lui pardonner ; pourvu qu'il se souvienne, </l>
+            <l n="1171">Qu'un coeur comme le mien, au milieu des hasards </l>
+            <l n="1172">Ne permet à ses yeux aucuns lâches regards. </l>
+            <l n="1173">Je suis Roi dans mes fers comme dans mon Empire, </l>
+            <l n="1174">Je ne perds rien du Sceptre encor que je soupire, </l>
+            <l n="1175">Mon trône est en moi-même, et me sens toujours Roi </l>
+            <l n="1176">Et vois également tout au-dessous de moi, </l>
+            <l n="1177">Ce titre glorieux est purgé de faiblesses, </l>
+            <l n="1178">Et tire la vertu du péril des bassesses, </l>
+            <l n="1179">Sa fortune est fragile, on y fait de faux pas, </l>
+            <l n="1180">Mais l'âme se soutient, et l'on ne tombe pas, </l>
+            <l n="1181">Mon coeur n'est point frappé, bien que le sort m'accable, </l>
+            <l n="1182">Et j'estime le Prince encore que coupable, </l>
+            <l n="1183">Mes premiers sentiments à lui sont engagés, </l>
+            <l n="1184">Mes derniers déplaisirs ne les ont point changés, </l>
+            <l n="1185">Au lieu de tous les biens que le destin me vole, </l>
+            <l n="1186">Je lui donne Sarcide, ou du moins ma parole, </l>
+            <l n="1187">Il ne me reste plus qu'elle aujourd'hui, </l>
+            <l n="1188">Elle n'est plus à moi Seigneur, elle est à lui. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1189">Elle n'est plus à vous ? Quoi Sarcide est au Prince ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1190" part="I">Oui Seigneur. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1190" part="F">Mais le Prince est hors de sa Province, </l>
+            <l n="1191">À Rome, en mon pouvoir, mais tout beau ma douleur, </l>
+            <l n="1192">Laisse, laisse à ma gloire user de ce malheur. </l>
+            <l n="1193">Endurer qu'on me prive ainsi de ce que j'aime ? </l>
+            <l n="1194">Qu'on arrache à mes yeux la moitié de moi-même ? </l>
+            <l n="1195">Pouvez-vous ignorer d'être dessous ma loi ? </l>
+            <l n="1196">D'être dedans mes fers de dépendre de moi ? </l>
+            <l n="1197">Sachez que mes désirs relèvent de moi-même, </l>
+            <l n="1198">Et que le seul respect peut m'ôter ce que j'aime, </l>
+            <l n="1199">Imposer à mon coeur la rigueur de vos lois, </l>
+            <l n="1200">Et frustrer mes désirs de l'honneur de mon choix, </l>
+            <l n="1201">Qui me peut empêcher d'ordonner qu'il périsse, </l>
+            <l n="1202">D'en faire à mon courroux un juste Sacrifice, </l>
+            <l n="1203">Et de son sang versé repaissant ma fureur, </l>
+            <l n="1204">Satisfaire ma haine ensemble, et mon ardeur ? </l>
+            <stage>[Ostorius continue en aparté, en pensant à Sarcide].</stage>
+            <l n="1205">Vous aimable Sarcide, adorable inhumaine, </l>
+            <l n="1206">Qui forcez ma colère, et désarmez ma haine,</l>
+            <l n="1207">Et qui par un arrêt et cruel et fatal, </l>
+            <l n="1208">M'ordonnez de souffrir et d'aimer mon rival. </l>
+            <l n="1209">Hé bien beaux yeux, il faut que je vous obéisse, </l>
+            <l n="1210">Plutôt que vous déplaire, il faut que je périsse, </l>
+            <l n="1211">Vos injustes désirs ne sont pas moins puissants. </l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCÈNE VI. Caractacus, Cartide, Ostorius.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1212">Seigneur il se faut rendre à des coups si pressants </l>
+            <l n="1213" part="I">Mais vous encor aux fers ? </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1213" part="F">Qu'on détache sa chaîne. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1214" part="I">Et le Prince ? </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1214" part="F">Il sera traité comme la Reine, </l>
+            <l n="1215">Vous pouvez parmi nous faire choix d'un séjour, </l>
+            <l n="1216">Dans Rome, hors de Rome, au milieu de la Cour </l>
+            <l n="1217">Mon crédit ne va pas jusqu'à pouvoir vous rendre ; </l>
+            <l n="1218">Les pays que le sort m'a forcé de vous prendre, </l>
+            <l n="1219">Souffrez des dures lois qui règlent mon devoir, </l>
+            <l n="1220">Cette nécessité de mon peu de pouvoir : </l>
+            <l n="1221">La plus haute vertu de la plus pure Essence, </l>
+            <l n="1222">Est comme moi sujette au crime d'impuissance, </l>
+            <l n="1223">Mais ne mesurez point des désirs généreux, </l>
+            <l n="1224">À de faibles succès d'un effort malheureux. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1225">Je demeure immobile, et ne puis vous répondre, </l>
+            <l n="1226">Plus je suis obligé, plus je me sens confondre, </l>
+            <l n="1227">Je vois mes maux passés suivis d'autres ennuis, </l>
+            <l n="1228">Je vois ce que je dois sans voir ce que je puis, </l>
+            <l n="1229">Vous portez vos bienfaits en un point trop sublime. </l>
+            <l n="1230">De mon âme interdite, ils épuisent l'estime, </l>
+            <l n="1231">Et de tant de faveurs le surprenant éclat, </l>
+            <l n="1232">Éblouit mes désirs, et va me rendre ingrat. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1233">Ha pour ne l'être point agréez ses demandes, </l>
+            <l n="1234">Donnez donnez Sarcide à des faveurs si grandes, </l>
+            <l n="1235" part="I">Que craignez-vous ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1235" part="F">Je crains et pour elle et pour vous, </l>
+            <l n="1236">L'art de cette surprise est d'un effort si doux. </l>
+            <l n="1237">Mais je reviens à moi mon âme est rassurée </l>
+            <l n="1238">Que si dans ma surprise elle s'est égarée, </l>
+            <l n="1239">Et se laissant frapper à des coups si puissants, </l>
+            <l n="1240">M'a fait part du désordre où sont tombés mes sens : </l>
+            <l n="1241">Elle est Seigneur, elle est plus calme et plus rassise, </l>
+            <l n="1242">Plus digne de soi-même et de votre franchise : </l>
+            <l n="1243">Oui par la liberté que de vous je reçois, </l>
+            <l n="1244">Je suis plus en état de vous répondre en Roi : </l>
+            <l n="1245">Sachez que mes désirs sont du parti des vôtres, </l>
+            <l n="1246">Et que ma gratitude y combat tous les autres : </l>
+            <l n="1247">Mais un fatal devoir qui me lie à ma foi, </l>
+            <l n="1248">Supplante mes désirs et me dérobe à moi. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1249">À ce noble devoir soyez toujours fidèle, </l>
+            <l n="1250">Exercez librement une vertu si belle : </l>
+            <l n="1251">Non non ne croyez pas que je l'estime moins, </l>
+            <l n="1252">De la voir inflexible à mes voeux, à mes soins : </l>
+            <l n="1253">Je les aurais rendus à votre propre haine, </l>
+            <l n="1254">À la Reine insensible, à Sarcide inhumaine : </l>
+            <l n="1255">Et vous verrez toujours mes voeux et mon devoir, </l>
+            <l n="1256">Égaux dans le succès ou dans le désespoir : </l>
+            <l n="1257">Peut-être pensez-vous que l'espoir qui m'enflamme, </l>
+            <l n="1258">La surprise des sens, le penchant de mon âme : </l>
+            <l n="1259">Ou ces charmes brillants des beaux yeux que je sers, </l>
+            <l n="1260">Aient porté mes désirs à détacher vos fers : </l>
+            <l n="1261">Je n'ai considéré que votre seul mérite, </l>
+            <l n="1262">Je l'ai dû, je l'ai fait, et je vous en tiens quitte. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1263">Dieux comment repousser des coups si dangereux, </l>
+            <l n="1264">On ne peut qu'en fuyant être assez généreux. </l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCÈNE VII. Cartide, Ostorius.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1265">Je suis au désespoir que pour reconnaissance, </l>
+            <l n="1266">Il faille que le Roi s'obstine et vous offense : </l>
+            <l n="1267">Et qu'à la foi donnée un peu trop délicat, </l>
+            <l n="1268">Il protège le Prince, et vous devienne ingrat : </l>
+            <l n="1269">Je me jette à vos pieds, et vous demande grâce </l>
+            <l n="1270" part="I">Au lieu de vous en rendre. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1270" part="F">Hélas quoi que je fasse </l>
+            <l n="1271">Part d'un juste effort et d'un si cher devoir </l>
+            <l n="1272">Que vous le payez trop daignant le recevoir : </l>
+            <l n="1273">Mais faites-en une autre à mon âme asservie </l>
+            <l n="1274">Dont malgré ma tristesse elle sera ravie : </l>
+            <l n="1275">Je ne demande point faveur pour mes soupirs, </l>
+            <l n="1276">Mais au moins que Sarcide explique ses désirs. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1277">Ses désirs sont pour vous, et bientôt le Roi même, </l>
+            <l n="1278">Ses premiers feux éteints voudra qu'elle vous aime : </l>
+            <l n="1279">Ne vous alarmez point : ces coups subtils et prompts, </l>
+            <l n="1280">Sont toujours plus, Seigneur, éclatants que profonds. </l>
+            <l n="1281">Un soudain mouvement n'en laisse aucun vestige, </l>
+            <l n="1282">Qu'un brillant de raison aisément ne corrige : </l>
+            <l n="1283">Je n'ai point de scrupule à jurer pour le Roi, </l>
+            <l n="1284">Et pour le Prince même aussi bien que pour moi : </l>
+            <l n="1285">Vos bienfaits, leurs grands coeurs, le salut de Sarcide, </l>
+            <l n="1286">La gloire d'aimer bien dont le Prince est avide : </l>
+            <l n="1287">Promettent à nos voeux des succès assurés. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1288">Le Ciel daigne accorder ce que vous désirez. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1289">Je vais y travailler, er ferai toute chose, </l>
+            <l n="1290">Que votre âme Seigneur sur mes soins se repose. </l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>ACTE V</head>
+        <div type="scene" n="1">
+          <head>SCÈNE I. Ostorius, Didius.</head>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1291">Le Sénat l'a conclu, l'Empereur le désire, </l>
+            <l n="1292">Le peuple le demande et l'honneur vous l'inspire : </l>
+            <l n="1293">Vous-même on vous a vu brûler de cette ardeur, </l>
+            <l n="1294">Et vous le recevez avec tant de froideur : </l>
+            <l n="1295">Quel bizarre chagrin trouble votre courage ; </l>
+            <l n="1296">Vos désirs n'étaient-ils que désirs de passage : </l>
+            <l n="1297">Dont l'extrême chaleur morte en son propre excès, </l>
+            <l n="1298">Dût les faire avorter dès leur premier succès : </l>
+            <l n="1299">Voyez dan ce billet de quel air on vous traite, </l>
+            <l n="1300">Quels honneurs, quel triomphe à Rome on vous apprête. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS, lit.</speaker>
+            <l n="1301">Rome pour payer tes miracles,</l>
+            <l n="1302">D'un beau bruit que les temps ne puissent étouffer :</l>
+            <l n="1303">Désire te voir triompher :</l>
+            <l n="1304">Parmi les voeux et les spectacles. </l>
+            <l n="1305">Ses ressentiments légitimes,</l>
+            <l n="1306">Veulent par ces honneurs te traiter d'immortel,</l>
+            <l n="1307">Et t'offrent ton char pour Autel,</l>
+            <l n="1308">Et tes captifs pour tes victimes.</l>
+            <l n="1309" part="I">Caesar. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1309" part="F">Vous soupirez encore, et ne daignez... </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1310">Amour, honneur, tyrans qui dans mon coeur régnez : </l>
+            <l n="1311">Mouvements égarés d'une âme chancelante. </l>
+            <l n="1312">De la raison blessée, et d'une ardeur mourante : </l>
+            <l n="1313">Que voulez-vous de moi, parlez, expliquez-vous, </l>
+            <l n="1314">Pouvez-vous à mes voeux offrir rien de plus doux : </l>
+            <l n="1315">Qu'un triomphe superbe, et que d'Illustres fêtes, </l>
+            <l n="1316">Où tout brille pour vous, tout vante les conquêtes : </l>
+            <l n="1317">Où même de l'objet qui me fait soupirer </l>
+            <l n="1318">J'honore mon spectacle, et me fait honorer : </l>
+            <l n="1319">Cessez vaines lueurs de mon âme blessée, </l>
+            <l n="1320">Qui flattez mes erreurs d'une telle pensée, </l>
+            <l n="1321">Téméraires appas plus dangereux que doux, </l>
+            <l n="1322">Avouez qu'un triomphe est plus charmant que vous. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1323">Grâce aux Dieux, votre coeur a changé de principe. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1324">Oui ma raison revient, mon trouble se dissipe, </l>
+            <l n="1325">Mes yeux sont décillés, je vois ce que je dois, </l>
+            <l n="1326">À Sarcide, à moi-même, à Rome, à mes exploits : </l>
+            <l n="1327">Mais que dis-tu mon coeur, le vois-tu bien perfide, </l>
+            <l n="1328">Regarde ? À qui peux-tu devoir plus qu'à Sarcide, </l>
+            <l n="1329">Plus qu'à tous ses appas, plus qu'à son doux aspect ; </l>
+            <l n="1330">Plus qu'à tous tes serments, plus qu'à tout ton respect ? </l>
+            <l n="1331">Va, cherche en ses beaux yeux le prix de ta victoire, </l>
+            <l n="1332">Ils ont dans leurs regards des ressources de gloire ? </l>
+            <l n="1333">Illustres vanités des mystères d'État, </l>
+            <l n="1334">Mensongères clartés, faux brillants, vain éclat : </l>
+            <l n="1335">Pompe, vous n'avez point de lumière assez belle, </l>
+            <l n="1336">Pour effacer Sarcide, et me rendre infidèle : </l>
+            <l n="1337">Pour surprendre mes sens d'une fausse lueur, </l>
+            <l n="1338">Pour éblouir mon âme, et détourner mon coeur, </l>
+            <l n="1339">Près d'elle vos splendeurs ne paraissent que sombres, </l>
+            <l n="1340">Que des Astres éteints, que de brillantes ombres, </l>
+            <l n="1341">Et vous disparaissez auprès de mon amour, </l>
+            <l n="1342">Pour peu que mon respect mette ma flamme au jour. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1343">L'amour doit obéir lorsque l'honneur commande. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1344">Quand l'amour est vainqueur, il faut qu'un coeur se rende. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1345">Tout le monde sera surpris d'un tel refus. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1346">L'amour vaut tout le monde, et Sarcide encore plus, </l>
+            <l n="1347">Ne reproche donc point à mon âme asservie, </l>
+            <l n="1348">Que mon aveugle amour la couvre d'infamie. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1349" part="I">Mais le Roi vient à vous. </l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCÈNE II. Caractacus, Ostorius, Didius.</head>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1349" part="F">Un triste souvenir, </l>
+            <l n="1350">Qui trouble mes esprits me fait ici venir, </l>
+            <l n="1351">Vous m'avez fait, Seigneur, une faveur insigne, </l>
+            <l n="1352">Mais en étant ingrat, je n'en puis qu'être indigne. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1353">Prince trop généreux, hé souffrez mes bienfaits, </l>
+            <l n="1354" part="I">Pourquoi les mépriser ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1354" part="F">Parce que je vous hais. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1355" part="I">Vous me... </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1355" part="F">Que peut prétendre une vertu si fière. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1356">À ne vous faire plus qu'une seule prière. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS, bas.</speaker>
+            <l n="1357">Qu'à son espoir si doux je pressens de revers. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1358" part="I">Demandez hardiment. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1358" part="F">Je demande mes fers. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1359" part="I">Vous demandez vos fers ? </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1359" part="F">Oui, ma gloire est jalouse, </l>
+            <note type="L">Répouser : Épouser une seconde fois. [T]</note>
+            <l n="1360">Que contre eux lâchement ma liberté répouse, </l>
+            <l n="1361">Que j'use d'un bienfait qui me rendrait confus, </l>
+            <l n="1362">Que je l'accepte enfin pour vous faire un refus, </l>
+            <l n="1363">Car si j'ai du malheur, je ne suis point perfide, </l>
+            <l n="1364">Et pour le Prince enfin j'ai destiné Sarcide, </l>
+            <l n="1365">Et veux qu'elle l'épouse au sortir de ces lieux, </l>
+            <l n="1366">Ou rentrer dans vos fers, ou mourir à vos yeux. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1367">Vous vous dites ingrat, je commence à le croire, </l>
+            <l n="1368">Et dans ces faux semblants d'une apparente gloire, </l>
+            <l n="1369">Je vois trop aisément un indigne attentat, </l>
+            <l n="1370">D'un coeur capricieux, et d'un esprit ingrat, </l>
+            <l n="1371">Mais puisque mes faveurs n'ont rien qui vous oblige, </l>
+            <l n="1372">Je sais ce que l'honneur de ma victoire exige. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1373">Tous deux veulent ma mort, hé bien donc dépêchez, </l>
+            <l n="1374">Reprenez les bienfaits que vous me reprochez, </l>
+            <l n="1375">Rendez-moi mes fers, arrachez-moi la vie, </l>
+            <l n="1376">Au gré de vos rigueurs contentez votre envie : </l>
+            <l n="1377">Saoulez cette altérée au dépens de mon sang, </l>
+            <l n="1378">Commencez par Sarcide à me percer le flanc. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1379">Ha ! Prince trop cruel que venez-vous de dire, </l>
+            <l n="1380">À ce beau nom, je sens renaître mon martyre, </l>
+            <l n="1381">Ce souvenir me charme, et mes yeux de retour, </l>
+            <l n="1382">Font mourir la colère, et revivre l'amour, </l>
+            <l n="1383" part="I">Ne vous obstinez point. </l>
+            <stage>Il donne la lettre.</stage>
+            <l n="1383" part="F">Regardez cette lettre, </l>
+            <l n="1384">D'un autre que de vous pourrais-je pas permettre </l>
+            <l n="1385">À mes pressants désirs pour le moins un espoir, </l>
+            <l n="1386">Un relâche obligeant de ce trop fier devoir, </l>
+            <l n="1387">Mais je vois ces beaux yeux qui font toute ma peine, </l>
+            <l n="1388" part="I">Souffrez que mon respect... </l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCÈNE III. Caractacus, Cartide, Sarcide, Ostorius,  Didius.</head>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1388" part="F">Seigneur je vous l'amène, </l>
+            <l n="1389">Pour d'un Père insensible ébranler la rigueur, </l>
+            <l n="1390">Ou si rien ne l'émeut pour nous percer le coeur : </l>
+            <l n="1391">Et pour mourir aux yeux de cet inexorable. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1392">Ha ! Cessez de traiter votre époux de coupable, </l>
+            <l n="1393">C'est moi seul qui le suis Madame d'aspirer, </l>
+            <l n="1394">À des biens que les Dieux seuls ont droit d'espérer, </l>
+            <l n="1395">Mais bien que sa rigueur contre mes voeux s'obstine, </l>
+            <l n="1396">Qu'en faveur d'un rival son coeur se détermine : </l>
+            <l n="1397">Mon respect saura bien retenir mon courroux, </l>
+            <l n="1398">Et s'il s'émeut pour lui le modérer pour vous. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1399">Seigneur n'écoutez plus ses ardeurs insensées, </l>
+            <l n="1400">Sarcide a bien conçu pour vous d'autres pensées. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1401">Et moi des sentiments bien contraires aux siens, </l>
+            <l n="1402">Oui Seigneur croyez-moi rapportez-vous aux miens :</l>
+            <l n="1403">Ou bien n'accusez plus mon âme d'être ingrate, </l>
+            <l n="1404">Et de répondre mal au destin qui vous flatte, </l>
+            <l n="1405">Je me veux acquitter par ma sincérité, </l>
+            <l n="1406">De toutes vos faveurs et de ma liberté. </l>
+            <l n="1407">Rejeter un triomphe est affaiblir sa gloire, </l>
+            <l n="1408">Étouffer ses vertus et flétrir sa mémoire, </l>
+            <l n="1409">Et pour quelque sujet que l'on quitte un tel bien, </l>
+            <l n="1410">C'est donner à penser qu'on ne mérite rien, </l>
+            <l n="1411">Vous vous rendez suspect, et quiconque le quitte, </l>
+            <l n="1412">Prouve moins son amour que son peu de mérite. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1413">Après Seigneur, après vous avoir combattu, </l>
+            <l n="1414">Je suis sans triompher content de ma vertu. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1415">La vertu toutefois se pique d'être égale, </l>
+            <l n="1416">Elle veut qu'on la flatte, et non qu'on la ravale, </l>
+            <l n="1417">Et croit que c'est flétrir le beau nom de vertu, </l>
+            <l n="1418">De ne triompher pas quand on a combattu, </l>
+            <l n="1419">Elle a de justes droits dont elle se chatouille, </l>
+            <l n="1420">Dont elle souffre injure alors qu'on la dépouille, </l>
+            <l n="1421">Et bien que satisfaite au fonds et du dedans, </l>
+            <l n="1422">Elle aime à se produire aux yeux des regardants, </l>
+            <l n="1423">Bien que dans elle-même elle ait sa récompense, </l>
+            <l n="1424">Elle veut dans autrui quelque reconnaissance, </l>
+            <l n="1425">Bien qu'elle soit solide elle aime le dehors, </l>
+            <l n="1426">Et bien qu'elle soit pure, elle chérit le corps. </l>
+            <l n="1427">Il faut à son mérite un honneur authentique, </l>
+            <l n="1428">Qui devienne immortel par cette foi publique. </l>
+            <l n="1429">Par ces cris redoublés par l'éclat des grands voeux, </l>
+            <l n="1430">Qui survivent au siècle, et vont jusqu'aux neveux, </l>
+            <l n="1431">Donc à votre vertu Seigneur faites justice, </l>
+            <l n="1432">Triomphez ou de nous ou de votre caprice, </l>
+            <l n="1433">Ne vous laissez point vaincre à d'indignes appas, </l>
+            <l n="1434">Qui soupirent de crainte et ne vous aiment pas, </l>
+            <l n="1435">Immolez-vous Sarcide, et moi-même et la Reine, </l>
+            <l n="1436">Vous en triompherez plutôt que de ma haine. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1437">Pour un ennemi même on a moins de rigueur. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1438">Oui quand notre ennemi n'est pas notre vainqueur, </l>
+            <l n="1439">Quand il n'est qu'ennemi, quand il n'a que sa haine, </l>
+            <l n="1440">Quand de divers succès l'issue est incertaine, </l>
+            <l n="1441">On le sert, on l'estime, on ne hait qu'à demi </l>
+            <l n="1442">Mais quiconque est vainqueur est bien plus qu'ennemi </l>
+            <l n="1443">De cet orgueilleux nom l'odieux caractère, </l>
+            <l n="1444">Au-delà de la haine élevant la colère, </l>
+            <l n="1445">Sur les premiers dépits verse un nouveau poison, </l>
+            <l n="1446">Qui pénètre les coeurs, infecte la raison, </l>
+            <l n="1447">Et de toute tendresse étouffant les semences, </l>
+            <l n="1448">Fait mourir les bontés, et vivre les vengeances. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1449">Les bienfaits pour le moins ne doivent point aigrir, </l>
+            <l n="1450">Mais puisque rien enfin ne peut vous attendrir, </l>
+            <stage>[À Sarcide].</stage>
+            <l n="1451">Je me retourne à vous beau sujet de ma peine, </l>
+            <l n="1452">Soyez pour être juste un peu moins inhumaine, </l>
+            <l n="1453">Comme malgré l'amour j'ai su vous obéir, </l>
+            <l n="1454">Daignez malgré la haine un peu moins me haïr, </l>
+            <l n="1455">Quoique je visse bien que le Prince en votre âme, </l>
+            <l n="1456">Était l'unique obstacle aux progrès de ma flamme, </l>
+            <l n="1457">Et que dans sa prison ou dans sa liberté, </l>
+            <l n="1458">Il faisait ma disgrâce ou ma félicité, </l>
+            <l n="1459">Malgré tous les rayons de ces justes pensées, </l>
+            <l n="1460">Vos voeux ont prévalu, ses chaînes sont forcées, </l>
+            <l n="1461">Et comme à votre gré vous me savez charmer, </l>
+            <l n="1462">Au lieu de le haïr vous m'avez fait l'aimer, </l>
+            <l n="1463">Faites le même effort sur votre indifférence, </l>
+            <l n="1464">Aimez au moins en moi votre toute puissance, </l>
+            <l n="1465">Et si c'est peu pour vous qu'un respect éprouvé, </l>
+            <l n="1466">Aimez dans son rival votre amant conservé. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1467">Vous faites une injure à ma reconnaissance, </l>
+            <l n="1468">De croire que pour vous j'ai de l'indifférence, </l>
+            <l n="1469">Mon âme est plus sensible, et n'oubliera jamais, </l>
+            <l n="1470">Ce que je puis devoir à de si grands bienfaits. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1471">Dans les coeurs élevés et les âmes d'élite, </l>
+            <l n="1472">Les bienfaits sont sans force et n'ont point de mérite, </l>
+            <l n="1473">La raison toute seule en fait les mouvements, </l>
+            <l n="1474">Échauffent les esprits, et meut les sentiments, </l>
+            <l n="1475">Les belles âmes ont de trop grandes lumières, </l>
+            <l n="1476">Pour former leurs désirs sur ces règles grossières, </l>
+            <l n="1477">Et pour laisser aller sur la foi des bienfaits, </l>
+            <l n="1478">De précieux penchants, et de tendres souhaits. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1479">Ha Seigneur, ha c'est trop et mon âme interdite, </l>
+            <l n="1480">Par son trop de bonheur à soi-même est séduite, </l>
+            <l n="1481">J'obtiens de mes souhaits plus qu'ils ne m'ont promis, </l>
+            <l n="1482">Je recouvre un amant et perds mes ennemis, </l>
+            <l n="1483">Je commence à voir l'art d'une vertu Romaine, </l>
+            <l n="1484">Vous flattez mon amour pour étouffer ma haine, </l>
+            <l n="1485" part="I">Le Prince en liberté... </l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCÈNE IV. Caractacus, Cartide, Sarcide, Ostorius, Didius, Léonice. </head>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1485" part="F">Vous me voyez en pleurs, </l>
+            <l n="1486" part="I">Madame. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1486" part="M">Achève donc. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1486" part="F">Du plus grands des malheurs, </l>
+            <l n="1487">Le Prince au désespoir, se veut arracher l'âme. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1488" part="I">Que dis-tu Léonice. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE, bas.</speaker>
+            <l n="1488" part="M">Ô Dieux ! </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1488" part="M">Poursuis. </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1488" part="F">Madame, </l>
+            <l n="1489">Sitôt que de ses fers il s'est vu dégagé, </l>
+            <l n="1490">Il a paru surpris, son visage est changé, </l>
+            <l n="1491">Et les esprits du coeur fidèles à sa peine, </l>
+            <l n="1492">Poussant de son sang trouble une vapeur de haine, </l>
+            <l n="1493">Ont sur son front ému, peint la honte et l'horreur, </l>
+            <l n="1494">Et dans ses yeux ardents la rage et la fureur, </l>
+            <l n="1495">Mais sa colère en vain l'agite et l'inquiète, </l>
+            <l n="1496">La douleur le surmonte, il chancelle, il s'arrête, </l>
+            <l n="1497">Il pâme, il perd les sens, et cette pâmoison, </l>
+            <l n="1498">À peine du désordre, épargne sa raison, </l>
+            <l n="1499">J'arrive, et le voyant avec si peu de vie, </l>
+            <l n="1500">J'ai recours à mes pleurs, à ma voix, je m'écrie, </l>
+            <l n="1501">Mais en vain : tout son sang de ses poumons pressés, </l>
+            <l n="1502">Ne poussent qu'un air froid, et des soupirs glacés, </l>
+            <l n="1503">Des mouvements pesants d'une âme languissante, </l>
+            <l n="1504">Et des efforts transis d'une mort proche et lente.</l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1505" part="I">Hélas ! </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1505" part="F">Mais de mes cris, enfin les sens frappés. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1506" part="I">Juste Ciel ! </l>
+          </sp>
+          <sp who="tc0748-LEONICE">
+            <speaker>LÉONICE.</speaker>
+            <l n="1506" part="F">Peu à peu se sont développés </l>
+            <l n="1507">S'il n'a pas vu les pleurs quoiqu'il les fît répandre, </l>
+            <l n="1508">Ma voix moins malheureuse, a su s'en faire entendre, </l>
+            <l n="1509">Léonice a-t-il dit en réveillant ses sens, </l>
+            <l n="1510">Encor tout étourdis, sombres et languissants, </l>
+            <l n="1511">Apprends du peu d'esprits qui soutiennent ma vie, </l>
+            <l n="1512">Qui retiennent mon âme au point de sa sortie, </l>
+            <l n="1513">Que l'amour de Sarcide élevant mon rival, </l>
+            <l n="1514">Est cause de ma perte, et fait ce coup fatal, </l>
+            <l n="1515">Lors ses sens revenus et l'âme plus quiète </l>
+            <l n="1516">Rétablie en son ordre et dans son assiette, </l>
+            <l n="1517">Va voir dit-il l'objet dont je suis enflammé, </l>
+            <l n="1518">Va dis-lui que je meurs également charmé, </l>
+            <l n="1519">Que jamais mon respect ne voulut de son âme, </l>
+            <l n="1520">Ni de désir forcé, ni de coupable flamme, </l>
+            <l n="1521">Que craignant de troubler de secondes amours, </l>
+            <l n="1522">J'immole à ses appas et mon sang et mes jours, </l>
+            <l n="1523">À peine a-t-il fini que la fureur l'emporte, </l>
+            <l n="1524">En vain je le retiens, l'adoucis, et l'exhorte, </l>
+            <l n="1525">Il saisit une épée, il se dérobe à nous, </l>
+            <l n="1526">Il s'enfuit furieux et mesurant ses coups, </l>
+            <l n="1527">Ses Gardes vont après, et je viens vous le dire, </l>
+            <l n="1528" part="I">Mais je crois... </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE.</speaker>
+            <l n="1528" part="F">Que crois-tu ? Dis ; que le Prince expire ? </l>
+            <l n="1529">Éclatez mes douleurs, taisez-vous ma vertu, </l>
+            <l n="1530">Laissez parler l'amour que si longtemps j'ai tu, </l>
+            <l n="1531">Bien que toute au parti que l'honneur me fait prendre, </l>
+            <l n="1532">Toute à ce dur devoir contre un amour si tendre, </l>
+            <l n="1533">Je souffre trop de maux pour les tenir secrets, </l>
+            <l n="1534">Pour retenir mes pleurs ou cacher mes regrets. </l>
+            <l n="1535">Il n'appartient qu'aux Dieux de jeter dans les âmes, </l>
+            <l n="1536">Ces précieux instincts, et ces sources de flammes, </l>
+            <l n="1537">D'y pénétrer les coeurs, d'y semer les désirs,</l>
+            <l n="1538">Et d'y faire à leur gré moissonner les plaisirs, </l>
+            <l n="1539">De ces justes auteurs de ces douces atteintes, </l>
+            <l n="1540">J'eus pour lui des douceurs et pour vous des contraintes, </l>
+            <l n="1541">Je ne pus vous aimer et ne puis le haïr. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1542" part="I">Est-ce là m'obéir. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1542" part="F">Oui c'est là m'obéir : </l>
+            <l n="1543">Et ravit à la fois son amour et ma haine. </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1544" part="I">Mais j'aperçois le Prince. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1544" part="M">Ô Dieux ! </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS.</speaker>
+            <l n="1544" part="F">On vous l'amène. </l>
+          </sp>
+          <sp who="tc0748-SARCIDE">
+            <speaker>SARCIDE, bas.</speaker>
+            <l n="1545">Ne mourez pas encore infortunés soupirs. </l>
+          </sp>
+        </div>
+        <div type="scene" n="">
+          <head>SCÈNE V. Caractacus, Cartide, Le Prince, Ostorius, Didius, Sarcide, Léonice. </head>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1546">Viens Prince, viens donner le comble à mes désirs. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1547">Quoi je voudrais la vie à son désavantage ? </l>
+            <l n="1548">Pour m'établir au port l'exposer au naufrage ? </l>
+            <l n="1549">Me tirer du péril et l'y précipiter ? </l>
+            <l n="1550">Leur exemple est trop beau pour ne pas l'imiter, </l>
+            <l n="1551">Sans perdre le respect je puis dire, je l'aime. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1552" part="I">Ha c'est trop. </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1552" part="F">Mais je l'aime au-delà de moi-même, </l>
+            <l n="1553">Jusqu'à pouvoir franchir ce qui m'a pu charmer, </l>
+            <l n="1554">Jusqu'à pour elle-même oser ne pas l'aimer, </l>
+            <l n="1555">Je dois à son salut cette juste inconstance, </l>
+            <stage>[À Ostorius].</stage>
+            <l n="1556">Je dois à vos bontés cette reconnaissance, </l>
+            <stage>[Au Roi].</stage>
+            <l n="1557">Je dois ce changement à votre fermeté, </l>
+            <stage>[À la Reine].</stage>
+            <l n="1558">Je dois à votre crainte enfin la sûreté. </l>
+            <stage>Le Prince veut se jeter sur une épée.</stage>
+            <l n="1559">À de si justes droits souffrir que je m'immole. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1560">Lâche ainsi donc je t'ai tenu parole ? </l>
+          </sp>
+          <sp who="tc0748-DIDIUS">
+            <speaker>DIDIUS, bas à Ostorius.</speaker>
+            <note type="C">v. 1561, le vers se termine par le mot "fer" ne rime pas avec voeux.</note>
+            <l n="1561">Enfin qu'avez-vous plus à craindre dans vos feux. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS, à Ostorius.</speaker>
+            <l n="1562" part="I">Je vous offre Sarcide. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1562" part="F">Ô comble de mes voeux. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1563">Non pas pour adoucir votre juste colère, </l>
+            <l n="1564">Mais pour mieux la punir dans l'amant dans le père, </l>
+            <l n="1565">Nous sommes tous ingrats armez votre courroux, </l>
+            <l n="1566">Il m'offense, il vous unit, vengez-moi, vengez-vous. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1567">Souffrez que ma raison, et non vous me conseille, </l>
+            <l n="1568">À ces hautes vertus la mienne se réveille, </l>
+            <l n="1569">Il est temps de la voir triompher à son tour, </l>
+            <l n="1570">Des combats de la haine, et des excès d'amour, </l>
+            <stage>Au Roi.</stage>
+            <l n="1571" part="I">Je vous hais, </l>
+            <stage>Au Prince.</stage>
+            <l n="1571" part="M">Je vous hais, je me hais, </l>
+            <stage>À Sarcide.</stage>
+            <l n="1571" part="F">Je vous aime, </l>
+            <l n="1572">Je ne vous cède point, je me cède à moi-même. </l>
+            <l n="1573">Du combat de nous trois l'un à l'autre odieux, </l>
+            <l n="1574">Si quelque autre que moi sortait victorieux, </l>
+            <l n="1575">Jaloux que je serais d'une si belle gloire, </l>
+            <l n="1576">Je lui disputerais à jamais la victoire </l>
+            <l n="1577">Mais ce n'est pas au Prince, et ce n'est point au Roi, </l>
+            <l n="1578">J'ai vaincu l'un et l'autre, et n'ai cédé qu'à moi, </l>
+            <l n="1579">Vivez heureux amants en de paisibles chaînes, </l>
+            <l n="1580">Puissent mille plaisirs succéder à vos peines, </l>
+            <l n="1581">Et plutôt que je rompe un noeud si doux, si beau, </l>
+            <l n="1582">Puissent vos bons destins m'enfermer au tombeau. </l>
+          </sp>
+          <sp who="tc0748-CARACTACUS">
+            <speaker>CARACTACUS.</speaker>
+            <l n="1583" part="I">Ha vainqueur généreux. </l>
+          </sp>
+          <sp who="tc0748-CARTIDE">
+            <speaker>CARTIDE.</speaker>
+            <l n="1583" part="F">Gloire des belles âmes ? </l>
+          </sp>
+          <sp who="tc0748-LEPRINCE">
+            <speaker>LE PRINCE.</speaker>
+            <l n="1584">Mon coeur suspend encor le plaisir de mes flammes. </l>
+          </sp>
+          <sp who="tc0748-OSTORIUS">
+            <speaker>OSTORIUS.</speaker>
+            <l n="1585">Non, non, ne craignez rien on m'ôtera le jour, </l>
+            <l n="1586">Plutôt que de souffrir qu'on trouble votre amour, </l>
+            <l n="1587">Mais avouez au moins que la vertu Romaine, </l>
+            <l n="1588">Sait vaincre également États, amour et haine. </l>
+            <l n="1589">Et qu'ayant résisté contre de si beaux yeux, </l>
+            <l n="1590">Elle a de quoi tout vaincre : États, hommes, et Dieux. </l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
