@@ -3,7 +3,9 @@ The CLiGS textbox
 
 [![DOI](https://zenodo.org/badge/1105/cligs/textbox.svg)](https://zenodo.org/badge/latestdoi/1105/cligs/textbox)
 
-This repository contains several text collections made available by the CLiGS junior research group (see http://cligs.hypotheses.org). As of February 2017, these are: 
+This repository contains several text collections made available by the CLiGS junior research group (see http://cligs.hypotheses.org).
+
+In March 2017, the textbox release 2.0.0. has been published. It contains the following collections: 
 
 * _Collection of 19th Century Spanish-American Novels (1880-1916)_, edited by Ulrike Henny: 24 novels
 * _Corpus of Spanish Novel from 1880-1940_, edited by José Calvo Tello: 24 novels
