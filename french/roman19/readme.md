@@ -23,7 +23,7 @@ The collection contains a selection of French adventure, crime fiction, educatio
 
 All texts are in the public domain. The markup we have added is provided with a CC-BY license (Creative Commons Attribution, see http://creativecommons.org/licenses/by/4.0/), the metadata are provided with a CC-0 license (Creative Commons Zero, see https://creativecommons.org/publicdomain/zero/1.0/). 
 
-Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: _Collection de romans français du dix-neuvième siècle_, release 1.0.0, edited by Christof Schöch and Stefanie Popp. Würzburg: CLiGS, 2015. https://github.com/cligs/textbox/tree/master/french/roman19.
+Please provide a reference if you use this research data in your teaching or research. The following is a citation suggestion: _Collection de romans français du dix-neuvième siècle_, edited by Christof Schöch and Stefanie Popp. In: _textbox_, release 2.0.0. Würzburg: CLiGS, 2017. https://github.com/cligs/textbox/tree/master/french/roman19. DOI: 10.5281/zenodo.376666. 
 
 ### Principles of Data Curation
  
