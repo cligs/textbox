@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import author="ulrike"
+        date="2017-05-12"
+        desc="&lt;pre&gt;&lt;br/&gt;- ANNOTATED&lt;br/&gt;- ulrike&lt;br/&gt;- 2017-05-12&lt;/pre&gt;"
+        name="ANNOTATED"
+        rootDir="/home/ulrike/Git/textbox/spanish/novela-hispanoamericana/annotated"
+        script="xmlLoader.groovy"
+        version="0.7.8">
+   <linkGrp type="align"/>
+   <corpora>
+      <corpus annotate="true"
+              cqpid="ANNOTATED1494597289846"
+              desc="&lt;pre&gt;&lt;br/&gt;- ANNOTATED&lt;br/&gt;- ulrike&lt;br/&gt;- 2017-05-12&lt;/pre&gt;"
+              encoding="UTF-8"
+              font=""
+              lang="es"
+              name="ANNOTATED">
+         <tokenizer onlyThoseTests="false" skip="false">
+            <param name="whitespaces">[\p{Z}\p{C}]+</param>
+            <param name="regPunct">[\p{Ps}\p{Pe}\p{Pi}\p{Pf}\p{Po}\p{S}]</param>
+            <param name="punct_strong">[.!?]+|\.\.|\.\.\.|…|\|</param>
+            <param name="regElision">['‘’]</param>
+         </tokenizer>
+         <xslt xsl=""/>
+         <pattributes/>
+         <sattributes/>
+         <biblios/>
+         <uis>
+            <ui command="textualplans">
+               <word>w</word>
+            </ui>
+            <ui command="concordance">
+               <context_limits type="list">text</context_limits>
+            </ui>
+         </uis>
+         <editions default="default">
+       	    <edition build_edition="true"
+                     mode="groovy"
+                     name="default"
+                     page_break_tag="pb"
+                     script="pager.groovy"
+                     words_per_page="500"/>
+         </editions>
+         <texts/>
+         <queries/>
+         <knowledgeRepositories/>
+         <preBuild/>
+         <parameters/>
+      </corpus>
+   </corpora>
+</import>
