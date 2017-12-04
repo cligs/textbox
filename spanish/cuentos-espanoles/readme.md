@@ -1,7 +1,7 @@
 Corpus of Spanish Short Stories from 1880-1940: Corpus de Cuentos de la Edad de Plata
 ========================================
 
-This corpus contains  12 texts from 6 Spanish (Valle, Unamuno, Bazán, Miró, Clarín, Blasco Ibáñez) authors (497 858 tokens). It is part of corpora of the PhD thesis of José Calvo Tello, who is part of the young research group CLiGS, at the University of Würzburg, Germany.
+This corpus contains  12 texts (497 858 tokens) from 6 Spanish authors (Valle, Unamuno, Bazán, Miró, Clarín, Blasco Ibáñez), with a total of 193 short stories. It is part of the corpora of the PhD thesis of José Calvo Tello, who is a member of the young research group CLiGS, at the University of Würzburg, Germany.
 
 See the "metadata.csv" file for information of the publication.
 
