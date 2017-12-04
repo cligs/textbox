@@ -4,7 +4,7 @@ Collection of 19th Century Spanish-American Novels (1880-1916)
 ## Contents ##
 
 This corpus contains 24 novels and short novels from 8 Spanish-American (Argentine and Mexican) authors (3 texts per author). 
-It is part of a larger corpus being prepared by Ulrike Henny for her PhD thesis. 
+It is part of a larger corpus being prepared by Ulrike Henny-Krahmer for her PhD thesis. 
 The corpus has been created in the context of the young research group for [Computational Literary Genres Stylistics (CLiGS)](http://cligs.hypotheses.org/) at the University of Würzburg in Germany.
 See the [metadata.csv](metadata.csv) file for basic information about the novels.
 
@@ -83,4 +83,4 @@ Source formats have been HTML, PDF and image files.
 ## Copyright and Citation
 
 * The author's copyright of this texts have already expired. This collection is published under Creative Common Attribution 4.0 International.
-* Please provide a reference if you use this data in your teaching or research. The following is a citation suggestion: _Collection of 19th Century Spanish-American Novels (1880-1916)_, edited by Ulrike Henny. Würzburg: CLiGS, 2017. https://github.com/cligs/textbox/master/spanish/novela-hispanoamericana/. 
+* Please provide a reference if you use this data in your teaching or research. The following is a citation suggestion: _Collection of 19th Century Spanish-American Novels (1880-1916)_, edited by Ulrike Henny-Krahmer. Würzburg: CLiGS, 2017. https://github.com/cligs/textbox/master/spanish/novela-hispanoamericana/. 
