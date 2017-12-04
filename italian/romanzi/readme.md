@@ -8,6 +8,7 @@ See the "metadata.csv" file  or the teiHeader in the files for more metadata inf
 
 * tei: following the Text Encoding Initiative and valid against the CLiGS schema (File name: id.xml)
 * txt\_id: simple plain text of the body (File name: id.txt)
+* annotated: TEI files further annotated with FreeLing and WordNet (keeping teiHeader)
 
 ## Copyright and Citation
 
