@@ -1,7 +1,7 @@
 The CLiGS textbox
 =================
 
-[![DOI](https://zenodo.org/badge/1105/cligs/textbox.svg)](https://zenodo.org/badge/latestdoi/1105/cligs/textbox)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1084107.svg)](https://doi.org/10.5281/zenodo.1084107)
 
 This repository contains several text collections made available by the CLiGS junior research group (see http://cligs.hypotheses.org). As of November 2017, these are: 
 
