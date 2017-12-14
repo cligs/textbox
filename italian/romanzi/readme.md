@@ -1,8 +1,8 @@
 Corpus of Italian Novels
 ===============================================================================
 
-This corpus contains  10 texts from 7 Italian authors (1 676 779  tokens).
-The dates of the first edition of the texte are  between 1850 and 1890.
+This corpus contains  21 texts from 15 Italian authors (2 279 182  tokens).
+The dates of the first edition of the texts are  between 1850 and 1915.
 See the "metadata.csv" file  or the teiHeader in the files for more metadata information.
 ## Formats
 
