@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+  <xs:element name="TEI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:teiHeader"/>
+        <xs:element ref="tei:text"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="teiHeader">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:fileDesc"/>
+        <xs:element minOccurs="0" ref="tei:encodingDesc"/>
+        <xs:element ref="tei:profileDesc"/>
+        <xs:element ref="tei:revisionDesc"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fileDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:titleStmt"/>
+        <xs:element minOccurs="0" ref="tei:extent"/>
+        <xs:element ref="tei:publicationStmt"/>
+        <xs:element ref="tei:sourceDesc"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titleStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:title"/>
+        <xs:element ref="tei:author"/>
+        <xs:element maxOccurs="unbounded" ref="tei:principal"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:idno"/>
+      </xs:sequence>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="author">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="tei:idno"/>
+        <xs:element ref="tei:name"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="principal">
+    <xs:complexType mixed="true">
+      <xs:attribute ref="xml:id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="extent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:measure"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="measure">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NMTOKEN">
+          <xs:attribute name="unit" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publicationStmt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:publisher"/>
+        <xs:element ref="tei:availability"/>
+        <xs:element ref="tei:date"/>
+        <xs:element maxOccurs="unbounded" ref="tei:idno"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publisher">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:ref"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="availability">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="tei:ab"/>
+        <xs:choice>
+          <xs:element ref="tei:p"/>
+          <xs:element ref="tei:licence"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="status" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="licence">
+    <xs:complexType mixed="true">
+      <xs:attribute name="target" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sourceDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:bibl"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="encodingDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:p"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="profileDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:abstract"/>
+        <xs:element ref="tei:textClass"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="abstract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:p"/>
+      </xs:sequence>
+      <xs:attribute name="source"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="textClass">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:keywords"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="keywords">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:term"/>
+      </xs:sequence>
+      <xs:attribute name="cert" type="xs:NCName"/>
+      <xs:attribute name="scheme" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="term">
+    <xs:complexType mixed="true">
+      <xs:attribute name="cert" type="xs:NMTOKEN"/>
+      <xs:attribute name="resp"/>
+      <xs:attribute name="subtype" type="xs:integer"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="revisionDesc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:change"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="change">
+    <xs:complexType mixed="true">
+      <xs:attribute name="when" use="required" type="xs:date"/>
+      <xs:attribute name="who" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="tei:body"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="body">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:div"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="div">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="tei:p"/>
+        <xs:element maxOccurs="unbounded" ref="tei:ab"/>
+      </xs:choice>
+      <xs:attribute ref="xml:id" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="idno">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="type" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ref">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:anyURI">
+          <xs:attribute name="target" type="xs:anyURI"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ab">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="tei:s"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="p">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="tei:bibl"/>
+        <xs:element ref="tei:s"/>
+        <xs:element ref="tei:seg"/>
+        <xs:element ref="tei:quote"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="quote">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="tei:p"/>
+        <xs:element ref="tei:seg"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date">
+    <xs:complexType mixed="true">
+      <xs:attribute name="when" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bibl">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="tei:date"/>
+        <xs:element ref="tei:idno"/>
+        <xs:element ref="tei:ref"/>
+        <xs:element ref="tei:seg"/>
+        <xs:element ref="tei:note"/>
+      </xs:choice>
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="note">
+    <xs:complexType mixed="true">
+      <xs:attribute name="source" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="s">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="tei:w"/>
+      </xs:sequence>
+      <xs:attribute name="n" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="w">
+    <xs:complexType mixed="true">
+      <xs:attribute name="case" type="xs:NCName"/>
+      <xs:attribute name="ctag" type="xs:NCName"/>
+      <xs:attribute name="degree" type="xs:NCName"/>
+      <xs:attribute name="form" use="required"/>
+      <xs:attribute name="gen" type="xs:NCName"/>
+      <xs:attribute name="lemma" use="required"/>
+      <xs:attribute name="mood" type="xs:NCName"/>
+      <xs:attribute name="msd"/>
+      <xs:attribute name="n" type="xs:NCName"/>
+      <xs:attribute name="nec" type="xs:NCName"/>
+      <xs:attribute name="neclass" type="xs:NCName"/>
+      <xs:attribute name="num" type="xs:NCName"/>
+      <xs:attribute name="person" type="xs:integer"/>
+      <xs:attribute name="polite" type="xs:NCName"/>
+      <xs:attribute name="pos" type="xs:NCName"/>
+      <xs:attribute name="possessornum" type="xs:NCName"/>
+      <xs:attribute name="possessorpers" type="xs:integer"/>
+      <xs:attribute name="punctenclose" type="xs:NCName"/>
+      <xs:attribute name="tag" use="required" type="xs:NCName"/>
+      <xs:attribute name="tense" type="xs:NCName"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+      <xs:attribute name="wnlex" type="xs:NCName"/>
+      <xs:attribute name="wnsyn" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="seg">
+    <xs:complexType mixed="true">
+      <xs:attribute name="rend" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
