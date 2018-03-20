@@ -7,6 +7,7 @@ This collection is a subset of the _Théâtre classique_ collection published by
 
 * The plays have premiered between 1640 and 1670.
 * The collection only contains comedies, tragedies and tragi-comedies
+* There is a total number of 100 texts with 1.624 million words in total (or 16.240 words in average each)
 * To make comparisons easier, only plays written in verse are included, excluding plays written partially or entirely in prose.
 * Some basic metadata about the plays is available as a CSV file ("metadata.csv")
 * The collection is meant for studying the differences between dramatic subgenres. Because the proportions of plays changes with each decade, the collection is not suited for an analysis of chronological development. A balanced subset would need to be created for such a purpose.
