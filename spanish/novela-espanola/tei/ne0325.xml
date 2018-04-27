@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"></title>
 				<title type="short">Regenta1</title>
 				<title type="idno">
-					<idno type="viaf">183080784</idno></title>
+					<idno type="bne">XX3383561</idno>
+					<idno type="viaf">183080784</idno>
+				</title>
 				<author>
+					<idno type="bne">XX922976</idno>
 					<idno type="viaf">17218138</idno>
 					<name type="short">Clarin</name>
 					<name type="full">Alas, Leopoldo</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">3274</measure>
-				<measure unit="divs">16</measure>
-				<measure unit="words">141497</measure>
-				<measure unit="chars">818483</measure>
-				<measure unit="size_kb">902</measure>
+				<measure unit="lines">3303</measure>
+				<measure unit="divs">18</measure>
+				<measure unit="tokens">145669</measure>
+				<measure unit="chars">843188</measure>
+				<measure unit="size_kb">903</measure>
 
 				<measure unit="chapters">15</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">3188</measure> 
-				<measure unit="line_verses">49</measure> 
-				<measure unit="heads">15</measure> 
+				<measure unit="blocks">3208</measure> 
+				<measure unit="lg.poems">17</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">49</measure> 
+				<measure unit="heads">17</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">3124</measure> 
-				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">1568</measure> 
-				<measure unit="numbers">14</measure> 
-				<measure unit="puncts">30233</measure>
+				<measure unit="paragraphs">3141</measure> 
+				<measure unit="abs">1</measure> 
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">1568</measure>
+				<measure unit="saids">1869</measure>
+				<measure unit="narrative.ps">1573</measure>
+				<measure unit="ss">8141</measure> 
+				<measure unit="numbers">15</measure> 
+				<measure unit="puncts">30703</measure> 
+				<measure unit="len.abstract">2169</measure>
+
+				<measure unit="types">16623</measure>
+
+				<measure unit="ss">6065</measure>
+				<measure unit="ss.len.mean">138.87155812036275</measure>
+				<measure unit="ss.len.std">126.91493859878882</measure>
+				<measure unit="mean.ss.active.verbs">2.481121187139324</measure>
+				<measure unit="std.ss.active.verbs">2.4155339676508576</measure>
+
+				<measure unit="ws">168821</measure>
+				<measure unit="ws.len.mean">4.0249731964625255</measure>
+				<measure unit="ws.len.std">2.927410446654725</measure>
+
+				<measure unit="conjunctions">9731</measure>
+				<measure unit="determiners">22811</measure>
+				<measure unit="nouns">32190</measure>
+				<measure unit="verbs">25733</measure>
+				<measure unit="adverbs">8111</measure>
+				<measure unit="adjectives">8068</measure>
+				<measure unit="adpositions">20487</measure>
+				<measure unit="punctuations">27443</measure>
+				<measure unit="pronouns">13404</measure>
+				<measure unit="dates">44</measure>
+				<measure unit="numbers">512</measure>
+				<measure unit="interjections">285</measure>
+
+				<measure unit="ne.persons">3183</measure>
+				<measure unit="ne.organizations">1257</measure>
+				<measure unit="ne.locations">1085</measure>
+				<measure unit="ne.others">307</measure>
+
+				<measure unit="wnlex.noun.plants">181</measure>
+				<measure unit="wnlex.verb.communications">2864</measure>
+				<measure unit="wnlex.noun.foods">314</measure>
+				<measure unit="wnlex.verb.possessions">977</measure>
+				<measure unit="wnlex.verb.cognitions">1941</measure>
+				<measure unit="wnlex.noun.communications">1884</measure>
+				<measure unit="wnlex.noun.states">879</measure>
+				<measure unit="wnlex.verb.statives">6747</measure>
+				<measure unit="wnlex.noun.cognitions">1699</measure>
+				<measure unit="wnlex.noun.times">896</measure>
+				<measure unit="wnlex.verb.bodys">1110</measure>
+				<measure unit="wnlex.noun.persons">4229</measure>
+				<measure unit="wnlex.adj.alls">5660</measure>
+				<measure unit="wnlex.noun.quantitys">142</measure>
+				<measure unit="wnlex.noun.phenomenons">318</measure>
+				<measure unit="wnlex.verb.creations">1146</measure>
+				<measure unit="wnlex.adj.perts">285</measure>
+				<measure unit="wnlex.adv.alls">2816</measure>
+				<measure unit="wnlex.noun.processs">80</measure>
+				<measure unit="wnlex.noun.artifacts">3132</measure>
+				<measure unit="wnlex.verb.perceptions">1356</measure>
+				<measure unit="wnlex.noun.feelings">617</measure>
+				<measure unit="wnlex.verb.weathers">114</measure>
+				<measure unit="wnlex.noun.substances">388</measure>
+				<measure unit="wnlex.noun.shapes">69</measure>
+				<measure unit="wnlex.verb.competitions">204</measure>
+				<measure unit="wnlex.verb.motions">1888</measure>
+				<measure unit="wnlex.noun.animals">283</measure>
+				<measure unit="wnlex.noun.acts">1932</measure>
+				<measure unit="wnlex.noun.bodys">1223</measure>
+				<measure unit="wnlex.noun.objects">566</measure>
+				<measure unit="wnlex.noun.motives">91</measure>
+				<measure unit="wnlex.verb.socials">1502</measure>
+				<measure unit="wnlex.noun.groups">920</measure>
+				<measure unit="wnlex.verb.consumptions">411</measure>
+				<measure unit="wnlex.noun.possessions">211</measure>
+				<measure unit="wnlex.noun.Topss">302</measure>
+				<measure unit="wnlex.noun.relations">57</measure>
+				<measure unit="wnlex.noun.attributes">1710</measure>
+				<measure unit="wnlex.verb.emotions">978</measure>
+				<measure unit="wnlex.noun.locations">676</measure>
+				<measure unit="wnlex.noun.events">667</measure>
+				<measure unit="wnlex.verb.contacts">999</measure>
+				<measure unit="wnlex.xxxs">113221</measure>
+				<measure unit="wnlex.verb.changes">1136</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -65,56 +151,61 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">erotic</term>
-					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
-					<term type="subgenre-lithist" subtype="1">novela realista</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">small-city</term>
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1852</term>
-					<term type="author-date-death">1901</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">66</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subtitle"></term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">naturalist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">realist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">erotic</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="2">novela naturalista</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="1">novela realista</term>
+					<term type="narration.narrator">heterodiegetic</term>
+					<term type="setting.type">small-city</term>
+					<term type="characters.protagonist.gender">female</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1852</term>
+					<term type="author.date.death">1901</term>
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.litHist.pages" resp="MdL7">66</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
 
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Vetusta</term>
-					<term type="setting-territory">Asturias</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Oviedo</term>
+					<term type="setting.name">Vetusta</term>
+					<term type="setting.territory">Asturias</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Ana Ozores</term>
-					<term type="protagonist-profession">housewife</term>
-					<term type="protagonist-social-level">high</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="high">3</term>
-					<term type="group-text">La Regenta</term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Ana Ozores</term>
+					<term type="characters.protagonist.profession">housewife</term>
+					<term type="characters.protagonist.socLevel">high</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="high">3</term>
+					<term type="authorText.group">La Regenta</term>
 					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">16.0</term>
-					<term type="text-TOC-range">6</term>
-					
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">negative</term>
+					<term type="text.movement">naturalista</term>
+					<term type="reception.ToC">6</term>
+					<term type="reception.pages" resp="MdLE7">16.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.edit" resp="epublibre">Drama</term>
+					<term type="genre.subgenre.edit" resp="wikidata">novela naturalista</term>
+					<term type="genre.subgenre.litHist" resp="HdLE">novela caciquil</term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -294,7 +385,7 @@
 					<head>- II -</head>
 					<p>El coro había terminado: los venerables canónigos dejaban cumplido por aquel día su deber de alabar al Señor entre bostezo y bostezo. Uno tras otro iban entrando en la sacristía con el aire aburrido de todo funcionario que desempeña cargos oficiales mecánicamente, siempre del mismo modo, sin creer en la utilidad del esfuerzo con que gana el pan de cada día. El ánimo de aquellos honrados sacerdotes estaba gastado por el roce continuo de los cánticos canónicos, como la mayor parte de los roquetes, mucetas y capas de que se despojaban para recobrar el manteo. Se notaba en el cabildo de Vetusta lo que es ordinario en muchas corporaciones: algunos señores prebendados no se hablaban; otros no se saludaban siquiera. Pero a un extraño no le era fácil conocer esta falta de armonía: la prudencia disimulaba tales asperezas, y en conjunto reinaba la mayor y más jovial concordia. Había apretones de mano, golpecitos en el hombro, bromitas sempiternas, chistes, risas, secretos al oído. Algunos, taciturnos, se despedían pronto y abandonaban el templo; no faltaba quien saliera sin despedirse.</p>
 					<p>Cuando entraba el Magistral, el ilustrísimo señor don Cayetano Ripamilán, aragonés, de Calatayud, apoyaba una mano en el mármol de la mesa, porque los codos no llegaban a tamaña altura, y exclamaba después de haber olfateado varias veces, como perro que sigue un rastro:</p>
-					<lg>
+					<lg ana="poem">
 						<l> -Hame dado en la nariz</l>
 						<l>olor de...</l>
 					</lg>
@@ -311,7 +402,7 @@
 					<p>Reíanse de todo corazón los muchachos y el buen Arcipreste quedaba en sus glorias, logrando con los pies triunfos que ya su pluma no alcanzaba en los tiempos de prosa a que habíamos llegado.</p>
 					<p>Esto de los bailes solía acontecer en las tertulias a donde el setentón acudía sin falta, porque desde que los médicos le habían prohibido escribir y hasta leer de noche, no podía pasar sin la sociedad más animada y galante. El tresillo le aburría y los conciliábulos de canónigos y obispos de levita, como él decía siempre, le ponían triste. «No era liberal ni carlista. Era un sacerdote». La juventud le atraía y prefería su trato al de los más sesudos vetustenses. Los poetillas y gacetilleros de la <seg rend="italic">localidad</seg> tenían en él un censor socarrón y malicioso, aunque siempre cortés y afable. Encontrábase en la calle, por ejemplo, con Trifón Cármenes, el poeta de más alientos de Vetusta, el eterno vencedor en las justas incruentas, de la gaya ciencia; le llamaba con un dedo, acercaba su corva nariz a la ancha oreja del vate y decíale:</p>
 					<p>-He visto aquello... No está mal; pero no hay que olvidar lo de <seg rend="italic">versate manu</seg>. ¡Los clásicos, Trifoncillo, los clásicos sobre todo! ¿Dónde hay sencillez como aquella:</p>
-					<lg>
+					<lg ana="poem">
 						<l>Yo he visto un pajarillo</l>
 						<l>posarse en un tomillo?</l>
 					</lg>
@@ -319,7 +410,7 @@
 					<p>-Y aun así y todo -decía un canónigo muy buen mozo, nuevo en Vetusta y en el oficio, pariente del ministro de Gracia y Justicia- aun así y todo no se puede llevar en calma la imprudencia con que habla de todo; suelta la sin hueso y juzga precipitadamente, y emplea vocablos y alusiones impropias de una dignidad.</p>
 					<p>A este mismo señor canónigo que embozadamente le había reprendido algunas veces por la pimienta de sus epigramas, solía taparle la boca el Arcipreste diciendo:</p>
 					<p>-Nada, nada, repito lo que mi paisano y queridísimo poeta Marcial dejó escrito para casos tales, es a saber:</p>
-					<lg>
+					<lg ana="poem">
 						<l><seg rend="italic">Lasciva est nobis pagina, vita proba est.</seg></l>
 					</lg>
 					<p>Con lo cual daba a entender, y era verdad, que él tenía los verdores en la lengua, y otros, no menos canónigos que él, en otra parte. Y no era de estos días el ser don Cayetano muy honesto en el orden aludido, sino que toda la vida había sido un boquirroto en tal materia, pero nada más que un boquirroto. Y esta era la traducción libre del verso de Marcial.</p>
@@ -450,13 +541,13 @@
 					<p>Se acordó de que no había conocido a su madre. Tal vez de esta desgracia nacían sus mayores pecados.</p>
 					<p>«Ni madre ni hijos».</p>
 					<p>Esta costumbre de acariciar la sábana con la mejilla la había conservado desde la niñez. -Una mujer seca, delgada, fría, ceremoniosa, la obligaba a acostarse todas las noches antes de tener sueño. Apagaba la luz y se iba. Anita lloraba sobre la almohada, después saltaba del lecho; pero no se atrevía a andar en la obscuridad y pegada a la cama seguía llorando, tendida así, de bruces, como ahora, acariciando con el rostro la sábana que mojaba con lágrimas también. Aquella blandura de los colchones era todo lo <seg rend="italic">maternal</seg> con que ella podía contar; no había más suavidad para la pobre niña. Entonces debía de tener, según sus vagos recuerdos, cuatro años. Veintitrés habían pasado, y aquel dolor aún la enternecía. Después, casi siempre, había tenido grandes contrariedades en la vida, pero ya despreciaba su memoria; una porción de necios se habían conjurado contra ella; todo aquello le repugnaba recordarlo; pero su pena de niña, la injusticia de acostarla sin sueño, sin cuentos, sin caricias, sin luz, la sublevaba todavía y le inspiraba una dulcísima lástima de sí misma. Como aquel a quien, antes de descansar en su lecho el tiempo que necesita, obligan a levantarse, siente sensación extraña que podría llamarse nostalgia de blandura y del calor de su sueño, así, con parecida sensación, había Ana sentido toda su vida nostalgia del regazo de su madre. Nunca habían oprimido su cabeza de niña contra un seno blando y caliente; y ella, la chiquilla, buscaba algo parecido donde quiera. Recordaba vagamente un perro negro de lanas, noble y hermoso; debía de ser un terranova. -¿Qué habría sido de él?-. El perro se tendía al sol, con la cabeza entre las patas, y ella se acostaba a su lado y apoyaba la mejilla sobre el lomo rizado, ocultando casi todo el rostro en la lana suave y caliente. En los prados se arrojaba de espaldas o de bruces sobre los montones de yerba segada. Como nadie la consolaba al dormirse llorando, acababa por buscar consuelo en sí misma, contándose cuentos llenos de luz y de caricias. Era el caso que ella tenía una mamá que le daba todo lo que quería, que la apretaba contra su pecho y que la dormía cantando cerca de su oído:</p>
-					<lg>
+					<lg ana="poem">
 						<l>Sábado, sábado, morena,</l>
 						<l>cayó el pajarillo en trena</l>
 						<l>con grillos y con cadenaaa...</l>
 					</lg>
 					<p>Y esto otro:</p>
-					<lg>
+					<lg ana="poem">
 						<l>Estaba la pájara pinta</l>
 						<l>a la sombra de un verde limón...</l>
 					</lg>
@@ -514,7 +605,7 @@
 					<p>-«La monotonía, la insulsez de esta existencia es aparente; mis días están ocupados por grandes cosas; este sacrificio, esta lucha es más grande que cualquier aventura del mundo».</p>
 					<p>En otros momentos, como ahora, tascaba el freno la pasión sojuzgada; protestaba el egoísmo, la llamaba loca, romántica, necia y decía: -¡Qué vida tan estúpida!</p>
 					<p>Esta conciencia de la rebelión la desesperaba; quería aplacarla y se irritaba. Sentía cardos en el alma. En tales horas no quería a nadie, no compadecía a nadie. En aquel instante deseaba oír música; no podía haber voz más oportuna. Y sin saber cómo, sin querer se le apareció el Teatro Real de Madrid y vio a don Álvaro Mesía, el presidente del Casino, ni más ni menos, envuelto en una capa de embozos grana, cantando bajo los balcones de Rosina:</p>
-					<lg>
+					<lg ana="poem">
 						<l><seg rend="italic">Ecco ridente il ciel...</seg></l>
 					</lg>
 					<p>La respiración de la Regenta era fuerte, frecuente; su nariz palpitaba ensanchándose, sus ojos tenían fulgores de fiebre y estaban clavados en la pared, mirando la sombra sinuosa de su cuerpo ceñido por la manta de colores.</p>
@@ -728,7 +819,7 @@
 
 					<p>Después leyó Ana <seg rend="italic">Los Mártires</seg>. Ella hubiera sido de buen grado Cimodocea, su padre podía pasar por un Demodoco bastante regular, sobre todo después de su viaje a Italia que le había hecho pagano. Pero ¿Eudoro? ¿dónde estaba Eudoro? Pensó en Germán. ¿Qué habría sido de él?</p>
 					<p>Difícil le fue encontrar entre los libros de su padre otros que hablasen, para bien se entiende, de religión. Un tomo del <seg rend="italic">Parnaso Español</seg> estaba consagrado a la poesía religiosa. Los más eran versos pesados, obscuros, pero entre ellos vio algunos que le hicieron mejor impresión que el mismo Chateaubriand. Unas quintillas de Fray Luis de León comenzaban así:</p>
-					<lg>
+					<lg ana="poem">
 						<l> Si quieres, como algún día,</l>
 						<l>alabar rubios cabellos,</l>
 						<l>alaba los de María,</l>
@@ -840,7 +931,7 @@
 					<p>Y suspiró otra vez doña Águeda, acordándose del rollo que había sido.</p>
 					<p>Doña Anuncia había tenido sus motivos para no engordar: unos amores románticos rabiosos. De aquellos amores le habían quedado varias canciones a la luna, en una especie de canto llano que ella misma acompañaba con la guitarra. Una de las canciones comenzaba diciendo:</p>
 
-					<lg>
+					<lg ana="poem">
 						<l> Esa luna que brilla en el cielo</l>
 						<l>melancólicamente me inspira:</l>
 						<l>es el último son de mi lira</l>
@@ -1204,7 +1295,7 @@
 					<p>Los socios rieron a carcajadas.</p>
 					<p>«¡Hasta en latín sabe maldecir el pillastre!», pensó el padre, más satisfecho cada vez de los sacrificios que le costaba aquel enemigo.</p>
 					<p>Joaquinito, encarnado de placer, y un poco por el anís del mono que había bebido, creyó del caso coronar el edificio de su gloria cantando algo nuevo. Se puso en pie, estiró una pierna, giró sobre un tacón y cantó, o <seg rend="italic">se</seg> cantó, como él decía:</p>
-					<lg>
+					<lg ana="poem">
 						<l> Ábreme la puerta,</l>
 						<l>puerta del postigo...</l>
 					</lg>
@@ -1987,7 +2078,7 @@
 					<p>-Por Dios, señora: con mil amores, si no fuera... ¿No voy otras veces? ¡Pero si mañana tengo que comulgar!</p>
 					<p>-¡Ta, ta, ta, ta! ¿y qué tiene eso que ver? ¿Lo sabe la gente? ¿Vas tú al teatro a pecar?</p>
 					<p>-¡El arte es una religión! -advirtió don Víctor consultando el reloj, temeroso de perder lo de</p>
-					<lg>
+					<lg ana="poem">
 						<l>
  Hipógrifo violento</l>
 						<l>que corriste parejas con el viento.</l>
@@ -2095,12 +2186,12 @@
 
 					<p>Bostezó don Víctor y salió del gabinete después de depositar un casto beso en la frente de su mujer.</p>
 					<p>Entró en su despacho. Estaba de mal humor. «Aquella enfermedad misteriosa de Ana -porque era una enfermedad, estaba seguro- le preocupaba y le molestaba. No estaba él para templar gaitas: los nervios le eran antipáticos; estas penas sin causa conocida no le inspiraban compasión, le irritaban, le parecían mimos de enfermo; él quería mucho a su mujer, pero a los nervios los aborrecía... Además en el teatro había tenido una discusión acalorada: un majadero, un sietemesino que estudiaba en Madrid, había dicho que el teatro de Lope y de Calderón no debía imitarse en nuestros días, que en las tablas era poco natural el verso, que para los dramas de la época era mejor la prosa. ¡Imbécil! ¡que el verso es poco natural! ¡Cuando lo natural sería que todos, sin distinción de clases, al vernos ultrajados prorrumpiéramos en quintillas sonoras! La poesía será siempre el lenguaje del entusiasmo, como dice el ilustre Jovellanos. Figurémonos que yo me llamo Benavides y que Carvajal quiere quitarme la honra</p>
-					<lg>
+					<lg ana="poem">
 						<l>a obscuras, como el ladrón</l>
 						<l>de infame merecimiento;</l>
 					</lg>
 					<p>pues ¿dónde habrá cosa más natural que incomodarme yo, y exclamar con Tirso de Molina (representando):</p>
-					<lg>
+					<lg ana="poem">
 						<l> A satisfacer la fama</l>
 						<l>que me habéis hurtado vengo:</l>
 						<l>mi agravio es león que brama;</l>
@@ -2113,7 +2204,7 @@
 						<l>en sangre de dos traidores...?».</l>
 					</lg>
 					<p>Don Víctor se fijó en un velador, que era Carvajal, y ya iba a concederle la palabra, para que dijese en son de disculpa:</p>
-					<lg>
+					<lg ana="poem">
 						<l> Desde que sois mi cuñado</l>
 						<l>ni de palabras me afrento..., etc.,</l>
 					</lg>
@@ -2662,17 +2753,17 @@
 						<seg rend="italic">La Libre Hermandad</seg> se había fundado con ciertos aires de institución independiente <seg rend="italic">de todo yugo religioso</seg>, y su primer presidente fue el señor don Pompeyo Guimarán, que de milagro no estaba excomulgado y que no comulgaba jamás.</p>
 					<p>Era el círculo algo como una oposición a <seg rend="italic">Las Hermanitas</seg> <seg rend="italic">de los Pobres</seg>, a la <seg rend="italic">Santa Obra del Catecismo</seg>, a las <seg rend="italic">Escuelas Dominicales</seg>, etc., etc. Desde luego se le declaró la guerra por el elemento religioso y a los pocos meses no había un pobre en todo el Ayuntamiento de Vetusta que quisiera las limosnas, los premios, ni la enseñanza de <seg rend="italic">La Libre Hermandad</seg>.</p>
 					<p>Las niñas de las <seg rend="italic">Escuelas Dominicales</seg> y los chiquillos del <seg rend="italic">Catecismo</seg>, que cantaban por las calles en vez de coplas profanas el</p>
-					<lg>
+					<lg ana="poem">
 						<l>Santo Dios, Santo Fuerte,</l>
 						<l>Santo Inmortal,</l>
 					</lg>
 					<p>y lo de</p>
-					<lg>
+					<lg ana="poem">
 						<l>Venid y vamos todos</l>
 						<l>con flores a María,</l>
 					</lg>
 					<p>inventaron un cantar contra el Círculo. Decía así:</p>
-					<lg>
+					<lg ana="poem">
 						<l>Los niños pobres no quieren</l>
 						<l>ir a la Libre Hermandad,</l>
 						<l>los niños pobres prefieren</l>
@@ -3475,7 +3566,7 @@
 					<p>Abrió el balcón del despacho de par en par. Ya había salido la luna, que parecía ir rodando sobre el tejado de enfrente. La calle estaba desierta, la noche fresca; se respiraba bien; los rayos pálidos de la luna y los soplos suaves del aire le parecieron caricias. «¡Qué cosas tan nuevas, o mejor tan antiguas, tan antiguas y tan olvidadas estaba sintiendo! Oh, para él no era nuevo, no, sentir oprimido el pecho al mirar la luna, al escuchar los silencios de la noche; así había él empezado a ponerse enfermucho, allá en los Jesuitas: pero entonces sus anhelos eran vagos y ahora no; ahora anhelaba... tampoco se atrevía a pedir claridad y precisión a sus deseos... Pero ya no eran tristezas místicas, ansiedades de filósofo atado a un teólogo lo que le angustiaba y producía aquel dulce dolor que parecía una perezosa dilatación de las fibras más hondas...». La sonrisa de la Regenta se le presentó unida a la boca, a las mejillas, a los ojos que la dieran vida... y recordó una a una todas las veces que le había sonreído. En los libros aquello se llamaba estar enamorado platónicamente; pero él no creía en palabras. No; estaba seguro que aquello no era amor. El mundo entero, y su madre con todo el mundo, pensaban groseramente al calificar de pecaminosa aquella amistad inocente. ¡Si sabría él lo que era bueno y lo que era malo! Su madre le quería mucho, a ella se lo debía todo, ya se sabe, pero... no sabía ella sentir con suavidad, no entendía de afectos finos, sublimes... había que perdonarla. Sí, pero él necesitaba amor más blando que el de doña Paula... más íntimo, de más fácil comunión por razón de la edad, de la educación, de los gustos... Él, aunque viviera con su madre querida, no tenía hogar, hogar suyo, y eso debía ser la dicha suprema de las almas serias, de las almas que pretendían merecer el nombre de grandes. Le faltaba compañía en el mundo; era indudable.</p>
 					<p>De una casa de la misma calle, por un balcón abierto, salían las notas dulces, lánguidas, perezosas de un violín que tocaban manos expertas. Se trataba de motivos del tercer acto del <seg rend="italic">Fausto</seg>. El Magistral no conocía la música, no podía asociarla a las escenas a que correspondía, pero comprendía que se hablaba de amor. El oír con deleite, como oía, aquella música insinuante, ya era molicie, ya era placer sensual, peligroso: pero... ¡decía tan bien aquel violín las cosas raras que estaba sintiendo él!</p>
 					<p>De repente se acordó de sus treinta y cinco años, de la vida estéril que había tenido, fecunda sólo en sobresaltos y remordimientos, cada vez menos punzantes, pero más soporíferos para el espíritu. Se tuvo una lástima tiernísima; y mientras el violín gemía diciendo a su modo:</p>
-					<lg>
+					<lg ana="poem">
 						<l><seg rend="italic">Al palido chiaror</seg></l>
 						<l><seg rend="italic">che vien degli astri d'or</seg></l>
 						<l><seg rend="italic">dami ancor contemplar il tuo viso...</seg></l>

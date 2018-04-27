@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="viaf"></idno></title>
 				<author>
+					<idno type="bne">XX1028454</idno>
 					<idno type="viaf">35252653</idno>
 					<name type="short">Picon</name>
 					<name type="full">Jacinto Octavio Picón</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">353</measure>
-				<measure unit="divs">16</measure>
-				<measure unit="words">30663</measure>
-				<measure unit="chars">179811</measure>
-				<measure unit="size_kb">189</measure>
+				<measure unit="lines">371</measure>
+				<measure unit="divs">19</measure>
+				<measure unit="tokens">30732</measure>
+				<measure unit="chars">180234</measure>
+				<measure unit="size_kb">190</measure>
 
 				<measure unit="chapters">16</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">305</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">16</measure> 
+				<measure unit="blocks">312</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
+				<measure unit="heads">17</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">288</measure> 
-				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">45</measure> 
-				<measure unit="numbers">0</measure> 
-				<measure unit="puncts">4252</measure>
+				<measure unit="paragraphs">293</measure> 
+				<measure unit="abs">2</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">44</measure>
+				<measure unit="saids">60</measure>
+				<measure unit="narrative.ps">249</measure>
+				<measure unit="ss">927</measure> 
+				<measure unit="numbers">4</measure> 
+				<measure unit="puncts">4271</measure> 
+				<measure unit="len.abstract">200</measure>
+
+				<measure unit="types">7193</measure>
+
+				<measure unit="ss">856</measure>
+				<measure unit="ss.len.mean">215.1355140186916</measure>
+				<measure unit="ss.len.std">141.70043876513267</measure>
+				<measure unit="mean.ss.active.verbs">3.003504672897196</measure>
+				<measure unit="std.ss.active.verbs">2.1909407482010317</measure>
+
+				<measure unit="ws">35331</measure>
+				<measure unit="ws.len.mean">4.2365344881265745</measure>
+				<measure unit="ws.len.std">2.98392417715748</measure>
+
+				<measure unit="conjunctions">2082</measure>
+				<measure unit="determiners">5549</measure>
+				<measure unit="nouns">7184</measure>
+				<measure unit="verbs">5355</measure>
+				<measure unit="adverbs">1335</measure>
+				<measure unit="adjectives">1942</measure>
+				<measure unit="adpositions">5004</measure>
+				<measure unit="punctuations">4164</measure>
+				<measure unit="pronouns">2628</measure>
+				<measure unit="dates">5</measure>
+				<measure unit="numbers">77</measure>
+				<measure unit="interjections">6</measure>
+
+				<measure unit="ne.persons">296</measure>
+				<measure unit="ne.organizations">39</measure>
+				<measure unit="ne.locations">104</measure>
+				<measure unit="ne.others">23</measure>
+
+				<measure unit="wnlex.noun.plants">69</measure>
+				<measure unit="wnlex.verb.communications">402</measure>
+				<measure unit="wnlex.noun.foods">51</measure>
+				<measure unit="wnlex.verb.possessions">227</measure>
+				<measure unit="wnlex.verb.cognitions">347</measure>
+				<measure unit="wnlex.noun.communications">456</measure>
+				<measure unit="wnlex.noun.states">275</measure>
+				<measure unit="wnlex.verb.statives">1207</measure>
+				<measure unit="wnlex.noun.cognitions">555</measure>
+				<measure unit="wnlex.noun.times">256</measure>
+				<measure unit="wnlex.verb.bodys">206</measure>
+				<measure unit="wnlex.noun.persons">925</measure>
+				<measure unit="wnlex.adj.alls">1465</measure>
+				<measure unit="wnlex.noun.quantitys">17</measure>
+				<measure unit="wnlex.noun.phenomenons">81</measure>
+				<measure unit="wnlex.verb.creations">249</measure>
+				<measure unit="wnlex.adj.perts">36</measure>
+				<measure unit="wnlex.adv.alls">462</measure>
+				<measure unit="wnlex.noun.processs">17</measure>
+				<measure unit="wnlex.noun.artifacts">826</measure>
+				<measure unit="wnlex.verb.perceptions">248</measure>
+				<measure unit="wnlex.noun.feelings">236</measure>
+				<measure unit="wnlex.verb.weathers">35</measure>
+				<measure unit="wnlex.noun.substances">133</measure>
+				<measure unit="wnlex.noun.shapes">31</measure>
+				<measure unit="wnlex.verb.competitions">41</measure>
+				<measure unit="wnlex.verb.motions">423</measure>
+				<measure unit="wnlex.noun.animals">74</measure>
+				<measure unit="wnlex.noun.acts">548</measure>
+				<measure unit="wnlex.noun.bodys">249</measure>
+				<measure unit="wnlex.noun.objects">132</measure>
+				<measure unit="wnlex.noun.motives">18</measure>
+				<measure unit="wnlex.verb.socials">363</measure>
+				<measure unit="wnlex.noun.groups">210</measure>
+				<measure unit="wnlex.verb.consumptions">56</measure>
+				<measure unit="wnlex.noun.possessions">46</measure>
+				<measure unit="wnlex.noun.Topss">112</measure>
+				<measure unit="wnlex.noun.relations">3</measure>
+				<measure unit="wnlex.noun.attributes">493</measure>
+				<measure unit="wnlex.verb.emotions">159</measure>
+				<measure unit="wnlex.noun.locations">192</measure>
+				<measure unit="wnlex.noun.events">129</measure>
+				<measure unit="wnlex.verb.contacts">320</measure>
+				<measure unit="wnlex.xxxs">22649</measure>
+				<measure unit="wnlex.verb.changes">302</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -63,56 +147,60 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="low">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">spiritual</term>
-					<term type="subgenre" subtype="2">realist</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">naturalist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">spiritual</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">realist</term>
 					
-					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
-					<term type="subgenre-lithist" subtype="1">novela anticlerical</term>
-					<term type="subgenre-lithist" subtype="1">novela realista</term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="protagonist-gender" >male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1852</term>
-					<term type="author-date-death">1923</term>
-					<term type="author-TOC-range" resp="MdL7">6</term>
-					<term type="author-histlit-pages" resp="MdL7">12</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="2">novela naturalista</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="1">novela anticlerical</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="1">novela realista</term>
+					<term type="genre.subtitle"></term>
+					<term type="narration.narrator">heterodiegetic</term>
+					<term type="characters.protagonist.gender" >male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1852</term>
+					<term type="author.date.death">1923</term>
+					<term type="author.TOC.range" resp="MdL7">6</term>
+					<term type="author.litHist.pages" resp="MdL7">12</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
-					<term type="setting">rural</term>
+					<term type="setting.type">rural</term>
 
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">unknown</term>
-					<term type="setting-territory">?</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">unknown</term>
+					<term type="setting.name">unknown</term>
+					<term type="setting.territory">?</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Lázaro</term>
-					<term type="protagonist-profession">religious</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text"></term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Lázaro</term>
+					<term type="characters.protagonist.profession">religious</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="low">365</term>
+					<term type="authorText.group"></term>
 					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end">partial negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
-					
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">young</term>
+					<term type="plot.end">partial negative</term>
+					<term type="text.movement">naturalista</term>
+					<term type="reception.ToC">1</term>
+					<term type="reception.pages" resp="MdLE7">0.2</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">False</term>
+					<term type="reception.mentioned" resp="HdLE">False</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

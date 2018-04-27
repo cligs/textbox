@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="viaf">309272320</idno></title>
 				<author>
+					<idno type="bne">XX918093</idno>
 					<idno type="viaf">46770556</idno>
 					<name type="short">Valera</name>
 					<name type="full">Juan Valera</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">812</measure>
-				<measure unit="divs">32</measure>
-				<measure unit="words">53063</measure>
-				<measure unit="chars">302151</measure>
-				<measure unit="size_kb">323</measure>
+				<measure unit="lines">830</measure>
+				<measure unit="divs">34</measure>
+				<measure unit="tokens">53082</measure>
+				<measure unit="chars">302457</measure>
+				<measure unit="size_kb">324</measure>
 
 				<measure unit="chapters">30</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">2</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">702</measure> 
-				<measure unit="line_verses">7</measure> 
+				<measure unit="blocks">707</measure> 
+				<measure unit="lg.poems">3</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">9</measure> 
 				<measure unit="heads">30</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">665</measure> 
-				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">2</measure>
-				<measure unit="paragraphs_ds">78</measure> 
+				<measure unit="paragraphs">666</measure> 
+				<measure unit="abs">2</measure> 
+				<measure unit="fts">2</measure>
+				<measure unit="paragraphs.ds">78</measure>
+				<measure unit="saids">98</measure>
+				<measure unit="narrative.ps">588</measure>
+				<measure unit="ss">2019</measure> 
 				<measure unit="numbers">14</measure> 
-				<measure unit="puncts">7149</measure>
+				<measure unit="puncts">7018</measure> 
+				<measure unit="len.abstract">1337</measure>
+
+				<measure unit="types">9817</measure>
+
+				<measure unit="ss">1943</measure>
+				<measure unit="ss.len.mean">158.4318064848173</measure>
+				<measure unit="ss.len.std">118.65264075522288</measure>
+				<measure unit="mean.ss.active.verbs">2.3983530622748326</measure>
+				<measure unit="std.ss.active.verbs">1.8855130357620045</measure>
+
+				<measure unit="ws">59765</measure>
+				<measure unit="ws.len.mean">4.1832343344767</measure>
+				<measure unit="ws.len.std">3.048755770978955</measure>
+
+				<measure unit="conjunctions">5342</measure>
+				<measure unit="determiners">7093</measure>
+				<measure unit="nouns">10442</measure>
+				<measure unit="verbs">9514</measure>
+				<measure unit="adverbs">3240</measure>
+				<measure unit="adjectives">3688</measure>
+				<measure unit="adpositions">8022</measure>
+				<measure unit="punctuations">6863</measure>
+				<measure unit="pronouns">5307</measure>
+				<measure unit="dates">11</measure>
+				<measure unit="numbers">231</measure>
+				<measure unit="interjections">12</measure>
+
+				<measure unit="ne.persons">953</measure>
+				<measure unit="ne.organizations">240</measure>
+				<measure unit="ne.locations">451</measure>
+				<measure unit="ne.others">64</measure>
+
+				<measure unit="wnlex.noun.plants">67</measure>
+				<measure unit="wnlex.verb.communications">816</measure>
+				<measure unit="wnlex.noun.foods">76</measure>
+				<measure unit="wnlex.verb.possessions">534</measure>
+				<measure unit="wnlex.verb.cognitions">578</measure>
+				<measure unit="wnlex.noun.communications">700</measure>
+				<measure unit="wnlex.noun.states">461</measure>
+				<measure unit="wnlex.verb.statives">2446</measure>
+				<measure unit="wnlex.noun.cognitions">755</measure>
+				<measure unit="wnlex.noun.times">312</measure>
+				<measure unit="wnlex.verb.bodys">409</measure>
+				<measure unit="wnlex.noun.persons">1107</measure>
+				<measure unit="wnlex.adj.alls">2519</measure>
+				<measure unit="wnlex.noun.quantitys">23</measure>
+				<measure unit="wnlex.noun.phenomenons">88</measure>
+				<measure unit="wnlex.verb.creations">489</measure>
+				<measure unit="wnlex.adj.perts">168</measure>
+				<measure unit="wnlex.adv.alls">1227</measure>
+				<measure unit="wnlex.noun.processs">14</measure>
+				<measure unit="wnlex.noun.artifacts">575</measure>
+				<measure unit="wnlex.verb.perceptions">267</measure>
+				<measure unit="wnlex.noun.feelings">361</measure>
+				<measure unit="wnlex.verb.weathers">22</measure>
+				<measure unit="wnlex.noun.substances">71</measure>
+				<measure unit="wnlex.noun.shapes">22</measure>
+				<measure unit="wnlex.verb.competitions">76</measure>
+				<measure unit="wnlex.verb.motions">496</measure>
+				<measure unit="wnlex.noun.animals">66</measure>
+				<measure unit="wnlex.noun.acts">670</measure>
+				<measure unit="wnlex.noun.bodys">198</measure>
+				<measure unit="wnlex.noun.objects">194</measure>
+				<measure unit="wnlex.noun.motives">15</measure>
+				<measure unit="wnlex.verb.socials">758</measure>
+				<measure unit="wnlex.noun.groups">251</measure>
+				<measure unit="wnlex.verb.consumptions">85</measure>
+				<measure unit="wnlex.noun.possessions">129</measure>
+				<measure unit="wnlex.noun.Topss">247</measure>
+				<measure unit="wnlex.noun.relations">19</measure>
+				<measure unit="wnlex.noun.attributes">725</measure>
+				<measure unit="wnlex.verb.emotions">411</measure>
+				<measure unit="wnlex.noun.locations">275</measure>
+				<measure unit="wnlex.noun.events">244</measure>
+				<measure unit="wnlex.verb.contacts">343</measure>
+				<measure unit="wnlex.xxxs">39994</measure>
+				<measure unit="wnlex.verb.changes">462</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -63,55 +147,59 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="2">bildungsroman</term>
-					<term type="subgenre" subtype="1">memoir</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre-lithist" subtype="2">novela realista</term>
-					<term type="narrative-perspective">mixed</term><!--Three narrators: author, lover and protagonist-->
-					<term type="setting">big-city</term><!--Rio de Janeiro and París-->
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1824</term>
-					<term type="author-date-death">1905</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">63</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subtitle"></term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">realist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">bildungsroman</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">memoir</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">naturalist</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="2">novela realista</term>
+					<term type="narration.narrator">mixed</term><!--Three narrators: author, lover and protagonist-->
+					<term type="setting.type">big-city</term><!--Rio de Janeiro and París-->
+					<term type="characters.protagonist.gender">female</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1824</term>
+					<term type="author.date.death">1905</term>
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.litHist.pages" resp="MdL7">63</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
 
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">mixed</term><!--Rio de Janeiro and París-->
-					<term type="setting-territory">mixed</term>
-					<term type="setting-country">mixed</term><!--Brazil and France-->
-					<term type="setting-continent">mixed</term><!--America and Europe-->
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">mixed</term>
+					<term type="setting.name">mixed</term><!--Rio de Janeiro and París-->
+					<term type="setting.territory">mixed</term>
+					<term type="setting.country">mixed</term><!--Brazil and France-->
+					<term type="setting.continent">mixed</term><!--America and Europe-->
 
-					<term type="representation">realistic</term>
-					<term type="protagonist-profession">housewife</term>
-					<term type="protagonist-name">Rafaela de Figueredo</term>
-					<term type="protagonist-social-level">high</term><!--Poor at the beginning, but very high in the majority of the text-->
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="medium" resp="#jct">10950</term>
-					<term type="group-text"></term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.profession">housewife</term>
+					<term type="characters.protagonist.name">Rafaela de Figueredo</term>
+					<term type="characters.protagonist.socLevel">high</term><!--Poor at the beginning, but very high in the majority of the text-->
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="medium" resp="#jct">10950</term>
+					<term type="authorText.group"></term>
 					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">2.0</term>
-					<term type="text-TOC-range">5</term>
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">young</term>
+					<term type="plot.end">negative</term>
+					<term type="text.movement">naturalista</term>
+					<term type="reception.ToC">5</term>
+					<term type="reception.pages" resp="MdLE7">2.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -123,7 +211,7 @@
 	<text>
 		<front>
 			<div>
-				<lg>
+				<lg ana="poem">
 					<l>
 						<seg rend="italic">Medio de fonte leporum</seg>
 					</l>
@@ -457,7 +545,7 @@
 
 				<p>Ella no recibía entonces, ni salía de casa; pero <seg rend="italic">Madame</seg> Duval era perseguida y detenida por Pedro Lobo, y ora por su medio, ora imprudentemente, valiéndose de un criado cualquiera, Pedro Lobo la inquietaba y la atormentaba con cartas pidiéndole, casi exigiéndole una cita.</p>
 				<p>A las cuatro primeras cartas, dos al día, nada contestó Rafaela. A la quinta, en la mañana del día tercero, Rafaela se puso fuera de sí, perdió toda su circunspección, desechó recelos, resolvió arrostrar cualquier peligro que sobreviniese y contestó al gaucho, sin rasgar el papel, aunque bien pudiera decirse, citando el antiguo romance, que le escribió:</p>
-				<lg>
+				<lg ana="poem">
 					<l> Con tanta cólera y rabia,</l>
 					<l>que donde pone la pluma</l>
 					<l>el delgado papel rasga.</l>
@@ -515,7 +603,7 @@
 				<p>-Vais -le dijo, yo supongo que dirigiéndose a la Stolz-, a mostraros a hombres de poco arte y de menos literatura, que os comprenderán mal, que os mirarán con el asombro que se mira una ternera de cinco patas, que verán en vos un ser extravagante y estruendoso, y no la artista infinitamente seductora; y que no reconocerán vuestro talento sino porque les costará caro el oíros».</p>
 				<p>Para remachar el clavo con que el crítico hería el orgullo de la América latina, como ahora se dice, había en el artículo algunas amonestaciones a la artista, a fin de que no se dejase enternecer por las ardientes adoraciones de los entusiastas americanos, a quienes el articulista calificaba de sensuales y de candorosos, y que, inflamados de amor, irían a ponerse de hinojos ante ella.</p>
 				<p>Este arranque de la <seg rend="italic">outrecuidance</seg> parisina enojó en extremo a los brasileños más patriotas, faltando poco para que no le produjese a la Stolz el amargo fruto de una silba. Por fortuna la filarmonía pudo más en esta ocasión que el patriotismo vidrioso, y la Stolz fue aplaudida frenéticamente, y llevada a su casa en triunfo, con música, antorchas y faroles encendidos. Hubo, no obstante, algún poeta satírico y avinagrado, que se vengó en la Stolz de la insolencia del crítico francés, y todavía conservo yo en la memoria algo de una graciosísima sátira que le compuso, donde después de afirmar que la artista era un desecho del viejo mundo y ella también vieja, justifica irónicamente los aplausos que le han dado con razones y comparaciones como las contenidas en los siguientes versos:</p>
-				<lg>
+				<lg ana="poem">
 					<l> <seg rend="italic">Um velho poema de capa extragada</seg></l>
 					<l><seg rend="italic">Nao perde por isso o interno valor,</seg></l>
 					<l><seg rend="italic">E a veces de baixo da pranta pisada</seg></l>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="viaf"></idno></title>
 				<author>
+					<idno type="bne">XX1028454</idno>
 					<idno type="viaf">35252653</idno>
 					<name type="short">Picon</name>
 					<name type="full">Jacinto Octavio Picón</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">505</measure>
-				<measure unit="divs">15</measure>
-				<measure unit="words">31476</measure>
-				<measure unit="chars">181632</measure>
-				<measure unit="size_kb">195</measure>
+				<measure unit="lines">512</measure>
+				<measure unit="divs">16</measure>
+				<measure unit="tokens">31478</measure>
+				<measure unit="chars">181665</measure>
+				<measure unit="size_kb">196</measure>
 
 				<measure unit="chapters">14</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">454</measure> 
-				<measure unit="line_verses">13</measure> 
+				<measure unit="blocks">456</measure> 
+				<measure unit="lg.poems">3</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">13</measure> 
 				<measure unit="heads">14</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">426</measure> 
+				<measure unit="paragraphs">428</measure> 
 				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">189</measure> 
-				<measure unit="numbers">21</measure> 
-				<measure unit="puncts">6142</measure>
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">187</measure>
+				<measure unit="saids">218</measure>
+				<measure unit="narrative.ps">241</measure>
+				<measure unit="ss">1380</measure> 
+				<measure unit="numbers">22</measure> 
+				<measure unit="puncts">6141</measure> 
+				<measure unit="len.abstract">161</measure>
+
+				<measure unit="types">6772</measure>
+
+				<measure unit="ss">1070</measure>
+				<measure unit="ss.len.mean">174.9271028037383</measure>
+				<measure unit="ss.len.std">159.56205927715126</measure>
+				<measure unit="mean.ss.active.verbs">2.869158878504673</measure>
+				<measure unit="std.ss.active.verbs">2.714392626334261</measure>
+
+				<measure unit="ws">37536</measure>
+				<measure unit="ws.len.mean">4.014972293265132</measure>
+				<measure unit="ws.len.std">2.8867586623547017</measure>
+
+				<measure unit="conjunctions">2209</measure>
+				<measure unit="determiners">5011</measure>
+				<measure unit="nouns">6720</measure>
+				<measure unit="verbs">6014</measure>
+				<measure unit="adverbs">1910</measure>
+				<measure unit="adjectives">1745</measure>
+				<measure unit="adpositions">4784</measure>
+				<measure unit="punctuations">5663</measure>
+				<measure unit="pronouns">3249</measure>
+				<measure unit="dates">12</measure>
+				<measure unit="numbers">164</measure>
+				<measure unit="interjections">55</measure>
+
+				<measure unit="ne.persons">452</measure>
+				<measure unit="ne.organizations">76</measure>
+				<measure unit="ne.locations">147</measure>
+				<measure unit="ne.others">25</measure>
+
+				<measure unit="wnlex.noun.plants">44</measure>
+				<measure unit="wnlex.verb.communications">510</measure>
+				<measure unit="wnlex.noun.foods">63</measure>
+				<measure unit="wnlex.verb.possessions">251</measure>
+				<measure unit="wnlex.verb.cognitions">371</measure>
+				<measure unit="wnlex.noun.communications">662</measure>
+				<measure unit="wnlex.noun.states">240</measure>
+				<measure unit="wnlex.verb.statives">1502</measure>
+				<measure unit="wnlex.noun.cognitions">443</measure>
+				<measure unit="wnlex.noun.times">355</measure>
+				<measure unit="wnlex.verb.bodys">229</measure>
+				<measure unit="wnlex.noun.persons">874</measure>
+				<measure unit="wnlex.adj.alls">1281</measure>
+				<measure unit="wnlex.noun.quantitys">46</measure>
+				<measure unit="wnlex.noun.phenomenons">46</measure>
+				<measure unit="wnlex.verb.creations">351</measure>
+				<measure unit="wnlex.adj.perts">70</measure>
+				<measure unit="wnlex.adv.alls">682</measure>
+				<measure unit="wnlex.noun.processs">11</measure>
+				<measure unit="wnlex.noun.artifacts">762</measure>
+				<measure unit="wnlex.verb.perceptions">240</measure>
+				<measure unit="wnlex.noun.feelings">176</measure>
+				<measure unit="wnlex.verb.weathers">26</measure>
+				<measure unit="wnlex.noun.substances">62</measure>
+				<measure unit="wnlex.noun.shapes">10</measure>
+				<measure unit="wnlex.verb.competitions">27</measure>
+				<measure unit="wnlex.verb.motions">545</measure>
+				<measure unit="wnlex.noun.animals">57</measure>
+				<measure unit="wnlex.noun.acts">498</measure>
+				<measure unit="wnlex.noun.bodys">174</measure>
+				<measure unit="wnlex.noun.objects">51</measure>
+				<measure unit="wnlex.noun.motives">7</measure>
+				<measure unit="wnlex.verb.socials">351</measure>
+				<measure unit="wnlex.noun.groups">251</measure>
+				<measure unit="wnlex.verb.consumptions">50</measure>
+				<measure unit="wnlex.noun.possessions">61</measure>
+				<measure unit="wnlex.noun.Topss">90</measure>
+				<measure unit="wnlex.noun.relations">6</measure>
+				<measure unit="wnlex.noun.attributes">326</measure>
+				<measure unit="wnlex.verb.emotions">186</measure>
+				<measure unit="wnlex.noun.locations">139</measure>
+				<measure unit="wnlex.noun.events">177</measure>
+				<measure unit="wnlex.verb.contacts">265</measure>
+				<measure unit="wnlex.xxxs">24646</measure>
+				<measure unit="wnlex.verb.changes">322</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -63,55 +147,59 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="low">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="1">comedy</term>
-					<term type="subgenre" subtype="2">bildungsroman</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">realist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">comedy</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">bildungsroman</term>
 
-					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="1">novela naturalista</term>
-					<term type="subgenre-lithist" cert="low" resp="#jct" subtype="2">novela realista</term>
-					<term type="genre-label"></term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1852</term>
-					<term type="author-date-death">1923</term>
-					<term type="author-TOC-range" resp="MdL7">6</term>
-					<term type="author-histlit-pages" resp="MdL7">12</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" cert="low" subtype="1">novela naturalista</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" cert="low" subtype="2">novela realista</term>
+					<term type="genre.subtitle"></term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1852</term>
+					<term type="author.date.death">1923</term>
+					<term type="author.TOC.range" resp="MdL7">6</term>
+					<term type="author.litHist.pages" resp="MdL7">12</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="low" resp="#jct">big-city</term>
-					<term type="protagonist-gender" cert="low" resp="#jct">male</term>
+					<term type="narration.narrator" cert="low" resp="#jct">heterodiegetic</term>
+					<term type="setting.type" cert="low" resp="#jct">big-city</term>
+					<term type="characters.protagonist.gender" cert="low" resp="#jct">male</term>
 					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Madrid</term>
-					<term type="setting-territory">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Madrid</term>
+					<term type="setting.name">Madrid</term>
+					<term type="setting.territory">Castilla</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Juan Vulgar</term>
-					<term type="protagonist-profession">student</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="medium">4745</term>
-					<term type="group-text"></term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Juan Vulgar</term>
+					<term type="characters.protagonist.profession">student</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="medium">4745</term>
+					<term type="authorText.group"></term>
 					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end" cert="low">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
-					
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">young</term>
+					<term type="plot.end" cert="low">negative</term>
+					<term type="text.movement">naturalista</term>
+					<term type="reception.ToC">1</term>
+					<term type="reception.pages" resp="MdLE7">0.2</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">False</term>
+					<term type="reception.mentioned" resp="HdLE">False</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -157,7 +245,7 @@
 				<p>-Dame otro beso.</p>
 				<p>Un instante después quedó sola, mirando cómo a lo lejos iba él todavía volviendo la cabeza. Luego, el bulto formado por la bestia y el jinete fue haciéndose con la distancia cada vez más pequeño hasta que al fin desapareció tras el declive de una cuesta.</p>
 				<p>Volvióse ella triste y acongojada hacia el lugar, pero andando de prisa, porque no chocara su tardanza; y aquella tarde, para ocultar su pena, mientras tendía en el corral de su casa unas ropas recién lavadas, cantó las mismas coplas que cantaba cuando sabía que él pasaba ante su puerta.</p>
-				<lg>
+				<lg ana="poem">
 					<l> Tú eres mi dueño querido,</l>
 					<l> No lo llegues a olvidar,</l>
 					<l> Que tus hijos y los míos</l>
@@ -450,7 +538,7 @@
 				<p>Otra manifestación de su melancolía fue la afición que en él se desarrolló a paseos largos hacia sitios poco frecuentados, optando siempre por los más solitarios. En un par de meses anduvo tanto como en todo el resto de su vida; ni las excursiones de cuando era estudiante y faltaba a clase podían compararse con las caminatas que emprendía. Unas tardes, al salir del ministerio, bajaba por la calle de los Reyes, el paseo de San Vicente, la Virgen del Puerto, las rondas de Toledo y de Segovia y volvía a entrar en Madrid por el portillo de Embajadores, atravesando calles y más calles hasta la del Nao, donde vivía: otras veces tomaba hacia los barrios altos, y por la plaza de Monteleón iba a dar con sus huesos en Chamberí para salir cerca del barrio de Salamanca, y durante todo el camino, a no ser que se distrajese con lo que hallaba al paso, iba saboreando su pasión de ánimo.</p>
 				<p>En un principio, estas expediciones le dejaban rendido; luego adquirió poco a poco una agilidad y una fuerza semejantes a las que gozó de muchacho; y últimamente se le desarrollaron unas ganas de comer, que aterraban a la patrona. Al salir del ministerio, andaba despacio y muy triste; pero al tornar a casa iba como disparado y con un hambre voraz. Por entonces, las noches de la Maritornes fueron bastante agitadas, y el retrato de María se quedó en la cómoda sin recibir los besos de costumbre, resultando de todo ello que entre los paseos, el apetito, y las amorosas condescendencias de la criada, fue Juan transigiendo lentamente con su dolor, de suerte que el recuerdo de la perjura sufrió una transformación notabilísima. En la época de las entrevistas del cafetín, María había sido para él una promesa embriagadora, una mezcla de Ofelia y Dulcinea; después una mujer traidora por debilidad en la cual pensaba, según su fraseología, con <seg rend="italic">amoroso rencor; </seg>ahora era ya un recuerdo dulcísimo, un imposible para la realidad, una negación para la esperanza; pero tan querida, tan adorable, que en el amor que creía profesarla había algo de simbólico y emblemático. La amaba en espíritu como quien aspira a un ideal, con absoluta abstracción de los sentidos. Tanto se transformó su pasión, que sólo la recordaba cuando algo independiente de la voluntad se la traía a la memoria: ya las cartas arrugadas y partidas por los dobleces, que andaban traspapeladas en el cajón de la mesa; ya el retrato que surgía de pronto entre los guantes viejos, suscitando una evocación de lo pasado. Pero lo que con más frecuencia le hacía pensar en ella era lo atrasado de pagos que estaba con el sastre desde la temporada de las entrevistas en el café, porque como tenía que entregar al industrial, a cuenta de cuentas, cinco, duros mensuales, cada vez que el cobrador se presentaba con el recibo, el pobre soñador no podía menos de exclamar: «¡Parece increíble a qué abismos arrastra la pasión! El amor de una mujer basta para ocasionar la ruina de un hombre.¡Todo un drama!»</p>
 				<p>La primera vez que se le ocurrieron estas reflexiones, la palabra <seg rend="italic">drama</seg> quedó grabada en su imaginación. «Sí, señor, todo un drama, -se dijo-, un drama muy hermoso. ¿Por qué no? ¿Ha de escribirlo alguien mejor que quien lo ha sentido?» Desde entonces la palabreja fatal fue enseñoreándose de su fantasía como una mancha que se extiende por un cuerpo poroso. «¿Qué duda cabe? -se repetía- un drama interesantísimo. La dificultad está en el desarrollo; pero, fuera de esto, la obra está hecha, no hay más que escribirla, lo cual para mí es cuestión de unas cuantas semanas. Claro que es necesario abultar las cosas. El padre... la inglesa... <seg rend="italic">ella</seg>... su madre... el otro y yo; sobre todo yo, ¡qué gran tipo! Es decir, el hombre que lucha con la fatalidad, y en cuyo corazón, triturado por el dolor, queda siempre un rayo de esperanza, una aspiración indefinible. María será la mujer sacrificada a la vanidad paterna y a las preocupaciones sociales. La inglesa será el tipo cómico de la obra. Lo que siento es no poder presentar en la escena todo aquello del café; ¡qué lástima!; pero sería feo. El padre, muy odioso; ella, una víctima; el otro, un pillo... en el final del segundo acto, una situación que ponga los pelos como alambres, y luego la muerte de ella, o la mía, o la de los dos, echando demonios y maldiciones por la boca, porque hace falta algo muy vigoroso. ¡Vaya un drama! Si me atreviere, lo escribiría en verso. ¿Y por qué no? ¡Apenas he leído yo dramas antiguos y visto dramones modernos! El final del segundo acto debe ser el momento en que ella, dominada, tiranizada por su padre, me escribe la carta diciendo que todo acabó entre nosotros... Están en un gran baile, y el viejo la sienta por fuerza ante una mesa donde hay recado de escribir; luego ella, después de firmar, con las lágrimas en los ojos, contempla un instante la pluma y la arroja lejos de sí, diciendo:</p>
-				<lg>
+				<lg ana="poem">
 					<l> ¡Se consumó el hecho grave!</l>
 					<l> ¿Quién hubiera dicho al ave</l>
 					<l> que en sus alas te ostentó,</l>
@@ -458,7 +546,7 @@
 					<l> ¡Misterio que Dios no sabe!</l>
 				</lg>
 				<p>¡Buena quintilla! Lo malo es que hoy no se escribe con plumas de ave; pero ya procuraremos justificar esto. Con hacer que el padre sea un señor chapado a la antigua, basta: sí, eso es, un hombre que hable de las tradiciones venerandas y tenga horror al telégrafo y las plumas de acero ¡Vaya un dramita que va a salir! De cuando en cuando un golpe de mucho efecto. Al saber él que ella le deja, puede decir, mirando al cielo cuando anochezca:</p>
-				<lg>
+				<lg ana="poem">
 					<l> Hace horrible mi dolor</l>
 					<l> del sol la triste agonía;</l>
 					<l> ¡arriba, luz y alegría!</l>

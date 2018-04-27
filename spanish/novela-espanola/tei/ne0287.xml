@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -11,6 +12,7 @@
 					<idno type="bne">XX2592013</idno>
 				</title>
 				<author>
+					<idno type="bne">XX952949</idno>
 					<idno type="viaf">24624818</idno>
 					<name type="short">Lanza</name>
 					<name type="full">Silverio Lanza</name>
@@ -18,28 +20,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">548</measure>
-				<measure unit="divs">6</measure>
-				<measure unit="words">18825</measure>
-				<measure unit="chars">112502</measure>
-				<measure unit="size_kb">162</measure>
+				<measure unit="lines">759</measure>
+				<measure unit="divs">13</measure>
+				<measure unit="tokens">24124</measure>
+				<measure unit="chars">144067</measure>
+				<measure unit="size_kb">163</measure>
 
-				<measure unit="chapters">6</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="chapters">8</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">523</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">6</measure> 
+				<measure unit="blocks">697</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">4</measure> 
+				<measure unit="heads">11</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">516</measure> 
-				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">196</measure> 
-				<measure unit="numbers">24</measure> 
-				<measure unit="puncts">3195</measure>
+				<measure unit="paragraphs">678</measure> 
+				<measure unit="abs">4</measure> 
+				<measure unit="fts">2</measure>
+				<measure unit="paragraphs.ds">228</measure>
+				<measure unit="saids">234</measure>
+				<measure unit="narrative.ps">450</measure>
+				<measure unit="ss">1404</measure> 
+				<measure unit="numbers">26</measure> 
+				<measure unit="puncts">4000</measure> 
+				<measure unit="len.abstract">1406</measure>
+
+				<measure unit="types">4842</measure>
+
+				<measure unit="ss">769</measure>
+				<measure unit="ss.len.mean">149.4694408322497</measure>
+				<measure unit="ss.len.std">135.54487417564712</measure>
+				<measure unit="mean.ss.active.verbs">2.4174252275682706</measure>
+				<measure unit="std.ss.active.verbs">2.194391272871203</measure>
+
+				<measure unit="ws">21759</measure>
+				<measure unit="ws.len.mean">4.31784548922285</measure>
+				<measure unit="ws.len.std">3.300350032313797</measure>
+
+				<measure unit="conjunctions">1509</measure>
+				<measure unit="determiners">3291</measure>
+				<measure unit="nouns">4454</measure>
+				<measure unit="verbs">3331</measure>
+				<measure unit="adverbs">912</measure>
+				<measure unit="adjectives">1170</measure>
+				<measure unit="adpositions">2517</measure>
+				<measure unit="punctuations">2995</measure>
+				<measure unit="pronouns">1452</measure>
+				<measure unit="dates">30</measure>
+				<measure unit="numbers">78</measure>
+				<measure unit="interjections">20</measure>
+
+				<measure unit="ne.persons">467</measure>
+				<measure unit="ne.organizations">173</measure>
+				<measure unit="ne.locations">54</measure>
+				<measure unit="ne.others">52</measure>
+
+				<measure unit="wnlex.noun.plants">13</measure>
+				<measure unit="wnlex.verb.communications">387</measure>
+				<measure unit="wnlex.noun.foods">26</measure>
+				<measure unit="wnlex.verb.possessions">176</measure>
+				<measure unit="wnlex.verb.cognitions">230</measure>
+				<measure unit="wnlex.noun.communications">382</measure>
+				<measure unit="wnlex.noun.states">155</measure>
+				<measure unit="wnlex.verb.statives">1010</measure>
+				<measure unit="wnlex.noun.cognitions">244</measure>
+				<measure unit="wnlex.noun.times">132</measure>
+				<measure unit="wnlex.verb.bodys">125</measure>
+				<measure unit="wnlex.noun.persons">779</measure>
+				<measure unit="wnlex.adj.alls">865</measure>
+				<measure unit="wnlex.noun.quantitys">17</measure>
+				<measure unit="wnlex.noun.phenomenons">26</measure>
+				<measure unit="wnlex.verb.creations">209</measure>
+				<measure unit="wnlex.adj.perts">53</measure>
+				<measure unit="wnlex.adv.alls">249</measure>
+				<measure unit="wnlex.noun.processs">9</measure>
+				<measure unit="wnlex.noun.artifacts">262</measure>
+				<measure unit="wnlex.verb.perceptions">60</measure>
+				<measure unit="wnlex.noun.feelings">62</measure>
+				<measure unit="wnlex.verb.weathers">0</measure>
+				<measure unit="wnlex.noun.substances">24</measure>
+				<measure unit="wnlex.noun.shapes">5</measure>
+				<measure unit="wnlex.verb.competitions">51</measure>
+				<measure unit="wnlex.verb.motions">177</measure>
+				<measure unit="wnlex.noun.animals">32</measure>
+				<measure unit="wnlex.noun.acts">403</measure>
+				<measure unit="wnlex.noun.bodys">100</measure>
+				<measure unit="wnlex.noun.objects">43</measure>
+				<measure unit="wnlex.noun.motives">3</measure>
+				<measure unit="wnlex.verb.socials">285</measure>
+				<measure unit="wnlex.noun.groups">285</measure>
+				<measure unit="wnlex.verb.consumptions">22</measure>
+				<measure unit="wnlex.noun.possessions">45</measure>
+				<measure unit="wnlex.noun.Topss">82</measure>
+				<measure unit="wnlex.noun.relations">6</measure>
+				<measure unit="wnlex.noun.attributes">190</measure>
+				<measure unit="wnlex.verb.emotions">83</measure>
+				<measure unit="wnlex.noun.locations">110</measure>
+				<measure unit="wnlex.noun.events">88</measure>
+				<measure unit="wnlex.verb.contacts">102</measure>
+				<measure unit="wnlex.xxxs">13996</measure>
+				<measure unit="wnlex.verb.changes">156</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -66,55 +150,59 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1856</term>
-					<term type="author-date-death">1912</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">13</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">1-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1856</term>
+					<term type="author.date.death">1912</term>
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.litHist.pages" resp="MdL9">13</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.submovement">1-modernista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">moralist</term>
-					<term type="subgenre" subtype="1">political-fiction</term>
-					<term type="subgenre" subtype="2">philosophical</term>
-					<term type="subgenre" subtype="1">historical</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">biografía</term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">big-city</term>
-					<term type="protagonist-gender">male</term>
-					<term type="subgenre-lithist"></term>
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">unknown</term>
-					<term type="setting-territory">unknown</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Nicasio Álvarez</term>
-					<term type="protagonist-profession">politician</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">3650</term>
-					<term type="group-text">primeras novelas</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">partial negative</term>
-					<term type="time-year">18??</term>
-					<term type="subgenre-edit" resp="#"></term>
-					<term type="quality-listhist" resp="#">high</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">0.5</term>
-					<term type="text-TOC-range">2</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">moralist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">political-fiction</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">philosophical</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">historical</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">realist</term>
+					<term type="genre.subtitle">biografía</term>
+					<term type="narration.narrator">homodiegetic</term>
+					<term type="setting.type">big-city</term>
+					<term type="characters.protagonist.gender">male</term>
+					<term type="genre.subgenre.litHist" resp="MdLE"></term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">unknown</term>
+					<term type="setting.name">unknown</term>
+					<term type="setting.territory">unknown</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Nicasio Álvarez</term>
+					<term type="characters.protagonist.profession">politician</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span">3650</term>
+					<term type="authorText.group">primeras novelas</term>
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">partial negative</term>
+					<term type="time.year">18??</term>
+					<term type="genre.subgenre.edit" resp="#"></term>
+					<term type="quality.listhist" resp="#">high</term>
+					<term type="text.movement">modernista</term>
+					<term type="reception.ToC">2</term>
+					<term type="reception.pages" resp="MdLE9">0.5</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">False</term>
+					<term type="reception.mentioned" resp="HdLE">False</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -799,7 +887,7 @@
 				<p>Sería el Marqués del Mantillo el asesino de Nicasio Álvarez; y si no, ¿quién era el Marqués del Mantillo?</p>
 				<p>Es lógico que con los documentos que le acreditaban como nacional voluntario e hijo de una provincia separada, pudo obtener los privilegios de no ser soldado, ni ser molestado en los primeros años de su nacionalidad.</p>
 				<p>Involuntariamente recuerdo aquellos versos de Nicasio Álvarez (?), que traduzco así:</p>
-				<lg>
+				<lg ana="poem">
 					<l>Cuando están movibles mis ojos</l>
 					<l>y sonriente mi boca, es que duerme mi corazón.</l>
 					<l>Si vieses mi corazón llorarías,</l>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"></title>
 				<title type="short">Penas</title>
 				<title type="idno">
-					<idno type="viaf">189374962</idno></title>
+					<idno type="bne">XX2126283</idno>
+					<idno type="viaf">189374962</idno>
+				</title>
 				<author>
+					<idno type="bne">XX982332</idno>
 					<idno type="viaf">54167127</idno>
 					<name type="short">Pereda</name>
 					<name type="full">José María de Pereda</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1524</measure>
-				<measure unit="divs">34</measure>
-				<measure unit="words">134680</measure>
-				<measure unit="chars">750331</measure>
-				<measure unit="size_kb">775</measure>
+				<measure unit="lines">1540</measure>
+				<measure unit="divs">36</measure>
+				<measure unit="tokens">134891</measure>
+				<measure unit="chars">751550</measure>
+				<measure unit="size_kb">776</measure>
 
 				<measure unit="chapters">34</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1445</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">34</measure> 
+				<measure unit="blocks">1452</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">2</measure> 
+				<measure unit="heads">35</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1411</measure> 
+				<measure unit="paragraphs">1415</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">620</measure> 
-				<measure unit="numbers">1</measure> 
-				<measure unit="puncts">22480</measure>
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">620</measure>
+				<measure unit="saids">844</measure>
+				<measure unit="narrative.ps">795</measure>
+				<measure unit="ss">4136</measure> 
+				<measure unit="numbers">2</measure> 
+				<measure unit="puncts">22507</measure> 
+				<measure unit="len.abstract">943</measure>
+
+				<measure unit="types">16672</measure>
+
+				<measure unit="ss">3069</measure>
+				<measure unit="ss.len.mean">251.5881394591072</measure>
+				<measure unit="ss.len.std">230.80175289460715</measure>
+				<measure unit="mean.ss.active.verbs">3.4711632453567938</measure>
+				<measure unit="std.ss.active.verbs">3.1567446527413803</measure>
+
+				<measure unit="ws">156659</measure>
+				<measure unit="ws.len.mean">3.9482825755302917</measure>
+				<measure unit="ws.len.std">2.849955493473344</measure>
+
+				<measure unit="conjunctions">11457</measure>
+				<measure unit="determiners">21315</measure>
+				<measure unit="nouns">26887</measure>
+				<measure unit="verbs">21693</measure>
+				<measure unit="adverbs">8461</measure>
+				<measure unit="adjectives">7446</measure>
+				<measure unit="adpositions">22789</measure>
+				<measure unit="punctuations">20831</measure>
+				<measure unit="pronouns">14983</measure>
+				<measure unit="dates">51</measure>
+				<measure unit="numbers">562</measure>
+				<measure unit="interjections">184</measure>
+
+				<measure unit="ne.persons">1493</measure>
+				<measure unit="ne.organizations">297</measure>
+				<measure unit="ne.locations">647</measure>
+				<measure unit="ne.others">136</measure>
+
+				<measure unit="wnlex.noun.plants">131</measure>
+				<measure unit="wnlex.verb.communications">1718</measure>
+				<measure unit="wnlex.noun.foods">281</measure>
+				<measure unit="wnlex.verb.possessions">877</measure>
+				<measure unit="wnlex.verb.cognitions">1488</measure>
+				<measure unit="wnlex.noun.communications">1429</measure>
+				<measure unit="wnlex.noun.states">803</measure>
+				<measure unit="wnlex.verb.statives">5359</measure>
+				<measure unit="wnlex.noun.cognitions">1439</measure>
+				<measure unit="wnlex.noun.times">883</measure>
+				<measure unit="wnlex.verb.bodys">858</measure>
+				<measure unit="wnlex.noun.persons">2389</measure>
+				<measure unit="wnlex.adj.alls">5014</measure>
+				<measure unit="wnlex.noun.quantitys">127</measure>
+				<measure unit="wnlex.noun.phenomenons">384</measure>
+				<measure unit="wnlex.verb.creations">737</measure>
+				<measure unit="wnlex.adj.perts">136</measure>
+				<measure unit="wnlex.adv.alls">3488</measure>
+				<measure unit="wnlex.noun.processs">50</measure>
+				<measure unit="wnlex.noun.artifacts">2519</measure>
+				<measure unit="wnlex.verb.perceptions">774</measure>
+				<measure unit="wnlex.noun.feelings">489</measure>
+				<measure unit="wnlex.verb.weathers">124</measure>
+				<measure unit="wnlex.noun.substances">321</measure>
+				<measure unit="wnlex.noun.shapes">95</measure>
+				<measure unit="wnlex.verb.competitions">82</measure>
+				<measure unit="wnlex.verb.motions">1938</measure>
+				<measure unit="wnlex.noun.animals">325</measure>
+				<measure unit="wnlex.noun.acts">1652</measure>
+				<measure unit="wnlex.noun.bodys">1114</measure>
+				<measure unit="wnlex.noun.objects">1070</measure>
+				<measure unit="wnlex.noun.motives">66</measure>
+				<measure unit="wnlex.verb.socials">1200</measure>
+				<measure unit="wnlex.noun.groups">944</measure>
+				<measure unit="wnlex.verb.consumptions">289</measure>
+				<measure unit="wnlex.noun.possessions">195</measure>
+				<measure unit="wnlex.noun.Topss">306</measure>
+				<measure unit="wnlex.noun.relations">83</measure>
+				<measure unit="wnlex.noun.attributes">1405</measure>
+				<measure unit="wnlex.verb.emotions">463</measure>
+				<measure unit="wnlex.noun.locations">795</measure>
+				<measure unit="wnlex.noun.events">649</measure>
+				<measure unit="wnlex.verb.contacts">1042</measure>
+				<measure unit="wnlex.xxxs">109842</measure>
+				<measure unit="wnlex.verb.changes">1283</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -64,53 +150,58 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">memoir</term>
-					<term type="subgenre-lithist" subtype="2">novela regionalista</term>
-					<term type="subgenre-lithist" subtype="1">novela realista</term>
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1833</term>
-					<term type="author-date-death">1906</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">55</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subtitle"></term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">realist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">memoir</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="2">novela regionalista</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="1">novela realista</term>
+					<term type="narration.narrator">autodiegetic</term>
+					<term type="setting.type">rural</term>
+					<term type="characters.protagonist.gender">male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1833</term>
+					<term type="author.date.death">1906</term>
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.litHist.pages" resp="MdL7">55</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.year.change">0</term>
 					
 
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Tablanca</term>
-					<term type="setting-territory">Cantabria</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Cantabria</term>
+					<term type="setting.name">Tablanca</term>
+					<term type="setting.territory">Cantabria</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Marcelo Ruiz de Bejos</term>
-					<term type="protagonist-profession">lord</term>
-					<term type="protagonist-social-level">high</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" resp="#jct">365</term>
-					<term type="group-text"></term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Marcelo Ruiz de Bejos</term>
+					<term type="characters.protagonist.profession">lord</term>
+					<term type="characters.protagonist.socLevel">high</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="low" resp="#jct">365</term>
+					<term type="authorText.group"></term>
 					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">positive</term>
-					<term type="text-movement">realista</term>
-					<term type="text-histlit-pages">4.0</term>
-					<term type="text-TOC-range">5</term>
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">positive</term>
+					<term type="text.movement">realista</term>
+					<term type="reception.ToC">5</term>
+					<term type="reception.pages" resp="MdLE7">4.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.edit" resp="epublibre">Drama, Realista</term>
+					<term type="genre.subgenre.litHist" resp="HdLE">novela caciquil</term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -123,7 +214,7 @@
 			<div>
 				<head>Dedicatoria : A la santa memoria de mi hijo Juan Manuel </head>
 				<p>Hacia el último tercio del borrador de este libro, hay una cruz y una fecha entre dos palabras de una cuartilla. Para la ordinaria curiosidad de los hombres, no tendrían aquellos rojos signos gran importancia; y, sin embargo, Dios y yo sabemos que en el mezquino espacio que llenan, cabe el abismo que separa mi presente de mi pasado; Dios sabe también a costa de qué esfuerzos de voluntad se salvaron sus orillas para buscar en las serenas y apacibles regiones del arte, un refugio más contra las tempestades del espíritu acongojado; por qué de qué modo se ha terminado este libro que, quizás, no debió de pasar de aquella triste fecha ni de aquella roja cruz; por qué, en fin, y para qué declaro yo estas cosas desde aquí a esa corta, pero noble, falange de cariñosos lectores que me ha acompañado fiel en mi pobre labor de tantos años, mientras voy subiendo la agria pendiente de mi Calvario y diciéndome, con el poeta sublime de los grandes infortunios de la vida, cada vez que vacila mi paso o los alientos me faltan:</p>
-				<lg>
+				<lg ana="poem">
 					<l> <seg type="foreign" xml:lang="la">«Dominus dedit; Dominus abstulit.</seg></l>
 					<l><seg type="foreign" xml:lang="la">Sicut Domino placuit, ita factum est».</seg></l>
 				</lg>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"/>
 				<title type="short">Sirena</title>
 				<title type="idno">
-					<idno type="viaf">217034240</idno></title>
+					<idno type="bne">XX2120608</idno>
+					<idno type="viaf">217034240</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1104029</idno>
 					<idno type="viaf">51699645</idno>
 					<name type="short">Bazan</name>
 					<name type="full">Emilia Pardo Bazán</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">731</measure>
-				<measure unit="divs">18</measure>
-				<measure unit="words">40369</measure>
-				<measure unit="chars">235213</measure>
-				<measure unit="size_kb">252</measure>
+				<measure unit="lines">737</measure>
+				<measure unit="divs">19</measure>
+				<measure unit="tokens">40369</measure>
+				<measure unit="chars">235223</measure>
+				<measure unit="size_kb">253</measure>
 
 				<measure unit="chapters">18</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
 				<measure unit="blocks">663</measure> 
-				<measure unit="line_verses">22</measure> 
+				<measure unit="lg.poems">5</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">22</measure> 
 				<measure unit="heads">18</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">623</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">303</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">300</measure>
+				<measure unit="saids">374</measure>
+				<measure unit="narrative.ps">323</measure>
+				<measure unit="ss">2378</measure> 
 				<measure unit="numbers">6</measure> 
-				<measure unit="puncts">10172</measure>
+				<measure unit="puncts">10172</measure> 
+				<measure unit="len.abstract">1456</measure>
+
+				<measure unit="types">10106</measure>
+
+				<measure unit="ss">1633</measure>
+				<measure unit="ss.len.mean">148.90447030006123</measure>
+				<measure unit="ss.len.std">124.90717949299705</measure>
+				<measure unit="mean.ss.active.verbs">2.6301285976729947</measure>
+				<measure unit="std.ss.active.verbs">2.314071769085117</measure>
+
+				<measure unit="ws">49774</measure>
+				<measure unit="ws.len.mean">3.9181098565516135</measure>
+				<measure unit="ws.len.std">2.9024198491498483</measure>
+
+				<measure unit="conjunctions">2680</measure>
+				<measure unit="determiners">6313</measure>
+				<measure unit="nouns">8936</measure>
+				<measure unit="verbs">7590</measure>
+				<measure unit="adverbs">2107</measure>
+				<measure unit="adjectives">2834</measure>
+				<measure unit="adpositions">5994</measure>
+				<measure unit="punctuations">8781</measure>
+				<measure unit="pronouns">4345</measure>
+				<measure unit="dates">19</measure>
+				<measure unit="numbers">109</measure>
+				<measure unit="interjections">66</measure>
+
+				<measure unit="ne.persons">530</measure>
+				<measure unit="ne.organizations">73</measure>
+				<measure unit="ne.locations">155</measure>
+				<measure unit="ne.others">48</measure>
+
+				<measure unit="wnlex.noun.plants">61</measure>
+				<measure unit="wnlex.verb.communications">681</measure>
+				<measure unit="wnlex.noun.foods">125</measure>
+				<measure unit="wnlex.verb.possessions">277</measure>
+				<measure unit="wnlex.verb.cognitions">551</measure>
+				<measure unit="wnlex.noun.communications">580</measure>
+				<measure unit="wnlex.noun.states">281</measure>
+				<measure unit="wnlex.verb.statives">1741</measure>
+				<measure unit="wnlex.noun.cognitions">543</measure>
+				<measure unit="wnlex.noun.times">297</measure>
+				<measure unit="wnlex.verb.bodys">299</measure>
+				<measure unit="wnlex.noun.persons">866</measure>
+				<measure unit="wnlex.adj.alls">1777</measure>
+				<measure unit="wnlex.noun.quantitys">34</measure>
+				<measure unit="wnlex.noun.phenomenons">73</measure>
+				<measure unit="wnlex.verb.creations">351</measure>
+				<measure unit="wnlex.adj.perts">135</measure>
+				<measure unit="wnlex.adv.alls">652</measure>
+				<measure unit="wnlex.noun.processs">24</measure>
+				<measure unit="wnlex.noun.artifacts">790</measure>
+				<measure unit="wnlex.verb.perceptions">266</measure>
+				<measure unit="wnlex.noun.feelings">224</measure>
+				<measure unit="wnlex.verb.weathers">52</measure>
+				<measure unit="wnlex.noun.substances">166</measure>
+				<measure unit="wnlex.noun.shapes">39</measure>
+				<measure unit="wnlex.verb.competitions">71</measure>
+				<measure unit="wnlex.verb.motions">588</measure>
+				<measure unit="wnlex.noun.animals">138</measure>
+				<measure unit="wnlex.noun.acts">595</measure>
+				<measure unit="wnlex.noun.bodys">445</measure>
+				<measure unit="wnlex.noun.objects">139</measure>
+				<measure unit="wnlex.noun.motives">18</measure>
+				<measure unit="wnlex.verb.socials">402</measure>
+				<measure unit="wnlex.noun.groups">230</measure>
+				<measure unit="wnlex.verb.consumptions">89</measure>
+				<measure unit="wnlex.noun.possessions">59</measure>
+				<measure unit="wnlex.noun.Topss">160</measure>
+				<measure unit="wnlex.noun.relations">12</measure>
+				<measure unit="wnlex.noun.attributes">530</measure>
+				<measure unit="wnlex.verb.emotions">266</measure>
+				<measure unit="wnlex.noun.locations">118</measure>
+				<measure unit="wnlex.noun.events">229</measure>
+				<measure unit="wnlex.verb.contacts">489</measure>
+				<measure unit="wnlex.xxxs">33887</measure>
+				<measure unit="wnlex.verb.changes">424</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -65,60 +151,66 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subtitle"></term>
 					
-					<term type="subgenre" subtype="1">moralist</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="2">erotic</term>
-					<term type="subgenre" subtype="1">modernist</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">memoir</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">moralist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">erotic</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">modernist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">naturalist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">memoir</term>
 					
-					<term type="subgenre-lithist" subtype="1">novela modernista</term>
-					<term type="subgenre-lithist" subtype="2">novela esteticista</term>
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="setting">big-city</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">female</term>
-					<term type="author-date-birth">1851</term>
-					<term type="author-date-death">1921</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">45</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1888</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="2">novela esteticista</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="1">novela modernista</term>
+					<term type="narration.narrator">autodiegetic</term>
+					<term type="setting.type">big-city</term>
+					<term type="characters.protagonist.gender">male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">female</term>
+					<term type="author.date.birth">1851</term>
+					<term type="author.date.death">1921</term>
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.litHist.pages" resp="MdL7">45</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">1888</term>
 					
 
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Madrid</term>
-					<term type="setting-territory">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Madrid</term>
+					<term type="setting.name">Madrid</term>
+					<term type="setting.territory">Castilla</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Gaspar de Montenegro</term>
-					<term type="protagonist-profession">public servant</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text">superación del naturalismo</term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Gaspar de Montenegro</term>
+					<term type="characters.protagonist.profession">public servant</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="low">365</term>
+					<term type="authorText.group">superación del naturalismo</term>
 					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">1.0</term>
-					<term type="text-TOC-range">4</term>
-</keywords>
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">negative</term>
+					<term type="text.movement">modernista</term>
+					<term type="reception.ToC">4</term>
+					<term type="reception.pages" resp="MdLE7">1.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.edit" resp="epublibre">Drama, Psicológico</term>
+					<term type="genre.subtitle.source" resp="bne">novela fantástica</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -142,7 +234,7 @@
 
 				<p>Todavía me dirigí otro reproche. Aunque no creo en la humanidad, concepto hueco, palabra de <seg rend="italic">meeting</seg>, un instinto de estética moral me induce a mostrarme piadoso con los desgraciados y los insignificantes, cuando me los encuentro al paso. Me pesaba de no haberme quedado velando al carpintero, de no haber buscado para él un médico y remedios y hasta de no haberle dado consejos sobre la mala costumbre del alcohol. ¿Causas de mi abstención? Dos, que voy a declarar. La primera, una especie de pudor vergonzoso de practicar eso que se llama <seg rend="italic">el bien, la beneficencia,</seg> y que no comprendo en relativo, sino en absoluto -dedicando a ello la existencia toda-. El hacer algo caritativo acarrea el que se apeguen a uno caninamente, o siquiera el que le den a uno gracias y le ensalcen por su bondad, otras tantas mentiras, pues privarse de lo que nos sobra, ¿qué bondad revela? La segunda, un miedo a la acción, que no puedo (ni quiero) vencer. La acción es enemiga de los ensueños y reflexiones, en que encuentro atractivo singular. Ni hay acción tan noble como una idea: pensar lo que estoy pensando, vale más que correr a casa de Alejandro San Martín y traerle a la cabecera de un beodo que batió contra una piedra saliente. ¡Pss! Allá él. Zurrapa más, zurrapa menos en la barrica...</p>
 				<p>Encogiéndome de hombros, sigo -sin prisa- hacia mi casa. En la plazuela trabajan, a estas altas horas, obreros del alcantarillado y del Canal. Según parece, su labor no puede interrumpirse. Un arroyo de agua helada corre bajo sus pies. Para no quedarse hechos unos carámbanos, han encendido un brasero, al cual por turno se arriman, resoplando y estirando las manos engarrotadas. Para impedir que los transeúntes sufran percances, han colgado un farolito avisador sobre los adoquines arrancados y apilados. Antes que dedicarse a tal labor, ¿no preferiría yo... <seg rend="italic">otra cosa</seg>? ¿Será que ellos también, como las coristas que desafinaban hace una hora en Apolo, entienden que la vida es</p>
-				<lg>
+				<lg ana="poem">
 					<l>muy rica y buena,</l>
 					<l>prenda divina</l>
 					<l>de encantos llena?...</l>
@@ -400,7 +492,7 @@
 				<p>-Date aceite a las clavijas de esos huesos -replico irritado, despreciativo y con jactancia colérica- para que no chirríen así. Tú debes ser callada, reservada, correcta, discreta. No me gustarás, ¿has entendido?, hasta que adoptes los modales de la mejor sociedad.</p>
 				<p>Y creo oír una carcajada sofocada, sorda, como si <seg rend="italic">ella</seg> se desparramase de risa dentro de la oquedad de un nicho. <seg rend="italic">¡Ella!</seg> ¿Por qué llamarle así? Ella es la mujer; ella es la que simboliza la humareda azul del hogar, garantía de la supervivencia en la familia; sólo a la amada se aplica el dulce pronombre demostrativo...</p>
 				<p>¡No quiero que me atraigas, no quiero ser tuyo, esqueletada coqueta! Hay otro atractivo que vence, y, de fijo, vencerá siempre al de la Segadora. El niño pisará la cabeza de la muerte... Y en mi memoria, en ese caprichoso terreno donde brota lo que menos esperamos, salta una copla del sentencioso secretario de don Juan II, y se me viene a los labios:</p>
-				<lg>
+				<lg ana="poem">
 					<l> Como toda criatura</l>
 					<l>de muerte tome siniestro,</l>
 					<l>aquel buen Dios y maestro</l>
@@ -489,7 +581,7 @@
 				<p>Una ventaja tuve tan sólo: deseaba el fin, pero con despecho, como se desea lo que daña... Al menos, por entonces, <seg rend="italic">ella</seg> no me parecía buena, no me parecía hermosa, no me parecía seductora, divina; no era el anzuelo de mi espíritu... ¿Ahora, ahora te lo parece, Gaspar? No: ahora, ahora, ahora no; el niño se interpone y me defiende.</p>
 				<p>Una tarde, me acuerdo que salí solo (mis padres me han vigilado poco en la edad peligrosa, y han hecho mal; no haré yo así con Rafaelín; en general, los muchachos españoles disfrutamos de libertad excesiva). Estábamos entonces en el campo, en nuestra casa de Portodor, y yo iba con frecuencia al pueblecito próximo, donde se celebraban fiestas patronales y ferias y funcionaban chirlatas y otros establecimientos menos santos.</p>
 				<p>La víspera yo había cometido en el poblachón mil imbéciles, risibles excesos. Una congoja infinita oprimía mi corazón, mientras en mi cabeza notaba la sensación de vacío de plomo (no sé expresarlo de otro modo) que los comienzos de las jaquecas nerviosas producen. Mis venas estaban aridas y como agotadas; mis manos, temblonas, como las de un viejo; en el pecho notaba un hoyo y vaciamiento de mi ser; mi pulso no se encontraría; se me figuraba tener los párpados llenos de arena menuda, y en la lengua saburrosa revolvía hieles gordas, lo mismo que si mascase el amargor de mi bajeza. Mi andar era lento, desigual; a veces me paraba por necesidad de suspirar y de pasarme la mano por la frente, o para reclinarme en algún tronco de árbol. No hay nada que así se avenga con ciertos estados de desolación del espíritu, como una puesta de sol, sobre todo en un paisaje pensativo y penetrado de insinuante melancolía. La puesta de sol de aquella tarde era de esas de las cuales se oye decir que si un pintor las traslada al lienzo se le acusa de falsedad en la visión, por el exagerado romanticismo del colorido y hasta de la forma de las nubes. Anchas barras del más inflamado rubí simulaban inmenso incendio, cuyas llamaradas cortas surgían de un anfiteatro de baluartes del metal oscuro, terrible, que amuralla la siniestra ciudad del Infierno dantesco. Era una puesta de sol de remordimiento, de sudor de sangre de la conciencia. Sobre el fondo del celaje acusador, los troncos de los árboles, ya semidespojados por el otoño, alzaban su ramaje en actitud de implorar perdón o auxilio; y a mis pies el río, ensanchado, porque se acercaba a su desagüe en el mar, reflejaba en la superficie inmóvil, apenas estriada imperceptiblemente por la brisa de la tarde, los encendimientos del poniente, próximos ya a apagarse entre la cenizosa niebla de la noche. Yo me paré en una revuelta de la orilla, donde una peña musgosa convidaba a sentarse y descansar. Fascinado, miraba a la sábana de agua durmiente, adivinando su hondura y advirtiendo cómo se extinguían en su seno las brasas caídas del celaje, y cómo se oscurecía el haz del agua, poco a poco... Hubiese yo jurado, que, desde la planicie lánguida, sesga, de letal dulzura, alguien me miraba, y que un filtro de deleite supremo corría por mis venas yertas antes. Un verso de San Juan de la Cruz me martilleaba en la memoria:</p>
-				<lg>
+				<lg ana="poem">
 					<l> ¡Oh, cristalina fuente!</l>
 					<l>¡Si en esos tus remansos plateados</l>
 					<l>formases de repente</l>
@@ -510,7 +602,7 @@
 				<p>Pch... Porque soy de otra raza, no sé si diga exquisita o gastada y vieja. Porque empecé temprano a socavarme el alma y a practicar el rito que produce la infinita desolación. Porque soy un envenenado; llevo en las venas la amargura del absintio y el ensueño que vierten los cálices de amapola; porque acaso un abuelo mío fue suicida y una abuela se murió de mal de amores... He de tratar de ahondar en mi genealogía... Si supiésemos la historia exacta de nuestros ascendientes, nos conoceríamos mejor. Así, mi hijo, no conviene que sea <seg rend="italic">de</seg>
 					<seg rend="italic">mis lomos</seg> : le he buscado hecho ya. Que no me herede la mentalidad... Y de súbito, recuerdo de quién procede el niño, la inmensidad de pecado que hay detrás de su inocencia... y me asusto...</p>
 				<p>¡Ánimo! Yo borraré todo eso. Lo que se ignora, no actúa sobre el alma. El niño no sabrá jamás nada de su origen; haré lo imposible por convencerle de que es hijo mío verdadero. He consultado a un abogado hábil para arreglar todo, eludiendo las tranquillas, nudos y redes de la ley; este jurisconsulto irá a Sanlúcar, a conferenciar con la abuela de Rita Quiñones, y a orillar, mediante ruegos, y si es preciso, ofrecimientos y dádivas, por todos los medios, cuantos obstáculos puedan presentarse a mi deseo de ser dueño absoluto de Rafaelín. Corto así el hilo que une su destino y su porvenir a la familia maldita, y le aíslo para que nunca sospeche... para que no llegue jamás el día de la fatalidad, el día de la revelación.</p>
-				<lg>
+				<lg ana="poem">
 					<l>
 						<seg rend="italic">ce jour détestable</seg>
 					</l>
@@ -820,7 +912,7 @@
 
 				<p>-Vamos al muelle -ordené, como avergonzado de mi impresión y temeroso de que me la conociesen; avergonzado del sentimiento, hasta en presencia de tan ínfimo auditorio.</p>
 				<p>Salto a tierra. Emprendo la caminata a la Torre de Portodor, cuyas iluminadas ventanas veo desde el muelle lucir como un faro. Voy determinado a desenredar mi espíritu de los laberintos en que me he perdido siempre. Ahora creo discernirlo con lucidez total: estaba enfermo del alma, y es la salud lo que han de darme las dos supremas representaciones de la existencia: el Niño y la Mujer. El reto que acepté era insensato y absurdo, como era nefando y monstruoso el amor que me había inspirado la Guadañadora. Cuando yo provocaba y exasperaba a Solís, la buscaba indirectamente a ella; glosaba una cuarteta conceptuosa que me embruja la imaginación:</p>
-				<lg>
+				<lg ana="poem">
 					<l> Ven, muerte, tan escondida</l>
 					<l>que no te sienta venir,</l>
 					<l>porque el placer de morir</l>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Sonata de estío</title>
 				<title type="sub">Memorias del Marqués de Bradomín</title>
 				<title type="short">SonataEstio</title>
-				<title type="idno"><idno type="viaf">174999407</idno></title>
+				<title type="idno">
+					<idno type="bne">XX3383625</idno>
+					<idno type="viaf">174999407</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1055436</idno>
 					<idno type="viaf">68936773</idno>
 					<name type="short">Valle</name>
 					<name type="full">Valle-Inclán, Ramón del</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">660</measure>
-				<measure unit="divs">31</measure>
-				<measure unit="words">22401</measure>
-				<measure unit="chars">133083</measure>
-				<measure unit="size_kb">146</measure>
+				<measure unit="lines">665</measure>
+				<measure unit="divs">32</measure>
+				<measure unit="tokens">22401</measure>
+				<measure unit="chars">133091</measure>
+				<measure unit="size_kb">147</measure>
 
 				<measure unit="chapters">31</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
 				<measure unit="blocks">587</measure> 
-				<measure unit="line_verses">0</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
 				<measure unit="heads">0</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">587</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">318</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">318</measure>
+				<measure unit="saids">319</measure>
+				<measure unit="narrative.ps">269</measure>
+				<measure unit="ss">1712</measure> 
 				<measure unit="numbers">0</measure> 
-				<measure unit="puncts">4386</measure>
+				<measure unit="puncts">4386</measure> 
+				<measure unit="len.abstract">428</measure>
+
+				<measure unit="types">5875</measure>
+
+				<measure unit="ss">1154</measure>
+				<measure unit="ss.len.mean">118.15164644714038</measure>
+				<measure unit="ss.len.std">80.48168710972399</measure>
+				<measure unit="mean.ss.active.verbs">2.0459272097053725</measure>
+				<measure unit="std.ss.active.verbs">1.5057848756563135</measure>
+
+				<measure unit="ws">26594</measure>
+				<measure unit="ws.len.mean">4.1703767767165525</measure>
+				<measure unit="ws.len.std">3.0111660966083162</measure>
+
+				<measure unit="conjunctions">1453</measure>
+				<measure unit="determiners">3831</measure>
+				<measure unit="nouns">5190</measure>
+				<measure unit="verbs">4168</measure>
+				<measure unit="adverbs">970</measure>
+				<measure unit="adjectives">1735</measure>
+				<measure unit="adpositions">3139</measure>
+				<measure unit="punctuations">4119</measure>
+				<measure unit="pronouns">1858</measure>
+				<measure unit="dates">5</measure>
+				<measure unit="numbers">73</measure>
+				<measure unit="interjections">53</measure>
+
+				<measure unit="ne.persons">192</measure>
+				<measure unit="ne.organizations">175</measure>
+				<measure unit="ne.locations">102</measure>
+				<measure unit="ne.others">35</measure>
+
+				<measure unit="wnlex.noun.plants">37</measure>
+				<measure unit="wnlex.verb.communications">290</measure>
+				<measure unit="wnlex.noun.foods">32</measure>
+				<measure unit="wnlex.verb.possessions">132</measure>
+				<measure unit="wnlex.verb.cognitions">191</measure>
+				<measure unit="wnlex.noun.communications">247</measure>
+				<measure unit="wnlex.noun.states">103</measure>
+				<measure unit="wnlex.verb.statives">742</measure>
+				<measure unit="wnlex.noun.cognitions">213</measure>
+				<measure unit="wnlex.noun.times">174</measure>
+				<measure unit="wnlex.verb.bodys">250</measure>
+				<measure unit="wnlex.noun.persons">564</measure>
+				<measure unit="wnlex.adj.alls">1121</measure>
+				<measure unit="wnlex.noun.quantitys">20</measure>
+				<measure unit="wnlex.noun.phenomenons">76</measure>
+				<measure unit="wnlex.verb.creations">152</measure>
+				<measure unit="wnlex.adj.perts">99</measure>
+				<measure unit="wnlex.adv.alls">410</measure>
+				<measure unit="wnlex.noun.processs">11</measure>
+				<measure unit="wnlex.noun.artifacts">491</measure>
+				<measure unit="wnlex.verb.perceptions">221</measure>
+				<measure unit="wnlex.noun.feelings">106</measure>
+				<measure unit="wnlex.verb.weathers">27</measure>
+				<measure unit="wnlex.noun.substances">92</measure>
+				<measure unit="wnlex.noun.shapes">23</measure>
+				<measure unit="wnlex.verb.competitions">55</measure>
+				<measure unit="wnlex.verb.motions">488</measure>
+				<measure unit="wnlex.noun.animals">139</measure>
+				<measure unit="wnlex.noun.acts">246</measure>
+				<measure unit="wnlex.noun.bodys">403</measure>
+				<measure unit="wnlex.noun.objects">203</measure>
+				<measure unit="wnlex.noun.motives">3</measure>
+				<measure unit="wnlex.verb.socials">206</measure>
+				<measure unit="wnlex.noun.groups">109</measure>
+				<measure unit="wnlex.verb.consumptions">40</measure>
+				<measure unit="wnlex.noun.possessions">17</measure>
+				<measure unit="wnlex.noun.Topss">41</measure>
+				<measure unit="wnlex.noun.relations">4</measure>
+				<measure unit="wnlex.noun.attributes">261</measure>
+				<measure unit="wnlex.verb.emotions">121</measure>
+				<measure unit="wnlex.noun.locations">103</measure>
+				<measure unit="wnlex.noun.events">85</measure>
+				<measure unit="wnlex.verb.contacts">276</measure>
+				<measure unit="wnlex.xxxs">17715</measure>
+				<measure unit="wnlex.verb.changes">253</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -62,57 +149,61 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist"></term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">memoria</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">memoir</term>
-					<term type="subgenre" subtype="1">modernist</term>
-					<term type="subgenre" subtype="1">adventure</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="2">erotic</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.litHist" resp="MdLE"></term>
+					<term type="genre.subtitle">memoria</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">memoir</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">modernist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">adventure</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">realist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">erotic</term>
 					
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1866</term>
-					<term type="author-date-death">1936</term>
-					<term type="author-TOC-range" resp="MdL8">8</term>
-					<term type="author-histlit-pages" resp="MdL8">162</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">1920</term>
+					<term type="narration.narrator">autodiegetic</term>
+					<term type="setting.type">rural</term>
+					<term type="characters.protagonist.gender">male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1866</term>
+					<term type="author.date.death">1936</term>
+					<term type="author.TOC.range" resp="MdL8">8</term>
+					<term type="author.litHist.pages" resp="MdL8">162</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.year.change">1920</term>
 					
 					
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">mixed</term>
-					<term type="setting-territory">Costa de México</term>
-					<term type="setting-country">Mexico</term>
-					<term type="setting-continent">America</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Mexico</term>
+					<term type="setting.name">mixed</term>
+					<term type="setting.territory">Costa de México</term>
+					<term type="setting.country">Mexico</term>
+					<term type="setting.continent">America</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Xavier de Bradomín</term>
-					<term type="protagonist-social-level">high</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" resp="#jct" cert="low">7</term>
-					<term type="group-text">sonatas</term>
-					<term type="protagonist-profession">lord</term>
-					<term type="author-text-relation">medium</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end" cert="low">negative</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">3.0</term>
-					<term type="text-TOC-range">4</term>
-					
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Xavier de Bradomín</term>
+					<term type="characters.protagonist.socLevel">high</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" resp="#jct" cert="low">7</term>
+					<term type="authorText.group">sonatas</term>
+					<term type="characters.protagonist.profession">lord</term>
+					<term type="authorText.relation">medium</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end" cert="low">negative</term>
+					<term type="text.movement">modernista</term>
+					<term type="reception.ToC">4</term>
+					<term type="reception.pages" resp="MdLE8">3.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.edit" resp="epublibre">Histórico</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

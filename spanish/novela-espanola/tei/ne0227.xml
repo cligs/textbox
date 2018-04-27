@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="viaf">bimo0001512007</idno></title>
 				<author>
+					<idno type="bne">XX1051062</idno>
 					<idno type="viaf">79060694</idno>
 					<name type="short">Trigo</name>
 					<name type="full">Felipe Trigo</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2240</measure>
-				<measure unit="divs">33</measure>
-				<measure unit="words">89394</measure>
-				<measure unit="chars">527685</measure>
-				<measure unit="size_kb">571</measure>
+				<measure unit="lines">2247</measure>
+				<measure unit="divs">34</measure>
+				<measure unit="tokens">89400</measure>
+				<measure unit="chars">527740</measure>
+				<measure unit="size_kb">572</measure>
 
 				<measure unit="chapters">28</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">2</measure>
 				<measure unit="sections">3</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">2141</measure> 
-				<measure unit="line_verses">16</measure> 
+				<measure unit="blocks">2142</measure> 
+				<measure unit="lg.poems">3</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">16</measure> 
 				<measure unit="heads">30</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">2086</measure> 
+				<measure unit="paragraphs">2087</measure> 
 				<measure unit="abs">9</measure> 
-				<measure unit="floatingTexts">3</measure>
-				<measure unit="paragraphs_ds">796</measure> 
-				<measure unit="numbers">11</measure> 
-				<measure unit="puncts">21973</measure>
+				<measure unit="fts">3</measure>
+				<measure unit="paragraphs.ds">791</measure>
+				<measure unit="saids">930</measure>
+				<measure unit="narrative.ps">1296</measure>
+				<measure unit="ss">4732</measure> 
+				<measure unit="numbers">13</measure> 
+				<measure unit="puncts">21970</measure> 
+				<measure unit="len.abstract">671</measure>
+
+				<measure unit="types">14864</measure>
+
+				<measure unit="ss">3336</measure>
+				<measure unit="ss.len.mean">163.72182254196642</measure>
+				<measure unit="ss.len.std">162.2222934660886</measure>
+				<measure unit="mean.ss.active.verbs">2.098621103117506</measure>
+				<measure unit="std.ss.active.verbs">2.1233368196596896</measure>
+
+				<measure unit="ws">110341</measure>
+				<measure unit="ws.len.mean">3.9801252480945433</measure>
+				<measure unit="ws.len.std">2.9821451051125494</measure>
+
+				<measure unit="conjunctions">6792</measure>
+				<measure unit="determiners">14477</measure>
+				<measure unit="nouns">20808</measure>
+				<measure unit="verbs">14590</measure>
+				<measure unit="adverbs">4871</measure>
+				<measure unit="adjectives">5895</measure>
+				<measure unit="adpositions">14518</measure>
+				<measure unit="punctuations">19513</measure>
+				<measure unit="pronouns">7910</measure>
+				<measure unit="dates">30</measure>
+				<measure unit="numbers">537</measure>
+				<measure unit="interjections">400</measure>
+
+				<measure unit="ne.persons">2097</measure>
+				<measure unit="ne.organizations">324</measure>
+				<measure unit="ne.locations">480</measure>
+				<measure unit="ne.others">87</measure>
+
+				<measure unit="wnlex.noun.plants">81</measure>
+				<measure unit="wnlex.verb.communications">1011</measure>
+				<measure unit="wnlex.noun.foods">210</measure>
+				<measure unit="wnlex.verb.possessions">472</measure>
+				<measure unit="wnlex.verb.cognitions">983</measure>
+				<measure unit="wnlex.noun.communications">1013</measure>
+				<measure unit="wnlex.noun.states">736</measure>
+				<measure unit="wnlex.verb.statives">2890</measure>
+				<measure unit="wnlex.noun.cognitions">1054</measure>
+				<measure unit="wnlex.noun.times">679</measure>
+				<measure unit="wnlex.verb.bodys">659</measure>
+				<measure unit="wnlex.noun.persons">2862</measure>
+				<measure unit="wnlex.adj.alls">4069</measure>
+				<measure unit="wnlex.noun.quantitys">75</measure>
+				<measure unit="wnlex.noun.phenomenons">158</measure>
+				<measure unit="wnlex.verb.creations">498</measure>
+				<measure unit="wnlex.adj.perts">147</measure>
+				<measure unit="wnlex.adv.alls">1618</measure>
+				<measure unit="wnlex.noun.processs">58</measure>
+				<measure unit="wnlex.noun.artifacts">1745</measure>
+				<measure unit="wnlex.verb.perceptions">666</measure>
+				<measure unit="wnlex.noun.feelings">517</measure>
+				<measure unit="wnlex.verb.weathers">58</measure>
+				<measure unit="wnlex.noun.substances">204</measure>
+				<measure unit="wnlex.noun.shapes">28</measure>
+				<measure unit="wnlex.verb.competitions">133</measure>
+				<measure unit="wnlex.verb.motions">1318</measure>
+				<measure unit="wnlex.noun.animals">258</measure>
+				<measure unit="wnlex.noun.acts">1415</measure>
+				<measure unit="wnlex.noun.bodys">660</measure>
+				<measure unit="wnlex.noun.objects">267</measure>
+				<measure unit="wnlex.noun.motives">43</measure>
+				<measure unit="wnlex.verb.socials">967</measure>
+				<measure unit="wnlex.noun.groups">649</measure>
+				<measure unit="wnlex.verb.consumptions">227</measure>
+				<measure unit="wnlex.noun.possessions">139</measure>
+				<measure unit="wnlex.noun.Topss">178</measure>
+				<measure unit="wnlex.noun.relations">25</measure>
+				<measure unit="wnlex.noun.attributes">1148</measure>
+				<measure unit="wnlex.verb.emotions">422</measure>
+				<measure unit="wnlex.noun.locations">331</measure>
+				<measure unit="wnlex.noun.events">455</measure>
+				<measure unit="wnlex.verb.contacts">588</measure>
+				<measure unit="wnlex.xxxs">77893</measure>
+				<measure unit="wnlex.verb.changes">733</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -63,54 +147,59 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1864</term>
-					<term type="author-date-death">1916</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">13</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1864</term>
+					<term type="author.date.death">1916</term>
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.litHist.pages" resp="MdL9">13</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">autobiographical</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="subgenre-lithist">novelas de crítica social</term>
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Castellar</term>
-					<term type="setting-territory">Andalucía</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Esteban Sicilia</term>
-					<term type="protagonist-profession">doctor</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text">novelas de crítica social</term>
-					<term type="author-text-relation">medium</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">partial negative</term>
-					<term type="time-year">1910</term>
-					<term type="subgenre-edit"></term>
-					<term type="quality-lithist" resp="MdLE9">medium</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">0.5</term>
-					<term type="text-TOC-range">2</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">social</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">realist</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">autobiographical</term>
+					<term type="genre.subtitle"></term>
+					<term type="narration.narrator">heterodiegetic</term>
+					<term type="setting.type">rural</term>
+					<term type="characters.protagonist.gender">male</term>
+					<term type="genre.subgenre.litHist" resp="MdLE">novelas de crítica social</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Andalucía</term>
+					<term type="setting.name">Castellar</term>
+					<term type="setting.territory">Andalucía</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Esteban Sicilia</term>
+					<term type="characters.protagonist.profession">doctor</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="low">365</term>
+					<term type="authorText.group">novelas de crítica social</term>
+					<term type="authorText.relation">medium</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">partial negative</term>
+					<term type="time.year">1910</term>
+					<term type="genre.subgenre.edit"></term>
+					<term type="reception.quality" resp="MdLE9">medium</term>
+					<term type="text.movement">modernista</term>
+					<term type="reception.ToC">2</term>
+					<term type="reception.pages" resp="MdLE9">0.5</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">False</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.edit" resp="epublibre">Drama, Realista</term>
+					<term type="genre.subgenre.litHist" resp="HdLE">novela erótica</term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -341,7 +430,7 @@
 					<p>Relatáronle una noche un famosísimo epitafio del tío Potes, puesto en el Camposanto, y que sabíase el burlón alcalde de memoria. Decía así:</p>
 					<floatingText><body><div type="section">
 								<p>«A la inopinada y párvula muerte de mi sobrino Andresito, hijo de mi hermana la casada, víctima de un error facultativo del médico de Villaleón, el autor indignado le dedica el siguiente soneto:</p>
-								<lg>
+								<lg ana="poem">
 									<l><seg rend="italic"> ¡Oh, niño muerto, que en tu niñez temprana</seg></l>
 									<l><seg rend="italic">un bárbaro doctor fue tu verdugo!</seg></l>
 									<l><seg rend="italic">Cuando yo pienso esto, el ceño arrugo,</seg></l>
@@ -481,7 +570,7 @@
 					<p>Llovió, efectivamente, al otro día.</p>
 					<p>Tranquilo el viento, las nubes seguían uniformemente densas, con una calma de fanal. A las ocho de la mañana chispeaba. Arreció en seguida una pedrea mansa de gotas que sembró de lunares negros el polvo de las calles.</p>
 					<p>-¡Agua, Santa Bárbara bendita! -gritaban las mujeres, asomándose a las puertas.</p>
-					<lg>
+					<lg ana="poem">
 
 						<l><seg rend="italic"> Que llueva, que llueva,</seg></l>
 						<l><seg rend="italic">la virgen de la Cueva,</seg></l>
@@ -1318,7 +1407,7 @@
 					<p>-No, a esas horas no he venido nunca, ciertamente.</p>
 					<p>-Pues vienen; vienen por oír, muchos de esos brutos del Casino.</p>
 					<p>Preludió, y Esteban, encantado de la sencillez con que esta mujer iba a ofrecerle el lírico regalo, no obstante encontrarse en un grito su marido, pudo estimar desde luego la maestría de ella y la bondad del instrumento. Evelina empezó a cantar con hermosa voz de contralto, flexible, bien timbrada...</p>
-					<lg>
+					<lg ana="poem">
 
 						<l><seg rend="italic">Apriti, ¡oh fenestrela!</seg></l>
 						<l><seg rend="italic">fanmi abachar María...</seg></l>

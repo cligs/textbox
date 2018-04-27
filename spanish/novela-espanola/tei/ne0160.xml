@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="viaf"></idno></title>
 				<author>
+					<idno type="bne">XX1051062</idno>
 					<idno type="viaf">79060694</idno>
 					<name type="short">Trigo</name>
 					<name type="full">Felipe Trigo</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2123</measure>
-				<measure unit="divs">33</measure>
-				<measure unit="words">71347</measure>
-				<measure unit="chars">414658</measure>
-				<measure unit="size_kb">455</measure>
+				<measure unit="lines">2141</measure>
+				<measure unit="divs">36</measure>
+				<measure unit="tokens">71418</measure>
+				<measure unit="chars">415110</measure>
+				<measure unit="size_kb">456</measure>
 
 				<measure unit="chapters">26</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">7</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1977</measure> 
-				<measure unit="line_verses">33</measure> 
+				<measure unit="blocks">1984</measure> 
+				<measure unit="lg.poems">10</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">33</measure> 
 				<measure unit="heads">26</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1917</measure> 
-				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">7</measure>
-				<measure unit="paragraphs_ds">696</measure> 
+				<measure unit="paragraphs">1921</measure> 
+				<measure unit="abs">4</measure> 
+				<measure unit="fts">7</measure>
+				<measure unit="paragraphs.ds">693</measure>
+				<measure unit="saids">801</measure>
+				<measure unit="narrative.ps">1228</measure>
+				<measure unit="ss">5018</measure> 
 				<measure unit="numbers">37</measure> 
-				<measure unit="puncts">22004</measure>
+				<measure unit="puncts">22015</measure> 
+				<measure unit="len.abstract">1567</measure>
+
+				<measure unit="types">11993</measure>
+
+				<measure unit="ss">3041</measure>
+				<measure unit="ss.len.mean">141.42190069056232</measure>
+				<measure unit="ss.len.std">154.18496314934865</measure>
+				<measure unit="mean.ss.active.verbs">2.165406116409076</measure>
+				<measure unit="std.ss.active.verbs">2.394488404644245</measure>
+
+				<measure unit="ws">89629</measure>
+				<measure unit="ws.len.mean">3.8321971683272156</measure>
+				<measure unit="ws.len.std">2.795347777975197</measure>
+
+				<measure unit="conjunctions">4346</measure>
+				<measure unit="determiners">11373</measure>
+				<measure unit="nouns">16120</measure>
+				<measure unit="verbs">12625</measure>
+				<measure unit="adverbs">4300</measure>
+				<measure unit="adjectives">4600</measure>
+				<measure unit="adpositions">11158</measure>
+				<measure unit="punctuations">17125</measure>
+				<measure unit="pronouns">7214</measure>
+				<measure unit="dates">23</measure>
+				<measure unit="numbers">367</measure>
+				<measure unit="interjections">378</measure>
+
+				<measure unit="ne.persons">1011</measure>
+				<measure unit="ne.organizations">202</measure>
+				<measure unit="ne.locations">456</measure>
+				<measure unit="ne.others">80</measure>
+
+				<measure unit="wnlex.noun.plants">78</measure>
+				<measure unit="wnlex.verb.communications">996</measure>
+				<measure unit="wnlex.noun.foods">173</measure>
+				<measure unit="wnlex.verb.possessions">377</measure>
+				<measure unit="wnlex.verb.cognitions">848</measure>
+				<measure unit="wnlex.noun.communications">862</measure>
+				<measure unit="wnlex.noun.states">371</measure>
+				<measure unit="wnlex.verb.statives">3065</measure>
+				<measure unit="wnlex.noun.cognitions">638</measure>
+				<measure unit="wnlex.noun.times">401</measure>
+				<measure unit="wnlex.verb.bodys">453</measure>
+				<measure unit="wnlex.noun.persons">1940</measure>
+				<measure unit="wnlex.adj.alls">3247</measure>
+				<measure unit="wnlex.noun.quantitys">72</measure>
+				<measure unit="wnlex.noun.phenomenons">198</measure>
+				<measure unit="wnlex.verb.creations">438</measure>
+				<measure unit="wnlex.adj.perts">194</measure>
+				<measure unit="wnlex.adv.alls">1292</measure>
+				<measure unit="wnlex.noun.processs">68</measure>
+				<measure unit="wnlex.noun.artifacts">2016</measure>
+				<measure unit="wnlex.verb.perceptions">778</measure>
+				<measure unit="wnlex.noun.feelings">429</measure>
+				<measure unit="wnlex.verb.weathers">103</measure>
+				<measure unit="wnlex.noun.substances">272</measure>
+				<measure unit="wnlex.noun.shapes">97</measure>
+				<measure unit="wnlex.verb.competitions">100</measure>
+				<measure unit="wnlex.verb.motions">1251</measure>
+				<measure unit="wnlex.noun.animals">188</measure>
+				<measure unit="wnlex.noun.acts">881</measure>
+				<measure unit="wnlex.noun.bodys">714</measure>
+				<measure unit="wnlex.noun.objects">472</measure>
+				<measure unit="wnlex.noun.motives">27</measure>
+				<measure unit="wnlex.verb.socials">658</measure>
+				<measure unit="wnlex.noun.groups">422</measure>
+				<measure unit="wnlex.verb.consumptions">120</measure>
+				<measure unit="wnlex.noun.possessions">62</measure>
+				<measure unit="wnlex.noun.Topss">167</measure>
+				<measure unit="wnlex.noun.relations">21</measure>
+				<measure unit="wnlex.noun.attributes">861</measure>
+				<measure unit="wnlex.verb.emotions">368</measure>
+				<measure unit="wnlex.noun.locations">398</measure>
+				<measure unit="wnlex.noun.events">305</measure>
+				<measure unit="wnlex.verb.contacts">619</measure>
+				<measure unit="wnlex.xxxs">61972</measure>
+				<measure unit="wnlex.verb.changes">616</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -63,56 +147,59 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist">novela erótica</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="setting" resp="#jct">boat</term><!--A boat from Barcelona to Filipinas-->
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1864</term>
-					<term type="author-date-death">1916</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">13</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.litHist" resp="MdLE">novela erótica</term>
+					<term type="genre.subtitle"></term>
+					<term type="narration.narrator">autodiegetic</term>
+					<term type="setting.type" resp="#jct">boat</term><!--A boat from Barcelona to Filipinas-->
+					<term type="characters.protagonist.gender">male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1864</term>
+					<term type="author.date.death">1916</term>
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.litHist.pages" resp="MdL9">13</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
 
-					<term type="narrator">first-person</term>
 
-					<term type="subgenre" subtype="2">erotic</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">adventure</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">erotic</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">adventure</term>
 
-					<term type="setting-type">sea</term>
-					<term type="setting-name">mixed</term>
-					<term type="setting-territory">mixed</term>
-					<term type="setting-country">mixed</term>
-					<term type="setting-continent">mixed</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">mixed</term>
+					<term type="setting.name">mixed</term>
+					<term type="setting.territory">mixed</term>
+					<term type="setting.country">mixed</term>
+					<term type="setting.continent">mixed</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Andrés Serván</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">90</term>
-					<term type="group-text"></term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Andrés Serván</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span">90</term>
+					<term type="authorText.group"></term>
 					
-					<term type="protagonist-profession">military personnel</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">partial positive</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
-					
+					<term type="characters.protagonist.profession">military personnel</term>
+					<term type="authorText.relation">none</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">partial positive</term>
+					<term type="text.movement">modernista</term>
+					<term type="reception.ToC">1</term>
+					<term type="reception.pages" resp="MdLE9">0.2</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">False</term>
+					<term type="reception.mentioned" resp="HdLE">False</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -513,7 +600,7 @@
 				<p>-¡Tierra! -grita Lucía, bajando el catalejo, indicando el horizonte, gozosa de ser la primera en descubrirla.</p>
 				<p>Es la misma cinta lejana y tenue que en Sicilia. Miro el reloj. La una. A las cinco ha dicho el capitán que estaremos en Port-Said.</p>
 				<p>Don Lacio saluda con un chapurrado y berreado de la <seg rend="italic">Africana</seg> a la costa egipcia:</p>
-				<lg>
+				<lg ana="poem">
 					<l>spettácolo divino.....</l>
 					<l>... sognata terra....</l>
 				</lg>
@@ -1074,7 +1161,7 @@
 				<p>Tomo el té frente a Pascual, que devora mortadela mientras charla a su lado Aurora con Enrique. Esto marcha. Ver a la<seg rend="italic"> pescadera </seg>tan totalmente despreocupada del capitán, me mortifica... ¡Oh, acaso arriba, ahora mismo conversan también!...</p>
 				<p>¿Qué me importa? ¿qué deber ni qué derecho tengo para mezclar mis enojos a extraños?... Extraños; hace diez y nueve días no sabíamos los unos de los otros ni los nombres...; hace veinte, ni la existencia...</p>
 				<p>Se van ladeando las tazas, las pastas, los fiambres... De otra mesa (yo las he huido esta noche) trasládase el grupo de al piano. El comedor está fresco, relativamente cruzado de aire por las mangueras... Canta Sarita. Son canciones siempre, las suyas, de amor:</p>
-				<lg>
+				<lg ana="poem">
 					<l> «¡Ay de mí! ¡ay de mí!</l>
 					<l> si acabaré llorando,</l>
 					<l> yo que siempre reí...»</l>
@@ -1097,7 +1184,7 @@
 				<p>-Ah, Sarita... ¿y usted se sube?... Pobre niña.</p>
 				<p>No quiero ver la relación entre su piedad hacia Sarah y mi alejamiento. Alude Lucía por vez primera a la tristeza singular de la chiquilla. Moléstame la idea de que haya podido pensar que me divierto sandiamente en turbar a una criatura.</p>
 				<p>El canto, en las notas del piano, nos llega confuso por la banda. Lo rima el sordo estruendo del agua y de la hélice. En un fuerte, se oye:</p>
-				<lg>
+				<lg ana="poem">
 					<l> «...si acabaré llorando</l>
 					<l> yo que siempre reí.»</l>
 				</lg>
@@ -1438,7 +1525,7 @@
 			<div n="18" type="chapter" xml:id="ne0160_chap18">
 				<head>- XVIII -</head>
 				<p>En verdad que se ha animado el barco, con la fiesta. A la mesa se habla siempre de música y teatro, y empiezan los ensayos en cuanto anochece. Siendo mi cargo el de director de escena, aquí en la saleta de señoras, Sarah no me deja bajar al comedor, ni aun cuando ella canta -teniendo que atender a ambas secciones -su <seg rend="italic">Seade melancolique</seg>:</p>
-				<lg>
+				<lg ana="poem">
 					<l> Ma fenétre, helas, est fermée,</l>
 					<l> et ne s'ouvrira que pour lui...</l>
 					<l> pourquoi ne t'emue point ma tendresse?</l>
@@ -1848,14 +1935,14 @@
 				<p>-¡Ah, yo podría vestir con mis baúles diez comedias!...</p>
 				<p>Y sin embargo, un desastre, la función. Menos a la francesa, se ha invitado al pasaje entero, que desborda en la cubierta donde se está celebrando... porque al ir esta tarde a quitar las mesas del comedor, se vio que había que desatornillar además las sillas, y prefirió el capitán que se subiese el piano. El mar se mueve, y hay mucha gente que, si no mareada, está angustiosa. Además, en el escenario improvisado con lonas junto al puente, y adornado con banderas, arrojan los balances a los actores y actrices unos contra otros.</p>
 				<p>Unido esto a su torpeza y sosería, no se puede oír a Pura. A lo mejor se interrumpe para quejarse en alta voz de los balances... Viene después la parte lírica. A Sarah se le aplaude la intención de su</p>
-				<lg>
+				<lg ana="poem">
 					<l> «Ma fenêtre, helas, est fermée,</l>
 					<l> et ne s'ouvrirá que pour lui...»</l>
 				</lg>
 				<p>Yo, pienso que esta ovación picaresca es una sanción anticipada de todos mis insensatos antojos... Decididamente hay una idiotez general que nos empuja a lo enorme. -Luego aplauden a Lucía calurosamente. Gusta también el relojero. Y se entra en la segunda parte con <seg rend="italic">Chateau Margaux</seg>, deslucida, a pesar de la gracia infinita de Sarah, por Enrique, medio mareado... Yo detrás de la escena, donde hago las veces de transpunte, según van subiendo las actrices vestidas por la escalilla de proa, siento de pronto que Sarah, al salir, me da un beso ávidamente, en un momento de propicia soledad...</p>
 				<p>Vuelve la segunda parte musical y duran todavía al dar las doce los pobres juegos de manos del doctor... del doctor Roque, que aburre a todos, y a quien se abandona al fin, camino del banquete. Y es aquí, es ahora cuando el buque se serena, lo cual al fin desborda la alegría mal tenida en la función... ¡Todo un festín!... Se vota un pláceme al jefe de cocinas... Los corchos del champaña, saltan... Se bebe, se brinda, se grita... Al amanecer hay alegres grupos por todos lados, por el comedor, por el fumadero, por la cubierta en plena extraordinaria iluminación... allí también, junto a la saleta.</p>
 				<p>No ha podido Sarah decirme su rabia de no hablarnos esta noche, más que con una frase del brindis de <seg rend="italic">Traviata</seg>, copa en alto, cantándola y llenándose de espuma..., entre la confusión de alegrías:</p>
-				<lg>
+				<lg ana="poem">
 					<l> Il segreto per esser felice </l>
 					<l> so io per prova</l>
 					<l> Pinsegno agle amici...</l>
@@ -1903,7 +1990,7 @@
 				<p>En cuanto cierra el camarote, donde he visto una dorada cama igual que la del de arriba, subo a la cubierta en busca de Enrique, que está con un grupo de hombres. Llámole aparte y le digo que «han soltado a la francesa... <seg rend="italic">en furia</seg>»; que vengo de hablarla y de quedar con ella para la alta noche en el... si el... «¡Buena guardia!» -me interrumpe en lenguaje militar, dándome el llavín. Vuelvo a bajar y lo pongo en el piano... en un hueco del dorado candelabro cuyos colgantes de vidrio vibran unas notas de mi vals...</p>
 				<milestone unit="section"/>
 				<p>No pienso..., y sin embargo, existo. Todo para lo brutal, ciego y loco, sin que haya otra reflexión que me dé vueltas sobre las vagas impresiones de las láminas del Dante, que hojeo aquí en el solitario sitio de nuestras tertulias de la noche, más que ésta: «¡Qué más da!... Selo tú, si ha de ser alguno el primero fatalmente»... Y una confusa y baja conciencia en donde está también desnuda Sarah, según la vi en la ducha, como estas bellas condenadas de Doré, me afirma ahora con bestias complacencias que ella intacta vale más que la francesa, que Aurora, que Pura, que la estatuilla de Colombo y que la egipcia de Port-Said... Bastante más que todas estas hembras de placer del <seg rend="italic">Reus</seg> y de los puertos... en la gama tan diversa de mujeres en cuyo centro están las vírgenes tontas del coronel y en cuyo extremo de idealidad y excelsitud está Lucía. De una mujer a una mujer hay, pues, más diferencia que de un sapo a una Diosa. Por eso se puede decir de ellas todo lo necio y lo grande con razón.</p>
-				<lg>
+				<lg ana="poem">
 					<l> «Lasciati ogni speranza».</l>
 				</lg>
 				<p>¡Oh! ¡Es simbólico para mí también ahora el libro de los símbolos!</p>
@@ -1970,7 +2057,7 @@
 				<p>-He visto en París -la oigo- el famoso cuadro con este mismo asunto, de Archer Ary. <seg rend="italic">Paolo</seg> toca más delicadamente aún a <seg rend="italic">Francesa</seg>, ante el negro torbellino que arrastra sus desesperaciones... Aquí también está, precisamente, la estrofa más hermosa del poema.</p>
 				<p>-Sí... «Caí como un cuerpo muerto cae».</p>
 				<p>-¡Oh, pero en italiano!... Oiga. Usted lo entiende:</p>
-				<lg>
+				<lg ana="poem">
 					<l> «Cuando leggemmo il disiato riso</l>
 					<l> esser bachiato da cotanto amante,</l>
 					<l> questi, che mai da me mon fia diviso,</l>
@@ -2006,12 +2093,12 @@
 				<p>Pero Lucía me detiene, casi por el brazo:</p>
 				<p>-¡Siéntese!... ¿qué nos importa?</p>
 				<p>Yo obedezco... Oírnos en la escalera pisar. Se ha inclinado ella al libro y vuelve a leer, serenamente, con una tranquila dignidad a la que en vano querría restarle un ápice lo que tiene de mañoso, esta repetición de la lectura:</p>
-				<lg>
+				<lg ana="poem">
 					<l> «...questi, che mai da me non fia diviso,</l>
 					<l> la bocca mi bació tutto tremante...</l>
 				</lg>
 				<p>Y se interrumpe para mirar a Alberto, para decirle «¡hola!»... Y termina:</p>
-				<lg>
+				<lg ana="poem">
 					<l> «Galeotto fu'l libro è chi lo scrisse:</l>
 					<l> quel giorno piu non vi leggemmo avante.»</l>
 				</lg>

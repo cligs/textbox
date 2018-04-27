@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"></title>
 				<title type="short">Juanita</title>
 				<title type="idno">
-					<idno type="viaf">219966757</idno></title>
+					<idno type="bne">XX2215431</idno>
+					<idno type="viaf">219966757</idno>
+				</title>
 				<author>
+					<idno type="bne">XX918093</idno>
 					<idno type="viaf">46770556</idno>
 					<name type="short">Valera</name>
 					<name type="full">Juan Valera</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1543</measure>
-				<measure unit="divs">47</measure>
-				<measure unit="words">72353</measure>
-				<measure unit="chars">405081</measure>
-				<measure unit="size_kb">434</measure>
+				<measure unit="lines">1560</measure>
+				<measure unit="divs">49</measure>
+				<measure unit="tokens">72926</measure>
+				<measure unit="chars">408955</measure>
+				<measure unit="size_kb">435</measure>
 
 				<measure unit="chapters">46</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1406</measure> 
-				<measure unit="line_verses">40</measure> 
-				<measure unit="heads">46</measure> 
+				<measure unit="blocks">1416</measure> 
+				<measure unit="lg.poems">13</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">40</measure> 
+				<measure unit="heads">47</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1280</measure> 
-				<measure unit="abs">40</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">304</measure> 
-				<measure unit="numbers">101</measure> 
-				<measure unit="puncts">10646</measure>
+				<measure unit="paragraphs">1288</measure> 
+				<measure unit="abs">41</measure> 
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">304</measure>
+				<measure unit="saids">375</measure>
+				<measure unit="narrative.ps">984</measure>
+				<measure unit="ss">2882</measure> 
+				<measure unit="numbers">103</measure> 
+				<measure unit="puncts">10056</measure> 
+				<measure unit="len.abstract">1644</measure>
+
+				<measure unit="types">11877</measure>
+
+				<measure unit="ss">2554</measure>
+				<measure unit="ss.len.mean">161.22748629600628</measure>
+				<measure unit="ss.len.std">118.84161730680177</measure>
+				<measure unit="mean.ss.active.verbs">2.6570086139389195</measure>
+				<measure unit="std.ss.active.verbs">2.044296030208701</measure>
+
+				<measure unit="ws">81123</measure>
+				<measure unit="ws.len.mean">4.1074171320094175</measure>
+				<measure unit="ws.len.std">2.991780972633005</measure>
+
+				<measure unit="conjunctions">7276</measure>
+				<measure unit="determiners">9237</measure>
+				<measure unit="nouns">14282</measure>
+				<measure unit="verbs">13549</measure>
+				<measure unit="adverbs">4459</measure>
+				<measure unit="adjectives">3865</measure>
+				<measure unit="adpositions">10386</measure>
+				<measure unit="punctuations">9775</measure>
+				<measure unit="pronouns">7703</measure>
+				<measure unit="dates">103</measure>
+				<measure unit="numbers">392</measure>
+				<measure unit="interjections">96</measure>
+
+				<measure unit="ne.persons">1968</measure>
+				<measure unit="ne.organizations">181</measure>
+				<measure unit="ne.locations">256</measure>
+				<measure unit="ne.others">125</measure>
+
+				<measure unit="wnlex.noun.plants">111</measure>
+				<measure unit="wnlex.verb.communications">1301</measure>
+				<measure unit="wnlex.noun.foods">141</measure>
+				<measure unit="wnlex.verb.possessions">825</measure>
+				<measure unit="wnlex.verb.cognitions">798</measure>
+				<measure unit="wnlex.noun.communications">711</measure>
+				<measure unit="wnlex.noun.states">441</measure>
+				<measure unit="wnlex.verb.statives">3350</measure>
+				<measure unit="wnlex.noun.cognitions">736</measure>
+				<measure unit="wnlex.noun.times">398</measure>
+				<measure unit="wnlex.verb.bodys">602</measure>
+				<measure unit="wnlex.noun.persons">1680</measure>
+				<measure unit="wnlex.adj.alls">2729</measure>
+				<measure unit="wnlex.noun.quantitys">50</measure>
+				<measure unit="wnlex.noun.phenomenons">103</measure>
+				<measure unit="wnlex.verb.creations">660</measure>
+				<measure unit="wnlex.adj.perts">78</measure>
+				<measure unit="wnlex.adv.alls">1782</measure>
+				<measure unit="wnlex.noun.processs">20</measure>
+				<measure unit="wnlex.noun.artifacts">1036</measure>
+				<measure unit="wnlex.verb.perceptions">408</measure>
+				<measure unit="wnlex.noun.feelings">381</measure>
+				<measure unit="wnlex.verb.weathers">64</measure>
+				<measure unit="wnlex.noun.substances">123</measure>
+				<measure unit="wnlex.noun.shapes">30</measure>
+				<measure unit="wnlex.verb.competitions">166</measure>
+				<measure unit="wnlex.verb.motions">756</measure>
+				<measure unit="wnlex.noun.animals">187</measure>
+				<measure unit="wnlex.noun.acts">935</measure>
+				<measure unit="wnlex.noun.bodys">371</measure>
+				<measure unit="wnlex.noun.objects">162</measure>
+				<measure unit="wnlex.noun.motives">42</measure>
+				<measure unit="wnlex.verb.socials">1001</measure>
+				<measure unit="wnlex.noun.groups">422</measure>
+				<measure unit="wnlex.verb.consumptions">166</measure>
+				<measure unit="wnlex.noun.possessions">152</measure>
+				<measure unit="wnlex.noun.Topss">225</measure>
+				<measure unit="wnlex.noun.relations">10</measure>
+				<measure unit="wnlex.noun.attributes">779</measure>
+				<measure unit="wnlex.verb.emotions">545</measure>
+				<measure unit="wnlex.noun.locations">405</measure>
+				<measure unit="wnlex.noun.events">280</measure>
+				<measure unit="wnlex.verb.contacts">493</measure>
+				<measure unit="wnlex.xxxs">54874</measure>
+				<measure unit="wnlex.verb.changes">594</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -64,54 +150,58 @@
 					<p>Juanita la Larga respetó, sobre todos los demás, el único precepto, no sujeto a épocas, al que se adscribió Valera sin reservas: la novela debe ser independiente de toda ideología o directriz intelectual, para que conserve en toda su pureza su naturaleza de obra de arte autónoma, es decir, el arte por el arte, tan perfectamente definido y desarrollado en la obra crítica de Valera, un autor que cultivó con acierto todos los géneros narrativos. Esta edición pretende penetrar en las razones que motivaron la redacción de esta novela, explicar el ambiente reinante en la España de la época y las circunstancias de la vida y la obra del autor, aportando las claves para su comprensión y disfrute.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="low">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre-lithist" subtype="3">novela de evocación</term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1824</term>
-					<term type="author-date-death">1905</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">63</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+				<keywords scheme="keywords.csv" cert="medium">
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subtitle"></term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">realist</term>
+					<term type="genre.subgenre.litHist" resp="MdLE" subtype="3">novela de evocación</term>
+					<term type="narration.narrator">homodiegetic</term>
+					<term type="setting.type">rural</term>
+					<term type="characters.protagonist.gender">female</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1824</term>
+					<term type="author.date.death">1905</term>
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.litHist.pages" resp="MdL7">63</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
 					
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Villaalegre</term>
-					<term type="setting-territory">Andalucía</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">Villaalegre</term>
+					<term type="setting.name">Villaalegre</term>
+					<term type="setting.territory">Andalucía</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Juana Gutiérrez (Juanita la larga)</term>
-					<term type="protagonist-profession">worker</term>
-					<term type="protagonist-social-level">low</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text"></term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Juana Gutiérrez (Juanita la larga)</term>
+					<term type="characters.protagonist.profession">worker</term>
+					<term type="characters.protagonist.socLevel">low</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="low">365</term>
+					<term type="authorText.group"></term>
 					
-					<term type="author-text-relation">medium</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end">positive</term>
-					<term type="text-movement">realista</term>
-					<term type="text-histlit-pages">3.0</term>
-					<term type="text-TOC-range">4</term>
-					
+					<term type="authorText.relation">medium</term>
+					<term type="characters.protagonist.age">young</term>
+					<term type="plot.end">positive</term>
+					<term type="text.movement">realista</term>
+					<term type="reception.ToC">4</term>
+					<term type="reception.pages" resp="MdLE7">3.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.edit" resp="epublibre">Realista</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -297,7 +387,7 @@
 				<p>-Diecinueve más diecisiete, más otros diecisiete que tiene Juanita ahora, son cincuenta y tres, que es mi edad: luego, muy descansadamente, pudiera yo ser el abuelo de esa pícara muchacha. </p>
 				<p><seg rend="italic">E pur si muove</seg> -proseguía, pues era hombre erudito hasta cierto punto, sabía un poco de italiano, porque había oído cantar muchas óperas, y conocía las palabras que se atribuyen a Galileo, así como varias otras sentencias expresadas en la lengua del Dante, verbi gracia: <seg rend="italic">Chi va piano, va sano, e va lontano</seg>. </p>
 				<p>La primera sentencia aplicada a su situación quería significar que él, a pesar de poder ser el abuelo de Juanita, quería y podía ser otra cosa muy diferente; y la segunda sentencia, que también recordaba D. Paco, quería significar que él debía ir con tiento, con pies de plomo y sin precipitarse, porque no se ganó Zamora en una hora, y porque la muchacha no era muy arisca en el fondo, ni probablemente tan firme y dura de entrañas como, merced al encontrón que había tenido con ella, le constaba que era firme y dura en su juvenil superficie. Además, las esperanzas, lejos de desvanecerse, crecían en su pecho, hallándose más inverosímil abuelo que inverosímil amante. Para corroborar esta lisonjera afirmación, se contemplaba D. Paco en el espejo en que solía afeitarse, el cual, aunque era pequeño, no lo era tanto que no reflejase casi toda su persona. Él exclamaba al verla, como el pastor Coridón de Virgilio o como el Marramaquiz de Lope: </p>
-				<lg>
+				<lg ana="poem">
 					<l>¡Pues no soy yo tan feo!</l>
 				</lg>
 				<p>Y verdaderamente, no era feo D. Paco, ni parecía viejo tampoco. </p>
@@ -514,7 +604,7 @@
 				<p>Ambas Juanas, que tampoco habían estado en la procesión, porque la habían visto pasar por delante de su casa, sita en la carrera, aparecieron en la iglesia cuando ya empezaba la misa. Involuntario y general murmullo de admiración se escapó entonces del pecho de los hombres. Las mujeres refunfuñaron de cólera y envidia. La madre iba delante abriéndose paso con los codos. Detrás venía la hija; hecha un sol, con su lindo vestido de seda chinesca, su mantilla de madroños, su alta peineta. Como el vestido era alto, Juanita no llevaba pañuelo y mostraba toda la gallardía y esbeltez de su talle. Parecía la señora principal, la reina de aquella función, y apenas podían comprender sus compatricios que fuese ella la misma moza que hacía poco iba con un cántaro por agua a la fuente. Era marcial y decidido su paso, pero al mismo tiempo, majestuoso y modesto. </p>
 				<p>En la mano, que en vez de emplearse en humildes y rudos trabajos domésticos, se diría que había estado conservada entre algodones, como delicada joya, tenía un pericón que manejaba con mucha gracia. </p>
 				<p>El asombro que causó su entrada en la iglesia bien se puede decir que durante tres o cuatro minutos turbó el orden y la tranquilidad que allí reinaban. El maestro de escuela, hombre leído y que sabía de memoria el romancero, recordó a este propósito, hablando a la oreja a un concejal, el efecto que hizo entrada semejante, en la ermita de San Simón, de cierta niña sevillana, alborotando hasta a los monagos y a los sacristanes, quienes, </p>
-				<lg>
+				<lg ana="poem">
 					<l>en vez de decir amén,</l>
 
 
@@ -681,7 +771,7 @@
 				<p>Aquí no podía menos de sonreírse Juanita, a pesar de lo fastidiada que estaba, y luego proseguía: </p>
 				<ab><seg rend="italic">El Imparcial</seg>, 12 de noviembre de 1895</ab>
 				<p>-Cierto que yo no soy mala y que amo a Dios sobre todas las cosas y que me complazco en darle adoración y culto; pero también, ¡qué diantres!, ¿por qué no confesarlo?, también me amo y me doy culto a mí misma. Quizás será pecado, pero es un pecadillo tan natural, que casi no es pecado. Lo que debo hacer es que este segundo culto, para no escandalizar a nadie, no sea público, sino misterioso. En lo exterior he de parecer como una beata pobre; ¿mas por qué he de privarme del placer de cuidar, de asear y de pulir con el mayor esmero este cuerpecito que Dios me ha dado? Sin que nadie lo sospeche he de cuidarle y he de lavarle como si fuera el de una infanta de España. ¡Qué horror, cielos santos! Si llegase a saberlo, por ejemplo, Julián el arriero. Yo le oí contar en la fuente mientras daba agua a sus mulos, y haciéndose cruces, la indignación que le causó, cuando servía en Córdoba a una marquesa, el averiguar, estando él en la cocina, que llevaban a dicha señora un enorme lebrillo y dos grandes jarros de agua a su cuarto. ¿Qué harías tú -le preguntó una chica- si tu mujer emplease también un lebrillo por el estilo? -Pues yo -contestó él- agarraría una vara y la pondría negra a varazos, por indecente y por mantesona. Necesario es que yo haga un misterio de mi limpieza, si no quiero que me excomulgue Julián y la mayoría de mis compatricios que discurren como él. Mas no por eso he de dejar de ser limpia. Además, quiero ser cuidadosa y muy regalada en mi ropa blanca interior. En los ratos de ocio, con mis ahorrillos y cuando no cosa para la calle, he de hacerme camisas finas y enaguas bordadas como no las use mejores una archiduquesa de Austria. Tapado todo ello con el mezquino traje exterior, me pareceré a la violeta, que escondida entre sus propias hojas y tal vez entre feos yerbajos, no deja conocer que existe como no sea al que tenga la nariz muy fina y por su delicado olor la descubra. Seré como aquel personaje de cierto romance, que recita D. Pascual, el cual personaje vestía de peregrino y llevaba una esclavina </p>
-				<lg>
+				<lg ana="poem">
 					<l>que non valía un reale;</l>
 
 
@@ -891,7 +981,7 @@
 				<p>Y diciendo esto, sin atender a más razones, se echó como loco sobre ella, y tan de repente, que ella no pudo sustraerse a sus abrazos y a sus besos. Cinco o seis, que en el número no están de acuerdo los historiadores, le plantó en las frescas mejillas, que se pusieron rojas como la grana. </p>
 				<p>Y no contento, le buscó la boca para besársela y se la halló y se la besó. </p>
 				<p>No estuvieron sus labios junto a los de ella el tiempo que los de D. Tristán de Leonís y la reina Iseo, de los que dice el antiguo romance: </p>
-				<lg>
+				<lg ana="poem">
 					<l>«Tanto estuvieron unidos</l>
 
 
@@ -973,7 +1063,7 @@
 				<p>En medio de su contemplación sintió cierta angustia y escarabajeo en su estómago, porque hacía cerca de veinte horas que no había comido, había andado mucho y no había dormido nada. En suma, fuerza es confesarlo, D. Paco tuvo hambre. </p>
 				<p>Miró a todos lados, como si fuese a cometer un crimen, muy receloso de que alguien pudiera verle, y convencido ya de que su soledad no podía ser mayor, metió la mano en las alforjas, y sacó de allí una blanca rosquilla y un bulto envuelto, bien envuelto en un antiguo número de <seg rend="italic">El Imparcial</seg>. ¿Qué había en este envoltorio? El historiador no debe ocultar nada. En el envoltorio, que desplegó D. Paco, había media docena de hermosos pedazos de lomo de cerdo, gruesos como el puño, de los que Juana la Larga había adobado y frito; de los que con el aliño de orégano, pimiento molido, comino y qué sé yo qué otras especias, ya recalentados en la propia manteca entre la que se conservan en orzas, ya extraídos de la manteca y fiambres, seducen a las criaturas más desesperadas y afligidas y les dicen ¡comedme! </p>
 				<p>D. Paco se preparó a obedecer el irresistible mandato; pero, pensando en aquel mismo instante en que Juana la Larga, la madre de quien causaba su tormento, era quien había guisado aquel lomo, las más tristes memorias se le recrudecieron, y con una magra entre los dedos, al ir ya a tirar un bocado, se le atragantaron en la garganta los dos tan sabidos versos de Garcilaso, que dicen: </p>
-				<lg>
+				<lg ana="poem">
 					<l>¡Oh dulces prendas por mí mal halladas,</l>
 
 
@@ -1063,7 +1153,7 @@
 				<p>D. Paco estaba ya casi encima del bandido, y al mismo tiempo que éste disparaba, le sacudió tan tremendo garrotazo en el brazo izquierdo, que le hizo soltar el arma y dar con ella en el suelo. </p>
 				<p>El tiro salió antes, pero, torcida ya la dirección, las postas, sin tocar a D. Paco, fueron a agujerear el muro. </p>
 				<p>El de la carátula retrocedió para evitar nuevo golpe; y, aunque magullado por el que había recibido, sacó de la faja que rodeaba su cintura una truculenta navaja de Albacete, de las de virola y golpetillo, de las que llevan la inscripción </p>
-				<lg>
+				<lg ana="poem">
 					<l>Si esta víbora te pica</l>
 
 
@@ -1134,7 +1224,7 @@
 				<p>¿Qué había de hacer D. Paco sino ufanarse, enternecerse, derretirse y perdonarlo todo al oír tan dulces y apasionadas frases en tan linda y fresca boca? No sabía, sin embargo, qué decir ni qué hacer, y como generalmente ocurre en tales ocasiones, dijo no pocas tonterías. </p>
 				<p>-Apenas puedo creer -dijo-, que no repares ya en mi vejez, que no pienses en que puedo ser tu abuelo y que me quieras como aseguras. ¿Pretendes acaso burlarte de mí y trastornarme el juicio? ¿Te propones halagarme con la esperanza de una felicidad que no me atrevía ya a concebir ni en sueños, para matarme luego desvaneciéndola? </p>
 				<p>-No, vida mía: yo no quiero desvanecer tu esperanza, sino realizarla. Yo quiero darte la felicidad, si juzgas felicidad el que yo sea tuya. Si no me desprecias, si me perdonas, si no me crees indigna, nos casaremos, aunque rabie doña Inés de que yo no sea monja, aunque D. Andrés te retire su favor, aunque se nos haga imposible la permanencia en este pueblo, y aunque tengamos que irnos por ahí, acaso a vivir miserablemente. No lo dudes; si fuese posible que D. Andrés se prendase de mí hasta el extremo de querer casarse conmigo, yo le despreciaría por amor tuyo aunque fueses tú mil veces más pobre de lo que eres: yo le cantaría la copla que dice: </p>
-				<lg>
+				<lg ana="poem">
 					<l>«Más vale un jaleo probe</l>
 
 
@@ -1166,7 +1256,7 @@
 				<p>-Yo te concedo, en atención a tus altos méritos y servicios -dijo con solemnidad- esta bonita condecoración, que vale mil veces más que la que tiene D. Andrés, y te declaro mi caballero y Gran Cruz de la orden de los celos disipados. Por eso es azul el listoncillo como las flores del romero. </p>
 				<p>D. Paco se levantó, sin pizca ya de celos, porque todo se convirtió en amor, y dijo: </p>
 				<p>-Tú me citaste una copla: no quiero ser menos; voy a citar otra, aunque tenga que llamarte en ella, no por tu nombre, sino como se llama la madre de tu santo. </p>
-				<lg>
+				<lg ana="poem">
 					<l>Las flores del romero</l>
 
 
@@ -1569,7 +1659,7 @@
 				<p>Juanita entonces se levantó de un brinco, dejando libre a D. Andrés, que se levantó también algo maltrecho, mohíno y humillado por la derrota. </p>
 				<p>Trocada así en piedad la cólera, Juanita hizo esfuerzos de imaginación, y, entre cándida y maliciosa, inventó desatinos para disimular o explicar su triunfo. </p>
 				<p>-No te aflijas, dijo. Lo que te pasa le hubiera pasado a un jayán: al propio Goliat. No soy yo quien te ha vencido sino el demonio que ahogaba a los impuros novios o amantes de la que fue luego mujer de Tobías, a fin de guardarla entera para él. Sin duda, D. Paco, que es muy devoto de San Rafael, Patrono de Córdoba, halló al tal demonio, en el desierto en que ha estado, y con el auxilio del arcángel, le desató y le envió a esta casa para que me defendiese. Por él estuviste, poco ha, y volverías a estar, si de nuevo te desmandaras, muy a punto de morir ahorcado como un zorzal entre mis dedos convertidos en percha. Pero no pienses más en eso. ¡Qué lástima si hubiera dado yo, sin querer, un día de luto a la ya entonces mal llamada Villalegre! Ahora no debemos pensar sino en el gran placer que hay en renovar amistades después de una brava batalla. Aquí no ha habido ni vencido ni vencedor. Digamos ambos a la vez, tú a mí y yo a ti: </p>
-				<lg>
+				<lg ana="poem">
 					<l>Valiente eres, capitán,</l>
 
 
@@ -1611,7 +1701,7 @@
 				<p>Todos estaban ya informados de lo que iba a suceder, unos directamente por Juanita, según ya hemos visto, y otros por medio del maestro de escuela, a quien Juanita había dado el encargo de convidarlos. No fueron, pues, indispensables, ni discursos, ni explicaciones. Reinó allí muy cordial alegría. </p>
 				<p>Rafaela, auxiliada por Calvete, a quien llamó para este fin, sirvió un delicado piscolabis. Para los que no habían cenado o tenían suficiente capacidad estomacal, hubo chocolate con hojaldres y con tortas de aceite; y para todos, mostachones, roscos y bizcochos de espumilla con mistela y dos o tres clases de rosolis. </p>
 				<p>Cuando cundió el regocijo y se aumentó la animación de todos, Juanita los formó en círculo, asidos de las manos, y se puso a cantar con mucha gracia y con muy afinada y buena voz, aunque no había estudiado música, el célebre cantar del Conde de Cabra: </p>
-				<lg>
+				<lg ana="poem">
 					<l>Yo no quiero al Conde de Cabra,</l>
 
 
@@ -1626,7 +1716,7 @@
 
 				</lg>
 				<p>Al cantar <seg rend="italic">es ¡ay!, a ti</seg>, Juanita miró con ojos muy dulces a D. Paco. Luego siguió cantando: </p>
-				<lg>
+				<lg ana="poem">
 					<l>Arroz con leche,</l>
 
 
@@ -1709,7 +1799,7 @@
 				<p>Se cortó la uña, despojándose de sus fuerzas taumatúrgicas y teratológicas, por obra y gracia de las tijeras de doña Agustina, que fue la piadosa Dalila de este Sansón de nuevo cuño. </p>
 				<p>Doña Agustina, sobre un fondo de raso color de púrpura, para que resaltase mejor, colocó y guardó la uña, como trofeo de su victoria, en un <seg rend="italic">passepartout</seg> muy bonito que colgó en su alcoba. </p>
 				<p>Por bajo de la uña quiso poner un letrero explicatorio, y rogó a D. Andrés que le pusiese. D. Andrés que, como ya sabemos, era muy erudito y que asimismo era algo guasón, recordó el cambio glorioso de Napoleón I, en los últimos años de su vida, y no creyendo menos glorioso el cambio del boticario, le aplicó los versos de Manzoni, y escribió de buena letra por bajo de la uña y defendido todo por un cristal: </p>
-				<lg>
+				<lg ana="poem">
 					<l>«Bella, inmortal, benéfica</l>
 
 
@@ -1726,7 +1816,7 @@
 				<p>El padre Anselmo está achacosillo y muy viejo, pero alegre y sereno con la esperanza de su tránsito a mejor vida. Ya no le pesa, antes se regocija, de que Juanita no sea monja, porque la quiere mucho y se le cae la baba cuando la ve tan hermosa y cuando oye su dulce voz y sus discretas razones. </p>
 				<p>Doña Inés, no obstante, sigue siendo su preferida, por lo mística que es y por la mucha teología que sabe. </p>
 				<p>Por último, el diputado novel ha pedido y recibido con frecuencia las noticias que de Antoñuelo se tienen en el lugar. Allá en el Río de la Plata, a donde el cacique le obligó a que emigrase, se dedicó al comercio y prosperó mucho. Aunque nunca quiso inscribirse en el consulado, para ahorrarse tres o cuatro duros, acudió con frecuencia a la legación pidiendo que España reclamase diplomáticamente en su favor contra mil agravios y daños que del gobierno argentino había recibido, y que exigiese con amenazas de bombardeo que dicho gobierno le diera una indemnización muy cuantiosa. Pero ni le indemnizaron de nada, ni por amor suyo hubo bombardeo, y él adquirió tan mala reputación y crédito que consideró prudente irse a Cuba. Ya en la Habana, como es mozo gentil y de rostro blanco y sonrosado, logró cautivar el sensible corazón de una rica heredera, muy subidita de color. Casado con ella, vivió con tanta pompa y decoro, dando comidas y saraos y paseando en quitrín, acompañado de su mujer, tan ricamente vestida que parecía la reina de Saba, que se empeñó, hipotecó los predios urbanos y rústicos y acabó por tener más deudas que pelos en la cabeza. A lo que parece, a fin de consolarse y de remediarse, se ha hecho ahora partidario de la independencia de la perla de las Antillas, y ya sueña con ser en Cuba libre un Dictador como el Doctor Francia en el Paraguay o como Rosas en Buenos Aires, o un Emperador, como Faustino I en Haití, aunque tenga que tiznarse con hollín: ya, con más modestia, forma un plan que muchas personas creen desatino, aunque tal vez no lo sea. Espera que por filibustero y laborante, le secuestren los bienes, porque entonces, según dice, se irá a Nueva-York, se hará ciudadano de la Gran República, y, nuevo Coriolano español, obligará a su ingrata patria a darle una indemnización <seg rend="italic">di primo cartello</seg>. Aunque tenga que ceder a los Fabricios, Cincinatos y Catones de escalera abajo y de quinta clase, que acaso haya en las orillas del Potomac, las cuatro quintas partes de lo que se extraiga a la paciente y semiforzosa longanimidad de España, siempre le quedará otra quinta parte, con la cual podrá vivir como un príncipe en una magnífica casa de la Quinta Avenida. Allí brillará su morena consorte, que habla ya el idioma de Shakespeare y de Milton, como la más ilustrada, <seg rend="italic">talkative</seg> y <seg rend="italic">funny</seg> inglesita </p>
-				<lg>
+				<lg ana="poem">
 					<l>De la fecunda zona,</l>
 
 

@@ -2,7 +2,7 @@
 Corpus of Spanish Novel from 1880-1940
 ========================================
 
-This corpus contains  39 texts from 13 Spanish authors (2 470 277  tokens). It is the second release of the whole corpus of the PhD thesis of José Calvo Tello, who is part of the young research group CLiGS, at the University of Würzburg, Germany.
+This corpus contains  39 texts from 13 Spanish authors (2 521 066  tokens). It is the second release of the whole corpus of the PhD thesis of José Calvo Tello, who is part of the young research group CLiGS, at the University of Würzburg, Germany.
 
 See the "metadata.csv" file for information of the publication as well as literary information about the novels like place and period of setting, information about the protagonist, narrator, etcetera.
 

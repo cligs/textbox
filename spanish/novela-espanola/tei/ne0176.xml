@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/d1064e7ae96ce16737f77d2adbc0704dde3979dc/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,9 +9,11 @@
 				<title type="sub">Novela</title>
 				<title type="short">Prodiga</title>
 				<title type="idno">
+					<idno type="bne">XX2252047</idno>
 					<idno type="viaf">310912416</idno>
 				</title>
 				<author>
+					<idno type="bne">XX920308</idno>
 					<idno type="viaf">44294383</idno>
 					<name type="short">Alarcon</name>
 					<name type="full">Pedro Antonio de Alarcón</name>
@@ -18,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1255</measure>
-				<measure unit="divs">49</measure>
-				<measure unit="words">62839</measure>
-				<measure unit="chars">368846</measure>
-				<measure unit="size_kb">412</measure>
+				<measure unit="lines">1269</measure>
+				<measure unit="divs">51</measure>
+				<measure unit="tokens">63248</measure>
+				<measure unit="chars">371799</measure>
+				<measure unit="size_kb">413</measure>
 
 				<measure unit="chapters">44</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">5</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1145</measure> 
-				<measure unit="line_verses">8</measure> 
-				<measure unit="heads">46</measure> 
+				<measure unit="blocks">1152</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">8</measure> 
+				<measure unit="heads">47</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1091</measure> 
-				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">588</measure> 
-				<measure unit="numbers">26</measure> 
-				<measure unit="puncts">20759</measure>
+				<measure unit="paragraphs">1095</measure> 
+				<measure unit="abs">2</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">585</measure>
+				<measure unit="saids">828</measure>
+				<measure unit="narrative.ps">510</measure>
+				<measure unit="ss">1917</measure> 
+				<measure unit="numbers">28</measure> 
+				<measure unit="puncts">20587</measure> 
+				<measure unit="len.abstract">1623</measure>
+
+				<measure unit="types">10909</measure>
+
+				<measure unit="ss">695</measure>
+				<measure unit="ss.len.mean">553.4374100719424</measure>
+				<measure unit="ss.len.std">719.2693005113179</measure>
+				<measure unit="mean.ss.active.verbs">9.584172661870504</measure>
+				<measure unit="std.ss.active.verbs">13.128848234715331</measure>
+
+				<measure unit="ws">78174</measure>
+				<measure unit="ws.len.mean">3.9291836160360223</measure>
+				<measure unit="ws.len.std">3.003149353014782</measure>
+
+				<measure unit="conjunctions">5532</measure>
+				<measure unit="determiners">9085</measure>
+				<measure unit="nouns">13845</measure>
+				<measure unit="verbs">12800</measure>
+				<measure unit="adverbs">4081</measure>
+				<measure unit="adjectives">3672</measure>
+				<measure unit="adpositions">7862</measure>
+				<measure unit="punctuations">14938</measure>
+				<measure unit="pronouns">5811</measure>
+				<measure unit="dates">69</measure>
+				<measure unit="numbers">347</measure>
+				<measure unit="interjections">132</measure>
+
+				<measure unit="ne.persons">1397</measure>
+				<measure unit="ne.organizations">741</measure>
+				<measure unit="ne.locations">438</measure>
+				<measure unit="ne.others">277</measure>
+
+				<measure unit="wnlex.noun.plants">78</measure>
+				<measure unit="wnlex.verb.communications">1361</measure>
+				<measure unit="wnlex.noun.foods">78</measure>
+				<measure unit="wnlex.verb.possessions">371</measure>
+				<measure unit="wnlex.verb.cognitions">751</measure>
+				<measure unit="wnlex.noun.communications">969</measure>
+				<measure unit="wnlex.noun.states">400</measure>
+				<measure unit="wnlex.verb.statives">2703</measure>
+				<measure unit="wnlex.noun.cognitions">588</measure>
+				<measure unit="wnlex.noun.times">710</measure>
+				<measure unit="wnlex.verb.bodys">437</measure>
+				<measure unit="wnlex.noun.persons">1753</measure>
+				<measure unit="wnlex.adj.alls">2555</measure>
+				<measure unit="wnlex.noun.quantitys">63</measure>
+				<measure unit="wnlex.noun.phenomenons">101</measure>
+				<measure unit="wnlex.verb.creations">383</measure>
+				<measure unit="wnlex.adj.perts">120</measure>
+				<measure unit="wnlex.adv.alls">1466</measure>
+				<measure unit="wnlex.noun.processs">17</measure>
+				<measure unit="wnlex.noun.artifacts">1001</measure>
+				<measure unit="wnlex.verb.perceptions">375</measure>
+				<measure unit="wnlex.noun.feelings">459</measure>
+				<measure unit="wnlex.verb.weathers">43</measure>
+				<measure unit="wnlex.noun.substances">105</measure>
+				<measure unit="wnlex.noun.shapes">20</measure>
+				<measure unit="wnlex.verb.competitions">126</measure>
+				<measure unit="wnlex.verb.motions">791</measure>
+				<measure unit="wnlex.noun.animals">134</measure>
+				<measure unit="wnlex.noun.acts">785</measure>
+				<measure unit="wnlex.noun.bodys">353</measure>
+				<measure unit="wnlex.noun.objects">278</measure>
+				<measure unit="wnlex.noun.motives">22</measure>
+				<measure unit="wnlex.verb.socials">682</measure>
+				<measure unit="wnlex.noun.groups">417</measure>
+				<measure unit="wnlex.verb.consumptions">123</measure>
+				<measure unit="wnlex.noun.possessions">117</measure>
+				<measure unit="wnlex.noun.Topss">192</measure>
+				<measure unit="wnlex.noun.relations">19</measure>
+				<measure unit="wnlex.noun.attributes">691</measure>
+				<measure unit="wnlex.verb.emotions">400</measure>
+				<measure unit="wnlex.noun.locations">283</measure>
+				<measure unit="wnlex.noun.events">352</measure>
+				<measure unit="wnlex.verb.contacts">382</measure>
+				<measure unit="wnlex.xxxs">54516</measure>
+				<measure unit="wnlex.verb.changes">604</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -66,59 +151,63 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1833</term>
-					<term type="author-date-death">1891</term>
-					<term type="author-TOC-range" resp="MdL7">6</term>
-					<term type="author-histlit-pages" resp="MdL7">54</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1833</term>
+					<term type="author.date.death">1891</term>
+					<term type="author.TOC.range" resp="MdL7">6</term>
+					<term type="author.litHist.pages" resp="MdL7">54</term>
+					<term type="author.movement">realism</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">0</term>
 					
 
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">novela</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="genre.supergenre">narrative</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">sentimental</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="1">social</term>
+					<term type="genre.subgenre.ownAnno" cligs:importance="2">realist</term>
+					<term type="genre.subtitle">novela</term>
 
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
+					<term type="narration.narrator">heterodiegetic</term>
+					<term type="setting.type">rural</term>
+					<term type="characters.protagonist.gender">male</term>
 
-					<term type="subgenre-lithist">novela de tesis</term>
+					<term type="genre.subgenre.litHist" resp="MdLE">novela de tesis</term>
 
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">unknown</term>
-					<term type="setting-territory">Andalucía</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
+					<term type="setting.name.represented.exist">True</term>
+					<term type="setting.represented">unknown</term>
+					<term type="setting.name">unknown</term>
+					<term type="setting.territory">Andalucía</term>
+					<term type="setting.country">Spain</term>
+					<term type="setting.continent">Europe</term>
 
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Guillermo de Loja</term>
-					<term type="protagonist-profession">politician</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">730</term>
-					<term type="group-text">novela de tesis</term>
-					<term type="author-text-relation">none</term>
+					<term type="plot.representation">realistic</term>
+					<term type="characters.protagonist.name">Guillermo de Loja</term>
+					<term type="characters.protagonist.profession">politician</term>
+					<term type="characters.protagonist.socLevel">medium</term>
+					<term type="time.period">contemporary</term>
+					<term type="time.span" cert="low">730</term>
+					<term type="authorText.group">novela de tesis</term>
+					<term type="authorText.relation">none</term>
 
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
+					<term type="characters.protagonist.age">adult</term>
+					<term type="plot.end">negative</term>
 					
-					<term type="time-year">18??</term>
-					<term type="subgenre-edit" resp="#"></term>
-					<term type="text-movement">realista</term>
-					<term type="text-histlit-pages">3.0</term>
-					<term type="text-TOC-range">5</term>
+					<term type="time.year">18??</term>
+					<term type="genre.subgenre.edit" resp="#"></term>
+					<term type="text.movement">realista</term>
+					<term type="reception.ToC">5</term>
+					<term type="reception.pages" resp="MdLE7">3.0</term>
+					<term type="corpora.CoNSSA">True</term>
+					<term type="corpora.CoNSSA.canon">True</term>
+					<term type="reception.mentioned" resp="HdLE">True</term>
+					<term type="genre">novela</term>
+					<term type="genre.subgenre.litHist" resp="HdLE"></term>
+					<term type="reception.mentioned" resp="MdLE">True</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -142,14 +231,14 @@
 				<head>LIBRO PRIMERO: CAMPAÑA ELECTORAL</head>
 				<div n="1" type="chapter" xml:id="ne0176_chap1">
 					<head>I. Política recreativa</head>
-					<p><seg rend="small-caps">ace </seg>ya de esto quince ó veinte años.</p>
+					<p><seg rend="smallcaps">ace </seg>ya de esto quince ó veinte años.</p>
 					<p>Preparábase en nuestra siempre revuelta España una elección general de Diputados á Cortes. La batalla debía reñirse aquella vez por <seg rend="italics">circunscripciones,</seg> y los tres candidatos de oposición embozada que aspiraban á representar la parte Nordeste de cierta provincia andaluza, donde eran mucho menos conocidos que en Madrid, bien que tuviesen en ella tal ó cuál pariente y alguna finca, andaban recorriendo, juntos y á caballo, villas, lugares, aldeas y cortijos, en busca de votos contrarios al Ministerio;— oficio divertidísimo si los hay, cuando uno es todavía joven y poco ambicioso, aficionado á montar, indiferente á los peligros ó dado á correrlos, más devoto de la naturaleza que de la política, y más amante de las mozas guapas, del buen vino y de las fatigas corporales que de todas las formas de gobierno habidas y por haber.</p>
 					<p>Tal acontecía en aquel entonces á los candidatos referidos, y muy especialmente al que entre ellos hacía cabeza, del cual hablaremos luego más despacio. Llevaban, pues, muchos días de asordar agrestes soledades con sus risas y bromas, reservando la formalidad para cuando entraban en poblado; de escalar y salvar montes y breñas, á todo el correr de sus alquilados corceles, en demanda de ocultos y desprevenidos lugarejos; de entrar en ellos como asoladora tromba, interrumpiendo la fastidiosa paz de la rutina y la pobreza; de comerse la <seg rend="italics">matanza</seg> de alcaldes, estanqueros y otras personas de viso (que no la prueban nunca, sino que la guardan para tales casos de honra, y de dejarles en cambio la cabeza y el pueblo llenos de perturbadoras cuanto peregrinas especies madrileñas, que cada labriego traducía al tenor de sus pasiones y apetitos, con detrimento y mengua de antiguos respetos sociales....</p>
 					<p>Dicho se está que no iban solos aquellos tres <seg rend="italics">futuros ministros</seg>,—así reputados cuando menos por sus partidarios, como todo candidato primerizo á la diputación....—Poderosos ó guerrilleros hijos del país, muy más interesados que ellos en la contienda, aunque nada se les alcanzase de ideas políticas ó no políticas, los acompañaban en rabicortas jacas con albardilla moruna ó en paridoras yeguas con aparejo redondo, amén de la servidumbre propia y de los espoliques voluntarios que, á pié y con escopetas, iban dando á la expedición carácter y colorido de verdadera algarada....—Renovábase casi todo este séquito en cada pueblo conquistado: allí esperaban á nuestros héroes, además de <seg rend="italics">los amigos</seg> de la localidad, comisiones avanzadas del pueblo siguiente, y se despedía la que llamaremos <seg rend="italics">escolta postuma</seg> del pueblo anterior; de modo que el entusiasmo y los obsequios no decaían nunca, sino que, antes bien, aquellos agasajos que los hospedadores sucesivos presenciaban en la residencia ajena, les servían de estímulo para echar la casa por la ventana en la residencia propia, habiéndose dado ya el caso de poner á los viajeros unas camas con tantos colchones, que apenas les dejaban sitio, entre las almohadas y el techo, para santiguarse después de acostados.</p>
 				</div>
 				<div n="2" type="chapter" xml:id="ne0176_chap2">
 					<p>II: Una gran electora</p>
-					<p><seg rend="small-caps">En </seg>tal guisa, los tres jóvenes aspirantes á legisladores, á quienes, para entendernos de algún modo, llama- remos Enrique, Miguel y Guillermo, liegaron á un pueblecillo, de donde nadie había salido á esperarlos, y en el cual, si bien fueron decorosamente recibidos y tratados.... por el Ayuntamiento, en virtud de recomendaciones eficacísimas.... del Gobernador, que era más adicto á ellos que al Gobierno de S. M., tuvieron el disgusto de oir de boca del mismísimo Alcalde, ó, mejor dicho, de boca del Secretario (única persona que, además del Cura, sabía allí leer y escribir, y áun pudiera añadirse que hablar y pensar), las siguientes desagradables razones:</p>
+					<p><seg rend="smallcaps">En </seg>tal guisa, los tres jóvenes aspirantes á legisladores, á quienes, para entendernos de algún modo, llama- remos Enrique, Miguel y Guillermo, liegaron á un pueblecillo, de donde nadie había salido á esperarlos, y en el cual, si bien fueron decorosamente recibidos y tratados.... por el Ayuntamiento, en virtud de recomendaciones eficacísimas.... del Gobernador, que era más adicto á ellos que al Gobierno de S. M., tuvieron el disgusto de oir de boca del mismísimo Alcalde, ó, mejor dicho, de boca del Secretario (única persona que, además del Cura, sabía allí leer y escribir, y áun pudiera añadirse que hablar y pensar), las siguientes desagradables razones:</p>
 					<p>—¡Mal pleito traen Vds. por aquí, sino cuentan con la <seg rend="italics">Señora Marquesa!</seg> jNi el Gobernador ni nadie conseguirá que estos electores voten ni hagan otra cosa que lo que ella diga!—Los mismos individuos del Ayuntamiento se mirarán mucho en disgustarla.... —Procuren Vds., pues, que <seg rend="italics">Su Excelencia </seg>diga media palabra en favor de su candidatura, y yo me encargo de lo demás....</p>
 					<p>—¡No sabemos de qué <seg rend="italics">Señora Marquesa </seg>nos habla V.!.... (respondió con mucho énfasis el llamado Enrique). Según nuestros apuntes, este pueblo,—que, efectivamente, fué <seg rend="italics">de señorío</seg> en la antigüedad, y perteneció por completo al marquesado del mismo nombre,—ha pasado, con la desvinculación, y con las locuras de los últimos Marqueses, á ser propiedad de sus habitantes, ó sea de los antiguos colonos, quienes han ido comprando poco á poco las desamortizadas tierras, sin que hoy exista, ni áun de nombre, aquel ilustre título, por no haber sacado el último heredero...., ó heredera, la indispensable Carta de sucesión, previos los pagos correspondientes....—¡Ya ve V. que conocemos el distrito á palmos!</p>
 					<p>—Todo eso es verdad.... (replicó el Secretario con mansedumbre): pero no lo es menos que, de esa arruinada familia de <seg rend="italics">Grandes de España de primera clase</seg>, queda una señora, á quien aquí llaman todos <seg rend="italics">la Marquesa</seg> por ser la única hermana del último que llevó el título de <seg rend="italics">Marqués</seg>...., el cual se pegó un tiro en Francia cuando perdió al juego el último maravedí....</p>
@@ -325,7 +414,7 @@
 					<p>Serenóse luego poco á poco, y su sonrisa acabó por convertirse en burlona. Algo como un cuidado de aquel día ó de aquel momento animó y despejó su semblante; y, levantándose con gallardo y resuelto ademán, dirigióse á la huerta; llegó á la parte por donde la derruida tapia lindaba con el camino, y púsose á escuchar, con el oído al viento, no sin decir antes, primero á media voz, y después para sí misma:</p>
 					<p>—Mucho tarda José....—¡De seguro me trae alguna embajada del candidato de las malas pulgas, que diría Antonio; si ya no es que el mismo D. Guillermo viene á verme beber en la jarra de búcaro!—¡Esta mañana me miraba de una manera que conozco demasiado!—Todos los hombres que me han dirigido miradas semejantes.... han perdido por mí la vida ó el alma!....—Y, ¡cuánta, cuánta pasión hay en la suya!....</p>
 					<p>Por aquí iba en su monólogo mental la proscrita diosa, cuando oyó á lo lejos pisadas de caballerías que avanzaban al trote....</p>
-					<p>—¡José no viene solo!.... (se dijo en el acto, llena de pavor).—¡Otro jinete, cuando menos, cabalga con él, y no en mulo, sino á caballo!....—¡Ah! ya voy teniendo oído de cortijera.... ¡Ya siento venir al lobo á gran distancia!—¡Ahí está otra vez el <seg rend="small-caps">Hombre, </seg>mi constante enemigo!.... ¡mi fatalidad!....— ¡Pero no! ¡no lo será esta vez!</p>
+					<p>—¡José no viene solo!.... (se dijo en el acto, llena de pavor).—¡Otro jinete, cuando menos, cabalga con él, y no en mulo, sino á caballo!....—¡Ah! ya voy teniendo oído de cortijera.... ¡Ya siento venir al lobo á gran distancia!—¡Ahí está otra vez el <seg rend="smallcaps">Hombre, </seg>mi constante enemigo!.... ¡mi fatalidad!....— ¡Pero no! ¡no lo será esta vez!</p>
 					<p>Pasaron tres ó cuatro minutos.</p>
 					<p>El acompasado son de las dos cabalgaduras se aproximaba rápidamente....</p>
 					<p>—¡Pobre ingeniero! (pensó entonces Julia, encaminándose al jardín). ¡Cómo se conoce que está acostumbrado á tender puentes sobre los abismos! ¡Con qué valor y resolución viene á buscarme!—¡Infortunado!</p>
@@ -439,7 +528,7 @@
 					<p>»Ruego á V., queridísima Julia, que, en tanto llega ese día de inefable misericordia, me escriba, siquiera una vez, diciéndome que ha perdonado al imprudente y harto castigado <seg rend="italics">invasor</seg> de la inolvidable noche del i.° de</p>
 					<p>Octubre. Suplicóle asimismo que nunca se juzgue ya sola en ese apartado valle, donde siempre estará acompañándola mi pobre alma; y que, al menor contratiempo que turbe la costosa paz de su vida, prescinda V. de mi pasión amorosa, y me llame á su lado, sin escrúpulo alguno, como al hermano más leal, tierno y solícito.</p>
 					<p>»No se enoje V., en fin, hermosa Julia, si concluyo como empecé, diciéndole que la adoro más, mucho más que aquella noche, y que es suyo, todo suyo, y lo será eternamente, el corazón de</p>
-					<p><seg rend="small-caps">»Guíllermo de </seg>Loja.</p>
+					<p><seg rend="smallcaps">»Guíllermo de </seg>Loja.</p>
 					<p>»Vivo en Madrid; calle del Barquillo, núm... »</p>
 					<p>Cuando nuestro contumaz protagonista hubo escrito, leido, copiado, vuelto á leer, cerrado y lacrado la precedente carta, ya eran las dos.... y principiaban á sonar los anunciados golpes de los electores á la puerta de la fonda, y hasta se oían algunos preludios de figle y de otros instrumentos de marca <seg rend="sup">m</seg>ayor, como señal de que los tres vencedores en los comicios iban á ser acompañados á la estación del ferro-carril por lo que en la villa y corte llamamos una <seg rend="italics">murga</seg></p>
 					<p>¡Apresurémonos á bajar el telón, despidiéndonos de nuestros amigos hasta Madrid, donde nos será fácil hallarlos en situación más envidiable, aunque menos triunfal y gloriosa!</p>
@@ -499,7 +588,7 @@
 					<p>»Julia: nada hay en el mundo, en el orden de los afectos íntimos, que pueda retraerme de consagrar á V. toda mi vida.— Estoy sistemáticamente alejado de mi casa paterna, por no ver á otra mujer en el puesto que ocupó mi difunta madre, ni disputar á mis hermanastros el cariño ó las atenciones del autor de mis días.*—No tengo amores: los he tenido: no han bastado á mi felicidad. —Conociendo profundamente mi carácter, me espanta la idea de constituir casa y familia en la Corte.... ¡Digo más: asústame la idea de tener hijos en estos tiempos de relajación moral social y doméstica!—¿Los querría demasiado...., y tal vez me costarían la vida ó yo me arrepentiría de mi propia obra....! —En suma: no soy yo, aunque tan joven, un sér lleno de ilusiones y esperanzas que mire hacia el <seg rend="italics">porvenir</seg>, ni tan siquiera en el camino de su vida individúalo privada....— Heme sentado á la edad que tengo, y no quiero andar más....</p>
 					<p>»En tal situación de ánimo, la casualidad me ha hecho encontrar á V. parada también en el desierto de la existencia, sin fuerzas para seguir, sin valor para desearlo, sobre-viviéndose, como yo me sobrevivo....—Por eso me pongo á su lado, diciéndole: « Espejemos juntos nuestro último día. El cansancio de su corazón de V. no liega ni con i»mucho al de mi alma. He pensado, he leído, »he visto, he analizado tanto en el mundo »real y en el mundo moral, en la sociedad y »en mi espíritu, en la ciencia y en el arte, «que no aspiro á más gloria que á morir «abrazado á la eterna Belleza, personificada »en V., ó, cuando menos, adorándola de «rodillas y dando vida y alma por ahorrarle «la más leve pena.»</p>
 					<p>»Ya ve V., mi querida Julia, que no adelanto gran cosa en mi curación....—Ruégole, pues, que no desdeñe tormentos tan efectivos y amargos como estos que me hace pasar, y que me escriba, siquiera una vez, diciéndome que, por término de ellos, encontraré amparo en su corazón, si llegan á faltarme del todo las fuerzas y me presento ahí el día que menos se lo figure....—Entre tanto, acoja V. con afabilidad en sus días, se lo suplico de nuevo, todo el amor y la adoración que caben en el alma de su apasionado</p>
-					<p><seg rend="small-caps">«Guillermo de </seg>Loja.</p>
+					<p><seg rend="smallcaps">«Guillermo de </seg>Loja.</p>
 					<p>«Madrid, á las tres de la madrugada del 17 de Diciembre de....»</p>
 				</div>
 				<div n="13" type="chapter" xml:id="ne0176_chap13">
@@ -520,7 +609,7 @@
 					<p>—¡Extraña y valerosa mujer! (solía pensar Guillermo algunas noches al tiempo de acostarse): ¡Indudablemente, su silencio revela amor y compasión, como su digna actitud de aquella noche!—Que han llegado á su poder mis cartas es seguro, puesto que en el correo he visto devueltos, y firmados por ella, los sobres de los certificados....—¿Si estará mala?—¡Oh!.... no.... ¡no quiero creerlo!—Y, de todos modos, ¿qué puedo hacer para tener noticias suyas? ¿A quién le escribo?—Ni Antonio ni su hijo sabrán leer....— ¿Al Secretario de marras?....—¡Qué ignominia! ¡Qué escándalo!—¡Ah! ¡Pobre Julia! ¡Y pobre de mí, amarrado á esta corte por compromisos políticos de que ningún hombre de honor puede desentenderse!—Decididamente, entre- nosotros media un abismo.... ¡el abismo de su larga historia! ¡Con qué horror y espanto oyó la otra noche pronunciar su nombre aquella Duquesa anciana, á quien me atreví á preguntar: quién era Julia de ***, ó por mejor decir, <seg rend="italics">quién había sido</seg>....; pues afortunadamente fingí creer que ya no existía!—Debo, sin embargo, tener presente que la tal Duquesa es la propia efigie de la austeridad y la intolerancia....—jYoseguiréinquiriendo, hasta dar con una persona razonable que sepa y me cuente la verdadera historia de mi tristeamiga!—¡Oh! ¡Cuán fuera de propósito se dijo, sobre el sepulcro de una esposa y madre:</p>
 					<p>¡Muera más bien que envejecer la hermosa!</p>
 					<p>—¡Para ti, Julia mía, debió escribirse este verso; para ti y para todas las beldades que pasan el zenit de la edad sin tener hijos, ni tan siquiera esposo que desde la juventud las haya acompañado por el sendero de la vida!—Pero ¿qué hablo? ¡Yo no quiero que muera Julia!.... Yola adoro....—Yo he de ir á buscarla.... Yo lo deseo; por lo menos, con el propio afán que antes de pronunciar mi discurso.—Sin embargo, admitamos que no llegara á ir, porque me fuera imposible.... Admitamos que aquella infortunada hubiese de pasar años y años, tal vez otros tantos de los que hoy tiene, en el abandono y soledad en que yo la he visto....—¡Qué lenta agonía! ¡Qué horrible tortura! ¡Y cuán á punto podría repetir ella el verso del pagano Quintana!....*,—ya que no prefiriese recitar aquellos, más cristianos y filosóficos, que pone Ayala en boca de Rioja:</p>
-					<lg>
+					<lg ana="poem">
 						<l>¡Oh! ¡Necio quien maldice </l>
 						<l>El revolver del tiempo y su carrera!</l>
 						<l>Si el tiempo no corriera presuroso,</l>
@@ -952,7 +1041,7 @@
 					<p>La velada concluía casi siempre con la lie-gada del periódico, con el ruego de Julia á Guillermo de que lo leyera en alta voz, y con la tenaz resistencia del joven á mirar siquiera el aborrecido papel,—que, si ya no se quemaba, porque no había lumbre en el salón, iba á aumentar, con faja y todo, sobre la repisa de la chimenea, una altísima pila de no leídos artículos <seg rend="sub">5</seg> sueltos, gacetillas y revistas de teatros ó de salones que hubiera encolerizado al buen Guttenberg.</p>
 					<p>En compensación, las obras hidráulicas seguían dando pasto abundante á la febril actividad del ingeniero. La Presa del río se concluyó el último día de Julio, y sólo faltaba poner la compuerta de madera en el murallón del pantano para inaugurar la entrada de las aguas en aquel gran depósito; solemnísimo acontecimiento que coincidiría con el remate de las tareas de la recolección. —En cuanto al canal subterráneo, á la cascada del jardín y á la famosa <seg rend="italics">Isla de Cleopa-tra</seg>, ya hemos dicho que no se inaugurarían hasta el célebre i.° de Octubre; y en verdad que, para ello, habría que trabajar sin descanso, muy especialmente en la parte decorativa y apoteótica....</p>
 					<p>Finalmente: el <seg rend="italics">intolerante</seg> y <seg rend="italics">oficioso</seg> Cura del Lugar vecino (así lo calificaba Guillermo) no había vuelto á decir esta boca es mía, y bajo tales auspicios, llegó el 1 de Agosto, día señalado para la primera de las dos susodichas inauguraciones.</p>
-					<p>Aunque, por su índole y objeto, de mera utilidad agrícola, aquellas obras podían denominarse <seg rend="italics">públicas</seg> con relación al Cortijo, también entraba por algo en ellas la conmemoración de los amores de Julia y Guillermo, dado que éste había enterrado bajo los sillares de la Presa una caja de plomo con cierta especie de acta, firmada por los dos, en que daban á las generaciones futuras testimonio demasiado elocuente de su pasión y <seg rend="sup">s</seg>u felicidad, mientras que, á mayor abundamiento, el muro del Lago ostentaba vistosa lápida, en que se leían sus nombres, la fecha de la obra y el conocidísimo proverbio <seg rend="small-caps">omnia vincit amor </seg>; todo ello en latín y con abreviaturas, á imitación de las antiguas inscripciones romanas.—Es decir, que el poeta, el artista, el soñador, perseveraba en la picara costumbre de <seg rend="italics">monumentalizar</seg> sus emociones y alectos, sin tener en cuenta, ó tal vez practicando inconscientemente, por instinto de conservación, aquello, que más atrás dijimos, de que el mejor modo de desechar una idea es escribirla, grabarla, <seg rend="italics">monumentalizarla</seg> en cualquier forma.</p>
+					<p>Aunque, por su índole y objeto, de mera utilidad agrícola, aquellas obras podían denominarse <seg rend="italics">públicas</seg> con relación al Cortijo, también entraba por algo en ellas la conmemoración de los amores de Julia y Guillermo, dado que éste había enterrado bajo los sillares de la Presa una caja de plomo con cierta especie de acta, firmada por los dos, en que daban á las generaciones futuras testimonio demasiado elocuente de su pasión y <seg rend="sup">s</seg>u felicidad, mientras que, á mayor abundamiento, el muro del Lago ostentaba vistosa lápida, en que se leían sus nombres, la fecha de la obra y el conocidísimo proverbio <seg rend="smallcaps">omnia vincit amor </seg>; todo ello en latín y con abreviaturas, á imitación de las antiguas inscripciones romanas.—Es decir, que el poeta, el artista, el soñador, perseveraba en la picara costumbre de <seg rend="italics">monumentalizar</seg> sus emociones y alectos, sin tener en cuenta, ó tal vez practicando inconscientemente, por instinto de conservación, aquello, que más atrás dijimos, de que el mejor modo de desechar una idea es escribirla, grabarla, <seg rend="italics">monumentalizarla</seg> en cualquier forma.</p>
 					<p>Como quiera que fuese, Guillermo se em-penó en hacer participar de su júbilo y entusiasmo á todos los moradores de la Cortijada, y, con este fin, mandó á la Capital por algunas palmas y carretillas de fuegos artificiales; entregó cuatro borregos y mucho pan y vino al padre de Brígida, para que los labriegos organizasen una gran merienda al aire libre, cerca de la Presa del río; dió igual cantidad de vituallas á los trabajadores forasteros, para que las disfrutasen cerca de la Presa del Pantano, y determinó, últimamente, que Julia, él, Brígida, José, el tío Antonio y el tío Juan comerían en el ameno barranco, sombreado por altas peñas, á cuyo pié comenzaría á reunirse aquel día el gran retén de aguas, denominado ya <seg rend="italics">Lago del Amor</seg></p>
 					<p>La antigua <seg rend="italics">Pródiga</seg>, que se había convertido en un modelo de prudencia para todo lo relativo á sus amores con el desterrado voluntario, opúsose al principio á la parte <seg rend="italics">pública</seg> de aquellos festejos; pero fué tanta la insistencia del joven, que Julia acabó por doblegarse á su voluntad y por secundar todos sus caprichos.</p>
 					<p>Breve, y no muy agradable á los aficionados á jolgorios, será la descripción que hagamos del modo y manera como se realizó el magnífico programa de Guillermo....</p>
@@ -1198,9 +1287,9 @@
 					<p>Y, así diciendo, le quitó la faja al periódico.</p>
 					<p>Julia sintió como un sudor de muerte; pero disfrazó su emoción, aparentando grande júbilo, y tartamudeó estas palabras:</p>
 					<p>—¡Gracias á Dios que se rompió el hielo! ¡Llegó el día del indulto para <seg rend="italics">La Época</seg>....— ¡Lee!.... ¡Lee eso que le pasa á tu amigo Enrique!....—¡También tengo yo curiosidad de saberlo!</p>
-					<p>—¡Que atrocidad! (exclamó el joven, sin oir á su querida). ¡ El necio de Enrique va á ser Ministro de Fomento!....—¡España está dejada de la mano de Dios! ¡Ministro el que plagiaba mis discursos!....—Pero.... ¡calla! ¡también leo aquí mi nombre!.... Me llaman <seg rend="small-caps">«¿/malogrado </seg><seg rend="italics">Guillermo de Loja!</seg> ...» Por lo visto, en Madrid me han dado por muerto.... —Oye, oye el párrafo; que es curioso:— <seg rend="italics">«Próxima la reapertura de las Cortes</seg>, <seg rend="italics">no se *le puede disputar al Sr. Pérez y López  {D. Enrique) la cartera de Fomento, que y»en mal hora usurpó D. Lucas de la Guar</seg><seg rend="italics">y»dia al que de derecho la había ganado en »buena lid</seg>, <seg rend="italics">al</seg><seg rend="small-caps">malogrado </seg><seg rend="italics">Guillermo de Loja</seg><seg rend="italics">»—Bien podemos calificar así al insigne ora-»dor que</seg><seg rend="italics">,justamente indignado ante la mala »pasada del actual Presidente del Consejo d<seg rend="sub">e</seg> </seg><seg rend="italics">Ministros</seg>, <seg rend="italics">dejó la vida política</seg>, <seg rend="italics">en que tan »brillantemente entraba á la edad de veintr »seis años</seg>, <seg rend="italics">y abandonó para siempre esta </seg><seg rend="italics">Villa y Corte.—íntimo amigo particular y apolítico del ilustre Loja</seg>, <seg rend="italics">el Sr. Pérez Ló-»pezy cuyo elocuente discurso sobre enseñan</seg><seg rend="italics">*\a</seg>, <seg rend="italics">pronunciado en la anterior legislatura</seg>, <seg rend="italics">»recordarán nuestros lectores</seg>, <seg rend="italics">parece muy »natural que reemplace hoy en el Gabinete ^al pobre D. Lucas</seg>, <seg rend="italics">que tan desairado papel »hi\o en el banco a\ul la legislatura pasada yypor su falta absoluta de talento</seg>, <seg rend="italics">de instrucción y de dotes oratorias</seg>.»</p>
+					<p>—¡Que atrocidad! (exclamó el joven, sin oir á su querida). ¡ El necio de Enrique va á ser Ministro de Fomento!....—¡España está dejada de la mano de Dios! ¡Ministro el que plagiaba mis discursos!....—Pero.... ¡calla! ¡también leo aquí mi nombre!.... Me llaman <seg rend="smallcaps">«¿/malogrado </seg><seg rend="italics">Guillermo de Loja!</seg> ...» Por lo visto, en Madrid me han dado por muerto.... —Oye, oye el párrafo; que es curioso:— <seg rend="italics">«Próxima la reapertura de las Cortes</seg>, <seg rend="italics">no se *le puede disputar al Sr. Pérez y López  {D. Enrique) la cartera de Fomento, que y»en mal hora usurpó D. Lucas de la Guar</seg><seg rend="italics">y»dia al que de derecho la había ganado en »buena lid</seg>, <seg rend="italics">al</seg><seg rend="smallcaps">malogrado </seg><seg rend="italics">Guillermo de Loja</seg><seg rend="italics">»—Bien podemos calificar así al insigne ora-»dor que</seg><seg rend="italics">,justamente indignado ante la mala »pasada del actual Presidente del Consejo d<seg rend="sub">e</seg> </seg><seg rend="italics">Ministros</seg>, <seg rend="italics">dejó la vida política</seg>, <seg rend="italics">en que tan »brillantemente entraba á la edad de veintr »seis años</seg>, <seg rend="italics">y abandonó para siempre esta </seg><seg rend="italics">Villa y Corte.—íntimo amigo particular y apolítico del ilustre Loja</seg>, <seg rend="italics">el Sr. Pérez Ló-»pezy cuyo elocuente discurso sobre enseñan</seg><seg rend="italics">*\a</seg>, <seg rend="italics">pronunciado en la anterior legislatura</seg>, <seg rend="italics">»recordarán nuestros lectores</seg>, <seg rend="italics">parece muy »natural que reemplace hoy en el Gabinete ^al pobre D. Lucas</seg>, <seg rend="italics">que tan desairado papel »hi\o en el banco a\ul la legislatura pasada yypor su falta absoluta de talento</seg>, <seg rend="italics">de instrucción y de dotes oratorias</seg>.»</p>
 					<p>—¡Sí que es curioso el párrafo! (contestó Julia, cuando Guillermo acabó de leer en voz alta). Y de él se deduce.... que, si mañana salieras para Madrid, dentro de tres días serías Ministro de Fomento, en lugar de Enrique....    *</p>
-					<p>—¡Líbreme Dios!.... (murmuró el joven, sin dejar de leer para sí, y demostrando el ansia del hidrópico que ha probado el agua). ¡Dios me libre de disputar carteras á nadie, y menos al pedantísimo Sr. Pérez!....—¡Ah! iQué Madrid! ¡qué Madrid!....—¡Pero esto es mejor!....—¡Qué escarnio! ¡qué vergüenza!....Oye.... oye lo que dice la <seg rend="small-caps">Revista de Salones:</seg><seg rend="italics">—....«También se asegura que la »joven Duquesa viuda de Almuñécar</seg>, <seg rend="italics">cuyo y»luto está ya en el período de alivio</seg>, <seg rend="italics">recibirá y»este invierno á los amigos que considera </seg>«corno <seg rend="italics">de familia</seg>, <seg rend="italics">y que sus reuniones</seg>, <seg rend="italics">más ^artísticasy literarias que de vano galanteo</seg>, <seg rend="italics">»acabarán en patriarcales cenas á la antigua </seg><seg rend="italics">española.»</seg>—¿Sabes tú quién es la Duquesa de Almuñécar?—¡Pues es una niña, hija de los Marqueses de Pinto, que, en el espacio de siete meses, ha sido: i.°, virgen ideal, amantísima de la pintura ascética; 2.<seg rend="sup">0</seg>, mujer de un viejo septuagenario muy rico; 3.°, dolorida y enlatada viuda; y^<seg rend="sup">0</seg>, viuda.... de alivio, que, por lo que se ve, anda ya buscando novio con quien disfrutar, en unas nuevas nupcias, de los millones que le dieron en dote como precio de su cuerpo y de su alma!....</p>
+					<p>—¡Líbreme Dios!.... (murmuró el joven, sin dejar de leer para sí, y demostrando el ansia del hidrópico que ha probado el agua). ¡Dios me libre de disputar carteras á nadie, y menos al pedantísimo Sr. Pérez!....—¡Ah! iQué Madrid! ¡qué Madrid!....—¡Pero esto es mejor!....—¡Qué escarnio! ¡qué vergüenza!....Oye.... oye lo que dice la <seg rend="smallcaps">Revista de Salones:</seg><seg rend="italics">—....«También se asegura que la »joven Duquesa viuda de Almuñécar</seg>, <seg rend="italics">cuyo y»luto está ya en el período de alivio</seg>, <seg rend="italics">recibirá y»este invierno á los amigos que considera </seg>«corno <seg rend="italics">de familia</seg>, <seg rend="italics">y que sus reuniones</seg>, <seg rend="italics">más ^artísticasy literarias que de vano galanteo</seg>, <seg rend="italics">»acabarán en patriarcales cenas á la antigua </seg><seg rend="italics">española.»</seg>—¿Sabes tú quién es la Duquesa de Almuñécar?—¡Pues es una niña, hija de los Marqueses de Pinto, que, en el espacio de siete meses, ha sido: i.°, virgen ideal, amantísima de la pintura ascética; 2.<seg rend="sup">0</seg>, mujer de un viejo septuagenario muy rico; 3.°, dolorida y enlatada viuda; y^<seg rend="sup">0</seg>, viuda.... de alivio, que, por lo que se ve, anda ya buscando novio con quien disfrutar, en unas nuevas nupcias, de los millones que le dieron en dote como precio de su cuerpo y de su alma!....</p>
 					<p>—¡Qué ardor! ¡qué vehemencia! ¡Con qué indignación hablas de esa joven!.... (exclamó sardónicamente la <seg rend="italics">Pródigaj</seg>.—¡Cualquiera diría que eras sobrino del difunto Duque!</p>
 					<p>—¡Es que si tú hubieras conocido á Pura, esto es, á la poética hija de los Marqueses de Pinto, te causaría horror tanta ferocidad!.... —repuso el cándido Guillermo.</p>
 					<p>—Conocí á sus padres, al Duque de Al-muñécar y á otras muchas gentes, que ahora serán tan viejas como yo....—Pero á las ni- • ñas poéticas de tu tiempo no las conozco, y, por consiguiente, no puedo celebrarlas ni zaherirlas....</p>
