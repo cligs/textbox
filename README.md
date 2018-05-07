@@ -18,3 +18,7 @@ This repository contains several text collections made available by the CLiGS ju
 The text collections are available by cloning the repository, downloading the entire repository as a ZIP file or downloading individual text collections as ZIP files.
 
 All texts are in the public domain. The markup and metadata we have added are provided with a CC-BY (Creative Commons Attribution, see http://creativecommons.org/licenses/by/4.0/) license. 
+
+Each collection includes a description of the criteria of text selection, the available data formats, a citation suggestion, etc. More information about formal schemas (for example the TEI schema linked to from all the TEI files) can be found in the '''reference repository''' of CLiGS available at https://github.com/cligs/reference.
+
+There is a collection of Python utility scripts which can be used for several tasks related to the textbox, for example to extract metadata automatically from the TEI files. This set of scripts is called the '''CLiGS toolbox''' and is available at https://github.com/cligs/toolbox. The toolbox reflects ongoing work and is not organized in official releases.
