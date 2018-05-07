@@ -5,7 +5,7 @@ The CLiGS textbox
 
 This repository contains several text collections made available by the CLiGS junior research group (see http://cligs.hypotheses.org). As of November 2017, these are: 
 
-* _Collection of 19th Century Spanish-American Novels (1880-1916)_, edited by Ulrike Henny-Krahmer: 24 novels
+* [spanish/novela-hispanoamericana](_Collection of 19th Century Spanish-American Novels (1880-1916)_), edited by Ulrike Henny-Krahmer: 24 novels
 * _Corpus of Spanish Novels from 1880-1940_, edited by José Calvo Tello: 39 novels
 * _Collection de nouvelles françaises du dix-neuvième siècle_, edited by Stefanie Popp: 28 novellas
 * _Collection de romans français du dix-neuvième siècle_, edited by Christof Schöch and Stefanie Popp: 36 novels.
