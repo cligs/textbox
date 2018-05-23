@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -18,24 +19,24 @@
 			<extent>
 				<measure unit="lines">1526</measure>
 				<measure unit="divs">42</measure>
-				<measure unit="words">64795</measure>
+				<measure unit="tokens">64795</measure>
 				<measure unit="chars">369370</measure>
 				<measure unit="size_kb">400</measure>
 
 				<measure unit="chapters">24</measure>
-				<measure unit="short-stories">17</measure>
+				<measure unit="short.stories">17</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
 				<measure unit="blocks">1381</measure> 
-				<measure unit="line_verses">44</measure> 
+				<measure unit="line.verses">44</measure> 
 				<measure unit="heads">41</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">1296</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">316</measure> 
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">316</measure> 
 				<measure unit="numbers">35</measure> 
 				<measure unit="puncts">12943</measure>
 			</extent>
@@ -62,56 +63,34 @@
 			</abstract>
 			<textClass>
 				<keywords scheme="keywords.csv">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">collection_short_stories</term>
-					<term type="subgenre-lithist" cert="low" resp="#jct">novela lírica</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective"></term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1879</term>
-					<term type="author-date-death">1930</term>
-					<term type="author-TOC-range" resp="MdL10">7</term>
-					<term type="author-histlit-pages" resp="MdL10">33</term>
-					<term type="author-movement">avantgarde</term>
-					<term type="author-submovement">3-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1914</term>
-					
-					
-					<term type="subgenre" subtype="2"></term>
-					<term type="subgenre" subtype="1"></term>
-					<term type="subgenre" subtype="1"></term>
-					<term type="subgenre" subtype="1"></term>
-					
-					
-					<term type="narrator"></term>
-					<term type="setting-type">land</term>
-					<term type="setting-name"></term>
-					<term type="setting-territory"></term>
-					<term type="setting-country"></term>
-					<term type="setting-continent"></term>
-					
-					<term type="representation"></term>
-					<term type="protagonist-name"></term>
-					<term type="protagonist-profession"></term>
-					<term type="protagonist-social-level"></term>
-					<term type="time-period"></term>
-					<term type="time-span"></term>
-					<term type="group-text"></term>
-					
-					<term type="author-text-relation"></term>
-					<term type="protagonist-age"></term>
-					<term type="type-end"></term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">colección-cuentos</term>
+					<term type="text.subgenre.lithist" cert="low" resp="#jct">novela lírica</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1879</term>
+					<term type="author.date.death">1930</term>
+					<term type="author.TOC.range" resp="MdL10">7</term>
+					<term type="author.litHist.pages" resp="MdL10">33</term>
+					<term type="author.movement">avantgarde</term>
+					<term type="author.submovement">3-modernista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">1914</term>
+
+
+
+
+					<term type="text.setting.type">land</term>
+
+
+					<term type="text.movement">modernista</term>
+					<term type="text.litHist.pages">0.2</term>
+					<term type="text.TOC.range">1</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

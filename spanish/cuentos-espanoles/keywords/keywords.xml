@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Keywords</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<classDecl>
+				<taxonomy xml:id="keywords">
+
+					<!-- ### author ### -->
+					<category xml:id="author">
+						<catDesc>author</catDesc>
+
+						<category xml:id="author.continent" n="nominal">
+							<catDesc>author.continent</catDesc>
+							<category xml:id="author.continent_1">
+								<catDesc>Europe</catDesc>
+							</category>
+							<category xml:id="author.continent_2">
+								<catDesc>America</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.country" n="nominal">
+							<catDesc>author.country</catDesc>
+							<category xml:id="author.country_1">
+								<catDesc>Spain</catDesc>
+							</category>
+							<category xml:id="author.country_2">
+								<catDesc>Nicaragua</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.gender" n="nominal">
+							<catDesc>author.gender</catDesc>
+							<category xml:id="author.gender_1">
+								<catDesc>male</catDesc>
+							</category>
+							<category xml:id="author.gender_2">
+								<catDesc>female</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.movement" n="ordinal">
+							<catDesc>author.movement</catDesc>
+
+							<category xml:id="author.movement_1" n="0">
+								<catDesc>realism</catDesc>
+							</category>
+							<category xml:id="author.movement_2" n="1">
+								<catDesc>modernism</catDesc>
+							</category>
+							<category xml:id="author.movement_3" n="2">
+								<catDesc>avantgarde</catDesc>
+							</category>
+							<category xml:id="author.movement_4" n="3">
+								<catDesc>postwar</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.submovement" n="ordinal">
+							<catDesc>author.submovement</catDesc>
+							<category xml:id="author.submovement_1" n="0">
+								<catDesc>realista</catDesc>
+							</category>
+							<category xml:id="author.submovement_2" n="1">
+								<catDesc>naturalista</catDesc>
+							</category>
+							<category xml:id="author.submovement_3" n="2">
+								<catDesc>1-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_4" n="3">
+								<catDesc>2-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_5" n="4">
+								<catDesc>3-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_6" n="5">
+								<catDesc>4-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_7" n="6">
+								<catDesc>vanguardista</catDesc>
+							</category>
+							<category xml:id="author.submovement_8" n="7">
+								<catDesc>social-realista</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.date.birth" n="interval">
+							<catDesc>author.date.birth</catDesc>
+						</category>
+
+						<category xml:id="author.date.death" n="interval">
+							<catDesc>author.date.death</catDesc>
+						</category>
+
+						<category xml:id="author.litHist.page" n="ratio">
+							<catDesc>author.date.litHist.page</catDesc>
+						</category>
+
+						<category xml:id="author.nonNovelGenre" n="nominal">
+							<catDesc>author.nonNovelGenre</catDesc>
+
+							<category xml:id="author.nonNovelGenre_1">
+								<catDesc>poetry</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_2">
+								<catDesc>essay</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_3">
+								<catDesc>none</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_4">
+								<catDesc>aphorism</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_5">
+								<catDesc>short-stories</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_6">
+								<catDesc>theatre</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.yearChange" n="interval">
+							<catDesc>author.date.yearChange</catDesc>
+						</category>
+
+					</category>
+
+					<category xml:id="authorText">
+						<catDesc>authorText</catDesc>
+
+						<category xml:id="authorText.relation" n="ordinal">
+							<catDesc>authorText.relation</catDesc>
+							<category xml:id="authorText.relation_1" n="0">
+								<catDesc>none</catDesc>
+							</category>
+							<category xml:id="authorText.relation_2" n="1">
+								<catDesc>low</catDesc>
+							</category>
+							<category xml:id="authorText.relation_3" n="2">
+								<catDesc>medium</catDesc>
+							</category>
+							<category xml:id="authorText.relation_4" n="3">
+								<catDesc>high</catDesc>
+							</category>
+							<category xml:id="authorText.relation_5" n="-">
+								<catDesc>unknown</catDesc>
+							</category>
+						</category>
+
+
+						<category xml:id="authorText.group" n="nominal">
+							<catDesc>authorText.group</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="authorText.subgroup" n="nominal">
+							<catDesc>authorText.subgroup</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+					</category>
+
+					<!-- ### text ### -->
+					<category xml:id="text">
+						<catDesc>text</catDesc>
+
+
+						<category xml:id="text.form" n="nominal">
+							<catDesc>text.form</catDesc>
+							<category xml:id="text.form_1">
+								<catDesc>prose</catDesc>
+							</category>
+							<category xml:id="text.form_2">
+								<catDesc>verse</catDesc>
+							</category>
+							<category xml:id="text.form_3">
+								<catDesc>dialogue</catDesc>
+							</category>
+							<category xml:id="text.form_4">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.form_5">
+								<catDesc>epistolar</catDesc>
+							</category>
+
+						</category>
+
+						<category xml:id="text.publication" n="nominal">
+							<catDesc>text.publication</catDesc>
+							<category xml:id="text.publication_1">
+								<catDesc>book</catDesc>
+							</category>
+							<category xml:id="text.publication_2">
+								<catDesc>serial</catDesc>
+							</category>
+						</category>
+
+
+						<category xml:id="text.movement" n="nominal">
+							<catDesc>text.movement</catDesc>
+							<category xml:id="text.movement_1">
+								<catDesc>contemporary</catDesc>
+							</category>
+							<category xml:id="text.movement_2">
+								<catDesc>modernista</catDesc>
+							</category>
+							<category xml:id="text.movement_3">
+								<catDesc>naturalista</catDesc>
+							</category>
+							<category xml:id="text.movement_4">
+								<catDesc>realista</catDesc>
+							</category>
+							<category xml:id="text.movement_5">
+								<catDesc>social-realista</catDesc>
+							</category>
+							<category xml:id="text.movement_6">
+								<catDesc>vanguardista</catDesc>
+							</category>
+							<category xml:id="text.movement_7">
+								<catDesc>vanguardista</catDesc>
+							</category>
+						</category>
+
+					
+					
+
+
+					<!-- ### genre ### -->
+					<category xml:id="text.genre" n="nominal">
+						<catDesc>text.genre</catDesc>
+
+						<category xml:id="text.genre_1">
+							<catDesc>novela</catDesc>
+						</category>
+						<category xml:id="text.genre_2">
+							<catDesc>greguerías</catDesc>
+						</category>
+						<category xml:id="text.genre_3">
+							<catDesc>?</catDesc>
+						</category>
+						<category xml:id="text.genre_4">
+							<catDesc>novelas-cortas</catDesc>
+						</category>
+						<category xml:id="text.genre_5">
+							<catDesc>colección-cuentos</catDesc>
+						</category>
+						
+
+						<category xml:id="text.genre.subtitle" n="nominal">
+							<catDesc>text.genre.label</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+
+						<category xml:id="text.genre.supergenre" n="nominal">
+							<catDesc>text.genre.supergenre</catDesc>
+							<category xml:id="text.genre.supergenre_1">
+								<catDesc>narrative</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_2">
+								<catDesc>drama</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_3">
+								<catDesc>non-fiction</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_4">
+								<catDesc>mixed</catDesc>
+							</category>
+
+						</category>
+
+						<category xml:id="text.genre.litHist" n="nominal">
+							<catDesc>text.genre.lithist</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="text.genre.subgenre.edit" n="nominal">
+							<catDesc>text.genre.lithist</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+
+						<category xml:id="text.genre.subgenre.litHist" n="nominal">
+							<catDesc>text.text.genre.subgenre.litHist</catDesc>
+							<category xml:id="text.genre.subgenre.ownAnno_01">
+								<catDesc>adventure</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_02">
+								<catDesc>erotic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_03">
+								<catDesc>fantastic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_04">
+								<catDesc>naturalist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_05">
+								<catDesc>modernist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_06">
+								<catDesc>realist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_07">
+								<catDesc>sentimental</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_08">
+								<catDesc>social</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_09">
+								<catDesc>spiritual</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_10">
+								<catDesc>historical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_11">
+								<catDesc>anti-religious</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_12">
+								<catDesc>comedy</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_13">
+								<catDesc>philosophical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_14">
+								<catDesc>memoir</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_15">
+								<catDesc>moralist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_16">
+								<catDesc>symbolic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_17">
+								<catDesc>political fiction</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_18">
+								<catDesc>bildungsroman</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_19">
+								<catDesc>war-novel</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_20">
+								<catDesc>autobiographical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_21">
+								<catDesc>dialogue</catDesc>
+							</category>
+
+						</category>
+					</category>
+
+					
+					
+
+
+					
+					
+
+					
+
+					
+
+					
+					
+
+
+					
+					
+
+
+					
+					
+
+					
+					
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>
