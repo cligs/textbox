@@ -30,3 +30,4 @@ Please provide a reference if you use this research data in your teaching or res
 * Each text has an identifier which corresponds to the filename of the XML-TEI file. Metadata has been collected about each novel and integrated into the teiHeader. The metadata table provided separatedly in the `metadata.csv` file contains a subset of these metadata for the researchers' convenience, with identifiers linking table and files. 
 * The plain text files in the "txt" folder have been automatically built from the XML-TEI files. They contain only the text body without front or back matter or notes and without any chapter headings. 
 * In case you notice errors of any kind in the text collection, please use the issue tracker here on GitHub to notify us. We will be glad to fix them.
+

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -26,7 +24,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>Files freely available.</p>
 				</availability>
 				<date></date>
@@ -52,19 +50,19 @@
 				<p></p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">nouvelle</term>
-					<term type="subgenre" subtype="3">fantastique</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="form">prose</term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">Auvergne</term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">female</term>
-					<term type="tei">11</term>
+				<keywords scheme="keywords.xml">
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">nouvelle</term>
+					<term type="text.genre.subgenre" cligs:importance="3">fantastique</term>
+					<term type="text.genre.subsubgenre"></term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.form">prose</term>
+					<term type="text.narration.narrator">homodiegetic</term>
+					<term type="text.setting">Auvergne</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">France</term>
+					<term type="author.gender">female</term>
+					<term type="text.tei.version">11</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -81,7 +79,7 @@
 				<p>Sa modestie bien connue ne nous permettait pas de penser qu'il se comparât à un titan. Son émotion nous parut extraordinaire. Il nous dit que ce serait trop long à expliquer.</p>
 				<p>-- Cela m'arrive quelquefois, nous dit-il, quand je joue le motif sur lequel je viens d'improviser. Un bruit imprévu me trouble et il me semble que mes mains s'allongent. C'est une sensation douloureuse et qui me reporte à un moment tragique et pourtant heureux dans mon existence.</p>
 				<p>Pressé de s'expliquer, il céda et nous raconta ce qui suit :</p>
-				<milestone type="asterisk"/>
+				<milestone type="asterisk" unit="section"/>
 				<p>Vous savez que je suis de l'Auvergne, né dans une très pauvre condition et que je n'ai pas connu mes parents. Je fus élevé par la charité publique et recueilli par M. Jansiré, que l'on appelait par abréviation maître Jean, professeur de musique et organiste de la cathédrale de Clermont. J'étais son élève en qualité d'enfant de chœur. En outre, il prétendait m'enseigner le solfège et le clavecin.</p>
 				<p>C'était un homme terriblement bizarre que maître Jean, un véritable type de musicien classique, avec toutes les excentricités que l'on nous attribue, que quelques-uns de nous affectent encore, et qui, chez lui, étaient parfaitement naïves, par conséquent redoutables.</p>
 				<p>Il n'était pas sans talent, bien que ce talent fût très au-dessous de l'importance qu'il lui attribuait. Il était bon musicien, avait des leçons en ville et m'en donnait à moi-même à ses moments perdus, car j'étais plutôt son domestique que son élève et je faisais mugir les soufflets de l'orgue plus souvent que je n'en essayais les touches.</p>
@@ -240,7 +238,7 @@
 				<p>Il se retourna vers moi en ajoutant :</p>
 				<p>-- Viens chez moi demain après ma messe basse, je veux t'examiner.</p>
 				<p>Je fus exact. Il avait eu le temps de faire ses recherches. Nulle part il n'avait trouvé mon motif. Il avait chez lui un beau piano et me fit improviser. D'abord je fus troublé et il ne me vint que du gâchis ; puis, peu à peu, mes idées s'éclaircirent et le prélat fut si content de moi, qu'il manda maître Jean et me recommanda à lui comme son protégé tout spécial. C'était lui dire que mes leçons lui seraient bien payées. Le professeur me retira donc de la cuisine et de l'écurie, me traita avec plus de douceur et, en peu d'années, m'enseigna tout ce qu'il savait. Mon protecteur vit bien alors que je pouvais aller plus loin et que le petit âne était plus laborieux et mieux doué que son maître. Il m'envoya à Paris, où je fus, très jeune encore, en état de donner des leçons et de jouer dans les concerts. Mais ce n'est pas l'histoire de ma vie entière que je vous ai promise ; ce serait trop long, et vous savez maintenant ce que vous vouliez savoir : comment une grande frayeur, à la suite d'un accès d'ivresse, développa en moi une faculté refoulée par la rudesse et le dédain du maître qui eût dû la développer. Je n'en bénis pas moins son souvenir. Sans sa vanité et son ivrognerie, qui exposèrent ma raison et ma vie à la roche Sanadoire, ce qui couvait en moi n'en fût peut-être jamais sorti. Cette folle aventure qui m'a fait éclore, m'a pourtant laissé une susceptibilité nerveuse qui est une souffrance. Parfois, en improvisant, j'imagine entendre l'écroulement du roc sur ma tête et sentir mes mains grossir comme celles du Moïse de Michel-Ange. Cela ne dure qu'un instant, mais cela ne s'est point guéri entièrement, et vous voyez que l'âge ne m'en a pas débarrassé.</p>
-				<milestone type="asterisk"/>
+				<milestone type="asterisk" unit="section"/>
 				<p>– Mais, dit le docteur au maestro quand il eut terminé son récit, à quoi attribuez-vous cette dilatation fictive de vos mains, cette souffrance qui vous saisit à la roche Sanadoire avant son trop réel écroulement ?</p>
 				<p>-- Je ne peut l'attribuer, répondit le maestro, qu'à des orties ou à des ronces qui poussaient sur le prétendu clavier. Vous voyez, mes amis, que tout est symbolique dans mon histoire. La révélation de mon avenir fut complète : des illusions, du bruit... et des épines !</p>
 			</div>
