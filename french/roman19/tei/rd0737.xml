@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -49,20 +47,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#sp" cert="high" subtype="3">fantastic</term>
-                    <term type="subsubgenre"/>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">homodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="protagonist-gender"/>
-                    <term type="setting"/>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">France</term>
-                    <term type="author-gender">male</term>
-                    <term type="tei">11</term>
+                <keywords scheme="keywords.xml">
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#sp" cert="high" cligs:importance="3">fantastic</term>
+                    <term type="subtext.genre.subgenre"/>
+                    <term type="text.genre.subtitle"/>
+                    <term type="text.narration.narrator">homodiegetic</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.characters.protagonist.gender"/>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">France</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.tei.version">11</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -100,7 +98,7 @@
             </div>
             <div>
                 <head>INTRODUCTION</head>
-                <milestone type="other"/>
+                <milestone unit="section" type="other"/>
                 <p>J'étais avec Elle, ce soir-là… Elle avait (comme elle l'a souvent) ce médaillon monté en broche, que je crois parfois, sans le lui dire, quelque talisman enchanté.</p>
                 <p>Nous étions assis sur le petit balcon, en face de la Seine, près du pont aux quatre statues, par lequel elle me regarde, tous les jours, venir vers cinq heures et qu'elle a nommé son <seg
                         rend="italic"
@@ -190,7 +188,7 @@
         <body>
             <div>
                 <head>I</head>
-                <milestone type="other"/>
+                <milestone unit="section" type="other"/>
                 <p>Le château du Quesnay, qu'il faut bien vous faire connaître, dit Rollon, comme un personnage, — puisqu'il est le théâtre de cette histoire, — avait appartenu de temps immémorial à l'ancienne famille de ce nom. Il était situé, car il n'existe plus, — et cette histoire vous dira pourquoi, — dans la partie la plus reculée, la plus basse de la basse Normandie.</p>
                 <p>Son toit de châteaulin d'un bleu noir d'hirondelle brillait à travers un massif de saules dont les pieds et le flanc trempaient dans une pièce d'eau dormante, laquelle, partant du fond des bois profonds de cette terre boiseuse, s'avançait, — en style de charretier, <seg
                         rend="italic"

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -47,21 +45,21 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#cf" cert="medium" subtype="3">crime-fiction</term>
-                    <term type="subsubgenre">criminal</term>
-                    <term type="subsubgenre"/>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="protagonist-gender"/>
-                    <term type="setting"/>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">France</term>
-                    <term type="author-gender">male</term>
-                    <term type="tei">11</term>
+                <keywords scheme="keywords.xml">
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#cf" cert="medium" cligs:importance="3">crime-fiction</term>
+                    <term type="subtext.genre.subgenre">criminal</term>
+                    <term type="subtext.genre.subgenre"/>
+                    <term type="text.genre.subtitle"/>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.characters.protagonist.gender"/>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">France</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.tei.version">11</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -772,7 +770,7 @@
                     <p>-- De Prague ? murmura Perkins. Avec l'argent que vous avez eu de Prague depuis douze mois, vous auriez gagné un million sterling à construire des machines de 100 et 150 pour le commerce !</p>
                     <p>Le Quaker se leva et tendit la main au gentleman.</p>
                     <p>-- Nous venons de loin, Perkins, dit-il ; nous allons plus loin encore. Ce n'est pas pour gagner un million sterling que la maison Percy-Balcomb a été fondée...</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>À une heure de là environ, James Davy, portant ce costume élégant et décent que nous lui avons vu au bureau de police, montait les escaliers sourds et recouverts d'un moelleux tapis du grand hôtel de Buckingham, dans Grosvenor-square. Un valet en livrée l'attendait à la porte du principal appartement du premier étage.</p>
                     <p>Le maître de l'hôtel, en rigoureuse toilette de bal, le suivait, tenant sous le bras un registre relié en velours rouge.</p>
                     <p>-- Monsieur le comte voudra bien accepter mes excuses, dit-il en français ; je serais particulièrement honoré d'avoir son nom sur mon album... Dieu merci ! l'Angleterre est un pays libre... mais ce Gregory Temple, l'intendant supérieur de police, s'embarrasse peu de la constitution... et l'on exige les passe-ports des voyageurs venant de l'étranger, depuis cette malheureuse affaire de la signora Bartolozzi.</p>
@@ -962,7 +960,7 @@
                     <p>Robert la quitta pour se jeter au cou de son sauveur qu'il étreignit passionnément contre sa poitrine.</p>
                     <p>-- Comte Henri, balbutia-t-il parmi les sanglots de sa joie, je n'ai pas encore le droit de dire comme je l'aime... mais si jamais vous avez besoin, je ne dis pas d'une main, je ne dis pas d'une bourse, mais je dis d'un cœur, comprenez cela, parlez seulement et vous verrez ce que vaut la parole d'un soldat !</p>
                     <p>-- Comte Henri !... balbutia encore Jeanne, qui semblait endormie dans son sourire...</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Il y avait un remue-ménage terrible dans la cuisine de M. le marquis de Belcamp. La veille au soir, des malles étaient arrivées au château, portant l'adresse du comte Henri, dont on avait bien entendu parler vaguement, mais que personne ne connaissait. D'ordinaire, quand un homme dans la position de M. le marquis est veuf et qu'il a un fils unique qui voyage, on voit quelque part chez lui, et plutôt deux fois qu'une, les portraits de la morte et de l'absent. Ici, rien. Aucune image ne parlait de feu Mme la marquise, ni de l'héritier ; leurs noms venaient souvent, il est vrai, dans l'entretien du soir et aux veillées, mais ils étaient ramenés toujours par l'attrait même du mystère.</p>
                     <p>On était bien obligé de s'avouer en fin de compte que nul ne savait rien sur la défunte, rien non plus sur le fils de la maison.</p>
                     <p>Chose étrange, il faut bien le dire, étrange d'autant plus que, sous tout autre aspect, la vie du vieux gentilhomme, claire et limpide comme une eau de roche, ne présentait pas l'ombre d'une énigme.</p>
@@ -1440,16 +1438,16 @@
                         >impossible</seg> humainement parlant ? c'est ce que les faiseurs de théorèmes appellent l'absurde. Tout le Système de Gregory repose sur une série de démonstrations par l'absurde. Êtes-vous accusé d'avoir trop parlé ? Prouvez que vous êtes muet ; d'avoir mordu ? ouvrez la bouche et montrez que vous n'avez pas de dents. Si le crime a laissé l'empreinte de son pied sanglant sur un parquet, faites-vous porter là, et que l'on voie vos deux jambes de bois. Comment condamner le muet pour une parole, le sourd pour avoir écouté à la porte, l'aveugle pour avoir visé un but, l'absent enfin, car c'est dans l'alibi que se résume la théorie, comment condamner l'absent pour un fait qui a exigé la présence réelle ?...</p>
                     <p>-- Si j'étais juge, continua-t-il, et que dix témoins dignes de foi vinssent me dire : « Cet homme a tué, je l'ai vu, » je douterais : -- mais je ne douterais pas davantage si cet homme répondait par la bouche de dix autres témoins ; « Je n'ai pas tué parce que je n'ai ni poignard, ni main, ni bras, ni épaule. » La certitude est comme l'impossibilité. Le témoignage des sens lui-même ne peut créer cet absolu qui n'existe pas. Il faut être un hardi compère pour s'asseoir sur un siège de juge !</p>
                     <p>Tout en parlant il avait écrit à la colonne de gauche, et sous le nom de Belcamp, deux autres noms : Laurent et Jeanne, de sorte que le tableau était figuré ainsi :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Marquis de Belcamp.</p>
                     <p>Jeanne.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Laurent.</p>
                     <p>Suzanne.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Jeanne.</p>
                     <p>Mme Touchard.</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>J'ai gagné ceci, reprit-il ; j'ai perdu cela... J'ai gagné mon père, et c'était le plus difficile, car les circonstances se réunissaient contre moi. J'ai gagné, ce qui a pour moi une valeur incomparable, la connaissance exacte des deux derniers obstacles qui sont entre moi et mon but. Je savais que Constance Bartolozzi avait des héritiers : je les cherchais : ils sont là !</p>
                     <p>Son doigt pointait les noms de Laurent et de Jeanne.</p>
                     <p>-- J'ai gagné beaucoup, poursuivit-il ; j'ai beaucoup perdu aussi, soit par ma volonté et comme on sacrifie des pièces au jeu d'échecs, soit par le hasard que les meilleures combinaisons ne peuvent neutraliser tout à fait. Pouvais-je m'attendre à trouver ici Suzanne, la fille de Gregory Temple !... Mauvaise carte, celle-là, si l'on ne met pas à la placer une adresse suprême !... Mais gros atout, pardieu ! si l'on parvient à la jouer à propos... Viendra-t-elle ?</p>
@@ -2206,9 +2204,7 @@
                     <p>La seconde couturière le valet de pied et le cuisinier s'embarquèrent dans le fourgon, chargé de bagages et conduit par un postillon.</p>
                     <p>À peine assise sur les coussins de la calèche, lady Frances s'enfonça dans son coin et déplia la lettre que Billy lui avait apportée pour la relire et l'étudier attentivement. Le regard oblique de Prudence n'en put déchiffrer un seul mot.</p>
                     <p>L'attelage de poste était vigoureux. En moins de deux heures on fut en forêt. Sam, selon l'ordre de sa maîtresse, demandait en passant le nom de tous les villages.</p>
-                    <p>Lady Frances avait toujours à la main sa lettre ouverte. Un paysan, interrogé, prononça enfin le nom du village de<milestone
-                            type="asterisk"
-                        /> ; lady Frances donna l'ordre de poursuivre la route au pas, et surveilla plus attentivement le côté gauche du chemin. À un demi-quart de lieue du village, elle fit arrêter la calèche, tandis que le fourgon continuait de marcher au pas ; elle mit pied à terre ; au grand mécontentement de Prudence, ce fut Lisbeth, la couturière, qui fut chargée de l'accompagner, ainsi que Billy. Nous dirons que ce choix n'appartenait point à lady Frances, et qu'il était indiqué dans la lettre : ni Billy ni Lisbeth ne savaient un mot de français.</p>
+                    <p>Lady Frances avait toujours à la main sa lettre ouverte. Un paysan, interrogé, prononça enfin le nom du village de<milestone unit="sectino" type="asterisk"/> ; lady Frances donna l'ordre de poursuivre la route au pas, et surveilla plus attentivement le côté gauche du chemin. À un demi-quart de lieue du village, elle fit arrêter la calèche, tandis que le fourgon continuait de marcher au pas ; elle mit pied à terre ; au grand mécontentement de Prudence, ce fut Lisbeth, la couturière, qui fut chargée de l'accompagner, ainsi que Billy. Nous dirons que ce choix n'appartenait point à lady Frances, et qu'il était indiqué dans la lettre : ni Billy ni Lisbeth ne savaient un mot de français.</p>
                     <p>Milady, Billy et Lisbeth prirent à pied un sentier d'exploitation, labouré de profondes ornières et qui courait vers l'ouest en traversant des coupes récentes. Le sous-bois, formé de châtaigniers et de chênes, repoussait sur la terre de bruyère, grise et recouverte de fleurs rosées, tandis que çà et là le sol, éventré plus profondément par l'extraction d'une forte souche, montrait l'ocre éclatant et sablonneux de ses entrailles.</p>
                     <p>À quelques centaines de pas de la route, le sentier descendait brusquement dans une coulée où l'exploitation n'avait pas encore pénétré. C'était ici un sol rocheux et moussu, où la fougère étalait ses longues palmes parmi les troncs blancs des bouleaux. Lady Frances s'arrêta pour regarder tout autour d'elle et sembla s'étonner de ne rien découvrir. La lettre fut de nouveau consultée.</p>
                     <p>-- Il doit y avoir une cabane ici près, Billy, dit la jeune femme.</p>
@@ -2476,7 +2472,7 @@
                     <p>-- Il y a un droit qui est toujours le plus fort, murmura-t-il, le droit du cœur. Il nous faudrait l'amour pour enchaîner ce beau lion qui m'effraye par sa douceur même et par sa tranquillité. Suzanne est belle, mais elle a déjà pleuré... Jeanne ! une chère enchanteresse qui, pour la première fois aujourd'hui, ne m'a pas laissé voir tout au fond de son cœur... Robert, mon pauvre brigand, en mourrait d'ailleurs ; il n'y faut pas songer... Il y a Germaine, tout un bouquet de grâces, de gaieté et de parfums. Je regrette Jeanne... Si je pouvais dire à Henri : Choisis entre Jeanne et Germaine...</p>
                     <p>-- Ah ! reprit-il avec un gros soupir, autrefois, j'aurais eu toutes les fleurs de Versailles et de Trianon ! Ces fiers tribuns se laissent prendre volontiers aux sourires des princesses, car, dans tout conspirateur, il y a du chevalier errant... Mais nous n'avons pas de princesses à Miremont !</p>
                     <p>Il ferma les yeux : le sommeil venait. À tout prendre, Germaine et Jeanne valaient bien des princesses. Le mâtin du moulin n'aboyait plus et sultan dormait. La tête du vieux marquis tomba sur l'oreiller, tandis que les noms de Germaine et de Jeanne mouraient entre ses lèvres.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Ce n'était pas le cheval du comte Henri qui avait troublé, ce soir-là, le silence de la vallée de l'Oise. Le marquis avait deviné juste : Henri était loin ; et pourtant le marquis s'était trompé, car il ne fallait pas même aller jusqu'aux limites de la commune. -- qui n'était ni large ni longue, -- pour trouver le but où devait s'arrêter la course nocturne du jeune comte.</p>
                     <p>Quant aux bruits entendus à cette heure de veille où bien souvent le rêve prend la place de la réalité, le marquis de Belcamp n'avait pas fait erreur. Il y avait eu plus d'un voyageur sur la route du bord de l'eau, si déserte d'habitude après la nuit tombée. Des pas de chevaux avaient sonné sur le cailloutis du pont, et le chien du moulin avait hurlé flairant avec défiance et colère l'étranger qui passait.</p>
                     <p>Dans diverses directions, la poussière des sentiers de la forêt avait tourbillonné sous le galop. Des cavaliers solitaires avaient glissé le long des routes de chasse. Il y avait cette nuit un étrange mouvement dans la campagne, et le chien du moulin n'était pas seul à hurler.</p>
@@ -2557,10 +2553,9 @@
                     <p>Le général B..., qui, plus tard, devait trouver la mort en franchissant les bornes de ce pacifique programme, demanda :</p>
                     <p>-- Qui nous convoque ?</p>
                     <p>-- L'empereur, répondit le prêtre.</p>
-                    <p>Et le général duc de <milestone type="asterisk"/> ajouta :</p>
+                    <p>Et le général duc de <milestone unit="section" type="asterisk"/> ajouta :</p>
                     <p>-- L'Angleterre, Hudson-Lowe, la France, la honte de nos ennemis et l'honneur de notre patrie !</p>
-                    <p>-- Par quelle voie s'est manifesté l'appel de l'empereur ? interrogea le sénateur comte de <milestone
-                            type="asterisk"/>.</p>
+                    <p>-- Par quelle voie s'est manifesté l'appel de l'empereur ? interrogea le sénateur comte de <milestone unit="sectino" type="asterisk"/>.</p>
                     <p>Le cri des bons cousins de la forêt se fit entendre au dehors. Cette fois il était prononcé par une voix de femme. La plupart des membres de l'assemblée prêtèrent l'oreille avec étonnement. Seul, le prêtre ne parut point surpris.</p>
                     <p>-- Messeigneurs, dit-il, le bras de Dieu est assez long pour atteindre cet écueil perdu dans l'immensité des mers. La haine de l'Anglais a creusé autour de la prison où souffre l'auguste martyr un fossé prodigieux, large comme la moitié de la terre et profond comme l'enfer ; mais l'arche aussi était perdue au milieu de l'incommensurable solitude des eaux ; cependant la colombe alla et revint, apportant le message d'espérance... Chacun de vous connaît de nom et chérit le noble chirurgien irlandais qui fut le premier consolateur du géant tombé à bord du <seg
                             rend="italic">Bellérophon</seg>...</p>
@@ -2595,9 +2590,7 @@
                     <p>L'écriture allait cependant s'effaçant, et quand la lettre revint à lady Frances, les trois mots tracés par l'empereur avaient complètement disparu.</p>
                     <p>Un silence profond régnait dans la chambre basse de Madeleine Surrisy. L'Europe entière avait alors connaissance des traitements indignes que l'Angleterre infligeait à l'ennemi vaincu qu'elle avait appelé à elle comme un hôte pour l'assassiner lentement et à coups d'épingles dans les misères d'une prison déloyale. Malgré les précautions du geôlier sur qui pèse une si déplorable gloire, on recevait des lettres de Longwood, et la correspondance des officiers anglais eux-mêmes était pleine de tristes révélations. Le féroce traitement infligé au comte de Las-Cases pour quelques plaintes mesurées soulevait tous les cœurs, et la barbarie même des vainqueurs faisait naître l'unanimité des compassions autour de cette grandeur déchue.</p>
                     <p>-- Qu'allons-nous faire, messieurs ? demanda, le premier le général B..., les poings fermés et les dents serrées.</p>
-                    <p>-- À supposer que nous eussions des soldats, répondit le sénateur comte <milestone
-                            type="asterisk"
-                        /> avec découragement, il faudrait leur donner des ailes.</p>
+                    <p>-- À supposer que nous eussions des soldats, répondit le sénateur comte <milestone unit="sectino" type="asterisk"/> avec découragement, il faudrait leur donner des ailes.</p>
                     <p>-- Ayons seulement des soldats ! reprit B... brusquement ; jetons bas celui-ci ; proclamons celui-là en disant qu'il s'est échappé de son rocher et qu'il fait voile pour l'Europe. Ce qui est faux aujourd'hui sera vrai demain, et c'est avec la flotte de la France que nous irons chercher Napoléon à Sainte-Hélène !</p>
                     <p>Personne ne soutint ni ne combattit cette opinion. Le prêtre dit :</p>
                     <p>-- Nous sommes ici pour délivrer un captif et non pas pour proclamer un empereur.</p>
@@ -2607,7 +2600,7 @@
                     <p>-- Rien ? Feindrez-vous de n'avoir pas entendu ce cri de détresse ? Resterez-vous les bras croisés ? Attendrez-vous l'article du<seg
                             rend="italic"
                         > Moniteur</seg> qui est rédigé d'avance et qui dira dans quelques années, dans quelques mois peut-être, comme s'il s'agissait du premier venu : « Napoléon Bonaparte est mort à Sainte-Hélène, à la suite d'une longue maladie... » Longue en effet, messieurs, et cruelle ! Je n'ai pas, à bien réfléchir, les mêmes raisons que vous pour m'émouvoir. Mon vrai maître à moi, le dieu dont je me suis fait l'apôtre, ne s'appelle pas Napoléon, mais Liberté ! Ce n'est pas la liberté qui est enchaînée là-bas, ce n'est qu'un empereur... Si j'ai la fièvre, vous devriez avoir le transport.</p>
-                    <p>-- Général, répliqua l'ancien ministre, duc de <milestone type="asterisk"
+                    <p>-- Général, répliqua l'ancien ministre, duc de <milestone unit="section" type="asterisk"
                         />, personne ici n'a mérité vos reproches. Notre réunion même, qui a coûté tant de peines et qui brave tant de dangers, prouve assez que nul dévouement parmi nous n'a besoin d'être éperonné. Parlons avec calme avant d'agir avec audace et fermeté, parce que le transport ni la fièvre ne valent rien et ne produisent rien. L'oreille de l'empereur, souvenons-nous de cela, écoute, notre délibération qui est suprême en plus d'un sens, car chacun de nous est venu de loin et va s'en retourner au loin. Les défiances de l'autorité sont désormais éveillées : Qui sait l'heure, et le jour où nous pourrons nous rencontrer de nouveau ? Que l'écho de notre parole soit au moins une consolation et un espoir pour celui qui est en exil et dont l'œil d'aigle voit encore la France au travers de l'immensité ; que la sœur du noble O'Meara, rédigeant le mystérieux procès-verbal de notre assemblée, n'ait pas à dire au moins : La discorde est dans le camp des désespérés !</p>
                     <p>Le général B... lui tendit la main avec émotion, au milieu d'un murmure qui était un applaudissement.</p>
                     <p>Le mot de ralliement fut encore entendu au dehors et plusieurs s'écrièrent :</p>
@@ -2625,8 +2618,7 @@
                     <p>Les voiles noirs tombèrent sur tous les visages.</p>
                     <p>Le prêtre dit d'un accent troublé :</p>
                     <p>-- Messeigneurs, le grand maître est à la nomination de l'empereur...</p>
-                    <p>-- Nos existences sont en jeu... murmura le sénateur comte <milestone
-                            type="asterisk"/>.</p>
+                    <p>-- Nos existences sont en jeu... murmura le sénateur comte <milestone unit="sectino" type="asterisk"/>.</p>
                     <p>-- Il suffirait d'un traître... ajouta le major général F...</p>
                     <p>Mais le général B... repartit en souriant :</p>
                     <p>-- C'est justement parce que nous avons mis nos existences sur table qu'il faut les jouer... et je me charge du traître.</p>
@@ -2649,8 +2641,7 @@
                     <p>-- Milords, prononça-t-il ensuite d'un ton respectueux et ferme, je vous cache un front obscur et vous me montrez des visages illustres. J'ai traversé la mer pour vous dire : Dieu soit avec nous ! j'ai les moyens de rendre votre empereur à la liberté ; comme j'avais traversé la mer pour dire à votre empereur lui-même : Sire, que Dieu m'aide et je sauverai Votre Majesté !</p>
                     <p>-- Vous avez vu l'empereur !</p>
                     <p>-- Ce cri jaillit à la fois de toutes les bouches.</p>
-                    <p>Puis il y eut un silence. Le doute remplaçait déjà l'enthousiasme dans l'expression de certaines physionomies. L'amiral baron <milestone
-                            type="asterisk"/> dit à voix basse :</p>
+                    <p>Puis il y eut un silence. Le doute remplaçait déjà l'enthousiasme dans l'expression de certaines physionomies. L'amiral baron <milestone unit="sectino" type="asterisk"/> dit à voix basse :</p>
                     <p>-- Tous ceux qui connaissent l'île de Saint-Hélène regardent comme impossible de pénétrer jusqu'au prisonnier de Longwood.</p>
                     <p>-- C'est le prisonnier de Longwood, répliqua le nouveau venu, qui a rayé de votre dictionnaire français ce même mot : Impossible ! La voie que j'aie prise pour pénétrer jusqu'à l'empereur est mon secret, comme sont aussi mon secret plusieurs des moyens que j'emploie pour accomplir ma promesse. Ma vie est un secret ; mon œuvre est un secret.</p>
                     <p>J'ai voulu être maître de cette association où tant de membres sont au-dessus de moi, pour avoir le droit de garder mon secret. Et comme il n'y avait au monde qu'une sanction capable de forcer des gens tels que vous à suivre les yeux bandés une route inconnue, je suis allé au péril de mes jours chercher cette sanction et je l'ai eue.</p>
@@ -2680,8 +2671,7 @@
                     <p>-- Du diable si nous vous donnerons le temps de devenir un avocat, Surrisy ! Je veux que votre épaulette ait sa jumelle pour le printemps prochain... Ne m'interrogez pas, lieutenant ! C'est de la sorcellerie ; nous allons escamoter Sainte-Hélène comme une muscade !</p>
                     <p>Il piqua des deux en agitant son chapeau.</p>
                     <p>Une demi-heure après, tout était silence et solitude le long des bords de l'Oise.</p>
-                    <p>Au poteau de la Croix-Meraine, sur la route de Paris à l'Isle-Adam, le vieux prêtre, le général duc de <milestone
-                            type="asterisk"/> et l'amiral baron <milestone type="asterisk"
+                    <p>Au poteau de la Croix-Meraine, sur la route de Paris à l'Isle-Adam, le vieux prêtre, le général duc de <milestone unit="sectino" type="asterisk"/> et l'amiral baron <milestone unit="section" type="asterisk"
                         /> s'arrêtèrent, le premier au moment de remonter dans sa voiture qui l'attendait à quelques pas de là, les deux autres sur le point de continuer leur voyage en se tournant le dos.</p>
                     <p>-- Amiral, dit le duc, vous êtes seul véritablement compétent en cette affaire. Quel est votre avis ?</p>
                     <p>-- Général, répondit le glorieux marin d'un air pensif, la vapeur ne nous a pas encore dit tout son secret. Nous autres, vieux matelots, nous n'aimons pas cette innovation qui bouleverse notre art de fond en comble. Sur dix marins de mon âge, neuf diraient de cet homme : C'est un fou... Moi, étant donnée la vapeur et ses applications, je m'étonne seulement que l'idée de cet homme ait tardé si longtemps à naître... Mais il en est ainsi de toute chose simple et grande...</p>
@@ -2756,7 +2746,7 @@
                     <p>Elle éveilla Sam et lui donna son cheval, puis, au lieu de rentrer dans l'appartement qu'elle s'était choisi, elle se glissa dans la chambre de la couturière. Lisbeth, constituée bonne d'enfant. Lisbeth dormait. Frances s'assit en silence auprès du berceau. Elle y resta longtemps à contempler le sommeil du petit Richard, calme et riant comme un bel ange.</p>
                     <p>-- Aimer ! aimer ! murmura-t-elle... voir naître cette chère fleur du bonheur... être le Saint-Esprit de cette Trinité ! s'appeler tous les trois du même nom, respirer le même souffle, vivre d'une seule et même vie !</p>
                     <p>Elle se pencha. Les longs cils de sa paupière laissèrent tomber une larme sur le front du petit enfant. Puis elle se retira lentement et la tête inclinée.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>C'était dimanche, un dimanche de mai. Dès quatre heures, le soleil jouant parmi les nuages roses dorait les cimes des coteaux dont la brume légère adoucissait les contours. Les oiseaux chantaient énergiquement leur réveil, et le clocher de la petite église mettait en branle avec gaieté son maigre carillon. Nul vestige des événements de la nuit ne restait dans ces paisibles campagnes.</p>
                     <p>Vous eussiez cherché en vain une trace du passage de ces hommes, mystérieux évocateurs d'un grand et terrible passé, qui avaient agité dans les ténèbres ces dés redoutables à l'aide desquels se jouent les destinées des nations. L'humble maison de Madeleine Surrisy, tranquille et sereine, mirait les saules de son pré dans l'Oise, que nul souffle de vent n'agitait ; sur l'autre rive, le parc de Belcamp étageait ses belles futaies jusqu'à cet honnête château du temps de Henri IV, clément et honnête et demi-bourgeois comme le Bourbon à barbe grise, et qui certes ne parlait ni de féodales insolences ni d'oppressives brutalités. Le moulin chômait, fêtant le repos dominical, et tout blanc au milieu de ses vertes pelouses, le château neuf, partageant avec le vieux manoir la royauté du paysage, disait la conquête des temps et les droits acceptés des nouvelles aristocraties : premier pas vers ces époques désirées où les chaumières atteindront des prix insensés parce qu'il n'y aura plus que des palais.</p>
                     <p>La route du bord de l'eau où tant de pas séditieux avaient laissé leur empreinte n'était pas comme ces sentiers de l'Amérique du Nord, bavards et traitres, qui ne surent jamais garder le secret d'une piste. Nous sommes trop civilisés, et il y a trop de traces sur nos routes pour que l'art de lire les pas dans la poussière ou dans la boue soit encore cultivé chez nous. Nos limiers ont d'autres finesses. Personne, pas même Blondeau, le garde champêtre, subtil amateur pourtant, n'aurait pu suivre à la trace Robert Surrisy, Laurent Herbet et Férandeau, peintre et artiste, -- trois conspirateurs, -- montant du bord de l'Oise au Prieuré, où ils avaient passé le restant de la nuit dans leurs lits ; et si Briquet, incorrigible, n'eût pas commis l'imprudence de graver son nom sur la muraille même de la maisonnette, toute la police de France et de Navarre aurait perdu son latin à savoir si oui ou non cet enfant naturel des gaietés parisiennes avait monté la garde avec son bâton autour des maîtres de la Délivrance.</p>
@@ -3201,7 +3191,7 @@
                     <p>-- Il respire encore !</p>
                     <p>À qui disait-il cela ?</p>
                     <p>Je perdis connaissance. Je ne devais plus revoir Balcomb en Australie...</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>... Le soleil passait à travers la mousseline des Indes de mes rideaux. Les perroquets et les oiseaux siffleurs causaient dans les grandes touffes de lilas qui couvraient les carreaux de ma fenêtre entr'ouverte. Une brise fraiche et tout imprégnée de parfums éventait mon front brûlant.</p>
                     <p>J'avais comme une vague conscience d'être en ce lieu déjà depuis des jours.</p>
                     <p>C'était une chambre assez vaste, meublée avec une certaine élégance austère et dont les meubles en érable blanc respiraient surtout la propreté allemande. La fenêtre donnait sur un grand jardin dont les jeunes arbres semblaient des enfants auprès du rideau de gommiers géans qui obscurcissait l'horizon. La roue d'un moulin chantait au dehors, et au lointain j'entendais beugler les bestiaux.</p>
@@ -3921,7 +3911,7 @@
                         >Calife de Bagdad ou Ma tante Aurore ; </seg>ledit théâtre sera remplacé par un cabinet particulier où nous célébrerons ; le verre en main, l'heureuse circonstance...</p>
                     <p>-- Holà ! lieutenant ! cria une rude voix sur le bas-côté droit de la route...</p>
                     <p>Robert se retourna vivement, et Férandeau regarda d'un air courroucé le malencontreux interrupteur. C'était un paysan qui cheminait sous le soleil, le bâton à la main et le havresac au dos.</p>
-                    <p>On était à quelques centaines de pas du village de <milestone type="asterisk"
+                    <p>On était à quelques centaines de pas du village de <milestone unit="section" type="asterisk"
                         />, dont le clocher s'apercevait au travers des arbres, derrière un coude de la route. La patache venait de dépasser le chemin qui entrait dans les aménagements et conduisait à la cabane de Pierre Louchet. Le paysan qui s'en allait vers Paris, accoutré comme pour un voyage, était Pierre Louchet lui-même.</p>
                     <p>-- Où vas-tu, comme cela, caporal ? demanda Robert.</p>
                     <p>-- À Londres, répondit le paysan.</p>
@@ -4078,7 +4068,7 @@
                     <p>Vous avez vu la folie de l'étalon libre, s'évertuant par vaux et par chemins pour chasser le taon collé sous sa crinière. Il va, il vient, il galope, il rue ; ses crins et sa queue fouettent à la fois ; il se lance au travers des taillis ; il plonge et fait bouillonner l'étang ; il hennit, frémissant et droit sur ses jambes d'acier ; il se roule dans l'herbe ou sur les sables ; le vent arrache des flocons d'écume à sa bouche et la sueur fait des rigoles noires à ses flancs irrités.</p>
                     <p>Mais la mouche s'inquiète-t-elle de tout cela ? Elle pompe son contingent de sang. Quand l'étalon tombe épuisé, la mouche voyage paisiblement dans les rides de son cuir. Les efforts du noble animal n'ont rien fait ; il a emporté partout avec lui son ennemi microscopique. Si la mouche s'en va, c'est qu'elle n'a plus soif.</p>
                     <p>À vingt pas derrière le comte Henri, le petit homme noir se coula dans la ruelle.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Il nous faut reculer à peu près d'une heure, car les <seg rend="italic"
                             >randonnées</seg> du comte Henri s'étaient faites avec une rapidité singulière. À ce moment où il était encore assis dans la loge de lady Frances Elphinstone, auprès de l'adjoint Potel, deux couples s'arrêtèrent à la porte d'une maison bien connue aux alentours de Tivoli et portant pour enseigne un gros homme habillé comme le roi Louis XVIII, et entouré de tout ce qui se peut manger : viandes, poissons, volailles, gibier, légumes, pâtés, tartes, fruits et confitures. <seg
                             rend="italic">Au Gourmand du jour, </seg>disait la légende.</p>
@@ -4345,7 +4335,7 @@
                     <p>Ned prit la bêche et jeta d'un air d'importance la première pelletée de terre sur les deux pauvres diables couchés au fond du trou. Ce fut Molly qui continua la besogne. Quand elle eut achevé, Ned disposa les mottes de gazon, plantant çà et là un pied de chardon dans les interstices. Ce fut réellement fait avec beaucoup d'intelligence et d'art.</p>
                     <p>-- Qu'il vienne seulement un grain de pluie, dit-il, et tout cela va repousser comme un charme.</p>
                     <p>-- Maintenant, mon amour, ajouta-t-il, prenez les deux paquets, la pioche et la bêche. Vous ne coucherez plus dans les endroits suspects. Je suis un gentleman, vous êtes une lady et nous allons vivre à l'hôtel comme des princes.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Dix heures et demie sonnaient à l'horloge de la Bourse, au moment où le comte Henri mettait le pied sur la dalle du passage Feydeau. Il traversa la galerie d'un pas rapide, mais au moment d'arriver au théâtre, il se retourna brusquement.</p>
                     <p>Robert Surrisy était derrière lui.</p>
                     <p>Ils s'arrêtèrent tous les deux au même instant et leurs regards se choquèrent.</p>
@@ -6553,7 +6543,7 @@
                     <p>-- Bon cousin, acheva-t-il, de par la foi, l'espérance et la charité, je vous ordonne de m'ouvrir le chemin de la fontaine !</p>
                     <p>Roblot courba la tête et répondit :</p>
                     <p>-- Maître, je suis prêt à vous obéir.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Le soleil était couché, mais il restait quelques lueurs de jour. Trois hommes, dont l'un portait un manteau léger sur son élégant costume noir, étaient arrêtés devant la porte du cachot n° 2. Les deux autres étaient le sous-directeur Roblot et le gardien Mestivier, qui tenait à la main son trousseau d'énormes clefs.</p>
                     <p>-- Le prisonnier sera bien tranquille là-dedans, dit-il d'un ton goguenard et en donnant un dernier tour à la serrure massive.</p>
                     <p>-- Tu réponds de lui, prononça M. Roblot à haute voix.</p>
@@ -7015,7 +7005,7 @@
                     <p>-- L'ami, lui dit Henri, qui mit une couronne dans sa main, vous m'avez rendu un grand service sans le savoir. Buvez à ma santé !</p>
                     <p>-- Et vous ne voulez pas du livre, milord ? s'écria le courtier de la maison Martins ; vous avez tort. Il y a de quoi amuser les hommes, les dames et les enfants... Je remercie Votre Seigneurie... Je vais faire ce matin Pentonville, Islington, Kingsland, Hackney et Hoxton... Je reviendrai par Bethnal Green, n'est-ce pas ? et j'aurai vendu mon mille, s'il plaît à Dieu... cela ne fait aucun tort au Pauvre diable qui sera pendu...</p>
                     <p>Henri descendait déjà Old-Bailey. Le nuage sombre qui couvrait naguère ses traits avait disparu. C'était de nouveau ce fier et calme visage qui a traversé tout notre récit. Il prit Holborn, puis Chancery-Lane, et s'engagea dans ce dédale inextricable de petites allées qui séparait Lincoln-Inn-Fields des derrières de Covent-Garden. Le plus long, le moins large, le plus célèbre de tous ces coupe-gorge était Low-Lane, où florissait le Sharper's.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Il était environ dix heures du matin. Robert Surrizy avait pris le prétexte du déjeuner pour faire un tour à l'hôtel Spencer, dans Oxford street, et voir un peu ses amis les conspirateurs. Il avait trouvé du rosbif froid sous des cloches de métal dit anglais, du jambon en quantité, du thé, du café clair, et des gentlemen rouges qui mouillaient leur porter épais avec de l'ale aqueuse, mais de conjurés, point. Il n'y avait pas là un seul homme de l'équipage de la <seg
                             rend="italic">Délivrance</seg>.</p>
                     <p>Robert n'avait personne à voir dans tout Londres. Il s'en alla de guerre lasse, après avoir pris son repas, et gagna les parcs en se promenant. Il songeait, et n'accordait qu'un regard distrait aux moutons du roi tondant le velours des gazons, aux canards du roi barbotant au bord de la Serpentine, et aux dindons du roi gloussant dans les cabanes de Kensington. Malheureusement la statue d'Achille, comme on appelle à Londres, sans rire, le bronze du duc de Wellington, n'était pas encore érigée ; sans cela il aurait pu tuer cinq minutes à mesurer jusqu'où peut aller l'infatuation d'un peuple et le mauvais goût d'une époque.</p>
@@ -7746,7 +7736,7 @@
                     <p>Au milieu de son transport, son regard rencontra, sur le pont du bateau à vapeur, une figure hautaine et calme. Il serra le bras de Robert.</p>
                     <p>-- L'autre Anglais !... murmura-t-il ; celui qui écrivit le nom de la mère sur ma porte, et que M. Temple dit que c'est un assassin !</p>
                     <p>-- Silence ! répondit Surrizy ; c'est le général !</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>À ce moment une clameur immense, faite de plaintes, de grognements, d'imprécations et de blasphèmes, partait d'Old-Bailey, le théâtre de l'échafaud, et montait dans le brouillard, qui heureusement défendait le ciel. Le spectacle était décommandé, on mettait une bande sur l'affiche ; ce n'était pas le condamné qui était sorti par la fenêtre ouverte, ce n'était pas même le bourreau et ses aides ; moins que cela ; ce n'était pas non plus le shériff arrivant comme un régisseur dans l'embarras pour avouer l'indisposition ou l'absence d'un premier sujet. Les charpentiers arrivaient pour démolir l'échafaud.</p>
                     <p>Oui, le cockney de Londres est soumis aux lois ; oui, Londres en colère s'enfuit devant un commissaire lisant le <seg
                             rend="italic"
@@ -7755,7 +7745,7 @@
                     <p>Les gouvernements les plus forts doivent s'arrêter devant certains excès. Promettre une pendaison et ne pas la fournir, c'est lâche ! Ces quinze mille citoyens qu'on a dérangés en vain avaient leur vie à gagner. Et quand pendra-t-on, je vous prie ? Retrouve-t-on l'occasion perdue ? On peut avoir affaire une autre fois.</p>
                     <p>Il y eut des vitres cassées. L'émeute hurla sous les fenêtres de Mansion House. Les constables arrêtèrent courageusement un Français égaré qui demandait son chemin, une vieille Irlandaise aveugle et le président d'un club de tempérance qui, pour un peu trop d'eau-de-vie qu'il avait bue, essayait de soutenir les murailles chancelantes de la tour.</p>
                     <p>Sans cette conduite ferme des constables, on ne sait pas ce qui serait arrivé.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>La <seg rend="italic"
                         >Délivrance, </seg>déployant derrière elle son long étendard de fumée, glissait déjà devant Gravesend et dépassait dans sa course légère tous ces fins voiliers de la marine anglaise qui étaient alors sans rivaux dans le monde entier. Sur le pont il n'y avait que l'officier de quart et les hommes nécessaires à la manœuvre. Au salon, tous ceux qui avaient droit de prendre part au conseil étaient rassemblés.</p>
                     <p>À l'issue du conseil, le comte Henri prit la main de Frédérick Boehm et la mit dans la main de Robert Surrizy.</p>
@@ -8023,20 +8013,20 @@
                     <p>-- Parmi toutes ces pièces et au milieu d'une correspondance volumineuse, deux pièces ont principalement attiré l'attention de la justice. C'était d'abord un tableau noir, de grande dimension, dressé en face de la fenêtre et couvert d'écriture en majeure partie chiffrée. Ce tableau représentait l'ensemble des calculs de probabilités au moyen desquels M. Temple était parvenu à connaître l'assassin de Constance Bartolozzi. La justice a reconnu que M. Temple avait un système qui lui est propre, à la fois très-savant et très-ingénieux, qu'il caractérise lui-même sous ce titre : <seg
                             rend="italic"
                         >l'impossible. </seg>Je ne saurais vous l'expliquer. Ce que je puis vous dire, c'est qu'en un coin du tableau une accolade réunissait ces divers noms :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Henri Brown (Londres),</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>James Davy (Londres-Paris),</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>Henri de Belcamp (Paris)</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>Richard Thompson (Londres-Paris), </p>
                     <p>JEAN DIABLE LE QUAKER</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Georges Palmer (Prague),</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>Tom Brown (Londres-Australie).</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>Le tableau a été conservé.</p>
                     <p>La seconde pièce est une biographie complète de ce Tom Brown ou Jean Diable depuis ses premières années, et porte pour suscription : Ceci est dédié à l'auteur du <seg
                             rend="italic"

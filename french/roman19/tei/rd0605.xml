@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,22 +46,22 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#cf" cert="1">adventure</term>
-                    <term type="subgenre" resp="#cf" cert="1">historical</term>
-                    <term type="subsubgenre">de-cap-et-d-épée</term>
-                    <term type="subsubgenre"/>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="protagonist-gender"/>
-                    <term type="setting"/>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">France</term>
-                    <term type="author-gender">male</term>
-                    <term type="tei">11</term>
+                <keywords scheme="keywords.xml">
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#cf" cert="1">adventure</term>
+                    <term type="text.genre.subgenre" resp="#cf" cert="1">historical</term>
+                    <term type="subtext.genre.subgenre">de-cap-et-d-épée</term>
+                    <term type="subtext.genre.subgenre"/>
+                    <term type="text.genre.subtitle"/>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.characters.protagonist.gender"/>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">France</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.tei.version">11</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -406,10 +404,10 @@
                     <p>Au moment où ils traversaient le pont, dépassant nos voyageurs, le vent souleva le voile de l'amazone, et Fortune ne put retenir un cri.</p>
                     <p>Il avait reconnu le charmant visage de la dame mystérieuse qui s'était montrée la veille à la portière de la chaise.</p>
                     <p>Et il eût juré que la Française lui avait adressé en passant un gracieux sourire.</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>**Où l'on appelle pour la première fois Fortune :  </p>
                     <p>« M. le duc ».**</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>Ce bon Michel Pacheco était payé pour ne point tromper quand il parlait d'espions échelonnés sur la route. Il ajoutait des profits politiques à son commerce de futaine, servant le roi et la ligue tour à tour, comme il convient à un marchand obligeant qui ne veut mécontenter aucune de ses pratiques.</p>
                     <p>Une comédie, qui rappelait par de certains côtés les finesses cousues de fil blanc de la Fronde, se jouait entre Paris et Madrid, et tout le long du chemin il y avait des gens qui, comme Michel Pacheco, sans savoir au juste de quoi il s'agissait, connaissaient supérieurement les masques.</p>
                     <p>On faisait du mystère à foison, car une conspiration qui ne se donnerait point la joie de la mise en scène périrait d'ennui dès le début.</p>
@@ -2184,9 +2182,9 @@
                     <p>-- Pendant que tu dansais, Thérèse Badin, ton père est mort assassiné !</p>
                     <p>Thérèse poussa un cri déchirant et tomba évanouie entre les bras de ceux qui l'entouraient.</p>
                     <p>Ceux qui l'entouraient n'étaient ni les deux comtesses, ni la baronne, ni le marquis, ni le vicomte, ni le chevalier, ni l'abbé. Tout ce noble monde avait disparu comme par enchantement.</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>Où la justice informe contre le cavalier Fortune.</p>
-                    <milestone type="asterisk"/>
+                    <milestone unit="section" type="asterisk"/>
                     <p>L'autre foule, les fidèles, attendait toujours dans la rue des Cinq-Diamants, et sa constance n'avait pas encore été récompensée.</p>
                     <p>On était allé chercher, deux heures en deçà, le commissaire de police du quartier des Innocents, qui se nommait maître Touchenot, mais ce magistrat avait passé une partie de la nuit à l'Épée-de-Bois pour veiller au maintien du bon ordre et jouer à la bassette.</p>
                     <p>On avait frappé à la porte de divers juges de la Prévôté du Bailliage et du Présidial, tous séant au Châtelet, et dont les gouvernantes avaient répondu à l'unanimité que leurs maîtres entendaient dormir la grasse matinée.</p>

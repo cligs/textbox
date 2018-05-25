@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,20 +45,20 @@
         <p/>
       </abstract>
       <textClass>
-        <keywords scheme="keywords.csv">
-          <term type="supergenre">narrative</term>
-          <term type="genre">novel</term>
-          <term type="subgenre" subtype="3">crime-fiction</term>
-          <term type="subsubgenre">archaique, suspense</term>
-          <term type="genre-label"/>
-          <term type="form">prose</term>
-          <term type="narrative-perspective">heterodiegetic</term>
-          <term type="protagonist-gender">male</term>
-          <term type="setting">rural</term>
-          <term type="author-continent">Europe</term>
-          <term type="author-country">France</term>
-          <term type="author-gender">male</term>
-          <term type="tei">12</term>
+        <keywords scheme="keywords.xml">
+          <term type="text.genre.supergenre">narrative</term>
+          <term type="text.genre">novel</term>
+          <term type="text.genre.subgenre" cligs:importance="3">crime-fiction</term>
+          <term type="subtext.genre.subgenre">archaique, suspense</term>
+          <term type="text.genre.subtitle"/>
+          <term type="text.form">prose</term>
+          <term type="text.narration.narrator">heterodiegetic</term>
+          <term type="text.characters.protagonist.gender">male</term>
+          <term type="text.setting.settlement.type">rural</term>
+          <term type="author.continent">Europe</term>
+          <term type="author.country">France</term>
+          <term type="author.gender">male</term>
+          <term type="text.tei.version">12</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -2855,7 +2853,7 @@
           <p>-- Je crois, mon pauvre ami, que tout vous accuse..., répondit l'avocat.</p>
           <p>Une expression d'indicible désespoir contracta le visage de Jacques.</p>
           <p>-- En effet, interrompit-il, avec un éclat de rire terrible, il faut que les charges soient bien accablantes, puisqu'elles ont convaincu mes amis les plus chers. Aussi, pourquoi me suis-je tu, le premier jour?... L'honneur! Effroyable duperie!... Et cependant, victime d'une inconcevable vengeance, je me tairais encore, s'il ne s'agissait que de la vie. Mais il y va de mon honneur, de l'honneur des miens, de la vie de Denise... Je parlerai. À vous, Magloire, je dirai la vérité, je puis me disculper d'un mot... (Et saisissant le poignet de maître Magloire, et le serrant à le briser:) D'un mot, fit-il d'une voix sourde, je vais tout vous expliquer: j'étais l'amant de la comtesse de Claudieuse.</p>
-          <milestone type="other"/>
+          <milestone unit="section" type="other"/>
         </div>
         <div>
           <head>XIII</head>

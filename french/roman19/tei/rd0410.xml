@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,20 +52,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" subtype="3">education</term>
-                    <term type="subsubgenre"/>
-                    <term type="genre-label"/>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">autodiegetic</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">France</term>
-                    <term type="author-gender">male</term>
-                    <term type="protagonist-gender">male</term>
-                    <term type="setting"/>
-                    <term type="tei">11</term>
+                <keywords scheme="keywords.xml">
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" cligs:importance="3">education</term>
+                    <term type="subtext.genre.subgenre"/>
+                    <term type="text.genre.subtitle"/>
+                    <term type="text.form">prose</term>
+                    <term type="text.narration.narrator">autodiegetic</term>
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">France</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.characters.protagonist.gender">male</term>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="text.tei.version">11</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -1915,7 +1913,7 @@
                     <p>Assis près de la cheminée, son père ne la quittait pas des yeux ; il paraissait tout ému et il battait des mains. Quand la valse fut finie et que je m'arrêtai, elle vint se camper gentiment en face de moi et me fit une belle révérence. Puis, tout de suite frappant ma harpe d'un doigt, elle fit un signe qui voulait dire « encore ».</p>
                     <p>J'aurais joué pour elle toute la journée avec plaisir ; mais son père dit que c'était assez, parce qu'il ne voulait pas qu'elle se fatiguât à tourner.</p>
                     <p>Alors, au lieu de jouer un air de valse ou de danse, je chantai ma chanson napolitaine que Vitalis m'avait apprise :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic">Fenesta vascia e patrona crudele,</seg>
                     </p>
@@ -1928,7 +1926,7 @@
                     <p>
                         <seg rend="italic">Bella quanno te sento anno menarre.</seg>
                     </p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Aux premières mesures, Lise vint se placer en face de moi, ses yeux fixés sur les miens, remuant les lèvres comme si mentalement elle répétait mes paroles, puis, quand l'accent de la chanson devint plus triste, elle recula doucement de quelques pas, si bien qu'à la dernière strophe elle se jeta en pleurant sur les genoux de son père.</p>
                     <p>« Assez, dit celui-ci.</p>
                     <p>-- Est-elle bête ! dit un de ses frères, celui qui s'appelait Benjamin, elle danse et puis tout de suite elle pleure.</p>
@@ -1999,11 +1997,11 @@
                     <p>Malgré les fatigues que cette vie nouvelle m'imposa, je m'habituai bien vite à cette existence laborieuse qui ressemblait si peu à mon existence vagabonde de bohémien. Au lieu de courir en liberté comme autrefois, n'ayant d'autre peine que d'aller droit devant moi sur les grandes routes, il fallait maintenant rester enfermé entre les quatre murs d'un jardin, et du matin au soir travailler rudement, la chemise mouillée sur le dos, les arrosoirs au bout des bras et les pieds nus dans les sentiers boueux ; mais autour de moi chacun travaillait tout aussi rudement ; les arrosoirs du père étaient plus lourds que les miens, et sa chemise était plus mouillée de sueur que les nôtres. C'est un grand soulagement dans la peine que l'égalité. Et puis je rencontrais là ce que je croyais avoir perdu à jamais : la vie de famille. Je n'étais plus seul, je n'étais plus l'enfant abandonné ; j'avais mon lit à moi, j'avais ma place à moi à la table qui nous réunissait tous. Si durant la journée quelquefois Alexis ou Benjamin m'envoyait une taloche, la main retombée je n'y pensais plus, pas plus qu'ils ne pensaient à celles que je leur rendais ; et le soir, tous autour de la soupe, nous nous retrouvions amis et frères.</p>
                     <p>Pour être vrai, il faut dire que tout ne nous était pas travail et fatigue ; nous avions aussi nos heures de repos et de plaisir, courtes, bien entendu, mais précisément par cela même plus délicieuses.</p>
                     <p>Le dimanche, dans l'après-midi, on se réunissait sous un petit berceau de vignes qui touchait la maison ; j'allais prendre ma harpe au clou où elle restait accrochée pendant toute la semaine, et je faisais danser les deux frères et les deux sœurs. Quand ils étaient las de danser, ils me faisaient chanter mon répertoire, et ma chanson napolitaine produisait toujours son irrésistible effet sur Lise :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic">Fenesta vascia e patrona crudele.</seg>
                     </p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Jamais je n'ai chanté la dernière strophe sans voir ses yeux mouillés.</p>
                     <p>Alors, pour la distraire, je jouais une pièce bouffonne avec Capi. Pour lui aussi ces dimanches étaient des jours de fête ; ils lui rappelaient le passé, et, quand il avait fini son rôle, il l'eût volontiers recommencé.</p>
                     <p>Ces dimanches étaient aussi pour moi le jour de Vitalis. Je jouais de la harpe et je chantais comme s'il eût été là. Bon Vitalis ! à mesure que je grandissais, mon respect pour sa mémoire grandissait aussi. Je comprenais mieux ce qu'il avait été pour moi.</p>
@@ -2276,11 +2274,11 @@
                     <p>-- Je ne la sais pas ; je joue ce que j'ai entendu jouer. »</p>
                     <p>On n'est pas artiste sans avoir un peu d'amour-propre ; je voulus montrer à Mattia que, moi aussi, j'étais musicien.</p>
                     <p>Je pris ma harpe et tout de suite, pour frapper un grand coup, je lui chantai ma fameuse chanson :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic">Fenesta vascia e patrona crudele...</seg>
                     </p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Et alors, comme cela se devait entre artistes, Mattia me paya les compliments que je venais de lui adresser par ses applaudissements ; il avait un grand talent, j'avais un grand talent, nous étions dignes l'un de l'autre.</p>
                     <p>Mais nous ne pouvions pas rester ainsi à nous féliciter l'un l'autre ; il fallait, après avoir fait de la musique pour nous, pour notre plaisir, en faire pour notre souper et pour notre coucher.</p>
                     <p>Je bouclai mon sac, et Mattia à son tour le mit sur ses épaules.</p>
@@ -2628,7 +2626,7 @@
                     <p>Nous n'étions plus à quarante mètres sous terre, l'air n'était plus comprimé, les parois de la remontée ne nous pressaient plus, nos bourdonnements d'oreilles avaient cessé, nous respirions librement, nos cœurs battaient dans nos poitrines !</p>
                     <p>Avant de revoir la chaude lumière du soleil, avant d'entendre le bruit du vent dans les feuilles, nous devions rester là pendant de longues et cruelles journées, souffrant toutes les souffrances, nous demandant avec angoisse si jamais nous verrions cette lumière et si jamais il nous serait donné d'entendre cette douce musique.</p>
                     <p>Mais, pour vous raconter cette effroyable catastrophe des mines de la Truyère, telle qu'elle a eu lieu, je dois vous dire maintenant comment elle s'était produite, et quels moyens les ingénieurs employaient pour nous sauver.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Lorsque nous étions descendus dans la mine, le lundi matin, le ciel était couvert de nuages sombres et tout annonçait un orage. Vers sept heures cet orage avait éclaté, accompagné d'un véritable déluge. Les nuages qui traînaient bas s'étaient engagés dans la vallée tortueuse de la Divonne et, pris dans ce cirque de collines, ils n'avaient pas pu s'élever au-dessus ; tout ce qu'ils renfermaient de pluie, ils l'avaient versé sur la vallée ; ce n'était pas une averse, c'était une cataracte, un déluge. En quelques minutes les eaux de la Divonne et des affluents avaient gonflé, ce qui se comprend facilement, car, sur un sol de pierre, l'eau n'est pas absorbée, mais, suivant la pente du terrain, elle roule jusqu'à la rivière. Subitement les eaux de la Divonne coulèrent à pleins bords dans son lit escarpé, et celles des torrents de Saint-Andéol et de la Truyère débordèrent. Refoulées par la crue de la Divonne, les eaux du ravin de la Truyère ne trouvèrent pas à s'écouler, et alors elles s'épanchèrent sur le terrain qui recouvre les mines. Ce débordement s'était fait d'une façon presque instantanée ; mais les ouvriers du dehors occupés au lavage du minerai, forcés par l'orage de se mettre à l'abri, n'avaient couru aucun danger. Ce n'était pas la première fois qu'une inondation arrivait à la Truyère, et, comme les ouvertures des trois puits étaient à des hauteurs où les eaux ne pouvaient pas monter, on n'avait d'autre inquiétude que de préserver les amas de bois qui se trouvaient préparés pour servir au boisage des galeries.</p>
                     <p>C'était à ce soin que s'occupait l'ingénieur de la mine, lorsque tout à coup il vit les eaux tourbillonner et se précipiter dans un gouffre qu'elles venaient de se creuser. Ce gouffre se trouvait sur l'affleurement d'une couche de charbon.</p>
                     <p>Il n'a pas besoin de longues réflexions pour comprendre ce qui vient de se passer : les eaux se sont précipitées dans la mine, et le plan de la couche leur sert de lit ; elles baissent au-dehors ; la mine va être inondée, elle va se remplir ; les ouvriers vont être noyés.</p>
@@ -2649,7 +2647,7 @@
                     <p>Des bennes d'épuisement sont installées dans les trois puits, et elles ne s'arrêteront plus ni jour ni nuit, jusqu'au moment où la dernière goutte d'eau sera versée dans la Divonne.</p>
                     <p>En même temps on commence à creuser des galeries. Où va-t-on ? on ne sait trop ; un peu au hasard, mais on va. Il y eut divergence dans le conseil des ingénieurs sur l'utilité de ces galeries qu'on doit diriger à l'aventure, dans l'incertitude où l'on est sur la position des ouvriers encore vivants ; mais l'ingénieur de la mine espère que des hommes auront pu se réfugier dans les vieux travaux, où l'inondation n'aura pas pu les atteindre, et il veut qu'un percement direct, à partir du jour, soit conduit vers ces vieux travaux, ne dût-on sauver personne.</p>
                     <p>Ce percement est mené sur une largeur aussi étroite que possible, afin de perdre moins de temps, et un seul piqueur est à l'avancement ; le charbon qu'il abat est enlevé au fur et à mesure, dans des corbeilles qu'on se passe en faisant la chaîne ; aussitôt que le piqueur est fatigué, il est remplacé par un autre. Ainsi, sans repos et sans relâche, le jour comme la nuit, se poursuivent simultanément ces doubles travaux : l'épuisement et le percement.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Si le temps est long pour ceux qui du dehors travaillent à notre délivrance, combien plus long encore l'est-il pour nous, impuissants et prisonniers, qui n'avons qu'à attendre sans savoir si l'on arrivera à nous assez tôt pour nous sauver !</p>
                     <p>Le bruit des bennes d'épuisement ne nous maintint pas longtemps dans la fièvre de joie qu'il nous avait tout d'abord donnée. La réaction se fit avec la réflexion. Nous n'étions pas abandonnés, on s'occupait de notre sauvetage, c'était là l'espérance ; l'épuisement se ferait-il assez vite ? c'était là l'angoisse.</p>
                     <p>Aux tourments de l'esprit se joignaient d'ailleurs maintenant les tourments du corps. La position dans laquelle nous étions obligés de nous tenir sur notre palier était des plus fatigantes ; nous ne pouvions plus faire de mouvements pour nous dégourdir, et nos douleurs de tête étaient devenues vives et gênantes.</p>
@@ -2735,7 +2733,7 @@
                     <p>Les sons perçus étaient si faibles qu'il était impossible de déterminer la place précise d'où ils venaient. Mais l'indication, cependant, était suffisante pour dire que des ouvriers échappés à l'inondation se trouvaient dans une des trois remontées de la galerie plate des vieux travaux. Ce n'est plus une descente qui ira au-devant des prisonniers, mais trois, de manière à arriver aux trois remontées. Lorsqu'on sera plus avancé et qu'on entendra mieux, on abandonnera les descentes inutiles pour concentrer les efforts sur la bonne.</p>
                     <p>Le travail reprend avec plus d'ardeur, et c'est à qui des compagnies voisines enverra à la Truyère ses meilleurs piqueurs.</p>
                     <p>À l'espérance résultant du creusement des descentes se joint celle d'arriver par la galerie, car l'eau baisse dans le puits.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Lorsque dans notre remontée nous entendîmes l'appel frappé par l'ingénieur, l'effet fut le même que lorsque nous avions entendu les bennes d'épuisement tomber dans les puits.</p>
                     <p>« Sauvés ! »</p>
                     <p>Ce fut un cri de joie qui s'échappa de nos bouches, et sans réfléchir nous crûmes qu'on allait nous donner la main.</p>
@@ -3473,12 +3471,12 @@
                     <p>Elle me disait qu'elle avait été prévenue de la mort de son homme, et que, peu de temps auparavant, elle avait reçu de celui-ci une lettre qu'elle m'envoyait, pensant qu'elle pouvait m'être utile, puisqu'elle contenait des renseignements sur ma famille.</p>
                     <p>« Vite, vite, s'écria Mattia, lisons la lettre de Barberin. »</p>
                     <p>Ce fut la main tremblante et le cœur serré que j'ouvris cette lettre :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Ma chère femme,</p>
                     <p>« Je suis à l'hôpital, si malade que je crois que je ne me relèverai pas. Si j'en avais la force, je te dirais comment le mal m'est arrivé ; mais ça ne servirait à rien ; il vaut mieux aller au plus pressé. C'est donc pour te dire que, si je n'en réchappe pas, tu devras écrire à Greth and Galley, Greensquare, Lincoln's-Inn, à Londres ; ce sont des gens de loi chargés de retrouver Rémi. Tu leur diras que seule tu peux leur donner des nouvelles de l'enfant, et tu auras soin de te faire bien payer ces nouvelles ; il faut que cet argent te fasse vivre heureuse dans ta vieillesse. Tu sauras ce que Rémi est devenu en écrivant à un nommé Acquin, ancien jardinier, maintenant détenu à la prison de Clichy à Paris. Fais écrire toutes tes lettres par M. le curé, car dans cette affaire il ne faut se fier à personne. N'entreprends rien avant de savoir si je suis mort.</p>
                     <p>« Je t'embrasse une dernière fois.</p>
                     <p>« BARBERIN. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Je n'avais pas lu le dernier mot de cette lettre que Mattia se leva en faisant un saut.</p>
                     <p>« En avant pour Londres ! » cria-t-il.</p>
                     <p>J'étais tellement surpris de ce que je venais de lire, que je regardai Mattia sans bien comprendre ce qu'il disait.</p>
@@ -3735,7 +3733,7 @@
                     <p>« Je suis curieux de voir ce que mère Barberin va te répondre. »</p>
                     <p>Pour avoir cette lettre, qui devait m'être adressée « poste restante », nous avions changé notre itinéraire de chaque jour, et, au lieu de gagner Holborn par West-Smith-Field, nous descendions jusqu'à la poste. Pendant assez longtemps, nous fîmes cette course inutilement ; mais, à la fin, cette lettre si impatiemment attendue nous fut remise.</p>
                     <p>L'hôtel général des postes n'est point un endroit favorable à la lecture ; nous gagnâmes une allée dans une ruelle voisine, ce qui me donna le temps de calmer un peu mon émotion, et là, enfin, je pus ouvrir la lettre de mère Barberin, c'est-à-dire la lettre qu'elle avait fait écrire par le curé de Chavanon :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Mon petit Rémi,</p>
                     <p>« Je suis bien surprise et bien fâchée de ce que ta lettre m'apprend, car, selon ce que mon pauvre Barberin m'avait toujours dit, aussi bien après t'avoir trouvé avenue de Breteuil qu'après avoir causé avec la personne qui te cherchait, je pensais que tes parents étaient dans une bonne et même dans une grande position de fortune.</p>
                     <p>« Cette idée m'était confirmée par la façon dont tu étais habillé lorsque Barberin t'a apporté à Chavanon, et qui disait bien clairement que les objets que tu portais appartenaient à la layette d'un enfant riche. Tu<seg
@@ -3749,7 +3747,7 @@
                     <p>« Tu me feras plaisir quand tu pourras me donner de tes nouvelles, et j'espère qu'elles seront toujours bonnes ; toi si tendre et si affectueux, comment ne serais-tu pas heureux dans ta famille, avec un père, une mère, des frères et des sœurs qui vont t'aimer comme tu mérites de l'être ?</p>
                     <p>« Adieu, mon cher enfant, je t'embrasse affectueusement.</p>
                     <p>« Ta mère nourrice, Ve Barberin. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>La fin de cette lettre m'avait serré le cœur. Pauvre mère Barberin, comme elle était bonne pour moi ! Parce qu'elle m'aimait, elle s'imaginait que tout le monde devait m'aimer comme elle.</p>
                     <p>« C'est une brave femme, dit Mattia, elle a pensé à moi ; mais, quand elle m'aurait oublié, cela n'empêcherait pas que je la remercierais pour sa lettre ; avec une description aussi complète, il ne faudra pas que master Driscoll se trompe dans l'énumération des objets que tu portais lorsqu'on t'a volé. »</p>
                     <p>Ce n'était pas chose facile que de demander à mon père de me dire comment j'étais vêtu lorsque je lui avais été volé. Si je lui avais posé cette question tout naïvement, sans arrière-pensée, rien n'aurait été plus simple ; mais il n'en était pas ainsi, et c'était justement cette arrière-pensée qui me rendait timide et hésitant.</p>
@@ -4182,14 +4180,14 @@
                     <p>Et, quatre jours après avoir quitté Seyssel, nous cherchons, aux environs de Vevey, parmi les nombreuses villas qui, à partir du lac aux eaux bleues, s'étagent gracieusement sur les pentes vertes et boisées de la montagne, laquelle est habitée par Mme Milligan, avec Arthur et Lise.</p>
                     <p>Le mieux est de chercher et de visiter nous-mêmes toutes les maisons où peuvent loger les étrangers ; en réalité cela n'est pas bien difficile, nous n'avons qu'à jouer notre répertoire dans toutes les rues.</p>
                     <p>Un après-midi, nous donnions ainsi un concert en pleine rue, n'ayant devant nous qu'une grille pour laquelle nous chantions, et derrière nous qu'un mur dont nous ne prenions pas souci. J'avais chanté à tue-tête la première strophe de ma chanson napolitaine et j'allais commencer la seconde, quand tout à coup nous entendîmes derrière nous, au-delà de ce mur, un cri ; puis on chanta cette seconde strophe, faiblement et avec une voix étrange :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic"> **Vorria arreventare no piccinotto,</seg>
                     </p>
                     <p>
                         <seg rend="italic">Cona lancella oghi vennenno acqua.</seg>
                     </p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Quelle pouvait être cette voix ?</p>
                     <p>« Arthur ? » demanda Mattia.</p>
                     <p>Mais non, ce n'était pas Arthur, je ne reconnaissais pas sa voix et cependant Capi poussait des soupirs étouffés et donnait tous les signes d'une joie vive en sautant contre le mur.</p>
@@ -4276,10 +4274,10 @@
                         >Times ; </seg>il le dépose sur ma table de travail en me demandant si je l'ai lu, et, sur ma réponse négative, il me montre du doigt une correspondance de Vienne que je traduis :</p>
                     <p>« Vous aurez prochainement à Londres la visite de Mattia ; malgré le succès prodigieux qui a accueilli la série de ses concerts ici, il nous quitte, appelé en Angleterre par des engagements auxquels il ne peut manquer. Je vous ai déjà parlé de ces concerts ; ils ont produit la plus vive sensation autant par la puissance et par l'originalité du virtuose que par le talent du compositeur ; pour tout dire, en un mot, Mattia est le Chopin du violon. »</p>
                     <p>À ce moment, un domestique me remet une dépêche télégraphique qu'on vient d'apporter :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« C'est peut-être la traversée la plus courte, mais ce n'est pas la plus agréable ; en est-il d'agréable, d'ailleurs ? Quoi qu'il en soit, j'ai été si malade que c'est à Red-Hill seulement que je trouve la force de te prévenir ; j'ai pris Cristina en passant à Paris ; nous arriverons à Chegford à quatre heures dix minutes, envoie une voiture au-devant de nous.</p>
                     <p>« Mattia. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>En parlant de Cristina, j'avais regardé Arthur, mais il avait détourné les yeux ; ce fut seulement quand je fus arrivé à la fin de la dépêche qu'il les releva.</p>
                     <p>« J'ai envie d'aller moi-même à Chegford, dit-il, je vais faire atteler le landau.</p>
                     <p>-- C'est une excellente idée ; tu seras ainsi au retour vis-à-vis de Cristina. »</p>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,19 +48,19 @@
         <p/>
       </abstract>
       <textClass>
-        <keywords scheme="keywords.csv">
-          <term type="supergenre">narrative</term>
-          <term type="genre">novel</term>
-          <term type="subgenre" subtype="3">adventure</term>
-          <term type="subsubgenre"/>
-          <term type="genre-label"/>
-          <term type="form">prose</term>
-          <term type="narrative-perspective"/>
-          <term type="setting"/>
-          <term type="author-continent">Europe</term>
-          <term type="author-country">France</term>
-          <term type="author-gender">male</term>
-          <term type="tei">11</term>
+        <keywords scheme="keywords.xml">
+          <term type="text.genre.supergenre">narrative</term>
+          <term type="text.genre">novel</term>
+          <term type="text.genre.subgenre" cligs:importance="3">adventure</term>
+          <term type="subtext.genre.subgenre"/>
+          <term type="text.genre.subtitle"/>
+          <term type="text.form">prose</term>
+          <term type="text.narration.narrator"/>
+          <term type="text.setting.settlement.type"/>
+          <term type="author.continent">Europe</term>
+          <term type="author.country">France</term>
+          <term type="author.gender">male</term>
+          <term type="text.tei.version">11</term>
         </keywords>
       </textClass>
     </profileDesc>

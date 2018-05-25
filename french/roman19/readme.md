@@ -34,3 +34,9 @@ Please provide a reference if you use this research data in your teaching or res
 * The plain text files in the "txt" folder have been automatically built from the XML-TEI files. They contain only the text body without front or back matter or notes and without any chapter headings. 
 * If you would like to create your own metadata table or extract the plain text from the TEI files in a different way, please have a look at our toolbox which provides submodules for this.
 * In case you notice errors of any kind in the text collection, please use the issue tracker here on GitHub to notify us. We will be glad to fix them.
+
+# TODOs
+* change name of metadata
+* change keywords.csv
+* change links
+

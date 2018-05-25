@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,19 +45,19 @@
         <p/>
       </abstract>
       <textClass>
-        <keywords scheme="keywords.csv">
-          <term type="supergenre">narrative</term>
-          <term type="genre">novel</term>
-          <term type="subgenre" subtype="3">adventure</term>
-          <term type="subsubgenre"/>
-          <term type="genre-label"/>
-          <term type="form">prose</term>
-          <term type="narrative-perspective"/>
-          <term type="setting"/>
-          <term type="author-continent">Europe</term>
-          <term type="author-country">France</term>
-          <term type="author-gender">male</term>
-          <term type="tei">11</term>
+        <keywords scheme="keywords.xml">
+          <term type="text.genre.supergenre">narrative</term>
+          <term type="text.genre">novel</term>
+          <term type="text.genre.subgenre" cligs:importance="3">adventure</term>
+          <term type="subtext.genre.subgenre"/>
+          <term type="text.genre.subtitle"/>
+          <term type="text.form">prose</term>
+          <term type="text.narration.narrator"/>
+          <term type="text.setting.settlement.type"/>
+          <term type="author.continent">Europe</term>
+          <term type="author.country">France</term>
+          <term type="author.gender">male</term>
+          <term type="text.tei.version">11</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -4246,10 +4244,10 @@
           <p>Le Proscrit tira de sa poitrine une lettre contenue dans un sachet de peau de daim, et la présenta au comte.</p>
           <p>Le jeune homme ouvrit la lettre et la lut rapidement.</p>
           <p>Elle ne contenait que ces mots :</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>« Le porteur de la présente a toute ma confiance. Ajoutez foi à ce qu'il vous dira de ma part. Je n'ai pas de secrets pour lui.</p>
           <p>« De Contrecœur. »</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>-- C'est bien, monsieur, répondit gracieusement le comte en rendant la lettre ; je n'avais pas besoin de cette nouvelle preuve que vous me donnez de votre fidélité pour savoir que je pouvais me fier à vous.</p>
           <p>-- Merci, monsieur, répondit le Proscrit en repliant la lettre et la renfermant de nouveau dans le sachet.</p>
           <p>-- N'avez-vous plus rien à ajouter ?</p>
@@ -5423,10 +5421,10 @@
           <p>Un papier, plié en quatre, s'en échappa. Le comte se baissa vivement et le saisit avant même qu'il eût touché le sol.</p>
           <p>Il l'ouvrit en tremblant, le parcourut des yeux et une expression d'ineffable bonheur se peignit aussitôt sur ses traits un instant auparavant livides comme ceux d'un cadavre.</p>
           <p>Voici les quelques mots écrits d'une main tremblée sur ce papier si providentiellement arrivé à son adresse, et que le comte relut mille fois :</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>« Vous êtes parti ; je pars aussi, hélas ! Quand reviendrai-je ? je l'ignore. Mais vous viendrez, vous ! Vous m'aimez ; votre première visite sera pour la pauvre recluse, qui ne sera pas là pour vous recevoir et vous souhaiter la bienvenue du retour. Alors vous visiterez tous les endroits où si souvent nous avons erré ensemble en nous racontant notre amour. Ce nid, dont nous avons nourri la frêle couvée, vous le retrouverez. Ses habitants ont pris leur vol ; à leur place, je mets mon cœur. Je vous aime et j'espère ; quoi qu'il arrive, espérez ! Au revoir ! bientôt.</p>
           <p>« ANGÈLE. »</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>Après avoir cent fois pressé sur ses lèvres ce papier qui lui rendait le bonheur, le comte, avec cet enfantillage de l'amour que comprennent si bien ceux qui aiment réellement, ramassa soigneusement ces fleurs qui lui étaient échappées, il enveloppa les débris, désormais sacrés pour lui, dans la précieuse lettre, et il cacha le tout sur son cœur.</p>
           <p>Après avoir dit un dernier adieu à cette chaumière qu'il était contraint de quitter, bien qu'à regret, il sortit de l'enclos et rejoignit Rameau-d'Or.</p>
           <p>Le soldat s'était prosaïquement endormi, la pipe aux dents.</p>
@@ -5959,11 +5957,11 @@
           <p>Autour de cette pierre, une feuille était enroulée et maintenue au moyen d'un fil de chanvre.</p>
           <p>Le comte, le cœur palpitant, jeta un regard soupçonneux autour de lui, afin de ne pas être surpris ; il alla appuyer l'épaule contre la porte par laquelle était sorti le domestique ; puis la main frémissante, il brisa le fil et déroula la feuille. Cette feuille était une lettre ; sur sa pulpe, avec un éclat de bois taillé en stylet, on avait gravé profondément des lettres faciles à déchiffrer.</p>
           <p>Le comte lut rapidement ce qui suit :</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>« Depuis sept jours, je suis embusqué dans les arbres en face de votre fenêtre, guettant sans cesse votre présence. Vous voilà enfin ; Dieu soit loué ! Des amis sûrs veillent pour vous sauver. Prenez garde aux gens au pouvoir desquels vous êtes ; n'adressez aucune question, refusez toute entrevue demandez à vous promener au dehors, cette permission vous sera accordée. Quoi que vous voyiez, quoi que vous entendiez, quels que soient les gens que vous rencontriez pendant votre promenade, ne vous étonnez de rien, ne reconnaissez personne. Quand vous entendrez le cri du mawkawis, tenez-vous prêt, ouvrez votre fenêtre ; la délivrance approchera !</p>
           <p>» UN AMI.</p>
           <p>« Détruisez cette feuille. Espoir, courage ! »</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>-- Ah ! s'écria le comte avec joie, je ne suis donc pas abandonné de tous !</p>
           <p>Après avoir écrasé la feuille sous le talon de sa chaussure, il saisit le sifflet et le porta à ses lèvres.</p>
           <p>Presque aussitôt la porte s'ouvrit, et le même serviteur qui, le matin, était venu, entra dans la chambre ; il salua respectueusement le comte, et attendit qu'il lui plût de lui adresser la parole.</p>
@@ -6538,18 +6536,18 @@
           <p>Le capitaine accorda la capitulation demandée.</p>
           <p>Elle fut signée à huit heures du soir.</p>
           <p>Cette capitulation commençait en ces termes :</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>  « Sçavoir,</p>
           <p>« Comme notre intention n'a jamais été de troubler la bonne armonie (sic) qui régnait entre les deux princes amis, mais seulement de venger l'assassin qui a été fait sur un de nos officiers, porteur d'une sommation, et sur son escorte, etc., etc. »</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>L'article 4 était ainsi conçu :</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>« Que comme les Anglais ont en leur pouvoir un officier, deux cadets et généralement les officiers qui ont été faits prisonniers dans l'assassinat du sieur Jumonville, et qu'ils promettent de les renvoyer, etc. »</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>Puis la capitulation se terminait par ces mots :</p>
           <p>« Fait double, sur un des postes de notre blocus, les jour et an que dessus. -- Signé : James Mackay, Georges Washington, Coulon de Villiers. »<seg
               rend="italic">*(1)</seg>*</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>La vengeance était complète, la revanche éclatante, puisque le coupable reconnaissait lui-même par sa signature, le crime qu'il avait commis, et qu'il était contraint de se courber devant la générosité de l'homme dont il avait si odieusement tué le frère.</p>
           <p>Cette victoire, si promptement obtenue, n'avait coûté aux Français que deux hommes tués et soixante-dix blessés.</p>
           <p>À peine la capitulation fut-elle signée, que les Anglais, pris d'une terreur panique inexplicable, s'enfuirent dans toutes les directions, et cela avec tant de précipitation, qu'ils ne songèrent même pas à emporter leur drapeau et qu'ils l'abandonnèrent.<seg
@@ -6593,14 +6591,14 @@
           <p>Et écrasant deux larmes honteuses qui descendaient lentement le long de ses joues hâlées, il se secoua, jeta son fusil sur son épaule, et, se dirigeant à grands pas vers la forêt, il ne tarda pas à s'y enfoncer et à disparaître.</p>
           <p>Une fois seul, le comte de Villiers ouvrit le dernier adieu du Proscrit.</p>
           <p>Voici le peu de mots qu'il contenait :</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>« J'étais jaloux !... Ne le soyez pas, vous qui aimez ma fille ! je vivais dans le même monde que votre père, Louis... Un faux soupçon nous mit l'injure aux lèvres et le fer à la main. J'ai tué votre père, Louis ! voilà pourquoi je ne vous ai jamais appelé mon fils ! Ç'a été mon châtiment. Je me suis expatrié à la suite de folies de jeunesse. Je n'ai pas eu le courage de faire le malheur de ma fille et le vôtre en vous empêchant de l'épouser. Je le devais peut-être.</p>
           <p>« Pardonnez-moi !</p>
           <p>« J'emporte ce secret terrible dans ma tombe.</p>
           <p>« Angèle ignore jusqu'à son vrai nom.</p>
           <p>« Libre à vous de le lui révéler. Pardon encore !</p>
           <p>« Jan-Pol le Proscrit, duc de Saint-Hérem. »</p>
-          <milestone type="space"/>
+          <milestone unit="section" type="space"/>
           <p>-- Qu'as-tu, Louis ? demanda Angèle, qui le vit pâlir.</p>
           <p>-- Rien, mon enfant ! mon Angèle bien-aimée ! répondit M. de Villiers, qui déchira le papier et en jeta les morceaux à la mer.</p>
           <p>Les chasseurs canadiens et les <seg rend="italic"

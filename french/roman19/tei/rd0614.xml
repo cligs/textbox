@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,17 +51,17 @@
         <p/>
       </abstract>
       <textClass>
-        <keywords scheme="keywords.csv">
-          <term type="supergenre">narrative</term>
-          <term type="genre">novel</term>
-          <term type="subgenre">crime-fiction</term>
-          <term type="subsubgenre">archaique</term>
-          <term type="genre-label"/>
-          <term type="form">prose</term>
-          <term type="narrative-perspective"/>
-          <term type="setting"/>
-          <term type="author-gender">male</term>
-          <term type="tei">11</term>
+        <keywords scheme="keywords.xml">
+          <term type="text.genre.supergenre">narrative</term>
+          <term type="text.genre">novel</term>
+          <term type="text.genre.subgenre">crime-fiction</term>
+          <term type="subtext.genre.subgenre">archaique</term>
+          <term type="text.genre.subtitle"/>
+          <term type="text.form">prose</term>
+          <term type="text.narration.narrator"/>
+          <term type="text.setting.settlement.type"/>
+          <term type="author.gender">male</term>
+          <term type="text.tei.version">11</term>
           <term type="status"/>
         </keywords>
       </textClass>
@@ -204,7 +202,7 @@
         <p>Jusqu'à cette heure, Filhol avait aimé tendrement Geneviève, sa femme. Il n'est point de misère complète avec la paix de la famille, et en un petit coin de son cœur, Filhol était heureux. Un jour, Geneviève, la pauvre enfant dévouée, avertit Filhol de ce qui se disait dans le bourg, au sujet de Gabriel et de Marianne. Pour la première fois de sa vie, Filhol se fâcha et rudoya sa femme, et bientôt Gabriel fut plus maître que lui-même au manoir.</p>
         <p>Quand ils se promenaient ensemble, on les voyait échanger des paroles animées, discuter toujours avec chaleur et consulter de grandes feuilles de papier imprimé qu'ils étendaient sur le gazon pour les lire plus à l'aise. Le sacristain trouva un matin une de ces feuilles, oubliées sur la lande. Il y porta les yeux et vit avec effroi que ce n'était ni du français, ni même du latin. Quatre mots seulement, imprimés en gros caractères, étaient compréhensibles au bas de la feuille déchirée :</p>
         <p>ASSURANCE SUR LÀ VIE.</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>Nous connaissons cette feuille, apportée de Redon par Gabriel. Nous savons qu'elle contenait le prospectus du <seg
             rend="italic"
             >Campbell-Life</seg>. J. F. Campbell, esq., un Écossais philanthrope, venait d'inventer, à la fin du dernier siècle, sous le nom de <seg
@@ -1242,9 +1240,9 @@
         <p>-- Geneviève... Dans la chambre de Tanneguy ?</p>
         <p>-- Je n'ai pas eu besoin de lui montrer le chemin, répliqua Olympe de Treguern avec un mélancolique sourire qui la faisait plus belle.</p>
         <p>Comme Mr Privat allait reprendre la parole, elle l'arrêta d'un geste et dit :</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>-- Je vous ai entendu. Vous voulez me demander pourquoi toutes ces victimes ont oublié le soin de la vengeance ? Vous ne savez donc pas qu'elles ont fait plus encore ? Le chemin du meurtrier était rempli d'obstacles ; ces obstacles ont disparu devant ses pas.</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>-- En effet ! balbutia le petit homme.</p>
         <p>-- Et, après le crime commis, est-il jamais resté une trace ? N'y avait-il pas toujours une main mystérieuse qui venait enlever le cadavre et laver jusqu'aux traces du sang ?</p>
         <p>-- C'est vrai ! dit encore le petit homme.</p>
@@ -1425,7 +1423,7 @@
         <p>-- Marcelle ! ma pauvre Marcelle ! dit Tanneguy, qui était là, qui riait et qui pleurait.</p>
         <p>Marcelle cacha sa tête dans le sein du compagnon de son enfance et murmura :</p>
         <p>-- Maintenant, si tu t'en vas encore, je mourrai !</p>
-        <milestone type="line"/>
+        <milestone unit="section" type="line"/>
         <p>En construisant son magnifique château, Gabriel de Feuillans avait conservé l'aile occidentale de l'ancien manoir de Treguern, qui avait un beau caractère. Cette aile se composait de la grande salle où nous avons vu autrefois l'Anglais compter sur le plancher, aux pieds de Geneviève, l'or apporté dans sa valise, de l'appartement de la bonne comtesse, des chambres à coucher de Filhol et d'Étienne. Au delà de cette dernière pièce, il y avait le corridor secret communiquant avec la ferme de feu bonne personne Marion Lécuyer, par où Étienne, son frère, s'était introduit au manoir, la nuit du quinze août 1800.</p>
         <p>Mais l'intérieur de ce corps de bâtiments que nous avons vu triste et désolé avait bien changé, Gabriel y avait accumulé toutes ces magnificences qui méritaient à son château le titre de palais. La grande salle, surtout, qu'il s'était réservée à lui-même, pouvait passer pour un chef-d'œuvre de luxe et de goût excellent.</p>
         <p>Le lendemain de l'octave de l'Assomption, le comte Gabriel était assis auprès de son bureau, couvert de titres et papiers de toute sorte. De nos jours, l'immense richesse n'a plus cet étourdissant aspect des trésors antiques ; il suffit de quelques chiffons pour représenter beaucoup de millions ; aussi n'aurons-nous point la peine de décrire le trésor du comte Gabriel, qui aurait tenu à l'aise dans la poche de votre redingote. C'étaient des liasses de <seg

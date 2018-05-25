@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -54,20 +52,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" subtype="3">education</term>
-                    <term type="subsubgenre"/>
-                    <term type="genre-label"/>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">France</term>
-                    <term type="author-gender">male</term>
-                    <term type="protagonist-gender">female</term>
-                    <term type="setting"/>
-                    <term type="tei">11</term>
+                <keywords scheme="keywords.xml">
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" cligs:importance="3">education</term>
+                    <term type="subtext.genre.subgenre"/>
+                    <term type="text.genre.subtitle"/>
+                    <term type="text.form">prose</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">France</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.characters.protagonist.gender">female</term>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="text.tei.version">11</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -858,7 +856,7 @@
                     <p>Déjà Nicétas avait reposé la lettre sur la table.</p>
                     <p>-- Donnez, dit le comte.</p>
                     <p>Se plaçant sous le châssis d'où la lumière tombait vive et crue, il lut :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Voudrez-vous lire cette lettre ? Aurez-vous le courage de la lire ?</p>
                     <p>« Pourtant, il faudrait que vous sachiez.</p>
                     <p>« À vous aussi il a manqué une mère, un père, mais en grandissant vous avez compris que vous aviez la fortune, la considération, l'honneur, le nom ; rien à mendier ; pas d'indignation à dompter ; pas de situation à conquérir ; la vie toute faite, un peu vide d'affections sans doute, cependant aimable, brillante, solide, forte à jamais et pouvant s'emplir de joie et d'amour. Il s'agissait pour vous de laisser couler les jours, doucement, sans rien brusquer, et le bonheur était là tout prêt à vous attendre, à vous guetter.</p>
@@ -873,7 +871,7 @@
                     <p>« Oui, j'ai été indigne ; oui, j'ai été criminel, et envers une femme idolâtrée ; mais je sentais que sans violence vous m'échappiez et que vous n'aviez même pas pour moi sympathie ou pitié.</p>
                     <p>« Maintenant cette pitié, qui serait ma gloire, la ressentirez-vous jamais ?</p>
                     <p>« Au moins, croyez-le, je ne suis ni vil, ni lâche ; j'aime et je demande seulement que vous me laissiez aimer ; oubliez ; je ne serai plus pour vous que ce que vous voudrez que je sois. Laissez-moi revenir, reprendre notre existence d'hier, et je serai heureux ; je n'aurai pas d'exigences ; les remords ont étouffé la révolte, et c'est un malheureux repentant soumis, qui se traîne à vos pieds pour implorer son pardon. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>-- Vous alliez envoyer cette lettre ? demanda M. de Chambrais.</p>
                     <p>-- Ce soir même.</p>
                     <p>-- Je la prends.</p>
@@ -2026,7 +2024,7 @@
                     <p>Ce n'était pas lui qui le voulait, c'était la fatalité : puisqu'il ne lui restait que ce moyen, il fallait bien qu'il le subît : tant pis pour Ghislaine s'il le lui faisait au <seg
                             rend="italic">salé</seg>, comme disait Caffié.</p>
                     <p>Il était las en montant à dix heures du soir les six étages de son ami d'Anthan, cependant il n'attendit pas au lendemain pour la lettre qu'il avait préparée :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Madame,</p>
                     <p>« Je rentre en France et trouve ma fille, qui est aussi la vôtre, installée chez un garde, au lieu d'occuper auprès de sa mère, la place à laquelle <seg
                             rend="italic"
@@ -2034,7 +2032,7 @@
                             rend="italic"
                         >Mare aux Joncs</seg>. S'il vous était impossible de vous y trouver, je me présenterais au château.</p>
                     <p>« NICÉTAS. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Il redescendit l'escalier dont les marches étaient terriblement dures pour ses genoux, et jeta sa lettre dans la boîte d'un débit de tabac.</p>
                 </div>
             </div>
@@ -2110,10 +2108,10 @@
                     <head>II</head>
                     <p>Accotée dans un coin de son coupé, les glaces relevées, Ghislaine put déchirer l'enveloppe que le notaire lui avait remise.</p>
                     <p>Elle ne contenait qu'une lettre et une note écrite par son oncle ; ce fut par cette note qu'elle commença :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« La lettre ci-jointe m'a été remise par son auteur le jour même où elle a été écrite ; elle est la preuve, elle est l'aveu d'un crime qui, je l'espère, restera ignoré ; mais si jamais il était découvert, elle porterait témoignage contre le coupable.</p>
                     <p>« CHAMBRAIS. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Vivement elle passa à la lettre, et le début elle le lut sans trop d'émotion : que lui importaient ces déclamations, que lui importaient ces plaintes et ces cris de révolte !</p>
                     <p>Mais aux mots : « Je vous aimais », l'indignation la suffoqua comme si c'était une déclaration : elle le voyait devant elle, elle l'entendait, et dans son cœur résonnaient encore les éclats sourds de sa voix heurtée.</p>
                     <p>Elle reprit, et sans s'arrêter alla jusqu'au bout ; mais arrivée à la dernière ligne, elle chercha si c'était tout.</p>
@@ -2209,10 +2207,10 @@
                     <p>-- Allez donc, elle me recevra, je vous le promets.</p>
                     <p>Quand Ghislaine vit sur ce billet la même écriture que celle de la demande de rendez-vous, elle se rassura : s'il écrivait au lieu de venir, c'est qu'il n'osait pas se présenter ; et à la pensée de ne pas le voir son cœur se desserra ; sans doute ce pauvre diable était un commissionnaire.</p>
                     <p>Elle avait ouvert le billet.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Je pense que vous ne m'obligerez pas à forcer votre porte ; donnez donc l'ordre que je sois admis près de vous.</p>
                     <p>« NICÉTAS. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>C'était lui. Elle eut une seconde d'anéantissement ; lui, ce pauvre diable ; arrivé à ce point de misère et de cynisme, de quoi ne serait-il pas capable !</p>
                     <p>Cependant, le plateau à la main, le valet attendait devant elle, la regardant à la dérobée, en se demandant quelle pouvait être la cause de ce bouleversement dans une physionomie qui n'avait jamais exprimé que le calme et la sérénité.</p>
                     <p>Il fallait qu'elle se contînt et prît un parti :</p>
@@ -2886,22 +2884,22 @@
                     <p>-- Je ne suis pas au courant de la législation russe.</p>
                     <p>Et comme le notaire avait appris ce qu'il voulait, il quitta Soupert enchanté de l'avoir revu, et d'avoir passé quelques instants avec lui ; mais comme il ne fallait pas que le vieux musicien pût croire que cette visite n'était pas fortuite, au lieu de retourner sur ses pas, il continua tout droit comme s'il allait à Versailles ; à Saclay, il prendrait la route de Bièvres pour revenir à Paris.</p>
                     <p>Aussitôt rentré, il se mit à son bureau et écrivit à Nicétas :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Prince,</p>
                     <p>« J'aurais quelques renseignements à vous demander avant de dresser l'acte dont vous m'avez parlé ; voulez-vous prendre la peine de passer demain jeudi à mon étude entre deux et trois heures ; je vous serais reconnaissant de m'écrire ce soir même un mot pour me dire si je dois vous attendre.</p>
                     <p>« Veuillez agréer l'expression de mes sentiments de haute considération.</p>
                     <p>« LE GENEST. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Il relut sa lettre :</p>
                     <p>-- Prince, se dit-il, haute considération enfin, il le faut.</p>
                     <p>Le lendemain matin, il ouvrit son courrier avec plus de hâte que de coutume ; il s'y trouvait une lettre du prince :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Mercredi soir, 10 heures.</p>
                     <p>« Monsieur,</p>
                     <p>« J'aurai l'honneur de me rendre demain au rendez-vous que vous m'indiquez, et je vous serai reconnaissant de vouloir bien m'attendre.</p>
                     <p>« Agréez l'expression de mes sentiments de considération.</p>
                     <p>« Prince AMOUROFF. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>À deux heures, Nicétas, que la curiosité rendait exact, entrait dans le cabinet du notaire, préparé à une discussion serrée sur les propositions que celui-ci allait lui transmettre de la part de la comtesse et du comte d'Unières aussi sans doute : il s'agissait de ne pas se laisser entortiller par la vieille momie.</p>
                     <p>Debout, une main appuyée sur le bras de son fauteuil, l'autre sur son bureau, le notaire était si froid, si raide, si impassible, qu'on pouvait le prendre en effet pour une momie.</p>
                     <p>-- Lorsque vous vous êtes présenté dans mon étude, dit-il, vous saviez, n'est-ce pas, que j'étais le notaire de madame la comtesse et de M. le comte d'Unières ainsi que de la jeune Claude ?</p>
