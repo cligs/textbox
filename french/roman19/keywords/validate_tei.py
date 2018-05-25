@@ -72,5 +72,5 @@ def main(teipath, rngfile, schematronfile):
     print(error_files)
     print(len(error_files))
     
-main("../annotated/*.xml", "/home/jose/cligs/reference/tei/cligs.rng", "keywords.sch")
+main("../tei/*.xml", "/home/jose/cligs/reference/tei/cligs.rng", "keywords.sch")
 
