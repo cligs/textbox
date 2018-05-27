@@ -73,10 +73,10 @@ The texts have been compiled from the following sources:
 
 ## Formats
 
-* tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names are given according to the following schema: identifier.xml)
-* txt: Simple plain text containing only the main text of the novels, without title pages, prefaces and other parts considered as paratexts (File names: identifier.txt)
-* anno: TEI files further annotated with FreeLing and WordNet
-* pdf: Reading versions generated from the tei files
+* [tei/](tei): Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names are given according to the following schema: identifier.xml)
+* [txt_id/](txt_id): Simple plain text containing only the main text of the novels, without title pages, prefaces and other parts considered as paratexts (File names: identifier.txt)
+* [annotated/](annotated): TEI files further annotated with FreeLing and WordNet
+* [pdf/](pdf): Reading versions generated from the tei files
 
 ## Data Curation
 

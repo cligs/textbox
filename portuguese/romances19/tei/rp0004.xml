@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,7 +39,9 @@
                     >https://raw.githubusercontent.com/cligs/textbox/master/portuguese/romances19/tei/rp0004.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source">"Os Maias. Episodios da Vida Romantica." <seg
+                <bibl type="digital-source">
+                    Queirós, José Maria Eça.
+                    "Os Maias. Episodios da Vida Romantica." <seg
                         rend="italic">The Project Gutenberg</seg>, <date when="2012-10-16">October
                         16, 2012</date>, EBook <idno>40409</idno>, <ref
                         target="http://www.gutenberg.org/ebooks/40409"
@@ -49,6 +52,7 @@
                         original.</note>
                 </bibl>
                 <bibl type="print-source">
+                    Queirós, José Maria Eça.
                     <seg rend="italic">Os Maias. Episodios da Vida Romantica.</seg> Porto: Livraria
                     Internacional de Ernesto Chardron, <date when="1888">1888</date>. </bibl>
                 <bibl type="edition-first">
@@ -88,22 +92,19 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" subtype="2" resp="#uhk">realist</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">naturalistic</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">social</term>
-                    <term type="subgenre_x" resp="#uhk">realist</term>
-                    <term type="subgenre_hist" resp="#uhk">not_historical</term>
-                    <term type="genre-subtitle">Episodios da Vida Romantica</term>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Portugal</term>
-                    <term type="language">Portuguese</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Portugal</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Portuguese</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="2">realist</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="1">naturalistic</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="1">social</term>
+                    <term type="text.genre.subgenre.title">Episodios da Vida Romantica</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
                 </keywords>
             </textClass>
         </profileDesc>
