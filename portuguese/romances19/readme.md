@@ -73,10 +73,14 @@ The texts have been compiled from the following sources:
 
 ## Formats
 
-* [tei/](tei): Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names are given according to the following schema: identifier.xml)
-* [txt_id/](txt_id): Simple plain text containing only the main text of the novels, without title pages, prefaces and other parts considered as paratexts (File names: identifier.txt)
-* [annotated/](annotated): TEI files further annotated with FreeLing and WordNet
-* [pdf/](pdf): Reading versions generated from the tei files
+* [tei](tei): Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names are given according to the following schema: identifier.xml)
+* [txt_id](txt_id): Simple plain text containing only the main text of the novels, without title pages, prefaces and other parts considered as paratexts (File names: identifier.txt)
+* [annotated](annotated): TEI files further annotated with FreeLing and WordNet
+* [pdf](pdf): Reading versions generated from the tei files
+
+## Schema ##
+* The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+* The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
 
 ## Data Curation
 

@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<teiHeader>
-		<fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt>
 				<title type="main">Lorenzo Benoni, ovvero scene della vita di un italiano</title>
 				<title type="sub">title</title>
@@ -24,7 +27,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability><ab>The files of the collection are  modifications of the corresponding text files from 'Liber
+				<availability status="free"><ab>The files of the collection are  modifications of the corresponding text files from 'Liber
                 Liber'(https://www.liberliber.it/online/), which are provided with a Creative
                 Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
                 published under a Creative Commons BY-NC-SA 4.0 license. </ab><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
@@ -45,36 +48,34 @@
 				<bibl type="first-edition"><date when="1853"/></bibl>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc><p>Headers, quotes and verse lines have been marked up. Chapter summaries following the
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><p>Headers, quotes and verse lines have been marked up. Chapter summaries following the
                 header are marked as 'ab' with @type='abstract'.</p></encodingDesc>
-		<profileDesc>
-			
-			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre">historical</term>
-					<term type="genre-subtitle">n.av.</term>
-					<term type="genre-label">n.av.</term>
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="translation">no</term>
-					<term type="textquality">1</term>
-					
-					
-					<term type="century">800</term>
-                                           <term type="language">n.av.</term>
-				</keywords>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
+        <profileDesc>
+            
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">it</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title">n.av.</term>
+                    <term type="text.subgenre">historical</term>
+                    <term type="text.time.century">800</term>
+                    <term type="text.translation">no</term>
+                    <term type="text.quality">1</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<change when="2015-11-21" who="cf">Initial TEI version.</change>
 		<change when="2017-11-27" who="kb">Encoding of the front-body-back-structure, the
                 chapter-structure, lg, quotes and some metadata.</change><change when="2017-12-02" who="kb">Added some meta-data and some minor
                 corrections.</change></revisionDesc>
-	</teiHeader>
-    <text>
+    </teiHeader>
+    <text xmlns:xi="http://www.w3.org/2001/XInclude">
     <front>
     	<div>
     		<head>LORENZO BENONI</head>
@@ -2014,4 +2015,5 @@
 	
 	
 	<p>FINE</p>
-</div></back></text></TEI>
+</div></back></text>
+</TEI>

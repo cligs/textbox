@@ -77,6 +77,10 @@ Source formats have been HTML, PDF and image files.
 
 <!-- A linguistically annotated version for use with the TXM analysis tool can be downloaded here: http://zenodo.org/record/47218 -->
 
+## Schema ##
+* The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+* The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
 ## Data Curation
 * The texts have been submitted to a spellcheck based on a dictionary for contemporary Spanish. The result of the check can be found in [spellcheck.csv](spellcheck.csv).
 

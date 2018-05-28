@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt">
+    <sch:p>Schematron file controlling the use of keywords in the collection of 19th Century Spanish-American Novels (1880-1916).</sch:p>
+    <sch:p>Created by Ulrike Henny-Krahmer in May 2018.</sch:p>
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     <sch:pattern>
         <sch:let name="keywords-file" value="document('keywords.xml')"/>

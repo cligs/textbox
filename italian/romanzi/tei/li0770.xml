@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-	  <teiHeader>
-		    <fileDesc>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <titleStmt>
 				        <title type="main">Il Piacere</title>
 				        <title type="sub">title</title>
@@ -27,7 +28,7 @@
 			</extent>
 			      <publicationStmt>
 				        <publisher>CLiGS</publisher>
-				        <availability>
+				        <availability status="free">
                <ab>The files of the collection are  modifications of the corresponding text files from 'Liber
                 Liber'(https://www.liberliber.it/online/), which are provided with a Creative
                 Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
@@ -57,38 +58,39 @@
             </bibl>
          </sourceDesc>
 		    </fileDesc>
-		    <encodingDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 					    <p>Headers, quotes and verse lines have been marked up. Chapter summaries following the
                 header are marked as 'ab' with @type='abstract'.</p>
       </encodingDesc>
-		    <profileDesc>
-			
-			      <textClass>
-				        <keywords scheme="keywords.csv">
-               <term type="supergenre">narrative</term>
-               <term type="genre">novel</term>
-               <term type="subgenre">feuilleton</term>
-               <term type="genre-subtitle">n.av.</term>
-               <term type="genre-label"/>
-               <term type="narrative-perspective">heterodiegetic</term>
-               <term type="form">prose</term>
-               <term type="author-gender">female</term>
-               <term type="translation">no</term>
-               <term type="textquality">2</term>
-               <term type="century">800</term>
-               <term type="language">it</term>
-            </keywords>
-			      </textClass>
-		    </profileDesc>
-		    <revisionDesc>
+        <profileDesc>
+            
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">female</term>
+                    <term type="text.language">it</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre">feuilleton</term>
+                    <term type="text.time.century">800</term>
+                    <term type="text.translation">no</term>
+                    <term type="text.quality">2</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			      <change when="2015-11-21" who="cf">Initial TEI version.</change>
 		       <change when="2017-11-27" who="kb">Encoding of the front-body-back-structure, the
                 chapter-structure, lg, quotes and some metadata.</change>
          <change when="2017-12-02" who="kb">Added some meta-data and some minor
                 corrections.</change>
+           <change when="2018-05-28" who="uhk">Corrected book and chapter structure (nesting of divisions).</change>
       </revisionDesc>
-	  </teiHeader>
-    <text>
+    </teiHeader>
+    <text xmlns:xi="http://www.w3.org/2001/XInclude">
       <front>
     	    <div>
     		      <head>Il Piacere</head>
@@ -1034,9 +1036,9 @@
                <p>Ma in quell'attimo appunto lo Sperelli, facendo una parata di quarta bassa e non trovando il ferro avversario, ricevé in pieno torace un colpo; e cadde tramortito su le braccia del Barbarisi.</p>
                <p>- Ferita toracica, al quarto spazio intercostale destro, penetrante in cavità, con lesione superficiale del polmone - annunziò nella stanza, quand'ebbe osservato, il chirurgo taurino.</p>
             </div>
+         </div>
             <div type="book">
                <head>Libro secondo</head>
-            </div>
             <div type="chapter">
                <head>I</head>
                <p>La convalescenza e' una purificazione e un rinascimento. Non mai il senso della vita è soave come dopo l'angoscia del male; e non mai l'anima umana più inclina alla bontà e alla fede come dopo aver guardato negli abissi della morte. Comprende l'uomo, nel guarire, che il pensiero, il desiderio, la volontà, la conscienza della vita non sono la vita. Qualche cosa è in lui più vigile del pensiero, più continua del desiderio, più potente della volontà, più profonda anche della conscienza; ed è la sostanza, la natura dell'essere suo. Comprende egli che la sua vita reale è quella, dirò così, non vissuta da lui; è il complesso delle sensazioni involontarie, spontanee, incoscienti, istintive; è l'attività armoniosa e misteriosa della vegetazione animale; è l'impercettibile sviluppo di tutte le metamorfosi e di tutte le rinnovellazioni. Quella vita appunto in lui compie i miracoli della convalescenza: richiude le piaghe, ripara le perdite, riallaccia le trame infrante, rammenda i tessuti lacerati, ristaura i congegni degli organi, rinfonde nelle vene la ricchezza del sangue, riannoda su gli occhi la benda dell'amore, rintreccia d'intorno al capo la corona de' sogni, riaccende nel cuore la fiamma della speranza, riapre le ali alle chimere della fantasia.</p>
@@ -1776,9 +1778,9 @@
                <p>La notte è lucida e umida. La sala del giuoco è illuminata; e io son rimasta là, su la loggia, lungamente, a guardare in giù verso il chiarore che si rifletteva contro un cipresso mescendosi al chiarore della luna. Tremo tutta. Io non so ridire l'impressione quasi tragica che mi fanno quelle finestre illuminate, dietro le quali i due uomini giocano, l'uno di fronte all'altro, nel gran silenzio della notte appena interrotto dai singhiozzi spenti dal mare. E giocheranno forse fino all'alba, s'egli vorrà compiacere la terribile passione di mio marito. Saremo in tre a vegliare fino all'alba, senza requie, per la passione.</p>
                <p>Ma che pensa egli? Qual è la sua tortura? Io non so che darei, in questo momento, per poterlo vedere, per poter restare fino all'alba a guardarlo, anche a traverso i vetri, nell'umidità della notte, tremando come tremo. I pensieri più folli mi balenano dentro e mi abbagliano, rapidi, confusi; ho come un principio di cattiva ebrezza; provo come una instigazione sorda a far qualche cosa d'audace e d'irreparabile; sento come il fascino della perdizione. Mi toglierei, sento, dal cuore questo peso enorme, mi toglierei dalla gola questo nodo che mi soffoca, se ora, nella notte, nel silenzio, con tutte le forze dell'anima io mi mettessi a gridare che l'amo, che l'amo, che l'amo."</p>
             </div>
-            <div type="book">
-               <head>Libro terzo</head>
             </div>
+         <div type="book">
+               <head>Libro terzo</head>
             <div type="chapter">
                <head>I</head>
                <p>Alla partenza dei Ferres seguì dopo pochi giorni la partenza degli Ateleta e dello Sperelli per Roma. Donna Francesca volle abbreviare la sua villeggiatura a Schifanoja, contro il solito.</p>
@@ -2458,9 +2460,9 @@
                <p>- Guarda! Il gelsomino fiorisce.</p>
                <p>Ella non si volse, ma sorrise; e il sorriso era assai triste, pieno dell'ombre che metteva in quell'anima il riapparir subitaneo del nome inscritto sul Belvedere. E, mentre ella camminava per il viale misterioso sentendo tutto il suo sangue alterato dal bacio, un'implacabile angoscia le incideva nel cuore quel nome, quel nome!</p>
             </div>
+         </div>
             <div type="book">
                <head>Libro quarto</head>
-            </div>
             <div type="chapter">
                <head>I</head>
                <p>Il marchese di Mount Edgcumbe, aprendo il grande armario segreto, la biblioteca arcana, diceva allo Sperelli:</p>
