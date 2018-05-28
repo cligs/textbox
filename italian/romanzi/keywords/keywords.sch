@@ -20,6 +20,7 @@
             <sch:assert test="tei:term[@type='text.form'] = $cat-text/tei:category[@xml:id='text.form']/tei:category/tei:catDesc">Metadata error: text.form</sch:assert>
             <sch:assert test="tei:term[@type='text.genre'] = $cat-text/tei:category[@xml:id='text.genre']/tei:category/tei:catDesc">Metadata error: text.genre</sch:assert>
             <sch:assert test="tei:term[@type='text.genre.supergenre'] = $cat-text//tei:category[@xml:id='text.genre.supergenre']/tei:category/tei:catDesc">Metadata error: text.genre.supergenre</sch:assert>
+            <sch:assert test="tei:term[@type='text.narration.narrator'] = $cat-text//tei:category[@xml:id='text.narration.narrator']/tei:category/tei:catDesc">Metadata error: text.narration.narrator</sch:assert>
             <sch:assert test="tei:term[@type='text.translation'] = $cat-text//tei:category[@xml:id='text.translation']/tei:category/tei:catDesc">Metadata error: text.translation</sch:assert>
             <sch:assert test="tei:term[@type='text.quality'] = $cat-text//tei:category[@xml:id='text.quality']/tei:category/tei:catDesc">Metadata error: text.quality</sch:assert>
         </sch:rule>
