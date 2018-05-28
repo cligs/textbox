@@ -12,7 +12,7 @@ This repository contains several text collections made available by the CLiGS ju
 * [_Collection de pièces the théâtre français du dix-septième siècle_](french/theatre17), edited by Christof Schöch: 100 plays.
 * [_Collection of 19th Century Portuguese Novels (1840-1910)_](portuguese/romances19), edited by Ulrike Henny-Krahmer: 30 novels
 * [_Collection of Italian Short Stories and Novellas (1880s-1920s)_](italian/short19-20), edited by Ulrike Henny-Krahmer: 90 short stories and novellas
-* [_Corpus of Spanish Short Stories from 1880-1940_](spanish/cuentos-espanoles), edited by José Calvo Tello: 12 collections of short stories, 193 single short stories
+* [_Corpus of Spanish Short Stories from 1880-1940_](spanish/cuentos-espanoles), edited by José Calvo Tello: 20 collections of short stories, 302 single short stories
 * [_Collection of Italian Novels (1850 and 1915)_](italian/romanzi), edited by Katrin Betz and Christof Schöch: 21 novels
 
 The text collections are available by cloning the repository, downloading the entire repository as a ZIP file or downloading individual text collections as ZIP files.
