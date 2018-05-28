@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "La giocatrice." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "La giocatrice." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -84,8 +79,7 @@
                         d'incostante in amore, l'amore per la donna o non è una passione, e quindi
                         non è un vizio, o tutt'al più è passione non intensa e profonda quanto un
                         vizio: per esempio, il gioco.</p>
-                    <p>Se non che Limosa invece d'essere un filosofo era uno <seg rend="italic"
-                            >sportman</seg> innamorato; perciò non è meraviglia ragionasse, o
+                    <p>Se non che Limosa invece d'essere un filosofo era uno <seg rend="italic">sportman</seg> innamorato; perciò non è meraviglia ragionasse, o
                         meglio, sragionasse così: «Questa donna, che è una signora eccezionale, io
                         l'amo alla follia e con buone intenzioni: per forza; perchè è onesta; e la
                         sposerei anche. Disgraziatamente essa non mi ama perchè ha un vizio. Un
@@ -113,8 +107,7 @@
                         alcuna. Dei contadini, fra cui viveva otto o nove mesi dell'anno senza
                         orgoglio e senza abbassarsi troppo, o degli amici e delle amiche che trovava
                         ai campi di corse, chi mai se lo sarebbe imaginato timido e trepidante?
-                        Bisognava vederlo tirare ai piccioni! saltar le <seg rend="italic"
-                            >siepi</seg>! guidare Luisella!</p>
+                        Bisognava vederlo tirare ai piccioni! saltar le <seg rend="italic">siepi</seg>! guidare Luisella!</p>
                     <p>Però egli meritava anche scusa, tant'era graziosa e sagace quella signora
                         Claudia; con certi modi ingenui e volontari da far girar la testa a ben
                         altri che a uno <seg rend="italic">sportman</seg> non filosofo! Nè Claudia
@@ -176,8 +169,7 @@
                     <p>A ogni parola la faccia di Limosa era andata acquistando una linea di
                         mestizia; sicchè all'ultima rassomigliava, lui, a Iacopo Ortis, ma in barba
                         corta all'inglese.</p>
-                    <p>— .... Perciò, amico mio..., lasciate.... (dolcemente ella cedette al <seg
-                            rend="italic">voi</seg>).... lasciate questo discorso; e piuttosto
+                    <p>— .... Perciò, amico mio..., lasciate.... (dolcemente ella cedette al <seg rend="italic">voi</seg>).... lasciate questo discorso; e piuttosto
                         facciamo una partita a scopa.</p>
                     <p>Il naso sul mento e il mento sul petto, Gianni, quando rispose, disse con un
                         sospiro che venne fuori dal broncio:</p>
@@ -198,8 +190,7 @@
                     <p>— Quante volte soffro io più di voi a vedervi palpitante, tremante, pallida
                         in attesa d'un colpo di fortuna! Quante volte vi ho sorpresa con occhi pieni
                         di fiamma interrogare, invitare, accarezzare un compagno più brutto del
-                        demonio! Quante volte ho dovuto augurarmi d'essere io il <seg rend="italic"
-                            >re bello</seg>, che vi rallegrava, o l'<seg rend="italic">asso di
+                        demonio! Quante volte ho dovuto augurarmi d'essere io il <seg rend="italic">re bello</seg>, che vi rallegrava, o l'<seg rend="italic">asso di
                             bastoni</seg> o <seg rend="italic">il bagattino</seg>!</p>
                     <p>— O l'<seg rend="italic">angelo</seg>, o il <seg rend="italic">diavolo</seg>,
                         bugiardo che siete! — esclamò giuliva la signora. — Conoscete fino i
@@ -226,9 +217,7 @@
                         mondo, io, che l'amavo perbene, non gli sarei sopravvissuta e mi sarei
                         lasciata struggere dal dolore se non avessi trovato scampo e consolazione in
                         una passione onesta. Inebriarmi? Schiodar Cristi? Mai! Il mio Vittorio
-                        m'aveva insegnato lui il <seg rend="italic">faraone</seg>, il <seg
-                            rend="italic">macao</seg>, il <seg rend="italic">tresette</seg>, i <seg
-                            rend="italic">tarocchi</seg>, la <seg rend="italic">scopa</seg>!... — E
+                        m'aveva insegnato lui il <seg rend="italic">faraone</seg>, il <seg rend="italic">macao</seg>, il <seg rend="italic">tresette</seg>, i <seg rend="italic">tarocchi</seg>, la <seg rend="italic">scopa</seg>!... — E
                         sgorgarono le lagrime; piovvero lagrime sul fazzoletto.</p>
                     <p>— Perdono, perdono! — scongiurava Limosa, pari a un eroe da romanzo,
                         afferrandole una mano e coprendola di baci; mentre si chiedeva: «Debbo
@@ -293,9 +282,7 @@
                     <p>— Non voglio! — ella esclamò. — La <seg rend="italic">roulette</seg> è
                         stupida.</p>
                     <p>Ah sì? Egli tacque dicendo press'a poco con gli occhi:</p>
-                    <p>«La <seg rend="italic">roulette</seg> è stupida? E la <seg rend="italic"
-                            >briscola</seg> no? e il <seg rend="italic">macao</seg>? e la <seg
-                            rend="italic">scopa</seg>? e la <seg rend="italic">bestia</seg>? e io? e
+                    <p>«La <seg rend="italic">roulette</seg> è stupida? E la <seg rend="italic">briscola</seg> no? e il <seg rend="italic">macao</seg>? e la <seg rend="italic">scopa</seg>? e la <seg rend="italic">bestia</seg>? e io? e
                         voi? Non comprendete dunque il vostro lungo delitto? il mio lento suicidio?
                         Non potremmo fare qualche altra cosa di meglio?»</p>
                     <p>Seguì un giorno nuvoloso; di un nuvolo coerente e indifferente, in quella
@@ -398,8 +385,7 @@
                     <p>Adagiatala, quando Dio volle, su la carrozza — poichè il forestiero
                         raccomandava di portarla al luogo più vicino — la trasferirono senza
                         scrupolo a Villa Limosa. Del resto, il medico ciclista la credeva moglie del
-                        signore. E con gran premura accertò Gianni che, fuori del braccio, <seg
-                            rend="italic">votre femme</seg> non aveva patito danno notevole; e si
+                        signore. E con gran premura accertò Gianni che, fuori del braccio, <seg rend="italic">votre femme</seg> non aveva patito danno notevole; e si
                         compiacque a fare lui, benissimo, la fasciatura; e lasciò qualche consiglio
                         pel collega italiano che arriverebbe dal paese; e dimandò, a solo compenso,
                         la firma nell'<seg rend="italic">album</seg> dei ricordi. Infine, lieto
@@ -476,8 +462,7 @@
                         guarire del vizio in un colpo solo. Adesso posso star sicuro che di gioco
                         non se ne parlerà mai più.» Infatti chiodo scaccia chiodo, o un diavolo
                         scaccia l'altro.</p>
-                    <p>Compiuti dunque i preparativi, subito Claudia telegrafò: <seg rend="italic"
-                            >Sono pronta</seg>; e Gianni, che era pronto da un pezzo,
+                    <p>Compiuti dunque i preparativi, subito Claudia telegrafò: <seg rend="italic">Sono pronta</seg>; e Gianni, che era pronto da un pezzo,
                         accorse....</p>
                     <milestone unit="section" rend="asterisk"/>
                     <p>.... I testimoni e i congiunti più stretti hanno accompagnati gli sposi alla

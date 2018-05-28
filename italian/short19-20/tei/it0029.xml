@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,14 +30,8 @@
                 <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0029.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Gregorio leti spirito satirico." <seg rend="italic"
-                        >Parvenze e semblanze.</seg> Project Gutenberg, <idno>37819</idno>, <date
-                        when="2011-10-22">October 22, 2011</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/37819"
-                        >http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
-                <bibl type="print-source"> "Gregorio leti spirito satirico." <seg rend="italic"
-                        >Parvenze e semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date
-                        when="1892">1892</date>. </bibl>
+                <bibl type="digital-source"> "Gregorio leti spirito satirico." <seg rend="italic">Parvenze e semblanze.</seg> Project Gutenberg, <idno>37819</idno>, <date when="2011-10-22">October 22, 2011</date>, <ref target="http://www.gutenberg.org/ebooks/37819">http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
+                <bibl type="print-source"> "Gregorio leti spirito satirico." <seg rend="italic">Parvenze e semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date when="1892">1892</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +42,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
-                    <term type="subgenre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -74,8 +67,7 @@
                     <p> Non fu tutto merito e tutta colpa dello zio vicario se Gregorio di giovane
                         scapestrato divenne uomo d’austeri costumi; d’incredulo cattolico fidente
                         calvinista e di fanullone uno scrittore fecondissimo. Già nella fanciullezza
-                        e giovinezza prima troppo l’avevano fatto digiunare e dir <seg rend="italic"
-                            >pater noster</seg> e servir messe e baciar mani sporche di preti e di
+                        e giovinezza prima troppo l’avevano fatto digiunare e dir <seg rend="italic">pater noster</seg> e servir messe e baciar mani sporche di preti e di
                         frati quelle due figure paurose del padre Merenda e di Don Grassi. Poiché da
                         sua madre, Isabella Lampugnani, rimasta vedova di Geronimo Leti governatore
                         d’Antea, era stato posto nel 1639 alla scuola de’ gesuiti di Cosenza, ed
@@ -207,8 +199,7 @@
                         Quante birichinate facevano mai e di che gusto rideva in apprenderle la
                         maestà di Luigi XIV!</p>
                     <p>Versavan l’inchiostro nelle pile dell’acqua benedetta; s’aizzavano contro di
-                        notte, pe ’l dormitorio, de’ cagnolini e urlavan <seg rend="italic"
-                            >tiäut</seg> (il grido dei cacciatori di cervi); riempivano d’acqua
+                        notte, pe ’l dormitorio, de’ cagnolini e urlavan <seg rend="italic">tiäut</seg> (il grido dei cacciatori di cervi); riempivano d’acqua
                         delle grandi casse perché sfuggendo e trapassando a poco a poco il piancito
                         andasse a sgocciolare sui letti delle suore nel piano di sotto; snervavano
                         le suore vecchie, scelte per accompagnarle a passeggio, in lunghissime e
@@ -408,8 +399,7 @@
                         incontro anche a gravissimi pericoli con sangue freddo e con motti
                         ridevoli.</p>
                     <p>Quando si trovava a Ginevra gli giunse un giorno questo avviso di Giuseppe
-                        Corso, libraio romano provveditore della casa Panfili: — <seg rend="italic"
-                            >Signor Gregorio, perché l’amo, la sua vita mi è cara: il Signor
+                        Corso, libraio romano provveditore della casa Panfili: — <seg rend="italic">Signor Gregorio, perché l’amo, la sua vita mi è cara: il Signor
                             Principe Camillo Panfili, ch’è persuaso già che V. S. sia autore della
                             Vita di donna Olimpia sua madre, ha giurato di spender cento mila doppie
                             per farla pugnalare</seg> —; ed egli, gettato l’angoscioso biglietto nel
@@ -502,8 +492,7 @@
                         parlatrice larga e forbita, dopo aver proposto e fatto stabilire che da quel
                         dí in poi “tanto le dame quanto le.... (quel tal nome che ha assonanza con
                             <seg rend="italic">dame</seg>) andassero al pari e senza alcuna
-                        immaginabile distinzione, e che.... (quello stesso nome al singolare) e <seg
-                            rend="italic">dama</seg> volesse dire l’istesso„, mise in campo
+                        immaginabile distinzione, e che.... (quello stesso nome al singolare) e <seg rend="italic">dama</seg> volesse dire l’istesso„, mise in campo
                         l’elezione di Azzolino o di Maldachino. Ella si teneva certa che il primo
                         concederebbe:</p>
                     <p>1.º una bolla che dichiarasse lecito ai religiosi d’andare.... “senz’alcun
@@ -641,8 +630,7 @@
                     <p>Il Leti rispose: “.... Di lei non ne avevo inteso parlar minima cosa dalla
                         morte in poi della mia sorella, né mai avrei pensato che Bellottola di
                         Milano fosse fatta la Regal meretrice di Roma, della quale ne avevo inteso
-                        far conti tali, che aveano dato la volontà all’autore del <seg rend="italic"
-                            >Puttanismo di Roma</seg> d’infilzarvela dentro con gratiose maniere
+                        far conti tali, che aveano dato la volontà all’autore del <seg rend="italic">Puttanismo di Roma</seg> d’infilzarvela dentro con gratiose maniere
                         vantaggiose a tal sua professione.... Le dirò intanto che per una nuova
                         convertita il mentir cosí sfacciatamente mi dà da pensare. Mi scrive d’aver
                         abbandonato il peccato, in luogo di dire ch’è stata dal peccato abbandonata.
@@ -692,8 +680,7 @@
                         in fatti tutti parlano di Pasquino: Pasquino qua e Pasquino là: le punture,
                         le ferite, le maldicenze ed ogni sorta di mormoro s’applica a Pasquino; in
                         somma non si parla, quando si tratta di mala vita, che di Pasquino; a tal
-                        segno che hanno dato titolo ad ogni sorta di satira, di <seg rend="italic"
-                            >pasquinate</seg>; ma di te non si parla che poco o niente, e sinora non
+                        segno che hanno dato titolo ad ogni sorta di satira, di <seg rend="italic">pasquinate</seg>; ma di te non si parla che poco o niente, e sinora non
                         s’è inteso mai dire <seg rend="italic">marforiata</seg>. E perché questo?
                         Perché io parlo con libertà; perché quello che ho nella bocca ho nel cuore,
                         e nel cuore non resta che quello che va fuori dalla bocca; perché sono amico
@@ -706,8 +693,7 @@
                         piú “nascevano con due faccie, l’una ricevuta dalla natura nel luogo
                         ordinario e l’altra dietro le spalle: non esser meraviglia se ritiene della
                         natura propria a molti di quelli che è andato praticando.„</p>
-                    <p>Non meno piacevole e ugualmente intessuta di pasquinate è l’<seg
-                            rend="italic">Ambasciata di Romolo ai Romani</seg>.</p>
+                    <p>Non meno piacevole e ugualmente intessuta di pasquinate è l’<seg rend="italic">Ambasciata di Romolo ai Romani</seg>.</p>
                     <p>Gli annali sacri e profani di Roma, “già compiuti da parecchie autorità per
                         ordine di Romolo„, erano letti ad alta voce in cospetto di tutti i numi, i
                         quali con diversa commozione ascoltavano i grandi fatti e le grandi sventure

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,9 +31,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L‘indiscreta domanda." <seg rend="italic">Gli
-                        amori.</seg> Project Gutenberg, <idno>39289</idno>, <date when="2012-03-28"
-                        >March 28, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/39289"
-                        >http://www.gutenberg.org/ebooks/39289</ref>. </bibl>
+                        amori.</seg> Project Gutenberg, <idno>39289</idno>, <date when="2012-03-28">March 28, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/39289">http://www.gutenberg.org/ebooks/39289</ref>. </bibl>
                 <bibl type="print-source"> "L‘indiscreta domanda." <seg rend="italic">Gli
                         amori.</seg> Milano: Casa Editrice Galli. <date when="1898">1898</date>.
                 </bibl>
@@ -46,16 +45,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -69,8 +67,7 @@
                 <head>L‘indiscreta domanda.</head>
                 <p><seg rend="italic">Spiritosa contessa ed amica spirituale,</seg></p>
                 <p>Quando, per darle a intendere che ero d’accordo con lei e che mi accostavo alla
-                    sua tesi della comprensibilità delle anime, io le narravo l’apologo della <seg
-                        rend="italic">Muta Comunione</seg>, sapevo bene quel che facevo. Con una
+                    sua tesi della comprensibilità delle anime, io le narravo l’apologo della <seg rend="italic">Muta Comunione</seg>, sapevo bene quel che facevo. Con una
                     dama arguta come lei, siano pure gravi ed incomponibili i divarii delle
                     opinioni, si è sempre certi di potersi accordare in quella media e sensata
                     verità nella quale le menti equilibrate s’acquetano. Se pur misi una punta
@@ -159,8 +156,7 @@
                     convient d’en avoir, défends toi d’aimer si tu n’as pas reçu les dons qui
                     charment les yeux...» — «Un’altra citazione?...» l’odo esclamare di qui; «e
                     avete il coraggio di citarmi proprio quel gran moralista che si chiama Catulle
-                    Mendes?...» Non vada in collera, contessa: io lascerò lì subito l’autore di <seg
-                        rend="italic">Zo’ har</seg>, e le narrerò invece un altro fatterello: va
+                    Mendes?...» Non vada in collera, contessa: io lascerò lì subito l’autore di <seg rend="italic">Zo’ har</seg>, e le narrerò invece un altro fatterello: va
                     bene così? Le narrerò un fatterello che dimostra appunto quanto sia grande e
                     superiore a quello esercitato dalla eccellenza morale, l’impero della plastica e
                     corporea bellezza.</p>

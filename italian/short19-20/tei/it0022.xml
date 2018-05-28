@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Come finì la modestia." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "Come finì la modestia." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -96,8 +91,7 @@
                 <p>Frattanto, in questa valletta ombrosa e fresca, io penserò un milione di
                     telegrammi da spedire domattina ai miei segretari sparsi nel mondo per il
                     progresso delle industrie, delle arti e dei commerci e mediterò un nuovo modo
-                    d'annunziare il <seg rend="italic">Tot</seg> e le <seg rend="italic"
-                    >Pink</seg>.</p>
+                    d'annunziare il <seg rend="italic">Tot</seg> e le <seg rend="italic">Pink</seg>.</p>
                 <p>.... Che frescura! Che quiete!</p>
                 <p>Avvezza al fracasso e alle corse sfrenate, quasi quasi mi vien sonno....</p>
                 <p><seg rend="italic">La donna umile:</seg> — Ahi!</p>
@@ -168,8 +162,7 @@
                     Francia, io, come un romanzo di Bourget, sono cosmopolita; tanto che Policarpo
                     Petrocchi m'introdusse senza scrupolo nel suo vocabolario. Mio dominio, il
                     mondo; tutti gli uomini si raccomandano a me, s'arrendono alle mie lusinghe
-                    benedicendomi. Io sono la <seg rend="italic">Réclame</seg>! La <seg
-                        rend="italic">Réclame</seg> sono io!</p>
+                    benedicendomi. Io sono la <seg rend="italic">Réclame</seg>! La <seg rend="italic">Réclame</seg> sono io!</p>
                 <p><seg rend="italic">Modestia:</seg> — Oh San Francesco!</p>
                 <p><seg rend="italic">Réclame:</seg> — Tu non mi fuggirai....</p>
                 <p><seg rend="italic">Modestia:</seg> — Mi lasci andare! Per carità, mi lasci
@@ -193,12 +186,10 @@
                         tempi avrebbero forse conquistato un arcipelago</seg>: adesso, non sono che
                     scrittori, i quali, come uomini d'intelligenza, vanno verso la Vita.</p>
                 <p><seg rend="italic">Modestia:</seg> — Ah sì?... A far che cosa?</p>
-                <p><seg rend="italic">Réclame:</seg> — Tante belle cose; fra cui l'<seg
-                        rend="italic">atto di Vita coronante il rito misterioso come
+                <p><seg rend="italic">Réclame:</seg> — Tante belle cose; fra cui l'<seg rend="italic">atto di Vita coronante il rito misterioso come
                     l'Orgia</seg>.... Non arrossire.... Via! Dammi quel libro ch'è là, nella mia
                     carrozza, fra gli annunzi dell'<seg rend="italic">Emulsione Scott</seg>,
-                        dell'<seg rend="italic">Iperbiotina</seg> e del <seg rend="italic"
-                        >Depilatorio Clauser</seg>; e saprai altre cose di gioia. Quello!...
+                        dell'<seg rend="italic">Iperbiotina</seg> e del <seg rend="italic">Depilatorio Clauser</seg>; e saprai altre cose di gioia. Quello!...
                     Brava!...</p>
                 <milestone unit="section" rend="dots"/>
                 <p>Ora ascolta come parla uno il cui pensiero è <seg rend="italic">bruciato
@@ -234,8 +225,7 @@
                 <p><seg rend="italic">Réclame:</seg> — Se non tutti, molti! molti! Perchè al Verbo
                     dei maestri, i discepoli divengono armento. E se è vero che i discepoli sempre
                     esagerano i meriti dei maestri, non sola tu, ma anche tutti i tuoi parenti
-                    prossimi e lontani sono spacciati! La Morale e l'Onore si <seg rend="italic"
-                        >suicideranno</seg> a vicenda, come due amanti infelici; le Virtù Teologali
+                    prossimi e lontani sono spacciati! La Morale e l'Onore si <seg rend="italic">suicideranno</seg> a vicenda, come due amanti infelici; le Virtù Teologali
                     e Cardinali emigreranno nel centro dell'Affrica, dove non siano ancor giunti
                     superuomini. Tu dove andrai?... <seg rend="italic">Quo vadis?</seg></p>
                 <p><seg rend="italic">Modestia:</seg> — .... Quanto soffrire, o mio Dio, che
@@ -259,8 +249,7 @@
                     all'universo l'ultimo e supremo trionfo della scienza e la mia gran vittoria su
                     tutti i letterati della terra.</p>
                 <p>Infatti la gloria del Leopardi s'è già estinta nella fredda considerazione
-                    scientifica de' vizi e de' malanni che alla sua poesia furono come l'<seg
-                        rend="italic">humus</seg> ai funghi; e il giorno della mia vendetta e della
+                    scientifica de' vizi e de' malanni che alla sua poesia furono come l'<seg rend="italic">humus</seg> ai funghi; e il giorno della mia vendetta e della
                     mia vittoria universale è venuto.</p>
                 <p>Sin la Fortuna, un dì superba al par di Giuno, mi chiede vita, e tutti gli dei
                     d'Olimpo rivivono per me, e la Natura che io denudai alla libidine del
@@ -304,8 +293,7 @@
                     Ma San Francesco.... Oh! Ora che mi ricordo.... I letterati non sono i soli
                     artisti italiani invidiati da Giulio Claretie. Mi restano i pittori!</p>
                 <p><seg rend="italic">Réclame:</seg> — Perchè no? Tu andrai al loro cospetto nel
-                    costume di quelle donne che stanno in chiesa, presso una bara, nell'<seg
-                        rend="italic">Ultimo Convegno</seg>; e ti farai credere, con cotesto naso,
+                    costume di quelle donne che stanno in chiesa, presso una bara, nell'<seg rend="italic">Ultimo Convegno</seg>; e ti farai credere, con cotesto naso,
                     una modella. Poh! con qualche moina riuscirai forse a ingannarne qualcuno.
                     Tuttavia, credimi, ti troverai a disagio; perchè, dopo l'invenzione del
                     prerafaelismo le modelle digiunano. Io poi ho elevato le imagini prerafaelite

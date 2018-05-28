@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,14 +30,8 @@
                 <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0280.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Il Sacramento della penitenza." <seg rend="italic"
-                        >Documenti umani.</seg> Project Gutenberg, <idno>25182</idno>, <date
-                        when="2008-04-26">April 26, 2008</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
-                <bibl type="print-source"> "Il Sacramento della penitenza." <seg rend="italic"
-                        >Documenti umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                        >1888</date>. </bibl>
+                <bibl type="digital-source"> "Il Sacramento della penitenza." <seg rend="italic">Documenti umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                <bibl type="print-source"> "Il Sacramento della penitenza." <seg rend="italic">Documenti umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +42,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -78,8 +72,7 @@
                         persone, in tutto.</p>
                     <p>La chiesa era piccola, moderna, dall'architettura semplicissima, senza
                         nessuna di quelle rarità dell'arte che attirano nelle case della preghiera
-                        l'irriverente processione dei curiosi, dei <seg rend="italic"
-                            >touristes</seg> con la guida sotto il braccio e il binocolo a
+                        l'irriverente processione dei curiosi, dei <seg rend="italic">touristes</seg> con la guida sotto il braccio e il binocolo a
                         bandoliera. Le pareti, quasi nude, erano d'un candore abbagliante; il
                         pavimento, di marmo, a grandi lastre bianche e nere, aveva una lucentezza di
                         specchio; e nell'ordine rigido, nella severa nudità regnante tutt'intorno,

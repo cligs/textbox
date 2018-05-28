@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,9 +31,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "La muta comunione." <seg rend="italic">Gli
-                        amori.</seg> Project Gutenberg, <idno>39289</idno>, <date when="2012-03-28"
-                        >March 28, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/39289"
-                        >http://www.gutenberg.org/ebooks/39289</ref>. </bibl>
+                        amori.</seg> Project Gutenberg, <idno>39289</idno>, <date when="2012-03-28">March 28, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/39289">http://www.gutenberg.org/ebooks/39289</ref>. </bibl>
                 <bibl type="print-source"> "La muta comunione." <seg rend="italic">Gli amori.</seg>
                     Milano: Casa Editrice Galli. <date when="1898">1898</date>. </bibl>
             </sourceDesc>
@@ -45,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -90,8 +88,7 @@
                     «E allora, se gli uomini non possono intendersi, perchè mai, di grazia, venite
                     enunziando queste vostre eresie? Se tutto ciò che vi passa per il capo è frutto
                     particolarissimo della vostra costituzione, dell’educazione, dell’ambiente, di
-                    non so quante altre diavolerie; se le vostre escogitazioni sono tutte <seg
-                        rend="italic">vostre</seg>, perchè mai le partecipate al prossimo? Io avevo
+                    non so quante altre diavolerie; se le vostre escogitazioni sono tutte <seg rend="italic">vostre</seg>, perchè mai le partecipate al prossimo? Io avevo
                     finora creduto che quando uno esprime una cosa, parlando o scrivendo, oppure
                     gestendo, se non ha rotto lo scilinguagnolo, costui crede che gli altri potranno
                     credere questa cosa, pensarla a loro volta, riesprimerla e comunicarla ad altri
@@ -192,8 +189,7 @@
                     finestra che in nessun’altra occasione e per nessun altro motivo poteva essere
                     illuminata, questa straordinaria illuminazione significava che la signora era di
                     sopra ad aspettarlo. Per gli amanti, la finestra dietro alla quale si struggeva
-                    una candela stearica non era più una finestra, ma un faro, il solo Faro, il <seg
-                        rend="italic">Faro</seg> per antonomasia. Egli era poeta ed ella comprendeva
+                    una candela stearica non era più una finestra, ma un faro, il solo Faro, il <seg rend="italic">Faro</seg> per antonomasia. Egli era poeta ed ella comprendeva
                     la poesia: intorno a questo Faro, a quest’Occhio della Notte, a questo Sguardo
                     vigilante ed amico, egli aveva scritto certi versi che ella aveva mandati a
                     memoria. I fari sogliono essere particolarmente utili durante il cattivo tempo;

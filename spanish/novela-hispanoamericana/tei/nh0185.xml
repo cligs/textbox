@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,14 +39,10 @@
                 </availability>
                 <date>2016</date>
                 <idno type="cligs">nh0185</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0185.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0185.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Viaje maravilloso del Señor Nic-Nac." <seg
-                        rend="italic">Wikisource</seg>, <date when="2016">2016</date>, <ref
-                        target="https://es.wikisource.org/wiki/Viaje_maravilloso_del_Se%C3%B1or_Nic-Nac"
-                        >https://es.wikisource.org/wiki/Viaje_maravilloso_del_Se%C3%B1or_Nic-Nac</ref>. </bibl>
+                <bibl type="digital-source"> "Viaje maravilloso del Señor Nic-Nac." <seg rend="italic">Wikisource</seg>, <date when="2016">2016</date>, <ref target="https://es.wikisource.org/wiki/Viaje_maravilloso_del_Se%C3%B1or_Nic-Nac">https://es.wikisource.org/wiki/Viaje_maravilloso_del_Se%C3%B1or_Nic-Nac</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Viaje maravilloso del Señor Nic-Nac.</seg> Buenos Aires:
                     Imprenta de "El Nacional", <date when="1875">1875</date>. </bibl>
@@ -76,30 +73,26 @@
                         paralelo con nuestro país es aún más patente, y en este aspecto la obra de
                         Holmberg se vincula con la de otros escritores argentinos que se valieron de
                         recursos fantásticos para criticar a sus contemporáneos.</quote>
-                    <bibl>Pagés Larraya, Antonio (ed.). "Estudio preliminar". <seg rend="italic"
-                            >Cuentos fantásticos</seg>, pp. 59, 60-61. Cited by Lichtblau, Myron.
+                    <bibl>Pagés Larraya, Antonio (ed.). "Estudio preliminar". <seg rend="italic">Cuentos fantásticos</seg>, pp. 59, 60-61. Cited by Lichtblau, Myron.
                             <seg rend="italic">The Argentine Novel: an annotated bibliography.</seg>
                         Lanham, Maryland, 1997, p. 484.</bibl>
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label">aventuras</term>
-                    <term type="genre-label">costumbres</term>
-                    <term type="genre-label">maravilloso</term>
-                    <term type="subgenre_tm" resp="#uhk"/>
-                    <term type="subgenre" subtype="3" resp="Lichtblau_1997">science fiction</term>
-                    <term type="subgenre" subtype="1" resp="Pagés-Larraya">fantastic</term>
-                    <term type="subgenre_hist" resp="#uhk">not_historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">autodiegetic</term>
-                    <term type="setting"/>
-                    <term type="protagonist-gender"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title">aventuras costumbres maravilloso</term>
+                    <term type="text.subgenre" cligs:importance="3" resp="#uhk">science fiction</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">fantastic</term>
+                    <term type="text.narration.narrator">autodiegetic</term>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="text.characters.protagonist.gender"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -158,8 +151,7 @@
                 <p>Preocupada la sociedad de Buenos Aires con el peligroso trance en que le hubiera
                     de haber visto envuelta a no fracasar los planea del nuevo Catilina, devoraba
                     diariamente media docena de boletines, muchos de los cuales no eran sino nuevas
-                    ediciones de los primeros, pero con un apéndice edificante en el que decía <seg
-                        rend="italic">"Luego más detalles"</seg> y nada más.</p>
+                    ediciones de los primeros, pero con un apéndice edificante en el que decía <seg rend="italic">"Luego más detalles"</seg> y nada más.</p>
                 <p>Por eso cuando los muchachos cruzaban las calles ofreciendo nuevos boletines, los
                     lectores se multiplicaban,—en lo que no hacían sino imitar al bolsillo del
                     editor de las noticias,—porque la avidez de conocer nuevas complicaciones del
@@ -176,8 +168,7 @@
                     <seg rend="capital">Luego más noticias.</seg>"</p>
                 <p>Media hora más tarde, los mismos muchachos vendían el mismo boletín, al cual se
                     había agregado:</p>
-                <p><seg rend="italic">"La excitación pública crece por grados</seg>;— <seg
-                        rend="italic">el Gobierno Nacional ha telegrafiado al Sr. Gould, director
+                <p><seg rend="italic">"La excitación pública crece por grados</seg>;— <seg rend="italic">el Gobierno Nacional ha telegrafiado al Sr. Gould, director
                         del observatorio astronómico de Córdoba, preguntándole si tal viaje es
                         posible, y Mr. Gould ha contestado que es muy afecto a las papas
                         fritas</seg>,— <seg rend="capital">Luego más noticias.</seg>"</p>
@@ -297,15 +288,13 @@
                     vuelan, vagan y coloran el espíritu de Alemania.</p>
                 <p>Versado en todas las ciencias físicas y morales, le era igualmente familiar la
                     interpretación de un fenómeno cósmico, como la explicación de un fenómeno
-                    psíquico, y si a todo esto se reune su fuerza poderosa como <seg rend="italic"
-                        >médium,</seg> tendremos que admitir que Seele podría tener notables
+                    psíquico, y si a todo esto se reune su fuerza poderosa como <seg rend="italic">médium,</seg> tendremos que admitir que Seele podría tener notables
                     imitadores, pero jamás rivales.</p>
                 <p>Seele no era de aquellos espiritistas o para hablar con mayor exactitud, de
                     aquellos <seg rend="italic">médiums</seg> que saben llamar espíritus muy
                     versados en la vida del Dr. Agüero, pero que ignoran cuantas letras tiene la
                     palabra <seg rend="italic">sol</seg> en quichua.</p>
-                <p>Seele era un sabio, más aún, era un espíritu, más aún, era <seg rend="italic"
-                        >médium</seg>.</p>
+                <p>Seele era un sabio, más aún, era un espíritu, más aún, era <seg rend="italic">médium</seg>.</p>
                 <p>Los espiritistas, en general, son tratados de charlatanes, pero Seele no lo era,
                     porque Seele demostraba de una manera palpitante todo aquello que de él o de sus
                     genios familiares se averiguaba.</p>
@@ -313,8 +302,7 @@
                         <seg rend="italic">carbonada</seg> en chino?” consultado uno de los genios,
                     contestó "tiene nueve letras, así como <seg rend="italic">sombrero</seg> en
                     inglés, tiene ocho."</p>
-                <p>—"No es cierto" repuso el consultante, "sombrero, en inglés, se dice <seg
-                        rend="italic">hat</seg>:—tiene tres letras y no ocho."</p>
+                <p>—"No es cierto" repuso el consultante, "sombrero, en inglés, se dice <seg rend="italic">hat</seg>:—tiene tres letras y no ocho."</p>
                 <p>—"¡Necio!" repuso el genio, "en inglés, <seg rend="italic">hat</seg> tiene tres
                     letras, pero <seg rend="italic">sombrero</seg> tiene ocho letras en el mismo o
                     en cualquier otro idioma".........</p>
@@ -636,10 +624,8 @@
                 <p>Por esta descripción se puede comprender fácilmente la analogía que existe entre
                     el planeta, Tierra y el planeta Marte, analogía que más de una vez ha de poder
                     servirme para explicaros, mortales de la Tierra, algunos de los caracteres
-                    esenciales de la Martografia [Hubiera deseado emplear la palabra <seg
-                        rend="italic">geografía,</seg> pero como me refiero al planeta Marte, claro
-                    que sería impropia, pues, como sabéis, mortales, <seg rend="italic"
-                        >geografía,</seg> significa <seg rend="italic">descripción de la Tierra;
+                    esenciales de la Martografia [Hubiera deseado emplear la palabra <seg rend="italic">geografía,</seg> pero como me refiero al planeta Marte, claro
+                    que sería impropia, pues, como sabéis, mortales, <seg rend="italic">geografía,</seg> significa <seg rend="italic">descripción de la Tierra;
                         Martografia</seg> será, entonces, <seg rend="italic">descripción de
                         Marte.</seg>—, filólogos terrestres. Nic-Nac.] comparada con vuestra
                     Geografía.</p>
@@ -929,8 +915,7 @@
                     cansancio.</p>
                 <p>—"Doctor, podemos decir que hemos comido la primer fruta."</p>
                 <p>—"La primera! pues si Adam hubiera hecho lo que acabáis de hacer, comiéndose
-                    veintitrés naranjas, seguramente no vuelve a curar de una formidable <seg
-                        rend="italic">entero-colitis."</seg></p>
+                    veintitrés naranjas, seguramente no vuelve a curar de una formidable <seg rend="italic">entero-colitis."</seg></p>
                 <p>—"Pero ha faltado Eva. ¿Que tal será la Eva de este Marte?"</p>
                 <p>—"Supongo que será como todas. Tendrá cabeza, brazos, piernas, cuerpo, y algo de
                     que carece la Academia Española."</p>
@@ -1011,11 +996,9 @@
                     llamarían campanas,—pero que se diferencian de estas por su forma singular y
                     caprichosa—y por los coros sagrados que nadie entiende, porque de ese modo
                     perderían su carácter eminentemente místico.</p>
-                <p>—"Doctor, ¿qué os parece dar a esta agrupación del Naciente el nombre de <seg
-                        rend="italic">Theopolis</seg>?"</p>
+                <p>—"Doctor, ¿qué os parece dar a esta agrupación del Naciente el nombre de <seg rend="italic">Theopolis</seg>?"</p>
                 <p>—"No creo que pueda aplicársele otro mejor."</p>
-                <p>—"De manera que los barrios del Poniente serán <seg rend="italic"
-                        >Sophopolis"</seg></p>
+                <p>—"De manera que los barrios del Poniente serán <seg rend="italic">Sophopolis"</seg></p>
                 <p>—"Si la ciudad lleva un nombre mixto, es incuestionable que debemos admitir una
                     división natural de la población urbana."</p>
                 <p><seg rend="italic">Sophopolis</seg> presenta un aspecto que en nada se semeja al
@@ -1079,8 +1062,7 @@
                     vivo el resplandor de los <seg rend="italic">Sophopolitanos</seg> [Los
                     habitantes de la ciudad de los sabios.] que si esto no es una espléndida aurora
                     de ilusiones, ignoro qué nombre podríamos darle."</p>
-                <p>En aquel momento dirigimos la vista a uno de los dos barrios de <seg
-                        rend="italic">Sophopolis</seg> y vimos algo semejante a una procesión. Iba a
+                <p>En aquel momento dirigimos la vista a uno de los dos barrios de <seg rend="italic">Sophopolis</seg> y vimos algo semejante a una procesión. Iba a
                     ponerme de pié, para adelantar hacia ella, pero el Doctor me detuvo.</p>
                 <p>—"¿A dónde vais?"</p>
                 <p>—"A ver aquello."</p>
@@ -1362,8 +1344,7 @@
                 <p>El doctor era hombre de verdad (preocupación terrestre) y por lo tanto, debía
                     creerle.</p>
                 <p>Pero ¿cómo reconocer aquella figura?</p>
-                <p>Una estatua de tamaño natural, representando un hombre vestido con <seg
-                        rend="italic">robe-de-chambre</seg> de terciopelo lo mordoré (En Marte
+                <p>Una estatua de tamaño natural, representando un hombre vestido con <seg rend="italic">robe-de-chambre</seg> de terciopelo lo mordoré (En Marte
                     también se habla francés) bordado de oro, una cadena del mismo metal suspendida
                     del rico cinturón-cuerda de seda, y un reloj de plata dorada, adornado con
                     vidrios de colores con pretensiones de piedras finas; una abundante cabellera de
@@ -1465,8 +1446,7 @@
                     mismo tiempo reconocían que un silbido no en un crimen grave que debiera
                     purgarse en el tormento, todos los que habían mirado, dejaron de mirar, porque
                     de todos modos......no se veía nada.</p>
-                <p>A algunos pasos de distancia del templo, el Doctor y yo, acompañados por el <seg
-                        rend="italic">cicerone,</seg> (que no era otro que el procesionario con
+                <p>A algunos pasos de distancia del templo, el Doctor y yo, acompañados por el <seg rend="italic">cicerone,</seg> (que no era otro que el procesionario con
                     quien antes habíamos hablado) nos detuvimos un momento, no solo para ver pasar
                     toda la procesión, sino también para averiguar qué hacía el individuo oculto;
                     porque de tal manera se nos había desarrollarlo la curiosidad, que no había
@@ -1615,8 +1595,7 @@
                     ellas tenía movimiento en las articulaciones de las manos, de manera que estas
                     parecían haber sido hechas de una sola pieza de hueso. No ignoráis que aquí se
                     hace mucho uso de refranes;—cuando los Sophopolitanos preguntaron cierto día a
-                    sus vecinos porqué confeccionaban mujeres tan raras, ellos contestaron que <seg
-                        rend="italic">a falta de pan buenas son tortas</seg>."</p>
+                    sus vecinos porqué confeccionaban mujeres tan raras, ellos contestaron que <seg rend="italic">a falta de pan buenas son tortas</seg>."</p>
                 <p>—"Y después se comieron el pan?"</p>
                 <p>—"Sí, Doctor; pero más tarde.— Entretanto han aparecido ya varias generaciones
                     perfeccionadas, como podéis comprender, pues ello no es sino el resultado de la
@@ -1653,8 +1632,7 @@
                 <p>Nos pusimos de pié, y dirigiéndonos a Sophopolis, tuvimos ocasión de observar que
                     habíamos procedido razonablemente, porque un Theopolita se acercó a nosotros, y
                     nos advirtió que era hora de retirarnos; que si queríamos podríamos ir a pasar
-                    el resto de la noche en su casa, a lo que observó nuestro <seg rend="italic"
-                        >cicerone' que agradecíame cordialmente, pero que nos era imposible aceptar
+                    el resto de la noche en su casa, a lo que observó nuestro <seg rend="italic">cicerone' que agradecíame cordialmente, pero que nos era imposible aceptar
                         la oferta porque teníamos que asistir a la sesión de la Academia de
                         Sophopolis.</seg></p>
                 <p>—"Si ello es así,” dijo el Theopolita, "que el espíritu bueno os acompañe." Y se
@@ -2037,9 +2015,7 @@
                     bosques, o de los pájaros más lucientes que cantan en ellos."</p>
                 <p>—"Acepto la evolución, señor Nic-Nac; pero puesto que el hombre tiene hoy su
                     actual inteligencia, es porque existía latente en la majestad del infinito,
-                    latencia que algún día había de ser sensible. Y es porque hay un <seg
-                        rend="italic">más allá</seg> de las necesidades vegetativas, un <seg
-                        rend="italic">más allá</seg> que nos abre las puertas de la eternidad y del
+                    latencia que algún día había de ser sensible. Y es porque hay un <seg rend="italic">más allá</seg> de las necesidades vegetativas, un <seg rend="italic">más allá</seg> que nos abre las puertas de la eternidad y del
                     espacio. La inteligencia del hombre, no es pues sino una de las formas de la
                     armonía universal. Darse cuenta de esta armonía, estudiar sus elementos, he ahí
                     la misión del hombre; he ahí también por qué no hay estudio alguno inútil. Desde
@@ -2213,8 +2189,7 @@
                 <p>—"Es verdad."</p>
                 <p>—"Pido la palabra!" vociferó el loco del matraz.</p>
                 <p>—"Concedida!" repuso el presidente en igual tono.</p>
-                <p>—"Voy a sostener, señores, una tesis original;— voy a probar que: <seg
-                        rend="italic">dada la cantidad de oxígeno que encierra un volumen
+                <p>—"Voy a sostener, señores, una tesis original;— voy a probar que: <seg rend="italic">dada la cantidad de oxígeno que encierra un volumen
                         determinado del gas producido por la, evaporación de un Theopolita,
                         averiguar los medios de quemar los barrios de Theopolis, con todos sus
                         habitantes</seg>."</p>
@@ -2349,8 +2324,7 @@
                 <p>—"Examinadlas bien, y veréis que sí"</p>
                 <p>—"¿Es eso todo lo de que va a ocuparse hoy la Academia?"</p>
                 <p>—"Os he dicho que hay algo más, pero, secundario. Una vez terminado el debate
-                    sobre la prensa, tomará nuevamente la palabra el autor del <seg rend="italic"
-                        >Tratado completo de Martografía</seg>"</p>
+                    sobre la prensa, tomará nuevamente la palabra el autor del <seg rend="italic">Tratado completo de Martografía</seg>"</p>
                 <p>—"Para qué?"</p>
                 <p>—"¿No le habéis oído decir que su tratado no <seg rend="italic">era
                         completo?'</seg></p>
@@ -2366,8 +2340,7 @@
                 <p>Llegué a la Academia y dirigiéndome al primero que observé en la puerta, le hice
                     un signo expresivo, pues no podía hablar.</p>
                 <p>—"Es tarde! La sesión ha terminado por hoy," dijo Biops saludándome.</p>
-                <p>En aquel momento, oí una voz interior, una voz mía que exclamaba:<seg
-                        rend="italic">"Sois muy curioso, señor Nic-Nac! ja! ja! ja!."</seg></p>
+                <p>En aquel momento, oí una voz interior, una voz mía que exclamaba:<seg rend="italic">"Sois muy curioso, señor Nic-Nac! ja! ja! ja!."</seg></p>
             </div>
             <div>
                 <head>Capítulo XXII</head>
@@ -2401,14 +2374,12 @@
                     alfabeto. [Nic-Nac plagia a Dickens en esta expresión.]</p>
                 <p>—"Ya veis amigo mío," dijo el <seg rend="italic">cicerone,</seg> "que os habíais
                     ofuscado. Cuando oísteis decir en la Academia <seg rend="italic">'Ley
-                        Aureliana'</seg> debisteis suponer que era lo mismo que Ley <seg
-                        rend="italic">Taranteliana,</seg> o <seg rend="italic">Ingeliana,</seg> o
+                        Aureliana'</seg> debisteis suponer que era lo mismo que Ley <seg rend="italic">Taranteliana,</seg> o <seg rend="italic">Ingeliana,</seg> o
                     sea de Tarantelia o de Ingelia."</p>
                 <p>—"Y porqué lleva este nombre?"</p>
                 <p>—"Por qué! ¿qué metal precioso abunda en este país?"</p>
                 <p>—"El oro."</p>
-                <p>—"Oro, en latín, es <seg rend="italic">aurum,</seg> y de aquí <seg rend="italic"
-                        >Aureliana,</seg> es decir "Nación del Oro."</p>
+                <p>—"Oro, en latín, es <seg rend="italic">aurum,</seg> y de aquí <seg rend="italic">Aureliana,</seg> es decir "Nación del Oro."</p>
                 <p>—"Tenemos que hablar mucho sobre esto, y particularmente sobre la forma de
                     gobierno de este país, de esta Nación Aureliana."</p>
                 <p>—"Si amigo mío, pero entremos. ¿No veis? El pobre Doctor pretende en convencer a
@@ -2483,8 +2454,7 @@
                     de esperanza templando un dolor infinito.</p>
                 <p>En una palabra, el Doctor comprendió que el espíritu imagen que tanto le había
                     atraído, era el complemento necesario de su alma y del alma de la joven y que
-                    ambas almas, antes de su fusión absoluta, debían sujetarse al imperio del <seg
-                        rend="italic">deseo espiritual,</seg> forma o nombre delicioso con que le
+                    ambas almas, antes de su fusión absoluta, debían sujetarse al imperio del <seg rend="italic">deseo espiritual,</seg> forma o nombre delicioso con que le
                     designa en Marte la atracción que en la Tierra se llama amor, pero con una
                     significación más elevada, más sublime, si queréis.</p>
                 <p>Pero sus almas, aunque incompletas, se comprendían, como deben comprenderse en el
@@ -3217,8 +3187,7 @@
                 <p>Significa que para mí no hay secretos y que, basta que desée transportarme de un
                     punto a otro, abstrayendo lo impenetrable, para hacerme dueño de resortes
                     poderosos.</p>
-                <p>He sido habitante de la Tierra, así como en la Tierra hay <seg rend="italic"
-                        >habitantes de la Luna</seg>; hoy mi existencia maravillosa se declina en
+                <p>He sido habitante de la Tierra, así como en la Tierra hay <seg rend="italic">habitantes de la Luna</seg>; hoy mi existencia maravillosa se declina en
                     Marte; más tarde volaré tal vez a Júpiter o a Neptuno, y ¿quién sabe si he
                     volado, mariposa del éter, en alguno de esos astros lejanos que flotan
                     invisibles en las profundidades infinitas?</p>
@@ -3524,8 +3493,7 @@
                     término medio, en cuyo valor se refunda la masa de opiniones encontradas, con
                     razón o sin ella."</p>
                 <p>—"Imposible.—puedo aseguraros que uno de los argumentos va a ser este, suponiendo
-                    que yo también me haga visible y se pronuncie mi nombre:<seg rend="italic"
-                        >—'Seéle</seg> es absolutamente lo mismo que <seg rend="italic">Alma</seg>,
+                    que yo también me haga visible y se pronuncie mi nombre:<seg rend="italic">—'Seéle</seg> es absolutamente lo mismo que <seg rend="italic">Alma</seg>,
                     y esta es irremediablemente <seg rend="italic">Psique</seg>... luego, llamad al
                     fenómeno <seg rend="italic">Seélico</seg> o <seg rend="italic">Almico</seg>, el
                     hecho es que de cualquier manera es <seg rend="italic">Psíquico</seg>.' Los
@@ -3638,8 +3606,7 @@
                     incendio devorador, los ayes de los Sophopolitas que perecen, evaporándose entre
                     las llamas, y el estruendo de los edificios que se derrumban, oigo una voz
                     conocida que sale no sé de donde: es un <seg rend="italic">Miau</seg>
-                    prolongado, doloroso, que eriza mis tegumentos con espantoso calofrío, un <seg
-                        rend="italic">Miau</seg> que conmueve como el lamento más tierno.... ¿qué
+                    prolongado, doloroso, que eriza mis tegumentos con espantoso calofrío, un <seg rend="italic">Miau</seg> que conmueve como el lamento más tierno.... ¿qué
                     será? Un vago presentimiento me indica que es el gato negro, cuya presencia en
                     el planeta me ha señalado más de una vez el rumbo. El es, sin duda, coa imagen
                     perpetua de las aspiraciones terrestres, y si ahora perece su forma marcial.....
@@ -3656,10 +3623,8 @@
                     de fuego. Aquello es un espanto. Yo creo, sí, no puedo menos de creer en la
                     transmigración de las almas en cuerpos humanos, pero jamás en la metempsícosis a
                     cuerpos de otros seres, y esta separación del activo elemento, parece combinar
-                    en las ondas graduadas y en sus vivos colores la palabra <seg rend="italic"
-                        >"Salamandra"</seg> No! No! perezca mil veces entre las llamas de Sophopolis
-                    antes que tomar el aspecto de un reptil—<seg rend="italic"
-                        >"Salamandra"—"Salamandra</seg></p>
+                    en las ondas graduadas y en sus vivos colores la palabra <seg rend="italic">"Salamandra"</seg> No! No! perezca mil veces entre las llamas de Sophopolis
+                    antes que tomar el aspecto de un reptil—<seg rend="italic">"Salamandra"—"Salamandra</seg></p>
                 <p>Las fuerzas me abandonan. Ah! Las llamas!...</p>
                 <p>Arrojo un grito. Estoy salvado. Biopos que ha oído la palabra misteriosa, ha
                     creído que se trata realmente de una última pieza para su ya incendiada
@@ -3674,8 +3639,7 @@
                     un malestar de agonía.</p>
                 <p>Nos hallamos en la gran plaza.</p>
                 <p>La mayor parte de los habitantes está allí reunida. Muchos han perecido ya.</p>
-                <p>—"¿Qué es esto," pregunto a mi antiguo amigo el <seg rend="italic"
-                        >cicerone.</seg></p>
+                <p>—"¿Qué es esto," pregunto a mi antiguo amigo el <seg rend="italic">cicerone.</seg></p>
                 <p>—"¿Qué es? los Theopolitas robaron a mi hija. Hemos dado un ataque y nos han
                     rechazado. Lo han hecho ellos, no hemos podido contenerlos, y han incendiado
                     nuestra ciudad. En este momento sucede algo extraño ¿no veis?"</p>

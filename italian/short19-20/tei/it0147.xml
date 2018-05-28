@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L‘ultima lusinga." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date
-                        when="2013-05-13">May 13, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42698"
-                        >http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
+                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date when="2013-05-13">May 13, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42698">http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
                 <bibl type="print-source"> "L‘ultima lusinga." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date
-                        when="1913">1913</date>. </bibl>
+                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date when="1913">1913</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -79,8 +75,7 @@
                     essere pagati nelle ventiquattr'ore; quasi, mettiamo, quarantott'ore dopo,
                     perdessero la loro qualità di debiti di onore! Ed ora, ecco che quell'imbecille
                     ammattiva con le cabale pel Gioco del Lotto! E ogni settimana presentava al
-                    botteghino una gran filza di giocate per questa o quella <seg rend="italic"
-                        >ruota</seg>, per tutte le <seg rend="italic">ruote</seg>, da tener occupato
+                    botteghino una gran filza di giocate per questa o quella <seg rend="italic">ruota</seg>, per tutte le <seg rend="italic">ruote</seg>, da tener occupato
                     lo scrivano una buona mezz'ora, con dispetto degli altri giocatori che avevano
                     fretta più di lui!</p>
                 <p>Sissignore, suo fratello don Pietro Li Pani si era ridotto a questo: di contare
@@ -323,8 +318,7 @@
                     quando donna Michela gli accennò timidamente, sottovoce... il sospetto suo e del
                     cognato don Vito, il dottore cessò di grattarsi il mento e con la sua brutale
                     sincerità disse alla malata:</p>
-                <p>— Ho scritto una santa ricetta; medicina infallibile: <seg rend="italic"
-                        >Recipe</seg>, un bel tocco di marito!... Sei contenta?</p>
+                <p>— Ho scritto una santa ricetta; medicina infallibile: <seg rend="italic">Recipe</seg>, un bel tocco di marito!... Sei contenta?</p>
                 <p>Uno scoppio di singhiozzi e di pianto fu la risposta di Matilde.</p>
                 <p>E da quel giorno diè un tracollo.</p>
                 <p>Don Pietro, sopraffatto dalla pietà per la figlia, in certi momenti, dimenticava
@@ -415,8 +409,7 @@
                     fatta fare a sue spese, foderata di raso bianco internamente e di velluto
                     azzurro, fuori — povera creatura! Era leggera come una piuma! — e quando la casa
                     parve vuota, schiacciata sotto il silenzio della desolazione, ed egli si trovò
-                    finalmente solo con la moglie vestita a lutto, dopo tre giorni di <seg
-                        rend="italic">visitu</seg>, in cui erano accorsi amici, conoscenti per
+                    finalmente solo con la moglie vestita a lutto, dopo tre giorni di <seg rend="italic">visitu</seg>, in cui erano accorsi amici, conoscenti per
                     prender parte al loro dolore — entravano, senza dire una parola, rimanevano
                     seduti, si rizzavano, muti, per far posto ai sopravvenienti — dopo tre giorni di
                     doloroso stupore, durante i quali aveva tentato di consolarsi ripensando le

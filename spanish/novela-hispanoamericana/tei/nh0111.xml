@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,13 +34,9 @@
                 <idno type="cligs">nh0111</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "El último grande de España." In: <seg rend="italic"
-                        >Thespis. Novelas cortas y cuentos.</seg> Project Gutenberg
-                        <date>2008</date>, EBook <idno>26771</idno>, <ref
-                        target="http://www.gutenberg.org/files/26771/26771-h/26771-h.htm"
-                        >http://www.gutenberg.org/files/26771/26771-h/26771-h.htm</ref>. </bibl>
-                <bibl type="print-source"> "El último grande de España." In: <seg rend="italic"
-                        >Thespis. Novelas cortas y cuentos.</seg> Buenos Aires: Imp. y estereotipia
+                <bibl type="digital-source"> "El último grande de España." In: <seg rend="italic">Thespis. Novelas cortas y cuentos.</seg> Project Gutenberg
+                        <date>2008</date>, EBook <idno>26771</idno>, <ref target="http://www.gutenberg.org/files/26771/26771-h/26771-h.htm">http://www.gutenberg.org/files/26771/26771-h/26771-h.htm</ref>. </bibl>
+                <bibl type="print-source"> "El último grande de España." In: <seg rend="italic">Thespis. Novelas cortas y cuentos.</seg> Buenos Aires: Imp. y estereotipia
                     de La Nación, <date when="1907">1907</date>.</bibl>
                 <bibl type="edition-first">
                     <date when="1907">1907</date>
@@ -54,21 +51,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk">historical</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">fantastic</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela histórica</term>
-                    <term type="subgenre_hist" subtype="2" resp="#uhk">historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">other</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">historical</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">fantastic</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">other</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>

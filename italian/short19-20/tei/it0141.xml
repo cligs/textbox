@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Sanguedolce." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date
-                        when="2013-05-13">May 13, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42698"
-                        >http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
+                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date when="2013-05-13">May 13, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42698">http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
                 <bibl type="print-source"> "Sanguedolce." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date
-                        when="1913">1913</date>. </bibl>
+                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date when="1913">1913</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -120,8 +116,7 @@
                     tessere, cucinare, impastare il pane, tutto, insomma, come oggi se ne trovan
                     poche, perchè fin le figlie di zappatori vogliono parere signorine — così gli
                     dicevano conoscenti ed amici — dove poteva trovarla una meglio di Tana La Mira?
-                    Sarebbe stato un'infamia dire: — la figlia di <seg rend="italic"
-                        >Lagnusazzu</seg> — che poi era infingardo unicamente se si trattava di fare
+                    Sarebbe stato un'infamia dire: — la figlia di <seg rend="italic">Lagnusazzu</seg> — che poi era infingardo unicamente se si trattava di fare
                     un po' di bene al prossimo; per questo ingrassava da sembrare una botte.</p>
                 <p><seg rend="italic">Sanguedolce,</seg> appena qualcuno cominciava a parlargli del
                     matrimonio del nipote, lo guardava in viso con certi occhi da fulminarlo, se
@@ -180,8 +175,7 @@
                     gambe e le braccia. Montare su lo sgabello rovesciato per terra, cavar di tasca
                     il coltello, tagliar la fune e cascar giù assieme col disgraziato fu l'affar di
                     un momento.</p>
-                <p>— Chi mi diè la forza di liberarmi del suo peso — raccontava <seg rend="italic"
-                        >Sanguedolce</seg>, poco dopo, alla gente accorsa ai suoi gridi — e di
+                <p>— Chi mi diè la forza di liberarmi del suo peso — raccontava <seg rend="italic">Sanguedolce</seg>, poco dopo, alla gente accorsa ai suoi gridi — e di
                     slegargli il nodo della corda attorno al collo?</p>
                 <p>Non osava di rimproverare il nipote che, steso sul letto, respirava ancora
                     affannosamente. Poi, quando lo vide in piedi, con le lagrime agli occhi pel
@@ -198,8 +192,7 @@
                 <p>— Lo sapete bene che dice di sì!... Parlo per voi.</p>
                 <p>— Io?... Li benedico con tutte e due le mani. E anche sua matrigna... E se volete
                     far presto, tanto piacere.</p>
-                <p>— Dice che siete voi che non volete — intervenne la seconda moglie di <seg
-                        rend="italic">Lagnusazzu</seg>.</p>
+                <p>— Dice che siete voi che non volete — intervenne la seconda moglie di <seg rend="italic">Lagnusazzu</seg>.</p>
                 <p>— Giacchè vostro marito... ha la coscienza tranquilla!...</p>
                 <p>— Ma che discorso è questo? — fece <seg rend="italic">Lagnusazzu</seg> —
                     spiegatevi...</p>
@@ -210,8 +203,7 @@
                     un altro. Aveva detto al nipote:</p>
                 <p>— Non voglio mescolarmi di niente; fa' tu, a modo tuo, disponi tu. Tu sei padrone
                     del tuo e del mio. Da oggi in poi, per questi ultimi pochi mesi, non voglio più
-                    essere tutore. Alle faccende di campagna baderò io. Tu fa lo <seg rend="italic"
-                        >zitu</seg>[4].</p>
+                    essere tutore. Alle faccende di campagna baderò io. Tu fa lo <seg rend="italic">zitu</seg>[4].</p>
                 <p> [4] <seg rend="italic">Zitu</seg>, fidanzato e anche sposo novello.</p>
                 <p>Luciano era così felice che non si accorgeva della grande amarezza che c'era
                     nelle parole e nel tono della voce di suo zio. Non si accorgeva dell'aria
@@ -231,8 +223,7 @@
                     avesse dato di volta il cervello. Il canonico Spano, incontrato Luciano gli
                     disse:</p>
                 <p>— Tu hai la testa alla <seg rend="italic">zita,</seg> e non ti curi di tuo zio.
-                    E' venuto da me questa mattina. Mi ha fatto pietà. — Che abbiamo, compare <seg
-                        rend="italic">Sanguedolce?</seg> Non vi dispiaccia se vi chiamo così. —
+                    E' venuto da me questa mattina. Mi ha fatto pietà. — Che abbiamo, compare <seg rend="italic">Sanguedolce?</seg> Non vi dispiaccia se vi chiamo così. —
                     Abbiamo... che quando c'è la volontà di Dio è inutile opporsi; avviene quel che
                     deve avvenire... E' vero, signor canonico? — Certamente, compare. — Anche nelle
                     cose storte, è vero, signor canonico? — Non sono storte, se Dio le permette;
@@ -277,8 +268,7 @@
                 <p>— Non c'è più, dunque, Gesù Cristo lassù? No, non c'è più?</p>
                 <p>— Non bestemmiate!</p>
                 <p>Il canonico non sapeva che credere. Quel pazzo diceva la verità o ripeteva una
-                    orrenda fissazione? Tentò di calmarlo, di convincerlo che s'ingannava. Ma <seg
-                        rend="italic">Sanguedolce</seg> rispose soltanto:</p>
+                    orrenda fissazione? Tentò di calmarlo, di convincerlo che s'ingannava. Ma <seg rend="italic">Sanguedolce</seg> rispose soltanto:</p>
                 <p>— Glielo dica lei, nella messa, a Gesù Cristo. Che ci fa dunque là, in croce, su
                     l'altare?</p>
                 <p>— Non bestemmiate!</p>
@@ -289,8 +279,7 @@
                 <milestone unit="section" rend="asterisks"/>
                 <p>Gli sposi, i parenti e il corteo degli amici, in attesa che il parroco uscisse di
                     sagrestia, si comunicarono sottovoce, maravigliati:</p>
-                <p>— C'è zi' <seg rend="italic">Sanguedolce!</seg> C'è zi' <seg rend="italic"
-                        >Sanguedolce!</seg></p>
+                <p>— C'è zi' <seg rend="italic">Sanguedolce!</seg> C'è zi' <seg rend="italic">Sanguedolce!</seg></p>
                 <p>Lo avevano scoperto, rannicchiato dietro una colonna.</p>
                 <p>Luciano, commosso, andò a prenderlo per una mano, dicendogli:</p>
                 <p>— Grazie, zio!</p>

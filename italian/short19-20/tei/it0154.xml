@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,10 +31,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Fausto Bragia." <seg rend="italic">Fausto Bragia e
-                        altre novelle.</seg> Project Gutenberg, <idno>42505</idno>, <date
-                        when="2013-04-11">April 11, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42505"
-                        >http://www.gutenberg.org/ebooks/42505</ref>. </bibl>
+                        altre novelle.</seg> Project Gutenberg, <idno>42505</idno>, <date when="2013-04-11">April 11, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42505">http://www.gutenberg.org/ebooks/42505</ref>. </bibl>
                 <bibl type="print-source"> "Fausto Bragia." <seg rend="italic">Fausto Bragia e altre
                         novelle.</seg> Seconda edizione. Catania: Cav. Niccolò Giannotta, Editore.
                         <date when="1897">1897</date>. </bibl>
@@ -47,16 +45,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -183,9 +180,7 @@
                         accorgersi del suo ospite più di qualunque invitato, o amico, o
                         frequentatore, quantunque non mancasse di mostrarsi entusiastica ammiratrice
                         quand'egli cantava con voce fioca, ma perfettamente intonata, e con accento
-                        efficace, quella romanza che era il suo capolavoro, la <seg rend="italic"
-                            >Misera sei</seg> del Heine, degna di star accanto al <seg rend="italic"
-                            >Non t'odio, no!</seg> dello Schumann, di cui si poteva dire ben
+                        efficace, quella romanza che era il suo capolavoro, la <seg rend="italic">Misera sei</seg> del Heine, degna di star accanto al <seg rend="italic">Non t'odio, no!</seg> dello Schumann, di cui si poteva dire ben
                         riuscita derivazione e compimento.</p>
                     <p>Entusiastici scoppiavano sempre gli applausi degli uditori; ma erano effimere
                         soddisfazioni che gli procuravano di rado qualche lezione, che non gli
@@ -397,8 +392,7 @@
                         splendida aureola di artista.</p>
                     <p>La certezza d'essere amato e l'illusione di amare prodottagli anche
                         dall'eccitazione dei sensi, lo aveano lusingato d'un prossimo risveglio
-                        delle sue facoltà musicali. Ripreso in mano il libretto della <seg
-                            rend="italic">Venere infernale</seg>, di cui era molto contento dopo
+                        delle sue facoltà musicali. Ripreso in mano il libretto della <seg rend="italic">Venere infernale</seg>, di cui era molto contento dopo
                         averlo fatto rimaneggiare più volte dal poeta, e rilettine i due primi atti
                         quasi musicati di tutto punto, Fausto aveva tentato di continuare a
                         comporre.</p>
@@ -544,8 +538,7 @@
                         signora Paolina.</p>
                     <p>— No. Sarei un vile, se da te accettassi qualcosa oltre il tuo amore; no!
                         no!</p>
-                    <p>— T'amo così, nobile e altiero. Ah, se tu compissi la <seg rend="italic"
-                            >Venere infernale</seg>! — ella soggiunse dopo breve pausa, posandogli
+                    <p>— T'amo così, nobile e altiero. Ah, se tu compissi la <seg rend="italic">Venere infernale</seg>! — ella soggiunse dopo breve pausa, posandogli
                         una mano su la spalla e accarezzandogli la testa con l'altra. — Io vorrei
                         soltanto anticiparti un sussidio come potrebbe fare un impresario, un
                         editore...</p>
@@ -646,8 +639,7 @@
                     <p>Socchiudeva gli occhi, sorridendo a quei nuovi albori che gli luccicavano in
                         fondo al cuore.</p>
                     <p>Era andato a trovare il dottor Anguilleri per sfogarsi e dirgli:</p>
-                    <p>— Avevi ragione prognosticandomi la sorte del protagonista della mia <seg
-                            rend="italic">Venere infernale</seg>!</p>
+                    <p>— Avevi ragione prognosticandomi la sorte del protagonista della mia <seg rend="italic">Venere infernale</seg>!</p>
                     <p>Lungo i deserti corridoi del laboratorio della Sanità, andando dietro
                         all'usciere che lo guidava, Fausto si era sentito penetrare da un triste
                         senso di quiete, misto con lieve turbamento di paura.</p>
@@ -816,8 +808,7 @@
                     <p>Ma Fausto era già uscito di casa, sbatacchiando l'uscio villanamente.</p>
                     <p>Il dottor Anguilleri fu meravigliato di vederselo comparire davanti.</p>
                     <p>— Che è stato?</p>
-                    <p>— Niente. Sai? Ho riflettuto su quella tua idea... bellissima... della <seg
-                            rend="italic">Sinfonia dei baccilli</seg>, o <seg rend="italic">della
+                    <p>— Niente. Sai? Ho riflettuto su quella tua idea... bellissima... della <seg rend="italic">Sinfonia dei baccilli</seg>, o <seg rend="italic">della
                             Morte</seg>.</p>
                     <p>— Ah!</p>
                     <p>— Sono in vena. Voglio farne proprio qualcosa di grandioso e di terribile,

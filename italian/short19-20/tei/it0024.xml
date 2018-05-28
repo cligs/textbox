@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L'agnello." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "L'agnello." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -143,8 +138,7 @@
                     madre meriterebbe anche la pietà della figlia o viceversa.</p>
                 <p>.... — Estrazione — gridarono a un tratto. — Estrazione!</p>
                 <p>Seguì maggior ressa di gente. Più pronte, le signore s'affollavano intorno al
-                    palco donde era venuto stentoreo l'annuncio e dove un signore in <seg
-                        rend="italic">frac</seg> scampanellava per avviso ai più lontani.</p>
+                    palco donde era venuto stentoreo l'annuncio e dove un signore in <seg rend="italic">frac</seg> scampanellava per avviso ai più lontani.</p>
                 <p>— Estrazione!</p>
                 <p>Già si cominciava.</p>
                 <p>— Numero!...</p>
@@ -233,29 +227,23 @@
                     prenderla in affitto in due! Egli dunque poteva domandar la mano della signorina
                     che amava! La felicità non era dunque illusione! Benedetto l'agnellino!
                     Dell'agnello Biscaglia fece il paraninfo del suo amore, il compagno de' suoi
-                    sogni, l'argomento delle sue rime, il simbolo del suo cuore. <seg rend="italic"
-                        >Bèee....</seg></p>
+                    sogni, l'argomento delle sue rime, il simbolo del suo cuore. <seg rend="italic">Bèee....</seg></p>
                 <p>Or come Don Chisciotte e Sancio Panza erano d'accordo mentre Tartarin saliva il
                     Righi, così erano d'accordo adesso nell'animo del professore Biscaglia mentre
                     egli saliva <seg rend="italic">quelle</seg> scale.</p>
                 <p>Una.... Due.... Tre.... Abitavano molto in alto, le signore. Salendo crescevano i
                     palpiti, calava il sangue. Smorto, anelante, il professore si arrestò all'ultimo
-                    pianerottolo; dove, a una porta, lesse il nome: <seg rend="italic"
-                    >Crocchi</seg>.</p>
+                    pianerottolo; dove, a una porta, lesse il nome: <seg rend="italic">Crocchi</seg>.</p>
                 <p>Nessun dubbio; quell'angelo stava là dentro.</p>
                 <p>Ma lui si sentiva così smorto che non ardì toccar súbito il bottone del
                     campanello; e prima si fregò le guance con le mani. L'atto però gli parve
                     ridicolo; temè che qualcuno fosse a guardarlo o a spiarlo per la finestra della
                     scala; si volse....</p>
                 <p>Dalla finestra della cucina, di contro, pendeva, spaccato, l'agnello.</p>
-                <note>Tradotta in tedesco da C. Brenning e pubblicata (1902) in <seg rend="italic"
-                        >Feuilleton Zeitung</seg>, <seg rend="italic">Zürcher Post</seg>, <seg
-                        rend="italic">Düsseldorfer Zeitung</seg>, <seg rend="italic">Frankfurter
+                <note>Tradotta in tedesco da C. Brenning e pubblicata (1902) in <seg rend="italic">Feuilleton Zeitung</seg>, <seg rend="italic">Zürcher Post</seg>, <seg rend="italic">Düsseldorfer Zeitung</seg>, <seg rend="italic">Frankfurter
                         Nachrichten</seg>, <seg rend="italic">Neueste Nachrichten für
-                        Elberfeld</seg>, <seg rend="italic">Dortmunder Zeitung</seg>, <seg
-                        rend="italic">Unterhaltungs-Beilage</seg>, <seg rend="italic">Die
-                        Selbsthilfe</seg>, <seg rend="italic">Hansa-Theater</seg>, <seg
-                        rend="italic">Neue Saarbrücker Zeitung</seg>.</note>
+                        Elberfeld</seg>, <seg rend="italic">Dortmunder Zeitung</seg>, <seg rend="italic">Unterhaltungs-Beilage</seg>, <seg rend="italic">Die
+                        Selbsthilfe</seg>, <seg rend="italic">Hansa-Theater</seg>, <seg rend="italic">Neue Saarbrücker Zeitung</seg>.</note>
             </div>
         </body>
     </text>

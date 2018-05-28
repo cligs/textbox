@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L‘uomo rappresentativo" <seg rend="italic">Come
-                        l‘onda. Novelle.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2013-04-28">April 28, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42610"
-                        >http://www.gutenberg.org/ebooks/42610</ref>. </bibl>
+                        l‘onda. Novelle.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2013-04-28">April 28, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42610">http://www.gutenberg.org/ebooks/42610</ref>. </bibl>
                 <bibl type="print-source"> "L‘uomo rappresentativo" <seg rend="italic">Come l‘onda.
-                        Novelle.</seg> Palermo: Remo Sandron, Editore. <date when="1921"
-                    >1921</date>. </bibl>
+                        Novelle.</seg> Palermo: Remo Sandron, Editore. <date when="1921">1921</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>

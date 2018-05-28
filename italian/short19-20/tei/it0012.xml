@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,12 +32,9 @@
             <sourceDesc>
                 <bibl type="digital-source"> "Il diavolo nell‘ampolla." <seg rend="italic">Il
                         diavolo nell'ampolla. Novelle.</seg> Project Gutenberg, <idno>38637</idno>,
-                        <date when="2012-01-21">January 21, 2012</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/38637"
-                        >http://www.gutenberg.org/ebooks/38637</ref>. </bibl>
+                        <date when="2012-01-21">January 21, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/38637">http://www.gutenberg.org/ebooks/38637</ref>. </bibl>
                 <bibl type="print-source"> "Il diavolo nell‘ampolla." <seg rend="italic">Il diavolo
-                        nell'ampolla. Novelle.</seg> Milano: Fratelli Treves, Editori. <date
-                        when="1918">1918</date>. Secondo migliaio. </bibl>
+                        nell'ampolla. Novelle.</seg> Milano: Fratelli Treves, Editori. <date when="1918">1918</date>. Secondo migliaio. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +45,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -237,16 +234,14 @@
                     esorcismi.</p>
                 <p>Tentarono. Chi, imposte le mani sul capo dell’ossesso, invocava l’aiuto dei
                     santi, angeli, arcangeli, patriarchi, profeti, apostoli, martiri, confessori:
-                    chi gli appendeva al collo un breve coi nomi dell’Onnipotente: <seg
-                        rend="italic">Hel Heloym, Sother, Emmanuel, Sabaoth, Agia, Tetragrammaton,
+                    chi gli appendeva al collo un breve coi nomi dell’Onnipotente: <seg rend="italic">Hel Heloym, Sother, Emmanuel, Sabaoth, Agia, Tetragrammaton,
                         Otheos, Athanatos, Jehova, Saday, Adonay, Homusion</seg> — e a gran segni di
                     croce minacciava il demone e gridava: — Esci, immondo! esci, aspide e basilisco!
                     Scorpione e iniquo spirito, vien fuori! Fuori!</p>
                 <p>Ma no: lo spirito d’iniquità non usciva. L’ossesso or sghignazzava, or parlava
                     una strana lingua, or fremeva sputando e digrignando i denti, or bestemmiava
                     come un saraceno.</p>
-                <p>E chi gli copriva il capo con la stola e cantava il salmo: <seg rend="italic"
-                        >Vicit leo de tribu Juda</seg>; e chi l’ungeva con la cera del cero pasquale
+                <p>E chi gli copriva il capo con la stola e cantava il salmo: <seg rend="italic">Vicit leo de tribu Juda</seg>; e chi l’ungeva con la cera del cero pasquale
                     e recitava antifone e oremus.</p>
                 <p>Invano, tutto invano!</p>
                 <p>E chi leggeva gli evangeli al passo di Gesù scacciante i demóni; e chi aspergeva
@@ -283,8 +278,7 @@
                 <p>Infatti, com’essi umilmente e timidamente l’ebbero informato della loro
                     disgrazia, egli sentenziò:</p>
                 <p>— Ho capito. Son dotto in materia. — E con l’occhio della mente corse subito al
-                    profondo magazzino della sua mente; guardò al ripartimento <seg rend="italic"
-                        >demonografia</seg> e scórtovi argomento per una erudita lezione, soggiunse:
+                    profondo magazzino della sua mente; guardò al ripartimento <seg rend="italic">demonografia</seg> e scórtovi argomento per una erudita lezione, soggiunse:
                     — Son da voi. Purchè procediamo con metodo.</p>
                 <p>Credettero i monaci che a procedere con metodo prima di tutto fosse necessario
                     condurlo dove avevano vincolato, in un lettuccio, il miserabile ossesso.</p>
@@ -317,8 +311,7 @@
                     miracolo del messo di Dio! — <seg rend="italic">Laus Deo! Osanna!</seg> — E
                     corsero a sciogliere il redento. E — <seg rend="italic">laus Deo! laus
                         Deo!</seg> — tutti si inginocchiarono ed elevarono braccia e voci in
-                    rendimento di grazie al Signore. Salvo! Il priore era salvo! <seg rend="italic"
-                        >Tedeum!</seg></p>
+                    rendimento di grazie al Signore. Salvo! Il priore era salvo! <seg rend="italic">Tedeum!</seg></p>
                 <milestone unit="section" rend="line"/>
                 <p>Ma poichè fu cantato il <seg rend="italic">Tedeum!</seg> accadde un fatto forse
                     più strano della stessa liberazione che aveva sollevato gli animi oppressi:

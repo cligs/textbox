@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,14 +30,8 @@
                 <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0284.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Le due faccie della medaglia." <seg rend="italic"
-                        >Documenti umani.</seg> Project Gutenberg, <idno>25182</idno>, <date
-                        when="2008-04-26">April 26, 2008</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
-                <bibl type="print-source"> "Le due faccie della medaglia." <seg rend="italic"
-                        >Documenti umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                        >1888</date>. </bibl>
+                <bibl type="digital-source"> "Le due faccie della medaglia." <seg rend="italic">Documenti umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                <bibl type="print-source"> "Le due faccie della medaglia." <seg rend="italic">Documenti umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +42,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -118,12 +112,10 @@
                     che due esseri non si possano comprendere, che l'accordo sia impossibile, che il
                     disinteresse non esista; non mi potrà persuadere che sotto la spinta delle
                     grandi passioni il nostro <seg rend="italic">io</seg> non scomparisca, non si
-                    annulli, per farci vedere, per farci sentire, per farci vivere di un altro <seg
-                        rend="italic">io</seg>....</p>
+                    annulli, per farci vedere, per farci sentire, per farci vivere di un altro <seg rend="italic">io</seg>....</p>
                 <p>--Sì, sì,--interruppe la signora Auriti, prendendo da un minuscolo tavolinetto
                     uno svelto calice di cristallo e odorando le violette di Parma che vi suggevano
-                    nuova vita,--glielo concedo; ma fino a quando quest'altro <seg rend="italic"
-                        >io</seg> ci seconda. Aspetti però il giorno che sorgono le contrarietà!...
+                    nuova vita,--glielo concedo; ma fino a quando quest'altro <seg rend="italic">io</seg> ci seconda. Aspetti però il giorno che sorgono le contrarietà!...
                     E poi, crede lei che l'accordo sia vero, o non è più tosto apparente? Non è il
                     nostro interesse che ci spinge a passar di sopra ai malintesi quotidiani
                     nell'attesa di un vantaggio avvenire, fin quando questi malintesi non sono così
@@ -157,8 +149,7 @@
                                 e lunghe ore di viaggio, di immobilità ambulante, mi pare di essere
                                 ancora sospinto non so verso dove. Ho nella testa un caleidoscopio
                                 di paesi e di figure, i nomi di certe stazioni mi tornano
-                                stranamente alla memoria, come nel delirio: <seg rend="italic"
-                                    >Oulx</seg>, <seg rend="italic">Culoz</seg>, e tanto repentino e
+                                stranamente alla memoria, come nel delirio: <seg rend="italic">Oulx</seg>, <seg rend="italic">Culoz</seg>, e tanto repentino e
                                 radicale è il mutamento della mia vita, che non posso credere che
                                 esso dati da qualche giorno soltanto.</p>
                             <p>«Qualche giorno addietro, dunque, io ero ancora costà, avevo una
@@ -177,8 +168,7 @@
                             <p>«Allora, stia a sentire: bisogna che io le dica tutto, non è vero?
                                 Ebbene, la prima colpa è un po' sua. Perchè si ostinò a farmi
                                 conoscere quella donna? Perchè mise tanto zelo ad interessarmi a
-                                lei? Si diverte dunque a far degli esperimenti in <seg rend="italic"
-                                    >anima vili</seg>? Lei lo sapeva bene quel che doveva accadere
+                                lei? Si diverte dunque a far degli esperimenti in <seg rend="italic">anima vili</seg>? Lei lo sapeva bene quel che doveva accadere
                                 in me, il bisogno che io aveva di un poco di cuore, malgrado il
                                 cinismo della caserma, malgrado la facilità degli intrighi di
                                 guarnigione, che l'ordine di tramutamento rompe, come rompe il
@@ -283,8 +273,7 @@
                                 avevo fatto l'omaggio?... Come aveva mentito, sapientemente, dal
                                 primo all'ultimo giorno! Come aveva dovuto prendersi beffe di me!...
                                 In nome di Dio, perchè non mi aveva detto, se non era libera:
-                                «Andatevene, io non sono per voi?» Perchè quando volli <seg
-                                    rend="italic">io</seg> andarmene, mi trattenne? Perchè non mi
+                                «Andatevene, io non sono per voi?» Perchè quando volli <seg rend="italic">io</seg> andarmene, mi trattenne? Perchè non mi
                                 disse da principio, subito, la verità; e mi derise invece con quella
                                     <seg rend="italic">fatalità</seg> assurda, inverosimile, da lei
                                 stessa creata? Come mi accecai così; come caddi in tanto ridicolo?
@@ -372,15 +361,13 @@
                                 invocava il mio perdono, quando io stessa avevo apprezzate tutte le
                                 tristi conseguenze della mia falsa posizione, i sospetti che la
                                 malignità sempre desta andava gettando su di me?</p>
-                            <p>«Il mio cuore era libero, allora; io non conoscevo ancora <seg
-                                    rend="italic">lui</seg>; avevo creduto che tutto fosse finito
+                            <p>«Il mio cuore era libero, allora; io non conoscevo ancora <seg rend="italic">lui</seg>; avevo creduto che tutto fosse finito
                                 per me; non ebbi la forza di respingere mio marito che veniva in
                                 nome del nostro passato, che prometteva di riparare pubblicamente,
                                 alla luce del giorno, tutti i suoi torti, di smentire per ciò stesso
                                 le voci malvagie di cui ero l'oggetto. Quand'anche l'avessi avuta,
                                 questa forza, come resistere a lungo? Non aveva egli il diritto
-                                dalla sua parte? Non era mio marito?... Fu allora che conobbi <seg
-                                    rend="italic">lui</seg>, e puoi tu imaginare un tormento più
+                                dalla sua parte? Non era mio marito?... Fu allora che conobbi <seg rend="italic">lui</seg>, e puoi tu imaginare un tormento più
                                 grande del mio, spinta com'ero a gettarmi ai piedi dell'uomo amato,
                                 e incatenata intanto a chi avevo giurata la fede? Non erano tanto
                                 più grandi i miei doveri verso costui, quanto più grande era la mia
@@ -446,11 +433,9 @@
                     metto una parola di mio--fattasi allo specchio, la sua meraviglia fu grande nel
                     rivedersi la stessa, anzi più bella; il sangue affluito alla testa aveva acceso
                     il suo volto, fatto come di bragia, coi grandi occhi sfavillanti. Quei
-                    preparativi di festa, i profumi dell'<seg rend="italic">Ixora</seg> e della <seg
-                        rend="italic">veloutine</seg>, le infusero quasi un benessere; a poco a poco
+                    preparativi di festa, i profumi dell'<seg rend="italic">Ixora</seg> e della <seg rend="italic">veloutine</seg>, le infusero quasi un benessere; a poco a poco
                     una strana reazione si operò in lei; ebbe l'agio di trovare che il suo abito
-                        <seg rend="italic">mauve</seg>, guernito di trine <seg rend="italic"
-                        >écrues</seg> e di <seg rend="italic">jais</seg>, le stava a pennello...</p>
+                        <seg rend="italic">mauve</seg>, guernito di trine <seg rend="italic">écrues</seg> e di <seg rend="italic">jais</seg>, le stava a pennello...</p>
                 <p>--Oh!</p>
                 <p>--Aspetti ad esclamare. Per le vie, ella scambiava graziosi saluti e sorrisi, si
                     sentiva ammirata da tutta quella folla; le pareva quasi che con

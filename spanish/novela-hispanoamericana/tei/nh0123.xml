@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,15 +34,12 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0123</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0123.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0123.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Realidades del pueblo." <seg rend="italic">La novela
                         corta. Una biblioteca virtual.</seg> Universidad Nacional Autónoma de México
-                        <date when="2009">2009</date>, <ref
-                        target="http://www.lanovelacorta.com/1872-1922/rdpp.php"
-                        >http://www.lanovelacorta.com/1872-1922/rdpp.php</ref>. </bibl>
+                        <date when="2009">2009</date>, <ref target="http://www.lanovelacorta.com/1872-1922/rdpp.php">http://www.lanovelacorta.com/1872-1922/rdpp.php</ref>. </bibl>
                 <bibl type="print-source"> "Realidades del pueblo." In: <seg rend="italic">El
                         Demócrata.</seg>
                     <date when="1896">1895-1896</date>. </bibl>
@@ -59,19 +57,19 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Mexico</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="3" resp="#uhk">social</term>
-                    <term type="subgenre_tm" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">urban</term>
-                    <term type="protagonist-gender">other</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="3" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">other</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -917,8 +915,7 @@
                     figonera de La Parranda de Cupido, esa sierpe me los puso... —¡con un chinaco!—
                     y fue, amigo, con un subtenientero muy desdichado... ¡Y ay valedor!, aquel fray
                     José... el mero y merísimo fray José que vino de San Luis Potosí a darle y a ser
-                    escribidor en la cárcel de Belem, ese que es ahora escribidor de croque <seg
-                        rend="italic">La Bandera</seg> de San Luis... ¡ay!... a ese que me quería
+                    escribidor en la cárcel de Belem, ese que es ahora escribidor de croque <seg rend="italic">La Bandera</seg> de San Luis... ¡ay!... a ese que me quería
                     matar a la mala, le di muchas nalgadas, valedor, y no lo maté porque me dio
                     muchísima lástima. No amigo, ¡pobrecito!... Y a Juana su querida... por eso fue
                     el pleito, palabra... pues a Juana después de que se la saqué por puro gusto,

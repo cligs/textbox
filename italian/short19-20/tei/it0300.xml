@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,9 +31,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "La venere di Siracusa." <seg rend="italic">Gli
-                        amori.</seg> Project Gutenberg, <idno>39289</idno>, <date when="2012-03-28"
-                        >March 28, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/39289"
-                        >http://www.gutenberg.org/ebooks/39289</ref>. </bibl>
+                        amori.</seg> Project Gutenberg, <idno>39289</idno>, <date when="2012-03-28">March 28, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/39289">http://www.gutenberg.org/ebooks/39289</ref>. </bibl>
                 <bibl type="print-source"> "La venere di Siracusa." <seg rend="italic">Gli
                         amori.</seg> Milano: Casa Editrice Galli. <date when="1898">1898</date>.
                 </bibl>
@@ -46,16 +45,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -77,8 +75,7 @@
                     dell’«insoffribile,» anzi se ne compiacerà molto più del «delizioso.» Gli dia
                     anche dell’«impertinente,» perchè egli pensa che quando un uomo è apprezzato
                     dalle donne, vuol dire che vale pochissimo...</p>
-                <p>E, da ultimo, quanto alla sentenza dell’amico mio ed alla storiellina del <seg
-                        rend="italic">Giglio</seg>, ella mi dice una cosa — onore al merito! —
+                <p>E, da ultimo, quanto alla sentenza dell’amico mio ed alla storiellina del <seg rend="italic">Giglio</seg>, ella mi dice una cosa — onore al merito! —
                     giustissima. Sì, Bernazzi avrebbe potuto essere un poco più galante con la
                     Hundington e, pure non spingendo le cose fino a un punto troppo rischioso, dare
                     a quella donna qualche soddisfazione di amor proprio; se così avesse fatto, il
@@ -137,8 +134,7 @@
                     malattia. Per dimostrare la propria corruzione egli narrava agli amici alcune
                     gesta che Alessandro Dumas riferisce giustamente come altrettante prove di
                     bontà. Oda questa. Una sera l’autore dell’<seg rend="italic">Ebreo Errante</seg>
-                    seguì per via una di quelle creature che i Francesi chiamano <seg rend="italic"
-                        >filles</seg> forse perchè non sono mai madri, e salì in casa di lei. In un
+                    seguì per via una di quelle creature che i Francesi chiamano <seg rend="italic">filles</seg> forse perchè non sono mai madri, e salì in casa di lei. In un
                     angolo della camera — lascio parlare l’autore dei <seg rend="italic">Tre
                         Moschettieri</seg> — egli vide un mucchio di scialli, di vesti, di stracci,
                     dai quali usciva tratto tratto un sospiro.</p>
@@ -159,8 +155,7 @@
                     Qualche volta... quando vedo un bel giovane come te...</p>
                 <p>Allora il Sue andò a spegnere la candela... e poi lasciò anche due luigi sul
                     caminetto.</p>
-                <p>Lo scrittore che con tanta simpatia studiò le umane miserie nei <seg
-                        rend="italic">Misteri di Parigi</seg>, fece dunque una doppia elemosina alla
+                <p>Lo scrittore che con tanta simpatia studiò le umane miserie nei <seg rend="italic">Misteri di Parigi</seg>, fece dunque una doppia elemosina alla
                     infelice, e noi non possiamo dire quale delle due riuscì più gradita: il denaro
                     o l’amplesso. Sicuramente uno scrupolo caritatevole, l’idea di consolare la
                     deturpata, di dimostrarle che, nonostante la perduta bellezza, qualcuno poteva

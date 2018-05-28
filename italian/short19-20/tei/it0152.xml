@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L‘amico Ramaglia." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date
-                        when="2013-05-13">May 13, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42698"
-                        >http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
+                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date when="2013-05-13">May 13, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42698">http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
                 <bibl type="print-source"> "L‘amico Ramaglia." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date
-                        when="1913">1913</date>. </bibl>
+                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date when="1913">1913</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -242,18 +238,15 @@
                     confronto. Nei pranzi moderni accade di levarsi da tavola con più appetito di
                     prima di sedervisi. Tutto è delicato, idealizzato... Questione di stomachi. Io
                     divoro... all'antica.</p>
-                <p>Erano andati nel salotto pel caffè, quando la cameriera portò il <seg
-                        rend="italic">Giornale d'Italia</seg>. Peretti se ne impadronì e corse
+                <p>Erano andati nel salotto pel caffè, quando la cameriera portò il <seg rend="italic">Giornale d'Italia</seg>. Peretti se ne impadronì e corse
                     sùbito con gli occhi alle «Corrispondenze private».</p>
                 <p>— Ancora!... Cretino!</p>
-                <p>Non aveva potuto trattenere questa esclamazione, leggendo: «<seg rend="italic"
-                        >Tre garofani</seg>. Perchè si è rifugiata in quel negozio? Seguivola
+                <p>Non aveva potuto trattenere questa esclamazione, leggendo: «<seg rend="italic">Tre garofani</seg>. Perchè si è rifugiata in quel negozio? Seguivola
                     umilmente. Nessuna imprudenza da parte mia. Invoco. Attendo».</p>
                 <p>— Che c'è? — domandò Ramaglia, che stava per avvicinarsi a Letizia e susurrarle
                     qualche parola di scusa.</p>
                 <p>— Niente... — rispose Peretti. — Da un mese e mezzo mi diverto a seguire
-                    un'imbastitura di romanzetto nelle «Corrispondenze private» del <seg
-                        rend="italic">Giornale d'Italia</seg>. Sono sempre là: non vanno avanti.
+                    un'imbastitura di romanzetto nelle «Corrispondenze private» del <seg rend="italic">Giornale d'Italia</seg>. Sono sempre là: non vanno avanti.
                         <seg rend="italic">Tre garofani</seg> tien duro; non ne vuol sapere.</p>
                 <p>— E ti diverti a queste stupidaggini?</p>
                 <p>— Spesso le stupidaggini sono quelle che più attirano.</p>
@@ -370,8 +363,7 @@
                     aria, Ramaglia non era riuscito ad afferrare il senso preciso. Non importava
                     niente l'atteggiamento austero che la signora Letizia assumeva davanti a lui in
                     presenza di Edmondo. Aveva scritto: dunque... Tanto più che le lettere buttate
-                    giù a quel modo gli piacevano assai più di quelle <seg rend="italic"
-                        >stilizzate</seg> o copiate da qualche <seg rend="italic">Segretario
+                    giù a quel modo gli piacevano assai più di quelle <seg rend="italic">stilizzate</seg> o copiate da qualche <seg rend="italic">Segretario
                         galante</seg>.</p>
                 <p>Non gli era avvenuto mai di esitar tanto.</p>
                 <p>— Che ti accade? — gli domandò Peretti. — Sei di cattivo umore. M'inganno?</p>

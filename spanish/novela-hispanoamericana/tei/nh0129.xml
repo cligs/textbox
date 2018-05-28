@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,15 +34,11 @@
                 </availability>
                 <date>2016</date>
                 <idno type="cligs">nh0129</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0129.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0129.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Los fuereños." <seg rend="italic">La novela corta: una
-                        biblioteca virtual.</seg> México: Universidad Autónoma de México, <date
-                        when="2009">2009</date>, <ref
-                        target="http://www.lanovelacorta.com/1872-1922/fuep.php"
-                        >http://www.lanovelacorta.com/1872-1922/fuep.php</ref>. </bibl>
+                        biblioteca virtual.</seg> México: Universidad Autónoma de México, <date when="2009">2009</date>, <ref target="http://www.lanovelacorta.com/1872-1922/fuep.php">http://www.lanovelacorta.com/1872-1922/fuep.php</ref>. </bibl>
                 <bibl type="print-source"> "Los fuereños." In: <seg rend="italic">El Diario del
                         Hogar.</seg> México, <date when="1883">1883</date>. </bibl>
                 <bibl type="edition-first"> "Los fuereños." In: <seg rend="italic">El Diario del
@@ -57,19 +54,19 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Mexico</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="3" resp="#uhk">costumbrista</term>
-                    <term type="subgenre_tm" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">urban</term>
-                    <term type="protagonist-gender">mixed</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="3" resp="#uhk">costumbrista</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">mixed</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -836,8 +833,7 @@
                     sabes que padezco del estómago.</p>
                 <p>—Yo también <seg rend="italic" type="foreign" xml:lang="fr">cognac</seg> —dijo la
                     compañera.</p>
-                <p>Mientras el segundo pollo entró al café a pedir el <seg rend="italic"
-                        type="foreign" xml:lang="fr">cognac</seg>, la robusta comprometía a Perico a
+                <p>Mientras el segundo pollo entró al café a pedir el <seg rend="italic" type="foreign" xml:lang="fr">cognac</seg>, la robusta comprometía a Perico a
                     que tomara noticias del charrito.</p>
                 <p>—Mira, chico, es muy fácil que des con él; lleva un sombrero canelo bordado de
                     oro y en los pantalones muchos botoncitos de plata. Yo te aseguro que prefiero
@@ -846,8 +842,7 @@
                 <p>—¿Y con el charrito?</p>
                 <p>—Se entiende, hombre, no seas niño. Yo necesito relacionarme en tu tierra con la
                     gente decente, ¿ejtamo?</p>
-                <p>El criado había traído cuatro copas de <seg type="foreign" xml:lang="fr"
-                        >cognac</seg>, que las mujeres apuraban dentro del coche y los pollos en la
+                <p>El criado había traído cuatro copas de <seg type="foreign" xml:lang="fr">cognac</seg>, que las mujeres apuraban dentro del coche y los pollos en la
                     calle. Los demás lagartijos dirigían miradas turbias y equívocas al coche, unos
                     para decir: “Eso es pelarse” y otros para decir: “Mira qué malditos”.</p>
                 <p>Al recibir las copas vacías, el mozo tropezó con un transeúnte y rodaron copas y
@@ -1077,8 +1072,7 @@
                 <p>Aceptó, pues, con un movimiento de cabeza, y los cinco jóvenes apuraron cinco
                         <seg rend="italic">cocktails</seg> de diferentes combinaciones.</p>
                 <p>Era la primera vez que Gumesindo tomaba <seg rend="italic">cocktails</seg>, y le
-                    pareció aquella forma de envenenamiento más soportable que la del <seg
-                        rend="italic" type="foreign" xml:lang="fr">cognac</seg> puro, que por cinco
+                    pareció aquella forma de envenenamiento más soportable que la del <seg rend="italic" type="foreign" xml:lang="fr">cognac</seg> puro, que por cinco
                     veces le había raspado la garganta.</p>
                 <p>—A la salud de usted —dijo Manuel tocando su copa con la de Gumesindo—. Yo le
                     ofrezco a usted que nos vamos a divertir, y a probarle que la persona que lo
@@ -1284,8 +1278,7 @@
                     arrojo y de su fortuna. No había cejado un momento ante ninguna invitación, lo
                     aceptaba todo sin esfuerzo y con la mayor naturalidad del mundo. Después de las
                     últimas copas de <seg rend="italic">champagne</seg>, siguieron todos tomando
-                    café, <seg rend="italic" type="foreign" xml:lang="fr">cognac</seg> y <seg
-                        rend="italic" type="foreign" xml:lang="fr">chartreuse</seg> verde. Todo lo
+                    café, <seg rend="italic" type="foreign" xml:lang="fr">cognac</seg> y <seg rend="italic" type="foreign" xml:lang="fr">chartreuse</seg> verde. Todo lo
                     tomaba Gumesindo con la naturalidad de un lord, se había resuelto ponerse a la
                     altura de aquellos jóvenes elegantes y lo había conseguido con una facilidad que
                     a él mismo le maravillaba.</p>
@@ -1561,8 +1554,7 @@
                 <p>—Vamos.</p>
                 <p>—Vamos.</p>
                 <p>Y don Trinidad salió con su mujer del hotel Central, no queriendo decirse ni a sí
-                    mismos que salían con la sana intención de conocer las casas de <seg
-                        rend="italic">esas señoras</seg>.</p>
+                    mismos que salían con la sana intención de conocer las casas de <seg rend="italic">esas señoras</seg>.</p>
             </div>
             <div>
                 <head>XIII</head>
@@ -2102,8 +2094,7 @@
                 <p>Manuelito y Carlos entretanto eran felices porque se consideraban enteramente
                     dueños del campo. Como sabemos, aquel criado diligente y listo estaba apostado
                     con objeto de transmitir la alarma a los amantes en caso necesario. Clara por su
-                    parte era tan feliz que ya no veía claro, tanto por efecto de tres copas de <seg
-                        rend="italic">champagne</seg> que la había obligado a tomar Carlos, cuanto
+                    parte era tan feliz que ya no veía claro, tanto por efecto de tres copas de <seg rend="italic">champagne</seg> que la había obligado a tomar Carlos, cuanto
                     porque la consecuencia precisa de aquella entrevista debía ser que las cosas se
                     pusieran cada vez más turbias.</p>
                 <p>Este crepúsculo es en el que las mujeres llegan al apogeo de sus atractivos como
@@ -2196,8 +2187,7 @@
                     inofensivo que se conoce? Yo he llegado a tomarme solo cinco botellas y me he
                     quedado firme. Por otra parte, el <seg rend="italic">champagne</seg> imperial es
                     un preservativo contra el tifo y otras enfermedades contagiosas. En México no se
-                    mueren mas que los pobres. Nótelo usted. Las personas que toman <seg
-                        rend="italic">champagne</seg> imperial nunca se enferman.</p>
+                    mueren mas que los pobres. Nótelo usted. Las personas que toman <seg rend="italic">champagne</seg> imperial nunca se enferman.</p>
                 <p>Al decir estas palabras salió el tapón de la botella con tal estrépito que el
                     vecino del cuarto inmediato, que estaba acostándose, salió al pasadizo y
                     preguntó en voz alta:</p>
@@ -2214,8 +2204,7 @@
                 <p>—Dicen que aquí ha sonado un tiro de pistola.</p>
                 <p>—Qué tiro ni qué nada; no ves que es el <seg rend="italic">champagne</seg>.</p>
                 <p>—¡El <seg rend="italic">champagne</seg>! —repitió un coro de voces de todas las
-                    personas que habían acudido al pasadizo—, ¡el <seg rend="italic"
-                    >champagne</seg>!, ¡el <seg rend="italic">champagne</seg>!</p>
+                    personas que habían acudido al pasadizo—, ¡el <seg rend="italic">champagne</seg>!, ¡el <seg rend="italic">champagne</seg>!</p>
                 <p>Manuel asomó con la botella en la mano:</p>
                 <p>—Es <seg rend="italic">champagne</seg> —repitió para acallar a aquella gente—.
                     ¿Ustedes gustan?</p>
@@ -2297,8 +2286,7 @@
                     a su destino y la ordenaron sentarse a esperar en una banca, siempre custodiada
                     de cerca por los gendarmes, empezó a despejarse su cerebro y a darse, por lo
                     mismo, cuenta de lo que le estaba pasando. Gumesindo y don Trinidad no estaban
-                    en la misma pieza que ella ocupaba. Allí sólo habían quedado <seg rend="italic"
-                        >esas señoras</seg> que lanzaban a doña Candelaria miradas
+                    en la misma pieza que ella ocupaba. Allí sólo habían quedado <seg rend="italic">esas señoras</seg> que lanzaban a doña Candelaria miradas
                     escudriñadoras.</p>
                 <p>—¿Dónde están mi marido y mi hijo? —le preguntó al gendarme.</p>
                 <p>—Pasaron adelante.</p>
@@ -2415,8 +2403,7 @@
                 <p>—¡Miedo!, ¡yo miedo!, ¡vaya hombre!, ¿es que yo tener miedo?, ¿de qué he de tener
                     miedo? ¡Vaya!, ¿yo qué culpa tengo? Lo que es yo he estado esperando a que don
                     Trinidad volviera para ofrecerle <seg rend="italic">champagne</seg>, pero,
-                    hombre, no lo vas a creer, ya nos lo acabamos. Oye... ve a buscar más <seg
-                        rend="italic">champagne</seg> en casa de Plaisant.</p>
+                    hombre, no lo vas a creer, ya nos lo acabamos. Oye... ve a buscar más <seg rend="italic">champagne</seg> en casa de Plaisant.</p>
                 <p>—No, niño, ¿no ve su merced que ya es muy tarde?</p>
                 <p>—Yo te pago, hombre, yo te pago, ve a traer <seg rend="italic">champagne</seg>;
                     cuando venga don Trinidad, yo quiero ofrecerle champagne, y a doña Candelaria.
@@ -2434,8 +2421,7 @@
                     terquedad más insoportable.</p>
                 <p>—Bueno —le dij o al fin—, voy por el <seg rend="italic">champagne</seg>, pero no
                     haga usted ruido.</p>
-                <p>—¡No, qué ruido voy a hacer! Toma, ve a traer el <seg rend="italic"
-                        >champagne</seg>.</p>
+                <p>—¡No, qué ruido voy a hacer! Toma, ve a traer el <seg rend="italic">champagne</seg>.</p>
                 <p>Y le dio un billete de a diez pesos cuya circunstancia proporcionó a los criados
                     separarse de Manuel.</p>
                 <p>—¿Y qué, vas por el <seg rend="italic">champagne</seg>? —preguntó Luis a José

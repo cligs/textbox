@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,12 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Studio di donna." <seg rend="italic">Documenti
-                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26"
-                        >April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "Studio di donna." <seg rend="italic">Documenti
-                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                    >1888</date>. </bibl>
+                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -46,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -73,8 +70,7 @@
                     <p>--Rimandate la carrozza. Portate via quei fiori. Non sono in casa per
                         nessuno, avete capito?</p>
                     <p>E come il cameriere si era inchinato a quegli ordini pronunziati con voce
-                        breve e concitata, la duchessa di Neli si lasciò cadere sulla <seg
-                            rend="italic">vénitienne</seg>.</p>
+                        breve e concitata, la duchessa di Neli si lasciò cadere sulla <seg rend="italic">vénitienne</seg>.</p>
                     <p>Una mezza luce filtrava delle stuoie abbassate ed il raccoglimento era
                         tutt'intorno profondo. I soffici tappeti, le tendine pesanti isolavano
                         ancora più completamente quel remoto <seg rend="italic">boudoir</seg> che la
@@ -91,8 +87,7 @@
                         spigolo del caminetto, e l'indice fra le labbra, rodendosi lentamente
                         l'unghia e battendo con vivacità la punta del piede. Ancora una volta si
                         strappò alla sua cogitazione; avanzossi verso la finestra, la schiuse e tirò
-                        su la stuoia. Alla chiara luce che inondò il <seg rend="italic"
-                            >boudoir</seg> azzurro ella si riaffacciò, questa volta risolutamente,
+                        su la stuoia. Alla chiara luce che inondò il <seg rend="italic">boudoir</seg> azzurro ella si riaffacciò, questa volta risolutamente,
                         allo specchio e vi restò a lungo, guardandosi.</p>
                     <p>....Nessun dubbio era più possibile. Aveva sperato un momento che fosse stata
                         un'allucinazione, un giuoco di luce, un riflesso; ora il dubbio non era più
@@ -272,8 +267,7 @@
                         attorno, guardava l'Olderico, quasi a rassicurarsi. Finalmente raccolse la
                         sua gonna di <seg rend="italic">peluche mousse</seg>, a larghe bande di
                         ricamo a rilievo; chinò un poco la testa su cui portava un cappello a larghe
-                        tese in feltro oliva, con una ricca guarnizione di piume <seg rend="italic"
-                            >mousse</seg> a sfumature cascanti da un lato, e si decise a seguire
+                        tese in feltro oliva, con una ricca guarnizione di piume <seg rend="italic">mousse</seg> a sfumature cascanti da un lato, e si decise a seguire
                         l'amica.</p>
                     <p>Nella corte, le foglie secche dei castagni avevano formato un grosso tappeto
                         su cui le vesti femminili sfrusciavano. Il fratello, con la schiena curva,
@@ -332,8 +326,7 @@
                         la duchessa di Neli si rivolgeva per la centesima volta, da che aveva
                         incontrato l'Olderico, quella domanda. Ella aveva ancora dinanzi la sua
                         figura aristocratica, dai gesti agevoli e corretti; sentiva ancora il suono
-                        della sua voce quando, al ritorno dal romitorio, preso posto nel <seg
-                            rend="italic">landau</seg> della marchesa, si era intavolata una
+                        della sua voce quando, al ritorno dal romitorio, preso posto nel <seg rend="italic">landau</seg> della marchesa, si era intavolata una
                         discussione sulle cose dell'arte e della letteratura, ed egli aveva svolto
                         delle opinioni e manifestati dei gusti delicati, squisiti, quasi femminili.
                         Aveva ancora promesso di mandare dei libri alle signore, e la duchessa
@@ -452,8 +445,7 @@
                         passato delle ore piacevolissime....</p>
                     <p>--Mi permetta di credere che tocca a me ringraziarla....</p>
                     <p>Assuefatti gli occhi a quel dubbio chiarore, l'Olderico potè veder meglio la
-                        duchessa. Ella portava una ricca veste da camera <seg rend="italic"
-                            >loutre</seg> con largo <seg rend="italic">tablier</seg> a pieghe di
+                        duchessa. Ella portava una ricca veste da camera <seg rend="italic">loutre</seg> con largo <seg rend="italic">tablier</seg> a pieghe di
                             <seg rend="italic">surah</seg> celeste pallidissimo; guarnizioni di
                         merletti e cascate di nastri <seg rend="italic">loutre</seg> e celeste. Da
                         tutta la persona esalava un profumo di <seg rend="italic">corilopsis</seg>

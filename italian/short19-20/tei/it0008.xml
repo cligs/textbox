@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Il chiodo." <seg rend="italic">Il diavolo
-                        nell'ampolla. Novelle.</seg> Project Gutenberg, <idno>38637</idno>, <date
-                        when="2012-01-21">January 21, 2012</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/38637"
-                        >http://www.gutenberg.org/ebooks/38637</ref>. </bibl>
+                        nell'ampolla. Novelle.</seg> Project Gutenberg, <idno>38637</idno>, <date when="2012-01-21">January 21, 2012</date>, <ref target="http://www.gutenberg.org/ebooks/38637">http://www.gutenberg.org/ebooks/38637</ref>. </bibl>
                 <bibl type="print-source"> "Il chiodo." <seg rend="italic">Il diavolo nell'ampolla.
-                        Novelle.</seg> Milano: Fratelli Treves, Editori. <date when="1918"
-                        >1918</date>. Secondo migliaio. </bibl>
+                        Novelle.</seg> Milano: Fratelli Treves, Editori. <date when="1918">1918</date>. Secondo migliaio. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -428,8 +424,7 @@
                     <p>«Lire ventimila per un’automobile; spesa quattro volte più grande che un
                         viaggio a Parigi, perchè comprende la probabilità di un viaggio all’altro
                         mondo, con la guida di Celso Dondelli».</p>
-                    <p>Ma Celso non aveva ancora sostenuti gli esami da <seg rend="italic"
-                            >chauffeur</seg> che il libro dei conti fu riaperto alle spese
+                    <p>Ma Celso non aveva ancora sostenuti gli esami da <seg rend="italic">chauffeur</seg> che il libro dei conti fu riaperto alle spese
                         imprevedute e dato di rigo all’automobile.</p>
                     <p>— Scrivi in sostituzione — il filosofo dettava: — lire diecimila al Ricovero,
                         cinquemila all’Ospedale, tremila e cinquecento all’Asilo, più mille e
@@ -439,14 +434,12 @@
                         filosofo senza intermediari.</p>
                     <p>Ecco. La carrozzella era della prima metà del secolo decimonono.</p>
                     <p>Meno antico, sebbene bianco di pelo, il cavallo; e non brutto: solo, aveva il
-                        vizio di camminare con un po’ di lingua fuori. Celso lo battezzò <seg
-                            rend="italic">Gedeone</seg>, nome che piacque moltissimo al conte e ai
+                        vizio di camminare con un po’ di lingua fuori. Celso lo battezzò <seg rend="italic">Gedeone</seg>, nome che piacque moltissimo al conte e ai
                         concittadini. Parecchi di essi ogni volta che l’equipaggio attraversava
                         adagio adagio la via principale per uscire alla campagna, ammiccavano al
                         cocchiere con certe strizzatine d’occhi che significavano: «Te lo godi, eh,
                         l’automobile?»; oppure: «Il tuo cavallo suda nella lingua come i cani».</p>
-                    <p>Le quali corbellature a mezzo disturbavano il mancato <seg rend="italic"
-                            >chauffeur</seg>. Preferiva le risate aperte e intere; e non tardò a
+                    <p>Le quali corbellature a mezzo disturbavano il mancato <seg rend="italic">chauffeur</seg>. Preferiva le risate aperte e intere; e non tardò a
                         provocarle, per ridere meglio lui, in ultimo.</p>
                     <p>Del resto, non era vero che tafani e mosche infastidivano il buon
                         Gedeone?</p>
@@ -534,8 +527,7 @@
                     <p>Il giovane infatti aggiungeva:</p>
                     <p>— Vuol sposare un capitano di cavalleria. Io divento sergente, sottotenente,
                         tenente, capitano; e....</p>
-                    <p>— Alt! — interruppe il conte Mauro —; come si chiama.... <seg rend="italic"
-                            >lei</seg>?</p>
+                    <p>— Alt! — interruppe il conte Mauro —; come si chiama.... <seg rend="italic">lei</seg>?</p>
                     <p>— Amelia.</p>
                     <p>Celso si aspettava un nuovo scatto, una impressione visibilmente profonda di
                         meraviglia. Il filosofo invece parve rassegnarsi subito, quasi si trattasse

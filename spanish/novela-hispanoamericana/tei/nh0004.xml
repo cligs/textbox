@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">El falso Inca</title>
             <title type="short">Inca</title>
@@ -33,14 +34,10 @@
             </availability>
             <date>2016</date>
             <idno type="cligs">nh0004</idno>
-            <idno type="url"
-               >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0004.xml</idno>
+            <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0004.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">"El falso Inca." <seg rend="italic">Wikisource</seg>, <date
-                  when="2009">2009</date>, <ref
-                  target="https://es.wikisource.org/wiki/El_falso_Inca"
-                  >https://es.wikisource.org/wiki/El_falso_Inca</ref>.</bibl>
+            <bibl type="digital-source">"El falso Inca." <seg rend="italic">Wikisource</seg>, <date when="2009">2009</date>, <ref target="https://es.wikisource.org/wiki/El_falso_Inca">https://es.wikisource.org/wiki/El_falso_Inca</ref>.</bibl>
             <bibl type="print-source">
                <seg rend="italic">El falso Inca.</seg> Buenos Aires: Compañía sud-americana de
                billetes de banco, <date when="1905">1905</date>.</bibl>
@@ -49,14 +46,14 @@
                billetes de banco, <date when="1905">1905</date>. </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p>The spelling has been checked and corrected where appropriate.</p>
          <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
             of oral speech (e.g. speech with accent) have been marked up.</p>
          <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p>
                <quote>En <seg rend="italic">El falso inca</seg>, vemos reaparecer a nuestro pícaro
                   que purgara en la cárcel no sus delitos, sino el imperdonable crimen de haber
@@ -71,30 +68,29 @@
                      annotated bibliography</seg>, Lanham, Maryland, 1997 p. 785.</bibl>
             </p>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-continent">America</term>
-               <term type="author-country">Argentina</term>
-               <term type="author-gender">male</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">novel</term>
-               <term type="genre-label"/>
-               <term type="subgenre" subtype="2" resp="#uhk">historical</term>
-               <term type="subgenre" subtype="1" resp="Lichtblau">picaresca</term>
-               <term type="subgenre_tm" resp="#uhk">novela histórica</term>
-               <term type="subgenre_hist" subtype="2" resp="#uhk">historical</term>
-               <term type="form">prose</term>
-               <term type="narrative-perspective">heterodiegetic</term>
-               <term type="setting" cert="low">mixed</term>
-               <term type="protagonist-gender">male</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">historical</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">picaresca</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">mixed</term>
+                    <term type="text.characters.protagonist.gender">male</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2015-03-22" who="uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
          <div type="chapter">
             <head>I</head>
@@ -103,8 +99,7 @@
                cruzaban al caer la tarde de un tibio día de mayo de 1656, el amplio valle de
                Catamarca: el sol iba a ponerse tras del Ambato, los viajeros parecían rendidos por
                una larga jornada, y cerca no se veía habitación alguna.</p>
-            <p>-Aquí podíamos quedarnos -dijo el hombre en castellano, señalando un alto <seg
-                  type="foreign">paaj puca</seg> (quebracho colorado), que sobresalía en un
+            <p>-Aquí podíamos quedarnos -dijo el hombre en castellano, señalando un alto <seg type="foreign">paaj puca</seg> (quebracho colorado), que sobresalía en un
                bosquecillo de algarrobos, vinales y mistoles, entretejidos de enredaderas.</p>
             <p>-Como te parezca -contestó la mujer, que tenía marcado acento quichua, así como
                andaluz su compañero.</p>
@@ -512,8 +507,7 @@
                ¡Vemos en el hombre un igual y un hermano, y si la entrada de nuestras montañas está
                fortificada, si hemos alzado pucarás, terraplenes y altas y gruesas pircas, es sólo
                para defendernos y defender a los nuestros en caso de inicuo y sangriento ataque!...
-               ¡Ah! pero si somos pastores, si somos agricultores, también sabemos cazar el <seg
-                  type="foreign">uturunco</seg> (tigre) y el <seg type="foreign">puma</seg> (león),
+               ¡Ah! pero si somos pastores, si somos agricultores, también sabemos cazar el <seg type="foreign">uturunco</seg> (tigre) y el <seg type="foreign">puma</seg> (león),
                sin que la pica tiemble en nuestra mano, ni la flecha se desvíe en su camino, ni los
                libes caigan antes de alcanzar su presa, ni la piedra de la honda interrumpa su curva
                mortal, y el guanaco y la vicuña de las cumbres saben bien cuánta es la velocidad de
@@ -991,8 +985,7 @@
             <p>En cambio, los indios perseveraban entusiastas en el sigiloso trabajo que iba
                rodeando y envolviendo a sus enemigos en una telaraña cada día más apretada y
                resistente. Los chasques, las humaredas, teníanlos en comunicación rápida y continua.
-               Telegrafiábanse por medio de los humos, de pueblo en pueblo y de <seg type="foreign"
-                  >tambo</seg> (posada) en <seg type="foreign">tambo</seg>, siempre al corriente de
+               Telegrafiábanse por medio de los humos, de pueblo en pueblo y de <seg type="foreign">tambo</seg> (posada) en <seg type="foreign">tambo</seg>, siempre al corriente de
                todas las noticias y con el mismo propósito libertario. Su silenciosa y universal
                actividad, armonizaba con el descuido español, universal y silencioso también.</p>
          </div>
@@ -1739,8 +1732,7 @@
                la vida!</p>
             <p>Bohórquez se estremeció, pues así pensaba él también... Enríquez miró a la india y al
                andaluz con soberano desprecio.</p>
-            <p>-¡Ah! ¡Si yo fuera el falso Inca! -pensó-. Pero este <seg type="foreign"
-               >uritu</seg>... (papagayo).</p>
+            <p>-¡Ah! ¡Si yo fuera el falso Inca! -pensó-. Pero este <seg type="foreign">uritu</seg>... (papagayo).</p>
          </div>
          <div type="chapter">
             <head>XIV</head>

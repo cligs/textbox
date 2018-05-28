@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,19 +34,15 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0081</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0081.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0081.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source">
                     <seg rend="italic">La novela de la sangre.</seg> El Libro Total, Libro
-                        <idno>3725</idno>. <ref
-                        target="http://www.ellibrototal.com/ltotal/ficha.jsp?idLibro=3725"
-                        >http://www.ellibrototal.com/ltotal/ficha.jsp?idLibro=3725</ref>. </bibl>
+                        <idno>3725</idno>. <ref target="http://www.ellibrototal.com/ltotal/ficha.jsp?idLibro=3725">http://www.ellibrototal.com/ltotal/ficha.jsp?idLibro=3725</ref>. </bibl>
                 <bibl type="print-source">unknown</bibl>
                 <bibl type="edition-first">
-                    <seg rend="italic">La novela de la sangre.</seg> Madrid: D. Jorro, <date
-                        when="1903">1903</date>. </bibl>
+                    <seg rend="italic">La novela de la sangre.</seg> Madrid: D. Jorro, <date when="1903">1903</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -56,21 +53,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk">historical</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">sentimental</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela histórica</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">mixed</term>
-                    <term type="protagonist-gender">other</term>
-                    <!-- Regis & Blanca ? -->
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">historical</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">sentimental</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">mixed</term>
+                    <term type="text.characters.protagonist.gender">other</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -371,9 +367,7 @@
                         chirrido. Sumergía la cabeza en agua fría; cubríamela con almohadas; me la
                         envolvía en los colchones; me hacía el muerto... Tapéme los oídos con cera:
                         ¡oía más y mejor! Reía, gemía, lloraba... ¡Moríame! Y lo más espeluznante
-                        era que yo me daba cuenta de que aquellas campanas me sonaban a <seg
-                            rend="italic">mí solo</seg>, <seg rend="italic">¡que</seg> eran <seg
-                            rend="italic">mis campanas</seg>! Me creí loco, irremisiblemente loco,
+                        era que yo me daba cuenta de que aquellas campanas me sonaban a <seg rend="italic">mí solo</seg>, <seg rend="italic">¡que</seg> eran <seg rend="italic">mis campanas</seg>! Me creí loco, irremisiblemente loco,
                         furiosamente loco.</p>
                     <p>En mi desesperación, me acordaba de ti, de mis padres, de los míos; y me
                         apretaba, me apretaba la cabeza entre las manos, como si quisiera romperla;
@@ -389,8 +383,7 @@
                         calado hasta los huesos, inconsciente a todo lo que no fuera el prolongado
                         trueno de mis campanas. Los serenos no me veían gracias a los mares de
                         lluvia, y sólo los perros me ladraban. Alguno debió arrancar jirones de mi
-                        ropa y clavar, sin que yo lo sintiera, sus dientes en <seg rend="italic"
-                            >mis</seg> carnes... Anduve hasta por los suburbios, huyendo, huyendo,
+                        ropa y clavar, sin que yo lo sintiera, sus dientes en <seg rend="italic">mis</seg> carnes... Anduve hasta por los suburbios, huyendo, huyendo,
                         huyendo siempre del ruido que iba conmigo <seg rend="italic">mismo</seg>,
                         tenaz como un demonio que lleva una alma condenada... Cuando amaneció una
                         aurora lúgubre me encontré, sin saber cómo, ante la puerta del doctor
@@ -1688,8 +1681,7 @@
                         propuso, cuando Rosas tomaba las riendas del gobierno, triunfalmente
                         aclamado por todos, hasta en los púlpitos. Él se había negado, pues no
                         quería meterse en política, deseoso de que se lo dejase en paz con su
-                        familia y su comercio, y temiendo, por otra parte, que alguna vez esa <seg
-                            rend="italic">Sociedad Popular Restauradora</seg>, en momentos de
+                        familia y su comercio, y temiendo, por otra parte, que alguna vez esa <seg rend="italic">Sociedad Popular Restauradora</seg>, en momentos de
                         revuelta, asumiese un carácter criminoso y trágico... Aunque había en ella
                         gente buena, no le gustaban muchos de los miembros que la componían, cabezas
                         ligeras y exaltadas, almas de fanáticos.</p>
@@ -2302,8 +2294,7 @@
                     <p>En esto entró Pantuci, saludando alegremente al "dormilón", y anunciándole
                         que ya había contratado una lancha y que partirían esa misma tarde, después
                         del almuerzo. –¡Lo que quiero es acabar allí pronto, para regresar! –exclamó
-                        atropelladamente, añadiendo luego: –¡Para que <seg rend="italic"
-                            >regresemos</seg>, se entiende!</p>
+                        atropelladamente, añadiendo luego: –¡Para que <seg rend="italic">regresemos</seg>, se entiende!</p>
                     <p>El mayor Bayo, interrumpida su confidencial conversacion con la llegada de
                         Pantuci, no trató de reanudarla. En efecto, eso no era posible, porque, como
                         si lo hiciese exprofeso, Pantuci no dejó solo un instante a Válcena,
@@ -3176,8 +3167,7 @@
                         embarazo en la Sala de Representantes apareció un pasquín, tildando a éstos
                         de irresolutos pusilánimes y manifestándoles que había otros santafecinos
                         dignos de asumir el gobierno. Llegado el pasquín hasta el caudillo, su furor
-                        estalló como un rayo. Aceptó la reelección y procedió, <seg rend="italic"
-                            >ipso facto</seg>, a descubrir al panfletista. Ocurriósele que un señor
+                        estalló como un rayo. Aceptó la reelección y procedió, <seg rend="italic">ipso facto</seg>, a descubrir al panfletista. Ocurriósele que un señor
                         Sañudo debía saber quién era, y le inventó un singular suplicio para que le
                         denunciase: atáronsele las manos con una cuerda y suspendiósele de una viga,
                         gravitando su cuerpo en el espacio hasta que hablara... Aunque decidido
@@ -6934,8 +6924,7 @@
                     <p>Con muchos rodeos y argucias consiguió en efecto burlar el sitio que tenía
                         puesto Oríbe, y una hermosa tarde, entró en Montevideo, ¡después de una
                         odisea de diez años!</p>
-                    <p>Un guía oficioso que hallara al paso le llevó a la redacción de <seg
-                            rend="italic">El Nacional</seg>, periódico escrito por emigrados
+                    <p>Un guía oficioso que hallara al paso le llevó a la redacción de <seg rend="italic">El Nacional</seg>, periódico escrito por emigrados
                         porteños, opositores decididos de Rosas. Encontró allí a dos de ellos en
                         quienes su buena memoria reconoció, sin ser él reconocido, a don Florencio
                         Varela y don José Rivera Indarte; hablaban de los sucesos argentinos... Sin

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,14 +30,8 @@
                 <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0013.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Il suicidio del maestro Bonarca." <seg rend="italic"
-                        >Novelle umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
-                <bibl type="print-source"> "Il suicidio del maestro Bonarca." <seg rend="italic"
-                        >Novelle umoristiche.</seg> Milano: Fratelli Treves, Editori. <date
-                        when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                <bibl type="digital-source"> "Il suicidio del maestro Bonarca." <seg rend="italic">Novelle umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                <bibl type="print-source"> "Il suicidio del maestro Bonarca." <seg rend="italic">Novelle umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +42,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -103,8 +96,7 @@
                         dell'avvenire. E la <seg rend="italic">Sposa selvaggia</seg> aveva ottenuta
                         fortuna quasi uguale a quella desiderata. Se non che i cittadini d'una città
                         piccola non vanno a teatro tutte le sere; nè i paesani delle vicinanze,
-                        ignoranti che sarebbero accorsi in folla a udir la <seg rend="italic"
-                            >Traviata</seg> o il <seg rend="italic">Trovatore</seg>, si lasciaron
+                        ignoranti che sarebbero accorsi in folla a udir la <seg rend="italic">Traviata</seg> o il <seg rend="italic">Trovatore</seg>, si lasciaron
                         persuadere da una costosissima <seg rend="italic">réclame</seg> e dalla fama
                         dell'opera nuova. Inoltre, ammalatasi la prima donna, l'altra, chiamata
                         d'urgenza a sostituirla, aveva messo voce e opera a caro prezzo. E infine,
@@ -118,8 +110,7 @@
                         si riverserebbero l'odio e le calunnie dei creditori; le cambiali
                         protestate; il disprezzo della cittadinanza; la diffidenza della patria
                         tutta. L'infelice, per colpa della sua <seg rend="italic">Sposa</seg>, si
-                        vide perduto; si credè abbandonato; si sentì solo al mondo, solo con la <seg
-                            rend="italic">Sposa selvaggia</seg> e col disonore....</p>
+                        vide perduto; si credè abbandonato; si sentì solo al mondo, solo con la <seg rend="italic">Sposa selvaggia</seg> e col disonore....</p>
                     <p>Ond'ecco, a pochi passi, il canale e la morte.</p>
                 </div>
                 <div type="chapter">
@@ -178,8 +169,7 @@
                         imaginerebbe?) «Ringrazio i miei concittadini per la loro benevolenza alla
                         mia <seg rend="italic">Sposa selvaggia</seg>....»</p>
                     <p>Erano due righe, ma animose; di un uomo senza paura. Qual rammarico tuttavia
-                        nel pensare che la sua tragica fine servirebbe di <seg rend="italic"
-                            >réclame</seg>, e l'opera presto data alla Scala o al Regio o al San
+                        nel pensare che la sua tragica fine servirebbe di <seg rend="italic">réclame</seg>, e l'opera presto data alla Scala o al Regio o al San
                         Carlo solleverebbe il pubblico, entusiasta del terzetto e della romanza, a
                         chiamare il maestro, che, essendo morto annegato, non potrebbe assistere
                         alla rappresentazione!</p>
@@ -197,10 +187,8 @@
                         riuscisse a sfuggire a ogni altro sguardo fino all'ora dei giornali, e a
                         provvedersi dei giornali. Non esitò più. Dopo tutto, ai condannati a morte è
                         lecito soddisfare, qual si sia, l'ultima voglia!</p>
-                    <p>Ed essendo impossibile che qualcuno non passasse di là, non vedesse il <seg
-                            rend="italic">paletot</seg>, non leggesse la lettera e non la portasse
-                        in questura prima della notte, egli si tolse il <seg rend="italic"
-                            >paletot</seg> e lo pose sul parapetto del ponte; gettò il cappello alla
+                    <p>Ed essendo impossibile che qualcuno non passasse di là, non vedesse il <seg rend="italic">paletot</seg>, non leggesse la lettera e non la portasse
+                        in questura prima della notte, egli si tolse il <seg rend="italic">paletot</seg> e lo pose sul parapetto del ponte; gettò il cappello alla
                         corrente livida, e quasi a scorgere, così travolta, la sua testa o quella
                         d'un fedele amico, ne distolse subito gli occhi per non commuoversi; quindi
                         scese lungo la riva in cerca d'un nascondiglio. Ricordava che alla distanza
@@ -220,23 +208,20 @@
                         da competitore formidabile.... E il delegato Rosta?... Un bravo amico,
                         questo; sincero, sebbene questurino; giocatore mediocre a suo confronto,
                         eppure vincitore in una classica partita.... Che meraviglia! Era stato al
-                        tempo delle prove.... Oh le sudate prove della <seg rend="italic"
-                            >Sposa</seg>!...; con quei violini che non andavano; con quella
+                        tempo delle prove.... Oh le sudate prove della <seg rend="italic">Sposa</seg>!...; con quei violini che non andavano; con quella
                         cornetta.... Benvoluto da tutti, però; rispettato; temuto. Gli artisti di
                         vaglia hanno in sè qualche cosa che fa perdonare ogni scatto. Per esempio,
                         egli qualche volta era stato feroce; e mai un lamento. Solo Camandri, il
                         bombardone, aveva detto a un compagno, dopo la seconda prova: — Se torna a
                         darmi della bestia in orchestra, lo fracasso con lo strumento. — Ma lui,
-                        alla terza prova: — Camandri: è un <seg rend="italic">la</seg>! un <seg
-                            rend="italic">la</seg>! un <seg rend="italic">la</seg>!, corpo di!...; e
+                        alla terza prova: — Camandri: è un <seg rend="italic">la</seg>! un <seg rend="italic">la</seg>! un <seg rend="italic">la</seg>!, corpo di!...; e
                         Camandri, giù gli occhi e il bombardone a posto; frenato e impaurito da
                         quello sguardo....</p>
                     <p>Sparsasi la triste notizia fra i suonatori e i discepoli, quanti non
                         direbbero, con certo orgoglio: — Bravo maestro! Gli uomini di fegato e di
                         carattere fanno così; non scappano come quel mercante traditore.... — A
                         proposito! (fe' Bonarca) I tre soldi per i giornali? — Li aveva; aveva il
-                        resto dell'ultima lira, che si era tratta di saccoccia per l'ultimo <seg
-                            rend="italic">cognac</seg>...</p>
+                        resto dell'ultima lira, che si era tratta di saccoccia per l'ultimo <seg rend="italic">cognac</seg>...</p>
                     <p>Dunque?</p>
                     <p>Dunque, poichè si fu riacconciata la paglia addosso ed ebbe appoggiato il
                         capo alla pietra...., a poco a poco, senza perdere il coraggio,
@@ -265,8 +250,7 @@
                         sarebbero state sue? Ma di fra le righe della necrologia gli venne la luce;
                         afferrò la ragione della pietosa menzogna; si commosse fino alle
                         lagrime.</p>
-                    <p>Per la ragione stessa gli parve anche più nobile e felice la trovata del <seg
-                            rend="italic">Radicale</seg>, che gli dedicava un articolo di due
+                    <p>Per la ragione stessa gli parve anche più nobile e felice la trovata del <seg rend="italic">Radicale</seg>, che gli dedicava un articolo di due
                         colonne.</p>
                     <milestone rend="dots" unit="section"/>
                     <p>«Sposa selvaggia, addio! «Io morirò per te!</p>
@@ -298,8 +282,7 @@
                         buonsenso.</p>
                     <p>Ecco l'efficacia d'un giusto conforto! ecco la necessità della logica! Doveva
                         lamentare d'aver deposto il <seg rend="italic">paletot</seg> con in tasca la
-                        lettera, sul ponte. Ma se non avesse deposto il <seg rend="italic"
-                            >paletot</seg>, non si sarebbe convinto della sua postuma gloria. Doveva
+                        lettera, sul ponte. Ma se non avesse deposto il <seg rend="italic">paletot</seg>, non si sarebbe convinto della sua postuma gloria. Doveva
                         lamentare di non essersi annegato subito. Ma se si fosse annegato subito non
                         avrebbe appreso che annegarsi per debiti è una corbelleria. E, d'altra
                         parte, non impunemente si scrive a un questore «mi uccido»; giacchè il
@@ -363,8 +346,7 @@
                         meglio, gli avevano fatto credere che diventerebbe un Mascagni!</p>
                     <p>Gridarono: — Non c'è!</p>
                     <p>Non ci poteva essere: Bonarca già si era ricordato che al mulino del canal
-                        Torbo si pescavano i cadaveri degli annegati. Coloro che gridavano <seg
-                            rend="italic">non c'è</seg> erano senza dubbio i suoi becchini.</p>
+                        Torbo si pescavano i cadaveri degli annegati. Coloro che gridavano <seg rend="italic">non c'è</seg> erano senza dubbio i suoi becchini.</p>
                     <p>— Cercate ancora! Cercate!</p>
                     <p>Il brigadiere frattanto preferiva la <seg rend="italic">Cavalleria
                             Rusticana</seg> al <seg rend="italic">Nabucco</seg> e stancava vieppiù
@@ -407,8 +389,7 @@
                         forse pascevano i più schifosi vermi; gli fasciava lo stomaco; gli saliva al
                         petto. Oh Dio!; nè si fermava. Al petto! aveva la pegola al petto! Gli
                         toglieva oramai il respiro; e se gli arrivava alla gola, alla bocca....</p>
-                    <p>Che orribile morte! E ancora giù, adagio adagio.... Maledetta la <seg
-                            rend="italic">Sposa selvaggia</seg>!... Addio, Elena (la maritata)!
+                    <p>Che orribile morte! E ancora giù, adagio adagio.... Maledetta la <seg rend="italic">Sposa selvaggia</seg>!... Addio, Elena (la maritata)!
                         Addio, Teresa (la nubile)! addio, Lilì, per sempre!</p>
                     <p>Non si fermava ancora.... Ancora?</p>
                     <p>Quando gli parve d'aver toccato fondo, chiuse gli occhi per non vedere la sua

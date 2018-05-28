@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,12 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Il memoriale del marito." <seg rend="italic">Documenti
-                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26"
-                        >April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "Il memoriale del marito." <seg rend="italic">Documenti
-                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                    >1888</date>. </bibl>
+                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -46,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -122,8 +119,7 @@
                     facevo però nulla per tradurlo ad effetto. Non so se un casuista mi avrebbe
                     assolto; ma io mi sentivo in pace con la mia coscienza. Offendere un uomo,
                     perdere una donna, distruggere una famiglia mi parevano dei delitti che niente
-                    può scusare. La <seg rend="italic">predestinazione</seg>, il <seg rend="italic"
-                        >colpo di fulmine</seg> mi facevano l'effetto di pretesti belli e buoni. Io
+                    può scusare. La <seg rend="italic">predestinazione</seg>, il <seg rend="italic">colpo di fulmine</seg> mi facevano l'effetto di pretesti belli e buoni. Io
                     mi sentivo libero e padrone di me stesso, in amore come nel resto. Quando vedevo
                     molte donne riunite in qualche posto, a teatro, per esempio, od alla
                     passeggiata, io mi domandavo; «Chi ameresti tu fra queste?»--E con una mano
@@ -437,8 +433,7 @@
                     avuto ragione accusandomi di non esser geloso; la gelosia è una prova d'amore.
                     Io ero stato geloso in silenzio, dentro di me, per timore di increscerle; avevo
                     sbagliato. Le donne, alle volte, vogliono essere dominate.</p>
-                <p>«Come le dimostrai la mia gelosia, come le dissi soltanto che <seg rend="italic"
-                        >quell'uomo</seg> era indegno di lei, si mostrò offesa, non mi parlò per due
+                <p>«Come le dimostrai la mia gelosia, come le dissi soltanto che <seg rend="italic">quell'uomo</seg> era indegno di lei, si mostrò offesa, non mi parlò per due
                     giorni.... Ella mi aveva mentito: aveva dato retta a quell'uomo, era stata da
                     lui indotta a lasciare la mia casa, e non avendo resistito alla prova del
                     confronto dinanzi al magistrato, teneva ore secrete conferenze con un avvocato,

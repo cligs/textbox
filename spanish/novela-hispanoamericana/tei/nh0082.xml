@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,10 +35,7 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "El capitán Pérez." In: <seg rend="italic">Thespis.
-                        Novelas cortas y cuentos.</seg> Project Gutenberg <date when="2008"
-                        >2008</date>, EBook <idno>26771</idno>, <ref
-                        target="http://www.gutenberg.org/files/26771/26771-h/26771-h.htm"
-                        >http://www.gutenberg.org/files/26771/26771-h/26771-h.htm</ref>. </bibl>
+                        Novelas cortas y cuentos.</seg> Project Gutenberg <date when="2008">2008</date>, EBook <idno>26771</idno>, <ref target="http://www.gutenberg.org/files/26771/26771-h/26771-h.htm">http://www.gutenberg.org/files/26771/26771-h/26771-h.htm</ref>. </bibl>
                 <bibl type="print-source"> "El capitán Pérez." In: <seg rend="italic">Thespis.
                         Novelas cortas y cuentos.</seg> Buenos Aires: Imp. y estereotipia de La
                     Nación, <date when="1907">1907</date>.</bibl>
@@ -54,19 +52,19 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="3" resp="#uhk">sentimental</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela sentimental</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">rural</term>
-                    <term type="protagonist-gender" cert="low">female</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="3" resp="#uhk">sentimental</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">rural</term>
+                    <term type="text.characters.protagonist.gender">female</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -543,8 +541,7 @@
                         elegantes!</p>
                     <p>Riose Lolita Sartori de la impertinencia de Publio, y Jacinto comprendió que
                         se burlaban de él... Dudaban de que hubiera conocido al capitán Pérez...
-                        Para vencer esa incredulidad, hombre de rápida y fogosa imaginación, <seg
-                            rend="italic">ipso facto</seg> inventó él y contó cómo le conociera,
+                        Para vencer esa incredulidad, hombre de rápida y fogosa imaginación, <seg rend="italic">ipso facto</seg> inventó él y contó cómo le conociera,
                         ¡oh, de un modo bastante chusco!... Estaba él en un baile, conversando con
                         la joven y distinguida dueña de casa, sentados ambos en el comedor... Como
                         hablaba al oído de su compañera, tenía agachada la cabeza...</p>
@@ -582,8 +579,7 @@
                         semejantes obsequios en el Tandil?... ¡Esas mujeres! ¡Bien las conocería
                         Mefistófeles cuando aconsejó a Fausto que regalara aquellas magníficas joyas
                         a la pequeña y modesta Margarita!</p>
-                    <p>No pudiendo guardar secreto por más tiempo, Jacinto Luque publicó en <seg
-                            rend="italic">El Correo de las Niñas</seg>, la siguiente noticia:</p>
+                    <p>No pudiendo guardar secreto por más tiempo, Jacinto Luque publicó en <seg rend="italic">El Correo de las Niñas</seg>, la siguiente noticia:</p>
                     <floatingText type="article">
                         <body>
                             <div>
@@ -734,8 +730,7 @@
                         periódico un suelto terrible destinado a desmentir la atroz imputación. Se
                         titulaba «El honor y la calumnia» y se subtitulaba «Un Dreyfus
                         argentino».</p>
-                    <p>«Es realmente lamentable—decía—que un diario que se precia de serio, <seg
-                            rend="italic">La Mañana</seg>, publique tan pérfidas y calumniosas
+                    <p>«Es realmente lamentable—decía—que un diario que se precia de serio, <seg rend="italic">La Mañana</seg>, publique tan pérfidas y calumniosas
                         insinuaciones como la que aparece en el número de hoy... No tenemos por qué
                         ocultarlo: la insidiosa inicial del «capitán P.», se refiere al capitán
                         Pérez... ¡Más valiese haberlo nombrado!... Nosotros conocemos a este
@@ -816,8 +811,7 @@
                         Los contendientes barajaban en sus largas peroratas y mariscalendas las
                         fundamentales ideas de honor, patria, verdad, progreso, etc., etc. Estas
                         ideas eran en gran parte tomadas de la prensa local. Porque aun después del
-                        «lance de honor», <seg rend="italic">El Correo de las Niñas</seg> y <seg
-                            rend="italic">La Mañana</seg> siguieron tratando el asunto Pérez, si
+                        «lance de honor», <seg rend="italic">El Correo de las Niñas</seg> y <seg rend="italic">La Mañana</seg> siguieron tratando el asunto Pérez, si
                         bien evitaban incurrir de nuevo en ingratas cuestiones personales y de
                         campanario.</p>
                     <p>Más de una vez se temió que las discusiones degenerasen en disputas, las
@@ -840,8 +834,7 @@
                         cabezas de esa hidra feroz, para salvar el honor de la patria y la santidad
                         de la iglesia!</p>
                     <p>También las bellas artes contribuyeron a la terrible lucha de ideas que tenía
-                        por teatro el pueblo del Tandil. En un semanario cómico popular, el <seg
-                            rend="italic">Pica-pica</seg>, de furiosas ideas radicales y por ende
+                        por teatro el pueblo del Tandil. En un semanario cómico popular, el <seg rend="italic">Pica-pica</seg>, de furiosas ideas radicales y por ende
                         netamente antiperecista, aparecieron una serie de caricaturas del «Gran
                         Capitán» (ya se podía llamar a Pérez como a Gonzalo de Córdova).
                         Representábasele en ellas de puerco, de serpiente, de «clown», y hasta de
@@ -875,8 +868,7 @@
                     <p>Los partidarios de Pérez enviaban su adhesión a la familia que suponían lo
                         representara en el pueblo, en forma de felicitaciones para Coca, por su
                         compromiso. El compromiso era el pretexto de hacer presente su simpatía.
-                        Nadie se daba, pues, por enterado de la rectificación de <seg rend="italic"
-                            >La Mañana</seg>... ¡Y había que aguantar aquel chubasco de
+                        Nadie se daba, pues, por enterado de la rectificación de <seg rend="italic">La Mañana</seg>... ¡Y había que aguantar aquel chubasco de
                         inoportunísimas enhorabuenas!</p>
                     <p>Los contrarios, gente enemiga de la burguesía, gente grosera y sin
                         delicadeza, mandaban, en cambio, a los tres miembros de la familia,
@@ -975,8 +967,7 @@
                         con su hermana, Coca le contestó, muy conmovida, que aun no se conocían
                         bien, ni estaba segura de su cariño. Aplazaba, pues, su contestación para
                         cuando ambos adquiriesen mejor ese conocimiento y ella tuviera esa
-                        seguridad... Pero con su mirada húmeda, agregaba bien claro: «Esto es <seg
-                            rend="italic">pour la galerie</seg>... Ten un poco de paciencia,
+                        seguridad... Pero con su mirada húmeda, agregaba bien claro: «Esto es <seg rend="italic">pour la galerie</seg>... Ten un poco de paciencia,
                         Vázquez, que no te haré esperar mucho. ¡De mi afecto, bien segura
                         estoy!»</p>
                     <p>Al poco tiempo, don Mariano apremió a su pretendida:</p>
@@ -1119,8 +1110,7 @@
                     <p>Después de mucho discutir, los tres hermanos convinieron en arreglarle a la
                         visita una pieza en el hotel, e invitarlo diariamente a almorzar y a comer.
                         Coca lo evitaría, explicándose con don Mariano...</p>
-                    <p>Don Mariano supo en el día la terrible noticia. ¡El capitán Pérez estaba <seg
-                            rend="italic">ad portas</seg>!... Sin perder un momento, requirió una
+                    <p>Don Mariano supo en el día la terrible noticia. ¡El capitán Pérez estaba <seg rend="italic">ad portas</seg>!... Sin perder un momento, requirió una
                         contestación categórica de Coca... Y Coca, que no quería otra cosa, le juró
                         que jamás había amado al capitán Pérez...</p>
                     <p>Vázquez le preguntó aún:</p>

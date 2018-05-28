@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,8 +32,7 @@
             <sourceDesc>
                 <bibl type="digital-source"> "Il Passato." <seg rend="italic">Documenti umani.</seg>
                     Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26,
-                        2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "Il Passato." <seg rend="italic">Documenti umani.</seg>
                     Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
@@ -45,16 +45,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -120,8 +119,7 @@
                         le lacrime, e dicendole pianissimo, da farsi appena sentire:</p>
                     <p>--Silenzio!... Non dir nulla!... Non mi ricordar nulla!... Quello che è stato
                         è stato!... Lasciami morire così, ai tuoi piedi!...</p>
-                    <p>Ed ogni volta che veniva a trovarla, appena entrato nel <seg rend="italic"
-                            >santuario</seg>, egli si metteva in ginocchio, congiungendo le mani in
+                    <p>Ed ogni volta che veniva a trovarla, appena entrato nel <seg rend="italic">santuario</seg>, egli si metteva in ginocchio, congiungendo le mani in
                         attitudine di preghiera, divorando cogli occhi la dolce figura di donna
                         spiccante sul fondo bianco del panneggiamento che guarniva un angolo della
                         stanza. Poi si trascinava fino a lei e si buttava per terra ai suoi piedi.
@@ -171,8 +169,7 @@
                         incontrati al passeggio, al teatro, al circolo avevano subito notato con
                         meraviglia.</p>
                     <p>Più tardi, la prima volta che egli si presentò a Villa Valdonica, a
-                        Posillipo; quando entrò in quello che doveva chiamare il suo <seg
-                            rend="italic">santuario</seg>; quando bevve l'incanto della grazia di
+                        Posillipo; quando entrò in quello che doveva chiamare il suo <seg rend="italic">santuario</seg>; quando bevve l'incanto della grazia di
                         quella donna, del suo spirito, della sua simpatia; quando l'accompagnò per
                         le vie, col braccio deliziosamente intorpidito dal braccio che ella vi
                         appoggiava, la passione di Andrea Ludovisi non conobbe più limiti. E insieme
@@ -537,8 +534,7 @@
                         intorno a lei; per le stanze, nel <seg rend="italic">santuario</seg> suo,
                         egli sentiva che la chiamavano: Costanza--come lui! che le parlavano di tu,
                         come lui! Egli li vedeva, in attitudini familiari, avvicinarsi a lei!
-                        abbracciarla! baciarla!... Egli aveva paura di sedere dove quegli <seg
-                            rend="italic">altri</seg> si erano seduti, di muoversi come gli altri si
+                        abbracciarla! baciarla!... Egli aveva paura di sedere dove quegli <seg rend="italic">altri</seg> si erano seduti, di muoversi come gli altri si
                         erano mossi, di parlare come avevano parlato. Con la sua sola presenza, egli
                         contribuiva a ridestare più chiari, più netti, i ricordi di lei! E tra i
                         ricordi del passato e le impressioni del presente un paragone doveva
@@ -572,8 +568,7 @@
                         con lei?...</p>
                     <p>--No, non ti amo, perchè tu sei incapace di amore! No, non ti amo, perchè io
                         non voglio il <seg rend="italic">rifiuto</seg>--e la voce di Andrea aveva
-                        preso un accento di profondo disprezzo--perchè io non voglio il <seg
-                            rend="italic">rifiuto</seg> degli altri!</p>
+                        preso un accento di profondo disprezzo--perchè io non voglio il <seg rend="italic">rifiuto</seg> degli altri!</p>
                     <p>--Ah!</p>
                     <p>Ella gridava dallo spasimo, si torceva le braccia, si mordeva le dita.
                         Accanto alla finestra, gualcendo le tendine con mano nervosa, egli stette un
@@ -831,8 +826,7 @@
                         rimasta libera, le strappò la lettera.</p>
                     <p>Una seconda volta ella si curvò, per prenderne un'altra.</p>
                     <p>--È un'infamia!... Leggile!...</p>
-                    <p>Come ella gli mise sotto gli occhi la busta, Andrea Ludovisi lesse: <seg
-                            rend="italic">Alla baronessa Costanza di Fastalia, sue adorabili
+                    <p>Come ella gli mise sotto gli occhi la busta, Andrea Ludovisi lesse: <seg rend="italic">Alla baronessa Costanza di Fastalia, sue adorabili
                             mani</seg>. Era il carattere del cavaliere di Sammartino.</p>
                     <p>In quello stesso momento s'intese il cigolio dell'uscio dell'anticamera, e il
                         cameriere entrò annunziando:</p>
@@ -849,8 +843,7 @@
                     <p>--Ma questa è già la seconda questione fra loro!</p>
                     <p>--Sammartino aveva giurato di vendicare la prima ferita.</p>
                     <p>--Una scalfittura!</p>
-                    <p>--Non importa, per uno spadaccino come lui, un po' <seg rend="italic"
-                            >guappo</seg>, anzi <seg rend="italic">mafioso</seg>, come dicono in
+                    <p>--Non importa, per uno spadaccino come lui, un po' <seg rend="italic">guappo</seg>, anzi <seg rend="italic">mafioso</seg>, come dicono in
                         Sicilia.</p>
                     <p>--Ludovisi è forte?</p>
                     <p>--Debolissimo. Ma non lo può soffrire; l'antipatia è una forza.</p>
@@ -1010,8 +1003,7 @@
                         Perchè non le era venuta più presto? Così bisognava fare; se più tardi, se
                         fra un'ora egli non le avrebbe permesso di parlare, bisognava scrivergli
                         tutto. E, avvampando d'impazienza, insofferente di ogni indugio, ella andò a
-                        uno stipetto, tolse da una cassetta alcuni fogli della <seg rend="italic"
-                            >loro</seg> carta, e passando allo scrittoio, vi prese posto.</p>
+                        uno stipetto, tolse da una cassetta alcuni fogli della <seg rend="italic">loro</seg> carta, e passando allo scrittoio, vi prese posto.</p>
                     <p>Si era appena seduta che il campanello elettrico squillò.</p>
                     <p>--Andrea!</p>
                     <p>Come non aveva previsto che quel giorno egli sarebbe venuto più presto? Come
@@ -1158,8 +1150,7 @@
                         capisci, io non ero corazzata d'acciaio contro le seduzioni... Feci....</p>
                     <p>--Costanza!... te ne scongiuro!...</p>
                     <p>--Zitto, bambino! Lascia fare a me.--E riprese, rapidamente:--Feci... come
-                        molte altre. Credetti d'avere incontrata la felicità; <seg rend="italic"
-                            >credetti</seg>--hai capito?--Fu una tregua soltanto. L'amore di...
+                        molte altre. Credetti d'avere incontrata la felicità; <seg rend="italic">credetti</seg>--hai capito?--Fu una tregua soltanto. L'amore di...
                         colui, finì presto... se pure cominciò mai... No, no; hai ragione, non
                         cominciò mai!... Un sentimento di falso dovere non gli fece dir nulla; e, in
                         cambio, mi oltraggiò... capisci come? preferendomi una... delle altre. Mi

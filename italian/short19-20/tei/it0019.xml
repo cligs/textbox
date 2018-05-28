@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "La fortuna di un uomo." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "La fortuna di un uomo." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -280,8 +275,7 @@
                     <p>— Ci penserai quando sarai guarito. Adesso sta tranquillo.</p>
                     <p>Ma l'infermo, volgendogli uno sguardo in cui languiva il sorriso
                         abituale:</p>
-                    <p>— Credi che io abbia paura della morte? No no. Muoio volentieri: <seg
-                            rend="italic">rerum novarum cupiditate</seg>. E poi, son convinto di
+                    <p>— Credi che io abbia paura della morte? No no. Muoio volentieri: <seg rend="italic">rerum novarum cupiditate</seg>. E poi, son convinto di
                         aver già sofferto abbastanza.</p>
                     <p>Nella faccia serena gli si vedeva ora che aveva sofferto molto, povero zio
                         Giorgio! Seguitava:</p>
@@ -744,8 +738,7 @@
                     <p>— È strano — disse Gaspare: — di me non ne parlava mai con me.</p>
                     <p>Ma il cavaliere si fermò di botto.</p>
                     <p>— A proposito: lei, senza dubbio, suona?...</p>
-                    <p>Distratto dal ricordo dello zio o dall'apparente incongruenza di quell'<seg
-                            rend="italic">a proposito</seg>, Bicci chiese:</p>
+                    <p>Distratto dal ricordo dello zio o dall'apparente incongruenza di quell'<seg rend="italic">a proposito</seg>, Bicci chiese:</p>
                     <p>— Suono?...</p>
                     <p>— Il piano?</p>
                     <p>— Sì, alla peggio.</p>
@@ -1006,8 +999,7 @@
                         egli mi amava; ma sono certa che divenuto mio marito mi avrebbe anche voluto
                         bene. Capisce?</p>
                     <p>Gaspare avrebbe capito subito, se non fosse rimasto perplesso a chiedersi: «E
-                        io che cosa dovrei dirle? Che l'<seg rend="italic">amo</seg>, o che le <seg
-                            rend="italic">voglio bene</seg>?» Tuttavia, a poco a poco, la luce si
+                        io che cosa dovrei dirle? Che l'<seg rend="italic">amo</seg>, o che le <seg rend="italic">voglio bene</seg>?» Tuttavia, a poco a poco, la luce si
                         fece nel suo cervello. Evidentemente, pur volendo bene assai al Griboldi,
                         Erminia non ne era molto innamorata. Perbacco!... Quasi spinto da una molla
                         allora balzò in piedi:</p>

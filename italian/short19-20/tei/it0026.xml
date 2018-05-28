@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "In Arcadia." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "In Arcadia." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -449,8 +444,7 @@
                         tardi, e che un'offesa fatta alla madre della Santissima Vergine, a
                         Sant'Anna....</p>
                     <p>— Io non so neanche chi sia Sant'Anna! — proruppe Carlone, di subito
-                        arrossato in volto, preso da un oscuro timore che quei <seg rend="italic"
-                            >ricordatevi</seg> gl'incutevano; e tratto anche lui, contro sua voglia,
+                        arrossato in volto, preso da un oscuro timore che quei <seg rend="italic">ricordatevi</seg> gl'incutevano; e tratto anche lui, contro sua voglia,
                         dai gangheri.</p>
                     <p>Il prete per contro, a coglierlo in fallo, prese coraggio.</p>
                     <p>— Bestemmiate! bestemmiate pure, per giunta! All'anima vostra ci penserete
@@ -703,13 +697,11 @@
                         forza è rappresentata da due persone sole: chè due carabinieri possono
                         impaurire, ma un solo, tra la folla, muoverebbe a riso. E loro non eran che
                         due, e non potevano dividersi; non potevan fare miracoli.</p>
-                    <p>— Ma l'ourdin à l'è d'andé à prés à la processioun, à la processioun <seg
-                            rend="italic">ufficiale</seg>! — Evidentemente il piemontese sperò di
+                    <p>— Ma l'ourdin à l'è d'andé à prés à la processioun, à la processioun <seg rend="italic">ufficiale</seg>! — Evidentemente il piemontese sperò di
                         piegare il compagno con questa grave parola. Invece l'altro:</p>
                     <p>— Giuraddio! Mi faresti scappà la pazienza! Bada: do'è che stanno i più
                         scontenti? i più curiosi? là! Dunque si dee ire là!</p>
-                    <p>Che! I <seg rend="italic">bugianen</seg> son <seg rend="italic"
-                            >bugianen</seg>! Il buon piemontese non cercava ragioni da opporre;
+                    <p>Che! I <seg rend="italic">bugianen</seg> son <seg rend="italic">bugianen</seg>! Il buon piemontese non cercava ragioni da opporre;
                         voleva essere ubbidito, poichè egli si sapeva nelle grazie del brigadiere e
                         aveva fede nel tenente e s'aspettava da un giorno all'altro la promozione ad
                         appuntato; e, oltre a ciò, era più vecchio d'anni e di servizio. Egli dunque
@@ -906,8 +898,7 @@
                         capelli....</p>
                     <milestone unit="section" rend="asterisk"/>
                     <p>.... Così, mentre il carabiniere piemontese, tacendo finalmente l'altro,
-                        cominciava a raccontare una sua avventura molto seria con una <seg
-                            rend="italic">tota</seg> di Torino, l'altro balzò in piedi dicendo:</p>
+                        cominciava a raccontare una sua avventura molto seria con una <seg rend="italic">tota</seg> di Torino, l'altro balzò in piedi dicendo:</p>
                     <p>— Hai udito?</p>
                     <p>Eran grida confuse e lontane, verso il monte: all'Olmo. Già dalla viottola
                         comparivano donne affannate, disperate, che a vederli alzavano grida e

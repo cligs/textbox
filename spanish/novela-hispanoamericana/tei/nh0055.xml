@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,14 +35,11 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0055</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0055.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0055.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Los montoneros. Continuación de El Chacho." <seg
-                        rend="italic">Biblioteca Digital Argentina.</seg>
-                    <ref target="http://old.clarin.com.ar/pbda/novela/montoneros/novela.htm"
-                        >http://old.clarin.com.ar/pbda/novela/montoneros/novela.htm</ref>. </bibl>
+                <bibl type="digital-source"> "Los montoneros. Continuación de El Chacho." <seg rend="italic">Biblioteca Digital Argentina.</seg>
+                    <ref target="http://old.clarin.com.ar/pbda/novela/montoneros/novela.htm">http://old.clarin.com.ar/pbda/novela/montoneros/novela.htm</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Los montoneros. Continuación de El Chacho.</seg> Buenos
                     Aires: N.Tommasi Editor, s/f. </bibl>
@@ -67,20 +65,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2">gaucho</term>
-                    <term type="subgenre" subtype="1">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting" cert="medium">rural</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">gaucho</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">rural</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>

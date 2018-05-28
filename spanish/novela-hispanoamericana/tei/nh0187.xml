@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,19 +34,15 @@
                 </availability>
                 <date>2016</date>
                 <idno type="cligs">nh0187</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0187.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0187.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Nelly." <seg rend="italic">Internet Archive</seg>,
-                        <date when="2012">2012</date>, <ref
-                        target="https://archive.org/details/Nelly_620"
-                        >https://archive.org/details/Nelly_620</ref>. </bibl>
+                        <date when="2012">2012</date>, <ref target="https://archive.org/details/Nelly_620">https://archive.org/details/Nelly_620</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Nelly.</seg> Buenos Aires: Compañía Sud-Americana de Billetes
                     de Banco, <date when="1896">1896</date>. </bibl>
-                <bibl type="edition-first"> "Nelly." <seg rend="italic">La Prensa.</seg>, <date
-                        when="1896">1896</date>.
+                <bibl type="edition-first"> "Nelly." <seg rend="italic">La Prensa.</seg>, <date when="1896">1896</date>.
                     <!--<date from="1896-01-27" to="1896-02-06">27 de enero
                         de 1896 a 6 de febrero de 1896</date>-->
                 </bibl>
@@ -79,27 +76,24 @@
                         descubrir el desenlace. El ambiente y los problemas se imponen a la intriga.
                         La atmósfera [...] se logra desde el primer instante, por la sola pintura
                         del caserón donde ha de comenzar el relato.</quote>
-                    <bibl>Pagés Larraya, Antonio (ed.). "Estudio preliminar". <seg rend="italic"
-                            >Cuentos fantásticos</seg>, p. 85. Cited by Lichtblau, Myron. <seg
-                            rend="italic">The Argentine Novel: an annotated bibliography.</seg>
+                    <bibl>Pagés Larraya, Antonio (ed.). "Estudio preliminar". <seg rend="italic">Cuentos fantásticos</seg>, p. 85. Cited by Lichtblau, Myron. <seg rend="italic">The Argentine Novel: an annotated bibliography.</seg>
                         Lanham, Maryland, 1997, p. 482.</bibl>
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre_tm" resp="#uhk"/>
-                    <term type="subgenre" subtype="3" resp="#uhk">fantastic</term>
-                    <term type="subgenre_hist" resp="#uhk">not_historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting"/>
-                    <term type="protagonist-gender"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="3" resp="#uhk">fantastic</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="text.characters.protagonist.gender"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -169,8 +163,7 @@
                     y a la muerte por su destino y por aquel secreto de Nelly que sólo «te lo diré
                     al oído....»</p>
                 <p>Seguir mas allá sería develar los encantos que sólo al lector pertenecen: a él le
-                    dejamos esa agradable tarea, seguros de que, al empezar la lectura de <seg
-                        rend="italic">Nelly</seg>, apenas podrá perdonarnos el que no se la demos
+                    dejamos esa agradable tarea, seguros de que, al empezar la lectura de <seg rend="italic">Nelly</seg>, apenas podrá perdonarnos el que no se la demos
                     toda de una vez, para leérsela de un respiro</p>
                 <p>El interés novelesco que despierta, las profundas emociones que procura, y los
                     goces intelectuales que encierra para los que tal prefieren en los libros, son
@@ -212,8 +205,7 @@
                     diversas.</p>
                 <p>Así podemos explicarnos que, después de aquella lectura, regresáramos a su casa
                     ocupándonos de temas que no tenían vinculación aparente con aquella, pero que,
-                    en verdad, hoy podemos considerar como irradiaciones desprendidas de <seg
-                        rend="italic">La bolsa de huesos</seg>. Conversamos de viajes, de paisajes,
+                    en verdad, hoy podemos considerar como irradiaciones desprendidas de <seg rend="italic">La bolsa de huesos</seg>. Conversamos de viajes, de paisajes,
                     de lenguas orientales, de faquires, de serpientes, de música, de política
                     universal, y un poco de Islandia, de California, de Australia y de la Tierra del
                     Fuego—y, cuando llegamos a su casa, sin decir una palabra, tomó un cuaderno, lo
@@ -293,8 +285,7 @@
                     ahora.</p>
                 <p>Una observación, para terminar.</p>
                 <p>Nada más grato que la crítica.</p>
-                <p>Entre las numerosas personas que me han hablado de <seg rend="italic"
-                        >Nelly,</seg> algunas me han dicho que es corta, que el final se
+                <p>Entre las numerosas personas que me han hablado de <seg rend="italic">Nelly,</seg> algunas me han dicho que es corta, que el final se
                     precipita.</p>
                 <p>No comprendo esto.</p>
                 <p>En los diálogos, creo que los personajes dicen todo lo que tienen que decir.
@@ -347,8 +338,7 @@
                     gravedad y que ahora tengo tentaciones de penetrar de lleno en mis
                     espontaneidades.</p>
                 <p>¡Preceptos! Para preceptos sirvo yo.</p>
-                <p>Con mucho más por ahora, deseo que acepte a la «dulcísima y melancólica» <seg
-                        rend="italic">Nelly</seg> y el abrazo de que es portadora — tanto más cuanto
+                <p>Con mucho más por ahora, deseo que acepte a la «dulcísima y melancólica» <seg rend="italic">Nelly</seg> y el abrazo de que es portadora — tanto más cuanto
                     que hoy cumple un año y la pobrecita quiere dar los primeros pasos.</p>
                 <ab type="signed">E. L. Holmberg.</ab>
                 <ab type="dateline">Buenos Ayres, Abril 15/96.</ab>
@@ -418,8 +408,7 @@
                     y en compañía otras, se dedicaban a la pesca, a la caza, a la música o a
                     lectura, según soplara el viento para cada uno.</p>
                 <p>Por esto mismo nadie se fastidiaba, aunque Miguel y muchos de sus amigos eran
-                    hombres de club, párias de la alegría serena y sacerdotes del <seg rend="italic"
-                        >spleen</seg>.</p>
+                    hombres de club, párias de la alegría serena y sacerdotes del <seg rend="italic">spleen</seg>.</p>
                 <p>—«¿Porqué no me acompañas unos días en la estancia? me voy mañana»—me dijo en
                     cierta ocasión.</p>
                 <p>—«¿En qué tren te vas?»</p>
@@ -1001,13 +990,11 @@
                     con movimientos infantiles:—‘¡4963!'—repetía sonriendo:—‘pero ¿qué es esto? 4 y
                     9,13, y 6,19, y 3, <seg rend="italic">22</seg>, y hoy cumple veintidós años
                     fulanita!—esto parece imposible!'—Guardó el billete, se vistió y salió a la
-                    calle. Sin querer, se fijó en el número de su casa: 796, suma <seg rend="italic"
-                        >22,</seg> A la tarde fue a comer con su novia, y, al mirar el número de la
+                    calle. Sin querer, se fijó en el número de su casa: 796, suma <seg rend="italic">22,</seg> A la tarde fue a comer con su novia, y, al mirar el número de la
                     puerta: 895, suma <seg rend="italic">22.</seg> Antes de comer, le dieron 22
                     mates, y había 22 personas en la mesa, y, después de los postres, refirió a
                     todos cuanto le había pasado, y todos celebraron la cantidad de coincidencias, y
-                    él, bajo sobre, entregó a la novia el billete de lotería. El día <seg
-                        rend="italic">22</seg> del mes siguiente se casó.»</p>
+                    él, bajo sobre, entregó a la novia el billete de lotería. El día <seg rend="italic">22</seg> del mes siguiente se casó.»</p>
                 <p>—«Sí, pero.... y el billete?»</p>
                 <p>—«Qué diablos! no tenía nada. La grande salió en el 18,544.»</p>
                 <p>—«Suma 22,» —observó Edwin, suspirando, lo que ocasionó más risa que el
@@ -1434,8 +1421,7 @@
                     en mí, y está impaciente.... escucha.... yo te lo juré.... mi alma volará
                     siempre a tu lado........ Edwin! mi secreto va conmigo al sepulcro.... tengo
                     para tí un secreto.... en Egipto has visto muchos sarcófagos.... Cuando en una
-                    noche negra y lúgubre como mi vida te acuestes junto al mío.... <seg
-                        rend="italic">te lo diré al oído</seg></p>
+                    noche negra y lúgubre como mi vida te acuestes junto al mío.... <seg rend="italic">te lo diré al oído</seg></p>
                 <p>«—‘¿Qué es esto, Doctor?’ — pregunté, lleno de angustia, al médico que entraba en
                     aquel instante. </p>
                 <p>«—‘Esto, señor, es una nueva desgracia.’</p>
@@ -1912,8 +1898,7 @@
                     Edwin tome caracteres morales de incestuoso, es necesario que dediques todo tu
                     talento a convertirlo gradualmente en fraternal. Ella es discreta y su corazón
                     es como su nombre. Cuando reconozca en Edwin un hermano, haz que lea esta carta,
-                    y cuando la haya leído, quémala. Tus otros hermanos tienen por el <seg
-                        rend="italic">inglés</seg> un afecto sincero, y ninguno de ellos mancharía
+                    y cuando la haya leído, quémala. Tus otros hermanos tienen por el <seg rend="italic">inglés</seg> un afecto sincero, y ninguno de ellos mancharía
                     su pensamiento con exigencias testamentarias. Miguel, mi presencia se debe a la
                     situación de Serafina; sé fuerte como hasta ahora, y prepárate, con ánimo
                     sereno, a recibir, dentro de poco, un rudo golpe de la suerte.....»</p>
@@ -1948,8 +1933,7 @@
                     punto en que se encontraba Miguel, Vimos que echaba pié a tierra, y un momento
                     después montaba Miguel en el caballo del jinete y corría hacia nosotros.</p>
                 <p>Sucesivamente nos comunicó a todos un telegrama recien llegado:—«Miguel: vente
-                    pronto, mamá está muy grave con un ataque repentino—<seg rend="italic"
-                        >Serafina.</seg>»</p>
+                    pronto, mamá está muy grave con un ataque repentino—<seg rend="italic">Serafina.</seg>»</p>
                 <p>—«Estaba anunciado; esta enfermedad es el ‘rudo golpe de la suerte' de que me
                     habló anoche el viejo General. Yo me voy ahora mismo, y ustedes pueden
                     quedarse.»</p>
@@ -1993,8 +1977,7 @@
                 <p>No había doblez en el alma de Serafina, y Miguel sintió con todo vigor la
                     seguridad de que, para ella, Edwin era su hermano, por el que ambos se
                     interesaban igualmente.</p>
-                <p>El dia 25 de Julio, Miguel recibió de España, de Asturias, un telegrama: «<seg
-                        rend="italic">Miguel: Caria próxima</seg>.»</p>
+                <p>El dia 25 de Julio, Miguel recibió de España, de Asturias, un telegrama: «<seg rend="italic">Miguel: Caria próxima</seg>.»</p>
                 <p>Miguel corrió al aposento de Serafina.</p>
                 <p>—«¿Sabes lo que significa esto?»</p>
                 <p>—«No.»</p>
@@ -2002,8 +1985,7 @@
                 <p>—«¿Es posible?»</p>
                 <p>—«Edwin se embarcó el mismo día que llegó de la estancia: pero antes de partir,
                     me dejó una carta de despedida en la que me decía, entre otras cosas: ‘Si
-                    encuentro a mi hijo, le haré un telegrama anunciándoselo con las palabras: <seg
-                        rend="italic">'Carta próxima'»</seg></p>
+                    encuentro a mi hijo, le haré un telegrama anunciándoselo con las palabras: <seg rend="italic">'Carta próxima'»</seg></p>
                 <p>Expresaron ellos su satisfacción con toda ingenuidad y se lanzaron por el mundo
                     de las conjeturas.</p>
                 <p>¡Cuántas cosas decían aquellas dos palabras! ¡Cuántas escenas de terror habrían
@@ -2222,8 +2204,7 @@
                     tendré más remedio que atenderle. Después que se ha convencido de que Edwin es
                     mi hermano, sus atenciones han recrudecido, Pero volvamos al tema anterior. ¿Qué
                     opinas sobre esas situaciones maravillosas y de lo que se refiere a Nelly?»</p>
-                <p>—«¿Qué opino? Que Dios te libre para siempre, mi querida hermana, de un <seg
-                        rend="italic">histerismo hasta ultratumba</seg>.»</p>
+                <p>—«¿Qué opino? Que Dios te libre para siempre, mi querida hermana, de un <seg rend="italic">histerismo hasta ultratumba</seg>.»</p>
                 <p>En una tarde calurosa de Diciembre, la familia tomaba el fresco a la sombra del
                     viejo caserón, cuando divisaron un carruaje que se acercaba al galope de los
                     caballos. Veíanse, amontonadas en el pescante, algunas cajas y balijas. Cuando

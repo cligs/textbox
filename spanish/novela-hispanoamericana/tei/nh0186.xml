@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,14 +34,10 @@
                 </availability>
                 <date>2016</date>
                 <idno type="cligs">nh0186</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0185.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0185.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "La bosa de huesos." <seg rend="italic"
-                        >Wikisource</seg>, <date when="2016">2016</date>, <ref
-                        target="https://es.wikisource.org/wiki/La_bolsa_de_huesos"
-                        >https://es.wikisource.org/wiki/La_bolsa_de_huesos</ref>. </bibl>
+                <bibl type="digital-source"> "La bosa de huesos." <seg rend="italic">Wikisource</seg>, <date when="2016">2016</date>, <ref target="https://es.wikisource.org/wiki/La_bolsa_de_huesos">https://es.wikisource.org/wiki/La_bolsa_de_huesos</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">La bolsa de huesos.</seg> Buenos Aires: Compañía
                     Sud-Americana de Billetes de Banco, <date when="1896">1896</date>. </bibl>
@@ -56,8 +53,7 @@
         <profileDesc>
             <abstract>
                 <p>
-                    <quote>Como en <seg rend="italic">La casa endiablada</seg>, se asiste en <seg
-                            rend="italic">La bolsa de huesos</seg> a una serie de hechos sin
+                    <quote>Como en <seg rend="italic">La casa endiablada</seg>, se asiste en <seg rend="italic">La bolsa de huesos</seg> a una serie de hechos sin
                         coordinación aparente, que al fin se resuelven con lógica estricta. Sólo
                         que, en este caso, no hay ninguna pesquisa policial. Quien realiza la
                         búsqueda lo hace guiado por móviles absolutamente ajenos a toda institución
@@ -65,9 +61,7 @@
                         contemporáneas del género, dentro de las cuales Holmberg aparece, por la
                         manera de dirigirse al lector y de plantear el cuento, como un antecesor
                         porteño de Ellery Queen.</quote>
-                    <bibl>Pagés Larraya, Antonio (ed.). "Estudio preliminar". <seg rend="italic"
-                            >Cuentos fantásticos</seg>, p. 83. Cited by Lichtblau, Myron. <seg
-                            rend="italic">The Argentine Novel: an annotated bibliography.</seg>
+                    <bibl>Pagés Larraya, Antonio (ed.). "Estudio preliminar". <seg rend="italic">Cuentos fantásticos</seg>, p. 83. Cited by Lichtblau, Myron. <seg rend="italic">The Argentine Novel: an annotated bibliography.</seg>
                         Lanham, Maryland, 1997, p. 482.</bibl>
                 </p>
                 <p>
@@ -81,21 +75,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre_tm" resp="#uhk"/>
-                    <term type="subgenre" subtype="3" resp="Lichtblau_1997">crime</term>
-                    <term type="subgenre" subtype="1" resp="Pagés-Larraya">scientific</term>
-                    <term type="subgenre_hist" resp="#uhk">not_historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">autodiegetic</term>
-                    <term type="setting"/>
-                    <term type="protagonist-gender"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="3" resp="#uhk">crime</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">science fiction</term>
+                    <term type="text.narration.narrator">autodiegetic</term>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="text.characters.protagonist.gender"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -544,8 +537,7 @@
                     sobre <seg rend="italic">La bota fuerte y el chiripá como factores de
                         progreso.»</seg></p>
                 <p>—«Scotti es un excelente amigo.»</p>
-                <p>—«Y ese trabajo despertó en mí una gran simpatía. Su última disertación <seg
-                        rend="italic">Sobre la mentalidad del Cangrejo</seg> es suya desde la
+                <p>—«Y ese trabajo despertó en mí una gran simpatía. Su última disertación <seg rend="italic">Sobre la mentalidad del Cangrejo</seg> es suya desde la
                     primera línea hasta la última; pero, en el Capítulo final, <seg rend="italic">El
                         Cangrejo en administración y en política</seg>.....ja!, ja!, ja!.»</p>
                 <p>—«Pasatiempos. Señor»</p>
@@ -959,8 +951,7 @@
                 <p>—«Una misiva para el Doctor Pineal.»</p>
                 <p>—«¿Diciéndole?»</p>
                 <p>—«'Te felicito. El Secretario de la Facultad te manda recuerdos de mi parte. ¿Qué
-                    editor has elegido? En este momento nos hallamos en la <seg rend="italic"
-                        >rotissérie</seg> tal. Si no vienes, a las cuatro estaremos en tu
+                    editor has elegido? En este momento nos hallamos en la <seg rend="italic">rotissérie</seg> tal. Si no vienes, a las cuatro estaremos en tu
                     casa'.»</p>
                 <p>—«Me parece bien. ¿Y habrá conseguido algo?»</p>
                 <p>—«Seguramente. Es imposible que no haya seguido un procedimiento igual al mío. Ha
@@ -1422,19 +1413,15 @@
                 <p>—«Diga: un cráneo.»</p>
                 <p>—«Vaya por el cráneo. Nicanor B. puede y sabe mentir porque es egoísta; pero su
                         <seg rend="italic">personalidad</seg> no tiene, como el otro, los mismos
-                    vínculos con la <seg rend="italic">benevolencia</seg> y con la <seg
-                        rend="italic">veneración;</seg> su <seg rend="italic">amatividad</seg> es
+                    vínculos con la <seg rend="italic">benevolencia</seg> y con la <seg rend="italic">veneración;</seg> su <seg rend="italic">amatividad</seg> es
                     más animal; en el otro es más ideal; su <seg rend="italic">astucia</seg> y su
-                        <seg rend="italic">prudencia</seg> equilibran de un modo admirable la <seg
-                        rend="italic">destructividad;</seg> pero por la <seg rend="italic"
-                        >inteligencia</seg> y el <seg rend="italic">cálculo.»</seg></p>
+                        <seg rend="italic">prudencia</seg> equilibran de un modo admirable la <seg rend="italic">destructividad;</seg> pero por la <seg rend="italic">inteligencia</seg> y el <seg rend="italic">cálculo.»</seg></p>
                 <p>—«¿No ve amigo cómo yo tenía razón al llamarle para que me estudiara esos
                     cráneos? No me diga más por ahora.»</p>
                 <p>—«Es que....»</p>
                 <p>—«Es que usted va a entusiasmarse y a olvidar que los dos cráneos son de
                     mujeres...»</p>
-                <p>—«Váyase al Infierno con sus cráneos de mujeres. Usted tiene la <seg
-                        rend="italic">combatividad</seg> desarrollada como un Tigre, y por eso
+                <p>—«Váyase al Infierno con sus cráneos de mujeres. Usted tiene la <seg rend="italic">combatividad</seg> desarrollada como un Tigre, y por eso
                     insiste en mortificarme con aquella afirmación.»</p>
                 <p>—«Pero la mía es una combatividad ideal.»</p>
                 <p>—«Qué ideal, ni que música; es una idealidad de titeo.»</p>
@@ -1721,8 +1708,7 @@
                     a poco, y Manuel y yo nos encaminamos a la puerta de calle.</p>
                 <p>—«Y, compañero ¿qué encuentra?»</p>
                 <p>—«Pues amigo, este cráneo es medio complicado. Ofrece los rasgos principales de
-                    los otros; pero tiene mucha <seg rend="italic">credulidad</seg> y mucha <seg
-                        rend="italic">amatividad.»</seg></p>
+                    los otros; pero tiene mucha <seg rend="italic">credulidad</seg> y mucha <seg rend="italic">amatividad.»</seg></p>
                 <p>—«¡Magnífico! ¿Le vio los dientes?»</p>
                 <p>—«Superiores. Este no fumaba.»</p>
                 <p>Durante largo rato permanecimos allí conversando.</p>
@@ -2073,8 +2059,7 @@
                     único problema se reducía entonces a averiguar quién era el estudiante que lo
                     olvidó, cómo se llamó en vida el esqueleto, y por qué motivo la perdió el cuerpo
                     que antes integraba. El plan es sencillo: identificar al estudiante, encontrarle
-                    y preguntarle cómo consiguió el esqueleto. Contesta que se lo compró en <seg
-                        rend="italic">tal</seg> año al sepulturero <seg rend="italic">cual;
+                    y preguntarle cómo consiguió el esqueleto. Contesta que se lo compró en <seg rend="italic">tal</seg> año al sepulturero <seg rend="italic">cual;
                     </seg>averigua usted si es verdad, y resulta que el sepulturero ha muerto. Un
                     Juez instructor hábil, interroga, sinembargo, al presunto criminal, y éste no se
                     inmuta, no cae en contradicciones y nadie le acusa. Se acabó el asunto. Pero no
@@ -2129,8 +2114,7 @@
                 <p>—«¡Amigo! en tres horas se conversa mucho.»</p>
                 <p>—«Y se hacen muchas preguntas.»</p>
                 <p>—«Y se dan muchas respuestas.»</p>
-                <p>—«Sí, pero esas las reservo para cuando me envíen del Perú la <seg rend="italic"
-                        >Cryptodynama purpurea.»</seg></p>
+                <p>—«Sí, pero esas las reservo para cuando me envíen del Perú la <seg rend="italic">Cryptodynama purpurea.»</seg></p>
                 <p>—«¿Y el perfume?»</p>
                 <p>—«¿Qué le importa a usted el perfume? Si todavía pudiéramos desterrar con él esas
                     aguas inmundas y hasta hediondas que algunas personas usan en Buenos Aires, para
@@ -2170,8 +2154,7 @@
                 <p>Dos días después de este diálogo con mi amigo, los diarios de la mañana, en
                     castellano, en alemán, en francés, en inglés y en italiano, ofrecían a sus
                     lectores la siguiente noticia <seg rend="italic">policial:</seg></p>
-                <p><seg rend="italic">«Sorpresa</seg>.—En una casa de la calle <seg rend="italic"
-                        >tal,</seg> cerca de la estación Centro-América, ha sido hallado, muerto en
+                <p><seg rend="italic">«Sorpresa</seg>.—En una casa de la calle <seg rend="italic">tal,</seg> cerca de la estación Centro-América, ha sido hallado, muerto en
                     su cama, un joven que pasaba por estudiante de Medicina, y que no lo era, según
                     las averiguaciones llevadas a cabo por el Comisario de la sección. Al examinarlo
                     el Médico de Policía ha quedado perplejo, por haber encontrado, bajo un disfraz
