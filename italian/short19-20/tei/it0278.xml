@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,14 +30,8 @@
                 <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0278.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Il ritratto del maestro Albani." <seg rend="italic"
-                        >Documenti umani.</seg> Project Gutenberg, <idno>25182</idno>, <date
-                        when="2008-04-26">April 26, 2008</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
-                <bibl type="print-source"> "Il ritratto del maestro Albani." <seg rend="italic"
-                        >Documenti umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                        >1888</date>. </bibl>
+                <bibl type="digital-source"> "Il ritratto del maestro Albani." <seg rend="italic">Documenti umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                <bibl type="print-source"> "Il ritratto del maestro Albani." <seg rend="italic">Documenti umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +42,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -68,8 +62,7 @@
         <body>
             <div>
                 <head>Il ritratto del maestro Albani.</head>
-                <p>Mentre Anastasio Natali dava gli ultimi tocchi al suo quadro della <seg
-                        rend="italic">Ginestra</seg>--un orrido e deserto paesaggio vulcanico, tutto
+                <p>Mentre Anastasio Natali dava gli ultimi tocchi al suo quadro della <seg rend="italic">Ginestra</seg>--un orrido e deserto paesaggio vulcanico, tutto
                     asperità, crepacci, lastroni, fra i quali, a mazzi, a ciuffi, a boschetti, i
                     gialli fiorellini mettevano come una nevicata d'oro--la tenda che mascherava
                     l'uscio d'entrata fu rimossa, e la figura del maestro Albani apparve a metà.</p>
@@ -110,8 +103,7 @@
                 <p>--Cioè, col critico più acuto dell'ex-regno delle Due Sicilie,--rispose l'altro,
                     senza scomporsi. E avvicinatosi al quadro, accompagnando le proprie parole con
                     gesti sobrii e compassati, riprese:</p>
-                <p>--Prima di tutto, questa lava è di cioccolata; come <seg rend="italic"
-                        >réclame</seg> nelle scatole del Suchard sarebbe impagabile. Poi, il cielo è
+                <p>--Prima di tutto, questa lava è di cioccolata; come <seg rend="italic">réclame</seg> nelle scatole del Suchard sarebbe impagabile. Poi, il cielo è
                     oleografico e le nuvole sono di bambagia. Toccale, e vedrai che si sfilaccicano.
                     Ora, bisognerebbe parlare del soggetto....</p>
                 <p>--Eh! parliamone pure!--esclamò il pittore sorridendo. E accesa una sigaretta,
@@ -121,8 +113,7 @@
                     o che insidia mentre sfoggia i suoi sorrisi--a piacere. Sta bene. Solamente, per
                     maggiore intelligenza, ti consiglierei di imitare quel pittore polacco che,
                     esponendo un quadro rappresentante <seg rend="italic">L'ultima composizione di
-                        Mozart</seg>, faceva eseguire, da suonatori nascosti dietro la tela, la <seg
-                        rend="italic">Marcia funebre</seg> del maestro. Se vuoi, potrei declamare io
+                        Mozart</seg>, faceva eseguire, da suonatori nascosti dietro la tela, la <seg rend="italic">Marcia funebre</seg> del maestro. Se vuoi, potrei declamare io
                     stesso i versi del Leopardi.</p>
                 <p>E, passando dall'altro lato del cavalletto, il maestro Albani cominciò:</p>
                 <lg>
@@ -285,8 +276,7 @@
                     Grotta, a Pozzuoli, a Baja.... Che cielo! che mare!... Conosci tu il boschetto
                     che sta dietro il lago Lucrino, sulla via della grotta della Sibilla? Il terreno
                     è in pendenza; si procede a caso, scostando i rami che vi sfiorano il viso.
-                    Attraverso il fogliame del castagneto filtra una luce verde, fantastica, da <seg
-                        rend="italic">féerie</seg>; par di nuotare in mezzo allo smeraldo fluido....
+                    Attraverso il fogliame del castagneto filtra una luce verde, fantastica, da <seg rend="italic">féerie</seg>; par di nuotare in mezzo allo smeraldo fluido....
                     Il 20 maggio!...</p>
                 <lg>
                     <l>Era de maggio e te cadeano 'nzino</l>
@@ -322,9 +312,7 @@
                     L'arte? Quale arte?... Un giorno mi condussero per forza a S. Pietro a Majella;
                     vi intesi dei frastuoni, delle cacofonie irritanti.... Fuggirla? io? io che le
                     stavo attaccato come l'ombra? io che parlavo di lei a mia moglie, enumerandole
-                    le dolcezze dei <seg rend="italic">suoi</seg> baci, le furie delle <seg
-                        rend="italic">sue</seg> strette, i languori dei <seg rend="italic"
-                        >suoi</seg> sguardi? io, che al pensiero di lei mi mettevo a tremare da capo
+                    le dolcezze dei <seg rend="italic">suoi</seg> baci, le furie delle <seg rend="italic">sue</seg> strette, i languori dei <seg rend="italic">suoi</seg> sguardi? io, che al pensiero di lei mi mettevo a tremare da capo
                     a piedi, come una foglia?... Intanto, la vitalità che a poco a poco io perdevo,
                     pareva concentrarsi in lei; mai io l'avevo vista così floridamente bella, in una
                     così magnifica fioritura di tutto il suo essere.... Io sentivo ora che sarei
@@ -414,8 +402,7 @@
                 <p>Anastasio Natali si alzò, di scatto, aprendo le braccia in croce con un gran
                     sospiro di sollievo.</p>
                 <p>--Ora, basta. Il ritratto è impostato....</p>
-                <p>All'esposizione della Promotrice, il ritratto del maestro Albani, la cui <seg
-                        rend="italic">Isaura di Valenza</seg> era stato il successo della stagione,
+                <p>All'esposizione della Promotrice, il ritratto del maestro Albani, la cui <seg rend="italic">Isaura di Valenza</seg> era stato il successo della stagione,
                     ottenne il primo premio.</p>
             </div>
         </body>

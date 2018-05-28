@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,14 +30,8 @@
                 <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0018.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Efficacia d'una giarrettiera." <seg rend="italic"
-                        >Novelle umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
-                <bibl type="print-source"> "Efficacia d'una giarrettiera." <seg rend="italic"
-                        >Novelle umoristiche.</seg> Milano: Fratelli Treves, Editori. <date
-                        when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                <bibl type="digital-source"> "Efficacia d'una giarrettiera." <seg rend="italic">Novelle umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                <bibl type="print-source"> "Efficacia d'una giarrettiera." <seg rend="italic">Novelle umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +42,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -95,8 +88,7 @@
                     domesticato da vent'anni di cura, non riusciva a impaurire parrocchiani e
                     parrocchiane, l'invitava a predicare lassù e a metter cervelli e coscienze a
                     posto.</p>
-                <p>— Gran bella predica, padre Ignazio! Ce n'era bisogno! Perchè è proprio <seg
-                        rend="italic">quel peccato</seg> il peccato in cui i miei fedeli pericolano
+                <p>— Gran bella predica, padre Ignazio! Ce n'era bisogno! Perchè è proprio <seg rend="italic">quel peccato</seg> il peccato in cui i miei fedeli pericolano
                     di più.</p>
                 <p>— Non si assolvono. — Appena questo disse padre Ignazio, sempre con l'occhio alle
                     sue idee e col mento alla palma sinistra, il gomito su la tavola.</p>

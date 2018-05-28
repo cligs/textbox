@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Keywords</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<classDecl>
+				<taxonomy xml:id="keywords">
+
+					<!-- ### author ### -->
+					<category xml:id="author">
+						<catDesc>author</catDesc>
+
+						<category xml:id="author.continent" n="nominal">
+							<catDesc>author.continent</catDesc>
+							<category xml:id="author.continent_1">
+								<catDesc>Europe</catDesc>
+							</category>
+							<category xml:id="author.continent_2">
+								<catDesc>America</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.country" n="nominal">
+							<catDesc>author.country</catDesc>
+							<category xml:id="author.country_1">
+								<catDesc>Spain</catDesc>
+							</category>
+							<category xml:id="author.country_2">
+								<catDesc>Nicaragua</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.gender" n="nominal">
+							<catDesc>author.gender</catDesc>
+							<category xml:id="author.gender_1">
+								<catDesc>male</catDesc>
+							</category>
+							<category xml:id="author.gender_2">
+								<catDesc>female</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.movement" n="ordinal">
+							<catDesc>author.movement</catDesc>
+
+							<category xml:id="author.movement_1" n="0">
+								<catDesc>realism</catDesc>
+							</category>
+							<category xml:id="author.movement_2" n="1">
+								<catDesc>modernism</catDesc>
+							</category>
+							<category xml:id="author.movement_3" n="2">
+								<catDesc>avantgarde</catDesc>
+							</category>
+							<category xml:id="author.movement_4" n="3">
+								<catDesc>postwar</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.submovement" n="ordinal">
+							<catDesc>author.submovement</catDesc>
+							<category xml:id="author.submovement_1" n="0">
+								<catDesc>realista</catDesc>
+							</category>
+							<category xml:id="author.submovement_2" n="1">
+								<catDesc>naturalista</catDesc>
+							</category>
+							<category xml:id="author.submovement_3" n="2">
+								<catDesc>1-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_4" n="3">
+								<catDesc>2-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_5" n="4">
+								<catDesc>3-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_6" n="5">
+								<catDesc>4-modernista</catDesc>
+							</category>
+							<category xml:id="author.submovement_7" n="6">
+								<catDesc>vanguardista</catDesc>
+							</category>
+							<category xml:id="author.submovement_8" n="7">
+								<catDesc>social-realista</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.date.birth" n="interval">
+							<catDesc>author.date.birth</catDesc>
+						</category>
+
+						<category xml:id="author.date.death" n="interval">
+							<catDesc>author.date.death</catDesc>
+						</category>
+
+						<category xml:id="author.litHist.page" n="ratio">
+							<catDesc>author.date.litHist.page</catDesc>
+						</category>
+
+						<category xml:id="author.nonNovelGenre" n="nominal">
+							<catDesc>author.nonNovelGenre</catDesc>
+
+							<category xml:id="author.nonNovelGenre_1">
+								<catDesc>poetry</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_2">
+								<catDesc>essay</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_3">
+								<catDesc>none</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_4">
+								<catDesc>aphorism</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_5">
+								<catDesc>short-stories</catDesc>
+							</category>
+							<category xml:id="author.nonNovelGenre_6">
+								<catDesc>theatre</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.yearChange" n="interval">
+							<catDesc>author.date.yearChange</catDesc>
+						</category>
+
+					</category>
+
+					<category xml:id="authorText">
+						<catDesc>authorText</catDesc>
+
+						<category xml:id="authorText.relation" n="ordinal">
+							<catDesc>authorText.relation</catDesc>
+							<category xml:id="authorText.relation_1" n="0">
+								<catDesc>none</catDesc>
+							</category>
+							<category xml:id="authorText.relation_2" n="1">
+								<catDesc>low</catDesc>
+							</category>
+							<category xml:id="authorText.relation_3" n="2">
+								<catDesc>medium</catDesc>
+							</category>
+							<category xml:id="authorText.relation_4" n="3">
+								<catDesc>high</catDesc>
+							</category>
+							<category xml:id="authorText.relation_5" n="-">
+								<catDesc>unknown</catDesc>
+							</category>
+						</category>
+
+
+						<category xml:id="authorText.group" n="nominal">
+							<catDesc>authorText.group</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="authorText.subgroup" n="nominal">
+							<catDesc>authorText.subgroup</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+					</category>
+
+					<!-- ### text ### -->
+					<category xml:id="text">
+						<catDesc>text</catDesc>
+
+
+						<category xml:id="text.form" n="nominal">
+							<catDesc>text.form</catDesc>
+							<category xml:id="text.form_1">
+								<catDesc>prose</catDesc>
+							</category>
+							<category xml:id="text.form_2">
+								<catDesc>verse</catDesc>
+							</category>
+							<category xml:id="text.form_3">
+								<catDesc>dialogue</catDesc>
+							</category>
+							<category xml:id="text.form_4">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.form_5">
+								<catDesc>epistolar</catDesc>
+							</category>
+
+						</category>
+
+						<category xml:id="text.publication" n="nominal">
+							<catDesc>text.publication</catDesc>
+							<category xml:id="text.publication_1">
+								<catDesc>book</catDesc>
+							</category>
+							<category xml:id="text.publication_2">
+								<catDesc>serial</catDesc>
+							</category>
+						</category>
+
+
+						<category xml:id="text.movement" n="nominal">
+							<catDesc>text.movement</catDesc>
+							<category xml:id="text.movement_1">
+								<catDesc>contemporary</catDesc>
+							</category>
+							<category xml:id="text.movement_2">
+								<catDesc>modernista</catDesc>
+							</category>
+							<category xml:id="text.movement_3">
+								<catDesc>naturalista</catDesc>
+							</category>
+							<category xml:id="text.movement_4">
+								<catDesc>realista</catDesc>
+							</category>
+							<category xml:id="text.movement_5">
+								<catDesc>social-realista</catDesc>
+							</category>
+							<category xml:id="text.movement_6">
+								<catDesc>vanguardista</catDesc>
+							</category>
+							<category xml:id="text.movement_7">
+								<catDesc>vanguardista</catDesc>
+							</category>
+						</category>
+
+					<!-- ### litHist ### -->
+					<category xml:id="text.litHist">
+						<catDesc>text.litHist</catDesc>
+
+						<category xml:id="text.litHist.quality" n="ordinal">
+							<catDesc>text.litHist.quality</catDesc>
+							<category xml:id="text.litHist.quality_1" n="2">
+								<catDesc>high</catDesc>
+							</category>
+							<category xml:id="text.litHist.quality_2" n="1">
+								<catDesc>medium</catDesc>
+							</category>
+							<category xml:id="text.litHist.quality_3" n="0">
+								<catDesc>low</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="text.litHist.mentioned" n="nominal">
+							<catDesc>text.litHist.mentioned</catDesc>
+							<category xml:id="text.litHist.mentioned_1">
+								<catDesc>True</catDesc>
+							</category>
+							<category xml:id="text.litHist.mentioned_2">
+								<catDesc>False</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="text.litHist.aim" n="nominal">
+							<catDesc>text.litHist.mentioned</catDesc>
+							<category xml:id="text.litHist.aim_1">
+								<catDesc>general</catDesc>
+							</category>
+							<category xml:id="text.litHist.aim_2">
+								<catDesc>pleasure</catDesc>
+							</category>
+						</category>
+
+					</category>
+
+
+					<!-- ### genre ### -->
+					<category xml:id="text.genre" n="nominal">
+						<catDesc>text.genre</catDesc>
+
+						<category xml:id="text.genre_1">
+							<catDesc>novela</catDesc>
+						</category>
+						<category xml:id="text.genre_2">
+							<catDesc>greguerías</catDesc>
+						</category>
+						<category xml:id="text.genre_3">
+							<catDesc>?</catDesc>
+						</category>
+
+
+						<category xml:id="text.genre.subtitle" n="nominal">
+							<catDesc>text.genre.label</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+
+						<category xml:id="text.genre.supergenre" n="nominal">
+							<catDesc>text.genre.supergenre</catDesc>
+							<category xml:id="text.genre.supergenre_1">
+								<catDesc>narrative</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_2">
+								<catDesc>drama</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_3">
+								<catDesc>non-fiction</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_4">
+								<catDesc>mixed</catDesc>
+							</category>
+
+						</category>
+
+						<category xml:id="text.genre.lithist" n="nominal">
+							<catDesc>text.genre.lithist</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="text.genre.subgenre.edit" n="nominal">
+							<catDesc>text.genre.lithist</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+
+						<category xml:id="text.genre.subgenre.litHist" n="nominal">
+							<catDesc>text.text.genre.subgenre.litHist</catDesc>
+							<category xml:id="text.genre.subgenre.ownAnno_01">
+								<catDesc>adventure</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_02">
+								<catDesc>erotic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_03">
+								<catDesc>fantastic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_04">
+								<catDesc>naturalist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_05">
+								<catDesc>modernist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_06">
+								<catDesc>realist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_07">
+								<catDesc>sentimental</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_08">
+								<catDesc>social</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_09">
+								<catDesc>spiritual</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_10">
+								<catDesc>historical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_11">
+								<catDesc>anti-religious</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_12">
+								<catDesc>comedy</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_13">
+								<catDesc>philosophical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_14">
+								<catDesc>memoir</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_15">
+								<catDesc>moralist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_16">
+								<catDesc>symbolic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_17">
+								<catDesc>political fiction</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_18">
+								<catDesc>bildungsroman</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_19">
+								<catDesc>war-novel</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_20">
+								<catDesc>autobiographical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_21">
+								<catDesc>dialogue</catDesc>
+							</category>
+
+						</category>
+					</category>
+
+					<!-- ### narration ### -->
+					<category xml:id="text.narration">
+						<catDesc>text.narration</catDesc>
+
+						<category xml:id="text.narration.narrator" n="nominal">
+							<catDesc>text.narration.narrator</catDesc>
+							<category xml:id="text.narration.narrator_1">
+								<catDesc>heterodiegetic</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_2">
+								<catDesc>autodiegetic</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_3">
+								<catDesc>homodiegetic</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_4">
+								<catDesc>epistolary</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_5">
+								<catDesc>dialogue</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_6">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_7">
+								<catDesc>other</catDesc>
+							</category>
+						</category>
+					</category>
+
+
+					<!-- ### setting ### -->
+					<category xml:id="text.setting" n="nominal">
+						<catDesc>text.setting</catDesc>
+						<category xml:id="text.setting.continent">
+							<catDesc>text.setting.continent</catDesc>
+							<category xml:id="text.setting.continent_1">
+								<catDesc>America</catDesc>
+							</category>
+							<category xml:id="text.setting.continent_2">
+								<catDesc>Europe</catDesc>
+							</category>
+							<category xml:id="text.setting.continent_3">
+								<catDesc>Africa</catDesc>
+							</category>
+							<category xml:id="text.setting.continent_4">
+								<catDesc>Asia</catDesc>
+							</category>
+							<category xml:id="text.setting.continent_5">
+								<catDesc>Oceania</catDesc>
+							</category>
+							<category xml:id="text.setting.continent_6">
+								<catDesc>other</catDesc>
+							</category>
+							<category xml:id="text.setting.continent_7">
+								<catDesc>mixed</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="text.setting.country" n="nominal">
+							<catDesc>text.setting.country</catDesc>
+							<category xml:id="text.setting.country_1">
+								<catDesc>Spain</catDesc>
+							</category>
+							<category xml:id="text.setting.country_2">
+								<catDesc>?</catDesc>
+							</category>
+							<category xml:id="text.setting.country_3">
+								<catDesc>Arabian Peninsula</catDesc>
+							</category>
+							<category xml:id="text.setting.country_4">
+								<catDesc>Argentina</catDesc>
+							</category>
+							<category xml:id="text.setting.country_5">
+								<catDesc>Atarjea</catDesc>
+							</category>
+							<category xml:id="text.setting.country_6">
+								<catDesc>Australia</catDesc>
+							</category>
+							<category xml:id="text.setting.country_7">
+								<catDesc>Dacia</catDesc>
+							</category>
+							<category xml:id="text.setting.country_8">
+								<catDesc>Ebania</catDesc>
+							</category>
+							<category xml:id="text.setting.country_9">
+								<catDesc>Farsalia Nova</catDesc>
+							</category>
+							<category xml:id="text.setting.country_10">
+								<catDesc>France</catDesc>
+							</category>
+							<category xml:id="text.setting.country_11">
+								<catDesc>Germany</catDesc>
+							</category>
+							<category xml:id="text.setting.country_12">
+								<catDesc>Guinea</catDesc>
+							</category>
+							<category xml:id="text.setting.country_13">
+								<catDesc>Israel</catDesc>
+							</category>
+							<category xml:id="text.setting.country_14">
+								<catDesc>Italy</catDesc>
+							</category>
+							<category xml:id="text.setting.country_15">
+								<catDesc>Marocco</catDesc>
+							</category>
+							<category xml:id="text.setting.country_16">
+								<catDesc>Maya</catDesc>
+							</category>
+							<category xml:id="text.setting.country_17">
+								<catDesc>Mexico</catDesc>
+							</category>
+							<category xml:id="text.setting.country_18">
+								<catDesc>Netherlands</catDesc>
+							</category>
+							<category xml:id="text.setting.country_19">
+								<catDesc>Portugal</catDesc>
+							</category>
+							<category xml:id="text.setting.country_20">
+								<catDesc>República Dominicana</catDesc>
+							</category>
+							<category xml:id="text.setting.country_21">
+								<catDesc>Roman Empire</catDesc>
+							</category>
+							<category xml:id="text.setting.country_22">
+								<catDesc>Santa Fe de Tierra</catDesc>
+							</category>
+							<category xml:id="text.setting.country_23">
+								<catDesc>South Africa</catDesc>
+							</category>
+							<category xml:id="text.setting.country_24">
+								<catDesc>Surlandia</catDesc>
+							</category>
+							<category xml:id="text.setting.country_25">
+								<catDesc>Switzerland</catDesc>
+							</category>
+							<category xml:id="text.setting.country_26">
+								<catDesc>United Kingdom</catDesc>
+							</category>
+							<category xml:id="text.setting.country_27">
+								<catDesc>United States of America</catDesc>
+							</category>
+							<category xml:id="text.setting.country_28">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.setting.country_29">
+								<catDesc>unknown</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="text.setting.territory" n="nominal">
+							<catDesc>text.setting.territory</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="text.setting.settlement" n="nominal">
+							<catDesc>text.setting.settlement</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="text.setting.settlement.type" n="ordinal">
+							<catDesc>text.setting.settlement.type</catDesc>
+							<category xml:id="text.setting.settlement.type_1" n="3">
+								<catDesc>big-city</catDesc>
+							</category>
+							<category xml:id="text.text.setting.settlement.type_2" n="2">
+								<catDesc>small-city</catDesc>
+							</category>
+							<category xml:id="text.text.setting.settlement.type_3" n="1">
+								<catDesc>rural</catDesc>
+							</category>
+							<category xml:id="text.text.setting.settlement.type_4" n="0">
+								<catDesc>boat</catDesc>
+							</category>
+							<category xml:id="text.text.setting.settlement.type_5" n="-">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.text.setting.settlement.type_6" n="-">
+								<catDesc>?</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="text.setting.settlement.represented.exist" n="nominal">
+							<catDesc>text.setting.name.represented.exist</catDesc>
+							<category xml:id="text.setting.settlement.represented.exist_1">
+								<catDesc>True</catDesc>
+							</category>
+							<category xml:id="text.setting.settlement.represented.exist_2">
+								<catDesc>False</catDesc>
+							</category>
+						</category>
+
+					</category>
+
+					<category xml:id="text.setting.represented" n="nominal">
+						<catDesc>text.setting.represented</catDesc>
+					</category>
+
+					<category xml:id="text.setting.exists" n="nominal">
+						<catDesc>text.setting.exists</catDesc>
+						<category xml:id="text.setting.exists_1">
+							<catDesc>True</catDesc>
+						</category>
+						<category xml:id="text.setting.exists_2">
+							<catDesc>False</catDesc>
+						</category>
+					</category>
+
+					<!-- ### time ### -->
+					<category xml:id="text.time">
+						<catDesc>text.time</catDesc>
+						<category xml:id="text.time.period" n="ordinal">
+							<catDesc>text.time.period</catDesc>
+							<category xml:id="text.time.period_1" n="3">
+								<catDesc>contemporary</catDesc>
+							</category>
+							<category xml:id="text.time.period_2" n="2">
+								<catDesc>modern_times</catDesc>
+							</category>
+							<category xml:id="text.time.period_3" n="0">
+								<catDesc>antiquity</catDesc>
+							</category>
+							<category xml:id="text.time.period_4" n="1">
+								<catDesc>middle_ages</catDesc>
+							</category>
+							<category xml:id="text.time.period_5" n="4">
+								<catDesc>future</catDesc>
+							</category>
+							<category xml:id="text.time.period_6" n="-">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.time.period_7" n="-">
+								<catDesc>unknown</catDesc>
+							</category>
+							<category xml:id="text.time.period_8" n="-">
+								<catDesc>?</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="text.time.span" n="ratio">
+							<catDesc>text.time.span</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="text.time.year" n="interval">
+							<catDesc>text.time.year</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+					</category>
+
+
+					<!-- ### characters ### -->
+					<category xml:id="text.characters">
+						<catDesc>text.characters</catDesc>
+
+						<category xml:id="text.characters.protagonist">
+							<catDesc>text.characters.protagonist</catDesc>
+
+							<category xml:id="text.characters.protagonist.name" n="nominal">
+								<catDesc>text.characters.protagonist.name</catDesc>
+							</category>
+
+							<category xml:id="text.characters.protagonist.profession" n="nominal">
+								<catDesc>text.characters.protagonist.profession</catDesc>
+							</category>
+
+							<category xml:id="text.characters.protagonist.age" n="ordinal">
+								<catDesc>text.characters.protagonist.age</catDesc>
+								<category xml:id="text.characters.protagonist.age_1" n="2">
+									<catDesc>adult</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_2" n="0">
+									<catDesc>child</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_3" n="1">
+									<catDesc>young</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_4" n="3">
+									<catDesc>mature</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_5" n="-">
+									<catDesc>?</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_6" n="-">
+									<catDesc>other</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_7" n="-">
+									<catDesc>unknown</catDesc>
+								</category>
+							</category>
+
+							<category xml:id="text.characters.protagonist.gender" n="nominal">
+								<catDesc>text.characters.protagonist.gender</catDesc>
+								<category xml:id="text.characters.protagonist.gender_1">
+									<catDesc>male</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.gender_2">
+									<catDesc>female</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.gender_3">
+									<catDesc>mixed</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.gender_4">
+									<catDesc>other</catDesc>
+								</category>
+							</category>
+
+							<category xml:id="text.characters.protagonist.socLevel" n="ordinal">
+								<catDesc>text.characters.protagonist.socLevel</catDesc>
+								<category xml:id="text.characters.protagonist.socLevel_1" n="1">
+									<catDesc>medium</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_2" n="0">
+									<catDesc>low</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_3" n="2">
+									<catDesc>high</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_4" n="-">
+									<catDesc>?</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_5" n="-">
+									<catDesc>other</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_6" n="-">
+									<catDesc>unknown</catDesc>
+								</category>
+							</category>
+						</category>
+					</category>
+
+
+					<!-- ### plot ### -->
+					<category xml:id="text.plot">
+						<catDesc>text.plot</catDesc>
+
+						<category xml:id="text.plot.end" n="ordinal">
+							<catDesc>text.plot.end</catDesc>
+							<category xml:id="text.plot.end_1">
+								<catDesc>negative</catDesc>	
+							</category>
+							<category xml:id="text.plot.end_2">
+								<catDesc>partial negative</catDesc>	
+							</category>
+							<category xml:id="text.plot.end_3">
+								<catDesc>neutral</catDesc>	
+							</category>
+							<category xml:id="text.plot.end_4">
+								<catDesc>partial positive</catDesc>	
+							</category>
+							<category xml:id="text.plot.end_5">
+								<catDesc>positive</catDesc>	
+							</category>
+							<category xml:id="text.plot.end_6">
+								<catDesc>other</catDesc>	
+							</category>
+							<category xml:id="text.plot.end_7">
+								<catDesc>?</catDesc>	
+							</category>
+						</category>
+
+						<category xml:id="text.plot.representation" n="ordinal">
+							<catDesc>text.plot.representation</catDesc>
+							<category xml:id="text.plot.representation_1">
+								<catDesc>realistic</catDesc>	
+							</category>
+							<category xml:id="text.plot.representation_2">
+								<catDesc>non-realistic</catDesc>
+							</category>
+							<category xml:id="text.plot.representation_3">
+								<catDesc>neutral</catDesc>	
+							</category>
+						</category>
+					</category>
+
+					<!-- ### corpora ### -->
+					<category xml:id="text.corpora">
+						<catDesc>text.corpora</catDesc>
+
+						<category xml:id="text.corpora.CoNSSA" n="nominal">
+							<catDesc>text.corpora.CoNSSA</catDesc>
+							<category xml:id="text.corpora.CoNSSA_1">
+								<catDesc>True</catDesc>	
+							</category>
+							<category xml:id="text.corpora.CoNSSA_2">
+								<catDesc>False</catDesc>	
+							</category>
+						</category>
+
+						<category xml:id="text.corpora.CoNSSA.canon" n="nominal">
+							<catDesc>text.corpora.CoNSSA.canon</catDesc>
+							<category xml:id="text.corpora.CoNSSA.canon_1">
+								<catDesc>True</catDesc>	
+							</category>
+							<category xml:id="text.corpora.CoNSSA.canon_2">
+								<catDesc>False</catDesc>	
+							</category>
+						</category>
+					</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

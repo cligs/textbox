@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,12 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Documenti umani." <seg rend="italic">Documenti
-                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26"
-                        >April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "Documenti umani." <seg rend="italic">Documenti
-                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                    >1888</date>. </bibl>
+                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -46,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -107,9 +104,7 @@
                         sospirata! il porto invocato durante le tempeste! ed avevo composto in
                         un'urna le ceneri ben fredde delle mie illusioni.... quando voi siete
                         venuta.... Non lo negate: siete stata voi!</p>
-                    <p>«Ah! io ero <seg rend="italic">curioso</seg>, io ero <seg rend="italic"
-                            >interessante</seg>; bisognava vedere com'era fatto questo <seg
-                            rend="italic">filosofo</seg>, questo <seg rend="italic">anacoreta</seg>,
+                    <p>«Ah! io ero <seg rend="italic">curioso</seg>, io ero <seg rend="italic">interessante</seg>; bisognava vedere com'era fatto questo <seg rend="italic">filosofo</seg>, questo <seg rend="italic">anacoreta</seg>,
                         quest'essere a parte, di cui nessuno fra quelli che vi circondavano aveva
                         potuto ancora darvi un'idea! Bisognava provare su di lui la sottile magìa
                         dei vostri profumi, la dolcezza del vostro sorriso, la melodia della vostra
@@ -117,8 +112,7 @@
                         vertigini, egli tentava di sfuggirvi, e qualcosa, nei suoi sguardi,
                         domandava pietà per lui, bisognava ancora strapparlo ai suoi rifugi,
                         trascinarlo nel vortice che vi si aggira dintorno, legarlo ben forte a voi
-                        invocando il suo appoggio, l'aiuto della sua <seg rend="italic"
-                            >amicizia</seg>!... E quando, smarrito, incapace di resistervi più, egli
+                        invocando il suo appoggio, l'aiuto della sua <seg rend="italic">amicizia</seg>!... E quando, smarrito, incapace di resistervi più, egli
                         tentava di soffocare il grido che stava per rompergli dal petto, bisognava
                         ancora fargli perdere quel resto di ragione, bisognava ubriacarlo con
                         l'assenzio della speranza, come la spia ubriaca il colpevole per strappargli
@@ -179,8 +173,7 @@
                         Bisogna credere, non è vero, alle parole di chi muore! Ed io ti giuro, per
                         te! che il mio cuore è rimasto vergine; che tra i fatali esperimenti della
                         vita una cura gelosa ha fatto la guardia del mio cuore; che tu, tu sola, mi
-                        sei entrata nel cuore!... Come a lungo ti ho aspettata! Io <seg
-                            rend="italic">sapevo</seg> che tu dovevi apparire. Quando la natura è
+                        sei entrata nel cuore!... Come a lungo ti ho aspettata! Io <seg rend="italic">sapevo</seg> che tu dovevi apparire. Quando la natura è
                         stata in festa, quando il profumo dei fiori, come un incenso, è salito nel
                         cielo clemente, e la gioia ed il tripudio hanno visitato le povere anime
                         umane, io sono rimasto solo, ad aspettarti! Quando i tappeti delle foglie
@@ -239,19 +232,13 @@
                     <p>--Avete ragione; ma perchè avete torto! Torniamo all'argomento. Io ho letto,
                         per esempio, tutti i vostri libri; essi lasciano un sapore molto amaro--vi
                         hanno perfino fatto una colpa del vostro pessimismo! Ora, che cosa direste
-                        voi se io affermassi che questo vostro pessimismo deriva da una <seg
-                            rend="italic">persuasione</seg> di dolore, non da un dolore <seg
-                            rend="italic">veramente</seg> provato? Mi rispondereste che <seg
-                            rend="italic">credere</seg> di soffrire val quanto soffrire <seg
-                            rend="italic">realmente</seg>! Non è vero? E voi mi dareste causa
+                        voi se io affermassi che questo vostro pessimismo deriva da una <seg rend="italic">persuasione</seg> di dolore, non da un dolore <seg rend="italic">veramente</seg> provato? Mi rispondereste che <seg rend="italic">credere</seg> di soffrire val quanto soffrire <seg rend="italic">realmente</seg>! Non è vero? E voi mi dareste causa
                         vinta!... Perchè di tutte queste dolci e torturanti credenze, dell'amore,
                         della poesia, dell'ideale, noi siamo tutti capaci; perchè vi sono dei
                         momenti in cui tutta la nostra anima vibra come se fosse per spezzarsi, in
                         cui soltanto l'inverisimile è vero; perchè, malgrado i nostri capelli
-                        bianchi, malgrado la severità dei nostri studii, noi <seg rend="italic"
-                            >piangiamo</seg> se una canzone echeggia da lontano, nell'ora del
-                        tramonto, e daremmo--che cosa?--per poter fare ancora della <seg
-                            rend="italic">rettorica!...</seg></p>
+                        bianchi, malgrado la severità dei nostri studii, noi <seg rend="italic">piangiamo</seg> se una canzone echeggia da lontano, nell'ora del
+                        tramonto, e daremmo--che cosa?--per poter fare ancora della <seg rend="italic">rettorica!...</seg></p>
                     <p>Paolo Dinolfi guardò un momento negli occhi l'ingegnere Ferrieri.</p>
                     <p>--Lei può dunque garantirmi l'autenticità di questo documento?</p>
                     <p>--Ne dubitate ancora? Ma io non posso darvi che la mia parola! È un'antica

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Dulce y sabrosa</title>
 				<title type="sub"></title>
-				<title type="short">Dulce</title>
+				<title type="short">DulceSabrosa</title>
 				<title type="idno">
-					<idno type="viaf">309261290</idno></title>
+					<idno type="bne">XX2132272</idno>
+					<idno type="viaf">309261290</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1028454</idno>
 					<idno type="viaf">35252653</idno>
 					<name type="short">Picon</name>
 					<name type="full">Jacinto Octavio Picón</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2123</measure>
-				<measure unit="divs">40</measure>
-				<measure unit="words">84424</measure>
-				<measure unit="chars">490528</measure>
-				<measure unit="size_kb">536</measure>
+				<measure unit="lines">2151</measure>
+				<measure unit="divs">43</measure>
+				<measure unit="tokens">85252</measure>
+				<measure unit="chars">495385</measure>
+				<measure unit="size_kb">537</measure>
 
 				<measure unit="chapters">23</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">17</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1935</measure> 
-				<measure unit="line_verses">3</measure> 
-				<measure unit="heads">23</measure> 
+				<measure unit="blocks">1953</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">3</measure> 
+				<measure unit="heads">25</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">19</measure> 
-				<measure unit="paragraphs">1887</measure> 
+				<measure unit="paragraphs">1903</measure> 
 				<measure unit="abs">3</measure> 
-				<measure unit="floatingTexts">17</measure>
-				<measure unit="paragraphs_ds">947</measure> 
-				<measure unit="numbers">9</measure> 
-				<measure unit="puncts">18590</measure>
+				<measure unit="fts">17</measure>
+				<measure unit="paragraphs.ds">946</measure>
+				<measure unit="saids">1014</measure>
+				<measure unit="narrative.ps">957</measure>
+				<measure unit="ss">4679</measure> 
+				<measure unit="numbers">13</measure> 
+				<measure unit="puncts">18723</measure> 
+				<measure unit="len.abstract">940</measure>
+
+				<measure unit="types">13279</measure>
+
+				<measure unit="ss">3370</measure>
+				<measure unit="ss.len.mean">149.33916913946587</measure>
+				<measure unit="ss.len.std">132.1567423511361</measure>
+				<measure unit="mean.ss.active.verbs">2.614540059347181</measure>
+				<measure unit="std.ss.active.verbs">2.526552614116067</measure>
+
+				<measure unit="ws">101701</measure>
+				<measure unit="ws.len.mean">3.981691428796177</measure>
+				<measure unit="ws.len.std">2.8918145539512876</measure>
+
+				<measure unit="conjunctions">6855</measure>
+				<measure unit="determiners">11434</measure>
+				<measure unit="nouns">17528</measure>
+				<measure unit="verbs">16851</measure>
+				<measure unit="adverbs">4891</measure>
+				<measure unit="adjectives">5080</measure>
+				<measure unit="adpositions">11839</measure>
+				<measure unit="punctuations">17013</measure>
+				<measure unit="pronouns">9627</measure>
+				<measure unit="dates">38</measure>
+				<measure unit="numbers">351</measure>
+				<measure unit="interjections">194</measure>
+
+				<measure unit="ne.persons">1489</measure>
+				<measure unit="ne.organizations">160</measure>
+				<measure unit="ne.locations">367</measure>
+				<measure unit="ne.others">74</measure>
+
+				<measure unit="wnlex.noun.plants">91</measure>
+				<measure unit="wnlex.verb.communications">1366</measure>
+				<measure unit="wnlex.noun.foods">158</measure>
+				<measure unit="wnlex.verb.possessions">759</measure>
+				<measure unit="wnlex.verb.cognitions">1065</measure>
+				<measure unit="wnlex.noun.communications">1116</measure>
+				<measure unit="wnlex.noun.states">521</measure>
+				<measure unit="wnlex.verb.statives">4219</measure>
+				<measure unit="wnlex.noun.cognitions">1024</measure>
+				<measure unit="wnlex.noun.times">697</measure>
+				<measure unit="wnlex.verb.bodys">685</measure>
+				<measure unit="wnlex.noun.persons">2540</measure>
+				<measure unit="wnlex.adj.alls">3580</measure>
+				<measure unit="wnlex.noun.quantitys">82</measure>
+				<measure unit="wnlex.noun.phenomenons">145</measure>
+				<measure unit="wnlex.verb.creations">852</measure>
+				<measure unit="wnlex.adj.perts">114</measure>
+				<measure unit="wnlex.adv.alls">1637</measure>
+				<measure unit="wnlex.noun.processs">34</measure>
+				<measure unit="wnlex.noun.artifacts">2081</measure>
+				<measure unit="wnlex.verb.perceptions">624</measure>
+				<measure unit="wnlex.noun.feelings">495</measure>
+				<measure unit="wnlex.verb.weathers">76</measure>
+				<measure unit="wnlex.noun.substances">204</measure>
+				<measure unit="wnlex.noun.shapes">41</measure>
+				<measure unit="wnlex.verb.competitions">120</measure>
+				<measure unit="wnlex.verb.motions">1379</measure>
+				<measure unit="wnlex.noun.animals">191</measure>
+				<measure unit="wnlex.noun.acts">1108</measure>
+				<measure unit="wnlex.noun.bodys">800</measure>
+				<measure unit="wnlex.noun.objects">162</measure>
+				<measure unit="wnlex.noun.motives">27</measure>
+				<measure unit="wnlex.verb.socials">1053</measure>
+				<measure unit="wnlex.noun.groups">314</measure>
+				<measure unit="wnlex.verb.consumptions">217</measure>
+				<measure unit="wnlex.noun.possessions">178</measure>
+				<measure unit="wnlex.noun.Topss">189</measure>
+				<measure unit="wnlex.noun.relations">16</measure>
+				<measure unit="wnlex.noun.attributes">958</measure>
+				<measure unit="wnlex.verb.emotions">574</measure>
+				<measure unit="wnlex.noun.locations">272</measure>
+				<measure unit="wnlex.noun.events">310</measure>
+				<measure unit="wnlex.verb.contacts">674</measure>
+				<measure unit="wnlex.xxxs">68203</measure>
+				<measure unit="wnlex.verb.changes">748</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -62,56 +148,56 @@
 				<p>Nuestro personaje es una variante burguesa del tópico don Juan [...]. En ejercicio de sus funciones, seduce y abandona a la bella actriz Cristeta Moruela, una muchacha de origen humilde. Tras la presentación de don Juan en el primer capítulo, el encuentro casual con su antigua amante en el Retiro dará pie para que el protagonista evoque el idilio vivido tres o cuatro años antes (caps. III-XIII). Se vuelve al punto de partida en el capítulo XIV y desde aquí hasta el final (cap. XXIII) presenciamos los recursos de que se sirve Cristeta para reconquistar a su enamorado. Contribuye no poco al éxito de la empresa el hecho de que Todellas crea, erróneamente, que es "fruta del cercado ajeno", gracias a un equívoco. A la postre triunfa el amor verdadero, el afecto, no el capricho sensual, y los dos amantes deciden unir sus vidas pero sin sujetarse a las cadenas del matrimonio, fórmula que Cristeta presume poco adecuada para su galán</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="2">erotic</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre-lithist" subtype="2">novela erótica</term>
-					
-					<term type="narrative-perspective" >heterodiegetic</term>
-					<term type="setting">big-city</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1852</term>
-					<term type="author-date-death">1923</term>
-					<term type="author-TOC-range" resp="MdL7">6</term>
-					<term type="author-histlit-pages" resp="MdL7">12</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Madrid</term>
-					<term type="setting-territory">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Juan de Todellas</term>
-					<term type="protagonist-profession">none</term>
-					<term type="protagonist-social-level">high</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" resp="#jct">1800</term>
-					<term type="group-text"></term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">positive</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">1.0</term>
-					<term type="text-TOC-range">4</term>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">6</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1852</term>
+					<term type="author.date.death">1923</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">12</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group"></term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Juan de Todellas</term>
+					<term type="text.characters.protagonist.profession">none</term>
+					<term type="text.characters.protagonist.socLevel">high</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Romántico</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">erotic</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela erótica</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">1.5</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator" >heterodiegetic</term>
+					<term type="text.plot.end">positive</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Madrid</term>
+					<term type="text.setting.settlement">Madrid</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">big-city</term>
+					<term type="text.setting.territory">Castilla</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low" resp="#jct">1800</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -1913,7 +1999,7 @@
 						</div></body></floatingText></div>
 			<div n="21" type="chapter" xml:id="ne0155_chap21">
 				<head>Capítulo XXI : Del fin que tuvieron los desordenados amores de don Quintín y del principio de su cautividad </head>
-				<lg>
+				<lg type="poem">
 					<l><seg rend="italic">Vuela pensamiento y diles</seg></l>
 					<l><seg rend="italic">a los ojos que más quiero</seg></l>
 					<l><seg rend="italic">que hay dinero.</seg></l>

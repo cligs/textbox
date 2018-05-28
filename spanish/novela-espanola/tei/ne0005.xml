@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Tristana</title>
 				<title type="sub"></title>
 				<title type="short">Tristana</title>
-				<title type="idno"><idno type="viaf">181806159</idno></title>
+				<title type="idno">
+					<idno type="bne">XX2127967</idno>
+					<idno type="viaf">181806159</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1014802</idno>
 					<idno type="viaf">71395987 </idno>
 					<name type="short">Galdos</name>
 					<name type="full">Benito Pérez Galdós</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">727</measure>
-				<measure unit="divs">29</measure>
-				<measure unit="words">52555</measure>
-				<measure unit="chars">300788</measure>
-				<measure unit="size_kb">321</measure>
+				<measure unit="lines">733</measure>
+				<measure unit="divs">30</measure>
+				<measure unit="tokens">52563</measure>
+				<measure unit="chars">301038</measure>
+				<measure unit="size_kb">323</measure>
 
 				<measure unit="chapters">29</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">583</measure> 
-				<measure unit="line_verses">0</measure> 
+				<measure unit="blocks">585</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
 				<measure unit="heads">29</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">554</measure> 
+				<measure unit="paragraphs">556</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">325</measure> 
-				<measure unit="numbers">3</measure> 
-				<measure unit="puncts">12159</measure>
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">299</measure>
+				<measure unit="saids">357</measure>
+				<measure unit="narrative.ps">257</measure>
+				<measure unit="ss">2958</measure> 
+				<measure unit="numbers">4</measure> 
+				<measure unit="puncts">11962</measure> 
+				<measure unit="len.abstract">1149</measure>
+
+				<measure unit="types">10262</measure>
+
+				<measure unit="ss">2281</measure>
+				<measure unit="ss.len.mean">135.97939500219204</measure>
+				<measure unit="ss.len.std">108.51531636108994</measure>
+				<measure unit="mean.ss.active.verbs">2.4037702761946513</measure>
+				<measure unit="std.ss.active.verbs">1.9407180337349759</measure>
+
+				<measure unit="ws">63665</measure>
+				<measure unit="ws.len.mean">3.907720097384748</measure>
+				<measure unit="ws.len.std">2.8323751696932464</measure>
+
+				<measure unit="conjunctions">4534</measure>
+				<measure unit="determiners">7424</measure>
+				<measure unit="nouns">10643</measure>
+				<measure unit="verbs">9988</measure>
+				<measure unit="adverbs">3569</measure>
+				<measure unit="adjectives">3401</measure>
+				<measure unit="adpositions">7198</measure>
+				<measure unit="punctuations">10344</measure>
+				<measure unit="pronouns">6194</measure>
+				<measure unit="dates">26</measure>
+				<measure unit="numbers">195</measure>
+				<measure unit="interjections">149</measure>
+
+				<measure unit="ne.persons">788</measure>
+				<measure unit="ne.organizations">86</measure>
+				<measure unit="ne.locations">229</measure>
+				<measure unit="ne.others">76</measure>
+
+				<measure unit="wnlex.noun.plants">53</measure>
+				<measure unit="wnlex.verb.communications">905</measure>
+				<measure unit="wnlex.noun.foods">93</measure>
+				<measure unit="wnlex.verb.possessions">348</measure>
+				<measure unit="wnlex.verb.cognitions">938</measure>
+				<measure unit="wnlex.noun.communications">601</measure>
+				<measure unit="wnlex.noun.states">436</measure>
+				<measure unit="wnlex.verb.statives">2312</measure>
+				<measure unit="wnlex.noun.cognitions">797</measure>
+				<measure unit="wnlex.noun.times">432</measure>
+				<measure unit="wnlex.verb.bodys">437</measure>
+				<measure unit="wnlex.noun.persons">1236</measure>
+				<measure unit="wnlex.adj.alls">2386</measure>
+				<measure unit="wnlex.noun.quantitys">42</measure>
+				<measure unit="wnlex.noun.phenomenons">99</measure>
+				<measure unit="wnlex.verb.creations">406</measure>
+				<measure unit="wnlex.adj.perts">91</measure>
+				<measure unit="wnlex.adv.alls">1158</measure>
+				<measure unit="wnlex.noun.processs">22</measure>
+				<measure unit="wnlex.noun.artifacts">861</measure>
+				<measure unit="wnlex.verb.perceptions">334</measure>
+				<measure unit="wnlex.noun.feelings">323</measure>
+				<measure unit="wnlex.verb.weathers">32</measure>
+				<measure unit="wnlex.noun.substances">100</measure>
+				<measure unit="wnlex.noun.shapes">22</measure>
+				<measure unit="wnlex.verb.competitions">96</measure>
+				<measure unit="wnlex.verb.motions">608</measure>
+				<measure unit="wnlex.noun.animals">138</measure>
+				<measure unit="wnlex.noun.acts">716</measure>
+				<measure unit="wnlex.noun.bodys">417</measure>
+				<measure unit="wnlex.noun.objects">147</measure>
+				<measure unit="wnlex.noun.motives">32</measure>
+				<measure unit="wnlex.verb.socials">615</measure>
+				<measure unit="wnlex.noun.groups">242</measure>
+				<measure unit="wnlex.verb.consumptions">137</measure>
+				<measure unit="wnlex.noun.possessions">60</measure>
+				<measure unit="wnlex.noun.Topss">191</measure>
+				<measure unit="wnlex.noun.relations">17</measure>
+				<measure unit="wnlex.noun.attributes">705</measure>
+				<measure unit="wnlex.verb.emotions">456</measure>
+				<measure unit="wnlex.noun.locations">174</measure>
+				<measure unit="wnlex.noun.events">229</measure>
+				<measure unit="wnlex.verb.contacts">415</measure>
+				<measure unit="wnlex.xxxs">43359</measure>
+				<measure unit="wnlex.verb.changes">446</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -61,60 +148,63 @@
 				<p>Situada en el castizo Chamberí, uno de los barrios del ensanche del Madrid decimonónico, la novela presenta un mórbido triángulo amoroso entre una mujer, un viejo —que confunde honor y provecho— y un 'artista'. Al morir su madre, la huérfana Tristana es recogida por un amigo de la familia don Lope, que acabará convirtiéndose en su tutor-seductor. La joven protagonista se rebela ante tan humillante situación y al poco conoce y se enamora de Horacio, un pintor de ideas tradicionales que no acepta el espíritu feminista de Tristana. El pintor tiene que ausentarse de Madrid durante una larga temporada y la relación se enfría (aunque en Tristana sigue viva en un Horacio idealizado). Entretanto, a ella le han tenido que amputar una pierna, quedando así de nuevo atada a don Lope. Cuando Horacio regresa, nada queda entre ellos de las antiguas ilusiones. El pintor acabará casándose con otra mujer y Tristana cambiará sus sueños de ser actriz por una vida estéril y casi autómata, con Dios como único "objeto del deseo". Con un don Lope, cada día más chocho y arruinado, una boda de conveniencia para ambos precipita el final feliz de la novela.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">bildungsroman</term>
-					<term type="subgenre" subtype="1">naturaslist</term>
-					<term type="subgenre" subtype="1">erotic</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">spiritual</term>
-					<term type="subgenre-lithist" subtype="1">novela naturalista</term>
-					<term type="subgenre-lithist" subtype="2">novela espiritual</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">big-city</term>
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1843</term>
-					<term type="author-date-death">1920</term>
-					<term type="author-TOC-range" resp="MdL7">8</term>
-					<term type="author-histlit-pages" resp="MdL7">181</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">1889</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Madrid</term>
-					<term type="setting-territory">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Tristana Reluz</term>
-					<term type="protagonist-profession">housewife</term>
-					<term type="protagonist-social-level">low</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" resp="#jct">1800</term>
-					<term type="group-text">Novelas contemporáneas</term>
-					<term type="subgroup-text">Novelas contemporáneas espiritualistas</term>
-
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end">partial positive</term>
-					<term type="text-movement">realista</term>
-					<term type="text-histlit-pages">2.0</term>
-					<term type="text-TOC-range">5</term>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1843</term>
+					<term type="author.date.death">1920</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">181</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.year.change">1889</term>
+					<term type="authorText.group">Novelas contemporáneas</term>
+					<term type="authorText.relation">none</term>
+					<term type="authorText.subgroup">Novelas contemporáneas espiritualistas</term>
+					<term type="text.characters.protagonist.age">young</term>
+					<term type="text.characters.protagonist.gender">female</term>
+					<term type="text.characters.protagonist.name">Tristana Reluz</term>
+					<term type="text.characters.protagonist.profession">housewife</term>
+					<term type="text.characters.protagonist.socLevel">low</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">False</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Ficción clásica, Ficción contemporánea; Ficción clásica ; Ficción clásica, Historia, Ficción clásica; Ficción clásica; Familia, Ficción, Libros escolares; Historia, teoría literaria y crítica</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Realista</term>
+					<term type="text.genre.subgenre.edit" resp="esdbpedia">realismo</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">erotic</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturaslist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">spiritual</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">bildungsroman</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="2">novela espiritual</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">novela naturalista</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">5</term>
+					<term type="text.litHist.mentioned" resp="HdLE">False</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">2.0</term>
+					<term type="text.movement">realista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">partial positive</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Madrid</term>
+					<term type="text.setting.settlement">Madrid</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">big-city</term>
+					<term type="text.setting.territory">Castilla</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low" resp="#jct">1800</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

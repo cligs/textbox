@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,21 +36,18 @@
                 </availability>
                 <date>2016</date>
                 <idno type="cligs">nh0131</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0131.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0131.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source">
                     <seg rend="italic">La linterna mágica [microform]: colección de novelas de
                         costumbres mexicanas, artículos y poesías de Facundo (José T. de
                         Cuellar).</seg> Internet Archive, <date when="2009">2009</date>,
-                        <idno>3680924_1</idno>, <ref target="https://archive.org/details/3680924_1"
-                        >https://archive.org/details/3680924_1</ref>. </bibl>
+                        <idno>3680924_1</idno>, <ref target="https://archive.org/details/3680924_1">https://archive.org/details/3680924_1</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Baile y Cochino.... Novela de costumbres mexicanas escrita
                         por Facundo (José T. de Cuéllar).</seg> Parte de La Linterna Mágica, segunda
-                    época. Tercera edición. Barcelona: Tipo-Litografía de Espasa y Compañía, <date
-                        when="1889">1889</date>. </bibl>
+                    época. Tercera edición. Barcelona: Tipo-Litografía de Espasa y Compañía, <date when="1889">1889</date>. </bibl>
                 <bibl type="edition-first">
                     <seg rend="italic">Baile y Cochino.... Novela de costumbres mexicanas escrita
                         por Facundo (José T. de Cuéllar).</seg> México: Tipografía Literaria de
@@ -67,20 +65,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Mexico</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk">costumbrista</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">social</term>
-                    <term type="subgenre_tm" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting" cert="medium">urban</term>
-                    <term type="protagonist-gender" cert="medium">mixed</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">costumbrista</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">mixed</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -188,16 +186,11 @@
                 <p>Usted hizo cuadros con su trama dramática, los volvió episódicos, les comunicó
                     interés, y poniéndose al nivel de las nuevas exigencias del progreso, prosiguió
                     la obra de Fernández Lizardi, haciendo más fecundos aquellos rasgos de buen
-                    sentido, conservados en el invernadero de mi admiración por el autor del <seg
-                        rend="italic">Periquillo.</seg></p>
+                    sentido, conservados en el invernadero de mi admiración por el autor del <seg rend="italic">Periquillo.</seg></p>
                 <p>Para probar el éxito de sus esfuerzos, no hay sino ver al niño mimado y
-                    consentido, entregado a los vicios, a quien llaman las gentes <seg rend="italic"
-                        >Chucho el Ninfo;</seg> al hombre ordinario que escala en las revoluciones
-                    los altos puestos, a quien conoce todo el mundo con el nombre de <seg
-                        rend="italic">Jacobo Baca;</seg> a ese <seg rend="italic">Pió Prieto,</seg>
-                    de la <seg rend="italic">Ensalada de Pollos;</seg> a ese <seg rend="italic"
-                        >Saldarla,</seg> arbitrista y picaro; a ese admirable <seg rend="italic"
-                        >Sánchez;</seg> a esa <seg rend="italic">Chata,</seg> conocidísima, y a esa
+                    consentido, entregado a los vicios, a quien llaman las gentes <seg rend="italic">Chucho el Ninfo;</seg> al hombre ordinario que escala en las revoluciones
+                    los altos puestos, a quien conoce todo el mundo con el nombre de <seg rend="italic">Jacobo Baca;</seg> a ese <seg rend="italic">Pió Prieto,</seg>
+                    de la <seg rend="italic">Ensalada de Pollos;</seg> a ese <seg rend="italic">Saldarla,</seg> arbitrista y picaro; a ese admirable <seg rend="italic">Sánchez;</seg> a esa <seg rend="italic">Chata,</seg> conocidísima, y a esa
                     madre odiosa que vende a su hija en <seg rend="italic">Baile y
                     Cochino.</seg></p>
                 <p>A todos esos personajes los conocemos, los tratamos, los oímos hablar, y
@@ -241,14 +234,11 @@
                 <p>—¿Y de amigas también? preguntó la señora a su marido.</p>
                 <p>—Mira, en cuanto a amigas, yo no tengo aquí todavía conocimientos; pero creo no
                     faltarán.</p>
-                <p>—Bueno, pues si ustedes se encargan de la concurrencia, ¿qué vamos a hacer? <seg
-                        rend="italic">haremos baile.</seg></p>
+                <p>—Bueno, pues si ustedes se encargan de la concurrencia, ¿qué vamos a hacer? <seg rend="italic">haremos baile.</seg></p>
                 <p>Nótese que la señora de la casa había dicho, <seg rend="italic">haremos
                         baile,</seg> a propósito de lo cual se hace necesaria aquí una
                     digresión.</p>
-                <p>Son dos cosas enteramente distintas <seg rend="italic">dar un baile</seg> y <seg
-                        rend="italic">hacer baile,</seg> como son distintas también <seg
-                        rend="italic">dar una comida o hacer comida.</seg></p>
+                <p>Son dos cosas enteramente distintas <seg rend="italic">dar un baile</seg> y <seg rend="italic">hacer baile,</seg> como son distintas también <seg rend="italic">dar una comida o hacer comida.</seg></p>
                 <p>Da un baile la persona que con cualquier pretexto de solemnidad invita a sus
                     amigos a pasar unas cuantas horas en su compañía. El pretexto es lo de menos, el
                     objeto principal del baile es estrechar los vínculos de amistad y los lazos
@@ -271,8 +261,7 @@
                 <p>Ya contaban con que vendrían las Machucas, que eran tres pollas, que por su
                     talla, por lo delgadas de carnes y lo bisbirindas y alegres, debían ser tres
                     bailarinas de primera fuerza.</p>
-                <p>Contaban, además, con que un amigo de la casa, encargado de <seg rend="italic"
-                        >conseguir parejas,</seg> iba a invitar a una señora que tenía dos hijas. No
+                <p>Contaban, además, con que un amigo de la casa, encargado de <seg rend="italic">conseguir parejas,</seg> iba a invitar a una señora que tenía dos hijas. No
                     se sabía qué clase de señora era aquélla; pero en cuanto a las hijas, que era,
                     como quien dice, la infantería de línea, el amigo aquél aseguraba que sabían
                     echar un wals, a dos tiempos que daba miedo. Estas chicas, también por su
@@ -457,8 +446,7 @@
                     concurrencia tendría lo suficiente.</p>
                 <p>Volvió a tomar otro <seg rend="italic">vol-au-vent</seg>, una rebanada de pan con
                     jamón y pidió coñac.</p>
-                <p>Siempre que Saldaña hacía un negocio con don Quintín tomaba <seg rend="italic"
-                        >lunch</seg> doble.</p>
+                <p>Siempre que Saldaña hacía un negocio con don Quintín tomaba <seg rend="italic">lunch</seg> doble.</p>
             </div>
             <div>
                 <head>Capítulo II</head>
@@ -841,8 +829,7 @@
                     por ver de cerca a las Machucas.</p>
                 <p>Aunque la fama de las Machucas era universal, no sucedía lo mismo con Machuca. A
                     ése lo conocían en la oficina, en la tesorería y en algunas partes; pero no era
-                    muy dado a exhibirse; tanto que, para obrar él con más libertad, dejaba <seg
-                        rend="italic">hacer</seg> a sus hermanas; y éstas, como era natural, hacían,
+                    muy dado a exhibirse; tanto que, para obrar él con más libertad, dejaba <seg rend="italic">hacer</seg> a sus hermanas; y éstas, como era natural, hacían,
                     y hasta deshacían; cosa que les venía perfectamente, con especialidad cuando
                     solían hacer algo bueno.</p>
                 <p>Las Machucas habían sido muy pobres, pobrísimas, tanto que Saldaíia, que conoce a
@@ -858,8 +845,7 @@
                     que llevaban guantes; porque cuando se los quitaban, aparecían las manos de la
                     Malinche en el busto de Ninón de Lenclós; tenían la apariencia de la distinción
                     cuando no hablaban, porque la sin hueso, haciéndoles la más negra de las
-                    traiciones, hacía recordar al curioso observador la palabra <seg rend="italic"
-                        >descalcitas</seg> de que se valía Saldaña; y tenían por último la
+                    traiciones, hacía recordar al curioso observador la palabra <seg rend="italic">descalcitas</seg> de que se valía Saldaña; y tenían por último la
                     apariencia de la hermosura, de noche o en la calle, porque en la mañana y dentro
                     de casa, no pasaban las Machucas de ser unas trigueñitas un poco despercudidas y
                     nada más.</p>
@@ -879,8 +865,7 @@
                 <p>—Acabo de hacer una <seg rend="italic">muina.</seg></p>
                 <p>En lo general, las Machucas eran violentas de genio; y todas tres, sin
                     distinción, usaban la palabra <seg rend="italic">hombre</seg> a guisa de
-                    interjección, así hablaran con un barbudo o con una niña. La palabra <seg
-                        rend="italic">caray</seg>, que aprendieron desde que las conoció Saldaña,
+                    interjección, así hablaran con un barbudo o con una niña. La palabra <seg rend="italic">caray</seg>, que aprendieron desde que las conoció Saldaña,
                     era otro de los rasgos característicos de su estilo oratorio.</p>
                 <p>Una de las razones que había para que las Machucas fueran muy conocidas y muy
                     mentadas, era que Machuca, que se envanecía de ser un liberal completo, había
@@ -910,8 +895,7 @@
                 <p>Y todo este preámbulo viene a propósito de que el tal señor era de lo más
                     enamorado que se ha conocido. Era en toda la extensión de la palabra un
                     enamorado de profesión; era de esas gentes que vienen al mundo con una misión
-                    esencialmente erótica, y llegan hasta a ser víctimas de la <seg rend="italic"
-                        >filoginia,</seg> especie de enfermedad incurable como la lesión
+                    esencialmente erótica, y llegan hasta a ser víctimas de la <seg rend="italic">filoginia,</seg> especie de enfermedad incurable como la lesión
                     orgánica.</p>
                 <p>Tenía este señor mujer e hijas; pero como si no las tuviera; porque a
                     consecuencia de sus alegrías y sus infidelidades estaba separado de su primera
@@ -922,13 +906,11 @@
                     delicias de la paternidad.</p>
                 <p>Era tan afecto a la baratija llamada mujer, que a pesar de todas aquellas
                     satisfacciones tomaba la que le ofrecían como los fumadores, por no decir que
-                    no, y sin embargo, aquel señor a quien todo el mundo le llamaba <seg
-                        rend="italic">ojo alegre</seg> no tenía nada de risueño, ¡qué había de
+                    no, y sin embargo, aquel señor a quien todo el mundo le llamaba <seg rend="italic">ojo alegre</seg> no tenía nada de risueño, ¡qué había de
                     tener! era, por el contrario, adusto y reservado, lo cual no le impedía, por lo
                     visto, ejercer su oficio con una constancia y una asiduidad de relojero.</p>
                 <p>Mantenía un ejército permanente de señoras que pertenecían a él, y aún le quedaba
-                    tiempo para comer algunas veces en la fonda algunos platillos <seg rend="italic"
-                        >a la carie.</seg></p>
+                    tiempo para comer algunas veces en la fonda algunos platillos <seg rend="italic">a la carie.</seg></p>
                 <p>Este señor visitaba a las Machucas, y su presencia en aquella casa alarmaba a los
                     demás visitantes, como en un gallinero alarma a los pollos un gallo de
                     espolón.</p>
@@ -1097,8 +1079,7 @@
                     del diputado...</p>
                 <p>—¡Ah, ya sé la historia! se la voy a contar a usted, don Teodoro. Esta es la
                     levita nueva que llevaba el diputado hace seis meses el día del banquete en el
-                    Tívoli de San Cosme, en donde, como sabe usted, por una cuestión de faldas <seg
-                        rend="italic">se agarró</seg> con el licenciadito. No se lastimaron, pero la
+                    Tívoli de San Cosme, en donde, como sabe usted, por una cuestión de faldas <seg rend="italic">se agarró</seg> con el licenciadito. No se lastimaron, pero la
                     levita sacó un rasgón y un chorro de <seg rend="italic">consomé.</seg> El
                     diputado, al llegar a su casa todavía con la turca, le regaló la levita a su
                     criado.</p>
@@ -1252,8 +1233,7 @@
                     infamante y lo inmoral del garito es parvedad de materia.</p>
                 <p>Hé aquí otra transacción. La hipocresía cree muy justo despedirse de los placeres
                     de la carne ante la terrible perspectiva de cuarenta días de abstinencia, e
-                    inventa el Carnaval. Mientras en México las mujeres públicas fueron <seg
-                        rend="italic">descalcitas</seg> como habían sido las Machucas cuando las
+                    inventa el Carnaval. Mientras en México las mujeres públicas fueron <seg rend="italic">descalcitas</seg> como habían sido las Machucas cuando las
                     conoció Saldaña, los bailes de máscara eran, sin distinción, para las clases
                     acomodadas de la sociedad; pero cuando el lujo y la prostitución se dieron la
                     mano, los bailes de máscara se componen de <seg rend="italic">esas señoras</seg>
@@ -1270,8 +1250,7 @@
                     que libidinoso.</p>
                 <p>El esclavo está en su derecho de bailar así bajo su sol ardiente, como lo está el
                     león de rugir en el desierto tras de la leona.</p>
-                <p>Coincidiendo con estos rugidos y con estos bailes, vino el cansancio del <seg
-                        rend="italic">minuet</seg> y de las cuadrillas bajo el sol tropical; y la
+                <p>Coincidiendo con estos rugidos y con estos bailes, vino el cansancio del <seg rend="italic">minuet</seg> y de las cuadrillas bajo el sol tropical; y la
                     hipocresía encontró la ocasión de hacer un baile para introducir una
                     novedad.</p>
                 <p>Las niñas estaban con los ojos vendados y no entendían nada en materia de rugidos
@@ -1305,17 +1284,14 @@
                 <p>Entre las graciosas ingenuidades de aquella señorita espiritual, solían
                     aplaudirle sus amigos frases como esta:</p>
                 <p>—¡No hay cosa peor en el mundo que las madres!</p>
-                <p>Siempre estaban en pugna; siempre se le oía decir a la hija: <seg rend="italic"
-                        >¡ah, qué mamá!</seg> con un acento que variaba en su diapasón, desde las
+                <p>Siempre estaban en pugna; siempre se le oía decir a la hija: <seg rend="italic">¡ah, qué mamá!</seg> con un acento que variaba en su diapasón, desde las
                     notas del desprecio hasta las de la ira, y era que todo, figura, carácter y
                     educación, eran disímbolos entre madre e hija.</p>
-                <p>La señora, que tuvo en sus tiempos muy buenos ojos y cierto <seg rend="italic"
-                        >chisgo</seg> nacional, un tanto provocativo, tropezó el día menos pensado
+                <p>La señora, que tuvo en sus tiempos muy buenos ojos y cierto <seg rend="italic">chisgo</seg> nacional, un tanto provocativo, tropezó el día menos pensado
                     con uno de esos Tenorios despreocupados, para quienes cada etapa de su vida está
                     marcada con una aventura amorosa. Una corta residencia en Orizaba, una tamalada
                     y un aguacero trajeron al mundo a Enriqueta, a la hija de aquella señora, para
-                    quien su propia desgracia se había convertido desde entonces en su <seg
-                        rend="italic">modus vivendi.</seg></p>
+                    quien su propia desgracia se había convertido desde entonces en su <seg rend="italic">modus vivendi.</seg></p>
                 <p>En efecto, desde que tuvo a Enriqueta la señora aquella, no tuvo por qué
                     apurarse, porque el papá de la niña la quiso mucho desde que nació, y además era
                     un señor acomodado y que tenía necesidad de cubrir las apariencias y evitar
@@ -1395,8 +1371,7 @@
                 <p>—Sí, la misma.</p>
                 <p>—Yo acabo de pagar la renta adelantada.</p>
                 <p>—En eso está la picardía. Si estos caseros son unos caribes, y por sacar dinero
-                    son capaces... pero no, mialma, que no la hagan a usted <seg rend="italic"
-                        >guaje</seg>, y si usted se impone de lo que pasa... Porque por supuesto
+                    son capaces... pero no, mialma, que no la hagan a usted <seg rend="italic">guaje</seg>, y si usted se impone de lo que pasa... Porque por supuesto
                     usted conoce á la persona que paga esta vivienda.</p>
                 <p>—No, yo no...</p>
                 <p>—¡Cómo! ¿no conoce usted a Manuelito?</p>
@@ -1758,8 +1733,7 @@
                     un pie capaz de sublevar la conciencia humana, un pie, en fin, irresistible.</p>
                 <p>Con esas botitas salió Venturita el domingo siguiente, pasando ante la fila de
                     lagartijos con una dignidad y un señorío que nadie se hubiera atrevido a pensar
-                    que aquella señorita iba buscando con el rabo del ojo un <seg rend="italic"
-                        >lagartijo</seg>, ni mucho menos que con deliberada intención le hubiera
+                    que aquella señorita iba buscando con el rabo del ojo un <seg rend="italic">lagartijo</seg>, ni mucho menos que con deliberada intención le hubiera
                     acortado una pulgada a la orla de su vestido.</p>
                 <p>Al fin dio con el lagartijo cerca de Iturbide; lo vio venir y sorprendió
                     (fingiendo no ver) como dos relámpagos, una mirada que se dirigió a los ojos y
@@ -2024,8 +1998,7 @@
                     haber adelantado lo suficiente por menospreciar a los autores de sus días, esas
                     pollas, en fin, civilizadas y pobres, están corriendo más riesgo de ser pasto de
                     los picaros que de ser señoras.</p>
-                <p>Las buenas hijas nacen para ser madres; las otras, para ser <seg rend="italic"
-                        >tenidas.</seg></p>
+                <p>Las buenas hijas nacen para ser madres; las otras, para ser <seg rend="italic">tenidas.</seg></p>
                 <p>La suerte, pues, de Enriqueta podía haberse previsto de antemano.</p>
                 <p>La <seg rend="italic">tenia</seg> don Manuel, a la sazón que nos ha venido la
                     necesidad de ocuparnos de ella, como una de las <seg rend="italic">muchachas
@@ -2055,8 +2028,7 @@
                     mismo, no podía menos de convenir, en sus ratos de profunda reflexión, en que la
                         <seg rend="italic">mexicana</seg>, como le llamaba a su desconocida, porque
                     no había podido averiguar su nombre, lo había impresionado profundamente.</p>
-                <p>Enrique Pérez, sin embargo, se complacía en lo que él llamaba <seg rend="italic"
-                        >hacer el oso a la mexicana</seg>, y no faltaba al Zócalo los domingos para
+                <p>Enrique Pérez, sin embargo, se complacía en lo que él llamaba <seg rend="italic">hacer el oso a la mexicana</seg>, y no faltaba al Zócalo los domingos para
                     verla pasar tres o cuatro veces en ese paseo de exploración que las señoras han
                     dado en hacer, siguiendo todas las curvas del jardín entre dos filas de pollos y
                     barbudos, apostados allí con la deliberada intención de escoger, o simplemente
@@ -2172,8 +2144,7 @@
                     alguien, y cuando dices <seg rend="italic">machuca</seg>, te figuras a la
                     tercera persona del singular haciendo algo inconveniente.</p>
                 <p>—¡No seas cruel, amigo mío! imploró Enrique, y por más que te rías, el señor
-                    Jiménez y yo tenemos a mucha honra considerarnos enteramente <seg rend="italic"
-                        >machucados</seg>.</p>
+                    Jiménez y yo tenemos a mucha honra considerarnos enteramente <seg rend="italic">machucados</seg>.</p>
                 <p>—<seg rend="italic">¡</seg><seg rend="italic">Machucados!</seg> exclamó Jiménez,
                     machucados; esa es la palabra.</p>
                 <p>—Y por supuesto, agregó Enrique en tono confidencial, nos presentará... y
@@ -2184,11 +2155,9 @@
                 <p>—Sólo que yo tengo mi táctica.</p>
                 <p>Nunca hago una declaración en las primeras danzas.</p>
                 <p>—¿No?</p>
-                <p>—Espero que hayan circulado las copitas, y como la chica sepa <seg rend="italic"
-                        >jalar...</seg></p>
+                <p>—Espero que hayan circulado las copitas, y como la chica sepa <seg rend="italic">jalar...</seg></p>
                 <p>—¡Hombre! exclamó el amigo de Enrique; el alcohol es un excelente auxiliar de los
-                    enamorados. Esperan el sí cuando la dama de sus pensamientos está a <seg
-                        rend="italic">media bolina.</seg></p>
+                    enamorados. Esperan el sí cuando la dama de sus pensamientos está a <seg rend="italic">media bolina.</seg></p>
                 <p>—De todo te burlas, dijo Enrique picado, y es que como las Machucas no son más
                     que dos, te has quedado sin parte.</p>
                 <p>—Y en aptitud para divertirme, viéndolos a ustedes emprender esa conquista.</p>
@@ -2197,8 +2166,7 @@
                     aunque se llama Machuca.</p>
                 <p>—Y es la más bonita, añadió Jiménez.</p>
                 <p>—Conque ¿qué dices?</p>
-                <p>—Hombre, no me parece del todo malo. En todo caso seremos tres <seg rend="italic"
-                        >machucados.</seg></p>
+                <p>—Hombre, no me parece del todo malo. En todo caso seremos tres <seg rend="italic">machucados.</seg></p>
                 <p>—Sí, sí, los tres... Pero ya se van; ya se pararon; aquí vienen.</p>
                 <p>Efectivamente, Leonor y Gumesinda pasaban frente a aquellos tres jóvenes,
                     volviendo hacia ellos la cara con mucha naturalidad, y Leonor volvió a sonreír a
@@ -2403,8 +2371,7 @@
                     a Enrique por las nubes, exagerando sobre todo su fortuna. Leonor sin más
                     reticencia se propuso hacer la conquista decididamente en el baile.</p>
                 <p>Una vecina de los cuartos bajos de la casa de vecindad que ocupaba Lupe, la madre
-                    de las criaturitas de Saldaña, se había encargado de la <seg rend="italic"
-                        >toilette</seg> de Lupe. Había sobre la mesa de comer, única en el cuarto,
+                    de las criaturitas de Saldaña, se había encargado de la <seg rend="italic">toilette</seg> de Lupe. Había sobre la mesa de comer, única en el cuarto,
                     una lata de sardinas (consumidas hacía muchos años) con agua de la tinaja, una
                     escobeta formada de filamentos de maguey, y un peine al que le quedaban todavía
                     algunos dientes.</p>
@@ -2418,16 +2385,14 @@
                     entrado en la moda del <seg rend="italic">burrito,</seg> lo primero que hizo fue
                     pelar a Lupe.</p>
                 <p>Hecha la tonsura, resultó sobre la frente de Lupe una especie de brocha mojada en
-                    humo de ocote, porque el pelo de Lupe, además de tener un <seg rend="italic"
-                        >negro recamarera</seg> muy pronunciado, era además tan rebelde como los
+                    humo de ocote, porque el pelo de Lupe, además de tener un <seg rend="italic">negro recamarera</seg> muy pronunciado, era además tan rebelde como los
                     filamentos de maguey de la escobeta. Entre la escobeta, la brocha, Lupe y la
                     vecina, se emprendió una verdadera campaña; se acabó dos veces el agua de la
                     lata de sardinas, y el cuero cabelludo de la víctima comenzaba a resentirse del
                     tratamiento, y se pensó en un emoliente. La vecina mandó a la barbería de la
                     misma calle a un muchacho que le pidiera a don Carmen cuartilla de pomada de
                     toronjil o de canela.</p>
-                <p>Volvió a poco el muchacho deleitándose con aquel <seg rend="italic"
-                        >Opoponax</seg> de cuartito, que don Carmen el barbero, a falta de otra
+                <p>Volvió a poco el muchacho deleitándose con aquel <seg rend="italic">Opoponax</seg> de cuartito, que don Carmen el barbero, a falta de otra
                     cosa, había embarrado en un papel.</p>
                 <p>La pomada fue insuficiente para quebrar aquellos cabellos rebeldes, acostumbrados
                     además a una tensión de veintitantos años. No había modo de que bajaran a la
@@ -2448,8 +2413,7 @@
                     vestido azul del empeño podía entrar a su lugar.</p>
                 <p>Lupe no era de un trigueño tan subido que rechazara una mano de gato. La vecina
                     la embadurnó de polvo, y Lupe empezaba a animarse como la estatua de Pigmalión,
-                    empezaba a desprenderse del cuadro; rejuvenecía y se <seg rend="italic"
-                        >elegantizaba,</seg> formando contraste con el cuarto, con el menaje y con
+                    empezaba a desprenderse del cuadro; rejuvenecía y se <seg rend="italic">elegantizaba,</seg> formando contraste con el cuarto, con el menaje y con
                     las criaturitas de Saldaña.</p>
                 <p>Una vez bien ajustado el vestido azul del empeño, la vecina fue a su vivienda
                     para traer una flor artificial, que ya había servido a varias vecinas cuando,
@@ -2512,8 +2476,7 @@
                 <p>—Bueno; pero yo lo decía por el vestido.</p>
                 <p>—El vestido ha costado algunos pesos.</p>
                 <p>—¡Vaya! ¡Cómo no! ¡si es de puro raso!</p>
-                <p>—Y del bueno, dijo otra, porque hay rasos hasta seis <seg rend="italic"
-                        >riales,</seg> y éste no.</p>
+                <p>—Y del bueno, dijo otra, porque hay rasos hasta seis <seg rend="italic">riales,</seg> y éste no.</p>
                 <p>—Ande usted, mialma, que se está haciendo tarde, ya dieron cuánto ha las
                     ocho.</p>
                 <p>—Pues a la hora que usted disponga, dijo don Lucio.</p>
@@ -2528,8 +2491,7 @@
                     estaba en calle apartada, Saldaña estaba seguro de que nadie lo conocería en el
                     baile.</p>
                 <p>Cuando Lupe estuvo perfectamente ataviada, y vista por las vecinas, se puso en
-                    los hombros un tápalo negro, y se cubrió cuidadosamente la cabeza con una <seg
-                        rend="italic">salida de teatro,</seg> de estambre blanco. Después de dejar
+                    los hombros un tápalo negro, y se cubrió cuidadosamente la cabeza con una <seg rend="italic">salida de teatro,</seg> de estambre blanco. Después de dejar
                     muy recomendadas a sus criaturitas con una vecina, cerró su cuarto, y
                     levantándose la falda azul con ambas manos y pisando de puntitas sobre el
                     sinuoso pavimento del patio, se encaminó al zaguán, seguida por las vecinas y
@@ -2540,8 +2502,7 @@
                 <p>Por fin se encontró en la calle, del brazo de su acompañante, y en camino para el
                     baile.</p>
                 <p>Desde las ocho de la noche comenzó Saldaña a encender las velas de la sala,
-                    mientras Matilde, Bartolita y su marido hacían su <seg rend="italic"
-                        >toilette.</seg> La cocina estaba atestada de criados, que se veían los unos
+                    mientras Matilde, Bartolita y su marido hacían su <seg rend="italic">toilette.</seg> La cocina estaba atestada de criados, que se veían los unos
                     y los otros por la primera vez.</p>
                 <p>—Yo no sé si nos debemos ir, decía una fregatriz, envuelta la cabeza en un rebozo
                     remendado, <seg rend="italic">onde</seg> que ha fregado una todo el día, que
@@ -2562,8 +2523,7 @@
                 <p>—Y luego que ni <seg rend="italic">pa</seg> un trago de pulque nos han dado.</p>
                 <p>—Yo, gracias a Dios, <seg rend="italic">traila</seg> medio y tres tlacos de lo
                     mío.</p>
-                <p>—¡Dichosa usted! que yo me vine sin blanca, y como una viene <seg rend="italic"
-                        >aucionada</seg> a su trabajo...</p>
+                <p>—¡Dichosa usted! que yo me vine sin blanca, y como una viene <seg rend="italic">aucionada</seg> a su trabajo...</p>
                 <p>—¿Pos qué tienen <seg rend="italic">ora</seg> sed? preguntó con cierta intención
                     erótica el más joven de los garbanceros, y acercándose mucho a las dos
                     fregatrices, que acurrucadas en el suelo y en posturas de ídolos aztecas hacían
@@ -2585,8 +2545,7 @@
                     de boca que, traducida elocuentemente por el pretendiente, es como si ella
                     dijera: «no sea usted malo,» «yo soy muy recatada,» «esas cosas me ruborizan,»
                     etc., etc.</p>
-                <p>Si la fregatriz hubiera contestado a secas que tenía o que no tenía sed, el <seg
-                        rend="italic">garbancero</seg> hubiera dado la vuelta indiferente; pero como
+                <p>Si la fregatriz hubiera contestado a secas que tenía o que no tenía sed, el <seg rend="italic">garbancero</seg> hubiera dado la vuelta indiferente; pero como
                     la mujer dijo: «¡Pos no!» y se arrebujó, volviendo la cara, fue aquel el momento
                     supremo en que el doméstico comprendió toda la inmensidad de su dicha.</p>
                 <p>Para realizarla, se dirigió a un camarada, a un criado alquilado por Saldaña y de
@@ -2601,8 +2560,7 @@
                 <p>—Pero a mí don Saldaña me ha entregado ¿todo por cuenta, y no vaya a decir...</p>
                 <p>—No, ¡qué ha de decir! Ni <seg rend="italic">ónde</seg> va a echar de menos una
                     botella.</p>
-                <p>—Pos... replicó el alquilado, rascándose la cabeza. Lo que es necesario es <seg
-                        rend="italic">tantiar</seg> y...</p>
+                <p>—Pos... replicó el alquilado, rascándose la cabeza. Lo que es necesario es <seg rend="italic">tantiar</seg> y...</p>
                 <p>—<seg rend="italic">Misté...</seg> y <seg rend="italic">paqué</seg> es más que la
                     verdad. Yo no sé cómo se vino entre el zacate esta botellita, dijo llevándose al
                     vale a la azotehuela.</p>
@@ -2675,14 +2633,12 @@
                     una señora se dirigieron a ella.</p>
                 <p>Aquella señora, la primera que había llegado, era nada menos que Lupe, la madre
                     de las criaturitas. Las recién venidas fueron poniendo la punta de los dedos de
-                    la mano derecha en el hombro izquierdo de Lupe, murmurando <seg rend="italic"
-                        >buenas noches</seg> o un <seg rend="italic">cómo está usted,</seg> más
+                    la mano derecha en el hombro izquierdo de Lupe, murmurando <seg rend="italic">buenas noches</seg> o un <seg rend="italic">cómo está usted,</seg> más
                     confuso que atento. Cada una de las que hacía aquello, se sentaba en seguida, y
                     cuando había cosa de seis, entraron otras, quienes a su vez hacían eso de los
                     dedos de la mano derecha con las demás hasta encontrar silla vacía. No habían
                     llegado a encontrarse dos conocidas; de manera que aquellos símbolos de abrazo,
-                    y aquellas frases de <seg rend="italic">cómo está usted</seg> y <seg
-                        rend="italic">buenas noches,</seg> eran cada vez más de pacotilla, al grado
+                    y aquellas frases de <seg rend="italic">cómo está usted</seg> y <seg rend="italic">buenas noches,</seg> eran cada vez más de pacotilla, al grado
                     que parecía que aquellas gentes no se saludaban, sino se olían. Tenía, en
                     efecto, aquella ceremonia más de canina que de social; tanto que cuando ya había
                     más de diez señoras, las recién venidas no se encontraban con ánimo de dar diez
@@ -2901,8 +2857,7 @@
                 <p>—¿Conque les parece a ustedes bueno el coñac?... dijo Saldaña sin poder disimular
                     su ira.</p>
                 <p>—¡Oh, excelente! dijo un pollo bebiéndose una segunda copa.</p>
-                <p>—Pero si no tomas algo, se te sube, le dijo otro pollo, toma este <seg
-                        rend="italic">sandwich.</seg></p>
+                <p>—Pero si no tomas algo, se te sube, le dijo otro pollo, toma este <seg rend="italic">sandwich.</seg></p>
                 <p>—¿Es de jamón?</p>
                 <p>—Sí, ¿quieres otro?</p>
                 <p>—No.</p>
@@ -2931,8 +2886,7 @@
                 <p>—Vamos, señores, dijo Saldaña sin ser apenas oído, y viendo que la langosta
                     estaba en plena posesión de todo lo comible. Es necesario que las señoras tomen
                     algo.</p>
-                <p>—Bueno, yo me comisiono, dijo un pollo tragándose medio <seg rend="italic"
-                        >panqué</seg>.</p>
+                <p>—Bueno, yo me comisiono, dijo un pollo tragándose medio <seg rend="italic">panqué</seg>.</p>
                 <p>Saldaña, con una confianza de tendero, con el desparpajo del despecho, y con el
                     mal modo del cansancio, volteó sobre una gran charola toda una canasta de
                     pasteles, que cayeron, como debe suponerse, en lastimoso desorden.</p>
@@ -2947,8 +2901,7 @@
                 <p>—Si todas beben, chico. Ya lo verás.</p>
                 <p>—No seas hablador.</p>
                 <p>—A la prueba, chico; ya verás qué pocas son las que prefieren vino.</p>
-                <p>Seguidos de otros dos jóvenes que llevaban botellas, para <seg rend="italic"
-                        >refaccionar,</seg> según ellos decían, salieron los de las copas,
+                <p>Seguidos de otros dos jóvenes que llevaban botellas, para <seg rend="italic">refaccionar,</seg> según ellos decían, salieron los de las copas,
                     precedidos por Saldaña, que iba abriéndose paso entre la multitud agrupada en
                     las recámaras.</p>
                 <p>Difícilmente podían circular los obsequiantes a espaldas de los que bailaban, y
@@ -2972,12 +2925,10 @@
                     estaba en todo, había corrido a la cocina gritando:</p>
                 <p>—¡A ver acá! ¡una con un trapo para limpiar la alfombra!</p>
                 <p>—Vaya usted, doña Pachita, dijo una de las fregatrices que había repetido la
-                    ración de anisete; vaya usted, que es de la casa, porque nosotras <seg
-                        rend="italic">sernos</seg> extraordinarias.</p>
+                    ración de anisete; vaya usted, que es de la casa, porque nosotras <seg rend="italic">sernos</seg> extraordinarias.</p>
                 <p>Entró Francisca a la sala con un trapo mojado en la mano, pero en señal de
                     respeto se puso el rebozo y se cubrió con él la cabeza.</p>
-                <p>Francisca era lo que se llama, propia o impropiamente, un <seg rend="italic"
-                        >garbanzo:</seg> un poco relamida y menos desaseada que la generalidad del
+                <p>Francisca era lo que se llama, propia o impropiamente, un <seg rend="italic">garbanzo:</seg> un poco relamida y menos desaseada que la generalidad del
                     gremio. Usaba las consabidas enaguas de percal tocando al suelo, un saco holgado
                     de la misma tela y el nacional rebozo.</p>
                 <p>Las primeras familias de los conquistadores que venían a tomar asiento en las
@@ -2991,8 +2942,7 @@
                     importaba, pues, entre otras muchas cosas para su regalo, los garbanzos que por
                     muchos años han seguido viniendo de la madre España, no obstante su fácil
                     aclimatación y cultivo en México. El indio, pues, que además de chapurrear el
-                    idioma de los blancos, comía de los garbanzos del amo, se llamó <seg
-                        rend="italic">garbancero,</seg> en señal de desprecio patriótico; y este
+                    idioma de los blancos, comía de los garbanzos del amo, se llamó <seg rend="italic">garbancero,</seg> en señal de desprecio patriótico; y este
                     mote, perpetuado hace trescientos años, se ha vuelto sustantivo con el uso, para
                     aplicarlo con doble maliciosa intención a la criada joven. De tal manera, que si
                     la Academia de la lengua hubiera de prohijar los modismos de las antiguas
@@ -3001,8 +2951,7 @@
                     aplicaciones:</p>
                 <p>«Garbancero: pr. Méx., criado doméstico de la clase indígena, o bien mestiza, que
                     habla castellano y come garbanzos.»</p>
-                <p>«Garbanzo: criada joven con las mismas circunstancias que el <seg rend="italic"
-                        >garbancero</seg>.»</p>
+                <p>«Garbanzo: criada joven con las mismas circunstancias que el <seg rend="italic">garbancero</seg>.»</p>
                 <p>Por otra parte, no necesitamos especificar ni explicar el enlace ideológico que
                     existe entre <seg rend="italic">garbanzo</seg> y <seg rend="italic">pollo,</seg>
                     porque esas analogías pertenecen a la vida estrictamente privada; pero no
@@ -3036,8 +2985,7 @@
                 <p>Desde el momento en que la primera parvada de pollos cayó sobre el comedor, la
                     concurrencia tuvo sobre los pasteles la perseverancia voraz de la langosta. Este
                     acridio cae sobre todo lo verde hasta hacerlo desaparecer, porque tal es su
-                    misión destructora, y aquella gente, que había invadido el <seg rend="italic"
-                        >sancta sanctorum</seg> de Saldaña, parecía llevar la misión de agotar todo
+                    misión destructora, y aquella gente, que había invadido el <seg rend="italic">sancta sanctorum</seg> de Saldaña, parecía llevar la misión de agotar todo
                     lo arinoso y todo lo líquido.</p>
                 <p>Había algunas personas serias que desde la puerta se entretuvieron en contemplar
                     aquella obra de destrucción, y observaron que muchos jóvenes se habían instalado
@@ -3253,9 +3201,7 @@
                 <p>—¡¡Un herido!!</p>
                 <p>—¡¡¡Un matado!!!</p>
                 <p>Así llegó la noticia a la cocina: ¡Un matado!</p>
-                <p>—¡Ave María Purísima! exclamó la cocinera; son esos <seg rend="italic"
-                        >rotos</seg> de mis pecados que ya se <seg rend="italic"
-                        >entrompetaron.</seg></p>
+                <p>—¡Ave María Purísima! exclamó la cocinera; son esos <seg rend="italic">rotos</seg> de mis pecados que ya se <seg rend="italic">entrompetaron.</seg></p>
                 <p><seg rend="italic">—¿Ora</seg> qué hacemos, doña Pachita?</p>
                 <p>—Pero, ¿quién es el muerto?</p>
                 <p>—Dicen que se llama el niño Perico.</p>
@@ -3415,8 +3361,7 @@
                 <p>Ya serían las tres de la mañana, y hasta esas horas no pudo el pobre coronel
                     ponerse sus botines viejos. Estaba enteramente cojo, y evitaba por todos los
                     medios posibles moverse de un asiento.</p>
-                <p>Matilde bailó mucho, y se asustó poco, y doña Bartolita estaba con un <seg
-                        rend="italic">flato</seg> espantoso, le apretaba todo, y lo que quería era
+                <p>Matilde bailó mucho, y se asustó poco, y doña Bartolita estaba con un <seg rend="italic">flato</seg> espantoso, le apretaba todo, y lo que quería era
                     que aquello se acabara pronto.</p>
                 <p>La vela de la cocina se había apagado, y la servidumbre dormía a favor de las
                     tinieblas; y como tras del anisete había venido el coñac y el champagne y
@@ -3604,8 +3549,7 @@
                     cuentas, que aumentadas con las de gastos imprevistos por roturas y destrozos,
                     acabaron con el dinero contante. El coronel quedó endrogado.</p>
                 <p>Don Lucio, como se lo había dicho Saldaña, cargó con un gran canasto con
-                    botellas, latas, pasteles, queso y cuanto encontró digno de llamarle <seg
-                        rend="italic">frioleras</seg> para sus criaturitas. Don Lucio, Saldaña y
+                    botellas, latas, pasteles, queso y cuanto encontró digno de llamarle <seg rend="italic">frioleras</seg> para sus criaturitas. Don Lucio, Saldaña y
                     Lupe, y los niños, comieron juntos al día siguiente hasta reventar.</p>
                 <p>Las niñas de la Alberca Pane no se refrescaron ese domingo; acariciaban el calor
                     del baile para aprovecharlo todo. Habían bailado mucho con sus novios.</p>

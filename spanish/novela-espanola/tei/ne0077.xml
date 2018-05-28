@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"/>
 				<title type="short">Pazos</title>
 				<title type="idno">
-					<idno type="viaf">201886382</idno></title>
+					<idno type="bne">XX2120601</idno>
+					<idno type="viaf">201886382</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1104029</idno>
 					<idno type="viaf">51699645</idno>
 					<name type="short">Bazan</name>
 					<name type="full">Emilia Pardo Bazán</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1419</measure>
-				<measure unit="divs">32</measure>
-				<measure unit="words">83782</measure>
-				<measure unit="chars">491652</measure>
-				<measure unit="size_kb">526</measure>
+				<measure unit="lines">1424</measure>
+				<measure unit="divs">33</measure>
+				<measure unit="tokens">83786</measure>
+				<measure unit="chars">491681</measure>
+				<measure unit="size_kb">527</measure>
 
 				<measure unit="chapters">30</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">2</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1327</measure> 
-				<measure unit="line_verses">4</measure> 
+				<measure unit="blocks">1328</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">4</measure> 
 				<measure unit="heads">32</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1290</measure> 
+				<measure unit="paragraphs">1291</measure> 
 				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">714</measure> 
-				<measure unit="numbers">5</measure> 
-				<measure unit="puncts">17684</measure>
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">711</measure>
+				<measure unit="saids">899</measure>
+				<measure unit="narrative.ps">580</measure>
+				<measure unit="ss">4301</measure> 
+				<measure unit="numbers">6</measure> 
+				<measure unit="puncts">17686</measure> 
+				<measure unit="len.abstract">6643</measure>
+
+				<measure unit="types">15554</measure>
+
+				<measure unit="ss">2937</measure>
+				<measure unit="ss.len.mean">172.50868232890704</measure>
+				<measure unit="ss.len.std">152.85076766871478</measure>
+				<measure unit="mean.ss.active.verbs">2.7116104868913857</measure>
+				<measure unit="std.ss.active.verbs">2.50316341105483</measure>
+
+				<measure unit="ws">100285</measure>
+				<measure unit="ws.len.mean">4.081467816722341</measure>
+				<measure unit="ws.len.std">2.966715370425649</measure>
+
+				<measure unit="conjunctions">5832</measure>
+				<measure unit="determiners">13191</measure>
+				<measure unit="nouns">19896</measure>
+				<measure unit="verbs">15005</measure>
+				<measure unit="adverbs">4866</measure>
+				<measure unit="adjectives">5123</measure>
+				<measure unit="adpositions">12736</measure>
+				<measure unit="punctuations">15573</measure>
+				<measure unit="pronouns">7556</measure>
+				<measure unit="dates">18</measure>
+				<measure unit="numbers">340</measure>
+				<measure unit="interjections">149</measure>
+
+				<measure unit="ne.persons">1533</measure>
+				<measure unit="ne.organizations">368</measure>
+				<measure unit="ne.locations">495</measure>
+				<measure unit="ne.others">135</measure>
+
+				<measure unit="wnlex.noun.plants">169</measure>
+				<measure unit="wnlex.verb.communications">1392</measure>
+				<measure unit="wnlex.noun.foods">462</measure>
+				<measure unit="wnlex.verb.possessions">620</measure>
+				<measure unit="wnlex.verb.cognitions">921</measure>
+				<measure unit="wnlex.noun.communications">929</measure>
+				<measure unit="wnlex.noun.states">461</measure>
+				<measure unit="wnlex.verb.statives">2899</measure>
+				<measure unit="wnlex.noun.cognitions">748</measure>
+				<measure unit="wnlex.noun.times">520</measure>
+				<measure unit="wnlex.verb.bodys">645</measure>
+				<measure unit="wnlex.noun.persons">2528</measure>
+				<measure unit="wnlex.adj.alls">3397</measure>
+				<measure unit="wnlex.noun.quantitys">84</measure>
+				<measure unit="wnlex.noun.phenomenons">181</measure>
+				<measure unit="wnlex.verb.creations">620</measure>
+				<measure unit="wnlex.adj.perts">148</measure>
+				<measure unit="wnlex.adv.alls">1698</measure>
+				<measure unit="wnlex.noun.processs">64</measure>
+				<measure unit="wnlex.noun.artifacts">1881</measure>
+				<measure unit="wnlex.verb.perceptions">703</measure>
+				<measure unit="wnlex.noun.feelings">338</measure>
+				<measure unit="wnlex.verb.weathers">89</measure>
+				<measure unit="wnlex.noun.substances">270</measure>
+				<measure unit="wnlex.noun.shapes">75</measure>
+				<measure unit="wnlex.verb.competitions">143</measure>
+				<measure unit="wnlex.verb.motions">1359</measure>
+				<measure unit="wnlex.noun.animals">379</measure>
+				<measure unit="wnlex.noun.acts">1100</measure>
+				<measure unit="wnlex.noun.bodys">1079</measure>
+				<measure unit="wnlex.noun.objects">329</measure>
+				<measure unit="wnlex.noun.motives">24</measure>
+				<measure unit="wnlex.verb.socials">919</measure>
+				<measure unit="wnlex.noun.groups">515</measure>
+				<measure unit="wnlex.verb.consumptions">223</measure>
+				<measure unit="wnlex.noun.possessions">115</measure>
+				<measure unit="wnlex.noun.Topss">263</measure>
+				<measure unit="wnlex.noun.relations">19</measure>
+				<measure unit="wnlex.noun.attributes">937</measure>
+				<measure unit="wnlex.verb.emotions">341</measure>
+				<measure unit="wnlex.noun.locations">380</measure>
+				<measure unit="wnlex.noun.events">445</measure>
+				<measure unit="wnlex.verb.contacts">907</measure>
+				<measure unit="wnlex.xxxs">68045</measure>
+				<measure unit="wnlex.verb.changes">921</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -72,58 +158,62 @@
 				<p>El cura retorna a Santiago y es destinado a una aldea rural en Galicia, donde unos años después recibe noticias de la muerte de Nucha. Años más tarde Don Julián recibe órdenes de volver a los Pazos de nuevo. Nada más llegar visita la tumba de Nucha. Cuando está rezando en el cementerio aparecen Perucho y Manolita. El cura se asombra al observar que Perucho va bien vestido mientras que Manolita va casi descalza.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					
-					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">female</term>
-					<term type="author-date-birth">1851</term>
-					<term type="author-date-death">1921</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">45</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1888</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Pazos de Ulloa</term><!--also Santiago de Compostela-->
-					<term type="setting-territory">Galicia</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Julián Álvarez</term>
-					<term type="protagonist-profession">religious</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">4320</term>
-					<term type="group-text">novelas naturalistas</term>
-					<term type="subgroup-text">ciclo de Pazos de Ulloa</term>					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">5.0</term>
-					<term type="text-TOC-range">6</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="high">
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1851</term>
+					<term type="author.date.death">1921</term>
+					<term type="author.gender">female</term>
+					<term type="author.litHist.pages" resp="MdL7">45</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.year.change">1888</term>
+					<term type="authorText.group">novelas naturalistas</term>
+					<term type="authorText.relation">none</term>
+					<term type="authorText.subgroup">ciclo de Pazos de Ulloa</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Julián Álvarez</term>
+					<term type="text.characters.protagonist.profession">religious</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Antologías; Saga familiar, Ficción clásica; Ficción clásica; Ficción clásica; Libros escolares; Literatura y ficción, Literatura y ficción</term>
+					<term type="text.genre.subgenre.edit" resp="esdbpedia">Naturalismo</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Realista</term>
+					<term type="text.genre.subgenre.edit" resp="wikidata">naturalism</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="HdLE">novela naturalista</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela naturalista</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">6</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">5.0</term>
+					<term type="text.movement">naturalista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Galicia</term>
+					<term type="text.setting.settlement">Pazos de Ulloa</term><!--also Santiago de Compostela-->
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory">Galicia</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low">4320</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -1104,7 +1194,7 @@
 					<p>-Aquí está el arcón... Que me lo suban después...</p>
 					<p>Salió muy animada, satisfecha de su resolución, vencedora en la lucha cuerpo a cuerpo con el caserón que la asustaba. Al subir otra vez por la escalerilla, volvió a sobrecogerla el fragor de un trueno más hondo, poderoso y cercano que los anteriores. ¡Era preciso encender la vela del Santísimo y rezar el Trisagio!</p>
 					<p>Así lo hicieron al punto. La vela fue colocada sobre la cómoda de Nucha: un cirio bastante largo aún, de cera color de naranja, con muchas lágrimas y un pábilo que chisporroteaba y no acababa de arder. Antes de arrodillarse, cerraron las maderas de la ventana, para evitar que la ojeada fulgurante del relámpago les deslumbrase a cada minuto. Rugía con creciente ira el viento, y la tronada se había situado sobre los Pazos, oyéndose su estruendo lo mismo que si corriese por el tejado un escuadrón de caballos a galope o si un gigante se entretuviese en arrastrar un peñasco y llevarlo a tumbos por encima de las tejas. ¡Con cuánto fervor empezó el capellán a guiar el Trisagio misterioso! Anonadándose ante la cólera divina, cuya violencia sacudía y hacía retemblar a los Pazos como si fuesen una choza, pronunciaba:</p>
-					<lg>
+					<lg type="poem">
 						<l>De la subitánea muerte</l>
 						<l>del rayo y de la centella</l>
 						<l>libra este Trisagio, y sella</l>

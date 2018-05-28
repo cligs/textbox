@@ -22,13 +22,17 @@ This collection is a subset of the _Théâtre classique_ collection published by
 * See <https://github.com/cligs/theatreclassique> for a larger number of plays derived from the <em>Théâtre classique</em> collection and transformed to TEI P5.
 
 
+The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+
+The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
 ## Formats 
 
 * Note that all plays have filenames following the pattern "author_short-title_id". 
 * All plays are available as XML-TEI P5, which is the master format (folder "tei")
 * Plays are also available as plain text versions, containing speaker text only (folder "txt")
-* Plays are also available in a tagged version (part of speech and lemmata) based on the the PRESTO model for TreeTagger (folder "trt")
-* Finally, the plays are available in the "zwischenformat", an abstraction of the full text containing data relevant to network analysis of plays (folder "zf")
+* Plays are also available in a tagged version (part of speech and lemmata) based on the the PRESTO model for TreeTagger (folder "annotated")
+* Finally, the plays are available in the "zwischenformat", an abstraction of the full text containing data relevant to network analysis of plays (folder "zwischenformat")
 
 ## License and Citation
 

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">La bodega</title>
 				<title type="sub">Novela</title>
 				<title type="short">Bodega</title>
-				<title type="idno"><idno type="viaf">207945635</idno></title>
+				<title type="idno">
+					<idno type="bne">XX1892690</idno>
+					<idno type="viaf">207945635</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1028057</idno>
 					<idno type="viaf">73848096</idno>
 					<name type="short">BlascoIbanez</name>
 					<name type="full">Vicente Blasco Ibáñez</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1983</measure>
-				<measure unit="divs">10</measure>
-				<measure unit="words">100190</measure>
-				<measure unit="chars">586127</measure>
-				<measure unit="size_kb">625</measure>
+				<measure unit="lines">1988</measure>
+				<measure unit="divs">11</measure>
+				<measure unit="tokens">100190</measure>
+				<measure unit="chars">586135</measure>
+				<measure unit="size_kb">626</measure>
 
 				<measure unit="chapters">10</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
 				<measure unit="blocks">1945</measure> 
-				<measure unit="line_verses">8</measure> 
+				<measure unit="lg.poems">3</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">8</measure> 
 				<measure unit="heads">10</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">1927</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">566</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">566</measure>
+				<measure unit="saids">782</measure>
+				<measure unit="narrative.ps">1361</measure>
+				<measure unit="ss">5246</measure> 
 				<measure unit="numbers">6</measure> 
-				<measure unit="puncts">18191</measure>
+				<measure unit="puncts">18191</measure> 
+				<measure unit="len.abstract">871</measure>
+
+				<measure unit="types">14187</measure>
+
+				<measure unit="ss">4251</measure>
+				<measure unit="ss.len.mean">141.66407904022583</measure>
+				<measure unit="ss.len.std">103.32395481628537</measure>
+				<measure unit="mean.ss.active.verbs">2.0522230063514466</measure>
+				<measure unit="std.ss.active.verbs">1.642645513891301</measure>
+
+				<measure unit="ws">118309</measure>
+				<measure unit="ws.len.mean">4.126110439611526</measure>
+				<measure unit="ws.len.std">2.971045093155982</measure>
+
+				<measure unit="conjunctions">6338</measure>
+				<measure unit="determiners">18740</measure>
+				<measure unit="nouns">24275</measure>
+				<measure unit="verbs">17264</measure>
+				<measure unit="adverbs">3857</measure>
+				<measure unit="adjectives">5550</measure>
+				<measure unit="adpositions">16358</measure>
+				<measure unit="punctuations">16990</measure>
+				<measure unit="pronouns">8468</measure>
+				<measure unit="dates">43</measure>
+				<measure unit="numbers">282</measure>
+				<measure unit="interjections">144</measure>
+
+				<measure unit="ne.persons">1731</measure>
+				<measure unit="ne.organizations">342</measure>
+				<measure unit="ne.locations">639</measure>
+				<measure unit="ne.others">103</measure>
+
+				<measure unit="wnlex.noun.plants">106</measure>
+				<measure unit="wnlex.verb.communications">1486</measure>
+				<measure unit="wnlex.noun.foods">457</measure>
+				<measure unit="wnlex.verb.possessions">623</measure>
+				<measure unit="wnlex.verb.cognitions">1097</measure>
+				<measure unit="wnlex.noun.communications">1146</measure>
+				<measure unit="wnlex.noun.states">665</measure>
+				<measure unit="wnlex.verb.statives">3686</measure>
+				<measure unit="wnlex.noun.cognitions">1000</measure>
+				<measure unit="wnlex.noun.times">784</measure>
+				<measure unit="wnlex.verb.bodys">720</measure>
+				<measure unit="wnlex.noun.persons">3361</measure>
+				<measure unit="wnlex.adj.alls">3946</measure>
+				<measure unit="wnlex.noun.quantitys">162</measure>
+				<measure unit="wnlex.noun.phenomenons">235</measure>
+				<measure unit="wnlex.verb.creations">809</measure>
+				<measure unit="wnlex.adj.perts">175</measure>
+				<measure unit="wnlex.adv.alls">1221</measure>
+				<measure unit="wnlex.noun.processs">80</measure>
+				<measure unit="wnlex.noun.artifacts">2054</measure>
+				<measure unit="wnlex.verb.perceptions">876</measure>
+				<measure unit="wnlex.noun.feelings">698</measure>
+				<measure unit="wnlex.verb.weathers">65</measure>
+				<measure unit="wnlex.noun.substances">251</measure>
+				<measure unit="wnlex.noun.shapes">73</measure>
+				<measure unit="wnlex.verb.competitions">155</measure>
+				<measure unit="wnlex.verb.motions">1543</measure>
+				<measure unit="wnlex.noun.animals">332</measure>
+				<measure unit="wnlex.noun.acts">1468</measure>
+				<measure unit="wnlex.noun.bodys">971</measure>
+				<measure unit="wnlex.noun.objects">485</measure>
+				<measure unit="wnlex.noun.motives">20</measure>
+				<measure unit="wnlex.verb.socials">953</measure>
+				<measure unit="wnlex.noun.groups">949</measure>
+				<measure unit="wnlex.verb.consumptions">229</measure>
+				<measure unit="wnlex.noun.possessions">164</measure>
+				<measure unit="wnlex.noun.Topss">288</measure>
+				<measure unit="wnlex.noun.relations">36</measure>
+				<measure unit="wnlex.noun.attributes">1263</measure>
+				<measure unit="wnlex.verb.emotions">720</measure>
+				<measure unit="wnlex.noun.locations">591</measure>
+				<measure unit="wnlex.noun.events">514</measure>
+				<measure unit="wnlex.verb.contacts">840</measure>
+				<measure unit="wnlex.xxxs">80045</measure>
+				<measure unit="wnlex.verb.changes">965</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -64,58 +151,59 @@
 				<p>A la postre, los trabajadores rebeldes son aplastados y deciden buscar las mejoras por la vía de la concordia. EL pesimismo de la derrota queda paliado por las consideraciones finales de Salvatierra que, seguro de que al final triunfará la revolución, pone su esperanza en las ciudades, que no van a dejarse engañar por el falso consuelo del vino.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1867</term>
-					<term type="author-date-death">1928</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">23</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1909</term>
-					
-					
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">novela</term>
-					
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">small-city</term>
-					<term type="protagonist-gender">male</term>
-					
-					<term type="subgenre-lithist" cert="high" resp="#jct" subtype="3">novela social</term>
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Jerez</term>
-					<term type="setting-territory">Andalucía</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Fernando Salvatierra</term>
-					<term type="protagonist-profession">worker</term>
-					<term type="protagonist-social-level">low</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" resp="#jct">150</term>
-					<term type="group-text">novelas sociales</term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">partial negative</term>
-					<term type="text-movement">social-realista</term>
-					<term type="text-histlit-pages">1.0</term>
-					<term type="text-TOC-range">4</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1867</term>
+					<term type="author.date.death">1928</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL9">23</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.year.change">1909</term>
+					<term type="authorText.group">novelas sociales</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Fernando Salvatierra</term>
+					<term type="text.characters.protagonist.profession">worker</term>
+					<term type="text.characters.protagonist.socLevel">low</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Antologías; Ficción clásica</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Drama, Realista</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="HdLE">novela social</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela social</term>
+					<term type="text.genre.subtitle">novela</term>
+					<term type="text.genre.subtitle.source" resp="bne">novela</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE9">1.0</term>
+					<term type="text.movement">social-realista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">partial negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Jerez</term>
+					<term type="text.setting.settlement">Jerez</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">small-city</term>
+					<term type="text.setting.territory">Andalucía</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low" resp="#jct">150</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -785,7 +873,7 @@
 				<p>—No, tonta; esto no es más que un dicir. ¡Qué he de ir yo a aquel sitio de penas! Donde iré es a la gloria, casándome con mi riuseñor moreno, llevándomelo al nidito de Matanzuela... Pero ¡ay, niña! ¡Lo que yo sufrí desde aquel día! ¡Las penitas que pasé para decirte «te quiero»! Venía a Marchamalo por las tardes cuando había hecho buen alijo, con una porción de indirectas bien preparás para que me comprendieses, y tú ¡ná! como si fueses la Dolorosa, que mira lo mismo en Semana Santa que en el resto del año.</p>
 				<p>—Pero, ¡bobito! ¡Si te calé desde el primer momento! ¡Si adivinaba el querer que me tenías y estaba muy alegre! Pero mi obligasión era disimulá. Una mocita no debe meterse por los ojos pa que le digan «te quiero». Eso no es decente.</p>
 				<p>—¡Calla, mal corazón! ¡Poquito que me hiciste sufrir en aquella temporá!... Yegaba en mi jaca, después de haber ido en la sierra a tiros con los del resguardo, y lo mismo era verte que abrírseme las entrañas con un miedo que me hacía temblar. «Le diré esto, le diré lo otro». Y verte y no icirte na, too era lo mismo. Se me trababa la lengua, se me hacía de noche dentro del caletre, como cuando iba a la escuela; tenía miedo de que te ofendieras y que el padrino me diese encima unos cuantos palos con una tranca, disiéndome: «¡Arre allá, so sinvergüensa!», lo mismo que cuando se mete en la viña un perro vagabundo... Por fin, salió la cosa. ¿Te acuerdas? Algo costó, pero nos entendimos. Fue dimpués der balazo, cuando tú me cuidabas como una marecita y por las tardes hacíamos nuestro poquito de cante ahí cerca, bajo los arcadas. El padrino tañía la guitarra y yo, sin saber cómo, me arranqué por <seg rend="italic">martinetes</seg>, con los ojos fijos en los tuyos, como si fuese a comérmelos:</p>
-				<lg>
+				<lg type="poem">
 					<l>Fragua, yunque y martillo</l>
 					<l>Rompen los metales,</l>
 					<l>Pero este cariño que yo te tengo</l>
@@ -1072,7 +1160,7 @@
 				<p>La gente estaba lo mismo, como si el líquido se hubiera derramado en el suelo: solamente el tocador rasgueaba con más fuerza y los demás batían palmas con una agitación loca, gritando a un tiempo para jalear al viejo bailarín. El respetable padre de las <seg rend="italic">Moñotieso</seg>, abriendo la boca desdentada y negra con femeniles gritos, movía sus caderas descarnadas, hundiendo el vientre para hacer surgir con mayor relieve la parte opuesta. Sus mismas hijas celebraban con grandes risotadas estos alardes de una vejez envilecida.</p>
 				<p>—¡Olé, grasioso!...</p>
 				<p>El anciano seguía bailando como una caricatura femenil entre las lúbricas excitaciones que le dirigía la <seg rend="italic">Marquesita</seg>.</p>
-				<lg>
+				<lg type="poem">
 					<l><seg rend="italic">¡San Patrisio!...</seg></l>
 					<l><seg rend="italic">¡Que la puerta se sale del quisio!</seg></l>
 				</lg>
@@ -1583,7 +1671,7 @@
 				<p>El mocetón gemía al decir esto, mientras su amigo, que había acabado de comer, apoyaba pensativo su frente en una mano.</p>
 				<p>—Pues, hijo—murmuró Fermín.—No entiendo este jeroglífico. Mariquilla te deja y no tiene otro novio: te compadece, te dice que eres bueno, mostrando que aun te tiene algún querer, y te cierra la ventana. ¡El demonio que entienda a las mujeres! ¡Y qué mala alma tienen a veces las condenadas!...</p>
 				<p>Aumentó el estrépito en el cuarto de la juerga, y una voz de mujer, aguda, de un temblor metálico, llegó hasta los dos amigos.</p>
-				<lg>
+				<lg type="poem">
 					<l>Me dejó... ¡mala gitana!</l>
 					<l>Cuando yo más la quería...</l>
 				</lg>

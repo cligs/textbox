@@ -70,12 +70,16 @@ Source formats have been HTML, PDF and image files.
 
 ## Formats
 
-* tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml, e.g. nh0002.xml)
-* txt: Simple plain text containing only the main text of the novels (File names: identifier.txt, e.g. nh0002.txt)
-* annotated: TEI files further annotated with FreeLing and WordNet
-* pdf: Reading versions generated from the TEI files
+* [tei](tei): Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml, e.g. nh0002.xml)
+* [txt_id](tei): Simple plain text containing only the main text of the novels (File names: identifier.txt, e.g. nh0002.txt)
+* [annotated](annotated): TEI files further annotated with FreeLing and WordNet
+* [pdf](pdf): Reading versions generated from the TEI files
 
 <!-- A linguistically annotated version for use with the TXM analysis tool can be downloaded here: http://zenodo.org/record/47218 -->
+
+## Schema ##
+* The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+* The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
 
 ## Data Curation
 * The texts have been submitted to a spellcheck based on a dictionary for contemporary Spanish. The result of the check can be found in [spellcheck.csv](spellcheck.csv).

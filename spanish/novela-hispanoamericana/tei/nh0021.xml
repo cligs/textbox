@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">Miserias de México</title>
             <title type="sub">Novela</title>
@@ -34,14 +35,11 @@
             </availability>
             <date>2016</date>
             <idno type="cligs">nh0021</idno>
-            <idno type="url"
-               >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0021.xml</idno>
+            <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0021.xml</idno>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digital-source">"Miserias de México. Novela." <seg rend="italic">Internet
-                  Archive</seg>, <idno>3677301</idno>, <ref
-                  target="https://archive.org/details/3677301"
-                  >https://archive.org/details/3677301</ref>.</bibl>
+                  Archive</seg>, <idno>3677301</idno>, <ref target="https://archive.org/details/3677301">https://archive.org/details/3677301</ref>.</bibl>
             <bibl type="print-source">
                <seg rend="italic">Miserias de México. Novela.</seg> México: Andrés Botas y Miguel
                Editores, <date when="1916">1916</date>.</bibl>
@@ -50,7 +48,7 @@
                Editores, <date when="1916">1916</date>. </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p>The original image files have been processed with OCR. The software used was ABBYY
             Finereader 12 Professional, with Spanish as recognition language.</p>
          <p>The spelling has been checked and corrected where appropriate.</p>
@@ -58,35 +56,34 @@
             of oral speech (e.g. speech with accent) have been marked up.</p>
          <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p/>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-continent">America</term>
-               <term type="author-country">Mexico</term>
-               <term type="author-gender">male</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">novel</term>
-               <term type="genre-label"/>
-               <term type="subgenre" subtype="2" resp="#uhk">autobiographical</term>
-               <term type="subgenre" subtype="1" resp="#uhk">naturalistic</term>
-               <term type="subgenre" subtype="1" resp="#uhk">social</term>
-               <term type="subgenre_tm" resp="#uhk">novela político-social</term>
-               <term type="subgenre_hist" subtype="2" resp="#uhk">not_historical</term>
-               <term type="form">prose</term>
-               <term type="narrative-perspective">heterodiegetic</term>
-               <term type="setting">urban</term>
-               <term type="protagonist-gender">male</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">autobiographical</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">naturalistic</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">male</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2015-06-11" who="#uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <front>
          <div rend="italic">
             <p>¿Quién no conoce aquí las aventuras del Teniente Miguel Mercado cuando vivió en
@@ -107,15 +104,13 @@
       <body>
          <div>
             <head>I.</head>
-            <p>Poeta bohemio y editorialista anónimo, abanderado del diario de combate <seg
-                  rend="italic">El Campeón Republicano</seg>, vagó Miguel por México, un poco más
+            <p>Poeta bohemio y editorialista anónimo, abanderado del diario de combate <seg rend="italic">El Campeón Republicano</seg>, vagó Miguel por México, un poco más
                libre, algo menos infeliz que hasta entonces, orondo cual nunca, sintiéndose rico al
                poder gastar casi sólo en beber, sus treinta pesos de sueldo mensual.</p>
             <p>En el tren que le llevó de Chihuahua—extinta la tristeza de la separación de Lola,
                leyendo las estrofas de hierro del Díaz Mirón épico, y bebiendo tequila de la botella
                con que le despidieron sus amigos—pudo meditar y resolverse. ¿Iría a un periódico
-               gobiernista donde se le pagaría bien y donde había <seg type="soCalled"
-                  >«empleos»</seg> en perspectiva, lanzado al publicismo con una novela que por ser
+               gobiernista donde se le pagaría bien y donde había <seg type="soCalled">«empleos»</seg> en perspectiva, lanzado al publicismo con una novela que por ser
                sólo historia y verdad había causado sensación?... Pero sus entusiasmos juveniles,
                sus arrestos líricos—<seg type="foreign" rend="italic" xml:lang="fr">Jeune soldat ou
                   vas tu?... Je vais combatre pour la Liberté</seg>—impulsáronle al campo bello del
@@ -132,8 +127,7 @@
                llamarían—¡hermano!.....</p>
             <p>Creyó haber ascendido de un solo vuelo a la montaña soñada; ¡periodista
                independiente!... ¡Qué bien le sonaba esta frase!... Ya no recibiría la mísera
-               consigna de <seg type="soCalled">«hacer un artículo muy bueno»</seg> llamando <seg
-                  type="soCalled">«Redentor de la humanidad</seg> a algún Teniente Coronel Jefe
+               consigna de <seg type="soCalled">«hacer un artículo muy bueno»</seg> llamando <seg type="soCalled">«Redentor de la humanidad</seg> a algún Teniente Coronel Jefe
                Político que habría que poner muy alto <seg type="soCalled">«sin que se sintiera el
                   señor Gobernador...»</seg></p>
             <p>Ya iba, pues, a <seg type="soCalled">«poder decir la verdad»</seg>, a escribir cuanto
@@ -147,8 +141,7 @@
                pueblo-león, ni todas las frases de rigor que debían servir para sus artículos de
                fondo.</p>
             <milestone rend="line" unit="section"/>
-            <p>Pero Miguel palideció, cuando a los tres meses el diario jacobino, <seg
-                  type="soCalled">«evolucionó»</seg>, sé hizo más grande, menos lírico y más sensato
+            <p>Pero Miguel palideció, cuando a los tres meses el diario jacobino, <seg type="soCalled">«evolucionó»</seg>, sé hizo más grande, menos lírico y más sensato
                y práctico, por lo cual el lírico fue advertido por el Director de que ya no estaba
                para escribir editoriales, los cuales serían obra de un terrible y misterioso paladín
                de los derechos populares, que ya los mandaría hechecitos y que... los escribiría de
@@ -239,21 +232,18 @@
                semi-oficial de una Capital de Estado!</p>
             <p>Y si esto había que labrar cuando el nombre llevaba cuatro ceros ¿qué no sería cuando
                alcanzaba, cual los de un ideal los cinco supremos?..... ¡Oh! entonces era un
-               artículo en toda forma, <seg type="soCalled">«a dos columnas»</seg> y <seg
-                  type="soCalled">«con cabezas»</seg> de letras gordísimas, y llevando debajo un
+               artículo en toda forma, <seg type="soCalled">«a dos columnas»</seg> y <seg type="soCalled">«con cabezas»</seg> de letras gordísimas, y llevando debajo un
                resumen cuajado con bordaduras y relumbrones, y arranques grandilocuentes y tiradas
                retóricas que era una gloria!...</p>
             <p>Al fin y al cabo, de todo podía sacarse provecho, lo mismo para elogiar que para
                poner de casco a cualquiera. ¿Que un jefe político de cinco ceros viajaba con
                frecuencia? Bueno; ¿qué mejor prueba de cultura?... ¿Qué manifestación más excelente
                de que no desea fosilizar su espíritu y su acción en su localidad y va a luchar por
-               su bien allí donde algo puede hacer por ella?... ¿Que jamás viajaba?... pues, <seg
-                  type="written">«eso es innegable testimonio de que está siempre al pie del cañón,
+               su bien allí donde algo puede hacer por ella?... ¿Que jamás viajaba?... pues, <seg type="written">«eso es innegable testimonio de que está siempre al pie del cañón,
                   de que se le encuentra siempre en su puesto, siempre en la brecha»</seg>;
                   <seg>«¡honor a los hombres que saben cumplir con la alta misión histórica que
                   plugo a la Providencia de las naciones imponerles!...»</seg></p>
-            <p>Pero si en vez de los dichosos ceros eran las cruces fatídicas las que <seg
-                  type="soCalled">«calificaban»</seg> el nombre del General, Gobernador, etc., etc.,
+            <p>Pero si en vez de los dichosos ceros eran las cruces fatídicas las que <seg type="soCalled">«calificaban»</seg> el nombre del General, Gobernador, etc., etc.,
                (que no tomaban suscripciones de <seg rend="italic">El Campeón Republicano</seg>), se
                procedía en sentido diametralmente opuesto. Una cruz: piquete leve, de este
                tenor:</p>
@@ -264,11 +254,9 @@
             <p><seg type="written"><seg rend="italic">«¿Creían ustedes que el sitio del Teniente
                      Coronel D. Evaristo Ruiz B. era la cabecera de su Distrito? Pues, no señor; la
                      vida es más divertida en México ¡que diablo! Más cuando sirven tan bien en el
-                     Tivoli del Eliseo</seg></seg> — este reclamo se cobraba aparte — <seg
-                  type="written"><seg rend="italic">y cuando hay un Gobernador que encuentra cómodo
+                     Tivoli del Eliseo</seg></seg> — este reclamo se cobraba aparte — <seg type="written"><seg rend="italic">y cuando hay un Gobernador que encuentra cómodo
                      que sus fieles servidores descansen y se diviertan»</seg></seg>.</p>
-            <p>A tres cruces, correspondía una nota un poco más envenenada, y a cuatro un <seg
-                  type="foreign" rend="italic" xml:lang="fr">entrefilet</seg> agresivo y casi
+            <p>A tres cruces, correspondía una nota un poco más envenenada, y a cuatro un <seg type="foreign" rend="italic" xml:lang="fr">entrefilet</seg> agresivo y casi
                solemne:</p>
             <p>
                <seg type="written">
@@ -288,17 +276,14 @@
                      imitarlo?»</seg>
                </seg>
             </p>
-            <p>Aquello era, pues, un <seg rend="italic">estira</seg> y <seg rend="italic"
-                  >afloja</seg> muy sabio, táctica magistral: para herir bien al de abajo, procedía
+            <p>Aquello era, pues, un <seg rend="italic">estira</seg> y <seg rend="italic">afloja</seg> muy sabio, táctica magistral: para herir bien al de abajo, procedía
                adular mejor al de arriba...</p>
             <p>Y un desengaño más fue cuando el pobre poeta supo que, en último análisis, los ceros
-               significaban centenares de suscripciones tomadas por el <seg rend="italic"
-                  >candidato</seg> y las cruces su grado de renuncia a aceptarlas, y cuando vio
+               significaban centenares de suscripciones tomadas por el <seg rend="italic">candidato</seg> y las cruces su grado de renuncia a aceptarlas, y cuando vio
                consternado que del elogio casi tan servil como el del periódico gobiernista de
                provincia, se pasaba—por quién sabe qué sospechosos motivos—a la diatriba feroz, o
                cuando acaecía lo contrario, al salto brusco de la cruda injuria al encomio
-               avergonzado, sin mejor explicación que un: <seg type="written"><seg rend="italic"
-                     >«Mejor informados ya, podemos asegurar que no es exacto que...»</seg></seg> o
+               avergonzado, sin mejor explicación que un: <seg type="written"><seg rend="italic">«Mejor informados ya, podemos asegurar que no es exacto que...»</seg></seg> o
                si no con: <seg type="written"><seg rend="italic">«Hemos sido lamentablemente
                      sorprendidos, se ha abusado de nuestra sinceridad... el vilipendio ha cometido
                      doble crimen: esgrimir la calumnia y servirse de una hoja honrada como la
@@ -356,8 +341,7 @@
             <p>¿No había resistido por más tiempo la miseria? ¿Era una caída por debilidad? ¿O por
                sistema había atacado hasta que le callaron la voz y el hambre con el empleo?</p>
             <p>Y desde entonces ya no volvieron a aparecer en las columnas de <seg rend="italic">El
-                  Campeón</seg> los famosos artículos, y desde entonces el amarillo <seg
-                  rend="italic">magíster</seg> dedicó su bilis y su risa aviesa para condenar a
+                  Campeón</seg> los famosos artículos, y desde entonces el amarillo <seg rend="italic">magíster</seg> dedicó su bilis y su risa aviesa para condenar a
                babiecas que sueñan en la honradez, en la libertad, en la verdad, en la
                justicia...</p>
             <p>Honda repugnancia, disgusto mortal, sentía el ex-teniente contemplando semejante
@@ -386,8 +370,7 @@
                tricolores y pulque curado, defendiendo el pan de los desheredados, a cuyo efecto
                había colocado suscripciones de su periódico en todas las sociedades, entre infinidad
                de modestos dependientes, artesanos y operarios de fábricas, y para hacer simpática
-               su actitud, adoptóla de una bravura terrible contra el Clero y contra <seg
-                  type="soCalled">«las autoridades indígenas que ultrajan al noble obrero
+               su actitud, adoptóla de una bravura terrible contra el Clero y contra <seg type="soCalled">«las autoridades indígenas que ultrajan al noble obrero
                   mexicano»</seg>, y aunque jamás concretamente habría que decir quienes eran tales
                autoridades y tales patrones, y aunque luciese en la primera plana el retrato de
                algún oficial de policía rodeado de guirnaldas y laureles y arriba un texto que
@@ -411,8 +394,7 @@
                prisión en Chihuahua, el saberse que había estado a punto de fusilamiento y la novela
                publicada en el extinto <seg rend="italic">Liberal</seg>, le crearon leyenda,
                rodeáronle entre aquella gente de un prestigio heroico, de una aureola de
-               popularidad, una nube de fama que se derretía en fabulosas cataratas <seg
-                  rend="italic">de neutle</seg>.</p>
+               popularidad, una nube de fama que se derretía en fabulosas cataratas <seg rend="italic">de neutle</seg>.</p>
             <p>Jamás en muchos meses pudo saber de sí de cuatro de la tarde a nueve de la noche;
                pues a partir de aquella hora entraba en el período de plomo de la más negra de las
                embriagueces. Hasta el día siguiente sabía por boca de sus amigos y admiradores lo
@@ -432,8 +414,7 @@
                   refino»</seg>, con lo que iniciaba la cotidiana embriaguez y entraba en temple
                para escribir en prosa y en verso, ya <seg type="soCalled">«echando la loa»</seg> a
                cualquier <seg type="soCalled">«gendarme verdugo»</seg>, ya cantando himnos a algún
-               Presidente Municipal de los que tenían para los amigos parejos el más fino <seg
-                  rend="italic">Flamapa</seg> y una barbacoa con salsa borracha de lo mejor. No
+               Presidente Municipal de los que tenían para los amigos parejos el más fino <seg rend="italic">Flamapa</seg> y una barbacoa con salsa borracha de lo mejor. No
                obstante, él era siempre sincero. Fácil a la sugestión de los camaradas, les creía y
                eran ellos los que inspiraban diatribas y las que el mísero poetastro escribía con la
                entera convicción de que ello era verídico y justo.</p>
@@ -495,8 +476,7 @@
                y cultivar su vicio, en práctico tratamiento de sana nutrición, de trabajo y de aire
                puro; no; hasta entonces a ninguno de sus admiradores le pasó por las mientes el
                sencillo pensamiento de que fuese él un enfermo y que lo que necesitaba era no las
-               docenas de <seg rend="italic">dracks</seg> de catalán con que se <seg type="soCalled"
-                  >«la curaban»</seg>, envenenándole más, sino una cura verdadera de aquel
+               docenas de <seg rend="italic">dracks</seg> de catalán con que se <seg type="soCalled">«la curaban»</seg>, envenenándole más, sino una cura verdadera de aquel
                envenenamiento; no; no hubo alma caritativa de tantas como le obsequiaban copas y
                medidas que una de esas mañanas en que él se lamentaba de estarse muriendo, le
                hubiese metido a una casa decente, le curase con un baño con mucho jabón y apartado
@@ -588,8 +568,7 @@
                y en otros periódicos diéronle labores modestas, ruin trabajo de gacetilla y las aun
                no disueltas toxinas de su vanidad y de su lirismo fermentaron en cóleras y en
                despechos y otra vez más en románticos duelos que tuvieron lamentable cultivo en un
-               medio del alcohol y orgullosa pereza donde algunos <seg rend="italic"
-                  >destripados</seg> amigos volvieron a adularle llamándole héroe y víctima.</p>
+               medio del alcohol y orgullosa pereza donde algunos <seg rend="italic">destripados</seg> amigos volvieron a adularle llamándole héroe y víctima.</p>
          </div>
          <div>
             <head>VII.</head>
@@ -625,8 +604,7 @@
                y para los niños. Vivía el huraño bohemio en un rincón de la casa de cierto excelente
                camarada reporter, cuya vida era perpétua juerga, que le apreciaba y que consideraba
                como alto orgullo alojar a una víctima, a un poeta héroe destinado al suicidio.</p>
-            <p>El amor de la Sirena Morfina—como le llamaba otro de los <seg rend="italic"
-                  >destripados</seg> que solía caer a la hora de los <seg rend="italic">almuerzos de
+            <p>El amor de la Sirena Morfina—como le llamaba otro de los <seg rend="italic">destripados</seg> que solía caer a la hora de los <seg rend="italic">almuerzos de
                   cura de cruda</seg>, a quien apodaban Papá Argüellitos—le rejuvenecía, muy al
                contrario de la Sirena Alcohol que le revolcaba en los peores lodazales, tanto que
                resolvió ingenuamente pasarse la vida constantemente iluminado por tan gratísima
@@ -823,12 +801,10 @@
                dulcificaba y ennoblecía aquel alma de tigre en aquel cuerpo reseco y cadavérico. El
                espíritu de un Sancho Panza feroz en el cuerpo de un Don Quijote de levita.</p>
             <p>Y el ex-teniente Mercado, el novelador de una historia cuyas dos primeras ediciones
-               se habían agotado, el inventor de una novela de sensación, <seg type="soCalled"><seg
-                     rend="italic">«El reto postrero»</seg></seg>, el autor de una serie de más de
+               se habían agotado, el inventor de una novela de sensación, <seg type="soCalled"><seg rend="italic">«El reto postrero»</seg></seg>, el autor de una serie de más de
                doscientos artículos publicados en la primera plana de uno de los diarios de mayor
                circulación en la República, y muchos de esos artículos con ilustraciones, el autor
-               de su propia redención, arrinconado en el fondo del <seg type="soCalled"
-                  >«Departamento de Cajas»</seg> de <seg rend="italic">El Informador</seg>, fue
+               de su propia redención, arrinconado en el fondo del <seg type="soCalled">«Departamento de Cajas»</seg> de <seg rend="italic">El Informador</seg>, fue
                corrector de pruebas, un detestable corrector, por cierto.</p>
             <p>Encontró por camaradas a antiguos admiradores suyos, viejos cajistas viciosos con
                quienes en otros tiempos se emborrachaba; pero que ahora que él se negaba a beber con
@@ -854,8 +830,7 @@
                   que le hace falta? pues es un buen jalón de tequila. Antes usted se inspiraba y lo
                   veíamos tan alegre y reata; y hoy que no toma nada, no escribe libros, ni siquiera
                   artículos; está usted dándonos lástima... Si yo no digo que la borrachera sea
-                  buena; pero tampoco hay que meterse a santo; para algo hizo Dios el vino <seg
-                     type="soCalled">«entónese un poquito»</seg>, si lo malo está en abusar...
+                  buena; pero tampoco hay que meterse a santo; para algo hizo Dios el vino <seg type="soCalled">«entónese un poquito»</seg>, si lo malo está en abusar...
                   ¡Ándele, métase ésta y verá como es otro!</said></p>
             <p>No era el único que con tales razones le abrumaba: casi todos sus compañeros
                tentábanle con iguales palabras, dichas frente a seductora copa de la que emanaba la
@@ -875,8 +850,7 @@
                su salud.</p>
             <p>Una semana después Mercado era alcohólico de nuevo, como si nunca hubiera dejado de
                beber; y ya no dos o tres copitas apuraba, sino que desde las once eso era echar
-               tragos a boca de botella en el fondo de su cuchitril del <seg type="soCalled"
-                  >«Departamento de Cajas»</seg>.</p>
+               tragos a boca de botella en el fondo de su cuchitril del <seg type="soCalled">«Departamento de Cajas»</seg>.</p>
             <p>Y, fuera que su labor no pareciese ya concienzuda—tan concienzuda como lo requiere la
                de corregir pruebas de imprenta— fuese que le repugnara más cada día o que las
                ínfulas del alcohol le ensoberbecieran, ello fue que contestase duramente a
@@ -1155,8 +1129,7 @@
                real que tuviera; en vano, sí, porque en el resto reaparecía vivo y crudo como un
                sarcasmo, el gesto, la verdad.</p>
             <p>Y el escollo era ¡la verdad! Había que saberla siempre toda, pero no siempre podía
-               decirse toda. Precisamente ese era el <seg type="foreign" rend="italic" xml:lang="la"
-                  >quid divinum</seg> en la información en los diarios que el Sumo Poder pagaba.
+               decirse toda. Precisamente ese era el <seg type="foreign" rend="italic" xml:lang="la">quid divinum</seg> en la información en los diarios que el Sumo Poder pagaba.
                Había que decir toda la verdad siempre que esto conviniera, y un reporter veterano ya
                ni debía preguntar que era lo que había que referir de un suceso, pues habría el tal
                noticiero de comprenderlo.</p>
@@ -1233,8 +1206,7 @@
                aproximados, fieles o fantásticos, serios o grotescos, con comentarios o sin
                ellos....</p>
             <p>Hasta en periódicos de oposición sistemática, hasta en diarios católicos y en hojas
-               metodistas, más o menos sinceros unos y otras, hasta en semanarios de <seg
-                  rend="italic">chantage</seg> y caricaturas tuvo justo pago su pluma, que no se
+               metodistas, más o menos sinceros unos y otras, hasta en semanarios de <seg rend="italic">chantage</seg> y caricaturas tuvo justo pago su pluma, que no se
                aventuró empero jamás ni en política de partido ni de secta, que sólo descansaba
                cuando las piernas entraban en acción, recorriendo la ciudad entera, de extremo a
                extremo, animoso, heroico, triunfante, sin ceder jamás a la tentación terrible de la
@@ -1279,8 +1251,7 @@
                consignas que había que obedecer, el elogio desenfrenado o la diatriba feroz; las
                injurias de los pasquines que había que soportar en silencio, injurias de pobres
                diablos, más pobres diablos que él, famélicos ganapanes que sin odio se ven obligados
-               a armar escándalo para dar vida a sus papeles y dársela ellos mismos; los <seg
-                  rend="italic">chantages</seg> desvergonzados que veía ejercer tranquilamente a
+               a armar escándalo para dar vida a sus papeles y dársela ellos mismos; los <seg rend="italic">chantages</seg> desvergonzados que veía ejercer tranquilamente a
                tantos camaradas, con un desplante frío, con toda naturalidad.....</p>
             <p><said>Vilezas y tristezas del oficio; si esto es el periodismo, ¡maldito
                sea!</said>—clamaba melancólicamente al presenciar aquel hervidero de víboras y
@@ -1340,8 +1311,7 @@
             <p>Cuando al fin vió lucidamente que aquello no era sino un timo anticuado, aunque
                eficaz, se negó, como se había negado a acompañar a otros camaradas que excursionaban
                por los Estados maniobrando en la misma forma con los Gobernadores, de los cuales
-               sacaban protección para algún álbum que, con el retrato del <seg type="soCalled"
-                  >«probo, progresista y popular señor Presidente de la República»</seg>, habría de
+               sacaban protección para algún álbum que, con el retrato del <seg type="soCalled">«probo, progresista y popular señor Presidente de la República»</seg>, habría de
                resumir los incontables progresos de sus respectivas administraciones. Bien sabía
                Miguel que algunos de aquellos periodistas aventureros se quedaban en la Ciudad más a
                propósito a sus planes o en las que no podían ser conocidos, se hacían nombrar
@@ -1533,14 +1503,11 @@
                estaba afuera, hoy que estaba adentro encontraba cómodo echar la culpa de sus feroces
                zurriagazos al mísero gacetillero cuya inevitable ruina había profetizado y cuyo
                camarada fue, en tiempo de igual infortunio, cuando ambos vivían la misma vida
-               obscura y vagabunda, a quien dejara como recuerdo un <seg type="soCalled"
-                  >«nene»</seg> tenido con cierta criada indígena, achacando también al <seg
-                  type="soCalled">«borracho versero»</seg> la paternidad de la pobre criatura.</p>
+               obscura y vagabunda, a quien dejara como recuerdo un <seg type="soCalled">«nene»</seg> tenido con cierta criada indígena, achacando también al <seg type="soCalled">«borracho versero»</seg> la paternidad de la pobre criatura.</p>
             <p><said>—No fui yo el autor de eso</said>—respondió entristecido.<said>—He escrito
                   cosas peores, pero esas no,</said>—y no dijo más, creyendo que aquel recuerdo
                significaba la negación de todo auxilio.</p>
-            <p>Comprendía que el dulce poeta fustigado antes por el Director de <seg rend="italic"
-                  >El Liberal</seg> y por el autor de <seg type="soCalled">«Agua de Rosas»</seg> en
+            <p>Comprendía que el dulce poeta fustigado antes por el Director de <seg rend="italic">El Liberal</seg> y por el autor de <seg type="soCalled">«Agua de Rosas»</seg> en
                la persona de su protector—actual Ministro—vengábase ahora en el pobre diablo del
                humilde reporter.</p>
             <p>Creyó ver—¿se engañaría?—en el fondo del alma del omnipotente Secretario particular,
@@ -1555,8 +1522,7 @@
                insistiese, que insistiese... ¿Rencores? todos los tenían; otro peor bahía en la
                Corte del Ministro, otro que había acumulado odio y hiel en filigranas maravillosas,
                en alfilerazos de oro envenenado, en lacerantes epigramas contra el mismo Secretario
-               y contra su favorito, y sin embargo, después de un <seg type="soCalled"><seg
-                     type="foreign" xml:lang="la">«mea culpa»</seg></seg> y unas sonoras estrofas,
+               y contra su favorito, y sin embargo, después de un <seg type="soCalled"><seg type="foreign" xml:lang="la">«mea culpa»</seg></seg> y unas sonoras estrofas,
                habíase borrado todo... ¡tenía su sitial aquel Benvenuto Cellini, que el Ministro
                cual Papa artista absolvió! Y era... poeta máximo y se sentaba a la diestra de Dios
                Padre... ¡Aquel otro poeta—porque era también artista como el niño consentido del
@@ -1587,15 +1553,12 @@
                boca de botella en el W. C. Un provinciano acogido a la famosa bondad paternal del
                Ministro, uno de tantos fracasados que soñó en vencer y que en su pueblo era genio y
                en la Metrópoli hundíase en la perezosa rutina burocrática consolada en las noches
-               por el fulgor de los ponches de catalán y el fuego de las <seg rend="italic"
-                  >fragatias de tequila</seg>.</p>
+               por el fulgor de los ponches de catalán y el fuego de las <seg rend="italic">fragatias de tequila</seg>.</p>
             <p>Conversó largamente con él en ruin cantinajo que de las doce de la mañana a las
                cuatro de la tarde, bullía de escribientes, escapados por unos instantes de oficinas
-               próximas en el Correo, o del Palacio Nacional, para <seg rend="italic"
-                  >entonarse</seg>, inútiles ya para el trabajo si no tenían dentro su dosis de
+               próximas en el Correo, o del Palacio Nacional, para <seg rend="italic">entonarse</seg>, inútiles ya para el trabajo si no tenían dentro su dosis de
                alcohol. A trueque del sarcasmo de antiguos camaradas que veían al abstinente en el
-               mero fragor de popular tequilería, Mercado, delante de una limonada y de la <seg
-                  rend="italic">fragatita</seg> doble del poeta mínimo, supo en detalle, lo que en
+               mero fragor de popular tequilería, Mercado, delante de una limonada y de la <seg rend="italic">fragatita</seg> doble del poeta mínimo, supo en detalle, lo que en
                suma ya conocía, que en el Ministerio aquel, como en los demás, había un hervidero de
                chismes, de odios feroces, de intrigas y favoritismos; que allí unos trabajaban mucho
                y eran los que ganaban poco y que algunos que ganaban mucho no trabajaban nada; que
@@ -1624,8 +1587,7 @@
                mismo que la gacetilla; apoyando o desechando proyectos se inspiraban en el lucro
                personal, con mengua del Arte y de la Verdad... y de la honradez, y era como pleito
                de verduleras todo.</p>
-            <p><seg type="thought">—Ni peores ni mejores que nosotros,</seg>—pensó,<seg
-                  type="thought">—todo está igualmente podrido.</seg></p>
+            <p><seg type="thought">—Ni peores ni mejores que nosotros,</seg>—pensó,<seg type="thought">—todo está igualmente podrido.</seg></p>
             <p>Todo aparecíale, en efecto, aparatoso, e igualmente convencional, teatral y vano. Y
                las palabras patria, verdad, justicia, moralidad, sonaban hueco, cuando sonaban, no
                suscitando idea alguna, pues su significación exacta era como una fruta fabulosa de
@@ -1833,15 +1795,13 @@
                que sólo restarían dos huérfanas por el camino de la prostitución y de la
                muerte!...</p>
             <p>Era preciso ganar más dinero para que su esposa fuese operada en un buen sanatorio...
-               Ideó descabellados proyectos; llegó el desdichado hasta pretender <seg
-                  type="soCalled">«lanzar»</seg> un periódico en que jugando audazmente la vida, se
+               Ideó descabellados proyectos; llegó el desdichado hasta pretender <seg type="soCalled">«lanzar»</seg> un periódico en que jugando audazmente la vida, se
                encarase con el viejo Dictador de la República y le pidiera cuenta de sus actos en
                gruesos tipos de imprenta como esos de los cartelones de escándalo, o si no,
                publicaría una carta abierta al General Porfirio Díaz, comunicándole, él, como el
                último ciudadano a que dijese al país lo que pensaba, lo que quería, lo que preparaba
                para el porvenir... O una proclama al <seg type="soCalled">«pueblo soberano»</seg>,
-               un grito como aquel lírico de los estudiantes de un día, como aquella <seg
-                  type="soCalled">«Oda a Atenas»</seg>:</p>
+               un grito como aquel lírico de los estudiantes de un día, como aquella <seg type="soCalled">«Oda a Atenas»</seg>:</p>
             <quote>
                <p>
                   <seg rend="italic">¡Madre Atenas, levanta la cabeza!</seg>
@@ -1884,8 +1844,7 @@
                del potentado salvador billetito?—</p>
             <p>Le entusiasmó la idea. Acaso podría editarle la colección de tradiciones mexicanas
                referentes al Norte del país, y hasta la bautizó: <seg type="soCalled">«La heroica
-                  Frontera»</seg>, y ya se imaginaba el lírico arranque de la dedicatoria: <seg
-                  type="written"><seg rend="italic">«A un libre hijo de las selvas fronterizas de
+                  Frontera»</seg>, y ya se imaginaba el lírico arranque de la dedicatoria: <seg type="written"><seg rend="italic">«A un libre hijo de las selvas fronterizas de
                      esos cuyos padres lanzaron con sus reatas los cañones invasores, etc.,
                      etc...»</seg></seg></p>
             <p>Era seguro, el hombrachón aquel, no corrompido en la Corte, francote y campechano que
@@ -1959,8 +1918,7 @@
          <div>
             <head>XXXVII.</head>
             <p>Más tarde Miguel se reprochó no haber esperado, no haber explicado, ignorante de que
-               aquella cólera era un tanto ficticia, y aquel <seg type="soCalled"
-                  >«¡chinchorro!»</seg> era su palabra favorita, aquel gruñir del magnánimo minero
+               aquella cólera era un tanto ficticia, y aquel <seg type="soCalled">«¡chinchorro!»</seg> era su palabra favorita, aquel gruñir del magnánimo minero
                era muy suyo, una de <seg type="soCalled">«sus ocurrencias»</seg> en tales casos, y,
                que a tiempo que regañaba solía meter la mano a la bolsa trasera del pantalón para
                sacar un revoltijo de billetes o un puño de pesos o de onzas, cosa que era fama hacía
@@ -2128,8 +2086,7 @@
                Mercado?</said></p>
             <p><said>—Naturalmente,</said>—respondió el autor, escondiendo, heroico, su miedo,
                recordando sus tristes tiempos de milicia.</p>
-            <p>El monstruo, el público del teatro, producíale más miedo que los <seg rend="italic"
-                  >tomoches</seg>; pero lo mismo que antes ellos y ante tanta desgracia fue heroico;
+            <p>El monstruo, el público del teatro, producíale más miedo que los <seg rend="italic">tomoches</seg>; pero lo mismo que antes ellos y ante tanta desgracia fue heroico;
                quemó sus naves y se metió con el compositor en el foro, luego de finalizada la tanda
                anterior.</p>
             <p>Pero allí como un recluta al entrar al fuego perdió la lucidez de su situación, la
@@ -2147,8 +2104,7 @@
             <p>Más allá del telón que separaba la enorme sala del escenario oíase el rumor de la
                muchedumbre impaciente, rumor en <seg rend="italic">crescendo</seg>, formidable,
                cuando se desenfrenaba el trueno del taconeo y la granizada de los bastonazos.</p>
-            <p><said>—Nada, amigo Mercado, todo va bien... ¿ve usted qué enfurruñadas están <seg
-                     type="soCalled">«las señoras»</seg></said> —aludiendo el autor musical A las
+            <p><said>—Nada, amigo Mercado, todo va bien... ¿ve usted qué enfurruñadas están <seg type="soCalled">«las señoras»</seg></said> —aludiendo el autor musical A las
                   empresarias<said>—pues es que ahora están arrepentidas de no haber gastado algo
                   para montar bien la obra; están furiosas contra los que les dijeron que no servía
                   y que no valía la pena de pintar una decoración. Ya Gavilanes se convenció de que
@@ -2191,8 +2147,7 @@
                había tal atrio guadalupano ni cosa que lo pareciera sino un viejo telón de fondo que
                representaba la Catedral de Sevilla.</p>
             <p>Otros repiques de aviso, gritos y carreras, avanzante vuelo de faldas entre
-               bastidores, acállase lentamente el rumor del público, el coro de <seg type="soCalled"
-                  >«peregrinos del interior»</seg> le alienara contra la remendada manta.</p>
+               bastidores, acállase lentamente el rumor del público, el coro de <seg type="soCalled">«peregrinos del interior»</seg> le alienara contra la remendada manta.</p>
             <p><said>—Venga usted a ver, mientras, el monstruo, hombre...</said>—y el autor se llevó
                a Miguel hacia el agujero del telón.</p>
             <p>Por allí miró unos tres o cuatro segundos, ¡miró atónito! Nunca había visto el teatro

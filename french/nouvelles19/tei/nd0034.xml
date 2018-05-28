@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -26,7 +24,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>Files freely available.</p>
 				</availability>
 				<date></date>
@@ -52,19 +50,19 @@
 				<p></p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">nouvelle</term>
-					<term type="subgenre" subtype="3">fantastique</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">conte magique</term>
-					<term type="form">prose</term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">Paris</term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
-					<term type="tei">11</term>
+				<keywords scheme="keywords.xml">
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">nouvelle</term>
+					<term type="text.genre.subgenre" cligs:importance="3">fantastique</term>
+					<term type="text.genre.subsubgenre"></term>
+					<term type="text.genre.subtitle">conte magique</term>
+					<term type="text.form">prose</term>
+					<term type="text.narration.narrator">homodiegetic</term>
+					<term type="text.setting">Paris</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">France</term>
+					<term type="author.gender">male</term>
+					<term type="text.tei.version">11</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -526,7 +524,7 @@
 				<p>Je le soulevai dans mes bras. Ce corps n'avait plus de poids, et je le déposai sur son lit.</p>
 				<p>Là, obéissant à son ultime désir, je restai auprès de lui, et il me parla longtemps, longtemps, d'une voix qui allait toujours s'affaiblissant, et il me confia des choses que jamais oreille mortelle n'avait entendues et qui me faisaient frissonner.</p>
 				<p>Ces choses, je les sais et je ne puis les oublier : et j'ai peur de la vieillesse qui vient et qui peut rendre criminel !</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>L'enfant vécut.</p>
 				<p>M. Vincent mourut le lendemain.</p>
 				<p>Un de mes confrères me rencontra quelques jours après et me dit :</p>

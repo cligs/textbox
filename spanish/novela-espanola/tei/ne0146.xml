@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"></title>
 				<title type="short">Sotileza</title>
 				<title type="idno">
-					<idno type="viaf">208722831</idno></title>
+					<idno type="bne">XX2126286</idno>
+					<idno type="viaf">208722831</idno>
+				</title>
 				<author>
+					<idno type="bne">XX982332</idno>
 					<idno type="viaf">54167127</idno>
 					<name type="short">Pereda</name>
 					<name type="full">José María de Pereda</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2258</measure>
-				<measure unit="divs">30</measure>
-				<measure unit="words">114210</measure>
-				<measure unit="chars">637259</measure>
-				<measure unit="size_kb">700</measure>
+				<measure unit="lines">2564</measure>
+				<measure unit="divs">33</measure>
+				<measure unit="tokens">117347</measure>
+				<measure unit="chars">655263</measure>
+				<measure unit="size_kb">701</measure>
 
 				<measure unit="chapters">29</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">2180</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">29</measure> 
+				<measure unit="blocks">2327</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
+				<measure unit="heads">31</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">2151</measure> 
+				<measure unit="paragraphs">2296</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">1256</measure> 
-				<measure unit="numbers">3</measure> 
-				<measure unit="puncts">25167</measure>
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">1258</measure>
+				<measure unit="saids">1551</measure>
+				<measure unit="narrative.ps">1038</measure>
+				<measure unit="ss">5155</measure> 
+				<measure unit="numbers">7</measure> 
+				<measure unit="puncts">25929</measure> 
+				<measure unit="len.abstract">849</measure>
+
+				<measure unit="types">14297</measure>
+
+				<measure unit="ss">2873</measure>
+				<measure unit="ss.len.mean">229.14549251653324</measure>
+				<measure unit="ss.len.std">210.57876024251013</measure>
+				<measure unit="mean.ss.active.verbs">3.533588583362339</measure>
+				<measure unit="std.ss.active.verbs">3.387750948943262</measure>
+
+				<measure unit="ws">137145</measure>
+				<measure unit="ws.len.mean">3.8212330015676836</measure>
+				<measure unit="ws.len.std">2.7901669624140313</measure>
+
+				<measure unit="conjunctions">9383</measure>
+				<measure unit="determiners">17467</measure>
+				<measure unit="nouns">24166</measure>
+				<measure unit="verbs">19479</measure>
+				<measure unit="adverbs">7318</measure>
+				<measure unit="adjectives">5305</measure>
+				<measure unit="adpositions">18301</measure>
+				<measure unit="punctuations">22310</measure>
+				<measure unit="pronouns">12683</measure>
+				<measure unit="dates">33</measure>
+				<measure unit="numbers">500</measure>
+				<measure unit="interjections">200</measure>
+
+				<measure unit="ne.persons">2461</measure>
+				<measure unit="ne.organizations">518</measure>
+				<measure unit="ne.locations">750</measure>
+				<measure unit="ne.others">156</measure>
+
+				<measure unit="wnlex.noun.plants">70</measure>
+				<measure unit="wnlex.verb.communications">1848</measure>
+				<measure unit="wnlex.noun.foods">293</measure>
+				<measure unit="wnlex.verb.possessions">682</measure>
+				<measure unit="wnlex.verb.cognitions">1201</measure>
+				<measure unit="wnlex.noun.communications">1242</measure>
+				<measure unit="wnlex.noun.states">599</measure>
+				<measure unit="wnlex.verb.statives">4424</measure>
+				<measure unit="wnlex.noun.cognitions">912</measure>
+				<measure unit="wnlex.noun.times">663</measure>
+				<measure unit="wnlex.verb.bodys">731</measure>
+				<measure unit="wnlex.noun.persons">3060</measure>
+				<measure unit="wnlex.adj.alls">3517</measure>
+				<measure unit="wnlex.noun.quantitys">103</measure>
+				<measure unit="wnlex.noun.phenomenons">279</measure>
+				<measure unit="wnlex.verb.creations">680</measure>
+				<measure unit="wnlex.adj.perts">53</measure>
+				<measure unit="wnlex.adv.alls">2810</measure>
+				<measure unit="wnlex.noun.processs">32</measure>
+				<measure unit="wnlex.noun.artifacts">2767</measure>
+				<measure unit="wnlex.verb.perceptions">840</measure>
+				<measure unit="wnlex.noun.feelings">422</measure>
+				<measure unit="wnlex.verb.weathers">61</measure>
+				<measure unit="wnlex.noun.substances">288</measure>
+				<measure unit="wnlex.noun.shapes">77</measure>
+				<measure unit="wnlex.verb.competitions">113</measure>
+				<measure unit="wnlex.verb.motions">1940</measure>
+				<measure unit="wnlex.noun.animals">336</measure>
+				<measure unit="wnlex.noun.acts">1394</measure>
+				<measure unit="wnlex.noun.bodys">1192</measure>
+				<measure unit="wnlex.noun.objects">456</measure>
+				<measure unit="wnlex.noun.motives">61</measure>
+				<measure unit="wnlex.verb.socials">1112</measure>
+				<measure unit="wnlex.noun.groups">717</measure>
+				<measure unit="wnlex.verb.consumptions">234</measure>
+				<measure unit="wnlex.noun.possessions">117</measure>
+				<measure unit="wnlex.noun.Topss">205</measure>
+				<measure unit="wnlex.noun.relations">52</measure>
+				<measure unit="wnlex.noun.attributes">948</measure>
+				<measure unit="wnlex.verb.emotions">524</measure>
+				<measure unit="wnlex.noun.locations">454</measure>
+				<measure unit="wnlex.noun.events">613</measure>
+				<measure unit="wnlex.verb.contacts">1012</measure>
+				<measure unit="wnlex.xxxs">96959</measure>
+				<measure unit="wnlex.verb.changes">1052</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -62,56 +148,58 @@
 				<p>Silda, a quien todos llaman Sotileza, es una pobre huérfana que ha sido adoptada por los bondadosos Sidora y Mechelín que la quieren como si fuera su propia hija. CUando empieza a crecer, se convierte en una bellísima doncella cuyo amor se disputan Cleto, hijo de un metrimonio de la clase baja de vida poco ejemplar, formado por el tío Mocejón y Sargüeta, y Andrés, perteneciente a la burguesía acomodada. Pero Sotileza rechaza a los dos y sólo favorece al monstruoso Muergo, un tipo bruto y repugnante. Tras una serie de peripecias, Andrés se embarca para la pesca de merluza; hay un terrible temporal en el que está a punto de perder la vida. Muergo muere en esta ocasión. Se decide el compromiso entre Silda y Cleto antes de que este se marche a cumplir tres años de servicio. Andrés acabará emparejándose con Luisa, hermana de su socio Tolín.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="2">bildungsroman</term>
-					<term type="subgenre-lithist" cert="low" resp="x">novela costumbrista</term>
-					<term type="narrative-perspective" cert="low" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="medium" resp="#jct">small-city</term>
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1833</term>
-					<term type="author-date-death">1906</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">55</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">0</term>
-					
-
-					<term type="narrator">first-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Santander</term>
-					<term type="setting-territory">Cantabria</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Silda (Sotileza)</term>
-					<term type="protagonist-profession">none</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">1825</term>
-					<term type="group-text"></term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end">neutral</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">4.0</term>
-					<term type="text-TOC-range">5</term>
-					
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1833</term>
+					<term type="author.date.death">1906</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">55</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group"></term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">young</term>
+					<term type="text.characters.protagonist.gender">female</term>
+					<term type="text.characters.protagonist.name">Silda (Sotileza)</term>
+					<term type="text.characters.protagonist.profession">none</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Literatura y ficción, Literatura y ficción</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Drama, Realista</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">bildungsroman</term>
+					<term type="text.genre.subgenre.litHist" resp="HdLE">novela costumbrista</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cert="low">novela costumbrista</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">5</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">4.0</term>
+					<term type="text.movement">naturalista</term>
+					<term type="text.narration.narrator" cert="low">heterodiegetic</term>
+					<term type="text.plot.end">neutral</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Santander</term>
+					<term type="text.setting.settlement">Santander</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">small-city</term>
+					<term type="text.setting.territory">Cantabria</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low">1825</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

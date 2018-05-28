@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -50,19 +48,19 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" subtype="3">adventure</term>
-                    <term type="subsubgenre"/>
-                    <term type="genre-label"/>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective"/>
-                    <term type="setting"/>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">France</term>
-                    <term type="author-gender">male</term>
-                    <term type="tei">11</term>
+                <keywords scheme="keywords.xml">
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" cligs:importance="3">adventure</term>
+                    <term type="subtext.genre.subgenre"/>
+                    <term type="text.genre.subtitle"/>
+                    <term type="text.form">prose</term>
+                    <term type="text.narration.narrator"/>
+                    <term type="text.setting.settlement.type"/>
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">France</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.tei.version">11</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -814,7 +812,7 @@
                     <p>« Monsieur... »</p>
                     <p>-- Monsieur ! s'écria la jeune fille au comble de la surprise.</p>
                     <p>Le Chasseur la regarda un instant avec un doux et tendre sourire, puis il reprit :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« Monsieur,</p>
                     <p>« Bien que cette lettre soit en apparence adressée à mademoiselle Renée de la Brunerie, je sais, tant je connais sa pureté d'ange et sa candeur, qu'elle ne sera décachetée que par son père ou son plus proche parent. J'aime mademoiselle de la Brunerie ; je ne l'ai vue que trois fois, chez madame de Brévannes, à Paris, en présence de plusieurs personnes. Lors de ma dernière visite, la veille de son départ, je lui jurai de l'aller rejoindre en Amérique ; elle daigna me promettre de m'attendre. Ce que je vous ai dit à vous, monsieur, jamais je n'ai osé le lui avouer à elle ; cependant je suis sûr de son amour comme elle est j'en suis convaincu, sûr du mien. Si vous êtes le père de mademoiselle Renée, je vous demande loyalement l'autorisation de lui faire ma cour ; si vous n'êtes pas son parent, je vous prie d'intercéder auprès de M. de la Brunerie, que je n'ai pas encore l'honneur de connaître, pour que cette faveur, à laquelle je tiens plus qu'à ma vie, me soit accordée ; attendrai avec anxiété, monsieur, la réponse que vous daignerez me faire.</p>
                     <p>» Agréez monsieur, l'assurance du profond respect de votre serviteur,</p>
@@ -822,7 +820,7 @@
                     <p>» En mer, à bord du vaisseau amiral le <seg rend="italic"
                         >Redoutable</seg>.</p>
                     <p>» Ce 14 Floréal, an X de la République française, une et indivisible. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>-- Oh ! cher, bien cher Antoine ! s'écria la jeune fille avec une expression de bonheur impossible à rendre.</p>
                     <p>En ce moment, le galop précipité de plusieurs chevaux se fit entendre au dehors.</p>
                     <p>Le Chasseur s'approcha de la jeune fille, lui mit un baiser au front et la poussant du côté de la porte :</p>
@@ -987,12 +985,12 @@
                     <p>-- Donnez.</p>
                     <p>Le capitaine présenta un pli cacheté au général.</p>
                     <p>Cette lettre, beaucoup trop longue pour être reproduite en entier, se terminait par ces mots :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>« ... Je le charge, -- le capitaine Prud'homme, -- de vous présenter particulièrement mes devoirs et de vous demander vos ordres ; j'irai les prendre moi-même à l'endroit qu'il vous plaira de m'indiquer, pour connaître aussi vos intentions sur l'heure à laquelle vous voudrez être reçu.</p>
                     <p>» Vous nous apportez la paix, général, suite des triomphes des braves armées de la République. Honneur au peuple français ! Honneur et gloire au gouvernement de la République !</p>
                     <p>» Salut et respect,</p>
                     <p>» Magloire PÉLAGE. »</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>-- Des mots ! des mots ! des mots ! dit le général Richepance en froissant le papier avec colère, en parodiant, sans y songer, Hamlet, prince de Danemark.</p>
                     <p>-- Mon général, les faits ont appuyé et ils appuieront encore les mots, lorsque besoin sera, répondit le capitaine Prud'homme.</p>
                     <p>Le général Richepance haussa dédaigneusement les épaules ; pendant deux ou trois minutes ; il marcha avec agitation sur le pont ; soudain il s'arrêta devant les députés qui se tenaient calmes, froids, respectueux, en face de lui ; il les regarda un instant avec une fixité étrange, et d'une voix dans laquelle on sentait gronder la tempête :</p>
@@ -1693,7 +1691,7 @@
                     <p>Mamzelle Zénobie récitait en riant comme une folle, une fable de La Fontaine en patois créole.</p>
                     <p>Cette fable était <seg rend="italic">la Cigale et la Fourmi</seg>.</p>
                     <p>Le chasseur arriva juste à ce moment palpitant d'intérêt où la fourmi, avare et grondeuse, répond ceci à la pauvre cigale :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic">Anh ! anh ! ou ka chanté, chè.</seg>
                     </p>
@@ -1709,11 +1707,11 @@
                     <p>
                         <seg rend="italic">Allé dansé calinda !</seg>
                     </p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Et les rires recommencèrent de plus belle.</p>
                     <p>-- Morale ! dit le Chasseur en poussant la porte et entrant dans la chambre.</p>
                     <p>Il se planta alors devant les deux femmes, son fusil d'une main, sa lanterne de l'autre, et avec un sang-froid imperturbable, il récita ce qui suit d'une haleine :</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic">C'es por ça yo ka di zott'</seg>
                     </p>
@@ -1726,7 +1724,7 @@
                     <p>
                         <seg rend="italic">Li ka couri riss jeinné</seg>
                     </p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>
                         <seg rend="italic"
                         >-- </seg>Voilà, ajouta-t-il en saluant gravement les deux femmes qui riaient à se tordre et battaient des mains.</p>
@@ -5959,7 +5957,7 @@
                     <p>D'ailleurs la bataille était terminée ; la rébellion, décapitée de ses chefs, était à jamais anéantie.</p>
                     <p>Les quelques bandes peu nombreuses, éparpillées dans les mornes, sous les ordres de Codou, de Palème et de Noël Corbet, les seuls chefs survivants, n'étaient plus considérées comme des rebelles, ni même des révoltés ; c'étaient des brigands, des nègres marrons.</p>
                     <p>Il ne fallait plus d'armée pour marcher contre eux et les vaincre, quelques soldats coloniaux suffirent à cette triste besogne.</p>
-                    <milestone type="space"/>
+                    <milestone unit="section" type="space"/>
                     <p>Le 20 prairial an X, c'est-à-dire douze jours après l'effroyable coup de tonnerre d'Anglemont, par lequel avait été si tragiquement terminée l'insurrection des noirs de la Guadeloupe, le général Richepance épousa à la Basse-Terre Mlle de la Brunerie.</p>
                     <p>Le général se hâtait d'être heureux ; peut-être avait-il le pressentiment que son bonheur n'aurait que la durée d'un météore et que la mort horrible, qui, trois mois plus tard, devait l'enlever si brusquement à ses rêves de gloire et d'avenir, étendait déjà sa main glacée sur lui.</p>
                     <p>Les deux époux rayonnaient de joie et d'espoir.</p>

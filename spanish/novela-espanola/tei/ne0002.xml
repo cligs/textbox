@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Misericordia</title>
 				<title type="sub"></title>
 				<title type="short">Misericordia</title>
-				<title type="idno"><idno type="viaf">184697459</idno></title>
+				<title type="idno">
+					<idno type="bne">XX3384019</idno>
+					<idno type="viaf">184697459</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1014802</idno>
 					<idno type="viaf">71395987</idno>
 					<name type="short">Galdos</name>
 					<name type="full">Benito Pérez Galdós</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1630</measure>
-				<measure unit="divs">41</measure>
-				<measure unit="words">83782</measure>
-				<measure unit="chars">476876</measure>
-				<measure unit="size_kb">526</measure>
+				<measure unit="lines">1636</measure>
+				<measure unit="divs">42</measure>
+				<measure unit="tokens">83791</measure>
+				<measure unit="chars">477192</measure>
+				<measure unit="size_kb">527</measure>
 
 				<measure unit="chapters">41</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1537</measure> 
-				<measure unit="line_verses">0</measure> 
+				<measure unit="blocks">1539</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
 				<measure unit="heads">41</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1496</measure> 
+				<measure unit="paragraphs">1498</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">1104</measure> 
-				<measure unit="numbers">32</measure> 
-				<measure unit="puncts">20127</measure>
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">1104</measure>
+				<measure unit="saids">1292</measure>
+				<measure unit="narrative.ps">394</measure>
+				<measure unit="ss">4548</measure> 
+				<measure unit="numbers">33</measure> 
+				<measure unit="puncts">19914</measure> 
+				<measure unit="len.abstract">238</measure>
+
+				<measure unit="types">13303</measure>
+
+				<measure unit="ss">2748</measure>
+				<measure unit="ss.len.mean">179.40211062590976</measure>
+				<measure unit="ss.len.std">135.04039056644166</measure>
+				<measure unit="mean.ss.active.verbs">2.9326783114992723</measure>
+				<measure unit="std.ss.active.verbs">2.522716694840358</measure>
+
+				<measure unit="ws">101585</measure>
+				<measure unit="ws.len.mean">3.8801004085248807</measure>
+				<measure unit="ws.len.std">2.874003629861433</measure>
+
+				<measure unit="conjunctions">6988</measure>
+				<measure unit="determiners">11786</measure>
+				<measure unit="nouns">18001</measure>
+				<measure unit="verbs">15693</measure>
+				<measure unit="adverbs">4874</measure>
+				<measure unit="adjectives">4547</measure>
+				<measure unit="adpositions">11941</measure>
+				<measure unit="punctuations">17170</measure>
+				<measure unit="pronouns">9823</measure>
+				<measure unit="dates">47</measure>
+				<measure unit="numbers">504</measure>
+				<measure unit="interjections">211</measure>
+
+				<measure unit="ne.persons">1772</measure>
+				<measure unit="ne.organizations">389</measure>
+				<measure unit="ne.locations">587</measure>
+				<measure unit="ne.others">143</measure>
+
+				<measure unit="wnlex.noun.plants">78</measure>
+				<measure unit="wnlex.verb.communications">1569</measure>
+				<measure unit="wnlex.noun.foods">246</measure>
+				<measure unit="wnlex.verb.possessions">833</measure>
+				<measure unit="wnlex.verb.cognitions">1086</measure>
+				<measure unit="wnlex.noun.communications">894</measure>
+				<measure unit="wnlex.noun.states">528</measure>
+				<measure unit="wnlex.verb.statives">3728</measure>
+				<measure unit="wnlex.noun.cognitions">816</measure>
+				<measure unit="wnlex.noun.times">717</measure>
+				<measure unit="wnlex.verb.bodys">638</measure>
+				<measure unit="wnlex.noun.persons">2160</measure>
+				<measure unit="wnlex.adj.alls">3226</measure>
+				<measure unit="wnlex.noun.quantitys">176</measure>
+				<measure unit="wnlex.noun.phenomenons">115</measure>
+				<measure unit="wnlex.verb.creations">651</measure>
+				<measure unit="wnlex.adj.perts">98</measure>
+				<measure unit="wnlex.adv.alls">1588</measure>
+				<measure unit="wnlex.noun.processs">38</measure>
+				<measure unit="wnlex.noun.artifacts">1845</measure>
+				<measure unit="wnlex.verb.perceptions">571</measure>
+				<measure unit="wnlex.noun.feelings">311</measure>
+				<measure unit="wnlex.verb.weathers">39</measure>
+				<measure unit="wnlex.noun.substances">197</measure>
+				<measure unit="wnlex.noun.shapes">45</measure>
+				<measure unit="wnlex.verb.competitions">114</measure>
+				<measure unit="wnlex.verb.motions">1163</measure>
+				<measure unit="wnlex.noun.animals">238</measure>
+				<measure unit="wnlex.noun.acts">1042</measure>
+				<measure unit="wnlex.noun.bodys">667</measure>
+				<measure unit="wnlex.noun.objects">290</measure>
+				<measure unit="wnlex.noun.motives">37</measure>
+				<measure unit="wnlex.verb.socials">989</measure>
+				<measure unit="wnlex.noun.groups">467</measure>
+				<measure unit="wnlex.verb.consumptions">320</measure>
+				<measure unit="wnlex.noun.possessions">343</measure>
+				<measure unit="wnlex.noun.Topss">239</measure>
+				<measure unit="wnlex.noun.relations">39</measure>
+				<measure unit="wnlex.noun.attributes">821</measure>
+				<measure unit="wnlex.verb.emotions">314</measure>
+				<measure unit="wnlex.noun.locations">336</measure>
+				<measure unit="wnlex.noun.events">355</measure>
+				<measure unit="wnlex.verb.contacts">684</measure>
+				<measure unit="wnlex.xxxs">70169</measure>
+				<measure unit="wnlex.verb.changes">764</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -61,58 +148,60 @@
 				<p>La protagonista es la criada y mendiga Benina. Narra, en medio de un descarnado desfile de pordioseros, tullidos y demás menesterosos de los bajos fondos de la capital de España, las andanzas mendicantes de Benina y el ciego "Almudena".</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre-lithist"  subtype="1">novela social</term>
-					<term type="subgenre-lithist" subtype="1">novela naturalista</term>
-					<term type="subgenre-lithist" subtype="1">novela realista</term>
-					<term type="subgenre-lithist" subtype="2">novela de tesis</term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">big-city</term>
-
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1843</term>
-					<term type="author-date-death">1920</term>
-					<term type="author-TOC-range" resp="MdL7">8</term>
-					<term type="author-histlit-pages" resp="MdL7">181</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">1889</term>
-					
-
-					<term type="protagonist-gender">female</term>
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Madrid</term>
-					<term type="setting-territory">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Benina</term>
-					<term type="protagonist-social-level">low</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" resp="#jct">90</term>
-					<term type="group-text">Novelas contemporáneas</term>
-					<term type="subgroup-text">Novelas contemporáneas espiritualistas</term>
-					<term type="protagonist-profession">beggar</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end" cert="low">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">6.0</term>
-					<term type="text-TOC-range">6</term>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1843</term>
+					<term type="author.date.death">1920</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">181</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.year.change">1889</term>
+					<term type="authorText.group">Novelas contemporáneas</term>
+					<term type="authorText.relation">none</term>
+					<term type="authorText.subgroup">Novelas contemporáneas espiritualistas</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">female</term>
+					<term type="text.characters.protagonist.name">Benina</term>
+					<term type="text.characters.protagonist.profession">beggar</term>
+					<term type="text.characters.protagonist.socLevel">low</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Ficción clásica, Bibliotecas, Libros escolares; Antigua y clásica, Ficción clásica; Ficción clásica, Ficción histórica, Ficción por género; Clásicos, Fantasía y terror, Infantil; Europa, Europeas, Clásicos; Ficción clásica, Ficción clásica; Ficción clásica; Ficción, Europea, Antologías</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Realista</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="2">novela de tesis</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">novela naturalista</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">novela realista</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">novela social</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">6</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">6.0</term>
+					<term type="text.movement">naturalista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end" cert="low">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Madrid</term>
+					<term type="text.setting.settlement">Madrid</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">big-city</term>
+					<term type="text.setting.territory">Castilla</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low" resp="#jct">90</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

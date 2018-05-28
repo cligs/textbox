@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,22 +35,17 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0022</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0022.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0022.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Tomóchic. Novela histórica mexicana". <seg
-                        rend="italic">Biblioteca Virtual Antorcha</seg>
-                    <date when="2007">2007</date>, <ref
-                        target="http://www.antorcha.net/biblioteca_virtual/literatura/tomochic/caratula.html"
-                        >http://www.antorcha.net/biblioteca_virtual/literatura/tomochic/caratula.html</ref>. </bibl>
+                <bibl type="digital-source"> "Tomóchic. Novela histórica mexicana". <seg rend="italic">Biblioteca Virtual Antorcha</seg>
+                    <date when="2007">2007</date>, <ref target="http://www.antorcha.net/biblioteca_virtual/literatura/tomochic/caratula.html">http://www.antorcha.net/biblioteca_virtual/literatura/tomochic/caratula.html</ref>. </bibl>
                 <bibl type="print-source">unknown</bibl>
                 <bibl type="edition">
                     <seg rend="italic">¡Tomochic! Episodios de la Campaña de Chihuahua. 1892.
                         Relación escrita por un testigo presencial. Segunda edición cuidadosamente
                         corregida y aumentada con detalles históricos. (Es propiedad del
-                        autor)</seg> Río Grande City, Texas: Imprenta de Jesús T. Recio, <date
-                        when="1895">1895</date>. </bibl>
+                        autor)</seg> Río Grande City, Texas: Imprenta de Jesús T. Recio, <date when="1895">1895</date>. </bibl>
                 <bibl type="edition-first">?</bibl>
             </sourceDesc>
         </fileDesc>
@@ -62,26 +58,22 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Mexico</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label">novela histórica mexicana</term>
-                    <term type="subgenre" subtype="2" resp="#uhk">historical</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">social</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">political</term>
-                    <term type="subgenre" subtype="1" resp="Dill">novela naturalista</term>
-
-                    <term type="subgenre_tm" resp="#uhk">novela político-social</term>
-                    <term type="subgenre_other" resp="Arteta">novela social</term>
-                    <term type="subgenre_other" resp="Sanchez">social</term>
-                    <term type="subgenre_hist" subtype="2" resp="#uhk">historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting" cert="medium">urban</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title">novela histórica mexicana</term>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">historical</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">political</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">naturalistic</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -161,8 +153,7 @@
                     nos lucimos. Ya verás, ya verás qué <seg rend="italic">zurra</seg> les damos a
                     esos demonios de tomoches ... ¡Son valientes ... hombres ... no se puede negar!
                     Palabra de honor, yo creí que eran papas ... pero son, sí, muy valientes ...
-                    parecen venados, los ves aquí, y de repente ¡zas! en la punta del cerro y <seg
-                        rend="italic">¡Viva el poder de Dios y mueran los pelones!</seg> ... y rau
+                    parecen venados, los ves aquí, y de repente ¡zas! en la punta del cerro y <seg rend="italic">¡Viva el poder de Dios y mueran los pelones!</seg> ... y rau
                     ... ¡caramba! si ni apuntan ... al descubrir, hermano ... te recontramatan. Con
                     decirte que cada cartucho es un muerto; no yerran ... ¡Imagínate cómo estaría yo
                     ese día en que nos amolaron al general y a mí! ... ¡Salud, hermano!</p>
@@ -174,8 +165,7 @@
                     escuchaba la charla sonora del teniente, recordando la historia que de sus
                     desventuras se refería en los corrillos de oficiales, entre bromas y carcajadas,
                     allá en Chihuahua.</p>
-                <p>El día dos de septiembre de 1892, cuando intentó atacar el pueblo de <seg
-                        rend="italic">Tomochic</seg> el general Rangel, después de ser herido el
+                <p>El día dos de septiembre de 1892, cuando intentó atacar el pueblo de <seg rend="italic">Tomochic</seg> el general Rangel, después de ser herido el
                     teniente coronel Ramírez y muertos el mayor Prieto y el teniente. Manzano; en el
                     momento de la derrota y de la confusión; mientras el general buscaba refugio en
                     un jacal, a él le mataron su caballo; se le acercaron algunos tomochitecos;
@@ -211,8 +201,7 @@
                 <p>Era aquello más bien una tienda, lleno el armazón de botellas vacías, sirviendo
                     de mesa el mostrador cubierto con un grasiento mantel, atestado de platos y de
                     cascos de cerveza.</p>
-                <p>Había allí oficiales del Quinto Regimiento, del Undécimo Batallón y del <seg
-                        rend="italic">Cuerpo de Seguridad Pública</seg> del Estado de Chihuahua, y
+                <p>Había allí oficiales del Quinto Regimiento, del Undécimo Batallón y del <seg rend="italic">Cuerpo de Seguridad Pública</seg> del Estado de Chihuahua, y
                     pudo comprender Miguel, al momento, que eran jefes, por lo que dijo a
                     Gerardo:</p>
                 <p>- Oye, tú; aquí hay muchos superiores; - pero aquél lo arrastró, tomándole del
@@ -281,8 +270,7 @@
                     del guasón de Castorena le irritaban por demasiado toscos y soeces.</p>
                 <p>Después se brindó por los que iban como valientes a defender al Gobierno, que
                     según el mayor significaba <seg rend="italic">la causa del orden, la paz, la
-                        civilización</seg>, etc. El mayor brindó respetuosamente <seg rend="italic"
-                        >por el general Porfirio Díaz, por el victorioso regenerador de la
+                        civilización</seg>, etc. El mayor brindó respetuosamente <seg rend="italic">por el general Porfirio Díaz, por el victorioso regenerador de la
                         Patria</seg>, etc.</p>
                 <p>Y Miguel seguía escuchando, taciturno, devorando ávidamente un trozo
                     sanguinolento de carne asada.</p>
@@ -355,8 +343,7 @@
                     nos valga!</p>
                 <p>Y Mercado, corriendo un punto, es decir, alargando el cinturón de su espada,
                     escapó, llevando la impresión luminosa y grata de la jovencita grácil, de la
-                    hija de San José, que debía marchar también a <seg rend="italic"
-                    >Tomochic</seg>.</p>
+                    hija de San José, que debía marchar también a <seg rend="italic">Tomochic</seg>.</p>
                 <p>Y al pensar en el ritmo de su paso, en sus fugitivas gracias y en su femenil
                     adolescencia, una ráfaga de frescura ensanchó el oprimido pecho de Miguel bajo
                     la hornaza de la siesta, y murmuró:</p>
@@ -499,8 +486,7 @@
                 <p>Y se enfurecía, en lo íntimo, el melancólico oficial, al observar que mientras
                     más se acercaban a la <seg rend="italic">Sierra</seg>, más se reconcentraba
                     aquel duro rencor, aquel desdén siniestro de los campesinos chihuahuenses contra
-                    los soldados, exaltando al propio tiempo su admiración por los hijos de <seg
-                        rend="italic">Tomochic</seg>.</p>
+                    los soldados, exaltando al propio tiempo su admiración por los hijos de <seg rend="italic">Tomochic</seg>.</p>
                 <p>Las mujeres, las <seg rend="italic">soldaderas</seg> que, esclavas, seguían a
                         <seg rend="italic">sus viejos</seg> y luego avanzaban para proveerse de
                     comestibles, referían estupendas maravillas.</p>
@@ -527,8 +513,7 @@
                     llevando a la tropa las ánforas llenas. Los pobres hombres bebían sudorosos y
                     jadeantes, con gran envidia de los que no conseguían tan rico tesoro, bajo el
                     sol implacable, entre nubes de polvo.</p>
-                <p>Ellos protestaban en sus conversaciones íntimas, ignorantes. Solían decir: <seg
-                        rend="italic">que si a la misma máquina le daban agua para que siguiera
+                <p>Ellos protestaban en sus conversaciones íntimas, ignorantes. Solían decir: <seg rend="italic">que si a la misma máquina le daban agua para que siguiera
                         andando</seg>, a ellos, ¿por qué se les prohibía? ...</p>
                 <p>Ellas cumplían, en el cálido horror de las marchas, alta obra de misericordia, y
                     desafiando las varas de los cabos y las espadas mismas de los oficiales, daban
@@ -556,8 +541,7 @@
                     anda ... ¡y luego a morir como chivos!</p>
                 <p>Pero otros se las echaban de incrédulos, ¡protestaban! Habían derrotado a los del
                     Quinto ¡pero al Noveno era muy diferente! <seg rend="italic">No se dejarían
-                        agarrar en el río bañándose</seg>. ¡Ya verían si <seg rend="italic"
-                        >defeicionaban</seg> los del Noveno Batallón! ...</p>
+                        agarrar en el río bañándose</seg>. ¡Ya verían si <seg rend="italic">defeicionaban</seg> los del Noveno Batallón! ...</p>
                 <p>Una vez, al bajar dura cuesta que serpenteaba penosamente por la falda de una
                     montaña quebrándose en marcado ángulo agudo bajo cuyo vértice negreaba el fondo
                     de un barranco, supo Miguel que allí, hacía dos meses, estando parte del
@@ -638,8 +622,7 @@
                 <p>- ¡De suerte que es un general en jefe honorario, un nombre decorativo en los
                     partes de campaña y nada más! - se atrevió a decir un capitán, indignado, ante
                     el silencio medroso de los circunstantes.</p>
-                <p>Y en verdad que era inútil la presencia de aquel jefe frente a <seg rend="italic"
-                        >Tomochic</seg>. El telégrafo funcionando hasta la capital de la República
+                <p>Y en verdad que era inútil la presencia de aquel jefe frente a <seg rend="italic">Tomochic</seg>. El telégrafo funcionando hasta la capital de la República
                     permitiría al mismo general Díaz ordenar desde su gabinete las operaciones de la
                     pequeña campaña.</p>
                 <p>- Estas cosas las sabe hacer bien el mismo Presidente de la República, mientras
@@ -825,8 +808,7 @@
             <div>
                 <head>CAPÍTULO VII</head>
                 <head type="sub">LA <seg rend="italic">RACIÓN</seg> DEL OGRO</head>
-                <p>No pudiendo soportar más la sed, Mercado, acercándose a un <seg rend="italic"
-                        >paisano</seg> que bajaba a dar agua a su caballo, preguntó:</p>
+                <p>No pudiendo soportar más la sed, Mercado, acercándose a un <seg rend="italic">paisano</seg> que bajaba a dar agua a su caballo, preguntó:</p>
                 <p>- Amigo, ¿no sabe dónde podré conseguir café caliente?</p>
                 <p>- Por allí -le contestó, señalándole, sin volver el rostro, una casucha mísera
                     cerca del río, en lo alto de un montículo cubierto de enmarañados breñales.</p>
@@ -834,8 +816,7 @@
                     margen y, tiritando, envuelto en su amplio capote, calada todavía la capucha
                     hasta cubrir la frente, Miguel llegó al umbral de la choza, cuyo interior apenas
                     vislumbraba.</p>
-                <p>Desde allí preguntó a una pobre vieja que molía en un metate y <seg rend="italic"
-                        >echaba gordas</seg> junto a un gran fuego, en medio del humo, si le podían
+                <p>Desde allí preguntó a una pobre vieja que molía en un metate y <seg rend="italic">echaba gordas</seg> junto a un gran fuego, en medio del humo, si le podían
                     preparar una buena taza de café que pagaría a cualquier precio. Una voz áspera y
                     ronca de borracho le contestó:</p>
                 <p>- ¡Cómo no! A ver, Julia, ¡un jarro de café, mucho café, bien caliente! ... pero
@@ -942,8 +923,7 @@
                     muy quedo- es también ... es decir ... no estamos casados ... porque ella es su
                     mujer ... Y no pudo decir más, sofocada al relatar, con dulce ingenuidad, tanta
                     abominación.</p>
-                <p>¡Cómo! ... ¿Aquella adolescencia vívida y airosa era la <seg rend="italic"
-                        >ración</seg> del ogro? ¡Aquella dulce y humilde criatura, aquella rosa en
+                <p>¡Cómo! ... ¿Aquella adolescencia vívida y airosa era la <seg rend="italic">ración</seg> del ogro? ¡Aquella dulce y humilde criatura, aquella rosa en
                     plena gracia, fresca aún, era su concubina! Y Miguel, consternado,
                     palideció.</p>
                 <p>- ¿Qué enredo repugnante es éste? se preguntó- ¿Esta víctima soportando su
@@ -965,8 +945,7 @@
                 <p>- No, señor ... no. Mi padre lo manda ... y ¡mi padre es santo ... ! Teresita le
                     hizo santo ... Le fusilaron y resucitó como Nuestro Señor, ¡figúrese! Por eso,
                     no vaya a <seg rend="italic">Tomochic</seg>, no, porque lo matan ... si va ...
-                    ¡Cruz va a acabar con todos! Rece mucho ... ¡No vaya Ud. a <seg rend="italic"
-                        >Tomochic</seg>!</p>
+                    ¡Cruz va a acabar con todos! Rece mucho ... ¡No vaya Ud. a <seg rend="italic">Tomochic</seg>!</p>
             </div>
             <div>
                 <head>CAPÍTULO VIII</head>
@@ -1011,8 +990,7 @@
                     religioso y ambicioso, que mal dirigido y sin cauce alguno, se desbordó y
                     estalló en explosión de volcán.</p>
                 <p>Un incidente aumentó entonces el disgusto contra el gobierno local:</p>
-                <p>Habiendo el gobernador Lauro Carrillo pasado por <seg rend="italic"
-                        >Tomochic</seg>, visitó la iglesia, y enamorado de la magnificencia y real
+                <p>Habiendo el gobernador Lauro Carrillo pasado por <seg rend="italic">Tomochic</seg>, visitó la iglesia, y enamorado de la magnificencia y real
                     mérito de algunos cuadros, trató de llevárselos para Chihuahua; pero aquella
                     gente altanera y valiente, al saberlo, se indignó a tal punto que el funcionario
                     tuvo que dejar los cuadros en sus sitios.</p>
@@ -1022,13 +1000,11 @@
                     Guerrero al verificar pronto diligencia judicial en el pueblo, aprovechando
                     algunas circunstancias, abusó del candor de una serrana, dejándola encinta.</p>
                 <p>Más tarde, cierto personaje que tenía que disfrutar cargos pingües en el mineral
-                    de Pinos Altos calumnió de revoltosos y bandidos a los de <seg rend="italic"
-                        >Tomochic</seg> alarmando a la compañía minera radicada en Londres y al
+                    de Pinos Altos calumnió de revoltosos y bandidos a los de <seg rend="italic">Tomochic</seg> alarmando a la compañía minera radicada en Londres y al
                     gobernador interino.</p>
                 <p>La mina estaba llena de pólvora y la mecha preparada; no tardó en llegar la
                     chispa.</p>
-                <p>Se supo que en los pueblos vecinos se había declarado <seg rend="italic"
-                        >santo</seg> a José Carranza, nacido en <seg rend="italic">Tomochic</seg>,
+                <p>Se supo que en los pueblos vecinos se había declarado <seg rend="italic">santo</seg> a José Carranza, nacido en <seg rend="italic">Tomochic</seg>,
                     quien pensaba residir en el pueblo natal para hacerlo feliz. Naturalmente, los
                     ánimos se excitaron, y el entusiasmo fue general, esperándose con impaciencia la
                     llegada del <seg rend="italic">San José</seg>.</p>
@@ -1042,8 +1018,7 @@
                         Jesucristo</seg>.</p>
                 <p>Al día siguiente, alegre domingo, hubo misa, y se llevó al <seg rend="italic">San
                         José</seg> a la iglesia, en devota procesión.</p>
-                <p>Terminada la ceremonia, el cura, que traía instrucciones de arrojar al <seg
-                        rend="italic">santo</seg> y prohibir a aquellas gentes seguir en tan
+                <p>Terminada la ceremonia, el cura, que traía instrucciones de arrojar al <seg rend="italic">santo</seg> y prohibir a aquellas gentes seguir en tan
                     extrañas ideas y prácticas, les exhortó a abandonar su fanatismo, regañándoles
                     con dureza y echándoles en cara su estupidez.</p>
                 <p>Y he aquí que el ingénito orgullo de aquel villorrio protestó escandalosamente, y
@@ -1054,14 +1029,11 @@
                     policía de su Divina Majestada, te echo!</p>
                 <p>- ¡Que muera! -vociferó una vieja.</p>
                 <p>- Sí, sí ... ¡fuera! -gritaron todos, contaminados, y exasperados por la rudísima
-                    alocución del cura, quien tuvo que huir, declarándolos <seg rend="italic"
-                        >endemoniados</seg>.</p>
+                    alocución del cura, quien tuvo que huir, declarándolos <seg rend="italic">endemoniados</seg>.</p>
                 <p>El presidente municipal Reyes Domínguez impuso una fuerte multa a los Chávez,
                     quienes declararon que no la pagarían por no creerla justa. El empleado de la
-                    conducta de caudales a Pinos Altos amenazó a los rebeldes con <seg rend="italic"
-                        >meterlos de soldados</seg>.</p>
-                <p>Respondieron que primero que eso habría que inundar en sangre el valle de <seg
-                        rend="italic">Tomochic</seg>. Y en la capital de Chihuahua estas noticias se
+                    conducta de caudales a Pinos Altos amenazó a los rebeldes con <seg rend="italic">meterlos de soldados</seg>.</p>
+                <p>Respondieron que primero que eso habría que inundar en sangre el valle de <seg rend="italic">Tomochic</seg>. Y en la capital de Chihuahua estas noticias se
                     recibieron exageradísimas, dando por hecha la rebelión armada del pueblo
                     serrano.</p>
                 <p>Envía la Zona Militar un fuerte destacamento del Undécimo Batallón y es recibido
@@ -1084,8 +1056,7 @@
                     había sido mandada a Chihuahua con su padrino, de quien él fue peón cerca de
                         <seg rend="italic">Cusihuiriachic</seg>, en una hacienda de su
                     propiedad.</p>
-                <p>En la crisis de aquella exaltación religiosa fue contagiado el viejo en <seg
-                        rend="italic">Cusihuiriachic</seg>; abandonó sus tierras y su mujer y se
+                <p>En la crisis de aquella exaltación religiosa fue contagiado el viejo en <seg rend="italic">Cusihuiriachic</seg>; abandonó sus tierras y su mujer y se
                     lanzó a <seg rend="italic">Cabora</seg>, donde Teresa le curó de un tumor y le
                     dijo sonriendo, que se parecía a San José.</p>
                 <p>Una criada de la casa de Teresa Urrea, que oyó algunas palabras, pregonó que era
@@ -1110,8 +1081,7 @@
                     que las autoridades políticas también se ausentaban.</p>
                 <p>La pequeña Julia fue devuelta de Chihuahua a su padre en tanto que los Chávez,
                     que habían fletado mulas, viajaban por Sonora, vendían cargamento y acémilas, y
-                    compraban en la frontera norteamericana carabinas <seg rend="italic"
-                        >Winchester</seg> de repetición, de a doce y dieciocho tiros.</p>
+                    compraban en la frontera norteamericana carabinas <seg rend="italic">Winchester</seg> de repetición, de a doce y dieciocho tiros.</p>
                 <p>Y sucedió que el encargado de la conducta del Mineral de Pinos Altos a Chihuahua,
                     cuyo camino pasa por <seg rend="italic">Tomochic</seg>, temió por su seguridad y
                     comunicó alarmantemente al Gobierno la actitud belicosa del pueblo, y mientras
@@ -1129,8 +1099,7 @@
                 <p>Y los Chávez regresan, proveen de municiones, carabinas y ropa, al pueblo; se
                     apoderan del maíz y reses de un rico hacendado a quien todos odiaban; excitan y
                     proclaman el augusto lema de <seg rend="italic">Religión e Independencia</seg> y
-                    electrizan de nuevo a los buenos habitantes, resolviendo <seg rend="italic"
-                        >oficialmente</seg> que no reconocerían más amo que Dios. Jamás obcecación
+                    electrizan de nuevo a los buenos habitantes, resolviendo <seg rend="italic">oficialmente</seg> que no reconocerían más amo que Dios. Jamás obcecación
                     popular fue más negra y terrible.</p>
                 <p>Aquel puñado de fieros hijos de las montañas estaba poseído de una frenética
                     demencia mística. Un vértigo confuso de libertad, un anhelo de poderío en
@@ -1151,8 +1120,7 @@
                     circulaba en aquella raza maravillosa tarahumara y andaluza ...</p>
                 <p>¡<seg rend="italic">Tomochic</seg> daba a la República Mexicana el raro
                     espectáculo de una villa que se había vuelto loca ... con locura peligrosa!</p>
-                <p>En efecto, el histerismo bélico religioso de los <seg rend="italic"
-                        >tomochitecos</seg> podía ser un foco de contagio para los demás pueblos de
+                <p>En efecto, el histerismo bélico religioso de los <seg rend="italic">tomochitecos</seg> podía ser un foco de contagio para los demás pueblos de
                     la sierra que sufrían un malestar sombrío pronto a resolverse en rebelión.</p>
             </div>
             <div>
@@ -1167,8 +1135,7 @@
                     cercanos, mientras varios <seg rend="italic">soldados de Dios</seg> recibían a
                     los filiados a última hora.</p>
                 <p>Y <seg rend="italic">San José</seg>, el viejo idiota, sugestionado por su mismo
-                    hermano Bernardo, llamó a su mujer y a su hija; les habló de <seg rend="italic"
-                        >Dios su hijo</seg> y de la otra vida.</p>
+                    hermano Bernardo, llamó a su mujer y a su hija; les habló de <seg rend="italic">Dios su hijo</seg> y de la otra vida.</p>
                 <p>- En el nombre de Dios -clamó- ya no son mi familia; mi mujer es la Virgen María,
                     pero obedecerán a mi hermano; los tres serán esposos, para que yo sea el Padre
                     de la <seg rend="italic">Santísima Trinidad</seg>; tú, el Padre (y señaló a
@@ -1256,8 +1223,7 @@
                 <p>En Ciudad Guerrero, el viejo bribón, lejos del freno de Cruz, vivió en perpetua
                     borrachera. Fue haciendo vender sus vacas, una a una, para pasar la vida, al par
                     que cumplía su misión espiando las fuerzas que el Gobierno Federal, en el mes de
-                    agosto, envió decididamente a Guerrero para atacar a <seg rend="italic"
-                        >Tomochic</seg>.</p>
+                    agosto, envió decididamente a Guerrero para atacar a <seg rend="italic">Tomochic</seg>.</p>
                 <p>Componíanse dichas fuerzas de un piquete de veinticinco hombres de Seguridad
                     Pública del Estado, al mando del capitán Antonio Vergara; otro del Quinto
                     Regimiento, de treinta hombres, al mando del capitán segundo Lino Camacho, y
@@ -1290,19 +1256,16 @@
                     presentaban sus carabinas, y dejó caer, una a una, sacramentales palabras.</p>
                 <p>- Hijos míos: Yo, <seg rend="italic">Cruz de Tomochic</seg>, Papa Máximo de
                     Chihuahua y de Sonora, en el nombre del <seg rend="italic">gran poder de
-                        Dios</seg>, os ordeno que matéis sólo a los jefes de los <seg rend="italic"
-                        >pelones</seg> hijos de Satanás. ¡Benditas sean las armas que guerrean
+                        Dios</seg>, os ordeno que matéis sólo a los jefes de los <seg rend="italic">pelones</seg> hijos de Satanás. ¡Benditas sean las armas que guerrean
                     contra los soldados del Infierno!</p>
-                <p>- En el nombre del Padre, del Hijo y del Espíritu Santo, y ¡que <seg
-                        rend="italic">el gran poder de Dios</seg> nos valga!</p>
+                <p>- En el nombre del Padre, del Hijo y del Espíritu Santo, y ¡que <seg rend="italic">el gran poder de Dios</seg> nos valga!</p>
                 <p>El general Rangel fraccionó su fuerza en dos columnas: una que debía bajar por el
                     Cerro del Cordón y atacar la iglesia, y otra por el monte que forma con aquél un
                     ángulo agudo, bajo cuyo vértice se halla el cementerio. Esta fuerza lo debía
                     ocupar y tomar después la casa de los Medrano, que se hallaba en la orilla del
                     camino real.</p>
                 <p>Mientras unos y otros se avistaban, los rebeldes oraron con devoción y serenidad
-                    admirables, seguros de la victoria ya que iban a combatir en el nombre del <seg
-                        rend="italic">gran poder de Dios</seg>.</p>
+                    admirables, seguros de la victoria ya que iban a combatir en el nombre del <seg rend="italic">gran poder de Dios</seg>.</p>
                 <p>Bajan las columnas, entre los pinos y las fragosidades de los cerros, dispersos
                     los soldados en <seg rend="italic">tiradores</seg>; son recibidos en la falda
                     con certeros tiros. Trábase el combate a fuego nutrido.</p>
@@ -1326,8 +1289,7 @@
                     utilizó; lo demás fue guardado sin tocarlo, hasta un pequeño barril de tequila y
                     algunos de harina.</p>
                 <p>Ese mismo día, cediendo a un impulso de abnegación, el doctor Francisco Arellano,
-                    sin armas, sólo con su botiquín, entró resueltamente en <seg rend="italic"
-                        >Tomochic</seg>, con el humanitario espíritu de curar los heridos propios y
+                    sin armas, sólo con su botiquín, entró resueltamente en <seg rend="italic">Tomochic</seg>, con el humanitario espíritu de curar los heridos propios y
                     los extraños.</p>
                 <p>Santa Ana Pérez había desaparecido, y únicamente Bernardo se presentó en Guerrero
                     al general Rangel, diciendo que aquél, herido en una pierna, huía al norte del
@@ -1339,10 +1301,8 @@
                     débiles cañas, hechas pedazos al filo de los machetes cubrieron el suelo de
                     despojos ...</p>
                 <p>En Guerrero, a un teniente del Vigésimosegundo Batallón se le ordenó posesionarse
-                    del Cerro de la Generala, a diez y ocho leguas de <seg rend="italic"
-                        >Tomochic</seg>, lo que hizo sin encontrar resistencia.</p>
-                <p>El punto estaba desierto, y aquel jefe, resto de la mala cepa <seg rend="italic"
-                        >chinaca</seg>, telegrafió a México, dando parte de haber atacado al pueblo,
+                    del Cerro de la Generala, a diez y ocho leguas de <seg rend="italic">Tomochic</seg>, lo que hizo sin encontrar resistencia.</p>
+                <p>El punto estaba desierto, y aquel jefe, resto de la mala cepa <seg rend="italic">chinaca</seg>, telegrafió a México, dando parte de haber atacado al pueblo,
                     triunfando tras sangriento combate, haciendo veinticinco prisioneros.</p>
                 <p>El peligroso histerismo de <seg rend="italic">Tomochic</seg>, supurando y
                     sangrando, como un tumor, iba a ser extirpado.</p>
@@ -1372,8 +1332,7 @@
                 <p>Bernardo acogió esto con muestras de placer, y ordenó imperiosamente que matasen
                     una gallina para obsequiar <seg rend="italic">a su jefe</seg>; le dijo que
                     mientras llegaba la hora, suplicábale que le llevara, él que podía, a ver el
-                    cañón de que tanto le habían hablado; tenía esa curiosidad, porque <seg
-                        rend="italic">la verdad, ya mero se decidía a acompañarles para acabar con
+                    cañón de que tanto le habían hablado; tenía esa curiosidad, porque <seg rend="italic">la verdad, ya mero se decidía a acompañarles para acabar con
                         los fanáticos</seg>.</p>
                 <p>Miguel contestó, ingenuamente, que fuese a las once del día a la Alameda; que lo
                     llevaría para que lo viera, aunque de lejos; sin sospechar que se las había con
@@ -1421,8 +1380,7 @@
                 <p>Don Bernardo contempló con imbécil actitud despectiva aquella nuevecita máquina
                     de guerra, destinada a barrer a <seg rend="italic">Tomochic</seg>.</p>
                 <p>Poco después se separó del bandido, evitando su compañía, pero quedando con él de
-                    verse en su casa, donde había mandado preparar una comida <seg rend="italic"
-                        >como pa su jefecito</seg>.</p>
+                    verse en su casa, donde había mandado preparar una comida <seg rend="italic">como pa su jefecito</seg>.</p>
                 <p>Cuando estuvo solo, vaciló en ir, considerando una estupidez tomar un pésimo
                     almuerzo en el covachón de don Bernardo, y respecto a Julia, ¿no era
                     atormentarse a sí mismo a la vista de aquella adolescencia desventurada, que
@@ -1519,8 +1477,7 @@
                     muy abiertos sobre él los ojos angustiados por las lágrimas.</p>
                 <p>- ¡No llores, por Dios, que no llores ... ! Te lo digo porque te quiero mucho,
                     porque vas a ser mi mujercita ... ¿verdad?</p>
-                <p>- No, no, ¿Por qué me dice eso ... ? ¿No sabe, no le he dicho que yo soy de <seg
-                        rend="italic">Tomochic</seg>?</p>
+                <p>- No, no, ¿Por qué me dice eso ... ? ¿No sabe, no le he dicho que yo soy de <seg rend="italic">Tomochic</seg>?</p>
                 <p>Un relámpago hostil, de cólera y de orgullo, un relámpago sólo, cruzó por sus
                     pupilas húmedas al pronunciar el nombre heroico. Pero la doliente actitud de
                     Miguel, sumisa y acariciadora, la rindió más aún. Se serenó; se dulcificó, pasó
@@ -1830,16 +1787,13 @@
                 <p>La primera estaba compuesta de la Segunda Compañía del Noveno y una sección de
                         <seg rend="italic">Seguridad Pública</seg> del Estado de Chihuahua; la
                     segunda, de la Cuarta del mismo Noveno y una sección del Undécimo; y la tercera,
-                    de veinte jinetes del Quinto Regimiento y de los <seg rend="italic"
-                        >auxiliares</seg> reclutados accidentalmente entre los pueblos de la
+                    de veinte jinetes del Quinto Regimiento y de los <seg rend="italic">auxiliares</seg> reclutados accidentalmente entre los pueblos de la
                     comarca. Estos aventureros vestían trajes de <seg rend="italic">rancheros</seg>,
-                    llevando como distintivo una ancha cinta roja, a guisa de <seg rend="italic"
-                        >toquilla</seg>, en el sombrero.</p>
+                    llevando como distintivo una ancha cinta roja, a guisa de <seg rend="italic">toquilla</seg>, en el sombrero.</p>
                 <p>Entre la primera y segunda columna iba el cañón a lomo de mula. En suma: unos
                     quinientos hombres.</p>
                 <p>El general José María Rangel, seguido de su Estado Mayor, de algunos amigos de
-                    confianza y de nuevos aventureros, pasó a caballo ante la fuerza, que le <seg
-                        rend="italic">presentó armas</seg>.</p>
+                    confianza y de nuevos aventureros, pasó a caballo ante la fuerza, que le <seg rend="italic">presentó armas</seg>.</p>
                 <p>Después hubo que esperar que viniese el General en Jefe, Rosendo Márquez, quien
                     fue recibido con más solemnes honores, batiéndosele marcha.</p>
                 <p>El general Márquez, encendido el rostro, fiero el ademán refrenando el caballo
@@ -1953,8 +1907,7 @@
                     triste jadear, la angustia de una múltiple respiración difícil entre el rumor de
                     las pisadas y el persistente y monótono chocar de los fusiles contra el zinc de
                     las ánforas ...</p>
-                <p>- ¡No se <seg rend="italic">cuelguen</seg>, no se <seg rend="italic"
-                        >cuelguen</seg>!</p>
+                <p>- ¡No se <seg rend="italic">cuelguen</seg>, no se <seg rend="italic">cuelguen</seg>!</p>
                 <p>- ¡Entren, entren! -gritaban a los rezagados los oficiales, por costumbre, pero,
                     aunque a caballo, tan fatigados como los pobres infantes.</p>
                 <p>Unos cuantos <seg rend="italic">guías</seg>, pagados a precio de oro por el
@@ -1974,8 +1927,7 @@
                 <p>- ¡Entren! ¡No se cuelguen! -volvían a gritar los tenientes, fustigando con
                     innobles insultos a la tropa exhausta, dispersa y pávida, que se arrastraba,
                     crujiendo, entre las revueltas gargantas de la sierra, rumbo a la muerte ...</p>
-                <p>- ¡Ca ... ramba ... ! Pero ¿por qué no nos hacen pedazos aquí? Esos <seg
-                        rend="italic">tomoches</seg> deben ser muy imbéciles, tan piedras como estas
+                <p>- ¡Ca ... ramba ... ! Pero ¿por qué no nos hacen pedazos aquí? Esos <seg rend="italic">tomoches</seg> deben ser muy imbéciles, tan piedras como estas
                     piedras, cuando no se les ocurre venir a barrernos! -decía Castorena a
                     Miguel.</p>
                 <p>Al poetastro la falta del alcohol le hacía pesimista. Había agotado, hacía mucho,
@@ -2168,8 +2120,7 @@
                     Castorena.</p>
                 <p>- Hombre ... ¡a ver si ahora puede hacer versos el poeta! -clamó Torrea ya
                     tendido a lo largo.</p>
-                <p>- Mañana los haremos todos cuando nos chamusquen los <seg rend="italic"
-                        >tomoches</seg>.</p>
+                <p>- Mañana los haremos todos cuando nos chamusquen los <seg rend="italic">tomoches</seg>.</p>
                 <p>Un silencio molesto siguió a esta conversación, que en un ángulo del campamento
                     tenían los oficiales francos, después de una frugal cena de carne asada, una
                     triste cena sin agua ni sal ...</p>
@@ -2180,8 +2131,7 @@
                     ¿Vendrá el coronel Torres o es una <seg rend="italic">papa</seg> nada más?</p>
                 <p>- Creo -explicó el capitán Servín- que la primera columna bajará por el Cordón,
                     mientras nosotros entramos por el camino real, y el coronel Torres, con las
-                    tropas de Sonora, ataca por la banda opuesta. El <seg rend="italic"
-                        >Hotchkiss</seg> va a hacer pedazos la iglesia, primero, y ahora verán cómo
+                    tropas de Sonora, ataca por la banda opuesta. El <seg rend="italic">Hotchkiss</seg> va a hacer pedazos la iglesia, primero, y ahora verán cómo
                     salen las mujeres y se vuelven <seg rend="italic">bola</seg> y ... Sí ...
                     cuestión, cuando menos ... cuando menos, de un par de horas ... Ya lo veremos
                     ... ¡los veremos!</p>
@@ -2206,8 +2156,7 @@
                 <p>Era, en cambio, muy severo, y por esto solían sus inferiores motejarle; y como
                     cuando daban clases teóricas militares a éstos en la Academia, se complacía en
                     explicar toda clase de combates a fuego o bayoneta, entusiasmándose y
-                    extendiéndose, le llamaban <seg rend="italic">Napoleoncito</seg>. El <seg
-                        rend="italic">capitán Napoleoncito</seg> del Noveno era también de mínima
+                    extendiéndose, le llamaban <seg rend="italic">Napoleoncito</seg>. El <seg rend="italic">capitán Napoleoncito</seg> del Noveno era también de mínima
                     estatura y también, como <seg rend="italic">El Grande</seg>, amaba la guerra.
                     ¡Era un esclavo del deber y un leal amigo!</p>
                 <p>- Ya veremos mañana de qué cuero salen mis correas -dijo el poetastro-, y como
@@ -2261,10 +2210,8 @@
                         albazo</seg> ... ?</p>
                 <p>¿No podrían impunemente aquellos fieros cazadores de las montañas, levantar en
                     las tinieblas una hecatombe pánica, en el fondo de algún barranco, para mayor
-                    gloria de su <seg rend="italic">Papa Máximo</seg> o de la <seg rend="italic"
-                        >Santa de Cabora</seg>?</p>
-                <p>... Y la red trágica de hazañas fabulosas que de los <seg rend="italic"
-                        >tomoches</seg> se contaban en todo Chihuahua, volvía a tender rojas
+                    gloria de su <seg rend="italic">Papa Máximo</seg> o de la <seg rend="italic">Santa de Cabora</seg>?</p>
+                <p>... Y la red trágica de hazañas fabulosas que de los <seg rend="italic">tomoches</seg> se contaban en todo Chihuahua, volvía a tender rojas
                     pesadillas en los cerebros débiles ...</p>
                 <p>Al fin llegaron a un terreno plano por el cual siguieron, oblicuando ligeramente
                     a la izquierda; atravesaron un arroyo casi seco, y cuando la columna remontaba
@@ -2278,8 +2225,7 @@
                     de descender por segunda vez iba a principiar el ascenso a otro cerro ... ?</p>
                 <p>Repentinamente la columna se detuvo. Luego hubo una evolución que equivalía a
                         <seg rend="italic">contramarchar</seg>, y la fuerza se dirigió sobre su
-                    flanco derecho; mas como por allí las rocas se alzaban cortadas a pico <seg
-                        rend="italic">se hizo</seg> más a la derecha, y se remontó la misma altura
+                    flanco derecho; mas como por allí las rocas se alzaban cortadas a pico <seg rend="italic">se hizo</seg> más a la derecha, y se remontó la misma altura
                     por la cual habían descendido.</p>
                 <p>- ¡Con un caram ... ba! -gritó Castorena- ¿Estamos jugando?</p>
                 <p>- Vamos a flanquear ...</p>
@@ -2292,8 +2238,7 @@
                     jadeantes.</p>
                 <p>Mercado, que marchaba en la primera columna, cerca de una sección del Undécimo,
                     sentía una fatiga atroz.</p>
-                <p>De pronto vio correr en diferentes direcciones a los <seg rend="italic"
-                        >nacionales</seg> ... La vanguardia se replegó al núcleo de la tropa.
+                <p>De pronto vio correr en diferentes direcciones a los <seg rend="italic">nacionales</seg> ... La vanguardia se replegó al núcleo de la tropa.
                     Expectación. Silencio.</p>
                 <p>En aquel momento se escuchó lejano, muy lejano, a través de las montañas, el
                     toque de atención, parte y rancho -la contraseña de la columna del coronel
@@ -2331,8 +2276,7 @@
                     fuego. Sonó una detonación y el proyectil partió silbando en el espacio,
                     describiendo una gran parábola. Segundos después se oyó la explosión de la
                     granada.</p>
-                <p>Una gritería de entusiasmo acogió en las mas el primer cañonazo asestado a <seg
-                        rend="italic">Tomochic</seg>.</p>
+                <p>Una gritería de entusiasmo acogió en las mas el primer cañonazo asestado a <seg rend="italic">Tomochic</seg>.</p>
                 <p>- ¡Viva México, viva el general Díaz! -gritaron algunos, creyendo que aquel cañón
                     era el triunfo suyo y la derrota del pueblo.</p>
                 <p>- ¡Viva ... ! ¡Viva ... ! ¡Viva el general Díaz!</p>
@@ -2407,8 +2351,7 @@
                     hizo estremecer, se oyeron precipitadamente algunas detonaciones.</p>
                 <p>Entonces los <seg rend="italic">voluntarios</seg> regresaron, corriendo, al
                     puesto de la primera sección, la que se detuvo al instante.</p>
-                <p>- ¡Ahí vienen! ¡Ahí vienen! -llegaban gritando los <seg rend="italic"
-                        >auxiliares</seg>.</p>
+                <p>- ¡Ahí vienen! ¡Ahí vienen! -llegaban gritando los <seg rend="italic">auxiliares</seg>.</p>
                 <p>Las detonaciones se multiplicaron al frente de la primera sección. Corrió una
                     orden en voz baja. Los soldados, esparcidos en un gran espacio sinuoso tras de
                     los pinos y de los peñascales, llevaron al hombro las culatas de los
@@ -2431,8 +2374,7 @@
                     peligro y lo difícil de la situación ...</p>
                 <p>... Y las primeras balas enemigas comenzaron a silbar, de abajo a arriba, por
                     entre los árboles. El combate principiaba.</p>
-                <p>El oficial preparó su carabina, trémulo, esperando ver a los <seg rend="italic"
-                        >tomoches</seg> que se sentían ocultos y que redoblaban el fuego. Sus gritos
+                <p>El oficial preparó su carabina, trémulo, esperando ver a los <seg rend="italic">tomoches</seg> que se sentían ocultos y que redoblaban el fuego. Sus gritos
                     acrecían, gritos salvajes que aterrorizaban a la tropa, desesperada de no ver
                     adversarios, sin poder avanzar ni retroceder, obligada a aceptar el combate en
                     tan desfavorables circunstancias.</p>
@@ -2444,9 +2386,7 @@
                 <p>- ¡Viva el <seg rend="italic">Gran Poder de Dios</seg>! ¡Viva la Santísima
                     Trinidad! -eran las voces y alaridos que las ráfagas llevaban a los soldados, a
                     veces muy distintamente.</p>
-                <p>Uno, herido de muerte en el pecho, abrió los brazos, dejó caer el <seg
-                        rend="italic">Remington</seg>, y murmurando dolorosamente un <seg
-                        rend="italic">¡ay Jesús!</seg> cayó cadáver, boca abajo, vomitando sangre.
+                <p>Uno, herido de muerte en el pecho, abrió los brazos, dejó caer el <seg rend="italic">Remington</seg>, y murmurando dolorosamente un <seg rend="italic">¡ay Jesús!</seg> cayó cadáver, boca abajo, vomitando sangre.
                     Era la primera víctima.</p>
                 <p>Y entonces un cabo joven, que se inclinó para levantarle, lanzó un grito, rodando
                     a su lado, herido en una rodilla.</p>
@@ -2565,8 +2505,7 @@
                     el remaje los cañones de acero de las carabinas que envolvían el árbol en una
                     nube de pólvora.</p>
                 <p>Aquel heroico soldadito, invocador de la Virgen Republicana, apuntó a un hombre
-                    que, a distancia de ocho pasos, hacía fuego; pero el <seg rend="italic"
-                        >tomochiteco</seg>, de un gran salto, quedó a su frente y allí, a boca de
+                    que, a distancia de ocho pasos, hacía fuego; pero el <seg rend="italic">tomochiteco</seg>, de un gran salto, quedó a su frente y allí, a boca de
                     jarro, le disparó en el pecho la carabina.</p>
                 <p>Cayó el bravo rapaz de espaldas, y en ese instante una bala rompiendo la rodilla
                     de su enemigo le hizo yacer a su lado. Incoporóse éste preparando su arma, pero
@@ -2646,8 +2585,7 @@
                     abrigo en abrigo, remontaron el cerro, oyendo los gritos salvajes de ¡Viva
                     Nuestro Señor Jesucristo! ¡Viva María Santísima!</p>
                 <p>En el improvisado reducto en que se defendía aquel pelotón de soldados se hacía
-                    con ventaja muy dura resistencia. Cerca de él había tres cadáveres de <seg
-                        rend="italic">tomoches</seg>.</p>
+                    con ventaja muy dura resistencia. Cerca de él había tres cadáveres de <seg rend="italic">tomoches</seg>.</p>
                 <p>Por entre las piedras y las rocas, amontonados en torno de los troncos de los
                     pinos, se veían los kepis y los cañones de los fusiles que centellaban a los
                     rayos del sol que penetraba a través del alto ramaje cuyas hojas descendían
@@ -2710,8 +2648,7 @@
                 <p>Había heridos en la espalda, muertos con las sienes atravesados, cadáveres con
                     las frentes hechas pedazos ...</p>
                 <p>La confusión era espantosa, la pólvora cegaba por completo; y los hombres rodaban
-                    entre las piedras; y en tanto, los invisibles serranos de <seg rend="italic"
-                        >Tomochic</seg>, sin llevar las carabinas al hombro, sino colocándolas bajo
+                    entre las piedras; y en tanto, los invisibles serranos de <seg rend="italic">Tomochic</seg>, sin llevar las carabinas al hombro, sino colocándolas bajo
                     el brazo, rápidamente, descargaban.</p>
                 <p>Mandaba la primera sección de la segunda columna el capitán Emilio Servín, joven
                     delgado, de rostro huesudo, bigotito castaño y ojos pequeños y brillantes,
@@ -2787,8 +2724,7 @@
                     quienes combatirían centra él; pensaba ella que le matarían indudablemente y
                     que, acaso, a la puerta misma de su casa, vería su cadáver ensangrentado, con
                     los ojos abiertos ligeramente como para mirar por última vez a su Julia adorada,
-                    a la que había prometido hacer su esposa en la iglesia, en nombre del <seg
-                        rend="italic">Gran Poder de Dios</seg>.</p>
+                    a la que había prometido hacer su esposa en la iglesia, en nombre del <seg rend="italic">Gran Poder de Dios</seg>.</p>
                 <p>Y en vano en aquella hora de fiebre y de impaciente espera, trataba de dormir ...
                     ¡imposible! Con tenaz obstinación tomaban a su mente las imágenes halagüeñas o
                     lúgubres, místicas o infernales, arcángeles de gloria, o la Virgen misma
@@ -2834,8 +2770,7 @@
                     agitaba un pueblo semisalvaje del que no tenía sino el supremo heroísmo y el
                     raro valor de saber soportar dignamente la adversidad, el triste heroísmo de
                     saber morir ...</p>
-                <p>El día diecinueve, a las tres de la tarde, llegaron a <seg rend="italic"
-                        >Tomochic</seg>, adelantados una jornada a las fuerzas que al día siguiente
+                <p>El día diecinueve, a las tres de la tarde, llegaron a <seg rend="italic">Tomochic</seg>, adelantados una jornada a las fuerzas que al día siguiente
                     intentarían el ataque.</p>
                 <p>Encontraron el pueblo en la mejor actitud de defensa: claraboyadas las casas de
                     los extremos, lo mismo que las paredes de la torre, vetusta y de un solo cuerpo,
@@ -2868,8 +2803,7 @@
                     raros penetraban y que era también tienda del caudillo y alcoba del jefe de la
                     familia.</p>
                 <p>Bernardo contó a Cruz todo lo que sabía de las fuerzas que en la mañana del día
-                    siguiente atacarían el pueblo, bajando por el camposanto o tomando el <seg
-                        rend="italic">Cerro de la Cueva</seg> que dominaba a todo el valle.</p>
+                    siguiente atacarían el pueblo, bajando por el camposanto o tomando el <seg rend="italic">Cerro de la Cueva</seg> que dominaba a todo el valle.</p>
                 <p>Cruz, sentado cerca de la chimenea donde hervía una grande olla de café, meditó,
                     bajando sobre el pecho su cabeza melenuda; después la levantó con fiereza digna
                     y, los labios plegados por leve sonrisa contestó:</p>
@@ -2908,8 +2842,7 @@
                     Reino de Dios! ... María Santísima nos ayudará.</p>
                 <p>Nosotros no moriremos, porque los que llevan la cruz no pueden morir; si caemos
                     heridos y al parecer muertos, resucitaremos como Nuestro Señor al tercer día,
-                    para poder acabar con los enemigos de Jesucristo. ¡Venceremos gritando <seg
-                        rend="italic">Viva el Gran Poder de Dios</seg>!</p>
+                    para poder acabar con los enemigos de Jesucristo. ¡Venceremos gritando <seg rend="italic">Viva el Gran Poder de Dios</seg>!</p>
                 <p>Después Cruz sacó de la bolsa de su blusa amarillentos papeles; los desdobló y
                     continuó en un tono familiar:</p>
                 <p>- He dispuesto cinco guerrillas. La primera la mando yo y se quedará aquí, en la
@@ -2926,8 +2859,7 @@
                     figuras militares de la historia.</p>
                 <p>Estaba imponente con su aire de conquistador y pontífice, excitando a los suyos
                     al combate en el nombre de Dios y sus santos; resplandeciendo deslumbrante
-                    frente al fanatismo de aquella gente heroica, armada con aquellas carabinas <seg
-                        rend="italic">Winchester</seg>, tan terribles en sus manos.</p>
+                    frente al fanatismo de aquella gente heroica, armada con aquellas carabinas <seg rend="italic">Winchester</seg>, tan terribles en sus manos.</p>
                 <p>Sólo Bernardo permaneció en pie, sonriéndole maliciosamente; pero el pliegue que
                     se formó en el entrecejo de Cruz afiló de tal manera el acero de su mirada que,
                     palideciendo un poco, se arrodilló y bajó también la cabeza. Y entonces el
@@ -2939,8 +2871,7 @@
                     por ladina astucia montañesa de cazador.</p>
                 <p>El fraccionamiento en guerrillas lo imponía la naturaleza del terreno: Cruz
                     comprendía que el enemigo bajaría al pueblo por el <seg rend="italic">Cerro del
-                        Cordón de Lino</seg> e intentaría apoderarse del <seg rend="italic"
-                        >Camposanto</seg>, o tomaría el <seg rend="italic">Cerro de la Cueva</seg>,
+                        Cordón de Lino</seg> e intentaría apoderarse del <seg rend="italic">Camposanto</seg>, o tomaría el <seg rend="italic">Cerro de la Cueva</seg>,
                     llave de la posición, para dominar la iglesia y el núcleo de las casas en cuyo
                     centro se hallaba la de Cruz -que estaba convertida en arsenal y en depósito de
                     víveres, dos únicos reductos que en caso apurado podrían tener.</p>
@@ -2948,16 +2879,14 @@
                     con tres guerrillas que destacarían algunos hombres inteligentes hacia el cerro,
                     para anunciar la aproximación del enemigo, al cual en extensa línea de tiradores
                     batirían en la espesura del monte, en tanto que la quinta guerrilla, establecida
-                    en el <seg rend="italic">Cerro de la Cueva</seg>, a la izquierda del <seg
-                        rend="italic">Cerro de Lino</seg>, mandada por Pedro Chaparro, atacaría a
+                    en el <seg rend="italic">Cerro de la Cueva</seg>, a la izquierda del <seg rend="italic">Cerro de Lino</seg>, mandada por Pedro Chaparro, atacaría a
                     los asaltantes de flanco, mientras éstos se batían al frente.</p>
                 <p>La primera guerrilla, compuesta de veinticuatro hombres, se fraccionaría en dos:
                     una ocupando la casa de Cruz y otra la torre, desde donde él observaría las
                     fases del combate, transmitiendo sus órdenes por medio de un estado mayor de
                     quince o veinte muchachos, vivos, audaces y agilísimos en correr y trepar por
                     los montes.</p>
-                <p>Previno que en cuanto el enemigo se encontrase en la difícil bajada del <seg
-                        rend="italic">Cerro de Lino</seg>, se tomara la ofensiva, demostrando en
+                <p>Previno que en cuanto el enemigo se encontrase en la difícil bajada del <seg rend="italic">Cerro de Lino</seg>, se tomara la ofensiva, demostrando en
                     esto una adivinación maravillosa del moderno arte de la guerra. Comprendía
                     perfectamente que allí podría aniquilarlo en el instante de su perplejidad,
                     entre la espesura y las rocas de la cuesta.</p>
@@ -2980,8 +2909,7 @@
                     familia, con la mitad de una guerrilla, quedó en su casa, convertida en cuartel
                     general.</p>
                 <p>Visitó luego a los soldados federales prisioneros, escogiendo entre ellos a cinco
-                    de los que manifestaron querer tomar las armas para defender <seg rend="italic"
-                        >la causa del Gran Poder de Dios</seg>; a los demás hizo que se les llevase
+                    de los que manifestaron querer tomar las armas para defender <seg rend="italic">la causa del Gran Poder de Dios</seg>; a los demás hizo que se les llevase
                     carne, harina y tinajas con agua.</p>
                 <p>Y al fin entró a su casa, yéndose a sentar, muy pensativo, cerca de la chimenea
                     donde ardía un fuego que su mujer atizaba en silencio, sin atreverse a mirar el
@@ -2995,8 +2923,7 @@
                     murmuraron el extraño rezo, compuesto por el mismo Cruz.</p>
                 <p>Cuando terminó, taciturno, pasó a su cuarto, cerrando tras sí la puerta, dejando
                     a las mujeres inmóviles y absortas, contemplando vagamente el fuego
-                    chisporroteante de la chimenea, en tanto que afuera, en el valle negro de <seg
-                        rend="italic">Tomochic</seg>, caía de las estrellas un silencio y un frío de
+                    chisporroteante de la chimenea, en tanto que afuera, en el valle negro de <seg rend="italic">Tomochic</seg>, caía de las estrellas un silencio y un frío de
                     tumba ...</p>
             </div>
             <div>
@@ -3043,8 +2970,7 @@
                     destacamento del Undécimo que guarnecía el Mineral de <seg rend="italic">Pinos
                         Altos</seg>, y que se le incorporó.</p>
                 <p>Debían atacar el pueblo de <seg rend="italic">Tomochic</seg> a las siete de la
-                    mañana del día veinte de octubre, bajando por el camino de <seg rend="italic"
-                        >Pinos Altos</seg>.</p>
+                    mañana del día veinte de octubre, bajando por el camino de <seg rend="italic">Pinos Altos</seg>.</p>
                 <p>Pero lo más alarmante era que San José había sido hecho prisionero, y fusilado,
                     acaso, en aquellos mismos instantes. Después que Pablo hubo enterado de todo a
                     Cruz, éste le ordenó que de tales noticias guardase un absoluto silencio.</p>
@@ -3068,10 +2994,8 @@
                     norte y noroeste.</p>
                 <p>A retaguardia, Cruz, con la primera guerrilla, permaneció de reserva, dependiendo
                     su actitud de las circunstancias en que se presentara el combate.</p>
-                <p>En tanto, los hombres acampados en el cementerio se desplegaron al pie del <seg
-                        rend="italic">Cerro del Cordón de Lino</seg> mientras Pedro Chaparro
-                    disponía, también en tiradores los suyos tendidos al pie del <seg rend="italic"
-                        >Cerro de la Cueva</seg>, a derecha e izquierda, dispuesto a dar frente por
+                <p>En tanto, los hombres acampados en el cementerio se desplegaron al pie del <seg rend="italic">Cerro del Cordón de Lino</seg> mientras Pedro Chaparro
+                    disponía, también en tiradores los suyos tendidos al pie del <seg rend="italic">Cerro de la Cueva</seg>, a derecha e izquierda, dispuesto a dar frente por
                     su derecha al general Rangel o por su izquierda al coronel Torres, a quienes
                     batiría de flanco.</p>
                 <p>A las seis de la mañana empezáronse a distinguir algunos hombres de las columnas
@@ -3091,8 +3015,7 @@
                     terrenos accidentados y cubiertos de sembrados y rastrojos, o al pasar el
                     río.</p>
                 <p>Principió un lento tiroteo, y media hora después, las columnas del Estado de
-                    Sonora, ya casi en la falda, contestaban a los fuegos de los <seg rend="italic"
-                        >tomoches</seg>. Al frente, en la falda del <seg rend="italic">Cerro de la
+                    Sonora, ya casi en la falda, contestaban a los fuegos de los <seg rend="italic">tomoches</seg>. Al frente, en la falda del <seg rend="italic">Cerro de la
                         Cruz</seg>, los bravos <seg rend="italic">pimas</seg> de Sonora, armados de
                         <seg rend="italic">Remingtons</seg>, apenas se podían contener, escuchando
                     los gritos con que los <seg rend="italic">tomochitecos</seg> los desafiaban
@@ -3120,8 +3043,7 @@
                 <p>- ¡Viva el Supremo Gobierno! ¡Viva el Undécimo Batallón!</p>
                 <p>Por fin, se escuchó ya en la tregua de las primeras descargas la ansiada
                     contraseña que del otro lado de los cerros débilmente repetía el toque de
-                    atención, parte y diana. A <seg rend="italic">paso veloz</seg> y <seg
-                        rend="italic">por tramos</seg> fueron avanzando las columnas de las
+                    atención, parte y diana. A <seg rend="italic">paso veloz</seg> y <seg rend="italic">por tramos</seg> fueron avanzando las columnas de las
                     secciones del Vigésimocuarto, <seg rend="italic">pimas</seg> y Undécimo, en
                     tanto que las secciones del Duodécimo subían el <seg rend="italic">Cerro de la
                         Medrano</seg> que con su alta cima domina perfectamente el valle, tanto como
@@ -3166,10 +3088,8 @@
                     venía, corriendo, agazapándose, gritando, dando órdenes, reanimando a todos y
                     multiplicándose por todas partes.</p>
                 <p>Al amanecer, sus exploradores le habían advertido que las fuerzas que venían de
-                    Chihuahua estaban en marcha, por lo que la guerrilla que estaba al pie del <seg
-                        rend="italic">Cerro del Cordón de Lino</seg> seguía a la expectativa para
-                    atacarlas en cuanto intentasen bajar. Pedro Chaparro en el <seg rend="italic"
-                        >cerro de la Cueva</seg> cerraba el valle, por el Sur. Esperaba también al
+                    Chihuahua estaban en marcha, por lo que la guerrilla que estaba al pie del <seg rend="italic">Cerro del Cordón de Lino</seg> seguía a la expectativa para
+                    atacarlas en cuanto intentasen bajar. Pedro Chaparro en el <seg rend="italic">cerro de la Cueva</seg> cerraba el valle, por el Sur. Esperaba también al
                     enemigo para flanquearlo entre el monte.</p>
                 <p>Entonces fue cuando se replegaron los <seg rend="italic">tomochitecos</seg> que
                     combatían contra las fuerzas de Sonora, y fue cuando, tras las paredes de sus
@@ -3185,8 +3105,7 @@
                     crepitantes que se multiplicaban más y más por todo el occidente del valle.</p>
                 <p>El coronel Torres, en la falda del <seg rend="italic">Cerro de la Cruz</seg>,
                     observaba con su anteojo de campaña el desastroso combate, trémulo de cólera,
-                    exasperado ante el hábil y épico prodigio de la resistencia de <seg
-                        rend="italic">Tomochic</seg>. Todo había concluido. Mandó repetir el toque
+                    exasperado ante el hábil y épico prodigio de la resistencia de <seg rend="italic">Tomochic</seg>. Todo había concluido. Mandó repetir el toque
                     de media vuelta y empezó una lamentable retirada, más peligrosa y más cara que
                     el mismo ataque.</p>
                 <p>Se dejó una huella de heridos y de cadáveres ... Los veteranos de Sonora volvían
@@ -3218,15 +3137,12 @@
                     parte y diana. El general Rangel llegaba cuando las fuerzas de Sonora se
                     retiraban diezmadas por completo.</p>
                 <p>A la sazón, de allá venida, de los montes del <seg rend="italic">Cordón de
-                        Lino</seg> se oía la furiosa detonación del cañón <seg rend="italic"
-                        >Hotchkiss</seg> asestado sobre el pueblo ... Después, en los montes
+                        Lino</seg> se oía la furiosa detonación del cañón <seg rend="italic">Hotchkiss</seg> asestado sobre el pueblo ... Después, en los montes
                     orientales se oyó un vivísimo tiroteo que fue aumentando progresivamente.</p>
                 <p>Principiaban a batirse allá, en el otro lado del valle, en tanto que acá
-                    terminaban, clausurándose el combate con la triste <seg rend="italic"
-                        >retreta</seg>, el toque de la retirada y de la noche, la sonata de la
+                    terminaban, clausurándose el combate con la triste <seg rend="italic">retreta</seg>, el toque de la retirada y de la noche, la sonata de la
                     derrota, el <seg rend="italic">requiescat</seg> del entusiasmo bélico, toque
-                    lúgubre que resuena en las almas de los valientes como un sollozo ... <seg
-                        rend="italic">¡Media vuelta, la tristísima retreta!</seg></p>
+                    lúgubre que resuena en las almas de los valientes como un sollozo ... <seg rend="italic">¡Media vuelta, la tristísima retreta!</seg></p>
             </div>
             <div>
                 <head>CAPÍTULO XXIII</head>
@@ -3346,8 +3262,7 @@
                 <p>Luego, fatigados, cesaron de hablar los heridos, entrando en vaga somnolencia, en
                     un silencio cargado de fatiga y de terror.</p>
                 <p>Les contempló un momento, y ya se marchaba cuando se fijó en que el general, a
-                    algunos pasos de allí, interrogaba colérico a unos soldados de <seg
-                        rend="italic">Seguridad Pública del Estado de Chihuahua</seg> que acababan
+                    algunos pasos de allí, interrogaba colérico a unos soldados de <seg rend="italic">Seguridad Pública del Estado de Chihuahua</seg> que acababan
                     de llegar al campo en esos instantes. Al punto se enteró de lo que pasaba. Un
                     oficial de aquel cuerpo, agregado a la segunda columna, había mandado dar media
                     vuelta a su fuerza, separándose no sólo del teatro del combate, sino abandonando
@@ -3425,8 +3340,7 @@
                     miedo morboso de histérico sediento ... ¡Miedo de la sombra, de la noche, de los
                     vagos rumores que llegaban del campamento, de sus pensamientos, de su
                     conciencia, de su mismo ser ... ! ¡Miedo de todo! Era un principio de demencia
-                    en su organismo débil, un pavor invencible, algo como el <seg rend="italic"
-                        >delirium tremens</seg>.</p>
+                    en su organismo débil, un pavor invencible, algo como el <seg rend="italic">delirium tremens</seg>.</p>
                 <p>Fue una hora de angustia moral y de horrible congoja. Al fin la fatiga le
                     anonadó; durmió unos minutos, no obstante el peligro. Le despertó un tenue rumor
                     de voces a su lado. Era el teniente y el cabo de cuarto que hablaban
@@ -3497,8 +3411,7 @@
                     lívidos. Un oficial del Undécimo, aquel de los bigotazos imponentes que decía
                     que el ataque sería cuestión de dos horas, se levantó temblando ligeramente,
                     pero dispuesto a todo, amartillando su pistola.</p>
-                <p>- ¡Nos dieron el albazo, compañero, prepare su arma! ¡Ca ... nallas de <seg
-                        rend="italic">tomoches</seg>! -decía.</p>
+                <p>- ¡Nos dieron el albazo, compañero, prepare su arma! ¡Ca ... nallas de <seg rend="italic">tomoches</seg>! -decía.</p>
                 <p>Castorena, que era el que estaba cerca de él, tomó vivamente una botella de
                     bacanora a medio vaciar y se echó un trago. Iba luego a preparar su arma, pero
                     un capitán llegó diciendo:</p>
@@ -3506,8 +3419,7 @@
                 <p>Afortunadamente, no había producido ningún efecto de sangre la descarga, y avanzó
                     hasta el campamento la tropa de Sonora. Eran poco más de doscientos hombres,
                     pues los piquetes del Vigésimocuarto y del Undécimo habían sido también
-                    completamente destruidos en el combate contra <seg rend="italic"
-                    >Tomochic</seg>.</p>
+                    completamente destruidos en el combate contra <seg rend="italic">Tomochic</seg>.</p>
                 <p>Volvióse a restablecer la calma. Miguel, ya tranquilo, tomó a su meditación,
                     sentado al pie del árbol, y como el teniente habiendo agotado todos los medios
                     posibles para no dormirse, determinó que vigilase media noche y la otra media lo
@@ -3527,8 +3439,7 @@
                     súbito la imagen de Julia sonri6 tristemente en su desolación meditativa ...
                     ¡Julia! Y hasta entonces pensó en la gentil <seg rend="italic">tomochiteca</seg>
                     melancólica, en la desventurada serrana, tan inteligente y dulce.</p>
-                <p>Y resonó en el misterio de la noche inmensa, en la noche de <seg rend="italic"
-                        >Tomochic</seg> y en la noche de su pensamiento, el timbre de cristal de la
+                <p>Y resonó en el misterio de la noche inmensa, en la noche de <seg rend="italic">Tomochic</seg> y en la noche de su pensamiento, el timbre de cristal de la
                     voz de Julia defendiéndose débilmente.</p>
                 <p>- ¡Ah, cómo es Ud. malo, cómo es Ud. malo ... !</p>
                 <p>¿Malo él ... ? ¡Pobre criatura! Aquella noche fue hacia el cuerpo, fresco aún,
@@ -3539,8 +3450,7 @@
                         quiere</seg>!</p>
                 <p>Y borbotó en la mente de Miguel un repentino raudal lírico ... ¡Qué fecundidad la
                     de su existencia embellecida por el amor extraño, fiero y altivo, dulce y
-                    piadoso, raro y místico, de aquella azucena de los montes de <seg rend="italic"
-                        >Tomochic</seg> -la hija de <seg rend="italic">San José de la Sierra</seg>,
+                    piadoso, raro y místico, de aquella azucena de los montes de <seg rend="italic">Tomochic</seg> -la hija de <seg rend="italic">San José de la Sierra</seg>,
                     víctima de un viejo ogro-, de aquella agreste azucena, cortada, entre una nube
                     de pólvora, cabe un charco de sangre, al fulgor del incendio ... ! ¡Oh, qué
                     ennoblecimiento altísimo el de su obscura vida de vulgar subteniente con aquella
@@ -3570,8 +3480,7 @@
                     inaudito desastre.</p>
                 <p>- Señor, a mí lo que más me preocupa es la desesperación del coronel, cuando sepa
                     ... porque tiene que saberlo al fin y al cabo ...</p>
-                <p>- No -le contestó Villedas-, yo le pondré nada más en el telegrama: <seg
-                        rend="italic">encuentro el veinte con el enemigo, tantos muertos, tantos
+                <p>- No -le contestó Villedas-, yo le pondré nada más en el telegrama: <seg rend="italic">encuentro el veinte con el enemigo, tantos muertos, tantos
                         heridos</seg>, y nada más.</p>
                 <p>Una onda de ternura ascendió hasta lo íntimo del subteniente al pensar en el amor
                     de la oficialidad del Noveno Batallón a su viejo coronel. Era éste un jefe
@@ -3582,8 +3491,7 @@
                     ¡qué dulce y cálido afecto para los jóvenes oficiales, con quienes soñara formar
                     marcial y gentil florón! ¡Qué cariño para los <seg rend="italic">muchachos</seg>
                     de su tropa!</p>
-                <p>Militar de la cepa <seg rend="italic">conservadora</seg>, <seg rend="italic"
-                        >mocho</seg> de los de buena fe, de los de alma ingenuamente abierta a la
+                <p>Militar de la cepa <seg rend="italic">conservadora</seg>, <seg rend="italic">mocho</seg> de los de buena fe, de los de alma ingenuamente abierta a la
                     tradición caballeresco-mística de <seg rend="italic">Religión y Fueros</seg>, el
                     coronel Miguel Vela, jefe del Noveno Batallón era todo un bélico patriarca, no
                     por implacable y duro, menos amoroso ...</p>
@@ -3626,8 +3534,7 @@
                     oponerse, y se subió por la espalda al cerro, en cuya cima se acampó muy
                     fácilmente, quedando la fuerza a cubierto de todo ataque, y completamente
                     invisible para los <seg rend="italic">tomoches</seg>.</p>
-                <p>Era aquello como una fortaleza inexpugnable desde donde se observaba a <seg
-                        rend="italic">Tomochic</seg> a menos de seiscientos metros de distancia.
+                <p>Era aquello como una fortaleza inexpugnable desde donde se observaba a <seg rend="italic">Tomochic</seg> a menos de seiscientos metros de distancia.
                     Pecho a tierra, tras los árboles y las rocas se tendieron soldados que se
                     revelaban durante el día para que, apuntando con la mayor calma, hicieran fuego
                     sobre los <seg rend="italic">tomochitecos</seg> que se atreviesen a salir de las
@@ -3663,10 +3570,8 @@
                     últimas casas del pueblo o por la guerrilla de la torre, avanzaban hacia el
                     llano hasta la margen del río, donde llenaban por docenas las ánforas de la
                     tropa.</p>
-                <p>Mientras unas hacían provisión de agua, otras se arrodillaban, de cara a <seg
-                        rend="italic">Tomochic</seg>, levantando los brazos en cruz como en actitud
-                    de orar ... Creían que, viéndolas en tan sacra actitud, los <seg rend="italic"
-                        >tomochitecos</seg> no se atreverían a hacerles fuego.</p>
+                <p>Mientras unas hacían provisión de agua, otras se arrodillaban, de cara a <seg rend="italic">Tomochic</seg>, levantando los brazos en cruz como en actitud
+                    de orar ... Creían que, viéndolas en tan sacra actitud, los <seg rend="italic">tomochitecos</seg> no se atreverían a hacerles fuego.</p>
                 <p>Y en efecto, jamás sus maravillosos tiradores dispararon sobre aquellas hembras
                     que proveían de agua fresca y limpia a <seg rend="italic">los hijos de
                         Lucifer</seg>. ¡Los caballerescos hijos de la sierra no mataban mujeres!</p>
@@ -3674,8 +3579,7 @@
                     bien, destacándose en la margen del río, pero las respetaban noblemente ...</p>
                 <p>En seguida ascendían, jadeando, deteniéndose a trechos para tomar aliento,
                     trepando por la fragosidad de aquel monstruo ciclópeo en cuyo lomo ondulado
-                    palpitaba el amenazador enjambre del vivac acechando al león de <seg
-                        rend="italic">Tomochic</seg> ...</p>
+                    palpitaba el amenazador enjambre del vivac acechando al león de <seg rend="italic">Tomochic</seg> ...</p>
                 <p>¡Qué algazara a la llegada del agua, qué frescura, qué delicia ... ! Y llovían
                     las <seg rend="italic">jolas</seg> y los sucios billetes sobre las manos
                     sudorosas y chorreantes de las <seg rend="italic">viejas</seg>. - ¡L'agua,
@@ -3724,12 +3628,10 @@
                     heridos, cuántos los dispersos y cuántos los desertores? ¡Ah! y estoy seguro que
                     en el parte se asentaron con aplomo cosas como ésas, muy falsas, sí, muy falsas
                     ...</p>
-                <p>En aquel momento el corneta de órdenes del general tocó <seg rend="italic"
-                        >llamada de honor</seg> para que se reuniesen los oficiales. Era con objeto
+                <p>En aquel momento el corneta de órdenes del general tocó <seg rend="italic">llamada de honor</seg> para que se reuniesen los oficiales. Era con objeto
                     de nombrar los rondines que debían en la noche recorrer el campamento para
                     vigilar los centinelas y las parejas avanzadas.</p>
-                <p>En la <seg rend="italic">orden del día</seg>, que se leyó después de la <seg
-                        rend="italic">lista de retreta</seg>, a las seis de la tarde, se previno
+                <p>En la <seg rend="italic">orden del día</seg>, que se leyó después de la <seg rend="italic">lista de retreta</seg>, a las seis de la tarde, se previno
                     fuese hecho el servicio nocturno con la mayor exactitud, según los detalles
                     explicados.</p>
                 <p>De nueve a diez de la noche hizo Miguel el rondín que le correspondía, visitando
@@ -3739,10 +3641,8 @@
                     escabrosidades del cerro.</p>
                 <p>En el campamento de los <seg rend="italic">pimas</seg> supo, oyendo por
                     casualidad algunas palabras de una conversación, que en la mañana había sido
-                    fusilado un viejo <seg rend="italic">tomoche</seg> que traían prisionero de <seg
-                        rend="italic">Pinos Altos</seg>.</p>
-                <p>- ¡Ajajay! mi jefe, que si juera verdá lo que dicen esos <seg rend="italic"
-                        >tomoches</seg>, estábamos condenados o nos caía un rayo ... ¡El que
+                    fusilado un viejo <seg rend="italic">tomoche</seg> que traían prisionero de <seg rend="italic">Pinos Altos</seg>.</p>
+                <p>- ¡Ajajay! mi jefe, que si juera verdá lo que dicen esos <seg rend="italic">tomoches</seg>, estábamos condenados o nos caía un rayo ... ¡El que
                     fusilamos era el mentado <seg rend="italic">San José</seg>! Eso sí, murió como
                     hombre ...</p>
                 <p>El oficial no oyó más. Un pensamiento de asombro y piedad le atravesó el alma ...
@@ -3764,8 +3664,7 @@
                     incrustarse en los duros adobes de las casas, abriendo enormes boquetes entre
                     grandes nubes de polvo. Después tomaba a caer el mismo silencio en el valle
                     solitario.</p>
-                <p>Cuando hacían algunos buenos tiros no podían menos que echarse una copa de <seg
-                        type="foreign" xml:lang="fr">cognac</seg>, con gran desesperación de
+                <p>Cuando hacían algunos buenos tiros no podían menos que echarse una copa de <seg type="foreign" xml:lang="fr">cognac</seg>, con gran desesperación de
                     Castorena que no encontraba con todas sus <seg rend="italic">jolas</seg> y
                     billetes, ni un solo trago de sotol.</p>
                 <p>Se comprendía que los orgullosos <seg rend="italic">tomoches</seg> estaban muy
@@ -3803,8 +3702,7 @@
                     conduciendo a los oficiales y soldados heridos, quienes darían tácito pero
                     elocuente <seg rend="italic">parte</seg> al general Márquez respecto a los
                     combates del veinte de octubre.</p>
-                <p>El día veintitrés, comprendiendo el general Rangel que los <seg rend="italic"
-                        >tomoches</seg> se habían reconcentrado en la iglesia y núcleo de casas que
+                <p>El día veintitrés, comprendiendo el general Rangel que los <seg rend="italic">tomoches</seg> se habían reconcentrado en la iglesia y núcleo de casas que
                     rodeaban al <seg rend="italic">Cuartelito</seg> -así llamaban los soldados a la
                     casa de Cruz Chávez- y habían abandonado las situadas en los extremos, ordenó
                     que cautelosamente bajaran algunas partidas del Duodécimo, Undécimo y
@@ -3852,8 +3750,7 @@
                     una improvisación poética, explicaba a Miguel, en la noche, la situación en que
                     el enemigo se encontraba. Referíale que los Medrano habían muerto, los Calderón
                     también, Manuel Chávez estaba herido de gravedad, así como cuatro o cinco de los
-                    Mendías que se curaban en casa de Chávez. ¡No había, abajo, un <seg
-                        rend="italic">tomoche</seg> sano ... !</p>
+                    Mendías que se curaban en casa de Chávez. ¡No había, abajo, un <seg rend="italic">tomoche</seg> sano ... !</p>
                 <p>Sólo en el <seg rend="italic">Cerro de la Cueva</seg> estaba intacta la fuerza:
                     de Pedro Chaparro, más amenazadora que nunca.</p>
                 <p>Aquel punto cobraba gran importancia, pues por su flanco izquierdo tenía
@@ -3871,8 +3768,7 @@
                 <p>Vagaban dispersos los ganados, recorriendo el valle, entre cerdos y gallinas.</p>
                 <p>Los perros, inquietos y azorados, aullaban durante el día y ladraban ferozmente
                     en la noche ...</p>
-                <p>Los disparos del cañón poco o nada importaban a los <seg rend="italic"
-                        >tomochitecos</seg>, pues su pequeño calibre hacía que sólo abriesen hondos
+                <p>Los disparos del cañón poco o nada importaban a los <seg rend="italic">tomochitecos</seg>, pues su pequeño calibre hacía que sólo abriesen hondos
                     huecos en las paredes de las casas vacías, matando, al estallar la granada, una
                     que otra gallina, en tanto que las demás, asustadísimas, cacareaban corriendo en
                     pleno pánico, entre negras nubes de polvo y pólvora.</p>
@@ -3907,16 +3803,14 @@
                     ecos de las algaradas del saqueo ... O la contemplaba, apuntando con su carabina
                     tras una tronera de la torre, apuntando hacia donde él pensaba en ella,
                     relampagueantes y hostiles sus ojos negros, sus lindos ojos, vibrante la locura
-                    de su orgullo, fiera, como cuando aquel día le había dicho: - ¡Yo soy de <seg
-                        rend="italic">Tomochic</seg>! -como cuando pronunciara el nombre bárbaro y
+                    de su orgullo, fiera, como cuando aquel día le había dicho: - ¡Yo soy de <seg rend="italic">Tomochic</seg>! -como cuando pronunciara el nombre bárbaro y
                     heroico ...</p>
             </div>
             <div>
                 <head>CAPÍTULO XXVII</head>
                 <head type="sub">LA TOMA DEL <seg rend="italic">CERRO DE LA CUEVA</seg></head>
                 <p>Al romper la alborada del día veinticuatro, el cañón, apuntando a la iglesia,
-                    hizo su <seg rend="italic">saludo de ordenanza</seg> a <seg rend="italic"
-                        >Tomochic</seg>, en el momento en que formaban extraña sinfonía las cornetas
+                    hizo su <seg rend="italic">saludo de ordenanza</seg> a <seg rend="italic">Tomochic</seg>, en el momento en que formaban extraña sinfonía las cornetas
                     de las diferentes fracciones, tocando la <seg rend="italic">diana</seg></p>
                 <p>¡Ay! aquella <seg rend="italic">diana</seg> -el sonoro toque de la victoria
                     vibrando frente al mísero poblacho de <seg rend="italic">Tomochic</seg>, frente
@@ -4084,8 +3978,7 @@
                     tras él a todos los que le veían, electrizados con aquella intrepidez de supremo
                     heroísmo. Ya no hubo vacilantes, ni fatigados. Resurgía la bravura del primer
                     arranque.</p>
-                <p>Al fin, principiaron a ver en lo alto los perfiles de los terribles <seg
-                        rend="italic">tomoches</seg> haciendo fuego tras los árboles, batiéndose en
+                <p>Al fin, principiaron a ver en lo alto los perfiles de los terribles <seg rend="italic">tomoches</seg> haciendo fuego tras los árboles, batiéndose en
                     retirada rumbo a la cima del monte. ¡Al fin veían retroceder a los invencibles
                     hijos de <seg rend="italic">Tomochic</seg>!</p>
                 <p>Mas, volvieron a oír entonces sus gritos de guerra, extraños y feroces.</p>
@@ -4121,8 +4014,7 @@
                     él, descargaron, pero otro hombre cayó muerto, y se elevó tras el grupo de rocas
                     la voz chillona y victoriosa del indomable adversario, cuya carabina asomaba su
                     cañón entre las grietas de lejanas rocas.</p>
-                <p>- ¡Viva el <seg rend="italic">Poder de Dios</seg>! ¡Mueran los <seg rend="italic"
-                        >pelones</seg>!</p>
+                <p>- ¡Viva el <seg rend="italic">Poder de Dios</seg>! ¡Mueran los <seg rend="italic">pelones</seg>!</p>
                 <p>- ¡Fuego sobre él! ¡A la bayoneta! ¡Suban por allí! -gritó Castorena.</p>
                 <p>Miguel llegó jadeante, con su arma preparada, a donde cuatro o cinco soldados
                     habíanse detenido contemplando un cadáver. Boca arriba, con el cráneo y pecho
@@ -4141,9 +4033,7 @@
                 <p>La torre del pueblo quedaba a la derecha y desde allí partían algunas balas; los
                     soldados se habían echado en el suelo aniquilados por la fatiga; otros
                     registraban los cadáveres, quitándoles las armas.</p>
-                <p>Escuchóse, entonces, débil por la distancia, del campamento de <seg rend="italic"
-                        >la Medrano</seg>, el toque del corneta de órdenes del general: <seg
-                        rend="italic">alto el fuego</seg>.</p>
+                <p>Escuchóse, entonces, débil por la distancia, del campamento de <seg rend="italic">la Medrano</seg>, el toque del corneta de órdenes del general: <seg rend="italic">alto el fuego</seg>.</p>
                 <p>El capitán Molina mandó a su vez tocar diana a un soldado -el mismo que recogió
                     la corneta al <seg rend="italic">corneta de órdenes</seg>, quien había sido
                     herido y quedó abandonado en la falda del cerro.</p>
@@ -4195,8 +4085,7 @@
                     rostro.</p>
                 <p>El capitán Tagle, el único de los cuatro capitanes del Noveno que sobrevivía,
                     ordenó que se reuniera la fuerza restante. Su corneta de órdenes tocó reunión y
-                    los oficiales y sargentos principiaron a reunir la gente. De los <seg
-                        rend="italic">tomoches</seg> no quedaban sino los cadáveres.</p>
+                    los oficiales y sargentos principiaron a reunir la gente. De los <seg rend="italic">tomoches</seg> no quedaban sino los cadáveres.</p>
                 <p>Había un gran desorden; los soldados en completa dispersión en el cerro, entre
                     los pinos, descansaban en actitudes de mortal fatiga. Algunos heridos se
                     lamentaban, abandonados.</p>
@@ -4238,27 +4127,19 @@
                     roja que ondeaba sobre el pino, aquella bandera roja defendida por Bernardo
                     desde su foso, que había costado la vida del capitán ...</p>
                 <p>De pronto resonó una lejana algarada, feroces gritos de:</p>
-                <p>- ¡Viva el general Rangel! ¡Viva el Supremo Gobierno! ¡Mueran los <seg
-                        rend="italic">tomoches</seg>! ¡Mueran los bandidos!</p>
+                <p>- ¡Viva el general Rangel! ¡Viva el Supremo Gobierno! ¡Mueran los <seg rend="italic">tomoches</seg>! ¡Mueran los bandidos!</p>
                 <p>... Era un estruendoso pelotón de <seg rend="italic">auxiliares</seg>, de
                     aquellos alharaquientos rancheros de los llanos que se reclutaran en Guerrero,
                     exploradores de vanguardia, de aquellos que sabían retroceder a tiempo para
-                    descubrir el frente de la tropa de línea que había entrada a ciegas en el <seg
-                        rend="italic">Cerro de lino</seg> el día veinte; eran los famosos <seg
-                        rend="italic">nacionales</seg> que avanzaban de <seg rend="italic"
-                        >refresco</seg> sobre el cerro tomado duramente por la compañía del Noveno
+                    descubrir el frente de la tropa de línea que había entrada a ciegas en el <seg rend="italic">Cerro de lino</seg> el día veinte; eran los famosos <seg rend="italic">nacionales</seg> que avanzaban de <seg rend="italic">refresco</seg> sobre el cerro tomado duramente por la compañía del Noveno
                     Batallón, sobre el punto barrido ya de enemigos.</p>
                 <p>Y los valientes <seg rend="italic">soldados de línea</seg> vieron cómo aquella
-                    horda desenfrenada, enriquecida ya por el saqueo de las casas extremas de <seg
-                        rend="italic">Tomochic</seg>, subió en son de triunfo, creyéndose -acaso de
+                    horda desenfrenada, enriquecida ya por el saqueo de las casas extremas de <seg rend="italic">Tomochic</seg>, subió en son de triunfo, creyéndose -acaso de
                     buena fe- la única vencedora de la alta posición, llave del pueblo.</p>
-                <p>- ¡Viva el gobierno de Chihuahua ... ! ¡Mueran los <seg rend="italic"
-                        >tomoches</seg>! -gritó el más veloz, recogiendo, frenético de júbilo,
-                    aquella bandera roja que era el guión del Noveno caído en la cuesta del <seg
-                        rend="italic">Cordón de lino</seg>.</p>
+                <p>- ¡Viva el gobierno de Chihuahua ... ! ¡Mueran los <seg rend="italic">tomoches</seg>! -gritó el más veloz, recogiendo, frenético de júbilo,
+                    aquella bandera roja que era el guión del Noveno caído en la cuesta del <seg rend="italic">Cordón de lino</seg>.</p>
                 <p>- ¡Mueran los <seg rend="italic">tomoches</seg>! -repitió, tremolándolo.</p>
-                <p>- ¡Ya, ya, amigo, no grite tanto, ya murieron esos pobres <seg rend="italic"
-                        >tomoches</seg>, y nos tocó matarlos a nosotros! -le gritó Castorena,
+                <p>- ¡Ya, ya, amigo, no grite tanto, ya murieron esos pobres <seg rend="italic">tomoches</seg>, y nos tocó matarlos a nosotros! -le gritó Castorena,
                     furioso de que aquella <seg rend="italic">chinaca</seg> se adjudicara tan
                     bonitamente la gloria de la jornada.</p>
                 <p>Poco después un ayudante del general comunicó al capitán superviviente algunas
@@ -4277,15 +4158,12 @@
                     aguiluchos de la sierra bravía ...</p>
                 <p>Y al otro extremo, haciendo juego con el <seg rend="italic">Cerro de la
                         Cueva</seg>, dejando entre ambos el vasto caserío, levantábase, cual
-                    gigantesco dromedario echado sobre sus patas traseras, el <seg rend="italic"
-                        >Cerro de la Medrano</seg> entre cuyas gibas se abrigaba el vivac en
+                    gigantesco dromedario echado sobre sus patas traseras, el <seg rend="italic">Cerro de la Medrano</seg> entre cuyas gibas se abrigaba el vivac en
                     acecho.</p>
                 <p>Miguel contempló, casi a sus pies, en el fondo, la torre negruzca, leprosa y
                     desportillada al lado del recio caserón que fuera en un tiempo convento y
-                    granero. A veces, como para demostrar que no había muerto el último <seg
-                        rend="italic">tomochiteco</seg>, partían de allí ráfagas de plomo, ya hacia
-                    la loma <seg rend="italic">de la Medrano</seg>, ya hacia la cumbre <seg
-                        rend="italic">de la Cueva</seg>.</p>
+                    granero. A veces, como para demostrar que no había muerto el último <seg rend="italic">tomochiteco</seg>, partían de allí ráfagas de plomo, ya hacia
+                    la loma <seg rend="italic">de la Medrano</seg>, ya hacia la cumbre <seg rend="italic">de la Cueva</seg>.</p>
                 <p>El subteniente se recostó, aniquilado por la fatiga. Y tan extenuado y abatido
                     debía estar que inspiró lástima a un <seg rend="italic">nacional</seg> quien le
                     obsequió con unas gordas de harina y un pedazo de queso.</p>
@@ -4364,11 +4242,9 @@
                     sucio en el cielo azul. El cañón enviaba cada hora una granada, rompiendo con su
                     estruendo el silencio solemne de aquel <seg rend="italic">Tomochic</seg> que
                     abrigaba más cadáveres que vivos.</p>
-                <p>La guardia de tiradores, en lo más alto del cerro, intentaba cazar a los <seg
-                        rend="italic">tomochitecos</seg> que se atreviesen a salir de la iglesia o
+                <p>La guardia de tiradores, en lo más alto del cerro, intentaba cazar a los <seg rend="italic">tomochitecos</seg> que se atreviesen a salir de la iglesia o
                     de la casa de Cruz Chávez.</p>
-                <p>A las cinco de la tarde, el corneta de órdenes del cuartel general tocaba <seg
-                        rend="italic">llamada de honor</seg>; el mayor Bligh, jefe del estado mayor,
+                <p>A las cinco de la tarde, el corneta de órdenes del cuartel general tocaba <seg rend="italic">llamada de honor</seg>; el mayor Bligh, jefe del estado mayor,
                     leía la orden y nombraba a los oficiales el servicio de rondines para la noche,
                     relevándose las guardias cómo acostumbra en campaña, a las seis de la tarde.</p>
                 <p>En la noche el incendio de las casas del pueblo era más visible, las llamas
@@ -4438,8 +4314,7 @@
                     Miguel dirigiéndose a sus camaradas. No le entendieron, y continuó en silencio
                     su épica oración fúnebre.</p>
                 <p>Algunos soldados se pusieron a cantar animados con la alegría de la luz y la
-                    esperanza del calor ... el sol ascendía, el sol de <seg rend="italic"
-                        >Tomochic</seg> ...</p>
+                    esperanza del calor ... el sol ascendía, el sol de <seg rend="italic">Tomochic</seg> ...</p>
                 <p>¡Pobre capitán!</p>
             </div>
             <div>
@@ -4484,20 +4359,17 @@
                     prorrumpiendo en vociferaciones frenéticas ante las delicias de los barriles de
                     sotol.</p>
                 <p>Codeándose, empujándose, disputando con palabras crudas, lograban los más fuertes
-                    y los más listos abrirse paso, llevando botellas, jarros, ánforas y <seg
-                        rend="italic">damajuanas</seg> -ávidos de alcohol, después de la abstinencia
+                    y los más listos abrirse paso, llevando botellas, jarros, ánforas y <seg rend="italic">damajuanas</seg> -ávidos de alcohol, después de la abstinencia
                     de una semana.</p>
                 <p>Los barriles de sotol se vaciaban como si se les desfondara de un golpe; las
-                    pilas de cigarros disminuían; los <seg rend="italic">cartuchos</seg> de <seg
-                        rend="italic">café torrificado</seg> volaban; desgranábanse las cadenas de
+                    pilas de cigarros disminuían; los <seg rend="italic">cartuchos</seg> de <seg rend="italic">café torrificado</seg> volaban; desgranábanse las cadenas de
                     chorizos, en tanto que una multitud de manos sucias dejaba caer una verdadera
                     lluvia de dinero en mugrientos papeles azules y verdes, con infernal
                     barahúnda.</p>
                 <p>Por supuesto que todo se vendía carísimo -un real las cajas de cigarros, un real
                     cada chorizo y siete reales el cuartillo de sotol- y sin embargo, parecía que
                     todo se regalaba, tal furia había por ser despachados antes que se agotara todo;
-                    ¡Los soldados se sentían ricos; nunca como antes habían sido poseedores de <seg
-                        rend="italic">tanto dinero junto</seg> ... ! Habían sufrido mucho y se
+                    ¡Los soldados se sentían ricos; nunca como antes habían sido poseedores de <seg rend="italic">tanto dinero junto</seg> ... ! Habían sufrido mucho y se
                     encontraban de pronto con la perspectiva de olvidar, de gozar, ¡viva el sotol!
                     ...</p>
                 <p>- ¡Hé ... hé ... ! ¡Ábranse ... ábranse, con un carambano! -gritaba Castorena,
@@ -4527,8 +4399,7 @@
                 <p>Eran las diez de la mañana y bajo el sol claro y tibio ya, se extendía el vivac
                     en plena efervescencia, jubilismo y sonoro. Fue una algazara más intensa y más
                     brusca que la que animaba los campamentos en Guerrero. Circulaban libremente las
-                    jolas y los billetes, las barajas, los dados, los objetos <seg rend="italic"
-                        >tomochitecos</seg>, el alcohol, los víveres casi frescos y las mujeres.</p>
+                    jolas y los billetes, las barajas, los dados, los objetos <seg rend="italic">tomochitecos</seg>, el alcohol, los víveres casi frescos y las mujeres.</p>
                 <p>Las <seg rend="italic">viejas</seg> soldaderas, menos numerosas, habían adquirido
                     mayor prestigio y, más raras, más ricas, más solicitadas por sus fritangas o por
                     sus personas, imperaban en medio de tumultuosos corrillos, como soberanas.
@@ -4552,15 +4423,12 @@
                     fogatas aderezadas para el almuerzo -no la humareda negruzca y densa de los
                     incendios de abajo-, ... y el vibrante campamento aparecía velado delicadamente
                     por una neblina cerúlea, a cuyo través percibíase el hervidero de la soldadesca
-                    y de la indiada serrana entre el centenar de las bayonetas de los alineados <seg
-                        rend="italic">pabellones</seg> de fusiles, resplandeciendo al sol cual
+                    y de la indiada serrana entre el centenar de las bayonetas de los alineados <seg rend="italic">pabellones</seg> de fusiles, resplandeciendo al sol cual
                     ramilletes de gigantescas exóticas azucenas de acero ...</p>
-                <p>Y gritos roncos, chillidos femeniles, carcajadas, bravatas, voces de mando, <seg
-                        rend="italic">chillidos</seg>, burletas, canciones, y rasgueos de guitarras,
+                <p>Y gritos roncos, chillidos femeniles, carcajadas, bravatas, voces de mando, <seg rend="italic">chillidos</seg>, burletas, canciones, y rasgueos de guitarras,
                     y lamentos de acordeón, integraban la potente algarabía ...</p>
                 <p>¿Quién se acordaba de lo sufrido ... ? Había qué comer y qué beber, sentíanse
-                    todos frescos, descansados, fuertes y tranquilos ... <seg rend="italic"
-                        >Tomochic</seg> ardía lentamente allá abajo ...</p>
+                    todos frescos, descansados, fuertes y tranquilos ... <seg rend="italic">Tomochic</seg> ardía lentamente allá abajo ...</p>
                 <p>Grupos de soldados glotones rodeaban los <seg rend="italic">puestos</seg> de las
                     viejas, quienes freían en grandes cazuelas carne de puerco, la que chirriaba en
                     hirviente mar de manteca, saturando el aire de un olor apetitoso que hacía
@@ -4578,8 +4446,7 @@
                     los tres oficiales a la sombra de un arbusto, ya sentados sobre sus capotes, a
                     la turca, ya recostados y tendidos como en un <seg rend="italic">día de
                         campo</seg>. <seg rend="italic">Roló</seg> activamente el sotol, y charlaron
-                    de cosas alegres, y tomaron a broma las tristes, gustando de la <seg
-                        rend="italic">plática</seg> de la soldadera que les llevó, como exquisita
+                    de cosas alegres, y tomaron a broma las tristes, gustando de la <seg rend="italic">plática</seg> de la soldadera que les llevó, como exquisita
                     ofrenda, una cazuela con <seg rend="italic">frijoles refritos</seg>.</p>
                 <p>De pronto preguntóle Torrea:</p>
                 <p>- Oye, Mazzantini, ¿pues que no era <seg rend="italic">tu viejo</seg> el cabo
@@ -4592,8 +4459,7 @@
                         viejo</seg> es el sargento Guadalupe Riva, del Once ... ¡No ve que hizo lo
                     mesmo mi comadrita Pánfila, que la tenía Gregorio Moncada ... ¿Se acuerda de él,
                     mi subteniente Mercado? ...</p>
-                <p>- ¡Ya lo creo! ... Gregorio Moncada, corneta de mi compañía, que murió en <seg
-                        rend="italic">la Cueva</seg> gritando vivas al general Díaz ... Soldado muy
+                <p>- ¡Ya lo creo! ... Gregorio Moncada, corneta de mi compañía, que murió en <seg rend="italic">la Cueva</seg> gritando vivas al general Díaz ... Soldado muy
                     antiguo y muy valiente ...</p>
                 <p>- Tres misas le va a mandar decir en la Villa mi comadrita Pánfila ... ¿qué vamos
                     a hacer ... ? Sea por el amor de Dios ... Yéndonos con los del Once, no
@@ -4633,13 +4499,11 @@
                     sinfonía de los ruidos nocturnos en el valle.</p>
                 <p>Allá en un extremo de aquel abismo, el <seg rend="italic">Cerro de la
                         Medrano</seg> se alzaba como un enorme dromedario echado, mientras lamía su
-                    flanco derecho el río, teniendo a su frente el valle de <seg rend="italic"
-                        >Tomochic</seg> ... y aún más allá, erguido, cortado a pico, agresivo y
+                    flanco derecho el río, teniendo a su frente el valle de <seg rend="italic">Tomochic</seg> ... y aún más allá, erguido, cortado a pico, agresivo y
                     hosco, el <seg rend="italic">Cerro de la Cueva</seg> parecía contemplarle, como
                     un tigre sentado sobre su grupa ...</p>
                 <p>Sobre la cumbre, dominando el profundo valle, un parapeto protegía el principal
-                    puesto de observaciones ... El largo hocico de acero del cañón <seg
-                        rend="italic">Hotchkiss</seg> avanzaba siniestramente en el vacío, saliendo
+                    puesto de observaciones ... El largo hocico de acero del cañón <seg rend="italic">Hotchkiss</seg> avanzaba siniestramente en el vacío, saliendo
                     por entre las rocas y los arbustos, acechando en las tinieblas, rumbo a la
                     muerte ...</p>
                 <p>Noche plena. Los alegres rumores del vivac se habían extinguido y se cumplía con
@@ -4657,12 +4521,10 @@
                 <p>De vez en cuando el soberano viento de los bosques lejanos, saturado de fuertes
                     perfumes, pasaba con el susurro melancólico de las altas frondas ... llevando
                     todos los hálitos de la sierra, el coro solemne y épico que cantaba el himno de
-                    los cíclopes americanos, bajo los eternos pinos sombríos ... Del fondo de <seg
-                        rend="italic">Tomochic</seg> ascendían, distintos y lóbregos, otros rumores
+                    los cíclopes americanos, bajo los eternos pinos sombríos ... Del fondo de <seg rend="italic">Tomochic</seg> ascendían, distintos y lóbregos, otros rumores
                     ...</p>
                 <p>¡Oh ... aquel extenso y profundo valle de <seg rend="italic">Tomochic</seg> era
-                    espantoso en la noche, contemplado desde la más culminante plataforma del <seg
-                        rend="italic">Cerro de la Medrano</seg>! Inmóvil, de pie tras el parapeto
+                    espantoso en la noche, contemplado desde la más culminante plataforma del <seg rend="italic">Cerro de la Medrano</seg>! Inmóvil, de pie tras el parapeto
                     natural que protegía las posiciones, contempló un instante Miguel, absorto,
                     aquel mar de tinta negra ... mar de olas de sombra, de donde emergían con
                     fantásticas oscilaciones puntos rojos o manchas de escarlata, como goterones de
@@ -4711,8 +4573,7 @@
                     fagina, incinerando los cadáveres, las víctimas en los últimos combates.</p>
                 <p>Ya le había referido, como pudo, el pobre diablo, más de una escena conmovedora o
                     épica, cuando de pronto saltó con esta tirada que Miguel jamás olvidaría:</p>
-                <p>- ¡Ah señor ... ! ¡Y los perros ... ! ¡Los perros de <seg rend="italic"
-                        >Tomochic</seg> ... ! ¡Nunca había yo visto cosa igual ... ! ¡Qué horror ...
+                <p>- ¡Ah señor ... ! ¡Y los perros ... ! ¡Los perros de <seg rend="italic">Tomochic</seg> ... ! ¡Nunca había yo visto cosa igual ... ! ¡Qué horror ...
                     ! ¡qué valientes ... ! ¡Qué buenos ... sí ... qué chulos ... qué lindos ... ! Le
                     confieso a usted, lloré ... Ahorita ladran ... ¿No los oye ... ? Ladran, pero
                     quejándose, es que están llorando cerca de sus amos difuntos ... ¡lloran,
@@ -4727,19 +4588,15 @@
                     Santa! otra vez se volvían a echarse cerca de su amo difunto o lo iban siguiendo
                     hasta el montón donde los habíamos de quemar ... Lamían con sus lenguas secas de
                     pura sed, la sangre de sus queridos muertos ... ¡Ay, pobrecitos animales! Ya ve
-                    usted, mi jefe, cómo queremos nosotros a los perros ... La tropa, la <seg
-                        rend="italic">juanada</seg>, no está a gusto sin sus perritos ... ¡Porque
+                    usted, mi jefe, cómo queremos nosotros a los perros ... La tropa, la <seg rend="italic">juanada</seg>, no está a gusto sin sus perritos ... ¡Porque
                     teníamos que matarlos también pensando que nos estorbaban y nos mordían! ¡Los
-                    matamos y los tiramos en el montón, revueltos con los de <seg rend="italic"
-                        >Tomochic</seg> y con los mismos de nosotros, todos juntos, echándoles harta
+                    matamos y los tiramos en el montón, revueltos con los de <seg rend="italic">Tomochic</seg> y con los mismos de nosotros, todos juntos, echándoles harta
                     leña y rastrojo para que ardieran mejor ... ! Otros perros corrían ladrando muy
                     triste por la llanada, quejándose con gritos larguísimos que me hacían parar los
                     pelos como quien tiene mucho frío, y me dolía el estómago ... ¡Pobres perritos
                     ... ! Era que buscaban a sus amos ... Subían por los cerros, bajaban, volvían al
                     río, se echaban en el agua, salían sacudiéndose y volvían a correr, a correr por
-                    entre los jacales y los rastrojos y los escombros, saltando los <seg
-                        rend="italic">caláveres</seg> de los nuestros o sobre los de <seg
-                        rend="italic">Tomochic</seg>, sin hacerse caso, corre y corre, ladra y
+                    entre los jacales y los rastrojos y los escombros, saltando los <seg rend="italic">caláveres</seg> de los nuestros o sobre los de <seg rend="italic">Tomochic</seg>, sin hacerse caso, corre y corre, ladra y
                     ladra, porque no encontraban a los suyos ... y así seguían volviéndose, locos,
                     dando vueltas y vueltas ... y ¿sabe usted qué otras cosas había allá, por las
                     casitas de junto al río ... ? ¿No ve allá donde está esa humareda colorada,
@@ -4747,8 +4604,7 @@
                     fagina llevando mi mera sección ... ¡Huuy! ¡Por allá habían juido los puercos
                     ... pero qué puercos ... ¡álgame Dios! amontoné ... ¡hasta gusto daba verlos ...
                     ansina de gordos ... pero tenían hambre ... y los indinos marranos querían
-                    comerse a los mesmos difuntos ... a los muertos de <seg rend="italic"
-                        >Tomochico</seg> ... ! ¡Croque, croque olían la sangre y con eso, como
+                    comerse a los mesmos difuntos ... a los muertos de <seg rend="italic">Tomochico</seg> ... ! ¡Croque, croque olían la sangre y con eso, como
                     fieras se iban sobre los <seg rend="italic">caláveres</seg> llenos de lodo ... y
                     vi entonces la pelea ... !</p>
                 <p>Calló un instante el sargento, anonadado sin duda por el espantoso recuerdo.
@@ -4787,8 +4643,7 @@
                     mañana una compañía del Undécimo Batallón la tomase, para lo cual debían ocupar
                     primero las casas que la iglesia tenía a su frente, con el objeto de organizar
                     allí faginas provistas de combustible, botes de petróleo, rastrojo, ramas secas
-                    y paja, y en un momento dado, protegidos por los fuegos federales <seg
-                        rend="italic">de la Cueva, la Medrano</seg>, y de las mismas casas, debían
+                    y paja, y en un momento dado, protegidos por los fuegos federales <seg rend="italic">de la Cueva, la Medrano</seg>, y de las mismas casas, debían
                     al paso veloz llegar hasta el atrio, y ante el portón del templo arrojar todo
                     aquello ... Como en la construcción de la iglesia abundaba la madera, obligados
                     los sitiados por el incendio a salir, serían fusilados inmediatamente, apenas
@@ -4804,8 +4659,7 @@
                     portaron, a su vez, bizarramente.</p>
                 <p>En tiradores, uno a uno, con el fusil en alto, a la espalda el haz de leña o el
                     bote de petróleo, arremangado el calzón a medio muslo, los soldados del Undécimo
-                    entraron al río ... Y apenas pudieron ser blanco de las carabinas <seg
-                        rend="italic">tomochitecas</seg> de la torre, empezaron a caer cadáveres y
+                    entraron al río ... Y apenas pudieron ser blanco de las carabinas <seg rend="italic">tomochitecas</seg> de la torre, empezaron a caer cadáveres y
                     heridos ...</p>
                 <p>Mas no retrocedieron. Sus oficiales, calada la carrillera del kepis, la pistola
                     preparada para matar al primero que intentase retroceder, gritaban
@@ -4820,14 +4674,12 @@
                     hacía tiempo, pero intactas todavía del saqueo y del incendio.</p>
                 <p>Ocupadas las casas, listos los <seg rend="italic">Nacionales</seg> en el alto
                     crestón del <seg rend="italic">Cerro de la Cueva</seg> para batir la torre, a
-                    las once de la mañana el cometa de órdenes del general tocó <seg rend="italic"
-                        >fuego</seg>: Tronó el cañón. Simultáneas descargas cubrieron de humo los
+                    las once de la mañana el cometa de órdenes del general tocó <seg rend="italic">fuego</seg>: Tronó el cañón. Simultáneas descargas cubrieron de humo los
                     frentes de las casuchas y la cima de <seg rend="italic">la Cueva</seg>, de donde
                     empezó a descender una lluvia de haces de rastrojo encendido, de humeantes
                     rollos de zacate, de sacos de paja, en densos nubarrones salpicados de
                     chispas.</p>
-                <p>De vez en cuando, cual granadas de mano, eran lanzados desde el <seg
-                        rend="italic">Cerro de la Cueva</seg> al recinto de la iglesia, los botes de
+                <p>De vez en cuando, cual granadas de mano, eran lanzados desde el <seg rend="italic">Cerro de la Cueva</seg> al recinto de la iglesia, los botes de
                     petróleo ...</p>
                 <p>Al propio tiempo todas las cornetas que tuvo a mano el general, y que se
                     encontraban en otras casas en torno del templo, tocaron ataque, como si por
@@ -4839,8 +4691,7 @@
                     un patio ... el viento, hostil a los últimos <seg rend="italic">tomoches</seg>,
                     arrastraba hacia la torre ardientes mechones de yerbajos secos, remolinos de
                     chispas, turbonadas de astillas, harapos de humo candente y rojizo ...</p>
-                <p>- ¡Viva el <seg rend="italic">Gran Poder de Dios</seg>! ¡Viva <seg rend="italic"
-                        >Santa Teresa de Cabora</seg> ... ! ¡Viva <seg rend="italic">Santa María de
+                <p>- ¡Viva el <seg rend="italic">Gran Poder de Dios</seg>! ¡Viva <seg rend="italic">Santa Teresa de Cabora</seg> ... ! ¡Viva <seg rend="italic">Santa María de
                         Tomochic</seg>! -gritaron tras sus claraboyas los sitiados, en el momento en
                     que en un solo alud la sección del Undécimo se precipitó hacia el atrio, dejando
                     un rastro de sangre.</p>
@@ -4860,8 +4711,7 @@
                     ...</p>
                 <p>Y mayores llamaradas envolvieron la puerta. Y a la iglesia entera bien pronto
                     ocultó negra y espesa nube de humo, entre cuyos remolinos, cual relámpagos
-                    amarillentos, brillaban los fogonazos de las carabinas <seg rend="italic"
-                        >tomoches</seg>. Allá en lo alto de la torre, entre el estrépito de las
+                    amarillentos, brillaban los fogonazos de las carabinas <seg rend="italic">tomoches</seg>. Allá en lo alto de la torre, entre el estrépito de las
                     descargas, las voces estentóreas rugían:</p>
                 <p>- ¡Viva el <seg rend="italic">Poder de Dios</seg>! ¡Viva María Purísima! ¡Viva la
                         <seg rend="italic">Santa de Cabora</seg>!</p>
@@ -4888,8 +4738,7 @@
                 <p>Había existido una tienda en aquella vetusta casa y era la más amplia de las de
                     ese rumbo. Incendiada el día anterior, el fuego había respetado algunos cuartos
                     y una parte de un portal interno. En la espalda, en la pared que veía al centro
-                    del pueblo, se abrieron claraboyas para observar el <seg rend="italic"
-                        >Cuartelito</seg> (casa de Cruz) y la iglesia, cuyo incendio era cada vez
+                    del pueblo, se abrieron claraboyas para observar el <seg rend="italic">Cuartelito</seg> (casa de Cruz) y la iglesia, cuyo incendio era cada vez
                     más espantoso.</p>
                 <p>Desde aquellas claraboyas Miguel observó el espectáculo. Las llamas debían haber
                     invadido el interior del templo, pues el humo se escapaba de las ventanas y
@@ -4924,8 +4773,7 @@
                     campos que a él le conducían.</p>
                 <p>Gente de los <seg rend="italic">nacionales</seg> de Sonora y de Chihuahua, de
                         <seg rend="italic">Seguridad Pública</seg> y del Duodécimo Batallón dieron
-                    pequeños puestos avanzados, ocupando las casas que rodeaban el <seg
-                        rend="italic">Cuartelito</seg>, formándole un cerco apretadísimo.</p>
+                    pequeños puestos avanzados, ocupando las casas que rodeaban el <seg rend="italic">Cuartelito</seg>, formándole un cerco apretadísimo.</p>
                 <p>Entre tanto, el templo en ruinas y las demás casas continuaban lanzando al cielo
                     azul inmensas espirales de humo, surgiendo de sus escombros hálitos de lumbre. Y
                     en la noche tiñeron el horizonte negro con sangrientos reflejos, más bellos, más
@@ -4966,8 +4814,7 @@
                     sucia, desmelenada, agitando los brazos, persignándose, era una visión espectral
                     aquella <seg rend="italic">tomochiteca</seg> ...</p>
                 <p>Al fin, se dirigió a la casa de los Medrano, tímidamente. El general ordenó que
-                    se la respetase y aun que le ayudaran a acercarse. Cuando un <seg rend="italic"
-                        >pima</seg> llegó, conduciéndola del brazo, todos quedaron horrorizados ante
+                    se la respetase y aun que le ayudaran a acercarse. Cuando un <seg rend="italic">pima</seg> llegó, conduciéndola del brazo, todos quedaron horrorizados ante
                     su cuerpo enclenque y encorvado, y ante su fantástica cabeza circuida de
                     cenicientos alborotadísimos mechones que le formaban algo como un resplandor
                     fatídico. Era una decrépita anciana de ojos vidriosos e inyectados de sangre,
@@ -4983,8 +4830,7 @@
                     muchos, también, hijos y nietos suyos.</p>
                 <p>Contó, tartamudeando, después de comer un plato de sopa que el general le
                     ofreció, que Cruz no la dejaba salir; pero como era la más anciana del pueblo y
-                    la que más gente había dado a la causa de Nuestro Señor, el jefe <seg
-                        rend="italic">tomoche</seg>, impotente para detenerla la había dejado salir,
+                    la que más gente había dado a la causa de Nuestro Señor, el jefe <seg rend="italic">tomoche</seg>, impotente para detenerla la había dejado salir,
                     encomendándola a la Virgen Santa.</p>
                 <p>- ¿Qué hacen todos allí amontonados? -cuentan que preguntó el coronel Torres.</p>
                 <p>- Reza y reza -contestó la vieja.</p>
@@ -5004,15 +4850,13 @@
                     aquella casa que debía estar convertida en un sarcasmo de hospital, sin médicos,
                     medicinas, ni alimentos ... ¡Hospital, reducto, capilla y tumba!</p>
                 <p>Tras vagas vacilaciones de la atónita anciana que temía la cólera del caudillo,
-                    quien le había prevenido que jamás tratase nada semejante con los <seg
-                        rend="italic">impíos hijos de Lucifer</seg>, llevó un pliego firmado por el
+                    quien le había prevenido que jamás tratase nada semejante con los <seg rend="italic">impíos hijos de Lucifer</seg>, llevó un pliego firmado por el
                     general Rangel en el cual, con las mayores razones posibles, se pedía la
                     rendición incondicional de los de Cruz, advirtiendo que si se obstinaban en su
                     resistencia tomaría a sangre y a fuego su último puesto, por lo que se le
                     permitiría que saliesen las mujeres y los niños, a los que se tendrían las
                     mayores consideraciones.</p>
-                <p>Media hora después volvió la anciana con la contestación del caudillo <seg
-                        rend="italic">tomoche</seg>, en que se negaba enérgicamente a rendirse,
+                <p>Media hora después volvió la anciana con la contestación del caudillo <seg rend="italic">tomoche</seg>, en que se negaba enérgicamente a rendirse,
                     negándose también a enviar las familias, por dudar del cumplimiento de la
                     promesa.</p>
                 <p>Era, en verdad, hacer muy poco honor a los sitiadores, mas como se tomó a
@@ -5027,8 +4871,7 @@
                 <p>Glacial consternación inmovilizó a cuantos lo presenciaron. La soldadesca y los
                     duros indios de Sonora no tuvieron sino una sola alma de admiración y de piedad
                     para aquel montón de náufragos, para aquel doliente manojo de humano infortunio
-                    que entraba chorreando sangre, la última sangre de aquel moribundo <seg
-                        rend="italic">Tomochic</seg> ...</p>
+                    que entraba chorreando sangre, la última sangre de aquel moribundo <seg rend="italic">Tomochic</seg> ...</p>
                 <p>Algunos oficiales palidecieron; las mismas soldaderas callaron. Y Miguel no
                     recordaba haber leído en drama alguno ni en ninguna terrible novela, nada más
                     patético y doloroso.</p>
@@ -5094,8 +4937,7 @@
                     impedir cualquier salida.</p>
                 <p>Cada fracción de aquéllas, al mando de un oficial, llevaba un corneta para que se
                     contestase la <seg rend="italic">contraseña</seg> cuando del Cuartel General
-                    corrieran la palabra. Para impedir cualquiera confusión con los <seg
-                        rend="italic">nacionales</seg> de Sonora o Chihuahua que no debían tener
+                    corrieran la palabra. Para impedir cualquiera confusión con los <seg rend="italic">nacionales</seg> de Sonora o Chihuahua que no debían tener
                     lugar fijo, sino marchar vivamente por donde se ordenara, habían de contestar
                     con determinada palabra -el <seg rend="italic">santo y seña</seg>- para ser
                     reconocidos cuando éstos se acercaran a los puestos sitiadores.</p>
@@ -5143,10 +4985,8 @@
                 <p>Ella había consentido, como cosa inevitable, como resignada al predominio del
                     hombre, y experimentando ante la juventud de Miguel las primeras voluptuosidades
                     del amor, en el despertamiento de su adolescencia ...</p>
-                <p>De pronto, tornó a desgarrar el silencio de la noche el toque de <seg
-                        rend="italic">atención, parte y diana</seg>, cuyas notas metálicas resonaban
-                    en un coro gigantesco y fantástico de cornetas marciales. <seg rend="italic"
-                        >Atención, parte y diana</seg> iba repitiendo cada corneta hasta llegar al
+                <p>De pronto, tornó a desgarrar el silencio de la noche el toque de <seg rend="italic">atención, parte y diana</seg>, cuyas notas metálicas resonaban
+                    en un coro gigantesco y fantástico de cornetas marciales. <seg rend="italic">Atención, parte y diana</seg> iba repitiendo cada corneta hasta llegar al
                     del último puesto, allá en la iglesia humeante ...</p>
                 <p>Después eran los ecos de las montañas los que repetían la última parte del toque,
                     aquella diana sarcástica que iría a llevar sus acentos al fiero puñado de
@@ -5227,8 +5067,7 @@
                     Cuartel General, escoltados por aquellos valientes hijos de Sonora, de aquellos
                     recios indios, dignos rivales de los criollos serranos chihuahuenses.</p>
                 <p>Dióseles de comer con muchas precauciones, a causa de su gran debilidad, pues
-                    llevaban semanas de estar sostenidos sólo con maíz tostado o crudo que los <seg
-                        rend="italic">tomoches</seg> les habían dejado. En cuanto a éstos,
+                    llevaban semanas de estar sostenidos sólo con maíz tostado o crudo que los <seg rend="italic">tomoches</seg> les habían dejado. En cuanto a éstos,
                     encerrados épicamente en la casa de Cruz Chávez, seguían mudos y como enterrados
                     en vida, en una vida que era una obstinada y fiera agonía.</p>
                 <p>¡Compasión y admiración profunda inspiraba a todos aquel puñado de locos héroes,
@@ -5239,8 +5078,7 @@
                     rosario o la vihuela en una mano, y en la otra la carabina cargada con los
                     últimos cartuchos bendecidos primero por la <seg rend="italic">Santa de
                         Cabora</seg> y después por el mismo caudillo que en la tierra los guió al
-                    combate y que en el cielo les conduciría, cual lo había prometido, ¡<seg
-                        rend="italic">a la diestra de Dios Padre</seg> ... ! ¡Y Cruz continuaba,
+                    combate y que en el cielo les conduciría, cual lo había prometido, ¡<seg rend="italic">a la diestra de Dios Padre</seg> ... ! ¡Y Cruz continuaba,
                     creyente y fuerte, al lado de los cadáveres en putrefacción de las últimas
                     víctimas!</p>
             </div>
@@ -5251,8 +5089,7 @@
                     cuarto, el general, con gorra de fieltro, chaquetón de dril y envuelto el cuello
                     en una mascada gris, se paseaba inquieto y pensativo, golpeando el suelo
                     nerviosamente con una varita.</p>
-                <p>A veces charlaba con el doctor Arellano y el teniente Méndez, cuyo cañón <seg
-                        rend="italic">Hotchkiss</seg>, tras la pared obturada de la casa, estaba
+                <p>A veces charlaba con el doctor Arellano y el teniente Méndez, cuyo cañón <seg rend="italic">Hotchkiss</seg>, tras la pared obturada de la casa, estaba
                     asestado contra la de Cruz Chávez.</p>
                 <p>Era preciso apoderarse de ella por hambre, o mejor dicho, esperar a que murieran
                     extenuados sus defensores para dar por terminada tan sangrienta expedición.</p>
@@ -5311,8 +5148,7 @@
                     lleve nuestras almas no podrán los <seg rend="italic">pelones</seg> de Lucifer
                     tener nuestros cuerpos!</p>
                 <p>Aquella tarde un suceso imprevisto conmovió al campamento. Entre los prisioneros
-                    salvados en la mañana de la casa de Cruz, había uno que pertenecía al <seg
-                        rend="italic">Cuerpo de Seguridad Pública</seg> y que había caído el día dos
+                    salvados en la mañana de la casa de Cruz, había uno que pertenecía al <seg rend="italic">Cuerpo de Seguridad Pública</seg> y que había caído el día dos
                     de septiembre en poder de los <seg rend="italic">tomoches</seg>. Después fue de
                     los que tomaron las armas contra las fuerzas del Gobierno. ¡Se había pasado al
                     enemigo ... ! ¡Era un traidor! El desdichado llegó a batirse desesperadamente en
@@ -5345,8 +5181,7 @@
                     imposible reconocer a primera vista a qué bando pertenecían. Por el ambiente
                     húmedo dilatábase un hedor nauseabundo.</p>
                 <p>En el atrio, bajo la lluvia que arreciaba, hizo alto la sección que debía
-                    establecerse tras los muros del convento, los cuales veían al <seg rend="italic"
-                        >Cuartito</seg>, para vigilarlo por aquel lado.</p>
+                    establecerse tras los muros del convento, los cuales veían al <seg rend="italic">Cuartito</seg>, para vigilarlo por aquel lado.</p>
                 <p>El teniente a cuyas órdenes iba Mercado dividió la fuerza, indicando a Miguel que
                     se fuera al mando de algunos hombres hacia los últimos departamentos de la
                     izquierda, los que debían estar en ruinas hacía mucho tiempo, pues no obstante
@@ -5424,8 +5259,7 @@
                         <seg rend="italic">ataque</seg>, se precipitaron cargados de combustible,
                     listos sus encendidos hachones, hacia las paredes de la casa cuyas aspilleras se
                     cubrieron de humo de pólvora. Oyéronse algunos disparos.</p>
-                <p>Los asaltantes, tras la empalizada que cercaba el <seg rend="italic"
-                        >Cuartelito</seg> y tras montones de piedras, hicieron alto y se
+                <p>Los asaltantes, tras la empalizada que cercaba el <seg rend="italic">Cuartelito</seg> y tras montones de piedras, hicieron alto y se
                     correspondió al tiroteo, apuntando a las aspilleras para quebrantar la
                     resistencia. Después embistieron a la carga, lanzando nuevamente los gritos que
                     tanto animaban a los soldados.</p>
@@ -5456,8 +5290,7 @@
                     crepitamiento sordo ...</p>
                 <p>Después, de las horadaciones del techo salieron lentamente columnas de humo negro
                     y fétido. Las detonaciones cesaron. Los soldados que estaban en la azotea,
-                    sintiéndola crujir, saltaron a tierra. En esta vez las descargas <seg
-                        rend="italic">tomoches</seg> habían fallado. ¡Ni un solo cadáver, ni un solo
+                    sintiéndola crujir, saltaron a tierra. En esta vez las descargas <seg rend="italic">tomoches</seg> habían fallado. ¡Ni un solo cadáver, ni un solo
                     herido había costado incendiar la inexpugnable fortaleza tomada por fuego y
                     hambre ... ! Entonces todos comprendieron que los defensores agonizaban.</p>
                 <p>Partió, a la sazón, del Cuartel General el <seg rend="italic">toque de
@@ -5467,8 +5300,7 @@
                     tumbas humeantes y de cadáveres insepultos.</p>
                 <p>La campaña estaba terminada; el último reducto ardía presa de inmensas y
                     silbantes llamas que el recio viento de aquella mañana avivaba, en tanto que,
-                    rápidas, desordenadas, epilépticas, vibraban en el ambiente frío, las <seg
-                        rend="italic">dianas</seg>, contrastando su atronador regocijo marcial con
+                    rápidas, desordenadas, epilépticas, vibraban en el ambiente frío, las <seg rend="italic">dianas</seg>, contrastando su atronador regocijo marcial con
                     la desolación del panorama horrible. Secciones de soldados con camillas
                     improvisadas llegaron a la casa cuyo incendio atizábase. A barretazos se echó
                     abajo la puerta. Y algunos <seg rend="italic">pimas</seg> penetraron al interior
@@ -5486,19 +5318,16 @@
                     Rangel, que a toda costa salvara a los que aún quedasen vivos dentro,
                     especialmente a las mujeres.</p>
                 <p>Fue un gran trabajo de abnegación, un nuevo heroísmo en la pobre tropa apiadada
-                    ante el patético estrago, pues la mayor parte de los <seg rend="italic"
-                        >tomoches</seg> morían al recibir el aire frío del valle; otros, expirantes,
+                    ante el patético estrago, pues la mayor parte de los <seg rend="italic">tomoches</seg> morían al recibir el aire frío del valle; otros, expirantes,
                     contemplaban con mirada vidriosa a sus vencedores, y los más fuertes levantaban
                     los brazos, los puños crispados, incorporándose con gesto de amenaza,
                     retorciéndose con violencias de odio, concentrando su última energía para
                     gritarles:</p>
-                <p>- ¡Viva el <seg rend="italic">Poder de Dios</seg> ... ! ¡Mueran los <seg
-                        rend="italic">pelones!</seg>
+                <p>- ¡Viva el <seg rend="italic">Poder de Dios</seg> ... ! ¡Mueran los <seg rend="italic">pelones!</seg>
                 </p>
                 <p>Los cadáveres eran aventados en montón por las faginas que les arrojaban vigas
                     ardiendo, para calcinarlos. Los heridos fueron llevados sobre las camillas a una
-                    casa próxima cuyo portal no había sido tocado por el fuego. Ningún <seg
-                        rend="italic">tomochiteco</seg> pudo ir por su pie, pues si había cuatro o
+                    casa próxima cuyo portal no había sido tocado por el fuego. Ningún <seg rend="italic">tomochiteco</seg> pudo ir por su pie, pues si había cuatro o
                     cinco que no estaban heridos, hallábanse tan débiles por el hambre, o la fiebre,
                     o la sed, que se desvanecían cayendo en tierra.</p>
                 <p>El general -que se negó a presenciar tan espantoso espectáculo- envió al jefe de
@@ -5513,8 +5342,7 @@
                 <p>Bajo un portalito semidestechado por el incendio que lo había respetado en parte,
                     perpendiculares a las paredes ennegrecidas, tendidos boca arriba como en el
                     descanso de un anfiteatro, o cual si estuviesen expuestos en una morgue
-                    terrible, estaban en fila los últimos siete <seg rend="italic"
-                        >tomochitecos</seg>, retorciéndose, de rostros espectrales, contemplando con
+                    terrible, estaban en fila los últimos siete <seg rend="italic">tomochitecos</seg>, retorciéndose, de rostros espectrales, contemplando con
                     opacas miradas agónicas las lejanías del valle querido y sacro que se extendía
                     lúgubremente.</p>
                 <p>Y, revuelta ante los harapos negruzcos y hediondos que la semicubrían,
@@ -5565,8 +5393,7 @@
                 <p>- Nada, hombre, no te asustes; ya se acabó todo, los acaban de fusilar ... ¡Una
                     obra de misericordia ... los han rematado!</p>
                 <p>- ¿A quiénes? ...</p>
-                <p>- A quienes ha de ser, pen ... co, a los últimos <seg rend="italic"
-                        >tomoches</seg>.</p>
+                <p>- A quienes ha de ser, pen ... co, a los últimos <seg rend="italic">tomoches</seg>.</p>
                 <p>Era verdad. Así tendidos y moribundos, sangrando, humeando todavía sus carnes y
                     sus harapos, les acababan de fusilar.</p>
                 <p>- ¡Bendito sea Dios! -murmuró una soldadera arrodillada, santiguándose.</p>
@@ -5576,8 +5403,7 @@
                     tendidos en el valle y en las faldas de los cerros. Se les amontonaban unos
                     sobre otros, se les arrojaban grandes leños y se prendía fuego. Y nada más
                     repugnante y triste que el espectáculo aquél. Una densa fetidez irradiaba de
-                    tales hacinamientos, invadiendo toda la cuenca de <seg rend="italic"
-                        >Tomochic</seg> ...</p>
+                    tales hacinamientos, invadiendo toda la cuenca de <seg rend="italic">Tomochic</seg> ...</p>
                 <p>Agotada la leña, los fatídicos montones continuaban ardiendo lentamente, con la
                     propia grasa de la carne humana, dispersando los miembros, transformando los
                     calcinados cuerpos, ennegreciendo cráneos pelados, de espantosos ojos,
@@ -5590,8 +5416,7 @@
                     fuerza del Noveno para instalarla en otro sitio, allá en el límite del valle, en
                     una casa situada al pie del monte y fuera del núcleo de escombros.</p>
                 <p>El Undécimo, Duodécimo, y Vigésimocuarto con el Estado Mayor, también cambiaron
-                    de instalación, acampando en unos amplios corrales al lado del <seg
-                        rend="italic">Cerro de la Medrano</seg>. Cerca de éstos quedaron los
+                    de instalación, acampando en unos amplios corrales al lado del <seg rend="italic">Cerro de la Medrano</seg>. Cerca de éstos quedaron los
                     nacionales de Sonora, los dragones de <seg rend="italic">Seguridad Pública</seg>
                     y los del piquete del Quinto Regimiento.</p>
                 <p>A cargo de éste se dejó una gran cantidad de caballos, mulas, asnos, reses y
@@ -5635,8 +5460,7 @@
                 <p>- ¡Fuera ... ! ¡Fuera! -gritaron en coro varios oficiales, impacientes porque el
                     subteniente histrión impedía, él solo con su barahúnda, la gravedad del
                     juego.</p>
-                <p>Numerosos oficiales de todos los cuerpos habíanse reunido para <seg rend="italic"
-                        >echar alburitos</seg>. Y en el centro de una amplia y polvorienta
+                <p>Numerosos oficiales de todos los cuerpos habíanse reunido para <seg rend="italic">echar alburitos</seg>. Y en el centro de una amplia y polvorienta
                     caballeriza convertida en <seg rend="italic">pabellón de señores
                     oficiales</seg>, habíase tendido un gris sarape de tropa transformado en tapete,
                     sobre el cual el digno capitán, sentado a la turca, entre trago y trago de
@@ -5663,8 +5487,7 @@
                     <l>Señores, pongo a la sota</l>
                     <l>El tesoro de Cruz Chávez.</l>
                 </lg>
-                <p>Silencio repentino. Nadie rio. El profanado nombre del triste héroe de <seg
-                        rend="italic">Tomochic</seg> cayó en aquella algarabía, produciendo no las
+                <p>Silencio repentino. Nadie rio. El profanado nombre del triste héroe de <seg rend="italic">Tomochic</seg> cayó en aquella algarabía, produciendo no las
                     carcajadas o las bravatas de los jóvenes oficiales, como cuando brindara el
                     mismo chabacano versero por la destrucción del pueblo, sino una veneración
                     espontánea y honda ante la memoria de aquel infortunado paladín ...</p>
@@ -5676,8 +5499,7 @@
                 <p>- ¡Es una cobardía burlarse así de un valiente muerto! -le escupió al rostro
                     ...</p>
                 <p>- Hermano, tienes razón, pero tú sabes que estoy preocupadísimo con tantas
-                    faginas como están mandando para buscar los tesoros de <seg rend="italic"
-                        >Tomochic</seg>, como si esto fuera una Tenochtitlán.</p>
+                    faginas como están mandando para buscar los tesoros de <seg rend="italic">Tomochic</seg>, como si esto fuera una Tenochtitlán.</p>
                 <p>Miguel iba a alejarse, disgustado en su admiración al heroísmo de la extinta raza
                         <seg rend="italic">tomochiteca</seg>, cuando Castorena, que empezaba a
                     querer a aquel pobre diablo de oficial tristón y pensativo, le retuvo,
@@ -5689,8 +5511,7 @@
                     bebieron alternativamente.</p>
                 <p>- ¡Hombre ... ! ¡De veras, es coñac!</p>
                 <p>- ¡Ya lo creo ... ! Mejor no le hemos tomado ni en México ... Mira Mercado, en
-                    serio te lo digo, he conseguido este delicioso veneno con un tesoro de <seg
-                        rend="italic">Tomochic</seg> que me encontré esta mañana que fui de fagina a
+                    serio te lo digo, he conseguido este delicioso veneno con un tesoro de <seg rend="italic">Tomochic</seg> que me encontré esta mañana que fui de fagina a
                     la iglesia.</p>
                 <p>- ¿Un tesoro de <seg rend="italic">Tomochic</seg>?</p>
                 <p>- Sí ¡palabra ... ! ¡la <seg rend="italic">Santa de Cabora</seg> ... ! No viva
@@ -5777,12 +5598,10 @@
                     sobre aquellos durísimos adobes.</p>
                 <p>Dado el total de granadas y botes de metralla lanzados, sólo un pequeñísimo
                     número había producido cierto efecto material sobre el pueblo. Efecto moral,
-                    ninguno, o tal vez negativo ... Cuentan que a Cruz Chávez le llamaba <seg
-                        rend="italic">el anteojo del Diablo</seg> y Pedro Chaparro lo designaba con
+                    ninguno, o tal vez negativo ... Cuentan que a Cruz Chávez le llamaba <seg rend="italic">el anteojo del Diablo</seg> y Pedro Chaparro lo designaba con
                     una frase pintoresca y obscena.</p>
                 <p>¡Ah! lo más terrible, lo que causaba dolorísima impresión en el ánimo, eran los
-                    destrozos y estragos del incendio que sólo dos casas habían respetado, <seg
-                        rend="italic">de orden superior</seg>.</p>
+                    destrozos y estragos del incendio que sólo dos casas habían respetado, <seg rend="italic">de orden superior</seg>.</p>
                 <p>La lenta combustión de los cadáveres continuaba en todos sus detalles siniestros.
                     El viento llevaba las cenizas y avivaba las llamas de las fúnebres hogueras, en
                     torno de las que vagaban, gruñendo sordamente, cerdos voraces que se cebaban en
@@ -5791,19 +5610,16 @@
                     guisaban con manteca de cerdo, ni comían su carne, porque era nutrida con carne
                     humana.</p>
                 <p>Y recordando el subteniente el relato del sargento oaxaqueño, tornaba a
-                    presenciar los combates de cerdos y perros en torno de los cadáveres <seg
-                        rend="italic">tomoches</seg>. Vio a los pobres perros, flacos, mohínos y
+                    presenciar los combates de cerdos y perros en torno de los cadáveres <seg rend="italic">tomoches</seg>. Vio a los pobres perros, flacos, mohínos y
                     azorados, vagando de casa en casa, aullando dolorosamente y huyendo despavoridos
                     en cuanto veían acercárseles los soldados, que les arrojaban carne, la cual
                     desdeñaban, no obstante el hambre que los devoraba.</p>
                 <p>La casa que ocupaba la fuerza del Noveno Batallón era la del antiguo presidente
                     municipal, un tal Reyes Domínguez, fuera del núcleo del caserío. Se la había
-                    respetado porque aquél fue uno de los pocos hijos de <seg rend="italic"
-                        >Tomochic</seg> que no siguieron la causa de Cruz Chávez, de quien era
+                    respetado porque aquél fue uno de los pocos hijos de <seg rend="italic">Tomochic</seg> que no siguieron la causa de Cruz Chávez, de quien era
                     cuñado, pues estaba casado con una hermana suya.</p>
                 <p>Reyes hacía mucho tiempo que se encontraba cerca de Ciudad Guerrero con su
-                    familia y un viejo francés que había sido maestro de escuela en <seg
-                        rend="italic">Tomochic</seg> y que había huido también de aquel valle de
+                    familia y un viejo francés que había sido maestro de escuela en <seg rend="italic">Tomochic</seg> y que había huido también de aquel valle de
                     frenética locura.</p>
                 <p>En cuanto Domínguez supo el desastre, muy favorable para él, se traslado en día y
                     medio a su casa, donde, por supuesto, se encontró sin su ganado y sin los granos
@@ -5828,8 +5644,7 @@
                     heridas habían sido curadas.</p>
                 <p>El general Rangel pudo mostrarse magnánimo; el veterano enternecido que no tuvo
                     rubor en llorar ante el infortunio de aquellas víctimas inocentes de la locura
-                    de los suyos, el general, implacable con los hombres de <seg rend="italic"
-                        >Tomochic</seg> -como era su deber militar-, mostrábase generoso y solícito
+                    de los suyos, el general, implacable con los hombres de <seg rend="italic">Tomochic</seg> -como era su deber militar-, mostrábase generoso y solícito
                     con las pobres huérfanas y viudas supervivientes -cual era su deber humano.</p>
                 <p>Miguel se lo agradeció en lo íntimo de su alma altiva, en nombre de su hermana
                     Julia, y dentro de sí su pensamiento correspondió a aquel: ¡Bien por el Noveno
@@ -5838,8 +5653,7 @@
                     bañaba el cuerpo ... ¡No, Julia no pasaba ... !</p>
                 <p>Se dio exacta cuenta de todos los rostros, de todos los gestos. Ya marchaban con
                     las cabezas descubiertas. ¡No, no reconocía a Julia! Luego: ¡había muerto!</p>
-                <p>... Cerraba la marcha una improvisada camilla conducida por dos <seg
-                        rend="italic">pimas</seg> ...</p>
+                <p>... Cerraba la marcha una improvisada camilla conducida por dos <seg rend="italic">pimas</seg> ...</p>
                 <p>- ¿Quién va ahí? -preguntó.</p>
                 <p>- Una vieja que se está muriendo -le contestaron.</p>
                 <p>Luego ¡Julia había muerto!</p>
@@ -5886,8 +5700,7 @@
                     hombre!</p>
                 <p>Y el infeliz Miguel, presa de un horrible vértigo, experimentó un ansia infinita,
                     se le oprimió el pecho, faltó le aire, nubláronsele los ojos y sollozó.</p>
-                <p>Sollozó en un rincón del portal, tras del centinela del <seg rend="italic"
-                        >salvaguardia</seg>, anonadado por aquel golpe terrible. ¡Ya no había nada
+                <p>Sollozó en un rincón del portal, tras del centinela del <seg rend="italic">salvaguardia</seg>, anonadado por aquel golpe terrible. ¡Ya no había nada
                     en el mundo! Todo era falso en la vida ... la realidad era horrible ... su misma
                     madre le abandonaba voluntariamente ... ¡dejándole solo ... !</p>
                 <p>¡Solo ... ! ¡Qué siniestra palabra! Ella resumía todo el infortunio de su vida
@@ -5910,8 +5723,7 @@
                     kepis; palpó, luego, los cartuchos de su canana ... y después, sin pensamiento,
                     y mirando el entrar y salir de alegres oficiales, permaneció inmóvil, perdiendo
                     toda noción de tiempo, toda conciencia.</p>
-                <p>- Con permiso de Ud., mi subteniente, se relevan los centinelas -díjole el <seg
-                        rend="italic">cabo de cuarto</seg>.</p>
+                <p>- Con permiso de Ud., mi subteniente, se relevan los centinelas -díjole el <seg rend="italic">cabo de cuarto</seg>.</p>
                 <p>Despertó. Tornó a sentir una atroz fatiga y amarga hiel, resignándose por hábito
                     a las asperezas que vienen de arriba, <seg rend="italic">de orden
                     superior</seg>, el educado en la férrea disciplina del Colegio Militar; contestó
@@ -5923,15 +5735,13 @@
                     oficiales con el único hombre <seg rend="italic">tomochiteco</seg> vivo, con el
                     famoso Reyes Domínguez, cuñado de Cruz Chávez. Contaba detalles atroces de la
                     locura que había contagiado a su tierra y a los suyos, de aquella locura que
-                    parecía haberse apoderado hasta de los perros, hasta de las piedras de <seg
-                        rend="italic">Tomochic</seg> ...</p>
+                    parecía haberse apoderado hasta de los perros, hasta de las piedras de <seg rend="italic">Tomochic</seg> ...</p>
                 <p>Y en el revuelto raudal de la charla, Miguel oía decir lo ya sabido, que era
                     horrible, y adivinaba lo que todos callaban, que era peor ...</p>
                 <p>Un núcleo de hombres demasiado fuertes y demasiado ignorantes aunque
                     inteligentes; falta de silabarios y sobra de <seg rend="italic">imágenes</seg>;
                     mucho orgullo en estas almas místicas, extrañamente místicas, que se
-                    desbordaron, y rompiendo hasta el cisma, entregáronse al delirio; la <seg
-                        rend="italic">Santa de Cabora</seg> y los que le soplaban como a una funesta
+                    desbordaron, y rompiendo hasta el cisma, entregáronse al delirio; la <seg rend="italic">Santa de Cabora</seg> y los que le soplaban como a una funesta
                     pitonisa; las demasías de las autoridades mínimas, el lúgubre caciquismo, los
                     desmanes de la soldadesca, misteriosos atizamientos políticos, causas grandes
                     por dentro y pequeñas chispas por fuera ...</p>
@@ -5939,18 +5749,13 @@
                     su deber sofocando de golpe, a sangre y fuego, aquella rebelión, por la férrea
                     mano del general Díaz.</p>
                 <p>El grito de guerra de <seg rend="italic">Tomochic</seg>, orgulloso y místico,
-                    sostenido por una audacia inaudita y por unas magníficas carabinas <seg
-                        rend="italic">Winchester</seg>, diabólicamente manejadas en el fondo de la
+                    sostenido por una audacia inaudita y por unas magníficas carabinas <seg rend="italic">Winchester</seg>, diabólicamente manejadas en el fondo de la
                     gran sierra, tenía que ser ahogado como le fue: ¡sin misericordia!</p>
                 <p>... Por un momento el subteniente intentó imaginarse lo que hubiera sido en
-                    Chihuahua, en Sonora, en la República entera, el contagio de la locura de <seg
-                        rend="italic">Tomochic</seg> por toda la <seg rend="italic">Sierra
+                    Chihuahua, en Sonora, en la República entera, el contagio de la locura de <seg rend="italic">Tomochic</seg> por toda la <seg rend="italic">Sierra
                         Madre</seg>, a Norte y Sur ... ¡cuánta sangre inútil, entonces, qué
                     catástrofe nacional aprovechada por las ambiciones, por las sordideces, por los
-                    bandidos hipócritas, por los bandidos que habían trocado el sombrero <seg
-                        rend="italic">chilapeño</seg> de los <seg rend="italic"
-                        >pronunciamientos</seg> en los caminos sospechosos, por el <seg
-                        rend="italic">clac</seg> de los banquetes a los próceres! ...</p>
+                    bandidos hipócritas, por los bandidos que habían trocado el sombrero <seg rend="italic">chilapeño</seg> de los <seg rend="italic">pronunciamientos</seg> en los caminos sospechosos, por el <seg rend="italic">clac</seg> de los banquetes a los próceres! ...</p>
                 <p>Todo cuanto contemplara Miguel había sido inexorablemente necesario. Y si los
                         <seg rend="italic">tomoches</seg> habían sido heroicos, y si mostráronse
                     dignos de mejor destino, no lo fueron menos los hombres de la tropa, ni los
@@ -5982,8 +5787,7 @@
             <div>
                 <head>CAPÍTULO XLI</head>
                 <head type="sub">¡TENÍA QUE SER!</head>
-                <p>El oficial de guardia, apartándose del corrillo que rodeaba al <seg rend="italic"
-                        >tomochiteco</seg> Reyes, vuelto de nuevo a la realidad, apoyado en su
+                <p>El oficial de guardia, apartándose del corrillo que rodeaba al <seg rend="italic">tomochiteco</seg> Reyes, vuelto de nuevo a la realidad, apoyado en su
                     carabina, contempló las lejanías del valle a la luz de la luna, que parecía
                     llover tenues y transparentes cenizas glaciales sobre los campos yermos ...</p>
                 <p>Miró, no ya los sangrientos manchones luminosos entre las negras humaredas de los
@@ -6013,15 +5817,13 @@
                     parecían osos vestidos de cristianos ... y ahora con su vocerrón, su altanería,
                     su mirar siempre a los ojos, sin bajar nunca los suyos; y, agrégueles una fuerza
                     terrible, una agilidad de demonio, un tino para poner la bala donde ponían la
-                    intención y unas cananas repletas de cartuchos y unas carabinas <seg
-                        rend="italic">Winchester</seg> de repetición, de a doce y dieciocho, que
+                    intención y unas cananas repletas de cartuchos y unas carabinas <seg rend="italic">Winchester</seg> de repetición, de a doce y dieciocho, que
                     hacían ...</p>
                 <p>- Ya, ya. Ya de eso sabemos nosotros mejor que usted, amigo -interrumpióle
                     Castorena con tal ironía trágica que heló a los circunstantes. Pasó por sus
                     almas la visión horrible de los últimos combates, la visión de los camaradas
                     muertos por aquellas carabinas <seg rend="italic">Winchester</seg>, ante las
-                    cuales parecían viejos trabucos ridículos los fusiles <seg rend="italic"
-                        >Remington</seg> de la tropa.</p>
+                    cuales parecían viejos trabucos ridículos los fusiles <seg rend="italic">Remington</seg> de la tropa.</p>
                 <p>- ¿Y qué tales mujeres, eh? -preguntó el teniente Soberanes, un intrépido oficial
                     galante.</p>
                 <p>- ¡Ah ... ! ¡Como para la gente decente ... ! Ojazos negros, medio tristes, pelo
@@ -6098,8 +5900,7 @@
                     improvisado cuartel, el subteniente de guardia ordenó al <seg rend="italic">cabo
                         de cuarto</seg> que atrancase el portón. Fue después a sentarse en un
                     apolillado taburete, ante un hermoso fuego cuyas chisporroteantes llamas
-                    encendían relámpagos rojizos en los cañones de los fusiles <seg rend="italic"
-                        >arrimados</seg> contra el sarnoso muro.</p>
+                    encendían relámpagos rojizos en los cañones de los fusiles <seg rend="italic">arrimados</seg> contra el sarnoso muro.</p>
                 <p>Los soldados de <seg rend="italic">descanso</seg> en el Cuerpo de Guardia
                     roncaban al ras del suelo, hechos ovillo bajo sus sarapes, en torno de la
                     voluptuosa fogata.</p>
@@ -6201,10 +6002,8 @@
                     calor de intensa fiebre. Y entonces Julia, mirándole con ojos extraviados, rio
                     con risa nerviosa de histérica enamorada.</p>
                 <p>- Sí ... contigo, sí ... pero no más que contigo, con usté, mi vida ... ¡oh! pero
-                    que se vaya ... Don Bernardo ... ¡Que se vaya a <seg rend="italic"
-                        >Tomochic</seg>! ¿Oyen ... ? cuáato balazo ... ¿cuál es mi carabina ... ?
-                    ¡que mueran ... ! ¡Préstame tu canana, Pedro ... ! ¡Viva el <seg rend="italic"
-                        >poder de Dios</seg> ... ! ¡Mueran los <seg rend="italic">pelones</seg>!</p>
+                    que se vaya ... Don Bernardo ... ¡Que se vaya a <seg rend="italic">Tomochic</seg>! ¿Oyen ... ? cuáato balazo ... ¿cuál es mi carabina ... ?
+                    ¡que mueran ... ! ¡Préstame tu canana, Pedro ... ! ¡Viva el <seg rend="italic">poder de Dios</seg> ... ! ¡Mueran los <seg rend="italic">pelones</seg>!</p>
                 <p>Miguel, arrodillado a su flanco, trató de cubrirle el pecho, pero ella volvió a
                     arrojar el extremo del cobertor, y después de un instante de calma, continuó
                     balbuceando frases incoherentes, extendiendo los brazos, riendo y sollozando a

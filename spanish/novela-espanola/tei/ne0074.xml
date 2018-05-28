@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"></title>
 				<title type="short">Manuel</title>
 				<title type="idno">
-					<idno type="viaf">183802569</idno></title>
+					<idno type="bne">XX2213110</idno>
+					<idno type="viaf">183802569</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1139151</idno>
 					<idno type="viaf">88844103</idno>
 					<name type="short">Unamuno</name>
 					<name type="full">Miguel de Unamuno</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">315</measure>
-				<measure unit="divs">10</measure>
-				<measure unit="words">12272</measure>
-				<measure unit="chars">66409</measure>
-				<measure unit="size_kb">86</measure>
+				<measure unit="lines">389</measure>
+				<measure unit="divs">13</measure>
+				<measure unit="tokens">13904</measure>
+				<measure unit="chars">75536</measure>
+				<measure unit="size_kb">88</measure>
 
 				<measure unit="chapters">10</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">275</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">0</measure> 
+				<measure unit="blocks">329</measure> 
+				<measure unit="lg.poems">2</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">31</measure> 
+				<measure unit="heads">1</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">275</measure> 
-				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">165</measure> 
-				<measure unit="numbers">0</measure> 
-				<measure unit="puncts">2788</measure>
+				<measure unit="paragraphs">295</measure> 
+				<measure unit="abs">2</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">165</measure>
+				<measure unit="saids">207</measure>
+				<measure unit="narrative.ps">130</measure>
+				<measure unit="ss">708</measure> 
+				<measure unit="numbers">10</measure> 
+				<measure unit="puncts">3066</measure> 
+				<measure unit="len.abstract">868</measure>
+
+				<measure unit="types">2614</measure>
+
+				<measure unit="ss">491</measure>
+				<measure unit="ss.len.mean">140.4582484725051</measure>
+				<measure unit="ss.len.std">124.40589482904436</measure>
+				<measure unit="mean.ss.active.verbs">2.5824847250509166</measure>
+				<measure unit="std.ss.active.verbs">2.478177410163214</measure>
+
+				<measure unit="ws">15154</measure>
+				<measure unit="ws.len.mean">3.583344331529629</measure>
+				<measure unit="ws.len.std">2.7831678417590533</measure>
+
+				<measure unit="conjunctions">1198</measure>
+				<measure unit="determiners">1843</measure>
+				<measure unit="nouns">2236</measure>
+				<measure unit="verbs">2400</measure>
+				<measure unit="adverbs">698</measure>
+				<measure unit="adjectives">443</measure>
+				<measure unit="adpositions">1811</measure>
+				<measure unit="punctuations">2788</measure>
+				<measure unit="pronouns">1684</measure>
+				<measure unit="dates">2</measure>
+				<measure unit="numbers">29</measure>
+				<measure unit="interjections">22</measure>
+
+				<measure unit="ne.persons">273</measure>
+				<measure unit="ne.organizations">42</measure>
+				<measure unit="ne.locations">39</measure>
+				<measure unit="ne.others">13</measure>
+
+				<measure unit="wnlex.noun.plants">3</measure>
+				<measure unit="wnlex.verb.communications">306</measure>
+				<measure unit="wnlex.noun.foods">6</measure>
+				<measure unit="wnlex.verb.possessions">67</measure>
+				<measure unit="wnlex.verb.cognitions">254</measure>
+				<measure unit="wnlex.noun.communications">136</measure>
+				<measure unit="wnlex.noun.states">57</measure>
+				<measure unit="wnlex.verb.statives">618</measure>
+				<measure unit="wnlex.noun.cognitions">128</measure>
+				<measure unit="wnlex.noun.times">78</measure>
+				<measure unit="wnlex.verb.bodys">101</measure>
+				<measure unit="wnlex.noun.persons">450</measure>
+				<measure unit="wnlex.adj.alls">309</measure>
+				<measure unit="wnlex.noun.quantitys">2</measure>
+				<measure unit="wnlex.noun.phenomenons">6</measure>
+				<measure unit="wnlex.verb.creations">109</measure>
+				<measure unit="wnlex.adj.perts">17</measure>
+				<measure unit="wnlex.adv.alls">228</measure>
+				<measure unit="wnlex.noun.processs">1</measure>
+				<measure unit="wnlex.noun.artifacts">115</measure>
+				<measure unit="wnlex.verb.perceptions">88</measure>
+				<measure unit="wnlex.noun.feelings">35</measure>
+				<measure unit="wnlex.verb.weathers">10</measure>
+				<measure unit="wnlex.noun.substances">21</measure>
+				<measure unit="wnlex.noun.shapes">4</measure>
+				<measure unit="wnlex.verb.competitions">15</measure>
+				<measure unit="wnlex.verb.motions">140</measure>
+				<measure unit="wnlex.noun.animals">9</measure>
+				<measure unit="wnlex.noun.acts">113</measure>
+				<measure unit="wnlex.noun.bodys">68</measure>
+				<measure unit="wnlex.noun.objects">127</measure>
+				<measure unit="wnlex.noun.motives">4</measure>
+				<measure unit="wnlex.verb.socials">123</measure>
+				<measure unit="wnlex.noun.groups">113</measure>
+				<measure unit="wnlex.verb.consumptions">8</measure>
+				<measure unit="wnlex.noun.possessions">5</measure>
+				<measure unit="wnlex.noun.Topss">40</measure>
+				<measure unit="wnlex.noun.relations">1</measure>
+				<measure unit="wnlex.noun.attributes">110</measure>
+				<measure unit="wnlex.verb.emotions">70</measure>
+				<measure unit="wnlex.noun.locations">117</measure>
+				<measure unit="wnlex.noun.events">76</measure>
+				<measure unit="wnlex.verb.contacts">51</measure>
+				<measure unit="wnlex.xxxs">10672</measure>
+				<measure unit="wnlex.verb.changes">143</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -64,56 +150,57 @@
 					<p>Obra maestra de Miguel de Unamuno, considerada como su testamento espiritual. La novela muestra un espacio no descriptivo en el que se asientan los símbolos clave de la dialéctica entre fe y duda, el lago, la montaña, la nieve, la villa sumergida, etc. Manuel asume esta lucha y se convierte en mártir en tanto toma sobre sí la duda y la sufre por toda la comunidad quem sumida en el engaño, avanza cohesionada por esa supuesta verdad no cuestionada.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist">nivola</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">rural</term><!--Valverde de Lucerna-->
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1864</term>
-					<term type="author-date-death">1936</term>
-					<term type="author-TOC-range" resp="MdL9">8</term>
-					<term type="author-histlit-pages" resp="MdL9">167</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">essay</term>
-					<term type="author-year-change">1901</term>
-					
-					
-					<term type="subgenre" subtype="1">spiritual</term>
-					<term type="subgenre" subtype="2">philosophical</term>
-					<term type="subgenre" subtype="1">social</term>
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Valverde de Lucerna</term>
-					<term type="setting-territory" cert="low" resp="#jct">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Manuel Bueno</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" resp="#jct">3650</term>
-					<term type="group-text">nivola</term>
-					
-					<term type="protagonist-profession">religious</term>
-					<term type="author-text-relation">low</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">8.0</term>
-					<term type="text-TOC-range">6</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="high">
+					<term type="author.TOC.range" resp="MdL9">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1864</term>
+					<term type="author.date.death">1936</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL9">167</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">essay</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.year.change">1901</term>
+					<term type="authorText.group">nivola</term>
+					<term type="authorText.relation">low</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Manuel Bueno</term>
+					<term type="text.characters.protagonist.profession">religious</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">False</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Aprendizaje y enseñanza de idiomas, Ficción clásica, Ficción contemporánea; Antigua y clásica, Ficción contemporánea; Clásicos, Religiosa y espiritual, Clásicos; Ficción religiosa y espiritual, Religiosa y espiritual, Ficción clásica; Infantil; Europea, Antologías; Biográfica, Historias cortas, Ficción clásica; Español y Portugués, Literatura española, Aprendizaje y enseñanza de idiomas; Historia de la religión, Antigua y clásica, Ficción clásica; Hispanoamericana, Ficción clásica, Ficción clásica; Hispanoamericana, Ficción clásica, Ficción clásica; Ficción clásica, Ficción contemporánea; Historia, teoría literaria y crítica, Sociedad y cultura, Infantil;</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Drama</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">spiritual</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">philosophical</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">nivola</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">6</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE9">8.0</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">homodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Sanabria</term>
+					<term type="text.setting.settlement">Valverde de Lucerna</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">rural</term><!--Valverde de Lucerna-->
+					<term type="text.setting.territory" cert="low" resp="#jct">Castilla</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low" resp="#jct">3650</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -136,7 +223,7 @@
 				<p>Luego hacía Marañón unas brevísimas consideraciones sobre la desnudez de la parte puramente material en mis relatos. Y es que creo que dando el espíritu de la carne, del hueso, de la roca, del agua, de la nube, de todo lo demás visible, se da la verdadera e íntima realidad, dejándole al lector que la revista en su fantasía.</p>
 				<p>Es la ventaja que lleva el teatro. Como mi novela Nada menos que todo un hombre, escenificada luego por Julio de Hoyos bajo el título de Todo un hombre, la escribí ya en vista del tablado teatral, me ahorré todas aquellas descripciones del físico de los personajes, de los aposentos y de los paisajes, que deben quedar al cuidado de actores, escenógrafos y tramoyistas. Lo que no quiere decir, ¡claro está!, que los personajes de la novela o del drama escrito no sean tan de carne y hueso como los actores mismos, y que el ámbito de su acción no sea tan natural y tan concreto y tan real como la decoración de un escenario.</p>
 				<p>Escenario hay en <seg rend="italic">San Manuel Bueno, mártir</seg>, sugerido por el maravilloso y tan sugestivo lago de San Martín de Castañeda, en Sanabria, al pie de las ruinas de un convento de Bernardos y donde vive la leyenda de una ciudad, Valverde de Lucerna, que yace en el fondo de las aguas del lago. Y voy a estampar aquí dos poesías que escribí a raíz de haber visitado por primera vez ese lago el día primero de junio de 1930. La primera dice:</p>
-				<lg>
+				<lg type="poem">
 					<l>San Martín de Castañeda, espejo de soledades,</l>
 					<l>el lago recoge edades</l>
 					<l>de antes del hombre y se queda</l>
@@ -158,7 +245,7 @@
 					<l>lo que no ha sido primero.</l>
 				</lg>
 				<p>Y la segunda, ya de rima más artificiosa, decía y dice así:</p>
-				<lg>
+				<lg type="poem">
 					<l>Ay Valverde de Lucerna,</l>
 					<l>hez del lago de Sanabria,</l>
 					<l>no hay leyenda que dé cabria</l>

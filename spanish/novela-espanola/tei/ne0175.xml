@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="viaf">312335351</idno></title>
 				<author>
+					<idno type="bne">XX920308</idno>
 					<idno type="viaf">44294383</idno>
 					<name type="short">Alarcon</name>
 					<name type="full">Pedro Antonio de Alarcón</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1543</measure>
-				<measure unit="divs">31</measure>
-				<measure unit="words">74159</measure>
-				<measure unit="chars">430656</measure>
-				<measure unit="size_kb">473</measure>
+				<measure unit="lines">1549</measure>
+				<measure unit="divs">32</measure>
+				<measure unit="tokens">74159</measure>
+				<measure unit="chars">431027</measure>
+				<measure unit="size_kb">474</measure>
 
 				<measure unit="chapters">25</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">5</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1468</measure> 
-				<measure unit="line_verses">0</measure> 
+				<measure unit="blocks">1469</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
 				<measure unit="heads">29</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1438</measure> 
+				<measure unit="paragraphs">1439</measure> 
 				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">685</measure> 
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">676</measure>
+				<measure unit="saids">891</measure>
+				<measure unit="narrative.ps">763</measure>
+				<measure unit="ss">2419</measure> 
 				<measure unit="numbers">48</measure> 
-				<measure unit="puncts">20112</measure>
+				<measure unit="puncts">19767</measure> 
+				<measure unit="len.abstract">1870</measure>
+
+				<measure unit="types">12264</measure>
+
+				<measure unit="ss">1158</measure>
+				<measure unit="ss.len.mean">387.0371329879102</measure>
+				<measure unit="ss.len.std">526.9271442753387</measure>
+				<measure unit="mean.ss.active.verbs">6.880829015544041</measure>
+				<measure unit="std.ss.active.verbs">9.091815029009018</measure>
+
+				<measure unit="ws">90727</measure>
+				<measure unit="ws.len.mean">3.952737332877754</measure>
+				<measure unit="ws.len.std">3.0472403776823533</measure>
+
+				<measure unit="conjunctions">5801</measure>
+				<measure unit="determiners">10989</measure>
+				<measure unit="nouns">16005</measure>
+				<measure unit="verbs">14729</measure>
+				<measure unit="adverbs">4702</measure>
+				<measure unit="adjectives">4652</measure>
+				<measure unit="adpositions">9221</measure>
+				<measure unit="punctuations">16701</measure>
+				<measure unit="pronouns">7335</measure>
+				<measure unit="dates">35</measure>
+				<measure unit="numbers">391</measure>
+				<measure unit="interjections">166</measure>
+
+				<measure unit="ne.persons">1679</measure>
+				<measure unit="ne.organizations">449</measure>
+				<measure unit="ne.locations">389</measure>
+				<measure unit="ne.others">416</measure>
+
+				<measure unit="wnlex.noun.plants">62</measure>
+				<measure unit="wnlex.verb.communications">1444</measure>
+				<measure unit="wnlex.noun.foods">46</measure>
+				<measure unit="wnlex.verb.possessions">569</measure>
+				<measure unit="wnlex.verb.cognitions">773</measure>
+				<measure unit="wnlex.noun.communications">905</measure>
+				<measure unit="wnlex.noun.states">408</measure>
+				<measure unit="wnlex.verb.statives">2781</measure>
+				<measure unit="wnlex.noun.cognitions">698</measure>
+				<measure unit="wnlex.noun.times">520</measure>
+				<measure unit="wnlex.verb.bodys">488</measure>
+				<measure unit="wnlex.noun.persons">2057</measure>
+				<measure unit="wnlex.adj.alls">2909</measure>
+				<measure unit="wnlex.noun.quantitys">53</measure>
+				<measure unit="wnlex.noun.phenomenons">145</measure>
+				<measure unit="wnlex.verb.creations">467</measure>
+				<measure unit="wnlex.adj.perts">119</measure>
+				<measure unit="wnlex.adv.alls">1698</measure>
+				<measure unit="wnlex.noun.processs">37</measure>
+				<measure unit="wnlex.noun.artifacts">1072</measure>
+				<measure unit="wnlex.verb.perceptions">406</measure>
+				<measure unit="wnlex.noun.feelings">416</measure>
+				<measure unit="wnlex.verb.weathers">39</measure>
+				<measure unit="wnlex.noun.substances">141</measure>
+				<measure unit="wnlex.noun.shapes">35</measure>
+				<measure unit="wnlex.verb.competitions">127</measure>
+				<measure unit="wnlex.verb.motions">1033</measure>
+				<measure unit="wnlex.noun.animals">127</measure>
+				<measure unit="wnlex.noun.acts">893</measure>
+				<measure unit="wnlex.noun.bodys">524</measure>
+				<measure unit="wnlex.noun.objects">257</measure>
+				<measure unit="wnlex.noun.motives">43</measure>
+				<measure unit="wnlex.verb.socials">775</measure>
+				<measure unit="wnlex.noun.groups">556</measure>
+				<measure unit="wnlex.verb.consumptions">97</measure>
+				<measure unit="wnlex.noun.possessions">166</measure>
+				<measure unit="wnlex.noun.Topss">289</measure>
+				<measure unit="wnlex.noun.relations">23</measure>
+				<measure unit="wnlex.noun.attributes">914</measure>
+				<measure unit="wnlex.verb.emotions">430</measure>
+				<measure unit="wnlex.noun.locations">411</measure>
+				<measure unit="wnlex.noun.events">376</measure>
+				<measure unit="wnlex.verb.contacts">442</measure>
+				<measure unit="wnlex.xxxs">64276</measure>
+				<measure unit="wnlex.verb.changes">680</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -66,61 +150,61 @@
 				<p>Al cabo de ocho años regresa el joven el mismo día del baile. Se entera de que su amada se ha casado con un forastero, Antonio Arregui. Todos temen un fatal desenlace. Don TRinidad hace lo posible para eviatarlo; recurre a la devoción que Manuel había tenido en otro tiempo a la imagen del Niño de la bola. Tras una terrible lucha, nuestro héroe decide marcharse para siempre. Cuando ya está de camino, Vitriolo le lleva una carta de Soledad en la que el confiesa sin recato su amor y le ruega que no se vaya. Regresa al pueblo. En la fiesta bailas los dos. Manuel abraza estrechamente a Soledad hasta ahogarla sin darse cuenta, y Antonio le clava a él un puñal en el corazón. Los cadáveres yacen juntos.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1833</term>
-					<term type="author-date-death">1891</term>
-					<term type="author-TOC-range" resp="MdL7">6</term>
-					<term type="author-histlit-pages" resp="MdL7">54</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
-					
-
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="1">spiritual</term>
-					<term type="subgenre" subtype="2">bildungsroman</term>
-
-					<term type="genre-label">novela</term>
-
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-
-					<term type="subgenre-lithist" subtype="2">novela romántica</term>
-					<term type="subgenre-lithist" subtype="1">drama</term>
-					<term type="subgenre-lithist" subtype="1">histórico</term>
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Guadix</term>
-					<term type="setting-territory">Andalucía</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Manuel de Venegas</term>
-					<term type="protagonist-profession" cert="low">worker</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="medium">11680</term>
-					<term type="group-text"></term>
-					<term type="author-text-relation">none</term>
-					<term type="type-end">negative</term>
-					<term type="protagonist-age">young</term>
-					<term type="text-movement">realista</term>
-					<term type="text-histlit-pages">4.0</term>
-					<term type="text-TOC-range">5</term>
-
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">6</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1833</term>
+					<term type="author.date.death">1891</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">54</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group"></term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">young</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Manuel de Venegas</term>
+					<term type="text.characters.protagonist.profession" cert="low">worker</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon"> Ficción, Europea, Antologías; Literatura y ficción, Literatura y ficción;</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Realista</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">spiritual</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">bildungsroman</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="2">novela romántica</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">drama</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">histórico</term>
+					<term type="text.genre.subtitle">novela</term>
+					<term type="text.genre.subtitle.source" resp="bne">novela</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">5</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">4.0</term>
+					<term type="text.movement">realista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Guadix</term>
+					<term type="text.setting.settlement">Guadix</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory">Andalucía</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="medium">11680</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -1518,13 +1602,13 @@
 								<p>«Pero, aunque el imortunio me haya obligado á casarme con otro hombre, ¿no me conoces, Manuel? ¿Has dejado de leer en mi corazon con tanta claridad como cuando decías á todo el mundo: <seg rend="italics">Yo sé que me quiere: yo sé que es mia?</seg>—Y, si me conoces, ¿por qué te marchas? ¿Por qué te marchas, desdeñándome, aborreciéndome, sin dignarte lidiar contra la nueva desdicha que nos separa en apariencia, y dejándome reducida á vivir y morir con este hombre que no conozco, que no me conoce, y que no quiero ni podré llegar á querer nunca? ¿Por qué me castigas tan duramente, entregándome al ludibrio de este pueblo, que siempre me habia coronado con la diadema de tu amor?</p>
 								<p>«¡Ingrato! ¡cruel! ¡Pagarme con tanto desvío y tanta injusticia, cuando llevo diez y siete años de aguardarte! ¡Irte, primero por ocho anos, y despues para no volver jamás, sin comprender que, desde la primera hora de mi juventud, al verme tan separada de tí por el destino, te sacrifiqué mi recato, mi honra y mi vida!—¡Loco! ¡no buscarme nunca en secreto! ¡buscarme siempre en presencia del público! ¡Figurarte que era menester ir á América á conquistar un millón para llegar hasta mí, para enseñorearte de mi cariño! ¡Creer ahora que hay necesidad de matar á nadie, que hay que estremecer el mundo, que hay que vencer ningunos obstáculos, para triunfar, al cabo, de los rigores de nuestra suerte y convertir en dulce realidad todos los sueños de nuestra vida! ¡Obligarme á decirte, loca de amor, y llena la cara de sonrojo, lo que á tí te tocaba pensar, decir y hacer descuidadamente, sabiendo, como sabes desde la primera vez que me viste, que eres el rey de mi alma y el dueño de todo mi sér!... ¡el único hombre que he amado y que podré amar! ¡el único que puede darme la vida ó la muerte!</p>
 								<p>»¿Lo ves, Manuel mió? ¿lo ves? ¡Tu pobre Soledad ha perdido la razón! ¡Tu Soledad, desesperada al saber que la abandonas para siempre, te escribe delirando, muerta de amor, sin orgullo, sin reserva, como la esposa al esposo de su vida...—¡Ah! no te vayas! ¡Ven! ¡perdóname! ¡compadéceme! ¡restitúyeme tu corazon, aunque despues termine nuestra existencia!</p>
-								<ab><seg rend="small-caps">«Soledad.»</seg></ab>
+								<ab><seg rend="smallcaps">«Soledad.»</seg></ab>
 							</div></body></floatingText>	
 					<p>—¡Tremenda carta!—exclamó el expósito, lleno de espanto.</p>
 					<p>—¡Pavorosa! (respondió <seg rend="italics">Vitriolo.)</seg> ¡Obra maestra de dos formidables pasiones, ó sea del orgullo y de la sensualidad!—¡La inicua se casó con Antonio Arregui para que no se dijese que yo era el único hombre que se habia atrevido á desafiar las iras del <seg rend="italics">Niño de la Bola</seg> con tal de poseerla, y hoy entrega á su esposo al puñal de Manuel, para que no se diga que éste se marcha despreciándola y sin otorgarle los honores de una lucha á muerte!—Hasta aquí el orgullo.—En cuanto á la sensualidad, hay que leer la correspondencia de Mirabeau y Sofía para hallar tamaño desenfreno...—¡Y pensar que todavía la adoro!</p>
 					<p>Filemon repuso:</p>
 					<p>—Si enviaras este papel á Antonio Arregui, matará á su mujer en el acto, y tú saldrías de penas...</p>
-					<p>—Ya he pensado en eso. ¡Pero no me acomoda! (respondió <seg rend="italics">Vitriolo</seg> con horrible frialdad.) Lo que yo necesito es que Antonio muera asesinado por Manuel y que á Manuel le dé garrote el verdugo. De este modo, la execrable viuda, sola y deshonra-<seg rend="small-caps">el miso de la bola.</seg></p>
+					<p>—Ya he pensado en eso. ¡Pero no me acomoda! (respondió <seg rend="italics">Vitriolo</seg> con horrible frialdad.) Lo que yo necesito es que Antonio muera asesinado por Manuel y que á Manuel le dé garrote el verdugo. De este modo, la execrable viuda, sola y deshonra-<seg rend="smallcaps">el miso de la bola.</seg></p>
 					<p>Ja, será tan infeliz como yo.—Además: el triunfo de D. Trinidad Muley consiste en la pacífica marcha del hijo de D. Rodrigo...—Es, por lo tanto, de absoluta necesidad que el hijo de D. Rodrigo vuelva... y mate!</p>
 					<p>—Tienes razón... ¡trae la carta!—El caballo debe e tar dispuesto...</p>
 					<p>—¡Toma... toma, hijo mió! (exclamó <seg rend="italics">Vitriolo </seg>con siniestro júbilo.) La gloria de la Filosofía y mi apetecida venganza están en tus manos...—Yo creo que lograrás dar alcance á nuestro héroe en alguna de las primeras ventas... El insensato lleva tres dias sin comer ni dormir, y sus fuerzas no pueden ménos de tener límite, como todas.—Además: el maletin de la montura (atestado de oro, según me ha dicho la <seg rend="italics">Volantai</seg> impedirá á su caballo correr mucho.—Cuando lo encuentres, le dices que estás empleado en la lábrica de Antonio Arregui y que su señora te ha confiado esa carta con el mayor secreto.—En seguida le contarás, como de tu cosecha, que Arregui fué ayer á desafiarlo á Santa Luparia, y que por eso corría tanto la Procesion y lo encerraron á él en la Sacristía: le dirás asimismo que esta mañana venía también Antonio á provocarlo, v que, á ruegos de D. Trinidad, desistió de ello; le dirás, por último, que Soledad y su marido van esta tarde á la Rifa, y que el orgulloso fabricante se ha ufanado hoy en calles y plazas de haber hecho huir al temido <seg rend="italics">Niño de la Bola...</seg>—¡Ah! se me olvidábalo principal...—Procurarás hacerle creer que D. Trinidad Muley explicaba hoy á todo el mundo el viaje de su ahijado, contando que el Niño Jesús le dirigió anoche la palabra y le mandó que se marchase del pueblo, no sin dejarle todas sus joyas al Cura, para que dispusiese de ellas á su antojo...—En fin, inventa, discurre, miente... ¡Todo es licito, cuando se trata de salvar la sociedad!...</p>
@@ -1537,7 +1621,7 @@
 					<head>II.: LA RIFA.</head>
 					<p>Aquel mismo sol cuyos matutinos rayos habian alumbrado la solemne y conmovedora partida de Manuel Venegas, continuaba á las tres y media de la tarde su majestuosa marcha por el cielo, llevando en pos de m las horas póstumas y sobrantes de un dia al parecer ya inútil, cuyo Ínteres y juicio histórico dieron por concluidos tan de mañana todos los habitantes de la Ciudad.</p>
 					<p>Obedeciendo, empero, la mayoría de éstos á la ley de inmemoriales costumbres, habian acudido, después de comer, á aquel anfiteatro de amarillos cerros, cuajados de habitadas cuevas, donde, como todos los años en tal fecha, debía celebrarse el Baile de Rifa del Niño de la Bola, y donde ocho años ántes tuvo lugar la fatal subasta en que el hijo de D. Rodrigo fué derrotado por D. Elias Perez.</p>
-					<p>No sólo este acaudalado sujeto, sino otros muchos ricos y pobres de los que allí vimos, habian muerto desde <seg rend="small-caps">i83 </seg>á 1840. En cambio, innúmera-bles niñas y niños de entónces eran ya mujeres y hombres hechos y derechos; muchos solteros y solteras se habian casado y tenian hijos, y no pocos padres y madres á quienes conocimos frescos y buenos mozos figuraban ya entre los viejos y los abuelos... — Por consiguiente, el cuadro, aunque hubiese variado en sus individuales pormenores, venía á ser el mismo á primera vista y en conjunto.</p>
+					<p>No sólo este acaudalado sujeto, sino otros muchos ricos y pobres de los que allí vimos, habian muerto desde <seg rend="smallcaps">i83 </seg>á 1840. En cambio, innúmera-bles niñas y niños de entónces eran ya mujeres y hombres hechos y derechos; muchos solteros y solteras se habian casado y tenian hijos, y no pocos padres y madres á quienes conocimos frescos y buenos mozos figuraban ya entre los viejos y los abuelos... — Por consiguiente, el cuadro, aunque hubiese variado en sus individuales pormenores, venía á ser el mismo á primera vista y en conjunto.</p>
 					<p>Allí, en efecto, habia, como antaño, clérigos y cofrades, soldados y bailadoras, señores y plebe: allí se veian, á la puerta de las oscuras cuevas, hileras de sillas ocupadas por lujosas damas y endomingados caballeros: allí resaltaban á la luz del sol los animados colorines de los pañuelos y sayas de las criadas y labriegas, los pintarrajados chalecos y fajas encarnadas de los hombres del pueblo, las medias blancas de trabilla de los que llevaban calzón corto, los refajillos colorados de las niñas pobres y descalzas que no tenian vestido, y las cobrizas carnes de los chicuelos que no tenian ninguna ropa...</p>
 					<p>También se veia allí, sobre una mesa con mantel de altar, la reluciente figura del Niño Jesús, adornada con todas las alhajas que le regalara pocas horas ántes Manuel Venegas, cuyo puñal indio, de pomo de oro con piedras preciosas, seguia á los piés de la bella Efigie, como pintan al dragón del pecado á los piés de la Virgen María.</p>
 					<p>Las gentes contemplaban, llenas de asombro y curiosidad (y muy edificadas y reconocidas al cielo, á creer en sus terminantes declaraciones), aquellas valiosas ofrendas de la mayor ira, trocada de pronto en cristiana mansedumbre...— Indudablemente, la idea de este maravilloso cambio llenaba en su morisca imaginación, ganosa de emociones extraordinarias, el vacío resultante del pacífico término de un conflicto tan dramático y descomunal como el hecho tablas por la caridad de D. Trinidad Muley. —¡Habíase frustrado la tragedia; pero quedábales mejor y más noble asunto de perdurables comentarios: quedábales un poema religioso!</p>

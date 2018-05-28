@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Pasqua senz‘Alleluja." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date
-                        when="2013-05-13">May 13, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42698"
-                        >http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
+                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date when="2013-05-13">May 13, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42698">http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
                 <bibl type="print-source"> "Pasqua senz‘Alleluja." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date
-                        when="1913">1913</date>. </bibl>
+                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date when="1913">1913</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -128,8 +124,7 @@
                     sgolarsi con le notturne! E se tu credi che la protezione della sorella, che è
                     la tua <seg rend="italic">zita</seg><note>Amorosa</note>, possa far cambiar
                     Maria di volontà, la sbagli grossa. Di' piuttosto al tuo amico che si metta il
-                    cuore in pace. E la finisca con le <seg rend="italic"
-                        >notturne</seg><note>Serenata</note> se no, qualche domenica notte succederà
+                    cuore in pace. E la finisca con le <seg rend="italic">notturne</seg><note>Serenata</note> se no, qualche domenica notte succederà
                     uno sbaraglio. Sono sei mesi che tenta. Credevo che egli ignorasse che il posto
                     è preso. Ora, però, che non posso più dubitare...</p>
                 <p>— Non ti scaldar tanto!</p>
@@ -138,26 +133,22 @@
                 <p>— E' un'altra cosa anche con me. E facciamo conto che non ci siamo visti, se sei
                     un uomo, e se hai stomaco.</p>
                 <milestone unit="section" rend="asterisks"/>
-                <p>Lo stesso giorno, Nino si presentò a mastro Tano il <seg rend="italic"
-                        >suonatore</seg> che accompagnava le <seg rend="italic">notturne</seg> di
+                <p>Lo stesso giorno, Nino si presentò a mastro Tano il <seg rend="italic">suonatore</seg> che accompagnava le <seg rend="italic">notturne</seg> di
                     Saro Barreca.</p>
                 <p>— Per tre, quattro nottate, di domenica...</p>
                 <p>— Impossibile. Sono impegnato.</p>
-                <p>— Vi pago il doppio. Non faticherete niente. Dovrete sparire; e <seg
-                        rend="italic">càlia</seg> e vino quanto ne vorrete, voi e i vostri
+                <p>— Vi pago il doppio. Non faticherete niente. Dovrete sparire; e <seg rend="italic">càlia</seg> e vino quanto ne vorrete, voi e i vostri
                     compagni.</p>
                 <p>— Che mi fate fare!</p>
                 <p>— Questa è la caparra.</p>
-                <p>Senza mastro Tano era impossibile di combinare una <seg rend="italic"
-                        >serenata</seg>. Il suo violino parlava: — Buona sera! Buona sera! — con la
+                <p>Senza mastro Tano era impossibile di combinare una <seg rend="italic">serenata</seg>. Il suo violino parlava: — Buona sera! Buona sera! — con la
                     voce di un cristiano. E se, smesso il violino, egli prendeva a suonare lo zufolo
                     di canna, altro che il flauto del farmacista Arcurio quando egli vi soffiava:
                         <seg rend="italic">Mira Norma, ai tuoi ginocchi</seg>.... e la gente si
                     affollava davanti alla farmacia!</p>
                 <p>Saro Barreca, quella domenica, pareva pazzo. Andava di qua, di là, su e giù anche
                     pei viali fuori Porta, domandando a chi incontrava: — Avete visto mastro Tano,
-                    il suonatore? — Nessuno lo aveva visto. Neppure la <seg rend="italic"
-                        >maestra</seg>, come chiamavano sua moglie, ne sapeva niente. E il secondo
+                    il suonatore? — Nessuno lo aveva visto. Neppure la <seg rend="italic">maestra</seg>, come chiamavano sua moglie, ne sapeva niente. E il secondo
                     violino? E il contrabasso? Spariti tutti! Poteva immaginare che era un tiro
                     fattogli da Nino Sbrizza?</p>
                 <p>E, la notte del lunedì Nino diceva a Maria:</p>
@@ -204,8 +195,7 @@
                     Ledda col pretesto di chiedere lavoro, lino da filare; e aveva portato con sè la
                     rocca con un grosso pennecchio e il fuso; c'era così bel sole su la terrazza!
                     Maria e sua sorella andavano e venivano, per le faccende di casa. Maria ora
-                    indugiava a innaffiare i garofani e le viole a ciocche, e la <seg rend="italic"
-                        >gnà Vicenza</seg>, pur continuando a filare, quasi non badasse ad altro, le
+                    indugiava a innaffiare i garofani e le viole a ciocche, e la <seg rend="italic">gnà Vicenza</seg>, pur continuando a filare, quasi non badasse ad altro, le
                     diceva:</p>
                 <p>— Fàllo contento. Non è giovane da abusarsi delle circostanze.</p>
                 <p>— Sua madre vuol dargli la figlia di Garozzo.</p>
@@ -218,8 +208,7 @@
                     aveva giurato: — Dovrò sonarla io! — E Nino Sbrizza, saputolo, aveva giurato: —
                     Non la sonerai!</p>
                 <p>Maria era rimasta perplessa. Quella fuga, accompagnata dal suono della campana di
-                    san Giovanni, le aveva acceso l'immaginazione. La gnà <seg rend="italic"
-                        >Vicenza</seg> insisteva per la risposta.</p>
+                    san Giovanni, le aveva acceso l'immaginazione. La gnà <seg rend="italic">Vicenza</seg> insisteva per la risposta.</p>
                 <p>— Gliela darò domani, alla benedizione delle Palme. Io, mia sorella e le nostre
                     cugine saremo davanti al ballatoio del <seg rend="italic">Sordo</seg>. Egli
                     prenda di mira l'albero più vicino, per buttarlo giù quando sarà il momento e
@@ -315,8 +304,7 @@
                 <p>— Ma, figliuol mio...</p>
                 <p>— Niente! Pago sùbito, in contanti anche. Dica vossignoria!... E pago io pure la
                     banda.</p>
-                <p>— Sogliono far cena a mezzanotte. Un montone al forno, e vino e <seg
-                        rend="italic">càlia</seg>... Lo sai!</p>
+                <p>— Sogliono far cena a mezzanotte. Un montone al forno, e vino e <seg rend="italic">càlia</seg>... Lo sai!</p>
                 <p>— Due montoni, se occorrono... E quel che vossignoria comanda!</p>
                 <p>Nino, con le braccia dietro la schiena, in piedi davanti al Parroco attendeva la
                     risposta decisiva, che questi pareva cercasse nel breviario aperto sul tavolino
@@ -483,9 +471,7 @@
                     andar giù il manto e... tre volte avanti, tre volte indietro, tre inchini tra
                     Madre e Figlio. Poi si fermano l'uno di faccia all'altro, fino a che non arriva
                     il clero col Santissimo Sacramento, e non si avvia la processione, la Madonna
-                    innanzi, il Signore resuscitato dietro, e San Giovanni con la campanella: <seg
-                        rend="italic">'Ntio 'Ntio! 'Ntio!</seg> quasi per invitare a gridare: <seg
-                        rend="italic">Viva! Viva!</seg></p>
+                    innanzi, il Signore resuscitato dietro, e San Giovanni con la campanella: <seg rend="italic">'Ntio 'Ntio! 'Ntio!</seg> quasi per invitare a gridare: <seg rend="italic">Viva! Viva!</seg></p>
                 <p>Non c'era bisogno di queste istruzioni; ma don Giuseppe avrebbe creduto diminuita
                     la sua autorità se non avesse riuniti nella sagrestia Nino Sbrizza e gli altri
                     quattro giovani massai. Il suo zelo, però, non era proprio disinteressato. Nino
@@ -501,10 +487,8 @@
                     di esso infilava il giubbone di panno, foderato di lana verde, col cappuccio,
                     per garantirsi dal freddo di quella nottata di marzo, che era proprio di quello
                     che <seg rend="italic">penetra fin il corno del bue!</seg></p>
-                <p>Appena l'orologio della chiesa finì di sonare i cento colpi — <seg rend="italic"
-                        >din! don!</seg> — delle due ore di notte. Nino si mise alla testa della
-                    banda, tirando il laccio che pendeva dal manico della campanella infiorata: <seg
-                        rend="italic">'Ntio! 'Ntio! 'Ntio!</seg></p>
+                <p>Appena l'orologio della chiesa finì di sonare i cento colpi — <seg rend="italic">din! don!</seg> — delle due ore di notte. Nino si mise alla testa della
+                    banda, tirando il laccio che pendeva dal manico della campanella infiorata: <seg rend="italic">'Ntio! 'Ntio! 'Ntio!</seg></p>
                 <p>Si udiva per le vie il grande scalpitio degli scarponi dei contadini che
                     seguivano la banda, e il picchiare dei loro bastoni sul selciato, quasi per
                     battere la solfa, e, di tratto in tratto, le grida:</p>
@@ -513,8 +497,7 @@
                     per la via, tornando indietro. Tendeva l'orecchio per convincersi che il padre e
                     la sorella fossero nel primo sonno; e non osava di accendere il lume, di mettere
                     i piedi a terra, con le sole calze, per non fare il minimo rumore. Nel gran
-                    silenzio della notte, le arrivava, ora sì, ora no, il lontano <seg rend="italic"
-                        >'Ntio! 'Ntio!</seg> della campanella, la voce di Nino, le pareva, che si
+                    silenzio della notte, le arrivava, ora sì, ora no, il lontano <seg rend="italic">'Ntio! 'Ntio!</seg> della campanella, la voce di Nino, le pareva, che si
                     raccomandava: Tienti pronta; tra un'ora sarò costì!</p>
                 <p>Tra un'ora! Oh, per amore di lui si sarebbe buttata viva nel fuoco. Ma quella
                     fuga diventava per lei qualcosa di peggio. Lei stessa aveva terrore che,
@@ -559,8 +542,7 @@
                 <p>— Quel <seg rend="italic">Lasagna</seg>! E' il vino di Pasqua!... Allegria,
                     signori miei!...</p>
                 <p>Lo zi' Scatà andava da un punto all'altro della tavola per rianimare la festa; ma
-                    pure quelli che eran rimasti là si sentivano impressionati dalle parole di <seg
-                        rend="italic">Lasagna</seg>.</p>
+                    pure quelli che eran rimasti là si sentivano impressionati dalle parole di <seg rend="italic">Lasagna</seg>.</p>
                 <p>— Anche voi, compare Nino. Dove volete andare?</p>
                 <p>Nino, che si era tolto la mantellina rossa e il camice da confratello, s'infilava
                     in fretta in fretta il giubbone di panno, e scappava via, senza rispondere una

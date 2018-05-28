@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -26,7 +24,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>Files freely available.</p>
 				</availability>
 				<date></date>
@@ -53,19 +51,19 @@
 				<p></p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">nouvelle</term>
-					<term type="subgenre" subtype="3">fantastique</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="form">prose</term>
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="setting">Paris</term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
-					<term type="tei">11</term>
+				<keywords scheme="keywords.xml">
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">nouvelle</term>
+					<term type="text.genre.subgenre" cligs:importance="3">fantastique</term>
+					<term type="text.genre.subsubgenre"></term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.form">prose</term>
+					<term type="text.narration.narrator">autodiegetic</term>
+					<term type="text.setting">Paris</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">France</term>
+					<term type="author.gender">male</term>
+					<term type="text.tei.version">11</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

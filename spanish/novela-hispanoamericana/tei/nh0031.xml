@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,15 +35,12 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0031</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0031.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0031.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source">
                     <seg rend="italic">Libro extraño. Tomo III. Don Manuel de Paloche.</seg>
-                    Alicante: Biblioteca Virtual Miguel de Cervantes, <date>2000</date>, <ref
-                        target="http://www.cervantesvirtual.com/obra/libro-extrano-tomo-iii-don-manuel-de-paloche--0/"
-                        >http://www.cervantesvirtual.com/obra/libro-extrano-tomo-iii-don-manuel-de-paloche--0/</ref>. </bibl>
+                    Alicante: Biblioteca Virtual Miguel de Cervantes, <date>2000</date>, <ref target="http://www.cervantesvirtual.com/obra/libro-extrano-tomo-iii-don-manuel-de-paloche--0/">http://www.cervantesvirtual.com/obra/libro-extrano-tomo-iii-don-manuel-de-paloche--0/</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Libro extraño. Tomo III. Don Manuel de Paloche.</seg> Buenos
                     Aires: Imprenta Europea de M. A. Rosas, <date when="1899">1899</date>. </bibl>
@@ -88,20 +86,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk" cert="low">naturalistic</term>
-                    <term type="subgenre" subtype="1" resp="#uhk" cert="low">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">urban</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk" cert="low">naturalistic</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk" cert="low">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -165,8 +163,7 @@
                     manzanas que limitan el hondo y estrecho cajón de la calle. Faroles y alambres
                     por todos lados, estrépitos violentos, tableros y toldos, ingentes negocios y
                     una multitud que va y viene apurada, sale, entra y corre entre el rumor de las
-                    cornetas o campanas de los <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >tramways</seg></seg>. Hay mucha hediondez. Por las puertas escapa esa
+                    cornetas o campanas de los <seg rend="italic"><seg type="foreign" xml:lang="en">tramways</seg></seg>. Hay mucha hediondez. Por las puertas escapa esa
                     náusea; olores a grasa rancia, a cuero podrido, a fango viejo, dejos malsanos de
                     cocinas sucias, oleadas de sótanos cerrados, emanaciones de legumbres marchitas
                     y hacinadas, soplos gangrenosos y aleteos de cuando en cuando de purulencias
@@ -294,8 +291,7 @@
                     tranvías y carruajes y se ve llegar cabeceando alguna carreta con su enorme
                     menisco de legumbres. Aquella húmeda filosofía, sucia de barro, empezó a
                     disgustar a D. Manuel.</p>
-                <p>Enderezó al primer <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >tramway</seg></seg>. El cochero lo miró. Aquello no era un rostro, sino
+                <p>Enderezó al primer <seg rend="italic"><seg type="foreign" xml:lang="en">tramway</seg></seg>. El cochero lo miró. Aquello no era un rostro, sino
                     una máscara con su frente chata y hundida, las narices dilatadas y amplias,
                     gruesos los labios, la piel cobriza y agujereada por la viruela, cuatro cerdas
                     gruesas en la barba y una que otra chuza de bigote en el labio superior. Era un
@@ -391,8 +387,7 @@
                     encarándose con el primero que pasó a su lado-. Éste es un hervidero de razas.
                     De este crisol -continuó sin detenerse-, ha de salir la verdad civilizadora.
                     Todavía no estamos en ella. El atavismo impera. Poca gente se baña en este país
-                    y para ser grandes, es preciso empezar por ser aseados. <seg rend="italic"><seg
-                            type="foreign" xml:lang="la">Intus et extra</seg></seg>. ¡La mugre suele
+                    y para ser grandes, es preciso empezar por ser aseados. <seg rend="italic"><seg type="foreign" xml:lang="la">Intus et extra</seg></seg>. ¡La mugre suele
                     contaminar la integridad psicológica de los pueblos!</p>
                 <p>D. Manuel hablaba fuerte. Parecía loco. Su persona era alta y enjuta, lleno de
                     ángulos y de flacuras el rostro, arrugada y amplia la frente, la nariz larga,
@@ -451,8 +446,7 @@
                     el inconveniente de las juveniles iniciativas, de las disputas y de las
                     virulencias, del dolor por la patria, sincero en muchos, pérfido y utilitario en
                     algunos se redujo a una síntesis. El soplo revolucionario cundió, abonado por
-                    una cantidad de poderes ejecutivos que brotaban de todas partes. Había un <seg
-                        type="foreign" rend="italic" xml:lang="en">meeting</seg> en un teatro. En el
+                    una cantidad de poderes ejecutivos que brotaban de todas partes. Había un <seg type="foreign" rend="italic" xml:lang="en">meeting</seg> en un teatro. En el
                     proscenio, adornado con banderas, estaba el presidente, vice, secretarios y una
                     larga corte. ¡Era un poder ejecutivo que allí se reunía, para encontrar la forma
                     de guardar la honra nacional! Había una manifestación en la calle. Adelante
@@ -655,15 +649,13 @@
                     ¡Son los juegos olímpicos que no están hechos sino para los atletas! Entonces el
                     carpintero y el albañil estrechan la mano del domador de la estancia y el
                     zumbido del lazo que gira en el aire sobre el redomón en fuga, es la armonía
-                    gigantesca de la pampa, contestando a las melopeas enervadas de la <seg
-                        rend="italic">casta diva</seg>. Por eso los cantores, los bailarines de
+                    gigantesca de la pampa, contestando a las melopeas enervadas de la <seg rend="italic">casta diva</seg>. Por eso los cantores, los bailarines de
                     can-can, creadores de la frase breve llena de acción y de chispa, los
                     esgrimistas de la navaja, maestros del toreo y de la jota; los apasionados del
                     whisky, idólatras y dueños del mar, acariciaron al corcel de la llanura, le
                     pusieron recado y freno y lo montaron. Fue una alegre procesión de cabalgadores
                     que saltaban, descompaginadas y revueltas las tripas en el galope frenético. Los
-                    jinetes criollos se sonreían al verlos pasar y les llamaban <seg rend="italic"
-                        >maturrangos</seg>.</p>
+                    jinetes criollos se sonreían al verlos pasar y les llamaban <seg rend="italic">maturrangos</seg>.</p>
                 <p>Pero éstos compraron sus campos, se hicieron de a caballo y les enseñaron a los
                     nativos a refinar las razas, es decir, a ahorrar humus y pastizales. De paso
                     enamoraban las mujeres y más de una china exuberante con tez de cobre viejo y
@@ -695,16 +687,14 @@
                     cruzados. Conviene decir que muchos han resistido a las innovaciones del
                     espíritu moderno. Han conservado sus sencillas costumbres y miran con cierto
                     austero desdén a los nobles de ogaño, detrás de los cuales suele asomar a menudo
-                    el plebeyo de áureo blasón y bota con taquito alto. No conocen el <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">bolauvent</seg></seg>,
+                    el plebeyo de áureo blasón y bota con taquito alto. No conocen el <seg rend="italic"><seg type="foreign" xml:lang="fr">bolauvent</seg></seg>,
                     prefieren la carbonada. Las mujeres conservan como reliquias los grandes
                     pañuelos de espumilla y las ricas sedas de otro tiempo, que todavía duran a
                     pesar de tantos años y en sus casas hay muebles de caoba seculares que han visto
                     pasar dos o tres generaciones. Lo nuevo efímero y deleznable, los rasos
                     falsificados, el corsé corto que abomba las nalgas y ofrece contoneos de
                     bayadera; los afeites y toda la complicación del tocador moderno no han
-                    penetrado por los largos zaguanes de las casas solariegas. No entienden el <seg
-                        rend="italic"><seg type="foreign" xml:lang="en">sandwich</seg></seg> y el
+                    penetrado por los largos zaguanes de las casas solariegas. No entienden el <seg rend="italic"><seg type="foreign" xml:lang="en">sandwich</seg></seg> y el
                     oporto en la hora de la merienda. Todavía creen en el mate. El escote los
                     asusta. No piensan que es por ahí que deben estudiarse las altas cumbres. Tienen
                     el culto de las viejas aromas. Sus ropas saben a cedrón y a alhucemas. El
@@ -980,12 +970,9 @@
                     forma de reconstituir las energías nacionales.</p>
                 <p>-¡Muy <seg rend="italic">pien</seg> dicho! -repitió el inglés-. Hay que pagar las
                     deudas. Nosotros somos amigos vuestros. Cada uno se viene aquí con un pedazo de
-                    vida inglesa. Jugamos al polo y al <seg rend="italic"><seg type="foreign"
-                            xml:lang="en">lawn-tennis</seg></seg> y creemos en los pueblos
-                    atléticos. Unas cuantas coces de <seg rend="italic"><seg type="foreign"
-                            xml:lang="en">football</seg></seg> no están de más. No pensamos tampoco
-                    que los jóvenes deben trasnochar. ¡Nuestros <seg rend="italic"><seg
-                            type="foreign" xml:lang="en">bachelor-balls</seg></seg> concluyen a las
+                    vida inglesa. Jugamos al polo y al <seg rend="italic"><seg type="foreign" xml:lang="en">lawn-tennis</seg></seg> y creemos en los pueblos
+                    atléticos. Unas cuantas coces de <seg rend="italic"><seg type="foreign" xml:lang="en">football</seg></seg> no están de más. No pensamos tampoco
+                    que los jóvenes deben trasnochar. ¡Nuestros <seg rend="italic"><seg type="foreign" xml:lang="en">bachelor-balls</seg></seg> concluyen a las
                     doce de la noche! Somos partidarios del método y creemos que un inglés debe ser
                     longevo. Para eso es inglés. Tenemos mucha pena de verlos morir a ustedes a los
                     cuarenta años. Es bueno que yo les diga que nos los estimamos demasiado. No
@@ -1015,8 +1002,7 @@
                     cuatro de la tarde. Después, mientras los de aquí siguen pugnando y enfermándose
                     del hígado, el inglés anda en bicicleta en pandilla, con los pantalones
                     arremangados, juega al polo y se olvida de su banco o de su casa de comercio y
-                    le prende al coñac o al gengirbier por vía de aperitivo. <seg rend="italic"><seg
-                            type="foreign" xml:lang="en">All right!</seg></seg> Después come. Ésta
+                    le prende al coñac o al gengirbier por vía de aperitivo. <seg rend="italic"><seg type="foreign" xml:lang="en">All right!</seg></seg> Después come. Ésta
                     es la hora clásica. Nadie se permite ir a la mesa, sino aseado y con su mejor
                     traje. Las señoras pagan tributo al decoro. Usan vestido escotado, como para una
                     fiesta y los hombres tienen el smoking elegante y liviano. Están alegres. Allí
@@ -1025,8 +1011,7 @@
                     ellos el culto de la familia y la reverencia por el recuerdo de las glorias
                     nativas. Han hecho conocer aquí el encanto de la estufa prendida y la necesidad
                     del ambiente tibio en la noche de invierno, llena de la amable poesía del
-                    diálogo jovial, impregnado de <seg rend="italic"><seg type="foreign"
-                            xml:lang="en">humour</seg></seg> y de cortesías. Yo no niego que suele
+                    diálogo jovial, impregnado de <seg rend="italic"><seg type="foreign" xml:lang="en">humour</seg></seg> y de cortesías. Yo no niego que suele
                     haber a veces en sus diversiones algo de grotesco, pero hay que admitir que el
                         <seg rend="italic"><seg type="foreign" xml:lang="en">clown</seg></seg>
                     deriva de la salud de los órganos y del exceso de elasticidad y robustez
@@ -1049,8 +1034,7 @@
                     definitiva, digan lo que quieran, que sea sagrada la libertad del hombre. Por
                     esto ha resultado un pueblo superior. Ha concluido la conquista sin oponerse más
                     que lo necesario a las emancipaciones, mientras otros la empezaron con sangre
-                    como él y la terminaron con la opresión y la esclavitud. <seg rend="italic"><seg
-                            type="foreign" xml:lang="en">God save, England!</seg></seg></p>
+                    como él y la terminaron con la opresión y la esclavitud. <seg rend="italic"><seg type="foreign" xml:lang="en">God save, England!</seg></seg></p>
                 <p>-Muy bien, muy bien -exclamaron muchas voces a un tiempo. Eran ingleses mezclados
                     a la muchedumbre.</p>
                 <p>-¡Vivan las razas! ¡Viva la evolución! -gritó D. Manuel de Paloche, abrazando al
@@ -1076,8 +1060,7 @@
                     el orador seguía hablando.</p>
                 <p>-Les repito que no los estimamos demasiado. Ustedes no tienen método. No hacen
                     nada o se extenúan en los ejercicios. Prefieren el sistema latino y no saben que
-                    mientras nosotros llegamos a lo perfecto en el <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">coup de sabatte</seg></seg> con la
+                    mientras nosotros llegamos a lo perfecto en el <seg rend="italic"><seg type="foreign" xml:lang="fr">coup de sabatte</seg></seg> con la
                     contracción paulatina y científica, el puntapié francés apenas horada, la
                     muselina y el cuchillo español tiene como corolario el crimen y el presidio. Hay
                     que tener cuidado porque el hombre puede estar para ser derribado y no
@@ -1085,12 +1068,10 @@
                     ejercicio continuado que se llega a ser tales, que se adquiere el máximum de
                     vigor y como consecuencia de equilibrio moral. La buena digestión es importante.
                     Da alegría al corazón y energías a la voluntad. El que no suda está obligado
-                    tarde o temprano a tomar sal inglesa o <seg rend="italic"><seg type="foreign"
-                            xml:lang="en">antibillious pills</seg></seg>. Se me ocurre por
+                    tarde o temprano a tomar sal inglesa o <seg rend="italic"><seg type="foreign" xml:lang="en">antibillious pills</seg></seg>. Se me ocurre por
                     consiguiente que eso de estar inmóviles en Palermo rígidos y deslumbrantes
                     cuatro horas todos los días, tiene sus inconvenientes. Sería mejor tal vez
-                    pasear bajo la hermosa arboleda frente al río lleno de frescuras. <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">Messieurs, et mes dames!
+                    pasear bajo la hermosa arboleda frente al río lleno de frescuras. <seg rend="italic"><seg type="foreign" xml:lang="fr">Messieurs, et mes dames!
                             Prenez garde! Le danger est en antibilious pills!</seg></seg></p>
                 <p>Estas palabras pronunciadas por el inglés con acento gutural suscitaron la risa.
                     Hubo aplausos. De no haber sido los puños formidables del orador el manteo
@@ -1110,11 +1091,9 @@
                     Miranda. Son altas y delgadas, rápidas en el andar y vivaces en el diálogo. Cada
                     una lleva su perro atrás. Generalmente es un galgo o un mastín. En arte perruno
                     adoran la gracia y la fuerza. Pasean con un libro en la mano leyendo. Son
-                    grandes jugadoras al <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >lawn-tennis</seg></seg>. Sudan. Nosotros también somos lectores. No se
+                    grandes jugadoras al <seg rend="italic"><seg type="foreign" xml:lang="en">lawn-tennis</seg></seg>. Sudan. Nosotros también somos lectores. No se
                     nos escapa ningún balance de Banco, ni discurso de tenedores de títulos o
-                    arengas en los <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >meetings</seg></seg> de accionistas del Ferrocarril del Sud. Nuestra
+                    arengas en los <seg rend="italic"><seg type="foreign" xml:lang="en">meetings</seg></seg> de accionistas del Ferrocarril del Sud. Nuestra
                     ilustración consiste en saber finanzas. Donde quiera que estemos es de práctica
                     reunirnos de cuando en cuando y mientras la gente cree que no hacemos sino tomar
                     whisky, nosotros estudiamos los acontecimientos del país y buscamos los medios
@@ -1129,8 +1108,7 @@
                     Nosotros preferimos el chalet o la arquitectura del castillo escocés. Por todas
                     estas razones el inglés tiene la alegría de su mansión. Su alma es clara como el
                     color de sus muebles. Desde el vestíbulo hasta la bohardilla toda la tendencia
-                    es llegar a la <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >respectability</seg></seg>, lo que ustedes llamarían la corrección
+                    es llegar a la <seg rend="italic"><seg type="foreign" xml:lang="en">respectability</seg></seg>, lo que ustedes llamarían la corrección
                     señorial. Para esto cada uno está convencido que vive en el mundo, donde el
                     ideal debe ser, conocer bien la aritmética y para esto también a los hombres no
                     les exigimos sino cosas de hombres. Esto de quererlos transformar en semidioses,
@@ -1211,8 +1189,7 @@
                     parte su necesidad intelectual. Ya hace años que en letras la alta sociedad no
                     leía otra cosa. Dumas, Hugo y Sue dominan el corazón y la fantasía de abuelas y
                     madres, mientras los burgueses más aferrados a la lengua se deleitaban con Pérez
-                    Escrich y Fernández y González. Ya de antes había preponderancia. En el año <seg
-                        rend="italic">diez</seg> todo se hizo apoyándose tanto en las conquistas de
+                    Escrich y Fernández y González. Ya de antes había preponderancia. En el año <seg rend="italic">diez</seg> todo se hizo apoyándose tanto en las conquistas de
                     la Revolución Francesa como en la conciencia de su propio derecho. Conviene
                     decir que no solamente Francia envía sus libros sino también sus escuelas y sus
                     idiosincrasias y hubo épocas en que el romanticismo melifluo era de buen estilo.
@@ -1279,8 +1256,7 @@
                     sometidas y está prohibido tener estilo individual y pensamiento. Hay que seguir
                     a Francia. Lo que no sea eso, resulta rural e insoportable. Los escritores
                     desdeñan el tema de la tierra y no conocen la observación. Hasta los argumentos
-                    de sus libros suelen ser europeos. El que se atreve a romper el cerco es <seg
-                        rend="italic">oveja ruin</seg>. Aquello es lo distinguido. Es preciso amar a
+                    de sus libros suelen ser europeos. El que se atreve a romper el cerco es <seg rend="italic">oveja ruin</seg>. Aquello es lo distinguido. Es preciso amar a
                     Zola, porque ha destruido mucha gazmoñería, se ha metido en las casas y vive
                     escondido en los roperos perfumados entre los rasos y el encaje de Inglaterra.
                     ¡Ah bribón! Se ha revuelto en el lodo, pero es el pintor más profundo de lo
@@ -1300,8 +1276,7 @@
                     tiene el defecto de que su sabiduría lo hace rígido en el andar y en la frase,
                     como si por la boca hubiera tragado un palo y hubiera quedado sin salir por
                     donde no puede decirse. No es humano. Se retrae como un ser superior. Tiene
-                    compasión de sus comprofesionales y vive perfeccionándolos siquiera sea <seg
-                        rend="italic"><seg type="foreign" xml:lang="la">in pectore</seg></seg>. Lo
+                    compasión de sus comprofesionales y vive perfeccionándolos siquiera sea <seg rend="italic"><seg type="foreign" xml:lang="la">in pectore</seg></seg>. Lo
                     regular es que no ande solo. Lleva a cuestas su gabinete de estudio y marcha
                     entre frascos de laboratorio y objetivos de microscopio. La gente dice que no
                     tiene talento, que todo eso no es más que una especiosa prosopopeya. El tiro de
@@ -1321,8 +1296,7 @@
                     los franceses aun lejos de su patria. Son alegres y juguetones. Aman la caza y
                     las mujeres y aunque hablan de su París como orgullo y de su Francia gloriosa y
                     buena, se mezclan fácilmente con los nativos, son amigos de ellos y no tienen
-                    como el inglés talante desdeñoso. No desprecian. El <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">chez nous</seg></seg>, lo defienden con el
+                    como el inglés talante desdeñoso. No desprecian. El <seg rend="italic"><seg type="foreign" xml:lang="fr">chez nous</seg></seg>, lo defienden con el
                     júbilo y la audacia de un colegial escapado en plena rabona. Si nos miran a
                     ratos por sobre el hombro, si nos creen chicos, es bueno confesar que lo hacen
                     con toda cortesía. Debe decirse que los nativos amaron siempre a Francia, se
@@ -1356,8 +1330,7 @@
                     como pocos. Sus majadas están siempre bien cuidadas y raro es que al costado del
                     rancho no haya arboleda plantada por ellos y huerta para la legumbre fresca.
                     Estos ásperos caminadores de la montaña se hacen en seguida jinetes. Usan botas
-                    y chiripá; pero no dejan la boina. Ésta es la gloria y el emblema de <seg
-                        rend="italic">Euskalduna</seg>. Hay que conservarla. Con ella puesta en
+                    y chiripá; pero no dejan la boina. Ésta es la gloria y el emblema de <seg rend="italic">Euskalduna</seg>. Hay que conservarla. Con ella puesta en
                     pleno sol alambran los campos. Todo a mano limpia. Así tienen los brazos
                     hinchados por el relieve de los músculos, capaces del máximum de fuerza dentro
                     de lo humano. <seg rend="italic">¡Emakhor!</seg> Son los titanes bravíos de las
@@ -1528,8 +1501,7 @@
                     abundante. Así procrean. Cada cópula canta un credo y hace un hijo y como los
                     italianos construyeron la Boca y los ingleses han invadido las quintas del
                     suburbio, ellos tienen un barrio, que les pertenece, donde hablan su lengua y
-                    juegan al trinquete y a la barreta, donde bailan <seg rend="italic"
-                        >zorzitkos</seg>, tocados con un pito y un tamboril por músicos que usan
+                    juegan al trinquete y a la barreta, donde bailan <seg rend="italic">zorzitkos</seg>, tocados con un pito y un tamboril por músicos que usan
                     galera de felpa y donde cantan los aires amables de la vieja Gascoña, sencillos
                     como su pueblo. Esa aldea se llama Barracas. Allí han crecido los hijos en el
                     espectáculo de esos trabajadores honestos. Son como ellos. Han entrado de lleno
@@ -1570,8 +1542,7 @@
                     presente es un axioma claro. Todos lo conocen y para el observador es evidente
                     que ésa es hoy la brega en las naciones. Para llegar a esto no hay más medios
                     que el trabajo y el ahorro. Pero España, nieta de ricos, derrochadora y buena,
-                    cargada con el peso de su inmenso poderío, desdeña al <seg rend="italic"
-                        >dollar</seg> y vive acariciando las panoplias y los emblemas de la antigua
+                    cargada con el peso de su inmenso poderío, desdeña al <seg rend="italic">dollar</seg> y vive acariciando las panoplias y los emblemas de la antigua
                     usanza, dormida en la embriaguez de los recuerdos desde los Pirineos al
                     Mediterráneo, arrullada en su letargo por la música de las bandurrias, por sus
                     alegres danzas y por el canto doloroso de sus malagueñas. Dan ganas de llorar,
@@ -1757,8 +1728,7 @@
                     un alma sintética en extraño suelo, que es obra de honor y de gloria, se
                     necesita extenuarse y se necesita morir. Así les pasó a los primeros cristianos
                     por transformar el espíritu del mundo y en Estados Unidos ha muerto el alma
-                    inglesa y lo propio sucederá en Indias. La amalgama engendra al <seg
-                        rend="italic"><seg type="foreign" xml:lang="en">yankee</seg></seg>,
+                    inglesa y lo propio sucederá en Indias. La amalgama engendra al <seg rend="italic"><seg type="foreign" xml:lang="en">yankee</seg></seg>,
                     psicología distinta, cuya audacia y capacidad para las empresas temerarias, ha
                     superado a sus conquistadores. Lo mismo aquí. El alma española se va, empujada
                     por los hijos que heredaron sus cualidades de autonomía e independencia y por el
@@ -1948,8 +1918,7 @@
                     vértigo de las razas se ha modelado el nuevo hombre argentino, bravo como un
                     catalán, elegante y fanfarrón, lleno de imprevisión y de bondad paciente a ratos
                     como el trabajador italiano, impetuoso, descompuesto y fratricida, gastado por
-                    el polen de la anarquía, emprendedor a lo <seg rend="italic"><seg type="foreign"
-                            xml:lang="en">yankee</seg></seg>, a veces aritmético como el inglés o
+                    el polen de la anarquía, emprendedor a lo <seg rend="italic"><seg type="foreign" xml:lang="en">yankee</seg></seg>, a veces aritmético como el inglés o
                     derrochador sin abuela.</p>
                 <p>El rabo de Namuncurá aparece de cuando en cuando entre los faldones de su frac y
                     más de una vez en las calles ha podido oírse el alarido de la toldería. Eso es
@@ -2106,8 +2075,7 @@
                     el otro gobierno. Está más cerca de la capital que el de los patriarcas. Pero yo
                     digo que no sirve. Entra mucho la trompada, el tiro, el cuchillo y poco la ley.
                     Después, cuando son vencidos, hacen un barullo sangriento y le ponen un nombre
-                    equivocado. Le llaman revolución. Eso no es cierto. <seg rend="italic"><seg
-                            type="foreign" xml:lang="en">Y know</seg></seg>, yo sabe mejor lo que es
+                    equivocado. Le llaman revolución. Eso no es cierto. <seg rend="italic"><seg type="foreign" xml:lang="en">Y know</seg></seg>, yo sabe mejor lo que es
                     eso. Es peste <seg rend="italic">Americano</seg>. Ustedes son muy calientes. El
                     inglés más frío nunca hace eso y cuando en otros países hay desórdenes, el
                     inglés agarra por ahí una isla u otro pedazo de tierra. Este gobierno de
@@ -2161,8 +2129,7 @@
                     que siguen al caudillo que está abajo. Esos no tienen derechos y asómbrense en
                     pleno fin de siglo, suelen carecer hasta de patria. Viven desterrados en otras
                     provincias y en el extranjero. Por eso yo decía que eso de caudillos, aquí no
-                    tiene <seg rend="italic"><seg type="foreign" xml:lang="en"
-                        >respetability</seg></seg>. En la ciudad no son importantes. No están en
+                    tiene <seg rend="italic"><seg type="foreign" xml:lang="en">respetability</seg></seg>. En la ciudad no son importantes. No están en
                     primera línea y no tendrían influencia, si no les fuera prestada. Generalmente
                     son los poderes públicos los que los hacen crecer. Los jueces son benévolos con
                     los delincuentes a solicitud del caudillo de parroquia; la policía entrega
@@ -2193,8 +2160,7 @@
                 <p>Los gritos y las imprecaciones arreciaban. La muchedumbre iba cerrando el vacío
                     alrededor del inglés; pero Paloche, apercibido del peligro, intervino
                     exclamando:</p>
-                <p>-¡Pueblo de Mayo! ¡Calmaos! Es claro. Tiene razón el <seg rend="italic"><seg
-                            type="foreign" xml:lang="en">mister</seg></seg>. El tercer gobierno está
+                <p>-¡Pueblo de Mayo! ¡Calmaos! Es claro. Tiene razón el <seg rend="italic"><seg type="foreign" xml:lang="en">mister</seg></seg>. El tercer gobierno está
                     en la capital. Aquí no elige el piquete. A ratos hay justicia. De cuando en
                     cuando se ve la soberanía popular. Los parlamentos legislan y la armonía de los
                     poderes coexiste. Al ejecutivo se le ha mellado el sable; el legislativo se
@@ -2253,8 +2219,7 @@
                     idea de libertad amplia, llena del fuego inextinguible del honor, libertad del
                     cuerpo y de la mente, libertad política y religiosa, la industria y el comercio
                     sin trabas, la justicia sin cadenas, la palabra honesta libre, como la
-                    conciencia que la forma y la lengua que la dice, el hombre transformado en <seg
-                        rend="italic"><seg type="foreign" xml:lang="la">Vir</seg></seg> y la mujer
+                    conciencia que la forma y la lengua que la dice, el hombre transformado en <seg rend="italic"><seg type="foreign" xml:lang="la">Vir</seg></seg> y la mujer
                     en madre, la idea de libertad amplia que asegure la marcha paralela de las
                     naciones dentro del respeto internacional, en pos del triunfo definitivo de la
                     justicia y del trabajo, estaba muy lejos, señores, de la conciencia de los
@@ -2338,8 +2303,7 @@
                     trompadas.</p>
                 <p>-¡Aborígenes! -repetía-. ¡Hasta cuándo aborígenes!</p>
                 <p>Un facineroso que estaba cerca le hizo un portillo en los dientes con una piedra;
-                    pero el inglés, rápido, le dio en el vientre uno de sus mejores golpes de <seg
-                        rend="italic"><seg type="foreign" xml:lang="en">football</seg></seg>. El
+                    pero el inglés, rápido, le dio en el vientre uno de sus mejores golpes de <seg rend="italic"><seg type="foreign" xml:lang="en">football</seg></seg>. El
                     atorrante abrió los brazos y se desplomó, mientras los partidarios de D. Manuel
                     enfurecidos y blasfemando en todos los idiomas, dieron una carga para salvarlo.
                     Los adversarios cedieron. Todas las razas habían soplado sobre ellos sus
@@ -2348,8 +2312,7 @@
                             sabatte</seg></seg>; algún sombrero vuela impelido por un puntapié
                     cancanesco; los vascos toman de pelotas a los cráneos a revés limpio no más o
                     descargan la macana que suena fofo como sobre calabaza huera; se ve brillar una
-                    que otra navaja sevillana entre los amigos de la revolución, mientras el <seg
-                        rend="italic">estileto</seg> gira con resplandor carbonario, defendiendo al
+                    que otra navaja sevillana entre los amigos de la revolución, mientras el <seg rend="italic">estileto</seg> gira con resplandor carbonario, defendiendo al
                     orden. En esa calle sobre el matete sucio, frente a las puertas de los negocios
                     cerrados, entre la luz escasa de los faroles de gas, la vieja doctrina derrama
                     sus sangrientas ponzoñas. El caudillo domina la noche con su error secular. Las
@@ -2416,8 +2379,7 @@
                     agrupados sobre el barro bultos oscuros. Son los muertos y uno que otro herido
                     que se agazapa contra la pared buscando la fuga. La balumba se va en dispersión
                     a lo lejos. En el sitio de la carga furiosa, apenas suena el casco de algún
-                    caballo sobre pequeños cuajarones de sangre y de lodo; cornetas de <seg
-                        rend="italic"><seg type="foreign" xml:lang="en">tramways</seg></seg> y
+                    caballo sobre pequeños cuajarones de sangre y de lodo; cornetas de <seg rend="italic"><seg type="foreign" xml:lang="en">tramways</seg></seg> y
                     ruidos de pasos de caminantes recelosos. Todas las puertas están cerradas; pero
                     los mil rumores apagados que llegan hasta la calle, prueban que la ciudad no
                     duerme. ¡Tal vez así era la paz de Varsovia!</p>
@@ -2428,9 +2390,7 @@
                     degeneraciones políticas.</p>
                 <p>-¡Abajo la revolución! ¡Abajo la revolución!</p>
                 <p>Pero el inglés que no se ha separado de él y que sabe sumar, comprende que no se
-                    puede esgrimir <seg rend="italic"><seg type="foreign" xml:lang="en"
-                        >box</seg></seg> ni <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >football</seg></seg> contra la caballería y a pesar de sus protestas lo
+                    puede esgrimir <seg rend="italic"><seg type="foreign" xml:lang="en">box</seg></seg> ni <seg rend="italic"><seg type="foreign" xml:lang="en">football</seg></seg> contra la caballería y a pesar de sus protestas lo
                     alza, se lo atraviesa en la espalda y retrocediendo hasta una puerta, hunde las
                     nalgas con alma y vida contra ellas. Los glúteos se contraen como una bocha de
                     fierro y se siente un rechinamiento y un crujir de fractura. Cedieron los
@@ -2513,8 +2473,7 @@
                     barba. Protestas de Paloche que no se reconoció y se tanteaba para estar seguro
                     que era él; risas del inglés al ver a D. Manuel transformado en un rubio abuelo
                     irlandés; Herzen munificente que paga la metamorfosis en la indumentaria de los
-                    dos héroes, bullicio lejano de los alemanes combinando un formidable <seg
-                        rend="italic">copo</seg> para el día siguiente; silencio y desierto en la
+                    dos héroes, bullicio lejano de los alemanes combinando un formidable <seg rend="italic">copo</seg> para el día siguiente; silencio y desierto en la
                     calle; apretones de mano del inglés despidiéndose; Paloche y Herzen juntos, uno
                     hacia la casa de Desiderio y el otro hacia la sociedad de letras y artes que
                     quedaba de paso. Todo en media hora...</p>
@@ -2676,8 +2635,7 @@
                 <p>Se había apoderado de D. Manuel el fuego sagrado de la oratoria. En medio del
                     tumulto se oía su voz vigorosa.</p>
                 <p>-¡Hablaré <seg rend="italic"><seg type="foreign" xml:lang="fr">quand
-                        meme</seg></seg>! <seg rend="italic"><seg type="foreign" xml:lang="it"
-                            >¡Sapristi!</seg></seg> -gritó.</p>
+                        meme</seg></seg>! <seg rend="italic"><seg type="foreign" xml:lang="it">¡Sapristi!</seg></seg> -gritó.</p>
                 <p>Por todas partes se levantó un doliente clamoreo.</p>
                 <p>-¡Horror! ¡La Galia! -exclamó el rabino-. ¡Ha profanado al templo!</p>
                 <p>-¡Horror! -repitieron los catecúmenos.</p>
@@ -2715,8 +2673,7 @@
                     cristalinas de zafiros y ópalo. Escriban el color fresco, suave, lleno de
                     blandas morbideces que tiene el terciopelo de las flores y las hinchazones
                     vigorosas, ásperas y húmedas de la corteza y de las raíces desnudas y preñadas
-                    de licores lascivos, arrancados al <seg rend="italic"><seg type="foreign"
-                            xml:lang="la">humus</seg></seg>. Hagan la revolución dentro de la
+                    de licores lascivos, arrancados al <seg rend="italic"><seg type="foreign" xml:lang="la">humus</seg></seg>. Hagan la revolución dentro de la
                     naturaleza. ¡El país está cansado de vuestras auroras decadentes, escritas con
                     los colores muertos de los papeles de forro de las pinturerías! ¡Autores a peso
                     el plato! ¡Escuchen, pues! ¿Para qué tienen oídos? Digan cómo las ciudades
@@ -2742,8 +2699,7 @@
                     cuando en cuando, se oían rumores lejanos, como si fueran tropeles de gente que
                     huyera. D. Manuel se sonreía, apuntando con el dedo al gran rabino.</p>
                 <p>-Así son éstos, amigo Herzen -agregó Paloche-. Duermen y mientras alrededor todo
-                    crece y se agiganta, estos <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >coquins s'en fiche</seg></seg> y viven incrustados en su
+                    crece y se agiganta, estos <seg rend="italic"><seg type="foreign" xml:lang="fr">coquins s'en fiche</seg></seg> y viven incrustados en su
                     solemnidad.</p>
                 <p>Esta profanación de lo castizo hizo abrir los ojos al gran rabino. Estaban llenos
                     de lágrimas.</p>
@@ -2822,8 +2778,7 @@
                     en el pasado, la tropa de carretas camina al tranco como un emblema de vetustez
                     moribunda. Marcha en la penumbra. Cerca no más la espera la noche para
                     sepultarla en su sombra. La nación vieja yace toda ella ahí adentro y el alma
-                    colonial forma el <seg rend="italic"><seg type="foreign" xml:lang="la"
-                            >substratum</seg></seg> histórico lleno de heroísmos y de errores.
+                    colonial forma el <seg rend="italic"><seg type="foreign" xml:lang="la">substratum</seg></seg> histórico lleno de heroísmos y de errores.
                     Siquiera en su mausoleo, donde duermen los esqueletos desnudos, corre el
                     putrílago fecundo, en cuyo limo brotan laureles para la gloria y el recuerdo.
                     Pero nosotros, señores inmortales, llevamos desplegada la bandera del espíritu
@@ -3300,8 +3255,7 @@
                     pienso que ésta es una raza degenerada y que habrá que sacarla del templo a
                     latigazos! Vd. conoce la historia dolorosa de estos últimos años. Tras de un
                     déspota, de sonrisa irónica y alma de sicario, un bizantino que ha hecho de una
-                    nación de fuertes, criaturas de <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">boudoirs</seg></seg> contaminados. ¡Después un tahúr de
+                    nación de fuertes, criaturas de <seg rend="italic"><seg type="foreign" xml:lang="fr">boudoirs</seg></seg> contaminados. ¡Después un tahúr de
                     mano enguantada y taco de hierro y luego decrépitos que pretendieron evirar el
                     alma argentina, porque ellos eran evirados! ¿Hasta cuándo? ¡Y no viene la horca!
                     ¡Y no se fusila! ¿Cómo se venga tanta infamia? ¡Cuatro potros que cincharan en
@@ -3343,8 +3297,7 @@
                     trabajo tiene la felicidad en su entraña y cómo sus cansancios, que obligan al
                     obrero a sentarse en el umbral de la puerta de calle, predisponen al hondo sueño
                     que repara y fortalece. Esa vez la vieja índole inclinó la frente sin saberlo.
-                    Era la primera reverencia de los tiempos al espíritu nuevo y parecía el <seg
-                        rend="italic">ave César!</seg> del gladiador desnudo. Había cierta triste
+                    Era la primera reverencia de los tiempos al espíritu nuevo y parecía el <seg rend="italic">ave César!</seg> del gladiador desnudo. Había cierta triste
                     solemnidad en ese silencio. Así la manifestación por la paz llegó a través de
                     esa doble fila hasta la plaza de Mayo y mientras Desidero se movía hacia su casa
                     en medio del tumulto y de los víctores de sus partidarios, D. Manuel de Paloche,
@@ -4014,8 +3967,7 @@
                     y más cantones en muchas cuadras. Son reductos las casas alrededor y avanzadas
                     de guerreros con ímpetus y corajes de invencibles. Las escaramuzas se hacen
                     allí. Batallones de vigilantes incautos que marchan al asalto han sido
-                    diezmados, heridos en los <seg rend="italic"><seg type="foreign" xml:lang="en"
-                            >tramways</seg></seg> y en las bocacalles apuñaleados. Sobre el
+                    diezmados, heridos en los <seg rend="italic"><seg type="foreign" xml:lang="en">tramways</seg></seg> y en las bocacalles apuñaleados. Sobre el
                     pavimento sangre, en las paredes sangre. La lucha sigue. Hay armas y municiones
                     en la Acrópolis. A las cuatro de la mañana llegaban sombras y sombras. Sus
                     puertas se abrieron, sin tirar un tiro. El jefe era al rato uno de los

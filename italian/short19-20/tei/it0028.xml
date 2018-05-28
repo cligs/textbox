@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">Chi di gallina nasce…</title>
             <title type="short">Gallina</title>
@@ -30,41 +31,37 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="digital-source"> "Chi di gallina nasce…" <seg rend="italic">Parvenze e
-                  semblanze.</seg> Project Gutenberg, <idno>37819</idno>, <date when="2011-10-22"
-                  >October 22, 2011</date>, <ref target="http://www.gutenberg.org/ebooks/37819"
-                  >http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
+                  semblanze.</seg> Project Gutenberg, <idno>37819</idno>, <date when="2011-10-22">October 22, 2011</date>, <ref target="http://www.gutenberg.org/ebooks/37819">http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
             <bibl type="print-source"> "Chi di gallina nasce…" <seg rend="italic">Parvenze e
                   semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date when="1892">1892</date>.
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p/>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p/>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-gender">male</term>
-               <term type="author-continent">Europe</term>
-               <term type="author-country">Italy</term>
-               <term type="language">Italian</term>
-
-               <term type="form">prose</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">short story</term>
-               <term type="genre-title"/>
-               <term type="subgenre-title"/>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2017-11-25" who="#uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
          <div>
             <head>Chi di gallina nasce…</head>
@@ -239,9 +236,7 @@
                   sommi onori in patria, a Bologna, dove a venticinque anni, nel 1607, fu eletto
                   degli “anziani„ e rieletto nella stessa carica nel 1616 e nel ’28, e nominato
                   senatore nel ’46 e nel ’51 gonfaloniere; piú ancora: egli ebbe lode di poeta
-                  “insigne„ e compose nientemeno che una “favola tragicomica boschereccia„, <seg
-                     rend="italic">L’amorosa Costanza</seg>; una favola musicale, <seg rend="italic"
-                     >Atlante</seg>; un “intermezzo per musica„, <seg rend="italic">Apollo e
+                  “insigne„ e compose nientemeno che una “favola tragicomica boschereccia„, <seg rend="italic">L’amorosa Costanza</seg>; una favola musicale, <seg rend="italic">Atlante</seg>; un “intermezzo per musica„, <seg rend="italic">Apollo e
                      Dafne</seg>; un volume di “lezioni accademiche„ e non so quanti sonetti
                   stampati qua e là per le raccolte. Ma il gran fatto della sua vita fu in
                   partecipare alla liberazione di Giambattista Marini incarcerato a Torino e la
@@ -270,11 +265,9 @@
                   Barbazza il Gonzaga s’uní con l’ambasciatore d’Inghilterra a impetrar il perdono
                   del duca, e il Marini libero e grato chiamò Andrea “difensore della sua
                   riputazione„.</p>
-               <p>E che meraviglia se piú tardi il letterato bolognese assalí l’autor dell’<seg
-                     rend="italic">Occhiale</seg> nelle <seg rend="italic">Strigliate a Tommaso
+               <p>E che meraviglia se piú tardi il letterato bolognese assalí l’autor dell’<seg rend="italic">Occhiale</seg> nelle <seg rend="italic">Strigliate a Tommaso
                      Stigliani</seg>, che stampò co’l leggiadro pseudonimo di Roberto Pogommega?
-                  Peccato che “per accidente„ rimanesse fuori da esse <seg rend="italic"
-                     >Strigliate</seg> questo Sonetto “molto galantissimo„, come fu detto
+                  Peccato che “per accidente„ rimanesse fuori da esse <seg rend="italic">Strigliate</seg> questo Sonetto “molto galantissimo„, come fu detto
                   dall’Aprosio che lo riferí nella sua <seg rend="italic">Biblioteca</seg>:</p>
                <lg>
                   <l>Mentre, Stiglian, vo’ pel tuo <seg rend="italic">Mondo</seg> in busca</l>
@@ -575,8 +568,7 @@
                   Antonio e susurrò qualche cosa all’orecchio d’un amico, né, ad un secondo
                   incontro, disse piano queste parole:</p>
                <p>— Conviene che m’imbatta sempre ad incontrare questa razza di b.... f...! —</p>
-               <p>— Quest’è troppo: andiamo! — disse allora il Barbazza a un suo <seg rend="italic"
-                     >confidente</seg>; e l’uno e l’altro furono in due passi a casa a mascherarsi
+               <p>— Quest’è troppo: andiamo! — disse allora il Barbazza a un suo <seg rend="italic">confidente</seg>; e l’uno e l’altro furono in due passi a casa a mascherarsi
                   da villani, e armati di <seg rend="italic">terzette</seg> tornarono nel corso. Il
                   satellite avrebbe dovuto sparar egli una archibugiata alle spalle del Pepoli
                   quando gli tornasse appresso, ma al momento opportuno gli mancò il coraggio; il

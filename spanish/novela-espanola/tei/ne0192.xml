@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -10,6 +11,7 @@
 				<title type="idno">
 					<idno type="bne">XX2592005</idno></title>
 				<author>
+					<idno type="bne">XX952949</idno>
 					<idno type="viaf">24624818</idno>
 					<name type="short">Lanza</name>
 					<name type="full">Silverio Lanza</name>
@@ -17,28 +19,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">5559</measure>
-				<measure unit="divs">52</measure>
-				<measure unit="words">89496</measure>
-				<measure unit="chars">513369</measure>
-				<measure unit="size_kb">597</measure>
+				<measure unit="lines">5615</measure>
+				<measure unit="divs">59</measure>
+				<measure unit="tokens">89990</measure>
+				<measure unit="chars">516315</measure>
+				<measure unit="size_kb">598</measure>
 
 				<measure unit="chapters">39</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">9</measure>
 				<measure unit="sections">4</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">5398</measure> 
-				<measure unit="line_verses">26</measure> 
-				<measure unit="heads">52</measure> 
+				<measure unit="blocks">5430</measure> 
+				<measure unit="lg.poems">6</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">30</measure> 
+				<measure unit="heads">57</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">5315</measure> 
+				<measure unit="paragraphs">5338</measure> 
 				<measure unit="abs">5</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">4272</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">4273</measure>
+				<measure unit="saids">4321</measure>
+				<measure unit="narrative.ps">1065</measure>
+				<measure unit="ss">7444</measure> 
 				<measure unit="numbers">30</measure> 
-				<measure unit="puncts">22041</measure>
+				<measure unit="puncts">22128</measure> 
+				<measure unit="len.abstract">1348</measure>
+
+				<measure unit="types">12000</measure>
+
+				<measure unit="ss">2861</measure>
+				<measure unit="ss.len.mean">183.34568332750786</measure>
+				<measure unit="ss.len.std">179.8319355201454</measure>
+				<measure unit="mean.ss.active.verbs">3.9231038098566935</measure>
+				<measure unit="std.ss.active.verbs">4.314735926577921</measure>
+
+				<measure unit="ws">110303</measure>
+				<measure unit="ws.len.mean">3.7814927971134056</measure>
+				<measure unit="ws.len.std">2.8696126320284296</measure>
+
+				<measure unit="conjunctions">8806</measure>
+				<measure unit="determiners">13054</measure>
+				<measure unit="nouns">17315</measure>
+				<measure unit="verbs">18911</measure>
+				<measure unit="adverbs">5817</measure>
+				<measure unit="adjectives">3928</measure>
+				<measure unit="adpositions">10489</measure>
+				<measure unit="punctuations">20987</measure>
+				<measure unit="pronouns">10355</measure>
+				<measure unit="dates">62</measure>
+				<measure unit="numbers">368</measure>
+				<measure unit="interjections">211</measure>
+
+				<measure unit="ne.persons">1783</measure>
+				<measure unit="ne.organizations">209</measure>
+				<measure unit="ne.locations">387</measure>
+				<measure unit="ne.others">81</measure>
+
+				<measure unit="wnlex.noun.plants">69</measure>
+				<measure unit="wnlex.verb.communications">1742</measure>
+				<measure unit="wnlex.noun.foods">276</measure>
+				<measure unit="wnlex.verb.possessions">791</measure>
+				<measure unit="wnlex.verb.cognitions">1541</measure>
+				<measure unit="wnlex.noun.communications">948</measure>
+				<measure unit="wnlex.noun.states">570</measure>
+				<measure unit="wnlex.verb.statives">5726</measure>
+				<measure unit="wnlex.noun.cognitions">882</measure>
+				<measure unit="wnlex.noun.times">434</measure>
+				<measure unit="wnlex.verb.bodys">790</measure>
+				<measure unit="wnlex.noun.persons">2867</measure>
+				<measure unit="wnlex.adj.alls">2993</measure>
+				<measure unit="wnlex.noun.quantitys">79</measure>
+				<measure unit="wnlex.noun.phenomenons">140</measure>
+				<measure unit="wnlex.verb.creations">925</measure>
+				<measure unit="wnlex.adj.perts">117</measure>
+				<measure unit="wnlex.adv.alls">2132</measure>
+				<measure unit="wnlex.noun.processs">41</measure>
+				<measure unit="wnlex.noun.artifacts">1749</measure>
+				<measure unit="wnlex.verb.perceptions">537</measure>
+				<measure unit="wnlex.noun.feelings">314</measure>
+				<measure unit="wnlex.verb.weathers">24</measure>
+				<measure unit="wnlex.noun.substances">213</measure>
+				<measure unit="wnlex.noun.shapes">51</measure>
+				<measure unit="wnlex.verb.competitions">137</measure>
+				<measure unit="wnlex.verb.motions">1601</measure>
+				<measure unit="wnlex.noun.animals">157</measure>
+				<measure unit="wnlex.noun.acts">1223</measure>
+				<measure unit="wnlex.noun.bodys">530</measure>
+				<measure unit="wnlex.noun.objects">195</measure>
+				<measure unit="wnlex.noun.motives">53</measure>
+				<measure unit="wnlex.verb.socials">1017</measure>
+				<measure unit="wnlex.noun.groups">639</measure>
+				<measure unit="wnlex.verb.consumptions">328</measure>
+				<measure unit="wnlex.noun.possessions">231</measure>
+				<measure unit="wnlex.noun.Topss">284</measure>
+				<measure unit="wnlex.noun.relations">21</measure>
+				<measure unit="wnlex.noun.attributes">778</measure>
+				<measure unit="wnlex.verb.emotions">575</measure>
+				<measure unit="wnlex.noun.locations">355</measure>
+				<measure unit="wnlex.noun.events">337</measure>
+				<measure unit="wnlex.verb.contacts">643</measure>
+				<measure unit="wnlex.xxxs">74342</measure>
+				<measure unit="wnlex.verb.changes">905</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -64,54 +148,57 @@
 				<p>La segunda parte de la obra es una prolongación forzada y folletinesca de la primera. No faltan en ella capítulos de interés, pero la coherencia de la trama se pierde. Luis busca en vano a su amante y cae enfermo. SU vida conyugal se reduce a una fría coexistencia. La vuelta de Águeda, ya casada, complica inútilmente la peripecia argumental ya que el autor no se le ocurre nada mejor que pintarnos unas relaciones lesbianas que, sin que sepamos cómo, entablana la mujer y la examante del protagonista. FInlamente, Luis muere enloquecido, especulando febrilmente con verdades científicas que debían de preocupar también al autor.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1856</term>
-					<term type="author-date-death">1912</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">13</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">1-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
-					
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="2">erotic</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">big-city</term>
-					<term type="protagonist-gender">male</term>
-					<term type="subgenre-lithist"></term>
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Granburgo</term><!--Madrid?-->
-					<term type="setting-territory">Granburgo	</term>
-					<term type="setting-country">Atarjea</term><!--Spain?-->
-					<term type="setting-continent">Europe</term>
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Luis Noisse</term>
-					<term type="protagonist-profession">researcher</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">730</term>
-					<term type="group-text">principales obras</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="time-year">18??</term>
-					<term type="subgenre-edit" resp="#"></term>
-					<term type="quality-listhist" resp="MdLE9">high</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">1.0</term>
-					<term type="text-TOC-range">4</term>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1856</term>
+					<term type="author.date.death">1912</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL9">13</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">1-modernista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group">principales obras</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Luis Noisse</term>
+					<term type="text.characters.protagonist.profession">researcher</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">False</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="#"></term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">erotic</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE"></term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">False</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE9">1.0</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.quality.listhist" resp="MdLE9">high</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Atarjea</term><!--Spain?-->
+					<term type="text.setting.represented">Granburgo</term>
+					<term type="text.setting.settlement">Granburgo</term><!--Madrid?-->
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">big-city</term>
+					<term type="text.setting.territory">Granburgo</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span">730</term>
+					<term type="text.time.year">18??</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -122,7 +209,7 @@
 	<text>
 		<front>
 			<div>
-				<lg><l><seg rend="italic">Según doctos pareceres,</seg></l>
+				<lg type="poem"><l><seg rend="italic">Según doctos pareceres,</seg></l>
 					<l><seg rend="italic">más daño que una mujer</seg></l>
 					<l> <seg rend="italic">lo hacen sólo dos mujeres.</seg></l>
 				</lg>
@@ -2040,7 +2127,7 @@
 			</div>
 			<div type="part">
 				<head>Tercera parte</head><quote>
-					<lg>
+					<lg type="poem">
 						<l>Que en este mundo malvado</l>
 						<l>No siempre es el pecador</l>
 						<l>Quien espía su pecado.</l>
@@ -2575,7 +2662,7 @@
 					<p>-No hay más remedio. O es Dios quien hace justicia, en cuyo caso no debemos tener tribunales, porque sería absurda la competencia de nuestros jueces con el Todopoderoso, o si la ley humana es la razón escrita, el juez será humano y razonable. La magistratura debe ser el poder de la razón, y sólo de la razón, porque el día que la ley fuese un arma de ataque, sería el delito una arma de defensa.</p>
 					<p>-A pesar de eso, te pueden fusilar.</p>
 					<p>-Acabarán conmigo, pero vivirá mi idea porque produce</p>
-					<lg>
+					<lg type="poem">
 						<l> cada cabeza por el cuello rota,</l>
 						<l>un cuerpo que se mata,</l>
 						<l>y una creencia que en el alma brota.</l>
@@ -4878,7 +4965,7 @@
 					<head>I</head>
 
 					<quote>
-						<lg>
+						<lg type="poem">
 							<l><seg type="foreign" xml:lang="la">Lignum-crucis</seg> se pondera</l>
 							<l>que, mirado a buena luz,</l>
 							<l> no es madera de la cruz,</l>
@@ -5102,7 +5189,7 @@
 					<p>Dice la tradición que el duque murió de su herida aquella misma noche, y que murió convencido de que su esposa era inocente. Pero la hija perdió la razón al ver morir a su padre, y fue preciso que Jorge y la duquesa edificasen una casita, donde la loca vivió entregada a la oración.</p>
 					<p>Esto originó el manicomio, al que legaron todos sus bienes los dos amantes.</p>
 					<p>El duque y su hija están enterrados en el patio central del establecimiento, y a ello debe aludir la siguiente inscripción que se conserva sobre la puerta de entrada:</p>
-					<lg>
+					<lg type="poem">
 						<l> Vive el mundo dividido</l>
 						<l> porque la razón mandó</l>
 						<l>que esté aquí quien la perdió,</l>
@@ -5512,7 +5599,7 @@
 				</div>
 				<div n="35" type="chapter" xml:id="ne0192_chap35">
 					<head>Alas de ángel</head>
-					<lg>
+					<lg type="poem">
 						<l>¡Qué buen servicio nos harían Marey y Mosso determinando la curva del movimiento de estas alas! ¡Qué diferencia entre el punto correspondiente a la actividad de madre, y el correspondiente a la pasividad de la hembra!
 						</l>
 					</lg>

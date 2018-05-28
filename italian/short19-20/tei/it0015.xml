@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Doni nuziali." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "Doni nuziali." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -195,8 +190,7 @@
                         caso, un momento, alla finestra, un giovanotto la guarda...; e lei, via!;
                         scappa. È un angelo!»</p>
                     <p>E l'altra pensava:</p>
-                    <p>«Cosa farà?... Mette lettere a protocollo; registra un <seg rend="italic"
-                            >atto</seg>; <seg rend="italic">esaurisce una pratica</seg>; sbriga un
+                    <p>«Cosa farà?... Mette lettere a protocollo; registra un <seg rend="italic">atto</seg>; <seg rend="italic">esaurisce una pratica</seg>; sbriga un
                         importuno.... Oh Dio! Scrive per il conte, di nascosto, tanta ha voglia di
                         spicciarsi stasera.... Ma se lo sorprende il capufficio?... Ecco, ecco: lo
                         sorprende, lo sgrida!...» — E accadde che un giorno Gustavo si sforzasse a
@@ -282,8 +276,7 @@
                     <p>— Zitti! basta!</p>
                     <p>— Se non ho parenti, ho degli amici — asserì lo sposo. — Ho i colleghi!</p>
                     <p>Allora la signora Clotilde si mise a ridere lei.</p>
-                    <p>— I colleghi? Un mazzo di fiori e tanti saluti! Un <seg rend="italic"
-                            >bouquet</seg>, come daranno i vostri testimoni; e ciao!</p>
+                    <p>— I colleghi? Un mazzo di fiori e tanti saluti! Un <seg rend="italic">bouquet</seg>, come daranno i vostri testimoni; e ciao!</p>
                     <p>— E il conte? Perchè è in viaggio credete si dimentichi?... Mi vuol bene,
                         lui!</p>
                     <p>Terpalli l'aveva ricordato per il colpo finale.</p>
@@ -361,8 +354,7 @@
                     <p>— Veramente sarebbe meglio conciliare il bello con l'utile — mormorava
                         Sandri.</p>
                     <p>E a lui il commesso:</p>
-                    <p>— Un <seg rend="italic">nécessaire</seg> da viaggio?... Un <seg rend="italic"
-                            >lavabo</seg>?</p>
+                    <p>— Un <seg rend="italic">nécessaire</seg> da viaggio?... Un <seg rend="italic">lavabo</seg>?</p>
                     <p>— No, no. — Bonariva insisteva per qualche cosa di più utile e di meno
                         comune.</p>
                     <p>— Un astuccio per guanti? un cofanetto? Sono di moda; servono a tanti usi!
@@ -405,8 +397,7 @@
                     <p>— Un lume! — esclamò Bonariva alla fine, contento. Se non che Guizzi si mise
                         a ridere.</p>
                     <p>— Un lume! Gli amici che mandano il lume! — E al commesso che proponeva: — Un
-                        orologio? una <seg rend="italic">sveglia</seg>? —, rispose: — Da <seg
-                            rend="italic">sveglia</seg> farà la sposa: non dubiti!</p>
+                        orologio? una <seg rend="italic">sveglia</seg>? —, rispose: — Da <seg rend="italic">sveglia</seg> farà la sposa: non dubiti!</p>
                     <p>Così fu eccitato il riso anche in Bonariva, che quando cominciava non la
                         smetteva più. Disse Bonariva:</p>
                     <p>— Prendiamo un organetto, o un'armonica per calmare la signora dopo la luna
@@ -517,8 +508,7 @@
                         conte.... senza dubbio!</p>
                     <p>— Oooh!... — fecero tutti, vòlti al facchino dell'agenzia che veniva a
                         deporre una cassetta.</p>
-                    <p>— Viva il conte! — Su la cassetta era scritto <seg rend="italic"
-                            >fragile</seg>; la sposa vi teneva lo sguardo smorto.</p>
+                    <p>— Viva il conte! — Su la cassetta era scritto <seg rend="italic">fragile</seg>; la sposa vi teneva lo sguardo smorto.</p>
                     <p>— Presto! un martello, un coltello! — Con una lama da interporre alle
                         assicelle del coperchio Gustavo tornò dalla cucina; mentre il testimone
                         socialista gridava:</p>

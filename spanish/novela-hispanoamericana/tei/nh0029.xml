@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,15 +35,12 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0029</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0029.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0029.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source">
                     <seg rend="italic">Libro extraño. Tomo I.</seg> Alicante: Biblioteca Virtual
-                    Miguel de Cervantes, <date>2000</date>, <ref
-                        target="http://www.cervantesvirtual.com/obra/libro-extrano-tomo-i--0/"
-                        >http://www.cervantesvirtual.com/obra/libro-extrano-tomo-i--0/</ref>. </bibl>
+                    Miguel de Cervantes, <date>2000</date>, <ref target="http://www.cervantesvirtual.com/obra/libro-extrano-tomo-i--0/">http://www.cervantesvirtual.com/obra/libro-extrano-tomo-i--0/</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Libro extraño. Tomo I.</seg> Buenos Aires: Imprenta Europea
                     Moreno y Defensa, <date when="1894">1894</date>. </bibl>
@@ -88,21 +86,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk" cert="low">naturalistic</term>
-                    <term type="subgenre" subtype="1" resp="#uhk" cert="low">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-                    <term type="subgenre_hist" subtype="2" resp="#uhk">not_historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">urban</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk" cert="low">naturalistic</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk" cert="low">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -124,7 +121,7 @@
                     esforzados, que defienden iracundos la brecha, erguidos sobre el escombro... Me
                     acerco a ellos siempre, leo sus libros y veo cómo se enflaquece el vigor
                     intelectual, que echa a la hoguera sus aristas de diamante pulido y cómo sepulta
-                    el hombre todas las exuberancias pasionales de nuestro espíritu. >Escribo, a
+                    el hombre todas las exuberancias pasionales de nuestro espíritu. &gt;Escribo, a
                     pesar de todo, con caricias en la frase y plasmo, en los soliloquios de
                     creación, las figuras, que cruzan sonriendo la zona sombría del pensamiento. No
                     hay frío en la pluma, ni desesperaciones; y, cuando resbala y cruje sobre el
@@ -4074,8 +4071,7 @@
                         rendirles homenaje. </p>
                     <p>Apareció el joven sacerdote, con un libro en la mano -un noble rostro blanco,
                         lleno de dulzura, de grandes ojos castaños e inteligentes y se paró frente a
-                        ellos, vestido de la blanca casulla, colgando de su cuello la estola de <seg
-                            rend="italic">brocato</seg>, recamada de oro. Su voz suave se levantó en
+                        ellos, vestido de la blanca casulla, colgando de su cuello la estola de <seg rend="italic">brocato</seg>, recamada de oro. Su voz suave se levantó en
                         medio del silencio. Leía la epístola de San Pablo, que une en Jesús y en la
                         Iglesia las almas y los cuerpos en la vida, y manda el amor hasta el
                         sacrificio y la muerte y ordena al hombre entregar a Dios la mujer
@@ -4996,8 +4992,7 @@
                         jardines hermosos y echado barquitos a la corriente para que pase alegre su
                         vida preciosa; ¡déjeme siquiera besarle todavía una vez la mano santa y
                         bendita, dulce compañerita! Y la noche le arrebató lejos con los últimos
-                        ecos de la tierna canción desvaneciéndose y se perdió describiendo <seg
-                            rend="italic">zig zag, zig zag, zig zag</seg>... </p>
+                        ecos de la tierna canción desvaneciéndose y se perdió describiendo <seg rend="italic">zig zag, zig zag, zig zag</seg>... </p>
                     <p>En la madrugada, Carlos Méndez salió como siempre, a visitar sus enfermos y
                         cerca de su casa, vio un cuerpo cubierto de polvo, tirado en la calle. Se
                         detuvo y reconoció a Genaro, con el pecho desnudo, sucia la camisa, abierta
@@ -5725,8 +5720,7 @@
                         digestivas... ¡Adiós agapas suculentas, melancólico y desazonado desideratum
                         de tantos años!... No era posible acceder porque la conspiración se hizo
                         diatriba en la prensa y asonada en las calles... Si se pudieran conciliar
-                        estas cosas... Ofrecieron un ministerio... Los masajistas contestaron <seg
-                            rend="italic">nao</seg> y se prepararon a la pelea... La autoridad hizo
+                        estas cosas... Ofrecieron un ministerio... Los masajistas contestaron <seg rend="italic">nao</seg> y se prepararon a la pelea... La autoridad hizo
                         una media conversión hacia aquella exigencia y encontró en los estatutos del
                         estado un artículo aplicable...</p>
                     <p>Las farmacias se transformaron en fortalezas. Se cerraron las puertas con
@@ -7159,8 +7153,7 @@
                         ahogaba en sus mismos ciénagos, las malas escuelas del arte perecían en el
                         barroquismo engendrado por ellas y todas las monomanías colectivas las había
                         visto desaparecer en sus propios excesos. <seg rend="italic">Ergo</seg>...
-                        era el caso pues... <seg rend="italic">similia</seg>, <seg rend="italic"
-                            >similibus</seg>
+                        era el caso pues... <seg rend="italic">similia</seg>, <seg rend="italic">similibus</seg>
                         <seg rend="italic">curantur</seg>...</p>
                     <p>Empezó su cabeza a fantasear con la homeopatía. El glóbulo blanco, pequeño y
                         redondo; los brillantes tubitos y la cartera chata y amplia empezaron a
@@ -9145,8 +9138,7 @@
                             existencia y es la turba, la vil turba acongojada la que lleva enhiesta
                             la bandera del porvenir! Son ellos, los sacrificados de siempre, los que
                             se azotan a la calle dementes en la asonada a morir sobre el pavimento
-                            brillante de las calles; son ellos los que dibujan y preceden en la <seg
-                                rend="italic">asociación</seg> la fraternidad de las sociedades
+                            brillante de las calles; son ellos los que dibujan y preceden en la <seg rend="italic">asociación</seg> la fraternidad de las sociedades
                             futuras y los que consagran con su sangre esas sublimes intuiciones
                             históricas del sentimiento... ¡Escribid, intelectuales! El siglo que
                             muere debe llevar en su marcha hacia lo infinito estas conquistas

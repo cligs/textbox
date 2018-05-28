@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Dall‘Eldorado." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "Dall‘Eldorado." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -274,8 +269,7 @@
                         scorgere fragole e ciliege grosse più che cocomeri!</p>
                     <p>Non si descrivono neppure le espressioni delle labbra, degli occhi e
                         dell'armonico eloquio con cui accertava che mai, mai avrebbe pensato di
-                        trovar sì buone quelle fragole così piccole. Anche, non gli spiacque il <seg
-                            rend="italic">roastbeef</seg>; benchè da prima quasi gli repugnasse e
+                        trovar sì buone quelle fragole così piccole. Anche, non gli spiacque il <seg rend="italic">roastbeef</seg>; benchè da prima quasi gli repugnasse e
                         benchè non ne mangiasse più di mezza fetta. Ma le ciliege a dirittura lo
                         deliziarono, lo fecero ingordo al punto da ingoiarne il nocciolo.</p>
                     <p>Polla, che ora stava peggio, gli raccomandava di mangiare senza complimenti,
@@ -508,8 +502,7 @@
                     <p>E Polla:</p>
                     <p>— Io non sono robusto come voi. Giriamo troppo il giorno, e mi vien sonno
                         presto.</p>
-                    <p>Era assonnato e stanco all'avemaria. Pure egli promise che se dessero l'<seg
-                            rend="italic">Albergo del libero scambio</seg>, ve lo
+                    <p>Era assonnato e stanco all'avemaria. Pure egli promise che se dessero l'<seg rend="italic">Albergo del libero scambio</seg>, ve lo
                         accompagnerebbe.</p>
                     <p>Or mentre il terzo giorno di quella vita fraterna vagavano per le strade
                         udirono avanzare una sinfonia lemme lemme e videro crescere, in distanza, la
@@ -601,8 +594,7 @@
                         quell'annuncio <seg rend="italic">réclame</seg>.</p>
                     <p>— Questa sera a teatro! — aggiungeva Edon fregandosi le mani.</p>
                     <p>Il socialista cominciava a smarrirsi. Invero, un uomo che si era divertito
-                        tanto a una funzione funebre, logicamente poteva rattristarsi a una <seg
-                            rend="italic">pochade</seg>; e, d'altra parte, se Edon non era rimasto
+                        tanto a una funzione funebre, logicamente poteva rattristarsi a una <seg rend="italic">pochade</seg>; e, d'altra parte, se Edon non era rimasto
                         commosso a uno spettacolo di morte, non doveva esser stata la morte di
                         qualche persona cara che l'aveva indotto a fuggire d'Eldorado. Forse il
                         tradimento d'una donna amata?... Ma v'ha <seg rend="italic">pochade</seg>
@@ -846,8 +838,7 @@
                         appena due oratori: primo, l'onorevole Malchiori; e la sua orazione,
                         quantunque la bella frase «violazione delle garanzie statutarie», vi
                         ricorresse dodici volte, e nove volte l'altra di «sacro diritto della
-                        parola», fu interrotta da <seg rend="italic">basta!</seg> da <seg
-                            rend="italic">uh</seg> di protesta e da <seg rend="italic">bravo</seg>!
+                        parola», fu interrotta da <seg rend="italic">basta!</seg> da <seg rend="italic">uh</seg> di protesta e da <seg rend="italic">bravo</seg>!
                         in tono ironico; e non potè durare più di mezz'ora.</p>
                     <p>Quanto all'onorevole Stigliani, egli fu costretto anche a maggior brevità da
                         un suon di tamburi che gli teneva troppo grave bordone e che ottenevano le

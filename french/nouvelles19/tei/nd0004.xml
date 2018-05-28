@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -26,7 +24,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>Files freely available.</p>
 				</availability>
 				<date></date>
@@ -52,20 +50,20 @@
 				<p></p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">nouvelle</term>
-					<term type="subgenre" subtype="3">fantastique</term>
-					<term type="subgenre" subtype="2">diary</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">autodiegetic</term>
-					<term type="setting">Paris</term>
-					<term type="form">prose</term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
-					<term type="tei">11</term>
+				<keywords scheme="keywords.xml">
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">nouvelle</term>
+					<term type="text.genre.subgenre" cligs:importance="3">fantastique</term>
+					<term type="text.genre.subgenre" cligs:importance="2">diary</term>
+					<term type="text.genre.subsubgenre"></term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.narration.narrator">autodiegetic</term>
+					<term type="text.setting">Paris</term>
+					<term type="text.form">prose</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">France</term>
+					<term type="author.gender">male</term>
+					<term type="text.tei.version">11</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -78,7 +76,7 @@
 		<body>
 			<div>
 				<head>Le Horla</head>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>
 					<seg rend="italic">8 mai.</seg> – Quelle journée admirable ! J'ai passé toute la matinée étendu sur l'herbe, devant ma maison, sous l'énorme platane qui la couvre, l'abrite et l'ombrage tout entière. J'aime ce pays, et j'aime y vivre parce que j'y ai mes racines, ces profondes et délicates racines, qui attachent un homme à la terre où sont nés et morts ses aïeux, qui l'attachent à ce qu'on pense et à ce qu'on mange, aux usages comme aux nourritures, aux locutions locales, aux intonations des paysans, aux odeurs du sol, des villages et de l'air lui-même.</p>
 				<p>J'aime ma maison où j'ai grandi. De mes fenêtres, je vois la Seine qui coule, le long de mon jardin, derrière la route, presque chez moi, la grande et large Seine, qui va de Rouen au Havre, couverte de bateaux qui passent.</p>
@@ -241,7 +239,7 @@
 				<p>Puis il la réveilla. Je tirai de ma poche un portefeuille :</p>
 				<p>-- Voici, ma chère cousine, ce que vous m'avez demandé ce matin.</p>
 				<p>Elle fut tellement surprise que je n'osai pas insister. J'essayai cependant de ranimer sa mémoire, mais elle nia avec force, crut que je me moquais d'elle, et faillit, à la fin, se fâcher.</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>Voilà ! je viens de rentrer ; et je n'ai pu déjeuner, tant cette expérience m'a bouleversé.</p>
 				<p>
 					<seg rend="italic">19 juillet.</seg> – Beaucoup de personnes à qui j'ai raconté cette aventure se sont moquées de moi. Je ne sais plus que penser. Le sage dit : Peut-être ?</p>
@@ -317,7 +315,7 @@
 				<p>Nous sommes quelques-uns, si peu sur ce monde, depuis l'huître jusqu'à l'homme. Pourquoi pas un de plus, une fois accomplie la période qui sépare les apparitions successives de toutes les espèces diverses ?</p>
 				<p>Pourquoi pas un de plus ? Pourquoi pas aussi d'autres arbres aux fleurs immenses, éclatantes et parfumant des régions entières ? Pourquoi pas d'autres éléments que le feu, l'air, la terre et l'eau ? – Ils sont quatre, rien que quatre, ces pères nourriciers des êtres ! Quelle pitié ! Pourquoi ne sont-ils pas quarante, quatre cents, quatre mille ! Comme tout est pauvre, mesquin, misérable ! avarement donné, sèchement inventé, lourdement fait ! Ah ! l'éléphant, l'hippopotame, que de grâce ! le chameau, que d'élégance !</p>
 				<p>Mais direz-vous, le papillon ! une fleur qui vole ! J'en rêve un qui serait grand comme cent univers, avec des ailes dont je ne puis même exprimer la forme, la beauté, la couleur et le mouvement. Mais je le vois... il va d'étoile en étoile, les rafraîchissant et les embaumant au souffle harmonieux et léger de sa course !... Et les peuples de là-haut le regardent passer, extasiés et ravis !</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>Qu'ai-je donc ? C'est lui, lui, le Horla, qui me hante, qui me fait penser ces folies ! Il est en moi, il devient mon âme ; je le tuerai !</p>
 				<p>
 					<seg rend="italic">19 août.</seg> – Je le tuerai. Je l'ai vu ! je me suis assis hier soir, à ma table ; et je fis semblant d'écrire avec une grande attention. Je savais bien qu'il viendrait rôder autour de moi, tout près, si près que je pourrais peut-être le toucher, le saisir ! Et alors !... alors, j'aurais la force des désespérés ; j'aurais mes mains, mes genoux, ma poitrine, mon front, mes dents pour l'étrangler, l'écraser, le mordre, le déchirer.</p>
@@ -333,7 +331,7 @@
 					<seg rend="italic">20 août.</seg> – Le tuer, comment ? puisque je ne peux l'atteindre ? Le poison ? mais il me verrait le mêler à l'eau ; et nos poisons, d'ailleurs, auraient-ils un effet sur son corps imperceptible ? Non... non... sans aucun doute... Alors ?... alors ?...</p>
 				<p>
 					<seg rend="italic">21 août</seg>. – J'ai fait venir un serrurier de Rouen et lui ai commandé pour ma chambre des persiennes de fer, comme en ont, à Paris, certains hôtels particuliers, au rez-de-chaussée, par crainte des voleurs. Il me fera, en outre, une porte pareille. Je me suis donné pour un poltron, mais je m'en moque !...</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>
 					<seg rend="italic">10 septembre.</seg> – Rouen, hôtel Continental. C'est fait... c'est fait... mais est-il mort ? J'ai l'âme bouleversée de ce que j'ai vu.</p>
 				<p>Hier donc, le serrurier ayant posé ma persienne et ma porte de fer, j'ai laissé tout ouvert jusqu'à minuit, bien qu'il commençât à faire froid.</p>
@@ -348,7 +346,7 @@
 				<p>S'il n'était pas mort ?... seul peut-être le temps a prise sur l'Être Invisible et Redoutable. Pourquoi ce corps transparent, ce corps inconnaissable, ce corps d'Esprit, s'il devait craindre, lui aussi, les maux, les blessures, les infirmités, la destruction prématurée ?</p>
 				<p>La destruction prématurée ? toute l'épouvante humaine vient d'elle ! Après l'homme, le Horla. – Après celui qui peut mourir tous les jours, à toutes les heures, à toutes les minutes, par tous les accidents, est venu celui qui ne doit mourir qu'à son jour, à son heure, à sa minute, parce qu'il a touché la limite de son existence !</p>
 				<p>« Non... non... sans aucun doute, sans aucun doute... il n'est pas mort... Alors... alors... il va donc falloir que je me tue, moi !...</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 			</div>
 			<div>
 				<head>Amour</head>
@@ -393,7 +391,7 @@
 				<p>Il approchait, en effet, insouciant du danger, affolé par son amour de bête, pour l'autre bête que j'avais tuée.</p>
 				<p>Karl tira ; ce fut comme si on avait coupé la corde qui tenait suspendu l'oiseau. Je vis une chose noire qui tombait ; j'entendis dans les roseaux le bruit d'une chute. Et Pierrot me le rapporta.</p>
 				<p>Je les mis, froids déjà, dans le même carnier... et je repartis, ce jour-là, pour Paris.</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 			</div>
 			<div>
 				<head>Le trou</head>
@@ -1455,7 +1453,7 @@
 				<p>Et des jours et des nuits se passèrent sans qu'ils cessassent de hurler l'un et l'autre. L'un tournait sans cesse autour de la maison et fouillait la muraille de ses ongles avec tant de force qu'il semblait vouloir la démolir ; l'autre, au-dedans, suivait tous ses mouvements, courbé, l'oreille collée contre la pierre, et il répondait à tous ses appels par d'épouvantables cris.</p>
 				<p>Un soir, Ulrich n'entendit plus rien ; et il s'assit, tellement brisé de fatigue qu'il s'endormit aussitôt.</p>
 				<p>Il se réveilla sans un souvenir, sans une pensée, comme si toute sa tête se fût vidée pendant ce sommeil accablé. Il avait faim, il mangea.</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>L'hiver était fini. Le passage de la Gemmi redevenait praticable ; et la famille Hauser se mit en route pour rentrer dans son auberge.</p>
 				<p>Dès qu'elles eurent atteint le haut de la montée, les femmes grimpèrent sur leur mulet, et elles parlèrent des deux hommes qu'elles allaient retrouver tout à l'heure.</p>
 				<p>Elles s'étonnaient que l'un d'eux ne fût pas descendu quelques jours plus tôt, dès que la route était devenue possible, pour donner des nouvelles de leur long hivernage.</p>

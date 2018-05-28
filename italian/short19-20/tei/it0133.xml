@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Ci siamo?" <seg rend="italic">Come l‘onda.
-                        Novelle.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2013-04-28">April 28, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42610"
-                        >http://www.gutenberg.org/ebooks/42610</ref>. </bibl>
+                        Novelle.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2013-04-28">April 28, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42610">http://www.gutenberg.org/ebooks/42610</ref>. </bibl>
                 <bibl type="print-source"> "Ci siamo?" <seg rend="italic">Come l‘onda.
-                        Novelle.</seg> Palermo: Remo Sandron, Editore. <date when="1921"
-                    >1921</date>. </bibl>
+                        Novelle.</seg> Palermo: Remo Sandron, Editore. <date when="1921">1921</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -186,8 +182,7 @@
                     troverei costretto....</p>
                 <p>-- Va là! Non ti dispiace poi tanto di essere tornato scapolo, di far vita di
                     trattoria, -- lo interruppe Cantelli.</p>
-                <p>-- Ah! Intorno a questo, mentirei se dicessi che qualche volta il nostro <seg
-                        rend="italic">Pappataci</seg> non me la faccia rimpiangere. Quella mala
+                <p>-- Ah! Intorno a questo, mentirei se dicessi che qualche volta il nostro <seg rend="italic">Pappataci</seg> non me la faccia rimpiangere. Quella mala
                     bestia era una cuoca... una cuoca!... Ci siamo?... Quando voleva ottenere
                     qualche cosa mi prendeva metaforicamente per la gola. Tornavo a casa. -- La
                     signora? -- È in cucina. -- La risposta della donna significava: -- A desinare
@@ -306,8 +301,7 @@
                     moglie era un angelo, era una santa.... Ma ci si abitua anche a una moglie
                     demonio.... Ci siamo? E quando si è già contratta una abitudine.... È strano! Si
                     rimpiange quel che ci faceva soffrire, disperare!... Ci siamo?.... Domani
-                    riprenderò.... la mia croce.... Pago il conto a <seg rend="italic"
-                        >Pappataci</seg>. Tu mi scuserai con gli altri.... Che ne dici? Che ne dici?
+                    riprenderò.... la mia croce.... Pago il conto a <seg rend="italic">Pappataci</seg>. Tu mi scuserai con gli altri.... Che ne dici? Che ne dici?
                     Commetto un'imprudenza? Una debolezza? Una viltà?</p>
                 <p>-- Un eroismo! -- risposi.</p>
                 <p>Ed ero sincero.</p>

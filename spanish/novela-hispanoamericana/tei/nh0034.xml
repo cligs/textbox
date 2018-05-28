@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,15 +35,11 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0034</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0034.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0034.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Música sentimental. Silbidos de un vago." Alicante:
-                        <seg rend="italic">Biblioteca Virtual Miguel de Cervantes</seg>, <date
-                        when="2000">2000</date>, <ref
-                        target="http://www.cervantesvirtual.com/obra/musica-sentimental-silbidos-de-un-vago--0/"
-                        >http://www.cervantesvirtual.com/obra/musica-sentimental-silbidos-de-un-vago--0/</ref>
+                        <seg rend="italic">Biblioteca Virtual Miguel de Cervantes</seg>, <date when="2000">2000</date>, <ref target="http://www.cervantesvirtual.com/obra/musica-sentimental-silbidos-de-un-vago--0/">http://www.cervantesvirtual.com/obra/musica-sentimental-silbidos-de-un-vago--0/</ref>
                 </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Música sentimental. Silbidos de un vago.</seg> París:
@@ -61,8 +58,7 @@
                     <quote><seg rend="italic">Música sentimental</seg> portrays a young Argentine in
                         Paris who dissipates his money and undermines his health in a life of
                         frivolity and vice. The novel reveals the same acrimonious cynicism and
-                        sardonic view of life evident in <seg rend="italic"
-                        >Pot-pourri</seg>.</quote>
+                        sardonic view of life evident in <seg rend="italic">Pot-pourri</seg>.</quote>
                     <bibl>Lichtblau, Myron (1959), The Argentine novel in the nineteenth century, S.
                         165-166. Cited by Lichtblau, Myron (1997), The Argentine Novel: an annotated
                         bibliography, Lanham, Maryland, p. 163.</bibl>
@@ -83,20 +79,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2">naturalistic</term>
-                    <term type="subgenre" subtype="1">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela subjetiva</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">homodiegetic</term>
-                    <term type="setting">urban</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">naturalistic</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">homodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -148,10 +144,8 @@
                 <p>Mezcla de criolla con sangre pura bretón, el cruzamiento había dado un ejemplar
                     mestizo notable por la belleza robusta de las formas del norte bronceadas al
                     fuego del mediodía.</p>
-                <p>Pablo podía, en suma, llegar a ser lo que se llama en el <seg rend="italic"
-                        >argot</seg> de los bajos fondos mundanos donde iba a zambullirse de cabeza,
-                    un tipo a <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >toquades</seg></seg>.</p>
+                <p>Pablo podía, en suma, llegar a ser lo que se llama en el <seg rend="italic">argot</seg> de los bajos fondos mundanos donde iba a zambullirse de cabeza,
+                    un tipo a <seg rend="italic"><seg type="foreign" xml:lang="fr">toquades</seg></seg>.</p>
                 <p>Nos trasbordamos:</p>
                 <p>-Venga a almorzar conmigo, le dijo.</p>
                 <p>-¿Adónde?</p>
@@ -166,8 +160,7 @@
                     fondo al apretarlo.</p>
                 <p>Desprendidos del trasatlántico, habíamos andado apenas pocas millas, cuando un
                     chaparrón como baño de lluvia, de esos que se desgajan de golpe, puso en derrota
-                    a la distinguida concurrencia, precipitándola puente abajo hasta el <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">trou</seg></seg> disfrazado
+                    a la distinguida concurrencia, precipitándola puente abajo hasta el <seg rend="italic"><seg type="foreign" xml:lang="fr">trou</seg></seg> disfrazado
                     con el pomposo nombre de cámara donde Pablo y yo nos encontrábamos y, donde con
                     aquella invasión de bárbaros, vinimos a quedar como unos encima de otros.</p>
                 <p>-Sabe, me decía mi compañero entre una docena de ostras y una botella de Chablis
@@ -207,8 +200,7 @@
                 <p>No, sin duda.</p>
                 <p>Es un fenómeno perfectamente natural y perfectamente lógico.</p>
                 <p>La población se amontona hasta estorbarse; el exceso mismo del progreso trae
-                    aparejada la más cruel dificultad en los medios de existencia -solo el <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">lazzarone</seg></seg> y el
+                    aparejada la más cruel dificultad en los medios de existencia -solo el <seg rend="italic"><seg type="foreign" xml:lang="fr">lazzarone</seg></seg> y el
                     paria se conforman con vestirse de andrajos y alimentarse de cáscaras -aferrado
                     a la vida por instinto y a la vida sin privaciones ni miserias, pedir, entonces,
                     al hombre que viva para los demás es un absurdo.- ¡Feliz cuando consigue a duras
@@ -224,8 +216,7 @@
                 <p>Nos faltan diez minutos de camino. Subamos si quiere ver la entrada del puerto y
                     el aspecto de la ciudad.</p>
                 <p>Esa misma tarde tomé el rápido y, después de zangolotearme infamemente toda la
-                    noche sin conseguir pegar los ojos, acaso porque alquilé un <seg rend="italic"
-                            ><seg type="foreign" xml:lang="en">sleeping-car</seg></seg>, o sea,
+                    noche sin conseguir pegar los ojos, acaso porque alquilé un <seg rend="italic"><seg type="foreign" xml:lang="en">sleeping-car</seg></seg>, o sea,
                     carro al uso personal de los que quieren dormir, llegué a las cinco de la mañana
                     a París.</p>
             </div>
@@ -258,22 +249,17 @@
                     probarle la ropa diez veces, le vestirán peor.</p>
                 <p>-Si es así, no veo que valga la pena...</p>
                 <p>-Al contrario, vale la pena y mucho.</p>
-                <p>Sobre el mérito del artículo, está el nombre de la casa y la <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">réclame</seg></seg> consiguiente. Es
+                <p>Sobre el mérito del artículo, está el nombre de la casa y la <seg rend="italic"><seg type="foreign" xml:lang="fr">réclame</seg></seg> consiguiente. Es
                     de rigor.</p>
                 <p>Vaya, luego, a lo de Charvet, calle de la Paz; se encontrará con un camisero
                     conveniente. En seguida, a lo de Pinaud, sombrerero y, por último, lléguese por
-                    la zapatería de Galoyer, <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >boulevard des Capucines</seg></seg>. Le fabricarán unas chatas
+                    la zapatería de Galoyer, <seg rend="italic"><seg type="foreign" xml:lang="fr">boulevard des Capucines</seg></seg>. Le fabricarán unas chatas
                     blindadas de cuatro suelas y varias toneladas de porte, sistema inglés.
                     Cálceselas aunque le queden nadando. Entre esta gente es de muy buen tono ser
                     patón porque el príncipe de Gales es patón.</p>
                 <p>Póngase, como quien dice, en compostura y después vuelva a verme que yo me
                     encargo del resto.</p>
-                <p>¡Ah! me olvidaba decirle que trate un <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">coupé</seg></seg> y alquile un <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">appartement</seg></seg>. En el <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">boulevard</seg></seg>
+                <p>¡Ah! me olvidaba decirle que trate un <seg rend="italic"><seg type="foreign" xml:lang="fr">coupé</seg></seg> y alquile un <seg rend="italic"><seg type="foreign" xml:lang="fr">appartement</seg></seg>. En el <seg rend="italic"><seg type="foreign" xml:lang="fr">boulevard</seg></seg>
                     Haussmann, a la altura de la Ópera, los hay habitables por mil francos
                     mensuales, más o menos.</p>
             </div>
@@ -284,27 +270,22 @@
                 <p>Su individuo trasudaba, es cierto, un quién sabe qué a flamante, un falso aire de
                     tienda de tapicero o casa recién puesta. Dorados y barnices que están diciendo a
                     gritos: aquí hay plata, pero falta el roce del uso que deslustra, las arrugas de
-                    la costumbre que quitan el olor a <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">parvenu</seg></seg>.</p>
+                    la costumbre que quitan el olor a <seg rend="italic"><seg type="foreign" xml:lang="fr">parvenu</seg></seg>.</p>
                 <p>La verdad, no obstante, sin pretender pedir peras al olmo, es que estaba
                     confesable:</p>
                 <p>-¿Por dónde empezamos?</p>
                 <p>-Por esto.</p>
                 <p>Y tomando una pluma, escribí:</p>
                 <p>«Loulou:</p>
-                <p>»Te mando un <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >coupon</seg></seg> de <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >avant-scène</seg></seg> para esta noche en el <seg rend="italic">Palais
+                <p>»Te mando un <seg rend="italic"><seg type="foreign" xml:lang="fr">coupon</seg></seg> de <seg rend="italic"><seg type="foreign" xml:lang="fr">avant-scène</seg></seg> para esta noche en el <seg rend="italic">Palais
                         Royal</seg>.</p>
                 <p>»Lleva contigo a Blanca, p. ej.</p>
                 <p>»A mi vez, estaré yo en la orquesta con uno de mis paisanos.</p>
-                <p>»Iremos después al <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >cabaret</seg></seg>, etc.</p>
+                <p>»Iremos después al <seg rend="italic"><seg type="foreign" xml:lang="fr">cabaret</seg></seg>, etc.</p>
                 <p>»Tuyo».</p>
                 <p>
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">Madame</seg></seg>
-                    <seg rend="italic">L. de Préville</seg>, puse en el sobre, <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">rue</seg></seg>
+                    <seg rend="italic">L. de Préville</seg>, puse en el sobre, <seg rend="italic"><seg type="foreign" xml:lang="fr">rue</seg></seg>
                     <seg rend="italic">Delaborde</seg>, 4.</p>
             </div>
             <div>
@@ -319,8 +300,7 @@
                     franco y medio que, por no perder una coma de lo que empieza a verse a las ocho,
                     hace cola en la calle desde las cuatro. Grupos de hombres y mujeres entraban, a
                     su vez y ocupaban sus asientos en la platea, balcones y palcos, mientras los de
-                    la orquesta, con sus caras demacradas de <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">abrutis</seg></seg>, templaban el instrumento, compañero
+                    la orquesta, con sus caras demacradas de <seg rend="italic"><seg type="foreign" xml:lang="fr">abrutis</seg></seg>, templaban el instrumento, compañero
                     de miserias, ganapán del oficio, para una de esas musiquitas canallas como la
                     índole del espectáculo a que sirven de preludio.</p>
                 <p>-No comprendo, exclamaba Pablo mirando de arriba abajo, como estos teatros tan
@@ -341,16 +321,13 @@
                     suficiente para que uno reviente como en camareta.</p>
                 <p>Pero, se le ocurrirá decir a Vd., aquí, entonces, no hay policía ni un demonio,
                     cada cual hace lo que se le antoja?</p>
-                <p>¿Policía? Si señor que la hay, y la mejor policía del mundo, <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">s'il vous plaît</seg></seg>. Solo
+                <p>¿Policía? Si señor que la hay, y la mejor policía del mundo, <seg rend="italic"><seg type="foreign" xml:lang="fr">s'il vous plaît</seg></seg>. Solo
                     que, arriba de la policía, de la higiene, de la salud y de todo, está la
                     explotación de marras.</p>
-                <p>Es un rasgo del carácter nacional, <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">voilà tout</seg></seg>.</p>
+                <p>Es un rasgo del carácter nacional, <seg rend="italic"><seg type="foreign" xml:lang="fr">voilà tout</seg></seg>.</p>
                 <p>No vaya a figurarse, por otra parte, que los elencos cuestan un negro con pito y
                     todo, ni que se va a encontrar Vd. con cómicos de talla.</p>
-                <p>Hago, bien entendido, excepción de dos o tres escenas, de la <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">Comédie Francaise</seg></seg>, sobre
+                <p>Hago, bien entendido, excepción de dos o tres escenas, de la <seg rend="italic"><seg type="foreign" xml:lang="fr">Comédie Francaise</seg></seg>, sobre
                     todo, templo consagrado al arte.</p>
                 <p>Aquello ya no es farsa, es verdad. Allí no se miente, se siente. No es la
                     inteligencia que produce, confiada a la inteligencia que traduce. No es Augier
@@ -367,31 +344,24 @@
                     hasta adentro por la fuerza de la emoción, la impresión profunda que solo es
                     capaz de grabar en ella el sello imponente de la verdad.</p>
                 <p>No hablo, pues, de la casa de Molière, donde, para entrar, me saco el sombrero.
-                    Me refiero a los teatros llamados de <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">genre</seg></seg>.</p>
-                <p>Aparte media docena de <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >routiers</seg></seg>, especialistas del ramo que divierten porque sí,
-                    los otros no pasan de ser unos farsantuelos minúsculos, unos tristes <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">cabotins</seg></seg>.</p>
+                    Me refiero a los teatros llamados de <seg rend="italic"><seg type="foreign" xml:lang="fr">genre</seg></seg>.</p>
+                <p>Aparte media docena de <seg rend="italic"><seg type="foreign" xml:lang="fr">routiers</seg></seg>, especialistas del ramo que divierten porque sí,
+                    los otros no pasan de ser unos farsantuelos minúsculos, unos tristes <seg rend="italic"><seg type="foreign" xml:lang="fr">cabotins</seg></seg>.</p>
                 <p>El personal femenino tampoco vale caro, que digamos.</p>
                 <p>Para esas señoras, el arte no es una carrera, sino un medio de hacer carrera; el
                     teatro una feria y el proscenio una barraca de saltimbanquis, un mostrador donde
                     exhiben desnuda su mercancía que venden a la mejor postura y dinero de
                     contado.</p>
-                <p>Rodeadas del prestigio de la escena, <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">poudre aux yeux à l'adresse</seg></seg> de novicios y
+                <p>Rodeadas del prestigio de la escena, <seg rend="italic"><seg type="foreign" xml:lang="fr">poudre aux yeux à l'adresse</seg></seg> de novicios y
                     mentecatos, atmósfera de artificio donde el gas y la pintura tapan hasta los
                     hoyos de las viruelas, vienen aquí a buscar hombres, como las otras de su misma
                     estofa, tan degradadas como ellas, pero más feas, más brutas, o más sin suerte,
-                    tienen su mercado en los veredones del <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">boulevard</seg></seg> o en los fondos de barro de los
+                    tienen su mercado en los veredones del <seg rend="italic"><seg type="foreign" xml:lang="fr">boulevard</seg></seg> o en los fondos de barro de los
                     lupanares, donde bajan en procura de una pieza de cinco francos.</p>
                 <p>Sí señor, esa es la escala y, repito, salvas pequeñas excepciones, unas pocas
                     mujeres de corazón y de talento, en los teatros de París no hay artistas sino
                     plumas.</p>
-                <p>Entre tanto había subido el telón y empezaba la pieza, <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">La Boule</seg></seg> o sea <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">Le Moine</seg></seg> (el
+                <p>Entre tanto había subido el telón y empezaba la pieza, <seg rend="italic"><seg type="foreign" xml:lang="fr">La Boule</seg></seg> o sea <seg rend="italic"><seg type="foreign" xml:lang="fr">Le Moine</seg></seg> (el
                     fraile) que así también llaman en Francia el brasero con que calientan las
                     camas.</p>
                 <p>Incompatibilidad de humor entro un marido y su mujer, reyertas diarias por
@@ -406,12 +376,10 @@
                     faltara tampoco la sal de cocina de las pantomimas inglesas, las payasadas de
                     circo, empujones, sombreros abollados y ropa revolcada.</p>
                 <p>Una <seg rend="italic"><seg type="foreign" xml:lang="fr">ordure</seg></seg>, en
-                    fin, al paladar de cierto público parisiense <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">pur sang</seg></seg>, que es el público más
+                    fin, al paladar de cierto público parisiense <seg rend="italic"><seg type="foreign" xml:lang="fr">pur sang</seg></seg>, que es el público más
                         <seg rend="italic"><seg type="foreign" xml:lang="fr">badaud</seg></seg> y,
                     agrego, más francamente idiota de todos los públicos conocidos.</p>
-                <p>El palmoteo de la <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >claque</seg></seg>, esa otra maldición de los teatros franceses,
+                <p>El palmoteo de la <seg rend="italic"><seg type="foreign" xml:lang="fr">claque</seg></seg>, esa otra maldición de los teatros franceses,
                     cargante como el repiqueteo de las matracas, se mezclaba a los</p>
                 <p>Oh! ¡oh!</p>
                 <p>
@@ -420,8 +388,7 @@
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">Epatant!</seg></seg> de los
                         <seg rend="italic"><seg type="foreign" xml:lang="fr">ramollis</seg></seg> de
                     la orquesta y a las risotadas del público saboreando unas de las escenas más
-                    cochinas del repertorio, cuando entraron tres mujeres al primer <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">avant-scène</seg></seg> bajo
+                    cochinas del repertorio, cuando entraron tres mujeres al primer <seg rend="italic"><seg type="foreign" xml:lang="fr">avant-scène</seg></seg> bajo
                     de nuestra derecha.</p>
                 <p>-¿Las conoce? -me preguntó Pablo-.</p>
                 <p>-Sí. Una de ellas, la de atrás, esa con la cabeza blanca de canas, peinada en
@@ -443,28 +410,22 @@
                 <p>Algunas gastan ese lujo, ese género de parentela al servicio de los recién
                     llegados.</p>
                 <p>Alquilan una madre como se alquila un mueble, una yunta de caballos y la muestran
-                    a la distancia, desde el <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >coupé</seg></seg> en el bosque, desde la baignoire en el teatro.</p>
-                <p>Es una manera como otra de <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >faire l'article</seg></seg>. Eso les da cierto <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">cachet</seg></seg>, las <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">pose</seg></seg> en hijas de familia
+                    a la distancia, desde el <seg rend="italic"><seg type="foreign" xml:lang="fr">coupé</seg></seg> en el bosque, desde la baignoire en el teatro.</p>
+                <p>Es una manera como otra de <seg rend="italic"><seg type="foreign" xml:lang="fr">faire l'article</seg></seg>. Eso les da cierto <seg rend="italic"><seg type="foreign" xml:lang="fr">cachet</seg></seg>, las <seg rend="italic"><seg type="foreign" xml:lang="fr">pose</seg></seg> en hijas de familia
                     y el <seg rend="italic"><seg type="foreign" xml:lang="fr">truc</seg></seg>
                     produce diez o veinte luises más.</p>
                 <p>Recursos de <seg rend="italic"><seg type="foreign" xml:lang="fr">mise en
                             scène</seg></seg>, cábulas del oficio.</p>
                 <p>Entre las otras dos, elija.</p>
                 <p>La negra circula con el nombre de Loulou y es hija del azar.</p>
-                <p>Un antojo a la llama del gas en el entresuelo de <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">restaurant</seg></seg>, o un instante de
+                <p>Un antojo a la llama del gas en el entresuelo de <seg rend="italic"><seg type="foreign" xml:lang="fr">restaurant</seg></seg>, o un instante de
                     abandono a ojos cerrados, rápido como la dicha que se roba, en la sombra
                     voluptuosa de la alcoba.</p>
                 <p>Instrumentos de placer, títeres de cuerda, muñecas vivas, París las hace y París
                     las rompe.</p>
                 <p>Brotan del callejón o la bohardilla como esos pastos que crecen entre los
                     adoquines del empedrado, sin que nadie sepa de donde ha caído la semilla. Son un
-                        <seg rend="italic">aceroc</seg> de <seg rend="italic"><seg type="foreign"
-                            xml:lang="en">flirtation</seg></seg> y pasan por la vida sin hacer
+                        <seg rend="italic">aceroc</seg> de <seg rend="italic"><seg type="foreign" xml:lang="en">flirtation</seg></seg> y pasan por la vida sin hacer
                     surco, dejando apenas, en pos de ellas el recuerdo que deja una hora de
                     locura.</p>
                 <p>Maciza y tosca, vaciada en el molde del que el Tiziano sacó sus Venus, la rubia
@@ -474,10 +435,8 @@
                 <p>Destinada por Dios a cuidar gansos, un buen día, el diablo la tienta. Tira los
                     suecos, echa al hombro el lío, deserta el corral y se larga a hacer fortuna a
                     París donde empieza su carrera de criada con el nombre de Fanchon que le dieron
-                    en la pila y treinta francos al mes, la sigue de <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">cocotte</seg></seg>, con diez o quince mil,
-                    llamándose Blanche d'Armagnac -es mucho más <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">chic</seg></seg>- y acaba por morirse
+                    en la pila y treinta francos al mes, la sigue de <seg rend="italic"><seg type="foreign" xml:lang="fr">cocotte</seg></seg>, con diez o quince mil,
+                    llamándose Blanche d'Armagnac -es mucho más <seg rend="italic"><seg type="foreign" xml:lang="fr">chic</seg></seg>- y acaba por morirse
                     averiada y sin un medio en el hospital, o por ser un ejemplar de «La
                     Morgue».</p>
                 <p>He ahí el sempiterno fin de la sempiterna historia.</p>
@@ -486,23 +445,20 @@
                 <p>Concluido el teatro y suprimida, por supuesto, la señora mayor a quien aventamos
                     en un <seg rend="italic"><seg type="foreign" xml:lang="fr">sapin</seg></seg>
                     diciéndole: <seg rend="italic"><seg type="foreign" xml:lang="fr">Vous, allez
-                            vous coucher!</seg></seg> nos metimos los cuatro en un <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">coupé</seg></seg> de dos
+                            vous coucher!</seg></seg> nos metimos los cuatro en un <seg rend="italic"><seg type="foreign" xml:lang="fr">coupé</seg></seg> de dos
                     asientos.</p>
                 <p>-<seg rend="italic">Maison Dorée</seg>, mandé al cochero.</p>
             </div>
             <div>
                 <head>- V -</head>
-                <p>Pocos momentos después, entrábamos a un <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">cabinet</seg></seg> de dicha casa por un pasadizo angosto
+                <p>Pocos momentos después, entrábamos a un <seg rend="italic"><seg type="foreign" xml:lang="fr">cabinet</seg></seg> de dicha casa por un pasadizo angosto
                     oliendo a recalentado.</p>
                 <p>La alfombra era de Oriente. Los muros, el techo y los muebles, entre los que
                     figuraba una otomana ancha y blanda, tapizados de lampás.</p>
                 <p>En un tiempo, todo aquello debió haber sido muy bonito. Pero las manchas pardas
                     de vino y de comida de que se hallaba cubierto el suelo, salpicadas las paredes
                     y chorreados los asientos; el negro de humo de las bujías pegado a los tejidos y
-                    al dorado de la madera; el cristal de los espejos rayado a sortija, un <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">je t'aime</seg></seg> entre
+                    al dorado de la madera; el cristal de los espejos rayado a sortija, un <seg rend="italic"><seg type="foreign" xml:lang="fr">je t'aime</seg></seg> entre
                     una fecha, una <seg rend="italic">Coralie</seg> y una insolencia; el défrachi de
                     treinta años de servicios escabrosos, en una palabra, imprimía al interior
                     aquel, algo del aspecto del coche de alquiler mugriento donde uno entra mirando
@@ -552,20 +508,14 @@
                         d'htel</seg></seg>.</p>
                 <p>-¿Que debo servir a los señores?, preguntó desde la puerta.</p>
                 <p>Loulou, frente a un espejo, ocupada en tironearse la bata de un vestido a media
-                    espalda con un gesto rabioso de mal humor porque la <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">cruche</seg></seg> de su costurera, decía,
-                    la había <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >fagotée</seg></seg> de una manera absurda, como si ella tuviera algo que
+                    espalda con un gesto rabioso de mal humor porque la <seg rend="italic"><seg type="foreign" xml:lang="fr">cruche</seg></seg> de su costurera, decía,
+                    la había <seg rend="italic"><seg type="foreign" xml:lang="fr">fagotée</seg></seg> de una manera absurda, como si ella tuviera algo que
                     tapar, al oírlo, dio vuelta de pronto y, arrebatando de manos del solemne
                     personaje el catálogo impreso de los trescientos setenta y tantos platos de que
                     se compone el repertorio francés:</p>
-                <p>-Lo que le mande yo, exclamó con énfasis. <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">Ça me regarde</seg></seg>.</p>
-                <p>Traiga usted ostras para empezar, ostras verdes; luego, un <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">moc-tortue</seg></seg> del verdadero,
-                    se entiende; unas <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >écrevisses bordelaises</seg></seg>; pollo trufado; <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">camembert</seg></seg>, frutas y, como
+                <p>-Lo que le mande yo, exclamó con énfasis. <seg rend="italic"><seg type="foreign" xml:lang="fr">Ça me regarde</seg></seg>.</p>
+                <p>Traiga usted ostras para empezar, ostras verdes; luego, un <seg rend="italic"><seg type="foreign" xml:lang="fr">moc-tortue</seg></seg> del verdadero,
+                    se entiende; unas <seg rend="italic"><seg type="foreign" xml:lang="fr">écrevisses bordelaises</seg></seg>; pollo trufado; <seg rend="italic"><seg type="foreign" xml:lang="fr">camembert</seg></seg>, frutas y, como
                     vino, Roederer desde el principio hasta el fin.</p>
                 <p>-¿Qué, no se te ocurre otra cosa?, preguntele tranquilamente, mirándola de
                     soslayo.</p>
@@ -585,8 +535,7 @@
                 <p>Hace fecha que no agarro. <seg rend="italic"><seg type="foreign" xml:lang="fr">Et
                             pour cause</seg></seg>.</p>
                 <p>Alzarlas, aun bautizadas de artistas a la salida traviesa de un teatro, escalera
-                    de servicio, <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >débouché</seg></seg> de basuras, cloaca por donde corren las inmundicias
+                    de servicio, <seg rend="italic"><seg type="foreign" xml:lang="fr">débouché</seg></seg> de basuras, cloaca por donde corren las inmundicias
                     del lugar, bajarlas en las tabernas y harto, al fin, concluir la noche en sus
                     brazos, aspirar jadeando otros alientos, miasmas de cuerpos ajenos en una
                     atmósfera saturada de corrupción, ni preso.</p>
@@ -610,8 +559,7 @@
                 <p>A todo lo que se sacudía como diciendo: no, mientras acosada a preguntas,
                     concluyó por reventar llorando como un ternero:</p>
                 <p>-¡Son las trufas que me hacen acordar a mamá!</p>
-                <p>-Acabáramos, exclamé, <seg rend="italic">altro</seg> que trufas, es el <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">champagne</seg></seg> que se
+                <p>-Acabáramos, exclamé, <seg rend="italic">altro</seg> que trufas, es el <seg rend="italic"><seg type="foreign" xml:lang="fr">champagne</seg></seg> que se
                     te anda paseando por el cuerpo!</p>
                 <p>-¡Pobre madre querida, pobre víctima! gimoteaba, entretanto, abismada en su dolor
                     y acompañando la exhalación de sus lamentos con unos ¡hiiiiii! ¡hiiii!...
@@ -637,14 +585,12 @@
                 <p>-¡Eh! ¡que te estás haciendo la pulcra tú también como si no te conociéramos!
                     -dije a aquella-. Cállate la boca y no seas farsante; respeta su dolor, el culto
                     de la familia, ese sentimiento de las almas nobles.</p>
-                <p>-Sí -rugió Blanca engreída con mis palabras y <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">emballée</seg></seg> de nuevo en los
+                <p>-Sí -rugió Blanca engreída con mis palabras y <seg rend="italic"><seg type="foreign" xml:lang="fr">emballée</seg></seg> de nuevo en los
                     vapores del vino, pero agarrando esta vez por otro lado-. ¡Quiero que me
                     respeten, que respeten a mi familia, porque tengo una familia yo, una familia
                     honorable, porque no soy de esas que no se sabe de donde caen, ni qué madre las
                     ha parido!</p>
-                <p>Estos cariños, por supuesto, a <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">l'adresse</seg></seg> de Loulou, la que saltó como si un
+                <p>Estos cariños, por supuesto, a <seg rend="italic"><seg type="foreign" xml:lang="fr">l'adresse</seg></seg> de Loulou, la que saltó como si un
                     bicho malo la hubiera picado.</p>
                 <p>-<seg rend="italic"><seg type="foreign" xml:lang="fr">¡Eh! ¡là bas!</seg></seg>
                     Si es a mí que viene dirigido ese envoltorio, no te voy a hacer esperar por el
@@ -652,8 +598,7 @@
                 <p>¡Che! ¡che! ¡che! pensé apurado como pajero que va llegando segundo, aquí se está
                     por armar la grande, intervengamos o nos lleva el diablo!</p>
                 <p>Y no acabó, porque poniéndole como tapón la mano sobre la boca:</p>
-                <p>-Silencio, si no quieren que llame a un guardia y las haga <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">flanquer au violon</seg></seg> para
+                <p>-Silencio, si no quieren que llame a un guardia y las haga <seg rend="italic"><seg type="foreign" xml:lang="fr">flanquer au violon</seg></seg> para
                     que se refresquen las dos y se les pase el entusiasmo! grité a mi vez,
                     haciéndome yo también el malo y el caliente.</p>
                 <p>De lo que me habría guardado muy bien. Al revés, fue precisamente para evitar que
@@ -663,8 +608,7 @@
                 <p>Sin embargo, a tan soberano golpe de autoridad, siguió un instante solemne de
                     silencio.</p>
                 <p>Dos miradas terribles se cruzaron, ásperas como dos arañazos, lustrosas y
-                    afiladas como dos chuzas y resollando fuerte y resongando como perros <seg
-                        rend="italic">desapartados</seg>, las dos señoras arrugaron el entrecejo,
+                    afiladas como dos chuzas y resollando fuerte y resongando como perros <seg rend="italic">desapartados</seg>, las dos señoras arrugaron el entrecejo,
                     agacharon la cabeza y se sentaron empacadas.</p>
                 <p>Ahora, tengámoslas un rato en penitencia, me dije tranquilo ya, démosles tiempo a
                     que se les pase la rabia y amiguémoslas después y acabe la fiesta en paz.</p>
@@ -678,8 +622,7 @@
                     adelante.</p>
                 <p>Bonito ejemplo de francesas me han hecho dar al señor. Han estado Vdes.
                     espumantes de espíritu y chisporroteantes de sal. Palabra de honor; si siguen
-                    haciéndonos cosquillas en la <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">bosse</seg></seg> de la alegría, son capaces de hacernos
+                    haciéndonos cosquillas en la <seg rend="italic"><seg type="foreign" xml:lang="fr">bosse</seg></seg> de la alegría, son capaces de hacernos
                     estallar.</p>
                 <p>Loulou fue la primera en amujar.- Lora como caballo de negro, en cuanto las
                     castigaron, mosqueó; naturaleza de esas prontas a vaciarse como bolsa de
@@ -738,8 +681,7 @@
                 <p>Aún me parece que la veo, al recobrar, después de un rato, los sentidos, agachada
                     sobre mí, lívida, fula, con los ojos inflamados por la rabia:</p>
                 <p>-«Para que vuelvas en ti», decía, pinchándome atrozmente las manos y la cara; «yo
-                    te he de dar; para que vuelvas en ti, sin vergüenza, <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">¡vaurien!</seg></seg>» repetía y,
+                    te he de dar; para que vuelvas en ti, sin vergüenza, <seg rend="italic"><seg type="foreign" xml:lang="fr">¡vaurien!</seg></seg>» repetía y,
                     encarnizada, furiosa, me hundía y volvía a hundirme el alfiler en las
                     carnes!</p>
                 <p>¡Ah! desde aquel momento terrible que conservaré grabado siempre en la memoria,
@@ -770,17 +712,13 @@
                 <p>Y levantándome el vestido:</p>
                 <p>«¿A ver esas pantorrillas? gordas y duras», prosiguió, agarrándome las
                     piernas.</p>
-                <p>«Compañeros, desde que la <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >garce</seg></seg> de Rosa nos dejó plantados, hace falta en la compañía
+                <p>«Compañeros, desde que la <seg rend="italic"><seg type="foreign" xml:lang="fr">garce</seg></seg> de Rosa nos dejó plantados, hace falta en la compañía
                     un brazo para el bombo y unas piernas para el público. La muchacha esta es
                     rolliza, tiene el físico del empleo; con un poco de amor al arte y unas medias
                     color carne, podría llenar la vacante.</p>
-                <p>-¿Está Vd. en su juicio, <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >père</seg></seg>
+                <p>-¿Está Vd. en su juicio, <seg rend="italic"><seg type="foreign" xml:lang="fr">père</seg></seg>
                     <seg rend="italic">Grognard</seg>, objetó uno de entre ellos, qué no ve que es
-                    una mocosa, y si nos meten a la cárcel? <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">Mazette!</seg></seg> Nada menos que un <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">détournement</seg></seg> de menor!...
+                    una mocosa, y si nos meten a la cárcel? <seg rend="italic"><seg type="foreign" xml:lang="fr">Mazette!</seg></seg> Nada menos que un <seg rend="italic"><seg type="foreign" xml:lang="fr">détournement</seg></seg> de menor!...
                     Mal negocio; la justicia no entiende de chicas al respecto».</p>
                 <p>El <seg rend="italic"><seg type="foreign" xml:lang="fr">père</seg></seg>
                     <seg rend="italic">Grognard</seg>, se enojó:</p>
@@ -838,12 +776,9 @@
                         est!</seg></seg> La orfandad, la madrastra, las sevicias, la fuga, la lucha,
                     la caída, el llanto, la desgracia y la perdición, con más una punta, por
                     supuesto, de indispensable fatalidad escondida entro telones, sopando en la
-                    salsa, manejando los títeres de atrás como la mano del <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">bonhome</seg></seg> de <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">Guignol</seg></seg> metamorfoseada en
+                    salsa, manejando los títeres de atrás como la mano del <seg rend="italic"><seg type="foreign" xml:lang="fr">bonhome</seg></seg> de <seg rend="italic"><seg type="foreign" xml:lang="fr">Guignol</seg></seg> metamorfoseada en
                         <seg rend="italic"><seg type="foreign" xml:lang="fr">Pierrot</seg></seg> o
-                        <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >Polichinelle</seg></seg>.</p>
+                        <seg rend="italic"><seg type="foreign" xml:lang="fr">Polichinelle</seg></seg>.</p>
                 <p>
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">Tableau</seg></seg>.</p>
                 <p>Nada falta, nada ha sido olvidado; ni tampoco los clásicos saltimbanquis, la
@@ -873,32 +808,27 @@
                 <p>-¿La verdad? A ver, dila tú, repuse.</p>
                 <p>-¡Oh! no es difícil, ni me ha de dar trabajo.</p>
                 <p>Somos lo que somos, porque el terciopelo y la seda cuestan menos que el percal,
-                    porque es más barato vivir en un <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">hôtel</seg></seg> que en las bohardillas, porque, para
+                    porque es más barato vivir en un <seg rend="italic"><seg type="foreign" xml:lang="fr">hôtel</seg></seg> que en las bohardillas, porque, para
                     pagar tres sueldos en la imperial de un ómnibus, tiene una que comer lo que los
                     otros tiran, quemándose las pestañas sin perjuicio de quedarse ciega o tísica,
                     mientras que, para arrastrar coche y caballos, basta abrir la boca y decir sí,
                     y, últimamente, porque, para eso hemos nacido y esa es nuestra inclinación.</p>
                 <p>
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">Voilà</seg></seg>. Si no
-                    les gusta, sigan de largo; <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >c'est à prendre ou à laisser</seg></seg>.</p>
+                    les gusta, sigan de largo; <seg rend="italic"><seg type="foreign" xml:lang="fr">c'est à prendre ou à laisser</seg></seg>.</p>
                 <p>Y, en un revuelo de sus cascos a la gineta, aleteó y vino a asentarse en
                     Pablo:</p>
                 <p>-<seg rend="italic"><seg type="foreign" xml:lang="fr">Oh! qu'il est
                         dróle!</seg></seg></p>
-                <p>En efecto, los cangrejos, la emoción del <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">début</seg></seg>, los treinta grados de calor, el vino,
+                <p>En efecto, los cangrejos, la emoción del <seg rend="italic"><seg type="foreign" xml:lang="fr">début</seg></seg>, los treinta grados de calor, el vino,
                     el olor a mujer sahumada, la desnudez cruda de las carnes, toda la mezcla
                     aquella, había mareado el seso a mi incauto compañero, acabando por determinar
-                    en él una especie de <seg rend="italic"><seg type="foreign" xml:lang="la"
-                            >delirium tremens</seg></seg> de la fruta prohibida.</p>
+                    en él una especie de <seg rend="italic"><seg type="foreign" xml:lang="la">delirium tremens</seg></seg> de la fruta prohibida.</p>
                 <p>Inquieto, alterado, calenturiento, los ojos y los colores se le iban y se le
                     venían; un deseo loco se mostraba pintado en él.</p>
                 <p>
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">Très drôle et avec ça,
-                            gentil tout plein</seg></seg>, palabra de honor, mucho más <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">gentil</seg></seg> que
+                            gentil tout plein</seg></seg>, palabra de honor, mucho más <seg rend="italic"><seg type="foreign" xml:lang="fr">gentil</seg></seg> que
                     Peterson! repetía, entretanto, la otra con sus dos ojos dormidos sobre Pablo en
                     una mirada golosa de concupiscencia.</p>
                 <p>Y, diciendo y haciendo, se levantó de pronto, se fue sobre él francamente, le
@@ -912,8 +842,7 @@
                     Porque hemos sido muy buenos amigos con Peterson y porque Vds. Deben conocerlo
                     desde que es americano como Vds.; ¿sabes? de la Florida.</p>
                 <p>¡Ah! pero, permítame Vd., observó honradamente Pablo, es que la Florida está en
-                    los Estados Unidos y nosotros somos de la República Argentina, <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">est-ce que je sais,
+                    los Estados Unidos y nosotros somos de la República Argentina, <seg rend="italic"><seg type="foreign" xml:lang="fr">est-ce que je sais,
                             moi!</seg></seg> Para nosotros, todo eso es la misma cosa.</p>
                 <p>¡Pues! me apresuré a intervenir poco dispuesto, como estaba, a asistir a una
                     conferencia geográfica y sin dar tiempo a que Pablo perdiera su tiempo
@@ -938,8 +867,7 @@
                 <p>¿Cómo?</p>
                 <p>Fundando una república universal.</p>
                 <p>Al efecto, se ha puesto de acuerdo con una tropa de monas de su relación, se ha
-                    constituido un <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >harem</seg></seg>, se ha formado una familia y, en estos momentos, ocúpase
+                    constituido un <seg rend="italic"><seg type="foreign" xml:lang="fr">harem</seg></seg>, se ha formado una familia y, en estos momentos, ocúpase
                     muy activamente de echar con ellas los cimientos del nuevo edificio social.</p>
                 <p>-<seg rend="italic"><seg type="foreign" xml:lang="fr">Cette blague!</seg></seg>
                     dijo con sorna Loulou que no tenía un pelo de tonta.</p>
@@ -1038,10 +966,8 @@
                             son affaire</seg></seg>, contaba y recontaba con los dedos: tantas
                     monas, tantos días, tantos hijos, hasta que medio convencida ya, pero no
                     queriendo dar aún su brazo a torcer:</p>
-                <p>-Seiscientos hijos en catorce meses, <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">c'est égal</seg></seg>, acabó por exclamar entusiasmada,
-                    es necesario que ese Peterson sea un <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">rude gaillard, tout de même!</seg></seg></p>
+                <p>-Seiscientos hijos en catorce meses, <seg rend="italic"><seg type="foreign" xml:lang="fr">c'est égal</seg></seg>, acabó por exclamar entusiasmada,
+                    es necesario que ese Peterson sea un <seg rend="italic"><seg type="foreign" xml:lang="fr">rude gaillard, tout de même!</seg></seg></p>
                 <p>-¡Que no comprendes, imbécil, que se está riendo de ti! le gritó la otra
                     exasperada de verla tan zanguanga.</p>
                 <p>-¡Alto ahí! Yo no me río de ella ni de nadie; lo que cuento es rigorosamente
@@ -1158,11 +1084,9 @@
                     abierta y que nunca me figuré que, a excepción de las testas coronadas y de
                     algún ricacho como Rotschild, se pudiera vivir con ese lujo.</p>
                 <p>-Y lacayos de calzón corto, y cinco carruajes en las cocheras, y diez puros en
-                    las caballerizas, y veinticinco mil francos al mes. Conozco la <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">boutique</seg></seg>.</p>
+                    las caballerizas, y veinticinco mil francos al mes. Conozco la <seg rend="italic"><seg type="foreign" xml:lang="fr">boutique</seg></seg>.</p>
                 <p>El todo, honradamente ganado con el sudor de los otros. Cada cual ha metido un
-                    poco de hombro, ha pegado su <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">poussée</seg></seg>; grandes y chicos, han llevado su
+                    poco de hombro, ha pegado su <seg rend="italic"><seg type="foreign" xml:lang="fr">poussée</seg></seg>; grandes y chicos, han llevado su
                     grano de arena a aquel montón; gavilanes y pichones han dejado allí una pluma.
                     Tenga cuidado, ande con tiento, no sea cosa que vaya Vd. a dejar un plumero;
                     mire que esas sanguijuelas son herejes; una vez que se prenden, no sueltan al
@@ -1199,8 +1123,7 @@
                     menos, si da Vd. un vuelco en el camino y queda patas arriba, no tendrá nada que
                     reprocharse y estará siempre en tiempo de achacarle la culpa al diablo, lo que
                     no deja de ser un consuelo.</p>
-                <p>En cuanto a su amiga Loulou, no olvide que es <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">camelote</seg></seg>. Si le raspa un poco
+                <p>En cuanto a su amiga Loulou, no olvide que es <seg rend="italic"><seg type="foreign" xml:lang="fr">camelote</seg></seg>. Si le raspa un poco
                     la pintura, va a encontrarse con pino y fierro fundido.</p>
                 <p>Trátela, pues, como a coche de alquiler y agradézcame el consejo.</p>
                 <p>-Se lo agradezco, pero le prevengo que es inútil. No crea que soy tan nene que me
@@ -1219,14 +1142,12 @@
                 <p>Ese orgullo necio de nacionalidad, patrimonio de guarangos, se deja con el muelle
                     de pasajeros al poner el pie en el bote, bajo pena de andar haciendo mal papel,
                     señor Don Pablo.</p>
-                <p>Los hombres, cualquiera que sea el <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">trou</seg></seg> de donde salen, más o menos, son
+                <p>Los hombres, cualquiera que sea el <seg rend="italic"><seg type="foreign" xml:lang="fr">trou</seg></seg> de donde salen, más o menos, son
                     iguales.</p>
                 <p>Porteño y todo, lo han de poner overo, si se descuida.</p>
                 <p>-Trataré de no descuidarme, entonces.</p>
                 <p>-Hará bien.</p>
-                <p>Sobre todo, sáquele el cuerpo al <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">collage</seg></seg> o, cuando menos, mire con quien se
+                <p>Sobre todo, sáquele el cuerpo al <seg rend="italic"><seg type="foreign" xml:lang="fr">collage</seg></seg> o, cuando menos, mire con quien se
                     cuela; no hay nada más tremendo.</p>
                 <p>Esta es la historia; escúchela.</p>
                 <p>Empieza uno por darse patente de mozo vivo y por declarar, como declara Vd., que
@@ -1239,8 +1160,7 @@
                     pero yo, es otra cosa, no he de ser zonzo como ellos, ni me he de dejar parar de
                     punta!</p>
                 <p>Pregunte por qué no ha de dejarse parar... ¿por qué? porque no, porque Vd. es
-                    peine, no tiene otra razón que darse. Amor propio, viento que lo hincha, <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">pas plus</seg></seg>.</p>
+                    peine, no tiene otra razón que darse. Amor propio, viento que lo hincha, <seg rend="italic"><seg type="foreign" xml:lang="fr">pas plus</seg></seg>.</p>
                 <p>Hueco, pues, con la idea de lo que vale, aunque no valga y caliente, además, con
                     el lueguito que le está mojando la oreja, comienza, en tono de chacota, con la
                     firme intención de no seguir.</p>
@@ -1250,8 +1170,7 @@
                     necesario, el accidente en costumbre.</p>
                 <p>Y cuando, después de su brava campaña diaria, en sus ratos de repliegue, mano a
                     mano con el otro yo que tiene adentro, oye su voz que suena como rasqueta en la
-                    conciencia y que le dice: «<seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >Eh! là-bas!</seg></seg> no era eso lo convenido, nos vamos enterrando
+                    conciencia y que le dice: «<seg rend="italic"><seg type="foreign" xml:lang="fr">Eh! là-bas!</seg></seg> no era eso lo convenido, nos vamos enterrando
                     hasta la maza sin sentir», contesta Vd. con circunstancias atenuantes, recurre a
                     transacciones vergonzosas: cierto que sí, pero la pobre es tan buena, una
                     infeliz! Ahora que la conoce bien puede apreciarla. Hay en ella un fondo
@@ -1259,8 +1178,7 @@
                     que...</p>
                 <p>Solo que, como quinientas veces los hechos están mostrando que miente, como se
                     está estrellando Vd. de hocicos contra la evidencia, a falta de algo preciso, de
-                    algo positivo y sólido que importe una justificación, una escusa, siquiera, <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">vous pataugez dans le
+                    algo positivo y sólido que importe una justificación, una escusa, siquiera, <seg rend="italic"><seg type="foreign" xml:lang="fr">vous pataugez dans le
                             vague</seg></seg>: la suerte, la fatalidad, el destino, ese cúmulo de
                     circunstancias y combinaciones adversas, ajenas a la voluntad, que muchas veces
                     determinan y precipitan los sucesos.</p>
@@ -1375,8 +1293,7 @@
                     y bellacos!</p>
                 <p>Mandrias y bellacos, tanto cuanto quiera; pero mandrias y bellacos de carne y
                     hueso, con los que andamos cansados de codearnos en el vaivén de la vida.</p>
-                <p>Créame, sáquele el cuerpo al <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >collage</seg></seg> o, cuando menos, mire con quién se cuela. No hay
+                <p>Créame, sáquele el cuerpo al <seg rend="italic"><seg type="foreign" xml:lang="fr">collage</seg></seg> o, cuando menos, mire con quién se cuela. No hay
                     nada más tremendo.</p>
                 <p>Y seguimos hablando de otras cosas.</p>
             </div>
@@ -1449,8 +1366,7 @@
                 <p>Los altos de oro y plata que se apilan y desparraman a una señal de la suerte, la
                     voz hueca de los empleados, el ruido monótono del marfil saltando entre las
                     casillas, los montones de hombres y mujeres que van, que vienen, se empujan y se
-                    aprietan en voz baja alrededor de las mesas, todo aquel incesante <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">brouhaha</seg></seg> me hace
+                    aprietan en voz baja alrededor de las mesas, todo aquel incesante <seg rend="italic"><seg type="foreign" xml:lang="fr">brouhaha</seg></seg> me hace
                     el efecto de una colmena humana trabajando en deshacer, en derramar la miel que
                     ha recogido para que se la beban los zánganos de la Banca y el príncipe de
                     Mónaco, otro zángano.</p>
@@ -1489,8 +1405,7 @@
                 <p>Consideraciones de otro orden: un incidente personal, una agarrada entre el
                     diablo y yo; él me empuja y yo me empaco: simple cuestión de orgullo y de amor
                     propio.</p>
-                <p>Lo que no impide, por supuesto, que, de paso, eche un luis sobre el 17 <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">en plein.</seg></seg></p>
+                <p>Lo que no impide, por supuesto, que, de paso, eche un luis sobre el 17 <seg rend="italic"><seg type="foreign" xml:lang="fr">en plein.</seg></seg></p>
                 <p>Y digo de paso, porque una mesa de ruleta es como un baile por suscrición; mucha
                     república.</p>
                 <p>
@@ -1501,20 +1416,14 @@
                 <p>Prefiero el <seg rend="italic">treinta y cuarenta</seg>.</p>
                 <p>En él, por lo menos, se ve uno libre del menudeo de los jugadores, esa morralla
                     infame que se abre paso a codo hasta la primera fila, cargando y pisoteando a
-                    medio mundo, con una indecente pieza de <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">cent sous</seg></seg> enarbolada en la mano. <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">Boutiquiers en
-                        train</seg></seg> de darse un corte, criados disfrazados de patrones, <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">catins</seg></seg> de la
+                    medio mundo, con una indecente pieza de <seg rend="italic"><seg type="foreign" xml:lang="fr">cent sous</seg></seg> enarbolada en la mano. <seg rend="italic"><seg type="foreign" xml:lang="fr">Boutiquiers en
+                        train</seg></seg> de darse un corte, criados disfrazados de patrones, <seg rend="italic"><seg type="foreign" xml:lang="fr">catins</seg></seg> de la
                     peor especie, viejas intercesoras y rateros.</p>
                 <p>Entréme, pues, a lo gordo, donde los rollos de oro y de billetes empiezan por
                     rodar de una mano a otra, para ir a caer al fin en el pozo sin fondo de la
                     banca.</p>
-                <p>Miraba apostar fuerte a un judío: un papel de mil francos en cada <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">passe</seg></seg>, escoltado
-                    por un luis -ahí estaba el <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >truc</seg></seg>, la cábula del hombre, esa era su <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">mascotte</seg></seg>- cuando sentí
+                <p>Miraba apostar fuerte a un judío: un papel de mil francos en cada <seg rend="italic"><seg type="foreign" xml:lang="fr">passe</seg></seg>, escoltado
+                    por un luis -ahí estaba el <seg rend="italic"><seg type="foreign" xml:lang="fr">truc</seg></seg>, la cábula del hombre, esa era su <seg rend="italic"><seg type="foreign" xml:lang="fr">mascotte</seg></seg>- cuando sentí
                     que una mano se apoyaba sobre mí.</p>
                 <p>Di vuelta y me encontré con Loulou:</p>
                 <p>-¡Tú aquí, buena pieza! ¿qué haces?</p>
@@ -1547,8 +1456,7 @@
                 <p>-Sí, pero es que sigue perdiendo...</p>
                 <p>-Esto, hija, va y viene. Ahora pierde, ganará después. Déjalo al pobre que
                     despunte el vicio.</p>
-                <p>Entre tanto, si la <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >guigne</seg></seg> se obstina en perseguirlo más de lo conveniente, te
+                <p>Entre tanto, si la <seg rend="italic"><seg type="foreign" xml:lang="fr">guigne</seg></seg> se obstina en perseguirlo más de lo conveniente, te
                     ofrezco, desde luego, mis servicios.</p>
                 <p>Pero, a propósito, agregué, tomándola de la mano y sentándola a mi lado en un
                     sofá, dime, ¿qué es lo que te pasa, de cuándo acá tan cristianos sentimientos,
@@ -1712,8 +1620,7 @@
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">Non, vois-tu, c'est par
                             trop dróle!</seg></seg> Permíteme que, a pesar de la gravedad del
                     presente asunto, me ponga a reír un momentito...</p>
-                <p>¿Quieres que te dé un consejo, Loulou amiga, pero, <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">là</seg></seg>, un consejo sano y
+                <p>¿Quieres que te dé un consejo, Loulou amiga, pero, <seg rend="italic"><seg type="foreign" xml:lang="fr">là</seg></seg>, un consejo sano y
                     sincero?</p>
                 <p>Toma el expreso de esta noche misma y vuélvete a París.</p>
                 <p>Ese es tu teatro, no lo dejes, no cortes tu carrera en la flor de tu edad, no la
@@ -1763,8 +1670,7 @@
                     nombre, una familia: para las otras, las virtuosas, las honradas, las criaturas
                     de Dios, las que Vdes. ensalzan y el mundo adula.</p>
                 <p>Pero, hablarme a mí del porvenir, a mí, «la impúdica, la horizontal, la mundana,
-                    a mí, Loulou, en fin», <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >allons donc!</seg></seg></p>
+                    a mí, Loulou, en fin», <seg rend="italic"><seg type="foreign" xml:lang="fr">allons donc!</seg></seg></p>
                 <p>¿Sabe cual es mi porvenir, lo que en este momento me ocupa y me preocupa a
                     mí?</p>
                 <p>Dormir con Pablo esta noche. Mañana... ¡mañana, quizás, me haya llevado el
@@ -1834,8 +1740,7 @@
                 <p>-¿Tan pronto?</p>
                 <p>-¡Uff! ¡qué clavo, amigo, qué gancho!</p>
                 <p>Vd. me la pintó como una sanguijuela capaz de dejarme enjuto. Qué sanguijuela, ni
-                    qué nada. La mujer esta es algo peor, es un <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">sovaipé</seg></seg> que se me ha prendido,
+                    qué nada. La mujer esta es algo peor, es un <seg rend="italic"><seg type="foreign" xml:lang="fr">sovaipé</seg></seg> que se me ha prendido,
                     no en el bolsillo, sino en el corazón y que me está chupando la paciencia.</p>
                 <p>Soy víctima de la más inicua explotación de sentimientos que se haya inventado
                     hasta la fecha.</p>
@@ -1889,10 +1794,8 @@
                     hasta los tuétanos.</p>
                 <p>Yo no he venido aquí buscando amor, sino placer; yo no quiero que me quieran,
                     sino que me diviertan, que me engañen, que me exploten, que se rían de mí, pero
-                    que me hagan gozar, que me den <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">pour mon argent</seg></seg>, y maldito el goce ni la
-                    diversión que encuentro en ser como una especie de <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">primo donno</seg></seg> de Loulou.</p>
+                    que me hagan gozar, que me den <seg rend="italic"><seg type="foreign" xml:lang="fr">pour mon argent</seg></seg>, y maldito el goce ni la
+                    diversión que encuentro en ser como una especie de <seg rend="italic"><seg type="foreign" xml:lang="fr">primo donno</seg></seg> de Loulou.</p>
                 <p>No es la vida insulsa del hogar lo que busco, lo que me pide el cuerpo no es la
                     miel del himeneo, el plato desabrido de la familia.</p>
                 <p>Para eso me quedo en mi tierra y hago lo que mis paisanos: casarme imberbe con
@@ -1904,8 +1807,7 @@
                 <p>Mi cabeza soñaba con otros horizontes, mis pulmones necesitaban otro aire, mi
                     paladar y mi estómago me pedían otros manjares que puchero y asado y dulce de
                     leche.</p>
-                <p>Se me hacía agua la boca al pensar en el <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">bisque</seg></seg> de Bignon; por eso vine.</p>
+                <p>Se me hacía agua la boca al pensar en el <seg rend="italic"><seg type="foreign" xml:lang="fr">bisque</seg></seg> de Bignon; por eso vine.</p>
                 <p>Desgraciadamente, contaba sin el difunto. La mujer esta con su amor de cuerno
                     está embarullándome el juego, me está perjudicando, robando, saqueando como en
                     el callejón de Ibáñez...</p>
@@ -1915,8 +1817,7 @@
                 <p>Entretanto y cambiando asunto, ¿quiere comer conmigo hoy?</p>
                 <p>Seremos tres.</p>
                 <p>-¿Quién completaría el terno, Loulou?</p>
-                <p>-Iguale y largue; piso un poco más arriba: una condesa, <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">s'il vous plaît</seg></seg>.</p>
+                <p>-Iguale y largue; piso un poco más arriba: una condesa, <seg rend="italic"><seg type="foreign" xml:lang="fr">s'il vous plaît</seg></seg>.</p>
                 <p>-¡Diablo!</p>
                 <p>-Sí señor; como Vd. lo oye.</p>
                 <p>-¿Una condesa de veras?</p>
@@ -1959,11 +1860,9 @@
                     treinta y cuarenta mientras la condesa echa su partida con Vd.</p>
                 <p>Pero, ande con pies de plomo, sea correcto Vd. también, si no quiere que la
                     criada le salga respondona.</p>
-                <p>Mire que, al enhornar, se hacen los panes tuertos y que, <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">malgré tout</seg></seg>, la gente esta
+                <p>Mire que, al enhornar, se hacen los panes tuertos y que, <seg rend="italic"><seg type="foreign" xml:lang="fr">malgré tout</seg></seg>, la gente esta
                     suele tener cosquillas.</p>
-                <p>A no ser que su conde sea un <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >filou</seg></seg>, un conde engaña pichanga, su condesa una condesa de
+                <p>A no ser que su conde sea un <seg rend="italic"><seg type="foreign" xml:lang="fr">filou</seg></seg>, un conde engaña pichanga, su condesa una condesa de
                     cartón y Vd. un pavo, perdone la franqueza.</p>
                 <p>-No hay de qué.</p>
                 <p>Y medio picado por dentro</p>
@@ -1994,34 +1893,28 @@
                 <p>-¿Y?</p>
                 <p>-No me ha dado poco que hacer, le aseguro; he tenido que trabajar como un
                     buey.</p>
-                <p>Ni a palos quería aceptar: «por quién me toma Vd., qué dirá <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">ce Monsieur</seg></seg>, y mi marido,
+                <p>Ni a palos quería aceptar: «por quién me toma Vd., qué dirá <seg rend="italic"><seg type="foreign" xml:lang="fr">ce Monsieur</seg></seg>, y mi marido,
                     y mi reputación», y pitos y flautas, hasta que, al fin, he logrado convencerla a
                     medias y hemos concluido por transar.</p>
                 <p>Va a venir, pero es valor entendido que, entre ella y yo, no hay nada vizco.</p>
-                <p>Se trata simplemente de un antojo de <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">enfant</seg></seg>
+                <p>Se trata simplemente de un antojo de <seg rend="italic"><seg type="foreign" xml:lang="fr">enfant</seg></seg>
                     <seg rend="italic"><seg type="foreign" xml:lang="fr">gâté</seg></seg>, de un
                     capricho de mujer consentida y coqueta por conocer mi casa y pagarse el lujo de
-                    una inocente <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                        >cascade</seg></seg>.</p>
+                    una inocente <seg rend="italic"><seg type="foreign" xml:lang="fr">cascade</seg></seg>.</p>
                 <p>Así pues, queda prevenido; no vaya a hacerme quedar como un negro.</p>
                 <p>¡Dios me perdone! amigo, siguió Pablo echando un último vistazo sobre la mesa
                     abundantemente provista, me parece que lo he clavado, que la fiesta esta va a
                     ser velorio; pero, en fin, una vez en el potro... ya sabe, resígnese, tenga
                     paciencia y agradezcame la intención que ha sido buena.</p>
-                <p>Pocos momentos después, oímos el <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">froufrou</seg></seg> de una mujer en el zaguán.</p>
+                <p>Pocos momentos después, oímos el <seg rend="italic"><seg type="foreign" xml:lang="fr">froufrou</seg></seg> de una mujer en el zaguán.</p>
                 <p>Era la individua en cuestión: traje gris, pelo rubio plateado, ojos azules
                     grandes, nariz filosa, boca fina, tez empolvada, labios y párpados pintados,
                     buenos dientes, buena mano, buen pie y elástica y flexible en sus maneras;
-                    sangre pura, en fin, una mujer <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">pschutt</seg></seg>:</p>
+                    sangre pura, en fin, una mujer <seg rend="italic"><seg type="foreign" xml:lang="fr">pschutt</seg></seg>:</p>
                 <p>-<seg rend="italic"><seg type="foreign" xml:lang="fr">Mon Dieu,
                         Monsieur</seg></seg>, Vd. encontrará extraño, tal vez, que venga yo sola
                     aquí. Pero el señor es tan amable, se ha empeñado tanto conmigo en que conociera
-                    su <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                    >pied-à-terre</seg></seg>, que he creído no deber rehusarme a su galante
+                    su <seg rend="italic"><seg type="foreign" xml:lang="fr">pied-à-terre</seg></seg>, que he creído no deber rehusarme a su galante
                     invitación.</p>
                 <p>-¡Oh! ¡Señora!... La amistad de Pablo con su marido basta, por sí sola, para
                     explicar la presencia de Vd. en esta casa.</p>
@@ -2042,8 +1935,7 @@
                 <p>-Pero... <seg rend="italic"><seg type="foreign" xml:lang="fr">c'est charmant
                             ici!</seg></seg> exclamó, cambiando asunto de pronto y haciéndose la que
                     no conocía la casa.</p>
-                <p>¡Mentira, por supuesto, que <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >charmant</seg></seg> había de ser! cuatro trastos viejos en un casucho
+                <p>¡Mentira, por supuesto, que <seg rend="italic"><seg type="foreign" xml:lang="fr">charmant</seg></seg> había de ser! cuatro trastos viejos en un casucho
                     de mala muerte.</p>
                 <p>-¡Ah! precioso, apoyé, un nido de amor, un <seg rend="italic">bombón</seg>, vista
                     espléndida, jardín delicioso.</p>
@@ -2122,8 +2014,7 @@
                     qué vergüenza, agregó hundiendo la cabeza entre las manos, ¡hasta qué punto he
                     podido descender!</p>
                 <p>-¡Ah! sí, su conducta no ha sido de lo más bonito, que digamos.</p>
-                <p>Levantar la mano sobre el otro sexo, <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">c'est raide!</seg></seg></p>
+                <p>Levantar la mano sobre el otro sexo, <seg rend="italic"><seg type="foreign" xml:lang="fr">c'est raide!</seg></seg></p>
                 <p>¡Pero, en fin! exclamé después, movido a lástima al ver al pobre diablo tan
                     aplastado y tan mohíno, lo ha hecho Vd. en un momento de mucha rabia...</p>
                 <p>Con eso y con que salga de aquí derecho a pedir a esa mujer que se sirva
@@ -2301,8 +2192,7 @@
                 <p>-¿Y a quién diablos voy a buscar yo ahora?</p>
                 <p>-Ahí está el <seg rend="italic">busilis</seg>, Vd. no conoce a nadie, ni yo
                     tampoco.</p>
-                <p>¡Ah! aguárdese, exclamé después de pensarlo un rato. <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">Eureka! J'ai mon homme.</seg></seg></p>
+                <p>¡Ah! aguárdese, exclamé después de pensarlo un rato. <seg rend="italic"><seg type="foreign" xml:lang="fr">Eureka! J'ai mon homme.</seg></seg></p>
                 <p>Vaya y tráigame al cónsul argentino.</p>
                 <p>-¿Al cónsul argentino?</p>
                 <p>-Sí, hombre, al cónsul argentino en Mónaco, un antiguo protegido mío; yo le hice
@@ -2493,8 +2383,7 @@
                 <p>Este giro de la cuestión, encarada bajo un aspecto imprevisto y nuevo, sublevó un
                     coro destemplado de protestas y un cambio áspero vivo de palabras que hubo de
                     poner en peligro la seriedad del debate y la solemnidad del acto.</p>
-                <p>¿Pretendíamos, acaso, reírnos de ellos, tomarlos, como quien dice, para el <seg
-                        rend="italic">titeo</seg>, una mujer a quien su marido sorprende en una cita
+                <p>¿Pretendíamos, acaso, reírnos de ellos, tomarlos, como quien dice, para el <seg rend="italic">titeo</seg>, una mujer a quien su marido sorprende en una cita
                     con su amante, y teníamos el aplomo y la audacia de negarlo?</p>
                 <p>Pst, pst, poco a poco...</p>
                 <p>Entendíamos, ante todo, que se sirvieran bajar la prima, previniéndoles que
@@ -2526,8 +2415,7 @@
                 <p>El conde estaba en sus trece. Seguía representando grilla la inocencia de su
                     mujer, lo que prueba que no era tan zonzo como la mayoría de sus colegas. Pero
                     tenía tales y tantas ganas de trenzarse con Pablo, decía, que renunciaba todo
-                    con tal de que hubiera duelo y de que el duelo fuese <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">à outrance</seg></seg>.</p>
+                    con tal de que hubiera duelo y de que el duelo fuese <seg rend="italic"><seg type="foreign" xml:lang="fr">à outrance</seg></seg>.</p>
                 <p>Me pegaban en el clavo; a ese terreno quería traerlos y nada más que por eso
                     había estado haciendo fuerza. Ahora les llevábamos nosotros la media arroba.</p>
                 <p>Me apresuré, pues, a aceptar más que ligero y, quedando así reanudado el debate,
@@ -2621,8 +2509,7 @@
                 <p>Y con la lógica enferma de los monómanos, cuando se les aprieta el resorte de sus
                     neurosis, latigueado por mis nervios, habría seguido así, galopando como un
                     reloj sin péndulo, del comedor donde Pablo acababa de poner por delante al
-                    degradado del cónsul una botella de <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">cognac</seg></seg>, a la luna, a los infiernos, o a otra
+                    degradado del cónsul una botella de <seg rend="italic"><seg type="foreign" xml:lang="fr">cognac</seg></seg>, a la luna, a los infiernos, o a otra
                     parte, si dos golpes dados en la puerta de calle no me hubiesen sacudido de
                     pronto, llamándome al orden y al cumplimiento de mi deber, que era lo que por el
                     momento importaba.</p>
@@ -2867,19 +2754,16 @@
                 <p>-Por tu bárbara invasión de esta mañana, hija, seguí en tono de broma, por haber
                     caído como una bomba en medio de una fiesta a la que no es de práctica que
                     asistan las mujeres.</p>
-                <p>Los otros la han encontrado <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >mauvaise</seg></seg>, yendo hasta darme a entender que no se hallaban
+                <p>Los otros la han encontrado <seg rend="italic"><seg type="foreign" xml:lang="fr">mauvaise</seg></seg>, yendo hasta darme a entender que no se hallaban
                     lejos de creernos cómplices tuyos, de figurarse que te habíamos facilitado, como
-                    quien dice, una <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >baignoire</seg></seg>, a fin que presenciaras tú también el
+                    quien dice, una <seg rend="italic"><seg type="foreign" xml:lang="fr">baignoire</seg></seg>, a fin que presenciaras tú también el
                     espectáculo.</p>
                 <p>¿Cómo diablos hiciste para meterte aquí?</p>
                 <p>Recuerdo perfectamente haber cerrado la puerta de calle después de la llegada del
                     conde y de sus testigos.</p>
                 <p>-Todas las puertas se abren con dinero.</p>
                 <p>-Explícate.</p>
-                <p>-Cuando sentí que Pablo salía al alba del <seg rend="italic"><seg type="foreign"
-                            xml:lang="fr">hôtel</seg></seg>, me tiré vestida de mi cama y salí a mi
+                <p>-Cuando sentí que Pablo salía al alba del <seg rend="italic"><seg type="foreign" xml:lang="fr">hôtel</seg></seg>, me tiré vestida de mi cama y salí a mi
                     vez.</p>
                 <p>¿Qué iba a hacer? no lo sabía. No dependía de mí su salvación, no estaba en mi
                     mano protegerlo, nada me era dado hacer por él y, no obstante, la voz secreta
@@ -3435,8 +3319,7 @@
                     quiero porque ella es mujer y yo soy hombre, porque su presencia me enardece,
                     porque su olor me marea, porque su contacto me electriza, ¿entiende?</p>
                 <p>La quiero porque es joven, porque es linda, porque así como Vd. me ve, tumbado en
-                    una cama y con el cuerpo hecho un <seg rend="italic"><seg type="foreign"
-                            xml:lang="la">ecce homo</seg></seg>, me siento hombre; porque el grito
+                    una cama y con el cuerpo hecho un <seg rend="italic"><seg type="foreign" xml:lang="la">ecce homo</seg></seg>, me siento hombre; porque el grito
                     de la carne, un momento sofocado por los gritos del dolor, vuelve a retumbar en
                     mí con más violencia que nunca; porque tengo hambre de ella; porque no conozco a
                     otra mujer que, como ella, sea capaz de calmar el ardor varonil y brutal de mis
@@ -3594,9 +3477,7 @@
                     perros, no quiero irme a pie, no tengo coche y tengo hambre.</p>
                 <p>Dame, aunque sea un pedazo de pan y otro de queso, si es que no anda mejor
                     provista tu despensa.</p>
-                <p>En un momento, tuve sobre la mesa una tasa de <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">consommé</seg></seg>, pollo asado, <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">camembert</seg></seg> y,
+                <p>En un momento, tuve sobre la mesa una tasa de <seg rend="italic"><seg type="foreign" xml:lang="fr">consommé</seg></seg>, pollo asado, <seg rend="italic"><seg type="foreign" xml:lang="fr">camembert</seg></seg> y,
                     detalle interesante, media botella de Roederer, recuerdo de la condesa, resago
                     de las campañas eróticas de Pablo, reliquias venerandas para mí de un esplendor
                     pasado:</p>
@@ -3758,8 +3639,7 @@
                     en un grito supremo de rabia y de protesta.</p>
                 <p>No, eso jamás, primero muerto, era más fuerte que ella, ¡no, no podía!...</p>
                 <p>-He estado oyéndote con religiosa atención, mi hijita, repuse después de haber
-                    concluido de mascar con toda calma mi último bocado de <seg rend="italic"><seg
-                            type="foreign" xml:lang="fr">camembert</seg></seg>, y no te oculto que
+                    concluido de mascar con toda calma mi último bocado de <seg rend="italic"><seg type="foreign" xml:lang="fr">camembert</seg></seg>, y no te oculto que
                     me has tenido seriamente preocupado.</p>
                 <p>Has dicho tantos despropósitos, has hablado de cosas tan disparatadas, de
                     abnegaciones, sacrificios y otros desatinos tan fuera del tiesto, tan poco en
@@ -3863,8 +3743,7 @@
                 <p>Reliquias de tiempos pasados, pensé después de recuerdos dulces de una edad
                     feliz.</p>
                 <p>Y los gratos solaces de la juventud porteña, las calles de Libertad, Temple y
-                    Corrientes, las academias, la ópera, el café de Pancho <seg rend="italic"><seg
-                            type="foreign" xml:lang="it">ed altri sitti</seg></seg> se me vinieron
+                    Corrientes, las academias, la ópera, el café de Pancho <seg rend="italic"><seg type="foreign" xml:lang="it">ed altri sitti</seg></seg> se me vinieron
                     entonces a la memoria.</p>
                 <p>¡Cuántos habremos así!</p>
             </div>
@@ -4053,8 +3932,7 @@
                 <p>Quebrantada y marchita, pero más linda aún en su quebranto, como la flor que,
                     arrancada de la planta, inclina el tallo embriagando con los efluvios de su
                     aroma:</p>
-                <p>-Estás flaca, hija y <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >défraîchie</seg></seg>, exclamé subiendo ambos al carruaje.- Se conoce
+                <p>-Estás flaca, hija y <seg rend="italic"><seg type="foreign" xml:lang="fr">défraîchie</seg></seg>, exclamé subiendo ambos al carruaje.- Se conoce
                     que has andado mal.</p>
                 <p>Me contestó con un movimiento de hombros como hubiera podido decir, ¡bah!</p>
                 <p>¿Cómo va tu hombre, proseguí, ha sanado de sus males?</p>
@@ -4105,8 +3983,7 @@
                 <p>¡Oh! no te acuso, no te hago un crimen de la cosa, no es cuestión de sentimientos
                     esta, sino de estómago, ¿y es acaso tuya la culpa si tus padres te echaron al
                     mundo munida de ese aparato esencial?</p>
-                <p>Otra en tu caso y especialmente otra como tú, no habría tenido <seg rend="italic"
-                            ><seg type="foreign" xml:lang="fr">rien de plus pressé</seg></seg> que
+                <p>Otra en tu caso y especialmente otra como tú, no habría tenido <seg rend="italic"><seg type="foreign" xml:lang="fr">rien de plus pressé</seg></seg> que
                     de <seg rend="italic"><seg type="foreign" xml:lang="fr">lâcher</seg></seg> al
                     señor don Pablo sobre tablas, agarrando sin más vueltas la calle del medio.</p>
                 <p>Tú has preferido ponerte bien con tu conciencia y te quedas y lo asistes y lo
@@ -4137,11 +4014,9 @@
                 <p>Claro que esas cosas no se curan como con la mano y que es necesario dar tiempo
                     al tiempo.</p>
                 <p>Pero ya verá cómo, con paciencia y baraja ha de salir a la orilla al fin.</p>
-                <p>Entretanto, ¿qué piensa hacer? Aquí no es bueno que se quede, la comida de <seg
-                        rend="italic"><seg type="foreign" xml:lang="fr">hôtel</seg></seg> no es para
+                <p>Entretanto, ¿qué piensa hacer? Aquí no es bueno que se quede, la comida de <seg rend="italic"><seg type="foreign" xml:lang="fr">hôtel</seg></seg> no es para
                     enfermos, ni se ha de poder asistir bien Vd. sino en su casa.</p>
-                <p>Haga lo siguiente: tómese un <seg rend="italic"><seg type="foreign" xml:lang="fr"
-                            >appartement</seg></seg> o, más bien, una casa entera para Vd. solo por
+                <p>Haga lo siguiente: tómese un <seg rend="italic"><seg type="foreign" xml:lang="fr">appartement</seg></seg> o, más bien, una casa entera para Vd. solo por
                     las alturas del <seg rend="italic">Parc Monceau</seg>.</p>
                 <p>Allí los dos con Loulou van a estar como gobierno. Tendrá el aire del parque
                     donde podrá ir a dar sus bravos paseos, y, lo que es mejor y más sólido, puchero

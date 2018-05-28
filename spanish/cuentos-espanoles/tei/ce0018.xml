@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -20,24 +21,24 @@
 			<extent>
 				<measure unit="lines">405</measure>
 				<measure unit="divs">13</measure>
-				<measure unit="words">23761</measure>
+				<measure unit="tokens">23761</measure>
 				<measure unit="chars">142129</measure>
 				<measure unit="size_kb">154</measure>
 
 				<measure unit="chapters">0</measure>
-				<measure unit="short-stories">11</measure>
+				<measure unit="short.stories">11</measure>
 				<measure unit="parts">2</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
 				<measure unit="blocks">363</measure> 
-				<measure unit="line_verses">0</measure> 
+				<measure unit="line.verses">0</measure> 
 				<measure unit="heads">13</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">350</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">53</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">53</measure> 
 				<measure unit="numbers">0</measure> 
 				<measure unit="puncts">4030</measure>
 			</extent>
@@ -65,58 +66,37 @@
 				<p>Luis Aguirre es un diplomático joven que tiene que viajar a Australia para ocupar el puesto de cónsul. La acción se sitúa en Gibraltar y ayuda al lector a conocer aquel lugar y sus alrededores con el habitual realismo propio del autor. Esperando el embarque conoce a Luna Benamor, judía residente en la ciudad, que nos ocupa, y pese a sus respectivas creencias se enamoran y comienzan un idilio intenso.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="low">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1867</term>
-					<term type="author-date-death">1928</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">23</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1909</term>
-					
+				<keywords scheme="keywords.xml" cert="low">
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.gender">male</term>
+					<term type="author.date.birth">1867</term>
+					<term type="author.date.death">1928</term>
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.litHist.pages" resp="MdL9">23</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.year.change">1909</term>
 
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">collection_short_stories</term>
-					<term type="subgenre" subtype="2"></term>
-					<term type="subgenre" subtype="1"></term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
 
-					<term type="narrative-perspective"></term>
-					<term type="setting"></term>
-					<term type="protagonist-gender">male</term>
+					<term type="text.publication">book</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">colección-cuentos</term>
 
-					<term type="subgenre-lithist"></term>
+					<term type="text.characters.protagonist.gender">male</term>
 
-					<term type="narrator"></term>
-					<term type="setting-type">land</term>
-					<term type="setting-name"></term>
-					<term type="setting-territory"></term>
-					<term type="setting-country"></term>
-					<term type="setting-continent"></term>
 
-					<term type="representation"></term>
-					<term type="protagonist-name"></term>
-					<term type="protagonist-profession"></term>
-					<term type="protagonist-social-level"></term>
-					<term type="time-period"></term>
-					<term type="time-span"></term>
-					<term type="group-text"></term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age"></term>
-					<term type="type-end"></term>
-					<term type="time-year">18??</term>
-					<term type="subgenre-edit" resp="epublibre">Drama</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
-</keywords>
+					<term type="text.setting.type">land</term>
+
+					<term type="authorText.relation">none</term>
+					<term type="text.time.year">18??</term>
+					<term type="text.subgenre.edit" resp="epublibre">Drama</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.litHist.pages">0.2</term>
+					<term type="text.TOC.range">1</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>

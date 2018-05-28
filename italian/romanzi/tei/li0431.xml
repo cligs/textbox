@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+			      <titleStmt>
+				        <title type="main">Eva</title>
+				        <title type="sub">title</title>
+				        <title type="short">title</title>
+				        <title type="idno">
+					          <idno type="viaf">title</idno>
+				        </title>
+				        <author>
+					          <idno type="viaf">18647</idno>
+					          <name type="short">author</name>
+					          <name type="full">Verga, Giovanni</name>
+				        </author>
+				        <principal xml:id="cf">Christof Schöch</principal>
+            <principal xml:id="kb">Katrin Betz</principal>
+			      </titleStmt>
+			<extent>
+				<measure unit="lines">1196</measure>
+				<measure unit="divs">49</measure>
+				<measure unit="words">28385</measure>
+				<measure unit="chars">168486</measure>
+				<measure unit="size_kb">190</measure>
+			</extent>
+			      <publicationStmt>
+				        <publisher>CLiGS</publisher>
+				        <availability status="free">
+               <ab>The files of the collection are  modifications of the corresponding text files from 'Liber
+                Liber'(https://www.liberliber.it/online/), which are provided with a Creative
+                Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
+                published under a Creative Commons BY-NC-SA 4.0 license. </ab>
+               <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
+                4.0</licence>
+            </availability>
+				        <date>2017</date>
+				        <idno type="cligs">li0431</idno>
+			         <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/romanzi/tei/li0431</idno>
+         </publicationStmt>
+			      <sourceDesc>
+				        <bibl type="digital-origin">
+					          <date>2015</date>, <idno/>, <ref target="http://www.liberliber.it/"/>.
+				</bibl>
+				        <bibl type="digital-source">
+					          <date> gennaio 1999</date>, <idno>dsource</idno>, <ref target="#"/>.
+				</bibl>
+				        <bibl type="print-source">
+					Una peccatrice ; Storia di una capinera ; Eva ; Tigre reale / Giovanni Verga ; introduzione e antologia critica di Giovanni Croci ; cronologia della vita dell'autore e dei suoi tempi e bibliografia a cura di Corrado Simioni. - Milano : A. Mondadori, 1970. - 441 p. : 1 c. di tav. ; 19 cm. &#x96; (Oscar ; 304) <date>1970</date>, <idno>unav.</idno>, <ref target="#"/>.
+				</bibl>
+				        <bibl type="first">
+					          <date>first</date>, <idno>first</idno>, <ref target="#"/>.
+				</bibl>
+			         <bibl type="first-edition">
+               <date when="1873"/>
+            </bibl>
+         </sourceDesc>
+		    </fileDesc>
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+					    <p>Headers, quotes and verse lines have been marked up. Chapter summaries following the
+                header are marked as 'ab' with @type='abstract'.</p>
+      </encodingDesc>
+        <profileDesc>
+            
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">it</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre">sentimental</term>
+                    <term type="text.narration.narrator">monodiegetic</term>
+                    <term type="text.time.century">800</term>
+                    <term type="text.translation">no</term>
+                    <term type="text.quality">1</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc xmlns:xi="http://www.w3.org/2001/XInclude">
+			      <change when="2015-11-21" who="cf">Initial TEI version.</change>
+		       <change when="2017-11-27" who="kb">Encoding of the front-body-back-structure, the
+                chapter-structure, lg, quotes and some metadata.</change>
+         <change when="2017-12-02" who="kb">Added some meta-data and some minor
+                corrections.</change>
+      </revisionDesc>
+    </teiHeader>
+    <text xmlns:xi="http://www.w3.org/2001/XInclude">
+      <front>
+         <div>
+    	       <head>Giovanni Verga</head>
+    	       <head>Eva</head>
+        </div>
+      </front>
+      <body>
+         <div>
+            <p>Eccovi una narrazione - sogno o storia poco importa - ma vera, com'è stata e come potrebbe essere, senza retorica e senza ipocrisie. Voi ci troverete qualcosa di voi, che vi appartiene, che è frutto delle vostre passioni, e se sentite di dover chiudere il libro allorché si avvicina vostra figlia - voi che non osate scoprirvi il seno dinanzi a lei se non alla presenza di duemila spettatori e alla luce del gas, o voi che, pur lacerando i guanti nell'applaudire le ballerine, avete il buon senso di supporre che ella non scorga scintillare l'ardore dei vostri desideri nelle lenti del vostro occhialetto - tanto meglio per voi, che rispettate ancora qualche cosa.</p>
+            <p>Però non maledite l'arte che è la manifestazione dei vostri gusti. I greci innamorati ci lasciarono la statua di Venere; noi lasceremo il "cancan" litografato sugli scatolini dei fiammiferi. Non discutiamo nemmeno sulle proporzioni; l'arte allora era una civiltà, oggi è un lusso: anzi, un lusso da scioperati. La civiltà è il benessere; ed in fondo ad esso, quand'è esclusivo come oggi, non ci troverete altro, se avete il coraggio e la buona fede di seguire la logica, che il godimento materiale. In tutta la serietà di cui siamo invasi, e nell'antipatia per tutto ciò che non è positivo - mettiamo pure l'arte scioperata - non c'è infine che la tavola e la donna. Viviamo in un'atmosfera di Banche e di Imprese industriali, e la febbre dei piaceri è la esuberanza di tal vita.</p>
+            <p>Non accusate l'arte, che ha il solo torto di avere più cuore di voi, e di piangere per voi i dolori dei vostri piaceri. Non predicate la moralità, voi che ne avete soltanto per chiudere gli occhi sullo spettacolo delle miserie che create, - voi che vi meravigliate come altri possa lasciare il cuore e l'onore là dove voi non lasciate che la borsa, - voi che fate scricchiolare allegramente i vostri stivalini inverniciati dove folleggiano ebbrezze amare, o gemono dolori sconosciuti, che l'arte raccoglie e che vi getta in faccia.</p>
+         </div>
+         <div>
+            <p>Avevo incontrato due volte quella donna - non era più bella di tutte le altre, né più elegante, ma non somigliava a nessun'altra. - Nei suoi occhi c'erano sguardi affascinanti, come il corruscare di un'esistenza procellosa che era piena di attrattive. - Tutti gli abissi hanno funeste attrazioni, e quelle voragini che ingoiano la giovinezza, il cuore, l'onore, si maledicono facilmente, ahimè! quando arriva la filosofia dei capelli bianchi. - Era bionda, delicata, alquanto pallida, di quel pallore diafano che lascia scorgere le vene sulle tempie e ai lati del mento come sfumature azzurrine; aveva gli occhi cerulei, grandi, a volte limpidi, quando non saettavano uno di quegli sguardi che riempiono le notti di acri sogni; aveva un sorriso che non si poteva definire - sorriso di vergine in cui lampeggiava l'imagine di un bacio. Ecco che cosa era quella donna, quale si rivelava in un baleno, fuggendovi dinanzi nella sua carrozza come una leggiadra visione, raggiante di giovinezza, di sorriso e di beltà. - In tutta la sua presenza c'era qualcosa come una confidenza fatta al vostro orecchio con labbra tiepide e palpitanti, che vi rendeva possibile il sognare le sue carezze, e farci su mille castelli in aria. Non era soltanto una bella donna - certe altezze non attraggono appunto perché sono inaccessibili. - L'ammirazione che ella destava assumeva la forma di un desiderio; c'era nei suoi occhi qualche cosa come un sorriso e una promessa che faceva discendere la dea dal suo cocchio superbo - o piuttosto vi metteva accanto a lei, e faceva correre il vostro pensiero alle cortine della sua alcova, e ai viali più ombreggiati del suo giardino.</p>
+            <p>Si chiamava Eva, o almeno si faceva chiamare così, e quel nome era forse un epigramma. Tutti conoscevano la sua vita un po' più in là del palcoscenico della Pergola, e, forse meglio di tutti, le dame del gran mondo che parlavano di lei celandosi dietro il ventaglio. Nessuno ne sapeva più di un altro. Era l'apparizione di un astro in mezzo alla splendida società fiorentina, una febbre di giovanotto fatta donna.</p>
+            <p>L'avevo incontrata due volte, e non mi era sembrata la stessa donna, forse per le diverse disposizioni d'animo in cui mi ero trovato; e forse anche per ciò che era rimasta in me più viva e profonda l'impressione di lei. La prima volta la vidi pel Lungarno, in un elegante legnetto, e guidava una bella pariglia di cavalli inglesi; aveva il sorriso negli occhi più che nelle labbra, ed era una cert'aria graziosa ed ardita in tutta la sua persona che vedendola faceva sorridere di piacere. Io ero triste, senza saperne il perché, forse per non avere meglio da fare, e macchinalmente la seguii cogli occhi e col pensiero - e il pensiero corse lontano verso tutte le ridenti follie del cuore. Un'altra volta la incontrai alle Cascine, in uno di quei viali che nessuno frequenta. Quel mattino il mio cuore faceva festa - domeniche gioconde dei venticinque anni che non tornano più! - Il sole splendeva, ed il sorriso brillava negli occhi di Vittorina - larva di un di quei giorni in cui si prodiga tanta parte di cuore come se non dovessero tramontare giammai - fantasma di un'ora felice che si dimentica prima ancora che sia trascorsa, - nello stesso modo che ella avrà dimenticato persino il mio nome, o lo rammenterà come io adesso mi rammento del suo, a proposito di qualche cosa che allora ci passò sotto gli occhi senza che ce ne avvedessimo. Il viale era deserto, gli uccelli cinguettavano fra gli alberi, e i rami sussurravano lieve lieve, intrecciando mollemente le loro ombre in bizzarri disegni sulla ghiaia del viale. Noi non si parlava certamente dell'ultimo fascicolo dell'Antologia. Vittorina era allegra, cantava, rideva e il riso la faceva bella. Io guardavo ed ascoltavo. Quando il nostro fiacre passò accanto ad un bellissimo legno, che stava fermo in mezzo al viale, vidi, attraverso il cristallo scintillante, una testolina bionda, come una rosea visione, incorniciata dall'imbottitura di seta della carrozza. Ella ci volse uno sguardo, un solo sguardo limpido come l'azzurro dei suoi occhi, ma disattento, anzi noncurante, uno di quegli sguardi che vi affissano in volto senza vedervi, e tornò a chinare gli occhi sul libro.</p>
+            <p>Vittorina chinò il capo e ammutolì, come se quella bionda e leggiadra visione fosse sempre lì, fra di noi, seduta sui cuscini della nostra carrozza.</p>
+         </div>
+         <div>
+            <p>La rividi anche mascherata ad un veglione della Pergola. La folla si apriva sussurrante davanti a lei, e sguardi bramosi l'accompagnavano come se indovinassero la sua bellezza soltanto a quello stivalino arcuato e a tacchi alti che si posava da padrone sul tappeto. Io l'avevo vista un momento a viso scoperto, mentre discendeva da una carrozza di cui i fanali scintillavano come due stelle, sollevando arditamente la veste sul marciapiede con quella altera civetteria che non si cura dello sguardo indiscreto, o gli getta come una limosina l'onda vaporosa della battista e il lucido riflesso dello stivalino. La rividi in mezzo alla folla, accompagnata da un elegante trovatore che le dava il braccio, e seguita sempre da vicino o da lontano da un arlecchino, con tanta insistenza che tutti la notavano. Ella passava sorridente sotto la sua maschera - aveva un sorriso incantevole - e ogni volta che l'arlecchino l'incontrava le ripeteva la sciocca domanda solita: "Ti diverti, mascherina?" Ed essa rideva, rideva allegramente; e ridendo imporporava il basso delle sue guance, quel po' che se ne poteva vedere. Una delle volte mi trovavo fra un crocchio d'amici, e si fece largo davanti a quella regina che passava.</p>
+            <p>L'arlecchino la seguiva sempre, come un cane allampanato colla coda attaccata al ventre e l'occhio bramoso intento al tozzo di pane che indovina nella tasca del padrone; e ripeteva il suo ritornello col tono afflitto di un cane che ustoli. Allora la bella mascherina, che non ne poteva più, si strinse nelle spalle con molta grazia, e gli gettò in faccia una parola sola, voltandosi dall'altra parte:</p>
+            <p>"Noioso!"</p>
+            <p>Noi ridevamo come matti. L'arlecchino si era fermato ritto, immobile, con certi occhi che gettavano fiamme da sotto la maschera; e senza badare a quelle risa, o senza accorgersene, esclamò, obliando di contraffare la sua voce:</p>
+            <p>"Ah! è lei!"</p>
+            <p>E si allontanò.</p>
+            <p>Il veglione era animatissimo. Si vedeva anche qualche domino elegante quasi smarrito in mezzo alla folla. Fra il chiasso e la calda atmosfera s'indovinava come un fiore di serra o di salone che passava, al profumo, al fruscio particolare della veste, a certe leggiadre esitazioni, al guanto grigio che si stringeva timidamente alla manica di una giubba. Però la bella mascherina e il suo trovatore non si vedevano più; erano forse partiti. Verso le due vedemmo bensì l'arlecchino tutto solo, grullo, smarrito, volgendo di qua e di là occhiate da matto. Dava e riceveva colla stessa indifferenza spintoni da orbo. Sembrava ubbriaco fradicio. Quei giovanotti, come lo videro, scoppiarono a ridere fragorosamente, gridandogli dietro:</p>
+            <p>"Uh! Noioso!"</p>
+            <p>Egli si fermò, li guardò con quell'aria stralunata, e sorrise stupidamente.</p>
+            <p>"Sì, sono noioso" disse sotto la maschera una voce che senza sapere il perché ci fece trasalire "come le tue liriche, come i tuoi drammi storici, come i tuoi quadri di genere, come il tuo spirito di buona compagnia, come le tue fiabe."</p>
+            <p>Quest'ultimo complimento era diretto a me, sebbene non avessi aperto bocca, e i miei amici avevano preso ciascuno il suo con più o meno garbo, credendosi obbligati a ridere.</p>
+            <p>"Mi conosci?" gli dissi.</p>
+            <p>"Lo vedi."</p>
+            <p>"Non c'è che dire, hai dello spirito."</p>
+            <p>"Sì, delle volte, a tavola. vogliamo andare a tavola?"</p>
+            <p>"Ci offri da cena?" domandò il conte C***.</p>
+            <p>"No, vi offro di scommettere a chi la pagherà."</p>
+            <p>"Benissimo! e che scommessa?"</p>
+            <p>"Scommetto che darò un bacio a quella mascherina accompagnata dal trovatore."</p>
+            <p>"Eh!"</p>
+            <p>"Ti gira?"</p>
+            <p>"Una cena di mille lire", disse l'arlecchino senza scomporsi. Nessuno gli rispose. Lo credevamo matto.</p>
+            <p>"Sembra che le tue scommesse non ispirino gran fiducia", disse il poeta.</p>
+            <p>L'arlecchino lo guardò colla medesima calma, resa grottesca dall'aria impassibile della maschera, e rispose:</p>
+            <p>"Diamo in pegno il denaro."</p>
+            <p>"A te?"</p>
+            <p>"No..." rispose senza dar retta al motteggio. Mi affissò un istante, e soggiunse: "Ecco le mie cinquecento lire."</p>
+            <p>Quella preferenza mi sorprese. "Ti conosco?" gli domandai.</p>
+            <p>"Non so, ma mi hai conosciuto."</p>
+            <p>"Dove?"</p>
+            <p>"A Catania."</p>
+            <p>Cercai inutilmente di leggere sotto la sua maschera. Egli si levò il berretto con comica gravità e ci disse:</p>
+            <p>"Prima che finisca il veglione."</p>
+            <p>"Ma s'è partita?" disse Arturo.</p>
+            <p>"Non è partita" rispose semplicemente l'arlecchino, e ci volse le spalle.</p>
+            <p>Egli era tutt'altro che stupido o ubbriaco; e l'imbarazzo del nostro silenzio lo confessava chiaramente.</p>
+            <p>Che cos'era dunque?</p>
+         </div>
+         <div>
+            <p>M'aggiravo a casaccio fra le maschere, ora spingendo, ora spinto, allorché sentii tirarmi per le falde dell'abito. Era di nuovo l'arlecchino, colla stessa aria d'imbecille. Egli mi disse:</p>
+            <p>"Vuoi venire con me?"</p>
+            <p>"Dove?"</p>
+            <p>"In palco."</p>
+            <p>"Andiamo pure", risposi, curioso di sapere chi fosse.</p>
+            <p>Egli prese il mio braccio, mi fece salire al terz'ordine, e aprì un palco.</p>
+            <p>Entrando si tolse la maschera, mi guardò un attimo e mi domandò:</p>
+            <p>"Mi riconosci?"</p>
+            <p>Avevo visto un volto pallidissimo, assai magro, con gli occhi luccicanti, come per febbre, e incavernati in un'orbita accerchiata di livido, con certi baffetti biondi appena visibili, e le labbra pallide.</p>
+            <p>"No" risposi "Non ti riconosco."</p>
+            <p>Egli sorrise tristemente. "Ah!" esclamò, "son molto cambiato!... Enrico Lanti."</p>
+            <p>"Infatti... adesso mi rammento..."</p>
+            <p>"Fummo a scuola insieme. Tu avevi una giacchetta coi bottoni dorati ch'era la tua disperazione, perché tutti ti canzonavano. Io ero così grasso che mi chiamavano badduzza; ti rammenti?"</p>
+            <p>"Sì."</p>
+            <p>"Adesso non son più badduzza!" diss'egli; e l'accento contrastava stranamente con la parola.</p>
+            <p>"È vero, sei molto cambiato."</p>
+            <p>Egli tossì due o tre volte e non rispose.</p>
+            <p>Il silenzio si prolungava troppo; per dire qualche cosa gli domandai se egli fosse da molto tempo in Firenze.</p>
+            <p>"Da due anni" rispose.</p>
+            <p>"Sei pittore, mi sembra."</p>
+            <p>"Sì." mi disse, con un sorriso che non dimenticherò mai più.</p>
+            <p>E dopo un istante:</p>
+            <p>"Anche tu hai la malattia dell'arte!"</p>
+            <p>"La malattia?"</p>
+            <p>"Vuoi chiamarla follia?" diss'egli con lo stesso sorriso amaro. "Non discutiamo sulle parole: è una malattia del cervello o del cuore, non mi picco gran fatto di fisiologia - ma so ch'è un gran malanno... Vedi, non son più badduzza... ed ho la febbre."</p>
+            <p>Si tolse il guanto e mi porse la mano, che scottava.</p>
+            <p>"Ma tanto meglio!" riprese con lo stesso tono, ridendo sempre in modo strano. "Ti ho cercato appunto per questo. Avevo bisogno di uno come te... Tu non mi riderai in faccia almeno... Ed io non voglio che si rida di me!..."</p>
+            <p>Gli occhi gli brillavano febbrilmente, e parlava concitato assai. Incominciai a temere che fosse matto sul serio.</p>
+            <p>Tutt'a un tratto egli mi domandò bruscamente:</p>
+            <p>"Andrai in Sicilia?"</p>
+            <p>"Forse."</p>
+            <p>"Conosci la mia famiglia?"</p>
+            <p>"No"</p>
+            <p>"La conoscerai" soggiunse "son brava gente; non son signori, ma potrai stringer loro la mano francamente... e parlar di me... Non dire di cotesta scommessa però, e in caso di disgrazia non dire come sono morto... La mia povera mamma piangerebbe anche la perdita dell'anima mia... Dì che son morto di tifo, di miliare, in buona casa - ché in Sicilia l'idea dell'ospedale stringe il cuore - e che sono stato assistito dagli amici fino all'ultimo momento..."</p>
+            <p>"Ma che discorsi mi fai!"</p>
+            <p>Egli mi guardò sorpreso, come se avessi rotto il filo logico di premesse ben stabilite, e rispose tranquillamente:</p>
+            <p>"Ma io potrei anche essere ucciso invece di uccidere."</p>
+            <p>E ne parlava con calma sinistra.</p>
+            <p>"Che?..."</p>
+            <p>"Tò! non ti rammenti della scommessa?"</p>
+            <p>Allora il vero scopo di quella follia mi balenò in mente nudo e minaccioso.</p>
+            <p>"Ti batterai?"</p>
+            <p>"Oh!!" esclamò con un sorriso indefinibile che era quasi lugubre su quel volto cadaverico.</p>
+            <p>"Odii quell'uomo?"</p>
+            <p>"Sì" mormorò coi denti stretti, "e l'ucciderò!"</p>
+            <p>"Per colei?"</p>
+            <p>"Sì!"</p>
+            <p>"L'ami!"</p>
+            <p>Egli trasalì.</p>
+            <p>"La odio! La disprezzo! Vorrei morderla, vorrei schiaffeggiarla!... vorrei pestarmela sotto i piedi!"</p>
+            <p>Tossì di nuovo e soffocò la tosse col fazzoletto. Questa volta lo sforzo fu così violento che egli chiuse gli occhi, e sulle sue guance pallidissime passarono certe fiamme di malaugurio. Allorché riaprì gli occhi mi sembrò di vedere un cadavere. Egli mi disse con voce intieramente mutata da un istante all'altro:</p>
+            <p>"Tu lo vedi, se non muoio di spada morrò di qualche altra cosa. Ma non penso a ciò che per i miei poveri genitori, e per la mia sorellina... Stringendo la tua mano mi sembra di stringermi al cuore quei poveretti che saranno tanto afflitti...Ecco perché ho voluto parlarti. Non è vero che in certi momenti, quando siamo molto lontani dalla famiglia, proviamo delle strane tenerezze per le persone che ce la rammentano, o che hanno il più lontano rapporto con essa?"</p>
+            <p>"Mio caro... tu esageri..."</p>
+            <p>"Io esagero?" rispose con lo stesso sorriso. "Va' a chiederlo ai medici di Santa Maria Nuova se esagero... o vieni alle Cascine fra le sei e le sette..."</p>
+            <p>"Cotesto duello è dunque inevitabile?"</p>
+            <p>Egli mi guardò sorpreso.</p>
+            <p>"A meno che il conte non prenda in santa pace la scommessa."</p>
+            <p>"Quale conte?"</p>
+            <p>"Il conte Silvani, il trovatore."</p>
+            <p>"Ma puoi anche uscirne vincitore..."</p>
+            <p>"Perbacco!" esclamò con sinistro entusiasmo. "Lo so!"</p>
+            <p>"Ma adesso hai la febbre. Non vorrai aspettare qualche altro giorno?"</p>
+            <p>"La febbre non mi lascia mai. Ma che importa!... Anzi!... Vedi che il pugno trema!..." e lo guardava con triste soddisfazione. "Vedrai come ci starà bene la spada!"</p>
+            <p>"E la tua famiglia?"</p>
+            <p>"Povera mamma!" diss'egli passandosi il guanto sugli occhi.</p>
+            <p>"Non vorrai vederla?"</p>
+            <p>"No!... No!..." ripeté dopo un breve silenzio in tono tutto diverso e afferrandomi le mani. "Non ne ho il coraggio."</p>
+            <p>Le lagrime gli luccicavano nell'orbita, e sentii che quelle lagrime mi toccavano il cuore.</p>
+            <p>"Se sapessi come sono fatti gli occhi della madre che ti affissano in volto in certi momenti e ti chiedono certe cose!... Se sapessi!" mormorò come parlando fra di sé.</p>
+            <p>Tutt'a un tratto sentii trasalire le sue mani nelle mie.</p>
+            <p>"Guarda!" esclamò. "La vedi?... Lei!... Non è bella?" mi domandò Enrico seguendola tra la folla con gli occhi ardenti.</p>
+            <p>"Oh!"</p>
+            <p>"Se tu la vedessi senza maschera!..."</p>
+            <p>"L'ho vista."</p>
+            <p>"Ah! tu la conosci! Ella ti ha gettato la fiamma del suo sguardo... anche a te!.. Non è vero che farebbe commettere tutte le pazzie?..."</p>
+            <p>Essa scomparve verso la porta. Enrico era rimasto sempre con gli occhi fissi dov'ella non era più, e le scagliò dietro una parola infame come un'imprecazione.</p>
+            <p>"Ah! Ah!" sogghignò con un riso che voleva essere allegro ed era tristissimo. "Se tu sapessi che cosa ho fatto per colei!" e si torceva le mani. "Tu riderai di me, eh?"</p>
+            <p>"Oh, no! Ti compiango."</p>
+            <p>"Non voglio della tua compassione!" mi disse bruscamente.</p>
+            <p>Poscia, come pentito, e stringendomi la mano:</p>
+            <p>"Se tu sapessi come mi sento spregevole e vile!... come mi disprezzo! Dimmi," soggiunse dopo una breve esitazione, piantandomi in volto due occhi luccicanti come quelli di un pazzo, "voglio domandarne a te che ti occupi di coteste orribile malattie... Dimmi come possono farsi di tali cose per una donna che si disprezza, che si odia... Dimmi come pur sputandole in faccia tutto quest'odio e questo disprezzo si possa morire per lei, si possa sacrificarle l'onore, la vita, la famiglia, la giovinezza, l'arte, tutte le cose che sorridono e che si amano, per abbeverarsi del fiele dell'amore di lei... Dimmi come accada tutto ciò...E dimmi che nei miei panni tu avresti fatto come me, e saresti vile e spregevole del pari!...Oh dimmi questo!...ché mi sembra di impazzire!...Vuoi che io ti narri questa storia...vuoi?..."</p>
+            <p>"Sì!" gli dissi sentendomi invadere dalla sua commozione.</p>
+         </div>
+         <div>
+            <p>"Ma bisogna che ti dica quello che ero per farti comprendere quel che sono diventato. Ero un genio in erba, una speranza dell'arte italiana, coi capelli lunghi e il cappellaccio alla Rubens; abitavo all'ultimo piano di una vecchia casa in Santo Spirito che il vento, d'inverno, sembrava far traballare sulle fondamenta, e desinavo a cinquantacinque lire al mese. Però in tutte coteste cose ci mettevo, direi, tanta buona fede, che le rendevo quasi rispettabili. Il mio paese mi pagava una pensione, allo scopo di aumentare il numero dei suoi grandi uomini. I miei professori ed i miei colleghi mi tenevano in gran conto, - è vero che c'era poco da fidarsi di loro che avevano in corpo le stesse magagne, ma chi ci avrebbe rinunciato? - Il pubblico ed i giornali mi bruciavano sotto il naso tutti gli stimolanti della vanagloria. Ebbene, chi sarebbe stato più forte di me scagli la prima pietra... Io battezzai pomposamente la mia vanità; la chiamai amore dell'arte, e presi sul serio i miei capelli lunghi e tutte le altre belle cose. Ero contento di passeggiare per le vie di Firenze, come se andassi a braccetto con Raffaello o con Michelangelo. Mi pareva di respirare l'arte a pieni polmoni; e avevo in cuore tutti gli entusiasmi, le antipatie, gli affetti della mia illusione. Vivevo come in un'atmosfera del Cinquecento che mi rendeva idolatra dei palazzi anneriti dal tempo, delle gronde sporgenti e malinconiche, e delle acque torbide dell'Arno... In fede mia!" aggiunse con un ghigno amarissimo "non avevo ancora pensato all'ospedale e al camposanto..."</p>
+            <p>Tacque e si passò a più riprese la mano sulla fronte, come per scacciarne molesti pensieri o la commozione che lo vinceva.</p>
+            <p>"Follie! si!" mormorò dopo qualche istante quasi parlasse fra di sé.</p>
+            <p>"Sei certo di non sbagliarti giudicando così dei sentimenti umani?"</p>
+            <p>"Oh, no...Nessuno potrebbe avere cotesta sicurezza... poiché non ci sono sentimenti veri."</p>
+            <p>"Eh?!"</p>
+            <p>"Quistione d'ottica, mio caro. Io chiamo follie quelli che tu chiami nobili affetti," rispose con cinismo amarissimo "perché... perché mi hanno ridotto quale mi vedi... - Quanto guadagni con la tua arte?" soggiunse dopo un breve silenzio, appoggiando l'accento in modo ironico sull'ultima parola.</p>
+            <p>La domanda era così brusca e brutale che lo guardai sorpreso. Egli scoppiò a ridere. "Lo vedi," mi disse, "ti vergogni a dirlo! Adunque sei un pazzo vanitoso, il peggiore."</p>
+            <p>Ero disgustato da quell'affettazione, e gli risposi secco secco:</p>
+            <p>"Io mi contento di non mischiare del danaro in certe idee."</p>
+            <p>"Bella frase!" disse senza scomporsi. "Un tempo mi sarebbe parsa anche una nobile risposta. Ma, amico mio, in un'epoca in cui le più vive ambizioni dell'uomo, ed i più seri sforzi della sua attività hanno uno scopo positivo - arricchire - la logica ha il difetto di non prestarsi alle ipocrisie, - confesserai anche tu che le tue idee, nelle quali non vuoi mischiare del danaro, non valgono nulla...Cioè... no!... Valgono a gettarti fra i piedi di cotesta gente, laboriosa perché è assetata di donne e di vino. - E cotesta gente, che si affretta verso la Borsa, riderà di te, ubbriaco in pieno giorno delle sue passioni. - ché anche tu vivi nella medesima atmosfera, e la bevi avidamente, perché il tuo cervello e i tuoi nervi sono in uno stato di esaltazione morbosa. - E la folla ti schernirà, finché arriva una pietosa guardia urbana che ti conduce in prigione in nome della moralità, o ti chiude nel manicomio."</p>
+            <p>Egli si tacque per esaminare trionfante l'effetto della sua eloquenza da pessimista.</p>
+            <p>"Che cosa mi rispondi?" domandò sorpreso del mio silenzio.</p>
+            <p>"Che hai veramente il cuore ammalato."</p>
+            <p>"Sarà anche vero. Già te l'ho detto che è quistione d'ottica, ed io non pretendo all'infallibilità."</p>
+            <p>"E ti credo molto sventurato."</p>
+            <p>"Sì! Sì!" accennò col capo, e sembrava commosso; indi soggiunse: "È pure una gran sventura quella di perdere certe illusioni... certe follie... care follie che riempivano di rosei sogni la mia cameretta al terzo piano!...E poi, che resta quando esse son svanite?..."</p>
+            <p>"Tu lo vedi!"</p>
+            <p>"Sì! ci dev'esser qualcosa di vero in coteste illusioni che spalancano il cuore a due battenti verso tutto quello che è nobile e bello!..." esclamò lasciandosi dominare dalla commozione. E poscia come pentitosi, rifacendosi scuro in volto: "Ma è poi vero che sia nobile e bello ciò che mi è parso anche ridicolo un giorno?..."</p>
+            <p>"Un giorno di febbre o di sconforto!.."</p>
+            <p>"Potresti assicurarmi quali sieno i giorni di sereno, per giudicare con esattezza dei sentimenti, tu che hai amato e odiato la stessa cosa, che ne hai pianto e riso nel medesimo giorno?" domandò con quel sorriso che voleva sembrar cinico ed era una contrazione dolorosa del suo cuore. E lasciando più libero varco alla sua amarezza mormorò: "Non c'è altro di vero che la modificazione dei nostri nervi o la temperatura del nostro sangue".</p>
+            <p>"La tua scienza è desolante! È la scienza del nulla!"</p>
+            <p>"È vero!"</p>
+            <p>"Non hai ma pensato alla tua famiglia?"</p>
+            <p>Egli trasalì e si fece pallido; accennò due o tre volte a voler parlare, e le labbra gli tremavano.</p>
+            <p>"Io l'ho abbandonata per correre dietro a quelle larve!" mormorò con voce soffocata. "E allora ho dovuto chiedermi quale di cotesti due affetti fosse il vero, se il più forte o il più puro...È stato un gran dolore!...Ma il dolore è una debolezza, non è una verità...e dei due affetti sai quale ha vinto...nel mio cuore entusiasta e vergine?... ha vinto il più turpe; ha vinto il sensuale nella mia anima che viveva in un mondo ideale...Ora dimmi tu le tue frasi sonore; io ti getterò fra i piedi i fatti eloquenti."</p>
+         </div>
+         <div>
+            <p>Io non avevo mai amato, o almeno cotesto sentimento che era sparso in tutto il mio essere non si era incarnato in una figura di donna. Ero superbo della mia arte, superbo di me che la sentivo degnamente, e ciò mi rendeva quasi geloso di me medesimo. I miei sogni erotici non erano mai scesi più giù di una duchessa, cui prestavo gratuitamente tutti i miei entusiasmi, e piedi che non si erano mai posati sul lastrico delle vie, e mani che nessuno aveva mai visto senza guanti, all'infuori di me. E aspettando la duchessa che non veniva, io facevo all'amore coi miei quadri, sognavo i capelli biondi della cameriera che spolverava le tende della finestra di faccia alla mia - i soli capelli - o le linee graziose degli omeri della modista che vedevo tutti i giorni dietro la vetrina in via Rondinelli. Nella comprensione dell'arte c'è una squisita sensualità; la bellezza plastica che compenetravasi nel bello ideale aveva per me certi affascinamenti, ancora verginali ma potentissimi.</p>
+            <p>La mia vita scorreva serenamente in un mondo che m'ero creato colla mia fantasia. Non avevo mai rivolto un solo sguardo di desiderio su quei piaceri di una grande città che mi passavano sotto gli occhi, sebbene ad una certa distanza, e come in una nube; oppure se ne avevo provata la curiosità, con un amaro sentimento di privazione, m'ero rifugiato nella mia arte come nelle braccia di un'amante. Il mio più grande divertimento era quello di andare a teatro la domenica. Avrei preferito, è vero, quegli spettacoli che parlano più vivamente all'immaginazione, come l'opera in musica ed il ballo; ma erano spettacoli che costavano cari, e in ciascun mese ci son quattro o cinque domeniche - troppo lusso per un bilancio di centocinquanta lire.</p>
+            <p>Ora se ti dirò che senza fare un buco nel mio bilancio io non avrei fatto uno strappo nel mio cuore, che se una domenica non fossi andato alla Posta per riscuotere un vaglia non avrei visto forse il cartellone della Pergola; e se non avessi finito il giorno innanzi un lavoro di cui ero soddisfattissimo, e il sole di quella domenica non mi fosse perciò sembrato in festa come il mio cuore, io avrei visto il cartellone senza pensare a fare un buco nel mio bilancio, tu mi darai del fatalista... Farai come tutti gli altri, ti sbarazzerai con una parola di un esame increscioso.</p>
+            <p>Andai dunque alla Pergola di buon'ora per trovare un posto in platea; e lì, nella semi-oscurità, col mio paletò piegato sulla spalliera, l'ombrello fra le gambe, il cappello sull'ombrello, l'occhio intento, stavo a godermi il mio biglietto d'ingresso esaminando tutto, le dorature dei palchi, il leggio del suggeritore, i lumi della ribalta, e soprattutto l'ora che segnava l'orologio.</p>
+            <p>I palchetti si andavano popolando di belle signore, - almeno avevano indosso tanti fiori, e gemme, e nastri, e bianco, e rosso, che nella mezza luce sembravano tutte belle. Degli uomini poi ce n'erano così ben vestiti e così ben rasi, e colle testine così ben pettinate, ricciutelle e lucide, che quelle belle donne dovevano al certo guardarli con tanto d'occhi spalancati, come io guardavo loro, e istintivamente mi nascondevo le mani nude sotto il cappotto.</p>
+            <p>Squillò un campanello; un'onda di luce invase quella splendida sala, e incominciò la rappresentazione. Io ascoltavo, guardavo, tutto commosso e rimpicciolito nel mio cantuccio; il mio entusiasmo non si manifestava altrimenti che come una gran soddisfazione di aver ben impiegato le mie tre lire. Avevo comprato per tre sole lire un tesoro di emozioni. Costruivo un paradiso di matte aspirazioni, di sogni e ne cercavo il riflesso negli occhi scintillanti di quelle belle dame. - E quando le vedevo parlare e ridere sbadatamente, agitando il ventaglio o aggiustando il fisciù, provavo una molesta sensazione, e mi scuotevo bruscamente, come se m'avessero svegliato di soprassalto da un sogno delizioso.</p>
+            <p>Vedi, mio caro, quante belle cose ci sono in tre lire per uno spettatore novizio?</p>
+            <p>Alcuni istanti prima del ballo corse per la folla un mormorio di aspettazione. Io sentivo come allargarmisi il cuore, e aggiustavo macchinalmente il mio cappello sull'ombrello. Improvvisamente apparve una scena incantata, riboccante di suoni, di luce, di veli e di larve seducenti che turbinavano nelle ridde più voluttuose - come una fantasmagoria di sorrisi affascinanti, di forme leggiadre, di occhi lucenti e di capelli sciolti. Poi, quando quella musica fu più delirante, quando tutti gli occhi erano più intenti, e tutti gli occhialetti si affissavano bramosi sulla scena, corse un nuovo susurrio: "Eva! Eva!" e in mezzo a un nembo di fiori, di luce elettrica, e di applausi, apparve una donna splendente di bellezza e di nudità, corruscante febbrili desideri dal sorriso impudico, dagli occhi arditi, dai veli che gettavano ombre irritanti sulle forme seminude, dai procaci pudori, dagli omeri sparsi di biondi capelli, dai brillanti falsi, dalle pagliuzze dorate, dai fiori artificiali. Diffondeva un profumo di acri voluttà e di bramosie penose. Guardavo stupefatto, colla testa in fiamme e vertiginosa. Provavo mostruosi desideri, e invidie, e scoramenti, e alterezze per la mia arte che sentivo abbassarsi sino ai miei desideri, e pel mio ingegno che mi pareva si elevasse sino a guardarla a faccia a faccia, l'arte; e in fondo a tutto questo, un amaro rammarico di trovarmi in quel meschino posto di platea e senza guanti. Poi tutta quella visione scomparve in un lampo di luce e in un'onda di musica. Tutto tornò buio. Rimasi ancora sognando, con quei suoni negli orecchi e quelle larve davanti agli occhi. Mi alzai quando gli altri si alzavano; uscii barcollando, urtando nel vestibolo tante belle signore, e calpestando tante code, rischiando venti volte di gettarmi sotto i piedi dei cavalli in istrada. Quella notte non potei dormire; mi sentivo come se avessi tutti i nervi agitati; avevo bisogno di sfogarmi in qualche modo delle mie impressioni, e giacché mi parve che il pennello non avrebbe potuto esprimerle tutte, mi misi a scrivere... un vero delirio, un sogno da febbricitante, però senza pretese, e senza altro scopo che quello di accenderne il fuoco quando avrei avuto freddo.</p>
+            <p>Ahimè! la stagione era mite; il caldo del cuore durava ancora troppo per lasciar sentire il freddo alle membra, - ecco perché quello scritto che non raggiunse il suo scopo di comunicare la fiamma alle fascine del caminetto arse il mio cuore e consunse la mia vita.</p>
+         </div>
+         <div>
+            <p>Un mio amico, appendicista molto conosciuto, veniva spesso a trovarmi - eravamo giovani, artisti, entusiasti, matti del pari - Si fumava spesso la pipa insieme e digerivamo la gloria di là da venire. Il mio cuore, o piuttosto la mia immaginazione, aveva bisogno di espandersi. Gli parlai delle impressioni ricevute con tanto calore che egli volle leggere il mio scritto e lo trovò bello. "Dammelo," mi disse "voglio farti amare da quella donna."</p>
+            <p>"Eh?!" risposi come sbalordito da quell'enormità.</p>
+            <p>"Che ci trovi d'impossibile? La donna è così vana! E la ballerina ha tanto bisogno di simili entusiasmi che le facciano la reclame e si comunichino agli altri!"</p>
+            <p>"Oh! amarmi! Lei... amar me!... Sei matto!"</p>
+            <p>"Chi lo sa! E poi mi renderai un servigio; mi risparmierai buona parte dell'appendice teatrale che dovrei scrivere. Il tuo articolo è proprio bello; me ne farò onore."</p>
+            <p>E lo portò via infatti, e la sera dopo trovai in camera il giornale ed una letterina del mio amico.</p>
+            <p>" Non te l'avevo detto? " mi scriveva, " il tuo articolo ha fatto furore. Eva desidera conoscerti. Stasera trovati in teatro, ti presenterò. "</p>
+            <p>Provai come una fitta al cuore. Presentarmi a lei!... io!... così fatto!... a quella bellezza circondata da tante seduzioni, da tanti splendori, che non aveva nulla di terreno!... proprio io!...E in me successe una lotta di mille pensieri diversi, e l'intima soddisfazione ch'ella avesse letto il mio articolo, avesse scorto una parte del mio cuore, e ne fosse lieta... e la ripugnanza di svelare al pubblico e a lei stessa il segreto delle mie impressioni, e il timore che esse fossero giudicate ridicole... Se ella mi trovasse ridicolo?...</p>
+            <p>Non ebbi neanche un istante il coraggio di pensare ad accettare quell'invito. Eppure ero felice, tutto solo nella mia cameretta, fantasticando cogli occhi fissi sulla fiamma del caminetto.</p>
+            <p>A un tratto fu suonato il campanello con violenza. Io mi scossi bruscamente. Udii nell'andito la voce di Giorgio. "E così," mi disse entrando, "che cosa fai? Non hai ricevuto il mio biglietto?"</p>
+            <p>"Si, ma..."</p>
+            <p>"O dunque?"</p>
+            <p>"Ma non verrò... Non posso venire..."</p>
+            <p>"Eh! che diavolo! Ora che ho promesso di presentarti! Che figura mi fai fare?"</p>
+            <p>"Ma capisci..."</p>
+            <p>"Capisco che sei di una timidità ridicola."</p>
+            <p>Così la paura di un ridicolo scacciò l'altra, e mi lasciai condurre. Alle porte del teatro sentii rinascere più vive che mai le ultime esitazioni, e le misi fuori risolutamente. Egli le respinse senza ammettere replica e mi prese pel braccio. Infilammo alcuni corridoi poco illuminati, e ci trovammo quasi improvvisamente in mezzo ad un caos di ordegni, di assi, di tele dipinte, di scale; tutto polveroso, unto, sudicio, dove stavano a chiacchierare alcuni macchinisti in maniche di camicia, e un pompiere faceva la corte ad una figurante lercia, seduta a cavalcioni su di una seggiola zoppa. - Era il rovescio di quel paradiso di tele dipinte e di fiori di carta. Di fuori risuonavano applausi fragorosi che soverchiavano la musica da ballo. Tutt'a un tratto, dalle quinte, entrò correndo un leggiadro folletto, tutto involto in una nube di veli, e rialzando la gonnellina appoggiò il piede su di uno sgabello per allacciare meglio uno degli scarpini.</p>
+            <p>"È lei," mi disse Giorgio; "vieni."</p>
+            <p>Essa levò il capo, ancora tutta rossa e anelante. Ci vide e ci sorrise. - ahimè! un sorriso stanco, distratto, reso sgarbato dalla respirazione accelerata. I capelli le cadevano sul petto senz'arte; alcune stille di sudore rigavano il suo belletto; le sue candide braccia, vedute così da vicino, avevano certe macchie rossastre, e nello stringere i legaccioli vi si rivelavano i muscoli che ne alteravano la delicata morbidezza; le scapule si ravvicinavano sgarbatamente, fin la suola del suo scarpino era insudiciata dalla polvere del palcoscenico. Ti parlo da pittore; ma anche da pittore ne avevo ricevuto la prima impressione. Era la silfide dietro la scena, nel suo momento di prosa, in cui non ha bisogno di essere bella, e non si cura di esserlo. Ora è impossibile esprimerti l'effetto che tutto ciò doveva fare sulla squisita e mobilissima sensibilità mia. La farfalla tornava bruco, ed io ne risentivo un dispetto ed una amarezza indicibili.</p>
+            <p>"Ah, il signore!..." diss'ella sorridendo fra un nodo l'altro. "Le sono molto riconoscente del suo articolo."</p>
+            <p>E siccome io non rispondevo, il mio amico stimò conveniente dire qualcosa per conto mio. Ella si rizzò, tutta rossa, ancora anelante, ed aggiustando i suoi capelli e le pieghe del suo gonnellino, mi affissava coi suoi grand'occhi - erano tutt'altri occhi che quelli lampeggianti ebbrezze e seduzioni mentite che avevano sconvolto la mia ragione; ma ci era un'aria d'insistente e quasi ingenua curiosità ch'era stranissima.</p>
+            <p>"Rientro in iscena," disse vivamente e stendendoci le due mani nello stesso tempo. "Mi rincresce non potermi fermare più a lungo. Ma spero che il signore vorrà farmi il piacere di venirmi a trovare..."</p>
+            <p>Ci sorrise e con la vivacità piena di grazia spinse all'indietro colle due mani quel fiocco di velo che formava il suo gonnellino; riprese come una maschera il suo sorriso e disparve.</p>
+            <p>Rimanevo tristamente là dov'erano svanite le mie illusioni.</p>
+            <p>"Che te ne sembra?" domandò Giorgio.</p>
+            <p>"In fede mia... non valeva proprio la pena di venir qui a sciupare i bei frutti delle mie tre lire!"</p>
+            <p>"Che bel matto! Avresti voluto essere accolto con una piroetta? E credi forse che la prima ballerina della Pergola non debba far altro che sorrisi convenzionali e gesti aggraziati? Puoi essere ben contento, giacché ti ha invitato ad andarla a trovare..."</p>
+            <p>"Oh, grazie!"</p>
+            <p>"Saresti capace di non andarci!"</p>
+            <p>"Tanto capace che non ci andrò."</p>
+            <p>"Eh, via! cotesto si chiama viver nelle nuvole!..."</p>
+            <p>"Lasciami pure le mie nuvole così belle, perché tutto il resto è così brutto!"</p>
+            <p>"Amen!" rispose Giorgio in tono derisorio. "Non te le invidierò, di certo!"</p>
+         </div>
+         <div>
+            <p>"Anzi," avevo detto a Giorgio un altro giorno, "voglio tornare a vederla, cotesta sirena che abbaglia la ragione collo scintillare delle sue pagliuzze dorate, e che irrita i sensi colle sue vesti vaporose, che mette la febbre nel sangue, e fa scrivere appendici ridicole. Voglio ridere di me anch'io, giacché ne hanno riso gli altri, e lei per la prima."</p>
+            <p>"Si direbbe che nella tua ironia c'è molta amarezza!"</p>
+            <p>"No! c'è del dispetto!... C'è il dispetto di aver visto il mio cuore ginocchioni davanti a cotesta dea che si allaccia le scarpe come l'ultima donnicciuola..."</p>
+            <p>Giorgio quest'altra volta era accanto a me, in teatro, e guardava cogli occhi spalancati quella donna circondata dagli stessi splendori, e irradiante le medesime ebbrezze. E a rispondere colla sua ammirazione al mio sarcasmo, esclamava quasi fra sé: "Perdio!... com'è bella!..."</p>
+            <p>"Oh! Sì! Sì! Ed è qualcosa che irrita, che fa dispetto, questa bellezza alla cui presenza il cuore si contorce di spasimo e la ragione diventa vigliacca, cotesta profanazione del bello che, sorridente e non curante, calpesta colle sue scarpine di raso tutto quello che abbiamo creduto puro e santo - la donna, l'amore, l'ideale. - Vedi, essa mi ha messo la febbre nel sangue, ed io mi sento come schiaffeggiato."</p>
+            <p>"Mio caro" esclamò Giorgio uscendo fuori dai gangheri "qualche volta io credo che tutte le nostre creazioni rachitiche non valgano un capello della schietta bellezza fisica."</p>
+            <p>"Ah! sì, per esempio cotesta vale tre lire."</p>
+            <p>"Oh!"</p>
+            <p>"Sì, ella vende per tre lire le sue spalle, il suo seno, le menzogne dei suoi sguardi, i baci del suo sorriso, il suo pudore, per tre lire, a me, a te, a quel grasso signore con l'occhio imbambolato dal vino, a quel giovane che le getta in faccia i suoi sozzi desideri con esclamazioni da trivio, a quell'elegante annoiato che fissa su lei il suo occhialino distratto dal fondo del suo palchetto, a quella signora che non si fa pagare la seminudità, ma che la guarda con disprezzo. Tutto ciò non vale che tre lire; ella ebbra, procace, in mezzo a gente che ha la testa a segno, e qualche volta il sorriso o la curiosità insultante!... Nelle medesime condizioni la cortigiana ha su di lei il vantaggio di aver di faccia un uomo abbietto e ridicolo del pari."</p>
+            <p>"Essa ha udito tutto quello che hai detto di lei!" rispose ridendo Giorgio che da qualche istante non mi dava più retta.</p>
+            <p>Io trasalii, spiegamene tu il motivo, se puoi.</p>
+            <p>"Davvero?" esclamai come se fosse stato possibile.</p>
+            <p>"Sì. Non vedi come ci guarda?"</p>
+            <p>Allora mi accorsi che la mia sorpresa e la mia credulità erano ridicole, e giacché mi sentivo umiliato, senza saperne il perché, ammutolii.</p>
+            <p>Giorgio era partito prima di me. Quando fui per uscire mi si avvicinò un inserviente del teatro e mi porse un biglietto.</p>
+            <p>"A me?" esclamai sorpreso.</p>
+            <p>"Sissignore, mi fu ben indicato."</p>
+            <p>"Da chi?"</p>
+            <p>"Dalla signora Eva."</p>
+            <p>"Eh?!..."</p>
+            <p>"Che l'aspetti nel vestibolo. Verrà fra mezz'ora."</p>
+            <p>La mia sorpresa era tale che non potei metter fuori una sola delle interrogazioni che mi si affollavano in mente.</p>
+            <p>Apersi il biglietto e lessi:</p>
+            <p>" Non siete venuto: perché? Se volete accompagnarmi dopo il ballo, aspettatemi nel vestibolo. "</p>
+            <p>Rimanevo come sbalordito dalla sorpresa, leggendo e rileggendo quelle due o tre righe, sentendomi serpeggiare fiamme ignote per le vene, provando improvvisi ed inesplicabili turbamenti. Gli spettatori, gli artisti, gli impiegati del teatro erano tutti partiti gli uni dopo gli altri; i lumi erano stati spenti; non rimaneva che qualche fiammella di gas per i corridoi, e il lampione di un fiacre che si riverberava sull'invetriata del vestibolo. Avrai osservato come in certi momenti eccezionali un oggetto insignificante assorbisca tutta la nostra attenzione e s'inchiodi nel nostro cervello. - Quel lume che brillava al di fuori esercitava una specie di fascino sui miei occhi, e sembrava mi penetrasse sino al cuore con un raggio di fuoco. Non sapevo da qual parte ella sarebbe venuta, e al menomo rumore che udivo su per le scale o pei corridoi il sangue mi si rimescolava tutto. Venti volte provai una gran tentazione di scappar via. Avevo paura, ecco!</p>
+            <p>Udii un leggero fruscio di seta dietro a me; uscì dall'ombra di un corridoio una donna tutta infagottata nelle sciarpe, nelle pellicce, e col velo sul viso. Attraversò quasi correndo il vestibolo; passò la sua mano sotto il mio braccio, senza dirmi una sola parola; spinse l'usciale, e mentre raccoglieva lo strascico della veste per montare in carrozza, mi disse con voce soffocata sotto il cappuccio e il velo: "Venite."</p>
+            <p>Appena fui seduto al suo fianco calò il cristallo, sporse il viso in fuori, ed ordinò al cocchiere:</p>
+            <p>"Ai colli."</p>
+            <p>Poscia sollevò il cappuccio che le veniva fin sugli occhi, gettò il suo velo all'indietro, e si volse a guardarmi fisso, senza dir motto, con un'aria di curiosità insistente, e quasi fanciullesca. Erasi sdraiata in un angolo del legno, col capo rivolto dalla mia parte. Sembrava assai stanca, e faceva scorrere quell'occhio curioso su tutta la mia persona, dal capo alle piante.</p>
+            <p>A un tratto si rizzò sulla vita, e mi domandò semplicemente:</p>
+            <p>"Come vi chiamate?"</p>
+            <p>"Enrico Lanti."</p>
+            <p>"Quanti anni avete?"</p>
+            <p>"Venticinque."</p>
+            <p>"Siete da molto tempo in Firenze?"</p>
+            <p>"No, da due mesi."</p>
+            <p>"Ci resterete ancora del tempo?"</p>
+            <p>"Tre o quattro anni."</p>
+            <p>"Io partirò in giugno" mi disse con una lieve tinta d'ingenua malinconia.</p>
+            <p>Aveva la voce sonora, di quella sonorità ch'è dolce come una musica.</p>
+            <p>E s'abbandonò sui cuscini, appoggiò la testa all'indietro e chiuse gli occhi. Sembrava che dormisse.</p>
+            <p>La notte era tiepida e rischiarata da un bel lume di luna. Sentivo accanto a me quel respiro lievissimo come quello di una bambina; di quando in quando, a seconda delle svolte che faceva il legno, un raggio di luna passava dallo sportello e gettava dei capricciosi chiaroscuri su quel viso così bianco da sembrare diafano, su cui svolazzavano pel vento che veniva dal di fuori, alcuni ricci biondi così fini e leggieri che sembravano delle vaporose piccole ombre cinerine. Credevo di sognare. Ero proprio io! dentro quel legnetto! Sotto quel mucchio di velluto e di seta che era proprio lei!</p>
+            <p>"Perdonatemi" mi disse ella, dopo alcuni minuti di silenzio, senza neanche aprire gli occhi. "Sono molto stanca! E tutte le sere di solito mi riposo così un pochino."</p>
+            <p>E siccome volevo rialzare il cristallo che aveva lasciato aperto, mi disse:</p>
+            <p>"Lasciatelo così. La sera è bella!"</p>
+            <p>"Ma vi farà male."</p>
+            <p>"No, anzi!"</p>
+            <p>Sporse la testa fuori dello sportello e respirò con forza.</p>
+            <p>"Mio Dio, come fa bene!"</p>
+            <p>E rimase immobile, guardando lungamente al di fuori.</p>
+            <p>A un tratto si volse verso di me, e mi disse quasi bruscamente:</p>
+            <p>"Perché non siete venuto a trovarmi?"</p>
+            <p>Ero imbarazzato a rispondere, ed ella seguitò, senza attendere la mia risposta:</p>
+            <p>"Siete poeta?"</p>
+            <p>"No, sono pittore."</p>
+            <p>"È lo stesso, siete artista!" mormorò, e mi affissò a lungo coi suoi grand'occhi lucenti; così a lungo che il mio imbarazzo si faceva visibile. "Voi non mi avete trovato più così bella, da vicino!..." esclamò con tutta naturalezza, rompendo improvvisamente quel silenzio che mi sembrava eterno, benché non durasse da due secondi. "Oh, non mi dite nulla!..." soggiunse con un grazioso movimento del capo. "È così!"</p>
+            <p>E si tacque nuovamente, guardò al di fuori, si passò a più riprese le mani su quei ricci ribelli, e di quando in quando mi affissava sempre con quello sguardo insistente.</p>
+            <p>"Di dove siete?" mi domandò.</p>
+            <p>"Son siciliano."</p>
+            <p>"È assai lontana la Sicilia?"</p>
+            <p>"Sì."</p>
+            <p>"Più lontana di Napoli?"</p>
+            <p>"Sì."</p>
+            <p>"Avete visto il San Carlo di Napoli?"</p>
+            <p>"No."</p>
+            <p>"Io ci andrò forse in dicembre."</p>
+            <p>Era una conversazione bizzarra, in cui le parole avevano tutt'altro significato, e nell'accento della voce erravano certi suoni che ricercavano le più intime fibre del cuore.</p>
+            <p>"È vero che i siciliani sieno gelosi?" mi domandò dopo qualche istante.</p>
+            <p>"Né più né meno degli altri."</p>
+            <p>"Voi non siete geloso?"</p>
+            <p>"Non lo sono mai stato."</p>
+            <p>"Non avete mai amato?"</p>
+            <p>"No."</p>
+            <p>"Giammai?"</p>
+            <p>"Giammai."Mi affissò alcuni istanti e riprese:</p>
+            <p>"Siete innamorato dell'arte vostra?"</p>
+            <p>"Sì."</p>
+            <p>"Come di una donna?"</p>
+            <p>"Come di una donna."</p>
+            <p>"Come lo sapete se non avete mai provato l'amore della donna?"</p>
+            <p>Parve sorpresa ella stessa della sua scappata, e soggiunse, quasi per non darmi il tempo di rispondere:</p>
+            <p>"Come siete fatti voi altri artisti!"</p>
+            <p>Nuovo silenzio, oscillante di vibrazioni arcane, e pieno di turbamenti misteriosi.</p>
+            <p>"Ho conosciuto molta gente, ma non un artista" soggiunse. "Dicono che sono così matti! Vi ho guardato con curiosità per questo. Ve ne siete accorto?"</p>
+            <p>"Sì."</p>
+            <p>"Ma non ho visto nulla! Vi credo troppo superbi per lasciarvi scorgere... Avrei una grande curiosità di leggervi in cuore le vostre stranezze. Vi guardo quasi come un animale curioso."</p>
+            <p>E rideva schietta, ingenua, scoprendo i suoi piccoli denti, bianchi e lucidi.</p>
+            <p>"Quasi vi faccio paura?" le dissi ridendo.</p>
+            <p>"No!... no!..." rispose stringendomi la mano. "Siete stato così buono verso di me!"</p>
+            <p>Sembrò esitare qualche istante, e all'improvviso mi disse con vivacità:</p>
+            <p>"Ditemelo francamente: voi altri non vi montate la testa da per voi quando pensate tante belle cose di una donna?"</p>
+            <p>"No."</p>
+            <p>"Davvero?"</p>
+            <p>"Davvero."</p>
+            <p>"Ah, com'è bello quello che avete scritto di me!" esclamò battendo le mani con aria infantile. "M'ha fatto tanto piacere!"</p>
+            <p>La sua vanità era così sincera, così ingenua, direi, ch'era quasi commovente. Abbandonava fra le mie la sua mano senza guanto, quella piccola mano affilata, tiepida, colla pelle fine come il raso.</p>
+            <p>"Che sciocca sono stata a farmi vedere da voi tra le scene!" soggiunse. "Non me lo sono mai perdonato! La colpa è mia. Vi ho letto in cuore come su di un libro aperto..."</p>
+            <p>Mi strinse la mano, per proibirmi di rispondere; mise la testa fuori lo sportello e soggiunse come parlando a se stessa:</p>
+            <p>"Rincresce davvero l'aver sciupate certe illusioni... Anche delle illusioni!..."</p>
+            <p>"Guardate!" esclamò con infantile vivacità poco dopo, tirandomi per la mano. "Guardate com'è bello!"</p>
+            <p>Misi anch'io la testa fuori dello sportello. Il legno correva pei deliziosi viali dei Colli. L'alito di lei mi sfiorò il viso, e un brusco movimento della carrozza spinse il suo volto sul mio.</p>
+            <p>"Oh!" esclamò sorridendo e arrossendo, e buttandosi vivamente indietro. "Che bella sera! Vogliamo scendere?"</p>
+            <p>Saltò a terra leggiera come un uccelletto, e siccome la notte era freddina, si strinse al mio braccio.</p>
+            <p>"Che bel freddo!" esclamò ridendo e rabbrividendo con tanta grazia che mi comunicò il brivido delle sue membra. "Corriamo!"</p>
+            <p>E corremmo come due fanciulli, ella posando appena i suoi piedini sul suolo, compiacendosi del fruscio della sua veste, e tirandosi sul viso il mantello che il vento gonfiava.</p>
+            <p>"Oh, com'è bello!" esclamava quando non tremava dal freddo. "Oh! che bella sera!"</p>
+            <p>Quando fummo di nuovo in carrozza ella chiuse tutti i cristalli, e si rannicchiò in un angolo del legno tremando e ridendo a sbalzi: "Accostatevi di più" mi disse; "ho freddo."</p>
+            <p>Le misi un cuscino sotto i piedi, e il paletò sui ginocchi.</p>
+            <p>"Ma voi avrete freddo!" diss'ella. "Facciamo a metà."</p>
+            <p>Tirò indietro i suoi piedini, e gettò sulle mie spalle metà del suo mantello di velluto.</p>
+            <p>"Eccovi metà del manicotto," soggiunse."Avete le mani gelate! Che piccole mani che avete, signore!"</p>
+            <p>E poscia con un sospiro tutto gaio: "Ah come si sta bene così!"</p>
+            <p>Sentivo il suo corpicino delicato, tremante, raggomitolato in un cantuccio, e che mi mandava sul viso il suo alito tiepido e profumato.</p>
+            <p>"Che avete che non parlate?" mi disse dopo un breve silenzio.</p>
+            <p>"Nulla."</p>
+            <p>"Siete contento di questa passeggiata?"</p>
+            <p>"Sì."</p>
+            <p>"Anch'io!" esclamò, e un istante dopo, con quella sua bizzarra mobilità di pensiero: "Fate anche dei ritratti?"</p>
+            <p>"Sì."</p>
+            <p>"Volete fare il mio?"</p>
+            <p>"Sì"</p>
+            <p>"Mi farete bella?"</p>
+            <p>"Come siete."</p>
+            <p>"Vi piaccio?"</p>
+            <p>"Assai!"</p>
+            <p>"Anche voi mi piacete."</p>
+            <p>Tutto ciò con tal franchezza e tal semplicità come se fossimo fratello e sorella, o forse la cosa più naturale di questo mondo.</p>
+            <p>"Ebbene, che fate adesso?" mi disse vedendomi sedere di faccia a lei.</p>
+            <p>"Ho bisogno di guardarvi in faccia!..."</p>
+            <p>Ella sorrise dolcemente, con quello stesso sorriso di piena e schietta ingenuità, piegò la testa all'indietro, socchiuse gli occhi, schiuse le labbra senza far motto.</p>
+            <p>E piovvero da tutta la sua persona su di me le sue emanazioni inebbrianti.</p>
+            <p>Poscia scoppiò a ridere allegramente: "Oh! che matti! che matti!... ma pure è una gran felicità esser matti di tanto in tanto!... Quanta noia in tutto il resto!"</p>
+            <p>"Anche il teatro?" domandai.</p>
+            <p>"Oh, soprattutto il teatro."</p>
+            <p>"Allora perché non lo lasciate?"</p>
+            <p>Ella mi guardò sorpresa, con quei suoi grand'occhi spalancati da bambina, e mi disse ingenuamente:</p>
+            <p>"Ma è il mio mestiere, signore!"</p>
+            <p>"Ah!"</p>
+            <p>"E poi ci sono anche dei bei momenti."</p>
+            <p>"Gli applausi?"</p>
+            <p>"Sì... in mezzo a tutti quei lumi, e quella musica, e quegli entusiasmi... e si sente bella..."</p>
+            <p>"Si sente?"</p>
+            <p>"Sì, proprio! Da principio anche cotesto fa una certa paura... a trovarsi così bella e così poco vestita sotto tutti quegli occhialetti che luccicano... È qualcosa che fa piacere e fa soffrire. Poscia quei sorrisi, quegli occhi, quelle grida, quelle mani inguantate che si sporgono fuori dei palchi, montano alla testa come una febbre... E poi c'è anche una grande soddisfazione d'amor proprio."</p>
+            <p>"Quale?"</p>
+            <p>"Quelle di sentirci dire da tanti signori eleganti che siamo più belle di quelle gran dame superbe che ci guardano sdegnosamente come cagnolini ammaestrati."</p>
+            <p>"Ah! le visite sul palcoscenico?"</p>
+            <p>"Sì, e anche in casa."</p>
+            <p>"Vi piacciono?"</p>
+            <p>"Sì, ce ne sono di quelle che piacciono"</p>
+            <p>Diceva tutto questo guardandomi tranquillamente negli occhi, con una grand'aria di semplicità e di naturalezza.</p>
+            <p>"Che cosa avete che non dite più nulla?"</p>
+            <p>"Proprio nulla."</p>
+            <p>"Vi dispiace che vi abbia detto queste cose?"</p>
+            <p>"Oh, no!"</p>
+            <p>"Poiché fra le visite che mi piacciono c'è anche la vostra. È vero che non me ne avete fatte, ma me ne farete."</p>
+            <p>"Oh, no."</p>
+            <p>"Come no?! Perché?"</p>
+            <p>Ella aspettò lungamente la mia risposta, e riprese con la voce dolce ed il fare insinuante di un bambino che teme di aver torto:</p>
+            <p>"Ma se chiudo la porta in faccia a tutti quei signori sarò fischiata... E allora a voi per primo non sembrerò più bella..."</p>
+            <p>C'era una sincerità, tale accento di verità nella sua voce, che non seppi che cosa rispondere a quell'osservazione di cui la cruda verità mi spezzava il cuore. Anche lei s'era fatta pensosa, e teneva il capo chino fra le mani.</p>
+            <p>La carrozza si fermò. Essa mise fuori il capo dallo sportello e mormorò: "Diggià!"</p>
+            <p>"Volete tirare il campanello del primo piano?" mi disse.</p>
+            <p>Al primo piano c'erano le finestre illuminate.</p>
+            <p>"C'è gente da voi!"</p>
+            <p>"Sì," mi rispose semplicemente e prese la mia mano.</p>
+            <p>Si era fatta improvvisamente triste. Erano le due del mattino; la carrozza era partita; la strada era deserta e vivamente rischiarata dalla luna. Eravamo soli, davanti a quella porta, come un commesso ed una sartina che fanno all'amore di nascosto.</p>
+            <p>"Verrete a trovami?" domandò.</p>
+            <p>"Forse."</p>
+            <p>"Perché forse? Non potete promettermelo?"</p>
+            <p>"Temerei di mancare."</p>
+            <p>"Ah! temete diggià di mancare!"</p>
+            <p>Mi scosse la mano, dopo un breve silenzio, e ripeté con voce quasi supplichevole:</p>
+            <p>"Venite a trovarmi!"</p>
+            <p>"Verrò."</p>
+            <p>"Ah! bravo così! Domani?"</p>
+            <p>"Domani."</p>
+            <p>"Verrete a prendermi dopo il ballo?"</p>
+            <p>"Se lo volete..."</p>
+            <p>"Ma non lo voglio! Mi fareste un piacere, ecco!"</p>
+            <p>"Ebbene, sì!"</p>
+            <p>"Arrivederci, dunque."</p>
+            <p>E scomparve nell'andito. Avevo fatto una ventina di passi quando udii che mi chiamava per nome. Era la prima volta che udivo il mio nome in bocca sua, e mi parve che mi mescolasse tutto il sangue. Mi volsi - era ancora sulla soglia - e la luna l'irradiava tutta.</p>
+            <p>"Dove abitate?" mi domandò semplicemente.</p>
+            <p>"In Santo Spirito." E le dissi anche il numero.</p>
+            <p>"Che piano?"</p>
+            <p>"Il terzo, l'ultimo."</p>
+            <p>"Buona sera!" e stavolta partì davvero.</p>
+         </div>
+         <div>
+            <p>Rimanevo estatico, come inchiodato davanti a quella porta, respirando l'aria fredda della notte a pieni polmoni. Sentivo un'esuberanza di vita quasi dolorosa, che mi dilatava e mi comprimeva il cuore a vicenda. Mi pareva che ella dovesse guardarmi dietro i vetri, e quelle finestre illuminate, dinanzi alle quali passavano tutt'altre ombre che la sua, mi abbacinavano gli occhi. Si, ero geloso di quegli uomini che l'aspettavano in casa sua, alle due del mattino, e li vedevo belli, orgogliosi e sorridenti, rubarmi le sue parole, la sua vista, e la felicità. Vidi come un baleno dell'avvenire; mi trovai povero, solo, meschino, ridicolo, abbandonato su quella soglia, tremante di freddo e divorato dall'invidia! Che cos'ero io per disputare quella donna a quegli uomini felici? Provai dispetto, vergogna, gelosia rabbiosa; sentii che la vertigine di quella sera mi strappava violentemente da tutte le mie affezioni, e mi gettava nell'ignoto. Ebbi paura, e l'orgoglio mi diede la forza di giurare che mai più avrei riveduto quella donna, la quale si sarebbe vergognata di confessare il suo amore per me.</p>
+            <p>Non dirò che quel giuramento non mi costasse, e molto; ma ebbi la forza di mantenerlo - per invidia, per dispetto, per orgoglio, per gelosia... non lo so...</p>
+         </div>
+         <div>
+            <p>Il giorno dopo, nell'ora in cui avevo promesso di andarla a trovare, combattei una lotta terribile. Venti volte fui sul punto di uscire, di correre a buttarmi ai suoi piedi. Mi afferrai a due mani a tutte le mie più dispettose passioni, e non mi mossi... e se piangevo ero felice che nessuno mi vedesse piangere.</p>
+            <p>Così suonò un'ora. Allora respirai con forza, come se avessi superato una gran prova.</p>
+            <p>Faceva freddo. Di fuori un vento impetuoso scuoteva i vetri, e gemeva per le strette viuzze di oltr'Arno. Guardavo i rari fiocchi di neve che svolazzavano sui vetri, e pensavo alla mia famiglia lontana, e a tutte le tranquille gioie che avevo abbandonato per correre dietro a larve affascinanti. Mi sentivo invadere da cento ispirazioni gigantesche, e sognavo tutte le ebbrezze della gloria.</p>
+            <p>All'improvviso fu suonato violentemente all'uscio. Saltai sulla seggiola come se il filo del campanello fosse stato attaccato al mio cuore. Presi un lume e andai ad aprire tutto tremante, come se attendessi una disgrazia... Indietreggiai stupefatto.</p>
+         </div>
+         <div>
+            <p>Era Eva, tutta imbacuccata, pallida e tremante dal freddo, che mi guardava con certi occhi dove avrei giurato che ci fossero delle lagrime.</p>
+            <p>Mi aspettavo rimproveri, scene drammatiche; nulla di tutto ciò. Ella entrò, sedette accanto al camino spento, e mi disse tranquillamente:</p>
+            <p>"Non siete venuto!"</p>
+            <p>"Voi!"</p>
+            <p>Ella sorrise dolcemente. Aveva gli stivalini tutti coperti di neve.</p>
+            <p>"Siete venuta a piedi?"</p>
+            <p>"Sì."</p>
+            <p>"Perché?"</p>
+            <p>"Non so. Avevo bisogno di farmi perdonare l'altra sera."</p>
+            <p>E si sforzava di non tremare, di non far scricchiolare i suoi dentini, come se avesse temuto di rimproverarmi il freddo glaciale che regnava nella mia cameretta. Sebbene cotesta delicatezza mi commovesse, io ero tutto vergognoso, pel mio camino spento, pei miei mobili più che modesti, e pel mio vecchio mantello che avevo gettato su di una seggiola.</p>
+            <p>Ruppi il cavalletto e accesi il fuoco nel camino.</p>
+            <p>Ella sorrise; aveva la labbra violette e stese le manine tremanti sulla fiamma che le rendeva quasi trasparenti.</p>
+            <p>"Oh! che bel fuoco!" ripeteva.</p>
+            <p>Io m'inginocchiai ai suoi piedi; asciugai i suoi stivalini con un lembo del mio mantello, e poscia glielo stesi sotto i piedi a guisa di tappeto. Ella mi lasciava fare, ridendo come una bambina; guardava all'intorno con curiosità, e mi sembrava che in cotesta curiosità, così espressa, non ci fosse più nulla di mortificante pel mio amor proprio.</p>
+            <p>"È la vostra camera?" mi domandò.</p>
+            <p>"Sì."</p>
+            <p>"Come siete felici voi altri artisti!... Quanti bei sogni dovete aver fatto fra queste pareti."</p>
+            <p>Oh! il bel sogno ch'era la sua leggiadra figurina, col sorriso dolce, gli occhi umidi, le bianche mani incrociate sulle ginocchia, e la veste bruna che si piegava mollemente sulla sua persona come carezzandola, là, in quel povero angolo della mia cameruccia, illuminata dalla fiamma del mio camino!</p>
+            <p>Ella aveva capricci improvvisi, bizzarri, dietro ai quali si smarriva volentieri il proprio buon senso come dietro al sorriso di un bambino. "Fatemi vedere!" disse. E si mise a rovistare in tutti gli angoli, in tutti i miei disegni, in tutti i miei cartoni, ponendo tutto sottosopra, scappando in mille ingenue esclamazioni, facendomi mille domande prive di senso e piene di grazia. "Oh! bello!" e seguitava a metter tutto sossopra, battendo le mani dinanzi alle mie tele.</p>
+            <p>"Come fate a creare tante belle cose?" mi domandò, facendosi seria - e senza aspettare la mia risposta: "Regalatemene una."</p>
+            <p>"Scegliete voi stessa."</p>
+            <p>"Datemi quel paesaggio. È una spiaggia di mare?"</p>
+            <p>"Sono i Ciclopi."</p>
+            <p>"Che cosa sono i Ciclopi?"</p>
+            <p>"Si chiamano così certi scogli giganteschi sulla spiaggia di Aci-Trezza."</p>
+            <p>"In Sicilia?"</p>
+            <p>"Sì."</p>
+            <p>"Oh, come sono belli!"</p>
+            <p>Prese un pennello e sul margine della tela scrisse:</p>
+            <p>" Eva - 22 Marzo ".</p>
+            <p>"Così ci avrò lavorato anch'io!" aggiunse con quel sorriso vago.</p>
+            <p>E poi, facendosi seria:</p>
+            <p>"Voi altri dovete trovare un paradiso da per tutto."</p>
+            <p>Girò all'intorno uno sguardo sorridente e riprese:</p>
+            <p>"Son contenta di essere venuta. Così ho visto il vostro nido."</p>
+            <p>Il suo sguardo cadde sul modesto lettuccio, e sorrise vagamente senza dir motto. Poi tornò a sedersi accanto al fuoco, con un atto di dimistichezza carezzevole, e soggiunse guardandomi fisso:</p>
+            <p>"Sì, son contenta di esser venuta; ma mi avete pur dato un grande dispiacere!"</p>
+            <p>"Perdonatemi!"</p>
+            <p>"Oh, non ho nulla da perdonarvi! Non vi ho nemmeno domandato perché non siate venuto. Quando non vi ho visto, all'uscire dal teatro, ho subito indovinato il motivo che vi faceva mancare alla vostra promessa... e son venuta."</p>
+            <p>Mi stese le mani, mi guardò negli occhi sorridendo, e soggiunse:</p>
+            <p>"Siete ancora geloso?"</p>
+            <p>"Oh..."</p>
+            <p>"Mi amate molto?"</p>
+            <p>"Mi par d'impazzire."</p>
+            <p>"Molti mi hanno detto la stessa cosa."</p>
+            <p>"Oh, Eva!... perché mi dite questo?"</p>
+            <p>"Ma a voi vi credo. Dovete amarmi così! Oh, Dio mio! com'è bello essere amata così! Ho dovuto piacervi molto per farvi pensare di me a quel modo... Se sapeste che cos'è per una donna il sapere di aver tanto piaciuto! Quanto durerà questa impressione in voi? Chi lo sa! Ma non importa. È pur dolce l'averla destata, anche per un momento solo. Anch'io vi amo."</p>
+            <p>"Voi! voi!"</p>
+            <p>"Sì, vi amo perché vi piaccio tanto."</p>
+            <p>Mi guardava con tanta serenità, che quelle semplici parole avevano un senso affascinante.</p>
+            <p>"E poi, in questo momento, anche voi mi piacete."</p>
+            <p>"Ah! in questo momento!..."</p>
+            <p>"Sì, mio Dio!... bisogna mentire per farvi piacere! Con voi credevo che potessi aprire il cuore schiettamente. Potreste giurare che mi amerete sempre come oggi?"</p>
+            <p>"Sì! oh, sì!"</p>
+            <p>"Fanciullo!" esclamò essa con un triste sorriso, "Quanti me lo hanno detto!"</p>
+            <p>"Non mi parlate in tal modo, Eva!"</p>
+            <p>"Che v'importa, se in questo momento non amo che voi! Mi crederete almeno, giacché sono così franca! Sì, sarà un capriccio, sarà una pazzia. - Vi amo perché siete ingenuo, perché non siete ricco, perché non siete elegante, perché avete in cuore tutte le follie dell'arte, perché mi guardate con quegli occhi, e anch'io divento come voi, non mi riconosco più! - Ecco perché vi amo. Domani forse mi piacerà di più la cravatta di un bel giovane, come a voi piaceranno le mani rosse di una sartina. Avremmo avuto torto per ciò di godere insieme questo momento di felicità? O saremmo più stimabili se mentissimo oggi con promesse per mentirci ancora domani con menzogne? Io ne ho amati tanti! Anche voi chissà quante donne avete amato! Oggi mi piacete, vi piaccio, e son felice di dirvelo, ecco! Domani... Chi lo sa il domani? Dunque vedete che se vi parlo con tanta franchezza avete torto di essere geloso."</p>
+            <p>C'era tanta sincerità, direi tanto cuore, in quelle cose dure, che le rendeva affascinanti. Avrei potuto farmi saltare le cervella, ma non avrei potuto abbandonare la mano di quella donna che mi diceva di amarmi in tal modo, facendomi indovinare il giorno in cui non mi avrebbe più amato.</p>
+            <p>Ella era seduta di faccia a me, dinanzi al camino, e quasi le nostra ginocchia si toccavano; teneva le mani nelle mie e i suoi piccoli polsi bianchi e rotondi uscivano fuori dalle trine delle maniche; mi guardava sorridente, fiduciosa, con abbandono, felice di espandersi così sinceramente, e di parlarmi col suo cuore, povera e modesta come me. Ella mi disse anche:</p>
+            <p>"Vedete che vi amo davvero, se ve lo dico qui, quasi al buio, così infagottata, senza che possiate trovarmi bella..."</p>
+            <p>Il fuoco s'era spento. Ella s'inginocchiò dinanzi al camino - ella sì elegante, sì delicata, che avevo vista circondata di tutti gli splendori del lusso - s'inginocchiò dinanzi al mio povero camino, affumicato e pieno di cenere, e cercò di rianimare le poche braci. Io andavo attorno per vedere che cosa potessi sacrificare al gran freddo che faceva. Ella si avvide del mio imbarazzo e mi disse:</p>
+            <p>"Vogliamo andare a prendere il thè?"</p>
+            <p>"Dove?"</p>
+            <p>"A casa mia."</p>
+            <p>"Ma come? a piedi?"</p>
+            <p>"A piedi, come due scampati. Voi mi darete il vostro mantello."</p>
+            <p>"Andiamo."</p>
+            <p>Faceva un freddo di gennaio; le strade erano tutte bianche di neve; ella tremava. Allorché fummo in piazza d'Azeglio, il mio primo sguardo cadde su quelle finestre del primo piano ancora illuminate. Ella che si stringeva al mio braccio, lo sentì trasalire, e lo premette leggermente come per attaccarsi a me.</p>
+            <p>"Non ci ho colpa, vi giuro!" esclamò con voce supplichevole. "Speravo che a quest'ora fossero partiti!..."</p>
+            <p>Mi prese per mano, come un bambino, e mi fece salirle scale appresso a lei.</p>
+            <p>"Zitto!" mi sussurrò all'orecchio. "Non voglio che vi vedano; spegnete il gas."</p>
+            <p>Io girai la chiavetta. Eravamo al buio, e sentivo il profumo del suo fazzoletto, il soffio del suo respiro. Essa cercò tastoni il campanello e suonò quasi timidamente. Venne ad aprire una leggiadra cameriera. Eva le disse all'orecchio qualche parola, mi spinse in un andito, e scomparve senza far rumore da un altro uscio a vetri.</p>
+            <p>La cameriera mi fece entrare in una stanza da letto, debolmente illuminata, e scomparve anche lei.</p>
+         </div>
+         <div>
+            <p>La camera era piccola e imbottita di seta bianca come un elegante scatolino. In un canto c'era un letto tutto velato di trine, con certe cortine diafane che sembravano i vapori di un sogno d'amore, e lasciavano trasparire certe coperte color di rosa, di cui la seta doveva carezzare l'epidermide, e nascondere nelle sue pieghe scrosci di risa soffocate, di palpiti virginei. C'era un profumo singolare in quella camera, un profumo di cosa viva, un profumo di donna e di donna amante. C'erano in tutti gli angoli quei piccoli oggetti che luccicano e che hanno forme e colori leggiadri. C'erano negli specchi come il riflesso di chiome bionde, come il lampo di occhi lucenti e di sorrisi giovanili; vi si riverberavano ombre leggiere, colori delicati; il moto dell'orologio era silenzioso; il tappeto era spesso, bianco e carezzava i piedi.</p>
+            <p>Nell'altra stanza si udivano voci di uomini, e di tanto in tanto delle risa allegre. Si udì anche per qualche istante il suono del pianoforte, e ad intervalli la voce di Eva, fresca, spensierata, giuliva. Poi si udì un rumore di tazze mosse.</p>
+            <p>Improvvisamente una luce più viva invase la camera ed entrò Eva.</p>
+            <p>Ella corse verso di me; mi afferrò improvvisamente il capo, senza dire una sola parola, e mi diede un bacio.</p>
+            <p>"Ecco il tuo thè!" mi disse.</p>
+         </div>
+         <div>
+            <p>E quand'io la baciavo, quand'io la soffocavo di carezze deliranti, ella metteva un piccolo grido: un grido pieno d'amore e di voluttà.</p>
+            <p>"Ahi! mi fate male!"</p>
+            <p>Si svincolò ridendo dalle mia braccia; mi guardò fisso, con quegli ardori negli occhi, stendendo le mani per tenermi discosto ed esclamò:</p>
+            <p>"Come sei bello! Come devi amare tu! Vieni!" soggiunse sottovoce, prendendomi per la mano. "Zitto! vieni qui, accanto a me!"</p>
+            <p>Lisciava i miei baffi, arruffava i miei capelli e li intrecciava coi suoi, mi prendeva la testa fra la mani per guardarmi a lungo negli occhi, e mormorava:</p>
+            <p>"Bambino! bambino mio bello!"</p>
+            <p>Ad un tratto si fece seria; mi affissò con certi occhi attoniti, e mi disse:</p>
+            <p>"Mi pare di amarti davvero, guarda!"</p>
+            <p>Saltò dalle mia ginocchia come un uccello, corse all'uscio e girò la chiave.</p>
+            <p>"Buona notte, signori!" disse, e volgendosi verso di me, con uno scroscio di riso infantile: "Se ci vedessero!"</p>
+            <p>Si udì uno scoppio di voci e di recriminazioni al di là dell'uscio.</p>
+            <p>"Ho sonno!" ripeté Eva, "Buona notte!"</p>
+            <p>"Che imbecilli!" soggiunse poi "si credono in diritto di annoiarmi anche quando sono felice!"</p>
+            <p>Stette ad ascoltare, e ripigliò dopo alcuni istanti:</p>
+            <p>"Se ne vanno; finalmente! Verrai domani, non è vero?"</p>
+            <p>"Sì."</p>
+            <p>"Alla stessa ora, mi aspetterai in teatro?"</p>
+            <p>"Sì."</p>
+            <p>"Anzi, fai così: m'aspetterai in fiacre, in piazza Santa Maria Nuova. Verrò a trovarti io stessa. Prendi il fiacre numero nove; è la data del giorno in cui mi hai conosciuta. Ora che farai?"</p>
+            <p>"Come vuoi ch'io te lo dica se non lo so... se non ho più la testa, se ho la febbre!..."</p>
+            <p>Ella aveva i capelli sciolti, e me ne sferzava il viso con certi movimenti felini. "Ebbene," mi disse, "se hai la febbre vai a casa."</p>
+            <p>"No, starò a vederti dormire."</p>
+            <p>"Eh?!"</p>
+            <p>"Starò a guardare le tue finestre dalla via, e ti vedrò dormire."</p>
+            <p>Ella sorrise in modo inesprimibile, e mi avventò un bacio come un morso.</p>
+            <p>"Birbone!"</p>
+            <p>Scostò colle sue mani i capelli dalla mia fronte; mi guardò con certi lampi abbaglianti negli occhi - mi guardò a lungo così, tenendomi la fronte fra le mani - e poscia, come rispondendo a se stessa:</p>
+            <p>"Vattene!" mi disse "vattene!" E non mi lasciava, e sporgeva verso le mie le sue labbra sitibonde, e chiudeva gli occhi.</p>
+            <p>Mi richiamò di nuovo, quand'ero sulla soglia dell'uscio. "Dammi qualche cosa di tuo" mi disse; "dammi il tuo fazzoletto."</p>
+            <p>E poscia un'altra volta:</p>
+            <p>"Aspetta! Voglio che anche tu pensi a me."</p>
+            <p>Si staccò dal seno uno spillo d'oro, e mi punse leggermente sulla mano.</p>
+            <p>"Bravo!" esclamò dandovi su un bacio. "Ora vattene. Addio!"</p>
+            <p>Attraversai l'andito al buio, e andavo tastando tutte le serrature dell'uscio, senza trovar modo di aprirle.</p>
+            <p>Al di là dell'altro uscio udivo un fruscio di vesti e di passi, come se Eva andasse e venisse per la camera. Questa situazione si prolungava e cominciava a farsi imbarazzante. Non potevo tornare indietro, e non potevo chiamare la cameriera. Tutt'a un tratto udii uno scoppio di risa fresco, gaio, argentino - uno scoppio di risa che mi chiamava per nome, e comprendeva tutte le mie follie. Mi trovai, non so come, sull'uscio della sua camera; sollevai la portiera, e vidi quella leggiadra testolina che si affacciava fra le cortine del letto incorniciata dai biondi capelli e dai candidi merletti - saettandomi il delirio del suo sorriso, le ebbrezze dei suoi sguardi, e il fascino del suo silenzio.</p>
+         </div>
+         <div>
+            <p>Io non saprei dirti quanto durasse cotesto sogno febbrile, e quello ch'io vi provassi. Avevo in seno tutte le gioie, tutti gli entusiasmi, tutte le frenesie... e mi soffocavano. Sembravami che il cuore mi si dilatasse talmente, per tanta piena di affetti, che il mio petto non bastasse a contenerlo. Provavo nello stesso tempo tal fastidio di me, tal rimorso, come un dolore pungente. Sentivo che ero tremendamente felice. Passavo i giorni sognando ad occhi aperti, alla finestra, o presso il camino, o gironzolando per le vie - senza vedere, senza udire, senza pensare - e la notte divoravo avidamente tutte le ebbrezze. Partivo da lei all'alba, di nascosto, come un ladro che ha rubato il paradiso.</p>
+            <p>Provavo sgomenti inesplicabili; di tratto in tratto il cuore mi palpitava di gioie improvvise, acri e dolorose; sentivo arcane e infinite ispirazioni artistiche che non avrei neppure tentato di esprimere, e impotenze desolanti.</p>
+         </div>
+         <div>
+            <p>Ella mi amava veramente. Quell'amore sarà stato un capriccio, ma in quel momento era sincero. Le arrecavo paura e diletto. Delle volte mi guardava timidamente, e all'improvviso mi saltava al collo, ebbra anch'essa d'amore. Aveva certe strane curiosità di sapere come fosse fatto il mio cuore che l'amava in tal modo. Mi chiudeva gli occhi con le mani, metteva la sua bocca nella mia per sentire come fosse caldo il mio alito, ed appoggiava l'orecchio sul mio cuore per udire come battesse. Mi voltava e rivoltava in tutti i sensi, scomponeva i miei capelli, e quando l'affissavo a lungo negli occhi, li chiudeva con un piccolo grido di paura.</p>
+            <p>"Se avessi saputo di doverti amare così" mi diceva, "non ti avrei più cercato. Mi fai male!"</p>
+         </div>
+         <div>
+            <p>Delle volte voleva che le suonassi al pianoforte la musica dei suoi balli, ed ella mi appariva improvvisamente dinanzi nel suo leggiadro costume, e spiegava intorno a me tutte le seduzioni - per me! per me solo! - il sorriso inebbriante, gli sguardi pieni di promesse, i capelli disciolti, il seno palpitante... E tutte le volte finiva saltandomi sulle ginocchia, e annegandomi in un'onda di velo.</p>
+            <p>"Come ti amo!" mi diceva. "Come ti amo!"</p>
+         </div>
+         <div>
+            <p>Un giorno mi disse, quasi paurosa:</p>
+            <p>"Come farò a non amarti più?"</p>
+         </div>
+         <div>
+            <p>E un'altra volta:</p>
+            <p>"Sai ch'è più di un mese che ti amo così!"</p>
+            <p>Erano esclamazioni di una commovente ingenuità, ma mi arrecavano aspri dolori.</p>
+            <p>"Non mi amerai sempre così?" le dissi.</p>
+            <p>"Oh, sempre!" mormorò con mestizia. "Neanche tu m'amerai sempre così!"</p>
+         </div>
+         <div>
+            <p>In cotesto delirio, che si prolungava tanto, capirai che il mio tenore di vita era molto cambiato. Non lavoravo più, non ricevevo più nessuno, non scrivevo più nemmeno alla mia famiglia, tranne delle brevissime lettere, ad uso telegramma, e tutte le volte per chiedere denaro.</p>
+            <p>Non puoi immaginare come una tal passione sia divorante per uno che si trovi nella mia disgraziata condizione, e come divori specialmente il denaro, ch'è la cosa più preziosa. Io non spendevo un soldo per Eva, nemmeno per regalarle un mazzolino di viole, ma provavo mille nuovi bisogni: avevo comperato degli abiti nuovi, avevo bisogno di essere elegante, di lavarmi le mani con acqua di Colonia, di essere ben alloggiato, di desinare da Doney, di portar dei guanti - e tutti questi nonnulla sono enormemente dispendiosi per un pensionato del Comune a centocinquanta lire.</p>
+            <p>Ohimè! Vorrei credere che fossi pazzo, perché fui assai vigliacco, perché fui infame. Io divenni esigente sino all'impossibile verso la mia povera famiglia - fino a strapparle il necessario per comprarmi delle cravatte. - Non scrivevo altro che per chiedere denaro, e mentivo anche l'affezione! Oh, mia povera mamma! Oh, padre mio!... e non arrossivo allorché vedevo giungere quel denaro che costava tanti stenti ai miei genitori! No! Non arrossivo! - E allorché le mie richieste si fecero più frequenti, più insistenti, vidi le lagrime di mia madre, lo sconforto di mio padre per non potermi mandare più nulla - e non provai altro dolore che la paura di rimanere senza quattrini - e non esitai, no! ad abusare dell'inesauribile affetto paterno fingendomi ammalato, e scrivendo di aver bisogno di denaro a ogni costo - e non pensai al dolore immenso, alle ansie morali dei miei genitori che per specularci sopra... Ah! cos'ero divenuto, mio Dio!... dove avevo la testa? che se n'era fatto del mio cuore?</p>
+            <p>Non pensai neanche a morire; non pensai a buttarmi in Arno - avevo bisogno di vivere.</p>
+            <p>La risposta non si fece attendere. Ricevetti un vaglia di centoventicinque lire e una lettera che mi avrebbe lacerato il cuore se non l'avessi avuto di pietra. Mia madre ci aveva aggiunto i suoi scarabocchi e li aveva inzuppati di lagrime; mio padre mi scongiurava di vendere tutto quello che possedevo, se quei denari non mi fossero bastati per fare il viaggio, e di ritornarmene a casa, giacché non poteva mandarmi più nulla.</p>
+            <p>Riscossi il vaglia e lacerai la lettera.</p>
+            <p>Ero malato, non è vero? Avevo un'orribile malattia di cervello o di cuore! Ero pazzo! Non ero io!</p>
+         </div>
+         <div>
+            <p>Alcune volte, quando aspettavo Eva delle ore intere nella sua camera, mentre ella riceveva i suoi numerosi amici, mentre la sentivo ridere e folleggiare nel suo salotto, provavo delle collere sorde ma selvagge contro di lei. Allora tutte le amarezze che quell'amore mi costava mi sfilavano davanti agli occhi. Ero geloso, e mi vedevo ridicolo, nascosto dietro il suo uscio a divorare in silenzio la mia gelosia. - Alcune volte sembravami che tutta quella gran gelosia non si riducesse ad altro che ad una febbrile impazienza di stringermi Eva tra le braccia. Poi ella compariva, sorridente, inebbriante - la luce si faceva e mi abbagliava.</p>
+         </div>
+         <div>
+            <p>Ella trovava cento pretesti per venire a stare con me due o tre volte durante quelle visite, e in quei due minuti in cui ella mi saltava sulle ginocchia aveva tali carezze, tali baci, tali parole da farmi impazzire. Sembrava che gli ostacoli irritassero il suo amore e gli dessero mille nuove attrattive. Noi ci dicevamo delle cose futili, sciocche, senza significato, sottovoce, tremanti, estatici. - Poi ella mi lasciava con un bacio e scappava via.</p>
+         </div>
+         <div>
+            <p>Una volta mi trovò che ridevo.</p>
+            <p>"Che hai che ridi così?" mi domandò.</p>
+            <p>"Penso alla bella figura che ci fanno quei tuoi amici di là, mentre tu sei qui con me..."</p>
+            <p>"Oh, mio Dio!... ma ne ridi in un certo modo!..."</p>
+         </div>
+         <div>
+            <p>Un altro giorno le dissi:</p>
+            <p>"Senti Eva, delle volte mi assale la tentazione di entrare all'improvviso in quel salotto, e schiaffeggiare tutti quei bei signori."</p>
+            <p>"Sei matto?..."</p>
+            <p>"Lo so anch'io. È una pazzia; ma ci avrei gusto, ecco!"</p>
+         </div>
+         <div>
+            <p>Una sera ebbi la tentazione di origliare dietro l'uscio e di guardare dal buco della serratura. Lo feci con un gran battito di cuore - non di vergogna, ma di paura.</p>
+            <p>Quand'ella venne da me, mi trovò così pallido e corrucciato che mi domandò dolcemente che cosa avessi. Io le dissi con amaro sorriso:</p>
+            <p>"Che persone sono quelle, Eva?"</p>
+            <p>"Oh, della migliore società."</p>
+            <p>"Infatti sembrava che si tenessero molto al di sopra di voi. Vi fumavano in faccia!"</p>
+            <p>"Hai visto?"</p>
+            <p>"Sì!" esclamai con un sogghigno dove cercai di mettere tutto il fiele che avevo in cuore.</p>
+            <p>Ella non mi rimproverò la mia indiscrezione.</p>
+            <p>"Hai fatto male" mi disse semplicemente facendosi triste.</p>
+            <p>"Ho avuto torto, lo so."</p>
+            <p>"Non dico ciò per me, ma per te."</p>
+            <p>"Oh, per me!"</p>
+            <p>"Non ridere così, Enrico! Ascoltami; se vuoi essere felice contentati di amarmi e di essere amato come io ti amo. Tu hai il cuore caldo e la mente esaltata. Certe curiosità a mio avviso ti farebbero male."</p>
+            <p>"Ah! voi lo sapete!"</p>
+            <p>"Sì," rispose tranquillamente, guardandomi con tutta franchezza. "Ma che vuoi farci? Tu sai che cosa sono: mi hai amato appunto per questo. Ora per essere quella che sono bisogna che io mi rassegni a siffatte visite, anche quando mi annoiano."</p>
+            <p>"Soltanto questo?"</p>
+            <p>"Soltanto questo."</p>
+            <p>"Oh! non basterà!"</p>
+            <p>"Basterà... perché ti amo!... Hai torto a lagnarti!"</p>
+            <p>Mi guardò a lungo negli occhi con tanto amore che avrei giurato fosse sincero; mi prese entrambe le mani, e mi disse con serietà - ella che non era mai seria:</p>
+            <p>"Ti amo ancora e voglio che tu mi ami. Mi prometti una cosa?"</p>
+            <p>"Di'."</p>
+            <p>"Giurami che non starai ad origliare dietro quell'uscio."</p>
+            <p>"Ah!" mormorai amaramente con un riso ch'era una contrazione dolorosa del cuore.</p>
+            <p>"Oh, mio Dio!" esclamò torcendosi le mani "Che timore potrei avere di essere spiata se volessi ingannarti?"</p>
+            <p>"Perché non volete dunque che io ascolti?"</p>
+            <p>"Perché... tu l'hai visto... Perché quelle familiarità insolenti che per me sono soltanto una mortificazione d'amor proprio, per te sarebbero morsi acuti di gelosia... Per risparmiarti dispiaceri..."</p>
+            <p>"Che m'importa se questi non mi vengono da voi!"</p>
+            <p>Ella lesse nei miei sguardi tutta l'amarezza che non c'era nelle mie parole, chinò gli occhi e mi disse solamente:</p>
+            <p>"Come siete ingiusto!"</p>
+            <p>C'era tal suono di verità nella sua voce, e così schietta e dignitosa franchezza nelle sue parole, nei suoi occhi, e nel suo gesto, che mi facevano soffrire orribilmente per tutte le sciagurate contraddizioni della vita.</p>
+            <p>"Sì, lo sento che sono ingiusto!" esclamai. "Ma soffro orribilmente! sono geloso, Eva! Son geloso di te, di tutti quelli che ti vedono in teatro perché tutti ti desiderano; son geloso di tutti quelli che ti parlano, perché ti parlano per averti..."</p>
+            <p>"Oh!" esclamò Eva con uno scoppio di risa schiette e gaie "se sapeste come dovrebbero invidiarvi quei signori di cui siete geloso!"</p>
+            <p>"Non importa; essi vi vogliono..."</p>
+            <p>"Oh, non tutti! Ci sono quelli che vengono per prendere il mio thè, gli altri per trovare gli amici, altri perché la mia casa è di moda, altri pur di far sapere che ci vengono."</p>
+            <p>"Io vorrei che non foste obbligata a ricevere tutte quelle persone, Eva."</p>
+            <p>"Sono tutti abbonati, giovanotti chic, di quelli che dispongono dell'esito di uno spettacolo, ed io appartengo al teatro."</p>
+            <p>"Io intendo che la donna che mi ama appartenga a me anzitutto!"</p>
+            <p>"Allora non avresti dovuto innamorarti di una ballerina."</p>
+            <p>"Oh, io mi innamorai della donna, perdio!"</p>
+            <p>Ella sorrise tristamente.</p>
+            <p>"La donna la vedesti un momento, nel dietro scena... e scappasti via."</p>
+            <p>"Ma io vi amo così, come siete!"</p>
+            <p>"Lo sai tu come sono? Una donna non è che come vuol essere. Sai tu che cosa sarei senza la mia gonnellina corta e le mie scarpine di raso? Sarei una modesta operaia colle dita punzecchiate dall'ago, e con un vecchio ombrello sotto il braccio; una ragazza che potrebbe dirsi bellina se non avesse gli stivalini rotti e il cappellino di traverso - che andrebbe al mercato, farebbe la cucina, e se avesse fortuna sposerebbe un cuoco o un cocchiere. Ecco che cosa sarei, mio caro; invece ecco che cosa sono: faccio fare anticamera a tanti signori che sarebbero gelosi di te - e tu che non mi avresti neanche guardato se m'avessi vista andare attorno colle scarpe rotte, tu hai fatto delle pazzie per me. Oh! lo so bene ch'è assai meglio non esser costretti a far buon viso a quelli che ci sono uggiosi, e a soffrire delle galanterie insolenti. Ma che vuoi farci? Non son nata duchessa!"</p>
+            <p>Venne a sedermi sulle ginocchia; mi cinse il collo delle sue braccia, e mi baciò a più riprese.</p>
+            <p>"Andiamo, via! non piangere, bambino mio! amor mio! non piangere! mi fai male! Io ti amo davvero, sai! Non ho nulla da sperare da te, anzi potresti nuocermi, vedi che son sincera! Mi credi dunque che ti amo?"</p>
+            <p>"Se tu non mi amassi così io farei una cosa semplicissima, mi ucciderei."</p>
+            <p>"Ah! no!" esclamò essa con quel riso da bambina, tenendosi appesa al mio collo colle mani intrecciate, e dondolandosi sulle mie ginocchia. "Non voglio che tu ti uccida perché sei il mio amore, il mio amore bello! il mio amore bello!" e nella voce aveva la dolce cantilena con cui si cullano i bambini.</p>
+         </div>
+         <div>
+            <p>Alcune sere quelle visite si prolungavano molto innanzi nella notte. Era un giuoco di scherma fra quei signori a chi dovesse rimaner padrone del campo. Una volta Eva entrò improvvisamente e come se fuggisse. Era rossa in viso, e avea le narici dilatate. Chiuse l'uscio a chiave, si gettò su di me con passione, e nascose il mio viso sul suo seno, baciandomi sui capelli, come per impedirmi di uscire, o per nascondermi qualche cosa.</p>
+            <p>"Che hai?" le chiesi svincolandomi dalle sue braccia, vedendola così turbata e colle lagrime agli occhi.</p>
+            <p>"Nulla!" rispose.</p>
+            <p>Io impallidii, e non osai domandarle altro.</p>
+         </div>
+         <div>
+            <p>Il giorno dopo ella mi vide così cambiato che mi domandò anche lei. "Che hai?" E stavolta fui io che risposi: "Nulla!"</p>
+            <p>Ella si fece pensierosa e parlò d'altro.</p>
+            <p>Passammo quella notte come le altre, soffocando le ciarle infantili sotto i guanciali e scambiandoci i sorrisi nelle dolci ombre dei cortinaggi; però sentivamo che fra noi due c'era qualche cosa che ci faceva morire il bacio sulle labbra ed il riso in cuore. Ella mi guardava con quei suoi grand'occhi spalancati, col gomito sul guanciale, il mento sulla mano, il braccio trasparente attraverso la nebbia dei merletti, e i capelli che gettavano onde dorate sui candidi lini. - Aveva degli accessi quasi tristi e paurosi di tenerezza; mi gettava al collo le braccia nude, e mi nascondeva in petto la sua bionda testolina. - Poi mi stava di nuovo a guardare fisso senza dir parola, colla testa affondata nella tela batista, ed il braccio disteso, mentre le sue piccole dita giocherellavano colla trina della coperta.</p>
+            <p>Una volta, mentre si parlava d'altro, esclamò: "Come son pazza ad amarti così!"</p>
+            <p>E più tardi, dopo uno scoppio di risa tanto allegre e matte che mi facevano un senso di pena:</p>
+            <p>"Come farò quando non mi amerai più?"</p>
+            <p>Poi, senza badare a quel che rispondessi, mi parlò della sua sarta, delle sue vesti, dei suoi cavalli, dei suoi fiori, del teatro, di musica, di balli, mi parlò della mia arte, di me, del mio paese - giammai ella non mi aveva parlato della mia famiglia; era una circostanza che incominciava a sorprendermi. Era delicatezza? era istinto di gelosia?</p>
+            <p>Allorché partivo, sull'alba, ella mi richiamò, mi attirò sui guanciali, allacciandosi tenacemente al mio collo, e mi domandò collo stesso tono della prima volta, come se fra la prima domanda e la seconda non ci fossero passate tutte quelle ore e quelle follie. "Che hai?"</p>
+            <p>"Nulla."</p>
+            <p>"Oh, non partire così!" esclamò colle lagrime nella voce.</p>
+            <p>"Perché me lo domandi? Non mi ami? Non ti amo? Non siamo felici?"</p>
+            <p>Ella appoggiava la testa sul cuscino, rivolta dalla mia parte, e mi fissava senza parlare, coi suoi grandi occhi pieni di lagrime.</p>
+            <p>"Credimi," soggiunsi, "la nostra curiosità è funesta. Io l'ho capito, e non ti ho domandato altro, quando l'altra sera mi hai risposto: nulla."</p>
+            <p>Mi prese le mani e le baciò - le sentii umide di lagrime.</p>
+            <p>"Non mi ami più!" disse.</p>
+            <p>"Dio lo volesse!" esclamai con un'esplosione di tutte quelle angosce che mi rodevano da due giorni.</p>
+            <p>Ella si rizzò a sedere di botto, splendida di bellezza, sotto la fine batista, come una statua greca, e mi si buttò al collo, coprendomi di lagrime e di baci.</p>
+            <p>"Si, tu mi ami! tu mi ami!" singhiozzò "ed io pure ti amo come una pazza!"</p>
+            <p>Poscia, tenendosi allacciata a me come l'edera, nascondendo il suo capo nel mio seno, e parlandomi sottovoce, come vergognosa per quello che doveva dirmi:</p>
+            <p>"Non credi che ti amo?"</p>
+            <p>"Sì!"</p>
+            <p>"Temi che io possa ingannarti per un altro?"</p>
+            <p>"Oh, no!"</p>
+            <p>E chinando maggiormente la testa, e abbassando di più la voce, e abbracciandomi più strettamente:</p>
+            <p>"Perché quella domanda adunque?"</p>
+            <p>"Perché ti amo! Perché son geloso... in un altro modo."</p>
+            <p>"Come?"</p>
+            <p>"Oh!... non lo so!... non te lo dirò mai!"</p>
+            <p>Tuttavia sembrò aver compreso, poiché allentò le braccia, non disse molto, e ricadde sul guanciale, nascondendovi il viso.</p>
+            <p>"Ascolta!" mi disse vivamente, afferrandomi per le mani, mentre era per partire. "Piuttosto che cessare di amarmi... quando lo vorrai... domandami quello che vuoi... Ti giuro che lo farò!"</p>
+            <p>"Non voglio che tu venga a teatro" mi avea detto altre volte.</p>
+            <p>"Perché?"</p>
+            <p>"Perché... perché... È una fanciullaggine, lo so... ma se ti sapessi là... in mezzo a quella folla... ciò mi farebbe pena."</p>
+            <p>Io le fui grato di cotesta delicatezza, e promisi, e un giorno, la sera della sua beneficiata, con la logica così strana del cuore umano, le domandai di sciogliermi dalla mia promessa. Ella mi guardò sorpresa.</p>
+            <p>"Perché?"</p>
+            <p>"Voglio vederti."</p>
+            <p>"Non mi vedi adesso?"</p>
+            <p>"No! vederti là... a quel modo!..."</p>
+            <p>"Mi vestirò qui per te."</p>
+            <p>"Oh, è tutt'altro!..."</p>
+            <p>Ella sorrise e mi disse: "Orgoglioso!"</p>
+            <p>"Orgoglioso?"</p>
+            <p>"Si, vuoi godere del tuo trionfo, e dire: Quella donna che tutti desiderano mi appartiene!"</p>
+            <p>"È vero... sì!"</p>
+            <p>"Ebbene," soggiunse semplicemente, "dillo pure giacché è la verità."</p>
+            <p>La sua cameriera l'attendeva per pettinarla; prima di lasciarmi ella mi disse, come risovvenendosi:</p>
+            <p>"Però mi prometterai di non essere geloso!"</p>
+            <p>Ahimè! prevedeva forse che avrei dovuto esserlo?</p>
+            <p>Non l'avevo più vista sul palcoscenico, e quando la rividi mi parve tutt'altra! Io comprendo come si possano fare quelle cose che si dicono pazzie - e sono brani di cuore strappato da penose voluttà, brani di ragione torturati dal delirio - per coteste donne che hanno un pubblico per amante, che ci sbattono sul viso tutte le seduzioni, inchiodandoci ad una poltrona d'orchestra, e che ci abbruciano gli occhi col lampo della loro bellezza, costringendoci ad affissarle avidamente. - Cotesta voluttà che s'inebbria di suoni, che abbaglia di luce, che sollecita con acri profumi, che vi fa ondeggiare dei veli dinanzi alla curiosità spasmodica, che ha il sorriso sfacciato, e la nudità pudica, che idealizza tutte le vostre più sensuali passioni, è mostruosa del pari, con tutte le cecità, con tutte le frenesie - e lo spasimo di sguazzarci dentro, le mani, i piedi, il petto, i capelli, di abbeverarsene, di affogarvi la coscienza, il cuore, il sentimento della vita, ha le medesime estasi inenarrabili, i medesimi splendori, le stesse torture, le stesse infamie... Se si potesse vedere in cuore ad uno di quei felici mortali, su cui passa il turbine di una tal passione, e che va invidiato dalla moltitudine!...</p>
+            <p>Quella donna per cui gli applausi avevano fremiti di desiderio era mia, avea posato la testa sul mio guanciale; ma io non ci pensai che per essere geloso delle sue spalle nude, della trasparenza dei suoi veli, di quei cannocchiali che sembravano baciarla con lingue di fuoco, di quelle mani inguantate che mi sembrava accarezzassero le sue spalle.</p>
+            <p>Partii come un pazzo, assai prima che fosse terminato il ballo, ed andai ad attenderla in casa sua, arso di gelosia, di corruccio, di desiderio - spiegami tu questo contrasto. E allorché udii il suo passo leggiero per le scale, allorché me la vidi comparire dinanzi ancora ansante, allegra, ridente, colle guance rosse e gli occhi brillanti di giubilo, me le gettai al collo, stringendola freneticamente come se temessi di vedermela strappare dalle braccia. Ella credette che fosse l'entusiasmo destatomi dal suo trionfo!</p>
+            <p>"Oh! come son contenta che tu sia stato lì!" mi disse senza scorgere il male orribile che mi facevano quelle parole. "Fu un vero entusiasmo, non è vero? Vedi quanti fiori!"</p>
+            <p>E si pavoneggiava ingenuamente in mezzo agli enormi mazzi che il domestico aveva portato in sala. Io dovevo avere l'aria orribilmente stralunata; ma ella era così compresa della gioia del suo trionfo che non se ne avvide. Si aggirava intorno alla stanza con movimenti bruschi, vivi, quasi serpentini. Si mirava nello specchio, mi abbracciava e mi baciava, come baciava quei fiori, per sfogare la sua contentezza.</p>
+            <p>"Quanto sono felice, mio Dio!" esclamava, senza avvedersi che egoismo c'era nella sua felicità.</p>
+            <p>Suonarono il campanello. Eravamo nel salotto; ella mi prese per mano, e mi fece entrare nella sua camera. "Aspettami qui" mi disse.</p>
+            <p>"È inutile, giacché me ne vado."</p>
+            <p>"Te ne vai! E perché?"</p>
+            <p>"Avrete molte visite... È la vostra festa..."</p>
+            <p>"È vero!" disse tutta giuliva.</p>
+            <p>"Vedete che mi rassegno anch'io..."</p>
+            <p>Ella mi guardò in volto con sorpresa.</p>
+            <p>"Fai il broncio alla mia contentezza? Uh, brutto!"</p>
+            <p>"No."</p>
+            <p>"Davvero?"</p>
+            <p>"Davvero."</p>
+            <p>"Domani dunque?"</p>
+            <p>"A domani."</p>
+            <p>"Buona sera"</p>
+            <p>Io non risposi; ella non se ne accorse. Era impaziente, tutta commossa di gioia, si contentava facilmente della mia affermazione, e non mi leggeva nulla in cuore.</p>
+         </div>
+         <div>
+            <p>Partii con tal corruccio in cuore che mi sembrava di odiarla. Quando fui istrada piansi come un bambino. E il giorno appresso, dopo una notte di collera, di gelosia, e d'amore, appena furono le dieci corsi da lei.</p>
+            <p>Avevo bisogno di vederla, di vedere i suoi occhi chiusi, di vederla dormire, e di sognare ancora le dolci notti di abbandono e d'amore. Avevo bisogno di schiudere le sue cortine, e di vedere il sorriso incerto di quelle labbra vermiglie ancora tiepide del respiro notturno, e quegli occhi ancora socchiusi che cercavano i miei. Entrai nella sua camera in punta di piedi, ma trovai ch'era già alzata, e che leggeva una lettera accanto al caminetto.</p>
+            <p>Vedendomi entrare all'improvviso, si scosse bruscamente, come sorpresa, e fece un movimento istintivo e impercettibile quasi per nascondere la lettera che stava leggendo. Non fu che un lampo, ma bastò al mio occhio acutamente sospettoso. Si alzò, venne a gettarmi le braccia al collo, e mi disse con effusione:</p>
+            <p>"Ah! bravo! Mi hai fatto un gran bene!"</p>
+            <p>E gettò la lettera con tutta naturalezza sul marmo del caminetto.</p>
+            <p>"Perché?" io le dissi.</p>
+            <p>"Ieri sera mi lasciasti in tal modo! Vedi, ero così commossa che non mi avvidi che partivi in collera. Tu sei più buono di me... Ci ho pensato tutta la notte... Sei ancora in collera?"</p>
+            <p>"Oh, no!"</p>
+            <p>"Ma perché eri in collera? che ti avevo fatto?"</p>
+            <p>Io chinai la testa senza rispondere.</p>
+            <p>"Vedi", soggiunse, "se io avevo ragione di temere quello ch'è avvenuto! Ho più giudizio di te, io, o piuttosto t'amo di più."</p>
+            <p>Mi prese per mano e mi fece sedere accanto al fuoco.</p>
+            <p>"Come sei pallido!" mi disse. "Non hai dormito stanotte?"</p>
+            <p>"No."</p>
+            <p>"Caro! caro! caro!" esclamò con trasporto infantile baciandomi in fronte.</p>
+            <p>Indi con improvvisa e ingenua vivacità:</p>
+            <p>"Vedi, io t'amo per questo! T'amo perché mi ami così, perché sei matto, perché sei geloso, perché sei ingiusto e cattivo. Mi piaci così, ecco!"</p>
+            <p>In questo momento sorprese i miei occhi che involontariamente si fissavano sulla lettera, e credette forse che la mia curiosità fosse rivolta a un braccialetto ch'era anch'esso sul marmo del camino, accanto alla lettera.</p>
+            <p>"Ti piace quel braccialetto?" mi disse prendendolo in mano onde prevenire i sospetti che credeva scorgere in me.</p>
+            <p>"Non l'avevo visto."</p>
+            <p>"Ah!" esclamò sconcertata.</p>
+            <p>Aprì e richiuse due o tre volte la busta di velluto, facendo scintillare i raggi delle gemme, e soggiunse per riprendere un certo contegno, o per disarmarmi colla franchezza:</p>
+            <p>"È un regalo per la mia beneficiata."</p>
+            <p>"Oh!"</p>
+            <p>"È bello, non è vero?"</p>
+            <p>Io, che avevo la testa a tutt'altro, risposi: "Bellissimo."</p>
+            <p>"È di gran valore."</p>
+            <p>"Varrà per lo meno duecento lire."</p>
+            <p>"Oh!" esclamò Eva, dimenticando a quella mia ingenua scappata tutte le sue preoccupazioni in una schietta risata. "Ne vale almeno duemila!"</p>
+            <p>Ebbene, francamente, io fui umiliato della mia ignoranza sul valore delle gemme.</p>
+            <p>"A che pensi?" ella domandò con una certa inquietudine.</p>
+            <p>"Penso che sono ben fortunati coloro che possono offrire regali di duemila lire."</p>
+            <p>"Tu mi dai il tuo amore che vale assai di più!"</p>
+            <p>Io sorrisi amaramente.</p>
+            <p>Si parlò un po' di tutto, ora seri, ora innamorati, ora quasi giulivi. Ad un tratto, le gettai fra i piedi questa domanda, che la fece trasalire, tanto era fatta bruscamente:</p>
+            <p>"Chi t'ha regalato quel gioiello?"</p>
+            <p>Ella rispose con la maggior franchezza. "Il conte Silvani. Saresti geloso di lui?" soggiunse vedendo che m'ero fatto serio.</p>
+            <p>"Oh, avrei torto!"</p>
+            <p>"E avresti torto davvero!" esclamò essa con tale accento dignitoso che mi umiliò.</p>
+            <p>"Oh, Eva, perdonami!" esclamai quasi fuori di me, "Io m'avvengo che sono ingiusto e cattivo! Faccio dispetto a me stesso!... Ma son geloso! orribilmente geloso!"</p>
+            <p>Per tutta risposta ella mi dette un bacio.</p>
+            <p>"Perché non hai rimandato quel braccialetto?" le domandai dolcemente.</p>
+            <p>Ella mi guardò con tanto d'occhi spalancati, come se stentasse a capire il significato delle mie parole.</p>
+            <p>"Come, rimandarlo? Ma vuol dire rifiutarlo!"</p>
+            <p>"Sì, rifiutarlo."</p>
+            <p>Quel rifiuto sconcertava tutti i suoi principi sinceramente e francamente accettati da tanto tempo.</p>
+            <p>"Ma non si usa in teatro!" mi disse sorridendomi come si fa ad un bambino che ha detto una sciocchezza.</p>
+            <p>"Ah!" sogghignai. "Credevo che ci fosse della dignità anche fra le persone del teatro!"</p>
+            <p>"Ma, mio caro, è un altro genere di dignità. C'è l'uso di far dei regali agli artisti in occasione delle loro beneficiate, e ciò non ha nulla di umiliante pel loro amor proprio. Perché ridi?"</p>
+            <p>"Rido perché sono uno sciocco, un provincialetto, perché non so tutte coteste cose, e soprattutto perché non oserei mai offrire un regalo simile ad una signora per bene... senza temere di farmi rosso in viso, o di farmi gettar dalla finestra dai suoi domestici."</p>
+            <p>"Ma un'artista non è una duchessa, mio caro! te l'ho già detto."</p>
+            <p>E ci metteva tanto candore che avrebbe disarmato tutt'altro risentimento che non fosse stato il mio.</p>
+            <p>Andavo su e giù per la stanza, ed ella mi teneva dietro con gli occhi, tenera, amorosa, quasi timida - ella che era così orgogliosa! Io sentivo quello sguardo attaccato su di me, e sentivo che cercava il mio, che vinceva la mia collera, e m'irritava. Improvvisamente mi arrestai dinanzi al camino, soverchiato dal fascino mordente che quella lettera esercitava da un'ora su di me, e la presi in mano. Ella trasalì, ma non si mosse.</p>
+            <p>"Entrando ho interrotto la tua lettura"; le dissi, e le porsi la lettera.</p>
+            <p>Ella la prese vivamente.</p>
+            <p>"Oh, nulla d'importante."</p>
+            <p>"Ebbene, leggila pure."</p>
+            <p>"L'avevo già letta", e con un gesto naturalissimo la buttò nel camino.</p>
+            <p>Io non seppi dominare un movimento come per buttarmi sul fuoco.</p>
+            <p>"Chi ti scrive?" le domandai facendomi rosso in volto.</p>
+            <p>"Il conte Silvani."</p>
+            <p>"Ah!"</p>
+            <p>"Mi pare che la mia franchezza dovrebbe disarmare i tuoi pazzi sospetti!"</p>
+            <p>"Tanto più che adesso devo contentarmi della franchezza!" le dissi amaramente, additando il foglio che ardeva.</p>
+            <p>"Oh!" esclamò ella celandosi il viso fra le mani. "Oh!"</p>
+            <p>Sentivo montarmi alla testa dei caldi soffi di collera selvaggia. Ella rimase un istante in silenzio, col viso rosso di vergogna, poi esclamò: "Siete pazzo!"</p>
+            <p>"Avete ragione!" le dissi mettendo tutta la mia amarezza in un sorriso; e aspettai che mi rispondesse qualche cosa per sfogarmi di tutti i sarcasmi che mi bollivano in seno.</p>
+            <p>Ella non mi diceva più nulla; attizzava il fuoco colle molle e aveva l'aria severa.</p>
+            <p>"Quella lettera naturalmente accompagnava quel gioiello!" ripresi dopo un lungo silenzio, poiché sentivo il bisogno ch'ella dicesse qualcosa.</p>
+            <p>"Sì" rispose seccamente.</p>
+            <p>Allora, irritato di tanta calma, le domandai bruscamente:</p>
+            <p>"Perché l'avete bruciata?"</p>
+            <p>"Perché non vi riguardava."</p>
+            <p>Perdei la testa: "È vero;" le dissi, "io non posso farvi dei regali di duemila lire!"</p>
+            <p>Ella si rizzò come se l'avessi morsa al cuore, pallida, con certe lagrime ardenti negli occhi, e mi disse con un accento che non dimenticherò giammai:</p>
+            <p>"Adesso siete più che ingiusto e più che cattivo!"</p>
+            <p>C'era tanta collera nel mio cuore che non ne fui scosso. Rimasi com'ero, appoggiato al caminetto, duro, pallido, fosco. Ella fece due o tre giri per la camera, asciugandosi dispettosamente le lagrime; poi venne a me all'improvviso; prese le mie mani, e mi fissò in volto i suoi occhi lagrimosi.</p>
+            <p>"M'avete fatto molto male!" mi disse. "M'avete detto quello che nessuno m'ha detto; mi avete rinfacciata la mia condizione come io sentivo di meritarmi, ma come nessuno osava dirmelo... Ora che volete che io faccia?"</p>
+            <p>"Scacciatemi."</p>
+            <p>"Oh, no! ti amo troppo!"</p>
+            <p>"Tu vedi come ti amo, come son geloso, giacché ti faccio piangere, e non fai nulla per togliermi da quest'inferno!"</p>
+            <p>"Che cosa vuoi che io faccia? tutto quello che posso fare per provarti il mio amore non l'ho fatto? Tutto ciò che posso dissimularti per risparmiarti dei dispiaceri non te lo dissimulo? E tu me ne ringrazi con un aumento di sospetti ingiuriosi e d'insulti! La mia sincerità dovrebbe rassicurarti e t'irrita! Gli stessi fastidi che mi prendo per nasconderti quelle cose che possono ferire il tuo amore o il tuo orgoglio dovrebbero provarti che io ti amo tanto, sino a mentire per te!"</p>
+            <p>Io la guardai in viso coll'occhio freddo e scintillante di collera come una lama di acciaio, e le piantai in faccia queste parole, come una pistolettata a bruciapelo:</p>
+            <p>"Non vi credo!"</p>
+            <p>Ella si celò il viso tra le mani, e si lasciò cadere sulla poltrona, come se quelle parole le avessero schiantato il cuore. Poscia levò verso di me il viso tutto bagnato di lagrime, e i singhiozzi le soffocavano la parola: "Perché?" balbettava "perché?"</p>
+            <p>"Perché ti ho visto fingere allo stesso modo sul palcoscenico; perché il tuo volto è una maschera; perché dubiterò sempre che tu mentisca; giacché la tua arte è una menzogna!" gridai fuori di me, sputandole in faccia tutta la mia rabbia, tutta la mia gelosia e tutto il mio amore.</p>
+            <p>Mi attendevo un'esplosione di collera. - Ella si alzò, pallidissima, si tenne ritta in faccia a me, piangendo silenziosamente e cogli occhi come attoniti per tanto dolore. Le labbra le tremarono due o tre volte prima di poter parlare.</p>
+            <p>"Non mi credi!" balbettò. "E che dovrei fare perché tu mi creda? Dillo."</p>
+            <p>"Dovresti abbandonare il teatro."</p>
+            <p>"Oh!"</p>
+            <p>"Dovresti romperla con tutto il mondo."</p>
+            <p>"Oh!"</p>
+            <p>"Dovresti venire a vivere con me."</p>
+            <p>"Oh, no! non lo farò mai, perché ti amo!" mi rispose con uno scoppio di pianto.</p>
+            <p>"Ah! è una ragione singolare!"</p>
+            <p>"Si! Tu pel primo te ne pentiresti, tu!... No! no! no!"</p>
+            <p>Allora, due o tre volte, feci per precipitarmi su di lei, e strangolarla; le gettai in faccia un sorriso che valeva uno schiaffo, e scappai via. Quando la notte tornai a casa, con tutte le smanie, tutte le frenesie, tutte le più pazze risoluzioni in cuore, trovai Eva, sulla soglia della porta, che mi aspettava.</p>
+            <p>"L'hai voluto:" mi disse semplicemente, "ecco che t'ho obbedito."</p>
+         </div>
+         <div>
+            <p>Credetti di esser felice. Ella mi apparteneva intieramente; non aveva che me. Mi pareva di avere avvinto più solidamente la sua esistenza alla mia, rompendo tutti i legami che l'attaccavano al mondo esteriore. Io più non sarei stato geloso di tutta Firenze, e avrei potuto uccidere come un cane colui che avesse osato stendere la mano verso la mia felicità.</p>
+            <p>Mille volte avevo fatto quel sogno senza sperare di realizzarlo giammai, e l'avevo abbellito con seducenti particolari. L'idea sola di avere Eva accanto a me, ad ogni ora della mia vita, sotto il mio medesimo tetto, mi avea creato altre volte delle estasi di paradiso. Avevo sognato le ridenti follie di una eterna luna di miele, le passeggiate in campagna, la fiamma del caminetto, la lucerna della sera, i giuochi infantili, e i dolci silenzi. Avevo pensato a tutte le parole più comuni che ella avrebbe potuto dirmi nelle più insignificanti congiunture. L'avevo vista come un raggio di sole in tutti gli angoli della mia camera.</p>
+            <p>Ahimè! il domani, allorché la vidi sotto le povere cortine del mio letto, allorché ebbe freddo e non ebbi altro da metterle sui piedi che il mio paletò, allorché accese il fuoco del mio camino e si tinse le mani - quelle candide manine - e tossì due o tre volte pel fumo, allorché dovette trascurare i suoi capelli per fare il caffè, provai un dolore nuovo e come una spaventosa sorpresa; mi parve che la fata fosse svanita, e non rimanesse più che una bella donnina - di quelle che piacciono - ma io avevo bisogno di adorarla!</p>
+            <p>Un demone maligno si assise sogghignando al capezzale del mio letto sin dalla prima notte, per trascinare nel volgare e nel ridicolo tutte le mie illusioni.</p>
+            <p>La realizzazione dei miei castelli in aria era diventata la sorgente di mille fastidi, di mille sorprese, ed anche di mille dolori. Ero costretto a starmi fuor di casa la maggior parte del tempo per non spoetarmi intieramente l'anima alla vista di lei che, con un'abnegazione senza pari, affaccendavasi nelle cure domestiche. Mi era parso che lo starle sempre vicino dovesse essere una felicità sovrumana, e quella felicità, vista da vicino, aveva particolari così volgari che mi facevano chiudere gli occhi e sanguinare il cuore. Delle notti intiere, col gomito sul guanciale, vedendola dormire accanto a me, bella, serena, quasi felice anche nel sonno - lei che mi aveva tutto sacrificato - domandavo a me stesso se ella soffocasse, come me, le medesime dolorose impressioni, oppure se non le provasse nemmeno perché mi amava di più, o in un altro modo, o se nella donna ci fosse, come un istinto provvidenziale, l'affetto del focolare domestico... oppure se la sua condizione, l'educazione ricevuta, i suoi sentimenti, la tenessero molto al di sotto della mia ombrosa e delicata suscettibilità... E finivo per darle torto - a lei! di non aver la delicatezza di risparmiarmi certi particolari volgarissimi che mi sembrava affrontasse con la più volgare disinvoltura...</p>
+            <p>Non cerco di spiegarti cotesto mostruoso mistero che chiamasi cuore. Non mi sono mai sognato di giustificarlo. Ti faccio osservare un fatto.</p>
+            <p>Cotesta disillusione, cotesta amarezza intima, m'invadeva tutto, la mente come il cuore. L'arte mi negava anch'essa le sue ispirazioni; era forse gelosa, o la vita mi assorbiva troppo per potermi sollevare sino ad essa. Però fu un altro gran dolore per me. Provare la febbre e l'impotenza di creare! L'hai tu provato? Ero stato delle ore intere dinanzi a quel cavalletto, accanto a quella donna che mi aveva riempita l'anima di tanta luce e di tanti colori, che adesso attaccava i bottoni ai miei vestiti, e mi rendeva ebete; e qualche volta mi ero strappato i capelli, qualche altra volta avevo pianto di rabbia, o avevo tirato giù linee o pennellate che il giorno dopo scancellavo. Ella mi guardava con sorpresa, mi stringeva le mani, mi diceva delle parole affettuose. Io le rispondevo sgarbatamente, infastidito, quasi iroso, e delle volte, trovandomi l'anima così vuota, piangevo tutt'altre lagrime.</p>
+            <p>Intanto i bisogni materiali della vita si facevano sentire più che mai. Quel pochissimo di cui potevo disporre era stato dissipato in un lampo; ero indebitato fin sopra ai capelli coll'oste, col padrone di casa, con tutti i miei amici, ed anche coi semplici conoscenti, poiché la necessità mi aveva reso sfacciato. Avevo momenti di preoccupazione tale che le carezze di Eva mi avrebbero fatto montare in collera. Non osavo più scrivere ai miei genitori perché avevo l'orgoglio del mio fallo, ed il mio amore sciagurato non era abbastanza potente per assorbire anche e soffocare il rimorso di strappare il pane di bocca alla mia famiglia onde prolungare la mia dolorosa follia. Ero troppo orgoglioso per far trapelare ad Eva la menoma mia preoccupazione; e allorché ella si mostrava più affettuosa, più sommessa, e cercava timidamente di prender parte alle mie angustie e di venirmi in aiuto, avevo per lei modi aspri e parole dure. Per vivere alla meglio avevo accettato una delle più umili occupazioni - dipingevo ad oleografia; il mio cervello si atrofizzava, ma si tirava innanzi.</p>
+         </div>
+         <div>
+            <p>L'inverno era ritornato, e rigidissimo. Io andavo al caffè tutte le sere a bere il ponce e a leggere il giornale, mentre Eva mi aspettava a casa. Mi occupavo delle quistioni internazionali e tenevo dietro al corso dei valori pubblici con interesse! Leggevo sino alla quarta pagina; poi facevo quattro chiacchiere coi vicini, e tornavo a casa sbadigliando. Una sera avevo trovato il ponce freddo; la politica volgevasi contraria al mio colore - poiché avevo già un colore politico! - il mio vicino era stato sgarbato; fioccava maledettamente, e tornando a casa avevo trovato il camino spento.</p>
+            <p>"Perdio!" dissi ad Eva aspramente; ella lavorava presso il lume. "Non vien certamente la voglia di tornare a casa."</p>
+            <p>Essa levò su me i suoi occhi sempre dolci e sereni, e non rispose.</p>
+            <p>"Con una notte come questa farmi trovare una ghiacciaia!" ripresi. Vedevo che ella avea il viso livido, che tremava dal freddo sotto il suo scialle, e non pensai che in quella ghiacciaia ella avea dovuto pur starci tutto quel tempo in cui io avevo acconciato l'Europa a modo mio, seduto in un angolo ben riscaldato del caffè.</p>
+            <p>"Non è freddo" rispose.</p>
+            <p>"Perdio, s'è freddo, si gela."</p>
+            <p>"Non c'è più legna", soggiunse timidamente.</p>
+            <p>"Non ce n'è più in Firenze?"</p>
+            <p>Ella chinò il capo sul lavoro e stette zitta.</p>
+            <p>"Non hai danari?" domandai.</p>
+            <p>Era la prima volta che quella parola mi veniva sulle labbra, e malgrado fossi tanto cambiato, mi fece una singolare impressione, come se avesse suonato altrimenti della mia intenzione.</p>
+            <p>"No", rispose Eva dolcemente.</p>
+            <p>"Come! non hai danari?" replicai, senza che la parola quella volta mi ripugnasse. "Hai fatto delle spese straordinarie?"</p>
+            <p>"No."</p>
+            <p>"Ma non siamo che ai venti del mese."</p>
+            <p>"È vero."</p>
+            <p>Malgrado il mio abbrutimento un raggio di luce si fece nella mia mente, e mi parve che attraversasse la parte più sensibile del mio cuore come uno stile di acciaio.</p>
+            <p>"Vuol dire..." esclamai, sentendo che la voce mi tremava, "vuol dire che i danari che ti ho dato ciascun mese... non bastavano!"</p>
+            <p>"Che importa?" mi diss'ella sorridendomi con la stessa dolcezza.</p>
+            <p>"Ma allora... come hai fatto?..."</p>
+            <p>"Avevo del danaro."</p>
+            <p>"Tu!!!" e mi nascosi il volto fra le mani.</p>
+            <p>Il mio orgoglio si contorceva dolorosamente, poiché il mio cuore non si commoveva più.</p>
+            <p>"Sì."</p>
+            <p>"Tu non avevi nulla quando venisti."</p>
+            <p>"Avevo quei pochi gioielli."</p>
+            <p>"Li hai venduti?"</p>
+            <p>"Sì."</p>
+            <p>"Ah!"</p>
+            <p>Ella venne a me dolcemente; mi rialzò il capo, e mi baciò in fronte.</p>
+            <p>"Non mi ami più?" disse.</p>
+            <p>"Perché?"</p>
+            <p>"Perché quello che io ho fatto ti dispiace."</p>
+            <p>"No."</p>
+            <p>"Ti fa arrossire."</p>
+            <p>"Sì."</p>
+            <p>"Non mi ami più! Io non mi son vergognata di quello che hai fatto per me."</p>
+            <p>"È tutt'altra cosa; io sono un uomo."</p>
+            <p>"È lo stesso quando si ama!"</p>
+            <p>Io le baciai le mani, e la guardai con occhi che avevano le migliori intenzioni di adorarla. Ella aveva una cuffietta assai modesta; alcune ciocche di biondi capelli le scappavano attraverso i nastri scoloriti; sul suo seno s'incrociava un leggiero scialletto; aveva le labbra pallide e le mani livide. Le prime parole che mi vennero in bocca furono:</p>
+            <p>"Ed ora come si fa?"</p>
+            <p>"Bisogna aver coraggio!"</p>
+            <p>"Oh, se potessimo contentarci delle belle parole!" le dissi aspramente.</p>
+            <p>"Mio Dio!" rispose ella timidamente, come per rabbonirmi, "non sono stata mai ricca, tu lo sai; quella bella casa e quei bei mobili non mi appartenevano, e, pur troppo, tutto il mio danaro lo spendevo malamente per vivere in un certo lusso; sicché quando gli ho voltato le spalle possedevo ben poco. Ho fatto tutto quello che ho potuto, e te l'ho nascosto per risparmiarti un dispiacere di più. Adesso non ho più nulla."</p>
+            <p>"Io non vi ho chiesto nulla!" le dissi amaramente.</p>
+            <p>"Oh!"</p>
+            <p>"E se l'avessi saputo non vi avrei permesso di infliggermi questa umiliazione che adesso mi rinfacciate!"</p>
+            <p>"Oh!" ripeté Eva con un raddoppiamento di dolore.</p>
+            <p>Io non ebbi cuore per prendere le sue mani, con le quali si celava il viso, e asciugarle le lagrime che vedevo scorrerle fra le dita.</p>
+            <p>"Enrico!" mi disse ella dolcemente come nei nostri più bei giorni d'amore, "vedi come sei diventato? Vedi se m'ingannavo presagendo quel ch'è successo? Tu te ne sei pentito pel primo!"</p>
+            <p>L'abbassamento morale, direi, era così pronunziato in me che non pensai nemmeno di protestare per illuderla; e non pensai che quel mio lugubre silenzio doveva pesarle sul cuore come piombo fuso. Poi, quando me ne avvidi, dopo un lungo e mortale indugio, non trovai di meglio per consolarla che sciorinare un'imprecazione.</p>
+            <p>"Arte pitocca e bugiarda!" esclamai stendendo il pugno verso il cavalletto "che vai tronfia d'orgoglio e non dai pane da sfamare!"</p>
+            <p>Eva mi guardò sorpresa, quasi addolorata. Io le risposi quel ritornello che riepilogava tutte le mie abbiezioni: "Ed ora come si fa?"</p>
+            <p>Non rispose.</p>
+            <p>"Se tu tornassi al teatro?" le dissi con tutta naturalezza, compiacendomi, direi, della mia vigliaccheria.</p>
+            <p>"È impossibile;" rispose colla stessa calma rassegnata; "non è la sola abilità che forma l'artista; ma la carriera fatta, il palcoscenico, il pubblico, i giornali teatrali, i cartelloni degli spettacoli, gli agenti, gli impresari. Bisogna vivere in questo mondo per appartenervi. Io ne sono uscita, e nessuno più mi conosce. Per rientrarvi bisognerebbe che incominciassi da capo."</p>
+            <p>Allora soltanto mi balenò dinanzi agli occhi tutta l'estensione del sacrificio che ella avea fatto alle mie folli esigenze.</p>
+            <p>"E tu sapevi tutto questo?" le dissi.</p>
+            <p>"Sì" rispose tranquillamente "e sapevo anche che doveva arrivare questo giorno."</p>
+            <p>"Ti giuro," esclamai, "che ti renderò tutto quello che mi hai sacrificato, o mi ucciderò!"</p>
+            <p>Ella mi guardò in modo singolare con quei suoi occhi mesti e dolci, e mi disse quasi con un soffio di voce:</p>
+            <p>"Io non me ne sono mai lagnata, e tu non mi avevi mai promesso di ucciderti."</p>
+         </div>
+         <div>
+            <p>Passai la notte in magnanime risoluzioni, e appena fu giorno cominciai a darmi le mani attorno per cercare altre occupazioni che mi fruttassero qualcosa. Ma le magnanime risoluzioni non riuscirono che a procurarmi un modesto impiego, presso un fotografo. Di meglio in meglio, dalle nebulose altezze della grande arte io ero arrivato a stendere i colori dietro le fotominiature che si vendevano a dodici lire l'una. E neanche questo bastava. Io ero inquieto, irascibile, dispettoso. Ella trascurava il suo vestire, era triste, e qualche volta stizzosa; aveva certi suoni di voce aspri, certi sorrisi che non la rendevano bella. Io credevo coscienziosamente di farle dei veri sacrifici andando a casa la sera invece di andare al caffè, e fumando la pipa accanto a lei, leggendo il giornale, mentre ella lavorava. Ambedue senza dire una parola, sentendoci gravare quel silenzio sul petto come un peso enorme.</p>
+            <p>Dopo alcuni giorni osservai in lei un cambiamento che mi avrebbe sorpreso se il mio cuore fosse stato più all'erta. Ella cantava per la camera, sembrava allegra, aveva comperata una veste di seta e degli stivalini nuovi coi suoi risparmi - faceva già dei risparmi! - Aveva dei guanti e si abbigliava con cura! Quell'aria di festa si era stesa anche al mio focolare e sulla mia mensa - ed io ne godevo come un parassita!</p>
+            <p>Mi accadde due o tre volte di non trovarla in casa, e non le domandai dove fosse stata. Una sera trovai la chiave nella serratura. La camera era buia. La chiamai e non rispose. Accesi il lume e vidi la camera vuota; sul camino, appoggiata allo specchio, e messa con cura in evidenza, c'era una lettera aperta; era per me - ecco che cosa lessi:</p>
+            <p>" Mio caro Enrico, tu non mi ami più, io non ti amo più nemmeno - e siamo pari. Te l'avevo predetto! Tu mi hai visto attizzare il fuoco, e far la calza; io ti ho visto stendere tranquillamente i colori sulle tue stupide fotografie, senza ispirazione e senza entusiasmo; ecco perché non ci amiamo più. Le asprezze, i diverbi, le amarezze, son degli accessori. Domani forse saremmo arrivati a picchiarci! Ti lascio, e credo fare del bene anche a te. Tu hai bisogno di sognare per buscarti gloria e quattrini; io non ho che la mia giovinezza, e bisogna che ne approfitti se non voglio andare a finire all'ospedale. Tu hai il cuore buono; ti ho parlato con franchezza, e credo perciò di non lasciarti in collera. Io ti voglio sempre del bene, e te lo proverò, quando potrò. Eccoti 500 lire. "</p>
+         </div>
+         <div>
+            <p>Devo confessare che la prima impressione destatami da quella lettera fu di sollievo. Tutto quello che c'è di falso e di malsano in tali legami si scorge al sentimento inesplicabile di soddisfazione che si prova rompendoli, anche quando il romperli costi qualche lagrime. Poi, quando la tempesta è passata rimangono qualche volta nei bassi fondi limacciosi le serpi che si sono avviticchiate più strettamente al cuore, e che hanno più tenace vitalità: - il dispetto, l'amor proprio ferito, la vanità schiaffeggiata. Trovandomi solo in quella camera ove m'aveva aspettato tante volte, non pensai ad altro che al modo con cui ella l'aveva abbandonata; e quando mi avvicinai a quei guanciali che conservavano ancora l'impressione del suo capo non pensai a quell'altro letto dove ella forse dormiva, se non perché non era il mio. Non pensai a quei baci che più non desideravo se non perché un altro li aveva.</p>
+            <p>E al nuovo giorno il raggio di sole che veniva dalla finestra era così allegro, diceva tante belle cose della giovinezza, dell'arte, dell'avvenire, della mia famiglia, cui non avevo rivolto il pensiero prima senza una spina nel cuore, che mi trovai con sorpresa l'animo in festa: esso non voleva rammaricarsi ad ogni costo dell'abbandono di Eva.</p>
+            <p>Scrissi ai miei genitori, fumai la mia pipa, riordinai tutti i miei utensili da dipingere, come se non dovessi che ritornare all'arte perché l'arte mi sorridesse, e non pensai ad Eva che pel dispetto di aver trovato fra la cenere del caminetto una busta mezzo arsa, ove l'indirizzo di lei era scritto con quello stesso carattere elegante della lettera che accompagnava il braccialetto del conte Silvani - e per quel biglietto di cinquecento lire che, tutto sdegnato, misi nel portafogli, col fermo proposito di buttarglielo in volto quando l'avessi vista.</p>
+            <p>Ahimè! io non la rividi! non le buttai nulla in viso! Il vuoto che si era fatto nel mio cuore, a furia di vivere soltanto per esso, mi avea prostrato intieramente, e aveva isterilito il mio ingegno. Tutte le orride lingue della miseria del cuore, dell'intelletto e della borsa, lambivano la mia esistenza. L'avvilimento mi snervava, e logorava la mia vita nell'ozio, sulle panche di un bigliardo o di un caffè. I debiti, l'inerzia, e la miseria mi affogavano; tutta l'attività del mio spirito non aveva altra mira che di farmi acconciare alla meglio in quel fango - ed io mangiai tranquillamente il biglietto di cinquecento lire.</p>
+         </div>
+         <div>
+            <p>Poi anche questo finì.</p>
+            <p>E allora incominciai un'altra lotta più bassa, più accanita, più dolorosa, la lotta degli espedienti, delle transazioni d'amor proprio, delle viltà, contro un desinare. Dopo aver venduto tutto quello che era vendibile, le tele, i disegni, le scatole, i colori, gli abiti, le scarpe, tutto, mi trovai senza pane, quasi senza vesti, alloggiato come in ostaggio del mio debito, con cinque lire in tasca, e certe allucinazioni come quelle che si devono provare al momento di smarrire la ragione.</p>
+            <p>Mi venne in mente di giocare. Mi ricordai di tutte quelle storielle e di tutti quei bei romanzi ove si parla di guadagni enormi fatti con un nulla, e mi parve d'esser ricco possedendo cinque lire e quella bella idea. Salii senza esitare le scale di una casa ove gli artisti e gli studenti poveri andavano a disputarsi l'un l'altro il pane quotidiano; arrischiai una lira, poi l'altra, poi l'altra, poi l'ultima. Vedevo delle fiamme abbaglianti passarmi dinanzi agli occhi, e provavo degli improvvisi sbalordimenti. Mi parve che si facesse un gran vuoto nel mio cuore e ne sentii tutta la penosa sensazione, nel momento in cui si voltava la carta che doveva decidere dell'ultima mia lira. Tu non sai quel che voglia dire l'ultima lira; vuol dire il pane dell'indomani, e si ha lo stomaco vuoto! e i fantasmi dei tuoi bisogni ti attraversano in un lampo lo spirito!... Poi sentii una gran calma improvvisa, come una specie di benessere, una terribile lucidità d'idee. Avevo perduto. Almeno non avevo più nulla!</p>
+            <p>Scesi le scale con passo fermo. Avevo la vista chiara e la mente tranquilla. Passeggiai per le vie più frequentate; lessi gli annunzi degli spettacoli; passai dinanzi alle vetrine di parecchi caffè provando una strana soddisfazione a veder la gente che vi era; andai pel Lungarno alla Pescaia, e stetti una mezz'ora a guardare i bizzarri riflessi del gas sulle acque del fiume, senza pensare un istante che sarebbe stato anche più bello trovarvisi in mezzo. Poi, quando suonò la mezzanotte, mi trovai come per abitudine nella mia strada. Avevo freddo, e mi ricordai che non avevo meglio da fare che andare a letto.</p>
+         </div>
+         <div>
+            <p>Il giorno dopo pensai che era naturalissimo di andare a chiedere qualche cosa in prestito al solo amico che non mi voltasse ancora le spalle, come tutti gli altri, Giorgio, e mi meravigliai come quell'idea non mi fosse venuta prima. Quell'idea non mi fruttò che una lunga corsa, ed io non ero molto in forze. Giorgio non era in Firenze. Domandai quando sarebbe ritornato; mi risposero, fra dieci o quindici giorni. - Dieci o quindici giorni!</p>
+            <p>Quella risposta mi lasciò come istupidito; tornai indietro colle mani nelle tasche, e zufolando un'arietta fra i denti.</p>
+            <p>Mi venne in mente di fumare. Cercai in tutte le mie tasche, e non vi trovai che uno scatolino di fiammiferi; era pieno. "Se potessi cambiarlo con un sigaro!..." pensai, "o con un pezzo di pane!"</p>
+            <p>E credo anche che scappai a ridere!</p>
+            <p>Avevo una preoccupazione insistente; quella di ammazzare il tempo, come se aspettassi qualche avvenimento e l'indugio mi pesasse. Pensai di trastullarmi colle mie fantasticherie, giacché non avevo più fiducia nell'ispirazione, e di andare alle Cascine per cercarvi la solitudine. Ahimè! la mia mente era vuota, come il mio cuore, come il mio stomaco. Andavo baloccandomi come un imbecille pei viali, ora guardando correre le nuvole più basse e brune su di un cielo di piombo, attraverso gli incrociamenti dei rami nudi, ora tenendo dietro con grande curiosità ai passeri che correvano sull'erba riarsa dal gelo in cerca di cibo - anch'essi avevano fame. Tutt'a un tratto udii uno scalpito accelerato e un grido "guarda!" e mi gettai sul ciglione, tutto sossopra, come se ne valesse la pena! E vidi passare come frecce due cavalieri, anzi un cavaliere e un'amazzone. L'amazzone era lei, Eva! - la riconobbi al riso, rideva allegramente, e alla persona: ma non la vidi in faccia; era rivolta verso il suo compagno, gli parlava e non mi vide - credo almeno che non mi abbia visto. Il suo cavallo era coperto di sudore, aveva le narici rosse e mandava nugoli di fumo. Ella era leggermente inclinata sulla sella; acconsentiva la mano alle redini e tutta la persona ai bruschi movimenti del cavallo, con grazia ardita e sicura. Si udivano stridere il cuoio e le cinghie della sella; il velo le svolazzava dietro coi biondi capelli, e la lunga veste ondeggiava come un prolungamento della sua persona. Il giovane che l'accompagnava aveva la sigaretta fra le labbra, il brio spensierato, e nel sorriso, nel gesto, nel guanto, aveva come l'insolenza di tutte le ricchezze, della gioventù, della salute, dell'avvenenza, della condizione e del danaro. Non so se Eva mi vide; so che vedendola così bella e accanto a quel bel giovane mi parve tutt'altra donna; mi parve che non avrei giammai osato di stringerle la punta di un dito. Più non sentivo il menomo desiderio di lei. C'era come un abisso fra di noi. Ella era così lontana, così in alto, che non provavo né desiderio, né memorie - o erano di tutt'altro genere. - Se mi avesse gettato un pezzo da cinque lire, non l'avrei preso, ma se mi avesse buttato un pezzo di pane, chissà... quando ella avesse svoltato l'angolo del viale!...</p>
+         </div>
+         <div>
+            <p>Verso le sei mi trovai senza avvedermene dinanzi all'osteria dove solevo desinare. Mi sentivo stanco, e mi rammentai che non avevo mangiato dal giorno innanzi.</p>
+            <p>Allora provai una paura improvvisa, rapida come un lampo.</p>
+            <p>"Dio mio!" balbettai, "se lo sapesse mia madre!"</p>
+            <p>Mi aggirai tutta la sera per le vie come un fantasma, senza direzione, senza sapere che fare, guardando stupidamente tutti quelli che incontravo, non per altro che per cercar d'indovinare se avessero desinato.</p>
+         </div>
+         <div>
+            <p>Il freddo mi arrecava le convulsioni; avevo le vertigini; la mia camera era gelata, e le coltri della padrona erano povere come il mio vestito. Tutta la notte non potei chiuder occhio: provavo degli stiramenti convulsivi di stomaco, delle nausee che mi facevano assai soffrire.</p>
+            <p>Mi rammentai di Eva, di averla incontrata alle Cascine, e quel ricordo fu come di persona che avessi conosciuto molto tempo addietro. Nella mia mente c'era un penoso sonnambolismo che faceva correre incessantemente il mio pensiero stanco dietro certe larve senza forme precise, o dietro le memorie del passato. Mi ricordavo di tutti i particolari del mio amore per Eva, anzi una forza che non era nella mia volontà vi costringeva quasi ostinatamente il mio pensiero, e parevami che mi ricordassi di un fatto accaduto ad altra persona, o narratomi molto tempo addietro. Non mi sorprendevo nemmeno di non esserne geloso. Prima di tutto l'amore sta in un complesso di circostanze, e in me allora non c'erano che circostanze negative. L'avevo amata quando la mia immaginazione e il mio cuore sarebbero stati ricchi. Quanto alla gelosia, essa richiede, se non un grande amore, almeno una certa dose di amor proprio che renda possibile un parallelo anche ipotetico fra due rivali. - Io avevo fame!</p>
+         </div>
+         <div>
+            <p>Avevo anche preoccupazioni lugubri. Pensavo alle ore che mi rimanevano ancora di vita e alle sofferenze che dovevano accompagnare tal genere di morte, come per conciliarmi con quell'idea. Non osavo uscir di casa, non ne avrei avuto la forza, e sembravami che tutti dovessero leggermi in viso la fame. Avevo ancora dell'orgoglio!</p>
+            <p>L'aria era frizzante. Dalla finestra vedevo la gente andar lesta, certuni avevano la cera sorridente: molti una tranquilla spensieratezza; tutti erano certi di trovare a casa il desinare. Vedevo i camini che fumavano, e, attraverso i vetri delle finestre di faccia alla mia, donne affaccendate e fumo di vivande. Vedevo tutto ciò con una dolorosa lucidità di mente, e fermavo il mio pensiero in mezzo a tante domestiche felicità, che vedevo o che indovinavo, con una penosa voluttà; e domandavo a me stesso, con immenso sconforto, se fosse possibile che tutta quella gente felice potesse credere che a venti passi c'era un uomo che moriva di fame.</p>
+            <p>Verso sera le mie sofferenze si fecero insopportabili. Uscii come un pazzo. Mi trascinai dinanzi a tutti i caffè e a tutti i teatri, nascondendomi fra i monelli, cercando il buio, esitando lungamente. Poi, tutt'a un tratto, mi trovai abbietto, rassegnato, contento di esserlo. Vidi uscire una coppia di giovani eleganti dalla Pergola; la donna bella, coperta di pellicce e sorridente; l'uomo con la cravatta bianca, e guardava lei con occhi innamorati. Ella montò in una bella carrozza, gli strinse la mano e gli sorrise. Egli la vide partire, col cappello in mano e gli occhi intenti; allo svolto della via un guanto bianco si affacciò allo sportello del legno, e il giovane salutò nuovamente quel guanto; poi si avvicinò al gas e lesse un piccolo bigliettino che aveva in mano; - gli occhi gli raggiavano, sembrava felice, doveva esser buono. Me gli avvicinai col cappello in mano e gli dissi: "Ho fame."</p>
+            <p>Cotesta terribile verità doveva leggersi chiaramente sul mio volto, poiché quel giovane mi guardò sorpreso, senza parlare, e mi diede un biglietto da cinque lire. Dovette accorgersi delle lagrime che avevo negli occhi febbrili; si fermò a guardarmi e mi disse:</p>
+            <p>"Voi siete giovane, e sembrate sano; come va che avete fame?"</p>
+            <p>Però non attese altra risposta da me - io non avevo alcuna da dargliene - e soggiunse:</p>
+            <p>"Se volete occuparvi venite a questo recapito domani alle undici."</p>
+         </div>
+         <div>
+            <p>Era giovane, amato, ricco, felice, aveva del cuore, e quel ch'è più raro, la delicatezza del cuore. Egli mi fece fare il suo ritratto, me lo pagò benissimo, non solo, ma risparmiò anche il mio amor proprio comprendendo le cinque lire che mi aveva anticipato nel prezzo del lavoro. Egli mi aiutò in tutti i modi, col danaro, con le raccomandazioni, cogli incoraggiamenti, ed anche, posso dirlo, colla sua amicizia. Mercè sua entrai in un'altra vita, nella vita operosa, lauta e onorata. Povero giovane! aveva il cuore pieno e l'espandeva! Un bel giorno la sua felicità si esaurì - egli aveva creduto che fosse inesauribile. - La sua amante era una gran dama, portava un bel nome, e cambiava spesso d'abiti e d'amiche intime. - Egli ebbe un duello, per una quistione di giuoco, con un capitano di cavalleria, e fu ucciso - il marito fece da secondo del capitano. - I suoi migliori amici gli diedero torto; dissero che egli spingeva le cose sino al romanticismo, che aveva mancato di delicatezza e di saper vivere, che l'avea ricompensata di tutti i sacrifici ch'ella gli avea fatti pel passato, e della felicità che gli avea regalato, compromettendola; che era ridicolo mostrarsi più geloso del marito. Egli pagò con la vita.</p>
+         </div>
+         <div>
+            <p>Perché ti ho narrato anche questo episodio estraneo al mio racconto? Tant'è, acciò serva a qualche cosa, ti dirò che, non so perché, pensai ad Eva che non era ricca, che non era gran dama, che non aveva un bel nome, e che era nella condizione di dover smungere borsa dai suoi amanti, come la gran dama smungeva i cuori dei suoi.</p>
+         </div>
+         <div>
+            <p>Io avevo vissuto vent'anni in dieci mesi, e mi sentivo forte, pieno di vita, di cuore, di memorie e d'immaginazione. Se non avessi tanto goduto e tanto sofferto credo che non avrei mai avuto tanta vigoria di mente e d'anima, tanta felicità di trasmettere nelle mie opere cotesta sovrabbondanza di vita. Avevo una bella riputazione, ero quasi ricco, e godevo la vita - io che avevo avuto l'anima piena di sogni luminosi e di aspirazioni ideali, e l'avevo ancora qualche volta! La contraddizione che c'era nella mia esistenza fra le passioni e i sentimenti, si rivelava nelle mie opere. Ero falso nell'arte com'ero fuori del vero nella vita - e il pubblico mi batteva le mani. Quegli applausi, delle volte, mi umiliavano agli occhi miei stessi, ma sovente mi ubbriacavano. Sembravami che andassi tentoni in cerca di non so che; mi sentivo isolato, e spesso ridicolo; avevo una menzogna per l'arte che avvilivo e per la società che ingannavo; mi inebbriavo di tutti i piaceri, e di tanto in tanto sentivo il bisogno di uscir fuori da quell'atmosfera come un nuotatore che annega. Non mi rimanevano che le passioni più sterili, e le arricchivo di tutte le esuberanze del mio cuore, poiché sentivo il bisogno di avere delle passioni ad ogni costo. Non credevo più nell'amore, dopo averne fatto lo sciagurato esperimento, e dopo aver veduto nelle braccia del grosso capitano di cavalleria quella donna per la quale il mio benefattore avea dato sorridendo i suoi venticinque anni, quella donna così elegante, così delicata, così poetica - e mi sbramavo nel capriccio. Non avevo un caldo sentimento religioso; il sentimento civile lo vedevo sciupato nelle lotte dei partiti, e intorbidato dalle dispute di giornali, rare volte convinti di aver ragione. Vivevo lontano dalla famiglia, in mezzo ad un mondo di usurai e di egoisti e di gaudenti; l'atmosfera era calda di effluvi giovanili. - Come vuoi che io potessi comprender l'arte in tali condizioni?... mettendomela sotto i piedi! Arrossivo delle mie illusioni di una volta, e per non ridere di me che mi ostinavo ancora a sognare in mezzo a tanti che tenevano gli occhi aperti, risi di quella buffonesca serietà, e di quella sordida preoccupazione generale. Risi del contegno ipocrita per nascondere il marcio, della frase elegantemente vaporosa che conteneva desideri volgari, del pudore del velo, e dell'innocenza dello sguardo.</p>
+            <p>Ero ricco di giovinezza, di gloria e di fiducia in me. Più di uno stivalino altiero, di quelli che avevo sognati, avea toccato per me il lastrico della via, e si era posato furtivo sul tappeto della mia scala. Più di un guanto profumato era stato dimenticato sul mio canapè. Ti giuro che i miei sogni valevano assai più della realtà! Ah! le mie duchesse di via Santo Spirito! Se avessi saputo che la scienza della vita dovea costarmi tante e sì care illusioni, io avrei preferito la miseria, l'oscurità e i miei castelli in aria. Non ti dirò di chi fosse il torto, anzi probabilmente era il mio, perch'ero sognatore, perch'ero ombroso e diffidente, perch'ero divenuto scettico, perché amavo da osservatore, e mettevo sempre del riserbo, direi della restrizione mentale, nelle espansioni del cuore. Quando nei trasporti amorosi non si mette lo stesso abbandono dalle due parti, una delle due è ridicola di certo - Non so quale.</p>
+         </div>
+         <div>
+            <p>Nei crocchi eleganti che frequentavo sentivo spesso parlare di Eva come si parla del miglior cavallo da corsa, dell'opera in voga, e della più bella pariglia. Era un'appendice necessaria a quella vita di lusso e di piaceri. Io avevo buttato dalla finestra le poche memorie che mi rimanessero di lei - i suoi nastri scoloriti, i suoi stivalini rotti, i suoi guanti scompagnati. - Avevo lasciato da molto tempo quella cameretta dov'ella aveva dormito tanti sonni - ed ora, a volte, sentivo un ardente desiderio di rivederla, d'incontrarla, di gettarle in faccia il lusso della mia felicità. - Non era più amore, ma era vanità. - Io non so quale dei due sentimenti sia più forte; certo spesso si scambiano l'uno per l'altro.</p>
+            <p>Non l'avevo più vista. La dicevano bella come prima, elegante come un mazzo di fiori, e corteggiata come una regina. Molti entusiasmi giovanili si scaldavano parlando di cotesta donna che avevo visto attizzare il fuoco del mio camino; e non rammentai altro che la sua bellezza, la sua eleganza, e il suo sorriso - ricordi che mi montavano alla testa. - Ero dispettoso che la fosse così, e che sembrasse ancora così agli altri.</p>
+         </div>
+         <div>
+            <p>Una sera ero al Pagliano, in uno di quei palchetti dove è favore distinto essere ammesso, dove i numi dell'olimpo fiorentino si pigiavano come ad una mostra, per scambiare un sorriso o una stretta di mano, in faccia ad un pubblico di gelosi, con la dea del santuario. Io le sedevo accanto, e la dea mi largiva parole e sorrisi. Tutt'a un tratto la vidi aggrottare il sopracciglio, da vera dea, prendere l'occhialetto, e dirigerlo bruscamente su di un palchetto di faccia - era uno di quei gesti espressivi che usano le gran dame quando non vogliono scendere alla parola - ma siccome non mi curavo di seguire il capriccio di lei, così mi contentai di guardare quel braccio nudo, tanto bello ch'era pudico, e si nascondeva nel guanto sino a metà. Però l'osservazione di lei era così insistente che, senza volerlo, seguii la direzione di quell'occhialetto, e ne vidi un altro che gli rispondeva come una pistola da duellante. La dea si stancò per la prima, e distese mollemente il braccio sul velluto del parapetto. Allora anche l'altro occhialetto scomparve, e riconobbi Eva - Eva sfolgorante di tutta la sua bellezza, colle spalle e le braccia nude, i diamanti fra i capelli, i merletti sul seno, la giovinezza, il brio, l'amore negli occhi - anzi, la voluttà - e il sorriso inebbriante - il sorriso che faceva luccicare come perle i suoi denti.</p>
+            <p>"Chi c'è nel palco numero tre, in seconda fila?" domandò la dea con quell'accento inimitabile che hanno le dee quando parlano dei semplici mortali.</p>
+            <p>L'officioso più lesto e più fortunato rispose:</p>
+            <p>"Il conte Silvani."</p>
+            <p>"È un pezzo che non si vede il conte!"</p>
+            <p>"È stato in Germania."</p>
+            <p>"E ha preso moglie?"</p>
+            <p>"No."</p>
+            <p>"Ah!"</p>
+            <p>Nel vestibolo incontrai di nuovo Eva di faccia a faccia. Ella mi lanciò di bruciapelo uno di quei tali sguardi, come se mi desse un pugno al cuore.</p>
+            <p>La dea aveva un altro genere di sguardi, quelli della lente che vi tiene a distanza poiché l'occhio non vi vuol riconoscere, e domandò, con quel muto linguaggio, all'insolente che osava fissare gli occhi su di lei, come non rimanesse abbagliata da tanto splendore. Eva si contentò di sorridere, levando il capo per dire qualche parola al suo compagno, mentre si appoggiava al suo braccio con un raddoppiamento di leggiadra civetteria; - il conte era alto e le dava il vantaggio di levare il capo verso di lui per parlargli, vantaggio grandissimo per le donne che sanno farlo in un certo modo! - Lasciò anche scivolare la mantiglia sulle spalle, e mi pare che osservasse con la coda dell'occhio se io facessi attenzione a tutta cotesta manovra. Quelle due donne che non si conoscevano nemmeno, che non si sarebbero incontrate giammai, dovevano odiarsi cordialmente.</p>
+            <p>Io non potei dimenticare un momento quegli occhi che mi avevano dardeggiato, e che si erano volti sorridenti verso di me.</p>
+         </div>
+         <div>
+            <p>Un giorno all'improvviso Eva venne da me, leggiadra, pazzerella, sorridente come sempre, girando per tutte le stanze, toccando tutto, facendo frusciare gaiamente la sua veste sul tappeto, come se ci fossimo lasciati il giorno innanzi. Mi domandò se fossi in collera con lei, se avessi pensato a lei, se l'amassi ancora; mi disse che non mi aveva mai dimenticato, che era contenta di vedermi in quello stato, che era orgogliosa di avermi amato; mi disse cento cose seducenti come ella le sa dire, scaldandosi al fuoco, e sollevando la veste per posare i piedini sugli alari. È impossibile esprimerti tutto quello che c'era nelle sue parole, nel suo riso, nei suoi occhi e nei suoi gesti. Mi parlò del passato; mi domandò dei miei amori, e come amassi, e come fossi amato, e se amassi di più o in un altro modo, - e mi diede anche un bacio come mi avrebbe dato una stretta di mano. Poi, dopo ch'ebbe fatto ardere il mio sangue con quella grazia così calma e nello stesso tempo così spensierata, con quei suoi sguardi sorridenti come ad un fratello, col profumo del suo fazzoletto e coi tacchi degli stivalini, ella si alzò tranquillamente e mi stese la mano. - Se ne andava! erano le due, doveva andare dalla modista, dalla sarta, da Marchesini, a fare un giro alle Cascine. Alle sei poi davano in tavola - mille ragioni inoppugnabili! Io chiusi la porta e le presi le mani; ella me le strappò, e si mise a correre per le stanza, ridendo, folleggiando come una bambina, e poi mi si abbandonò tutta tremante, collo stesso sorriso, con un movimento infantile e inebbriante.</p>
+         </div>
+         <div>
+            <p>"Matto! matto!" mi disse lisciandosi i capelli allo specchio. "Ed io più matta di te! A proposito, e la tua dea?"</p>
+            <p>"Quale dea?"</p>
+            <p>"Quella del Pagliano, la superbiosa. L'ami molto?"</p>
+            <p>"Punto."</p>
+            <p>"Ti credo. Siete così orgogliosi entrambi! Dovete bisticciarvi sempre. L'amerai per vanità."</p>
+            <p>"Sono troppo orgoglioso per avere di coteste vanità."</p>
+            <p>"Come sei diventato!" e mi guardava tutta sorpresa, con cert'aria ingenua che possedeva ancora. "Dimmi come amano le gran dame" e annodava i nastri del cappellino.</p>
+            <p>"Come le piccole."</p>
+            <p>"Adulatore! Ma io perdo il mio tempo con te! Addio."</p>
+            <p>"Verrai a trovarmi?"</p>
+            <p>"No."</p>
+            <p>"Verrò io?"</p>
+            <p>"No."</p>
+            <p>"Come, no! Ma non capisci che ho bisogno di vederti!"</p>
+            <p>Ella mi guardò e scoppiò a ridere.</p>
+            <p>"Proprio?" mi disse.</p>
+            <p>"Come dell'aria per respirare!"</p>
+            <p>"Sei pur stato tanto tempo senza, e non sei morto!"</p>
+            <p>"Perché sei venuta dunque, maliarda? perché mi hai fatto ardere il sangue colle stesse febbri?..."</p>
+            <p>Ella mi guardò nello specchio, con quel sorriso! e mi disse:</p>
+            <p>"Ero gelosa!"</p>
+            <p>"Dunque mi ami!"</p>
+            <p>"No. Tu non capisci coteste gelosie di donna, tu! e sei un uomo di spirito! Andiamo, via, non più sciocchezze!" riprese con dolcezza dopo alcuni istanti, accarezzandomi la mano per rabbonirmi. "Ti voglio ancora del bene, ma bisogna essere ragionevoli. Non scherziamo più col fuoco!"</p>
+            <p>Ella seguitava ad accarezzarmi le mani, e vedendomi sempre accigliato soggiunse:</p>
+            <p>"Ti giuro che se avessi prevista cotesta nuova follia non sarei venuta!"</p>
+            <p>"Ah! non lo sapevi?"</p>
+            <p>"No! Mi pareva di trovarti più ragionevole."</p>
+            <p>"Ma adesso che vedi come non lo sono, e che son più pazzo di prima, e che son geloso non del tuo cuore, ma del tuo corpo, e che un lembo della tua veste se mi tocca mi fa perder la testa, perché non seguitare, se non ad amarmi, almeno a lasciarti amare?"</p>
+            <p>Eva mi guardò in viso in modo singolare e mi disse tranquillamente:</p>
+            <p>"Perché ho più giudizio di te."</p>
+            <p>"Non mi ami più?"</p>
+            <p>"No."</p>
+            <p>"Perché sei venuta dunque? Dimmelo, maledetta! maledetta! Fu un capriccio?..."</p>
+            <p>"Sì... e se durasse sarebbe una follia... per te, e per me."</p>
+            <p>Allora io andai all'uscio, senza far motto, e l'apersi.</p>
+            <p>"Senza rancore!" diss'ella stendendomi la mano.</p>
+            <p>E lasciandola cadere dopo aver aspettato inutilmente soggiunse:</p>
+            <p>"È pure una gran disgrazia che siate fatto così."</p>
+            <p>Uscì stringendosi nella veste per non toccarmi. Io corsi a nascondere il viso e le lagrime nei guanciali ancora odorosi del profumo dei suoi capelli.</p>
+         </div>
+         <div>
+            <p>Quelle due ore avevano gettato sul mio cuore il soffio ardente delle tempeste del passato. Io l'adoravo, sì, l'adoravo così com'era, l'adoravo perch'era così! Avevo il desiderio frenetico dei suoi guanti che si lasciava strappare e lacerare ridendo, e dei suoi stivalini di cui la seta strideva fra le mie mani.</p>
+            <p>Feci mille pazzie per lei, la cercai, implorai, piansi, passai le notti sotto le sue finestre, vidi l'ombra di lei accanto all'ombra di un uomo dietro le cortine, seguii di notte la sua carrozza per le vie e vidi il suo capo sull'omero di lui. - Ella mi ravvisò, e chiuse le imposte o si tirò vivamente indietro, o volse il capo dall'altra parte. - Sirena! maliarda! che mi aveva inebbriato coll'amore, ed ora mi intossicava con la gelosia! Le scrissi; le scrissi umile, delirante, minaccioso. Ella mi rimandò le mie lettere con un sol motto: " Una follia non si fa due volte o diventa sciocchezza ". - Una sera la rividi in teatro; ella non mi gettò che un'occhiata dal suo palchetto - a me che divoravo la sua bellezza con tutti i sensi e ne ero geloso! La vidi uscire raggiante, superba, colla testa alta, il cappuccio sugli occhi, e il braccio nudo appoggiato a quello di lui. Io feci stridere la seta della sua veste imprigionata sotto al mio piede; ella si volse vivamente e mi gettò in faccia un'occhiata di collera, forse senza riconoscermi.</p>
+         </div>
+         <div>
+            <p>E così la seguo da mesi, con questo acre desiderio di lei ch'è memoria e gelosia mischiate insieme; e cerco di vederla; e frequento i luoghi dove spero incontrarla; e la riconosco al portamento, al posare del piede, al muover della testa; e stasera la riconobbi subito appena la vidi, sebbene mascherata, e quando potei farla parlare ed accertarmi ch'era proprio lei non la lasciai più, da lontano o da vicino, e so quel che ha fatto, quel che farà, l'ora in cui la carrozza verrà a prenderla, e poco fa, mentre era seduta nel ridotto, nel momento in cui vidi allontanare il conte per andare a comprarle dei dolci, sedetti accanto a lei e mi tolsi la maschera.</p>
+            <p>"Voi!" esclamò. "Ancora!"</p>
+            <p>"Sì! non tentate di sfuggirmi; voglio il tuo amore!"</p>
+            <p>"Siete pazzo!" mi disse, gettandomi in faccia la doccia fredda della sua calma.</p>
+            <p>"E voi senza cuore!"</p>
+            <p>"Io! che vi ho sacrificato dieci mesi della mia giovinezza, i più belli! che vi ho sacrificato la mia carriera, e che avete messo alla porta quasi in cenci!"</p>
+            <p>"Ah! e volete vendicarvi!..."</p>
+            <p>"No, ve lo giuro. Non sono in collera con voi. Non lo sarei che ove vi ostinaste in questa follia. Noi ci siamo trastullati con una cosa pericolosa, abbiamo preso sul serio il romanzo del cuore; ecco il nostro torto, perché anch'io ci ho creduto per un istante. Ma non siamo abbastanza ricchi per permetterci questo lusso."</p>
+            <p>"Non credete all'amore?" le dissi insolentemente. "non ci credete più?"</p>
+            <p>"Oh, tutt'altro! È il ferro del mestiere. Ma credo a quello degli altri. Anche voi dovete crederci, ma in tutt'altro modo, per scaldare la vostra fantasia e farne risultare dei bei quadri che vi frutteranno onori e quattrini."</p>
+            <p>"Oh, è un'infamia!"</p>
+            <p>Ella si drizzò come una duchessa cui si fosse mancato di rispetto e mi disse seccamente:</p>
+            <p>"Me l'avete insegnata voi! Ora andatevene, ché viene il conte."</p>
+            <p>"Oh! tanto meglio! Voglio conoscerlo questo felice mortale che vi paga i baci e le menzogne!"</p>
+            <p>"Ah!" esclamò con un sorriso che non avevo mai visto in lei "mi ricompensate così! Ma guardatevi! che il conte, oltre il pagarmi tutto questo, regala anche dei famosi colpi di spada!"</p>
+            <p>"Pel nome di Dio!" mormorai ebbro di collera e di gelosia, "che egli non ti pagherà più nulla, e domani sarai sulla strada se non vorrai venire a chiedermi ospitalità!"</p>
+            <p>"Tu sai che ho scommesso!" finì Enrico guardandomi con occhi sfavillanti.</p>
+         </div>
+         <div>
+            <p>Enrico si passò la mano sugli occhi, per scacciarne la frenesia che vi lampeggiava, e riprese dopo alcuni istanti di silenzio:</p>
+            <p>"Sono pazzo! lo so anch'io! Ma la ragione mi è insopportabile. Non ho più fede nell'arte, nella vita, di cui posso contare i giorni che ancora mi rimangono, nell'amore... e son geloso!..."</p>
+            <p>"Hai visto le sue braccia nude?" mi domandò dopo un istante con voce rauca, come se parlasse in sogno.</p>
+            <p>"Ma la tua famiglia?" gli dissi.</p>
+            <p>Non rispose. Poscia, dopo un lungo silenzio e asciugandosi gli occhi. "È il solo dolore che mi rimanga!"</p>
+            <p>"Potrebbe anche essere un conforto, e tale da compensarti ampiamente."</p>
+            <p>Enrico mi rise in faccia con un'ironia quasi insolente.</p>
+            <p>"Mio caro, i sentimenti puri non sono che per le anime pure. Che cosa porterei in mezzo alla mia famiglia che ha sacrificato tutto al mio egoismo?... i miei infami sogni? i miei sozzi desideri? i miei disinganni colpevoli? Grazie a Dio, non sono arrivato così in basso da non comprendere che morrei di vergogna pensando ad Eva, nelle braccia di mia madre, e che profanerei vilmente le labbra di mia sorella, coi baci che ho dato a quella donna!"</p>
+            <p>Si alzò bruscamente, come se temesse qualche altra osservazione.</p>
+            <p>"Fra mezz'ora," mi disse, "al buffet; il conte vi ha dato appuntamento ad un suo amico che parte per Parigi col primo treno. Sono le quattro; hanno ordinato la carrozza per le cinque; sono certo di non mancare."</p>
+            <p>Mi toccò appena la mano, ed uscì.</p>
+         </div>
+         <div>
+            <p>Egli mi aveva rovesciata addosso quella narrazione come una valanga, tutta di un fiato, quasi fosse stato uno sfogo supremo e disperato, con parole rotte, con frasi smozzicate, con accenti che solo il cuore sa metter fuori, e cui solo lo sguardo sa dare un significato. Io non potrei accennare la millesima parte dell'impressione che faceva quella dolorosa frenesia, irrompente, concitata e febbrile di un uomo col piede diggià nella fossa, che gemeva, si contorceva ed urlava nel suono della voce, nel tremito delle labbra, nelle lagrime degli occhi, mentre la folla delle maschere urlava anch'essa ebbra di vino e di musica rimbombante. Tutto ciò mi saliva alla testa, mi ubbriacava. Ero rimasto attonito, quasi annichilito dinanzi a quella tempesta del cuore, come dinanzi ad una tempesta degli elementi. Uscii dal palco dopo di Enrico, e lo cercai inutilmente pei corridoi, in platea, sul palcoscenico, da per tutto. Dov'era andato?</p>
+            <p>Vidi l'elegante coppia che aveva attirati tutti gli sguardi dirigersi verso il buffet, e la seguii. Quella strana avventura mi aveva gettato in una singolare preoccupazione. Il trovatore si tolse la maschera; era veramente il conte Silvani, bel giovane, ricco, prodigo, coraggioso. Era l'ora in cui la stanchezza, o il caldo, o il vino, o la follia, fanno cadere tutte le maschere, ed anche Eva si tolse la sua. Aveva il viso rosso, volse in giro un'occhiata quasi timida; poi si assise di faccia al suo compagno. Lo sciampagna spumeggiava nei bicchieri, gli occhi brillavano, e l'eguaglianza sociale regnava in un modo che mai democrazia al mondo ha sognato possibile. A poco a poco vidi radunarsi nella sala tutti quei giovanotti che si erano trovati impegnati, senza saper come, in quella bizzarra scommessa. Si guardavano attorno con curiosità, sorridevano, e si parlavano a bassa voce. Di quando in quando Eva volgeva uno sguardo sulla folla che andava e veniva dall'uscio, e poi tornava a ridere e a parlare col conte. La mezz'ora suonava. Io tenevo gli occhi fissi su di Eva, e tutt'a un tratto la vidi impallidire lievemente, chinarsi all'orecchio del conte e dirgli qualche parola; questi sorrise e accennò negativamente; prese il bicchiere di lei, e lo riempì di sciampagna. Seguii la direzione degli occhi della donna, straordinariamente spalancati, e vidi Enrico, che si teneva sulla soglia, senza maschera, con certa faccia pallida di malaugurio che gli dava l'aspetto di un cadavere. Non so perché - non conoscevo, direi, costui che da due ore - ma il cuore mi batté forte.</p>
+            <p>Infatti vi dovea essere veramente qualcosa di straordinario nel suo aspetto, poiché tutti lo guardarono in un certo modo come di sorpresa. Anche il conte si volse a guardarlo, vedendo che tutti lo guardavano, e sorrise.</p>
+            <p>"Tò! ancora quell'originale!"</p>
+            <p>Enrico gli si avvicinò con tutta calma, e si tolse il berretto con comica serietà.</p>
+            <p>"Ti diverti?" gli disse sorridendo il conte per dire qualche cosa, giacché quel saluto gli avea tirato addosso l'attenzione generale.</p>
+            <p>"Sì! in fede mia, si! quando ti vedo mi diverto."</p>
+            <p>"Mi conosci?"</p>
+            <p>"Diavolo! Chi non ti conosce!"</p>
+            <p>"Bevi alla mia salute, dunque", gli disse porgendogli il bicchiere spumeggiante.</p>
+            <p>"In coscienza non posso; ché tu stai molto male!"</p>
+            <p>"Ah! ah! una delle solite facezie!" sghignazzò il conte rivolto ad Eva. "Adesso ci dirà i nostri segreti!"</p>
+            <p>Io guardai Eva e la vidi pallida come cera.</p>
+            <p>"Oh! oh!" rispose Enrico ridendo come avrebbe potuto ridere uno spettro se gli spettri potessero ridere; "il segreto di pulcinella!"</p>
+            <p>Il conte sembrò imbarazzato per un istante; ma non era uomo da darsi per vinto alla prima, e replicò: "Sapevo la tua risposta: è vecchia come il tuo travestimento."</p>
+            <p>"Da arlecchino d'onore, no! Anzi, per provarti che non sono un ciarlatano, ti dirò quelli di lei" e accennò ad Eva. "Non i segreti del suo cuore, poiché non ne ha; ma posso dirti quelli della sua vita."</p>
+            <p>Eva fece un movimento per alzarsi, quasi avesse perduta la testa, e agitò due o tre volte le labbra pallide senza poter parlare. Attorno a quel gruppo si era formato un cerchio di curiosi, di cui il centro era occupato da quei due uomini che sorridevano. Ci fu un istante di silenzio. Evidentemente il conte avrebbe fatto a meno di quella lotta di frizzi, ma come trarsi indietro? Enrico gli sorrideva sempre, col suo viso cadaverico e gli occhi luccicanti come quelli di un fantasma.</p>
+            <p>"Ah! davvero? E come lo sai?" disse il conte con uno sforzo d'audacia, perché era imbarazzato egli medesimo del suo silenzio.</p>
+            <p>Enrico appoggiò ambe le mani sul marmo del tavolino, si chinò verso di lui sin quasi a soffiargli in faccia le parole, e rispose lentamente:</p>
+            <p>"Lo so, perché sono stato l'amante della tua amante."</p>
+            <p>Nell'occhio del conte passò un lampo, e le sue labbra si contrassero sforzandosi di sorridere ancora. Sembrò ondeggiare un istante sul partito da prendere, e istintivamente volse attorno uno sguardo furtivo e lo fermò su di Eva. Ella era pallidissima, avea le labbra livide e l'occhio smarrito quasi stesse per svenire. Tutti quegli occhi che si fissavano sul conte sembrarono raddoppiare il sangue freddo di lui. Egli esitò un solo momento; poi alzò il bicchiere ricolmo all'altezza del naso di Enrico ed esclamò:</p>
+            <p>"Alla salute dei tuoi amori passati dunque!" e vuotò il bicchiere d'un fiato.</p>
+            <p>Ci fu uno scoppio di applausi.</p>
+            <p>"Bravo!" disse anche Enrico. "Sei un uomo di spirito!"</p>
+            <p>"Grazie!"</p>
+            <p>"Io lo sapevo, e perciò ho fatto la scommessa."</p>
+            <p>"Davvero?"</p>
+            <p>"Sì, ho scommesso che avrei dato un bacio alla tua amante, e che tu non l'avresti avuta a male."</p>
+            <p>"Eh, caro mio! Scommessa arrischiata!" rispose il conte che cominciava a farsi serio.</p>
+            <p>"Ohibò! Sei un uomo ammodo! Guarda!..."</p>
+            <p>E senza precipitazione, con quella calma che non l'aveva abbandonato un solo istante, si chinò su di Eva, la quale era quasi fuori di sé, e non si aspettava certamente quell'eccesso di follia, e la baciò sulla guancia.</p>
+            <p>Il conte si rizzò come un fulmine, e gli applicò un sonoro schiaffo.</p>
+            <p>"Oh, oh" esclamò Enrico senza scomporsi, sorridendo ancora del suo lugubre riso, e passandosi la manica sulla guancia rossa. "Vedi che avevo ragione di non bere alla tua salute."</p>
+         </div>
+         <div>
+            <p>Le condizioni del duello furono stabilite quasi subito fra due amici del conte e due dei giovanotti che avevano impegnato la scommessa con Enrico. Silvani era partito. Io accompagnai il mio amico che sembrava diventato un altro, indifferente a tutto, anzi un po' inebetito come quando girava fra la calca del veglione. I suoi occhi luccicavano da pazzo: era la sola manifestazione di quello che dovea chiudersi in petto. Passando attraverso la ridda frenetica dei ballerini e delle maschere sorrideva in modo strano; e un momento si fermò a guardare come uno sfaccendato che si balocca con la sua spensieratezza. - Quella musica, quell'allegria scapigliata e quell'uomo che guardava sorridendo, mi stringevano il cuore. Allorché fummo in carrozza, m'accorsi che Enrico tremava come chi è colto da febbre. Volli dargli il mio paletò; lo rifiutò.</p>
+            <p>"Non occorre;" mi disse, "fa caldo."</p>
+            <p>"Hai la febbre!"</p>
+            <p>"Lo so. Son parecchi mesi che l'ho tutte le sere... Passerà."</p>
+            <p>E rideva.</p>
+            <p>Era ancora buio. Nella notte era caduta molta neve che imbiancava le strade e i tetti sicché la carrozza vi correva sopra senza far rumore, come se facessimo un viaggio fantastico. Lasciammo il legno al piazzale delle Cascine, e ci mettemmo a piedi per un lungo viale. L'aria era frizzante; i primi chiarori dell'alba imbiancavano debolmente il cielo attraverso l'incrociarsi dei rami inargentati dalla neve; una sfumatura opalina si disegnava in fondo al viale sull'orizzonte, e il viale stesso appariva come una lunga striscia candida su cui risaltava, ad una certa distanza, un'ombra indistinta che si avvicinava senza far rumore, facendo tremolare due fiammelle rossigne ai due lati.</p>
+            <p>L'alba si era fatta più chiara quando il conte e i suoi testimoni ci raggiunsero. Erano avvolti nei loro mantelli e avevano il sigaro in bocca. Ci fu uno scambio generale di saluti fatti in silenzio. Quei due uomini si guardarono senza batter ciglio, quasi non si fossero conosciuti mai.</p>
+            <p>Gli uccelli cominciavano a pispigliare, e un raggio indorato corse come una freccia sui rami più alti. Il conte accese un'altra sigaretta mentre si compivano le formalità preliminari, ed uno dei testimoni alzò il naso verso il cielo dicendo:</p>
+            <p>"Sarà una bella giornata."</p>
+            <p>Poscia tutti i sigari si spensero, e tutti i volti assunsero la maschera di circostanza.</p>
+            <p>Enrico si tolse l'abito e lo piegò accuratamente; vi sovrappose il cappello, rimboccò le maniche della camicia sino al gomito, prese la spada che gli presentavano, la piegò in tutti i sensi sulla punta del piede, e frustò l'aria con essa. Successe un istante di silenzio. Poi si udì una voce:</p>
+            <p>"A voi, signori!".</p>
+            <p>E le due lame scintillarono.</p>
+            <p>Ho ancora dinanzi agli occhi quel triste spettacolo.</p>
+            <p>Enrico avea la guardia un po' spavalda, ma ferma come il bronzo, che gli spagnoli ci hanno lasciato a noi del mezzogiorno; sembrava tutto d'un pezzo dalla punta della spada alla punta del piede, e parava con un semplice movimento del pugno. Il conte era bravo spadaccino, snello, agile, nervoso; la spada gli guizzava fra le mani come un baleno, cavando e ricavando colla rapidità di un mulinello; si raccorciava, si nascondeva quasi sul fianco, e vibravasi improvvisamente come un giavellotto a spuntarsi su quei pochi centimetri di coccia, dietro alla quale Enrico riparavasi come dietro ad uno scudo che coprisse tutta la sua persona.</p>
+            <p>Dopo alcuni istanti il conte ruppe di un passo, e si rimise in guardia come per vedere con chi avesse a che fare. Due o tre minuti rimasero immobili, con il ferro sul ferro, gli occhi negli occhi, l'odio che si scontrava con l'odio.</p>
+            <p>Enrico ritirò la sua spada facendola strisciare lento lento su quella dell'avversario con un movimento felino. Parve che un fremito si fosse comunicato dal suo ferro a tutto il suo corpo, ed assaltò bruscamente. A un tratto si piegò come un arco colla rapidità del lampo, ed io che gli stavo alle spalle vidi luccicare la punta della spada nemica dall'altra parte del suo petto.</p>
+            <p>"Alto!" gridarono i secondi, mettendo la spada fra i duellanti.</p>
+            <p>"Non è nulla!" disse Enrico scoprendosi il petto. "È una scalfittura."</p>
+            <p>Il ferro però aveva fatto quel che avea potuto, e aveva portato via quello che aveva incontrato. Una striscia di carne lacerata solcava il petto di Enrico e la camicia, ch'era stata meno lesta di lui, era stata bucata netta.</p>
+            <p>Il chirurgo - un nostro carissimo amico, molto conosciuto a Mentana come il 'Dottore dal cappello bianco' - esaminò la ferita; era infatti orribile a vedersi, ma non era grave, e quei signori potevano ancora seguitare a bucarsi la pelle.</p>
+            <p>"Diavolo!" esclamò Enrico. "Non credevo che ci fosse ancora tanta carne nelle mia ossa."</p>
+            <p>Il dottore voleva fasciargli la ferita. "No," egli rispose; "il signore ha diritto di aver nudo il suo bersaglio."</p>
+            <p>Il conte s'inchinò.</p>
+            <p>Non c'era che dire, quei due bravi giovanotti si scannavano da perfetti gentiluomini.</p>
+            <p>Tornarono a mettersi in guardia; ma stavolta erano pallidi entrambi di un pallore sinistro. Lo scherzo di buona società cominciava a farsi serio. Enrico sentiva al certo che non aveva tempo da perdere, perché il sangue gli scorreva fra le dita della mano che si teneva sulla ferita, e la mano e la camicia gli si erano fatte rosse. Si vedeva una terribile tensione in tutta la sua persona, nell'occhio intento, nei movimenti nervosi, nel garretto saldo, nel corpo piegato all'indietro: sembrava una molla d'acciaio che stia per scattare. Il conte l'assaliva colla furia di chi capisce d'avere a che fare con un temibile avversario, e sente di dover uccidere per non essere ucciso. Tutt'a un tratto si vide una striscia di luce correre e serpeggiare come una biscia sulla spada del conte, Enrico andare a fondo tutto d'un pezzo, e saltare indietro levando in alto la spada.</p>
+            <p>Il conte portò vivamente la sinistra sul petto, stralunò gli occhi, abbandonò la guardia e si appoggiò un istante alla spada che si piegò sotto il suo peso; poscia barcollò e cadde su un ginocchio.</p>
+            <p>Tutti si precipitarono su di lui. Enrico si fece ancora più pallido, e lo guardò cogli occhi di un mentecatto.</p>
+            <p>Il 'Dottore dal cappello bianco' s'inginocchiò presso del conte, mentre uno dei suoi secondi gli teneva il capo sui ginocchi, e gli aprì la camicia.</p>
+            <p>La ferita non doveva essere grave; era appena visibile, fra la terza e la quarta costola, e mandava pochissimo sangue. Sembrava davvero una cosa da nulla. Il dottore non ebbe bisogno che di una sola occhiata, per ordinare, con quell'accento che hanno soltanto i medici in certe occasioni, rialzandosi bruscamente: "La carrozza! presto, la carrozza!"</p>
+         </div>
+         <div>
+            <p>Passarono alcuni mesi senza che io più rivedessi Enrico Lanti. Ero tornato in Sicilia, ma non ne avevo avuto più notizia. Un mattino, verso gli ultimi di ottobre, mi fu recapitata da un contadino una lettera urgente in Sant'Agata-li-Battiati, ove mi trovavo.</p>
+            <p>Il carattere di quella lettera che veniva a cercarmi con urgenza mi era assolutamente sconosciuto, e sembrava tracciato con mano tremante. Però non ci volle molto per correre alla firma, giacché la lettera era brevissima; era di Enrico Lanti e diceva:</p>
+            <p>" Amico mio, vorrei vederti, e siccome me ne rimane pochissimo tempo ti prego di affrettarti, se vuoi rendermi quest'ultimo servigio. "</p>
+            <p>Mi misi in viaggio immediatamente, facendomi guidare dal contadino che aveva recato la lettera.</p>
+            <p>Fuori Aci Sant'Antonio, dopo un cinque minuti di corsa per quella bella strada che svolge agli occhi del viandante l'incantevole panorama della vallata di Aci, tutta seminata di ville e di villaggi, fra le vigne e i boschi di aranci, sino al mare, la mia guida mi additò una casetta elevata su di un ciglione. Bisognò lasciare la carrozza e metterci per una viottola attraverso i campi.</p>
+            <p>Alla svolta del sentiero mi si presentò la casa ridente ed ariosa, ornata di viti e di rosai, con una bella spianata sul davanti, e due magnifici castagni che le facevano ombra.</p>
+            <p>Sotto un di quegli alberi c'era una poltrona colla spalliera appoggiata al tronco; un mucchio di guanciali le dava l'aspetto doloroso che hanno le poltrone degli infermi. Vidi una scarna e pallida figura quasi sepolta fra quei guanciali, e accanto alla poltrona un'altra figura canuta e veneranda - la madre accanto al figliuolo che moriva.</p>
+            <p>Corsi a lui con una commozione che non sapevo padroneggiare. Com'egli mi vide mi sorrise di quel riso così dolce degli infermi, e fece un movimento per levarsi.</p>
+            <p>Si vedeva diggià il cadavere: il naso affilato, le labbra sottili e pallide, l'occhio incavernato.</p>
+            <p>Lo tenni stretto fra le mie braccia, ed egli mi baciò più volte; quel bacio era caldo di febbre; tutta la sua epidermide era riarsa, e l'anelito frequente ed affannoso gli si sprigionava dal petto con un sibilo.</p>
+            <p>Sedetti di faccia a lui. Egli non volle abbandonare le mie mani, e cercava di sorridermi ancora quantunque dovesse molto soffrire, a giudicarne dalla contrazione dei suoi lineamenti, che di tratto in tratto non poteva dissimulare.</p>
+            <p>"Grazie!" mi disse tutto commosso. "Tu almeno non mi hai dimenticato!"</p>
+            <p>Tacque subito, sopraffatto da un violento scoppio di tosse, che, ahimé!, non ebbe neanche la forza di prorompere, ma si contentò di lacerare quel povero petto, facendolo sobbalzare convulsivamente. Poi si abbandonò sui cuscini cogli occhi chiusi, sfinito. Quali occhi! Le palpebre nerastre si affondavano nell'occhiaia incavata, e quando si riaprivano scoprivano qualche cosa che parlava dell'altro mondo. Nell'impeto della tosse tutto quel poco sangue che gli rimaneva sembrava correre, con rossori fuggitivi, sulla mortale pallidezza delle gote; poscia quella pallidezza si faceva più mortale ancora. La madre teneva abbracciati i cuscini dove si perdeva quasi il corpo del figlio, e guardava quelle sembianze adorate, ove la morte sbatteva diggià la sua livida ala, con l'occhio asciutto, quasi il cuore avesse bevuto tutte le sue lagrime.</p>
+            <p>Feci un movimento per alzarmi. Egli che possedeva la squisita percezione di tutto ciò che si faceva vicino a lui, come l'hanno i moribondi di quel male, mi strinse le mani, senza riaprir gli occhi, e mi fece cenno di non muovermi.</p>
+            <p>Dopo qualche secondo volse lentamente il capo, e fissò un lungo sguardo negli occhi di sua madre. Negli occhi della madre e in quelli del figlio non c'erano lagrime: c'era un silenzio che spezzava il cuore.</p>
+            <p>"Mamma!" disse Enrico, e la sua voce fioca vibrava come una carezza in quella dolce parola. "Ecco il mio amico. Tu gli vuoi bene, non è vero?"</p>
+            <p>La povera donna mi stese la mano, ed io la baciai religiosamente.</p>
+            <p>"Dove sono gli altri?" domandò Enrico con la curiosità inquieta, particolare al suo stato.</p>
+            <p>"Tuo padre è andato ad accompagnare il medico, e l'Agatina è andata a coglierti una manata di gelsomini che ti piacciono tanto."</p>
+            <p>"Il medico!..." mormorò il moribondo con accento che stringeva il cuore.</p>
+            <p>Nessuno di noi ebbe il coraggio di rispondere.</p>
+            <p>"Ti ho disturbato forse?" mi domandò dopo alcuni istanti.</p>
+            <p>"Oh, no!"</p>
+            <p>"Avevo bisogno di vederti... e di parlarti."</p>
+            <p>Mi fissò col suo sguardo espressivo e lucidissimo, e soggiunse:</p>
+            <p>"Noi non fummo mai intimi; ma ci siamo incontrati in una tal epoca della mia vita che mi pare di non avere altri amici che te. Eppoi" e sorrise dolorosamente "ho diritto alla tua indulgenza... come tutti quelli che se ne vanno verso quelli che rimangono..."</p>
+            <p>"Enrico!" esclamai stringendogli le mani con dolce rimprovero, e rivolgendo involontariamente uno sguardo alla madre di lui.</p>
+            <p>Anch'egli rivolse su di lei quegli occhi che dopo alcuni secondi di angosciosa contemplazione gli si riempirono di lagrime.</p>
+            <p>"Mamma!" le disse dopo una qualche esitazione, "non vorresti dire all'Agatina di fare anche un mazzolino pel nostro amico?"</p>
+            <p>La povera madre si levò in silenzio, e si allontanò.</p>
+            <p>Rimasti soli ci guardammo senza aprir bocca. Nessuno di noi due trovava la prima parola, e quel suo sguardo mi trafiggeva il cuore.</p>
+            <p>"Io muoio!..." diss'egli finalmente, con un accento che non potrò mai dimenticare. "Lo vedi!..."</p>
+            <p>Non potei frenare le lagrime, e gli strinsi la mano con forza.</p>
+            <p>"Coraggio, povero amico mio!"</p>
+            <p>"Credi dunque che mi rincresca di morire?... Io non avrei bisogno di coraggio... se non fosse per quei poveri vecchi che mi spezzano il cuore!"</p>
+            <p>I suoi occhi, dove soltanto sembrava essersi raccolta la vita, luccicavano di lagrime, mentre li volgeva su tanto sorriso di cielo, su tanto azzurro di mare, su tanto verde di giardini che gli stava attorno. Il suo cuore d'artista, che possedeva la squisita suscettibilità d'idealizzare quelle impressioni dei sensi, doveva grondar sangue parlando di morte fra tante ricchezze di vita. Non ebbe più a lungo la forza di dissimulare l'angoscia che doveva lacerarlo a quelle parole, e mormorò con un sospiro a stento represso:</p>
+            <p>"Com'è bello tutto ciò!... Io solo posso sentirlo in quest'ora..."</p>
+            <p>Rimanemmo qualche tempo in silenzio.</p>
+            <p>"L'hai veduta?" mi domandò tutt'a un tratto, come se non ci vedessimo soltanto da pochi giorni, o come se seguitasse un discorso incominciato.</p>
+            <p>"No!" risposi con ripugnanza, poiché il ricordo di tal donna mi pareva una profanazione in quel momento.</p>
+            <p>Egli capì, e sorrise ironicamente.</p>
+            <p>"Ah! voi altri puritani!... come siete sciocchi!"</p>
+            <p>Aprì la camicia sul petto per cercarvi un pacchetto di carte. Le ossa sembravano forargli la pelle gialla e arida come cartapecora.</p>
+            <p>"Guardala!" mi disse trionfante, svolgendo da quelle carte una piccola miniatura, "e dimmi se il vostro puritanismo vale il suo sorriso!"</p>
+            <p>Quel disgraziato, diggià per tre quarti cadavere, faceva un ultimo sforzo onde delirare per quella donna che gli sorrideva ancora nel ritratto, e che non si ricordava più di averlo amato.</p>
+            <p>"Quando sarai al punto in cui sono," mi disse Enrico, "o quando sarai vecchio, il che è peggio, maledirai la tua saviezza che ti ha fatto insensibile alla luce, ai profumi, alle dolcezze della giovinezza!..." E c'era tanto calore nel paradosso di quel moribondo che lo rendeva, direi, solenne.</p>
+            <p>"Oh, povero amico mio! Interroga la tua coscienza, interrogala senza rimpianti e senza collera, e non dirai più così."</p>
+            <p>"Che m'importa!" saltò su Enrico con tal impeto quasi un serpe l'avesse morsicato. "Che m'importa della coscienza, e di tutti quei fantasmi che voi altri avete creato a furia di paroloni! Che m'importa del vero e del falso!... Ho tempo di perderci la testa, io?... e neanche voi altri ce l'avete... voi che m'isterilite il cuore mentre la giovinezza fugge come un lampo! Tu, vedi, sei giovane, sano, forte... tu mi guardi forse con maggior sorpresa che compassione, e domandi a te stesso come mai sia possibile che la vitalità che senti in te rigogliosa e robusta possa giungere a tanta miseria di deperimento... Eppure, vedi! Tutta cotesta robustezza, tutta cotesta forza... un soffio... e se ne vanno!... E l'uomo... l'uomo che sente dentro di sé ancora tutto questo inesplicabile mistero di desideri, di speranze, di gioie e di dolori, che la malattia non ha né indebolito, né ucciso, l'uomo che lo sente più forte e tumultuoso per quanto più infiacchiscono le sue forze, domanderà a se stesso, come te, cosa sia dunque questa vita, e questa incognita che chiamano cuore!... Chi lo può dire?... Nessuno. E se nessuno lo sa, chi può dargli torto o ragione?"</p>
+            <p>Tacque anelante, rifinito al pari di un uomo che abbia fatto una lunga corsa; e dopo un triste silenzio ripigliò con esaltazione morbosa:</p>
+            <p>"Ho visto tante mostruosità rispettate, tante bassezze cui si fa di cappello, tante contraddizioni di quello che chiamate senso morale, che non so più dove stia la verità. Tu che mi parli di gioie false dimmi quali sieno le vere: quelle che costano più lagrime, o quelle che lasciano più rimorsi? - O perché rimorsi? &#x96; Qual è l'amor vero, quello che muore, o quello che uccide? - E qual è la donna più degna di amore, la più casta, o la più seducente? - dov'è l'infamia? nella donna che ama per vivere, o nell'uomo che vive per godere? - o che tiene il sacco dell'adulterio colla complicità del silenzio - o che gli s'inchina quando lo vede passare in carrozza? Chi sentenzia del bene e del male? Il mondo! Che cos'è? Quali sono i suoi diritti? - e non mentisce? - e non s'inganna? - e non è ipocrita? o non ha altra scienza che quella di negare? - e quell'altra di biasimare?"</p>
+            <p>Si arrestava di quando in quando, e agitava la testa sul cuscino come se i pensieri che gli martellavano il cervello non potessero più irrompere. La parola gli usciva rotta, a sibili, a rantoli.</p>
+            <p>Era uno spettacolo straziante.</p>
+            <p>"I pazzi son più felici di voi" e ripeté due o tre volte questa frase. "Se vivete di menzogne, se non avete di certo che le illusioni, perché le maledite quando son belle?... Voi altri savi... che vi affannate dietro ad illusioni che non raggiungerete giammai... o che sconfesserete quando le avrete raggiunte, chiamate pazzo colui che si vive beato nelle sue illusioni!... il pazzo come vi chiamerà, voi altri savi?"</p>
+            <p>"E l'arte..." soggiunse dopo poco, "Menzogna anch'essa!... Menzogna... o illusione!"</p>
+            <p>Dopo coteste parole stette a lungo in silenzio, cogli occhi chiusi come se la vita l'avesse abbandonato intieramente. Era un lugubre silenzio. Poscia fissandomi in volto uno sguardo relativamente calmo, e dove c'era una tinta di sorpresa:</p>
+            <p>"È strano!" mormorò; "mi pareva che avessi bisogno di parlare di lei... e che tu mi dicessi che ella ti ha parlato di me... Ora non lo desidero più... Ho pensato ad Eva... e alla mia giovinezza... e le ho vedute lontan lontano... Sarà perché sono stanco!"</p>
+            <p>E dopo un silenzio:</p>
+            <p>"Posso contare le ore che mi restano di vita, posso dire: Domani... fra due giorni... quando quel bel sole farà scintillare l'immensa pianura d'acqua che si stende laggiù, e colorirà del suo bell'azzurro questo cielo... quando lo stesso albero getterà la stessa ombra sulla mia povera casa, e quegli uccelli schiamazzeranno fra le foglie... io sarò morto... non vedrò e non sentirò più nulla... nemmeno i pianti desolati dei miei genitori che mi chiameranno... Che rimarrà di me? di tutta cotesta confusione di pensiero che sento in così fragile involucro?... Non lo so! nessuno me lo sa dire! Ciò è ben triste!... Non è vero?"</p>
+            <p>Volse gli occhi lentamente, con stanchezza, su tutto l'orizzonte che lo circondava, e con una certa inesprimibile amarezza:</p>
+            <p>"La vita!..." mormorò chiudendo gli occhi di nuovo, come se quella vista l'affaticasse, o gli lacerasse l'anima, e dopo una lunga esitazione: "Sì! sì... c'è qualche cosa di vero nell'arte!..."</p>
+            <p>Il dolore m'opprimeva. Non sapevo far altro che stringere fra le mie quelle povere mani scarne.</p>
+            <p>"Tu non muori, tu!" mi disse egli con una sublime e lacerante ingenuità "e forse la vedrai! Prendi" soggiunse dopo qualche secondo d'esitazione consegnandomi quel pacchetto che non aveva abbandonato. "Se mai la rivedrai un giorno... se si rammenterà di me... dagliele... Se no... fanne quello che vuoi... bruciale... Domani forse sarò morto, e mia madre, e mia sorella... non devono vederle..."</p>
+            <p>Ed esitò ancora lungamente prima di darmi il ritratto. In questo momento si udirono le voci dei suoi parenti che si avvicinavano. "Maledetta!" esclamò trasalendo e buttando il ritratto per terra. "Maledetta! Menzogna infame che mi hai rubato la felicità vera! Maledetta! E maledetta anche te, arte bugiarda che c'inebbrii con tutte le follie! Maledetta!"</p>
+            <p>Un accesso di tosse sembrò soffocarlo; il corpo era troppo debole; ma lo spasimo lo faceva sollevare sulla poltrona, agitando le braccia smaniosamente; e tentava quasi colle mani contratte di strapparsi dalla bocca e dal petto quel dolore insoffribile. In quel momento temei sul serio che mi morisse tra le braccia.</p>
+            <p>Allorché sopraggiunsero i suoi parenti era abbandonato sui cuscini, con un soffio di vita sulle labbra, cogli occhi fissi e le lagrime che gli rigavano le guance.</p>
+            <p>Qual più doloroso spettacolo di persone che si adoperano, che hanno la terribile certezza di doversi separare per sempre, che hanno il cuore a brani pel dolore, e che devono nasconderselo reciprocamente! Nella madre quel dolore era sovrumano, ma rassegnato, quasi sacro; nel padre era cupo e profondo; nell'ingenua e candida giovinetta era meno dissimulato, ma anche meno vivo, forse perché a quell'età non si crede giammai intieramente alla sventura.</p>
+            <p>"Eccoti i tuoi gelsomini, Enrico!" diss'ella scuotendo il suo grembialino sulle ginocchia del fratello. "Ed ecco per lei..." aggiunse arrossendo con un grazioso sorriso e inchinandosi con bel garbo.</p>
+            <p>La ringraziai, commosso al vivo. Il desolato genitore venne a stringermi la mano.</p>
+            <p>Vidi la madre che si chinava sui cuscini del figliuolo e gli diceva qualche parola all'orecchio. Dal triste sorriso con cui il figlio rispose indovinai che gli aveva domandato come si sentisse - quella dolorosa domanda che si ripete più spesso quanto minori sono le speranze di avere una risposta rassicurante. Il padre che aveva lasciato il medico pochi momenti prima, non ebbe il coraggio di domandargli.</p>
+            <p>Lo sguardo intelligente del moribondo si affissava con indefinibile espressione sui suoi cari, come se volesse saziarsi della felicità di vederseli accanto mentre sentiva l'angoscia di allontanarsene sempre più ogni secondo.</p>
+            <p>"Perché mi lasci così spesso?" diss'egli al padre con accento che spezzava il cuore, stendendogli la mano che ricadde senza forza.</p>
+            <p>"Accompagnai il dottore, figliuol mio..." rispose il povero vecchio facendo sforzi sovrumani per dissimulare le sue lagrime.</p>
+            <p>"Ah!... il dottore!..." esclamò l'ammalato stringendosi nelle spalle.</p>
+            <p>Nessuno osò aprir bocca.</p>
+            <p>Mi alzai, poiché non mi sentivo le forze di assistere più a lungo a quello spettacolo, e perché mi sembrava di dover rispettare il pudore di quelle angosce.</p>
+            <p>"Te ne vai diggià?" diss'egli stendendomi la mano.</p>
+            <p>"Si."</p>
+            <p>"Verrai domani?"</p>
+            <p>"Verrò."</p>
+            <p>Credeva ancora al domani!</p>
+            <p>"Domani!..." esclamò quindi tristamente. "Chi lo sa?... Ad ogni modo," soggiunse stringendomi le mani, "baciamoci... come due amici che si lasciano per lungo tempo..."</p>
+            <p>Quel bacio caldo, in cui si sentiva già l'anelito del moribondo, mi trafisse il cuore. Egli mi seguì con quello sguardo che strappava le lagrime finché svoltai l'angolo della viottola.</p>
+            <p>Il padre suo insisteva per accompagnarmi sino allo stradale. Mi parve un delitto rapirgli quegli ultimi e solenni momenti che poteva passare ancora presso il figlio che la morte gli rapiva. Partii addolorato profondamente.</p>
+            <p>Tutta la notte non potei dormire. Sembravami di sentire al mio capezzale il rantolo di quel moribondo, e di vedermi dinanzi agli occhi quello sguardo e quel sorriso nuotanti nell'agonia.</p>
+            <p>Il giorno dopo, di buon mattino, ritornai ad Aci Sant'Antonio.</p>
+            <p>Sulla strada di Valverde incontrai i contadino che mi avea recato la lettera di Enrico il giorno innanzi. Lessi tutta la verità nell'occhiata che egli mi volse, e l'interrogai col solo sguardo. "All'alba!" mi rispose levandosi il cappello e segnandosi.</p>
+            <p>Ordinai al cocchiere di tornare indietro; mi buttai in fondo alla carrozza, e piansi.</p>
+         </div>
+      </body>
+      <back>
+         <div>
+</div>
+      </back>
+   </text>
+</TEI>

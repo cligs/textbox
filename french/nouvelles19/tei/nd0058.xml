@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -26,7 +24,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability status="publicdomain">
+				<availability status="free">
 					<p>Files freely available.</p>
 				</availability>
 				<date></date>
@@ -54,20 +52,20 @@
 				<p></p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">nouvelle</term>
-					<term type="subgenre" subtype="2">jeunesse</term>
-					<term type="subgenre" subtype="1">réaliste</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">Provence</term>
-					<term type="form">prose</term>
-					<term type="author-continent">Europe</term>
-					<term type="author-country">France</term>
-					<term type="author-gender">male</term>
-					<term type="tei">11</term>
+				<keywords scheme="keywords.xml">
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.genre">nouvelle</term>
+					<term type="text.genre.subgenre" cligs:importance="2">jeunesse</term>
+					<term type="text.genre.subgenre" cligs:importance="1">réaliste</term>
+					<term type="text.genre.subsubgenre"></term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.narration.narrator">homodiegetic</term>
+					<term type="text.setting">Provence</term>
+					<term type="text.form">prose</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">France</term>
+					<term type="author.gender">male</term>
+					<term type="text.tei.version">11</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -85,12 +83,12 @@
 				<p>-- Vous ne trouverez cela qu'à la bibliothèque des Cigales, m'a dit le vieux fifre en riant.</p>
 				<p>L'idée m'a paru bonne, et comme la bibliothèque des Cigales est à ma porte, je suis allé m'y enfermer pendant huit jours.</p>
 				<p>C'est une bibliothèque merveilleuse, admirablement montée, ouverte aux poètes jour et nuit, et desservie par de petits bibliothécaires à cymbales qui vous font de la musique tout le temps. J'ai passé là quelques journées délicieuses, et, après une semaine de recherche, – sur le dos, – j'ai fini par découvrir ce que je voulais, c'est-à-dire l'histoire de ma mule et de ce fameux coup de pied gardé pendant sept ans. Le conte en est joli quoique un peu naïf, et je vais essayer de vous le dire tel que je l'ai lu hier matin dans un manuscrit couleur du temps, qui sentait bon la lavande sèche et avait de grands fils de la Vierge pour signets.</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>Qui n'a pas vu Avignon du temps des papes, n'a rien vu. Pour la gaieté, la vie, l'animation, le train des fêtes, jamais une ville pareille. C'étaient, du matin au soir, des processions, des pèlerinages, les rues jonchées de fleurs, tapissées de hautes lices, des arrivages de cardinaux par le Rhône, bannières au vent, galères pavoisées, les soldats du pape qui chantaient du latin sur les places, les crécelles des frères quêteurs, puis, du haut en bas des maisons qui se pressaient en bourdonnant autour du grand palais papal comme des abeilles autour de leur ruche, c'était encore le tic-tac des métiers à dentelles, le va-et-vient des navettes tissant l'or des chasubles, les petits marteaux des ciseleurs de burettes, les tables d'harmonie qu'on ajustait chez les luthiers, les cantiques des ourdisseuses ; par là-dessus le bruit des cloches, et toujours quelques tambourins qu'on entendait ronfler, là-bas, du côté du pont. Car chez nous, quand le peuple est content, il faut qu'il danse, il faut qu'il danse ; et comme en ce temps-là les rues de la ville étaient trop étroites pour la farandole, fifres et tambourins se postaient sur le pont d'Avignon, au vent frais du Rhône, et jour et nuit l'on y dansait, l'on y dansait... Ah ! l'heureux temps ! l'heureuse ville ! Des hallebardes qui ne coupaient pas ; des prisons d'État où l'on mettait le vin à rafraîchir. Jamais de disettes ; jamais de guerre... Voilà comment les papes du Comtat savaient gouverner leur peuple ; voilà pourquoi leur peuple les a tant regrettés !...</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>Il y en a un surtout, un bon vieux, qu'on appelait Boniface... Oh ! celui-là que de larmes on a versées en Avignon quand il est mort ! C'était un prince si aimable, si avenant ! Il vous riait si bien du haut de sa mule ! Et quand vous passiez près de lui, – fussiez-vous un pauvre petit tireur de garance ou le grand viguier de la ville, – il vous donnait sa bénédiction si poliment ! Un vrai pape d'Yvetot, mais d'un Yvetot de Provence, avec quelque chose de fin dans le rire, un brin de marjolaine à sa barrette, et pas la moindre Jeanneton... La seule Jeanneton qu'on lui ait jamais connue, à ce bon père, c'était sa vigne, – une petite vigne qu'il avait plantée lui-même, à trois lieues d'Avignon, dans les myrtes de Château-Neuf.</p>
 				<p>Tous les dimanches, en sortant de vêpres, le digne homme allait lui faire sa cour, et quand il était là-haut, assis au bon soleil, sa mule près de lui, ses cardinaux tout autour étendus aux pieds des souches, alors il faisait déboucher un flacon de vin du cru, – ce beau vin, couleur de rubis, qui s'est appelé depuis le Château-Neuf des Papes, – et il le dégustait par petits coups, en regardant sa vigne d'un air attendri. Puis, le flacon vidé, le jour tombant, il rentrait joyeusement à la ville, suivi de tout son chapitre ; et, lorsqu'il passait sur le pont d'Avignon, au milieu des tambours et des farandoles, sa mule, mise en train par la musique, prenait un petit amble sautillant, tandis que lui-même il marquait le pas de la danse avec sa barrette, ce qui scandalisait fort ses cardinaux, mais faisait dire à tout le peuple : « Ah ! le bon prince ! Ah ! le brave pape ! »</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>Après sa vigne de Château-Neuf, ce que le pape aimait le plus au monde, c'était sa mule. Le bonhomme en raffolait de cette bête-là. Tous les soirs avant de se coucher, il allait voir si son écurie était bien fermée, si rien ne manquait dans sa mangeoire, et jamais il ne se serait levé de table sans faire préparer sous ses yeux un grand bol de vin à la française, avec beaucoup de sucre et d'aromates, qu'il allait lui porter lui-même, malgré les observations de ses cardinaux... Il faut dire aussi que la bête en valait la peine. C'était une belle mule noire mouchetée de rouge, le pied sûr, le poil luisant, la croupe large et pleine, portant fièrement sa petite tête sèche toute harnachée de pompons, de nœuds, de grelots d'argent, de bouffettes ; avec cela douce comme un ange, l'œil naïf, et deux longues oreilles toujours en branle, qui lui donnaient l'air bon enfant. Tout Avignon la respectait, et, quand elle allait dans les rues, il n'y avait pas de bonnes manières qu'on ne lui fit, car chacun savait que c'était le meilleur moyen d'être bien en cour, et qu'avec cet air innocent, la mule du pape en avait mené plus d'un à la fortune, à preuve Tistet Védène et sa prodigieuse aventure.</p>
 				<p>Ce Tistet Védène était, dans le principe, un effronté galopin, que son père, Guy Védène, le sculpteur d'or, avait été obligé de chasser de chez lui, parce qu'il ne voulait rien faire et débauchait les apprentis. Pendant six mois, on le vit traîner sa jaquette dans tous les ruisseaux d'Avignon, mais principalement du côté de la maison papale ; car le drôle avait depuis longtemps son idée sur la mule du pape, et vous allez voir que c'était quelque chose de malin... Un jour que Sa Sainteté se promenait toute seule sous les remparts avec sa bête, voilà mon Tistet qui l'aborde, et lui dit en joignant les mains d'un air d'admiration :</p>
 				<p>-- Ah ! mon Dieu ! grand Saint-Père, quelle brave mule vous avez là !... Laissez un peu que je la regarde... Ah ! mon pape, la belle mule !... L'empereur d'Allemagne n'en a pas une pareille.</p>
@@ -100,7 +98,7 @@
 				<p>-- Quel bon petit garçonnet !... Comme il est gentil avec ma mule !</p>
 				<p>Et puis le lendemain savez-vous ce qui arriva ? Tistet Védène troqua sa vieille jaquette jaune contre une belle aune en dentelles, un camail de soie violette, des souliers à boucles, et il entra dans la maîtrise du pape, où jamais avant lui on n'avait reçu que des fils de nobles et des neveux de cardinaux... Voilà ce que c'est que l'intrigue !... Mais Tistet ne s'en tint pas là.</p>
 				<p>Une fois au service du pape, le drôle continua le jeu qui lui avait si bien réussi. Insolent avec tout le monde, il n'avait d'attentions ni de prévenances que pour la mule, et toujours on le rencontrait par les cours du palais avec une poignée d'avoine ou une bottelée de sainfoin, dont il secouait gentiment les grappes roses en regardant le balcon du Saint-Père, d'un air de dire : « Hein !... pour qui ça ?... » Tant et tant qu'à la fin le bon pape, qui se sentait devenir vieux, en arriva à lui laisser le soin de veiller sur l'écurie et de porter à la mule son bol de vin à la française ; ce qui ne faisait pas rire les cardinaux.</p>
-				<milestone type="other"/>
+				<milestone type="other" unit="section"/>
 				<p>Ni la mule non plus, cela ne la faisait pas rire... Maintenant, à l'heure de son vin, elle voyait toujours arriver chez elle cinq ou six petits clercs de maîtrise qui se fourraient vite dans la paille avec leur camail et leurs dentelles ; puis, au bout d'un moment, une bonne odeur chaude de caramel et d'aromates emplissait l'écurie, et Tistet Védène apparaissait portant avec précaution le bol de vin à la française. Alors le martyre de la pauvre bête commençait.</p>
 				<p>Ce vin parfumé qu'elle aimait tant, qui lui tenait chaud, qui lui mettait des ailes, on avait la cruauté de le lui apporter, là, dans sa mangeoire, de le lui faire respirer ; puis, quand elle en avait les narines pleines, passe, je t'ai vu ! La belle liqueur de flamme rose s'en allait toute dans le gosier de ces garnements... Et encore, s'ils n'avaient fait que lui voler son vin ; mais c'étaient comme des diables, tous ces petits clercs, quand ils avaient bu !... L'un lui tirait les oreilles, l'autre la queue ; Quiquet lui montait sur le dos, Béluguet lui essayait sa barrette, et pas un de ces galopins ne songeait que d'un coup de reins ou d'une ruade la brave bête aurait pu les envoyer tous dans l'Étoile polaire et même plus loin... Mais non ! On n'est pas pour rien la mule du pape, la mule des bénédictions et des indulgences... Les enfants avaient beau faire, elle ne se fâchait pas ; et ce n'était qu'à Tistet Védène qu'elle en voulait... Celui-là, par exemple, quand elle le sentait derrière elle, son sabot lui démangeait, et vraiment il y avait bien de quoi. Ce vaurien de Tistet lui jouait de si vilains tours ! Il avait de si cruelles inventions après boire !...</p>
 				<p>Est-ce qu'un jour il ne s'avisa pas de la faire monter avec lui au clocheton de la maîtrise là-haut, tout là-haut, à la pointe du palais !... Et ce que je vous dis là n'est pas un conte, deux cent mille Provençaux l'ont vu. Vous figurez-vous la terreur de cette malheureuse mule, lorsque, après avoir tourné pendant une heure à l'aveuglette dans un escalier en colimaçon et grimpé je ne sais combien de marches, elle se trouva tout à coup sur une plate-forme éblouissante de lumière, et qu'à mille pieds au-dessous d'elle elle aperçut tout un Avignon fantastique, les baraques du marché pas plus grosses que des noisettes, les soldats du pape devant leur caserne comme des fourmis rouges, et là-bas, sur un fil d'argent, un petit pont microscopique où l'on dansait, où l'on dansait... Ah ! pauvre bête ! quelle panique ! Du cri qu'elle en poussa, toute les vitres du palais tremblèrent.</p>

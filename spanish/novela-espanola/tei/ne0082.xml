@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">La piedra angular</title>
 				<title type="sub"></title>
 				<title type="short">Piedra</title>
-				<title type="idno"><idno type="viaf">309306988</idno></title>
+				<title type="idno">
+					<idno type="bne">XX2120604</idno>
+					<idno type="viaf">309306988</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1104029</idno>
 					<idno type="viaf">51699645</idno>
 					<name type="short">Bazan</name>
 					<name type="full">Emilia Pardo Bazán</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">796</measure>
-				<measure unit="divs">18</measure>
-				<measure unit="words">51975</measure>
-				<measure unit="chars">305707</measure>
-				<measure unit="size_kb">327</measure>
+				<measure unit="lines">814</measure>
+				<measure unit="divs">20</measure>
+				<measure unit="tokens">51991</measure>
+				<measure unit="chars">305834</measure>
+				<measure unit="size_kb">328</measure>
 
 				<measure unit="chapters">18</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">747</measure> 
-				<measure unit="line_verses">4</measure> 
+				<measure unit="blocks">751</measure> 
+				<measure unit="lg.poems">2</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">6</measure> 
 				<measure unit="heads">18</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">725</measure> 
+				<measure unit="paragraphs">727</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">424</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">424</measure>
+				<measure unit="saids">580</measure>
+				<measure unit="narrative.ps">303</measure>
+				<measure unit="ss">2747</measure> 
 				<measure unit="numbers">1</measure> 
-				<measure unit="puncts">13115</measure>
+				<measure unit="puncts">13119</measure> 
+				<measure unit="len.abstract">1034</measure>
+
+				<measure unit="types">11239</measure>
+
+				<measure unit="ss">1846</measure>
+				<measure unit="ss.len.mean">171.52708559046587</measure>
+				<measure unit="ss.len.std">157.0294259015865</measure>
+				<measure unit="mean.ss.active.verbs">2.756771397616468</measure>
+				<measure unit="std.ss.active.verbs">2.570542177100451</measure>
+
+				<measure unit="ws">63719</measure>
+				<measure unit="ws.len.mean">3.9982736703338095</measure>
+				<measure unit="ws.len.std">2.9621767812983784</measure>
+
+				<measure unit="conjunctions">3951</measure>
+				<measure unit="determiners">8273</measure>
+				<measure unit="nouns">11769</measure>
+				<measure unit="verbs">9324</measure>
+				<measure unit="adverbs">2971</measure>
+				<measure unit="adjectives">3209</measure>
+				<measure unit="adpositions">7747</measure>
+				<measure unit="punctuations">11025</measure>
+				<measure unit="pronouns">5017</measure>
+				<measure unit="dates">72</measure>
+				<measure unit="numbers">233</measure>
+				<measure unit="interjections">128</measure>
+
+				<measure unit="ne.persons">973</measure>
+				<measure unit="ne.organizations">313</measure>
+				<measure unit="ne.locations">217</measure>
+				<measure unit="ne.others">72</measure>
+
+				<measure unit="wnlex.noun.plants">49</measure>
+				<measure unit="wnlex.verb.communications">1044</measure>
+				<measure unit="wnlex.noun.foods">79</measure>
+				<measure unit="wnlex.verb.possessions">384</measure>
+				<measure unit="wnlex.verb.cognitions">599</measure>
+				<measure unit="wnlex.noun.communications">689</measure>
+				<measure unit="wnlex.noun.states">317</measure>
+				<measure unit="wnlex.verb.statives">1843</measure>
+				<measure unit="wnlex.noun.cognitions">609</measure>
+				<measure unit="wnlex.noun.times">341</measure>
+				<measure unit="wnlex.verb.bodys">469</measure>
+				<measure unit="wnlex.noun.persons">1505</measure>
+				<measure unit="wnlex.adj.alls">2100</measure>
+				<measure unit="wnlex.noun.quantitys">41</measure>
+				<measure unit="wnlex.noun.phenomenons">133</measure>
+				<measure unit="wnlex.verb.creations">363</measure>
+				<measure unit="wnlex.adj.perts">121</measure>
+				<measure unit="wnlex.adv.alls">995</measure>
+				<measure unit="wnlex.noun.processs">22</measure>
+				<measure unit="wnlex.noun.artifacts">1170</measure>
+				<measure unit="wnlex.verb.perceptions">396</measure>
+				<measure unit="wnlex.noun.feelings">238</measure>
+				<measure unit="wnlex.verb.weathers">50</measure>
+				<measure unit="wnlex.noun.substances">177</measure>
+				<measure unit="wnlex.noun.shapes">44</measure>
+				<measure unit="wnlex.verb.competitions">119</measure>
+				<measure unit="wnlex.verb.motions">760</measure>
+				<measure unit="wnlex.noun.animals">156</measure>
+				<measure unit="wnlex.noun.acts">780</measure>
+				<measure unit="wnlex.noun.bodys">541</measure>
+				<measure unit="wnlex.noun.objects">238</measure>
+				<measure unit="wnlex.noun.motives">39</measure>
+				<measure unit="wnlex.verb.socials">611</measure>
+				<measure unit="wnlex.noun.groups">387</measure>
+				<measure unit="wnlex.verb.consumptions">112</measure>
+				<measure unit="wnlex.noun.possessions">60</measure>
+				<measure unit="wnlex.noun.Topss">196</measure>
+				<measure unit="wnlex.noun.relations">11</measure>
+				<measure unit="wnlex.noun.attributes">660</measure>
+				<measure unit="wnlex.verb.emotions">200</measure>
+				<measure unit="wnlex.noun.locations">262</measure>
+				<measure unit="wnlex.noun.events">258</measure>
+				<measure unit="wnlex.verb.contacts">526</measure>
+				<measure unit="wnlex.xxxs">43527</measure>
+				<measure unit="wnlex.verb.changes">496</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -61,58 +148,57 @@
 				<p>La obra versa sobre la pena de muerte, piedra angular de la sociedad. El tema está tratado en la comunidad provinciana de Marineda, algunos de cuyos habitantes como el fiscal Arturo Cáñamo, alias Siete patíbulos, la defienden, mientras que el médico don Pelayo Moragas, el abogado Lucio Febrero y algunos otros pretenden abolirla, firmes en la idea de que la piedra angular debe ser "la eficiencia moral, económica y educadora".  [...] El tema da pie, claro está, a que se nos muestren algunas historias truculentas. Cobra espcialísimo relieve el drama del verdugo Juan Rojo, marginado por el estigma vergonzante que pesa sobre su profesión. EL conflicto estalla cuando tiene que ejercer sus funciones y el doctor Moraga le ofrece, a cambio de que se niegue a cumplir la sentencia, un brillante porvenir para su hijo Telmo. Rojo, que no se siente capaz de faltar a su obligación ni de dejar de favorecer a su hijo, opta por el suicidio. Sobrecogedora es la última escena en que se describe cómo se va sumergiendo en las olas del mar.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre">novela de tesis</term>
-					<term type="genre-label"></term>
-					
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">small-city</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">female</term>
-					<term type="author-date-birth">1851</term>
-					<term type="author-date-death">1921</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">45</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">naturalista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1888</term>
-					
-					
-					<term type="subgenre" subtype="2">philosophical</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">moralist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="1">realist</term>
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Marineda</term>
-					<term type="setting-territory">Galicia</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Arturo Cáñamo</term>
-					<term type="protagonist-profession">doctor</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text">novelas naturalistas</term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">1.0</term>
-					<term type="text-TOC-range">4</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1851</term>
+					<term type="author.date.death">1921</term>
+					<term type="author.gender">female</term>
+					<term type="author.litHist.pages" resp="MdL7">45</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">naturalista</term>
+					<term type="author.year.change">1888</term>
+					<term type="authorText.group">novelas naturalistas</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Arturo Cáñamo</term>
+					<term type="text.characters.protagonist.profession">doctor</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">moralist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">philosophical</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela de tesis</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">1.0</term>
+					<term type="text.movement">naturalista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">La Coruña</term>
+					<term type="text.setting.settlement">Marineda</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">small-city</term>
+					<term type="text.setting.territory">Galicia</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low">365</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -124,7 +210,7 @@
 		<front>
 			<div>
 				<quote>
-					<lg>
+					<lg type="poem">
 						<l> <seg rend="italic">...ita ut serviamus in novitate</seg>
 						</l>
 						<l>
@@ -475,7 +561,7 @@
 				<p>-Ya... ya... ya sé que ahí va a parar todo..., que ese es el objetivo de las supuestas reformas, y el fin a que tienden todas esas infames teorías. ¡Se quiere establecer la irresponsabilidad, para, a su sombra, echar por tierra lo único que sustenta este edificio minado por todas partes, atacando a la sociedad en sus mismos cimientos! ¡Se quiere alcanzar con la piqueta la base, el centro misterioso en que descansan la paz, el orden, la justicia, la concertada marcha de todo el organismo social! ¡Se quiere..., horror causa el decirlo..., tocar a la piedra angular, abolir la última pena!...</p>
 				<p>Al nombrar la última pena, armose en el grupo una especie de motín: cada cual quería emitir su opinión, objetar, afirmar, negar, discurrir. Pero sobre la marea de tantas opiniones como iban a ilustrar el asunto, sobresalió la voz de Primo Cova, que chillaba en agudo falsete:</p>
 				<p>-No le toquen ustedes ese punto a Cáñamo... ¡La pena de muerte! Pues si esa es su parte sensible... ¿No lo sabían? Ha escrito sobre el asunto en todos los diarios de la región, de la corte y de América, y se calcula que el total de los artículos que lleva publicados podrá pesar así como unos treinta quintales... Las empresas funerarias se han asociado para regalarle una corona de abalorio negro... Ha ilustrado la materia con profundísimas investigaciones; se ha metido en el bolsillo a Beccaria, a Filangieri y a Silvela: Sólo nos ha dejado una duda, una incertidumbre horrorosa... ¡No ha podido decirnos categóricamente cómo se conjuga la primera persona del presente de indicativo del verbo <seg rend="italic">abolir</seg>! ¡No acaba de resolver si ha de decirse yo <seg rend="italic">abuelo</seg> o yo <seg rend="italic">abolo</seg>! Ya desesperado, optó por la solución mixta y escribió esta copla... ¡Verán qué copla!</p>
-				<lg>
+				<lg type="poem">
 
 					<l>«Mi abuela quiere que <seg rend="italic">abuela</seg></l>
 					<l>Yo la pena capital:</l>

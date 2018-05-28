@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">Divertidas aventuras del nieto de Juan Moreira</title>
             <title type="short">Moreira</title>
@@ -33,28 +34,24 @@
             </availability>
             <date>2016</date>
             <idno type="cligs">nh0002</idno>
-            <idno type="url"
-               >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0002.xml</idno>
+            <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0002.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">"Divertidas aventuras del nieto de Juan Moreira." <seg
-                  rend="italic">Wikisource</seg>, <date when="2009">2009</date>, <ref
-                  target="https://es.wikisource.org/wiki/Divertidas_aventuras_del_nieto_de_Juan_Moreira"
-                  >https://es.wikisource.org/wiki/Divertidas_aventuras_del_nieto_de_Juan_Moreira</ref>.</bibl>
+            <bibl type="digital-source">"Divertidas aventuras del nieto de Juan Moreira." <seg rend="italic">Wikisource</seg>, <date when="2009">2009</date>, <ref target="https://es.wikisource.org/wiki/Divertidas_aventuras_del_nieto_de_Juan_Moreira">https://es.wikisource.org/wiki/Divertidas_aventuras_del_nieto_de_Juan_Moreira</ref>.</bibl>
             <bibl type="print-source">unknown</bibl>
             <bibl type="edition-first"><seg rend="italic">Las divertidas aventuras del nieto de Juan
                   Moreira.</seg> Buenos Aires: M. Rodríguez Giles, <date when="1910">1910</date>.
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p>The spelling has been checked and corrected where appropriate.</p>
          <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
             of oral speech (e.g. speech with accent) have been marked up.</p>
          <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p>
                <quote>Lo que hace de <seg rend="italic">Las divertidas aventuras del nieto de Juan
                      Moreira</seg> una gran novela argentina es el cuidado con que Payró salvó la
@@ -83,32 +80,31 @@
                      annotated bibliography.</seg> Lanham, Maryland, 1997, p. 784.</bibl>
             </p>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-continent">America</term>
-               <term type="author-country">Argentina</term>
-               <term type="author-gender">male</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">novel</term>
-               <term type="genre-label">divertidas aventuras</term>
-               <term type="subgenre" subtype="2" resp="#uhk">costumbrista</term>
-               <term type="subgenre" subtype="1" resp="#uhk">political</term>
-               <term type="subgenre" subtype="1" cert="low" resp="#uhk">gaucho</term>
-               <term type="subgenre" subtype="1" cert="low" resp="#uhk">picaresca</term>
-               <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-               <term type="subgenre_hist" subtype="2" resp="#uhk">not_historical</term>
-               <term type="form">prose</term>
-               <term type="narrative-perspective">autodiegetic</term>
-               <term type="setting">rural</term>
-               <term type="protagonist-gender">male</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title">divertidas aventuras</term>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">costumbrista</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">political</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk" cert="low">gaucho</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk" cert="low">picaresque</term>
+                    <term type="text.narration.narrator">autodiegetic</term>
+                    <term type="text.setting.settlement.type">rural</term>
+                    <term type="text.characters.protagonist.gender">male</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2015-03-22" who="uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
          <div type="part">
             <head>Primera Parte</head>
@@ -666,8 +662,7 @@
                   atrevió nunca, yo podía atreverme impunemente con cualquiera. En suma, era para mí
                   un dechado de perfecciones, y yo me sentía demasiado orgulloso de él, demasiado
                   satisfecho de su protección directa e indirecta para que este orgullo y esta
-                  satisfacción no se tradujeran en un gran cariño y en una veneración <seg
-                     type="foreign" xml:lang="la">sui generis</seg>, semejante al efecto admirativo
+                  satisfacción no se tradujeran en un gran cariño y en una veneración <seg type="foreign" xml:lang="la">sui generis</seg>, semejante al efecto admirativo
                   hacia el camarada más fuerte, más apto y más poderoso, que accede, sin embargo,
                   bondadosamente a todos nuestros caprichos.</p>
                <p>Como más de una vez, siendo yo muy niño aún, me llevó a las carreras, las riñas y
@@ -910,8 +905,7 @@
                   aquello no tenía importancia, que cualquiera hubiese hecho lo mismo, que estaba
                   pronto a todo por complacerla... Me dio, en premio, un ramito de jazmines del
                   país, que ella misma cultivaba, y me dijo sonriente, al despedirme:</p>
-               <p>-Y no <seg type="oral">hagaz</seg> como <seg type="oral">antez</seg>, no <seg
-                     type="oral">ceaz</seg> tan «chúcaro». Vení a <seg type="oral">vernoz</seg> de
+               <p>-Y no <seg type="oral">hagaz</seg> como <seg type="oral">antez</seg>, no <seg type="oral">ceaz</seg> tan «chúcaro». Vení a <seg type="oral">vernoz</seg> de
                   cuando en cuando.</p>
                <p>-¡Ya lo creo que vendré!</p>
                <p>Y fui todos los días, a veces de mañana y tarde, preferentemente cuando don
@@ -1514,8 +1508,7 @@
                   de camaradas íntimos, si don Claudio ahuyentaba en la calle a mis condiscípulos,
                   que de otro modo quizá se hubieran unido a mí?</p>
                <p>El estudio me interesaba muy poco; antes que aprender las largas lecciones de
-                  memoria, el <seg type="foreign" xml:lang="la">musa musae</seg>, el <seg
-                     type="foreign" xml:lang="la">bonus, bona, bonum</seg>, la nomenclatura
+                  memoria, el <seg type="foreign" xml:lang="la">musa musae</seg>, el <seg type="foreign" xml:lang="la">bonus, bona, bonum</seg>, la nomenclatura
                   interminable de los departamentos de provincia, los cuentos insípidos del
                   Compendio de Historia Sagrada, prefería quedarme horas enteras mirando al aire,
                   evocando las risueñas imágenes de Los Sunchos, o rehaciendo las complicadas
@@ -1523,8 +1516,7 @@
                   me molestaba en lo más mínimo, ni por mis condiscípulos ni por los profesores,
                   olfateando instintivamente en estos últimos, quizá, una insuficiencia, si no
                   mayor, más perniciosa aún. Salvo raras excepciones eran ignorantes, se limitaban a
-                  tomar las lecciones con el texto en la mano, <seg type="foreign" xml:lang="la"
-                     >docticum libro</seg>, y contestaban rara vez a las preguntas que les hacían,
+                  tomar las lecciones con el texto en la mano, <seg type="foreign" xml:lang="la">docticum libro</seg>, y contestaban rara vez a las preguntas que les hacían,
                   para aclarar una duda, maestros improvisados, en fin, en una época en que las
                   «cátedras» eran el refugio de los amigos del gobierno que no tenían profesión ni
                   aptitudes para ganarse el pan.</p>
@@ -1854,8 +1846,7 @@
                   abundan en provincia. No la describiré, pero no olvidaré nunca, tampoco, aquellos
                   manteles inmundos y aquel infernal desorden, en que la patrona, las chinitas, los
                   huéspedes y los visitantes nos burlábamos como a porfía de las reglas más
-                  elementales del buen vivir. ¡Qué casa de Tócame-Roque, ni qué <seg type="foreign"
-                     xml:lang="fr">Auberge du Libre Échange</seg>! Para divertirse, allí, en la
+                  elementales del buen vivir. ¡Qué casa de Tócame-Roque, ni qué <seg type="foreign" xml:lang="fr">Auberge du Libre Échange</seg>! Para divertirse, allí, en la
                   respetable pensión de la distinguida viuda del señor Calleja, sobrina de un obispo
                   y tía de un diputado. Si yo no hubiera tenido Los Sunchos, me quedo en aquella
                   Capua, sórdida si se quiere, pero en cambio tan libre, precisamente lo que más
@@ -1864,8 +1855,7 @@
                <p>¿A qué decir que me dejaron suspenso en varias materias -creo que cuatro de seis-
                   y que en otras pasé por suerte o por benevolencia de la mesa examinadora? ¿Para
                   qué contar que el latinista don Prilidiano Méndez, después de otras preguntas, me
-                  invitó con alevosía y ensañamiento a que declinara el <seg type="foreign"
-                     xml:lang="la">quis vel qui</seg>, del que yo sólo sabía la aleluya de «todos
+                  invitó con alevosía y ensañamiento a que declinara el <seg type="foreign" xml:lang="la">quis vel qui</seg>, del que yo sólo sabía la aleluya de «todos
                   los burros se quedan aquí»? Todo aquello no me importaba un ardite. Intuitivamente
                   comprendía que ni en colegios ni en facultades se aprende nada, y hoy mismo, si
                   quisiera ser completamente franco... En fin, no lo diré, pero es el caso que en
@@ -3457,8 +3447,7 @@
                   con las mayores comodidades que entonces podían conseguirse en provincia. Hice
                   también arreglar un pequeño jardín que, con sus cuatro higueras, sus seis perales
                   y su grupo de «albarillos», extendiéndose detrás de las habitaciones, iba a dar a
-                  otra calle, más solitaria aún que la primera. Tenía así casa y <seg type="foreign"
-                     xml:lang="fr">garçoniere</seg> al propio tiempo, y como jefe dirigente de todo
+                  otra calle, más solitaria aún que la primera. Tenía así casa y <seg type="foreign" xml:lang="fr">garçoniere</seg> al propio tiempo, y como jefe dirigente de todo
                   aquello puse a mi antiguo compinche Marto Contreras, el hijo de mi amigo el
                   mayoral de la diligencia de Los Sunchos, que -aspirando a la dignidad de
                   «vigilante», como a un bastón de mariscal- me había pedido muchas veces que lo
@@ -3836,8 +3825,7 @@
                   teorizador, él sostenía que «estudiaba en los hombres y en las cosas,
                   prefiriéndolos a los libros, pero que éstos no deben dejarse de lado, porque son
                   las síntesis de los estudios anteriores y, sobre todo, el más grato de los
-                  entretenimientos». Alguna vez se me ocurrió que me había tomado como <seg
-                     type="foreign" xml:lang="la">anima vilis</seg> para disecarme con sus estudios
+                  entretenimientos». Alguna vez se me ocurrió que me había tomado como <seg type="foreign" xml:lang="la">anima vilis</seg> para disecarme con sus estudios
                   psicológicos, pero aunque esto fuera, en realidad, se lo perdonaría con gusto,
                   porque siempre se mostró muy mi amigo. En fin, recuerdo que aquella noche me
                   espetó este singular discurso:</p>
@@ -3986,8 +3974,7 @@
                   muchísimo en la ciudad. Hasta una tertulia del Club del Progreso vino a resultar
                   en mi honor. Tratando de igualarse a Buenos Aires, orgullosa entonces del suyo, no
                   había en el país ciudad, pueblo ni aldea que no tuviese o pensase tener su Club
-                  del Progreso, siquiera en el nombre, y todos estos <seg type="foreign"
-                     xml:lang="en">clubs</seg> eran, casi sin excepción, patrimonio del partido del
+                  del Progreso, siquiera en el nombre, y todos estos <seg type="foreign" xml:lang="en">clubs</seg> eran, casi sin excepción, patrimonio del partido del
                   gobierno, con abstención, generalmente voluntaria, a veces forzosa, de los
                   opositores.</p>
                <p>En la tertulia, que era una de tantas, pero de la que fui héroe único, gracias a
@@ -4180,8 +4167,7 @@
                   resulta una profesión, cuando es una función general, casi diría obligatoria, de
                   todos los ciudadanos...</p>
                <p>-¿Sólo en éstos? ¡No embromés!</p>
-               <p>La voz de Vázquez fue, como es natural, la <seg type="foreign" xml:lang="la"
-                     >clamantis in deserto</seg>. Nadie le hizo caso, y Camino tuvo sus dos
+               <p>La voz de Vázquez fue, como es natural, la <seg type="foreign" xml:lang="la">clamantis in deserto</seg>. Nadie le hizo caso, y Camino tuvo sus dos
                   proclamaciones en medio de un entusiasmo popular que preparamos por todos los
                   medios a nuestro alcance. Pero el candidato a la reelección no tardó en saber que
                   Vázquez le había hecho fuego, cosa que no le perdonaría nunca. No. No fui yo quien
@@ -4821,8 +4807,7 @@
                   político, y más aún porque mi puesto de jefe de policía me daba nociones de la
                   vida -exageradas por lo unilaterales- que no ha escrito el más negro de los
                   pesimistas, que no han expresado ni aun en la redacción de los diarios más
-                  chismógrafos. El mejor informado de los <seg type="foreign" xml:lang="en"
-                     >repórteres</seg> no sabe, en cuanto a la vida privada de los habitantes de una
+                  chismógrafos. El mejor informado de los <seg type="foreign" xml:lang="en">repórteres</seg> no sabe, en cuanto a la vida privada de los habitantes de una
                   ciudad grande o pequeña, ni lo que sabe el más ínfimo de los policías, y si
                   quisiera novelas o escándalos no tendría más que pasar por ese cedazo, o, mejor
                   dicho, tenerlo en la mano. Se echan pestes contra la policía, pero si ella hablara
@@ -4900,8 +4885,7 @@
                   cazador sino cazando.</p>
                <p>Ya en aquel entonces, en esos lejanos años juveniles, tenía todas estas
                   cualidades, como habrá podido verse, e iba adquiriendo gran conocimiento del mundo
-                  un tanto especial en que actuaba, inspirador de una filosofía <seg type="foreign"
-                     xml:lang="la">sui generis</seg>, empíricamente materialista -pese a mi
+                  un tanto especial en que actuaba, inspirador de una filosofía <seg type="foreign" xml:lang="la">sui generis</seg>, empíricamente materialista -pese a mi
                   confesión cuando el duelo-, y en cierto modo antisténica, lo que me permitía pasar
                   por algunos detalles que a otros quizá les hubieran parecido molestos, si no
                   indecorosos. Pero no se exagere el alcance de esta otra confesión. Me refiero,
@@ -6066,9 +6050,7 @@
                   seria y arreglada. Llamé a Marto Contreras para que fuese mi hombre de confianza,
                   y completé el servicio con un cocinero y un sirviente que salía de una casa
                   aristocrática, y que halló modo de robarme como un pazguato. Y, ya en mi casa, en
-                  vez de correr cafés y <seg type="foreign" xml:lang="fr">restaurants</seg> y <seg
-                     type="foreign" xml:lang="fr">«rotisseries»</seg>, me limité a mis <seg
-                     type="foreign" xml:lang="en">clubs</seg> y círculos, y frecuenté mis
+                  vez de correr cafés y <seg type="foreign" xml:lang="fr">restaurants</seg> y <seg type="foreign" xml:lang="fr">«rotisseries»</seg>, me limité a mis <seg type="foreign" xml:lang="en">clubs</seg> y círculos, y frecuenté mis
                   relaciones, previo estudio de sus características, y fui espiritual y escéptico en
                   unas partes, bonachón y creyente en otras, austero aquí, liberal allá, tolerante
                   acullá, sectario unas veces, despreocupado las más. Y así logré que se me
@@ -6338,8 +6320,7 @@
                   otros a la tierra sus rayos cálidos aún, en una iluminación de apoteosis. Bajé a
                   buen paso por las calles que el domingo dejaba desiertas y vibrantes como una caja
                   de resonancia, hasta la vieja y miserable Estación Central, donde iba a tomar el
-                  tren para Los Olivos. Don Estanislao Rozsahegy me había invitado a una <seg
-                     type="foreign" xml:lang="en">«garden-party»</seg> -la última de la estación- en
+                  tren para Los Olivos. Don Estanislao Rozsahegy me había invitado a una <seg type="foreign" xml:lang="en">«garden-party»</seg> -la última de la estación- en
                   su magnífica quinta.</p>
                <p>Durante el viaje recapitulé, sacudido por el traqueo del vagón, los preliminares
                   de nuestra naciente amistad. Después de la presentación en el vestíbulo de la
@@ -6401,8 +6382,7 @@
                   sociedad que frecuentábamos... ni para el resto tampoco. Esta vinculación -sobre
                   la que no insistiré porque es innecesario- bastaba para distraerme y hacerme
                   rehuir o postergar todo otro devaneo, pues, en cuanto a la parte seria de la vida,
-                  no abandonaba por estas consideraciones, galanteos y <seg type="foreign"
-                     xml:lang="en">flirts</seg>, mis proyectos matrimoniales con la buena María.</p>
+                  no abandonaba por estas consideraciones, galanteos y <seg type="foreign" xml:lang="en">flirts</seg>, mis proyectos matrimoniales con la buena María.</p>
                <p>Llegué, en fin, a Olivos y a la quinta de Rozsahegy, donde, pese al fresco
                   intempestivo del día, numerosas parejas paseaban por los jardines y se divertían
                   animadamente en diversos juegos, al son de una música discreta. Eulalia debía
@@ -6567,8 +6547,7 @@
                   pronto cesé hasta en mis invectivas, buscando también el silencio y el olvido.
                   Poco antes, algunos diarios me atacaban, tomándome como pretexto para mesar las
                   barbas del Presidente en persona, y presentándome como su vocero, como su alma
-                  condenada. Esto me afligía y me torturaba, aunque en las calles, en los <seg
-                     type="foreign" xml:lang="en">clubs</seg>, en el Congreso y en el teatro me
+                  condenada. Esto me afligía y me torturaba, aunque en las calles, en los <seg type="foreign" xml:lang="en">clubs</seg>, en el Congreso y en el teatro me
                   diera aires de Matamoros, y... al buen callar llaman Sancho. El grande hombre de
                   Los Sunchos, el árbitro de la capital provinciana, era, cada vez más, uno de
                   tantos en la capital de la República...</p>
@@ -6654,8 +6633,7 @@
                   no sé qué epizootia y a llevarse no sé cuántos pesos; el dueño de la casa, don
                   Estanislao Rozsahegy, su esposa Irma, con su idioma tan semejante al alemán como
                   al castellano, y la linda Eulalia, que reunía en torno suyo a los dos elegantes,
-                  la muñequita de porcelana barnizada y la <seg type="foreign" xml:lang="fr"
-                     >demoiselle de compagnie</seg>, mientras que el gran Rozsahegy acaparaba al
+                  la muñequita de porcelana barnizada y la <seg type="foreign" xml:lang="fr">demoiselle de compagnie</seg>, mientras que el gran Rozsahegy acaparaba al
                   político, al banquero y a la germano-criolla, es decir, la parte más seria de la
                   sociedad.</p>
                <p>-¡Por fin sale usted del bosque! -exclamó Eulalia con la libertad de ideas de las
@@ -6950,8 +6928,7 @@
                   helados, <seg type="foreign" xml:lang="en">sandwichs</seg> y bombones a los
                   comensales de un patrón que fue quizá su camarada; un poco de música, unas vueltas
                   de vals...</p>
-               <p>Se marcharon, al fin, todos aparentemente contentos; excepto la <seg
-                     type="foreign" xml:lang="fr">demoiselle de compagnie</seg>, más que nunca
+               <p>Se marcharon, al fin, todos aparentemente contentos; excepto la <seg type="foreign" xml:lang="fr">demoiselle de compagnie</seg>, más que nunca
                   deseosa de ser actriz y no espectadora; los elegantes que hacían el inventario de
                   la fortuna de Rozsahegy; el político sin prestigio que hubiera dado generosamente
                   esta negación a cambio de los millones rozsaheguianos; la mujer de Coen, que había
@@ -7024,8 +7001,7 @@
                <p>-Son las once, señor, y don Marto me ha dicho que podía despertarlo.</p>
                <p>-¡Ah, bueno! ¿Quién es?</p>
                <p>-Una señora. No ha dicho su nombre.</p>
-               <p>¡Tantas señoras!... ¿Un sablazo matutino? ¡Bah! <seg type="foreign" xml:lang="fr"
-                     >Noblesse oblige</seg>.</p>
+               <p>¡Tantas señoras!... ¿Un sablazo matutino? ¡Bah! <seg type="foreign" xml:lang="fr">Noblesse oblige</seg>.</p>
                <p>Sobre el pijama me puse la robe de chambre, y me dirigí serenamente a la sala,
                   seguro de que el sablazo más feroz no podría interesar sino la superficie de mi
                   coraza, reforzada por Rozsahegy.</p>
@@ -7394,8 +7370,7 @@
                   usted-, no te lo diría, pero... ahí está... Es bueno que te des cuenta de las
                   cosas antes que los demás. ¡Para algo soy tu suegro, tu suegro Rozsahegy!...</p>
                <p>Y después de una pausa, agregó:</p>
-               <p>-Hay que andar con mucho <seg type="oral">«oco»</seg>. Un derrepente, <seg
-                     type="oral">¡cataplum!</seg></p>
+               <p>-Hay que andar con mucho <seg type="oral">«oco»</seg>. Un derrepente, <seg type="oral">¡cataplum!</seg></p>
                <p>No dejaron de alarmarme estos informes, pero me alarmó mucho más todavía la
                   observación de que la política del Presidente no satisfacía al mismo partido que
                   lo elevara al poder, y de que algunos de sus miembros más conspicuos se retiraban
@@ -7833,8 +7808,7 @@
                <p>-¡Para que Los Sunchos tenga toda la importancia que merece! -me contestaron.</p>
                <p>No era una respuesta. Aquellos buenos burgueses querían ser gobernadores,
                   diputados, senadores, etc.; fundar una pequeña aristocracia, en fin, y no ser el
-                  departamento más alejado pero más influyente, el <seg type="foreign" xml:lang="fr"
-                     >bourg pourri</seg>, sino una gran entidad. ¡Bah! ¡Si ellos supieran dónde van
+                  departamento más alejado pero más influyente, el <seg type="foreign" xml:lang="fr">bourg pourri</seg>, sino una gran entidad. ¡Bah! ¡Si ellos supieran dónde van
                   a parar las grandezas de Los Sunchos, y pudieran leer en mi alma cómo calculo yo
                   mi posición en Buenos Aires!... Pero tienen razón. Yo en Los Sunchos, dominando
                   patanes, era más feliz que en la capital tratando de contemporizar con todo el
@@ -8178,8 +8152,7 @@
                   modestia franciscana, porque muchos lo habían perdido todo y otros trataban de
                   ocultarlo todo, aquello y la poca renta que me llegaba de Los Sunchos y de la
                   provincia (el sueldecito de marras), me bastaban y aun sobraban para vivir bien,
-                  frecuentar el club, jugar mi amena partida de <seg type="foreign" xml:lang="en"
-                     >poker</seg>, y hacer nuevas deudas, no muy graves, dada la modestia de los
+                  frecuentar el club, jugar mi amena partida de <seg type="foreign" xml:lang="en">poker</seg>, y hacer nuevas deudas, no muy graves, dada la modestia de los
                   tiempos. Lo único que solía molestarme (¡oh, en idea solamente!), era mi
                   compromiso con los Bancos, o, más bien dicho, con el Banco Provincial.</p>
                <p>Llegó la hora en que las autoridades se ocuparían de liquidar y de imponer la
@@ -8524,8 +8497,7 @@
                <p>El miércoles me presenté en casa de Vázquez y le di los veinte mil pesos.</p>
                <p>-¡Aun con esto estoy arruinado! -sollozó.</p>
                <p>-No creas. Ve a ver a mi suegro. Yo he hablado con él. Rozsahegy está seguro de
-                  recoger esas malhadadas letras con cinco o diez mil pesos cuando más. Es un <seg
-                     type="foreign" xml:lang="fr">chantage</seg>. No tengas escrúpulos.</p>
+                  recoger esas malhadadas letras con cinco o diez mil pesos cuando más. Es un <seg type="foreign" xml:lang="fr">chantage</seg>. No tengas escrúpulos.</p>
                <p>-No lo haré. Me importa poco. Me voy al campo a trabajar. Es lo que me aconseja
                   María.</p>
                <p>¡María! Sentí de pronto el áspero deseo de verla, de hablar con ella, y prolongué
@@ -8705,8 +8677,7 @@
                <p>-He leído su artículo de El Chispero. Es notable, como vigor, pero me parece
                   exagerado. Usted hará camino en el periodismo, y tengo razones para darle un
                   consejo...</p>
-               <p>-¿Ah? -murmuró bebiendo un sorbo de <seg type="foreign" xml:lang="en"
-                     >vermouth</seg>.</p>
+               <p>-¿Ah? -murmuró bebiendo un sorbo de <seg type="foreign" xml:lang="en">vermouth</seg>.</p>
                <p>-Es preciso que usted conozca más a fondo a las personas que ataca, y que no se
                   haga un daño irreparable por impremeditación juvenil.</p>
                <p>-Señor -me dijo, incorporándose, como para marcharse-, no pido, por el momento,

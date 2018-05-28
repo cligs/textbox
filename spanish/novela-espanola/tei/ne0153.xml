@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub">peregrinaciones heroicas y lances de amor y fortuna de Miguel de Zuheros y Tiburcio de Simahonda</title>
 				<title type="short">Morsamor</title>
 				<title type="idno">
-					<idno type="viaf">310919780</idno></title>
+					<idno type="bne">XX5521193</idno>
+					<idno type="viaf">310919780</idno>
+				</title>
 				<author>
+					<idno type="bne">XX918093</idno>
 					<idno type="viaf">46770556</idno>
 					<name type="short">Valera</name>
 					<name type="full">Juan Valera</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1296</measure>
-				<measure unit="divs">61</measure>
-				<measure unit="words">83523</measure>
-				<measure unit="chars">485032</measure>
-				<measure unit="size_kb">515</measure>
+				<measure unit="lines">1323</measure>
+				<measure unit="divs">63</measure>
+				<measure unit="tokens">84107</measure>
+				<measure unit="chars">488533</measure>
+				<measure unit="size_kb">516</measure>
 
 				<measure unit="chapters">58</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">3</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1145</measure> 
-				<measure unit="line_verses">27</measure> 
-				<measure unit="heads">61</measure> 
+				<measure unit="blocks">1161</measure> 
+				<measure unit="lg.poems">10</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">34</measure> 
+				<measure unit="heads">62</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1056</measure> 
+				<measure unit="paragraphs">1064</measure> 
 				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">201</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">201</measure>
+				<measure unit="saids">299</measure>
+				<measure unit="narrative.ps">863</measure>
+				<measure unit="ss">3222</measure> 
 				<measure unit="numbers">8</measure> 
-				<measure unit="puncts">10539</measure>
+				<measure unit="puncts">10604</measure> 
+				<measure unit="len.abstract">2100</measure>
+
+				<measure unit="types">13788</measure>
+
+				<measure unit="ss">3007</measure>
+				<measure unit="ss.len.mean">164.22447622214833</measure>
+				<measure unit="ss.len.std">116.17448644094412</measure>
+				<measure unit="mean.ss.active.verbs">2.3644828732956436</measure>
+				<measure unit="std.ss.active.verbs">1.8362030823188153</measure>
+
+				<measure unit="ws">93585</measure>
+				<measure unit="ws.len.mean">4.308863599935887</measure>
+				<measure unit="ws.len.std">3.1543866992582017</measure>
+
+				<measure unit="conjunctions">7903</measure>
+				<measure unit="determiners">11724</measure>
+				<measure unit="nouns">18258</measure>
+				<measure unit="verbs">14562</measure>
+				<measure unit="adverbs">4403</measure>
+				<measure unit="adjectives">5811</measure>
+				<measure unit="adpositions">12738</measure>
+				<measure unit="punctuations">10378</measure>
+				<measure unit="pronouns">7424</measure>
+				<measure unit="dates">8</measure>
+				<measure unit="numbers">358</measure>
+				<measure unit="interjections">18</measure>
+
+				<measure unit="ne.persons">2005</measure>
+				<measure unit="ne.organizations">563</measure>
+				<measure unit="ne.locations">714</measure>
+				<measure unit="ne.others">136</measure>
+
+				<measure unit="wnlex.noun.plants">92</measure>
+				<measure unit="wnlex.verb.communications">1182</measure>
+				<measure unit="wnlex.noun.foods">106</measure>
+				<measure unit="wnlex.verb.possessions">766</measure>
+				<measure unit="wnlex.verb.cognitions">735</measure>
+				<measure unit="wnlex.noun.communications">969</measure>
+				<measure unit="wnlex.noun.states">579</measure>
+				<measure unit="wnlex.verb.statives">3696</measure>
+				<measure unit="wnlex.noun.cognitions">1217</measure>
+				<measure unit="wnlex.noun.times">415</measure>
+				<measure unit="wnlex.verb.bodys">393</measure>
+				<measure unit="wnlex.noun.persons">1719</measure>
+				<measure unit="wnlex.adj.alls">4021</measure>
+				<measure unit="wnlex.noun.quantitys">55</measure>
+				<measure unit="wnlex.noun.phenomenons">168</measure>
+				<measure unit="wnlex.verb.creations">686</measure>
+				<measure unit="wnlex.adj.perts">220</measure>
+				<measure unit="wnlex.adv.alls">1735</measure>
+				<measure unit="wnlex.noun.processs">46</measure>
+				<measure unit="wnlex.noun.artifacts">1246</measure>
+				<measure unit="wnlex.verb.perceptions">408</measure>
+				<measure unit="wnlex.noun.feelings">455</measure>
+				<measure unit="wnlex.verb.weathers">69</measure>
+				<measure unit="wnlex.noun.substances">181</measure>
+				<measure unit="wnlex.noun.shapes">52</measure>
+				<measure unit="wnlex.verb.competitions">252</measure>
+				<measure unit="wnlex.verb.motions">1106</measure>
+				<measure unit="wnlex.noun.animals">206</measure>
+				<measure unit="wnlex.noun.acts">1127</measure>
+				<measure unit="wnlex.noun.bodys">415</measure>
+				<measure unit="wnlex.noun.objects">516</measure>
+				<measure unit="wnlex.noun.motives">20</measure>
+				<measure unit="wnlex.verb.socials">1148</measure>
+				<measure unit="wnlex.noun.groups">632</measure>
+				<measure unit="wnlex.verb.consumptions">145</measure>
+				<measure unit="wnlex.noun.possessions">144</measure>
+				<measure unit="wnlex.noun.Topss">286</measure>
+				<measure unit="wnlex.noun.relations">32</measure>
+				<measure unit="wnlex.noun.attributes">1126</measure>
+				<measure unit="wnlex.verb.emotions">514</measure>
+				<measure unit="wnlex.noun.locations">664</measure>
+				<measure unit="wnlex.noun.events">410</measure>
+				<measure unit="wnlex.verb.contacts">648</measure>
+				<measure unit="wnlex.xxxs">62230</measure>
+				<measure unit="wnlex.verb.changes">750</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -64,58 +150,57 @@
 					<p>Valera escribe una especie de libro de caballerías a la moderna, en el que se mezclan magia, ocultismo y teosofía. El viaje de Morsamor alrededor del mundo, contemporáneo pero en sentido inverso al de Elcano, con cuya expedición se cruza, es una plasmación del interes del autor por lo oriental y lo fantástico. Es considerado un precursor de Julio Verne.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-
-					<term type="subgenre" subtype="1" cert="low">adventure</term>
-					<term type="subgenre" subtype="1">erotic</term>
-					<term type="subgenre" subtype="2" cert="low">fantastic</term>
-
-					<term type="subgenre-lithist" subtype="2">novela de histórica</term>
-					<term type="subgenre-lithist" subtype="1">novela de aventuras</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1824</term>
-					<term type="author-date-death">1905</term>
-					<term type="author-TOC-range" resp="MdL7">7</term>
-					<term type="author-histlit-pages" resp="MdL7">63</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
-					
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">mixed</term>
-					<term type="setting-territory">mixed</term>
-					<term type="setting-country">mixed</term>
-					<term type="setting-continent">mixed</term>
-					
-					<term type="representation">non-realistic</term>
-					<term type="protagonist-name">Miguel de Zuhero (Morsamor)</term>
-					<term type="protagonist-profession">religious</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">modern_times</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text">Novelas de la última etapa</term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end" cert="low">positive</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">2.0</term>
-					<term type="text-TOC-range">4</term>
-					
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1824</term>
+					<term type="author.date.death">1905</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">63</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group">Novelas de la última etapa</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Miguel de Zuhero (Morsamor)</term>
+					<term type="text.characters.protagonist.profession">religious</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Aventuras, Fantástico</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1" cert="low">adventure</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">erotic</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2" cert="low">fantastic</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="2">novela de histórica</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE" cligs:importance="1">novela de aventuras</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.subtitle.source" resp="bne">novela completa</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">2.0</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end" cert="low">positive</term>
+					<term type="text.plot.representation">non-realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">mixed</term>
+					<term type="text.setting.country">mixed</term>
+					<term type="text.setting.represented">mixed</term>
+					<term type="text.setting.settlement">mixed</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory">mixed</term>
+					<term type="text.time.period">modern_times</term>
+					<term type="text.time.span" cert="low">365</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -129,7 +214,7 @@
 				<head>Al Excmo. Sr. Conde de Casa Valencia</head>
 				<p>Mi querido primo: Para distraer mis penas egoístas al considerarme tan viejo y tan quebrantado de salud, y mis penas patrióticas al considerar a España tan abatida, he soltado el freno a la imaginación, que no le tuvo nunca muy firme, y la he echado a volar por esos mundos de Dios, para escribir la novela que te dedico.</p>
 				<p>Tomando por lo serio algunos preceptos irónicos de don Leandro Fernández de Moratín, en su <seg rend="italic">Lección poética</seg>, he puesto en mi libro cuanto se ha presentado a mi memoria de lo que he oído o leído en alabanza de una época muy distinta de la presente, cuando era España la primera nación de Europa. Así he procurado consolarme de que hoy no lo sea, si bien escribiendo la más <seg rend="italic">antimoratinesca</seg> de mis  composiciones literarias. Bien puedo asegurar que hay en ella</p>
-				<lg>
+				<lg type="poem">
 					<l> Cuanto puede hacinar la fantasía,</l>
 					<l>en concebir delirios eminente:</l>
 					<l>magia, blasón, alquimia, teosofía,</l>
@@ -141,7 +226,7 @@
 				<p>Si a pesar de tanta riqueza de ingredientes el pasto espiritual que doy al público resulta desabrido o empalagoso, no te negaré que he de afligirme, pero me servirá de consuelo lo inocente de mi trabajo. Nada más inocente que componer un libro de entretenimiento aunque no entretenga. Con no leerle evitará toda persona discreta el mal que involuntariamente pudiera yo causarle. Yo no trato de enseñar nada ni de probar nada. Si alguien deduce consecuencias o moralejas de la lectura de este libro, él, y no yo, será responsable de ellas. Yo sólo pretendo divertir un rato a quien me lea, dejando a los sabios enseñar y adoctrinar a sus semejantes, y dejando a nuestros hombres políticos la difícil tarea de regenerarnos y de sacarnos del atolladero en que nos hemos metido.</p>
 
 				<p>He de confesarte, sin embargo, que a veces tengo yo pensamientos algo presuntuosos, porque creo que el mejor modo de obtener la regeneración de que tanto se habla, es entretenerse en los ratos de ocio contando cuentos, aunque sean poco divertidos, y no pensar en barcos nuevos, ni en fortificaciones, ni en tener sino muy pocos soldados, hasta que seamos ricos, indispensable condición en el día para ser fuertes. Ser fuertes en el día es cuestión de lujo. Seamos pues débiles e inermes mientras que no podemos ser lujosos. Imitemos a Don Quijote, cuando quiso hacerse pastor después de vencido por el Caballero de la Blanca Luna. Mientras que unos esquilan las ovejas y mientras que otros recogen la leche en colodras y hacen requesones y quesos, aumentando así la riqueza individual, y por consiguiente, la colectiva, nosotros, o al menos yo, incapacitados por la vejez para tan útiles operaciones, empleémonos en tocar la churumbela, el violón u otro instrumento pastoril para que se recreen las ovejas.</p>
-				<lg>
+				<lg type="poem">
 					<l>De pacer olvidadas escuchando</l>
 				</lg>
 				<p>o quizás consolándose de que poco o nada les dejen que pacer los rabadanes. A fin de  vivir contentos en esta forzosa Arcadia, recordemos vuestras pasadas glorias, no superadas aún por los pueblos más pujantes y engreídos que hay ahora en el mundo, y compongamos, con dichos recuerdos y con el buen humor que no debe abandonarnos, historias como la que yo te ofrezco, la cual, si no es amena, es por su benigna y candorosa intención, digna de todo aplauso. Date tú el tuyo, defiéndeme con indulgente habilidad de los que me censuren y créeme siempre tu afectísimo amigo y pariente,</p>
@@ -528,14 +613,14 @@
 					<p>Luego añadió Morsamor:</p>
 					<p>-Ya ves cuán cruel ha sido mi desengaño. Casi me arrepiento de haber querido volver a ser joven. Viejo y retirado del mundo, ni yo me enamoraba de nadie ni nadie me desdeñaba. ¿Qué puedo yo ser en esta nueva vida sino el arrendajo miserable, la mal trazada copia del pobre Bernardín Riveiro?</p>
 					<p>-Cálmate, Miguel, y no imagines que debes ser copia de original tan menguado y atribulado. Yo topé con él varias veces y me dio lástima y grima el verle. Ya iba cruzando por entre las breñas e internándose en lo más esquivo, ya emulando con las cabras monteses, saltaba por esos vericuetos. Dos o tres veces pasó cerca de mí y me causó horror. Rota y manchada la vestidura y enmarañado el cabello, más parece fiera que hombre. Seguro estoy de que en las venideras edades no han de creer y han de negar los críticos juiciosos estos ridículos desatinos; pero yo los he visto y no puedo negarlos. Bernardín Riveiro, por otro lado, tiene algún fundamento para hacer lo que hace. La Infanta había correspondido a su pasión; le había querido y había dejado de quererle, pues se casó con otro. Tú distas mucho de hallarte en el mismo caso. Ni doña Sol es Infanta, ni doña Sol te ha querido nunca, ni inspirado tú por doña Sol has de escribir églogas, canciones, romances e historias en prosa que te inmortalicen. Dado que le imitases, sólo imitarías a Bernardín Riveiro en lo tonto. Serías la víctima candorosa de ciertas invenciones poéticas, falsas o exageradas, que deleitan mucho en el día, como, por ejemplo, la famosa <seg rend="italic">Questión de Amor</seg>. Indigno de ti y más que ridículo sería que te empeñases en traer a la vida real los ensueños de la fantasía y en convertir las flores retóricas en hechos. Bien está que se diga:</p>
-					<lg>
+					<lg type="poem">
 						<l> El primer día que os vi</l>
 						<l>tan mortal fue mi ferida</l>
 						<l>que en veros quedé sin vida</l>
 						<l>y el vivir se vio sin mí.</l>
 					</lg>
 					<p>Y todavía me parece mejor, más alambicado y más agudo, aquello otro que con tintas variantes suele repetirse:</p>
-					<lg>
+					<lg type="poem">
 						<l> Morir a vivir prefiero;</l>
 						<l>y de tu beldad cautivo,</l>
 						<l>o no vivo porque vivo</l>
@@ -641,7 +726,7 @@
 					<p>Todo esto, así como las mismas damas y sus escuderos, habían de viajar en mulas que los genoveses tenían en la caballeriza y de las que se dispuso como de bienes mostrencos. Y no mucho después, antes de que el sol apareciese y dorase con sus rayos la tierra, todos se pusieron en marcha, formando alegre caravana y caminando a paso largo hacia Cascaes.</p>
 					<p>La llave del desván quedó en poder de las sirvientas de los señores Adorno y Salvago, para que pusiesen en franquía a la vieja Claudia y a los señores Carvallo y Acevedo, a las tres horas de haber salido de la quinta Morsamor y su acompañamiento.</p>
 					<p>La nave que mandaba Morsamor era grande y capaz y él podía tripularla a su antojo. Con holgura, pues, instaló en ella a su gente. Y aquel mismo día, antes de que el sol rayase en lo más alto del cielo,</p>
-					<lg>
+					<lg type="poem">
 						<l> <seg rend="italic"><seg type="foreign" xml:lang="pt">Yá no largo Oceano navegavam,</seg></seg></l>
 						<l><seg rend="italic"><seg type="foreign" xml:lang="pt">As inquietas ondas apartando:</seg></seg></l>
 						<l><seg rend="italic"><seg type="foreign" xml:lang="pt">Os ventos brandamente respiravam,</seg></seg></l>
@@ -702,19 +787,19 @@
 					<p>Teletusa era asimismo egregia cantora, no indigna del siglo y de la patria en que la música estaba tan floreciente, merced a Bartolomé Ramos de Pareja, a Pedro Ciruelo, a Juan Anchieta, a Juan de la Encina y a otros insignes compositores y maestros.</p>
 					<p>La propia Teletusa, acompañándose con la vihuela, cantaba deliciosos villancicos y coplas. Ora cantaba</p>
 
-					<lg>
+					<lg type="poem">
 						<l> Dos ánades madre</l>
 						<l>Que van por aquí.</l>
 					</lg>
 					<p>Ora por lo sentimental y lo tierno, coplas como esta:</p>
-					<lg>
+					<lg type="poem">
 						<l> Pues que jamás olvidaros</l>
 						<l>No puede mi corazón</l>
 						<l>Si me falta galardón</l>
 						<l>¡Ay que mal hice en miraros!</l>
 					</lg>
 					<p>Ora, por último siguiendo el estilo picaresco, aquello de</p>
-					<lg>
+					<lg type="poem">
 						<l> Yo me iba, mi madre,</l>
 						<l>Las rosas coger,</l>
 						<l>Hallé mis amores</l>
@@ -1145,7 +1230,7 @@
 					<p>El fámulo, que para verlos pasar se había echado a un lado con los forasteros, dijo a estos cuando llegó frente de donde estaban el viejo tal vez de mayor estatura y de más gravedad y belleza de rostro.</p>
 					<p>-Ese es mi amo, el señor Sankarachária. Trae, como veis, una guirnalda de hiedra y de violetas, con que le ha coronado hoy su esposa, para simbolizar el púdico, modesto y apretado lazo con que siempre la tuvo ceñida y prendida.</p>
 					<p>Al son de los instrumentos músicos, venían todos cantando, con deliciosa melodía, un himno del <seg rend="italic">Rig-Veda</seg>, del que Morsamor comprendió milagrosamente y conservó en la memoria, no sabemos si con entera fidelidad, las siguientes estrofas:</p>
-					<lg>
+					<lg type="poem">
 						<l>«Áureo germen de luz apareciste al principio. Soberano del mundo llenaste la tierra y el cielo. ¿Eres tú el Dios a quien debemos ofrecer holocausto?».</l>
 
 						<l>«Tú das la vida y la fuerza. Los otros dioses anhelan que los bendigas. La inmortalidad y la muerte son tu sombra. ¿Eres tú el Dios a quien debemos ofrecer holocausto?».</l>
@@ -1354,7 +1439,7 @@
 					<p>Hermosa como siempre estaba donna Olimpia. El tiempo no imprimía la destructora huella en su rostro, en el cual se notaba mayor majestad que antes y honda tristeza.</p>
 					<p>Donna Olimpia no había aparecido sola. Teletusa, tan regocijada como de costumbre, apareció con ella. Y aparecieron igualmente entre los libertados galeotes, siendo de los que mejor pagaron la libertad combatiendo a los corsarios, los dos fieles y robustos escuderos a quienes llamaban Asmodeo y Belcebú, más por broma que con suficiente motivo.</p>
 					<p>Para satisfacer la curiosidad natural de Morsamor y de Tiburcio, donna Olimpia, en presencia de Teletusa y del doncel, no tardó en contar a grandes rasgos sus aventuras. Y como donna Olimpia era tan latina y tan abastada de erudición clásica, empezó diciendo como el Eneas de Virgilio:</p>
-					<lg>
+					<lg type="poem">
 						<l><seg rend="italic"><seg type="foreign" xml:lang="la">¡In fandum, Morsamor, jubes renovare dolorem!</seg></seg></l>
 					</lg>
 					<p>Traía ella consignados en precioso manuscrito todos los peregrinos sucesos de que había sido testigo, agente o paciente. Con ellos, imitando a César, se proponía dar al público sus comentarios. Es indudable que si los hubiese publicado y si no se hubiesen perdido, serían casi tan interesantes como los del Dictador romano. Si nosotros los poseyésemos o pudiésemos reconstruirlos, compondríamos con ellos una historia no menos extensa que la presente, pero aquí deben entrar como episodio, y el episodio no debe extenderse más que el principal asunto. Para no faltar a esta regla de los preceptistas y cumplir con el <seg rend="italic"><seg type="foreign" xml:lang="la">semper ad aventum festina</seg></seg> de Horacio, nos abstendremos de referir las cosas con la pausa con que las refirió donna Olimpia, y las referiremos tan en resumen, que más parezcan el plan o el índice de la historia que la historia misma.</p>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Flor de santidad</title>
 				<title type="sub">Historia milenaria</title>
 				<title type="short">FlordeSantidad</title>
-				<title type="idno"><idno type="viaf">206861048</idno></title>
+				<title type="idno">
+					<idno type="bne">XX2215970</idno>
+					<idno type="viaf">206861048</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1055436</idno>
 					<idno type="viaf">68936773</idno>
 					<name type="short">Valle</name>
 					<name type="full">Valle-Inclán, Ramón del</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">806</measure>
-				<measure unit="divs">31</measure>
-				<measure unit="words">19377</measure>
-				<measure unit="chars">113299</measure>
-				<measure unit="size_kb">130</measure>
+				<measure unit="lines">840</measure>
+				<measure unit="divs">33</measure>
+				<measure unit="tokens">19491</measure>
+				<measure unit="chars">113990</measure>
+				<measure unit="size_kb">131</measure>
 
 				<measure unit="chapters">26</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">5</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">733</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">31</measure> 
+				<measure unit="blocks">748</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">4</measure> 
+				<measure unit="line.verses">14</measure> 
+				<measure unit="heads">32</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">702</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">451</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">451</measure>
+				<measure unit="saids">451</measure>
+				<measure unit="narrative.ps">251</measure>
+				<measure unit="ss">1593</measure> 
 				<measure unit="numbers">28</measure> 
-				<measure unit="puncts">4276</measure>
+				<measure unit="puncts">4290</measure> 
+				<measure unit="len.abstract">587</measure>
+
+				<measure unit="types">4589</measure>
+
+				<measure unit="ss">865</measure>
+				<measure unit="ss.len.mean">134.2728323699422</measure>
+				<measure unit="ss.len.std">94.24687548866818</measure>
+				<measure unit="mean.ss.active.verbs">2.3202312138728325</measure>
+				<measure unit="std.ss.active.verbs">1.7655325397319315</measure>
+
+				<measure unit="ws">23515</measure>
+				<measure unit="ws.len.mean">3.976015309376993</measure>
+				<measure unit="ws.len.std">2.8404633211840014</measure>
+
+				<measure unit="conjunctions">1169</measure>
+				<measure unit="determiners">3756</measure>
+				<measure unit="nouns">4842</measure>
+				<measure unit="verbs">3492</measure>
+				<measure unit="adverbs">637</measure>
+				<measure unit="adjectives">1361</measure>
+				<measure unit="adpositions">2882</measure>
+				<measure unit="punctuations">3927</measure>
+				<measure unit="pronouns">1314</measure>
+				<measure unit="dates">3</measure>
+				<measure unit="numbers">86</measure>
+				<measure unit="interjections">46</measure>
+
+				<measure unit="ne.persons">167</measure>
+				<measure unit="ne.organizations">164</measure>
+				<measure unit="ne.locations">66</measure>
+				<measure unit="ne.others">26</measure>
+
+				<measure unit="wnlex.noun.plants">64</measure>
+				<measure unit="wnlex.verb.communications">248</measure>
+				<measure unit="wnlex.noun.foods">85</measure>
+				<measure unit="wnlex.verb.possessions">96</measure>
+				<measure unit="wnlex.verb.cognitions">134</measure>
+				<measure unit="wnlex.noun.communications">186</measure>
+				<measure unit="wnlex.noun.states">76</measure>
+				<measure unit="wnlex.verb.statives">613</measure>
+				<measure unit="wnlex.noun.cognitions">99</measure>
+				<measure unit="wnlex.noun.times">170</measure>
+				<measure unit="wnlex.verb.bodys">199</measure>
+				<measure unit="wnlex.noun.persons">584</measure>
+				<measure unit="wnlex.adj.alls">860</measure>
+				<measure unit="wnlex.noun.quantitys">11</measure>
+				<measure unit="wnlex.noun.phenomenons">74</measure>
+				<measure unit="wnlex.verb.creations">128</measure>
+				<measure unit="wnlex.adj.perts">41</measure>
+				<measure unit="wnlex.adv.alls">273</measure>
+				<measure unit="wnlex.noun.processs">33</measure>
+				<measure unit="wnlex.noun.artifacts">386</measure>
+				<measure unit="wnlex.verb.perceptions">219</measure>
+				<measure unit="wnlex.noun.feelings">40</measure>
+				<measure unit="wnlex.verb.weathers">45</measure>
+				<measure unit="wnlex.noun.substances">99</measure>
+				<measure unit="wnlex.noun.shapes">23</measure>
+				<measure unit="wnlex.verb.competitions">16</measure>
+				<measure unit="wnlex.verb.motions">456</measure>
+				<measure unit="wnlex.noun.animals">254</measure>
+				<measure unit="wnlex.noun.acts">175</measure>
+				<measure unit="wnlex.noun.bodys">350</measure>
+				<measure unit="wnlex.noun.objects">235</measure>
+				<measure unit="wnlex.noun.motives">2</measure>
+				<measure unit="wnlex.verb.socials">213</measure>
+				<measure unit="wnlex.noun.groups">86</measure>
+				<measure unit="wnlex.verb.consumptions">37</measure>
+				<measure unit="wnlex.noun.possessions">22</measure>
+				<measure unit="wnlex.noun.Topss">33</measure>
+				<measure unit="wnlex.noun.relations">0</measure>
+				<measure unit="wnlex.noun.attributes">180</measure>
+				<measure unit="wnlex.verb.emotions">56</measure>
+				<measure unit="wnlex.noun.locations">145</measure>
+				<measure unit="wnlex.noun.events">83</measure>
+				<measure unit="wnlex.verb.contacts">272</measure>
+				<measure unit="wnlex.xxxs">15891</measure>
+				<measure unit="wnlex.verb.changes">223</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -62,59 +149,61 @@
 				<p>Adega es una pastora en el interior de Galicia (en época desconocida) con alucinaciones que mantiene relaciones sexuales con un peregrino al que su ama rechaza y que ella identifica con Jesucristo. La protagonista intenta que sus corderos no mueran del mal de ojo que el peregrino ha lanzado contra ellos mientras que el ama intenta a su vez utilizar magia contra el peregrino. El peregrino muere. Adega huye ante un ataque de nervios y anuncia que está embarazada y que el hijo es de Dios. Es recogida como sierva en una casa nueva, cuya ama la lleva a un rito de exorcismo en el mar.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist"></term>
-					<term type="subsubgenre"></term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">fantastic</term>
-					<term type="subgenre" subtype="1">modernist</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="2">erotic</term>
-					<term type="subgenre" subtype="1">spiritual</term>
-					
-					<term type="genre-label">historia</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1866</term>
-					<term type="author-date-death">1936</term>
-					<term type="author-TOC-range" resp="MdL8">8</term>
-					<term type="author-histlit-pages" resp="MdL8">162</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">1920</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Brandeso</term>
-					<term type="setting-territory">Galicia</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Adega</term>
-					<term type="protagonist-social-level">low</term>
-					<term type="time-period" cert="low">modern_times</term>
-					<term type="time-span" cert="medium">30</term>
-					<term type="group-text"></term>
-					
-					<term type="protagonist-profession">beggar</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age" cert="medium">young</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">3.0</term>
-					<term type="text-TOC-range">4</term>
+				<keywords scheme="keywords.xml" cert="high">
+					<term type="author.TOC.range" resp="MdL8">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1866</term>
+					<term type="author.date.death">1936</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL8">162</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.year.change">1920</term>
+					<term type="authorText.group"></term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age" cert="medium">young</term>
+					<term type="text.characters.protagonist.gender">female</term>
+					<term type="text.characters.protagonist.name">Adega</term>
+					<term type="text.characters.protagonist.profession">beggar</term>
+					<term type="text.characters.protagonist.socLevel">low</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Ficción clásica; Antigua y clásica ; Europea ; Español y Portugués, Literatura española, Ficción contemporánea;</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Drama</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">fantastic</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">modernist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">spiritual</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">erotic</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE"></term>
+					<term type="text.genre.subtitle">historia</term>
+					<term type="text.genre.subtitle.source" resp="bne">historia</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE8">3.0</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Brandeso</term>
+					<term type="text.setting.settlement">Brandeso</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory">Galicia</term>
+					<term type="text.time.period" cert="low">modern_times</term>
+					<term type="text.time.span" cert="medium">30</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -127,25 +216,25 @@
 			<div>
 				<head>Soneto del poeta Antonio Machado</head>
 				<quote>
-					<lg>
-						<lg>
+					<lg type="poem">
+						<lg type="stanza">
 							<l>Esta leyenda en sabio romance campesino</l>
 							<l>ni arcaico ni moderno, por Valle-Inclán escrita,</l>
 							<l>revela en los halagos de un viento vespertino,</l>
 							<l>la santa flor del alma que nunca se marchita.</l>
 						</lg>
-						<lg>
+						<lg type="stanza">
 							<l>Es la leyenda campo y campo. Un peregrino</l>
 							<l>que vuelve solitario de la sagrada tierra</l>
 							<l>donde Jesús morara, camino sin camino</l>
 							<l>entre los agrios montes de la galaica sierra</l>
 						</lg>
-						<lg>
+						<lg type="stanza">
 							<l>Hilando silenciosa, la rueca a la cintura,</l>
 							<l>Adega, en cuyos ojos la llama azul fulgura</l>
 							<l>de la piedad humilde, en el romero ha visto</l>
 						</lg>
-						<lg>
+						<lg type="stanza">
 							<l>al declinar la tarde, la pálida figura,</l>
 							<l>la frente gloriosa de luz y la amargura</l>
 							<l>de amor que tuvo un día el <seg rend="italic">salvador Dom. Cristo</seg></l>

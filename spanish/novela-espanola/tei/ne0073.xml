@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub"></title>
 				<title type="short">Niebla</title>
 				<title type="idno">
-					<idno type="viaf">214765951</idno></title>
+					<idno type="bne">XX2213087</idno>
+					<idno type="viaf">214765951</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1139151</idno>
 					<idno type="viaf">88844103</idno>
 					<name type="short">Unamuno</name>
 					<name type="full">Miguel de Unamuno</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2312</measure>
-				<measure unit="divs">35</measure>
-				<measure unit="words">52369</measure>
-				<measure unit="chars">290025</measure>
-				<measure unit="size_kb">374</measure>
+				<measure unit="lines">2392</measure>
+				<measure unit="divs">39</measure>
+				<measure unit="tokens">60097</measure>
+				<measure unit="chars">332923</measure>
+				<measure unit="size_kb">375</measure>
 
 				<measure unit="chapters">33</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">2</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">2216</measure> 
-				<measure unit="line_verses">26</measure> 
-				<measure unit="heads">33</measure> 
+				<measure unit="blocks">2283</measure> 
+				<measure unit="lg.poems">2</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">26</measure> 
+				<measure unit="heads">37</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">2155</measure> 
-				<measure unit="abs">2</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">1830</measure> 
-				<measure unit="numbers">39</measure> 
-				<measure unit="puncts">15678</measure>
+				<measure unit="paragraphs">2215</measure> 
+				<measure unit="abs">5</measure> 
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">1845</measure>
+				<measure unit="saids">2028</measure>
+				<measure unit="narrative.ps">370</measure>
+				<measure unit="ss">4452</measure> 
+				<measure unit="numbers">59</measure> 
+				<measure unit="puncts">17027</measure> 
+				<measure unit="len.abstract">1075</measure>
+
+				<measure unit="types">7110</measure>
+
+				<measure unit="ss">2254</measure>
+				<measure unit="ss.len.mean">134.37400177462288</measure>
+				<measure unit="ss.len.std">129.68228823291122</measure>
+				<measure unit="mean.ss.active.verbs">2.8278615794143747</measure>
+				<measure unit="std.ss.active.verbs">2.982142228051615</measure>
+
+				<measure unit="ws">68713</measure>
+				<measure unit="ws.len.mean">3.440688079402733</measure>
+				<measure unit="ws.len.std">2.6413899125543763</measure>
+
+				<measure unit="conjunctions">5098</measure>
+				<measure unit="determiners">6494</measure>
+				<measure unit="nouns">9046</measure>
+				<measure unit="verbs">11342</measure>
+				<measure unit="adverbs">4069</measure>
+				<measure unit="adjectives">2219</measure>
+				<measure unit="adpositions">6175</measure>
+				<measure unit="punctuations">15657</measure>
+				<measure unit="pronouns">8134</measure>
+				<measure unit="dates">52</measure>
+				<measure unit="numbers">136</measure>
+				<measure unit="interjections">291</measure>
+
+				<measure unit="ne.persons">1109</measure>
+				<measure unit="ne.organizations">139</measure>
+				<measure unit="ne.locations">250</measure>
+				<measure unit="ne.others">58</measure>
+
+				<measure unit="wnlex.noun.plants">26</measure>
+				<measure unit="wnlex.verb.communications">1159</measure>
+				<measure unit="wnlex.noun.foods">90</measure>
+				<measure unit="wnlex.verb.possessions">315</measure>
+				<measure unit="wnlex.verb.cognitions">873</measure>
+				<measure unit="wnlex.noun.communications">572</measure>
+				<measure unit="wnlex.noun.states">272</measure>
+				<measure unit="wnlex.verb.statives">3410</measure>
+				<measure unit="wnlex.noun.cognitions">567</measure>
+				<measure unit="wnlex.noun.times">269</measure>
+				<measure unit="wnlex.verb.bodys">467</measure>
+				<measure unit="wnlex.noun.persons">1477</measure>
+				<measure unit="wnlex.adj.alls">1535</measure>
+				<measure unit="wnlex.noun.quantitys">36</measure>
+				<measure unit="wnlex.noun.phenomenons">117</measure>
+				<measure unit="wnlex.verb.creations">515</measure>
+				<measure unit="wnlex.adj.perts">101</measure>
+				<measure unit="wnlex.adv.alls">1138</measure>
+				<measure unit="wnlex.noun.processs">24</measure>
+				<measure unit="wnlex.noun.artifacts">666</measure>
+				<measure unit="wnlex.verb.perceptions">424</measure>
+				<measure unit="wnlex.noun.feelings">194</measure>
+				<measure unit="wnlex.verb.weathers">23</measure>
+				<measure unit="wnlex.noun.substances">57</measure>
+				<measure unit="wnlex.noun.shapes">23</measure>
+				<measure unit="wnlex.verb.competitions">105</measure>
+				<measure unit="wnlex.verb.motions">669</measure>
+				<measure unit="wnlex.noun.animals">130</measure>
+				<measure unit="wnlex.noun.acts">472</measure>
+				<measure unit="wnlex.noun.bodys">508</measure>
+				<measure unit="wnlex.noun.objects">133</measure>
+				<measure unit="wnlex.noun.motives">29</measure>
+				<measure unit="wnlex.verb.socials">509</measure>
+				<measure unit="wnlex.noun.groups">193</measure>
+				<measure unit="wnlex.verb.consumptions">138</measure>
+				<measure unit="wnlex.noun.possessions">45</measure>
+				<measure unit="wnlex.noun.Topss">148</measure>
+				<measure unit="wnlex.noun.relations">9</measure>
+				<measure unit="wnlex.noun.attributes">433</measure>
+				<measure unit="wnlex.verb.emotions">318</measure>
+				<measure unit="wnlex.noun.locations">123</measure>
+				<measure unit="wnlex.noun.events">241</measure>
+				<measure unit="wnlex.verb.contacts">290</measure>
+				<measure unit="wnlex.xxxs">49268</measure>
+				<measure unit="wnlex.verb.changes">602</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -65,56 +151,59 @@
 				<p>La aventura amorosa de un hombre que se ve enfrascado en una apasionada devoción frente a una dama. Junto con el encuentro de este hombre con un perro que pasaría a ser su compañero más adelante, es la historia del engaño y la pasión.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="low">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist">nivola</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					
-					<term type="narrative-perspective">homodiegetic</term><!--Although is more likely that the narrator (who has the same name as Unamuno) becomes a character-->
-					<term type="setting" cert="low">big-city</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1864</term>
-					<term type="author-date-death">1936</term>
-					<term type="author-TOC-range" resp="MdL9">8</term>
-					<term type="author-histlit-pages" resp="MdL9">167</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">essay</term>
-					<term type="author-year-change">1901</term>
-					
-					
-					<term type="subgenre" subtype="2">philosophical</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">unknown</term>
-					<term type="setting-territory">unknown</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">non-realistic</term>
-					<term type="protagonist-name">Augusto Pérez</term>
-					<term type="protagonist-social-level">high</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">60</term>
-					<term type="group-text">nivola</term>
-					
-					<term type="protagonist-profession">none</term>
-					<term type="author-text-relation">high</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">10.0</term>
-					<term type="text-TOC-range">6</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="high">
+					<term type="author.TOC.range" resp="MdL9">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1864</term>
+					<term type="author.date.death">1936</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL9">167</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">essay</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.year.change">1901</term>
+					<term type="authorText.group">nivola</term>
+					<term type="authorText.relation">high</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Augusto Pérez</term>
+					<term type="text.characters.protagonist.profession">none</term>
+					<term type="text.characters.protagonist.socLevel">high</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">False</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Bibliotecas, Ficción clásica, Libros escolares; Ficción contemporánea; Ficción clásica; Antologías; Antologías, Ficción clásica, Antologías; Infantil; Educación; Aprendizaje y enseñanza de idiomas, Guías de estudio y repaso, Ficción clásica; Guías de estudio y repaso, Bibliotecas, Libros escolares; Ficción, Europea, Antologías ; Del Caribe y América Latina, Antologías; Hispanoamericana, Ficción clásica, Ficción clásica</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Drama</term>
+					<term type="text.genre.subgenre.edit" resp="wikidata">nivola</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">philosophical</term>
+					<term type="text.genre.subgenre.litHist" resp="HdLE">nivola</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">nivola</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.subtitle.source" resp="bne">nivola</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">6</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE9">10.0</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">homodiegetic</term><!--Although is more likely that the narrator (who has the same name as Unamuno) becomes a character-->
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">non-realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">unknown</term>
+					<term type="text.setting.settlement">unknown</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type" cert="low">big-city</term>
+					<term type="text.setting.territory">unknown</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span">60</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -219,7 +308,7 @@
 				<p>—No hay de qué.</p>
 				<p>Y volvió a marcharse Augusto, encontrándose al poco rato en el paseo de la Alameda.</p>
 				<p>Había cesado la llovizna. Cerró y plegó su paraguas y lo enfundó. Acercóse a un banco, y al palparlo se encontró con que estaba húmedo. Sacó un periódico, lo colocó sobre el banco y sentóse. Luego su cartera y blandió su pluma estilográfica. «He aquí un chisme utilísimo —se dijo—; de otro modo, tendría que apuntar con lápiz el nombre de esa señorita y podría borrarse. ¿Se borrará su imagen de mi memoria? Pero ¿cómo es? ¿Cómo es la dulce Eugenia? Sólo me acuerdo de unos ojos… Tengo la sensación del toque de unos ojos… Mientras yo divagaba líricamente, unos ojos tiraban dulcemente de mi corazón. ¡Veamos! Eugenia Domingo, sí, Domingo, del Arco. ¿Domingo? No me acostumbro a eso de que se llame Domingo… No; he de hacerle cambiar el apellido y que se llame Dominga. Pero, y nuestros hijos varones, ¿habrán de llevar por segundo apellido el de Dominga? Y como han de suprimir el mío, este impertinente Pérez, dejándolo en una P, ¿se ha de llamar nuestro primogénito Augusto P Dominga? Pero… ¿adónde me llevas, loca fantasía?». Y apuntó en su cartera: Eugenia Domingo del Arco, Avenida de la Alameda, 58. Encima de esta apuntación había estos dos endecasilabos:</p>
-				<lg>
+				<lg type="poem">
 					<l>De la cuna nos viene la tristeza</l>
 					<l>y también de la cuna la alegría…</l>
 				</lg>
@@ -1936,7 +2025,7 @@
 				<p>—No importa, tócalo, Eugenia, tócalo para que yo escriba mis versos.</p>
 				<p>—¡Sea, pero por única vez!</p>
 				<p>Sentóse Eugenia a tocar el piano y mientras lo tocaba escribió Augusto esto:</p>
-				<lg>
+				<lg type="poem">
 					<l>Mi alma vagaba lejos de mi cuerpo</l>
 					<l>en las brumas perdidas de la idea,</l>
 					<l>perdida allá en las notas de la música</l>

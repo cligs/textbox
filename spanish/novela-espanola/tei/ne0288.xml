@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -11,6 +12,7 @@
 					<idno type="bne">XX2048088</idno>
 				</title>
 				<author>
+					<idno type="bne">XX952949</idno>
 					<idno type="viaf">24624818</idno>
 					<name type="short">Lanza</name>
 					<name type="full">Silverio Lanza</name>
@@ -18,28 +20,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">634</measure>
-				<measure unit="divs">15</measure>
-				<measure unit="words">11408</measure>
-				<measure unit="chars">64818</measure>
-				<measure unit="size_kb">87</measure>
+				<measure unit="lines">680</measure>
+				<measure unit="divs">18</measure>
+				<measure unit="tokens">12599</measure>
+				<measure unit="chars">71787</measure>
+				<measure unit="size_kb">88</measure>
 
 				<measure unit="chapters">11</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">2</measure>
 				<measure unit="sections">2</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">591</measure> 
-				<measure unit="line_verses">0</measure> 
-				<measure unit="heads">12</measure> 
+				<measure unit="blocks">625</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
+				<measure unit="heads">14</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">577</measure> 
+				<measure unit="paragraphs">609</measure> 
 				<measure unit="abs">2</measure> 
-				<measure unit="floatingTexts">2</measure>
-				<measure unit="paragraphs_ds">379</measure> 
-				<measure unit="numbers">3</measure> 
-				<measure unit="puncts">2454</measure>
+				<measure unit="fts">2</measure>
+				<measure unit="paragraphs.ds">379</measure>
+				<measure unit="saids">380</measure>
+				<measure unit="narrative.ps">230</measure>
+				<measure unit="ss">970</measure> 
+				<measure unit="numbers">5</measure> 
+				<measure unit="puncts">2608</measure> 
+				<measure unit="len.abstract">547</measure>
+
+				<measure unit="types">3146</measure>
+
+				<measure unit="ss">489</measure>
+				<measure unit="ss.len.mean">135.41308793456034</measure>
+				<measure unit="ss.len.std">105.74117179002725</measure>
+				<measure unit="mean.ss.active.verbs">2.574642126789366</measure>
+				<measure unit="std.ss.active.verbs">2.4207375890828704</measure>
+
+				<measure unit="ws">13706</measure>
+				<measure unit="ws.len.mean">3.866919597256676</measure>
+				<measure unit="ws.len.std">2.8443915614993767</measure>
+
+				<measure unit="conjunctions">993</measure>
+				<measure unit="determiners">1774</measure>
+				<measure unit="nouns">2426</measure>
+				<measure unit="verbs">2193</measure>
+				<measure unit="adverbs">735</measure>
+				<measure unit="adjectives">532</measure>
+				<measure unit="adpositions">1521</measure>
+				<measure unit="punctuations">2248</measure>
+				<measure unit="pronouns">1212</measure>
+				<measure unit="dates">6</measure>
+				<measure unit="numbers">29</measure>
+				<measure unit="interjections">37</measure>
+
+				<measure unit="ne.persons">188</measure>
+				<measure unit="ne.organizations">49</measure>
+				<measure unit="ne.locations">94</measure>
+				<measure unit="ne.others">21</measure>
+
+				<measure unit="wnlex.noun.plants">9</measure>
+				<measure unit="wnlex.verb.communications">190</measure>
+				<measure unit="wnlex.noun.foods">22</measure>
+				<measure unit="wnlex.verb.possessions">104</measure>
+				<measure unit="wnlex.verb.cognitions">161</measure>
+				<measure unit="wnlex.noun.communications">117</measure>
+				<measure unit="wnlex.noun.states">66</measure>
+				<measure unit="wnlex.verb.statives">671</measure>
+				<measure unit="wnlex.noun.cognitions">86</measure>
+				<measure unit="wnlex.noun.times">61</measure>
+				<measure unit="wnlex.verb.bodys">111</measure>
+				<measure unit="wnlex.noun.persons">487</measure>
+				<measure unit="wnlex.adj.alls">401</measure>
+				<measure unit="wnlex.noun.quantitys">14</measure>
+				<measure unit="wnlex.noun.phenomenons">16</measure>
+				<measure unit="wnlex.verb.creations">71</measure>
+				<measure unit="wnlex.adj.perts">18</measure>
+				<measure unit="wnlex.adv.alls">243</measure>
+				<measure unit="wnlex.noun.processs">10</measure>
+				<measure unit="wnlex.noun.artifacts">189</measure>
+				<measure unit="wnlex.verb.perceptions">88</measure>
+				<measure unit="wnlex.noun.feelings">55</measure>
+				<measure unit="wnlex.verb.weathers">4</measure>
+				<measure unit="wnlex.noun.substances">24</measure>
+				<measure unit="wnlex.noun.shapes">4</measure>
+				<measure unit="wnlex.verb.competitions">18</measure>
+				<measure unit="wnlex.verb.motions">189</measure>
+				<measure unit="wnlex.noun.animals">28</measure>
+				<measure unit="wnlex.noun.acts">188</measure>
+				<measure unit="wnlex.noun.bodys">103</measure>
+				<measure unit="wnlex.noun.objects">32</measure>
+				<measure unit="wnlex.noun.motives">4</measure>
+				<measure unit="wnlex.verb.socials">141</measure>
+				<measure unit="wnlex.noun.groups">118</measure>
+				<measure unit="wnlex.verb.consumptions">63</measure>
+				<measure unit="wnlex.noun.possessions">28</measure>
+				<measure unit="wnlex.noun.Topss">29</measure>
+				<measure unit="wnlex.noun.relations">8</measure>
+				<measure unit="wnlex.noun.attributes">101</measure>
+				<measure unit="wnlex.verb.emotions">35</measure>
+				<measure unit="wnlex.noun.locations">61</measure>
+				<measure unit="wnlex.noun.events">43</measure>
+				<measure unit="wnlex.verb.contacts">79</measure>
+				<measure unit="wnlex.xxxs">9136</measure>
+				<measure unit="wnlex.verb.changes">80</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -66,56 +150,60 @@
 				<p>Capítulo 1: se presenta a Ligurco Redondo, juez corrupto. Capítulo 2: se presenta a Pío de la Cruz, cura en Villaruin, al que critican fuertemente sin demasiados argumentos. Se presentan ideas sobre la corrupción y vicios de la Iglesia. Capítulo 3: se presenta a Bienvenido González, persona culta y atractiva al que el pueblo no toma en serio. Capítulo 4: se presenta a la familia Prada, principalmente la madre y la hija, ya que el marido, militar, murió. La familia está empobrecida y perseguida por el juez. Capítulo 5: se presenta el pueblo (de manera irónica), la huerta y el cementerio que cuida el tío Casto. Capítulo 6: llega al pueblo un militar para entregar una carta al juez. El militar habla con Bievenido González, quien termina obligándole a que le entregue la carta ya que tiene secuestradas las Prada. Capítulo 7: se presencia una fuerte discusión entre Teresa Prada (la madre) y el juez. Teresa muere, en parte por la presión del juez. Bievenido defiende a la familia Prada y el juez le encarcela. Capítulo 8: el cura ayuda a Loreta Prada (la hija) a ver el cadáver de su madre que espera el entierro. Ocurre un brutal enfrentamiento entre el cura y el juez. El cura se revela a Loreto que está enamorado de ella, y ella lo rechaza. Al final el juez y el cura se caen por un precipicio, con lo que mueren. Loreto queda inconsciente. Capítulo 9: mientras tanto, el tío Casto llega al depósito de cadáveres para enterrar a Teresa. Capítulo 10: Loreto se despierta y va al depósito de cadáveres. Encuentra al tío Casto violando el cadáver de su madre. Sufre un ataque y huye mostrando sus genitales. Capítulo 11: Loreto Prada quedó afectada mentalmente, pero el pueblo la defiende. Epílogo (a mi médico): se presentan ciertas ideas sobre la persecución social.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1856</term>
-					<term type="author-date-death">1912</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">13</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">1-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
-					
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">comedy</term>
-					<term type="subgenre" subtype="1">moralist</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">homodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">female</term>
-					<term type="subgenre-lithist"></term>
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Villaruin</term>
-					<term type="setting-territory"></term>
-					<term type="setting-country">Atarjea</term>
-					<term type="setting-continent">Europe</term>
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Loreto Lasama</term>
-					<term type="protagonist-profession">none</term>
-					<term type="protagonist-social-level">low</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">7</term>
-					<term type="group-text">primeras novelas</term>
-					<term type="author-text-relation">low</term>
-					<term type="protagonist-age">child</term>
-					<term type="type-end">negative</term>
-					<term type="time-year">19??</term>
-					<term type="subgenre-edit"></term>
-					<term type="quality-listhist"></term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
+				<keywords scheme="keywords.xml" cert="high">
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1856</term>
+					<term type="author.date.death">1912</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL9">13</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">1-modernista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group">primeras novelas</term>
+					<term type="authorText.relation">low</term>
+					<term type="text.characters.protagonist.age">child</term>
+					<term type="text.characters.protagonist.gender">female</term>
+					<term type="text.characters.protagonist.name">Loreto Lasama</term>
+					<term type="text.characters.protagonist.profession">none</term>
+					<term type="text.characters.protagonist.socLevel">low</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">False</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Ficción clásica</term>
+					<term type="text.genre.subgenre.edit"></term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">comedy</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">moralist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE"></term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">1</term>
+					<term type="text.litHist.mentioned" resp="HdLE">False</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE9">0.2</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">homodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.quality.listhist"></term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Atarjea</term>
+					<term type="text.setting.represented">Villaruin</term>
+					<term type="text.setting.settlement">Villaruin</term>
+					<term type="text.setting.settlement.represented.exist">False</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory"></term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span">7</term>
+					<term type="text.time.year">19??</term>
 				</keywords>
 			</textClass>
 		</profileDesc>

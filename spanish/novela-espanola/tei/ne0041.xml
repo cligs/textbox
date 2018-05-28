@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -9,6 +10,7 @@
 				<title type="short">Hilvan</title>
 				<title type="idno"><idno type="viaf"></idno></title>
 				<author>
+					<idno type="bne">XX1720928</idno>
 					<idno type="viaf">29542991</idno>
 					<name type="short">Miro</name>
 					<name type="full">Gabriel Miró</name>
@@ -16,28 +18,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1398</measure>
-				<measure unit="divs">25</measure>
-				<measure unit="words">32088</measure>
-				<measure unit="chars">193592</measure>
-				<measure unit="size_kb">223</measure>
+				<measure unit="lines">1403</measure>
+				<measure unit="divs">26</measure>
+				<measure unit="tokens">32095</measure>
+				<measure unit="chars">193629</measure>
+				<measure unit="size_kb">224</measure>
 
-				<measure unit="chapters">20</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="chapters">17</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">5</measure>
-				<measure unit="sections">0</measure>
+				<measure unit="sections">3</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1322</measure> 
-				<measure unit="line_verses">4</measure> 
+				<measure unit="blocks">1323</measure> 
+				<measure unit="lg.poems">1</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">4</measure> 
 				<measure unit="heads">25</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1293</measure> 
+				<measure unit="paragraphs">1294</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">379</measure> 
-				<measure unit="numbers">1</measure> 
-				<measure unit="puncts">7471</measure>
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">379</measure>
+				<measure unit="saids">490</measure>
+				<measure unit="narrative.ps">915</measure>
+				<measure unit="ss">1951</measure> 
+				<measure unit="numbers">4</measure> 
+				<measure unit="puncts">7473</measure> 
+				<measure unit="len.abstract">464</measure>
+
+				<measure unit="types">8142</measure>
+
+				<measure unit="ss">1485</measure>
+				<measure unit="ss.len.mean">133.87205387205387</measure>
+				<measure unit="ss.len.std">114.82298978568576</measure>
+				<measure unit="mean.ss.active.verbs">2.164983164983165</measure>
+				<measure unit="std.ss.active.verbs">1.9371573335870573</measure>
+
+				<measure unit="ws">39478</measure>
+				<measure unit="ws.len.mean">4.073331982369927</measure>
+				<measure unit="ws.len.std">3.0301552134896936</measure>
+
+				<measure unit="conjunctions">2407</measure>
+				<measure unit="determiners">5311</measure>
+				<measure unit="nouns">7226</measure>
+				<measure unit="verbs">5975</measure>
+				<measure unit="adverbs">1557</measure>
+				<measure unit="adjectives">2508</measure>
+				<measure unit="adpositions">4580</measure>
+				<measure unit="punctuations">6969</measure>
+				<measure unit="pronouns">2778</measure>
+				<measure unit="dates">4</measure>
+				<measure unit="numbers">95</measure>
+				<measure unit="interjections">68</measure>
+
+				<measure unit="ne.persons">584</measure>
+				<measure unit="ne.organizations">101</measure>
+				<measure unit="ne.locations">163</measure>
+				<measure unit="ne.others">79</measure>
+
+				<measure unit="wnlex.noun.plants">82</measure>
+				<measure unit="wnlex.verb.communications">707</measure>
+				<measure unit="wnlex.noun.foods">69</measure>
+				<measure unit="wnlex.verb.possessions">190</measure>
+				<measure unit="wnlex.verb.cognitions">332</measure>
+				<measure unit="wnlex.noun.communications">431</measure>
+				<measure unit="wnlex.noun.states">195</measure>
+				<measure unit="wnlex.verb.statives">1100</measure>
+				<measure unit="wnlex.noun.cognitions">232</measure>
+				<measure unit="wnlex.noun.times">220</measure>
+				<measure unit="wnlex.verb.bodys">244</measure>
+				<measure unit="wnlex.noun.persons">776</measure>
+				<measure unit="wnlex.adj.alls">1611</measure>
+				<measure unit="wnlex.noun.quantitys">14</measure>
+				<measure unit="wnlex.noun.phenomenons">68</measure>
+				<measure unit="wnlex.verb.creations">187</measure>
+				<measure unit="wnlex.adj.perts">56</measure>
+				<measure unit="wnlex.adv.alls">540</measure>
+				<measure unit="wnlex.noun.processs">31</measure>
+				<measure unit="wnlex.noun.artifacts">600</measure>
+				<measure unit="wnlex.verb.perceptions">258</measure>
+				<measure unit="wnlex.noun.feelings">220</measure>
+				<measure unit="wnlex.verb.weathers">46</measure>
+				<measure unit="wnlex.noun.substances">67</measure>
+				<measure unit="wnlex.noun.shapes">32</measure>
+				<measure unit="wnlex.verb.competitions">43</measure>
+				<measure unit="wnlex.verb.motions">564</measure>
+				<measure unit="wnlex.noun.animals">105</measure>
+				<measure unit="wnlex.noun.acts">412</measure>
+				<measure unit="wnlex.noun.bodys">302</measure>
+				<measure unit="wnlex.noun.objects">227</measure>
+				<measure unit="wnlex.noun.motives">11</measure>
+				<measure unit="wnlex.verb.socials">343</measure>
+				<measure unit="wnlex.noun.groups">211</measure>
+				<measure unit="wnlex.verb.consumptions">78</measure>
+				<measure unit="wnlex.noun.possessions">34</measure>
+				<measure unit="wnlex.noun.Topss">84</measure>
+				<measure unit="wnlex.noun.relations">5</measure>
+				<measure unit="wnlex.noun.attributes">424</measure>
+				<measure unit="wnlex.verb.emotions">204</measure>
+				<measure unit="wnlex.noun.locations">132</measure>
+				<measure unit="wnlex.noun.events">154</measure>
+				<measure unit="wnlex.verb.contacts">319</measure>
+				<measure unit="wnlex.xxxs">27152</measure>
+				<measure unit="wnlex.verb.changes">365</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -61,56 +145,59 @@
 				<p>Pedro Luis llega como nuevo médico del pueblo de Confines junto con Buenaventura, un hombre de más edad que él. Se nos muestran las relaciones de los personajes de Confines, como la cacique (Trinidad Bermúdez Sila), su sobrina Carmen, cura, etcétera. Pedro Luis intenta tener una relación sentimental con Carmen, pero esta se impulsada a rechazarle al saberse en el pueblo que Pedro Luis es expósito (fue abandonado por sus padres) y que Buenaventura lo recogió.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="high">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">escenas</term>
-					<term type="subgenre" subtype="1">sentimental</term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre-lithist" subtype="2">novela naturalista</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1879</term>
-					<term type="author-date-death">1930</term>
-					<term type="author-TOC-range" resp="MdL10">7</term>
-					<term type="author-histlit-pages" resp="MdL10">33</term>
-					<term type="author-movement">avantgarde</term>
-					<term type="author-submovement">3-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">1914</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Confines</term>
-					<term type="setting-territory">Valencia</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Pedro Luis</term>
-					<term type="protagonist-profession">doctor</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">360</term>
-					<term type="group-text">libros repudiados</term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">realista</term>
-					<term type="text-histlit-pages">0.2</term>
-					<term type="text-TOC-range">1</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="high">
+					<term type="author.TOC.range" resp="MdL10">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1879</term>
+					<term type="author.date.death">1930</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL10">33</term>
+					<term type="author.movement">avantgarde</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">3-modernista</term>
+					<term type="author.year.change">1914</term>
+					<term type="authorText.group">libros repudiados</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Pedro Luis</term>
+					<term type="text.characters.protagonist.profession">doctor</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">False</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Español y Portugués, Literatura española;</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">sentimental</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="HdLE">novela caciquil</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela naturalista</term>
+					<term type="text.genre.subtitle">escenas</term>
+					<term type="text.genre.subtitle.source" resp="bne">escenas</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">1</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE10">0.2</term>
+					<term type="text.movement">realista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Confines</term>
+					<term type="text.setting.settlement">Confines</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory">Valencia</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span">360</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
@@ -1080,7 +1167,7 @@
 				<div n="12" type="chapter" xml:id="ne0041_chap12">
 					<head>- VII -</head>
 					<quote>
-						<lg>
+						<lg type="poem">
 							<l>«De los sos oios tan fuerte-mientre llorando</l>
 							<l>Tornava la cabeça [...]</l>
 							<l>Grado a ti sennor padre que estas en alto</l>

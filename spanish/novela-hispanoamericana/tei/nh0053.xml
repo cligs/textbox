@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,20 +34,16 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0053</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0053.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0053.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source">
                     <seg rend="italic">Juan Moreira</seg>. Alicante: Biblioteca Virtual Miguel de
-                    Cervantes, <date when="2002">2002</date>, <ref
-                        target="http://www.cervantesvirtual.com/obra/juan-moreira--0/"
-                        >http://www.cervantesvirtual.com/obra/juan-moreira--0/</ref></bibl>
+                    Cervantes, <date when="2002">2002</date>, <ref target="http://www.cervantesvirtual.com/obra/juan-moreira--0/">http://www.cervantesvirtual.com/obra/juan-moreira--0/</ref></bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Juan Moreira</seg>. Buenos Aires: N. Tommasi &amp; Cª,
                     editores, <date when="1888">1888</date>.</bibl>
-                <bibl type="edition-first">"Juan Moreira. Dramas policiales." Folletín de <seg
-                        rend="italic">La Patria Argentina</seg>, <!--<date from="1879-11-28"
+                <bibl type="edition-first">"Juan Moreira. Dramas policiales." Folletín de <seg rend="italic">La Patria Argentina</seg>, <!--<date from="1879-11-28"
                         to="1880-01-08">28 de noviembre de 1879 a 8 de enero de 1880</date>-->
                     <date when="1880">1880</date>. <note source="Lichtblau_1997">La novela no llevó
                         el nombre de Eduardo Gutiérrez hasta la última entrega.</note>
@@ -90,20 +87,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="Lichtblau_1997">gaucho</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">rural</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">gaucho</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">rural</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -178,8 +175,7 @@
                     caballo que parecía volar, y concluido el combate y derrotada la indiada,
                     regresaba a su puesto sin pedir la menor recompensa, apreciando lo que acababa
                     de hacer como el cumplimiento de una obligación ineludible.</p>
-                <p>En ese género de correrías se había conquistado el nombre de <seg rend="italic"
-                        >El guapo</seg>, con que lo distinguían aún fuera de su pago, llegando sus
+                <p>En ese género de correrías se había conquistado el nombre de <seg rend="italic">El guapo</seg>, con que lo distinguían aún fuera de su pago, llegando sus
                     compañeros hasta no considerar eficaz una persecución a los indios si en ella no
                     había tomado parte el amigo Moreira.</p>
                 <p>Moreira vivía casado con una paisanita hija de un honrado vecino de su mismo
@@ -215,8 +211,7 @@
                 <p>¡Es una gran raza la raza de nuestros gauchos!</p>
                 <p>Todos ellos están dotados de un poderoso sentimiento artístico.</p>
                 <p>Tocan la guitarra por intuición sin tener la más remota idea de lo que es la
-                    música, y cantan con la misma ternura que improvisan sus <seg rend="italic"
-                        >huellas</seg>, llegando, como Santos Vega, a construir esta sublimidad:</p>
+                    música, y cantan con la misma ternura que improvisan sus <seg rend="italic">huellas</seg>, llegando, como Santos Vega, a construir esta sublimidad:</p>
                 <lg>
                     <l> De terciopelo negro </l>
                     <l>tengo cortinas</l>
@@ -265,8 +260,7 @@
                 <p>En su mano derecha, pendiente de la muñeca, se veía un látigo de plata, de los
                     llamados brasileros; en el dedo meñique usaba un brillante de gran valor, y
                     sobre su pecho, cayendo hasta uno de los bolsillos del tirador, brillaba una
-                    gruesa cadena de oro que sujetaba un reloj <seg rend="italic"
-                    >remontoir</seg>.</p>
+                    gruesa cadena de oro que sujetaba un reloj <seg rend="italic">remontoir</seg>.</p>
                 <p>Éste era Juan Moreira, cuyos hechos han pasado a ser el tema de las canciones
                     gauchas, y cuyas acciones nobles se cantan tristemente al melancólico
                     acompañamiento de la guitarra.</p>
@@ -385,8 +379,7 @@
                     desensillar, porque la hospitalidad para el gaucho es una especie de religión
                     que practica con placer.</p>
                 <p>Los gauchos alzados y vagos no concurren nunca a este género de bailes, porque
-                    siempre andan huyendo de los centros de población, frecuentados por la <seg
-                        rend="italic">autoridad</seg>.</p>
+                    siempre andan huyendo de los centros de población, frecuentados por la <seg rend="italic">autoridad</seg>.</p>
                 <p>Su teatro es la pulpería, donde se <seg rend="italic">apea</seg> de noche y de
                     donde sale de día a vagar hasta la vecina, con el ojo siempre avizor y la daga
                     al alcance de su mano.</p>
@@ -398,8 +391,7 @@
                     de sus magníficos ojos y el proverbial «dispense, doña Vicenta», con que le
                     dedicaba sus más sentidas décimas, y amorosas trovas.</p>
                 <p>Vicenta comprendía este amor y callaba, correspondiéndole con una mirada
-                    expresiva y el mate especial que le servía, ligeramente <seg rend="italic"
-                        >espolvoreado</seg> con canela.</p>
+                    expresiva y el mate especial que le servía, ligeramente <seg rend="italic">espolvoreado</seg> con canela.</p>
                 <p>Moreira era un joven sumamente arrogante era de los más acreditados en el partido
                     como valiente y como el mejor cantor, prendas que en la campaña para la mujer,
                     son estimadas con preferencia.</p>
@@ -435,8 +427,7 @@
                     una multa de quinientos pesos por haber dado baile público «sin permiso de la
                     autoridad».</p>
                 <p>Moreira, a pesar de la opinión de su suegro, preocupado por su reciente
-                    felicidad, pagó la multa, diciendo que sin duda alguna aquella era el <seg
-                        rend="italic">remojo</seg> que cobraba el amigo don Francisco.</p>
+                    felicidad, pagó la multa, diciendo que sin duda alguna aquella era el <seg rend="italic">remojo</seg> que cobraba el amigo don Francisco.</p>
                 <p>Pero las multas empezaron a repetirse con frecuencia, lo que empezó a alarmar el
                     pacífico vecindario que comprendía la injusticia de ellas.</p>
                 <p>Un día Moreira era citado a casa del teniente alcalde, porque se había encontrado
@@ -480,8 +471,7 @@
                     cobarde.</p>
                 <p>Cuando Moreira fue puesto en libertad, se dirigió a su rancho, donde ensilló su
                     caballo, y se fue a casa de su compadre Giménez, padrino de su casamiento, a
-                    quien relató lo que le sucedía y pidió consejo, pues no quería <seg
-                        rend="italic">desgraciarse</seg> por aquel hombre que tan sin motivo se
+                    quien relató lo que le sucedía y pidió consejo, pues no quería <seg rend="italic">desgraciarse</seg> por aquel hombre que tan sin motivo se
                     había puesto a perseguirlo.</p>
                 <p>Giménez aconsejó a Moreira se fuese al juzgado de Paz y contase lo que le sucedía
                     pidiendo se evitase que aquel hombre siguiera cometiendo estos abusos.</p>
@@ -519,8 +509,7 @@
                     lujosa daga cayó de su cintura para dejar sitio a la cuchilla del trabajo, y la
                     antigua alegría volvió a sentar sus reales en el humilde rancho.</p>
                 <p>Los bailes renacieron, y la guitarra volvió a sonar y la magnífica voz del gaucho
-                    volvió a escucharse cantando hermosas décimas y picarescos <seg rend="italic"
-                        >pies de gato</seg>.</p>
+                    volvió a escucharse cantando hermosas décimas y picarescos <seg rend="italic">pies de gato</seg>.</p>
                 <p>El amigo Francisco no volvió a parecer por el rancho de Moreira, pero mandó
                     emisarios que dijeron a Moreira que sentía infinito lo que había sucedido y que
                     quería olvidar lo pasado.</p>
@@ -538,8 +527,7 @@
                     más frenéticos aplausos cepilló un malambo <seg rend="italic">que daba mil
                         gustos</seg>, según la expresión característica.</p>
                 <p>Moreira se excedió en la bebida un tanto cuanto, lo que fue motivo de mayor
-                    alegría y algazara, pues según los que le han tratado, cuando estaba <seg
-                        rend="italic">divertido</seg>, era cuando se le veía más alegre y accesible
+                    alegría y algazara, pues según los que le han tratado, cuando estaba <seg rend="italic">divertido</seg>, era cuando se le veía más alegre y accesible
                     a todo género de bromas.</p>
                 <p>Aquel baile hizo época en el partido, porque duró dos noches y el día que a éstas
                     separara.</p>
@@ -666,8 +654,7 @@
                     contraste con su negra barba.</p>
                 <p>-Una copa, pulpero -dijo tranquilamente, dirigiéndose a Sardetti-. Amigos, dijo a
                     los paisanos, yo pago la otra vuelta.</p>
-                <p>Sardetti se apresuró a obedecer y llenó los vasos que los paisanos <seg
-                        rend="italic">enjuagaron</seg> a la salud de Moreira.</p>
+                <p>Sardetti se apresuró a obedecer y llenó los vasos que los paisanos <seg rend="italic">enjuagaron</seg> a la salud de Moreira.</p>
                 <p>-Han creído que soy vaca que se ordeña sin manear -prosiguió diciendo-, ¡y así va
                     a ser la cornada!; me han agarrado por bueno pero se me hace que esta vez no la
                     han de sacar por <seg rend="italic">tarja </seg>.</p>
@@ -878,8 +865,7 @@
                     cuyos tientos ató una cantidad de «vicios» como cuando salía con la Guardia
                     Nacional en persecución de indios.</p>
                 <p>Volvió<seg rend="italic">las casas</seg>, besó a su mujer en la boca, estuvo
-                    mirando largo rato a su hijito que dormía, y oprimiendo la mano de <seg
-                        rend="italic"> tata viejo</seg>, saltó sobre el overo bayo que se perdió un
+                    mirando largo rato a su hijito que dormía, y oprimiendo la mano de <seg rend="italic"> tata viejo</seg>, saltó sobre el overo bayo que se perdió un
                     instante después por entre los alfalfares y alambrados.</p>
                 <p>Moreira caminó así un cuarto de hora, con la cabeza inclinada sobre el pecho, el
                     brazo derecho caído sobre las vueltas del lazo trenzado, y la mano izquierda con
@@ -1025,8 +1011,7 @@
                     matarlo en el cepo para que confiese dónde estoy. ¡Ah! ¡Don Francisco! -concluyó
                     el paisano, abatiendo su hermosa cabeza en la palma de la mano-, ¡no tiene
                     suficiente vida para pagarme el mal que me ha hecho!</p>
-                <p>Moreira guardó silencio, silencio que no se atrevieron a interrumpir ni el <seg
-                        rend="italic">dueño de casa</seg> ni las personas que en él estaban.</p>
+                <p>Moreira guardó silencio, silencio que no se atrevieron a interrumpir ni el <seg rend="italic">dueño de casa</seg> ni las personas que en él estaban.</p>
                 <p>Las palabras del gaucho eran para ellos el reflejo de sus propias desventuras, y
                     cada cual pensaba en las suyas, recordadas por Moreira.</p>
                 <p>De repente uno de los gauchos, el amigo Julián, abandonó su poyo y avanzando
@@ -1052,8 +1037,7 @@
                     fuera.</p>
                 <p>Moreira oprimió entre las suyas las manos del paisano, salió con los otros a la
                     puerta a despedir al amigo Julián que saltó sobre su caballo y se perdió entre
-                    el follaje de los árboles; ni siquiera había alzado su <seg rend="italic"
-                        >chuspa</seg> que se veía sobre un viejo baúl.</p>
+                    el follaje de los árboles; ni siquiera había alzado su <seg rend="italic">chuspa</seg> que se veía sobre un viejo baúl.</p>
                 <p>Moreira fue obsequiado con un churrasco que ni siquiera probó; estaba abatido por
                     la idea de su mujer y su hijito a quienes imaginaba habían conducido al Juzgado
                     y maltratado para averiguar su paradero.</p>
@@ -1069,8 +1053,7 @@
                 <p>Moreira salió por fin al patio, nombre que dan los paisanos al pedazo de suelo
                     sin verde que está delante del rancho.</p>
                 <p>Fue hasta el palenque y sacó el apero del caballo, colocando las piezas en el
-                    suelo, de manera a poder ensillar de un solo golpe; pidió un poco de <seg
-                        rend="italic">alfa</seg> que dio al caballo y se tendió sobre el recado,
+                    suelo, de manera a poder ensillar de un solo golpe; pidió un poco de <seg rend="italic">alfa</seg> que dio al caballo y se tendió sobre el recado,
                     boca abajo, con la barba apoyada sobre los brazos, que doblados en sentido
                     contrario, venían a proporcionarle una especie de almohada.</p>
                 <p>Así permaneció toda la noche, inmóvil sumido en su pensamiento y con la mirada
@@ -1211,8 +1194,7 @@
                 <head> Un castigo terrible </head>
                 <p>Moreira marchaba conteniendo los bríos de su fogoso animal, con la habilidad del
                     jinete que sabe no disponer más que de una sola cabalgadura, y lo da resuellos
-                    largos cada dos leguas tratando de conservarlo en estado de poder <seg
-                        rend="italic"> bajarle la rienda</seg> con confianza.</p>
+                    largos cada dos leguas tratando de conservarlo en estado de poder <seg rend="italic"> bajarle la rienda</seg> con confianza.</p>
                 <p>Así galopó esa noche y la mañana siguiente.</p>
                 <p>A la hora de la siesta desmontó, aflojó la cincha al noble animal y le sacó el
                     freno que sujetó al fiador, para que el caballo pudiera almorzar con toda
@@ -1355,8 +1337,7 @@
                     esperó el ataque.</p>
                 <p>Los dos soldados le acometieron de frente y enarbolaron el sable amagando un
                     hachazo a la cabeza.</p>
-                <p>Moreira calculó el tiempo con esa habilidad especial del gaucho de <seg
-                        rend="italic">avería</seg> y cuando vio caer los dos hachazos, dio un
+                <p>Moreira calculó el tiempo con esa habilidad especial del gaucho de <seg rend="italic">avería</seg> y cuando vio caer los dos hachazos, dio un
                     poderoso salto de lado para evitar los golpes y cayó sobre el flanco del soldado
                     que estaba a su derecha, a quien le sepultó hasta la empuñadura, su daga en el
                         <seg rend="italic">vacío</seg>.</p>
@@ -1452,8 +1433,7 @@
                     después de secar con ella una lágrima que había asomado a sus párpados.</p>
                 <p>-Tiene usted más entrañas que un toro, amigo Moreira; es lástima que usted esté
                     mal con la justicia porque nos vamos a quedar sin partidas.</p>
-                <p>Moreira, sin contestar una palabra a este sarcasmo, dicho con una gracia de <seg
-                        rend="italic">la tierra</seg>, apretó la mano de Julián y ambos salieron del
+                <p>Moreira, sin contestar una palabra a este sarcasmo, dicho con una gracia de <seg rend="italic">la tierra</seg>, apretó la mano de Julián y ambos salieron del
                     rancho, dejando allí tres cadáveres y dos vivos a quienes se hubiera tomado por
                     muertos.</p>
                 <p>Moreira y Julián se dirigieron al sitio donde el primero había dejado su caballo,
@@ -1598,8 +1578,7 @@
                     reanudaron su conversación.</p>
                 <p>Ya empezaban a caer a la pulpería algunos paisanos de los alrededores, que
                     saludaban a Moreira llenos de asombro al ver la tranquilidad del gaucho, cuando
-                    en su busca andaba la partida de plaza, con la orden de matarlo <seg
-                        rend="italic">donde quiera que lo hallaran</seg>.</p>
+                    en su busca andaba la partida de plaza, con la orden de matarlo <seg rend="italic">donde quiera que lo hallaran</seg>.</p>
                 <p>-Váyase, amigo Moreira -le habían dicho con el mayor interés-, váyase porque lo
                     van a matar.</p>
                 <p>Mire que por guapo que sea un hombre, no puede luchar con tantos y la partida es
@@ -1607,8 +1586,7 @@
                 <p>-Pues por eso mismo me quedo -contestó Moreira sonriendo-, quiero mostrarles como
                     se corre a una partida.</p>
                 <p>-No sea temerario amigo -insistió el paisano-, ya sabemos que usted es guapo, y
-                    por lo mismo no debe exponerse a un peligro en que le llevan la <seg
-                        rend="italic">media arroba</seg>.</p>
+                    por lo mismo no debe exponerse a un peligro en que le llevan la <seg rend="italic">media arroba</seg>.</p>
                 <p>-A mí no me llevan ni esto -dijo el paisano-, con una altanería suprema e hizo
                     sonar entre sus dientes la uña del dedo pulgar. Vayan entrando amigos, no quiero
                     que vengan las justicias y se vayan de arriba creyendo también que ando con
@@ -1617,8 +1595,7 @@
                 <p>Los paisanos entraron a la pulpería asombrados de tanto valor y convencidos de
                     que aquella lucha iba a ser fatal para Moreira, pues todos sabían que el capitán
                     de la partida era mozo empeñoso y de valor reconocido.</p>
-                <p>El pulpero estaba lleno de angustia porque le podrían creer <seg rend="italic"
-                        >tapador</seg> de Moreira, pero no se atrevía a pedir a éste se
+                <p>El pulpero estaba lleno de angustia porque le podrían creer <seg rend="italic">tapador</seg> de Moreira, pero no se atrevía a pedir a éste se
                     retirara.</p>
                 <p>-Es lástima que lo maten -dijo uno de ellos dando el caso por perdido-, es un
                     mozo de prendas, y al fin y al cabo lo que él ha hecho lo hubiera hecho
@@ -1899,8 +1876,7 @@
                     siempre en <seg rend="italic">las casas</seg> cuyas tales casas son el rancho y
                     la cocina, acometen al que llega, y ayudan al amo a recoger la hacienda a la
                     caída de la tarde, y contienen a una sola indicación, a cualquier novillo bravo
-                    que pretende salirse de las filas, resistiéndose a la <seg rend="italic"
-                        >arriada</seg>.</p>
+                    que pretende salirse de las filas, resistiéndose a la <seg rend="italic">arriada</seg>.</p>
                 <p>Este perro es de una gran bravura y de un poder extraordinario -combate al Lado
                     del amo y no es cosa extraña verlo bajar a un hombre del caballo, a quien haría
                     pedazos inmediatamente, si no fuese contenido por la voz del amo.</p>
@@ -1913,8 +1889,7 @@
                 <p>El cuzco es la policía del gaucho.</p>
                 <p>Este perrito de extremada sagacidad, adivina los peligros que comunica a su amo
                     con su ladrido penetrante y su actitud agresiva y decidida.</p>
-                <p>El cuzco está reputado en el campo como el más sagaz y más <seg rend="italic"
-                        >corsario</seg> de todos los perros.</p>
+                <p>El cuzco está reputado en el campo como el más sagaz y más <seg rend="italic">corsario</seg> de todos los perros.</p>
                 <p>Su cariño por el amo es su calidad especial, condición que hace de aquel perrito
                     inofensivo una especie de fiera en los momentos de peligro para su dueño.</p>
                 <p>El gaucho conoce las magníficas condiciones del cuzco y lo ha dedicado para su
@@ -2145,8 +2120,7 @@
                 <p>Había en aquella época y afiliado al partido contrario de aquél en que militaba
                     Moreira, un caudillo de prestigio y de grandes <seg rend="italic">mentas</seg>
                     por aquellos pagos.</p>
-                <p>Leguizamon, que así se llamaba el caudillo, era un gaucho de <seg rend="italic"
-                        >avería</seg>, valiente hasta la exageración y que arrastraba mucha
+                <p>Leguizamon, que así se llamaba el caudillo, era un gaucho de <seg rend="italic">avería</seg>, valiente hasta la exageración y que arrastraba mucha
                     paisanada.</p>
                 <p>Éste era el elemento que iban a colocar enfrente a Moreira para disputarle el
                     triunfo, a cuyo efecto habían enconado al gaucho picándole el amor propio con
@@ -2196,8 +2170,7 @@
                 <p>Atravesada a su espalda y sujeta al mismo tirador se veía su daga, su terrible
                     daga bautizada ya de una manera tan sangrienta y que asomaba la lujosa
                     engastadura, siempre al alcance de la fuerte diestra.</p>
-                <p>Llevaba su manta de vicuña arrollada al brazo izquierdo con cuya mano hacía <seg
-                        rend="italic">pintar</seg> al pingo que se mostraba orgulloso del jinete que
+                <p>Llevaba su manta de vicuña arrollada al brazo izquierdo con cuya mano hacía <seg rend="italic">pintar</seg> al pingo que se mostraba orgulloso del jinete que
                     lo montaba.</p>
                 <p>Moreira estaba completamente sereno; sonreía a los amigos, chistaba al caballo
                     como para calmar su inquietud, y daba vuelta de cuando en cuando para mirar al
@@ -2462,19 +2435,16 @@
                     licores que solían írsele a la cabeza.</p>
                 <p>Pero cuando estaba dominado por el alcohol era cuando se mostraba más manso y más
                     accesible a todo género de bromas, no habiendo ninguna de carácter pesado.</p>
-                <p>Generalmente cuando estaba en este estado le daba por <seg rend="italic"
-                        >vistear</seg>, invitando a alguno de los que estaban presentes a que le
+                <p>Generalmente cuando estaba en este estado le daba por <seg rend="italic">vistear</seg>, invitando a alguno de los que estaban presentes a que le
                     hicieran unos <seg rend="italic">tiritos</seg> para ejercitarse.</p>
                 <p>Como era natural, ninguno de los paisanos aceptaba la proposición temiendo que la
                         <seg rend="italic">visteada</seg> se convirtiera en pelea.</p>
-                <p>Entonces Moreira buscaba dos palitos y se entretenía en hacerse hacer <seg
-                        rend="italic">unos tiritos</seg> para ver cómo andaba la muñeca.</p>
+                <p>Entonces Moreira buscaba dos palitos y se entretenía en hacerse hacer <seg rend="italic">unos tiritos</seg> para ver cómo andaba la muñeca.</p>
                 <p>De esta manera se había hecho tan consumado tirador de facón, que los otros
                     paisanos aseguraban que en sus manos el cuchillo era <seg rend="italic">una
                         luz</seg>.</p>
                 <p>Dominado por el alcohol, se despertaban también sus instintos de jinete, y si
-                    llegaba a ver un redomón o caballo nuevo lo pedía para <seg rend="italic"
-                        >getearlo</seg> un poquito, y lo <seg rend="italic">geteaba</seg>, tan
+                    llegaba a ver un redomón o caballo nuevo lo pedía para <seg rend="italic">getearlo</seg> un poquito, y lo <seg rend="italic">geteaba</seg>, tan
                     famosamente, que lo volvía completamente dominado.</p>
                 <p>Por más ebrio que estuviese en estas situaciones, no hubo ejemplo de que caballo
                     alguno, por bravo que fuese lograse <seg rend="italic">basuriarlo</seg>.</p>
@@ -2495,8 +2465,7 @@
                     representaban sus más queridas afecciones, porque el Cacique fue el primer
                     regalo que le hizo su novia y el caballo fue el único regalo del doctor Alsina,
                     hecho en la siguiente situación.</p>
-                <p>Cuando aquellas épocas efervescentes, de <seg rend="italic">crudos</seg> y <seg
-                        rend="italic">cocidos</seg>, en que los partidos se disputaban el triunfo de
+                <p>Cuando aquellas épocas efervescentes, de <seg rend="italic">crudos</seg> y <seg rend="italic">cocidos</seg>, en que los partidos se disputaban el triunfo de
                     todas maneras, sin evitar los crímenes como el vergonzoso día 22 de abril, la
                     vida del doctor Alsina se creyó amenazada, como se creyó en peligro la de Mitre,
                     la de Chassaing, y la de tantos hombres de mérito que tomó parte en aquella
@@ -2784,8 +2753,7 @@
                     creció en insolencias y no escuchó las juiciosas observaciones que le hizo
                     aquél.</p>
                 <p>El forastero se iba poniendo cada vez más pálido del coraje que contenía a duras
-                    penas, pues suponía en Moreira un aliado de aquel <seg rend="italic"
-                        >baratero</seg> que lo provocaba.</p>
+                    penas, pues suponía en Moreira un aliado de aquel <seg rend="italic">baratero</seg> que lo provocaba.</p>
                 <p>Recibió sin embargo la botella de caña que le alcanzaba el pulpero, sin desplegar
                     los labios, pagó y se alejó repesadamente midiendo a Gondra de arriba abajo con
                     una mirada donde estaba pintada toda la ira que sentía rebosar en su
@@ -2963,11 +2931,9 @@
                     la reputación que superior a la suya acompañaba a Moreira, y el día que se cruce
                     en mi camino, no le ha de valer la ayuda del diablo y lo he de poner panza
                     arriba. Ustedes hablan porque tienen lengua y miedo y ahí está todo.</p>
-                <p>Sea que los paisanos no tuviesen deseos de pelear, sea que Córdoba fuese <seg
-                        rend="italic">bueno</seg> realmente, su balandronada pasó y siguieron los
+                <p>Sea que los paisanos no tuviesen deseos de pelear, sea que Córdoba fuese <seg rend="italic">bueno</seg> realmente, su balandronada pasó y siguieron los
                     juegos en la mayor tranquilidad y armonía.</p>
-                <p>Por eso cuando entró Moreira, Córdoba había quedado <seg rend="italic"
-                        >retobao</seg> y al parecer con el ánimo dispuesto a pelear al recién
+                <p>Por eso cuando entró Moreira, Córdoba había quedado <seg rend="italic">retobao</seg> y al parecer con el ánimo dispuesto a pelear al recién
                     venido, lo que ya era una prueba de valor.</p>
                 <p>Moreira entró a la pulpería, como hemos dicho, sin notar, o haciéndose el que no
                     veía el continente del paisano, que parecía un Baco, sentado sobre la pipa de
@@ -3381,8 +3347,7 @@
                     primer momento y se sentaron sobre la manta sin apartar la mirada el uno del
                     otro.</p>
                 <p>Santiago entre tanto hacía levantar a su <seg rend="italic">gente</seg> mientras
-                    preparaban unas leñitas para que se fuese calentando el agua y <seg
-                        rend="italic">echar</seg> un centenar de mates.</p>
+                    preparaban unas leñitas para que se fuese calentando el agua y <seg rend="italic">echar</seg> un centenar de mates.</p>
                 <p>Moreira y Julián hablaban íntimamente: para Julián no había secretos y Moreira
                     volcaba en aquel espíritu inocente el mar de penas en que se ahogaba.</p>
                 <p>Julián oía tristemente la relación de todas aquellas patéticas desventuras y
@@ -3648,8 +3613,7 @@
                     adversario.</p>
                 <p>Moreira se precipitó sobre él, rápidamente y le arrebató el sable.</p>
                 <p>Los paisanos que habían presenciado la lucha volvieron el rostro pálidos y
-                    conmovidos pensando que el gaucho iba a hacer lo que se <seg rend="italic"
-                        >estila</seg> en estos casos, degollar a su adversario, pues estaban muy
+                    conmovidos pensando que el gaucho iba a hacer lo que se <seg rend="italic">estila</seg> en estos casos, degollar a su adversario, pues estaban muy
                     lejos de apreciar aquel espíritu caballeresco hasta la exageración.</p>
                 <p>El gaucho arrancó el sable de manos del capitán, diciéndole un único «dispense
                     amigo» y arrojándolo lo más lejos que le fue posible, le pegó un ponchazo en la
@@ -3690,8 +3654,7 @@
                     Provincial, que dicen han venido a buscar a los que no se hayan enrolado y esa
                     es tropa de línea, con la que es inútil pelear.</p>
                 <p>-Pues yo los pelearé -repuso Moreira con creciente soberbia-, los pelearé como
-                    pelearé al mismo diablo que me salga al camino aunque traiga <seg rend="italic"
-                        >vistuario</seg> de fierro y pelee con diez dagas.</p>
+                    pelearé al mismo diablo que me salga al camino aunque traiga <seg rend="italic">vistuario</seg> de fierro y pelee con diez dagas.</p>
                 <p>Y ató su caballo al palenque bajando al Cacique que ladraba alegremente sobre el
                     apero.</p>
                 <p>-Venga pues un mate, comadre, para asentar la campaña -dijo Moreira a Marta-, y
@@ -3837,8 +3800,7 @@
                     creían muerto, pero le respondían complaciéndose en su dolor, que su tumba había
                     sido el estómago de los zorros y de las vizcachas.</p>
                 <p>Así la pobre Andrea moría, viviendo en este horrible martirio, mendigando de la
-                    caridad pública un mendrugo de pan y un trapo negro con que <seg rend="italic"
-                        >honrar</seg> la doble muerte de su buen padre y del altivo Moreira.</p>
+                    caridad pública un mendrugo de pan y un trapo negro con que <seg rend="italic">honrar</seg> la doble muerte de su buen padre y del altivo Moreira.</p>
                 <p>Al escuchar esta parte del relato, Moreira lanzó un quejido y blandiendo la daga
                     dejó oír una maldición espantosa:</p>
                 <p>-Para cumplir mi venganza -dijo-, no basta a mi daga toda la carne que cubre la
@@ -3957,8 +3919,7 @@
                     empezado a recuperar su antigua hermosura.</p>
                 <p>A un <seg rend="italic">justicia</seg>, según la teoría y la práctica, no se le
                     debía resistir nada, y la resistencia de Vicenta lo había empeñado más,
-                    interesando su amor propio de hombre, y de <seg rend="italic"
-                    >justicia</seg>.</p>
+                    interesando su amor propio de hombre, y de <seg rend="italic">justicia</seg>.</p>
                 <p>Insistió, quiso vencer la resistencia que se le opuso, y aquel hombre fue cobarde
                     hasta el extremo de golpear a aquella mujer desvalida amenazando golpear a su
                     hijo.</p>
@@ -4080,8 +4041,7 @@
                     muerte.</p>
                 <p>Nadie turbó con la mejor palabra aquel estado conmovedor, que había llegado hasta
                     arrancar lágrimas de aquellos ojos, reflejo de un espíritu noble, que se había
-                    respondido siempre a las acciones generosas y humanitarias, hasta que el <seg
-                        rend="italic">sable de la ley</seg>, en manos de un teniente alcalde, se
+                    respondido siempre a las acciones generosas y humanitarias, hasta que el <seg rend="italic">sable de la ley</seg>, en manos de un teniente alcalde, se
                     levantó sobre su cabeza.</p>
                 <p>La noche venía tendiendo su negro manto y los alrededor de aquel rancho empezaban
                     a aquietarse, sin que se sintiera el más leve ruido.</p>
@@ -4161,8 +4121,7 @@
                     Cacique.</p>
                 <p>Cuando Moreira despertó empezaba a caer la tarde, y uno que otro jinete se veía a
                     lo lejos cruzar para el fortín.</p>
-                <p>Sin duda alguna, eran soldados que volvían de la <seg rend="italic"
-                        >descubierta</seg>.</p>
+                <p>Sin duda alguna, eran soldados que volvían de la <seg rend="italic">descubierta</seg>.</p>
                 <p>El gaucho recogió sus armas, cinchó de nuevo y enfrenó al overo, subió al Cacique
                     a las cabezadas y montó ágil y nervioso.</p>
                 <p>Esta vez puso su caballo al trotecito y tomó rumbo al Nueve de Julio,
@@ -4320,8 +4279,7 @@
                 <p>Por fin su fisonomía tomó su expresión característica del avaro que mira una
                     milla de oro susceptible de su poder, y golpeando sobre la carona dijo:</p>
                 <p>-A esta carta jugando, germano; con caballo ganando caballo.</p>
-                <p>Moreira dio vuelta el naipe tranquilamente mostrando la <seg rend="italic"
-                        >boca</seg>, en la que aparecía, un rey, a cuya vista los indios se
+                <p>Moreira dio vuelta el naipe tranquilamente mostrando la <seg rend="italic">boca</seg>, en la que aparecía, un rey, a cuya vista los indios se
                     estremecieron como al contacto de una pila eléctrica.</p>
                 <p>El paisano empezó a correr las cartas con esa indolencia del gaucho que oreja la
                     baraja, para que sea más saboreada la emoción de la jugada.</p>
@@ -4448,8 +4406,7 @@
                     formalidades enojosas que preceden a la venta de un caballo.</p>
                 <p>Moreira hizo noche en una pulpería donde había un buen número de bebedores,
                     teniendo la precaución de cubrir parte de su cara con un pañuelo, puesto en la
-                    cabeza a manera de mujer, por si acaso había en la <seg rend="italic"
-                        >reunión</seg> alguna persona que pudiera conocerlo y delatarlo a la partida
+                    cabeza a manera de mujer, por si acaso había en la <seg rend="italic">reunión</seg> alguna persona que pudiera conocerlo y delatarlo a la partida
                     de plaza.</p>
                 <p>Estaba esa noche en la población, por desgracia, el paisano muy borrachón y
                     cuchillero, que tenía mentas de guapo, y a quien conocían con el apodo de Pato
@@ -4520,8 +4477,7 @@
                     espalda de Moreira que continuaba echado de barriga.</p>
                 <p>Le he dicho que se pare para hacerle pagar el piso, porque el hombre que la echa
                     de guapo, ha de ser para pararse donde quiera y con quien lo imite.</p>
-                <p>-Perdone don -respondió Moreira sacarronamente-, usted está con don <seg
-                        rend="italic">pepe</seg> y no sabe lo que dice; cuando se le pare
+                <p>-Perdone don -respondió Moreira sacarronamente-, usted está con don <seg rend="italic">pepe</seg> y no sabe lo que dice; cuando se le pare
                     hablaremos.</p>
                 <p>-El que está con Pepe y en pepe es usted, su maula, y ahora mismo le voy a abrir
                     un ojal en la jeta para que aprenda a ser mejor hablado -dijo el famoso Pato
@@ -4670,8 +4626,7 @@
                     mastín la ocasión de dar un mordisco.</p>
                 <p>La voz de Moreira había sido reconocida por Vicenta que, sabiendo que su marido
                     había muerto, creía que aquella era su ánima que andaba penando, según aquella
-                    gente humilde e ignorante esclava de mil preocupaciones y <seg rend="italic"
-                        >agüerías</seg> que creen a puño cerrado.</p>
+                    gente humilde e ignorante esclava de mil preocupaciones y <seg rend="italic">agüerías</seg> que creen a puño cerrado.</p>
                 <p>-Ánimas benditas -exclamó aquella infeliz, dominada por el más profundo terror-,
                     es el ánima de mi Juan que anda penando y se estrechó contra su hijo como para
                     protegerlo de aquella visión aterrante que había aparecido en su cuarto,
@@ -4804,15 +4759,13 @@
                 <p>A la irritación había sucedido una calma completa, y el paisano se puso a
                     reflexionar mientras marchaba, que no debía hacerse matar antes de haberse
                     vengado.</p>
-                <p>Al amanecer se detuvo en una pulpería del camino, donde dio de comer <seg
-                        rend="italic">a su gente</seg> y tres horas de descanso a su caballo, al
+                <p>Al amanecer se detuvo en una pulpería del camino, donde dio de comer <seg rend="italic">a su gente</seg> y tres horas de descanso a su caballo, al
                     cabo de las cuales se puso de nuevo en camino, a pesar de las invitaciones del
                     pulpero que, habiéndolo conocido, quería obsequiarlo a todo trance.</p>
                 <p>Moreira marchó todo aquel día en pequeñas jornadas, al fin de las que hacía
                     descansar su caballo para que se repusiese del último golpe que había sido
                     serio.</p>
-                <p>A la caiba de la tarde se volvió a bajar en otra pulpería donde dio de <seg
-                        rend="italic">cenar</seg> al caballo y al Cacique, cenando él mismo y
+                <p>A la caiba de la tarde se volvió a bajar en otra pulpería donde dio de <seg rend="italic">cenar</seg> al caballo y al Cacique, cenando él mismo y
                     asentando cada bocado con un trago descomunal de ese beveraje espantoso que en
                     las pulperías de campaña se permiten llamar pomposamente <seg rend="italic">vino
                         carlón</seg>.</p>
@@ -4820,8 +4773,7 @@
                     alegre plática, concluyendo por <seg rend="italic">mamarse</seg>.</p>
                 <p>Ya hemos dicho que bajo la presión del vino Moreira era más alegre y más
                     accesible a todo género de bromas, que devolvía con suma vivacidad.</p>
-                <p>Allí contó su vida y milagros en los toldos y aseguró que no pensaba <seg
-                        rend="italic">llamarse a silencio</seg>, hasta pelear una partida de
+                <p>Allí contó su vida y milagros en los toldos y aseguró que no pensaba <seg rend="italic">llamarse a silencio</seg>, hasta pelear una partida de
                     vigilantes de la misma policía de Buenos Aires, porque ya los policianos de
                     campaña le daban asco y no servían siquiera para hacerle dar rabia.</p>
                 <p>Serían poco más o menos las dos de la madrugada, cuando Moreira pagó el gasto de
@@ -4840,17 +4792,14 @@
                     pensaba hacer la partida, según lo que en la trastienda había hablado el
                     sargento Fulano o el soldado Megano.</p>
                 <p>En aquella pulpería supo Moreira que la muerte del Pato picaso había puesto en
-                    movimiento a los policianos de la partida porque se sabía por la <seg
-                        rend="italic">reclaración</seg> de los compañeros, que el que había hecho
+                    movimiento a los policianos de la partida porque se sabía por la <seg rend="italic">reclaración</seg> de los compañeros, que el que había hecho
                     aquella hazaña era Moreira, que había regresado de los toldos.</p>
                 <p>Moreira no hizo caso de las advertencias que le hacían para que se alejara de
                     aquellos pagos; se puso a tocar la guitarra mandando echar una vuelta general de
                     lo que gustasen, que él pagaba por todos todo lo que se bebiera aquel día.</p>
                 <p>La jarana se armó de lo fino.</p>
-                <p>Moreira se había apoderado de la guitarra y había empezado por echar unas <seg
-                        rend="italic">hueyas</seg>, concluyendo por rasguear el malambo más quiebra,
-                    que cepillaron la mayor parte de los concurrentes que estaban <seg rend="italic"
-                        >garuados</seg> los menos y completamente divertidos los más.</p>
+                <p>Moreira se había apoderado de la guitarra y había empezado por echar unas <seg rend="italic">hueyas</seg>, concluyendo por rasguear el malambo más quiebra,
+                    que cepillaron la mayor parte de los concurrentes que estaban <seg rend="italic">garuados</seg> los menos y completamente divertidos los más.</p>
                 <p>Durante el día iban cayendo a la pulpería infinidad de paisanos, que tomaban
                     parte en la jarana y se iban quedando donde encontraban los dos grandes
                     elementos de una verdadera fiesta: guitarra y <seg rend="italic">coperío</seg> a
@@ -4859,8 +4808,7 @@
                     dormir a pierna suelta, pero Moreira que no había querido beber con exceso,
                     seguía con la guitarra y aquello amenazaba no concluir en tres días, pues ya se
                     habían organizado carreras y juegos de taba para el día siguiente.</p>
-                <p>Moreira tenía dinero en abundancia y pagaba religiosamente al fin de cada <seg
-                        rend="italic">vuelta</seg>, lo que tenía el pulpero completamente dominado y
+                <p>Moreira tenía dinero en abundancia y pagaba religiosamente al fin de cada <seg rend="italic">vuelta</seg>, lo que tenía el pulpero completamente dominado y
                     fuera de sí.</p>
                 <p>En vista de la buena paga había pelado una cañita de durazno que los paisanos
                     saboreaban con descomunales chasquidos de lengua, prodigando mil elogios al
@@ -4987,8 +4935,7 @@
                     que le dirigieran la palabra, como si no fuera él a quien buscaban.</p>
                 <p>El sargento Navarro se dirigió resueltamente a Moreira.</p>
                 <p>No tenía más arma que un sable de caballería que pendía de su cintura, arma que
-                    consideraba más que suficiente para prender al gaucho, por estar <seg
-                        rend="italic">hecho a ella</seg> hacía muchos años.</p>
+                    consideraba más que suficiente para prender al gaucho, por estar <seg rend="italic">hecho a ella</seg> hacía muchos años.</p>
                 <p>Los soldados se habían detenido un poco atrás, dominados por la situación, y
                     esperaban que Navarro les indicase lo que habían de hacer aunque ellos hubieran
                     preferido disparar.</p>
@@ -5332,8 +5279,7 @@
                     boca que daba paso a la respiración poderosa, pero jadeante y entrecortada.</p>
                 <p>Cuando terminó la sangría, Moreira salió afuera, ensilló su caballo sin apretarle
                     la cincha, y tendió a su lado la manta, de vicuña, donde se echó a reposar.</p>
-                <p>El gaucho pensaba que tendría que renunciar a su venganza, pues <seg
-                        rend="italic">aquella gente</seg> no volvería más por aquellos mundos
+                <p>El gaucho pensaba que tendría que renunciar a su venganza, pues <seg rend="italic">aquella gente</seg> no volvería más por aquellos mundos
                     mientra él estuviera vivo y pudiese aún manejar su terrible daga que tantas
                     vidas había postrado a sus pies, en lucha leal siempre.</p>
                 <p>Ya al pensar de esa manera, Moreira tomaba su cabeza, con ambas manos y enredaba
@@ -5416,8 +5362,7 @@
                 <p>Dormía poco y a la siesta en el medio del campo, según su vieja costumbre, pues
                     la noche la dedicaba para marchar «con la fresca» libre de toda sorpresa.</p>
                 <p>Moreira llegó a Navarro completamente descansado y listo para entrar en combate,
-                    si acaso la partida de plaza salía a hacerle una <seg rend="italic"
-                        >tanteada</seg>.</p>
+                    si acaso la partida de plaza salía a hacerle una <seg rend="italic">tanteada</seg>.</p>
                 <p>Eran las dos de la tarde cuando Moreira entró al pueblo de Navarro, con terror de
                     sus pacíficos habitantes que lo vieron pasar por la calle, aterrados.</p>
                 <p>En vez de dirigirse a casa de algún amigo para ocultarse o a alguna pulpería de
@@ -5620,8 +5565,7 @@
                 <p>Blanco no hizo el menor ademán de sacar las armas que llevaba en la cintura, pero
                     con una rapidez imponderable metió el brazo izquierdo, desviando de sobre su
                     frente el arma del teniente alcalde, y le dio en la cabeza tan recio puñetazo,
-                    que lo lanzó como un fardo de lana hasta los pies del <seg rend="italic"
-                        >acordionista</seg>.</p>
+                    que lo lanzó como un fardo de lana hasta los pies del <seg rend="italic">acordionista</seg>.</p>
                 <p>En seguida se precipitó sobre él, le arrancó de la mano el revólver, y lo hizo
                     volar por la puerta a una gran distancia.</p>
                 <p>Los circunstantes quedaron helados confesando con la atónita mirada, que nunca
@@ -5715,8 +5659,7 @@
                     de negocio donde armaban sus partidas y donde desde temprano estaba Rico
                     Romero.</p>
                 <p>La conversación recayó sobre Blanco y se entabló la eterna discusión en que
-                    Romero sostenía que aquel Blanco debía ser más morado que una <seg rend="italic"
-                        >sandía</seg>.</p>
+                    Romero sostenía que aquel Blanco debía ser más morado que una <seg rend="italic">sandía</seg>.</p>
                 <p>-Es mucho hombre -dijo uno de los gauchos-, es mucho hombre y tiene la vista que
                     parece relámpago y un manejo en la daga que asusta, créemelo.</p>
                 <p>-Pues con la vista y todo, y con manejo y todo -contestó Romero-, la primera vez
@@ -6285,8 +6228,7 @@
                     más seria de lo que parecía.</p>
                 <p>Juan Moreira se vino entonces al partido de Lobos; permanecía en el pueblo un día
                     y una noche, e iba en seguida a refugiarse a casa de su hermano Inocencio
-                    Moreira, que está actualmente de vigilante, en la policía, o a casa de <seg
-                        rend="italic">Cuerudo</seg>, de quien nos ocuparemos más adelante.</p>
+                    Moreira, que está actualmente de vigilante, en la policía, o a casa de <seg rend="italic">Cuerudo</seg>, de quien nos ocuparemos más adelante.</p>
                 <p>El teatro de sus nuevas hazañas fue desde entonces el partido de Cobos, en cuyas
                     pulperías y casas de negocios empezó a sentirse el nombre de Moreira, ligado a
                     todo género de hombradas.</p>
@@ -6336,8 +6278,7 @@
                 <p>Sentado a la orilla de la cama, contemplaba a su interlocutor con una mirada
                     profundamente melancólica en la que se podía ver un fondo de suprema
                     resignación.</p>
-                <p>-Paciencia y barajar, dijo lánguidamente; yo debo de <seg rend="italic"
-                        >jeder</seg> a difunto, cuando de esta manera se me cierran todas las
+                <p>-Paciencia y barajar, dijo lánguidamente; yo debo de <seg rend="italic">jeder</seg> a difunto, cuando de esta manera se me cierran todas las
                     puertas; sin embargo, le pido por última vez una papeleta, asegurándole bajo mi
                     palabra que no he de decir a nadie que ha sido usted quien me la ha dado,
                     prometiendo hasta alejarme de Lobos.</p>
@@ -6554,8 +6495,7 @@
                     dar vuelta la majada, curar un animal o cualquiera de esos pequeños trabajos que
                     en las casas de negocio de campo se ofrecen a cada rato.</p>
                 <p>Si el Cuerudo agarraba la guitarra, no la soltaba en toda la noche, cantando todo
-                    género de canciones picarescas y gatos de los que daban <seg rend="italic"
-                        >calor</seg>.</p>
+                    género de canciones picarescas y gatos de los que daban <seg rend="italic">calor</seg>.</p>
                 <p>Su voz era vinosa y un tanto cuanto acarnerada como la generalidad de los
                     paisanos, pero cantaba con tanta picardía que se le podía estar oyendo toda una
                     noche entera sin fastidiarse, porque su repertorio era interminable y su gracia
@@ -6898,8 +6838,7 @@
                     puso los puntos a Berton que se había echado ya el rifle a la cara y le hizo
                     fuego.</p>
                 <p>El pulso del gaucho era inalterable a pesar del peligro que corría, y su sangre
-                    fría asombrosa: como prueba de esto, su bala fue a incrustarse en la <seg
-                        rend="italic">muñeca</seg> derecha de Berton quitándole toda la acción sobre
+                    fría asombrosa: como prueba de esto, su bala fue a incrustarse en la <seg rend="italic">muñeca</seg> derecha de Berton quitándole toda la acción sobre
                     el gatillo.</p>
                 <p>Moreira pudo disparar el otro tiro y concluir con aquel valeroso joven, pero
                     volvió a guardar la pistola en el tirador, blandiendo de nuevo la daga.</p>
@@ -7265,8 +7204,7 @@
                     estudio, pues a ella sin duda que Moreira debe la rara suerte de no haber sido
                     herido nunca de hacha.</p>
                 <p>La S con que los paisanos adornan la empuñadura de sus dagas, les sirve para
-                    proteger su mano derecha de los golpes de hacha que con tanta maestría <seg
-                        rend="italic">barajan</seg>.</p>
+                    proteger su mano derecha de los golpes de hacha que con tanta maestría <seg rend="italic">barajan</seg>.</p>
                 <p>Esta S hace converger todos los golpes de hacha en su parte saliente, pero en su
                     parte entrante es fácil, muy fácil que los hachazos resbalen, yendo a herir el
                     pecho del que la esgrime.</p>
@@ -7326,10 +7264,8 @@
                 <p>Sin más ni más lió sus petates de viaje que no eran muy lujosos que digamos y
                     tomó el tren de Lobos con el corazón rebosando de alegría estudiantil, dispuesto
                     a pasar un mes de expansiones.</p>
-                <p>En Lobos alquiló un matungo de posta, y se largó camino de Navarro, <seg
-                        rend="italic">navegando</seg> sobre el <seg rend="italic">recado</seg> como
-                    uno de estos marineros ingleses que suelen bajar de abordo y alquilan un <seg
-                        rend="italic">sotreta</seg> en la primer caballeriza con que se topan,
+                <p>En Lobos alquiló un matungo de posta, y se largó camino de Navarro, <seg rend="italic">navegando</seg> sobre el <seg rend="italic">recado</seg> como
+                    uno de estos marineros ingleses que suelen bajar de abordo y alquilan un <seg rend="italic">sotreta</seg> en la primer caballeriza con que se topan,
                     prometiéndose un día de alto refocilamiento, aunque a la noche sepan volver más
                     molidos que si les hubieran dado mil azotes, tendidos sobre el temible cañón de
                     proa.</p>
@@ -7346,8 +7282,7 @@
                     humano no puede ser otro sino Moreira. Si de esta escapo con vida lo podré
                     contar como milagro.</p>
                 <p>Tales eran las cosas que de Moreira habían contado a del Campo, que éste creía de
-                    buena fe que el gaucho era un bandido asesino que se complacía en matar <seg
-                        rend="italic">por lujo</seg>, como se dice en el campo.</p>
+                    buena fe que el gaucho era un bandido asesino que se complacía en matar <seg rend="italic">por lujo</seg>, como se dice en el campo.</p>
                 <p>Aquel apuesto gaucho encaminó su caballo hacia el del viajero, a quien dio un
                     cortés «buen día amigo», preguntándole si no había visto en su camino un paisano
                     acompañando una niña.</p>
@@ -7371,8 +7306,7 @@
                 <p>-Voy -dijo-, a casa de Juan Almada (hoy conocemos el nombre del gaucho que había
                     olvidado) yo lo defendí y lo saqué libre cuando estuvo preso, y como él me
                     ofreció su rancho lo vengo a visitar.</p>
-                <p>-Es verdad, dijo el gaucho quedando un poco pensativo, no Juan <seg rend="italic"
-                        >el chico</seg>(o llamaban así para distinguirlo de Moreira, conocido
+                <p>-Es verdad, dijo el gaucho quedando un poco pensativo, no Juan <seg rend="italic">el chico</seg>(o llamaban así para distinguirlo de Moreira, conocido
                     también por Juan <seg rend="italic">el grande</seg>) mató a uno, según decían,
                     dándole dos puñaladas, y por eso lo mandaron a Buenos Aires para fusilarlo,
                     según dijeron en el juzgado.</p>

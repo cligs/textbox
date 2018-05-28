@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Punizione." <seg rend="italic">Parvenze e
-                        semblanze.</seg> Project Gutenberg, <idno>37819</idno>, <date
-                        when="2011-10-22">October 22, 2011</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/37819"
-                        >http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
+                        semblanze.</seg> Project Gutenberg, <idno>37819</idno>, <date when="2011-10-22">October 22, 2011</date>, <ref target="http://www.gutenberg.org/ebooks/37819">http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
                 <bibl type="print-source"> "Punizione." <seg rend="italic">Parvenze e
-                        semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date when="1892"
-                        >1892</date>. </bibl>
+                        semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date when="1892">1892</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,18 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">?</term>
-                    <!-- parvenze e semblance? -->
-                    <term type="subgenre-title">?</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">?</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -96,13 +90,10 @@
                     affetti. Ma giacché le donne furono sempre crudeli a pungere chi manchi di
                     prontezza e sagacia nei discorsi, gli scolari del secolo decimosettimo cercavano
                     con assai cura i motti arguti e le parole soavi, le quali avevano piú agio a
-                    profondere nei tardi giri e nei riposi frequenti della <seg rend="italic"
-                        >pavana</seg>. Per questo la pavana era sempre uno dei balli preferiti; ma a
-                    porre in mostra la grazia e l’agilità della persona tornavan meglio le <seg
-                        rend="italic">gagliarde</seg> e ai giovani che, come si diceva allora,
+                    profondere nei tardi giri e nei riposi frequenti della <seg rend="italic">pavana</seg>. Per questo la pavana era sempre uno dei balli preferiti; ma a
+                    porre in mostra la grazia e l’agilità della persona tornavan meglio le <seg rend="italic">gagliarde</seg> e ai giovani che, come si diceva allora,
                     facevano professione di cappa e spada, conveniva esperienza di molti altri
-                    balletti, tra cui alcuni un po’ licenziosi. Tale la <seg rend="italic"
-                        >nizzarda</seg>, per cui i ballerini movevano in fretta tre passi
+                    balletti, tra cui alcuni un po’ licenziosi. Tale la <seg rend="italic">nizzarda</seg>, per cui i ballerini movevano in fretta tre passi
                     abbracciando la donna in guisa che pareva la baciassero; ed io, signora....</p>
                 <p>— Non c’era educazione in quei tempi!</p>
                 <p>— Veramente in conversazione riusciva non di rado piacevole certa grossolanità di
@@ -157,9 +148,7 @@
                     pronto: — “Sí certo che m’intendo di fagioli, poiché non a pena vi vidi, che per
                     tale vi conobbi.„ Ma se gli scolari studiavano meno d’adesso, non giocavano
                     meno. I giochi del secolo decimosettimo erano molteplici e leciti e illeciti:
-                    tra questi, quello dei dadi; tra quelli, il lotto, la <seg rend="italic"
-                        >farinazio</seg>, il <seg rend="italic">giretto</seg> e la <seg
-                        rend="italic">morra</seg>. Gli scacchi e la dama dilettavano come giochi
+                    tra questi, quello dei dadi; tra quelli, il lotto, la <seg rend="italic">farinazio</seg>, il <seg rend="italic">giretto</seg> e la <seg rend="italic">morra</seg>. Gli scacchi e la dama dilettavano come giochi
                     “d’ingegno„; d’“ingegno e fortuna„ lo <seg rend="italic">sbaraglino</seg>, la
                         <seg rend="italic">primiera</seg> e gli altri di carte, per i quali
                     giovavano certe norme fissate in proverbi come: “Sette e fante dalli a tutte

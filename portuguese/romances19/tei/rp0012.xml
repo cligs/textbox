@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -39,12 +39,16 @@
                     >https://raw.githubusercontent.com/cligs/textbox/master/portuguese/romances19/tei/rp0012.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Um conto portuguez: episodio da guerra civil: a Maria
+                <bibl type="digital-source"> 
+                    Mascarenhas, Miguel J. T.
+                    "Um conto portuguez: episodio da guerra civil: a Maria
                     da Fonte." <seg rend="italic">The Project Gutenberg</seg>, <date
                         when="2008-05-03">May 3, 2008</date>, EBook <idno>25313</idno>, <ref
                         target="http://www.gutenberg.org/ebooks/25313"
                         >http://www.gutenberg.org/ebooks/25313</ref>. </bibl>
-                <bibl type="print-source"> "Um conto portuguez. Episodio da guerra civil. A Maria da
+                <bibl type="print-source"> 
+                    Mascarenhas, Miguel J. T.
+                    "Um conto portuguez. Episodio da guerra civil. A Maria da
                     Fonte." Porto: Typographia Lusitana, <date when="1873">1873</date>. </bibl>
                 <bibl type="edition-first">
                     <date when="1873">1873</date>
@@ -59,21 +63,18 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#uhk">historical</term>
-                    <term type="subgenre_hist" resp="#uhk">historical</term>
-                    <term type="subgenre_x" resp="#uhk">historical</term>
-                    <term type="genre-subtitle">Um conto portuguez</term>
-                    <term type="genre-subtitle">Episodio da guerra civil</term>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Portugal</term>
-                    <term type="language">Portuguese</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Portugal</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Portuguese</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="2">historical</term>
+                    <term type="text.genre.subgenre.title">Um conto portuguez</term>
+                    <term type="text.genre.subgenre.title">Episodio da guerra civil</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
                 </keywords>
             </textClass>
         </profileDesc>

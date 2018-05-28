@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,15 +35,12 @@
                 </availability>
                 <date>2016</date>
                 <idno type="cligs">nh0130</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0130.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0130.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "La Noche Buena." In: <seg rend="italic">Los fuereños y
                         La Noche Buena : dos novelas por Facundo (José T. de Cuellar).</seg>
-                    Biblioteca Digital Hispánica, <idno>bdh0000112794</idno>, <ref
-                        target="http://bdh.bne.es/bnesearch/detalle/bdh0000112794"
-                        >http://bdh.bne.es/bnesearch/detalle/bdh0000112794</ref>. </bibl>
+                    Biblioteca Digital Hispánica, <idno>bdh0000112794</idno>, <ref target="http://bdh.bne.es/bnesearch/detalle/bdh0000112794">http://bdh.bne.es/bnesearch/detalle/bdh0000112794</ref>. </bibl>
                 <bibl type="print-source"> "La Noche Buena." In: <seg rend="italic">Los fuereños y
                         La Noche Buena : dos novelas por Facundo (José T. de Cuellar).</seg> S.l.:
                     Santander Imp. y Litogr. de El Atlántico, <date when="1890">1890</date>. </bibl>
@@ -62,20 +60,20 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Mexico</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk">costumbrista</term>
-                    <term type="subgenre" subtype="1" resp="#uhk">social</term>
-                    <term type="subgenre_tm" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting" cert="low">urban</term>
-                    <term type="protagonist-gender" cert="low">mixed</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Mexico</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">costumbrista</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">mixed</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -232,8 +230,7 @@
                     se hablaba quedo.... sin saber por qué. Se abrían quedo las vidrieras, no
                     rechinaban como los zaguanes, se sentaba uno quedo; sobre resortes y sobre
                     pluma.</p>
-                <p>Había un ancho guardaropa con tres espejos, y frente á uno de ellos estaba <seg
-                        rend="italic">la ama,</seg> cómo la llamaban del sargento abajo.</p>
+                <p>Había un ancho guardaropa con tres espejos, y frente á uno de ellos estaba <seg rend="italic">la ama,</seg> cómo la llamaban del sargento abajo.</p>
                 <p>Estaba consultando su talle, en ese elocuente monólogo de tocador, cuyos secretos
                     guarda mejor la mujer que el hombre.</p>
                 <p>A juzgar por la espalda y por los brazos, aquella mujer era joven, blanca y
@@ -258,8 +255,7 @@
                     íntimo de los parientes de la familia, que hace el encanto del hogar doméstico,
                     sino un conjunto heterogéneo de entidades que meten el buen día en casa y están
                     muy contentos porque tienen adonde ir.</p>
-                <p>Desde el momento en que el General no era General, y la casa aquélla no era <seg
-                        rend="italic">su casa</seg>, los convidados tenían que participar de ese
+                <p>Desde el momento en que el General no era General, y la casa aquélla no era <seg rend="italic">su casa</seg>, los convidados tenían que participar de ese
                     carácter de ambigüedad que</p>
                 <p>va a ponernos en apuros para darlos a conocer a nuestros lectores. Apenas
                     conocemos a Lupe y a Otilia, y esta ignorancia es tanto más disculpable, cuanto
@@ -327,8 +323,7 @@
                     costumbre de cortarse el pelo muy corto, porque cuando fue soldado raso, y
                     asistente del General, mereció entre la tropa el apodo de <seg rend="italic">el
                         chino.</seg> El general hasta ahora no le decía de otro modo.</p>
-                <p>Detrás de la vidriera volvió a resonar la voz argentina de la <seg rend="italic"
-                        >ama</seg> preguntando:</p>
+                <p>Detrás de la vidriera volvió a resonar la voz argentina de la <seg rend="italic">ama</seg> preguntando:</p>
                 <p>—Qué dice el chino?</p>
                 <p>—Que la música quiere cuarenta pesos. —Y qué tenemos con eso?</p>
                 <p>—Que es muy cara.</p>
@@ -549,8 +544,7 @@
                     a otras partes.</p>
                 <p>Mientras fue un marido fiel, no fue celoso y vivía tranquilo; pero ahora se había
                     vuelto un Otelo. Los diputados y algunos otros amigos a quienes se había
-                    permitido llevar a la casa de Julia trataban a ésta con cierto <seg
-                        rend="italic">sans façon</seg> que le hacía hervir la sangre. Estos amigos
+                    permitido llevar a la casa de Julia trataban a ésta con cierto <seg rend="italic">sans façon</seg> que le hacía hervir la sangre. Estos amigos
                     se permitían hablar muy libremente delante de Julia y la miraban de un modo
                     inconveniente.</p>
                 <p>Ante semejantes familiaridades, el General pensaba en todo lo que le costaba
@@ -590,16 +584,12 @@
                 <p>—Quiere decir que el General anda viajando. <seg rend="italic">Esta noche es
                         noche buena,</seg> se soltó cantando la limpiadora de romeritos.</p>
                 <p><seg rend="italic">—Noche de comer biñuelos,</seg> dijo una criada ronca.</p>
-                <p><seg rend="italic">—En mi casa no los hacen</seg>, agregó Anselmo, <seg
-                        rend="italic">por falta de harina y huevos.</seg></p>
+                <p><seg rend="italic">—En mi casa no los hacen</seg>, agregó Anselmo, <seg rend="italic">por falta de harina y huevos.</seg></p>
                 <p>Una carcajada general siguió a la copla, tan sabida de todos, como bien aplicada
                     a las circunstancias.</p>
                 <p>—Entonces, dijo en voz baja la de la copla a Anselmo, V. le cuenta a la
                     cocinera...</p>
-                <p>—Son buscas legales, amita, <seg rend="italic">caduno</seg> se ingenia y <seg
-                        rend="italic">caduno</seg> tiene sus contestas; y los <seg rend="italic"
-                        >probes</seg> vivimos de los señores particulares, y por eso <seg
-                        rend="italic">mesmo</seg> se me aprecia, y saben las personas quién es
+                <p>—Son buscas legales, amita, <seg rend="italic">caduno</seg> se ingenia y <seg rend="italic">caduno</seg> tiene sus contestas; y los <seg rend="italic">probes</seg> vivimos de los señores particulares, y por eso <seg rend="italic">mesmo</seg> se me aprecia, y saben las personas quién es
                     Anselmo, porque, con perdón de V., D.ª Trinita, yo no me tomo la mano en
                     decirlo, porque....</p>
                 <p>—Y luego que <seg rend="italic">caduno....</seg></p>
@@ -636,14 +626,12 @@
                 <p>—Yo no digo que ese sea su apelativo, pero así se llama.</p>
                 <p>—V. conoce a todo el mundo, D. Anselmo.</p>
                 <p>—Pos si esa es mi incumbencia; cuando uno corre mundo.... pos al Chino....
-                    vaya.... al Chino yo le sé los pasos, y semos <seg rend="italic"
-                        >conclapaches</seg>, sino que cuando los amos salen de Belén ya no lo
+                    vaya.... al Chino yo le sé los pasos, y semos <seg rend="italic">conclapaches</seg>, sino que cuando los amos salen de Belén ya no lo
                     conocen a uno.</p>
                 <p>—Oiga que malo es D. Anselmo; dice que conoció al Chino en la Tlalpiloya, dijo
                     Trini a su vecina.</p>
                 <p>—Adiós!</p>
-                <p>—Por vida de Vds; pero que no lo oiga, porque ora es muy amigo de la <seg
-                        rend="italic">polecía,</seg> y luego le buscan a uno ruido.</p>
+                <p>—Por vida de Vds; pero que no lo oiga, porque ora es muy amigo de la <seg rend="italic">polecía,</seg> y luego le buscan a uno ruido.</p>
                 <p>—Yo he visto al Chino con D. Narciso el gendarme, dijo una criada.</p>
                 <p>—Echando tequila, por supuesto.</p>
                 <p>—No he visto tanto.</p>
@@ -834,8 +822,7 @@
                     ocasiones, lo comprendió y fingió en el acto no haberse fijado en todo aquello;
                     pero para ella misma fue la palabra <seg rend="italic">chinito</seg>, la clave
                     de tan inesperada emoción.</p>
-                <p>—Siempre trato mal a este pobre, pensó Julia, y ahora que le dije <seg
-                        rend="italic">chinito</seg> se ha conmovido. Se considera tan lejos de mí...
+                <p>—Siempre trato mal a este pobre, pensó Julia, y ahora que le dije <seg rend="italic">chinito</seg> se ha conmovido. Se considera tan lejos de mí...
                     Estoy bien, muchas gracias, se interrumpió, contestando al saludo de los
                     diputados y de Rosalitos, que entraban en aquel momento.</p>
                 <p>—Me deslumbra V., dijo uno.</p>
@@ -1028,8 +1015,7 @@
                     sin protestar con la mirada.</p>
                 <p>Julia al notar que el diputado iba a sentarla exclamó:</p>
                 <p>—No puedo ver a los cobardes.</p>
-                <p>Y soltándose del brazo del diputado se dirigió al empleado padre de las <seg
-                        rend="italic">muchachas de allá enfrente</seg> y le dijo con una afabilidad
+                <p>Y soltándose del brazo del diputado se dirigió al empleado padre de las <seg rend="italic">muchachas de allá enfrente</seg> y le dijo con una afabilidad
                     y una dulzura desusadas:</p>
                 <p>—Quiere V. bailar un pedacito de danza conmigo?</p>
                 <p>El pobre empleado que ya no bailaba danzas y que había hablado muy pocas veces

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Il cappello del marito." <seg rend="italic">Novelle
-                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date
-                        when="2015-04-24">April 24, 2015</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/48779"
-                        >http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
+                        umoristiche.</seg> Project Gutenberg, <idno>48779</idno>, <date when="2015-04-24">April 24, 2015</date>, <ref target="http://www.gutenberg.org/ebooks/48779">http://www.gutenberg.org/ebooks/48779</ref>. </bibl>
                 <bibl type="print-source"> "Il cappello del marito." <seg rend="italic">Novelle
-                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914"
-                        >1914</date>. Nuova edizione riveduta e corretta. </bibl>
+                        umoristiche.</seg> Milano: Fratelli Treves, Editori. <date when="1914">1914</date>. Nuova edizione riveduta e corretta. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,17 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
-                    <term type="subgenre-title">novella umoristica</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -81,8 +76,7 @@
                         era introdotto nella società che suol dirsi migliore, sebbene non buona. Per
                         le sue belle doti egli era stato ricevuto a porte aperte pur nelle case più
                         aristocratiche; e appena si seppe che in certo palazzo era ricevuto anche a
-                        braccia aperte, diventò amabile e considerevole; ebbe il soprannome di <seg
-                            rend="italic">Sìsì</seg> e fu perdonato di tutti i suoi difetti, i quali
+                        braccia aperte, diventò amabile e considerevole; ebbe il soprannome di <seg rend="italic">Sìsì</seg> e fu perdonato di tutti i suoi difetti, i quali
                         non erano nè piccoli nè pochi. Gli mancava un palmo di statura ad essere un
                         bel giovane; era, in viso, troppo roseo e sollevando il baffo superiore
                         ostentava un po' troppo i nitidi denti; affrettava gl'inchini d'un attimo
@@ -97,8 +91,7 @@
                         signore; nè mancò qualche lettrice di Bourget la quale osservasse com'egli,
                         ne' suoi discorsi e ne' suoi modi, aveva qualche cosa d'insolito, d'ignoto,
                         per cui a volte acquistava una caratteristica spirituale quasi esotica.</p>
-                    <p>Che cosa fosse quella cosa sconosciuta e nuova Giulio <seg rend="italic"
-                            >Sìsì</seg> non l'avrebbe saputa indovinare; forse era un fondo della
+                    <p>Che cosa fosse quella cosa sconosciuta e nuova Giulio <seg rend="italic">Sìsì</seg> non l'avrebbe saputa indovinare; forse era un fondo della
                         rettitudine paterna, che gli restava dalla prima educazione. O forse era
                         l'abilità con cui diceva le bugie. Essendosi accorto che la bugia è l'arma
                         delle donne d'ogni ceto, egli disarmava le signore aristocratiche con
@@ -415,8 +408,7 @@
                         dell'uomo vano, del sapiente o dello stolto, del buon amico o del cattivo
                         amico!</p>
                     <p>Da tali pensieri affaticato, Giulio non si addormentò che verso l'alba. Nè
-                        dormiva da molte ore quando il servo venne a svegliarlo con una lettera <seg
-                            rend="italic">urgentissima</seg>.</p>
+                        dormiva da molte ore quando il servo venne a svegliarlo con una lettera <seg rend="italic">urgentissima</seg>.</p>
                     <p>Egli la lesse, d'urgenza:</p>
                     <p>«.... Che cosa avete fatto! Appena siete uscito voi. Alfonso è corso da me
                         col vostro cappello in mano.</p>

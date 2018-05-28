@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,13 +18,13 @@
                 </author>
                 <principal xml:id="uhk">Ulrike Henny-Krahmer</principal>
             </titleStmt>
-			<extent>
-				<measure unit="lines">5311</measure>
-				<measure unit="divs">22</measure>
-				<measure unit="words">56826</measure>
-				<measure unit="chars">335420</measure>
-				<measure unit="size_kb">452</measure>
-			</extent>
+            <extent>
+                <measure unit="lines">5311</measure>
+                <measure unit="divs">22</measure>
+                <measure unit="words">56826</measure>
+                <measure unit="chars">335420</measure>
+                <measure unit="size_kb">452</measure>
+            </extent>
             <publicationStmt>
                 <publisher>
                     <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
@@ -38,9 +39,9 @@
                     >https://raw.githubusercontent.com/cligs/textbox/master/portuguese/romances19/tei/rp0003.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "O Annel Mysterioso. Scenas da Guerra Peninsular." <seg
-                        rend="italic">The Project Gutenberg</seg>, <date when="2010-09-17">September
-                        17, 2010</date>, EBook <idno>33749</idno>, <ref
+                <bibl type="digital-source"> Pimentel, Alberto. "O Annel Mysterioso. Scenas da
+                    Guerra Peninsular." <seg rend="italic">The Project Gutenberg</seg>, <date
+                        when="2010-09-17">September 17, 2010</date>, EBook <idno>33749</idno>, <ref
                         target="http://www.gutenberg.org/ebooks/33749"
                         >http://www.gutenberg.org/ebooks/33749</ref>. <note
                         source="http://www.gutenberg.org/ebooks/33749"> Notas de transcrição: O
@@ -49,9 +50,9 @@
                         apenas pequenos erros tipográficos que não alteram a leitura do texto, e que
                         por isso não foram assinalados. </note>
                 </bibl>
-                <bibl type="print-source">
-                    <seg rend="italic">O Annel Mysterioso. Scenas da Guerra Peninsular.</seg>
-                    Lisboa: Empreza da Historia de Portugal, <date when="1904">1904</date>. </bibl>
+                <bibl type="print-source"> Pimentel, Alberto. <seg rend="italic">O Annel Mysterioso.
+                        Scenas da Guerra Peninsular.</seg> Lisboa: Empreza da Historia de Portugal,
+                        <date when="1904">1904</date>. </bibl>
                 <bibl type="edition-first"> Lisboa <date when="1873">1873</date>
                 </bibl>
             </sourceDesc>
@@ -64,20 +65,17 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#uhk">historical</term>
-                    <term type="subgenre_hist" resp="#uhk">historical</term>
-                    <term type="subgenre_x" resp="#uhk">historical</term>
-                    <term type="genre-subtitle">Scenas da Guerra Peninsular</term>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Portugal</term>
-                    <term type="language">Portuguese</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Portugal</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Portuguese</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="2">historical</term>
+                    <term type="text.genre.subgenre.title">Scenas da Guerra Peninsular</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
                 </keywords>
             </textClass>
         </profileDesc>

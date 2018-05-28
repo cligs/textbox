@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,12 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Un caso imprevisto." <seg rend="italic">Documenti
-                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26"
-                        >April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "Un caso imprevisto." <seg rend="italic">Documenti
-                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                    >1888</date>. </bibl>
+                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -46,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -69,8 +66,7 @@
                 <head>Un caso imprevisto.</head>
                 <p>Come le carrozze si fermarono dinanzi alla porticina della casa in costruzione, e
                     ne cominciarono a discendere i padrini col fascio delle sciabole avvolte in un
-                    vecchio panno verdastro di tavolo da giuoco, la comitiva raccolta nel <seg
-                        rend="italic">Caffè della Stazione</seg>, in fondo alla piazza lì
+                    vecchio panno verdastro di tavolo da giuoco, la comitiva raccolta nel <seg rend="italic">Caffè della Stazione</seg>, in fondo alla piazza lì
                     dirimpetto, si agitò.</p>
                 <p>--Eccoli!... Eccoli lì!</p>
                 <p>--Ci sono tutti?--chiese il Monterani.</p>
@@ -168,8 +164,7 @@
                     domestici: il marito che scopre la colpa, la moglie che deserta la casa
                     coniugale per seguire l'amante.</p>
                 <p>«Povero Geppino,--esclamava il Vialli, parlando di quest'ultimo--che tegola sul
-                    capo! Queste cose, da principio, sembrano il paradiso, come all'amante di <seg
-                        rend="italic">Saffo</seg> pareva il paradiso salir le scale di casa portando
+                    capo! Queste cose, da principio, sembrano il paradiso, come all'amante di <seg rend="italic">Saffo</seg> pareva il paradiso salir le scale di casa portando
                     l'amica sulle braccia. Arrivato in cima, stava per morire dalla stanchezza!...»
                     Non so più chi osservò: «Quando si affronta una situazione, si ha il dovere di
                     subirne le conseguenze.»--«Non dico il contrario--rispose lentamente il Vialli,
@@ -305,8 +300,7 @@
                     lasciata religiosamente nello stato in cui si trovava quando era abitata.
                     Nessuno seguì il conte in quella stanza; ma, al nostro arrivo, il domestico
                     aveva trovato lì il suo padrone. In quella stanza, nascosta dentro un piccolo
-                    armadio la cui chiave stava ordinariamente nel <seg rend="italic"
-                        >nécessaire</seg> da lavoro della contessa, il conte trovò la corrispondenza
+                    armadio la cui chiave stava ordinariamente nel <seg rend="italic">nécessaire</seg> da lavoro della contessa, il conte trovò la corrispondenza
                     di Augusto con la propria moglie.... Centinaia di lettere, le prove
                     palpabili--le più eloquenti, le più irrefutabili!--di ciò che aveva asserito il
                     Vialli! Quella relazione, troncata dalla morte, durava da più di due anni; e

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">Sin rumbo</title>
             <title type="short">Rumbo</title>
@@ -33,26 +34,24 @@
             </availability>
             <date>2016</date>
             <idno type="cligs">nh0011</idno>
-            <idno type="url"
-               >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0011.xml</idno>
+            <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0011.xml</idno>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digital-source">"Sin rumbo". <seg rend="italic">Wikisource</seg>,
-                  <date>2009</date>, <ref target="https://es.wikisource.org/wiki/Sin_rumbo"
-                  >https://es.wikisource.org/wiki/Sin_rumbo</ref>.</bibl>
+                  <date>2009</date>, <ref target="https://es.wikisource.org/wiki/Sin_rumbo">https://es.wikisource.org/wiki/Sin_rumbo</ref>.</bibl>
             <bibl type="print-source">?</bibl>
             <bibl type="edition-first"><seg rend="italic">Sin rumbo.</seg> (Estudio). Buenos Aires:
                Lajouane, <date when="1885">1885</date>. </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p>The spelling has been checked and corrected where appropriate.</p>
          <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
             of oral speech (e.g. speech with accent) have been marked up.</p>
          <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p>
                <quote>The best work of Argentine naturalistic fiction, <seg rend="italic">Sin
                      rumbo</seg> presents the tragic fate of a misanthropic owner of a sheep ranch,
@@ -69,37 +68,36 @@
                <quote>No matter how insignificant as member the landowner and clubman Andrés may
                   have been of his society, the aimless life he chooses to lead is in conformance
                   with its principles and privileges. In the end, his destruction is a serious
-                  questioning of the ruling ideology, and it is only in this sense that <seg
-                     rend="italic">Sin rumbo</seg> has any meaning as a social text.</quote>
+                  questioning of the ruling ideology, and it is only in this sense that <seg rend="italic">Sin rumbo</seg> has any meaning as a social text.</quote>
                <bibl>Foster, David W., The Argentine Generation of 1880: Ideology and Cultural
                   Texts, p. 150. Cited by Lichtblau, Myron (1997), The Argentine Novel: an annotated
                   bibliography, Lanham, Maryland, p. 165.</bibl>
             </p>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-continent">America</term>
-               <term type="author-country">Argentina</term>
-               <term type="author-gender">male</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">novel</term>
-               <term type="genre-label"/>
-               <term type="subgenre" subtype="2" resp="#uhk">naturalistic</term>
-               <term type="subgenre" subtype="1" resp="#uhk">city</term>
-               <term type="subgenre" subtype="1" resp="#uhk">social</term>
-               <term type="subgenre_tm" cert="low" resp="#uhk">novela subjetiva</term>
-               <term type="form">prose</term>
-               <term type="narrative-perspective">heterodiegetic</term>
-               <term type="setting">urban</term>
-               <term type="protagonist-gender">male</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">naturalistic</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">city</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">male</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2015-03-31" who="uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
          <div>
             <head>Primera parte</head>
@@ -285,8 +283,7 @@
                <p>El cielo, cuajado de estrellas, parecía la sábana de una cascada inmensa
                   derramándose sobre el suelo y levantando, al caer, la polvareda de su agua hecha
                   añicos en el choque.</p>
-               <p>Andrés, recostado contra la reja del balcón, miró un momento: «¡<seg type="oral"
-                     >Uff</seg>!...» hizo cruzando los brazos en la nuca y dando un largo bostezo,
+               <p>Andrés, recostado contra la reja del balcón, miró un momento: «¡<seg type="oral">Uff</seg>!...» hizo cruzando los brazos en la nuca y dando un largo bostezo,
                   «¡qué remedio!... mañana iré a ver a la china esa».</p>
                <p>Encendió luz, ganó la cama y abrió un libro.</p>
                <p>Media hora después cerraba los ojos sobre estas palabras de Schopenhauer su
@@ -538,8 +535,7 @@
                   entrando.</p>
                <p>Todo en ellas juraba, blasfemeaba de verse junto, desde el terciopelo y la seda
                   hasta el percal. Cajones enteros de pacotilla alemana, salidos de los registros de
-                  la calle de Rivadavia, habían hallado allí su <seg type="foreign" xml:lang="fr"
-                     >debouché</seg>.</p>
+                  la calle de Rivadavia, habían hallado allí su <seg type="foreign" xml:lang="fr">debouché</seg>.</p>
                <p>La campana, rajada, con voz de vieja llamaba a misa.</p>
                <p>Adentro, el cura, un vizcaíno carlista cuadrado de cuerpo y de cabeza, hombre de
                   pelo en pecho y de cuchillo en la liga, se disponía a oficiar pomposamente en el
@@ -585,8 +581,7 @@
                   republicano, la inercia nos mata, nos consume, es necesario que la iniciativa
                   individual, esa iniciativa progresista y salvadora, se haga sentir de una vez si
                   queremos llegar a ser grandes y a que se nos trate con respeto, si anhelamos
-                  realizar en nuestra esfera, el gran programa del <seg type="foreign" xml:lang="en"
-                     >self government</seg> (o gobierno de lo propio), merced al cual las naves de
+                  realizar en nuestra esfera, el gran programa del <seg type="foreign" xml:lang="en">self government</seg> (o gobierno de lo propio), merced al cual las naves de
                   la orgullosa Albión surcan hoy con sus aceradas proas los mares de polo a
                   polo.</p>
                <p>»Que una comisión de vecinos se constituya (y desde ya me permito proponeros su
@@ -692,8 +687,7 @@
                   Regino-. ¡Qué va a ser eso señor, si es como rejusiléo en tiempo de seca! Ni
                   tampoco vaya a creerla tan de una vez amarga a mi hija, patrón -agregó con el
                   ciego engreimiento de los padres-, que sea capaz de abrirle el pingo así no más a
-                  cualquiera. <seg type="oral">Dende</seg> chica la he <seg type="oral"
-                     >enseñao</seg> que viva sobre la palabra como animal de trabajar en el rodeo y
+                  cualquiera. <seg type="oral">Dende</seg> chica la he <seg type="oral">enseñao</seg> que viva sobre la palabra como animal de trabajar en el rodeo y
                   no es por alabarla, señor, pero me ha salido medio halaja la moza.</p>
                <p>-Bueno, ño Regino -dijo Andrés sonriéndose él también-, vaya con Dios, alístese y
                   vuelva por la carta orden.</p>
@@ -955,8 +949,7 @@
                   sociedad de las mujeres llamadas decentes, decía, por rutina o porque sí, con una
                   fe más que dudosa en la virtud, negando la posibilidad de la dicha en el hogar y
                   mirando el matrimonio con horror, buscaba un refugio, un lleno al vacío de su
-                  amarga misantropía, en los halagos de la vida ligera del soltero, en los <seg
-                     type="foreign" xml:lang="en">clubs</seg>, en el juego, en los teatros, en los
+                  amarga misantropía, en los halagos de la vida ligera del soltero, en los <seg type="foreign" xml:lang="en">clubs</seg>, en el juego, en los teatros, en los
                   amores fáciles de entretelones, en el comercio de ese mundo aparte, heteróclito,
                   mezcla de escorias humanas, donde el oficio se incrusta en la costumbre y donde la
                   farsa vivida no es otra cosa que una repetición grosera de la farsa
@@ -1012,8 +1005,7 @@
                <p>-¿Qué tal, cómo va?</p>
                <p>Y sin esperar, «bien ¿y Vd.?»</p>
                <p>-¿Qué dice ese bravo elenco?</p>
-               <p>-Es de cartello, sabe... yo le garanto... los primeros artistas... el <seg
-                     type="foreign" xml:lang="it">cuartetto</seg> de la «Scala», no hay qué
+               <p>-Es de cartello, sabe... yo le garanto... los primeros artistas... el <seg type="foreign" xml:lang="it">cuartetto</seg> de la «Scala», no hay qué
                   decir...</p>
                <p>-Sí, pero no veo figurar en él, ni a Gayarre, ni a Masini, de quien Vd. nos
                   hablaba, ¿creo?</p>
@@ -1045,8 +1037,7 @@
                   supongo?</p>
                <p>-¡Ah! ¡cómo no! Yo siempre soy gentil con mis amigos...</p>
                <p>-¡Buen pícaro es Vd.!</p>
-               <p>Entretanto, al ruido de una campana que el <seg type="foreign" xml:lang="it"
-                     >butafuori</seg> acababa de hacer oír entre telones, los músicos iban ocupando
+               <p>Entretanto, al ruido de una campana que el <seg type="foreign" xml:lang="it">butafuori</seg> acababa de hacer oír entre telones, los músicos iban ocupando
                   sus lugares, sacaban sus instrumentos, los afinaban en un desconcierto agrio,
                   irritante.</p>
                <p>Las masas, coristas y comparsas, relegadas al fondo del escenario, hablaban
@@ -1092,11 +1083,9 @@
                <p>-Vivo en el «Hotel de la Paz» Mi marido y yo, tendremos muchísimo placer en que
                   Vd. se digne honrarnos con sus visitas -agregó designando a un hombre que en ese
                   momento se acercaba.</p>
-               <p>Era joven, blanco, fresco, bonito, de bigotito negro retorcido; fumaba <seg
-                     xml:lang="fr" type="foreign">cavours</seg>, usaba cuellos escotados y cuernos
+               <p>Era joven, blanco, fresco, bonito, de bigotito negro retorcido; fumaba <seg xml:lang="fr" type="foreign">cavours</seg>, usaba cuellos escotados y cuernos
                   de coral en la cadena.</p>
-               <p>-¡Maestro, maestro! -llegó gritando azorado el <seg type="foreign" xml:lang="it"
-                     >butafuori</seg>; es imposible contener a la gente, quieren por fuerza
+               <p>-¡Maestro, maestro! -llegó gritando azorado el <seg type="foreign" xml:lang="it">butafuori</seg>; es imposible contener a la gente, quieren por fuerza
                   entrar.</p>
                <p>-He dicho que no quiero yo que nadie me pise el teatro durante los ensayos.</p>
                <p>-Sí, pero es que van a echar la puerta abajo: son más de doscientos...</p>
@@ -1114,8 +1103,7 @@
                   esfuerzo había conseguido izarse hasta su asiento.</p>
                <p>Con la delicadeza con que un pintor de miniaturas maneja su pincel, empuñaba la
                   batuta, dibujaba los últimos compases de la romanza: Celeste Aida, mientras la
-                  Amorini abandonaba su silla y Andrés, en <seg type="foreign" xml:lang="fr"
-                     >tetê-a-tetê</seg>, quedaba conversando con el marido:</p>
+                  Amorini abandonaba su silla y Andrés, en <seg type="foreign" xml:lang="fr">tetê-a-tetê</seg>, quedaba conversando con el marido:</p>
                <p>-Hermosa ciudad Buenos Aires, señor, me ha dejado sorprendido. Nunca me figuré que
                   en América hubiera nada igual.</p>
                <p>-¿Vd. cree?</p>
@@ -1132,8 +1120,7 @@
                <p>»Me gusta la animación, el mundo, la sociedad...</p>
                <p>»Aquí también, según me ha informado el amigo Solari, la gente es muy alegre,
                   ¿tienen Vds. numerosos centros sociales?»</p>
-               <p>-Sí señor, es cierto, hay varios <seg type="foreign" xml:lang="en"
-                  >clubs</seg>.</p>
+               <p>-Sí señor, es cierto, hay varios <seg type="foreign" xml:lang="en">clubs</seg>.</p>
                <p>-El del Progreso, creo, es el más aristocrático, ¿se dan en él bailes
                   suntuosos?</p>
                <p>-Es en el que dicen que hay más gente decente.</p>
@@ -1219,8 +1206,7 @@
                   teme comprometerlo. Hoy, un debut me cuesta más que al principio de mi carera.</p>
                <p>Y, retirando con suavidad la mano que Andrés, lejos de soltar, mantenía oprimida
                   entre las suyas, fue y se sentó en frente, a pocos pasos.</p>
-               <p>Los ojos de aquel se detuvieron entonces en el pie de la <seg type="foreign"
-                     xml:lang="it">primadonna</seg>, cuyos dedos se dibujaban calzados por los dedos
+               <p>Los ojos de aquel se detuvieron entonces en el pie de la <seg type="foreign" xml:lang="it">primadonna</seg>, cuyos dedos se dibujaban calzados por los dedos
                   de seda de la media, en la inflexión elegante de su pierna, a la vez esbelta y
                   gruesa, que el recogido de su pollera de Aida descubría hasta más arriba de la
                   rodilla.</p>
@@ -1241,8 +1227,7 @@
                <p>-Marietta, Marietta mía -entró diciendo muy afligido Gorrini-, van a alzar el
                   telón, ¿estás ya pronta?</p>
                <p>-Sí, estoy pronta ya, di que pueden empezar, voy al instante -repuso aquella
-                  despidiendo con un gesto al <seg type="foreign" xml:lang="it"
-                  >«primodonno»</seg>.</p>
+                  despidiendo con un gesto al <seg type="foreign" xml:lang="it">«primodonno»</seg>.</p>
                <p>Luego, mientras delante del espejo, emocionada y nerviosa, daba el último toque a
                   los detalles de su <seg type="foreign" xml:lang="fr">toilette</seg>:</p>
                <p>-¿Va a su palco?</p>
@@ -1267,8 +1252,7 @@
                   prueba, el fallo inapelable del soberano.</p>
                <p>La <seg rend="italic" type="foreign">primadonna</seg>, entre tanto, acababa de
                   entrar en escena.</p>
-               <p>Los aplausos de unos pocos saludándola, habían sido sofocados por un «¡<seg
-                     type="oral">pst</seg>!...» imponente, universal que sonó en el ámbito de la
+               <p>Los aplausos de unos pocos saludándola, habían sido sofocados por un «¡<seg type="oral">pst</seg>!...» imponente, universal que sonó en el ámbito de la
                   sala como si abriéndose las puertas, la hubiese cruzado de pronto una gran ráfaga
                   de viento.</p>
                <p>Tentado de mortificar al empresario, de divertirse un momento a costa de éste
@@ -1314,8 +1298,7 @@
                   Hotel de la Paz, una mesa largamente servida había sido preparada.</p>
                <p>La caoba de los muebles y la pana mordoré, las cortinas ajadas de un blanco
                   sospechoso, las cenefas polvorientas, la luna turbia de los espejos, el reloj y
-                  los candelabros de zinc, los paños de <seg type="foreign" xml:lang="fr"
-                     >crochet</seg>, la alfombra sucia y escupida, todo ese tren inconexo y charro
+                  los candelabros de zinc, los paños de <seg type="foreign" xml:lang="fr">crochet</seg>, la alfombra sucia y escupida, todo ese tren inconexo y charro
                   de ajuar de hotel, hasta el papel desteñido, desprendiéndose de las paredes por
                   las esquinas, arriba, parecían afectar un aire alegre de fiesta en la profusa
                   iluminación de la vasta pieza.</p>
@@ -1412,8 +1395,7 @@
                   derechos de empresario-, <seg type="foreign" xml:lang="it">niente affatto</seg>!
                   mañana hay función.</p>
                <p>-Ya que el señor Solari se opone a que yo cante, toque Vd. señorita Machi, Vd. que
-                  es una completa profesora en todo -dijo entonces la <seg type="foreign"
-                     xml:lang="it">prima donna</seg> apoyando con marcada intención sobre la última
+                  es una completa profesora en todo -dijo entonces la <seg type="foreign" xml:lang="it">prima donna</seg> apoyando con marcada intención sobre la última
                   palabra.</p>
                <p>Luego, mientras los invitados dejaban sus asientos y, en grupos, rodeaban el
                   piano, donde la contralto correctamente había empezado a preludiar, estrechando a
@@ -1466,8 +1448,7 @@
                   tamaño natural.</p>
                <p>Acá y allá, sobre pies de ónix, otros mármoles, reproducciones de bronces obscenos
                   de Pompeya, almohadones orientales arrojados al azar, sin orden por el suelo,
-                  mientras en una alcoba contigua, bajo los pesados pliegues de un cortinado de <seg
-                     type="foreign" xml:lang="fr">lampás vieil or</seg>, la cama se perdía, una cama
+                  mientras en una alcoba contigua, bajo los pesados pliegues de un cortinado de <seg type="foreign" xml:lang="fr">lampás vieil or</seg>, la cama se perdía, una cama
                   colchada de raso negro, ancha, baja, blanda.</p>
                <p>Al lado, el cuarto de baño al que una puerta secreta practicada junto a la alcoba
                   conducía, era tapizado de negro todo, como para que resaltara más la blancura de
@@ -1532,8 +1513,7 @@
                <head>- XIX -</head>
                <p>Locamente enamorada de su amante, presa de uno de esos sentimientos intensos,
                   repentinos, que tienen su explicación en la naturaleza misma de ciertos
-                  temperamentos de mujer, sin reservas la <seg type="foreign" xml:lang="it"
-                     >primadonna</seg> se había dado a su pasión, y las citas en la casa de la calle
+                  temperamentos de mujer, sin reservas la <seg type="foreign" xml:lang="it">primadonna</seg> se había dado a su pasión, y las citas en la casa de la calle
                   de Caseros se repetían con más frecuencia cada vez.</p>
                <p>No era, como al principio, de tarde en tarde, si sus tareas del teatro llegaban a
                   dejarla libre, en las noches en que no le tocaba cantar, cuando los ensayos no
@@ -1582,8 +1562,7 @@
                   atrayente, tentadora, por primera vez cruzó su mente enferma.</p>
                <p>Matarse...</p>
                <p>Sí, era una solución, una salida, un medio seguro y fácil de acabar...</p>
-               <p>Pero la Amorini, vestida ya, había pasado al cuarto de <seg type="foreign"
-                     xml:lang="fr">toilette</seg>:</p>
+               <p>Pero la Amorini, vestida ya, había pasado al cuarto de <seg type="foreign" xml:lang="fr">toilette</seg>:</p>
                <p>-Tengo un proyecto, Andrés mío -exclamó parada delante del tocador.</p>
                <p>La enorme masa de su cabellera desgreñada y suelta, había caído como una negra
                   túnica de pieles en derredor de su talle, se peinaba.</p>
@@ -1696,8 +1675,7 @@
                   al fin e hizo una escena.</p>
                <p>Llamó, gritó, pateó, entró al camarín, volvió a salir, corrió por último a golpear
                   la puerta del palco:</p>
-               <p>-Dónde está mi mujer. Marietta... Marietta... abran, <seg xml:lang="it"
-                     type="foreign">corpo della madonna</seg>!... ¿no hay nadie aquí?...</p>
+               <p>-Dónde está mi mujer. Marietta... Marietta... abran, <seg xml:lang="it" type="foreign">corpo della madonna</seg>!... ¿no hay nadie aquí?...</p>
                <p>Irritado a pesar suyo, sin querer estarlo, sin darse cuenta de que lo estaba,
                   mareado, entusiasmado como se entusiasman los cobardes, al eco guerrero de su
                   propia voz, sacudía la puerta con violencia.</p>
@@ -1835,8 +1813,7 @@
                   de puro bueno, lo explotaran.</p>
                <p>Inquieto y movedizo como una fiera enjaulada, esperaba a Andrés en la sala de la
                   Empresa.</p>
-               <p>Al ver que, una vez terminada la función, salía este con la <seg xml:lang="it"
-                     type="foreign">prima donna</seg>, fue y se les puso por delante:</p>
+               <p>Al ver que, una vez terminada la función, salía este con la <seg xml:lang="it" type="foreign">prima donna</seg>, fue y se les puso por delante:</p>
                <p>-¿Adónde van Vds.?</p>
                <p>-A dormir -repuso Andrés-, supongo que ya es hora.</p>
                <p>-¿Así, juntos los dos se retiran?</p>
@@ -1956,8 +1933,7 @@
                   oírla, se metía en el escritorio de la Empresa; bebía cerveza y hasta fumaba
                   negros con Solari.</p>
                <p>Pero a Solari ahora, le había dado por burlarse de él, lo miraba con cara de risa
-                  y le palmeaba familiarmente las espaldas, diciéndole: mi <seg xml:lang="it"
-                     type="foreign">primodonno</seg>.</p>
+                  y le palmeaba familiarmente las espaldas, diciéndole: mi <seg xml:lang="it" type="foreign">primodonno</seg>.</p>
                <p>Irritado, exacerbado, salía entonces a la calle, iba a otros teatros, estaba diez
                   minutos y se mandaba mudar dado a los diablos, renegando contra las empresas,
                   llamando perros a los artistas.</p>
@@ -2264,8 +2240,7 @@
             </div>
             <div>
                <head>- XXX -</head>
-               <p>En un momento se había sacado las botas, el <seg type="foreign" xml:lang="fr"
-                     >paletot</seg>, subió a caballo, resueltamente enderezó cuesta abajo y se echó
+               <p>En un momento se había sacado las botas, el <seg type="foreign" xml:lang="fr">paletot</seg>, subió a caballo, resueltamente enderezó cuesta abajo y se echó
                   al agua.</p>
                <p>Pero, ahí no más, el caballo perdió pie, sumido, arrebatado por la corriente,
                   mientras dejando Andrés resbalar el cuerpo por un lado, envuelta la mano izquierda
@@ -2575,33 +2550,25 @@
                   ésta.</p>
                <p>-Ya voy viendo -agregó familiarmente, con un aire de majestuosa suficiencia-, que
                   no es muy <seg type="oral">prático</seg>
-                  <seg type="oral">usté</seg>... Si estos angelitos, patrón, de <seg type="oral"
-                     >risién</seg>
+                  <seg type="oral">usté</seg>... Si estos angelitos, patrón, de <seg type="oral">risién</seg>
                   <seg type="oral">nasidos</seg>, son como los chingolos, con una nada se
-                  mantienen... ¡Cuándo nunca es bueno, tampoco, en los <seg type="oral"
-                     >prinsipios</seg>, darles otra cosa que agüita tibia, hasta que se limpée bien
-                  la máquina! Y a chupón no más lo voy criando <seg type="oral">dende</seg> que <seg
-                     type="oral">fayesió</seg> la finada, ¡ánima bendita, Dios la haiga <seg
-                     type="oral">perdonao</seg>!</p>
+                  mantienen... ¡Cuándo nunca es bueno, tampoco, en los <seg type="oral">prinsipios</seg>, darles otra cosa que agüita tibia, hasta que se limpée bien
+                  la máquina! Y a chupón no más lo voy criando <seg type="oral">dende</seg> que <seg type="oral">fayesió</seg> la finada, ¡ánima bendita, Dios la haiga <seg type="oral">perdonao</seg>!</p>
                <p>Había acostado a la chiquita sobre el sofá; se ocupaba en acomodar el cuarto, mudó
                   las sábanas, echó mano de un alto de servilletas para pañales y, mientras atareada
                   iba y venía, con esa locuacidad criolla, peculiar a las comadres de campo, seguía
                   hablando:</p>
-               <p>-Acordaron tarde en yamarme. Ño Regino no más tuvo la culpa; estaba como <seg
-                     type="oral">abombao</seg> el hombre... Conforme me costié en la noche de mi
+               <p>-Acordaron tarde en yamarme. Ño Regino no más tuvo la culpa; estaba como <seg type="oral">abombao</seg> el hombre... Conforme me costié en la noche de mi
                   casa, ya vide que íbamos a andar mal. La criatura venía muy enteramente de morosa.
                   Ahí <seg type="oral">mesmo</seg> sebé un mate de <seg type="oral">mansaniya</seg>,
                   le di una <seg type="oral">frotasión de asaite</seg> por el empaine a la enferma y
                   un <seg type="oral">sahumerio de asúcar</seg> ardida en los bajos. Pero, de ande,
-                  ¡ni por esas!... los pujos eran al ñudo, la finada, que en <seg type="oral"
-                     >pas</seg> descanse, crujiendo como arpa vieja, pedía a gritos, por la virgen,
+                  ¡ni por esas!... los pujos eran al ñudo, la finada, que en <seg type="oral">pas</seg> descanse, crujiendo como arpa vieja, pedía a gritos, por la virgen,
                   que le sacaran aqueyo. Maliseando que estuviese la chica atravesada, porque a mi
                   señor <seg type="oral">naides</seg> me va a enseñar lo que son estos trajines -¡no
                   ve que he <seg type="oral">lidiao</seg> tantísimo en mi vida!...- le acomodé a la
-                  paciente un poncho <seg type="oral">cruzao</seg> por las caderas y <seg
-                     type="oral">comensé</seg> a sacudirla <seg type="oral">juerte</seg>, boca
-                  arriba en la cama. ¡Dejuro, eso había sido no más! A los tirones, se <seg
-                     type="oral">enderesó</seg> el angelito y ya asomó la moyera y ya se refaló y ya
+                  paciente un poncho <seg type="oral">cruzao</seg> por las caderas y <seg type="oral">comensé</seg> a sacudirla <seg type="oral">juerte</seg>, boca
+                  arriba en la cama. ¡Dejuro, eso había sido no más! A los tirones, se <seg type="oral">enderesó</seg> el angelito y ya asomó la moyera y ya se refaló y ya
                   lo <seg type="oral">resebí</seg> también y le cabecié el ombligo...</p>
                <p>El llanto de la muchachita, un lamento desesperado y continuo, algo como el balido
                   afanoso de los corderos guachos, interrumpió a ña Felipa en su relato:</p>
@@ -2612,8 +2579,7 @@
                   conseguir que la criatura se aquietara:</p>
                <p>-¿Qué tendrá? -interrogó Andrés alarmado, siguiendo con afán las manipulaciones de
                   la curandera-. ¿Estará enferma, le parece?</p>
-               <p>-¡Qué enferma va estar! Es flato. Vea, patrón, me ha de <seg type="oral"
-                     >haser</seg>
+               <p>-¡Qué enferma va estar! Es flato. Vea, patrón, me ha de <seg type="oral">haser</seg>
                   <seg type="oral">trair</seg> unas hojitas de hinojo, de ahí de la quinta no más;
                   un poco de leche y un calentador.</p>
                <p>Así que tuvo todo a mano y que hubo preparado la bebida, tomó un frasco vacío de
@@ -2624,8 +2590,7 @@
                   cierran su cáliz al declinar el sol, un sueño profundo la embargaba:</p>
                <p>-Pues, como le iba <seg type="oral">disiendo</seg>, señor -prosiguió ña Felipa
                   reanudando el hilo de su narración-, <seg type="oral">aparesía</seg> que con el
-                  favor de Dios y la Virgen íbamos a salir de transes al fin. Pero lo que <seg
-                     type="oral">acontesió</seg>
+                  favor de Dios y la Virgen íbamos a salir de transes al fin. Pero lo que <seg type="oral">acontesió</seg>
                   <seg type="oral">jue</seg> que la finada, de puro <seg type="oral">inorante</seg>
                   la pobre, <seg type="oral">dende</seg> que no estaba <seg type="oral">güena</seg>
                   <seg type="oral">toavía</seg>, se apió descalsa una ocasión, con licencia de Vd.,
@@ -2646,8 +2611,7 @@
                <p>Y, como hablando sola:</p>
                <p>-<seg type="oral">Güenos</seg> alarifes son los médicos; <seg type="oral">pa</seg>
                   saquiarlo al pobre y mandarlo más antes a la <seg type="oral">sepoltura</seg> es
-                     <seg type="oral">pa</seg> lo que sirven, ¡masones, <seg type="oral"
-                     >condenaos</seg>!</p>
+                     <seg type="oral">pa</seg> lo que sirven, ¡masones, <seg type="oral">condenaos</seg>!</p>
                <p>Y en manos de aquella bestia estaba su hija, y él, el padre, lo toleraría, se
                   conformaría a dejarla así, expuesta a que, lejos de todo centro de recurso y
                   entregada a los cuidados de una vieja ignorante y bruta, ¡el día menos pensado se
@@ -2685,8 +2649,7 @@
                <p>Era una triste y lamentable historia:</p>
                <p>Mariquita -su juguete predilecto, su muñeca- tenía frío; ella la había acostado en
                   la cama; estaba haciendo <seg type="oral">«nono»</seg> y no estaba sucia, era
-                  mentira, estaba limpia; pero Tiyita decía que estaba sucia, y era <seg type="oral"
-                     >«mu»</seg> mala Tiyita, y la quería lavar con jabón a la pobre Mariquita, y
+                  mentira, estaba limpia; pero Tiyita decía que estaba sucia, y era <seg type="oral">«mu»</seg> mala Tiyita, y la quería lavar con jabón a la pobre Mariquita, y
                   ella no quería y Tiyita sí quería, ¡y ella se había enojado y le había dicho a
                   Tiyita que no y no y no!... y venía a contarle a Papá para que también Papá se
                   enojara y le hiciera «nana» a Tiyita con el látigo del caballo de Papá...</p>
@@ -2838,8 +2801,7 @@
                      frou</seg> de vestidos de mujer. Dio vuelta y, entre las sombras de una pila de
                   palos enrejados, creyó ver como grupos de espectros blancos que se agitaban.</p>
                <p>La curiosidad lo llevó naturalmente a dirigir el anteojo hacia ese lado,
-                  alcanzando distinguir entonces en el primer <seg type="foreign" xml:lang="fr"
-                     >avant-scêne</seg> de la derecha, cerca de él, las formas de una espléndida
+                  alcanzando distinguir entonces en el primer <seg type="foreign" xml:lang="fr">avant-scêne</seg> de la derecha, cerca de él, las formas de una espléndida
                   mujer.</p>
                <p>Era joven, alta, blanca, de ojos negros, grandes; en el pelo, en el cuello, en las
                   orejas, llevaba gruesas piedras de brillantes, y de la majestad serena y suave de
@@ -2949,8 +2911,7 @@
                <p>La tía Pepa lo esperaba a comer con la niñita.</p>
                <p>Fue, de parte de ésta, un coro de lamentos, de exclamaciones y preguntas, al verlo
                   entrar así, todo mojado:</p>
-               <p>-¡Pobrecito Papá, pobrecito! ¿<seg type="oral">Tenés</seg> frío, <seg type="oral"
-                     >tenés nana</seg>?</p>
+               <p>-¡Pobrecito Papá, pobrecito! ¿<seg type="oral">Tenés</seg> frío, <seg type="oral">tenés nana</seg>?</p>
                <p>Se agitaba, se empeñaba en traer la ropa, los botines, todo el ajuar de sus
                   muñecas para que su padre se cambiara.</p>
                <p>En la mesa, quiso por fuerza sentarse sobre las rodillas de Andrés, comer en su
@@ -3149,8 +3110,7 @@
                <p>No... imposible... algo debía haber... algo... algún remedio se conocía que
                   curara, que calmara por lo menos; ¡la ciencia en suma no era una palabra hueca,
                   una ironía!...</p>
-               <p>Corrió a su cuarto, abrió la biblioteca, sacó un libro de medicina: <seg
-                     type="foreign" xml:lang="fr">Bouchut, maladies des enfants</seg>, recorrió el
+               <p>Corrió a su cuarto, abrió la biblioteca, sacó un libro de medicina: <seg type="foreign" xml:lang="fr">Bouchut, maladies des enfants</seg>, recorrió el
                   índice, buscó el artículo: Crup, y ávidamente empezó a leer.</p>
                <p>Leía una, dos, tres veces el mismo párrafo, sin saber, sin entender lo que leía,
                   sin que una sola idea se fijara en su cabeza.</p>

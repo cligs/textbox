@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,14 +34,12 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0054</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0054.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0054.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "El Chacho." <seg rend="italic">Biblioteca Digital
                         Argentina.</seg>
-                    <ref target="http://old.clarin.com.ar/pbda/novela/chacho/novela.htm"
-                        >http://old.clarin.com.ar/pbda/novela/chacho/novela.htm</ref>.
+                    <ref target="http://old.clarin.com.ar/pbda/novela/chacho/novela.htm">http://old.clarin.com.ar/pbda/novela/chacho/novela.htm</ref>.
                 </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">El Chacho.</seg> Buenos Aires: N.Tommasi Editor, s/f. </bibl>
@@ -69,21 +68,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2">gaucho</term>
-                    <term type="subgenre" subtype="1">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-                    <term type="subgenre_hist" subtype="2">not_historical</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting" cert="medium">rural</term>
-                    <term type="protagonist-gender">male</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">gaucho</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">rural</term>
+                    <term type="text.characters.protagonist.gender">male</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -12524,8 +12522,7 @@
                     aquella magnitud, disponía de grandes elementos bélicos, y entonces el éxito más
                     completo debía coronar todas sus esperanzas.</p>
                 <p>Todos conocen el resultado de aquella campaña grande y salvadora, y nosotros
-                    mismos lo hemos narrado con sus mayores detalles en nuestra <seg rend="italic"
-                        >Historia de Rosas.</seg></p>
+                    mismos lo hemos narrado con sus mayores detalles en nuestra <seg rend="italic">Historia de Rosas.</seg></p>
                 <p>La batalla de Caseros se produjo y la tiranía de Rosas se hundió para no volver a
                     alzarse más. Los gobiernos federales del interior, aquellos caudillos bárbaros y
                     sanguinarios no podían sostenerse más, y una era de paz y felicidad empezó a
@@ -12544,8 +12541,7 @@
                     antes, lo que había sublevado al partido unitario tan perseguido allí, hasta
                     asesinar a sus hombres más culminantes.</p>
                 <p>El fraile Aldao, a quien parecía un sueño aquel cataclismo federal, fue hecho
-                    prisionero al fin, muriendo de la manera tremenda que narramos en nuestra <seg
-                        rend="italic">Historia de Rosas.</seg></p>
+                    prisionero al fin, muriendo de la manera tremenda que narramos en nuestra <seg rend="italic">Historia de Rosas.</seg></p>
                 <p>Así Mendoza fue librada de aquel fraile feroz, que debía morir entre los
                     tormentos horribles que causaron en él el alcohol, el remordimiento de sus
                     bárbaros crímenes, y las úlceras tremendas que devoraban su cuerpo podrido en

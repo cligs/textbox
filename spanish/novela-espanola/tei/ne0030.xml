@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Tirano banderas</title>
 				<title type="sub">Novela de tierra caliente</title>
 				<title type="short">TiranoBanderas</title>
-				<title type="idno"><idno type="viaf">179510026</idno>
+				<title type="idno">
+					<idno type="viaf">179510026</idno>
+					<idno type="bne">XX1923189</idno>
 				</title>
 				<author>
+					<idno type="bne">XX1055436</idno>
 					<idno type="viaf">68936773</idno>
 					<name type="short">Valle</name>
 					<name type="full">Valle-Inclán, Ramón del</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2615</measure>
-				<measure unit="divs">180</measure>
-				<measure unit="words">48982</measure>
-				<measure unit="chars">300569</measure>
+				<measure unit="lines">2618</measure>
+				<measure unit="divs">181</measure>
+				<measure unit="tokens">48982</measure>
+				<measure unit="chars">300573</measure>
 				<measure unit="size_kb">345</measure>
 
-				<measure unit="chapters">166</measure>
-				<measure unit="short-stories">0</measure>
-				<measure unit="parts">9</measure>
+				<measure unit="chapters">142</measure>
+				<measure unit="shortStories">0</measure>
+				<measure unit="parts">26</measure>
 				<measure unit="sections">5</measure>
-				<measure unit="divisions">0</measure> 
+				<measure unit="divisions">7</measure> 
 				<measure unit="blocks">2236</measure> 
-				<measure unit="line_verses">23</measure> 
+				<measure unit="lg.poems">4</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">23</measure> 
 				<measure unit="heads">180</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
 				<measure unit="paragraphs">2033</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">1376</measure> 
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">1376</measure>
+				<measure unit="saids">1382</measure>
+				<measure unit="narrative.ps">657</measure>
+				<measure unit="ss">4696</measure> 
 				<measure unit="numbers">4</measure> 
-				<measure unit="puncts">11563</measure>
+				<measure unit="puncts">11563</measure> 
+				<measure unit="len.abstract">999</measure>
+
+				<measure unit="types">11607</measure>
+
+				<measure unit="ss">2902</measure>
+				<measure unit="ss.len.mean">105.84390075809786</measure>
+				<measure unit="ss.len.std">75.00064389120207</measure>
+				<measure unit="mean.ss.active.verbs">1.5761543762922123</measure>
+				<measure unit="std.ss.active.verbs">1.282425053910408</measure>
+
+				<measure unit="ws">59508</measure>
+				<measure unit="ws.len.mean">4.210408684546616</measure>
+				<measure unit="ws.len.std">3.5406360916177166</measure>
+
+				<measure unit="conjunctions">2330</measure>
+				<measure unit="determiners">9062</measure>
+				<measure unit="nouns">12960</measure>
+				<measure unit="verbs">8356</measure>
+				<measure unit="adverbs">1746</measure>
+				<measure unit="adjectives">3214</measure>
+				<measure unit="adpositions">6724</measure>
+				<measure unit="punctuations">11314</measure>
+				<measure unit="pronouns">3561</measure>
+				<measure unit="dates">7</measure>
+				<measure unit="numbers">195</measure>
+				<measure unit="interjections">39</measure>
+
+				<measure unit="ne.persons">1181</measure>
+				<measure unit="ne.organizations">618</measure>
+				<measure unit="ne.locations">230</measure>
+				<measure unit="ne.others">132</measure>
+
+				<measure unit="wnlex.noun.plants">63</measure>
+				<measure unit="wnlex.verb.communications">677</measure>
+				<measure unit="wnlex.noun.foods">76</measure>
+				<measure unit="wnlex.verb.possessions">369</measure>
+				<measure unit="wnlex.verb.cognitions">352</measure>
+				<measure unit="wnlex.noun.communications">984</measure>
+				<measure unit="wnlex.noun.states">307</measure>
+				<measure unit="wnlex.verb.statives">1661</measure>
+				<measure unit="wnlex.noun.cognitions">457</measure>
+				<measure unit="wnlex.noun.times">202</measure>
+				<measure unit="wnlex.verb.bodys">347</measure>
+				<measure unit="wnlex.noun.persons">1047</measure>
+				<measure unit="wnlex.adj.alls">1774</measure>
+				<measure unit="wnlex.noun.quantitys">39</measure>
+				<measure unit="wnlex.noun.phenomenons">129</measure>
+				<measure unit="wnlex.verb.creations">327</measure>
+				<measure unit="wnlex.adj.perts">157</measure>
+				<measure unit="wnlex.adv.alls">553</measure>
+				<measure unit="wnlex.noun.processs">27</measure>
+				<measure unit="wnlex.noun.artifacts">1187</measure>
+				<measure unit="wnlex.verb.perceptions">336</measure>
+				<measure unit="wnlex.noun.feelings">151</measure>
+				<measure unit="wnlex.verb.weathers">61</measure>
+				<measure unit="wnlex.noun.substances">156</measure>
+				<measure unit="wnlex.noun.shapes">82</measure>
+				<measure unit="wnlex.verb.competitions">101</measure>
+				<measure unit="wnlex.verb.motions">657</measure>
+				<measure unit="wnlex.noun.animals">271</measure>
+				<measure unit="wnlex.noun.acts">771</measure>
+				<measure unit="wnlex.noun.bodys">579</measure>
+				<measure unit="wnlex.noun.objects">200</measure>
+				<measure unit="wnlex.noun.motives">12</measure>
+				<measure unit="wnlex.verb.socials">538</measure>
+				<measure unit="wnlex.noun.groups">346</measure>
+				<measure unit="wnlex.verb.consumptions">82</measure>
+				<measure unit="wnlex.noun.possessions">103</measure>
+				<measure unit="wnlex.noun.Topss">84</measure>
+				<measure unit="wnlex.noun.relations">19</measure>
+				<measure unit="wnlex.noun.attributes">422</measure>
+				<measure unit="wnlex.verb.emotions">193</measure>
+				<measure unit="wnlex.noun.locations">217</measure>
+				<measure unit="wnlex.noun.events">244</measure>
+				<measure unit="wnlex.verb.contacts">629</measure>
+				<measure unit="wnlex.xxxs">42050</measure>
+				<measure unit="wnlex.verb.changes">468</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -63,57 +149,59 @@
 				<p>En torno a este eje se desarrollan otras acciones, todas ellas realacionadas con el asgunto del coronelito. Adquiere cierto relieve la historia de Zacarías el Cruzado, que presta su ayuda a los rebeldes. Cablaga siempre sombrío llevando enla alforja los restos de su "chamaco" que le sirven de amuleto. Al niño se lo comieron los cerdos cuando su madre fue detenida por estar complicada en la fuga de Domiciano.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist"></term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label">Novela</term>
-					<term type="subgenre" subtype="2">historical</term>
-					<term type="subgenre" subtype="1">realist</term>
-					<term type="subgenre" subtype="1">political-fiction</term>
-					<term type="subgenre" subtype="1">social</term>
-
-					<term type="narrative-perspective" cert="high" resp="#jct">heterodiegetic</term>
-					<term type="setting" cert="low" resp="#jct">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1866</term>
-					<term type="author-date-death">1936</term>
-					<term type="author-TOC-range" resp="MdL8">8</term>
-					<term type="author-histlit-pages" resp="MdL8">162</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">1920</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name" cert="low">Santa Mónica</term>
-					<term type="setting-territory" cert="low">Santa Mónica</term>
-					<term type="setting-country">Santa Fe de Tierra</term>
-					<term type="setting-continent">America</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Santos Banderas</term>
-					<term type="protagonist-social-level">high</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span">3</term>
-					<term type="group-text">Esperpento</term>
-					
-					<term type="protagonist-profession">politician</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age" cert="low">mature</term>
-					<term type="type-end">positive</term>
-					<term type="text-movement">vanguardista</term>
-					<term type="text-histlit-pages">9.0</term>
-					<term type="text-TOC-range">6</term>
-					
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL8">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1866</term>
+					<term type="author.date.death">1936</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL8">162</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.year.change">1920</term>
+					<term type="authorText.group">Esperpento</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age" cert="low">mature</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Santos Banderas</term>
+					<term type="text.characters.protagonist.profession">politician</term>
+					<term type="text.characters.protagonist.socLevel">high</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Ficción histórica, Ficción por género, Ficción contemporánea; Ficción contemporánea; Ficción clásica; Antigua y clásica; Literatura y ficción; Literaria, Ficción contemporánea; Ficción, Europea, Antologías ; Ficción clásica, Ficción clásica</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Sátira</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">political-fiction</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">historical</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE"></term>
+					<term type="text.genre.subgenre.edit" resp="esdbpedia">Esperpento</term>
+					<term type="text.genre.subtitle">Novela</term>
+					<term type="text.genre.subtitle.source" resp="bne">Novela</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">6</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE8">9.0</term>
+					<term type="text.movement">vanguardista</term>
+					<term type="text.narration.narrator" cert="high" resp="#jct">heterodiegetic</term>
+					<term type="text.plot.end">positive</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">America</term>
+					<term type="text.setting.country">Santa Fe de Tierra</term>
+					<term type="text.setting.represented">México</term>
+					<term type="text.setting.settlement" cert="low">Santa Mónica</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type" cert="low" resp="#jct">rural</term>
+					<term type="text.setting.territory" cert="low">Santa Mónica</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span">3</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -206,7 +294,7 @@
 				<div n="4" type="chapter" xml:id="ne0030_chap4">
 					<head>IV</head>
 					<p>El patrón, con sólo cincuenta hombres, caminó por marismas y manglares hasta dar vista a un pailebote abordado para la descarga en el muelle de un aserradero. Filomeno ordenó al piloto que pusiese velas al viento para recalar en Punta Serpientes. El sarillo luminoso de un faro giraba en el horizonte. Embarcada la gente, zarpó el pailebote con silenciosa maniobra. Navegó la luna sobre la obra muerta de babor, bella la mar, el barco marinero.. Levantaba la proa surtidores de plata y en la sombra del foque un negro juntaba rueda de oyentes: Declamaba versos con lírico entusiasmo, fluente de ceceles. Repartidos en ranchos los hombres de la partida, tiraban del naipe: Aceitosos farolillos discernían los rumbos de juguetas por escotillones y sollados. Y en la sombra del foque abría su lírico floripondio de ceceles el negro catedrático:</p>
-					<lg>
+					<lg type="poem">
 						<l>Navega velelo mío,</l>
 						<l>sin temol,</l>
 						<l>que ni enemigo navío,</l>
@@ -881,7 +969,7 @@
 					<div n="45" type="chapter" xml:id="ne0030_chap45">
 						<head>III</head>
 						<p>El Coronelito Domiciano de la Gándara templa el guitarrón: Camisa y calzones, por aberturas coincidentes, muestran el vientre rotundo y risueño de dios tibetano: En los pies desnudos arrastra chancletas, y se toca con un jaranillo mambís, que al revirón descubre el rojo de un pañuelo y la oreja con arete: El ojo guiñate, la mano en los trastes, platica leperón con las manflotas en cabellos y bata escotada: Era negrote, membrudo, rizoso, vestido con sudada guayabera y calzones mamelucos, sujetos por un cincho con gran broche de plata: Los torpes conceptos venustos, celebra con risa saturnal y vinaria. Niño Domiciano nunca estaba sin cuatro candiles, <seg rend="italic">y</seg> como arrastraba su vida por bochinches <seg rend="italic">y</seg> congales, era propenso a las tremolinas y escandaloso al final de las farras. Las niñas del pecado, desmadejadas y desdeñosas, recogían el bulle-bulle en el vaivén de las mecedoras: El rojo de los cigarros las señalaba en sus lugares. El Coronelito, dando el último tiento a los trastes, escupe y rasguea cantando por burlas el corrido que rueda estos tiempos, de Diego Pedernales. La sombra de la mano, con el reflejo de las tumbagas, pone rasgueo de luces en el rasgueo de la guitarra:</p>
-						<lg>
+						<lg type="poem">
 							<l>Preso le llevan los guardias,</l>
 							<l>sobre caballo pelón,</l>
 							<l>que en los Ranchos de Valdivia</l>
@@ -893,7 +981,7 @@
 					<div n="46" type="chapter" xml:id="ne0030_chap46">
 						<head>IV</head>
 						<p>Tecleaba un piano hipocondríaco, en la sala que nombraban Sala de la Recámara Verde. Como el mitote era en el patio, la sala agrandábase alumbrada <seg rend="italic">y</seg> vacía, con las rejas abiertas sobre el azoguejo <seg rend="italic">y</seg> el viento en las muselinas de los vidrios. El Ciego Velones, nombre de burlas, arañaba lívidas escalas, acompañando el canto a una chicuela consumida, tristeza, desgarbo, fealdad de hospiciana. En el arrimo de la reja, hacían duelo, por la contraria suerte en los albures, dos peponas amulatadas: El barro melado de sus facciones se depuraba con una dulzura de líneas y tintas en el ébano de las cabezas pimpantes de peines y moñetes, un drama oriental de lacres y verdes. El Ciego Velones tecleaba el piano sin luces, un piano lechuzo que se pasaba los días enfundado de bayeta negra. Cantaba la chicuela, tirantes las cuerdas del triste descote, inmóvil la cara de niña muerta, el fúnebre resplandor de la bandejilla del petitorio sobre el pecho:</p>
-						<lg>
+						<lg type="poem">
 							<l>-¡No me mates traidora ilusión!</l>
 							<l>¡Es tu imagen en mi pensamiento</l>
 							<l>una hoguera de casta pasión!</l>
@@ -940,7 +1028,7 @@
 					<head>Luces de ánimas: Libro Segundo</head>
 					<div n="48" type="chapter" xml:id="ne0030_chap48">
 						<head>I</head>
-						<lg>
+						<lg type="poem">
 							<l>-En borrico de justicia</l>
 							<l>le sacan con un pregón,</l>
 							<l>hizo mamola al verdugo</l>

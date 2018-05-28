@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,12 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L‘Orgoglio e la Pietà." <seg rend="italic">Documenti
-                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26"
-                        >April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "L‘Orgoglio e la Pietà." <seg rend="italic">Documenti
-                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                    >1888</date>. </bibl>
+                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -46,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -125,8 +122,7 @@
                     le vele latine si tingevano di porpora.</p>
                 <p>Con la fronte sulla palma della mano, Franz von Rödrich lasciava annegare i suoi
                     sguardi negli spazii profondi, e un brivido gli serpeggiò pel corpo quando gli
-                    amici si volsero a lui, strappandolo un po' bruscamente alla sua deliziosa <seg
-                        rend="italic">rêverie</seg>.</p>
+                    amici si volsero a lui, strappandolo un po' bruscamente alla sua deliziosa <seg rend="italic">rêverie</seg>.</p>
                 <p>--Franz, tu sei ammutolito?</p>
                 <p>--Non ci racconti la tua?</p>
                 <p>--Che cosa volete che io vi racconti?--rispose egli, con lo sguardo un po'
@@ -257,8 +253,7 @@
                     per restituirle i suoi sogni e le sue speranze, per cospargere di petali di rosa
                     il suo cammino.... A poco a poco, arrivai a credermi capace di questo miracolo.
                     Il prepotente amore nasceva in me: si traduceva, mio malgrado, in ogni mia
-                    parola, in ogni mio atto. Ah! che <seg rend="italic">charme</seg>! che <seg
-                        rend="italic">charme</seg>!... Ella mi comprendeva, mi era grata, mi
+                    parola, in ogni mio atto. Ah! che <seg rend="italic">charme</seg>! che <seg rend="italic">charme</seg>!... Ella mi comprendeva, mi era grata, mi
                     amava.... Come spiegare altrimenti la metamorfosi che si operava in lei,
                     l'adorabile sorriso che le splendeva ora negli umidi sguardi, la rifioritura di
                     tutto il suo essere oppresso e quasi avvizzito dall'inclemente stagione?... Il

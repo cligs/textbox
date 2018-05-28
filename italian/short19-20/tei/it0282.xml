@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,12 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "Donato del Piano." <seg rend="italic">Documenti
-                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26"
-                        >April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        umani.</seg> Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26, 2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "Donato del Piano." <seg rend="italic">Documenti
-                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888"
-                    >1888</date>. </bibl>
+                        umani.</seg> Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -46,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -176,10 +173,8 @@
                     <head>13 settembre.</head>
                     <p>La parola avrà tutt'al più un valore suggestivo, non mai espressivo. I segni
                         verbali, a cui s'è dato un convenzionale significato, potranno destare, per
-                        associazione, l'idea ad essi attribuita, ma non rappresentarla <seg
-                            rend="italic">direttamente</seg>.</p>
-                    <p>Io non voglio dirle che l'amo! io vorrei farle <seg rend="italic"
-                            >vedere</seg> il mio sentimento, tutti i moti dell'anima innamorata: io
+                        associazione, l'idea ad essi attribuita, ma non rappresentarla <seg rend="italic">direttamente</seg>.</p>
+                    <p>Io non voglio dirle che l'amo! io vorrei farle <seg rend="italic">vedere</seg> il mio sentimento, tutti i moti dell'anima innamorata: io
                         vorrei farle leggere nella mia coscienza, farle assistere, come un altro
                             <seg rend="italic">io</seg>, a tutto quello che nel campo della mia
                         coscienza si svolge....</p>
@@ -259,8 +254,7 @@
                         moventi--e quello che io dico. Ora, le mie parole non rispondono mai al mio
                         pensiero--perchè sono parole; vuol dire qualcosa di determinato, di
                         concreto, di fisso, di immutabile; ed il pensiero possiede le qualità
-                        perfettamente opposte; esso non <seg rend="italic">è</seg>, ma <seg
-                            rend="italic">diviene, si fa</seg>, in una gestazione perenne.... Le
+                        perfettamente opposte; esso non <seg rend="italic">è</seg>, ma <seg rend="italic">diviene, si fa</seg>, in una gestazione perenne.... Le
                         parole non rappresentano se non un fuggevole istante di questa rapidissima
                         successione--ed è come se uno, per dare l'imagine del movimento,
                         rappresentasse il mobile fermo in diversi punti della sua traiettoria.</p>
@@ -443,8 +437,7 @@
                             ubi diu commoratus obdormivit in Dno pridie idus Junias An. 1785 aetatis
                             vero suae 80 præter menses X et dies VI atque in eo jacet.</seg></p>
                     <p>Egli è sepolto sotto il suo capolavoro; fu l'unico compenso da lui chiesto.
-                        Quest'organo gli costò dodici anni di fatiche; uscì <seg rend="italic"
-                            >tutto</seg> dalle sue mani.</p>
+                        Quest'organo gli costò dodici anni di fatiche; uscì <seg rend="italic">tutto</seg> dalle sue mani.</p>
                     <p>Quando l'aria s'ingolfa in quella foresta di canne vibranti, quando le onde
                         sonore se ne sprigionano allargandosi tutt'attorno, l'anima dell'abate deve
                         vibrare all'unisono.</p>

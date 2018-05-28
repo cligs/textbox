@@ -13,10 +13,14 @@ The collection contains a selection of French adventure, crime fiction, educatio
 |fantastic     |         3   (293k) |         2   (336k) |          4   (221k) |          9   (851k) |
 |total         |        12 (1.498k) |        11 (1.560k) |         13 (1.318k) |         36 (4.376k) |
 
+The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+
+The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
 ### Formats 
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS standard schema available in the reference repository: https://github.com/cligs/reference (File name structure: identifier.xml)
-* teia: Encoded (almost) following the _Guidelines_ of the TEI, with very simple structural markup as well as token-level morpho-syntactic and semantic annotation, valid against the CLiGS "annotated" schema available in the reference repository: https://github.com/cligs/reference (File name structure: identifier.xml)
+* annotated: Encoded (almost) following the _Guidelines_ of the TEI, with very simple structural markup as well as token-level morpho-syntactic and semantic annotation, valid against the CLiGS "annotated" schema available in the reference repository: https://github.com/cligs/reference (File name structure: identifier.xml)
 * txt: Simple plain text containing only the main text of the novels (File name structure: author_title-identifier.txt)
 
 ### License and Citation

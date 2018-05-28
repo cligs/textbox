@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">El casamiento de Laucha</title>
             <title type="short">Laucha</title>
@@ -33,30 +34,25 @@
             </availability>
             <date>2016</date>
             <idno type="cligs">nh0003</idno>
-            <idno type="url"
-               >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0003.xml</idno>
+            <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0003.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source">"El casamiento de Laucha." <seg rend="italic"
-                  >Wikisource</seg>, <date when="1915">2015</date>, <ref
-                  target="https://es.wikisource.org/wiki/El_casamiento_de_Laucha"
-                  >https://es.wikisource.org/wiki/El_casamiento_de_Laucha</ref>.</bibl>
+            <bibl type="digital-source">"El casamiento de Laucha." <seg rend="italic">Wikisource</seg>, <date when="1915">2015</date>, <ref target="https://es.wikisource.org/wiki/El_casamiento_de_Laucha">https://es.wikisource.org/wiki/El_casamiento_de_Laucha</ref>.</bibl>
             <bibl type="print-source"><seg rend="italic">El casamiento de Laucha.</seg> Buenos
-               Aires: Compañía Sud-Americana de billetes de banco, <date when="1906"
-               >1906</date>.</bibl>
+               Aires: Compañía Sud-Americana de billetes de banco, <date when="1906">1906</date>.</bibl>
             <bibl type="edition-first"><seg rend="italic">El casamiento de Laucha.</seg> Buenos
                Aires: Compañía Sud-Americana de billetes de banco, <date when="1906">1906</date>.
             </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p>The spelling has been checked and corrected where appropriate.</p>
          <p>Inserted texts (e.g. letters), quotes, verse lines, foreign words and the reproduction
             of oral speech (e.g. speech with accent) have been marked up.</p>
          <p>Notes by the author or editor have been marked as such.</p>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p>
                <quote>
                   <seg rend="italic">El casamiento de Laucha</seg> es la historia de una infamia, de
@@ -69,8 +65,7 @@
                   no aparece ni en la lengua escrita: el relato simula ser un monólogo de
                   Laucha.</quote>
                <bibl>Anderson Impert, Enrique. <seg rend="italic">Historia de la literatura
-                     hispanoamericana.</seg> Vol. I, 1961, p. 357. Cited by Lichtblau, Myron. <seg
-                     rend="italic">The Argentine Novel: an annotated bibliography.</seg> Lanham,
+                     hispanoamericana.</seg> Vol. I, 1961, p. 357. Cited by Lichtblau, Myron. <seg rend="italic">The Argentine Novel: an annotated bibliography.</seg> Lanham,
                   Maryland, 1997, p. 782.</bibl>
             </p>
             <p>
@@ -88,31 +83,30 @@
                   782-783.</bibl>
             </p>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-continent">America</term>
-               <term type="author-country">Argentina</term>
-               <term type="author-gender">male</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">short novel</term>
-               <term type="genre-label"/>
-               <term type="subgenre" subtype="2" resp="#uhk">costumbrista</term>
-               <term type="subgenre" subtype="1" resp="#uhk">social</term>
-               <term type="subgenre" subtype="1" resp="Lichtblau">picaresca</term>
-               <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-               <term type="subgenre_hist" subtype="2" resp="#uhk">not_historical</term>
-               <term type="form">prose</term>
-               <term type="narrative-perspective">autodiegetic</term>
-               <term type="setting" cert="low">mixed</term>
-               <term type="protagonist-gender">male</term>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk">costumbrista</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">social</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk">picaresca</term>
+                    <term type="text.narration.narrator">autodiegetic</term>
+                    <term type="text.setting.settlement.type">mixed</term>
+                    <term type="text.characters.protagonist.gender">male</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2015-03-22" who="uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
          <div type="prechapter">
             <p>El nombre de Laucha,—apodo y no apellido—le sentaba a las mil maravillas.</p>
@@ -448,9 +442,7 @@
             <p>Me miró con una risita fregona, y después de un rato agregó, mientras encendía un
                candil de sebo de carnero:</p>
             <p>—¡Mire!.. <seg type="oral">usté</seg>, lo que debe hacer, mocito, es endilgarselé
-               derecho no más, y ronciarla de lo lindo, pero sin faltarle, eso sí... <seg
-                  type="oral">Usté</seg> no me parece lerdo, más que para lo que sea <seg
-                  type="oral">cosa'e</seg> sudar, y ella, la pobre, necesita compaña... Oigalé a
+               derecho no más, y ronciarla de lo lindo, pero sin faltarle, eso sí... <seg type="oral">Usté</seg> no me parece lerdo, más que para lo que sea <seg type="oral">cosa'e</seg> sudar, y ella, la pobre, necesita compaña... Oigalé a
                este viejo que no ha visto al ñudo tanta madrugada, y siga su mal consejo, que le ha
                   <seg type="oral">d'ir</seg> bien... Y aura, vamos a tender el asador y a echarle
                la salmuera <seg type="oral">p'a qui</seg> acabe de asarse al rescoldito... ¡Ya verá
@@ -461,8 +453,7 @@
                buena mujer, unos pesos siempre listos en el bolsillo, trabajo descansado y
                divertido, una copita cuando se me antojara, comida abundante, cama blanda...</p>
             <p>—A <seg type="oral">naides</seg> ha querido conchabar de todos los que han venido a
-               ofrecerse,—dijo ño Cipriano.—Y si lo ha <seg type="oral">tomau</seg> a <seg
-                  type="oral">usté</seg>, es porque ya tiene más de la <seg type="oral">mita</seg>
+               ofrecerse,—dijo ño Cipriano.—Y si lo ha <seg type="oral">tomau</seg> a <seg type="oral">usté</seg>, es porque ya tiene más de la <seg type="oral">mita</seg>
                del camino <seg type="oral">andau</seg>. Arriejesé sin miedo, mozo!</p>
             <p>Le iba a contestar, cuando oí que doña Carolina me llamaba desde la ramada:</p>
             <p>—¡Eh! joven, eh! Venga aquí, haga el favor.</p>
@@ -535,8 +526,7 @@
             <p>—Diviértase, diviértase nomás,—decía misia Carolina,—que para eso es joven; y
                mientras no me falte al trabajo...</p>
             <p>La verdad es que la gringa no hablaba del todo así, como he dicho yo. Se conocía que
-               era <milestone type="figure" unit="section"/> italiana, y decía <seg rend="italic"
-                  type="oral">coven, trabaco</seg>... Pero eso no le hace. Al fin yo me divertía y
+               era <milestone type="figure" unit="section"/> italiana, y decía <seg rend="italic" type="oral">coven, trabaco</seg>... Pero eso no le hace. Al fin yo me divertía y
                gozaba sin tener que pensar en nada. ¿Qué importa la habla entonces? Yo también suelo
                ser fino cuando quiero—¡oh! ¿y de no?—pero me gusta que todos me entiendan...</p>
             <p>Bueno, pues: como las cosas iban tan bien, me le animé a la gringa. Ya hacía tiempo
@@ -603,8 +593,7 @@
                otras cosas, que por lo visto no le habían disgustado mucho a la gringa. ¡Ah! ¡me
                olvidaba! también me dijo:</p>
             <p>—<seg type="oral">Usté</seg> no tiene capital, y aquí en el boliche hay un capitalito
-               de unos pocos miles de pesos. Pero haremos cuenta que la mita es de <seg type="oral"
-                  >usté</seg>, para no andar con embrollos.</p>
+               de unos pocos miles de pesos. Pero haremos cuenta que la mita es de <seg type="oral">usté</seg>, para no andar con embrollos.</p>
             <p>Yo me largué contentísimo al galpón, donde tenía mi cama, pero aunque era blandita,
                casi me pasé toda la noche revolviéndome, sin poder pegar los ojos.</p>
             <p>Pues en cuantito principió a clarear, ya estaba con los huesos de punta y con todo
@@ -651,8 +640,7 @@
                pedirlas:</p>
             <p>—¡Eh, mozo! una caña... de la que toma el patrón, eh!</p>
             <p>Carolina estaba muerta de contenta y un día me dijo:</p>
-            <p>—<seg type="oral">Usté</seg> tiene unas manos de ángel (decía <seg rend="italic"
-                  type="oral">anquel</seg>) y estamos ganando mucha plata. Y... ¿quiere que le diga?
+            <p>—<seg type="oral">Usté</seg> tiene unas manos de ángel (decía <seg rend="italic" type="oral">anquel</seg>) y estamos ganando mucha plata. Y... ¿quiere que le diga?
                Lo que yo necesitaba era un joven (<seg rend="italic" type="oral">coven</seg>) como
                   <seg type="oral">usté</seg>... Y ahora que lo conozco bien... ya le puedo prometer
                que... que vamos a ser felices en todo sentido...</p>
@@ -679,8 +667,7 @@
                es, que hay que casarse, si no, <seg rend="italic" type="oral">ninte!</seg></p>
             <p>Yo nunca había pensado en semejante cosa, pero comprendí que la gringa no iba á
                aflojar ni por un queso, y conseguí ponerle buena cara.</p>
-            <p>—¡Oh, misia Carolina! Nunca creí otra cosa, y casarme con usted será mi <seg
-                  type="oral">felicidá</seg>—le dije.</p>
+            <p>—¡Oh, misia Carolina! Nunca creí otra cosa, y casarme con usted será mi <seg type="oral">felicidá</seg>—le dije.</p>
             <p>Se rio muy contenta, y me dio la mano que me apretó mucho, con los ojos medio
                llorosos.</p>
             <p>—¡Bueno, bueno!—siguió.—Entonces yo le daré lo que quiera, y si no tiene
@@ -693,8 +680,7 @@
             <p>—¡Aunque no tuviera en qué caerse muerta, misia Carolina!—le dije contentísimo—
                ¡Sería lo mismo para mí, y me casaría con <seg type="oral">usté</seg>
                inmediatamente!... ¡Sí! Mañana mismo me voy al Pago, a hacer las compras, a ver al
-               cura, a buscar los padrinos y mandarme hacer <milestone type="figure" unit="section"
-               /> una ropita decente, porque no me he de casar como un zaparrastroso.</p>
+               cura, a buscar los padrinos y mandarme hacer <milestone type="figure" unit="section"/> una ropita decente, porque no me he de casar como un zaparrastroso.</p>
             <p>Y agarrándola por la cintura, como para bailar, le grité:</p>
             <p>—¡Ya verás, <seg type="oral">m'hijita</seg>, qué felices vamos a ser!...</p>
             <p>Pero aunque el negocio me conviniera mucho, yo no dejaba de tener un poco de
@@ -726,8 +712,7 @@
                el Pago, pero por las mentas ya se había puesto riquísimo y pensaba irse pronto a su
                tierra. ¡Rico! Díganme, háganme el favor, cómo puede ponerse rico un cura, en un
                pueblo de campo, aunque le lluevan las limosnas y le goteen las velas para los
-               santos, y haga como el sacristán de Nuestra Señora de la Estrella: <seg type="oral"
-                  >¿«la mita p'a mí, la mita p'a ella?»</seg> Yo no creía, ni muchos creían tampoco,
+               santos, y haga como el sacristán de Nuestra Señora de la Estrella: <seg type="oral">¿«la mita p'a mí, la mita p'a ella?»</seg> Yo no creía, ni muchos creían tampoco,
                que el cura Papagna estuviese regularón siquiera; pero es que era un verdadero pillo,
                un gran canalla, un fraile como no he visto otro en todas mis recorridas por esta
                tierra, en que he hallado unos muy buenos, otros regular no más, y otros muy malos...
@@ -836,8 +821,7 @@
             <p>—Hoy es jueves. El lunes a la noche, ¿no le parece?</p>
             <p>—<seg type="oral" xml:lang="it">Benissimo! a la nove, no?</seg></p>
             <p>—Muy bien;... y ¿no tenemos que confesarnos?</p>
-            <p>—Eh! qué confesarnos, ni confesarnos!... ¡para esta clase de casamiento no se <seg
-                  type="oral">prechisa</seg>!...</p>
+            <p>—Eh! qué confesarnos, ni confesarnos!... ¡para esta clase de casamiento no se <seg type="oral">prechisa</seg>!...</p>
          </div>
          <div type="chapter">
             <head>IX</head>
@@ -921,8 +905,7 @@
                Después de mucho registrar y molernos a preguntas, de cómo había sido, y cómo no, se
                llevaron a ño Cipriano en un carrito, para abririo y ver de qué espichó, y me quedé
                solo con Carolina, todavía más triste y asustada.</p>
-            <p>—¡Lo van a achurar al pobre!... ¡Qué desgracia!... <seg rend="italic" type="foreign"
-                  xml:lang="it">Maledetta sorte!</seg></p>
+            <p>—¡Lo van a achurar al pobre!... ¡Qué desgracia!... <seg rend="italic" type="foreign" xml:lang="it">Maledetta sorte!</seg></p>
             <p>Y volvió a llorar a sollozos.</p>
             <p>—¡Miren, la mujer tan grande y tan pazguata!... Déjese de llanto misia Carolina, que
                eso es de criaturas,—le dije en broma.—¡Para lo que va a sufrir ño Cipriano con que
@@ -981,8 +964,7 @@
                chiripa!</p>
             <p>Carolina a todo esto, viendo que la platita se le iba como el agua de una tina sin
                arcos, comenzó a armarme camorra peor que nunca.</p>
-            <p>—¡Así no podemos seguir! ¡Estás tirando todo lo que he ganado con mi <seg
-                  rend="italic" type="oral">trabaco</seg>, canalla!—me decía medio rabiando, medio
+            <p>—¡Así no podemos seguir! ¡Estás tirando todo lo que he ganado con mi <seg rend="italic" type="oral">trabaco</seg>, canalla!—me decía medio rabiando, medio
                llorando.</p>
             <p>Cuando me hacía enojar, mucho, yo gritaba también y másjuerte que ella.</p>
             <p>—¡Déjame en paz! ¡sos una gringa de porra! ¡No me incomodes que te puede costar muy
@@ -1088,8 +1070,7 @@
             <p>Yo ya me encomendaba a la Virgen viendo la cosa mal parada, y el bárbaro aquel de
                seguro me achura, si no llega Carolina, corriendo y chillando, hecha una loca, y no
                sé cómo, con la desesperación, ¡seguro! le arranca el cuchillo de la mano.</p>
-            <p>—¡Y ustedes lo <seg rend="italic" type="oral">decan</seg>, y ustedes lo <seg
-                  rend="italic" type="oral">decan!</seg>—les gritaba a los mirones.</p>
+            <p>—¡Y ustedes lo <seg rend="italic" type="oral">decan</seg>, y ustedes lo <seg rend="italic" type="oral">decan!</seg>—les gritaba a los mirones.</p>
             <p>Los gauchos nos rodearon, desapartándonos <milestone type="figure" unit="section"/> y
                recién entonces se acercó el comisario Barraba. Yo había hecho la chambonada de no
                decirle la cosa del zaino, y él le jugó al tordillo... ¡Se necesita andar en la
@@ -1130,8 +1111,7 @@
                uno agarra uno de esos de P. P. y W.!..</p>
             <p>La gringa estaba encerrada en su cuarto, no me quería abrir ni a cañón, y según me
                dijo después, se había pasado la noche llorando desesperada. Cuando conseguí que me
-               abriera, tanto lloró y suplicó que me ablandé, y le prometí que aquella era la <seg
-                  rend="italic">última vez</seg>, y dije que me iba a poner a trabajar de veras,
+               abriera, tanto lloró y suplicó que me ablandé, y le prometí que aquella era la <seg rend="italic">última vez</seg>, y dije que me iba a poner a trabajar de veras,
                como un burro si era necesario, pára desquitarnos de todo lo que habíamos perdido,
                sin volver a pensar en jugar, ni en gallos, ni en carreras.</p>
             <p>—¿Te-crés que m'he olvidar que te debo la vida?—le dije—porque si no sos vos,
@@ -1160,8 +1140,7 @@
             <p>Le iba a soltar lo de que no estábamos casados, pero caí en cuenta de que con la
                rabia era capaz de no firmar la escritura y hasta de echarme de la pulpería... y
                ¡como un poste!</p>
-            <p>—¡Si yo hubiera sabido!—gritaba la gringa. —¡Si yo hubiera sabido! <seg rend="italic"
-                  type="foreign" xml:lang="it">porca la...!</seg></p>
+            <p>—¡Si yo hubiera sabido!—gritaba la gringa. —¡Si yo hubiera sabido! <seg rend="italic" type="foreign" xml:lang="it">porca la...!</seg></p>
             <p>Y se agarraba los pelos. Pero firmó...</p>
             <p>¿A qué deciries que los pesos del Banco de Italia ya se habían ido por un camino?
                Quedaba la pulpería... pero casi tan pelada como la misma palma de la mano... ni un
@@ -1195,18 +1174,15 @@
                para siempre, ¿entendés? ¡Ya no te puedo aguantar más!</p>
             <p>Se le cambió la cara, pero todavía siguió gritando é insultándome.</p>
             <p>—<seg type="oral">¡Qué! ¿Te pensás ir, Madona! ¡después de haberme dejado desnuda y
-                  en la calle, canalla, sinvergüenza, ladrón! Ah, no, <seg rend="italic"
-                     type="foreign" xml:lang="it">per Dio!</seg> sos mi marido, y tenes que quedarte
-                  aquí, a <seg rend="italic" type="oral">trabucar</seg> como yo, <seg rend="italic"
-                     type="foreign" xml:lang="it">porca la</seg>...</seg></p>
+                  en la calle, canalla, sinvergüenza, ladrón! Ah, no, <seg rend="italic" type="foreign" xml:lang="it">per Dio!</seg> sos mi marido, y tenes que quedarte
+                  aquí, a <seg rend="italic" type="oral">trabucar</seg> como yo, <seg rend="italic" type="foreign" xml:lang="it">porca la</seg>...</seg></p>
             <p>Yo me reía a carcajadas.</p>
             <p>—¿Y quién te ha dicho que soy tu marido?—le dije—¡Pues no hay tal! No sos más que mi
                querida.</p>
             <p>—¡Mentís, canalla!</p>
             <p>—¿Que es mentira? ¡Sí! anda pregúntaselo al cura y verás...</p>
             <p>—El cura Papagna...</p>
-            <p>—¡Qué! tu nápolis se ha ido hace un mes a <seg rend="italic" type="foreign"
-                  xml:lang="it">mangiar macaroni</seg> en tu tierra... Anda, pregúntaselo al nuevo,
+            <p>—¡Qué! tu nápolis se ha ido hace un mes a <seg rend="italic" type="foreign" xml:lang="it">mangiar macaroni</seg> en tu tierra... Anda, pregúntaselo al nuevo,
                si hay apunte de tu casamiento en la iglesia...</p>
             <p>Me miraba con tamaña boca abierta, sin querer creer lo que le decía... De repente, le
                pareció que debía ser cierto... Asustada, desesperada, loca, salió corriendo. Vi que

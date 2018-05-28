@@ -1,14 +1,18 @@
 Corpus of Italian Novels
 ===============================================================================
 
-This corpus contains  10 texts from 7 Italian authors (1 676 779  tokens).
-The dates of the first edition of the texte are  between 1850 and 1890.
+This corpus contains  21 texts from 15 Italian authors (2 279 182  tokens).
+The dates of the first edition of the texts are  between 1850 and 1915.
 See the "metadata.csv" file  or the teiHeader in the files for more metadata information.
 ## Formats
 
-* tei: following the Text Encoding Initiative and valid against the CLiGS schema (File name: id.xml)
-* txt\_id: simple plain text of the body (File name: id.txt)
-* annotated: TEI files further annotated with FreeLing and WordNet (keeping teiHeader)
+* [tei](tei): following the Text Encoding Initiative and valid against the CLiGS schema (File name: id.xml)
+* [txt_id](id): simple plain text of the body (File name: id.txt)
+* [annotated](annotated): TEI files further annotated with FreeLing and WordNet (keeping teiHeader)
+
+## Schema ##
+* The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+* The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
 
 ## Copyright and Citation
 

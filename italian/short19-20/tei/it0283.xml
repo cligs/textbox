@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,8 +32,7 @@
             <sourceDesc>
                 <bibl type="digital-source"> "La Morta." <seg rend="italic">Documenti umani.</seg>
                     Project Gutenberg, <idno>25182</idno>, <date when="2008-04-26">April 26,
-                        2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182"
-                        >http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
+                        2008</date>, <ref target="http://www.gutenberg.org/ebooks/25182">http://www.gutenberg.org/ebooks/25182</ref>. </bibl>
                 <bibl type="print-source"> "La Morta." <seg rend="italic">Documenti umani.</seg>
                     Milano: Fratelli Treves, Editori. <date when="1888">1888</date>. </bibl>
             </sourceDesc>
@@ -45,16 +45,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title"/>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -158,8 +157,7 @@
                         allo sportello, battendo i piedi, torcendosi le dita, con un'angoscia
                         crescente all'idea dell'ignoto pericolo che gli sovrastava, che le
                         sovrastava.... Uno schioccar della frusta, ed il trotto riprendeva, più
-                        serrato, al cessare dell'erta. La pieve di S. Lorenzo.... il <seg
-                            rend="italic">Belvedere</seg>... il crocevia della Pineta....
+                        serrato, al cessare dell'erta. La pieve di S. Lorenzo.... il <seg rend="italic">Belvedere</seg>... il crocevia della Pineta....
                         Finalmente! Egli saltava dalla carrozza non ancora ben ferma e spariva per
                         la viottola sassosa, incassata fra gli alti muri da cui sporgevano l'edera e
                         i rovi. Ah! la porticina del parco!... Ella era lì, pallida, tremante... lo
@@ -168,8 +166,7 @@
                         parlare, in preda a un moto convulsivo, che dal petto le saliva alla gola,
                         soffocandola; pure trovava la forza di toglierlo di lì, dove potevano essere
                         scorti, e di trascinarlo verso lo <seg rend="italic">chalet</seg> nascosto
-                        dietro la cinta delle araucarie e dei cedri del Libano. Lo <seg
-                            rend="italic">chalet!</seg> l'angolo più remoto e silenzioso del parco!
+                        dietro la cinta delle araucarie e dei cedri del Libano. Lo <seg rend="italic">chalet!</seg> l'angolo più remoto e silenzioso del parco!
                         il <seg rend="italic">paradiso terrestre!</seg> il luogo verso cui sempre
                         volava il suo pensiero, sulle ali del desiderio! il testimonio di una
                         felicità che egli aveva sperato inesauribile!...--Ma che cosa era dunque
@@ -235,15 +232,13 @@
                         «Addio!...» E poi, delle lettere rare, ad intervalli sempre più lunghi, ed
                         il tormento di non poterle scrivere, di non poterle far pervenire nulla che
                         le parlasse di lui.... E poi, un silenzio di lunghi e lunghi mesi; e poi,
-                        una sera al Circolo, l'annunzio brutale letto nelle <seg rend="italic"
-                            >Nouvelles et Echos</seg> del <seg rend="italic">Gil Blas</seg>, fra uno
+                        una sera al Circolo, l'annunzio brutale letto nelle <seg rend="italic">Nouvelles et Echos</seg> del <seg rend="italic">Gil Blas</seg>, fra uno
                         scandalo parigino e la <seg rend="italic">réclame</seg> di un nuovo romanzo.
                         «Nous venons d'apprendre la mort de M.^me Bianca des Fayolles, la femme de
                         M. le comte Léopold des Fayolles, dêcédée à son château de Bretagne des
                         suites d'une maladie de coeur»....</p>
                     <p>Malgrado sapesse a memoria quelle poche parole, Roberto Berni s'avvicinò di
-                        nuovo al suo tavolo e con mano tremante rovistò nella cassetta. Il <seg
-                            rend="italic">Gil Blas</seg> era lì, gualcito, bucato, ingiallito nelle
+                        nuovo al suo tavolo e con mano tremante rovistò nella cassetta. Il <seg rend="italic">Gil Blas</seg> era lì, gualcito, bucato, ingiallito nelle
                         pieghe. «Nous venons d'apprendre....» e come lesse il suo nome, il nome di
                         Bianca, il nome della sua Bianca morta e adorata, scoppiò in pianto dirotto.
                         Con labbra convulse, amaramente e disperatamente, egli chiamava: Bianca!
@@ -347,8 +342,7 @@
                         aveva dovuto amarlo!... Più di lei! di un amore più cieco ed assoluto del
                         suo, contro cui la gelosia nulla poteva, che si faceva invece più saldo ora
                         che si vedeva meno apprezzato!... Che cosa voleva dire esser gelosi?... Ella
-                        avrebbe voluto amarlo come <seg rend="italic">lei</seg>, avrebbe voluto <seg
-                            rend="italic">essere lei</seg>, sollevarla dalla bara in cui era stata
+                        avrebbe voluto amarlo come <seg rend="italic">lei</seg>, avrebbe voluto <seg rend="italic">essere lei</seg>, sollevarla dalla bara in cui era stata
                         composta, spirarle la sua propria vita, per ridarla a lui, per farlo
                         felice.... Ella se ne sarebbe andata lontano, in qualche parte; o piuttosto
                         lo avrebbe scongiurato di tenerla ancora con lui, in un angolo, per

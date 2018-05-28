@@ -12,10 +12,16 @@ The collection contains a selection of fantastic and other novellas from 1830 - 
 |total         |         4 (80.675) |         4 (78.010) |          4 (58.554) |          4 (79.103) |          4 (57.947) |          4 (96.384) |         4 (46.892) |        28 (497.565) |
 
 
+The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+
+The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
+
 ### Formats 
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml)
 * txt: Simple plain text containing only the main text of the novellas (File names: identifier.txt)
+* annotated: Annotated version (Freeling) in XML-TEI.
 
 ### License and Citation
 
@@ -26,7 +32,8 @@ Please provide a reference if you use this research data in your teaching or res
 ### Principles of Data Curation
  
 * Texts have been obtained from various sources, among them _La Bibliothèque électronique du Québec_, _ÉFÉLÉ_, _Ebooks libres et gratuits_ and _Wikisource_ and have not been further normalised. 
-* All texts have been encoded according to the _Guidelines_ of the Text Encoding Initiative. The `teiHeader` notably contains information about the digital and print sources of the materials. The text is marked up with basic textual structures, such as parts, chapters, headings and paragraphs. Front and back matter such as prefaces or notes have been marked-up as such. The XML-TEI files are valid against a schema which is available online and referenced in each file.  
+* All texts have been encoded according to the _Guidelines_ of the Text Encoding Initiative. The `teiHeader` notably contains information about the digital and print sources of the materials. The text is marked up with basic textual structures, such as parts, chapters, headings and paragraphs. Front and back matter such as prefaces or notes have been marked-up as such. The XML-TEI files are valid against a schema which is available online and referenced in each file. 
 * Each text has an identifier which corresponds to the filename of the XML-TEI file. Metadata has been collected about each novel and integrated into the teiHeader. The metadata table provided separatedly in the `metadata.csv` file contains a subset of these metadata for the researchers' convenience, with identifiers linking table and files. 
 * The plain text files in the "txt" folder have been automatically built from the XML-TEI files. They contain only the text body without front or back matter or notes and without any chapter headings. 
 * In case you notice errors of any kind in the text collection, please use the issue tracker here on GitHub to notify us. We will be glad to fix them.
+

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,15 +35,12 @@
                 </availability>
                 <date>2015</date>
                 <idno type="cligs">nh0033</idno>
-                <idno type="url"
-                    >https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0033.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/spanish/novela-hispanoamericana/tei/nh0033.xml</idno>
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source">
                     <seg rend="italic">Libro extraño. Tomo V. Hacia la justicia.</seg> Alicante:
-                    Biblioteca Virtual Miguel de Cervantes, <date>2000</date>, <ref
-                        target="http://www.cervantesvirtual.com/obra/libro-extrano-tomo-v-hacia-la-justicia--0/"
-                        >http://www.cervantesvirtual.com/obra/libro-extrano-tomo-v-hacia-la-justicia--0/</ref>. </bibl>
+                    Biblioteca Virtual Miguel de Cervantes, <date>2000</date>, <ref target="http://www.cervantesvirtual.com/obra/libro-extrano-tomo-v-hacia-la-justicia--0/">http://www.cervantesvirtual.com/obra/libro-extrano-tomo-v-hacia-la-justicia--0/</ref>. </bibl>
                 <bibl type="print-source">
                     <seg rend="italic">Libro extraño. Tomo V. Hacia la justicia.</seg> Buenos Aires:
                     Imprenta de M. Biedma, <date when="1902">1902</date>. </bibl>
@@ -88,20 +86,20 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-continent">America</term>
-                    <term type="author-country">Argentina</term>
-                    <term type="author-gender">male</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="genre-label"/>
-                    <term type="subgenre" subtype="2" resp="#uhk" cert="low">naturalistic</term>
-                    <term type="subgenre" subtype="1" resp="#uhk" cert="low">social</term>
-                    <term type="subgenre_tm" cert="low" resp="#uhk">novela político-social</term>
-                    <term type="form">prose</term>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="setting">urban</term>
-                    <term type="protagonist-gender" cert="low">other</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">America</term>
+                    <term type="author.country">Argentina</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Spanish</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title"/>
+                    <term type="text.subgenre" cligs:importance="2" resp="#uhk" cert="low">naturalistic</term>
+                    <term type="text.subgenre" cligs:importance="1" resp="#uhk" cert="low">social</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.setting.settlement.type">urban</term>
+                    <term type="text.characters.protagonist.gender">other</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -130,8 +128,7 @@
                     páginas, reflejo es de la hermosura de mi tierra y todo lo imperfecto que es lo
                     más, reflejo es de la imperfección humana, porque el instinto de arte tiene como
                     instrumento a la lira salvaje y descompuesta con esplendores intermitentes y
-                    sombras gigantescas. Por eso también la perfección es un <seg rend="italic"
-                        >desiderátum</seg> o tal vez una gloriosa megalomanía.</p>
+                    sombras gigantescas. Por eso también la perfección es un <seg rend="italic">desiderátum</seg> o tal vez una gloriosa megalomanía.</p>
                 <p>Tengo para mí que para llegar a ella los poetas debieran tragar el humus de los
                     campos, llenarse la boca del barro fecundo y escupirlo a chorros sobre las
                     páginas. Así crearían la selva, la maleza, la covacha de la fiera y el nido y
@@ -689,8 +686,7 @@
                     suburbio, el día entero en movimiento, rosadas las mejillas bajo el riego de la
                     rica sangre bermeja, vigorosos los músculos y calientes en las bruscas
                     atropelladas de los juegos infantiles. Mientras se oía la sierra dividir
-                    crujiendo la madera, ellos en la calle cubierta de polvo jugaban a la <seg
-                        rend="italic">rayuela</seg> y al <seg rend="italic">rescate</seg>. Después,
+                    crujiendo la madera, ellos en la calle cubierta de polvo jugaban a la <seg rend="italic">rayuela</seg> y al <seg rend="italic">rescate</seg>. Después,
                     entre las pandillas de distintos barrios, había sus enconos. Se formaban
                     batallones y se empeñaban verdaderos combates. Las piedras se cruzaban zumbando;
                     corría sangre entre los gritos, del odio; alguno caía con la frente partida. Eso
@@ -786,8 +782,7 @@
                     y del piso de ladrillo mana agua negra del pantano que hay en el subsuelo.
                     ¡Jipen no más, muéranse tuberculosos, bestias de carga, gusanos anónimos de
                     todas las naciones! ¡Con esa fría piel de sapo, con ese asco que da vuestro
-                    cuero calloso y hediondo encerraos melancólicos parias, destinados al <seg
-                        rend="italic">espoliarium</seg>! Antes estaba Dios para defender vuestros
+                    cuero calloso y hediondo encerraos melancólicos parias, destinados al <seg rend="italic">espoliarium</seg>! Antes estaba Dios para defender vuestros
                     amores, la alegre alma de los hijos y la casta religión de la compañera
                     arrodillada; pero hace tiempo que Él también está arrepentido de su divina obra.
                     Ya no tienen sol los trabajadores. Hace meses que el cielo de plomo quiebra sus
@@ -1295,8 +1290,7 @@
                     madrigales en el día apacible. Así los monumentos rotos sollozan en la intensa
                     paz de la noche que llega. Se oyen cantos de grillos, los mismos que ganaban los
                     huecos de las paredes cerca de la lumbre en las noches de invierno, mientras los
-                    monumentos sollozan en la intensa paz de la noche, que corona la frente del <seg
-                        rend="italic">Ángelus</seg> de las ruinas con las primeras estrellas. A flor
+                    monumentos sollozan en la intensa paz de la noche, que corona la frente del <seg rend="italic">Ángelus</seg> de las ruinas con las primeras estrellas. A flor
                     de suelo y entre el ramaje brillan las luciérnagas; saltan por todas partes las
                     chispas de luz. Ya no hay gorjeos. Los pájaros y las fieras duermen en el vasto
                     silencio. El alma salvaje de la maraña se ha acostado en la sombra, sobre los
@@ -1330,8 +1324,7 @@
                     sin fin, en la rica comarca entre el relincho, el retozar frenético de los
                     baguales y las carreras bravías del toro de erguida nuca y narices humeantes y
                     dilatadas. Tiene la sangre llena de fibrina y glóbulo rojo levantisco, la sangre
-                    férrea calentada en las lujurias de las praderas desiertas. Nace el <seg
-                        rend="italic">Vir</seg> de la ferocidad castellana engendrado en cepa
+                    férrea calentada en las lujurias de las praderas desiertas. Nace el <seg rend="italic">Vir</seg> de la ferocidad castellana engendrado en cepa
                     aborigen en plena naturaleza y los muchachos maman cuajada de pechos cobrizos de
                     nómadas tolderías. Domina el <seg rend="italic">Vir</seg> sólo el peligro de los
                     desamparos y se transforma en dueño del suelo, conquistado con el caballo y toma
@@ -4700,8 +4693,7 @@
                     iniciativas individuales? ¿Quieren ser hombres o qué quieren ser? ¿O acaso de
                     veinte siglos acá la humanidad no ha marchado? Quieren la tortura moral todavía;
                     ¡quieren el vasallaje de la altivez humana! ¡Sépanlo! ¡El inquisidor ha muerto;
-                    el hierro del potro ha sido fundido para la regeneración de pueblos! Esos <seg
-                        rend="italic">tatas</seg> se han concluido; ¡usen púrpura, o espada, o sean
+                    el hierro del potro ha sido fundido para la regeneración de pueblos! Esos <seg rend="italic">tatas</seg> se han concluido; ¡usen púrpura, o espada, o sean
                     caudillos desgreñados y melenudos! ¡El nigromante ha muerto! Las aguas lustrales
                     de las pilas marmóreas ya no curan! Los sueros empujan hacia la verdad
                     terapéutica y los creyentes del milagro, los pobres místicos, que arrastran a
@@ -4786,8 +4778,7 @@
                     gremios conozco yo, que ganan cinco pesos por día: ¡los grabadores, los yeseros
                     y los rayadores! Todos los demás están entre dos y tres. ¿Cómo pueden vivir con
                     familia, Elbio, pagar alquiler, vestirla, educarla y salvar el honor de la casa?
-                    ¿Sabes tú lo que pasa ahora? ¡Te va a dar miedo lo que te voy a decir! <seg
-                        rend="italic">Hay años, en que en esta ciudad, ha disminuido el consumo de
+                    ¿Sabes tú lo que pasa ahora? ¡Te va a dar miedo lo que te voy a decir! <seg rend="italic">Hay años, en que en esta ciudad, ha disminuido el consumo de
                         los alimentos, aunque hayan aumentado los habitantes</seg>. Eso quiere decir
                     que los obreros comen menos. Sufren hambre, porque no tienen plata. ¿Cómo va a
                     ser alegre la niñez, que no come y fuertes los trabajadores; cómo van a ser

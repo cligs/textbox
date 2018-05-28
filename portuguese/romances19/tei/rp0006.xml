@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,12 +39,15 @@
                     >https://raw.githubusercontent.com/cligs/textbox/master/portuguese/romances19/tei/rp0006.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "Uma Familia Ingleza. Scenas da Vida do Porto." <seg
+                <bibl type="digital-source">
+                    Dinis, Júlio.
+                    "Uma Familia Ingleza. Scenas da Vida do Porto." <seg
                         rend="italic">The Project Gutenberg</seg>, <date when="2005-08-05">August 5,
                         2005</date>, EBook <idno>16443</idno>, <ref
                         target="http://www.gutenberg.org/ebooks/16443"
                         >http://www.gutenberg.org/ebooks/16443</ref>. </bibl>
                 <bibl type="print-source">
+                    Dinis, Júlio.
                     <seg rend="italic">Uma Familia Ingleza. Scenas da Vida do Porto.</seg> Porto: A.
                     R. da Cruz Coutinho, <date when="1875">1875</date>. </bibl>
                 <bibl type="edition-first">
@@ -78,21 +82,18 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" subtype="2" resp="#uhk" cert="low">sentimental</term>
-                    <term type="subgenre" subtype="1" resp="#uhk" cert="low">social</term>
-                    <term type="subgenre_x" resp="#uhk" cert="low">sentimental</term>
-                    <term type="subgenre_hist" resp="#uhk">not_historical</term>
-                    <term type="genre-subtitle">Scenas da Vida do Porto</term>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Portugal</term>
-                    <term type="language">Portuguese</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Portugal</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Portuguese</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="2" cert="low">sentimental</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="1" cert="low">social</term>
+                    <term type="text.genre.subgenre.title">Scenas da Vida do Porto</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
                 </keywords>
             </textClass>
         </profileDesc>

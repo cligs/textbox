@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
          <titleStmt>
             <title type="main">Liberalità di Messer Bertramo D’Aquino</title>
             <title type="short">Liberalita</title>
@@ -29,43 +30,36 @@
             <idno type="url">https://raw.githubusercontent.com/cligs/textbox/master/italian/short19-20/tei/it0027.xml</idno>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="digital-source"> "Liberalità di Messer Bertramo D’Aquino." <seg
-                  rend="italic">Parvenze e semblanze.</seg> Project Gutenberg, <idno>37819</idno>,
-                  <date when="2011-10-22">October 22, 2011</date>, <ref
-                  target="http://www.gutenberg.org/ebooks/37819"
-                  >http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
-            <bibl type="print-source"> "Liberalità di Messer Bertramo D’Aquino." <seg rend="italic"
-                  >Parvenze e semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date when="1892"
-                  >1892</date>. </bibl>
+            <bibl type="digital-source"> "Liberalità di Messer Bertramo D’Aquino." <seg rend="italic">Parvenze e semblanze.</seg> Project Gutenberg, <idno>37819</idno>,
+                  <date when="2011-10-22">October 22, 2011</date>, <ref target="http://www.gutenberg.org/ebooks/37819">http://www.gutenberg.org/ebooks/37819</ref>. </bibl>
+            <bibl type="print-source"> "Liberalità di Messer Bertramo D’Aquino." <seg rend="italic">Parvenze e semblanze.</seg> Bologna: Ditta Nicola Zanichelli. <date when="1892">1892</date>. </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
+        <encodingDesc>
          <p/>
       </encodingDesc>
-      <profileDesc>
-         <abstract>
+        <profileDesc>
+            <abstract>
             <p/>
          </abstract>
-         <textClass>
-            <keywords scheme="keywords.csv">
-               <term type="author-gender">male</term>
-               <term type="author-continent">Europe</term>
-               <term type="author-country">Italy</term>
-               <term type="language">Italian</term>
-
-               <term type="form">prose</term>
-               <term type="supergenre">narrative</term>
-               <term type="genre">short story</term>
-               <term type="genre-title"/>
-               <term type="subgenre-title"/>
-            </keywords>
-         </textClass>
-      </profileDesc>
-      <revisionDesc>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title"/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
          <change when="2017-11-25" who="#uhk">Initial TEI version.</change>
       </revisionDesc>
-   </teiHeader>
-   <text>
+    </teiHeader>
+    <text>
       <body>
          <div>
             <head>Liberalità di Messer Bertramo D’Aquino</head>

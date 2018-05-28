@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Keywords</title>
+			</titleStmt>
+			<publicationStmt>
+				<p>Publication Information</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>Information about the source</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<classDecl>
+				<taxonomy xml:id="keywords">
+
+					<!-- ### author ### -->
+					<category xml:id="author">
+						<catDesc>author</catDesc>
+
+						<category xml:id="author.continent">
+							<catDesc>author.continent</catDesc>
+							<category xml:id="author.continent_1">
+								<catDesc>Europe</catDesc>
+							</category>
+							<category xml:id="author.continent_2">
+								<catDesc>America</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.country">
+							<catDesc>author.country</catDesc>
+							<category xml:id="author.country_1">
+								<catDesc>France</catDesc>
+							</category>
+						</category>
+
+						<category xml:id="author.gender" n="nominal">
+							<catDesc>author.gender</catDesc>
+							<category xml:id="author.gender_1">
+								<catDesc>male</catDesc>
+							</category>
+							<category xml:id="author.gender_2">
+								<catDesc>female</catDesc>
+							</category>
+						</category>
+
+					</category>
+					
+					<category xml:id="text">
+						<catDesc>text</catDesc>
+
+
+						<category xml:id="text.form">
+							<catDesc>text.form</catDesc>
+							<category xml:id="text.form_1">
+								<catDesc>prose</catDesc>
+							</category>
+
+						</category>
+
+						
+
+					
+					
+
+
+					<!-- ### genre ### -->
+					<category xml:id="text.genre" n="nominal">
+						<catDesc>text.genre</catDesc>
+
+						<category xml:id="text.genre_1">
+							<catDesc>novel</catDesc>
+						</category>
+
+						<category xml:id="text.genre.subtitle" n="nominal">
+							<catDesc>text.genre.label</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+
+						<category xml:id="text.genre.supergenre" n="nominal">
+							<catDesc>text.genre.supergenre</catDesc>
+							<category xml:id="text.genre.supergenre_1">
+								<catDesc>narrative</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_2">
+								<catDesc>drama</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_3">
+								<catDesc>non-fiction</catDesc>
+							</category>
+							<category xml:id="text.genre.supergenre_4">
+								<catDesc>mixed</catDesc>
+							</category>
+
+						</category>
+
+						<category xml:id="text.genre.lithist" n="nominal">
+							<catDesc>text.genre.lithist</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+						<category xml:id="text.genre.subgenre.edit" n="nominal">
+							<catDesc>text.genre.lithist</catDesc>
+							<!-- offene Kategorie -->
+						</category>
+
+
+						<category xml:id="text.genre.subgenre.litHist" n="nominal">
+							<catDesc>text.text.genre.subgenre.litHist</catDesc>
+							<category xml:id="text.genre.subgenre.ownAnno_01">
+								<catDesc>adventure</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_02">
+								<catDesc>erotic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_03">
+								<catDesc>fantastic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_04">
+								<catDesc>naturalist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_05">
+								<catDesc>modernist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_06">
+								<catDesc>realist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_07">
+								<catDesc>sentimental</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_08">
+								<catDesc>social</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_09">
+								<catDesc>spiritual</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_10">
+								<catDesc>historical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_11">
+								<catDesc>anti-religious</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_12">
+								<catDesc>comedy</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_13">
+								<catDesc>philosophical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_14">
+								<catDesc>memoir</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_15">
+								<catDesc>moralist</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_16">
+								<catDesc>symbolic</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_17">
+								<catDesc>political fiction</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_18">
+								<catDesc>bildungsroman</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_19">
+								<catDesc>war-novel</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_20">
+								<catDesc>autobiographical</catDesc>
+							</category>
+							<category xml:id="text.genre.subgenre.ownAnno_21">
+								<catDesc>dialogue</catDesc>
+							</category>
+
+						</category>
+					</category>
+
+					<!-- ### narration ### -->
+					<category xml:id="text.narration">
+						<catDesc>text.narration</catDesc>
+
+						<category xml:id="text.narration.narrator" n="nominal">
+							<catDesc>text.narration.narrator</catDesc>
+							<category xml:id="text.narration.narrator_1">
+								<catDesc>heterodiegetic</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_2">
+								<catDesc>autodiegetic</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_3">
+								<catDesc>homodiegetic</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_4">
+								<catDesc>epistolary</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_5">
+								<catDesc>dialogue</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_6">
+								<catDesc>mixed</catDesc>
+							</category>
+							<category xml:id="text.narration.narrator_7">
+								<catDesc>other</catDesc>
+							</category>
+						</category>
+					</category>
+
+					<!-- ### characters ### -->
+					<category xml:id="text.characters">
+						<catDesc>text.characters</catDesc>
+
+						<category xml:id="text.characters.protagonist">
+							<catDesc>text.characters.protagonist</catDesc>
+
+							<category xml:id="text.characters.protagonist.name">
+								<catDesc>text.characters.protagonist.name</catDesc>
+							</category>
+
+							<category xml:id="text.characters.protagonist.profession">
+								<catDesc>text.characters.protagonist.profession</catDesc>
+							</category>
+
+							<category xml:id="text.characters.protagonist.age">
+								<catDesc>text.characters.protagonist.age</catDesc>
+								<category xml:id="text.characters.protagonist.age_1" n="2">
+									<catDesc>adult</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_2" n="0">
+									<catDesc>child</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_3" n="1">
+									<catDesc>young</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_4" n="3">
+									<catDesc>mature</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_5" n="-">
+									<catDesc>?</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_6" n="-">
+									<catDesc>other</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.age_7" n="-">
+									<catDesc>unknown</catDesc>
+								</category>
+							</category>
+
+							<category xml:id="text.characters.protagonist.gender">
+								<catDesc>text.characters.protagonist.gender</catDesc>
+								<category xml:id="text.characters.protagonist.gender_1">
+									<catDesc>male</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.gender_2">
+									<catDesc>female</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.gender_3">
+									<catDesc>mixed</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.gender_4">
+									<catDesc>other</catDesc>
+								</category>
+							</category>
+
+							<category xml:id="text.characters.protagonist.socLevel">
+								<catDesc>text.characters.protagonist.socLevel</catDesc>
+								<category xml:id="text.characters.protagonist.socLevel_1" n="1">
+									<catDesc>medium</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_2" n="0">
+									<catDesc>low</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_3" n="2">
+									<catDesc>high</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_4" n="-">
+									<catDesc>?</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_5" n="-">
+									<catDesc>other</catDesc>
+								</category>
+								<category xml:id="text.characters.protagonist.socLevel_6" n="-">
+									<catDesc>unknown</catDesc>
+								</category>
+							</category>
+						</category>
+					</category>
+						
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>

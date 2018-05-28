@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">La de Bringas</title>
 				<title type="sub"></title>
 				<title type="short">Bringas</title>
-				<title type="idno"><idno type="viaf">202076999</idno></title>
+				<title type="idno">
+					<idno type="bne">XX2316482</idno>
+					<idno type="viaf">202076999</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1014802</idno>
 					<idno type="viaf">71395987 </idno>
 					<name type="short">Galdos</name>
 					<name type="full">Benito Pérez Galdós</name>
@@ -16,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">1028</measure>
-				<measure unit="divs">50</measure>
-				<measure unit="words">71557</measure>
-				<measure unit="chars">413869</measure>
-				<measure unit="size_kb">438</measure>
+				<measure unit="lines">1034</measure>
+				<measure unit="divs">51</measure>
+				<measure unit="tokens">71567</measure>
+				<measure unit="chars">414102</measure>
+				<measure unit="size_kb">440</measure>
 
 				<measure unit="chapters">50</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">0</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">895</measure> 
-				<measure unit="line_verses">0</measure> 
+				<measure unit="blocks">897</measure> 
+				<measure unit="lg.poems">0</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">0</measure> 
 				<measure unit="heads">50</measure> 
 				<measure unit="stages">20</measure> 
 				<measure unit="sps">21</measure> 
-				<measure unit="paragraphs">804</measure> 
+				<measure unit="paragraphs">806</measure> 
 				<measure unit="abs">0</measure> 
-				<measure unit="floatingTexts">0</measure>
-				<measure unit="paragraphs_ds">377</measure> 
-				<measure unit="numbers">70</measure> 
-				<measure unit="puncts">15604</measure>
+				<measure unit="fts">0</measure>
+				<measure unit="paragraphs.ds">377</measure>
+				<measure unit="saids">505</measure>
+				<measure unit="narrative.ps">429</measure>
+				<measure unit="ss">3949</measure> 
+				<measure unit="numbers">71</measure> 
+				<measure unit="puncts">15461</measure> 
+				<measure unit="len.abstract">569</measure>
+
+				<measure unit="types">12186</measure>
+
+				<measure unit="ss">2812</measure>
+				<measure unit="ss.len.mean">151.12091038406828</measure>
+				<measure unit="ss.len.std">113.8922322755734</measure>
+				<measure unit="mean.ss.active.verbs">2.400782361308677</measure>
+				<measure unit="std.ss.active.verbs">1.9786662928080752</measure>
+
+				<measure unit="ws">84568</measure>
+				<measure unit="ws.len.mean">4.058225333459465</measure>
+				<measure unit="ws.len.std">2.914809285148479</measure>
+
+				<measure unit="conjunctions">5215</measure>
+				<measure unit="determiners">11175</measure>
+				<measure unit="nouns">15613</measure>
+				<measure unit="verbs">13177</measure>
+				<measure unit="adverbs">4333</measure>
+				<measure unit="adjectives">3902</measure>
+				<measure unit="adpositions">10465</measure>
+				<measure unit="punctuations">12746</measure>
+				<measure unit="pronouns">7292</measure>
+				<measure unit="dates">83</measure>
+				<measure unit="numbers">421</measure>
+				<measure unit="interjections">146</measure>
+
+				<measure unit="ne.persons">1347</measure>
+				<measure unit="ne.organizations">333</measure>
+				<measure unit="ne.locations">497</measure>
+				<measure unit="ne.others">121</measure>
+
+				<measure unit="wnlex.noun.plants">76</measure>
+				<measure unit="wnlex.verb.communications">1240</measure>
+				<measure unit="wnlex.noun.foods">161</measure>
+				<measure unit="wnlex.verb.possessions">665</measure>
+				<measure unit="wnlex.verb.cognitions">818</measure>
+				<measure unit="wnlex.noun.communications">853</measure>
+				<measure unit="wnlex.noun.states">525</measure>
+				<measure unit="wnlex.verb.statives">3318</measure>
+				<measure unit="wnlex.noun.cognitions">894</measure>
+				<measure unit="wnlex.noun.times">649</measure>
+				<measure unit="wnlex.verb.bodys">598</measure>
+				<measure unit="wnlex.noun.persons">1684</measure>
+				<measure unit="wnlex.adj.alls">2750</measure>
+				<measure unit="wnlex.noun.quantitys">88</measure>
+				<measure unit="wnlex.noun.phenomenons">129</measure>
+				<measure unit="wnlex.verb.creations">565</measure>
+				<measure unit="wnlex.adj.perts">130</measure>
+				<measure unit="wnlex.adv.alls">1519</measure>
+				<measure unit="wnlex.noun.processs">27</measure>
+				<measure unit="wnlex.noun.artifacts">1859</measure>
+				<measure unit="wnlex.verb.perceptions">598</measure>
+				<measure unit="wnlex.noun.feelings">297</measure>
+				<measure unit="wnlex.verb.weathers">26</measure>
+				<measure unit="wnlex.noun.substances">213</measure>
+				<measure unit="wnlex.noun.shapes">34</measure>
+				<measure unit="wnlex.verb.competitions">91</measure>
+				<measure unit="wnlex.verb.motions">1018</measure>
+				<measure unit="wnlex.noun.animals">245</measure>
+				<measure unit="wnlex.noun.acts">977</measure>
+				<measure unit="wnlex.noun.bodys">587</measure>
+				<measure unit="wnlex.noun.objects">146</measure>
+				<measure unit="wnlex.noun.motives">25</measure>
+				<measure unit="wnlex.verb.socials">835</measure>
+				<measure unit="wnlex.noun.groups">436</measure>
+				<measure unit="wnlex.verb.consumptions">150</measure>
+				<measure unit="wnlex.noun.possessions">280</measure>
+				<measure unit="wnlex.noun.Topss">228</measure>
+				<measure unit="wnlex.noun.relations">20</measure>
+				<measure unit="wnlex.noun.attributes">792</measure>
+				<measure unit="wnlex.verb.emotions">377</measure>
+				<measure unit="wnlex.noun.locations">345</measure>
+				<measure unit="wnlex.noun.events">346</measure>
+				<measure unit="wnlex.verb.contacts">626</measure>
+				<measure unit="wnlex.xxxs">56640</measure>
+				<measure unit="wnlex.verb.changes">688</measure>
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
@@ -61,54 +148,56 @@
 				<p>Rosalía Pipaón, esposa de Francisco de Bringas (alias Thiers) ha logrado su sueño y ahora vive en el Palacio Real de Madrid, al servicio de la reina Isabel II con la que tiene ciertas semejanzas tanto físicas como psicológicas (del mismo modo que su marido con don Francisco de Asís, consorte de la reina). Con sus aspiraciones sociales conseguidas, no puede evitar embarcarse en una serie de gastos para poder mantener el nivel de la clase que la rodea, excesos que va acumulando sin que se entere su marido, hasta que las deudas acumuladas la lleven a prostituirse.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subsubgenre"></term>
-					<term type="subgenre" subtype="1">naturalist</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre-lithist" cert="low" subtype="2">novela naturalista</term>
-					<term type="narrative-perspective" cert="low" >heterodiegetic</term>
-					<term type="setting">big-city</term>
-					<term type="protagonist-gender">female</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1843</term>
-					<term type="author-date-death">1920</term>
-					<term type="author-TOC-range" resp="MdL7">8</term>
-					<term type="author-histlit-pages" resp="MdL7">181</term>
-					<term type="author-movement">realism</term>
-					<term type="author-submovement">realista</term>
-					<term type="author-non-novel-genre">theatre</term>
-					<term type="author-year-change">1889</term>
-					
-
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">Madrid</term>
-					<term type="setting-territory">Castilla</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Rosalía Pipaón (la de Bringas)</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low" >365</term>
-					<term type="group-text">Novelas contemporáneas</term>
-					
-					<term type="protagonist-profession">housewife</term>
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">adult</term>
-					<term type="type-end">negative</term>
-					<term type="text-movement">naturalista</term>
-					<term type="text-histlit-pages">2.0</term>
-					<term type="text-TOC-range">5</term>
-</keywords>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL7">8</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1843</term>
+					<term type="author.date.death">1920</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL7">181</term>
+					<term type="author.movement">realism</term>
+					<term type="author.nonNovelGenre">theatre</term>
+					<term type="author.submovement">realista</term>
+					<term type="author.year.change">1889</term>
+					<term type="authorText.group">Novelas contemporáneas</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">adult</term>
+					<term type="text.characters.protagonist.gender">female</term>
+					<term type="text.characters.protagonist.name">Rosalía Pipaón (la de Bringas)</term>
+					<term type="text.characters.protagonist.profession">housewife</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="amazon">Antologías; Ficción clásica, Ficción contemporánea; Ficción clásica; Ficción clásica, Ficción contemporánea ; Antologías, Antologías; Antologías</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Realista</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">naturalist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela naturalista</term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">5</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE7">2.0</term>
+					<term type="text.movement">naturalista</term>
+					<term type="text.narration.narrator" cert="low" >heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Madrid</term>
+					<term type="text.setting.settlement">Madrid</term>
+					<term type="text.setting.settlement.represented.exist">True</term>
+					<term type="text.setting.settlement.type">big-city</term>
+					<term type="text.setting.territory">Castilla</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low" >365</term>
+				</keywords>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>

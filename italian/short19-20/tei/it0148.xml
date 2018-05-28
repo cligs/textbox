@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,13 +31,9 @@
             </publicationStmt>
             <sourceDesc>
                 <bibl type="digital-source"> "L‘ideale." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date
-                        when="2013-05-13">May 13, 2013</date>, <ref
-                        target="http://www.gutenberg.org/ebooks/42698"
-                        >http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
+                        Novelle.</seg> Project Gutenberg, <idno>42698</idno>, <date when="2013-05-13">May 13, 2013</date>, <ref target="http://www.gutenberg.org/ebooks/42698">http://www.gutenberg.org/ebooks/42698</ref>. </bibl>
                 <bibl type="print-source"> "L‘ideale." <seg rend="italic">Eh! La vita…
-                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date
-                        when="1913">1913</date>. </bibl>
+                        Novelle.</seg> Seconda edizione. Milano: Società Anonima Editoriale. <date when="1913">1913</date>. </bibl>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -47,16 +44,15 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Italy</term>
-                    <term type="language">Italian</term>
-
-                    <term type="form">prose</term>
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">short story</term>
-                    <term type="genre-title">novella</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Italian</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">short story</term>
+                    <term type="text.genre.title">novella</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -168,8 +164,7 @@
                     perchè lui, di carattere vivace, non poteva affatto capire che si potesse essere
                     timidi fino a quell'eccesso.</p>
                 <p>Aveva notato, è vero, da qualche tempo in qua che la corsa di Alberto a
-                    l'inseguimento dell'Ideale non era più, come prima, una specie di <seg
-                        rend="italic">sport</seg>, con lunghe intermittenze di riposo e di ristoro;
+                    l'inseguimento dell'Ideale non era più, come prima, una specie di <seg rend="italic">sport</seg>, con lunghe intermittenze di riposo e di ristoro;
                     ma continua, celere e, in certi giorni, quasi affannosa. E questo gli sembrava
                     buon segno, da un lato. Dall'altro però gli faceva sospettare che Alberto gli
                     nascondesse qualcosa, un segreto doloroso, del quale avrebbe voluto sbarazzarsi,
@@ -333,13 +328,11 @@
                 <p>Alberto Coscia si alzò da letto già guarito dalla ferita al fianco, e dalla
                     malattia dell'Ideale. Il tentativo del suicidio aveva impedito all'avvocato di
                     eseguire l'incarico avuto; e proprio in quei giorni la bionda creatura dagli
-                    occhi sognanti si lasciava rapire da un galante <seg rend="italic"
-                        >chauffeur</seg>.</p>
+                    occhi sognanti si lasciava rapire da un galante <seg rend="italic">chauffeur</seg>.</p>
                 <p>Alberto non ne fu scosso. Disse soltanto:</p>
                 <p>— Infine, non è gran male l'aver sognato tanti anni!</p>
                 <p>Il giorno delle sue nozze con una buona e modesta signorina propostagli
-                    dall'avvocato, Rocchi fece all'amico il regalo di un simbolico quadro: <seg
-                        rend="italic">L'Ideale</seg>: Dalla cresta d'un caminetto che si scorgeva
+                    dall'avvocato, Rocchi fece all'amico il regalo di un simbolico quadro: <seg rend="italic">L'Ideale</seg>: Dalla cresta d'un caminetto che si scorgeva
                     appena, in basso, salivano larghe ondate di denso fumo che dileguavano
                     disperdendosi in fondo, lontano, su la vasta campagna illuminata dal sole.</p>
             </div>

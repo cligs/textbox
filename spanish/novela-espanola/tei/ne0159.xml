@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -8,8 +9,11 @@
 				<title type="sub">Vida arcaica, feliz e independiente de un español representativo</title>
 				<title type="short">Jarrapellejos</title>
 				<title type="idno">
-					<idno type="viaf">176994003</idno></title>
+					<idno type="bne">XX2962019</idno>
+					<idno type="viaf">176994003</idno>
+				</title>
 				<author>
+					<idno type="bne">XX1051062</idno>
 					<idno type="viaf">79060694</idno>
 					<name type="short">Trigo</name>
 					<name type="full">Felipe Trigo</name>
@@ -17,28 +21,110 @@
 				<principal xml:id="jct">José Calvo Tello</principal>
 			</titleStmt>
 			<extent>
-				<measure unit="lines">2084</measure>
-				<measure unit="divs">18</measure>
-				<measure unit="words">110064</measure>
-				<measure unit="chars">645334</measure>
-				<measure unit="size_kb">690</measure>
+				<measure unit="lines">2098</measure>
+				<measure unit="divs">20</measure>
+				<measure unit="tokens">110476</measure>
+				<measure unit="chars">647736</measure>
+				<measure unit="size_kb">691</measure>
 
 				<measure unit="chapters">17</measure>
-				<measure unit="short-stories">0</measure>
+				<measure unit="shortStories">0</measure>
 				<measure unit="parts">0</measure>
 				<measure unit="sections">1</measure>
 				<measure unit="divisions">0</measure> 
-				<measure unit="blocks">1999</measure> 
-				<measure unit="line_verses">29</measure> 
-				<measure unit="heads">17</measure> 
+				<measure unit="blocks">2006</measure> 
+				<measure unit="lg.poems">4</measure> 
+				<measure unit="lg.stanzas">0</measure> 
+				<measure unit="line.verses">29</measure> 
+				<measure unit="heads">18</measure> 
 				<measure unit="stages">0</measure> 
 				<measure unit="sps">0</measure> 
-				<measure unit="paragraphs">1952</measure> 
-				<measure unit="abs">1</measure> 
-				<measure unit="floatingTexts">1</measure>
-				<measure unit="paragraphs_ds">949</measure> 
+				<measure unit="paragraphs">1957</measure> 
+				<measure unit="abs">2</measure> 
+				<measure unit="fts">1</measure>
+				<measure unit="paragraphs.ds">938</measure>
+				<measure unit="saids">1050</measure>
+				<measure unit="narrative.ps">1019</measure>
+				<measure unit="ss">5691</measure> 
 				<measure unit="numbers">42</measure> 
-				<measure unit="puncts">30073</measure>
+				<measure unit="puncts">30156</measure> 
+				<measure unit="len.abstract">1833</measure>
+
+				<measure unit="types">17578</measure>
+
+				<measure unit="ss">4047</measure>
+				<measure unit="ss.len.mean">166.48628613787992</measure>
+				<measure unit="ss.len.std">192.5552667697796</measure>
+				<measure unit="mean.ss.active.verbs">1.9490980973560663</measure>
+				<measure unit="std.ss.active.verbs">2.25129423326851</measure>
+
+				<measure unit="ws">137158</measure>
+				<measure unit="ws.len.mean">3.9418699601918954</measure>
+				<measure unit="ws.len.std">3.0368231655185283</measure>
+
+				<measure unit="conjunctions">7761</measure>
+				<measure unit="determiners">17619</measure>
+				<measure unit="nouns">26255</measure>
+				<measure unit="verbs">17232</measure>
+				<measure unit="adverbs">6033</measure>
+				<measure unit="adjectives">6668</measure>
+				<measure unit="adpositions">18398</measure>
+				<measure unit="punctuations">26230</measure>
+				<measure unit="pronouns">9496</measure>
+				<measure unit="dates">162</measure>
+				<measure unit="numbers">757</measure>
+				<measure unit="interjections">547</measure>
+
+				<measure unit="ne.persons">2672</measure>
+				<measure unit="ne.organizations">947</measure>
+				<measure unit="ne.locations">1019</measure>
+				<measure unit="ne.others">264</measure>
+
+				<measure unit="wnlex.noun.plants">129</measure>
+				<measure unit="wnlex.verb.communications">1279</measure>
+				<measure unit="wnlex.noun.foods">397</measure>
+				<measure unit="wnlex.verb.possessions">727</measure>
+				<measure unit="wnlex.verb.cognitions">1045</measure>
+				<measure unit="wnlex.noun.communications">1308</measure>
+				<measure unit="wnlex.noun.states">688</measure>
+				<measure unit="wnlex.verb.statives">3551</measure>
+				<measure unit="wnlex.noun.cognitions">1101</measure>
+				<measure unit="wnlex.noun.times">692</measure>
+				<measure unit="wnlex.verb.bodys">620</measure>
+				<measure unit="wnlex.noun.persons">3491</measure>
+				<measure unit="wnlex.adj.alls">4410</measure>
+				<measure unit="wnlex.noun.quantitys">115</measure>
+				<measure unit="wnlex.noun.phenomenons">187</measure>
+				<measure unit="wnlex.verb.creations">625</measure>
+				<measure unit="wnlex.adj.perts">250</measure>
+				<measure unit="wnlex.adv.alls">1972</measure>
+				<measure unit="wnlex.noun.processs">50</measure>
+				<measure unit="wnlex.noun.artifacts">2436</measure>
+				<measure unit="wnlex.verb.perceptions">695</measure>
+				<measure unit="wnlex.noun.feelings">551</measure>
+				<measure unit="wnlex.verb.weathers">58</measure>
+				<measure unit="wnlex.noun.substances">235</measure>
+				<measure unit="wnlex.noun.shapes">50</measure>
+				<measure unit="wnlex.verb.competitions">158</measure>
+				<measure unit="wnlex.verb.motions">1536</measure>
+				<measure unit="wnlex.noun.animals">525</measure>
+				<measure unit="wnlex.noun.acts">1734</measure>
+				<measure unit="wnlex.noun.bodys">889</measure>
+				<measure unit="wnlex.noun.objects">323</measure>
+				<measure unit="wnlex.noun.motives">45</measure>
+				<measure unit="wnlex.verb.socials">1193</measure>
+				<measure unit="wnlex.noun.groups">824</measure>
+				<measure unit="wnlex.verb.consumptions">242</measure>
+				<measure unit="wnlex.noun.possessions">176</measure>
+				<measure unit="wnlex.noun.Topss">214</measure>
+				<measure unit="wnlex.noun.relations">33</measure>
+				<measure unit="wnlex.noun.attributes">1129</measure>
+				<measure unit="wnlex.verb.emotions">458</measure>
+				<measure unit="wnlex.noun.locations">455</measure>
+				<measure unit="wnlex.noun.events">514</measure>
+				<measure unit="wnlex.verb.contacts">776</measure>
+				<measure unit="wnlex.xxxs">98416</measure>
+				<measure unit="wnlex.verb.changes">855</measure>
 			</extent>
 			<publicationStmt>
                 <publisher>CLiGS</publisher>
@@ -66,59 +152,59 @@
 				<p>La obra es totalmente pesimista respecto a las posibilidades de regeneración del país y el final no puede ser más sangrante. Se cierra con un episodio de novela policíaca. La bella Isabel es asesinada brutalmente por unos señoritos viciosos que intentan violarla; entre ellos está el sobrino de Jarrapellejos. Descubierta su culpabilidad, no solo queda impune el crimen, sino que el cacique les premia con sendos cargos de responsabilidad.</p>
 			</abstract>
 			<textClass>
-				<keywords scheme="keywords.csv" cert="medium">
-					<term type="author-continent">Europe</term>
-					<term type="author-country">Spain</term>
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre-lithist">novela de crítica social</term>
-					<term type="subsubgenre"></term>
-					<term type="genre-label"></term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="setting">rural</term>
-					<term type="protagonist-gender">male</term>
-					<term type="publication">book</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="author-date-birth">1864</term>
-					<term type="author-date-death">1916</term>
-					<term type="author-TOC-range" resp="MdL9">7</term>
-					<term type="author-histlit-pages" resp="MdL9">13</term>
-					<term type="author-movement">modernism</term>
-					<term type="author-submovement">2-modernista</term>
-					<term type="author-non-novel-genre">short-stories</term>
-					<term type="author-year-change">0</term>
-					
-
-					<term type="subgenre" subtype="1">social</term>
-					<term type="subgenre" subtype="2">realist</term>
-					<term type="subgenre" subtype="1">moralist</term>
-					<term type="subgenre" subtype="1">philosophical</term>
-					<term type="subgenre" subtype="1">erotic</term>
-					
-					<term type="narrator">third-person</term>
-					<term type="setting-type">land</term>
-					<term type="setting-name">La Joya</term>
-					<term type="setting-territory">Extremadura</term>
-					<term type="setting-country">Spain</term>
-					<term type="setting-continent">Europe</term>
-					
-					<term type="representation">realistic</term>
-					<term type="protagonist-name">Octavio Cidoncha</term>
-					<term type="protagonist-profession">?</term>
-					<term type="protagonist-social-level">medium</term>
-					<term type="time-period">contemporary</term>
-					<term type="time-span" cert="low">365</term>
-					<term type="group-text">novelas de crítica social</term>
-					
-					<term type="author-text-relation">none</term>
-					<term type="protagonist-age">young</term>
-					<term type="type-end">negative</term>
-					
-					<term type="quality-lithist">high</term>
-					<term type="text-movement">modernista</term>
-					<term type="text-histlit-pages">1.0</term>
-					<term type="text-TOC-range">4</term>
+				<keywords scheme="keywords.xml" cert="medium">
+					<term type="author.TOC.range" resp="MdL9">7</term>
+					<term type="author.continent">Europe</term>
+					<term type="author.country">Spain</term>
+					<term type="author.date.birth">1864</term>
+					<term type="author.date.death">1916</term>
+					<term type="author.gender">male</term>
+					<term type="author.litHist.pages" resp="MdL9">13</term>
+					<term type="author.movement">modernism</term>
+					<term type="author.nonNovelGenre">short-stories</term>
+					<term type="author.submovement">2-modernista</term>
+					<term type="author.year.change">0</term>
+					<term type="authorText.group">novelas de crítica social</term>
+					<term type="authorText.relation">none</term>
+					<term type="text.characters.protagonist.age">young</term>
+					<term type="text.characters.protagonist.gender">male</term>
+					<term type="text.characters.protagonist.name">Octavio Cidoncha</term>
+					<term type="text.characters.protagonist.profession">?</term>
+					<term type="text.characters.protagonist.socLevel">medium</term>
+					<term type="text.corpora.CoNSSA">True</term>
+					<term type="text.corpora.CoNSSA.canon">True</term>
+					<term type="text.form">prose</term>
+					<term type="text.genre">novela</term>
+					<term type="text.genre.subgenre.edit" resp="epublibre">Drama, Realista</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">erotic</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">moralist</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">philosophical</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="1">social</term>
+					<term type="text.genre.subgenre.litHist" resp="#jct" cligs:importance="2">realist</term>
+					<term type="text.genre.subgenre.litHist" resp="HdLE">novela caciquil</term>
+					<term type="text.genre.subgenre.litHist" resp="MdLE">novela de crítica social</term>
+					<term type="text.genre.subtitle"></term>
+					<term type="text.genre.supergenre">narrative</term>
+					<term type="text.language">Spanish</term>
+					<term type="text.litHist.ToC">4</term>
+					<term type="text.litHist.mentioned" resp="HdLE">True</term>
+					<term type="text.litHist.mentioned" resp="MdLE">True</term>
+					<term type="text.litHist.pages" resp="MdLE9">1.0</term>
+					<term type="text.litHist.quality">high</term>
+					<term type="text.movement">modernista</term>
+					<term type="text.narration.narrator">heterodiegetic</term>
+					<term type="text.plot.end">negative</term>
+					<term type="text.plot.representation">realistic</term>
+					<term type="text.publication">book</term>
+					<term type="text.setting.continent">Europe</term>
+					<term type="text.setting.country">Spain</term>
+					<term type="text.setting.represented">Extremadura</term>
+					<term type="text.setting.settlement">La Joya</term>
+					<term type="text.setting.settlement.represented.exist">False</term>
+					<term type="text.setting.settlement.type">rural</term>
+					<term type="text.setting.territory">Extremadura</term>
+					<term type="text.time.period">contemporary</term>
+					<term type="text.time.span" cert="low">365</term>
 				</keywords>
 			</textClass>
 		</profileDesc>
@@ -564,7 +650,7 @@
 <head>- V -</head>
 <p>Octavio le había dicho una vez a su amigo el profesor: «Aunque te parezca mentira, hay en este pueblo, tan groseramente sensual, una especie de academia de poetas.» Y así era cierto. Desde antiguo, en el viejo salón artesonado con maderas negras, de don Pedro Luis, reuníanse los poetas los jueves por la tarde.</p>
 <p>Jueves, hoy, don Pedro Luis, acompañado por el médico Barriga y por el juez, había llegado de una boda, cuando ya los otros vates aguardaban. Boda popular, de rumbo, gracias a la simpática protección que le dispensaba al Gato el señorío, Barriga venía con unas migajas de pestiños en la barba y un poco alegrito de aguardiente. Versos de Gabriel y Galán leía Sidoro idílicamente conmovido; y puesto que el nombre y los libros de Gabriel y Galán formaban el evangelio del cenáculo, dejáronle leer, entrando los tres (Barriga tropezó) religiosamente de puntillas.</p>
-<lg>
+<lg type="poem">
 <l> «Labriego, ¿vas a la arada?</l>
 <l> Pues dudo que haya otoñada</l>
 <l> más grata y más placentera</l>
@@ -581,7 +667,7 @@
 <p>Sabíanse las divinas estrofas de memoria, como los salmos de un rito, y siempre producíanles los mismos entusiasmos. Cordón lloraba de ternura. Don Pedro Luis Jarrapellejos exclamó una vez más lo que había exclamado tantas veces:</p>
 <p>-¡Ah, señores! ¡Qué gratas para el alma estas reuniones, que la purifican y la templan contra todas las durezas del vivir!</p>
 <p>Seguía Sidoro, pálido de tan intensa e inefablemente impresionado:</p>
-<lg>
+<lg type="poem">
 <l> «Es una queja embustera</l>
 <l> la que me acabas de dar.</l>
 <l> ¿Ignoras que yo sé arar?</l>
@@ -591,7 +677,7 @@
 <p>«¡Bruuú!»</p>
 <p>-¿Qué?</p>
 <p>(Nada; don Pedro Luis que eructó.)</p>
-<lg>
+<lg type="poem">
 <l> «Labriego, poco paciente,</l>
 <l> si crees que sólo tu frente</l>
 <l> baña copioso sudor</l>
@@ -605,7 +691,7 @@
 </lg>
 <p>-¡Bravo!</p>
 <p>-¡Bravo! -subrayaron ahora don Pedro y don Atiliano de la Maza, limpiándose el sudor, del calor tremendo de la sala, cual si fuese el de la hoz con que segaran o el del azadón con que cavasen. Hubo un silencio de santa comunión con los labriegos, bajo aquellas invocaciones al trabajo. Sonaba una carcoma en la pata de un sillón. Sidoro prosiguió sonoramente:</p>
-<lg>
+<lg type="poem">
 <l> «¿Qué sabes tú del tributo</l>
 <l> que el mundo al trabajo rinde?</l>
 <l> ¿Qué sabes tú...»</l>

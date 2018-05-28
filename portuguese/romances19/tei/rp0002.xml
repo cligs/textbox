@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,7 +39,7 @@
                     >https://raw.githubusercontent.com/cligs/textbox/master/portuguese/romances19/tei/rp0002.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source">"Viriato. Narrativa Epo-histórica." <seg rend="italic"
+                <bibl type="digital-source">Braga, Teófilo. "Viriato. Narrativa Epo-histórica." <seg rend="italic"
                         >Luso Livros</seg>, <date when="2013">2013</date>, <ref
                         target="https://www.luso-livros.net/Livro/viriato/"
                         >https://www.luso-livros.net/Livro/viriato/</ref>. </bibl>
@@ -82,20 +83,17 @@
                 </p>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#uhk">historical</term>
-                    <term type="subgenre_hist" resp="#uhk">historical</term>
-                    <term type="subgenre_x" resp="#uhk">historical</term>
-                    <term type="genre-subtitle">Narrativa Epo-histórica</term>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Portugal</term>
-                    <term type="language">Portuguese</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Portugal</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Portuguese</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="2">historical</term>
+                    <term type="text.genre.subgenre.title">Narrativa Epo-histórica</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
                 </keywords>
             </textClass>
         </profileDesc>

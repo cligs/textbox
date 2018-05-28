@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rng" type="application/relax-ng-compact-syntax"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-	<teiHeader>
-		<fileDesc>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<titleStmt>
 				<title type="main">I Viceré</title>
 				<title type="sub">title</title>
@@ -24,7 +27,7 @@
 			</extent>
 			<publicationStmt>
 				<publisher>CLiGS</publisher>
-				<availability><ab>The files of the collection are  modifications of the corresponding text files from 'Liber
+				<availability status="free"><ab>The files of the collection are  modifications of the corresponding text files from 'Liber
                 Liber'(https://www.liberliber.it/online/), which are provided with a Creative
                 Commons BY-NC-SA 4.0 license. The collection, the added annotation and metadata are
                 published under a Creative Commons BY-NC-SA 4.0 license. </ab><licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
@@ -45,36 +48,35 @@
 				<bibl type="first-edition"><date when="1894"/></bibl>
 			</sourceDesc>
 		</fileDesc>
-		<encodingDesc><p>Headers, quotes and verse lines have been marked up. Chapter summaries following the
+        <encodingDesc xmlns:xi="http://www.w3.org/2001/XInclude"><p>Headers, quotes and verse lines have been marked up. Chapter summaries following the
                 header are marked as 'ab' with @type='abstract'.</p></encodingDesc>
-		<profileDesc>
-			
-			<textClass>
-				<keywords scheme="keywords.csv">
-					<term type="supergenre">narrative</term>
-					<term type="genre">novel</term>
-					<term type="subgenre">historical</term>
-					<term type="genre-subtitle">n.av.</term>
-					<term type="genre-label">n.av.</term>
-					<term type="narrative-perspective">heterodiegetic</term>
-					<term type="form">prose</term>
-					<term type="author-gender">male</term>
-					<term type="translation">no</term>
-					<term type="textquality">2</term>
-					
-					
-					<term type="century">800</term>
-                                           <term type="language">n.av.</term>
-				</keywords>
-			</textClass>
-		</profileDesc>
-		<revisionDesc>
+        <profileDesc>
+            
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Italy</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">it</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.subgenre.title">n.av.</term>
+                    <term type="text.subgenre">historical</term>
+                	<term type="text.narration.narrator">heterodiegetic</term>
+                    <term type="text.time.century">800</term>
+                    <term type="text.translation">no</term>
+                    <term type="text.quality">2</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc xmlns:xi="http://www.w3.org/2001/XInclude">
 			<change when="2015-11-21" who="cf">Initial TEI version.</change>
 		<change when="2017-11-27" who="kb">Encoding of the front-body-back-structure, the
                 chapter-structure, lg, quotes and some metadata.</change><change when="2017-12-02" who="kb">Added some meta-data and some minor
                 corrections.</change></revisionDesc>
-	</teiHeader>
-    <text>
+    </teiHeader>
+    <text xmlns:xi="http://www.w3.org/2001/XInclude">
     <front>
     	<div>
     		<head>I VICERÉ</head>
@@ -3317,4 +3319,5 @@
 <p>«Fisicamente, sì; il nostro sangue è impoverito; eppure ciò non impedisce a molti dei nostri di arrivare sani e vegeti all'invidiabile età di Vostra Eccellenza!... Al morale, essi sono spesso cocciuti, stravaganti, bislacchi, talvolta...» voleva aggiungere «pazzi» ma passò oltre. «Non stanno in pace tra loro, si dilaniano continuamente. Ma Vostra Eccellenza pensi al passato! Si rammenti quel Blasco Uzeda, "cognominato nella lingua siciliana Sciarra, che nel tosco idioma Rissa diremmo"; si rammenti di quell'altro Artale Uzeda, cognominato Sconza, cioè Guasta!... Io e mio padre non siamo andati d'accordo, ed egli mi diseredò; ma il Viceré Ximenes imprigionò suo figlio, lo fece condannare a morte... Vostra Eccellenza vede che sotto qualche aspetto è bene che i tempi siano mutati!... E rammenti la fellonia dei figli di Artale ; rammenti tutte le liti tra parenti, pei beni confiscati, per le doti delle femmine... Con questo, non intendo giustificare ciò che accade ora. Noi siamo troppo volubili e troppo cocciuti ad un tempo. Guardiamo la zia Chiara, prima capace di morire piuttosto che di sposare il marchese, poi un'anima in due corpi con lui, poi in guerra ad oltranza. Guardiamo la zia Lucrezia che, viceversa, fece pazzie per sposare Giulente, poi lo disprezzò come un servo, e adesso è tutta una cosa con lui, fino al punto di far la guerra a me e di spingerlo al ridicolo del fiasco elettorale! Guardiamo, in un altro senso, la stessa Teresa. Per obbedienza filiale, per farsi dar della santa, sposò chi non amava, affrettò la pazzia ed il suicidio del povero Giovannino; e adesso va ad inginocchiarsi tutti i giorni nella cappella della Beata Ximena, dove arde la lampada accesa per la salute del povero cugino! E la Beata Ximena che cosa fu se non una divina cocciuta? Io stesso, il giorno che mi proposi di mutar vita, non vissi se non per prepararmi alla nuova. Ma la storia della nostra famiglia è piena di simili conversioni repentine, di simili ostinazioni nel bene e nel male... Io farei veramente divertire Vostra Eccellenza, scrivendole tutta la cronaca contemporanea con lo stile degli antichi autori: Vostra Eccellenza riconoscerebbe subito che il suo giudizio non è esatto. No, la nostra razza non è degenerata: è sempre la stessa.»</p>
 </div></div>
 </body><back><div>
-</div></back></text></TEI>
+</div></back></text>
+</TEI>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/3db4121d3e967bbe6e47593802638ac1c3436a28/cligs-standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -48,19 +46,19 @@
         <p/>
       </abstract>
       <textClass>
-        <keywords scheme="keywords.csv">
-          <term type="supergenre">narrative</term>
-          <term type="genre">novel</term>
-          <term type="subgenre" subtype="3">fantastic</term>
-          <term type="genre-label">histoire extraordinaire</term>
-          <term type="form">prose</term>
-          <term type="narrative-perspective" cert="medium">heterodiegetic</term>
-          <term type="protagonist-gender"/>
-          <term type="setting"/>
-          <term type="author-continent">Europe</term>
-          <term type="author-country">France</term>
-          <term type="author-gender">male</term>
-          <term type="tei">11</term>
+        <keywords scheme="keywords.xml">
+          <term type="text.genre.supergenre">narrative</term>
+          <term type="text.genre">novel</term>
+          <term type="text.genre.subgenre" cligs:importance="3">fantastic</term>
+          <term type="text.genre.subtitle">histoire extraordinaire</term>
+          <term type="text.form">prose</term>
+          <term type="text.narration.narrator" cert="medium">heterodiegetic</term>
+          <term type="text.characters.protagonist.gender"/>
+          <term type="text.setting.settlement.type"/>
+          <term type="author.continent">Europe</term>
+          <term type="author.country">France</term>
+          <term type="author.gender">male</term>
+          <term type="text.tei.version">11</term>
         </keywords>
       </textClass>
     </profileDesc>
@@ -239,7 +237,7 @@
         <p>-- Comme ça, reprit Étienne, ta mère t'a touché un mot ou deux dans ses lettres de ce fameux <seg
             rend="italic">cloarec</seg>[1] Gabriel.</p>
         <p>-- Pas grand-chose. La bonne femme m'a dit qu'il y avait au presbytère d'Orlan une manière de muscadin, plus savant que les livres, qui était le neveu ou bien le filleul de douairière Le Brec, et qui devait un jour ou l'autre remplacer le vieux recteur. </p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>Étienne fronça le sourcil.</p>
         <p>-- Mauvaise race ! dit-il. Celui-là n'est pas encore prêtre, malgré son habit de séminariste. S'il le devient, ce sera le diable dans le bénitier !</p>
         <p>Le soleil descendait à l'horizon et se cachait déjà derrière la base carrée de cette tour en forme d'obélisque où, quelques années auparavant, les chouans avaient soutenu l'assaut de l'armée républicaine. Un cavalier vêtu de noir et monté sur un cheval qui semblait rendu de fatigue parut au détour de la rue. Il marcha tout droit vers le cabaret.</p>
@@ -829,7 +827,7 @@
         <p>-- C'est que les deux dogues connaissaient l'Homme noir ! conclut Vincent Féru.</p>
         <p>Le pauvre Claude embrassa un autre pichet.</p>
         <p>-- Moi, je dis, murmura-t-il entre deux rasades copieuses, que le démon est comme les deux dogues de Treguern : on l'a déchaîné. Il y a des menaces de mort autour de nous, et vous verrez que plus d'un banc sera vide à la grand-messe de demain dimanche...</p>
-        <milestone type="line"/>
+        <milestone unit="section" type="line"/>
         <p>La veillée était finie depuis longtemps et l'horloge, dont les rouages grondaient dans son armoire de chêne sculpté, avait sonné la demie de onze heures. On entendait encore le vent siffler dans les arbres du pâtis et pleurer par les fentes des fenêtres, mais la pluie faisait trêve. Les amis et voisins avaient profité de l'éclaircie pour regagner leurs demeures. Pelo le vannier, Mathelin, Vincent Féru et les autres étaient partis avec le père Michelan, qui n'avait pas manqué de leur dire en route : « Ce n'est pas des temps pareils qui feront grainer le blé noir ! »</p>
         <p>À l'intérieur de la ferme, les valets et les servantes s'étaient juchés dans leurs nids respectifs. On avait donné au pauvre Claude une bonne place sur la paille de l'étable. Personne n'avait trop songé au soldat sommeillant sur son escabelle, les pieds dans les cendres éteintes ; l'hospitalité bretonne est ainsi, elle ne refuse point, mais elle offre peu ; l'hôte a juste ce qu'il demande. Si vous vous endormez au coin du feu dans une ferme morbihannaise, vous ne serez éveillé que par le bruit du travail matinier.</p>
         <p>Ce qu'on veut, on le réclame : telle est la règle.</p>
@@ -972,7 +970,7 @@
         <p>Étienne voyait les larmes couler entre les doigts de Geneviève !</p>
         <p>Filhol la prit dans ses bras en répétant avec une exaltation délirante :</p>
         <p>-- Tu seras heureuse ! tu seras heureuse !</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>-- Dieu nous voit ! balbutia la jeune femme.</p>
         <p>-- Et notre petit Tanneguy, qui vient de naître dans la misère, poursuivit Filhol, a maintenant la richesse qu'il faut pour porter le nom de Treguern !</p>
         <p>Étienne se disait en pressant à deux mains ses tempes brûlantes : « Je rêve ou je suis fou ! » Il vit Filhol s'élancer de nouveau vers le monceau d'or et l'entasser à pleines poignées dans la valise que l'Anglais avait laissée sur le plancher. Filhol chargea la valise sur ses épaules et s'enfuit en disant :</p>
@@ -1475,7 +1473,7 @@
         <p>-- À la Muette ! au galop ! dit-elle à son cocher.</p>
         <p>Les deux chevaux noirs, touchés par le fouet, bondirent ; la poussière soulevée dessina un long nuage au travers du rond-point, et les badauds durent chercher quelque autre chose à voir, car l'équipage de la comtesse Torquati n'était déjà plus qu'un point confus dans la perspective de l'allée.</p>
         <p>On sait que le caprice de la mode parisienne n'adopte jamais qu'un tout petit coin à la fois dans les lieux qui sont dévolus au plaisir. Le bois de Boulogne est grand ; la mode y trace ses limites, selon les temps. En 1820, l'allée de Longchamp bornait l'empire de la mode. Personne ne s'égarait au sud-ouest du bois, parce que tout le monde savait bien que là on pouvait se promener à l'aise. La Muette allait avoir son règne, mais pour le moment elle était aussi loin de Bagatelle que Pézenas ou Quimper-Corentin.</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>Si la fantaisie de la belle comtesse Torquati était de s'égarer vers ces latitudes biscornues, la foule ne pouvait point la suivre dans cette voie. Au bout de dix minutes, la calèche glissait sur le sable d'une allée déserte : sans quitter le bois de Boulogne, la comtesse était à vingt lieues de Paris. Elle vit à travers le feuillage léger des acacias ces opulents panaches de fleurs qui tombaient sur les fossés de la Muette. Une jeune fille vêtue en amazone et que nous n'eussions point eu de peine à reconnaître traversa au galop la pelouse en agitant le mouchoir qu'elle tenait à la main. Elle entra dans le massif situé à gauche de l'enclos de la Muette. La comtesse Torquati ordonna d'arrêter et mit pied à terre.</p>
         <p>Le chasseur demanda s'il devait suivre madame la comtesse. Il lui fut répondu que non. Madame la comtesse se dirigea vers les fossés, dont elle admira un instant la crête fleurie, puis elle suivit la pelouse à pas lents et entra dans le massif où avait disparu la jeune fille. L'instant d'après, nous les eussions retrouvées toutes les deux, la comtesse et la jeune fille, sur l'herbe verte, au pied d'un grand arbre. La comtesse était assise : la jeune fille s'agenouillait devant elle et livrait sa tête souriante à ses baisers. La comtesse disait d'une voix que l'émotion faisait trembler :</p>
         <p>-- Olympe ! Olympe ! que je t'aime et que les heures me semblaient lentes durant ton absence !</p>
@@ -1504,7 +1502,7 @@
         <p>-- Oui... puis ils sont allés en Allemagne, du côté de Cologne.</p>
         <p>-- Et qu'as-tu fait durant tout ce temps où je ne t'ai point vue ?</p>
         <p>-- J'ai obéi aux trois hommes. Le jour de mon arrivée à Redon je trouvai, comme on me l'avait annoncé, le commandeur Malo qui m'attendait sur la Grand-Lande. Il me conduisit chez une vieille femme appelée Marion Lécuyer. Quand il lui dit mon nom, elle me baisa les deux mains en pleurant, mais son intelligence, usée par la souffrance, trahit son bon vouloir, et je ne pus rien tirer d'elle, sinon qu'elle avait eu en sa vie ce grand honneur d'être la marraine d'un Treguern. Pendant que je lui parlais, le commandeur me dit à l'oreille : « Hâte-toi, car tu ne la verras qu'une fois ; le voile est là ! »</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>-- Le voile ! répéta la comtesse frémissante ; et la vieille femme mourut, n'est-ce pas ?</p>
         <p>-- Elle mourut avant la fin de la nuit.</p>
         <p>La comtesse passa le revers de sa main sur son front.</p>
@@ -1513,7 +1511,7 @@
         <p>La comtesse la regarda, étonnée.</p>
         <p>-- Je croyais ne t'avoir jamais parlé de cela ! dit-elle.</p>
         <p>-- Il se nomme Étienne, continua Olympe, qui semblait suivre la pente de sa rêverie, il fut accusé du meurtre commis au Trou-de-la-Dette dans la nuit du 15 août 1800. Je le cherche ; s'il n'a pas rendu son âme à Dieu, je le retrouverai, j'en réponds.</p>
-        <milestone type="space"/>
+        <milestone unit="section" type="space"/>
         <p>-- Mais il était innocent ! s'écria la comtesse, qui se méprit sur le sens de ces paroles.</p>
         <p>-- N'était-il qu'innocent ? prononça tout bas la jeune fille ; les grandes races doivent être reconnaissantes. Je pense que vous vous souvenez tous de ce que cet Étienne a fait pour Treguern ?</p>
         <p>La comtesse garda un instant le silence, puis elle répondit, en baissant les yeux :</p>

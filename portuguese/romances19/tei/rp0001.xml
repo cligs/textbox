@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="../keywords/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,13 +18,13 @@
                 </author>
                 <principal xml:id="uhk">Ulrike Henny-Krahmer</principal>
             </titleStmt>
-			<extent>
-				<measure unit="lines">2282</measure>
-				<measure unit="divs">16</measure>
-				<measure unit="words">24383</measure>
-				<measure unit="chars">144192</measure>
-				<measure unit="size_kb">203</measure>
-			</extent>
+            <extent>
+                <measure unit="lines">2282</measure>
+                <measure unit="divs">16</measure>
+                <measure unit="words">24383</measure>
+                <measure unit="chars">144192</measure>
+                <measure unit="size_kb">203</measure>
+            </extent>
             <publicationStmt>
                 <publisher>
                     <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
@@ -38,14 +39,14 @@
                     >https://raw.githubusercontent.com/cligs/textbox/master/portuguese/romances19/tei/rp0001.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl type="digital-source"> "O Christão novo. Romance Histórico do Século XVI."
-                        <seg rend="italic">The Project Gutenberg</seg>, <date when="2009-06-30">June
-                        30, 2009</date>, EBook <idno>29275</idno>, <ref
+                <bibl type="digital-source">Macedo, Diogo de. "O Christão novo. Romance Histórico do
+                    Século XVI." <seg rend="italic">The Project Gutenberg</seg>, <date
+                        when="2009-06-30">June 30, 2009</date>, EBook <idno>29275</idno>, <ref
                         target="http://www.gutenberg.org/ebooks/29275"
                         >http://www.gutenberg.org/ebooks/29275</ref>. </bibl>
-                <bibl type="print-source">
-                    <seg rend="italic">O Christão novo. Romance Histórico do Século XVI.</seg>
-                    Porto: Imprensa Portuguesa, <date when="1876">1876</date>. </bibl>
+                <bibl type="print-source"> Macedo, Diogo de. <seg rend="italic">O Christão novo.
+                        Romance Histórico do Século XVI.</seg> Porto: Imprensa Portuguesa, <date
+                        when="1876">1876</date>. </bibl>
                 <bibl type="edition-first">
                     <date when="1876">1876</date>
                 </bibl>
@@ -59,20 +60,17 @@
                 <p/>
             </abstract>
             <textClass>
-                <keywords scheme="keywords.csv">
-                    <term type="supergenre">narrative</term>
-                    <term type="genre">novel</term>
-                    <term type="subgenre" resp="#uhk">historical</term>
-                    <term type="subgenre_hist" resp="#uhk">historical</term>
-                    <term type="subgenre_x" resp="#uhk">historical</term>
-                    <term type="genre-subtitle">Romance Histórico</term>
-                    <term type="genre-label"/>
-                    <term type="narrative-perspective">heterodiegetic</term>
-                    <term type="form">prose</term>
-                    <term type="author-gender">male</term>
-                    <term type="author-continent">Europe</term>
-                    <term type="author-country">Portugal</term>
-                    <term type="language">Portuguese</term>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent">Europe</term>
+                    <term type="author.country">Portugal</term>
+                    <term type="author.gender">male</term>
+                    <term type="text.language">Portuguese</term>
+                    <term type="text.form">prose</term>
+                    <term type="text.genre.supergenre">narrative</term>
+                    <term type="text.genre">novel</term>
+                    <term type="text.genre.subgenre" resp="#uhk" cligs:importance="2">historical</term>
+                    <term type="text.genre.subgenre.title">Romance Histórico</term>
+                    <term type="text.narration.narrator">heterodiegetic</term>
                 </keywords>
             </textClass>
         </profileDesc>
