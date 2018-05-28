@@ -12,6 +12,11 @@ The collection contains a selection of fantastic and other novellas from 1830 - 
 |total         |         4 (80.675) |         4 (78.010) |          4 (58.554) |          4 (79.103) |          4 (57.947) |          4 (96.384) |         4 (46.892) |        28 (497.565) |
 
 
+The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+
+The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
+
 ### Formats 
 
 * tei: Encoded following the _Guidelines_ of the Text Encoding Initiative and valid against the CLiGS schema (File names: identifier.xml)

@@ -5,6 +5,10 @@ This corpus contains  20 texts (810 916 tokens) from 8 Spanish authors (Bazan, B
 
 See the "metadata.csv" file for information of the publication.
 
+The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+
+The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
 ## Formats
 
 * tei: following the Text Encoding Initiative and valid against the CLiGS schema (File name: id.xml)
@@ -12,6 +16,7 @@ See the "metadata.csv" file for information of the publication.
 * txt\_author-title: simple plain text of the body (File name: Author_Title-id.txt)
 * annotated: TEI files further annotated with FreeLing and WordNet (keeping teiHeader and the chapter structure of the TEI)
 * pdf: Reading versions generated from the tei files
+
 
 ## Copyright and Citation
 

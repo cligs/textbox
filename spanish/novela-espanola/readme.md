@@ -6,6 +6,10 @@ This corpus contains  39 texts from 13 Spanish authors (2 521 066  tokens). It i
 
 See the "metadata.csv" file for information of the publication as well as literary information about the novels like place and period of setting, information about the protagonist, narrator, etcetera.
 
+The TEI schema for the basic and the linguistically annotated TEI files corresponds to the general CLiGS schema which is available in the CLiGS [reference repository](https://github.com/cligs/reference).
+
+The metadata keywords used in the text classification section of the TEI header are controlled by an external TEI keywords file and a schematron file which are stored in the [keywords](keywords) folder.
+
 ## Formats
 
 * txt\_id: simple plain text of the body (File name: id.txt)
