@@ -3,7 +3,7 @@ The CLiGS textbox
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.597430.svg)](https://doi.org/10.5281/zenodo.597430)
 
-This repository contains several text collections made available by the CLiGS junior research group (see http://cligs.hypotheses.org). As of November 2017, these are: 
+This repository contains several text collections made available by the CLiGS junior research group (see http://cligs.hypotheses.org). As of May 2018, these are: 
 
 * [_Collection of 19th Century Spanish-American Novels (1880-1916)_](spanish/novela-hispanoamericana), edited by Ulrike Henny-Krahmer: 24 novels
 * [_Corpus of Spanish Novels from 1880-1940_](spanish/novela-espanola), edited by José Calvo Tello: 39 novels
